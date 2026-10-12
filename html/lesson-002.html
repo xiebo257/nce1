@@ -40,7 +40,7 @@
         <form
           id="lesson-form"
           autocomplete="off"
-          data-answer-note="The lesson picture prompts have been described in text; their keys are suggested questions. Written exercise keys reproduce the printed sentences. Workbook and grammar keys follow the source answer pages."
+          data-answer-note="The lesson pictures are cropped from the original page and accompanied by text descriptions; their keys are suggested questions. Written exercise keys reproduce the printed sentences. Workbook and grammar keys follow the source answer pages."
         >
           <section
             id="lesson"
@@ -58,11 +58,12 @@
               <span class="small-label">Listen and answer the questions</span>
               <p lang="zh-CN">听录音并回答问题。</p>
               <p>
-                The ten picture prompts are described below. Practise “Is this
-                your …?” with each object.
+                The ten picture prompts are shown below with text descriptions.
+                Practise “Is this your …?” with each object.
               </p>
               <p lang="zh-CN">
-                以下用文字描述原图中的十件物品，请用“Is this your …?”练习提问。
+                以下图片及文字展示原图中的十件物品，请用“Is this your
+                …?”练习提问。
               </p>
             </div>
             <article class="exercise">
@@ -70,179 +71,298 @@
                 <h3>Picture prompts → questions</h3>
                 <p lang="zh-CN">根据图中的物品练习提问。</p>
                 <p class="instruction">
-                  Write a question for each object. These text cues describe the
-                  original pictures; the keys are suggested questions.
+                  Write a question for each picture. Use “Is this your …?”.
                 </p>
               </header>
-              <div class="question">
-                <label for="lesson-picture-1"
-                  ><span class="question-number">01</span
-                  ><span>Picture 1: pen / 钢笔</span></label
-                ><textarea
-                  id="lesson-picture-1"
-                  name="lesson-picture-1"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="1"
-                  data-prompt="Picture 1: pen / 钢笔"
-                  data-key="Is this your pen? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-01-pen.jpg"
+                    alt="A man holds up a pen to another man."
+                    width="850"
+                    height="444"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 01</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-1"
+                    ><span class="question-number">01</span
+                    ><span>Picture 1: pen / 钢笔</span></label
+                  ><textarea
+                    id="lesson-picture-1"
+                    name="lesson-picture-1"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="1"
+                    data-prompt="Picture 1: pen / 钢笔"
+                    data-key="Is this your pen? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-2"
-                  ><span class="question-number">02</span
-                  ><span>Picture 2: pencil / 铅笔</span></label
-                ><textarea
-                  id="lesson-picture-2"
-                  name="lesson-picture-2"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="2"
-                  data-prompt="Picture 2: pencil / 铅笔"
-                  data-key="Is this your pencil? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-02-pencil.jpg"
+                    alt="A boy holds up a pencil beside a girl."
+                    width="845"
+                    height="458"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 02</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-2"
+                    ><span class="question-number">02</span
+                    ><span>Picture 2: pencil / 铅笔</span></label
+                  ><textarea
+                    id="lesson-picture-2"
+                    name="lesson-picture-2"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="2"
+                    data-prompt="Picture 2: pencil / 铅笔"
+                    data-key="Is this your pencil? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-3"
-                  ><span class="question-number">03</span
-                  ><span>Picture 3: book / 书</span></label
-                ><textarea
-                  id="lesson-picture-3"
-                  name="lesson-picture-3"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="3"
-                  data-prompt="Picture 3: book / 书"
-                  data-key="Is this your book? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-03-book.jpg"
+                    alt="A girl holds up a book beside a boy."
+                    width="850"
+                    height="429"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 03</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-3"
+                    ><span class="question-number">03</span
+                    ><span>Picture 3: book / 书</span></label
+                  ><textarea
+                    id="lesson-picture-3"
+                    name="lesson-picture-3"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="3"
+                    data-prompt="Picture 3: book / 书"
+                    data-key="Is this your book? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-4"
-                  ><span class="question-number">04</span
-                  ><span>Picture 4: watch / 手表</span></label
-                ><textarea
-                  id="lesson-picture-4"
-                  name="lesson-picture-4"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="4"
-                  data-prompt="Picture 4: watch / 手表"
-                  data-key="Is this your watch? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-04-watch.jpg"
+                    alt="A woman holds up a watch to a man."
+                    width="850"
+                    height="434"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 04</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-4"
+                    ><span class="question-number">04</span
+                    ><span>Picture 4: watch / 手表</span></label
+                  ><textarea
+                    id="lesson-picture-4"
+                    name="lesson-picture-4"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="4"
+                    data-prompt="Picture 4: watch / 手表"
+                    data-key="Is this your watch? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-5"
-                  ><span class="question-number">05</span
-                  ><span>Picture 5: coat / 上衣，外衣</span></label
-                ><textarea
-                  id="lesson-picture-5"
-                  name="lesson-picture-5"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="5"
-                  data-prompt="Picture 5: coat / 上衣，外衣"
-                  data-key="Is this your coat? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-05-coat.jpg"
+                    alt="A man holds up a coat to another man."
+                    width="850"
+                    height="417"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 05</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-5"
+                    ><span class="question-number">05</span
+                    ><span>Picture 5: coat / 上衣，外衣</span></label
+                  ><textarea
+                    id="lesson-picture-5"
+                    name="lesson-picture-5"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="5"
+                    data-prompt="Picture 5: coat / 上衣，外衣"
+                    data-key="Is this your coat? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-6"
-                  ><span class="question-number">06</span
-                  ><span>Picture 6: dress / 连衣裙</span></label
-                ><textarea
-                  id="lesson-picture-6"
-                  name="lesson-picture-6"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="6"
-                  data-prompt="Picture 6: dress / 连衣裙"
-                  data-key="Is this your dress? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-06-dress.jpg"
+                    alt="A woman holds up a dress to another woman."
+                    width="850"
+                    height="464"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 06</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-6"
+                    ><span class="question-number">06</span
+                    ><span>Picture 6: dress / 连衣裙</span></label
+                  ><textarea
+                    id="lesson-picture-6"
+                    name="lesson-picture-6"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="6"
+                    data-prompt="Picture 6: dress / 连衣裙"
+                    data-key="Is this your dress? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-7"
-                  ><span class="question-number">07</span
-                  ><span>Picture 7: skirt / 裙子</span></label
-                ><textarea
-                  id="lesson-picture-7"
-                  name="lesson-picture-7"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="7"
-                  data-prompt="Picture 7: skirt / 裙子"
-                  data-key="Is this your skirt? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-07-skirt.jpg"
+                    alt="A woman points to a skirt she is holding."
+                    width="850"
+                    height="420"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 07</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-7"
+                    ><span class="question-number">07</span
+                    ><span>Picture 7: skirt / 裙子</span></label
+                  ><textarea
+                    id="lesson-picture-7"
+                    name="lesson-picture-7"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="7"
+                    data-prompt="Picture 7: skirt / 裙子"
+                    data-key="Is this your skirt? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-8"
-                  ><span class="question-number">08</span
-                  ><span>Picture 8: shirt / 衬衣</span></label
-                ><textarea
-                  id="lesson-picture-8"
-                  name="lesson-picture-8"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="8"
-                  data-prompt="Picture 8: shirt / 衬衣"
-                  data-key="Is this your shirt? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-08-shirt.jpg"
+                    alt="A boy points to a shirt he is holding."
+                    width="850"
+                    height="468"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 08</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-8"
+                    ><span class="question-number">08</span
+                    ><span>Picture 8: shirt / 衬衣</span></label
+                  ><textarea
+                    id="lesson-picture-8"
+                    name="lesson-picture-8"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="8"
+                    data-prompt="Picture 8: shirt / 衬衣"
+                    data-key="Is this your shirt? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-9"
-                  ><span class="question-number">09</span
-                  ><span>Picture 9: car / 小汽车</span></label
-                ><textarea
-                  id="lesson-picture-9"
-                  name="lesson-picture-9"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="9"
-                  data-prompt="Picture 9: car / 小汽车"
-                  data-key="Is this your car? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-09-car.jpg"
+                    alt="Two men stand beside a car."
+                    width="850"
+                    height="422"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 09</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-9"
+                    ><span class="question-number">09</span
+                    ><span>Picture 9: car / 小汽车</span></label
+                  ><textarea
+                    id="lesson-picture-9"
+                    name="lesson-picture-9"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="9"
+                    data-prompt="Picture 9: car / 小汽车"
+                    data-key="Is this your car? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
-              <div class="question">
-                <label for="lesson-picture-10"
-                  ><span class="question-number">10</span
-                  ><span>Picture 10: house / 房子</span></label
-                ><textarea
-                  id="lesson-picture-10"
-                  name="lesson-picture-10"
-                  data-answer
-                  data-group="Lesson · Picture prompts"
-                  data-number="10"
-                  data-prompt="Picture 10: house / 房子"
-                  data-key="Is this your house? (Suggested question / 参考问句)"
-                  rows="3"
-                  spellcheck="false"
-                  placeholder="Write your answer…"
-                ></textarea>
+              <div class="illustrated-question">
+                <figure class="question-illustration">
+                  <img
+                    src="assets/lesson-002/picture-10-house.jpg"
+                    alt="Two people stand in front of a house."
+                    width="850"
+                    height="499"
+                    loading="lazy"
+                  />
+                  <figcaption>Picture 10</figcaption>
+                </figure>
+                <div class="question">
+                  <label for="lesson-picture-10"
+                    ><span class="question-number">10</span
+                    ><span>Picture 10: house / 房子</span></label
+                  ><textarea
+                    id="lesson-picture-10"
+                    name="lesson-picture-10"
+                    data-answer
+                    data-group="Lesson · Picture prompts"
+                    data-number="10"
+                    data-prompt="Picture 10: house / 房子"
+                    data-key="Is this your house? (Suggested question / 参考问句)"
+                    rows="3"
+                    spellcheck="false"
+                    placeholder="Write your answer…"
+                  ></textarea>
+                </div>
               </div>
             </article>
             <article class="vocabulary-block">
