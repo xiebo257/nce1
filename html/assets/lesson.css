@@ -1332,3 +1332,26 @@ body {
     break-inside: avoid;
   }
 }
+
+.dialogue-scene .dialogue {
+  padding-top: 0;
+  min-width: 0;
+}
+.dialogue-scene .dialogue li {
+  padding: 12px 0;
+  gap: 12px;
+}
+.dialogue-scene .dialogue li:last-child {
+  border-bottom: 0;
+}
+
+/* Keep long model answers and typed sentences visible as text size increases. */
+.question textarea {
+  field-sizing: content;
+  min-height: 3lh;
+}
+
+.dialogue .line-number {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
