@@ -408,7 +408,8 @@ h3 {
 .question-grid .question {
   border-bottom: 1px solid #cbd2d9;
 }
-.example input[readonly] {
+.example input[readonly],
+.example textarea[readonly] {
   background: var(--soft-green);
   border-color: #595959;
   color: var(--green);
@@ -639,7 +640,8 @@ progress::-moz-progress-bar {
 .page-step.next {
   align-items: flex-end;
 }
-.page-step button {
+.page-step button,
+.page-step a {
   background: transparent;
   color: var(--green);
   padding: 6px 0;
@@ -966,7 +968,8 @@ dialog textarea {
   .submit-action button > span {
     margin-left: 13px;
   }
-  .page-step button {
+  .page-step button,
+  .page-step a {
     font-size: 1.125rem;
   }
   .page-step small {
@@ -1054,7 +1057,8 @@ dialog textarea {
 .word-bank {
   border: 1px solid var(--line);
 }
-.example input[readonly] {
+.example input[readonly],
+.example textarea[readonly] {
   border-style: dashed;
 }
 .source-links a {
@@ -1072,7 +1076,8 @@ dialog textarea {
 .hero-description span {
   font-size: 1.375rem;
 }
-.page-step button {
+.page-step button,
+.page-step a {
   font-size: 1.375rem;
 }
 .page-step small,
@@ -1216,12 +1221,14 @@ body {
     font-size: 1.125rem;
     min-height: 52px;
   }
-  .page-step button {
+  .page-step button,
+  .page-step a {
     display: flex;
     flex-wrap: wrap;
     gap: 2px;
   }
-  .next button {
+  .next button,
+  .next a {
     justify-content: flex-end;
   }
   .submit-action button {
@@ -1270,6 +1277,15 @@ body {
   min-width: 0;
 }
 .page-step button,
+.page-step a,
 .submit-action button {
   max-width: 100%;
+}
+
+.page-step a {
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  min-height: 52px;
 }
