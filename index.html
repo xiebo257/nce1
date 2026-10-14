@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#003b70" />
+    <meta
+      name="description"
+      content="New Concept English Book 1 — index of all lessons with links to each illustrated study page."
+    />
+    <title>New Concept English · Book 01 | 新概念英语</title>
+    <link rel="stylesheet" href="html/assets/lesson.css" />
+    <style>
+      /* Index-only layout, layered on top of the shared lesson.css design tokens. */
+      .index-hero {
+        padding: 61px 0 0;
+      }
+      .index-hero .eyebrow {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .index-hero .eyebrow span {
+        width: 7px;
+        height: 7px;
+        background: var(--accent);
+        border-radius: 50%;
+      }
+      .index-hero h1 {
+        font: normal clamp(44px, 5.5vw, 68px) / 1.13 var(--serif);
+        letter-spacing: -3px;
+        margin: 14px 0 1px;
+      }
+      .index-hero h1 > span {
+        color: var(--accent);
+      }
+      .index-hero .hero-translation {
+        font: 1.5rem var(--serif);
+        letter-spacing: 6px;
+        color: var(--muted);
+      }
+      .index-hero .hero-description {
+        margin: 24px 0 27px;
+        color: var(--muted);
+        font-size: 1.375rem;
+        line-height: 1.9;
+      }
+      .index-meta {
+        display: flex;
+        gap: 25px;
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        padding: 15px 0;
+        font-size: 1.125rem;
+        letter-spacing: 1.4px;
+        color: var(--muted);
+      }
+      .index-main {
+        padding-top: 48px;
+      }
+      .lesson-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 0;
+      }
+      .lesson-card {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-decoration: none;
+        color: inherit;
+        padding: 22px 24px;
+        border-bottom: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+        transition: background 0.15s;
+        position: relative;
+        min-height: 120px;
+      }
+      .lesson-card:hover {
+        background: #f4f7fb;
+      }
+      .lesson-card:focus-visible {
+        outline: 3px solid #005fcc;
+        outline-offset: -3px;
+      }
+      .lesson-card .card-number {
+        font: italic 1.125rem var(--serif);
+        color: var(--accent);
+        letter-spacing: 1px;
+      }
+      .lesson-card .card-title {
+        font: normal 1.3125rem / 1.4 var(--serif);
+        color: var(--ink);
+      }
+      .lesson-card .card-translation {
+        font-size: 1.125rem;
+        color: var(--muted);
+        margin-top: auto;
+      }
+      .lesson-card .card-arrow {
+        position: absolute;
+        right: 18px;
+        bottom: 18px;
+        font-size: 1.125rem;
+        color: var(--accent);
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .lesson-card:hover .card-arrow {
+        opacity: 1;
+      }
+      /* The rail on the index lists every lesson as a quick-jump link. */
+      .navigation-rail nav.index-nav > a {
+        flex-direction: row;
+        gap: 12px;
+      }
+      .navigation-rail nav.index-nav > a > div {
+        min-width: 0;
+      }
+      .navigation-rail nav.index-nav > a small {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      @media (max-width: 580px) {
+        .index-hero {
+          padding-top: 37px;
+        }
+        .index-hero h1 {
+          font-size: 3.5625rem;
+          letter-spacing: -2px;
+        }
+        .index-main {
+          padding-top: 35px;
+        }
+        .lesson-grid {
+          grid-template-columns: 1fr;
+        }
+        .lesson-card {
+          border-right: 0;
+          min-height: 84px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#lessons">Skip to lessons</a>
+    <header class="site-header">
+      <a class="brand" href="#top"
+        ><span class="brand-mark">N</span
+        ><span>NEW CONCEPT <strong>ENGLISH</strong></span></a
+      ><span class="book-label">BOOK 01 <span>/</span> 新概念英语</span>
+    </header>
+
+    <div class="page-layout" id="top">
+      <main id="main-content">
+        <header class="index-hero">
+          <p class="eyebrow"><span></span> BOOK ONE · COURSE INDEX</p>
+          <h1>New Concept English<span> · Book 01</span></h1>
+          <p class="hero-translation" lang="zh-CN">新概念英语 · 第一册</p>
+          <p class="hero-description">
+            A complete beginner's course in spoken and written English.<br />
+            <span lang="zh-CN">第一册：英语初阶，共 26 课。</span>
+          </p>
+          <p class="index-meta">
+            <span>26 LESSONS</span>
+            <span>BEGINNER · A1</span>
+            <span>UPDATED 2026</span>
+          </p>
+        </header>
+
+        <section class="index-main" id="lessons">
+          <div class="lesson-grid">
+            <a class="lesson-card" href="html/lesson-001.html">
+              <span class="card-number">Lesson 001</span>
+              <span class="card-title">Excuse me!</span>
+              <span class="card-translation" lang="zh-CN">对不起！</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-002.html">
+              <span class="card-number">Lesson 002</span>
+              <span class="card-title">Is this your …?</span>
+              <span class="card-translation" lang="zh-CN"
+                >这是你的……吗？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-003.html">
+              <span class="card-number">Lesson 003</span>
+              <span class="card-title">Sorry, sir.</span>
+              <span class="card-translation" lang="zh-CN">对不起，先生。</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-004.html">
+              <span class="card-number">Lesson 004</span>
+              <span class="card-title">Is this your …?</span>
+              <span class="card-translation" lang="zh-CN"
+                >这是你的……吗？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-005.html">
+              <span class="card-number">Lesson 005</span>
+              <span class="card-title">Nice to meet you.</span>
+              <span class="card-translation" lang="zh-CN">很高兴见到你。</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-006.html">
+              <span class="card-number">Lesson 006</span>
+              <span class="card-title">What make is it?</span>
+              <span class="card-translation" lang="zh-CN"
+                >它是什么牌子的？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-007.html">
+              <span class="card-number">Lesson 007</span>
+              <span class="card-title">Are you a teacher?</span>
+              <span class="card-translation" lang="zh-CN">你是教师吗？</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-008.html">
+              <span class="card-number">Lesson 008</span>
+              <span class="card-title">What's your job?</span>
+              <span class="card-translation" lang="zh-CN"
+                >你是做什么工作的？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-009.html">
+              <span class="card-number">Lesson 009</span>
+              <span class="card-title">How are you today?</span>
+              <span class="card-translation" lang="zh-CN">你今天好吗？</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-010.html">
+              <span class="card-number">Lesson 010</span>
+              <span class="card-title">Look at …</span>
+              <span class="card-translation" lang="zh-CN">看……</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-011.html">
+              <span class="card-number">Lesson 011</span>
+              <span class="card-title">Is this your shirt?</span>
+              <span class="card-translation" lang="zh-CN"
+                >这是你的衬衫吗？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-012.html">
+              <span class="card-number">Lesson 012</span>
+              <span class="card-title">Whose is this …?</span>
+              <span class="card-translation" lang="zh-CN">这……是谁的？</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-013.html">
+              <span class="card-number">Lesson 013</span>
+              <span class="card-title">A new dress</span>
+              <span class="card-translation" lang="zh-CN">一件新连衣裙</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-014.html">
+              <span class="card-number">Lesson 014</span>
+              <span class="card-title">What colour's your …?</span>
+              <span class="card-translation" lang="zh-CN"
+                >你的……是什么颜色的？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-015.html">
+              <span class="card-number">Lesson 015</span>
+              <span class="card-title">Your passports, please.</span>
+              <span class="card-translation" lang="zh-CN"
+                >请出示你们的护照。</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-016.html">
+              <span class="card-number">Lesson 016</span>
+              <span class="card-title">Are you …?</span>
+              <span class="card-translation" lang="zh-CN">你们是……吗？</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-017.html">
+              <span class="card-number">Lesson 017</span>
+              <span class="card-title">How do you do?</span>
+              <span class="card-translation" lang="zh-CN">你好！</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-018.html">
+              <span class="card-number">Lesson 018</span>
+              <span class="card-title">What are their jobs?</span>
+              <span class="card-translation" lang="zh-CN"
+                >他们是做什么工作的？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-019.html">
+              <span class="card-number">Lesson 019</span>
+              <span class="card-title">Tired and thirsty</span>
+              <span class="card-translation" lang="zh-CN">又累又渴</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-020.html">
+              <span class="card-number">Lesson 020</span>
+              <span class="card-title">Look at them!</span>
+              <span class="card-translation" lang="zh-CN"
+                >看看他们／它们！</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-021.html">
+              <span class="card-number">Lesson 021</span>
+              <span class="card-title">Which book?</span>
+              <span class="card-translation" lang="zh-CN">哪一本书？</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-022.html">
+              <span class="card-number">Lesson 022</span>
+              <span class="card-title"
+                >Give me/him/her/us/them a … Which one?</span
+              >
+              <span class="card-translation" lang="zh-CN"
+                >给我／他／她／我们／他们一……。哪一……？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-023.html">
+              <span class="card-number">Lesson 023</span>
+              <span class="card-title">Which glasses?</span>
+              <span class="card-translation" lang="zh-CN">哪几只杯子？</span>
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-024.html">
+              <span class="card-number">Lesson 024</span>
+              <span class="card-title"
+                >Give me/him/her/us/them some … Which ones?</span
+              >
+              <span class="card-translation" lang="zh-CN"
+                >给我／他／她／我们／他们一些……。哪些？</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-025.html">
+              <span class="card-number">Lesson 025</span>
+              <span class="card-title">Mrs. Smith's kitchen</span>
+              <span class="card-translation" lang="zh-CN"
+                >史密斯太太的厨房</span
+              >
+              <span class="card-arrow">→</span>
+            </a>
+            <a class="lesson-card" href="html/lesson-026.html">
+              <span class="card-number">Lesson 026</span>
+              <span class="card-title">Where is it?</span>
+              <span class="card-translation" lang="zh-CN">它在哪里？</span>
+              <span class="card-arrow">→</span>
+            </a>
+          </div>
+
+          <p class="end-note">
+            Begin with Lesson 001 — Excuse me!
+            <span lang="zh-CN">从第一课开始 · 对不起！</span>
+          </p>
+        </section>
+      </main>
+
+      <aside class="navigation-rail">
+        <details id="lesson-menu" open>
+          <summary>All lessons <span aria-hidden="true">☰</span></summary>
+          <nav class="index-nav" aria-label="All lessons">
+            <a href="html/lesson-001.html"
+              ><span>01</span>
+              <div>
+                Excuse me!
+                <small lang="zh-CN">对不起！</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-002.html"
+              ><span>02</span>
+              <div>
+                Is this your …?
+                <small lang="zh-CN">这是你的……吗？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-003.html"
+              ><span>03</span>
+              <div>
+                Sorry, sir.
+                <small lang="zh-CN">对不起，先生。</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-004.html"
+              ><span>04</span>
+              <div>
+                Is this your …?
+                <small lang="zh-CN">这是你的……吗？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-005.html"
+              ><span>05</span>
+              <div>
+                Nice to meet you.
+                <small lang="zh-CN">很高兴见到你。</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-006.html"
+              ><span>06</span>
+              <div>
+                What make is it?
+                <small lang="zh-CN">它是什么牌子的？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-007.html"
+              ><span>07</span>
+              <div>
+                Are you a teacher?
+                <small lang="zh-CN">你是教师吗？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-008.html"
+              ><span>08</span>
+              <div>
+                What's your job?
+                <small lang="zh-CN">你是做什么工作的？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-009.html"
+              ><span>09</span>
+              <div>
+                How are you today?
+                <small lang="zh-CN">你今天好吗？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-010.html"
+              ><span>10</span>
+              <div>
+                Look at …
+                <small lang="zh-CN">看……</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-011.html"
+              ><span>11</span>
+              <div>
+                Is this your shirt?
+                <small lang="zh-CN">这是你的衬衫吗？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-012.html"
+              ><span>12</span>
+              <div>
+                Whose is this …?
+                <small lang="zh-CN">这……是谁的？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-013.html"
+              ><span>13</span>
+              <div>
+                A new dress
+                <small lang="zh-CN">一件新连衣裙</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-014.html"
+              ><span>14</span>
+              <div>
+                What colour's your …?
+                <small lang="zh-CN">你的……是什么颜色的？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-015.html"
+              ><span>15</span>
+              <div>
+                Your passports, please.
+                <small lang="zh-CN">请出示你们的护照。</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-016.html"
+              ><span>16</span>
+              <div>
+                Are you …?
+                <small lang="zh-CN">你们是……吗？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-017.html"
+              ><span>17</span>
+              <div>
+                How do you do?
+                <small lang="zh-CN">你好！</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-018.html"
+              ><span>18</span>
+              <div>
+                What are their jobs?
+                <small lang="zh-CN">他们是做什么工作的？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-019.html"
+              ><span>19</span>
+              <div>
+                Tired and thirsty
+                <small lang="zh-CN">又累又渴</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-020.html"
+              ><span>20</span>
+              <div>
+                Look at them!
+                <small lang="zh-CN">看看他们／它们！</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-021.html"
+              ><span>21</span>
+              <div>
+                Which book?
+                <small lang="zh-CN">哪一本书？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-022.html"
+              ><span>22</span>
+              <div>
+                Give me/him/her/us/them a …
+                <small lang="zh-CN"
+                  >给我／他／她／我们／他们一……。哪一……？</small
+                >
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-023.html"
+              ><span>23</span>
+              <div>
+                Which glasses?
+                <small lang="zh-CN">哪几只杯子？</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-024.html"
+              ><span>24</span>
+              <div>
+                Give me/him/her/us/them some …
+                <small lang="zh-CN"
+                  >给我／他／她／我们／他们一些……。哪些？</small
+                >
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-025.html"
+              ><span>25</span>
+              <div>
+                Mrs. Smith's kitchen
+                <small lang="zh-CN">史密斯太太的厨房</small>
+              </div>
+              <span class="nav-dot"></span></a
+            ><a href="html/lesson-026.html"
+              ><span>26</span>
+              <div>
+                Where is it?
+                <small lang="zh-CN">它在哪里？</small>
+              </div>
+              <span class="nav-dot"></span
+            ></a>
+          </nav>
+          <div class="rail-progress">
+            <span class="small-label">COURSE</span>
+            <p>
+              <strong>26</strong><span> / <span>26</span> lessons</span>
+            </p>
+            <progress max="26" value="26" aria-label="Lessons available"></progress
+            ><small lang="zh-CN">第一册 · 全部 26 课已上线</small>
+          </div>
+        </details>
+      </aside>
+    </div>
+  </body>
+</html>
