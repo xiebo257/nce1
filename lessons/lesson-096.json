@@ -1,0 +1,475 @@
+{
+  "number": 96,
+  "status": "verified",
+  "title": "What's the exact time?",
+  "translation": "确切的时间是几点？",
+  "description": "A written-exercises lesson on exact times and the expression 'in ...'s time'. There is no dialogue. The lesson presents a grid of twelve clocks showing different times, a reference table of time phrases (a minute, an hour, a day, a week, a month, a year — with AGO and IN ...'S TIME forms), and fifteen city pictures (Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Tokyo, Stockholm, Sydney, and a bus station) used for the question 'When did he / will he go to ...?'. Written exercise A rewrites 'must' sentences using 'had better'; written exercise B answers questions using 'in ...'s time'. Workbook practice covers writing the exact time for six clocks (A), answering 'When will you ...?' questions using the time phrase in brackets (B), and writing what you would say in two situations (C). Grammar exercises practise answering questions with past and future time expressions (I) and answering questions about the exact time (II).",
+  "answer_note": "Practice A (write the exact time) item 1 is a printed example; items 2-6 are taken from the supplied Lesson 96 key (img/key-095-100.jpg). Practice B (When will you ...?) item 1 is a printed example; items 2-5 are taken from the supplied Lesson 96 key (img/key-095-100.jpg). Practice C (situations) 2 items are taken from the supplied Lesson 96 key (img/key-095-100.jpg). Grammar I (answer questions using cues) item 1 is a printed example; items 2-8 are taken from the supplied Lesson 96 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 511-512). Grammar II (answer questions about the exact time) item 1 is a printed example; items 2-8 are taken from the supplied Lesson 96 grammar key (PDF viewer p. 512). No external sources were used.",
+  "expected_answers": 35,
+  "sources": [
+    {
+      "label": "Lesson 96 textbook — clocks, time phrases, and city pictures (p. 195)",
+      "href": "../img/lesson-096-01-text.jpg"
+    },
+    {
+      "label": "Lesson 96 textbook — written exercises (p. 196)",
+      "href": "../img/lesson-096-02-text.jpg"
+    },
+    {
+      "label": "Lesson 96 workbook practice scan",
+      "href": "../img/lesson-096-practice.jpg"
+    },
+    {
+      "label": "Lessons 95-100 workbook answer key scan",
+      "href": "../img/key-095-100.jpg"
+    },
+    {
+      "label": "Lesson 96 grammar exercises (pp. 290-292)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=290"
+    }
+  ],
+  "characters": {},
+  "images": {
+    "lesson-096-clocks-01": {
+      "kind": "scene",
+      "status": "ready",
+      "src": "assets/lesson-096/clocks-01.jpg",
+      "width": 1826,
+      "height": 350,
+      "description": "Twelve analogue clocks numbered 1st to 12th, each showing a different time of day.",
+      "source": "../img/lesson-096-01-text.jpg"
+    },
+    "lesson-096-cities-01": {
+      "kind": "scene",
+      "status": "ready",
+      "src": "assets/lesson-096/cities-01.jpg",
+      "width": 1826,
+      "height": 950,
+      "description": "Fifteen numbered pictures of world cities and landmarks: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Tokyo, Stockholm, Sydney, and a bus station.",
+      "source": "../img/lesson-096-01-text.jpg"
+    }
+  },
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。\n\nWhen did he / will he go to ...?\n他曾／将在什么时候去……？",
+        "translation": "Listen to the recording and answer the questions. When did he go to [each city]? When will he go to [each city]?"
+      },
+      {
+        "id": "lesson-clocks",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "lesson-096-clocks-01",
+        "text": "Twelve clocks showing different times of day. Read each clock and say the exact time.",
+        "translation": "十二个显示不同时间的钟。读出每个钟的准确时间。"
+      },
+      {
+        "id": "lesson-time-phrases",
+        "type": "notes",
+        "source": "../img/lesson-096-01-text.jpg",
+        "items": [
+          {
+            "title": "Time phrases with AGO and IN ...'S TIME",
+            "text": "a minute / two minutes AGO · an hour / two hours AGO · a day / two days AGO · a week / two weeks AGO · a month / two months AGO · a year / two years AGO\n\nIN: a minute's / two minutes' TIME · an hour's / two hours' TIME · a day's / two days' TIME · a week's / two weeks' TIME · a month's / two months' TIME · a year's / two years' TIME"
+          }
+        ]
+      },
+      {
+        "id": "lesson-cities",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "lesson-096-cities-01",
+        "text": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Tokyo, Stockholm, Sydney, and a bus station.",
+        "translation": "十五个城市：雅典、北京、柏林、孟买、日内瓦、伦敦、马德里、莫斯科、纽约、巴黎、罗马、东京、斯德哥尔摩、悉尼和汽车客运站。"
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../img/lesson-096-02-text.jpg",
+        "title": "A — Rewrite these sentences using had better. 用 had better 来改写以下句子。",
+        "instruction": "Rewrite these sentences using had better. 用 had better 来改写以下句子。\n\nExample:\nWe must go back to the station.\nWe had better go back to the station.",
+        "translation": "Rewrite each sentence using 'had better' instead of 'must'.",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "7 items (6 numbered questions plus a printed example). Item 1 is a printed example. These are written exercises from the textbook; answers are suggested model answers.",
+        "questions": [
+          {
+            "id": "lesson-written-a-1",
+            "number": "1",
+            "prompt": "Example: We must go back to the station.",
+            "answer": "We had better go back to the station.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-a-2",
+            "number": "2",
+            "prompt": "1. I must stay here.",
+            "answer": "I had better stay here.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-3",
+            "number": "3",
+            "prompt": "2. We must wait for him.",
+            "answer": "We had better wait for him.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-4",
+            "number": "4",
+            "prompt": "3. You must call a doctor.",
+            "answer": "You had better call a doctor.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-5",
+            "number": "5",
+            "prompt": "4. They must go home.",
+            "answer": "They had better go home.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-6",
+            "number": "6",
+            "prompt": "5. She must hurry.",
+            "answer": "She had better hurry.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-7",
+            "number": "7",
+            "prompt": "6. You must be careful.",
+            "answer": "You had better be careful.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../img/lesson-096-02-text.jpg",
+        "title": "B — Answer these questions using 'll. 模仿例句回答以下问题，用上 'll。",
+        "instruction": "Answer these questions using 'll. 模仿例句回答以下问题，用上 'll。\n\nExamples:\nI went to Beijing a year ago. What about you? (a year's time)\nI'll go to Beijing in a year's time.\n\nTom flew to Stockholm two weeks ago. What about Pamela? (two weeks' time)\nShe'll fly to Stockholm in two weeks' time.\n\nDave and Alan returned to Tokyo two days ago. What about you and Jean? (two days' time)\nWe'll return to Tokyo in two days' time.",
+        "translation": "Answer each question using 'will' and the time phrase in parentheses.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 items. Answers are suggested model answers based on the pattern shown in the examples.",
+        "questions": [
+          {
+            "id": "lesson-written-b-1",
+            "number": "1",
+            "prompt": "1. I went to Sydney a month ago. What about you? (a month's time)",
+            "answer": "I'll go to Sydney in a month's time.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-2",
+            "number": "2",
+            "prompt": "2. A train left for Geneva an hour ago. What about the next one? (an hour's time)",
+            "answer": "The next one will leave in an hour's time.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-3",
+            "number": "3",
+            "prompt": "3. Carol flew to Beijing two days ago. What about you? (two days' time)",
+            "answer": "I'll fly to Beijing in two days' time.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-4",
+            "number": "4",
+            "prompt": "4. Tom and Mary went to London an hour ago. What about you and Jean? (an hour's time)",
+            "answer": "We'll go to London in an hour's time.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — What's the exact time?",
+        "instruction": "Write the exact times under these clocks following the style of the example. 模仿范例写出时钟上显示的时间。\n\nExample: 9:16 → sixteen minutes past nine",
+        "translation": "Write the exact time shown by each clock, following the style of the printed example.",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-095-100.jpg",
+        "context": "6 clocks. Item 1 is a printed example. Items 2-6 are taken from the supplied Lesson 96 key (img/key-095-100.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "9:16",
+            "answer": "sixteen minutes past nine",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "7:34",
+            "answer": "twenty-six minutes to eight",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "12:01",
+            "answer": "one minute past twelve",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "15:09",
+            "answer": "nine minutes past three",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "1:56",
+            "answer": "four minutes to two",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "17:21",
+            "answer": "twenty-one minutes past five",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — When will you ...?",
+        "instruction": "Answer these questions using the words in brackets with the word time. 用括号中表示时间的短语和 time 来回答以下问题。\n\nExample: When will they go to Beijing? (a month)\nThey'll go to Beijing in a month's time.",
+        "translation": "Answer each question using the time phrase in parentheses with 'time'.",
+        "expected_items": 5,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-095-100.jpg",
+        "context": "5 items. Item 1 is a printed example. Items 2-5 are taken from the supplied Lesson 96 key (img/key-095-100.jpg).",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. When will they go to Beijing? (a month)",
+            "answer": "They'll go to Beijing in a month's time.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. When will you fly to Rome? (two years)",
+            "answer": "I'll fly to Rome in two years' time.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. When will the train leave for Moscow? (ten minutes)",
+            "answer": "It'll leave for Moscow in ten minutes' time.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "4. When will she go back home? (a week)",
+            "answer": "She'll go back home in a week's time.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "5. When is the next train from here to London? (six hours)",
+            "answer": "The next train from here to London is in six hours' time.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "title": "C — Situations",
+        "instruction": "Read the situations. What do you say in each? 根据以下情景写出你应该说的话。\n\n1. You want to know the time, but you want it exactly. Ask a friend.\n2. You think that you and some friends should walk to school, and not go by car or bus.",
+        "translation": "Write what you would say in each situation.",
+        "expected_items": 2,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-095-100.jpg",
+        "context": "2 items. Both answers are taken from the supplied Lesson 96 key (img/key-095-100.jpg).",
+        "questions": [
+          {
+            "id": "practice-c-1",
+            "number": "1",
+            "prompt": "1. You want to know the time, but you want it exactly. Ask a friend.",
+            "answer": "What's the exact time?",
+            "rows": 1
+          },
+          {
+            "id": "practice-c-2",
+            "number": "2",
+            "prompt": "2. You think that you and some friends should walk to school, and not go by car or bus.",
+            "answer": "We'd better walk to school.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。\n\nExample (item 1):\nWhat did you do two minutes ago? (meet Jane)\nI met Jane two minutes ago.\nWhat will you do in two minutes' time? (meet Jack)\nI shall meet Jack in two minutes' time.",
+        "translation": "Answer each pair of questions using the cue given, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "8 items. Item 1 is a printed example (not editable). Items 2-8 are taken from the supplied Lesson 96 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 511-512).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. What did you do two minutes ago? (meet Jane)\nWhat will you do in two minutes' time? (meet Jack)",
+            "answer": "I met Jane two minutes ago. / I shall meet Jack in two minutes' time.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. What did you do an hour ago? (sweep the floor)\nWhat will you do in an hour's time? (cook dinner for my family)",
+            "answer": "I swept the floor an hour ago. / I shall cook dinner for my family in an hour's time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. What did she do two hours ago? (give a lesson)\nWhat will she do in two hours' time? (go home)",
+            "answer": "She gave a lesson two hours ago. / She will go home in two hours' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. What did they do two weeks ago? (read some interesting books)\nWhat will they do in two weeks' time? (have a party)",
+            "answer": "They read some interesting books two weeks ago. / They will have a party in two weeks' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. What did he do a month ago? (fly to New York on business)\nWhat will he do in a month's time? (go to London for a meeting)",
+            "answer": "He flew to New York on business a month ago. / He will go to London for a meeting in a month's time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. What did they do six months ago? (sell their old car)\nWhat will they do in six months' time? (buy a new car)",
+            "answer": "They sold their old car six months ago. / They will buy a new car in six months' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. What did he do fifteen minutes ago? (drive to work)\nWhat will he do in fifteen minutes' time? (type a letter)",
+            "answer": "He drove to work fifteen minutes ago. / He will type a letter in fifteen minutes' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. What did you do three months ago? (speak to my boss about my job)\nWhat will you do in three months' time? (look for a new job)",
+            "answer": "I spoke to my boss about my job three months ago. / I will look for a new job in three months' time.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Answer the questions, using the times given according to the example. 仿照例句用所给的时间回答下列问题。",
+        "instruction": "Answer the questions, using the times given according to the example. 仿照例句用所给的时间回答下列问题。\n\nExample (item 1):\nWhat's the exact time? (5:02)\nIt's two minutes past five.\nWhen will the train leave? (5:20)\nThe train will leave in eighteen minutes' time.",
+        "translation": "Answer each pair of questions using the time given in parentheses, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "8 items. Item 1 is a printed example (not editable). Items 2-8 are taken from the supplied Lesson 96 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 512).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. What's the exact time? (5:02)\nWhen will the train leave? (5:20)",
+            "answer": "It's two minutes past five. / The train will leave in eighteen minutes' time.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. What's the exact time? (7:58)\nWhen will he start work? (8:00)",
+            "answer": "It's two minutes to eight. / He will start work in two minutes' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. What's the exact time? (9:45)\nWhen will we finish our lesson? (9:50)",
+            "answer": "It's a quarter to ten. / We will finish our lesson in five minutes' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. What's the exact time? (11:30)\nWhen will you have lunch? (12:00)",
+            "answer": "It's half past eleven. / I/We will have lunch in half an hour's time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. What's the exact time? (2:03)\nWhen will the bus be here? (2:10)",
+            "answer": "It's three minutes past two. / The bus will be here in seven minutes' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. What's the exact time? (4:20)\nWhen will the plane take off? (4:55)",
+            "answer": "It's twenty minutes past four. / The plane will take off in thirty-five minutes' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. What's the exact time? (8:22)\nWhen will the meeting start? (8:30)",
+            "answer": "It's twenty-two minutes past eight. / The meeting will start in eight minutes' time.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. What's the exact time? (6:56)\nWhen will the News begin on CCTV? (7:00)",
+            "answer": "It's four minutes to seven. / The News will begin on CCTV in four minutes' time.",
+            "rows": 2
+          }
+        ]
+      }
+    ]
+  }
+}
