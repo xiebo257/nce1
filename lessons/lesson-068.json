@@ -1,0 +1,402 @@
+{
+  "number": 68,
+  "status": "verified",
+  "title": "What's the time?",
+  "translation": "几点钟？",
+  "description": "A bilingual lesson built around 12 numbered clocks and 10 dated place illustrations (church, school, the office, the butcher's, the hairdresser's, the baker's, the dairy, home, the grocer's, the greengrocer's) that practise the 'Where were you on ...?' and 'When were you at ...?' structures. Includes workbook day-of-week ordering, was/wasn't fill-ins, at-the prepositions, and open-ended personal answers, plus grammar on where-/when-questions with was/were. 以12幅编号时钟和10幅带日期的地点插图为主的双语课，练习「……你在什么地方？」和「你什么时候在……？」句型。配合教材星期排序、was/wasn't 填空、at the 介词练习和自答练习，以及 where/when 问句和 was/were 的语法练习。",
+  "answer_note": "Workbook A (days of the week) and C (at the) answers are taken from the supplied Lesson 68 key (img/key-067-072.jpg); workbook B fill-in answers are constructed from the printed dialogue and labelled suggested; workbook D personal answers are open-ended and labelled suggested. Textbook written-exercise answers are constructed from standard English usage and the printed example and labelled suggested. Grammar answers are taken from the supplied Lesson 68 grammar key (PDF viewer page 499). No external sources were used.",
+  "expected_answers": 47,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "text": "Listen and answer the questions.\n听录音并回答问题。\n\nWhere were you on ...? ……你在什么地方？\nWhen were you at ...? 你什么时候在……？",
+        "translation": "Listen and answer the questions. Where were you on ...? When were you at ...?"
+      },
+      {
+        "id": "lesson-clocks",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "text": "1st 1 o'clock\n2nd 1 o'clock\n3rd 1 o'clock\n4th 1:15\n5th 1:30\n6th 1:45\n7th 1:30\n8th 1:35\n9th 1:40\n10th 1:45\n11th 1:50\n12th 1:55",
+        "translation": "第1幅 1点\n第2幅 1点\n第3幅 1点\n第4幅 1点15分\n第5幅 1点30分\n第6幅 1点45分\n第7幅 1点30分\n第8幅 1点35分\n第9幅 1点40分\n第10幅 1点45分\n第11幅 1点50分\n第12幅 1点55分"
+      },
+      {
+        "id": "lesson-place-church",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-church",
+        "text": "Sunday, January 1st — church",
+        "translation": "1月1日星期日——教堂"
+      },
+      {
+        "id": "lesson-place-school",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-school",
+        "text": "Monday, February 2nd — school",
+        "translation": "2月2日星期一——学校"
+      },
+      {
+        "id": "lesson-place-office",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-office",
+        "text": "Tuesday, March 3rd — the office",
+        "translation": "3月3日星期二——办公室"
+      },
+      {
+        "id": "lesson-place-butcher",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-butcher",
+        "text": "Wednesday, April 4th — the butcher's",
+        "translation": "4月4日星期三——肉铺"
+      },
+      {
+        "id": "lesson-place-hairdresser",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-hairdresser",
+        "text": "Thursday, May 5th — the hairdresser's",
+        "translation": "5月5日星期四——理发店"
+      },
+      {
+        "id": "lesson-place-baker",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-baker",
+        "text": "Friday, June 6th — the baker's",
+        "translation": "6月6日星期五——面包店"
+      },
+      {
+        "id": "lesson-place-dairy",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-dairy",
+        "text": "Saturday, July 7th — the dairy",
+        "translation": "7月7日星期六——乳品店"
+      },
+      {
+        "id": "lesson-place-home",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-home",
+        "text": "Sunday, August 8th — home",
+        "translation": "8月8日星期日——家"
+      },
+      {
+        "id": "lesson-place-grocer",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-grocer",
+        "text": "Monday, September 9th — the grocer's",
+        "translation": "9月9日星期一——杂货店"
+      },
+      {
+        "id": "lesson-place-greengrocer",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
+        "image": "picture-greengrocer",
+        "text": "Tuesday, October 10th — the greengrocer's",
+        "translation": "10月10日星期二——蔬菜水果店"
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=136",
+        "items": [
+          {"word": "church", "ipa": "/tʃɜːtʃ/", "pos": "n.", "meaning": "教堂"},
+          {"word": "dairy", "ipa": "/ˈdeəri/", "pos": "n.", "meaning": "乳品店"},
+          {"word": "baker", "ipa": "/ˈbeɪkə/", "pos": "n.", "meaning": "面包师傅"},
+          {"word": "grocer", "ipa": "/ˈɡrəʊsə/", "pos": "n.", "meaning": "食品杂货商"}
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=136",
+        "title": "Written exercise A Complete these sentences using the where necessary.",
+        "instruction": "Complete these sentences using the where necessary. 完成以下句子，必要时填上定冠词 the。",
+        "translation": "Complete each sentence, adding 'the' where necessary.",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "No official key is supplied; answers are constructed from standard English usage (the + place names that take the definite article) and labelled suggested. Blank for 'the' is filled with 'the', blank with no article is filled with '—'.",
+        "questions": [
+          {"id": "lesson-written-a-1", "number": "1", "prompt": "I was at ______ church on Sunday.", "answer": "—", "rows": 1},
+          {"id": "lesson-written-a-2", "number": "2", "prompt": "I was at ______ office on Monday.", "answer": "the", "rows": 1},
+          {"id": "lesson-written-a-3", "number": "3", "prompt": "My son was at ______ school on Tuesday.", "answer": "—", "rows": 1},
+          {"id": "lesson-written-a-4", "number": "4", "prompt": "My wife was at ______ butcher's on Wednesday.", "answer": "the", "rows": 1},
+          {"id": "lesson-written-a-5", "number": "5", "prompt": "She was at ______ grocer's on Thursday.", "answer": "the", "rows": 1},
+          {"id": "lesson-written-a-6", "number": "6", "prompt": "My daughter was in ______ country on Friday.", "answer": "the", "rows": 1},
+          {"id": "lesson-written-a-7", "number": "7", "prompt": "I was at ______ home on Saturday.", "answer": "—", "rows": 1}
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=136",
+        "title": "Written exercise B Write questions and answers using he/she and at/on.",
+        "instruction": "Write questions and answers using he/she and at/on. 模仿例句提问并回答。",
+        "translation": "Write a question and a full answer for each set of cues, following the printed example.",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "The printed example (he/church/Sunday → When was he at church? He was at church on Sunday.) is not editable. Items 1-6 follow the same pattern; the question and answer are each one field. No official key is supplied; answers are constructed from the printed example and labelled suggested.",
+        "questions": [
+          {"id": "lesson-written-b-0", "number": "Example", "prompt": "he/church/Sunday", "answer": "When was he at church? He was at church on Sunday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "lesson-written-b-1", "number": "1", "prompt": "Tom/the hairdresser's/Thursday", "answer": "When was Tom at the hairdresser's?\nHe was at the hairdresser's on Thursday.", "rows": 2},
+          {"id": "lesson-written-b-2", "number": "2", "prompt": "Mrs. Jones/the butcher's/Wednesday", "answer": "When was Mrs. Jones at the butcher's?\nShe was at the butcher's on Wednesday.", "rows": 2},
+          {"id": "lesson-written-b-3", "number": "3", "prompt": "he/home/Sunday", "answer": "When was he at home?\nHe was at home on Sunday.", "rows": 2},
+          {"id": "lesson-written-b-4", "number": "4", "prompt": "Penny/the baker's/Friday", "answer": "When was Penny at the baker's?\nShe was at the baker's on Friday.", "rows": 2},
+          {"id": "lesson-written-b-5", "number": "5", "prompt": "Mrs. Williams/the grocer's/Monday", "answer": "When was Mrs. Williams at the grocer's?\nShe was at the grocer's on Monday.", "rows": 2},
+          {"id": "lesson-written-b-6", "number": "6", "prompt": "Nicola/the office/Tuesday", "answer": "When was Nicola at the office?\nShe was at the office on Tuesday.", "rows": 2}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-068-practice.jpg",
+        "title": "A The days of the week",
+        "instruction": "These are the days of the week. Write them in the correct order. 按照正确的顺序写出一周中的 7 天。",
+        "translation": "Write the seven days of the week in the correct order, starting on Monday.",
+        "expected_items": 1,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-067-072.jpg",
+        "context": "The printed word bank is: Wednesday Friday Monday Tuesday Saturday Thursday Sunday. The printed example shows 'Sunday' circled as one of the days. The key lists the seven days in order starting on Monday.",
+        "questions": [
+          {"id": "practice-a-1", "number": "1", "prompt": "Write the seven days of the week in the correct order (starting on Monday).", "answer": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-068-practice.jpg",
+        "title": "B Structure",
+        "instruction": "Fill in was, wasn't or were in these sentences. 用 was, wasn't 或 were 填空。",
+        "translation": "Fill in the correct form (was, wasn't or were) in each blank.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "The workbook key does not cover this exercise in a directly usable form; the answers are constructed from standard English usage and the sentence context and labelled suggested.",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "______ you at church on Sunday? – No, I ______. I was at home.", "answer": "Were\nwasn't", "rows": 2},
+          {"id": "practice-b-2", "number": "2", "prompt": "Where was your Dad on Friday? – He ______ at the office.", "answer": "was", "rows": 1},
+          {"id": "practice-b-3", "number": "3", "prompt": "I ______ in the country at the weekend. I was at home.", "answer": "wasn't", "rows": 1},
+          {"id": "practice-b-4", "number": "4", "prompt": "Where ______ you on Wednesday? – I wasn't at the baker's. I ______ at the butcher's.", "answer": "were\nwas", "rows": 2},
+          {"id": "practice-b-5", "number": "5", "prompt": "My sister ______ at school on Tuesday. She was at home.", "answer": "wasn't", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "source": "../img/lesson-068-practice.jpg",
+        "title": "C At or at the",
+        "instruction": "What do we say in English – at or at the? Write in at or at the. 用 at 或 at the 填空。",
+        "translation": "Fill in each blank with 'at' or 'at the'.",
+        "expected_items": 11,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-067-072.jpg",
+        "context": "The key lists 12 items (1 at the, 2 at, 3 at the, 4 at the, 5 at, 6 at the, 7 at the, 8 at the, 9 at the, 10 at the, 11 at, 12 at the). The printed exercise shows 11 blanks (items 2-12 in the key's numbering); item 1 of the key is not part of the printed exercise and is not editable here.",
+        "questions": [
+          {"id": "practice-c-1", "number": "1", "prompt": "office ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-2", "number": "2", "prompt": "school ______", "answer": "at", "rows": 1},
+          {"id": "practice-c-3", "number": "3", "prompt": "hairdresser's ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-4", "number": "4", "prompt": "stationer's ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-5", "number": "5", "prompt": "home ______", "answer": "at", "rows": 1},
+          {"id": "practice-c-6", "number": "6", "prompt": "dairy ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-7", "number": "7", "prompt": "grocer's ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-8", "number": "8", "prompt": "butcher's ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-9", "number": "9", "prompt": "baker's ______", "answer": "at the", "rows": 1},
+          {"id": "practice-c-10", "number": "10", "prompt": "church ______", "answer": "at", "rows": 1},
+          {"id": "practice-c-11", "number": "11", "prompt": "weekend ______", "answer": "at the", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-d",
+        "type": "exercise",
+        "source": "../img/lesson-068-practice.jpg",
+        "title": "D About you",
+        "instruction": "Answer these questions with short answers or full sentences. 用简短形式或完整句子回答以下问题。",
+        "translation": "Answer each question with a short answer or a full sentence about yourself.",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "Personal-answer questions; no official key is supplied. The supplied key offers one possible model answer for each item; the full set of possible answers is open-ended.",
+        "questions": [
+          {"id": "practice-d-1", "number": "1", "prompt": "Were you absent from school last week?", "answer": "No, I wasn't. (or: Yes, I was. I was absent on Wednesday.)", "rows": 1},
+          {"id": "practice-d-2", "number": "2", "prompt": "Where were you on Sunday?", "answer": "I was at home on Sunday. (or: I was at church / at the office / at the grocer's / ...)", "rows": 1},
+          {"id": "practice-d-3", "number": "3", "prompt": "Were you at the hairdresser's on Saturday?", "answer": "No, I wasn't at the hairdresser's. I was in the country. (or: Yes, I was.)", "rows": 1}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=208",
+        "title": "I. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each where-were question using the given place, following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=499",
+        "context": "Item 1 is a printed example and is not editable.",
+        "questions": [
+          {"id": "grammar-i-1", "number": "1", "prompt": "Where were you at one o'clock on April 5th? (at school)", "answer": "I was at school.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2", "number": "2", "prompt": "Where was Emma at four o'clock on December 15th? (in her office)", "answer": "She was in her office.", "rows": 1},
+          {"id": "grammar-i-3", "number": "3", "prompt": "Where were you at the weekend? (in the country)", "answer": "I was in the country.", "rows": 1},
+          {"id": "grammar-i-4", "number": "4", "prompt": "Where was Sam on Monday? (in hospital)", "answer": "He was in hospital.", "rows": 1},
+          {"id": "grammar-i-5", "number": "5", "prompt": "Where was our teacher on Thursday? (in Beijing)", "answer": "She/He was in Beijing.", "rows": 1},
+          {"id": "grammar-i-6", "number": "6", "prompt": "Where was Mary at noon on November 9th? (at the hairdresser's)", "answer": "She was at the hairdresser's.", "rows": 1},
+          {"id": "grammar-i-7", "number": "7", "prompt": "Where was the old woman on Sunday morning? (at church)", "answer": "She was at church.", "rows": 1},
+          {"id": "grammar-i-8", "number": "8", "prompt": "Where was our dog on Wednesday? (at home)", "answer": "It was at home.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=209",
+        "title": "II. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each when-were question using the given time, following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=499",
+        "context": "Item 1 is a printed example and is not editable.",
+        "questions": [
+          {"id": "grammar-ii-1", "number": "1", "prompt": "When were you at the dairy? (on Saturday)", "answer": "I was at the dairy on Saturday.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-ii-2", "number": "2", "prompt": "When was Tom at the baker's? (at about five)", "answer": "He was at the baker's at about five.", "rows": 1},
+          {"id": "grammar-ii-3", "number": "3", "prompt": "When was my brother at the grocer's? (at about ten)", "answer": "He was at the grocer's at about ten.", "rows": 1},
+          {"id": "grammar-ii-4", "number": "4", "prompt": "When were you at home? (on Tuesday)", "answer": "I was at home on Tuesday.", "rows": 1},
+          {"id": "grammar-ii-5", "number": "5", "prompt": "When was Jane at the stationer's? (at about four)", "answer": "She was at the stationer's at about four.", "rows": 1},
+          {"id": "grammar-ii-6", "number": "6", "prompt": "When was she at the butcher's? (at eleven)", "answer": "She was at the butcher's at eleven.", "rows": 1},
+          {"id": "grammar-ii-7", "number": "7", "prompt": "When was the policewoman at the office? (on Wednesday)", "answer": "She was at the office on Wednesday.", "rows": 1},
+          {"id": "grammar-ii-8", "number": "8", "prompt": "When were you at the greengrocer's? (at nine)", "answer": "I was at the greengrocer's at nine.", "rows": 1}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 68 textbook main text and illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=135"},
+    {"label": "Lesson 68 textbook vocabulary and written exercises", "href": "../pdf/新概念英语1 英语初阶.pdf#page=136"},
+    {"label": "Lesson 68 workbook practice scan", "href": "../img/lesson-068-practice.jpg"},
+    {"label": "Lessons 67-72 workbook answer key scan", "href": "../img/key-067-072.jpg"},
+    {"label": "Lesson 68 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=208"},
+    {"label": "Lesson 68 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=209"},
+    {"label": "Lesson 68 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=499"}
+  ],
+  "characters": {},
+  "images": {
+    "picture-church": {
+      "kind": "item", "status": "ready",
+      "description": "A church interior with arched windows; a priest in a vestment stands at the altar, and two children holding hands walk past. Caption: 'Sunday, January 1st / church'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-church.jpg",
+      "width": 501,
+      "height": 312
+    },
+    "picture-school": {
+      "kind": "item", "status": "ready",
+      "description": "Three children in caps walking past a school gate with a 'SCHOOL' sign. Caption: 'Monday, February 2nd / school'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-school.jpg",
+      "width": 501,
+      "height": 312
+    },
+    "picture-office": {
+      "kind": "item", "status": "ready",
+      "description": "A woman with long hair sits at a desk typing on an old computer; a bald man sits at another desk. Caption: 'Tuesday, March 3rd / the office'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-office.jpg",
+      "width": 501,
+      "height": 312
+    },
+    "picture-butcher": {
+      "kind": "item", "status": "ready",
+      "description": "A butcher in a white coat and cap stands behind a counter of cuts of meat; two customers hold baskets. Caption: 'Wednesday, April 4th / the butcher's'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-butcher.jpg",
+      "width": 501,
+      "height": 313
+    },
+    "picture-hairdresser": {
+      "kind": "item", "status": "ready",
+      "description": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair. Caption: 'Thursday, May 5th / the hairdresser's'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-hairdresser.jpg",
+      "width": 501,
+      "height": 312
+    },
+    "picture-baker": {
+      "kind": "item", "status": "ready",
+      "description": "A baker stands behind a counter of loaves and pastries; a customer points at the goods. Caption: 'Friday, June 6th / the baker's'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-baker.jpg",
+      "width": 501,
+      "height": 326
+    },
+    "picture-dairy": {
+      "kind": "item", "status": "ready",
+      "description": "A shop with bottles of milk and cream on shelves; two customers stand at the counter. Caption: 'Saturday, July 7th / the dairy'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-dairy.jpg",
+      "width": 501,
+      "height": 225
+    },
+    "picture-home": {
+      "kind": "item", "status": "ready",
+      "description": "A man reads a newspaper in an armchair; a woman and a child sit on the floor with toys. Caption: 'Sunday, August 8th / home'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-home.jpg",
+      "width": 501,
+      "height": 225
+    },
+    "picture-grocer": {
+      "kind": "item", "status": "ready",
+      "description": "A shop with shelves of sugar, tea, jam and bacon; a shopkeeper with a moustache stands behind the counter facing a customer. Caption: 'Monday, September 9th / the grocer's'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-grocer.jpg",
+      "width": 501,
+      "height": 225
+    },
+    "picture-greengrocer": {
+      "kind": "item", "status": "ready",
+      "description": "A fruit-and-vegetable stall with crates of produce; two customers stand at the counter. Caption: 'Tuesday, October 10th / the greengrocer's'.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-068-01-text.jpg",
+      "source_size": [1503, 2500],
+      "src": "assets/lesson-068/picture-greengrocer.jpg",
+      "width": 501,
+      "height": 225
+    }
+  }
+}
