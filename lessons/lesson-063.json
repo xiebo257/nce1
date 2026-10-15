@@ -1,0 +1,281 @@
+{
+  "number": 63,
+  "status": "verified",
+  "title": "Thank you, doctor.",
+  "translation": "谢谢你，医生。",
+  "description": "A bilingual follow-up to Lesson 61: the doctor re-examines Jimmy, who is better but mustn't get up yet, and the joke ends with Mr. Williams in bed with a bad cold too. Includes workbook fill-in dialogue and word-choice practice, plus grammar on can-questions, how-long answers and because-clauses. 第61课的续集：医生复查吉米，他好些了但还不能起床，结尾处威廉斯先生也卧床得了重感冒。配合教材填空对话和选词练习，以及 can 问句、how long 回答和 because 从句的语法练习。",
+  "answer_note": "The before-listening question has no official key and its answer is labelled suggested. Workbook answers are taken from the supplied Lesson 63 key (img/key-063-067.jpg). Grammar answers are taken from the supplied Lesson 63 grammar key (PDF viewer pages 495-496). No external sources were used.",
+  "expected_answers": 48,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "text": "Listen then answer this question. Who else is in bed today? Why?",
+        "translation": "听录音，然后回答问题。还有谁今天也卧床休息？为什么？"
+      },
+      {
+        "id": "lesson-scene-01",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-063-scene-01",
+        "lines": [
+          {"number": 1, "speaker": "Doctor", "text": "How's Jimmy today?", "translation": "吉米今天怎么样了？"},
+          {"number": 2, "speaker": "Mrs. Williams", "text": "Better. Thank you, doctor.", "translation": "好些了。谢谢你，医生。"},
+          {"number": 3, "speaker": "Doctor", "text": "Can I see him please, Mrs. Williams?", "translation": "我可以看看他吗，威廉斯夫人？"},
+          {"number": 4, "speaker": "Mrs. Williams", "text": "Certainly, doctor.\nCome upstairs.", "translation": "当然可以，医生。\n上楼吧。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-02",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-063-scene-02",
+        "lines": [
+          {"number": 5, "speaker": "Doctor", "text": "You look very well, Jimmy.\nYou are better now,\nbut you mustn't get up yet.\nYou must stay in bed\nfor another two days.", "translation": "你看上去很好，吉米。你现在好些了，但你还不应该起床。你必须再卧床两天。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-03",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-063-scene-03",
+        "lines": [
+          {"number": 6, "speaker": "Doctor", "text": "The boy mustn't\ngo to school yet, Mrs. Williams.\nAnd he mustn't eat rich food.", "translation": "这孩子还不能去上学，威廉斯夫人，而且不能吃油腻的食物。"},
+          {"number": 7, "speaker": "Mrs. Williams", "text": "Does he have a temperature, doctor?", "translation": "他还发烧吗，医生？"},
+          {"number": 8, "speaker": "Doctor", "text": "No, he doesn't.", "translation": "不，他不发烧了。"},
+          {"number": 9, "speaker": "Mrs. Williams", "text": "Must he stay in bed?", "translation": "他还必须卧床吗？"},
+          {"number": 10, "speaker": "Doctor", "text": "Yes.\nHe must remain in bed\nfor another two days.\nHe can get up\nfor about two hours each day,\nbut you must keep the\nroom warm.", "translation": "是的，他还必须卧床两天。他每天可以起来两个小时，但您必须保持房间温暖。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-04",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-063-scene-04",
+        "lines": [
+          {"number": 11, "speaker": "Doctor", "text": "Where's Mr. Williams this evening?", "translation": "威廉斯先生今晚去哪儿了？"},
+          {"number": 12, "speaker": "Mrs. Williams", "text": "He's in bed, doctor.\nCan you see him please?\nHe has a bad cold, too!", "translation": "他在床上呢，医生。您能看看他吗？他也得了重感冒！"}
+        ]
+      },
+      {
+        "id": "lesson-listening-answer",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "title": "Before-listening question",
+        "instruction": "Listen then answer this question. Who else is in bed today? Why? 听录音，然后回答问题。还有谁今天也卧床休息？为什么？",
+        "translation": "Answer the question according to the dialogue. 根据对话回答问题。",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "context": "At the end of the dialogue Mrs. Williams says Mr. Williams is in bed because he has a bad cold too.",
+        "questions": [
+          {"id": "lesson-listening-answer-1", "number": "1", "prompt": "Who else is in bed today? Why?", "answer": "Mr. Williams is in bed today because he has a bad cold, too.", "rows": 2}
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=126",
+        "items": [
+          {"word": "better", "ipa": "/ˈbetə/", "pos": "adj.", "meaning": "well 的比较级，好些的"},
+          {"word": "certainly", "ipa": "/ˈsɜːtnli/", "pos": "adv.", "meaning": "当然"},
+          {"word": "get up", "ipa": "/ɡet ʌp/", "pos": "phr.", "meaning": "起床"},
+          {"word": "yet", "ipa": "/jet/", "pos": "adv.", "meaning": "还，仍"},
+          {"word": "rich", "ipa": "/rɪtʃ/", "pos": "adj.", "meaning": "油腻的"},
+          {"word": "food", "ipa": "/fuːd/", "pos": "n.", "meaning": "食物"},
+          {"word": "remain", "ipa": "/rɪˈmeɪn/", "pos": "v.", "meaning": "保持，继续"}
+        ]
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=126",
+        "items": [
+          {"title": "He's better.", "text": "在英文中，如果将一个人或物等与另一个人或物等进行比较，就可以用比较级。在这句话中，威廉斯夫人是把吉米今天的状况和前几天相比。形容词 well 的比较级形式不规则，意思是“健康状况有所好转”。"},
+          {"title": "come upstairs", "text": "上楼，此处 upstairs 是副词。"},
+          {"title": "... you mustn't get up yet.", "text": "yet 这个词一般用于否定句。get up 表示起床，在英语中有不少动词常与介词或副词连用，组成一个词组，称为动词短语，如 get up 就是一个动词短语。"},
+          {"title": "for another two days,", "text": "for 引导的表示时间的短语往往可以译作“达”、“计”。本课中 for about two hours each day 可译为“每天可达两小时”。each day 是“每天”的意思。"},
+          {"title": "keep the room warm", "text": "使房间保持暖和。"}
+        ]
+      },
+      {
+        "id": "lesson-reference-translation",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=126",
+        "text": "参考译文\n医生：吉米今天怎么样了？\n威廉斯夫人：他好些了。谢谢您，医生。\n医生：我可以看看他吗，威廉斯夫人？\n威廉斯夫人：当然可以，医生。上楼吧。\n\n医生：你看上去很好，吉米。你现在好些了，但你还不应该起床。你必须再卧床两天。\n\n医生：这孩子还不能去上学，威廉斯夫人，而且不能吃油腻的食物。\n威廉斯夫人：他还发烧吗，医生？\n医生：不，他不发烧了。\n威廉斯夫人：他还必须卧床吗？\n医生：是的，他还必须卧床两天。他每天可以起来两个小时，但您必须保持房间温暖。\n\n医生：威廉斯先生今晚去哪儿了？\n威廉斯夫人：他在床上呢，医生。您能看看他吗？他也得了重感冒！",
+        "translation": "Full Chinese reference translation of the lesson dialogue."
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-063-practice.jpg",
+        "title": "A Dialogue",
+        "instruction": "Read this. Fill in the missing words. 读下面的课文，填空。",
+        "translation": "Read the lesson dialogue and fill in the missing words.",
+        "expected_items": 11,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-063-067.jpg",
+        "context": "Multiple blanks in one printed sentence are one answer field; answers are listed in blank order, as in the supplied key.",
+        "questions": [
+          {"id": "practice-a-1", "number": "1", "prompt": "Mrs. Williams: Jimmy is ______ today, doctor.", "answer": "better", "rows": 1},
+          {"id": "practice-a-2", "number": "2", "prompt": "Doctor: ______ I see him, ______, Mrs. Williams?", "answer": "Can\nplease", "rows": 2},
+          {"id": "practice-a-3", "number": "3", "prompt": "Mrs. Williams: ______, doctor. Come ______.", "answer": "Certainly\nupstairs", "rows": 2},
+          {"id": "practice-a-4", "number": "4", "prompt": "Doctor: Hello, Jimmy. You ______ very ______.", "answer": "look\nwell", "rows": 2},
+          {"id": "practice-a-5", "number": "5", "prompt": "You are ______ now, but you ______ ______.", "answer": "better\nmustn't\nget up", "rows": 3},
+          {"id": "practice-a-6", "number": "6", "prompt": "You ______ stay in ______ for another two ______.", "answer": "must\nbed\ndays", "rows": 3},
+          {"id": "practice-a-7", "number": "7", "prompt": "You ______ go to school ______, and you ______ eat ______ food.", "answer": "mustn't\nyet\nmustn't\nrich", "rows": 4},
+          {"id": "practice-a-8", "number": "8", "prompt": "And your mother must ______ the room ______.", "answer": "keep\nwarm", "rows": 2},
+          {"id": "practice-a-9", "number": "9", "prompt": "Doctor: Where's Mr. Williams ______ evening?", "answer": "this", "rows": 1},
+          {"id": "practice-a-10", "number": "10", "prompt": "Mrs. Williams: He's in ______, doctor. Can you ______ him, please?", "answer": "bed\nsee", "rows": 2},
+          {"id": "practice-a-11", "number": "11", "prompt": "He ______ a ______ cold, ______!", "answer": "has\nbad\ntoo", "rows": 3}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-063-practice.jpg",
+        "title": "B Vocabulary",
+        "instruction": "Choose and write in the correct word. 选择正确的词填空。",
+        "translation": "Choose the correct word from the brackets and complete each sentence.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-063-067.jpg",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "Jimmy looks very ______ today. (good / well)", "answer": "well", "rows": 1},
+          {"id": "practice-b-2", "number": "2", "prompt": "You must ______ Jimmy's room warm, Mrs. Williams. (have / keep)", "answer": "keep", "rows": 1},
+          {"id": "practice-b-3", "number": "3", "prompt": "Please don't ______ any noise, children. (do / make)", "answer": "make", "rows": 1},
+          {"id": "practice-b-4", "number": "4", "prompt": "You mustn't ______ yet, Jimmy. You are not better yet. (stand / get up)", "answer": "get up", "rows": 1},
+          {"id": "practice-b-5", "number": "5", "prompt": "Does she ______ flu, doctor? (do / have)", "answer": "have", "rows": 1},
+          {"id": "practice-b-6", "number": "6", "prompt": "I have some good ______ for you. You can stay at home today. (new / news)", "answer": "news", "rows": 1},
+          {"id": "practice-b-7", "number": "7", "prompt": "You mustn't talk in a ______. You must be quiet. (bookcase / library)", "answer": "library", "rows": 1},
+          {"id": "practice-b-8", "number": "8", "prompt": "We have some books in the ______ in our living room. (bookcase / library)", "answer": "bookcase", "rows": 1},
+          {"id": "practice-b-9", "number": "9", "prompt": "Jimmy must ______ in bed for another two days. (go / remain)", "answer": "remain", "rows": 1},
+          {"id": "practice-b-10", "number": "10", "prompt": "The boy is very ill. He has a ______. (hot / temperature)", "answer": "temperature", "rows": 1}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=194",
+        "title": "I. Ask questions according to the example. 仿照例句提问。",
+        "instruction": "Ask questions according to the example. 仿照例句提问。",
+        "translation": "Make a can-question from each set of cues, following the example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=495",
+        "context": "Item 1 is a printed example and is not editable.",
+        "questions": [
+          {"id": "grammar-i-1", "number": "1", "prompt": "park my car here", "answer": "Can I park my car here?", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2", "number": "2", "prompt": "use your pencil", "answer": "Can I use your pencil?", "rows": 1},
+          {"id": "grammar-i-3", "number": "3", "prompt": "use your telephone", "answer": "Can I use your telephone?", "rows": 1},
+          {"id": "grammar-i-4", "number": "4", "prompt": "sit here", "answer": "Can I sit here?", "rows": 1},
+          {"id": "grammar-i-5", "number": "5", "prompt": "borrow your bike", "answer": "Can I borrow your bike?", "rows": 1},
+          {"id": "grammar-i-6", "number": "6", "prompt": "come to your house", "answer": "Can I come to your house?", "rows": 1},
+          {"id": "grammar-i-7", "number": "7", "prompt": "use a dictionary in the exam", "answer": "Can I use a dictionary in the exam?", "rows": 1},
+          {"id": "grammar-i-8", "number": "8", "prompt": "stay in bed today", "answer": "Can I stay in bed today?", "rows": 1},
+          {"id": "grammar-i-9", "number": "9", "prompt": "look at your new dress", "answer": "Can I look at your new dress?", "rows": 1},
+          {"id": "grammar-i-10", "number": "10", "prompt": "ask you a question", "answer": "Can I ask you a question?", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=195",
+        "title": "II. Answer the questions, using the cues given according to the examples. 仿照例句用所给词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the examples. 仿照例句用所给词回答下列问题。",
+        "translation": "Answer each how-long question using the given cue, following the examples.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=495",
+        "context": "Items 1 and 6 are printed examples and are not editable.",
+        "questions": [
+          {"id": "grammar-ii-1", "number": "1", "prompt": "How long must he stay in bed? (a week)", "answer": "He must stay in bed for a week.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-ii-2", "number": "2", "prompt": "How long must I take the medicine? (three days)", "answer": "You must take the medicine for three days.", "rows": 1},
+          {"id": "grammar-ii-3", "number": "3", "prompt": "How long must you play the piano? (about an hour every day)", "answer": "I must play the piano for about an hour every day.", "rows": 1},
+          {"id": "grammar-ii-4", "number": "4", "prompt": "How long must she work? (eight hours every day)", "answer": "She must work for eight hours every day.", "rows": 1},
+          {"id": "grammar-ii-5", "number": "5", "prompt": "How long must I stay in hospital? (about two weeks)", "answer": "You must stay in hospital for about two weeks.", "rows": 1},
+          {"id": "grammar-ii-6", "number": "6", "prompt": "How long can I use your bike? (two weeks)", "answer": "You can use my bike for two weeks.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-ii-7", "number": "7", "prompt": "How long can you live here? (about three months)", "answer": "I can live here for about three months.", "rows": 1},
+          {"id": "grammar-ii-8", "number": "8", "prompt": "How long can he stay with his grandmother? (about a month)", "answer": "He can stay with his grandmother for about a month.", "rows": 1},
+          {"id": "grammar-ii-9", "number": "9", "prompt": "How long can students keep books from the library? (two months)", "answer": "Students can keep books from the library for two months.", "rows": 1},
+          {"id": "grammar-ii-10", "number": "10", "prompt": "How long can Mary play in the garden? (about two hours)", "answer": "She can play in the garden for about two hours.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-iii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=195",
+        "title": "III. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each why question with a because-clause using the given illness cue.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=496",
+        "context": "Item 1 is a printed example and is not editable. The exercise continues on grammar PDF page 196.",
+        "questions": [
+          {"id": "grammar-iii-1", "number": "1", "prompt": "Why mustn't he open the window? (have a bad cold)", "answer": "Because he has a bad cold.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-iii-2", "number": "2", "prompt": "Why mustn't she go to school today? (have measles)", "answer": "Because she has measles.", "rows": 1},
+          {"id": "grammar-iii-3", "number": "3", "prompt": "Why mustn't I swim in the river? (have an earache)", "answer": "Because you have an earache.", "rows": 1},
+          {"id": "grammar-iii-4", "number": "4", "prompt": "Why mustn't he eat an ice cream? (have a toothache)", "answer": "Because he has a toothache.", "rows": 1},
+          {"id": "grammar-iii-5", "number": "5", "prompt": "Why mustn't I take off my coat? (have flu)", "answer": "Because you have flu.", "rows": 1},
+          {"id": "grammar-iii-6", "number": "6", "prompt": "Why mustn't they go out? (have mumps)", "answer": "Because they have mumps.", "rows": 1},
+          {"id": "grammar-iii-7", "number": "7", "prompt": "Why mustn't he get up? (have a temperature)", "answer": "Because he has a temperature.", "rows": 1},
+          {"id": "grammar-iii-8", "number": "8", "prompt": "Why mustn't she drink cold water? (have a stomachache)", "answer": "Because she has a stomachache.", "rows": 1},
+          {"id": "grammar-iii-9", "number": "9", "prompt": "Why mustn't he smoke? (have a bad cough)", "answer": "Because he has a bad cough.", "rows": 1},
+          {"id": "grammar-iii-10", "number": "10", "prompt": "Why mustn't she read a book? (have a headache)", "answer": "Because she has a headache.", "rows": 1}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 63 textbook main text and illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=125"},
+    {"label": "Lesson 63 textbook vocabulary, notes and reference translation", "href": "../pdf/新概念英语1 英语初阶.pdf#page=126"},
+    {"label": "Lesson 63 workbook practice scan", "href": "../img/lesson-063-practice.jpg"},
+    {"label": "Lessons 63-67 workbook answer key scan", "href": "../img/key-063-067.jpg"},
+    {"label": "Lesson 63 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=194"},
+    {"label": "Lesson 63 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=195"},
+    {"label": "Lesson 63 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=196"},
+    {"label": "Lesson 63 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=495"},
+    {"label": "Lesson 63 grammar answer key continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=496"}
+  ],
+  "characters": {
+    "mrs-williams": "An adult woman with a short blonde bob, wearing a light jacket over a patterned blouse.",
+    "jimmy": "A schoolboy with dark curly hair, lying in bed or standing in the scene.",
+    "doctor": "An elderly bald man with grey hair at the sides, wearing a coat and tie."
+  },
+  "images": {
+    "lesson-063-scene-01": {
+      "kind": "scene", "status": "pending",
+      "description": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs.",
+      "characters": ["mrs-williams", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-063-scene-02": {
+      "kind": "scene", "status": "pending",
+      "description": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days.",
+      "characters": ["jimmy", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-063-scene-03": {
+      "kind": "scene", "status": "pending",
+      "description": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed.",
+      "characters": ["mrs-williams", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-063-scene-04": {
+      "kind": "scene", "status": "pending",
+      "description": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too.",
+      "characters": ["mrs-williams", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    }
+  }
+}
