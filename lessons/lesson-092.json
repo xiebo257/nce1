@@ -1,0 +1,525 @@
+{
+  "number": 92,
+  "status": "verified",
+  "title": "When will ...?",
+  "translation": "什么时候要……？",
+  "description": "A lesson on the future tense with 'will'. A time-reference table (today/tomorrow/the day after tomorrow, with morning/afternoon/evening/night variants) is followed by sixteen small pictures, each showing a different activity (rain, snow, leave, get up, arrive, finish work, have a holiday, drive home, have a haircut, telephone me, have a shave, pack his bags, sweep the floor, paint this room, repair my car, make an appointment). Students practise forming future-time questions and answers. Written exercises A (rewrite sentences in short form) and B (confirm past sentences with future-time 'too' statements) are transcribed from the textbook. Workbook practice covers 'Has done, did and will do' conversations, short forms, and situational responses. Grammar exercises practise answering 'Are you going to ...?' questions with 'will' statements and giving short answers to 'Will ...?' questions.",
+  "answer_note": "Practice A ('Has done, did and will do' conversations) item 1 is a printed example; items 2-4 are taken from the supplied Lesson 92 key (img/key-091-095.jpg). Practice B (short forms) item 1 is a printed example; items 2-8 are taken from the supplied Lesson 92 key (img/key-091-095.jpg). Practice C (situations) 2 items are open-ended with suggested model answers (taken from the supplied Lesson 92 key). Written exercise A (rewrite in short form) 4 items are suggested standard short forms. Written exercise B (confirm with 'too') 8 items are suggested model answers following the printed example pattern. Grammar I (answer with 'will') item 1 is a printed example; items 2-10 are suggested model answers following the example (the grammar key pages in the PDF for Lesson 92 were located at viewer p. 507-508; answers cross-checked). Grammar II (short answers) 16 sub-items (8.a-h + 8.a-h) are suggested model answers. No external sources were used.",
+  "expected_answers": 47,
+  "sources": [
+    {
+      "label": "Lesson 92 textbook — time table and 16 pictures (p. 187)",
+      "href": "../img/lesson-092-01-text.jpg"
+    },
+    {
+      "label": "Lesson 92 textbook — written exercises (p. 188)",
+      "href": "../img/lesson-092-02-text.jpg"
+    },
+    {
+      "label": "Lesson 92 workbook practice scan",
+      "href": "../img/lesson-092-practice.jpg"
+    },
+    {
+      "label": "Lessons 91-95 workbook answer key scan",
+      "href": "../img/key-091-095.jpg"
+    },
+    {
+      "label": "Lesson 92 grammar exercises (pp. 263-265)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=263"
+    }
+  ],
+  "characters": {},
+  "images": {},
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-092-01-text.jpg",
+        "text": "Look at the time table and the sixteen pictures. For each picture, write a question using 'When will ...?' and an answer using 'will'.\n看时间表和16幅小图。就每幅图用\"When will ...?\"提问，并用\"will\"作答。",
+        "translation": "Look at the time table and the sixteen pictures. For each picture, write a 'When will ...?' question and a 'will' answer."
+      },
+      {
+        "id": "lesson-table",
+        "type": "text",
+        "source": "../img/lesson-092-01-text.jpg",
+        "text": "TODAY: this morning / this afternoon / this evening / tonight\nTOMORROW: tomorrow morning / tomorrow afternoon / tomorrow evening / tomorrow night\nTHE DAY AFTER TOMORROW: the day after tomorrow in the morning / the day after tomorrow in the afternoon / the day after tomorrow in the evening / the night after next",
+        "translation": "Time-reference table for today, tomorrow, and the day after tomorrow."
+      },
+      {
+        "id": "lesson-pictures",
+        "type": "text",
+        "source": "../img/lesson-092-01-text.jpg",
+        "text": "1st: rain\n2nd: snow\n3rd: leave\n4th: get up\n5th: arrive\n6th: finish work\n7th: have a holiday\n8th: drive home\n9th: have a haircut\n10th: telephone me\n11th: have a shave\n12th: pack his bags\n13th: sweep the floor\n14th: paint this room\n15th: repair my car\n16th: make an appointment",
+        "translation": "Sixteen small pictures, each showing a different activity for the 'When will ...?' exercise."
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-092-02-text.jpg",
+        "title": "Written exercises A — Rewrite these sentences",
+        "instruction": "Rewrite these sentences. 模仿例句改写以下句子。\n\nExample:\nIt will rain tomorrow.\nIt'll rain tomorrow.",
+        "translation": "Rewrite each sentence using the short form of 'will'.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Suggested standard short forms following the printed example pattern.",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "1. He will arrive tomorrow morning.",
+            "answer": "He'll arrive tomorrow morning.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "2. She will come this evening.",
+            "answer": "She'll come this evening.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "3. It will snow tonight.",
+            "answer": "It'll snow tonight.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "4. He will not believe me.",
+            "answer": "He won't believe me.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-092-02-text.jpg",
+        "title": "Written exercises B — Rewrite these sentences",
+        "instruction": "Rewrite these sentences. 模仿例句确认以下的每一句话。\n\nExample:\nIt rained yesterday.\nYes, and it will rain tomorrow, too.",
+        "translation": "Confirm each past-tense sentence with a future-tense 'too' statement, following the example.",
+        "expected_items": 8,
+        "answer_kind": "suggested",
+        "context": "Suggested model answers following the printed example pattern.",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "1. It snowed yesterday.",
+            "answer": "Yes, and it will snow tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "2. He got up late yesterday.",
+            "answer": "Yes, and he will get up late tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "3. He arrived late yesterday.",
+            "answer": "Yes, and he will arrive late tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "4. He finished work late yesterday.",
+            "answer": "Yes, and he will finish work late tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-5",
+            "number": "5",
+            "prompt": "5. She drove to London yesterday.",
+            "answer": "Yes, and she will drive to London tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-6",
+            "number": "6",
+            "prompt": "6. She telephoned him yesterday.",
+            "answer": "Yes, and she will telephone him tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-7",
+            "number": "7",
+            "prompt": "7. He had a shave yesterday.",
+            "answer": "Yes, and he will have a shave tomorrow, too.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-8",
+            "number": "8",
+            "prompt": "8. She swept the floor yesterday.",
+            "answer": "Yes, and she will sweep the floor tomorrow, too.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — Has done, did and will do",
+        "instruction": "Write conversations with these prompts. 根据提示完成以下对话。",
+        "translation": "Write a short conversation (question + answer) for each prompt, following the model pattern.",
+        "expected_items": 4,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-091-095.jpg",
+        "context": "4 items. Item 1 is a printed example (not editable). Items 2-4 are taken from the supplied Lesson 92 key (img/key-091-095.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "1. you / shut the windows yet? / No / soon",
+            "answer": "Have you shut the windows yet? / No, I haven't. But I'll shut them soon.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "2. he / go to work yesterday? / No / tomorrow",
+            "answer": "Did he go to work yesterday? / No, he didn't. But he'll go to work tomorrow.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "3. she / sell her house yet? / No / next month",
+            "answer": "Has she sold her house yet? / No, she hasn't. But she'll sell it next month.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "4. you / have a haircut last week? / No / next week",
+            "answer": "Did you have a haircut last week? / No, I didn't. But I'll have one / a haircut next week.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — Short forms",
+        "instruction": "Write these sentences with short forms. 用缩略形式改写以下句子。",
+        "translation": "Rewrite each sentence using the short form, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-091-095.jpg",
+        "context": "8 items. Item 1 is a printed example (not editable). Items 2-8 are taken from the supplied Lesson 92 key (img/key-091-095.jpg).",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. It will be very nice tomorrow.",
+            "answer": "It'll be very nice tomorrow.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. We will miss Ian and his wife.",
+            "answer": "We'll miss Ian and his wife.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. I will not drive home in this weather.",
+            "answer": "I won't drive home in this weather.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "4. I am going to have a holiday soon.",
+            "answer": "I'm going to have a holiday soon.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "5. He has sold his old car.",
+            "answer": "He's sold his old car.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-6",
+            "number": "6",
+            "prompt": "6. It has not snowed since January.",
+            "answer": "It hasn't snowed since January.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-7",
+            "number": "7",
+            "prompt": "7. We have not painted the room for a year.",
+            "answer": "We haven't painted the room for a year.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-8",
+            "number": "8",
+            "prompt": "8. He did not get up early yesterday.",
+            "answer": "He didn't get up early yesterday.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "title": "C — Situations",
+        "instruction": "Read the situations. What do you say in each? 根据以下情景写出你应该说的话。",
+        "translation": "For each situation, write what you would say.",
+        "expected_items": 2,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-091-095.jpg",
+        "context": "2 items. Both are taken from the supplied Lesson 92 key (img/key-091-095.jpg).",
+        "questions": [
+          {
+            "id": "practice-c-1",
+            "number": "1",
+            "prompt": "1. A friend is going to visit a girl you know well. You want the friend to give the girl your good wishes.",
+            "answer": "Please give her my regards.",
+            "rows": 2
+          },
+          {
+            "id": "practice-c-2",
+            "number": "2",
+            "prompt": "2. Someone tells you John has failed his exam. How do you express sympathy for John?",
+            "answer": "Poor John!",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Answer the questions according to the example. 仿照例句回答下列问题。",
+        "instruction": "Answer the questions according to the example. 仿照例句回答下列问题。\n\nExample (item 1):\nAre you going to finish work early tomorrow? — Yes, I'll finish work early tomorrow.",
+        "translation": "Answer each 'Are you going to ...?' question with a 'will' statement, following the printed example.",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are suggested model answers following the example (the grammar key pages in the PDF for Lesson 92 were located at viewer p. 507-508; answers cross-checked).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. Are you going to finish work early tomorrow?",
+            "answer": "Yes, I'll finish work early tomorrow.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. Are they going to have a party on Saturday night?",
+            "answer": "Yes, they'll have a party on Saturday night.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. Is he going to go to Shanghai on business next week?",
+            "answer": "Yes, he'll go to Shanghai on business next week.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. Are you going to paint your table and chairs soon?",
+            "answer": "Yes, I'll paint my table and chairs soon.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. Is he going to have a haircut at the weekend?",
+            "answer": "Yes, he'll have a haircut at the weekend.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. Is she going to have a holiday next year?",
+            "answer": "Yes, she'll have a holiday next year.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. Are they going to visit us soon?",
+            "answer": "Yes, they'll visit us soon.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. Are you going to telephone her on Sunday?",
+            "answer": "Yes, I'll telephone her on Sunday.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "9. Is it going to snow next month?",
+            "answer": "Yes, it'll snow next month.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "10. Are they going to move to a new house in July?",
+            "answer": "Yes, they'll move to a new house in July.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Give short answers to the questions according to the examples. 仿照例句简短回答下列问题。",
+        "instruction": "Give short answers to the questions according to the examples. 仿照例句简短回答下列问题。\n\nExample (1.a): Will he paint our room next Tuesday? — Yes, he will.\nExample (2.a): Will you finish the job tomorrow? — No, we won't.",
+        "translation": "Give a short 'will' answer to each question, following the printed examples.",
+        "expected_items": 16,
+        "answer_kind": "suggested",
+        "context": "16 sub-items (1.a-1.h + 2.a-2.h). Items 1.a and 2.a are printed examples (not editable). Items 1.b-1.h and 2.b-2.h are suggested model answers.",
+        "questions": [
+          {
+            "id": "grammar-ii-1a",
+            "number": "1.a",
+            "prompt": "1. a. Will he paint our room next Tuesday?",
+            "answer": "Yes, he will.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-1b",
+            "number": "1.b",
+            "prompt": "b. Will you have a haircut tomorrow afternoon?",
+            "answer": "Yes, I will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-1c",
+            "number": "1.c",
+            "prompt": "c. Will they meet in Beijing next month?",
+            "answer": "Yes, they will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-1d",
+            "number": "1.d",
+            "prompt": "d. Will he leave home for Japan next year?",
+            "answer": "Yes, he will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-1e",
+            "number": "1.e",
+            "prompt": "e. Will you drive to the seaside after dinner tomorrow evening?",
+            "answer": "Yes, I will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-1f",
+            "number": "1.f",
+            "prompt": "f. Will she pack her bags the day after tomorrow?",
+            "answer": "Yes, she will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-1g",
+            "number": "1.g",
+            "prompt": "g. Will they arrive at two o'clock tomorrow afternoon?",
+            "answer": "Yes, they will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-1h",
+            "number": "1.h",
+            "prompt": "h. Will you repair my car tomorrow morning?",
+            "answer": "Yes, I will.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2a",
+            "number": "2.a",
+            "prompt": "2. a. Will you finish the job tomorrow?",
+            "answer": "No, we won't.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2b",
+            "number": "2.b",
+            "prompt": "b. Will they be on holiday next month?",
+            "answer": "No, they won't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2c",
+            "number": "2.c",
+            "prompt": "c. Will you miss Ian?",
+            "answer": "No, I won't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2d",
+            "number": "2.d",
+            "prompt": "d. Will he have a shave tomorrow morning?",
+            "answer": "No, he won't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2e",
+            "number": "2.e",
+            "prompt": "e. Will she telephone you tomorrow morning?",
+            "answer": "No, she won't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2f",
+            "number": "2.f",
+            "prompt": "f. Will they make an appointment tomorrow?",
+            "answer": "No, they won't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2g",
+            "number": "2.g",
+            "prompt": "g. Will it snow tomorrow?",
+            "answer": "No, it won't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2h",
+            "number": "2.h",
+            "prompt": "h. Will it rain at the weekend?",
+            "answer": "No, it won't.",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  }
+}
