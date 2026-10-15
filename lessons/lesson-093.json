@@ -1,0 +1,463 @@
+{
+  "number": 93,
+  "status": "verified",
+  "title": "Our new neighbour",
+  "translation": "我们的新邻居",
+  "description": "A monologue lesson about Nigel, a pilot who is the family's new next-door neighbour. He was in the Royal Air Force, is only forty-one years old, and has already been to nearly every country in the world. He is currently in Madrid, will fly to New York next month, and Tokyo the month after next, and will return to London the week after next. Nigel is described as a very lucky man, but his wife isn't very lucky because she usually stays at home. New vocabulary includes pilot, return, New York, Tokyo, Madrid, and fly. Workbook practice covers answering comprehension questions about the text and matching cities with countries before writing sentences about Nigel's travels. Grammar exercises practise asking and answering questions with shall/will using given cues, and completing dialogues using the cues given.",
+  "answer_note": "Lesson listening question (Why is Nigel a lucky man) is a suggested model answer based on the text. Practice A (comprehension) 12 questions have suggested model answers derived from the text; no official key is available in the workbook key scan. Practice B (match cities and write sentences) item 1 is a printed example; items 2-5 are suggested model answers. Grammar I (ask and answer) item 1 is a printed example; items 2-10 are taken from the supplied Lesson 93 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 508-509). Grammar II (complete the dialogues) item 1 is a printed example; items 2-10 are taken from the supplied Lesson 93 grammar key (PDF viewer p. 509). No external sources were used.",
+  "expected_answers": 35,
+  "sources": [
+    {
+      "label": "Lesson 93 textbook — text and illustration (p. 189)",
+      "href": "../img/lesson-093-01-text.jpg"
+    },
+    {
+      "label": "Lesson 93 textbook — vocabulary, notes, and translation (p. 190)",
+      "href": "../img/lesson-093-02-text.jpg"
+    },
+    {
+      "label": "Lesson 93 workbook practice scan",
+      "href": "../img/lesson-093-practice.jpg"
+    },
+    {
+      "label": "Lessons 91-95 workbook answer key scan",
+      "href": "../img/key-091-095.jpg"
+    },
+    {
+      "label": "Lesson 93 grammar exercises (pp. 281-283)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=281"
+    }
+  ],
+  "characters": {
+    "nigel": "A middle-aged man in a pilot's uniform with a cap, the family's new next-door neighbour."
+  },
+  "images": {
+    "lesson-093-scene-01": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Nigel, a pilot in uniform and cap, stands beside an aeroplane. The scene includes illustrations of New York, Tokyo, Madrid (Spain), and London, showing his travel destinations.",
+      "characters": [
+        "nigel"
+      ],
+      "source": "../img/lesson-093-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    }
+  },
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "text": "Listen then answer this question. Why is Nigel a lucky man?\n听录音，然后回答问题。为什么说奈杰尔很幸运？",
+        "translation": "Listen to the recording and answer the question: Why is Nigel a lucky man?"
+      },
+      {
+        "id": "lesson-text",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "lesson-093-scene-01",
+        "text": "Nigel is our new next-door neighbour.\nHe's a pilot.\n\nHe was in the R.A.F.\n\nHe will fly to New York next month.\n\nThe month after next he'll fly to Tokyo.\n\nAt the moment, he's in Madrid.\nHe flew to Spain a week ago.\n\nHe'll return to London\nthe week after next.\n\nHe's only forty-one years old,\nand he has already been\nto nearly every country in the world.\n\nNigel is a very lucky man.\nBut his wife isn't very lucky.\nShe usually stays at home!",
+        "translation": "奈杰尔是我们新搬来的隔壁邻居。他是个飞行员。\n他曾在皇家空军任职。\n下个月他将飞往纽约。\n再下个月他将飞往东京。\n现在他在马德里。他是一星期以前飞到西班牙的。\n再下个星期他将返回伦敦。\n他只有41岁，但他却去过世界上几乎每一个国家。\n奈杰尔是个很幸运的人。但他的妻子运气不好。她总是呆在家里！"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-093-01-text.jpg",
+        "title": "Listen then answer this question",
+        "instruction": "Listen then answer this question. Why is Nigel a lucky man? 听录音，然后回答问题。为什么说奈杰尔很幸运？",
+        "translation": "Listen to the recording and answer: Why is Nigel a lucky man?",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "Why is Nigel a lucky man?",
+            "answer": "Nigel is a very lucky man because he's only forty-one years old and he has already been to nearly every country in the world.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../img/lesson-093-02-text.jpg",
+        "items": [
+          {
+            "word": "pilot",
+            "ipa": "/ˈpaɪlət/",
+            "pos": "n.",
+            "meaning": "飞行员"
+          },
+          {
+            "word": "return",
+            "ipa": "/rɪˈtɜːn/",
+            "pos": "v.",
+            "meaning": "返回"
+          },
+          {
+            "word": "New York",
+            "ipa": "/njuː ˈjɔːk/",
+            "pos": "n.",
+            "meaning": "纽约"
+          },
+          {
+            "word": "Tokyo",
+            "ipa": "/təʊˈkiəʊ/",
+            "pos": "n.",
+            "meaning": "东京"
+          },
+          {
+            "word": "Madrid",
+            "ipa": "/məˈdrid/",
+            "pos": "n.",
+            "meaning": "马德里"
+          },
+          {
+            "word": "fly",
+            "ipa": "/flaɪ/ (flew /fluː/, flown /flɔːn/)",
+            "pos": "v.",
+            "meaning": "飞行"
+          }
+        ]
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "../img/lesson-093-02-text.jpg",
+        "items": [
+          {
+            "title": "next-door neighbour",
+            "text": "next-door neighbour, 隔壁邻居。next-door 是一个复合词，作定语。"
+          },
+          {
+            "title": "the R.A.F.",
+            "text": "the R.A.F. = the Royal Air Force, 英国皇家空军。"
+          },
+          {
+            "title": "He is only forty-one years old, and he has ...",
+            "text": "本句中的 and 相当于 but（而……），起转折作用。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — Comprehension",
+        "instruction": "Look at the text on Students' Book page 189 and answer these questions. 参见学生用书第189页上的课文，然后回答以下问题。",
+        "translation": "Read the lesson text and answer each question.",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "Who is Nigel?",
+            "answer": "Nigel is our new next-door neighbour.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "What does he do?",
+            "answer": "He's a pilot.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "What was he in?",
+            "answer": "He was in the R.A.F. (the Royal Air Force).",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "Where will he fly next month?",
+            "answer": "He will fly to New York next month.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "What will he do the month after next?",
+            "answer": "He'll fly to Tokyo the month after next.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "Where is he at the moment?",
+            "answer": "He's in Madrid at the moment.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-7",
+            "number": "7",
+            "prompt": "What did he do a week ago?",
+            "answer": "He flew to Spain a week ago.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-8",
+            "number": "8",
+            "prompt": "When will he return to London?",
+            "answer": "He'll return to London the week after next.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-9",
+            "number": "9",
+            "prompt": "How old is he?",
+            "answer": "He's only forty-one years old.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-10",
+            "number": "10",
+            "prompt": "Where has he already been?",
+            "answer": "He has already been to nearly every country in the world.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-11",
+            "number": "11",
+            "prompt": "Is his wife very lucky?",
+            "answer": "No, his wife isn't very lucky.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-12",
+            "number": "12",
+            "prompt": "Why isn't she very lucky?",
+            "answer": "Because she usually stays at home.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — Vocabulary: Match cities with countries and write sentences",
+        "instruction": "Match the cities with the countries, then write possible sentences about Nigel below. 为第一栏中的城市找出其所在国家的名称，然后根据奈杰尔的情况造句。\n\nCities: New York, Tokyo, Berlin, Bombay, Sydney, Madrid, Moscow, Rome, Geneva, Paris, Beijing, Athens\nCountries: Japan, Greece, America, Germany, China, India, Switzerland, Spain, Russia, Italy, Australia, France\n\nExample (item 1): Last week he flew to Madrid in Spain.",
+        "translation": "Match each city with its country, then write five sentences about Nigel's travels following the printed example.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "Last week he flew to ______ in ______.",
+            "answer": "Madrid, Spain",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "Write a sentence about Tokyo.",
+            "answer": "Last month he flew to Tokyo in Japan.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "Write a sentence about New York.",
+            "answer": "Next month he will fly to New York in America.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "Write a sentence about Beijing.",
+            "answer": "Two years ago he flew to Beijing in China.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "Write a sentence about Sydney.",
+            "answer": "The year before last he flew to Sydney in Australia.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Ask and answer questions, using the cues given according to the example. 仿照例句用所给的词提问并回答。",
+        "instruction": "Ask and answer questions, using the cues given according to the example. 仿照例句用所给的词提问并回答。\n\nExample (item 1):\nyou/have a haircut/next week/last week\nWill you have a haircut next week?\nNo, I won't. I had a haircut last week.",
+        "translation": "Ask a question and give a short answer using the cues, following the printed example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are taken from the supplied Lesson 93 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 508-509).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. you/have a haircut/next week/last week\nWill you have a haircut next week?\nNo, I won't. I had a haircut last week.",
+            "answer": "Will you have a haircut next week?\nNo, I won't. I had a haircut last week.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. she/clean the kitchen/tomorrow morning/yesterday morning",
+            "answer": "Will she clean the kitchen tomorrow morning?\nNo, she won't. She cleaned the kitchen yesterday morning.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. they/go to London/next month/last month",
+            "answer": "Will they go to London next month?\nNo, they won't. They went to London last month.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. he/visit Seoul/next May/last May",
+            "answer": "Will he visit Seoul next May?\nNo, he won't. He visited Seoul last May.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. you/play football/tomorrow afternoon/yesterday afternoon",
+            "answer": "Will you play football tomorrow afternoon?\nNo, I/we won't. I/We played football yesterday afternoon.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. your son/go to England/next year/last year",
+            "answer": "Will your son go to England next year?\nNo, he won't. He went to England last year.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. they/fly to Rome/the month after next/the month before last",
+            "answer": "Will they fly to Rome the month after next?\nNo, they won't. They flew to Rome the month before last.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. she/stay in Berlin/next October/last October",
+            "answer": "Will she stay in Berlin next October?\nNo, she won't. She stayed in Berlin last October.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "9. he/work in Sydney/next year/last year",
+            "answer": "Will he work in Sydney next year?\nNo, he won't. He worked in Sydney last year.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "10. you/see the film/tomorrow/yesterday",
+            "answer": "Will you see the film tomorrow?\nNo, I won't. I saw the film yesterday.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Complete the dialogues, using the cues given according to the example. 仿照例句用所给的词完成下列对话。",
+        "instruction": "Complete the dialogues, using the cues given according to the example. 仿照例句用所给的词完成下列对话。\n\nExample (item 1):\nWhen will you go to Moscow? (next Friday)\nI shall go to Moscow next Friday.\nWho will go with you? (my boss)\nMy boss will go with me.",
+        "translation": "Complete each dialogue using the cues in parentheses, following the printed example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are taken from the supplied Lesson 93 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 509).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. When will you go to Moscow? (next Friday)\n______\nWho will go with you? (my boss)\n______",
+            "answer": "I shall go to Moscow next Friday. / My boss will go with me.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. When will she leave Madrid? (next month)\n______\nWho will go with her? (her husband)\n______",
+            "answer": "She will leave Madrid next month. / Her husband will go with her.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. When will you go to the butcher's? (tomorrow morning)\n______\nWho will go with you? (my friend)\n______",
+            "answer": "I shall go to the butcher's tomorrow morning. / My friend will go with me.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. When will they travel to New York? (next week)\n______\nWho will go with them? (I)\n______",
+            "answer": "They will travel to New York next week. / I shall go with them.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. When will you clean your room? (tomorrow)\n______\nWho will help you? (my sister)\n______",
+            "answer": "I shall clean my room tomorrow. / My sister will help me.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. When will he pack his bags? (the day after tomorrow)\n______\nWho will do it with him? (his wife)\n______",
+            "answer": "He will pack his bags the day after tomorrow. / His wife will do it with him.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. When shall we go to the beach? (tomorrow evening)\n______\nWho will go with us? (our children)\n______",
+            "answer": "We shall go to the beach tomorrow evening. / Our children will go with us.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. When will she visit her sick uncle? (next Monday)\n______\nWho will go with her? (her brother)\n______",
+            "answer": "She will visit her sick uncle next Monday. / Her brother will go with her.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "9. When will he repair the car? (tomorrow afternoon)\n______\nWho will help him? (his assistant)\n______",
+            "answer": "He will repair the car tomorrow afternoon. / His assistant will help him.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "10. When will you fly to Tokyo? (the day after tomorrow)\n______\nWho will go with you? (my friend Nigel)\n______",
+            "answer": "I shall fly to Tokyo the day after tomorrow. / My friend Nigel will go with me.",
+            "rows": 2
+          }
+        ]
+      }
+    ]
+  }
+}
