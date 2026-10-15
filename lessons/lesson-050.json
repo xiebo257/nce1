@@ -12,9 +12,104 @@
         "id": "lesson-picture-prompts",
         "type": "text",
         "source": "../img/lesson-050-01-text.jpg",
-        "text": "Lesson 50. He likes ... But he doesn’t like ...\nListen and answer the questions. The page shows produce-stall pictures labelled with ordinal dates and item names. Read the dates and labels as printed:\n13th — thirteenth; CHOICE TOMATOES.\n14th — fourteenth; NEW POTATOES.\n15th — fifteenth; FRESH CABBAGES.\n16th — sixteenth; FRESH LETTUCES.\n17th — seventeenth; GARDEN PEAS.\n18th — eighteenth; GARDEN BEANS.\n19th — nineteenth; RIPE BANANAS.\n20th — twentieth; SWEET ORANGES.\n21st — twenty-first; CHOICE APPLES.\n22nd — twenty-second; CHOICE PEARS.\n23rd — twenty-third; CHOICE GRAPES.\n24th — twenty-fourth; CHOICE PEACHES.",
-        "translation": "第50课：他喜欢……但是他不喜欢……\n听录音并回答问题。页面展示蔬果摊上的图片，标有序数日期和商品名称。",
-        "image": "lesson-picture-13"
+        "text": "Lesson 50. He likes ... But he doesn’t like ...\nListen and answer the questions. The page shows produce-stall pictures labelled with ordinal dates and item names. Read the dates and labels as printed:",
+        "translation": "第50课：他喜欢……但是他不喜欢……\n听录音并回答问题。页面展示蔬果摊上的图片，标有序数日期和商品名称。"
+      },
+      {
+        "id": "lesson-item-13",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-13",
+        "text": "13th — thirteenth; CHOICE TOMATOES.",
+        "translation": "第 13；上等的西红柿。"
+      },
+      {
+        "id": "lesson-item-14",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-14",
+        "text": "14th — fourteenth; NEW POTATOES.",
+        "translation": "第 14；新土豆。"
+      },
+      {
+        "id": "lesson-item-15",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-15",
+        "text": "15th — fifteenth; FRESH CABBAGES.",
+        "translation": "第 15；新鲜的卷心菜。"
+      },
+      {
+        "id": "lesson-item-16",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-16",
+        "text": "16th — sixteenth; FRESH LETTUCES.",
+        "translation": "第 16；新鲜的生菜。"
+      },
+      {
+        "id": "lesson-item-17",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-17",
+        "text": "17th — seventeenth; GARDEN PEAS.",
+        "translation": "第 17；青豌豆。"
+      },
+      {
+        "id": "lesson-item-18",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-18",
+        "text": "18th — eighteenth; GARDEN BEANS.",
+        "translation": "第 18；青豆。"
+      },
+      {
+        "id": "lesson-item-19",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-19",
+        "text": "19th — nineteenth; RIPE BANANAS.",
+        "translation": "第 19；成熟的香蕉。"
+      },
+      {
+        "id": "lesson-item-20",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-20",
+        "text": "20th — twentieth; SWEET ORANGES.",
+        "translation": "第 20；甜橙。"
+      },
+      {
+        "id": "lesson-item-21",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-21",
+        "text": "21st — twenty-first; CHOICE APPLES.",
+        "translation": "第 21；上等的苹果。"
+      },
+      {
+        "id": "lesson-item-22",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-22",
+        "text": "22nd — twenty-second; CHOICE PEARS.",
+        "translation": "第 22；上等的梨。"
+      },
+      {
+        "id": "lesson-item-23",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-23",
+        "text": "23rd — twenty-third; CHOICE GRAPES.",
+        "translation": "第 23；上等的葡萄。"
+      },
+      {
+        "id": "lesson-item-24",
+        "type": "text",
+        "source": "../img/lesson-050-01-text.jpg",
+        "image": "item-24",
+        "text": "24th — twenty-fourth; CHOICE PEACHES.",
+        "translation": "第 24；上等的桃子。"
       },
       {
         "id": "lesson-vocabulary",
@@ -575,13 +670,101 @@
   ],
   "characters": {},
   "images": {
-    "lesson-picture-13": {
+    "item-13": {
       "kind": "item",
       "status": "pending",
-      "description": "A produce-stall illustration labelled CHOICE TOMATOES beside the ordinal date 13th.",
+      "description": "A clear textbook vocabulary illustration of choice tomatoes, matching the source label CHOICE TOMATOES.",
       "characters": [],
       "source": "../img/lesson-050-01-text.jpg",
-      "reason": "Even lesson picture prompt; image pending."
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-14": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of new potatoes, matching the source label NEW POTATOES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-15": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of fresh cabbages, matching the source label FRESH CABBAGES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-16": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of fresh lettuces, matching the source label FRESH LETTUCES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-17": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of garden peas, matching the source label GARDEN PEAS.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-18": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of garden beans, matching the source label GARDEN BEANS.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-19": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of ripe bananas, matching the source label RIPE BANANAS.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-20": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of sweet oranges, matching the source label SWEET ORANGES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-21": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of choice apples, matching the source label CHOICE APPLES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-22": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of choice pears, matching the source label CHOICE PEARS.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-23": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of choice grapes, matching the source label CHOICE GRAPES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
+    },
+    "item-24": {
+      "kind": "item",
+      "status": "pending",
+      "description": "A clear textbook vocabulary illustration of choice peaches, matching the source label CHOICE PEACHES.",
+      "characters": [],
+      "source": "../img/lesson-050-01-text.jpg",
+      "reason": "Text-first batch; each vocabulary picture has its own deferred slot."
     }
   },
   "verification": {
