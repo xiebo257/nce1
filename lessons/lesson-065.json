@@ -1,0 +1,319 @@
+{
+  "number": 65,
+  "status": "verified",
+  "title": "Not a baby",
+  "translation": "不是小孩子",
+  "description": "A bilingual lesson in which Jill's father insists she come home by half past ten and won't give her the front-door key, while her mother insists she is not a baby and he should. Includes workbook fill-in dialogue, clock times and reflexive-pronoun structure, plus grammar on reflexive pronouns and usual-vs-today sentences. 吉尔的爸爸坚持她必须在10点半前回家、不肯把前门的钥匙给她，而妈妈坚持她不是小孩子、应该给她钥匙。配合教材填空对话、看钟报时和反身代词练习，以及反身代词和「通常……但今天不」的语法练习。",
+  "answer_note": "The before-listening question has no official key and its answer is labelled suggested. Workbook answers are taken from the supplied Lesson 65 key (img/key-063-067.jpg); practice B clock times are constructed from the printed example (9:30 → It's half-past nine) and labelled suggested. Grammar answers are taken from the supplied Lesson 65 grammar key (PDF viewer pages 498-499). No external sources were used.",
+  "expected_answers": 45,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "text": "Listen then answer this question. Does Jill take the key to the front door? 听录音，然后回答问题。吉尔有没有拿到大门的钥匙？",
+        "translation": "Listen then answer this question. Does Jill take the key to the front door?"
+      },
+      {
+        "id": "lesson-scene-01",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "image": "lesson-065-scene-01",
+        "lines": [
+          {"number": 1, "speaker": "Father", "text": "What are you going to do this evening, Jill?", "translation": "今晚你打算干什么，吉尔？"},
+          {"number": 2, "speaker": "Jill", "text": "I'm going to meet some friends, Dad.", "translation": "我打算去看几个朋友，爸爸。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-02",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "image": "lesson-065-scene-02",
+        "lines": [
+          {"number": 3, "speaker": "Father", "text": "You mustn't come home late.\nYou must be home at half past ten.", "translation": "你不准回家太晚，你必须在10点半到家。"},
+          {"number": 4, "speaker": "Jill", "text": "I can't get home so early, Dad!", "translation": "这么早我回到了不了家，爸爸！"}
+        ]
+      },
+      {
+        "id": "lesson-scene-03",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "image": "lesson-065-scene-03",
+        "lines": [
+          {"number": 5, "speaker": "Jill", "text": "Can I have the key to the front door, please?", "translation": "我能带上前门的钥匙吗？"},
+          {"number": 6, "speaker": "Father", "text": "No, you can't.", "translation": "不行，你不能带。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-04",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "image": "lesson-065-scene-04",
+        "lines": [
+          {"number": 7, "speaker": "Mother", "text": "Jill's eighteen years old, Tom.\nShe's not a baby.\nGive her the key.\nShe always comes home early.", "translation": "吉尔都18岁了，汤姆。她不是小孩子了。把钥匙给她吧。她总是早早回家的。"},
+          {"number": 8, "speaker": "Father", "text": "Oh, all right!", "translation": "那么，好吧！"}
+        ]
+      },
+      {
+        "id": "lesson-scene-05",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "image": "lesson-065-scene-05",
+        "lines": [
+          {"number": 9, "speaker": "Father", "text": "Here you are.\nBut you mustn't come home\nafter a quarter past eleven.\nDo you hear?", "translation": "拿去。但你不能超过11点1刻回家。听见了吗？"},
+          {"number": 10, "speaker": "Jill", "text": "Yes, Dad.", "translation": "听见了，爸爸。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-06",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "image": "lesson-065-scene-06",
+        "lines": [
+          {"number": 11, "speaker": "Jill", "text": "Thanks, Mum.", "translation": "谢谢，妈妈。"},
+          {"number": 12, "speaker": "Mother", "text": "That's all right.\nGoodbye.\nEnjoy yourself!", "translation": "不用谢。再见。好好玩吧！"},
+          {"number": 13, "speaker": "Jill", "text": "We always enjoy ourselves, Mum.\nBye-bye.", "translation": "我们总是玩得很开心的，妈妈。再见。"}
+        ]
+      },
+      {
+        "id": "lesson-listening-answer",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+        "title": "Before-listening question",
+        "instruction": "Listen then answer this question. Does Jill take the key to the front door? 听录音，然后回答问题。吉尔有没有拿到大门的钥匙？",
+        "translation": "Answer the question according to the dialogue. 根据对话回答问题。",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "context": "After Mother insists Jill is not a baby and should have the key, Father agrees and says 'Here you are.'",
+        "questions": [
+          {"id": "lesson-listening-answer-1", "number": "1", "prompt": "Does Jill take the key to the front door?", "answer": "Yes, she does. After her mother insists she is not a baby, her father agrees and gives her the key.", "rows": 2}
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=130",
+        "items": [
+          {"word": "dad", "ipa": "/dæd/", "pos": "n.", "meaning": "爸爸"},
+          {"word": "key", "ipa": "/kiː/", "pos": "n.", "meaning": "钥匙"},
+          {"word": "baby", "ipa": "/ˈbeɪbi/", "pos": "n.", "meaning": "婴儿"},
+          {"word": "hear", "ipa": "/hɪə/", "pos": "v.", "meaning": "听见"},
+          {"word": "enjoy", "ipa": "/ɪnˈdʒɔɪ/", "pos": "v.", "meaning": "玩得快活"},
+          {"word": "yourself", "ipa": "/jɔːˈself/", "pos": "pron.", "meaning": "你自己"},
+          {"word": "ourselves", "ipa": "/ˌaʊəˈselvz/", "pos": "pron.", "meaning": "我们自己"},
+          {"word": "mum", "ipa": "/mʌm/", "pos": "n.", "meaning": "妈妈"}
+        ]
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=130",
+        "items": [
+          {"title": "the key to the front door,", "text": "to the front door 是介词短语，作定语，修饰 key。"},
+          {"title": "a quarter past eleven,", "text": "11点1刻，past 是介词。"},
+          {"title": "Enjoy yourself!", "text": "好好玩吧。在 enjoy 这个动词后面往往有一个反身代词，如 yourself, ourselves, himself, herself 等。"}
+        ]
+      },
+      {
+        "id": "lesson-reference-translation",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=130",
+        "text": "参考译文\n父亲：今晚你打算干什么，吉尔？\n吉尔：我打算去看几个朋友，爸爸。\n\n父亲：你不准回家太晚，你必须在10点半到家。\n吉尔：这么早我回到了不了家，爸爸！\n\n吉尔：我能带上前门的钥匙吗？\n父亲：不行，你不能带。\n\n母亲：吉尔都18岁了，汤姆。她不是小孩子了。把钥匙给她吧。她总是早早回家的。\n父亲：那么，好吧！\n\n父亲：拿去。但你不能超过11点1刻回家。听见了吗？\n吉尔：听见了，爸爸。\n\n吉尔：谢谢，妈妈。\n母亲：不用谢。再见。好好玩吧！\n吉尔：我们总是玩得很开心的，妈妈。再见。",
+        "translation": "Full Chinese reference translation of the lesson dialogue."
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-065-practice.jpg",
+        "title": "A Dialogue",
+        "instruction": "Read this. Fill in the missing words. 读下面的课文，填空。",
+        "translation": "Read the lesson dialogue and fill in the missing words.",
+        "expected_items": 9,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-063-067.jpg",
+        "context": "Multiple blanks in one printed sentence are one answer field; answers are listed in blank order, as in the supplied key.",
+        "questions": [
+          {"id": "practice-a-1", "number": "1", "prompt": "Father: What ______ you ______ to ______ this evening, Jill?", "answer": "are\ngoing\ndo", "rows": 3},
+          {"id": "practice-a-2", "number": "2", "prompt": "Jill: I'm ______ to ______ some friends, Dad.", "answer": "going\nmeet", "rows": 2},
+          {"id": "practice-a-3", "number": "3", "prompt": "Father: You ______ come home ______.", "answer": "mustn't\nlate", "rows": 2},
+          {"id": "practice-a-4", "number": "4", "prompt": "You ______ be home ______ half ______ ten.", "answer": "must\nat\npast", "rows": 3},
+          {"id": "practice-a-5", "number": "5", "prompt": "Jill: ______ I have the ______ to the front door, Dad?", "answer": "Can\nkey", "rows": 2},
+          {"id": "practice-a-6", "number": "6", "prompt": "Mother: Jill's 18 years ______, Tom. She's not a ______.", "answer": "old\nbaby", "rows": 2},
+          {"id": "practice-a-7", "number": "7", "prompt": "Give ______ the key. She always ______ home ______.", "answer": "her\ncomes\nearly", "rows": 3},
+          {"id": "practice-a-8", "number": "8", "prompt": "Father: Oh, all ______! Here you ______, Jill.", "answer": "right\nare", "rows": 2},
+          {"id": "practice-a-9", "number": "9", "prompt": "Here's the ______.", "answer": "key", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-065-practice.jpg",
+        "title": "B What's the time?",
+        "instruction": "Write the times under the clocks. 在横线上写出时间。",
+        "translation": "Write each time in words, following the printed example (9:30 → It's half-past nine).",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Item 1 (9:30) is a printed example and is not editable. The workbook key does not cover this exercise; the remaining times are constructed from the printed example and labelled suggested.",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "9:30", "answer": "It's half-past nine.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-b-2", "number": "2", "prompt": "9:15", "answer": "It's a quarter past nine.", "rows": 1},
+          {"id": "practice-b-3", "number": "3", "prompt": "9:45", "answer": "It's a quarter to ten.", "rows": 1},
+          {"id": "practice-b-4", "number": "4", "prompt": "12:15", "answer": "It's a quarter past twelve.", "rows": 1},
+          {"id": "practice-b-5", "number": "5", "prompt": "12:45", "answer": "It's a quarter to one.", "rows": 1},
+          {"id": "practice-b-6", "number": "6", "prompt": "12:30", "answer": "It's half past twelve.", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "source": "../img/lesson-065-practice.jpg",
+        "title": "C Structure",
+        "instruction": "Fill in the correct word in these sentences - myself, yourself, etc. 用正确的反身代词填空。",
+        "translation": "Fill in the correct reflexive pronoun in each sentence.",
+        "expected_items": 7,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-063-067.jpg",
+        "questions": [
+          {"id": "practice-c-1", "number": "1", "prompt": "I am enjoying ______.", "answer": "myself", "rows": 1},
+          {"id": "practice-c-2", "number": "2", "prompt": "Enjoy ______, Jill!", "answer": "yourself", "rows": 1},
+          {"id": "practice-c-3", "number": "3", "prompt": "He always enjoys ______ at school.", "answer": "himself", "rows": 1},
+          {"id": "practice-c-4", "number": "4", "prompt": "Is she enjoying ______?", "answer": "herself", "rows": 1},
+          {"id": "practice-c-5", "number": "5", "prompt": "We aren't enjoying ______.", "answer": "ourselves", "rows": 1},
+          {"id": "practice-c-6", "number": "6", "prompt": "Are you two enjoying ______?", "answer": "yourselves", "rows": 1},
+          {"id": "practice-c-7", "number": "7", "prompt": "Jim and Jill are enjoying ______.", "answer": "themselves", "rows": 1}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=199",
+        "title": "I. Fill in the blanks with reflexive pronouns. 用反身代词填空。",
+        "instruction": "Fill in the blanks with reflexive pronouns. 用反身代词填空。",
+        "translation": "Fill in the correct reflexive pronoun in each sentence.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498",
+        "questions": [
+          {"id": "grammar-i-1", "number": "1", "prompt": "Jane and Jack are enjoying ______ at the party.", "answer": "themselves", "rows": 1},
+          {"id": "grammar-i-2", "number": "2", "prompt": "Are you having a good time? Yes, I'm enjoying ______.", "answer": "myself", "rows": 1},
+          {"id": "grammar-i-3", "number": "3", "prompt": "That knife is very sharp. Don't cut ______!", "answer": "yourself", "rows": 1},
+          {"id": "grammar-i-4", "number": "4", "prompt": "This mirror is very dirty. I can't see ______ in it.", "answer": "myself", "rows": 1},
+          {"id": "grammar-i-5", "number": "5", "prompt": "Please be careful. Don't hurt ______ with that knife.", "answer": "yourself", "rows": 1},
+          {"id": "grammar-i-6", "number": "6", "prompt": "Oh, look! He's going to cut ______!", "answer": "himself", "rows": 1},
+          {"id": "grammar-i-7", "number": "7", "prompt": "The cat is washing ______ in the garden.", "answer": "itself", "rows": 1},
+          {"id": "grammar-i-8", "number": "8", "prompt": "She can't see ______ in the mirror. It is high on the wall.", "answer": "herself", "rows": 1},
+          {"id": "grammar-i-9", "number": "9", "prompt": "Is Mary enjoying ______? Yes, she is.", "answer": "herself", "rows": 1},
+          {"id": "grammar-i-10", "number": "10", "prompt": "What's he doing? He's looking at ______ in the mirror.", "answer": "himself", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=199",
+        "title": "II. Make sentences, using the cues given according to the example. 仿照例句用所给的词造句。",
+        "instruction": "Make sentences, using the cues given according to the example. 仿照例句用所给的词造句。",
+        "translation": "Make a 'usually ... but this/today ... not going to' sentence from each set of cues, following the example.",
+        "expected_items": 7,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498",
+        "context": "Item 1 is a printed example and is not editable. The exercise continues on grammar PDF page 200.",
+        "questions": [
+          {"id": "grammar-ii-1", "number": "1", "prompt": "I/do my homework/seven thirty/evening", "answer": "I usually do my homework at seven thirty in the evening, but this evening I'm not going to.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-ii-2", "number": "2", "prompt": "Linda/get up/six/morning", "answer": "Linda usually gets up at six in the morning, but this morning she isn't going to.", "rows": 2},
+          {"id": "grammar-ii-3", "number": "3", "prompt": "he/go to bed/ten/night", "answer": "He usually goes to bed at ten at night, but tonight he isn't going to.", "rows": 2},
+          {"id": "grammar-ii-4", "number": "4", "prompt": "they/walk along the beach/six thirty/morning", "answer": "They usually walk along the beach at six thirty in the morning, but this morning they aren't going to.", "rows": 2},
+          {"id": "grammar-ii-5", "number": "5", "prompt": "we/eat our lunch/noon every day", "answer": "We usually eat our lunch at noon every day, but today we aren't going to.", "rows": 2},
+          {"id": "grammar-ii-6", "number": "6", "prompt": "mother/cook a meal/five/afternoon", "answer": "Mother usually cooks a meal at five in the afternoon, but this afternoon she isn't going to.", "rows": 2},
+          {"id": "grammar-ii-7", "number": "7", "prompt": "they/play basketball/four/afternoon", "answer": "They usually play basketball at four in the afternoon, but this afternoon they aren't going to.", "rows": 2}
+        ]
+      },
+      {
+        "id": "grammar-iii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=200",
+        "title": "III. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each how-old question and what-can-you-do question using the cues, following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498",
+        "context": "Item 1 is a printed example and is not editable. The exercise continues on grammar PDF page 201. Each item has two questions, answered in one field.",
+        "questions": [
+          {"id": "grammar-iii-1", "number": "1", "prompt": "How old are you? (twelve) / What can you do at twelve? (sweep the floor)", "answer": "I'm twelve years old. I can sweep the floor.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-iii-2", "number": "2", "prompt": "How old are you? (six) / What can you do at six? (go to school)", "answer": "I'm six years old. I can go to school.", "rows": 2},
+          {"id": "grammar-iii-3", "number": "3", "prompt": "How old are you? (fifteen) / What can you do at fifteen? (wash my clothes)", "answer": "I'm fifteen years old. I can wash my clothes.", "rows": 2},
+          {"id": "grammar-iii-4", "number": "4", "prompt": "How old are you? (eighteen) / What can you do at eighteen? (go to work)", "answer": "I'm eighteen years old. I can go to work.", "rows": 2},
+          {"id": "grammar-iii-5", "number": "5", "prompt": "How old are you? (sixteen) / What can you do at sixteen? (cook)", "answer": "I'm sixteen years old. I can cook.", "rows": 2},
+          {"id": "grammar-iii-6", "number": "6", "prompt": "How old are you? (seventeen) / What can you do at seventeen? (type)", "answer": "I'm seventeen years old. I can type.", "rows": 2},
+          {"id": "grammar-iii-7", "number": "7", "prompt": "How old are you? (twenty-four) / What can you do at twenty-four? (drive a car)", "answer": "I'm twenty-four years old. I can drive a car.", "rows": 2},
+          {"id": "grammar-iii-8", "number": "8", "prompt": "How old are you? (thirty) / What can you do at thirty? (teach English)", "answer": "I'm thirty years old. I can teach English.", "rows": 2}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 65 textbook main text and illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=129"},
+    {"label": "Lesson 65 textbook vocabulary, notes and reference translation", "href": "../pdf/新概念英语1 英语初阶.pdf#page=130"},
+    {"label": "Lesson 65 workbook practice scan", "href": "../img/lesson-065-practice.jpg"},
+    {"label": "Lessons 63-67 workbook answer key scan", "href": "../img/key-063-067.jpg"},
+    {"label": "Lesson 65 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=199"},
+    {"label": "Lesson 65 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=200"},
+    {"label": "Lesson 65 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=201"},
+    {"label": "Lesson 65 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498"},
+    {"label": "Lesson 65 grammar answer key continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=499"}
+  ],
+  "characters": {
+    "jill": "A young woman with a blonde bob haircut, wearing a coat.",
+    "father": "A man with dark hair, wearing a suit.",
+    "mother": "A woman with dark curly hair, wearing a light dress."
+  },
+  "images": {
+    "lesson-065-scene-01": {
+      "kind": "scene", "status": "pending",
+      "description": "Jill stands in the hall talking to her father, who asks what she is going to do this evening.",
+      "characters": ["jill", "father"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-065-scene-02": {
+      "kind": "scene", "status": "pending",
+      "description": "The father tells Jill she mustn't come home late and must be home at half past ten; Jill protests she can't get home so early.",
+      "characters": ["jill", "father"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-065-scene-03": {
+      "kind": "scene", "status": "pending",
+      "description": "Jill asks her father for the key to the front door; he refuses, saying no, she can't.",
+      "characters": ["jill", "father"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-065-scene-04": {
+      "kind": "scene", "status": "pending",
+      "description": "The mother tells the father Jill is eighteen and not a baby, and he should give her the key; the father agrees.",
+      "characters": ["jill", "father", "mother"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-065-scene-05": {
+      "kind": "scene", "status": "pending",
+      "description": "The father hands Jill the key but warns her she mustn't come home after a quarter past eleven.",
+      "characters": ["jill", "father"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-065-scene-06": {
+      "kind": "scene", "status": "pending",
+      "description": "Jill says goodbye to her mother, who tells her to enjoy herself; Jill says they always enjoy themselves.",
+      "characters": ["jill", "mother"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
+      "reason": "Odd lesson: text first; illustration deferred."
+    }
+  }
+}
