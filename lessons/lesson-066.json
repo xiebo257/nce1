@@ -1,0 +1,311 @@
+{
+  "number": 66,
+  "status": "verified",
+  "title": "What's the time?",
+  "translation": "几点了？",
+  "description": "A bilingual lesson about telling the time (o'clock, quarter, half past) and asking about birthdays and ages, with 12 numbered clocks, a July calendar and four 'enjoy' pictures. Includes workbook preposition, situation and personal-answer practice, plus grammar on dates, alternative time-telling and at/in/on. 关于报时（整点、一刻、半点）以及询问生日和年龄的双语课，配12幅编号时钟、7月日历和4幅 enjoy 插图。配合教材介词、情景和自答练习，以及日期、另一种报时方式和 at/in/on 的语法练习。",
+  "answer_note": "Workbook answers are taken from the supplied Lesson 66 key (img/key-063-067.jpg); practice B situation answers and practice C personal answers are constructed from the printed word bank and prompts and labelled suggested. Textbook written-exercise answers are constructed from the printed examples and labelled suggested. Grammar answers are taken from the supplied Lesson 66 grammar key (PDF viewer page 498). No external sources were used.",
+  "expected_answers": 63,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=131",
+        "text": "Listen and answer the questions. 听录音并回答问题。\n\nWhen's your birthday? 你的生日是哪一天？\nHow old are you? 你多大了？",
+        "translation": "Listen and answer the questions. When's your birthday? How old are you?"
+      },
+      {
+        "id": "lesson-clocks",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=131",
+        "text": "1st 1 o'clock\n2nd 2 o'clock\n3rd 2:30\n4th 1:45\n5th 2 o'clock\n6th 3:15\n7th 4:30\n8th 3:45\n9th 4 o'clock\n10th 5:15\n11th 5:30\n12th 4:45",
+        "translation": "第1幅 1点\n第2幅 2点\n第3幅 2点半\n第4幅 1点45分\n第5幅 2点\n第6幅 3点15分\n第7幅 4点半\n第8幅 3点45分\n第9幅 4点\n第10幅 5点15分\n第11幅 5点半\n第12幅 4点45分"
+      },
+      {
+        "id": "lesson-enjoy-13th",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=131",
+        "image": "picture-13th",
+        "lines": [
+          {"number": 13, "speaker": "13th", "text": "Enjoy yourself!\nI always enjoy myself.", "translation": "第13幅 你好好玩吧！我总是玩得很开心。"}
+        ]
+      },
+      {
+        "id": "lesson-enjoy-14th",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=131",
+        "image": "picture-14th",
+        "lines": [
+          {"number": 14, "speaker": "14th", "text": "We're enjoying ourselves.\nThey're enjoying themselves.", "translation": "第14幅 我们玩得正开心。他们玩得正开心。"}
+        ]
+      },
+      {
+        "id": "lesson-enjoy-15th",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=131",
+        "image": "picture-15th",
+        "lines": [
+          {"number": 15, "speaker": "15th", "text": "He's enjoying himself.", "translation": "第15幅 他玩得正开心。"}
+        ]
+      },
+      {
+        "id": "lesson-enjoy-16th",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=131",
+        "image": "picture-16th",
+        "lines": [
+          {"number": 16, "speaker": "16th", "text": "She's enjoying herself.", "translation": "第16幅 她玩得正开心。"}
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=132",
+        "items": [
+          {"word": "myself", "ipa": "/maɪˈself/", "pos": "pron.", "meaning": "我自己"},
+          {"word": "themselves", "ipa": "/ðəmˈselvz/", "pos": "pron.", "meaning": "他们自己"},
+          {"word": "himself", "ipa": "/hɪmˈself/", "pos": "pron.", "meaning": "他自己"},
+          {"word": "herself", "ipa": "/hɜːˈself/", "pos": "pron.", "meaning": "她自己"}
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=132",
+        "title": "Written exercise A Complete these sentences using in, at or from.",
+        "instruction": "Complete these sentences using in, at or from. 用 in, at 或 from 完成以下句子。",
+        "translation": "Complete each sentence with in, at or from.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Item 3 has two blanks (one answer field with both words); item 6 has two blanks (one answer field with both words). No official key is supplied; answers are constructed from standard English usage and labelled suggested.",
+        "questions": [
+          {"id": "lesson-written-a-1", "number": "1", "prompt": "I am going to see him ______ ten o'clock.", "answer": "at", "rows": 1},
+          {"id": "lesson-written-a-2", "number": "2", "prompt": "It often rains ______ November.", "answer": "in", "rows": 1},
+          {"id": "lesson-written-a-3", "number": "3", "prompt": "Where do you come ______? I come ______ France.", "answer": "from\nfrom", "rows": 2},
+          {"id": "lesson-written-a-4", "number": "4", "prompt": "I always go to work ______ the morning.", "answer": "in", "rows": 1},
+          {"id": "lesson-written-a-5", "number": "5", "prompt": "What's the climate like ______ your country?", "answer": "in", "rows": 1},
+          {"id": "lesson-written-a-6", "number": "6", "prompt": "It's cold ______ winter and hot ______ summer.", "answer": "in\nin", "rows": 2}
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=132",
+        "title": "Written exercise B Answer these questions.",
+        "instruction": "Answer these questions using I/you/he/she/we/they and ... o'clock, a quarter to ... past ..., half past .... 模仿例句回答问题。",
+        "translation": "Answer each question following the example pattern.",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "context": "The printed example shows 'When must you come home? (1.00) → I must come home at one o'clock.' Items 1-11 follow the same pattern with the given time. No official key is supplied; answers are constructed from the printed example and labelled suggested.",
+        "questions": [
+          {"id": "lesson-written-b-0", "number": "Example", "prompt": "When must you come home? (1.00)", "answer": "I must come home at one o'clock.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "lesson-written-b-1", "number": "1", "prompt": "When must she go to the library? (1.15)", "answer": "She must go to the library at a quarter past one.", "rows": 2},
+          {"id": "lesson-written-b-2", "number": "2", "prompt": "When must you and Sam see the dentist? (3.45)", "answer": "We must see the dentist at a quarter to four.", "rows": 2},
+          {"id": "lesson-written-b-3", "number": "3", "prompt": "When must you type this letter? (2.00)", "answer": "I must type this letter at two o'clock.", "rows": 2},
+          {"id": "lesson-written-b-4", "number": "4", "prompt": "When must Sam and Penny see the boss? (1.30)", "answer": "They must see the boss at half past one.", "rows": 2},
+          {"id": "lesson-written-b-5", "number": "5", "prompt": "When must George take his medicine? (3.15)", "answer": "He must take his medicine at a quarter past three.", "rows": 2},
+          {"id": "lesson-written-b-6", "number": "6", "prompt": "When must Sophie arrive in London? (2.30)", "answer": "She must arrive in London at half past two.", "rows": 2},
+          {"id": "lesson-written-b-7", "number": "7", "prompt": "When must I catch the bus? (3.30)", "answer": "You must catch the bus at half past three.", "rows": 2},
+          {"id": "lesson-written-b-8", "number": "8", "prompt": "When must you arrive there? (3.00)", "answer": "I must arrive there at three o'clock.", "rows": 2},
+          {"id": "lesson-written-b-9", "number": "9", "prompt": "When must they come home? (2.15)", "answer": "They must come home at a quarter past two.", "rows": 2},
+          {"id": "lesson-written-b-10", "number": "10", "prompt": "When must you meet Sam? (1.45)", "answer": "I must meet Sam at a quarter to two.", "rows": 2},
+          {"id": "lesson-written-b-11", "number": "11", "prompt": "When must he telephone you? (2.45)", "answer": "He must telephone you at a quarter to three.", "rows": 2}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-066-practice.jpg",
+        "title": "A Prepositions",
+        "instruction": "Write these words in the correct box with at or in. 将以下词和短语列入正确的介词栏中。",
+        "translation": "Sort each phrase into the 'at' or 'in' column, following the printed examples.",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-063-067.jpg",
+        "context": "The printed examples 'at six o'clock' and 'in July' are not editable. The remaining 8 phrases are each one answer field: 'at' or 'in'.",
+        "questions": [
+          {"id": "practice-a-0a", "number": "at", "prompt": "six o'clock", "answer": "at six o'clock", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-a-0b", "number": "in", "prompt": "July", "answer": "in July", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-a-1", "number": "1", "prompt": "the afternoon", "answer": "in", "rows": 1},
+          {"id": "practice-a-2", "number": "2", "prompt": "the evening", "answer": "in", "rows": 1},
+          {"id": "practice-a-3", "number": "3", "prompt": "night", "answer": "at", "rows": 1},
+          {"id": "practice-a-4", "number": "4", "prompt": "a quarter past six", "answer": "at", "rows": 1},
+          {"id": "practice-a-5", "number": "5", "prompt": "summer", "answer": "in", "rows": 1},
+          {"id": "practice-a-6", "number": "6", "prompt": "half past ten", "answer": "at", "rows": 1},
+          {"id": "practice-a-7", "number": "7", "prompt": "the morning", "answer": "in", "rows": 1},
+          {"id": "practice-a-8", "number": "8", "prompt": "a quarter to three", "answer": "at", "rows": 1},
+          {"id": "practice-a-9", "number": "9", "prompt": "autumn", "answer": "in", "rows": 1},
+          {"id": "practice-a-10", "number": "10", "prompt": "half past five", "answer": "at", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-066-practice.jpg",
+        "title": "B Situations",
+        "instruction": "What questions do you ask in these situations? 写出适合以下情景的问句。",
+        "translation": "For each situation, write the appropriate question.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "The printed word bank (six o'clock, July, the afternoon, night, the evening, March, half past six, a quarter past ten, the morning, summer, a quarter to three, autumn, half past five, September) is the source material. No official key is supplied; answers are constructed from the prompts and labelled suggested.",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "You want to know a person's age. What do you ask?", "answer": "How old are you?", "rows": 1},
+          {"id": "practice-b-2", "number": "2", "prompt": "You want to know a person's birthday. What do you ask?", "answer": "When's your birthday?", "rows": 1},
+          {"id": "practice-b-3", "number": "3", "prompt": "You want to know the time. What do you ask?", "answer": "What's the time?", "rows": 1},
+          {"id": "practice-b-4", "number": "4", "prompt": "You ask him or her: (birthday of best friend)", "answer": "When's your best friend's birthday?", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "source": "../img/lesson-066-practice.jpg",
+        "title": "C About you",
+        "instruction": "Write complete answers to these questions. 用完整的句子回答以下问题。",
+        "translation": "Answer each question in a full sentence about yourself.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Personal-answer questions; no official key is supplied. Model answers are constructed from the question prompts and labelled suggested.",
+        "questions": [
+          {"id": "practice-c-1", "number": "1", "prompt": "How old are you?", "answer": "I am ... years old.", "rows": 1},
+          {"id": "practice-c-2", "number": "2", "prompt": "When's your birthday?", "answer": "My birthday is ...", "rows": 1},
+          {"id": "practice-c-3", "number": "3", "prompt": "When's your mother's birthday?", "answer": "My mother's birthday is ...", "rows": 1},
+          {"id": "practice-c-4", "number": "4", "prompt": "When's your father's birthday?", "answer": "My father's birthday is ...", "rows": 1},
+          {"id": "practice-c-5", "number": "5", "prompt": "When's your best friend's birthday?", "answer": "My best friend's birthday is ...", "rows": 1},
+          {"id": "practice-c-6", "number": "6", "prompt": "How old is he or she?", "answer": "He/She is ... years old.", "rows": 1}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=202",
+        "title": "I. Answer the questions, using the information given according to the example. 仿照例句用所给的信息回答下列问题。",
+        "instruction": "Answer the questions, using the information given according to the example. 仿照例句用所给的信息回答下列问题。",
+        "translation": "Answer each when's-your-birthday question with a date, following the example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498",
+        "questions": [
+          {"id": "grammar-i-1", "number": "1", "prompt": "When's your birthday? (5 February)", "answer": "It's February 5th.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2", "number": "2", "prompt": "When's our National Day? (1 October)", "answer": "It's October 1st.", "rows": 1},
+          {"id": "grammar-i-3", "number": "3", "prompt": "When's New Year's Day? (1 January)", "answer": "It's January 1st.", "rows": 1},
+          {"id": "grammar-i-4", "number": "4", "prompt": "When's Women's Day? (8 March)", "answer": "It's March 8th.", "rows": 1},
+          {"id": "grammar-i-5", "number": "5", "prompt": "When's Labour Day? (1 May)", "answer": "It's May 1st.", "rows": 1},
+          {"id": "grammar-i-6", "number": "6", "prompt": "When's Christmas Day? (25 December)", "answer": "It's December 25th.", "rows": 1},
+          {"id": "grammar-i-7", "number": "7", "prompt": "When's your mother's birthday? (6 July)", "answer": "It's July 6th.", "rows": 1},
+          {"id": "grammar-i-8", "number": "8", "prompt": "When's William's birthday? (15 August)", "answer": "It's August 15th.", "rows": 1},
+          {"id": "grammar-i-9", "number": "9", "prompt": "When's your sister's birthday? (25 November)", "answer": "It's November 25th.", "rows": 1},
+          {"id": "grammar-i-10", "number": "10", "prompt": "When's Children's Day? (1 June)", "answer": "It's June 1st.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=203",
+        "title": "II. Tell the time in another way according to the example. 仿照例句用另一种方式报时。",
+        "instruction": "Tell the time in another way according to the example. 仿照例句用另一种方式报时。",
+        "translation": "Rewrite each time in the alternative format, following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498",
+        "context": "Item 1 is a printed example and is not editable.",
+        "questions": [
+          {"id": "grammar-ii-1", "number": "1", "prompt": "It's half past four.", "answer": "It's four thirty.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-ii-2", "number": "2", "prompt": "It's twenty to four.", "answer": "It's three forty.", "rows": 1},
+          {"id": "grammar-ii-3", "number": "3", "prompt": "It's twenty-five to three.", "answer": "It's two thirty-five.", "rows": 1},
+          {"id": "grammar-ii-4", "number": "4", "prompt": "It's a quarter to five.", "answer": "It's four forty-five.", "rows": 1},
+          {"id": "grammar-ii-5", "number": "5", "prompt": "It's ten to twelve.", "answer": "It's eleven fifty.", "rows": 1},
+          {"id": "grammar-ii-6", "number": "6", "prompt": "It's a quarter past one.", "answer": "It's one fifteen.", "rows": 1},
+          {"id": "grammar-ii-7", "number": "7", "prompt": "It's five to eleven.", "answer": "It's ten fifty-five.", "rows": 1},
+          {"id": "grammar-ii-8", "number": "8", "prompt": "It's twenty-five past eight.", "answer": "It's eight twenty-five.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-iii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=203",
+        "title": "III. Fill in the blanks with 'at', 'in' or 'on'. 用 at, in 或 on 填空。",
+        "instruction": "Fill in the blanks with 'at', 'in' or 'on'. 用 at, in 或 on 填空。",
+        "translation": "Fill in the correct preposition (at, in or on) in each blank.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498",
+        "context": "Items 9 and 10 have two blanks each (one answer field with both words, in order).",
+        "questions": [
+          {"id": "grammar-iii-1", "number": "1", "prompt": "It's always warm here ______ spring and autumn.", "answer": "in", "rows": 1},
+          {"id": "grammar-iii-2", "number": "2", "prompt": "Our holiday starts ______ July 8th.", "answer": "on", "rows": 1},
+          {"id": "grammar-iii-3", "number": "3", "prompt": "I'm going to buy a bike ______ July.", "answer": "in", "rows": 1},
+          {"id": "grammar-iii-4", "number": "4", "prompt": "She's going to meet him ______ ten past six.", "answer": "at", "rows": 1},
+          {"id": "grammar-iii-5", "number": "5", "prompt": "It often snows in the North ______ December.", "answer": "in", "rows": 1},
+          {"id": "grammar-iii-6", "number": "6", "prompt": "You must be at home ______ ten o'clock!", "answer": "at", "rows": 1},
+          {"id": "grammar-iii-7", "number": "7", "prompt": "We're going to have a party ______ Saturday.", "answer": "on", "rows": 1},
+          {"id": "grammar-iii-8", "number": "8", "prompt": "We're going to eat lunch ______ noon.", "answer": "at", "rows": 1},
+          {"id": "grammar-iii-9", "number": "9", "prompt": "They usually do their homework ______ eight o'clock ______ night.", "answer": "at\nat", "rows": 2},
+          {"id": "grammar-iii-10", "number": "10", "prompt": "We go to work ______ seven thirty ______ the morning, and arrive home ______ five ______ the afternoon.", "answer": "at\nin\nat\nin", "rows": 4}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 66 textbook main text and illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=131"},
+    {"label": "Lesson 66 textbook vocabulary and written exercises", "href": "../pdf/新概念英语1 英语初阶.pdf#page=132"},
+    {"label": "Lesson 66 workbook practice scan", "href": "../img/lesson-066-practice.jpg"},
+    {"label": "Lessons 63-67 workbook answer key scan", "href": "../img/key-063-067.jpg"},
+    {"label": "Lesson 66 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=202"},
+    {"label": "Lesson 66 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=203"},
+    {"label": "Lesson 66 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498"}
+  ],
+  "characters": {
+    "jill": "A young woman with a blonde bob haircut."
+  },
+  "images": {
+    "picture-13th": {
+      "kind": "item", "status": "ready",
+      "description": "Two women talking, one with curly hair and one with straight blonde hair; caption: 'Enjoy yourself! I always enjoy myself.'",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-066-01-text.jpg",
+      "source_size": [1701, 2500],
+      "src": "assets/lesson-066/picture-13th.jpg",
+      "width": 570,
+      "height": 290
+    },
+    "picture-14th": {
+      "kind": "item", "status": "ready",
+      "description": "A woman with curly hair and a man in a suit, both enjoying themselves; caption: 'We're enjoying ourselves. They're enjoying themselves.'",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-066-01-text.jpg",
+      "source_size": [1701, 2500],
+      "src": "assets/lesson-066/picture-14th.jpg",
+      "width": 570,
+      "height": 300
+    },
+    "picture-15th": {
+      "kind": "item", "status": "ready",
+      "description": "A man with spiky hair at an amusement park ride; caption: 'He's enjoying himself.'",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-066-01-text.jpg",
+      "source_size": [1701, 2500],
+      "src": "assets/lesson-066/picture-15th.jpg",
+      "width": 570,
+      "height": 300
+    },
+    "picture-16th": {
+      "kind": "item", "status": "ready",
+      "description": "A woman with a hat at an amusement park ride; caption: 'She's enjoying herself.'",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-066-01-text.jpg",
+      "source_size": [1701, 2500],
+      "src": "assets/lesson-066/picture-16th.jpg",
+      "width": 570,
+      "height": 300
+    }
+  }
+}
