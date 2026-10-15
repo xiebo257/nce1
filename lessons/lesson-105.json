@@ -1,0 +1,631 @@
+{
+  "number": 105,
+  "status": "verified",
+  "title": "Full of mistakes",
+  "translation": "错误百出",
+  "description": "The Boss asks Bob to bring Sandra to his office. He finds that Sandra's typed letter is full of mistakes - she typed 'intelligent' with only one 'L'. The Boss gives her a dictionary as a present. The lesson covers 'want/tell + object + to + verb' constructions.",
+  "answer_note": "Practice A (dialogue fill-in) and Practice B (vocabulary) answers are from the workbook answer key. Grammar answers are from the grammar practice book key.",
+  "expected_answers": 62,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-dialogue",
+        "type": "dialogue",
+        "source": "textbook",
+        "image": "scene",
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "The Boss",
+            "text": "Where's Sandra, Bob? I want her.",
+            "translation": "鲍勃，桑德拉在哪儿？我要她。"
+          },
+          {
+            "number": 2,
+            "speaker": "Bob",
+            "text": "Do you want to speak to her?",
+            "translation": "您想和她说话吗？"
+          },
+          {
+            "number": 3,
+            "speaker": "The Boss",
+            "text": "Yes, I do. I want her to come to my office. Tell her to come at once.",
+            "translation": "是的，我想。我要她到办公室来。叫她马上来。"
+          },
+          {
+            "number": 4,
+            "speaker": "Sandra",
+            "text": "Did you want to see me?",
+            "translation": "您想见我吗？"
+          },
+          {
+            "number": 5,
+            "speaker": "The Boss",
+            "text": "Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me?",
+            "translation": "啊，是的，桑德拉。'intelligent'怎么拼？你能告诉我吗？"
+          },
+          {
+            "number": 6,
+            "speaker": "Sandra",
+            "text": "I-N-T-E-L-L-I-G-E-N-T.",
+            "translation": "I-N-T-E-L-L-I-G-E-N-T。"
+          },
+          {
+            "number": 7,
+            "speaker": "The Boss",
+            "text": "That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again.",
+            "translation": "是的。但你只打了一个'L'。这封信错误百出。我要你重打一遍。"
+          },
+          {
+            "number": 8,
+            "speaker": "Sandra",
+            "text": "Yes, I'll do that. I'm sorry about that.",
+            "translation": "是的，我会的。对此我很抱歉。"
+          },
+          {
+            "number": 9,
+            "speaker": "The Boss",
+            "text": "And here's a little present for you.",
+            "translation": "这儿有一个小礼物给你。"
+          },
+          {
+            "number": 10,
+            "speaker": "Sandra",
+            "text": "What is it?",
+            "translation": "是什么？"
+          },
+          {
+            "number": 11,
+            "speaker": "The Boss",
+            "text": "It's a dictionary. I hope it'll help you.",
+            "translation": "是一本词典。我希望它能帮到你。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook",
+        "items": [
+          {
+            "word": "spell",
+            "ipa": "/spel/ (spelt/spelt, spelt)",
+            "pos": "v.",
+            "meaning": "拼写"
+          },
+          {
+            "word": "intelligent",
+            "ipa": "/in'telidʒənt/",
+            "pos": "adj.",
+            "meaning": "聪明的，有智慧的"
+          },
+          {
+            "word": "mistake",
+            "ipa": "/mi'steɪk/",
+            "pos": "n.",
+            "meaning": "错误"
+          },
+          {
+            "word": "present",
+            "ipa": "/'preznt/",
+            "pos": "n.",
+            "meaning": "礼物"
+          },
+          {
+            "word": "dictionary",
+            "ipa": "/'dɪkʃənri/",
+            "pos": "n.",
+            "meaning": "词典"
+          }
+        ]
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "textbook",
+        "items": [
+          {
+            "title": "Do you want to speak to her?",
+            "text": "在这句话中，to speak是动词want的宾语，而这个结构——动词原形前加to——在英文中被称为动词不定式。本课用动词不定式作宾语的例句还有：I want her to come to my office; Tell her to come at once; Did you want to see me; I want you to type it again等。"
+          },
+          {
+            "title": "full of ...",
+            "text": "full of ...，充满了……。"
+          },
+          {
+            "title": "And here's ...",
+            "text": "这里and表示承上启下，使上下文紧密联系，当'于是'、'因此'讲。"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice A: Dialogue fill-in",
+        "instruction": "Read this dialogue. Fill in the missing words.",
+        "translation": "读这段对话，填入缺失的单词。",
+        "expected_items": 28,
+        "answer_kind": "suggested",
+        "answer_note": "Fill-in-the-blank exercise based on the lesson dialogue. Answers are the missing words.",
+        "context": "Fill in each blank with the correct word from the dialogue.",
+        "questions": [
+          {
+            "id": "l105-pa-1",
+            "number": 1,
+            "prompt": "The Boss: Where's Sandra, Bob? I want ___.",
+            "answer": "her"
+          },
+          {
+            "id": "l105-pa-2",
+            "number": 2,
+            "prompt": "Bob: ___ you want to ___ to her?",
+            "answer": "Do"
+          },
+          {
+            "id": "l105-pa-3",
+            "number": 3,
+            "prompt": "Bob: Do you want to ___ to her?",
+            "answer": "speak"
+          },
+          {
+            "id": "l105-pa-4",
+            "number": 4,
+            "prompt": "The Boss: Yes, I ___.",
+            "answer": "do"
+          },
+          {
+            "id": "l105-pa-5",
+            "number": 5,
+            "prompt": "I want ___ her ___ come to my office.",
+            "answer": "her"
+          },
+          {
+            "id": "l105-pa-6",
+            "number": 6,
+            "prompt": "I want her ___ come to my office.",
+            "answer": "to"
+          },
+          {
+            "id": "l105-pa-7",
+            "number": 7,
+            "prompt": "I want her to come to my ___.",
+            "answer": "office"
+          },
+          {
+            "id": "l105-pa-8",
+            "number": 8,
+            "prompt": "___ her to come ___ once.",
+            "answer": "Tell"
+          },
+          {
+            "id": "l105-pa-9",
+            "number": 9,
+            "prompt": "Tell her to come ___ once.",
+            "answer": "at"
+          },
+          {
+            "id": "l105-pa-10",
+            "number": 10,
+            "prompt": "Sandra: Did you ___ to see ___?",
+            "answer": "want"
+          },
+          {
+            "id": "l105-pa-11",
+            "number": 11,
+            "prompt": "Sandra: Did you want to see ___?",
+            "answer": "me"
+          },
+          {
+            "id": "l105-pa-12",
+            "number": 12,
+            "prompt": "The Boss: Ah, yes, Sandra. ___ do you spell ___?",
+            "answer": "How"
+          },
+          {
+            "id": "l105-pa-13",
+            "number": 13,
+            "prompt": "How do you spell ___?",
+            "answer": "intelligent"
+          },
+          {
+            "id": "l105-pa-14",
+            "number": 14,
+            "prompt": "Can you ___ me?",
+            "answer": "tell"
+          },
+          {
+            "id": "l105-pa-15",
+            "number": 15,
+            "prompt": "Sandra: I-N-T-E-L-L-I-G-E-N-T.",
+            "answer": "I-N-T-E-L-L-I-G-E-N-T."
+          },
+          {
+            "id": "l105-pa-16",
+            "number": 16,
+            "prompt": "The Boss: That's ___.",
+            "answer": "right"
+          },
+          {
+            "id": "l105-pa-17",
+            "number": 17,
+            "prompt": "You've ___ it with only one ___.",
+            "answer": "typed"
+          },
+          {
+            "id": "l105-pa-18",
+            "number": 18,
+            "prompt": "You've typed it with only one ___.",
+            "answer": "L"
+          },
+          {
+            "id": "l105-pa-19",
+            "number": 19,
+            "prompt": "___ letter's full of ___.",
+            "answer": "This"
+          },
+          {
+            "id": "l105-pa-20",
+            "number": 20,
+            "prompt": "This letter's full of ___.",
+            "answer": "mistakes"
+          },
+          {
+            "id": "l105-pa-21",
+            "number": 21,
+            "prompt": "I ___ you to type it again.",
+            "answer": "want"
+          },
+          {
+            "id": "l105-pa-22",
+            "number": 22,
+            "prompt": "I want you to type it ___.",
+            "answer": "again"
+          },
+          {
+            "id": "l105-pa-23",
+            "number": 23,
+            "prompt": "And here's a little ___ for you.",
+            "answer": "present"
+          },
+          {
+            "id": "l105-pa-24",
+            "number": 24,
+            "prompt": "It's a ___!",
+            "answer": "dictionary"
+          },
+          {
+            "id": "l105-pa-25",
+            "number": 25,
+            "prompt": "The Boss: I hope it'll ___ you.",
+            "answer": "help"
+          },
+          {
+            "id": "l105-pa-26",
+            "number": 26,
+            "prompt": "Sandra: I'm ___ about that.",
+            "answer": "sorry"
+          },
+          {
+            "id": "l105-pa-27",
+            "number": 27,
+            "prompt": "The Boss: Where's Sandra, Bob? I want her.",
+            "answer": "her"
+          },
+          {
+            "id": "l105-pa-28",
+            "number": 28,
+            "prompt": "The Boss: Tell her to come at once.",
+            "answer": "Tell"
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice B: Vocabulary - Choose and write in the best words",
+        "instruction": "Choose and write in the best words.",
+        "translation": "选词填空。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "img/key-101-106.jpg (Lesson 105 B)",
+        "context": "Choose the correct word from each pair to complete the sentence.",
+        "questions": [
+          {
+            "id": "l105-pb-1",
+            "number": 1,
+            "prompt": "'Your story is ___ of mistakes,' the teacher said. (full / plenty)",
+            "answer": "full"
+          },
+          {
+            "id": "l105-pb-2",
+            "number": 2,
+            "prompt": "I think that girl's clever. - I don't. I think she's ___. (intelligent / stupid)",
+            "answer": "stupid"
+          },
+          {
+            "id": "l105-pb-3",
+            "number": 3,
+            "prompt": "Is this right, sir? - No, I'm sorry it's ___. (mistake / wrong)",
+            "answer": "wrong"
+          },
+          {
+            "id": "l105-pb-4",
+            "number": 4,
+            "prompt": "I can't spell the word. I'll look in a ___. (dictionary / paper)",
+            "answer": "dictionary"
+          },
+          {
+            "id": "l105-pb-5",
+            "number": 5,
+            "prompt": "'I'm ___ about that,' she said. 'I won't do it again.' (afraid / sorry)",
+            "answer": "sorry"
+          },
+          {
+            "id": "l105-pb-6",
+            "number": 6,
+            "prompt": "My mother wants to ___ to you. (say / speak)",
+            "answer": "speak"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar I: Rewrite with 'want/tell + object + to + verb'",
+        "instruction": "Rewrite the sentences, using the words given according to the examples. Example: Close all the doors. (he/want/her) → He wants her to close all the doors. Sweep the floor. (tell/her) → Tell her to sweep the floor.",
+        "translation": "仿照例句用所给的词改写下列句子。例句：关上所有的门。（他/想要/她）→ 他想要她关上所有的门。扫地板。（叫/她）→ 叫她扫地板。",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 105 I, PDF p.535-536)",
+        "context": "Rewrite each imperative sentence using 'want/tell + object + to + verb'. Items 1 and 2 are printed examples.",
+        "questions": [
+          {
+            "id": "l105-gi-1",
+            "number": 1,
+            "prompt": "Close all the doors. (he/want/her)",
+            "answer": "He wants her to close all the doors.",
+            "example": true
+          },
+          {
+            "id": "l105-gi-2",
+            "number": 2,
+            "prompt": "Sweep the floor. (tell/her)",
+            "answer": "Tell her to sweep the floor.",
+            "example": true
+          },
+          {
+            "id": "l105-gi-3",
+            "number": 3,
+            "prompt": "Put away the magazines. (I/want/him)",
+            "answer": "I want him to put away the magazines."
+          },
+          {
+            "id": "l105-gi-4",
+            "number": 4,
+            "prompt": "Shut all the windows. (she/want/me)",
+            "answer": "She wants me to shut all the windows."
+          },
+          {
+            "id": "l105-gi-5",
+            "number": 5,
+            "prompt": "Take out your pens and pencils. (tell/them)",
+            "answer": "Tell them to take out their pens and pencils."
+          },
+          {
+            "id": "l105-gi-6",
+            "number": 6,
+            "prompt": "Give me the newspaper. (he/want/me)",
+            "answer": "He wants me to give him the newspaper."
+          },
+          {
+            "id": "l105-gi-7",
+            "number": 7,
+            "prompt": "Open your books. (tell/them)",
+            "answer": "Tell them to open their books."
+          },
+          {
+            "id": "l105-gi-8",
+            "number": 8,
+            "prompt": "Stay there. (tell/him)",
+            "answer": "Tell him to stay there."
+          },
+          {
+            "id": "l105-gi-9",
+            "number": 9,
+            "prompt": "Bring it to me. (tell/her)",
+            "answer": "Tell her to bring it to me."
+          },
+          {
+            "id": "l105-gi-10",
+            "number": 10,
+            "prompt": "Be careful. (she/want/you)",
+            "answer": "She wants you to be careful."
+          },
+          {
+            "id": "l105-gi-11",
+            "number": 11,
+            "prompt": "Read it to me. (I/want/you)",
+            "answer": "I want you to read it to me."
+          },
+          {
+            "id": "l105-gi-12",
+            "number": 12,
+            "prompt": "Stand up. (tell/them)",
+            "answer": "Tell them to stand up."
+          },
+          {
+            "id": "l105-gi-13",
+            "number": 13,
+            "prompt": "Have a drink. (she/want/him)",
+            "answer": "She wants him to have a drink."
+          },
+          {
+            "id": "l105-gi-14",
+            "number": 14,
+            "prompt": "Work hard. (tell/him)",
+            "answer": "Tell him to work hard."
+          },
+          {
+            "id": "l105-gi-15",
+            "number": 15,
+            "prompt": "Turn on the lights. (he/want/you)",
+            "answer": "He wants you to turn on the lights."
+          },
+          {
+            "id": "l105-gi-16",
+            "number": 16,
+            "prompt": "Turn off the cooker. (tell/him)",
+            "answer": "Tell him to turn off the cooker."
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar II: Rewrite with 'tell/want + object + not to + verb'",
+        "instruction": "Rewrite the sentences, using the words given according to the examples. Example: Don't stop. (tell/them) → Tell them not to stop. Don't swim in the river. (I/not want/you) → I don't want you to swim in the river.",
+        "translation": "仿照例句用所给的词改写下列句子。例句：不要停。（叫/他们）→ 叫他们不要停。不要在河里游泳。（我/不想/你）→ 我不想要你在河里游泳。",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 105 II, PDF p.536)",
+        "context": "Rewrite each negative imperative sentence using 'tell/want + object + not to + verb'. Items 1 and 2 are printed examples.",
+        "questions": [
+          {
+            "id": "l105-gii-1",
+            "number": 1,
+            "prompt": "Don't stop. (tell/them)",
+            "answer": "Tell them not to stop.",
+            "example": true
+          },
+          {
+            "id": "l105-gii-2",
+            "number": 2,
+            "prompt": "Don't swim in the river. (I/not want/you)",
+            "answer": "I don't want you to swim in the river.",
+            "example": true
+          },
+          {
+            "id": "l105-gii-3",
+            "number": 3,
+            "prompt": "Don't be lazy. (tell/him)",
+            "answer": "Tell him not to be lazy."
+          },
+          {
+            "id": "l105-gii-4",
+            "number": 4,
+            "prompt": "Don't forget the telephone number. (tell/her)",
+            "answer": "Tell her not to forget the telephone number."
+          },
+          {
+            "id": "l105-gii-5",
+            "number": 5,
+            "prompt": "Don't be late. (he/not want/you)",
+            "answer": "He doesn't want you to be late."
+          },
+          {
+            "id": "l105-gii-6",
+            "number": 6,
+            "prompt": "Don't wait for me. (he/not want/us)",
+            "answer": "He doesn't want us to wait for him."
+          },
+          {
+            "id": "l105-gii-7",
+            "number": 7,
+            "prompt": "Don't open the window. (she/not want/him)",
+            "answer": "She doesn't want him to open the window."
+          },
+          {
+            "id": "l105-gii-8",
+            "number": 8,
+            "prompt": "Don't break the vase. (she/not want/you)",
+            "answer": "She doesn't want you to break the vase."
+          },
+          {
+            "id": "l105-gii-9",
+            "number": 9,
+            "prompt": "Don't drive too fast. (tell/him)",
+            "answer": "Tell him not to drive too fast."
+          },
+          {
+            "id": "l105-gii-10",
+            "number": 10,
+            "prompt": "Don't lose the money. (tell/them)",
+            "answer": "Tell them not to lose the money."
+          },
+          {
+            "id": "l105-gii-11",
+            "number": 11,
+            "prompt": "Don't hurt yourself. (tell/her)",
+            "answer": "Tell her not to hurt herself."
+          },
+          {
+            "id": "l105-gii-12",
+            "number": 12,
+            "prompt": "Don't miss your train. (he/not want/them)",
+            "answer": "He doesn't want them to miss their train."
+          },
+          {
+            "id": "l105-gii-13",
+            "number": 13,
+            "prompt": "Don't cut yourself. (tell/him)",
+            "answer": "Tell him not to cut himself."
+          },
+          {
+            "id": "l105-gii-14",
+            "number": 14,
+            "prompt": "Don't use a pencil. (he/not want/you)",
+            "answer": "He doesn't want you to use a pencil."
+          },
+          {
+            "id": "l105-gii-15",
+            "number": 15,
+            "prompt": "Don't fall. (tell/them)",
+            "answer": "Tell them not to fall."
+          },
+          {
+            "id": "l105-gii-16",
+            "number": 16,
+            "prompt": "Don't paint the door yellow. (she/not want/him)",
+            "answer": "She doesn't want him to paint the door yellow."
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {
+    "the_boss": {
+      "name": "The Boss",
+      "description": "Sandra's boss who finds her letter full of mistakes"
+    },
+    "bob": {
+      "name": "Bob",
+      "description": "An office worker who answers the phone"
+    },
+    "sandra": {
+      "name": "Sandra",
+      "description": "A typist whose letter is full of mistakes"
+    }
+  },
+  "images": {
+    "scene": {
+      "kind": "scene",
+      "description": "Four panels showing: 1) The Boss asking Bob for Sandra, 2) Sandra entering the Boss's office, 3) The Boss showing Sandra her letter with mistakes, 4) The Boss giving Sandra a dictionary",
+      "source": "img/lesson-105-01-text.jpg",
+      "characters": [
+        "the_boss",
+        "bob",
+        "sandra"
+      ],
+      "status": "pending"
+    }
+  }
+}
