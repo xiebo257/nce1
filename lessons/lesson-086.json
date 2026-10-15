@@ -1,0 +1,887 @@
+{
+  "number": 86,
+  "status": "verified",
+  "title": "What have you done?",
+  "translation": "你已经做了什么？",
+  "description": "A picture-based lesson on the present perfect tense (have/has + past participle). Fifteen illustrations show completed actions: aired, cleaned, opened, sharpened, turned on, listened to, boiled, answered, emptied, asked, typed, washed, walked, painted, dusted. Written exercises A (put 'has' in present-perfect sentences) and B (rewrite imperatives as 'I've already done it / I did it...' pairs) are transcribed from the textbook. Workbook practice covers 'Have you ever been to...' dialogues, 'I've already done it / I did it an hour ago' sentence completion, and open-ended situation questions. Grammar exercises practise answering 'and' questions with present-perfect/past-simple pairs and giving correct replies to observations.",
+  "answer_note": "Written exercise A (put 'has' in present-perfect sentences) 7 blanks are taken from the supplied Lesson 86 key (img/key-085-090.jpg). Written exercise B (rewrite imperatives) 12 items are suggested model answers following the printed example pattern. Workbook practice A ('Has he ever been to...') 4 items are taken from the key (item 1 is a printed example). Workbook practice B ('I've already done it / I did it an hour ago') 6 blanks (3 sentences × 2 blanks) are taken from the key. Workbook practice C (situations) 2 items are taken from the key. Grammar I (answer 'and' questions) item 1 is a printed example; items 2-8 are taken from the grammar key (PDF viewer page 502). Grammar II (give correct replies) item 1 is a printed example; items 2-10 are taken from the grammar key (PDF viewer page 502). No external sources were used.",
+  "expected_answers": 62,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。",
+        "translation": "Listen to the recording and answer the questions about the fifteen actions shown in the illustrations."
+      },
+      {
+        "id": "lesson-panel-01",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-01",
+        "text": "aired",
+        "translation": "第1幅：aired"
+      },
+      {
+        "id": "lesson-panel-02",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-02",
+        "text": "cleaned",
+        "translation": "第2幅：cleaned"
+      },
+      {
+        "id": "lesson-panel-03",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-03",
+        "text": "opened",
+        "translation": "第3幅：opened"
+      },
+      {
+        "id": "lesson-panel-04",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-04",
+        "text": "sharpened",
+        "translation": "第4幅：sharpened"
+      },
+      {
+        "id": "lesson-panel-05",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-05",
+        "text": "turned on",
+        "translation": "第5幅：turned on"
+      },
+      {
+        "id": "lesson-panel-06",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-06",
+        "text": "listened to",
+        "translation": "第6幅：listened to"
+      },
+      {
+        "id": "lesson-panel-07",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-07",
+        "text": "boiled",
+        "translation": "第7幅：boiled"
+      },
+      {
+        "id": "lesson-panel-08",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-08",
+        "text": "answered",
+        "translation": "第8幅：answered"
+      },
+      {
+        "id": "lesson-panel-09",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-09",
+        "text": "emptied",
+        "translation": "第9幅：emptied"
+      },
+      {
+        "id": "lesson-panel-10",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-10",
+        "text": "asked",
+        "translation": "第10幅：asked"
+      },
+      {
+        "id": "lesson-panel-11",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-11",
+        "text": "typed",
+        "translation": "第11幅：typed"
+      },
+      {
+        "id": "lesson-panel-12",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-12",
+        "text": "washed",
+        "translation": "第12幅：washed"
+      },
+      {
+        "id": "lesson-panel-13",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-13",
+        "text": "walked",
+        "translation": "第13幅：walked"
+      },
+      {
+        "id": "lesson-panel-14",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-14",
+        "text": "painted",
+        "translation": "第14幅：painted"
+      },
+      {
+        "id": "lesson-panel-15",
+        "type": "text",
+        "source": "../img/lesson-086-01-text.jpg",
+        "image": "lesson-086-pic-15",
+        "text": "dusted",
+        "translation": "第15幅：dusted"
+      },
+      {
+        "id": "lesson-illustrations",
+        "type": "exercise",
+        "source": "../img/lesson-086-01-text.jpg",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen and answer the questions. 听录音并回答问题。\n\nFifteen pictures show completed actions. Listen to the recording and answer: What have you done? 十五幅图片展示了已完成的动作。听录音并回答：你已经做了什么？",
+        "translation": "Listen to the recording and identify which action has been completed in each picture.",
+        "expected_items": 15,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-pic-01",
+            "number": "1st",
+            "prompt": "1st — What has she done?",
+            "answer": "She has aired the room.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-02",
+            "number": "2nd",
+            "prompt": "2nd — What have they done?",
+            "answer": "They have cleaned their shoes.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-03",
+            "number": "3rd",
+            "prompt": "3rd — What has he done?",
+            "answer": "He has opened the window.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-04",
+            "number": "4th",
+            "prompt": "4th — What has he done?",
+            "answer": "He has sharpened his pencil.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-05",
+            "number": "5th",
+            "prompt": "5th — What has she done?",
+            "answer": "She has turned on the television.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-06",
+            "number": "6th",
+            "prompt": "6th — What have they done?",
+            "answer": "They have listened to the programme.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-07",
+            "number": "7th",
+            "prompt": "7th — What has she done?",
+            "answer": "She has boiled the eggs.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-08",
+            "number": "8th",
+            "prompt": "8th — What has she done?",
+            "answer": "She has answered the telephone.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-09",
+            "number": "9th",
+            "prompt": "9th — What has she done?",
+            "answer": "She has emptied the basket.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-10",
+            "number": "10th",
+            "prompt": "10th — What has he done?",
+            "answer": "He has asked a question.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-11",
+            "number": "11th",
+            "prompt": "11th — What has she done?",
+            "answer": "She has typed the letter.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-12",
+            "number": "12th",
+            "prompt": "12th — What has she done?",
+            "answer": "She has washed her hands.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-13",
+            "number": "13th",
+            "prompt": "13th — What has he done?",
+            "answer": "He has walked across the park.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-14",
+            "number": "14th",
+            "prompt": "14th — What has he done?",
+            "answer": "He has painted the bookcase.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-pic-15",
+            "number": "15th",
+            "prompt": "15th — What has she done?",
+            "answer": "She has dusted the cupboard.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-086-02-text.jpg",
+        "title": "Written exercises A — Put 'has' in the present-perfect sentences",
+        "instruction": "Look at these two sentences. 注意以下两个例句。\n\nShe has already aired the room.\nShe aired it this morning.\n\nIn which of these sentences can we put has? 在下面的句子中有一般过去时和现在完成时两种不同的时态。选出现完成时的句子，并填上 has。",
+        "translation": "Add 'has' to each present-perfect sentence (not the past-simple sentence).",
+        "expected_items": 7,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-085-090.jpg",
+        "context": "Answers are taken from the supplied Lesson 86 key (img/key-085-090.jpg).",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "1. She ______ just boiled an egg.",
+            "answer": "has",
+            "rows": 1
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "2. She ______ boiled it a minute ago.",
+            "answer": "(no has — past simple)",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "3. She ______ never been to China, but he was there in 1992.",
+            "answer": "has",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "4. He ______ already painted that bookcase.",
+            "answer": "has",
+            "rows": 1
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "5. He ______ painted it a week ago.",
+            "answer": "(no has — past simple)",
+            "rows": 1
+          },
+          {
+            "id": "written-a-6",
+            "number": "6",
+            "prompt": "6. She ______ emptied the basket this morning.",
+            "answer": "(no has — past simple)",
+            "rows": 1
+          },
+          {
+            "id": "written-a-7",
+            "number": "7",
+            "prompt": "7. He ______ just dusted the cupboard.",
+            "answer": "has",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-086-02-text.jpg",
+        "title": "Written exercises B — Rewrite the imperatives",
+        "instruction": "Rewrite these sentences. 模仿例句改写以下祈使句。\n\nExample:\nAir the room! (this morning)\n→ I've already aired the room. / I aired the room this morning.",
+        "translation": "Rewrite each imperative as a present-perfect sentence ('I've already...') and a past-simple sentence with the given time expression.",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "1. Clean your shoes! (last night)",
+            "answer": "I've already cleaned my shoes. / I cleaned my shoes last night.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "2. Open the window! (an hour ago)",
+            "answer": "I've already opened the window. / I opened the window an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "3. Sharpen your pencil! (a minute ago)",
+            "answer": "I've already sharpened my pencil. / I sharpened my pencil a minute ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "4. Turn on the television! (ten minutes ago)",
+            "answer": "I've already turned on the television. / I turned on the television ten minutes ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-5",
+            "number": "5",
+            "prompt": "5. Boil the milk! (yesterday morning)",
+            "answer": "I've already boiled the milk. / I boiled the milk yesterday morning.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-6",
+            "number": "6",
+            "prompt": "6. Empty the basket! (yesterday)",
+            "answer": "I've already emptied the basket. / I emptied the basket yesterday.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-7",
+            "number": "7",
+            "prompt": "7. Ask a question! (two minutes ago)",
+            "answer": "I've already asked a question. / I asked a question two minutes ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-8",
+            "number": "8",
+            "prompt": "8. Type that letter! (this morning)",
+            "answer": "I've already typed that letter. / I typed that letter this morning.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-9",
+            "number": "9",
+            "prompt": "9. Wash your hands! (five minutes ago)",
+            "answer": "I've already washed my hands. / I washed my hands five minutes ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-10",
+            "number": "10",
+            "prompt": "10. Walk across the park! (an hour ago)",
+            "answer": "I've already walked across the park. / I walked across the park an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-11",
+            "number": "11",
+            "prompt": "11. Paint that bookcase! (a year ago)",
+            "answer": "I've already painted that bookcase. / I painted that bookcase a year ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-12",
+            "number": "12",
+            "prompt": "12. Dust the cupboard! (this afternoon)",
+            "answer": "I've already dusted the cupboard. / I dusted the cupboard this afternoon.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — Has he ever been to...?",
+        "instruction": "Look at this. 请看下表。\n\nA: Have you ever been to America?  B: Yes, I have. I was there three years ago. or No, I haven't. I've never been to America.\n\nWrite conversations from these prompts. 根据提示完成以下对话。",
+        "translation": "Write a short conversation (question + answer) for each prompt, following the example.",
+        "expected_items": 5,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-085-090.jpg",
+        "context": "Item 1 is a printed example (not editable). Items 2-5 are taken from the supplied Lesson 86 key (img/key-085-090.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "1. Ken / to Paris? / Yes / April",
+            "answer": "Has Ken ever been to Paris? / Yes, he has. He was there in April.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "2. you / to London? / Yes / 1997",
+            "answer": "Have you ever been to London? / Yes, I have. I was there in 1997.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "3. Carol / to Australia? / No / never",
+            "answer": "Has Carol ever been to Australia? / No, she hasn't. She has never been to Australia.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "4. your friends / to England? / Yes / six months ago",
+            "answer": "Have your friends ever been to England? / Yes, they have. They were there six months ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "5. Sam and Carol / to China? / No / never",
+            "answer": "Have Sam and Carol ever been to China? / No, they haven't. They have never been to China.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — I've already done it. I did it an hour ago.",
+        "instruction": "Complete sentences 2-4 like sentence 1. 模仿例句完成以下句子。\n\n1. I have already listened to the news. I listened to it at two o'clock. (listen)",
+        "translation": "Complete each sentence with the present-perfect and past-simple forms of the verb in brackets.",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-085-090.jpg",
+        "context": "Answers are taken from the supplied Lesson 86 key (img/key-085-090.jpg).",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "2a",
+            "prompt": "2. She ______ your letters. She ______ them an hour ago. (type)",
+            "answer": "has already typed, typed",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2b",
+            "prompt": "2. (second blank — see prompt)",
+            "answer": "typed",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3a",
+            "prompt": "3. They ______ their shoes. They ______ them this morning. (clean)",
+            "answer": "have already cleaned, cleaned",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-4",
+            "number": "3b",
+            "prompt": "3. (second blank — see prompt)",
+            "answer": "cleaned",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-5",
+            "number": "4a",
+            "prompt": "4. Mum ______ a meal. She ______ it at 6 o'clock. (cook)",
+            "answer": "has already cooked, cooked",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-6",
+            "number": "4b",
+            "prompt": "4. (second blank — see prompt)",
+            "answer": "cooked",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "title": "C — Situations",
+        "instruction": "Read each situation carefully. What do you say? 根据以下情景写出你应该说的话。\n\n1. You want to know what film is being shown at the Roxy Cinema this week. What do you ask a friend?\n2. A friend has been to see a new film. You want to know what it was like.",
+        "translation": "Write the question you would ask in each situation.",
+        "expected_items": 2,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-085-090.jpg",
+        "context": "Answers are taken from the supplied Lesson 86 key (img/key-085-090.jpg).",
+        "questions": [
+          {
+            "id": "practice-c-1",
+            "number": "1",
+            "prompt": "1. You want to know what film is being shown at the Roxy Cinema this week. What do you ask a friend?",
+            "answer": "What's on at the Roxy Cinema this week?",
+            "rows": 2
+          },
+          {
+            "id": "practice-c-2",
+            "number": "2",
+            "prompt": "2. A friend has been to see a new film. You want to know what it was like.",
+            "answer": "What was it / the film like?",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Answer the questions according to the example. 仿照例句回答下列问题。",
+        "instruction": "Answer the questions according to the example. 仿照例句回答下列问题。\nExample: 1. Have you washed your hands and face? → I've already washed my hands, but I haven't washed my face.",
+        "translation": "Answer each \"and\" question with a present-perfect positive and a past-simple negative (or vice versa), following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=502",
+        "context": "Item 1 is a printed example (not editable). Items 2-8 are taken from the grammar key (PDF viewer page 502).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. Have you washed your hands and face?",
+            "answer": "I've already washed my hands, but I haven't washed my face.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. Has he done his homework and the housework?",
+            "answer": "He's already done his homework, but he hasn't done the housework.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. Have they painted the doors and windows?",
+            "answer": "They've already painted the doors, but they haven't painted the windows.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. Has she typed the letter and posted it?",
+            "answer": "She's already typed the letter, but she hasn't posted it.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. Have you dusted the table and chairs?",
+            "answer": "I've already dusted the table, but I haven't dusted the chairs.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. Has she telephoned Jane and Jack?",
+            "answer": "She's already telephoned Jane, but she hasn't telephoned Jack.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. Have you been to London and Paris?",
+            "answer": "I've already been to London, but I haven't been to Paris.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. Have you aired the room and cleaned the floor?",
+            "answer": "I've already aired the room, but I haven't cleaned the floor.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Give correct replies to the sentences according to the example. 仿照例句写出下列各句的对应句。",
+        "instruction": "Give correct replies to the sentences according to the example. 仿照例句写出下列各句的对应句。\nExample: 1. The windows are closed. (I) → Yes, I've just closed them.",
+        "translation": "Give a present-perfect reply to each observation, following the example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=502",
+        "context": "Item 1 is a printed example (not editable). Items 2-10 are taken from the grammar key (PDF viewer page 502).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. The windows are closed. (I)",
+            "answer": "Yes, I've just closed them.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. The door is open. (Tom)",
+            "answer": "Yes, Tom's just opened it.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. The table is clean. (Mum)",
+            "answer": "Yes, Mum's just cleaned it.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. The stereo is on. (Mary)",
+            "answer": "Yes, Mary's just turned it on.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. The dishes are dry. (Emma)",
+            "answer": "Yes, Emma's just dried them.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. The lights are off. (Dad)",
+            "answer": "Yes, Dad's just turned them off.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. The magazines are on the shelf. (I)",
+            "answer": "Yes, I've just put them there/on the shelf.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. The shirts and trousers are wet. (Jane)",
+            "answer": "Yes, Jane's just washed them.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "9. The basket is empty. (Sam)",
+            "answer": "Yes, Sam has just emptied it.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "10. The cups and glasses are in the cupboard. (I)",
+            "answer": "Yes, I've just put them there/in the cupboard.",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Lesson 86 textbook — illustrations (p. 175)",
+      "href": "../img/lesson-086-01-text.jpg"
+    },
+    {
+      "label": "Lesson 86 textbook — written exercises (p. 176)",
+      "href": "../img/lesson-086-02-text.jpg"
+    },
+    {
+      "label": "Lesson 86 workbook practice scan",
+      "href": "../img/lesson-086-practice.jpg"
+    },
+    {
+      "label": "Lessons 85-90 workbook answer key scan",
+      "href": "../img/key-085-090.jpg"
+    },
+    {
+      "label": "Lesson 86 grammar exercises (pp. 246-247)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=246"
+    },
+    {
+      "label": "Lesson 86 grammar answer key (p. 502)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=502"
+    }
+  ],
+  "characters": {},
+  "images": {
+    "lesson-086-pic-01": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 1: aired",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-001.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 2: cleaned",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-002.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 3: opened",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-003.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 4: sharpened",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-004.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 5: turned on",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-005.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 6: listened to",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-006.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 7: boiled",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-007.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 8: answered",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-008.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 9: emptied",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-009.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 10: asked",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-010.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 11: typed",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-011.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 12: washed",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-012.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 13: walked",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-013.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 14: painted",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-014.jpg",
+      "width": 255,
+      "height": 220
+    },
+    "lesson-086-pic-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 15: dusted",
+      "characters": [],
+      "source": "../img/lesson-086-01-text.jpg",
+      "src": "assets/lesson-086/pic-015.jpg",
+      "width": 255,
+      "height": 220
+    }
+  }
+}
