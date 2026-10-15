@@ -1,0 +1,758 @@
+{
+  "number": 82,
+  "status": "verified",
+  "title": "I had ...",
+  "translation": "我吃（喝、从事）了……",
+  "description": "A picture lesson on the verb 'have' in the past tense (eat, drink, or be engaged in an activity). Students listen to a recording and answer a question, then study twelve numbered pictures (760-1,090) showing meals, a swim, a bath, a haircut, a lesson, a party, a holiday and a good time. Written exercises ask students to rewrite sentences using drank / enjoyed yourself / are eating / went for / ate / take, and to answer questions using going to have / having / must have / had. Workbook practice covers personal questions about the verb 'have' and open-ended situation responses. Grammar exercises combine two clauses with 'but ... didn't have' and make sentences using the short forms 'and I did, too / but we aren't / but ... can't'.",
+  "answer_note": "Lesson listening question is a suggested model answer based on the pictures. Written A (rewrite using the verbs given) item 1 is a printed example; items 2-6 are suggested model answers. Written B (answer using going to have / having / must have / had) 12 items are suggested model answers following the printed example pattern. Practice A (about you: the verb have) 8 items are open-ended; the key (img/key-080-085.jpg) supplies possible answers, which are used here. Practice B (situations) 3 items are suggested model answers. Grammar I (answer the questions) item 1 is a printed example; items 2-8 are taken from the grammar key (PDF viewer pages 512-513). Grammar II (make sentences) items 1-2 are printed examples; items 3-10 are taken from the grammar key (PDF viewer pages 512-513). No external sources were used.",
+  "expected_answers": 44,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。",
+        "translation": "Listen to the recording and answer the questions."
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-082-01-text.jpg",
+        "title": "Listening — answer the question",
+        "instruction": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "Answer the question according to the recording.",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "What did you have for breakfast today?",
+            "answer": "I had a cup of coffee and a biscuit for breakfast today.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "lesson-pic-760",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-760",
+        "text": "760 — breakfast",
+        "translation": "760 — 早饭"
+      },
+      {
+        "id": "lesson-pic-870",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-870",
+        "text": "870 — lunch",
+        "translation": "870 — 午饭"
+      },
+      {
+        "id": "lesson-pic-980",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-980",
+        "text": "980 — tea",
+        "translation": "980 — 茶（下午茶）"
+      },
+      {
+        "id": "lesson-pic-1010",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1010",
+        "text": "1,010 — dinner",
+        "translation": "1010 — 晚饭"
+      },
+      {
+        "id": "lesson-pic-1020",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1020",
+        "text": "1,020 — a meal",
+        "translation": "1020 — 一顿饭"
+      },
+      {
+        "id": "lesson-pic-1030",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1030",
+        "text": "1,030 — a swim",
+        "translation": "1030 — 游泳"
+      },
+      {
+        "id": "lesson-pic-1040",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1040",
+        "text": "1,040 — a bath",
+        "translation": "1040 — 洗澡"
+      },
+      {
+        "id": "lesson-pic-1050",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1050",
+        "text": "1,050 — a haircut",
+        "translation": "1050 — 理发"
+      },
+      {
+        "id": "lesson-pic-1060",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1060",
+        "text": "1,060 — a lesson",
+        "translation": "1060 — 一节课"
+      },
+      {
+        "id": "lesson-pic-1070",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1070",
+        "text": "1,070 — a party",
+        "translation": "1070 — 一个聚会"
+      },
+      {
+        "id": "lesson-pic-1080",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1080",
+        "text": "1,080 — a holiday",
+        "translation": "1080 — 一个假期"
+      },
+      {
+        "id": "lesson-pic-1090",
+        "type": "text",
+        "source": "../img/lesson-082-01-text.jpg",
+        "image": "lesson-082-pic-1090",
+        "text": "1,090 — a good time",
+        "translation": "1090 — 一段好时光"
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-082-02-text.jpg",
+        "title": "Written A — Rewrite using the verbs given",
+        "instruction": "A Rewrite these sentences using drank, enjoyed yourself, are eating, went for, ate or take. 模仿例句完成以下句子，选用 drank, enjoyed yourself, are eating, went for, ate 或 take。\nExample: I had a cup of coffee. → I drank a cup of coffee.",
+        "translation": "Rewrite each sentence using one of the verbs given, following the example.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "Example: I had a cup of coffee.",
+            "answer": "I drank a cup of coffee.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "They had a meal at a restaurant.",
+            "answer": "They ate a meal at a restaurant.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "We had a holiday last month.",
+            "answer": "We went for a holiday last month.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "Have a biscuit.",
+            "answer": "Take a biscuit.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "You had a good time.",
+            "answer": "You enjoyed yourself.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-6",
+            "number": "6",
+            "prompt": "They are having their lunch.",
+            "answer": "They are eating their lunch.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-082-02-text.jpg",
+        "title": "Written B — Answer using going to have / having / must have / had",
+        "instruction": "B Answer these questions using going to have, having, must have or had. 模仿例句回答以下问题，选用恰当的动词和动词时态。\nExample: What is he going to do? (a glass of whisky) → He's going to have a glass of whisky.",
+        "translation": "Answer each question using the correct form of 'have', following the example.",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "What are they going to do? (breakfast)",
+            "answer": "They're going to have breakfast.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "What are they doing? (lunch)",
+            "answer": "They're having lunch.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "What must he do? (tea)",
+            "answer": "He must have tea.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "What did they do? (dinner)",
+            "answer": "They had dinner.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-5",
+            "number": "5",
+            "prompt": "What must they do? (a meal)",
+            "answer": "They must have a meal.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-6",
+            "number": "6",
+            "prompt": "What is he going to do? (a swim)",
+            "answer": "He's going to have a swim.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-7",
+            "number": "7",
+            "prompt": "What is he doing? (a bath)",
+            "answer": "He's having a bath.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-8",
+            "number": "8",
+            "prompt": "What did he do? (a haircut)",
+            "answer": "He had a haircut.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-9",
+            "number": "9",
+            "prompt": "What are they doing? (a lesson)",
+            "answer": "They're having a lesson.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-10",
+            "number": "10",
+            "prompt": "What did they do? (a party)",
+            "answer": "They had a party.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-11",
+            "number": "11",
+            "prompt": "What must they do? (a holiday)",
+            "answer": "They must have a holiday.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-12",
+            "number": "12",
+            "prompt": "What are they going to do? (a good time)",
+            "answer": "They're going to have a good time.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../img/lesson-082-02-text.jpg",
+        "items": [
+          {
+            "word": "breakfast",
+            "ipa": "/ˈbrekfəst/",
+            "pos": "n.",
+            "meaning": "早饭"
+          },
+          {
+            "word": "haircut",
+            "ipa": "/ˈhɑːkʌt/",
+            "pos": "n.",
+            "meaning": "理发"
+          },
+          {
+            "word": "party",
+            "ipa": "/ˈpɑːti/",
+            "pos": "n.",
+            "meaning": "聚会"
+          },
+          {
+            "word": "holiday",
+            "ipa": "/ˈhɒlədeɪ/",
+            "pos": "n.",
+            "meaning": "假日"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-082-practice.jpg",
+        "title": "A — About you: the verb 'have'",
+        "instruction": "Answer these questions with full sentences. 用完整的句子回答以下问题。",
+        "translation": "Answer each question with a full sentence about yourself.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-080-085.jpg",
+        "context": "These are open-ended personal questions. The key (img/key-080-085.jpg) supplies possible model answers, which are used here.",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "1. When do you usually have breakfast?",
+            "answer": "I / We usually have breakfast at 6.30 a.m.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "2. What do you usually have for lunch?",
+            "answer": "I usually have a snack.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "3. When do you usually have dinner?",
+            "answer": "I / We usually have dinner at 7.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "4. How often do you have a haircut?",
+            "answer": "I have a haircut every month.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "5. When did you last have a haircut?",
+            "answer": "I last had a haircut two weeks ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "6. When (in the week) do you have English lessons?",
+            "answer": "We have English lessons on Tuesday and Thursday.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-7",
+            "number": "7",
+            "prompt": "7. Did you have a holiday last year? Where did you go?",
+            "answer": "We had a holiday last year in [place].",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-8",
+            "number": "8",
+            "prompt": "8. When did you have a party? What was it for?",
+            "answer": "I had a party for my last birthday.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-082-practice.jpg",
+        "title": "B — Situations",
+        "instruction": "Read each situation carefully. What do you say? 仔细阅读每个情景，写出你可能会说的话。",
+        "translation": "Read each situation and write what you would say.",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. You are going out with an English-speaking friend. He / She asks if you are ready. You are — almost.",
+            "answer": "I'm nearly ready.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. A friend looks ill, or worried, or something. You want to know what's wrong.",
+            "answer": "What's the matter?",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. A friend says he / she hasn't got much money. Nor have you. How do you agree?",
+            "answer": "Well, I haven't got much (money) either.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=249",
+        "title": "I. Answer the questions according to the example. 仿照例句回答下列问题。",
+        "instruction": "Answer the questions according to the example. 仿照例句回答下列问题。\nExample: 1. Did you have breakfast and lunch at the hotel? → We had breakfast, but we didn't have lunch.",
+        "translation": "Answer each question, combining the two parts with 'but ... didn't have', following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=512",
+        "context": "Item 1 is a printed example (not editable). Items 2-8 are taken from the grammar key (PDF viewer pages 512-513).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. Did you have breakfast and lunch at the hotel?",
+            "answer": "We had breakfast, but we didn't have lunch.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. Did they have wine and beer at the party?",
+            "answer": "They had wine, but they didn't have beer.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. Did he have tea and dinner yesterday?",
+            "answer": "He had tea, but he didn't have dinner.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. Did you have a party and a holiday last month?",
+            "answer": "I/We had a party, but I/we didn't have a holiday.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. Did she have a lesson and a meeting yesterday afternoon?",
+            "answer": "She had a lesson, but she didn't have a meeting.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. Did you have a haircut and some new shoes last week?",
+            "answer": "I had a haircut, but I didn't have any new shoes.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. Did they have an English lesson and a German lesson on Monday?",
+            "answer": "They had an English lesson, but they didn't have a German lesson.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. Did you have some biscuits and a glass of milk?",
+            "answer": "I had some biscuits, but I didn't have a glass of milk.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=250",
+        "title": "II. Make sentences according to the examples. 仿照例句造句。",
+        "instruction": "Make sentences according to the examples. 仿照例句造句。\nExample 1: Sam and Ann / roast beef / for dinner / yesterday → Sam had roast beef for dinner yesterday, and Ann did, too.\nExample 2: I / usually / milk / in the morning / he / not → I usually have milk in the morning, but he doesn't.",
+        "translation": "Make a sentence from each set of cues, following the example patterns.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=512",
+        "context": "Items 1-2 are printed examples (not editable). Items 3-10 are taken from the grammar key (PDF viewer pages 512-513).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. Sam and Ann / roast beef / for dinner / yesterday",
+            "answer": "Sam had roast beef for dinner yesterday, and Ann did, too.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. I / usually / milk / in the morning / he / not",
+            "answer": "I usually have milk in the morning, but he doesn't.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. you and I / a swim / in the sea / the day before yesterday",
+            "answer": "You had a swim in the sea the day before yesterday, and I did, too.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. they / a holiday / now / we / not",
+            "answer": "They are having a holiday now, but we aren't.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. Sam / can / a glass of beer / his son / not",
+            "answer": "Sam can have a glass of beer, but his son can't.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. she and you / must / a lesson / now",
+            "answer": "She must have a lesson now, and you must, too.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. Mr. Scott / a bad day / yesterday / Mrs. Scott / not",
+            "answer": "Mr. Scott had a bad day yesterday, but Mrs. Scott didn't.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. you and we / a good time / at the party / last night",
+            "answer": "You had a good time at the party last night, and we did, too.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "9. my friend and I / a walk / along the beach / every evening",
+            "answer": "My friend has a walk along the beach every evening, and I do, too.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "10. Jill / usually / lunch / at home / Jim / not",
+            "answer": "Jill usually has lunch at home, but Jim doesn't.",
+            "rows": 2
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Lesson 82 textbook — listening prompt and pictures 760-1,090 (p. 165)",
+      "href": "../img/lesson-082-01-text.jpg"
+    },
+    {
+      "label": "Lesson 82 textbook — vocabulary and written exercises (p. 166)",
+      "href": "../img/lesson-082-02-text.jpg"
+    },
+    {
+      "label": "Lesson 82 workbook practice scan",
+      "href": "../img/lesson-082-practice.jpg"
+    },
+    {
+      "label": "Lessons 80-85 workbook answer key scan",
+      "href": "../img/key-080-085.jpg"
+    },
+    {
+      "label": "Lesson 82 grammar exercises (pp. 249-250)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=249"
+    },
+    {
+      "label": "Lesson 82 grammar answer key (pp. 512-513)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=512"
+    }
+  ],
+  "characters": {},
+  "images": {
+    "lesson-082-pic-760": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman eat breakfast at a table with a clock behind them.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-760.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-870": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Two people eat lunch at a table with a clock showing one o'clock.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-870.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-980": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman have tea together at a table.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-980.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1010": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman eat dinner at a table with a clock behind them.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1010.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1020": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman share a bottle of wine and a meal at a table.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1020.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1030": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man swims in the sea with his arms outstretched.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1030.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1040": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man takes a bath in a tub with soap bubbles around him.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1040.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1050": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A hairdresser gives a man a haircut in front of a mirror.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1050.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1060": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A teacher gives a lesson to two students sitting at desks.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1060.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1070": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A group of people dance at a party.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1070.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1080": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman sunbathe under an umbrella on a beach.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1080.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-082-pic-1090": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman have a good time, laughing and celebrating together.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-082-01-text.jpg",
+      "source_size": [1888, 2500],
+      "src": "assets/lesson-082/pic-1090.jpg",
+      "width": 270,
+      "height": 190
+    }
+  }
+}
