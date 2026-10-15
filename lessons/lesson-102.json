@@ -1,0 +1,625 @@
+{
+  "number": 102,
+  "status": "verified",
+  "title": "He says he ... She says she ... They say they ...",
+  "translation": "他/她/他们说他/她/他们……",
+  "description": "A picture lesson about reporting what people say, think, believe, know, hope, fear, and need. 16 pictures illustrate common situations using indirect speech. No dialogue. No new vocabulary section.",
+  "answer_note": "Answers for practice section A are from the workbook answer key. Textbook written exercises and practice B/C are open-ended (suggested answers). Grammar answers are from the grammar practice book key.",
+  "expected_answers": 72,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "textbook",
+        "text": "Lesson 102: He says he ... She says she ... They say they ...",
+        "translation": "第102课：他/她/他们说他/她/他们……",
+        "image": "items-grid"
+      },
+      {
+        "id": "lesson-items",
+        "type": "text",
+        "source": "textbook",
+        "text": "Listen and answer the questions. Use the words in the box to describe what the people in the pictures say, think, believe, know, hope, fear, and need.",
+        "translation": "听录音并回答问题。用方框中的词描述图中人们说、想、相信、知道、希望、害怕和需要什么。"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Listen and answer the questions",
+        "instruction": "Look at the pictures and answer the questions using the words in the box.",
+        "translation": "看图并回答问题，使用方框中的词。",
+        "expected_items": 16,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers based on the pictures and word box.",
+        "context": "Each picture shows a person in a specific situation. Use the reporting verbs and modal verbs from the word box to describe what they say/think/feel/need.",
+        "questions": [
+          {
+            "id": "l102-list-1",
+            "number": 1,
+            "prompt": "Picture 1: A man yawning at his desk (tired)",
+            "answer": "He says he is tired."
+          },
+          {
+            "id": "l102-list-2",
+            "number": 2,
+            "prompt": "Picture 2: Two people drinking (thirsty)",
+            "answer": "They say they are thirsty."
+          },
+          {
+            "id": "l102-list-3",
+            "number": 3,
+            "prompt": "Picture 3: A person shivering at a bus stop (cold)",
+            "answer": "He says he is cold."
+          },
+          {
+            "id": "l102-list-4",
+            "number": 4,
+            "prompt": "Picture 4: A person lying in bed looking unwell (ill)",
+            "answer": "She says she is ill."
+          },
+          {
+            "id": "l102-list-5",
+            "number": 5,
+            "prompt": "Picture 5: A man blowing his nose (a cold)",
+            "answer": "He says he's got a cold."
+          },
+          {
+            "id": "l102-list-6",
+            "number": 6,
+            "prompt": "Picture 6: A person holding their head (a headache)",
+            "answer": "She says she's got a headache."
+          },
+          {
+            "id": "l102-list-7",
+            "number": 7,
+            "prompt": "Picture 7: A person holding their ear (an earache)",
+            "answer": "He says he's got an earache."
+          },
+          {
+            "id": "l102-list-8",
+            "number": 8,
+            "prompt": "Picture 8: Two girls with toothaches (a toothache)",
+            "answer": "They say they've got a toothache."
+          },
+          {
+            "id": "l102-list-9",
+            "number": 9,
+            "prompt": "Picture 9: A woman at a hairdresser (a haircut)",
+            "answer": "She says she needs a haircut."
+          },
+          {
+            "id": "l102-list-10",
+            "number": 10,
+            "prompt": "Picture 10: A person at a driving test (a licence)",
+            "answer": "He says he wants a licence."
+          },
+          {
+            "id": "l102-list-11",
+            "number": 11,
+            "prompt": "Picture 11: A doctor showing an X-ray (an X-ray)",
+            "answer": "He says he needs an X-ray."
+          },
+          {
+            "id": "l102-list-12",
+            "number": 12,
+            "prompt": "Picture 12: Two people counting money (some money)",
+            "answer": "They say they need some money."
+          },
+          {
+            "id": "l102-list-13",
+            "number": 13,
+            "prompt": "Picture 13: A person waiting at a bus stop (wait)",
+            "answer": "He says he must wait for the bus."
+          },
+          {
+            "id": "l102-list-14",
+            "number": 14,
+            "prompt": "Picture 14: A person running to catch a bus (catch)",
+            "answer": "She says she can catch the bus."
+          },
+          {
+            "id": "l102-list-15",
+            "number": 15,
+            "prompt": "Picture 15: A person repairing a car (repair)",
+            "answer": "He says he must repair his car."
+          },
+          {
+            "id": "l102-list-16",
+            "number": 16,
+            "prompt": "Picture 16: A house for sale (sell)",
+            "answer": "He says he will sell his house."
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises A: Rewrite these sentences as indirect speech",
+        "instruction": "Rewrite these sentences as indirect speech. Example: He is drinking his milk. → He says he has drunk his milk.",
+        "translation": "模仿例句把下列句子改写成间接引语。例句：他正在喝他的牛奶。→ 他说他已经喝完了他的牛奶。",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers converting present continuous to indirect speech.",
+        "context": "Convert each present continuous sentence to indirect speech using 'He/She/They says/say that...'",
+        "questions": [
+          {
+            "id": "l102-wa-1",
+            "number": 1,
+            "prompt": "She is shutting the door.",
+            "answer": "She says she is shutting the door."
+          },
+          {
+            "id": "l102-wa-2",
+            "number": 2,
+            "prompt": "He is putting on his coat.",
+            "answer": "He says he is putting on his coat."
+          },
+          {
+            "id": "l102-wa-3",
+            "number": 3,
+            "prompt": "He is reading this magazine.",
+            "answer": "He says he is reading the magazine."
+          },
+          {
+            "id": "l102-wa-4",
+            "number": 4,
+            "prompt": "They are speaking to the boss.",
+            "answer": "They say they are speaking to the boss."
+          },
+          {
+            "id": "l102-wa-5",
+            "number": 5,
+            "prompt": "The sun is rising.",
+            "answer": "He says the sun is rising."
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises B: Write nine sentences using the table",
+        "instruction": "Look at this table. Now write nine sentences. Example: He says he feels ill.",
+        "translation": "注意以下表格。利用上表中的短语，模仿例句写出9句话。例句：他说他感到不舒服。",
+        "expected_items": 9,
+        "answer_kind": "suggested",
+        "answer_note": "Model sentences combining the verb phrases with the noun/adjective phrases from the table.",
+        "context": "Table: He says he [has got / feels / will sell / needs / must wait for] + [cold / a bus / a haircut / tired / a cold / thirsty / an X-ray / an earache / his house / ill]. Write 9 sentences.",
+        "questions": [
+          {
+            "id": "l102-wb-1",
+            "number": 1,
+            "prompt": "has got + a cold",
+            "answer": "He says he has got a cold."
+          },
+          {
+            "id": "l102-wb-2",
+            "number": 2,
+            "prompt": "feels + tired",
+            "answer": "He says he feels tired."
+          },
+          {
+            "id": "l102-wb-3",
+            "number": 3,
+            "prompt": "will sell + his house",
+            "answer": "He says he will sell his house."
+          },
+          {
+            "id": "l102-wb-4",
+            "number": 4,
+            "prompt": "needs + a haircut",
+            "answer": "He says he needs a haircut."
+          },
+          {
+            "id": "l102-wb-5",
+            "number": 5,
+            "prompt": "must wait for + a bus",
+            "answer": "He says he must wait for a bus."
+          },
+          {
+            "id": "l102-wb-6",
+            "number": 6,
+            "prompt": "has got + an earache",
+            "answer": "He says he has got an earache."
+          },
+          {
+            "id": "l102-wb-7",
+            "number": 7,
+            "prompt": "feels + thirsty",
+            "answer": "He says he feels thirsty."
+          },
+          {
+            "id": "l102-wb-8",
+            "number": 8,
+            "prompt": "needs + an X-ray",
+            "answer": "He says he needs an X-ray."
+          },
+          {
+            "id": "l102-wb-9",
+            "number": 9,
+            "prompt": "feels + ill",
+            "answer": "He says he feels ill."
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice A: What does he say?",
+        "instruction": "Report what people say. Example: He says: 'I feel cold.' → He says he feels cold.",
+        "translation": "转述人们说的话。例句：他说：'我感到冷。' → 他说他感到冷。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "img/key-101-106.jpg (Lesson 102 A)",
+        "context": "Convert direct speech to indirect speech. Do NOT use 'that'.",
+        "questions": [
+          {
+            "id": "l102-pa-1",
+            "number": 1,
+            "prompt": "He says: 'I feel cold.'",
+            "answer": "He says he feels cold.",
+            "example": true
+          },
+          {
+            "id": "l102-pa-2",
+            "number": 2,
+            "prompt": "She thinks: 'I've got a cold.'",
+            "answer": "She thinks she's got a cold."
+          },
+          {
+            "id": "l102-pa-3",
+            "number": 3,
+            "prompt": "I know: 'I need an X-ray.'",
+            "answer": "I know I need an X-ray."
+          },
+          {
+            "id": "l102-pa-4",
+            "number": 4,
+            "prompt": "We know: 'He can swim well.'",
+            "answer": "We know he can swim well."
+          },
+          {
+            "id": "l102-pa-5",
+            "number": 5,
+            "prompt": "They believe: 'She is ill.'",
+            "answer": "They believe she is ill."
+          },
+          {
+            "id": "l102-pa-6",
+            "number": 6,
+            "prompt": "I am sure: 'He will sell his house.'",
+            "answer": "I am sure he will sell his house."
+          },
+          {
+            "id": "l102-pa-7",
+            "number": 7,
+            "prompt": "I am sure: 'She is at home today.'",
+            "answer": "I am sure she is at home today."
+          },
+          {
+            "id": "l102-pa-8",
+            "number": 8,
+            "prompt": "I am sorry: 'She is ill.'",
+            "answer": "I am sorry she is ill."
+          },
+          {
+            "id": "l102-pa-9",
+            "number": 9,
+            "prompt": "I am afraid: 'You are wrong.'",
+            "answer": "I am afraid you are wrong."
+          },
+          {
+            "id": "l102-pa-10",
+            "number": 10,
+            "prompt": "I understand: 'You need money.'",
+            "answer": "I understand you need money."
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice B: A postcard",
+        "instruction": "Fill in the blanks to write a postcard.",
+        "translation": "填空写一张明信片。",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "answer_note": "Open-ended exercise. Model answer from workbook key.",
+        "context": "Write a postcard to a friend. The key provides a possible answer.",
+        "questions": [
+          {
+            "id": "l102-pb-1",
+            "number": 1,
+            "prompt": "Write a postcard: Dear Penny, I have just arrived in London and I'm staying at the Royal Hotel. I'll write you a long letter soon. I hope you and your parents are all well. Love, [your name]",
+            "answer": "Dear Penny, I have just arrived in London and I'm staying at the Royal Hotel. I'll write you a long letter soon. I hope you and your parents are all well. Love, [your name]"
+          }
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice C: Situations",
+        "instruction": "Complete the situations.",
+        "translation": "完成下列情境。",
+        "expected_items": 2,
+        "answer_kind": "suggested",
+        "answer_note": "Open-ended exercise. Model answers from workbook key.",
+        "context": "Complete each situation with an appropriate response.",
+        "questions": [
+          {
+            "id": "l102-pc-1",
+            "number": 1,
+            "prompt": "Situation 1: 'I can't hear you.'",
+            "answer": "I'm afraid I can't hear you."
+          },
+          {
+            "id": "l102-pc-2",
+            "number": 2,
+            "prompt": "Situation 2: 'You should see a doctor.'",
+            "answer": "I think (that) you had better see a doctor."
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar I: Choose the correct verb form",
+        "instruction": "Choose the correct verb form in each sentence.",
+        "translation": "选择每个句子中正确的动词形式。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 102 I, PDF p.532)",
+        "context": "Choose between two verb forms in each sentence to complete the indirect speech correctly.",
+        "questions": [
+          {
+            "id": "l102-gi-1",
+            "number": 1,
+            "prompt": "I'm sorry I ___ (don't understand / won't understand).",
+            "answer": "don't understand"
+          },
+          {
+            "id": "l102-gi-2",
+            "number": 2,
+            "prompt": "The man ___ (knew / knows).",
+            "answer": "knows"
+          },
+          {
+            "id": "l102-gi-3",
+            "number": 3,
+            "prompt": "She says I ___ (speak / have spoken).",
+            "answer": "speak"
+          },
+          {
+            "id": "l102-gi-4",
+            "number": 4,
+            "prompt": "The boys say they ___ (were / are).",
+            "answer": "are"
+          },
+          {
+            "id": "l102-gi-5",
+            "number": 5,
+            "prompt": "Mrs. Bell says she ___ (has been / is going).",
+            "answer": "is going"
+          },
+          {
+            "id": "l102-gi-6",
+            "number": 6,
+            "prompt": "They ___ (say / said).",
+            "answer": "say"
+          },
+          {
+            "id": "l102-gi-7",
+            "number": 7,
+            "prompt": "We hope it ___ (wasn't / won't be).",
+            "answer": "won't be"
+          },
+          {
+            "id": "l102-gi-8",
+            "number": 8,
+            "prompt": "Mary says she ___ (is having / is going to have).",
+            "answer": "is going to have"
+          },
+          {
+            "id": "l102-gi-9",
+            "number": 9,
+            "prompt": "They say they ___ (waited / are waiting).",
+            "answer": "are waiting"
+          },
+          {
+            "id": "l102-gi-10",
+            "number": 10,
+            "prompt": "The boy says he ___ (don't want / doesn't want).",
+            "answer": "doesn't want"
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar II: Change the sentences to indirect speech",
+        "instruction": "Change the sentences to indirect speech. Example: Ann: I'm enjoying myself very much. → Ann says she is enjoying herself very much.",
+        "translation": "把下列句子改成间接引语。例句：安：'我很开心。' → 安说她很开心。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 102 II, PDF p.532-533)",
+        "context": "Convert each direct speech sentence to indirect speech. Item 1 is a printed example.",
+        "questions": [
+          {
+            "id": "l102-gii-1",
+            "number": 1,
+            "prompt": "Ann: I'm enjoying myself very much.",
+            "answer": "Ann says she is enjoying herself very much.",
+            "example": true
+          },
+          {
+            "id": "l102-gii-2",
+            "number": 2,
+            "prompt": "The boys: We're tired and sleepy.",
+            "answer": "The boys say they're tired and sleepy."
+          },
+          {
+            "id": "l102-gii-3",
+            "number": 3,
+            "prompt": "Mary: I've just washed the dishes.",
+            "answer": "Mary says she's just washed the dishes."
+          },
+          {
+            "id": "l102-gii-4",
+            "number": 4,
+            "prompt": "Tom: I'm afraid I can't hear you.",
+            "answer": "Tom says he's afraid he can't hear you/me."
+          },
+          {
+            "id": "l102-gii-5",
+            "number": 5,
+            "prompt": "My daughter: I'll write a letter to you soon.",
+            "answer": "My daughter says she'll write a letter to you/me soon."
+          },
+          {
+            "id": "l102-gii-6",
+            "number": 6,
+            "prompt": "My husband: I'll take the children to school.",
+            "answer": "My husband says he'll take the children to school."
+          },
+          {
+            "id": "l102-gii-7",
+            "number": 7,
+            "prompt": "Lucy: I'm still cooking the evening meal.",
+            "answer": "Lucy says she's still cooking the evening meal."
+          },
+          {
+            "id": "l102-gii-8",
+            "number": 8,
+            "prompt": "The postman: I think I need a big bag for the letters.",
+            "answer": "The postman says he thinks he needs a big bag for the letters."
+          },
+          {
+            "id": "l102-gii-9",
+            "number": 9,
+            "prompt": "My friends: We've already arrived in Shanghai.",
+            "answer": "My friends say they've already arrived in Shanghai."
+          },
+          {
+            "id": "l102-gii-10",
+            "number": 10,
+            "prompt": "Peter: I feel ill.",
+            "answer": "Peter says he feels ill."
+          }
+        ]
+      },
+      {
+        "id": "grammar-iii",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar III: Add question tags",
+        "instruction": "Add question tags to the sentences according to the example. Example: You can't speak English, can you?",
+        "translation": "仿照例句完成下列附加疑问句。例句：你不会说英语，是吗？",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 102 III, PDF p.533)",
+        "context": "Add the correct question tag to each sentence. Item 1 is a printed example.",
+        "questions": [
+          {
+            "id": "l102-giii-1",
+            "number": 1,
+            "prompt": "You can't speak English, ___?",
+            "answer": "can you?",
+            "example": true
+          },
+          {
+            "id": "l102-giii-2",
+            "number": 2,
+            "prompt": "These aren't your books, ___?",
+            "answer": "are they?"
+          },
+          {
+            "id": "l102-giii-3",
+            "number": 3,
+            "prompt": "He won't be late, ___?",
+            "answer": "will he?"
+          },
+          {
+            "id": "l102-giii-4",
+            "number": 4,
+            "prompt": "It isn't going to rain tomorrow, ___?",
+            "answer": "is it?"
+          },
+          {
+            "id": "l102-giii-5",
+            "number": 5,
+            "prompt": "We don't need any money, ___?",
+            "answer": "do we?"
+          },
+          {
+            "id": "l102-giii-6",
+            "number": 6,
+            "prompt": "She doesn't live here, ___?",
+            "answer": "does she?"
+          },
+          {
+            "id": "l102-giii-7",
+            "number": 7,
+            "prompt": "He doesn't feel well, ___?",
+            "answer": "does he?"
+          },
+          {
+            "id": "l102-giii-8",
+            "number": 8,
+            "prompt": "You aren't tired, ___?",
+            "answer": "are you?"
+          },
+          {
+            "id": "l102-giii-9",
+            "number": 9,
+            "prompt": "We haven't finished our work, ___?",
+            "answer": "have we?"
+          },
+          {
+            "id": "l102-giii-10",
+            "number": 10,
+            "prompt": "She has never been to Berlin, ___?",
+            "answer": "has she?"
+          },
+          {
+            "id": "l102-giii-11",
+            "number": 11,
+            "prompt": "He isn't having lunch now, ___?",
+            "answer": "is he?"
+          },
+          {
+            "id": "l102-giii-12",
+            "number": 12,
+            "prompt": "She hasn't got mumps, ___?",
+            "answer": "has she?"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {},
+  "images": {
+    "items-grid": {
+      "kind": "scene",
+      "description": "16 pictures showing people in various situations (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell) with a word box of reporting verbs and modal verbs",
+      "source": "img/lesson-102-01-text.jpg",
+      "characters": [],
+      "status": "ready",
+      "src": "assets/lesson-102/items-grid.jpg",
+      "width": 1494,
+      "height": 2325
+    }
+  }
+}
