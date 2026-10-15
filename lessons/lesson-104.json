@@ -1,0 +1,696 @@
+{
+  "number": 104,
+  "status": "verified",
+  "title": "Too, very, enough",
+  "translation": "太、非常、足够",
+  "description": "A picture lesson about the difference between 'too', 'very', and 'enough'. 16 pictures show people in various situations. The lesson teaches how to describe whether something is too much, very much, or enough.",
+  "answer_note": "Textbook written exercises and practice A/B are open-ended (suggested answers). Grammar answers are from the grammar practice book key.",
+  "expected_answers": 72,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "textbook",
+        "text": "Lesson 104: Too, very, enough",
+        "translation": "第104课：太、非常、足够",
+        "image": "items-grid"
+      },
+      {
+        "id": "lesson-items",
+        "type": "text",
+        "source": "textbook",
+        "text": "Listen and answer the questions. Use 'too', 'very', or 'enough' to describe what the people in the pictures say, think, and feel.",
+        "translation": "听录音并回答问题。用'too'、'very'或'enough'描述图中人们说、想和感受。"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Listen and answer the questions",
+        "instruction": "Look at the pictures and answer the questions using 'too', 'very', or 'enough'.",
+        "translation": "看图并回答问题，使用'too'、'very'或'enough'。",
+        "expected_items": 16,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers based on the pictures and the example sentences in the speech bubble.",
+        "context": "Each picture shows a person in a specific situation. Use 'too', 'very', or 'enough' to describe the situation.",
+        "questions": [
+          {
+            "id": "l104-list-1",
+            "number": 1,
+            "prompt": "Picture A: A person answering exam questions (easy)",
+            "answer": "I could answer all the questions. They were very easy."
+          },
+          {
+            "id": "l104-list-2",
+            "number": 2,
+            "prompt": "Picture B: A person struggling with exam questions (difficult)",
+            "answer": "I couldn't answer the questions. They were too difficult."
+          },
+          {
+            "id": "l104-list-3",
+            "number": 3,
+            "prompt": "Picture C: A person answering questions confidently (clever)",
+            "answer": "The questions were easy enough for me to answer."
+          },
+          {
+            "id": "l104-list-4",
+            "number": 4,
+            "prompt": "Picture D: A person looking confused (stupid)",
+            "answer": "The questions were too difficult for me to answer."
+          },
+          {
+            "id": "l104-list-5",
+            "number": 5,
+            "prompt": "Picture E: A person buying a cheap car (cheap)",
+            "answer": "The car was cheap enough for him to buy."
+          },
+          {
+            "id": "l104-list-6",
+            "number": 6,
+            "prompt": "Picture F: A person looking at an expensive car (expensive)",
+            "answer": "The car was too expensive for him to buy."
+          },
+          {
+            "id": "l104-list-7",
+            "number": 7,
+            "prompt": "Picture G: People eating fresh cakes (fresh)",
+            "answer": "The cakes were fresh enough for them to eat."
+          },
+          {
+            "id": "l104-list-8",
+            "number": 8,
+            "prompt": "Picture H: People with sour faces eating stale cakes (stale)",
+            "answer": "The cakes were too stale for them to eat."
+          },
+          {
+            "id": "l104-list-9",
+            "number": 9,
+            "prompt": "Picture I: People listening to a loud stereo (loud)",
+            "answer": "The stereo was loud enough for them to hear."
+          },
+          {
+            "id": "l104-list-10",
+            "number": 10,
+            "prompt": "Picture J: People trying to hear a quiet stereo (low)",
+            "answer": "The stereo was too low for them to hear."
+          },
+          {
+            "id": "l104-list-11",
+            "number": 11,
+            "prompt": "Picture K: A person climbing a low wall (low)",
+            "answer": "The wall was low enough for him to climb."
+          },
+          {
+            "id": "l104-list-12",
+            "number": 12,
+            "prompt": "Picture L: A person struggling with a high wall (high)",
+            "answer": "The wall was too high for him to climb."
+          },
+          {
+            "id": "l104-list-13",
+            "number": 13,
+            "prompt": "Picture M: A person eating a soft pear (soft)",
+            "answer": "The pear was soft enough for her to eat."
+          },
+          {
+            "id": "l104-list-14",
+            "number": 14,
+            "prompt": "Picture N: A person struggling with a hard pear (hard)",
+            "answer": "The pear was too hard for her to eat."
+          },
+          {
+            "id": "l104-list-15",
+            "number": 15,
+            "prompt": "Picture O: A person eating a sweet orange (sweet)",
+            "answer": "The orange was sweet enough for her to eat."
+          },
+          {
+            "id": "l104-list-16",
+            "number": 16,
+            "prompt": "Picture P: A person with a sour face eating a sour orange (sour)",
+            "answer": "The orange was too sour for her to eat."
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook",
+        "items": [
+          {
+            "word": "clever",
+            "ipa": "/'klevə/",
+            "pos": "adj.",
+            "meaning": "聪明的"
+          },
+          {
+            "word": "stupid",
+            "ipa": "/'stju:pid/",
+            "pos": "adj.",
+            "meaning": "笨的"
+          },
+          {
+            "word": "cheap",
+            "ipa": "/tʃiːp/",
+            "pos": "adj.",
+            "meaning": "便宜的"
+          },
+          {
+            "word": "expensive",
+            "ipa": "/ik'spensiv/",
+            "pos": "adj.",
+            "meaning": "贵的"
+          },
+          {
+            "word": "fresh",
+            "ipa": "/freʃ/",
+            "pos": "adj.",
+            "meaning": "新鲜的"
+          },
+          {
+            "word": "stale",
+            "ipa": "/steɪl/",
+            "pos": "adj.",
+            "meaning": "不新鲜的，变味的"
+          },
+          {
+            "word": "low",
+            "ipa": "/ləʊ/",
+            "pos": "adj.",
+            "meaning": "低的，矮的"
+          },
+          {
+            "word": "loud",
+            "ipa": "/laud/",
+            "pos": "adj.",
+            "meaning": "大声的"
+          },
+          {
+            "word": "high",
+            "ipa": "/haɪ/",
+            "pos": "adj.",
+            "meaning": "高的"
+          },
+          {
+            "word": "hard",
+            "ipa": "/hɑːd/",
+            "pos": "adj.",
+            "meaning": "硬的"
+          },
+          {
+            "word": "sweet",
+            "ipa": "/swiːt/",
+            "pos": "adj.",
+            "meaning": "甜的"
+          },
+          {
+            "word": "soft",
+            "ipa": "/sɒft/",
+            "pos": "adj.",
+            "meaning": "软的"
+          },
+          {
+            "word": "sour",
+            "ipa": "/saʊə/",
+            "pos": "adj.",
+            "meaning": "酸的"
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises A: Complete with too, very, or enough",
+        "instruction": "Complete these sentences using too, very, or enough.",
+        "translation": "用too、very或enough完成以下句子。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers completing sentences with too, very, or enough.",
+        "context": "Fill in each blank with the appropriate word: 'too', 'very', or 'enough'.",
+        "questions": [
+          {
+            "id": "l104-wa-1",
+            "number": 1,
+            "prompt": "I couldn't speak to the boss. He was ___ busy.",
+            "answer": "too"
+          },
+          {
+            "id": "l104-wa-2",
+            "number": 2,
+            "prompt": "I couldn't go out. It was ___ cold for me to go out.",
+            "answer": "too"
+          },
+          {
+            "id": "l104-wa-3",
+            "number": 3,
+            "prompt": "I could answer all the questions. They were ___ easy.",
+            "answer": "very"
+          },
+          {
+            "id": "l104-wa-4",
+            "number": 4,
+            "prompt": "Is that suitcase light ___ for you to carry?",
+            "answer": "enough"
+          },
+          {
+            "id": "l104-wa-5",
+            "number": 5,
+            "prompt": "Is your brother old ___ to be a member of our association?",
+            "answer": "enough"
+          },
+          {
+            "id": "l104-wa-6",
+            "number": 6,
+            "prompt": "They couldn't see that film. They were ___ young.",
+            "answer": "too"
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises B: Answer the questions",
+        "instruction": "Answer these questions according to the examples. Examples: Could he answer all the questions? (Yes/easy) → Yes, he could. They were easy enough for him to answer. Could he answer all the questions? (No/difficult) → No, he couldn't. They were too difficult for him to answer.",
+        "translation": "模仿例句回答以下问题。例句：他能回答所有问题吗？（是/容易）→ 是的，他能。题目对他来说足够容易。他能回答所有问题吗？（否/困难）→ 不，他不能。题目对他来说太难了。",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers using 'too...to' or 'enough...to' constructions.",
+        "context": "Answer each question using 'Yes/No, he/she/they could/couldn't' + 'It/They were too...for...to...' or 'It/They were...enough for...to...'",
+        "questions": [
+          {
+            "id": "l104-wb-1",
+            "number": 1,
+            "prompt": "Could he buy the car? (Yes/cheap)",
+            "answer": "Yes, he could. It was cheap enough for him to buy."
+          },
+          {
+            "id": "l104-wb-2",
+            "number": 2,
+            "prompt": "Could he buy the car? (No/expensive)",
+            "answer": "No, he couldn't. It was too expensive for him to buy."
+          },
+          {
+            "id": "l104-wb-3",
+            "number": 3,
+            "prompt": "Could they eat the cakes? (Yes/fresh)",
+            "answer": "Yes, they could. They were fresh enough for them to eat."
+          },
+          {
+            "id": "l104-wb-4",
+            "number": 4,
+            "prompt": "Could they eat the cakes? (No/stale)",
+            "answer": "No, they couldn't. They were too stale for them to eat."
+          },
+          {
+            "id": "l104-wb-5",
+            "number": 5,
+            "prompt": "Could they hear the stereo? (Yes/loud)",
+            "answer": "Yes, they could. It was loud enough for them to hear."
+          },
+          {
+            "id": "l104-wb-6",
+            "number": 6,
+            "prompt": "Could they hear the stereo? (No/low)",
+            "answer": "No, they couldn't. It was too low for them to hear."
+          },
+          {
+            "id": "l104-wb-7",
+            "number": 7,
+            "prompt": "Could he climb the wall? (Yes/low)",
+            "answer": "Yes, he could. It was low enough for him to climb."
+          },
+          {
+            "id": "l104-wb-8",
+            "number": 8,
+            "prompt": "Could he climb the wall? (No/high)",
+            "answer": "No, he couldn't. It was too high for him to climb."
+          },
+          {
+            "id": "l104-wb-9",
+            "number": 9,
+            "prompt": "Could she eat the pear? (Yes/soft)",
+            "answer": "Yes, she could. It was soft enough for her to eat."
+          },
+          {
+            "id": "l104-wb-10",
+            "number": 10,
+            "prompt": "Could she eat the pear? (No/hard)",
+            "answer": "No, she couldn't. It was too hard for her to eat."
+          },
+          {
+            "id": "l104-wb-11",
+            "number": 11,
+            "prompt": "Could she eat the orange? (Yes/sweet)",
+            "answer": "Yes, she could. It was sweet enough for her to eat."
+          },
+          {
+            "id": "l104-wb-12",
+            "number": 12,
+            "prompt": "Could she eat the orange? (No/sour)",
+            "answer": "No, she couldn't. It was too sour for her to eat."
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice A: Cheap enough ... or too expensive ...",
+        "instruction": "Read the situations and write sentences like the example. Example: He looked at two cars, a Ford and a Mercedes. the Ford / cheap / he / buy → The Ford was cheap enough for him to buy, but the Mercedes was too expensive (for him to buy).",
+        "translation": "读情境并模仿例句写句子。例句：他看了两辆车，一辆福特和一辆奔驰。福特/便宜/他/买 → 福特对他来说足够便宜可以买，但奔驰对他来说太贵了（买不起）。",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers using 'enough...to' and 'too...to' constructions.",
+        "context": "Write two sentences for each situation: one with 'enough...to' and one with 'too...to'. Item 1 is a printed example.",
+        "questions": [
+          {
+            "id": "l104-pa-1",
+            "number": 1,
+            "prompt": "He looked at two cars, a Ford and a Mercedes. the Ford / cheap / he / buy; the Mercedes / expensive",
+            "answer": "The Ford was cheap enough for him to buy, but the Mercedes was too expensive (for him to buy).",
+            "example": true
+          },
+          {
+            "id": "l104-pa-2",
+            "number": 2,
+            "prompt": "She had two tests, a Maths test and a French test. the Maths test / easy / she / pass; the French test / difficult",
+            "answer": "The Maths test was easy enough for her to pass, but the French test was too difficult (for her to pass)."
+          },
+          {
+            "id": "l104-pa-3",
+            "number": 3,
+            "prompt": "They had some apples and some pears. the pears / soft / they / eat; the apples / hard",
+            "answer": "The pears were soft enough for them to eat, but the apples were too hard (for them to eat)."
+          },
+          {
+            "id": "l104-pa-4",
+            "number": 4,
+            "prompt": "The old lady had two suitcases and I wanted to help her. the small one / light / I / carry; the big one / heavy",
+            "answer": "The small one was light enough for me to carry, but the big one was too heavy (for me to carry)."
+          },
+          {
+            "id": "l104-pa-5",
+            "number": 5,
+            "prompt": "An old man in the village gave us some grapes. the black ones / sweet / we / eat; the green ones / sour",
+            "answer": "The black ones were sweet enough for us to eat, but the green ones were too sour (for us to eat)."
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice B: About you",
+        "instruction": "Answer these questions with short or full answers.",
+        "translation": "用简短形式或完整句子回答以下问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "answer_note": "Open-ended personal questions. Model answers provided.",
+        "context": "Answer each question about yourself using 'too', 'very', or 'enough'.",
+        "questions": [
+          {
+            "id": "l104-pb-1",
+            "number": 1,
+            "prompt": "When was your last English test?",
+            "answer": "My last English test was last week."
+          },
+          {
+            "id": "l104-pb-2",
+            "number": 2,
+            "prompt": "Did you pass it or fail it?",
+            "answer": "I passed it."
+          },
+          {
+            "id": "l104-pb-3",
+            "number": 3,
+            "prompt": "Was it easy, or was it too difficult for you?",
+            "answer": "It was easy enough for me to pass."
+          },
+          {
+            "id": "l104-pb-4",
+            "number": 4,
+            "prompt": "Are you old enough to be a member of the local sports club?",
+            "answer": "Yes, I am old enough to be a member."
+          },
+          {
+            "id": "l104-pb-5",
+            "number": 5,
+            "prompt": "Are you old enough to drive a car?",
+            "answer": "No, I'm not old enough to drive a car."
+          },
+          {
+            "id": "l104-pb-6",
+            "number": 6,
+            "prompt": "Are you old enough to ride a motor-bike?",
+            "answer": "No, I'm not old enough to ride a motor-bike."
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar I: Combine sentences with 'too...to'",
+        "instruction": "Combine each pair of sentences according to the examples. Example: He was very young. He couldn't go to school. → He was too young to go to school.",
+        "translation": "仿照例句合并下列句子。例句：他很年轻。他不能去上学。→ 他太小了不能去上学。",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 104 I, PDF p.534-535)",
+        "context": "Combine each pair of sentences using 'too + adjective + to + verb'. Items 1a and 2a are printed examples.",
+        "questions": [
+          {
+            "id": "l104-gi-1",
+            "number": 1,
+            "prompt": "a. He was very young. He couldn't go to school.",
+            "answer": "He was too young to go to school.",
+            "example": true
+          },
+          {
+            "id": "l104-gi-2",
+            "number": 2,
+            "prompt": "b. The man was very old. He couldn't swim in the sea.",
+            "answer": "The man was too old to swim in the sea."
+          },
+          {
+            "id": "l104-gi-3",
+            "number": 3,
+            "prompt": "c. She was very ill. She couldn't go to work yesterday.",
+            "answer": "She was too ill to go to work yesterday."
+          },
+          {
+            "id": "l104-gi-4",
+            "number": 4,
+            "prompt": "d. The little dog was very weak. He couldn't walk.",
+            "answer": "The little dog was too weak to walk."
+          },
+          {
+            "id": "l104-gi-5",
+            "number": 5,
+            "prompt": "e. The news was very good. It couldn't be true.",
+            "answer": "The news was too good to be true."
+          },
+          {
+            "id": "l104-gi-6",
+            "number": 6,
+            "prompt": "f. The boys were very tired. They couldn't climb the wall.",
+            "answer": "The boys were too tired to climb the wall."
+          },
+          {
+            "id": "l104-gi-7",
+            "number": 7,
+            "prompt": "g. We were very late. We couldn't catch the train.",
+            "answer": "We were too late to catch the train."
+          },
+          {
+            "id": "l104-gi-8",
+            "number": 8,
+            "prompt": "h. I was very stupid. I couldn't understand the maths problem.",
+            "answer": "I was too stupid to understand the maths problem."
+          },
+          {
+            "id": "l104-gi-9",
+            "number": 9,
+            "prompt": "a. The box was too heavy. He couldn't lift it.",
+            "answer": "The box was too heavy for him to lift.",
+            "example": true
+          },
+          {
+            "id": "l104-gi-10",
+            "number": 10,
+            "prompt": "b. The food was too hot. They couldn't eat it.",
+            "answer": "The food was too hot for them to eat."
+          },
+          {
+            "id": "l104-gi-11",
+            "number": 11,
+            "prompt": "c. The trousers were too short. He couldn't wear them.",
+            "answer": "The trousers were too short for him to wear."
+          },
+          {
+            "id": "l104-gi-12",
+            "number": 12,
+            "prompt": "d. Her handwriting was too bad. We couldn't read it.",
+            "answer": "Her handwriting was too bad for us to read."
+          },
+          {
+            "id": "l104-gi-13",
+            "number": 13,
+            "prompt": "e. The work was too hard. They couldn't do it.",
+            "answer": "The work was too hard for them to do."
+          },
+          {
+            "id": "l104-gi-14",
+            "number": 14,
+            "prompt": "f. The shelf was too high. I couldn't reach it.",
+            "answer": "The shelf was too high for me to reach."
+          },
+          {
+            "id": "l104-gi-15",
+            "number": 15,
+            "prompt": "g. The questions were too difficult. They couldn't answer them.",
+            "answer": "The questions were too difficult for them to answer."
+          },
+          {
+            "id": "l104-gi-16",
+            "number": 16,
+            "prompt": "h. The bag was too big. She couldn't carry it.",
+            "answer": "The bag was too big for her to carry."
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar II: Combine sentences with 'enough...to'",
+        "instruction": "Combine each pair of sentences according to the examples. Example: The shelf is very low. He can reach it. → The shelf is low enough for him to reach.",
+        "translation": "仿照例句合并下列句子。例句：架子很矮。他能够到。→ 架子对他来说足够矮可以够到。",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 104 II, PDF p.535)",
+        "context": "Combine each pair of sentences using 'adjective + enough + for + pronoun + to + verb'. Items 1a and 2a are printed examples.",
+        "questions": [
+          {
+            "id": "l104-gii-1",
+            "number": 1,
+            "prompt": "a. The shelf is very low. He can reach it.",
+            "answer": "The shelf is low enough for him to reach.",
+            "example": true
+          },
+          {
+            "id": "l104-gii-2",
+            "number": 2,
+            "prompt": "b. The table is very small. They can move it.",
+            "answer": "The table is small enough for them to move."
+          },
+          {
+            "id": "l104-gii-3",
+            "number": 3,
+            "prompt": "c. The boxes are very light. He can lift them.",
+            "answer": "The boxes are light enough for him to lift."
+          },
+          {
+            "id": "l104-gii-4",
+            "number": 4,
+            "prompt": "d. The questions are very easy. They can understand them.",
+            "answer": "The questions are easy enough for them to understand."
+          },
+          {
+            "id": "l104-gii-5",
+            "number": 5,
+            "prompt": "e. The stereo is very loud. They can hear it.",
+            "answer": "The stereo is loud enough for them to hear."
+          },
+          {
+            "id": "l104-gii-6",
+            "number": 6,
+            "prompt": "f. The pear is very soft. The old woman can eat it.",
+            "answer": "The pear is soft enough for the old woman to eat."
+          },
+          {
+            "id": "l104-gii-7",
+            "number": 7,
+            "prompt": "g. The juice is very sweet. You can drink it.",
+            "answer": "The juice is sweet enough for you to drink."
+          },
+          {
+            "id": "l104-gii-8",
+            "number": 8,
+            "prompt": "h. The wall is very low. He can climb it.",
+            "answer": "The wall is low enough for him to climb."
+          },
+          {
+            "id": "l104-gii-9",
+            "number": 9,
+            "prompt": "a. The knife is very sharp. It can cut the beef.",
+            "answer": "The knife is sharp enough to cut the beef.",
+            "example": true
+          },
+          {
+            "id": "l104-gii-10",
+            "number": 10,
+            "prompt": "b. I'm very tired. I can sleep for twenty-four hours.",
+            "answer": "I'm tired enough to sleep for twenty-four hours."
+          },
+          {
+            "id": "l104-gii-11",
+            "number": 11,
+            "prompt": "c. He's very thirsty. He can drink four glasses of water.",
+            "answer": "He's thirsty enough to drink four glasses of water."
+          },
+          {
+            "id": "l104-gii-12",
+            "number": 12,
+            "prompt": "d. I'm very hungry. I can eat five cakes.",
+            "answer": "I'm hungry enough to eat five cakes."
+          },
+          {
+            "id": "l104-gii-13",
+            "number": 13,
+            "prompt": "e. He is big. He can ride a bike.",
+            "answer": "He's big enough to ride a bike."
+          },
+          {
+            "id": "l104-gii-14",
+            "number": 14,
+            "prompt": "f. He's very rich. He can buy the house.",
+            "answer": "He's rich enough to buy the house."
+          },
+          {
+            "id": "l104-gii-15",
+            "number": 15,
+            "prompt": "g. She's very lucky. She can win the prize.",
+            "answer": "She's lucky enough to win the prize."
+          },
+          {
+            "id": "l104-gii-16",
+            "number": 16,
+            "prompt": "h. He's very strong. He can move the bookcase.",
+            "answer": "He's strong enough to move the bookcase."
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {},
+  "images": {
+    "items-grid": {
+      "kind": "scene",
+      "description": "16 pictures showing people in various situations (answering questions, buying cars, eating cakes, hearing stereos, climbing walls, eating fruit) with a speech bubble showing example sentences using 'too', 'very', and 'enough'",
+      "source": "img/lesson-104-01-text.jpg",
+      "characters": [],
+      "status": "ready",
+      "src": "assets/lesson-104/items-grid.jpg",
+      "width": 1534,
+      "height": 2325
+    }
+  }
+}
