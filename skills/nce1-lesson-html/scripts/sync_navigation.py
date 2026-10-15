@@ -44,7 +44,7 @@ def main():
     path=root/'index.html';s=path.read_text();count=len(pages)
     s=replace_once(s,r'<div class="lesson-grid">.*?</div>','<div class="lesson-grid">\n'+'\n'.join(cards)+'\n</div>')
     s=replace_once(s,r'<nav class="index-nav".*?</nav>','<nav class="index-nav" aria-label="All lessons">\n'+'\n'.join(nav)+'\n</nav>')
-    s=replace_once(s,r'第一册：英语初阶，共 \d+ 课。',f'第一册：英语初阶，共 144 课，已完成 {count} 课。')
+    s=replace_once(s,r'第一册：英语初阶，共 \d+ 课(?:，已完成 \d+ 课)?。',f'第一册：英语初阶，共 144 课，已完成 {count} 课。')
     s=replace_once(s,r'<span>\d+(?: / 144)? LESSONS(?: AVAILABLE)?</span>',f'<span>{count} / 144 LESSONS AVAILABLE</span>')
     s=replace_once(s,r'<div class="rail-progress">.*?</div>',f'<div class="rail-progress"><span class="small-label">COURSE</span><p><strong>{count}</strong><span> / <span>144</span> lessons</span></p><progress max="144" value="{count}" aria-label="Lessons available"></progress><small lang="zh-CN">第一册 · 已完成 {count} 课</small></div>')
     changes.append((path,s))
