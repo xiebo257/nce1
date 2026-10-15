@@ -1,0 +1,601 @@
+{
+  "number": 90,
+  "status": "verified",
+  "title": "Have you ... yet?",
+  "translation": "你已经……了吗？",
+  "description": "A picture-based lesson on the present perfect tense with 'yet'. Four illustrations each introduce a 'Have you ... yet? / When did ...?' question-and-answer pair (read this book, done your homework, he gone, she spoken to him). A table of irregular verbs (cut, put, read, set, shut, do, come, give, swim, take, eat, go, rise, see, speak) reinforces the past and past-participle forms. Written exercises A (write questions and negative answers from past-simple sentences) and B (answer 'What about ...?' questions with 'yet') are transcribed from the textbook. Workbook practice covers completing 'Has he done it yet?' dialogues and writing what you say in three situations. Grammar exercises practise filling in the correct verb forms and correcting mistakes in sentences.",
+  "answer_note": "Written exercise A (write questions and negative answers) 6 items are suggested model answers following the printed example pattern. Written exercise B (answer the questions) 12 items are suggested model answers following the printed example pattern. Workbook practice A ('Has he done it yet?' conversations) item 1 is a printed example; items 2-6 are suggested model answers following the model box (the Lesson 90 key is not present in the workbook answer-key scan). Workbook practice B (situations) 3 items are open-ended personal questions with suggested model answers. Grammar I (fill in the blanks with the correct verb form) 27 blanks are suggested standard forms. Grammar II (correct the mistakes) 10 items are suggested model answers. No external sources were used.",
+  "expected_answers": 54,
+  "sources": [
+    {
+      "label": "Lesson 90 textbook — pictures and verb table (p. 181)",
+      "href": "../img/lesson-090-01-text.jpg"
+    },
+    {
+      "label": "Lesson 90 textbook — written exercises (p. 182)",
+      "href": "../img/lesson-090-02-text.jpg"
+    },
+    {
+      "label": "Lesson 90 workbook practice scan",
+      "href": "../img/lesson-090-practice.jpg"
+    },
+    {
+      "label": "Lessons 85-90 workbook answer key scan",
+      "href": "../img/key-085-090.jpg"
+    },
+    {
+      "label": "Lesson 90 grammar exercises (pp. 258-259)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=258"
+    }
+  ],
+  "characters": {},
+  "images": {
+    "lesson-090-pic-01": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 1: a woman asks a man 'Have you read this book yet?'; he thinks back to reading it in 1996 while she shows a photo dated 1997.",
+      "characters": [],
+      "source": "../img/lesson-090-01-text.jpg",
+      "src": "assets/lesson-090/pic-01.jpg",
+      "width": 734,
+      "height": 375
+    },
+    "lesson-090-pic-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 2: two people ask 'Have you done your homework yet?'; a thought bubble shows clocks and a girl writing at a desk.",
+      "characters": [],
+      "source": "../img/lesson-090-01-text.jpg",
+      "src": "assets/lesson-090/pic-02.jpg",
+      "width": 735,
+      "height": 375
+    },
+    "lesson-090-pic-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 3: a man asks 'Has he gone yet?'; a thought bubble shows clocks and a boy walking out of a door with a bag.",
+      "characters": [],
+      "source": "../img/lesson-090-01-text.jpg",
+      "src": "assets/lesson-090/pic-03.jpg",
+      "width": 734,
+      "height": 375
+    },
+    "lesson-090-pic-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Panel 4: two people ask 'Has she spoken to him yet?'; a thought bubble shows a woman speaking to a boy with date markers JAN 1 and JAN 2.",
+      "characters": [],
+      "source": "../img/lesson-090-01-text.jpg",
+      "src": "assets/lesson-090/pic-04.jpg",
+      "width": 735,
+      "height": 375
+    }
+  },
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-090-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。",
+        "translation": "Listen to the recording and answer the questions in the four pictures."
+      },
+      {
+        "id": "lesson-panel-01",
+        "type": "text",
+        "source": "../img/lesson-090-01-text.jpg",
+        "image": "lesson-090-pic-01",
+        "text": "Have you read this book yet?\nYes, I have.\nWhen did you read it?\nI read it last year.",
+        "translation": "第1幅：你已经读过这本书了吗？是的，我读过。你什么时候读的？我去年读的。"
+      },
+      {
+        "id": "lesson-panel-02",
+        "type": "text",
+        "source": "../img/lesson-090-01-text.jpg",
+        "image": "lesson-090-pic-02",
+        "text": "Have you done your homework yet?\nYes, I have.\nWhen did you do it?\nI did it half an hour ago.",
+        "translation": "第2幅：你已经做完作业了吗？是的，我做完了。你什么时候做的？我半小时前做的。"
+      },
+      {
+        "id": "lesson-panel-03",
+        "type": "text",
+        "source": "../img/lesson-090-01-text.jpg",
+        "image": "lesson-090-pic-03",
+        "text": "Has he gone yet?\nYes, he has.\nWhen did he go?\nHe went an hour ago.",
+        "translation": "第3幅：他走了吗？是的，他走了。他什么时候走的？他一小时前走的。"
+      },
+      {
+        "id": "lesson-panel-04",
+        "type": "text",
+        "source": "../img/lesson-090-01-text.jpg",
+        "image": "lesson-090-pic-04",
+        "text": "Has she spoken to him yet?\nYes, she has.\nWhen did she speak to him?\nShe spoke to him yesterday.",
+        "translation": "第4幅：她跟他说过话了吗？是的，她说了。她什么时候跟他说的？她昨天跟他说的。"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-090-01-text.jpg",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen and answer the questions. 听录音并回答问题。\n\nFour pictures each show a 'Have you ... yet?' question and its follow-up when-question. 四幅图片各展示一个“Have you ... yet?”问题及其后续的时间问题。",
+        "translation": "Listen to the recording and answer each question in the four pictures.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "1. Have you read this book yet? When did you read it?",
+            "answer": "Yes, I have. I read it last year.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-listening-2",
+            "number": "2",
+            "prompt": "2. Have you done your homework yet? When did you do it?",
+            "answer": "Yes, I have. I did it half an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-listening-3",
+            "number": "3",
+            "prompt": "3. Has he gone yet? When did he go?",
+            "answer": "Yes, he has. He went an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-listening-4",
+            "number": "4",
+            "prompt": "4. Has she spoken to him yet? When did she speak to him?",
+            "answer": "Yes, she has. She spoke to him yesterday.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "lesson-verbs",
+        "type": "text",
+        "source": "../img/lesson-090-01-text.jpg",
+        "text": "Study these verbs.\n记住以下不规则动词的过去式和过去分词。\n\ncut — cut — cut\nput — put — put\nread — read — read\nset — set — set\nshut — shut — shut\ndo — did — done\ncome — came — come\ngive — gave — given\nswim — swam — swum\ntake — took — taken\neat — ate — eaten\ngo — went — gone\nrise — rose — risen\nsee — saw — seen\nspeak — spoke — spoken",
+        "translation": "Irregular verbs with their past and past-participle forms."
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-090-02-text.jpg",
+        "title": "Written exercises A — Write questions and answers",
+        "instruction": "Write questions and answers. 模仿例句就以下句子提问，并作出否定的回答。\n\nExample:\nHe read this book last week.\nQUESTION: Did he read this book last week?\nNEGATIVE: He didn't read this book last week.",
+        "translation": "For each sentence write a past-simple question and a negative answer, following the example.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Suggested model answers following the printed example pattern.",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "1. The sun set at twenty past seven.",
+            "answer": "QUESTION: Did the sun set at twenty past seven?\nNEGATIVE: The sun didn't set at twenty past seven.",
+            "rows": 3
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "2. He ate his lunch at one o'clock.",
+            "answer": "QUESTION: Did he eat his lunch at one o'clock?\nNEGATIVE: He didn't eat his lunch at one o'clock.",
+            "rows": 3
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "3. They did their homework last night.",
+            "answer": "QUESTION: Did they do their homework last night?\nNEGATIVE: They didn't do their homework last night.",
+            "rows": 3
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "4. He came by car this morning.",
+            "answer": "QUESTION: Did he come by car this morning?\nNEGATIVE: He didn't come by car this morning.",
+            "rows": 3
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "5. The sun rose at half past five.",
+            "answer": "QUESTION: Did the sun rise at half past five?\nNEGATIVE: The sun didn't rise at half past five.",
+            "rows": 3
+          },
+          {
+            "id": "written-a-6",
+            "number": "6",
+            "prompt": "6. We swam across the river yesterday.",
+            "answer": "QUESTION: Did you swim across the river yesterday?\nNEGATIVE: We didn't swim across the river yesterday.",
+            "rows": 3
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-090-02-text.jpg",
+        "title": "Written exercises B — Answer the questions",
+        "instruction": "Answer these questions. 模仿例句回答以下问题。\n\nExample:\nDid you read this book last week?\nYes, I read this book last week.\nWhat about Penny?\nShe hasn't read this book yet.",
+        "translation": "For each question give a past-simple answer, then answer the 'What about ...?' question with a present-perfect negative using 'yet', following the example.",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "context": "12 items (6 main questions + 6 'What about ...?' follow-ups). All are suggested model answers following the printed example pattern.",
+        "questions": [
+          {
+            "id": "written-b-1a",
+            "number": "1",
+            "prompt": "1. Did you do your homework last night?",
+            "answer": "Yes, I did my homework last night.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-1b",
+            "number": "1b",
+            "prompt": "What about Tom?",
+            "answer": "He hasn't done his homework yet.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-2a",
+            "number": "2",
+            "prompt": "2. Did Mrs. Jones go to the butcher's this morning?",
+            "answer": "Yes, she went to the butcher's this morning.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-2b",
+            "number": "2b",
+            "prompt": "What about Mrs. Williams?",
+            "answer": "She hasn't gone to the butcher's yet.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-3a",
+            "number": "3",
+            "prompt": "3. Did you speak to him yesterday?",
+            "answer": "Yes, I spoke to him yesterday.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-3b",
+            "number": "3b",
+            "prompt": "What about Susan?",
+            "answer": "She hasn't spoken to him yet.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-4a",
+            "number": "4",
+            "prompt": "4. Did George swim across the river an hour ago?",
+            "answer": "Yes, he swam across the river an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-4b",
+            "number": "4b",
+            "prompt": "What about Sam?",
+            "answer": "He hasn't swum across the river yet.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-5a",
+            "number": "5",
+            "prompt": "5. Did you see that film yesterday?",
+            "answer": "Yes, I saw that film yesterday.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-5b",
+            "number": "5b",
+            "prompt": "What about Sam and Penny?",
+            "answer": "They haven't seen that film yet.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-6a",
+            "number": "6",
+            "prompt": "6. Did Tim take off his shoes a minute ago?",
+            "answer": "Yes, he took off his shoes a minute ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-6b",
+            "number": "6b",
+            "prompt": "What about Frank?",
+            "answer": "He hasn't taken off his shoes yet.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — Has he done it yet?",
+        "instruction": "Look at this. 请看下表。\n\nA: Has Tom done the job yet?  B: Yes, he has. He's / He has just done it.\nor Yes, he has. He did it half an hour ago.\nor No, he hasn't done it yet.\n\nWrite conversations with these prompts. 根据提示完成以下对话。",
+        "translation": "Write a short conversation (question + answer) for each prompt, following the model box.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Item 1 is a printed example (not editable). Items 2-6 are suggested model answers following the model box (the Lesson 90 key is not present in the workbook answer-key scan img/key-085-090.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "1. you / shut the windows yet? / Yes / an hour ago",
+            "answer": "Have you shut the windows yet? / Yes, I have. I shut them an hour ago.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "2. he / take his medicine yet? / No / not yet",
+            "answer": "Has he taken his medicine yet? / No, he hasn't taken it yet.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "3. she / eat her supper yet? / Yes / ten minutes ago",
+            "answer": "Has she eaten her supper yet? / Yes, she has. She ate it ten minutes ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "4. you / speak to the teacher yet? / Yes / just",
+            "answer": "Have you spoken to the teacher yet? / Yes, I have. I've just spoken to him / her.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "5. they / buy their new car yet? / No / not yet",
+            "answer": "Have they bought their new car yet? / No, they haven't bought it yet.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "6. you / read this book yet? / Yes / six months ago",
+            "answer": "Have you read this book yet? / Yes, I have. I read it six months ago.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — Situations",
+        "instruction": "Read the situations. What do you say in each? 根据以下情景写出你应该说的话。",
+        "translation": "For each situation, write what you would say, following the pattern shown in the model box.",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "Open-ended situational questions; suggested model answers.",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. A friend wants to sell his / her bicycle and you are looking at it. You want to know the price. What do you ask?",
+            "answer": "How much is it? / How much does it cost?",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. A friend has an interesting computer game that you would like to see. How do you ask politely if you can see it?",
+            "answer": "May I look at it / see it, please?",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. You visit someone who lives in a big old house. You want to know how long the owner has lived there. Ask him / her.",
+            "answer": "How long have you lived here?",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Fill in the blanks with the correct form of the verb given. 用所给动词的正确形式填空。",
+        "instruction": "Fill in the blanks with the correct form of the verb given. 用所给动词的正确形式填空。",
+        "translation": "Fill each blank with the correct form of the verb in parentheses.",
+        "expected_items": 14,
+        "answer_kind": "suggested",
+        "context": "14 question rows (10 printed items, some with multiple blanks merged into one row). Answers taken from the supplied Lesson 90 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 506).",
+        "questions": [
+          {
+            "id": "grammar-i-1a",
+            "number": "1a",
+            "prompt": "1. ______ you ______ (read) this magazine yet?",
+            "answer": "Have ... read",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1b",
+            "number": "1b",
+            "prompt": "Yes, I ______ (read) it half an hour ago.",
+            "answer": "read",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. John ______ (just take) some medicine, so he feels better now.",
+            "answer": "has just taken",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3a",
+            "number": "3a",
+            "prompt": "3. I ______ (read) a very good book now, but I ______ (not finish) it yet.",
+            "answer": "am reading, haven't finished",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. It ______ (rain) last week from Monday to Saturday, but the weather is lovely now.",
+            "answer": "rained",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5a",
+            "number": "5a",
+            "prompt": "5. Our teacher ______ (travel) to many places in England.",
+            "answer": "has travelled",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5b",
+            "number": "5b",
+            "prompt": "She ______ (live) there in 1995.",
+            "answer": "lived",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6a",
+            "number": "6a",
+            "prompt": "6. I ______ (meet) Mrs. Smith a week ago, but I ______ (not meet) Mr. Smith yet.",
+            "answer": "met, haven't met",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. I'm sorry, you can't see the boss. He ______ (leave) the office an hour ago.",
+            "answer": "left",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8a",
+            "number": "8a",
+            "prompt": "8. You ______ (be) in Japan last month.",
+            "answer": "were",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8b",
+            "number": "8b",
+            "prompt": "What ______ you ______ (buy) there?",
+            "answer": "did ... buy",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-9a",
+            "number": "9a",
+            "prompt": "9. I'm hungry. I ______ (have) breakfast four hours ago and I ______ (not have) a meal since then.",
+            "answer": "had, haven't had",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10a",
+            "number": "10a",
+            "prompt": "10. How long ______ you ______ (work) in this office, Miss James?",
+            "answer": "have ... worked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10b",
+            "number": "10b",
+            "prompt": "I ______ (work) here for thirty years!",
+            "answer": "have worked",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Correct the mistakes in the sentences and rewrite them. 改错并重写下列句子。",
+        "instruction": "Correct the mistakes in the sentences and rewrite them. 改错并重写下列句子。",
+        "translation": "Identify the mistake in each sentence and rewrite it correctly.",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "10 items. Answers taken from the supplied Lesson 90 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 506-507).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. I have lived in Greece for 1976.",
+            "answer": "I have lived in Greece since 1976.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. Have you had good weather last weekend?",
+            "answer": "Did you have good weather last weekend?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. He has taken his medicine an hour ago.",
+            "answer": "He took his medicine an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. I've seen Sam and Tim yesterday.",
+            "answer": "I saw Sam and Tim yesterday.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. I'm already waiting for half an hour.",
+            "answer": "I've already waited for half an hour.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. We have this house since 1998.",
+            "answer": "We have had this house since 1998.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. Who has given you that lovely hat?",
+            "answer": "Who gave you that lovely hat?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. That's a nice picture. Have you painted it yourself?",
+            "answer": "That's a nice picture. Did you paint it yourself?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "9. We're having our new car for four days.",
+            "answer": "We've had our new car for four days.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "10. I've fallen down a minute ago.",
+            "answer": "I fell down a minute ago.",
+            "rows": 2
+          }
+        ]
+      }
+    ]
+  }
+}
