@@ -1,0 +1,4 @@
+interface:
+  display_name: "NCE1 课文网页生成"
+  short_description: "从本地教材快速生成第一册文字优先 HTML 课文，保留练习与后续补图位置"
+  default_prompt: "用 $nce1-lesson-html 生成第 47–60 课，奇数课先保留文字，偶数课仅快速裁图。"

@@ -1,0 +1,811 @@
+{
+  "number": 45,
+  "status": "verified",
+  "title": "The boss’s letter",
+  "translation": "老板的信",
+  "description": "Ask for help politely, talk about ability, and practise can and can’t.\n礼貌地请求帮助，谈论能力，练习 can 和 can’t。",
+  "answer_note": "Workbook and grammar keys were checked against the linked source pages. Suggested answers are labelled. Fill-in answers list missing words in order. Worked examples are excluded from progress. Pronoun alternatives follow the answer key.",
+  "characters": {
+    "boss": "Recurring boss: middle-aged man, short dark hair, rectangular glasses, navy suit, white shirt, burgundy tie.",
+    "bob": "Recurring Bob: young adult man, short chestnut hair, light blue shirt, charcoal trousers.",
+    "pamela": "Recurring Pamela: young adult woman, shoulder-length dark brown hair, cream blouse, teal cardigan."
+  },
+  "images": {
+    "scene-01": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "The boss calls Bob to his desk for a moment.",
+      "characters": [
+        "boss",
+        "bob"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "scene-02": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Bob tells the boss that Pamela is in her office next door.",
+      "characters": [
+        "boss",
+        "bob"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "scene-03": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "The boss gives Bob a handwritten letter and asks him to have Pamela type it.",
+      "characters": [
+        "boss",
+        "bob"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "scene-04": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "In Pamela’s office, Bob asks Pamela to type the boss’s letter and she agrees.",
+      "characters": [
+        "bob",
+        "pamela"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "scene-05": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Bob hands Pamela the handwritten letter; she thanks him.",
+      "characters": [
+        "bob",
+        "pamela"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "scene-06": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Pamela looks puzzled at the letter and calls Bob back, saying she cannot type it.",
+      "characters": [
+        "bob",
+        "pamela"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "scene-07": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Pamela studies a handwritten letter covered in illegible scribbles; the boss’s handwriting is terrible.",
+      "characters": [
+        "pamela"
+      ],
+      "source": "../img/lesson-045-01-text.jpg",
+      "reason": "Odd lesson: text first; illustration deferred."
+    }
+  },
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "text": "Listen then answer this question. Why can’t Pamela type the letter?",
+        "translation": "听录音，然后回答问题。帕梅拉为什么无法打信？",
+        "source": "../img/lesson-045-01-text.jpg"
+      },
+      {
+        "id": "lesson-scene-01",
+        "type": "dialogue",
+        "image": "scene-01",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "01",
+            "speaker": "The boss",
+            "text": "Can you come here a minute please, Bob?",
+            "translation": "请你来一下好吗，鲍勃？"
+          },
+          {
+            "number": "02",
+            "speaker": "Bob",
+            "text": "Yes, sir?",
+            "translation": "什么事，先生？"
+          }
+        ]
+      },
+      {
+        "id": "lesson-scene-02",
+        "type": "dialogue",
+        "image": "scene-02",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "03",
+            "speaker": "The boss",
+            "text": "Where’s Pamela?",
+            "translation": "帕梅拉在哪儿？"
+          },
+          {
+            "number": "04",
+            "speaker": "Bob",
+            "text": "She’s next door. She’s in her office, sir.",
+            "translation": "她在隔壁，在她的办公室里，先生。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-scene-03",
+        "type": "dialogue",
+        "image": "scene-03",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "05",
+            "speaker": "The boss",
+            "text": "Can she type this letter for me? Ask her please.",
+            "translation": "她能为我打一下这封信吗？请问问她。"
+          },
+          {
+            "number": "06",
+            "speaker": "Bob",
+            "text": "Yes, sir.",
+            "translation": "好的，先生。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-scene-04",
+        "type": "dialogue",
+        "image": "scene-04",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "07",
+            "speaker": "Bob",
+            "text": "Can you type this letter for the boss please, Pamela?",
+            "translation": "请你把这封信给老板打一下可以吗，帕梅拉？"
+          },
+          {
+            "number": "08",
+            "speaker": "Pamela",
+            "text": "Yes, of course I can.",
+            "translation": "可以，当然可以。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-scene-05",
+        "type": "dialogue",
+        "image": "scene-05",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "09",
+            "speaker": "Bob",
+            "text": "Here you are.",
+            "translation": "给你。"
+          },
+          {
+            "number": "10",
+            "speaker": "Pamela",
+            "text": "Thank you, Bob.",
+            "translation": "谢谢你，鲍勃。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-scene-06",
+        "type": "dialogue",
+        "image": "scene-06",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "11",
+            "speaker": "Pamela",
+            "text": "Bob!",
+            "translation": "鲍勃！"
+          },
+          {
+            "number": "12",
+            "speaker": "Bob",
+            "text": "Yes? What’s the matter?",
+            "translation": "怎么了？怎么回事？"
+          },
+          {
+            "number": "13",
+            "speaker": "Pamela",
+            "text": "I can’t type this letter.",
+            "translation": "我打不了这封信。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-scene-07",
+        "type": "dialogue",
+        "image": "scene-07",
+        "source": "../img/lesson-045-01-text.jpg",
+        "lines": [
+          {
+            "number": "14",
+            "speaker": "Pamela",
+            "text": "I can’t read it! The boss’s handwriting is terrible!",
+            "translation": "我看不懂这封信，老板的书写太糟糕了！"
+          }
+        ]
+      },
+      {
+        "id": "lesson-reading",
+        "type": "exercise",
+        "title": "Reading question",
+        "instruction": "Answer the question.",
+        "translation": "回答课前问题。",
+        "source": "../img/lesson-045-01-text.jpg",
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-reading-1",
+            "number": "1",
+            "prompt": "Why can’t Pamela type the letter?",
+            "answer": "She can’t read the letter because the boss’s handwriting is terrible."
+          }
+        ],
+        "expected_items": 1
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "../img/lesson-045-02-text.jpg",
+        "items": [
+          {
+            "title": "01 · Can you come here a minute please, Bob?",
+            "text": "can 是情态动词，表示“能力”。否定式由 can 加 not 构成；疑问句把 can 放在主语前，后接动词原形。a minute 作时间状语，表示“一会儿”。此处 Can you…? 用于礼貌请求。"
+          },
+          {
+            "title": "02 · next door",
+            "text": "隔壁。"
+          },
+          {
+            "title": "03 · boss’s",
+            "text": "老板的。名词所有格形式见第 11 课课文注释。boss’s 读作 /ˈbɒsɪz/。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../img/lesson-045-02-text.jpg",
+        "items": [
+          {
+            "word": "can",
+            "ipa": "/kæn/",
+            "pos": "modal verb",
+            "meaning": "能够"
+          },
+          {
+            "word": "boss",
+            "ipa": "/bɒs/",
+            "pos": "n.",
+            "meaning": "老板，上司"
+          },
+          {
+            "word": "minute",
+            "ipa": "/ˈmɪnɪt/",
+            "pos": "n.",
+            "meaning": "分（钟）"
+          },
+          {
+            "word": "ask",
+            "ipa": "/ɑːsk/",
+            "pos": "v.",
+            "meaning": "请求，要求"
+          },
+          {
+            "word": "handwriting",
+            "ipa": "/ˈhændraɪtɪŋ/",
+            "pos": "n.",
+            "meaning": "书写"
+          },
+          {
+            "word": "terrible",
+            "ipa": "/ˈterəbl/",
+            "pos": "adj.",
+            "meaning": "糟糕的，可怕的"
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A. Dialogue",
+        "instruction": "Read this dialogue. Fill in the missing words in order.",
+        "translation": "阅读对话，按顺序填写所缺单词。",
+        "source": "../img/lesson-045-practice.jpg",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "Bob: _____ you type this letter for the _____, please?",
+            "answer": "Can; boss"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "You: Yes, of _____ I _____.",
+            "answer": "course; can"
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "Bob: Here _____ are.\nYou: Thank you. – Oh, Bob!",
+            "answer": "you"
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "Bob: Yes? What’s the _____?",
+            "answer": "matter"
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "You: I _____ type this _____. I _____ read it! The boss’s _____ is _____!",
+            "answer": "can’t; letter; can’t; handwriting; terrible"
+          }
+        ],
+        "expected_items": 5,
+        "key_source": "../img/key-042-048.jpg"
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B. Prepositions of place",
+        "instruction": "Fill in the blanks in the sentences with prepositions from this box.",
+        "translation": "用方框中的介词填空；多空题按顺序填写。",
+        "source": "../img/lesson-045-practice.jpg",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "Can you stand _____ the door? Then I can see you.",
+            "answer": "in front of (or near)"
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "Tim’s _____ the garden, but you can’t see him. He’s _____ the tree.",
+            "answer": "in; behind"
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "There are some cups _____ the shelves _____ the kitchen.",
+            "answer": "on; in"
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "Bob is swimming _____ the river. His friend is walking _____ the bank.",
+            "answer": "across (or in); along"
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "Where’s the tea? – It’s over there, _____ the teapot. Can you see it now?",
+            "answer": "behind"
+          },
+          {
+            "id": "practice-b-6",
+            "number": "6",
+            "prompt": "Where’s my newspaper? – It’s _____ the small table _____ the television.",
+            "answer": "on; near"
+          },
+          {
+            "id": "practice-b-7",
+            "number": "7",
+            "prompt": "They are running _____ school. They aren’t going _____ the building.",
+            "answer": "out of; into"
+          },
+          {
+            "id": "practice-b-8",
+            "number": "8",
+            "prompt": "The men are standing _____ the bridge. They aren’t walking _____ it.",
+            "answer": "under; over"
+          }
+        ],
+        "expected_items": 8,
+        "key_source": "../img/key-042-048.jpg",
+        "word_bank": [
+          "behind",
+          "in front of",
+          "in",
+          "on",
+          "along",
+          "across",
+          "over",
+          "under",
+          "out of",
+          "into",
+          "near"
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "title": "C. Numbers",
+        "instruction": "Write these numbers in figures.",
+        "translation": "用阿拉伯数字表示以下数词。",
+        "source": "../img/lesson-045-practice.jpg",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "practice-c-1",
+            "number": "1",
+            "prompt": "five thousand, five hundred and ten",
+            "answer": "5,510"
+          },
+          {
+            "id": "practice-c-2",
+            "number": "2",
+            "prompt": "eight thousand",
+            "answer": "8,000"
+          },
+          {
+            "id": "practice-c-3",
+            "number": "3",
+            "prompt": "four hundred and fifty thousand",
+            "answer": "450,000"
+          },
+          {
+            "id": "practice-c-4",
+            "number": "4",
+            "prompt": "two hundred thousand",
+            "answer": "200,000"
+          }
+        ],
+        "expected_items": 4,
+        "key_source": "../img/key-042-048.jpg"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i-1",
+        "type": "exercise",
+        "title": "I.1 Affirmative short answers",
+        "instruction": "Give short answers to the questions according to the example.",
+        "translation": "仿照例句作肯定简短回答。",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=141",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "grammar-i-1-1",
+            "number": "a",
+            "prompt": "Can a dog swim?",
+            "answer": "Yes, it can.",
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-1-2",
+            "number": "b",
+            "prompt": "Can you bring me some books?",
+            "answer": "Yes, I can."
+          },
+          {
+            "id": "grammar-i-1-3",
+            "number": "c",
+            "prompt": "Can we fly to Beijing?",
+            "answer": "Yes, we/you can."
+          },
+          {
+            "id": "grammar-i-1-4",
+            "number": "d",
+            "prompt": "Can she write English?",
+            "answer": "Yes, she can."
+          },
+          {
+            "id": "grammar-i-1-5",
+            "number": "e",
+            "prompt": "Can he cook?",
+            "answer": "Yes, he can."
+          },
+          {
+            "id": "grammar-i-1-6",
+            "number": "f",
+            "prompt": "Can you see China on the map?",
+            "answer": "Yes, I/we can."
+          },
+          {
+            "id": "grammar-i-1-7",
+            "number": "g",
+            "prompt": "Can Bob go to the United States?",
+            "answer": "Yes, he can."
+          },
+          {
+            "id": "grammar-i-1-8",
+            "number": "h",
+            "prompt": "Can I turn off the television?",
+            "answer": "Yes, you can."
+          },
+          {
+            "id": "grammar-i-1-9",
+            "number": "i",
+            "prompt": "Can Linda play football?",
+            "answer": "Yes, she can."
+          },
+          {
+            "id": "grammar-i-1-10",
+            "number": "j",
+            "prompt": "Can you read English?",
+            "answer": "Yes, I/we can."
+          }
+        ],
+        "expected_items": 10,
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=477"
+      },
+      {
+        "id": "grammar-i-2",
+        "type": "exercise",
+        "title": "I.2 Negative short answers",
+        "instruction": "Give short answers to the questions according to the example.",
+        "translation": "仿照例句作否定简短回答；本组按教材要求练习否定形式。",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=141",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "grammar-i-2-1",
+            "number": "a",
+            "prompt": "Can a cat swim?",
+            "answer": "No, it can’t.",
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2-2",
+            "number": "b",
+            "prompt": "Can we eat grass?",
+            "answer": "No, we can’t."
+          },
+          {
+            "id": "grammar-i-2-3",
+            "number": "c",
+            "prompt": "Can birds swim under water?",
+            "answer": "No, they can’t."
+          },
+          {
+            "id": "grammar-i-2-4",
+            "number": "d",
+            "prompt": "Can you buy a car now?",
+            "answer": "No, I can’t."
+          },
+          {
+            "id": "grammar-i-2-5",
+            "number": "e",
+            "prompt": "Can your mother make cakes?",
+            "answer": "No, she can’t."
+          },
+          {
+            "id": "grammar-i-2-6",
+            "number": "f",
+            "prompt": "Can your son cook?",
+            "answer": "No, he can’t."
+          },
+          {
+            "id": "grammar-i-2-7",
+            "number": "g",
+            "prompt": "Can we make a cupboard?",
+            "answer": "No, we can’t."
+          },
+          {
+            "id": "grammar-i-2-8",
+            "number": "h",
+            "prompt": "Can you answer the questions?",
+            "answer": "No, I/we can’t."
+          },
+          {
+            "id": "grammar-i-2-9",
+            "number": "i",
+            "prompt": "Can he type?",
+            "answer": "No, he can’t."
+          },
+          {
+            "id": "grammar-i-2-10",
+            "number": "j",
+            "prompt": "Can she dance?",
+            "answer": "No, she can’t."
+          }
+        ],
+        "expected_items": 10,
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=478"
+      },
+      {
+        "id": "grammar-i-3",
+        "type": "exercise",
+        "title": "I.3 Who can …?",
+        "instruction": "Give short answers to the questions according to the example.",
+        "translation": "根据括号中的提示，仿照例句简短回答。",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=142",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "grammar-i-3-1",
+            "number": "a",
+            "prompt": "Who can cut my hair? (the hairdresser)",
+            "answer": "The hairdresser can.",
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-3-2",
+            "number": "b",
+            "prompt": "Who can speak Korean? (I)",
+            "answer": "I can."
+          },
+          {
+            "id": "grammar-i-3-3",
+            "number": "c",
+            "prompt": "Who can lift this stereo? (my brother)",
+            "answer": "My brother can."
+          },
+          {
+            "id": "grammar-i-3-4",
+            "number": "d",
+            "prompt": "Who can read Japanese? (David)",
+            "answer": "David can."
+          },
+          {
+            "id": "grammar-i-3-5",
+            "number": "e",
+            "prompt": "Who can speak German? (his friends)",
+            "answer": "His friends can."
+          },
+          {
+            "id": "grammar-i-3-6",
+            "number": "f",
+            "prompt": "Who can translate this? (Xiao Li)",
+            "answer": "Xiao Li can."
+          },
+          {
+            "id": "grammar-i-3-7",
+            "number": "g",
+            "prompt": "Who can jump across the river? (he)",
+            "answer": "He can."
+          },
+          {
+            "id": "grammar-i-3-8",
+            "number": "h",
+            "prompt": "Who can make biscuits? (her mother)",
+            "answer": "Her mother can."
+          },
+          {
+            "id": "grammar-i-3-9",
+            "number": "i",
+            "prompt": "Who can answer this question? (you)",
+            "answer": "You can."
+          },
+          {
+            "id": "grammar-i-3-10",
+            "number": "j",
+            "prompt": "Who can paint the walls for us? (the men)",
+            "answer": "The men can."
+          }
+        ],
+        "expected_items": 10,
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=478"
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Polite requests",
+        "instruction": "Write the sentences in a more polite way, using “Can you …” according to the example.",
+        "translation": "仿照例句用 Can you … 的句型改写句子，使表达更有礼貌。",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=142",
+        "answer_kind": "source-key",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "Shut the windows!",
+            "answer": "Can you shut the windows, please?",
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "Open the door!",
+            "answer": "Can you open the door, please?"
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "Type these letters!",
+            "answer": "Can you type these letters, please?"
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "Turn off the light!",
+            "answer": "Can you turn off the light, please?"
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "Make some cakes!",
+            "answer": "Can you make some cakes, please?"
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "Give me the teapot!",
+            "answer": "Can you give me the teapot, please?"
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "Show me the letter!",
+            "answer": "Can you show me the letter, please?"
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "Turn on the tap!",
+            "answer": "Can you turn on the tap, please?"
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "Wash the dishes!",
+            "answer": "Can you wash the dishes, please?"
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "Take off your shoes!",
+            "answer": "Can you take off your shoes, please?"
+          }
+        ],
+        "expected_items": 10,
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=478"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "href": "../img/lesson-045-01-text.jpg",
+      "label": "Lesson · page 1"
+    },
+    {
+      "href": "../img/lesson-045-02-text.jpg",
+      "label": "Lesson · page 2"
+    },
+    {
+      "href": "../img/lesson-045-practice.jpg",
+      "label": "Workbook practice"
+    },
+    {
+      "href": "../img/key-042-048.jpg",
+      "label": "Workbook answer key · Lesson 45"
+    },
+    {
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=141",
+      "label": "Grammar exercises · PDF pp. 141–143"
+    },
+    {
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=477",
+      "label": "Grammar answer key · PDF p. 477"
+    },
+    {
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=478",
+      "label": "Grammar answer key · PDF p. 478"
+    }
+  ],
+  "expected_answers": 54
+}
