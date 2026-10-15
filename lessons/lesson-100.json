@@ -1,0 +1,705 @@
+{
+  "number": 100,
+  "status": "verified",
+  "title": "He says that ... She says that ... They say that ...",
+  "translation": "他/她/他们说……",
+  "description": "A picture lesson on reported speech. The page shows 16 small pictures, each with a caption (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell), and a box of reporting verbs (says, thinks, believes, knows, understands, is afraid, is sorry, is sure) and clause beginnings (is, feels, has got, needs, wants, can, must, will). Students make sentences of the form 'He/She/They + reporting verb + that + clause' to describe each picture. New vocabulary includes licence. Written exercises (in the textbook) cover rewriting sentences as indirect speech and answering questions using indirect speech. Workbook practice covers reporting what people say (direct to indirect speech), filling in the blanks with reflexive pronouns (myself, yourself, himself, herself, ourselves, yourselves, themselves), and answering personal questions with short answers or full sentences. Grammar exercises practise answering 'What does he say?' questions using reported speech, and changing sentences into reported speech according to the example.",
+  "answer_note": "Lesson listening questions (16 picture sentences) are suggested model answers based on the pictures. Practice A (report what people say) item 1 is a printed example; items 2-10 are taken from the supplied Lesson 100 key (img/key-095-100.jpg). Practice B (fill in the blanks with reflexive pronouns) 8 items are taken from the supplied Lesson 100 key (img/key-095-100.jpg). Practice C (about you) 4 items are open-ended; suggested model answers are provided. Grammar I (answer the questions, using the cues given) item 1 is a printed example; items 2-10 are taken from the supplied Lesson 100 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 530-531). Grammar II (change the sentences according to the example) item 1 is a printed example; items 2-10 are taken from the supplied Lesson 100 grammar key (PDF viewer p. 531).",
+  "expected_answers": 70,
+  "sources": [
+    {
+      "label": "Lesson 100 textbook — pictures and word box (p. 203)",
+      "href": "../img/lesson-100-01-text.jpg"
+    },
+    {
+      "label": "Lesson 100 textbook — vocabulary and written exercises (p. 204)",
+      "href": "../img/lesson-100-02-text.jpg"
+    },
+    {
+      "label": "Lesson 100 workbook practice scan",
+      "href": "../img/lesson-100-practice.jpg"
+    },
+    {
+      "label": "Lessons 95-100 workbook answer key scan",
+      "href": "../img/key-095-100.jpg"
+    },
+    {
+      "label": "Lesson 100 grammar exercises (pp. 303-304)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=303"
+    }
+  ],
+  "characters": {
+    "he": "A man shown in one of the 16 pictures (tired, thirsty, cold, ill, etc.).",
+    "she": "A woman shown in one of the 16 pictures.",
+    "they": "People shown in one of the 16 pictures (a couple, friends, etc.)."
+  },
+  "images": {
+    "lesson-100-items-grid": {
+      "kind": "item",
+      "status": "ready",
+      "description": "16 small pictures with captions (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell) for making reported-speech sentences.",
+      "characters": [
+        "he",
+        "she",
+        "they"
+      ],
+      "source": "../img/lesson-100-01-text.jpg",
+      "src": "assets/lesson-100/items-grid.jpg",
+      "width": 1426,
+      "height": 1475
+    }
+  },
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-100-01-text.jpg",
+        "text": "Listen and answer the questions. 听录音并回答问题。\n\nLook at the 16 pictures. For each picture, make a sentence of the form:\nHe/She/They + says/thinks/believes/knows/understands/is afraid/is sorry/is sure + that + clause.\n\nExample: He says that he feels tired.",
+        "translation": "听录音并回答问题。看这 16 幅图。为每幅图造一个句子，形式为：他/她/他们 + 说/想/相信/知道/理解/害怕/抱歉/确信 + that + 从句。"
+      },
+      {
+        "id": "lesson-items",
+        "type": "text",
+        "source": "../img/lesson-100-01-text.jpg",
+        "image": "lesson-100-items-grid",
+        "text": "The 16 pictures show: 1. tired, 2. thirsty, 3. cold, 4. ill, 5. a cold, 6. a headache, 7. an earache, 8. a toothache, 9. a haircut, 10. a licence, 11. an X-ray, 12. some money, 13. wait, 14. catch, 15. repair, 16. sell.",
+        "translation": "16 幅图分别显示：1. 累，2. 渴，3. 冷，4. 生病，5. 感冒，6. 头痛，7. 耳痛，8. 牙痛，9. 理发，10. 驾照，11. X 光透视，12. 一些钱，13. 等，14. 赶上，15. 修理，16. 卖。"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-100-01-text.jpg",
+        "title": "Listen and answer the questions",
+        "instruction": "Look at the 16 pictures. For each picture, make a sentence of the form 'He/She/They + reporting verb + that + clause'. 看这 16 幅图，为每幅图造一个间接引语的句子。",
+        "translation": "For each picture, make a reported-speech sentence.",
+        "expected_items": 16,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "Picture 1 (tired): He/She feels tired.",
+            "answer": "He says that he feels tired.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-2",
+            "number": "2",
+            "prompt": "Picture 2 (thirsty): They feel thirsty.",
+            "answer": "They say that they feel thirsty.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-3",
+            "number": "3",
+            "prompt": "Picture 3 (cold): She feels cold.",
+            "answer": "She says that she feels cold.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-4",
+            "number": "4",
+            "prompt": "Picture 4 (ill): She is ill.",
+            "answer": "She says that she is ill.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-5",
+            "number": "5",
+            "prompt": "Picture 5 (a cold): He has got a cold.",
+            "answer": "He thinks that he has got a cold.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-6",
+            "number": "6",
+            "prompt": "Picture 6 (a headache): She has got a headache.",
+            "answer": "She says that she has got a headache.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-7",
+            "number": "7",
+            "prompt": "Picture 7 (an earache): He has got an earache.",
+            "answer": "He says that he has got an earache.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-8",
+            "number": "8",
+            "prompt": "Picture 8 (a toothache): They have got a toothache.",
+            "answer": "They say that they have got a toothache.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-9",
+            "number": "9",
+            "prompt": "Picture 9 (a haircut): She needs a haircut.",
+            "answer": "She thinks that she needs a haircut.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-10",
+            "number": "10",
+            "prompt": "Picture 10 (a licence): He needs a licence.",
+            "answer": "He knows that he needs a licence.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-11",
+            "number": "11",
+            "prompt": "Picture 11 (an X-ray): He needs an X-ray.",
+            "answer": "I know that I need an X-ray.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-12",
+            "number": "12",
+            "prompt": "Picture 12 (some money): They want some money.",
+            "answer": "They say that they want some money.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-13",
+            "number": "13",
+            "prompt": "Picture 13 (wait): She must wait.",
+            "answer": "She says that she must wait.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-14",
+            "number": "14",
+            "prompt": "Picture 14 (catch): He will catch the bus.",
+            "answer": "He says that he will catch the bus.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-15",
+            "number": "15",
+            "prompt": "Picture 15 (repair): He can repair the car.",
+            "answer": "He believes that he can repair the car.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-16",
+            "number": "16",
+            "prompt": "Picture 16 (sell): He will sell his house.",
+            "answer": "He is sure that he will sell his house.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../img/lesson-100-02-text.jpg",
+        "items": [
+          {
+            "word": "licence",
+            "ipa": "/ˈlaɪsns/",
+            "pos": "n.",
+            "meaning": "执照"
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../img/lesson-100-02-text.jpg",
+        "title": "Written exercises A — Rewrite these sentences",
+        "instruction": "Rewrite these sentences. 模仿例句把下列句子改写成间接引语。\n\nExample:\nHe is drinking his milk. He says that he is drinking his milk.",
+        "translation": "Rewrite each sentence as indirect speech, following the printed example.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-written-a-1",
+            "number": "1",
+            "prompt": "She has found her pen.",
+            "answer": "She says that she has found her pen.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-2",
+            "number": "2",
+            "prompt": "They must remain here.",
+            "answer": "They say that they must remain here.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-3",
+            "number": "3",
+            "prompt": "He remembers you.",
+            "answer": "He says that he remembers you.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-4",
+            "number": "4",
+            "prompt": "She doesn't speak English.",
+            "answer": "She says that she doesn't speak English.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-5",
+            "number": "5",
+            "prompt": "They're washing the dishes.",
+            "answer": "They say that they are washing the dishes.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../img/lesson-100-02-text.jpg",
+        "title": "Written exercises B — Answer these questions",
+        "instruction": "Answer these questions. 模仿例句用间接引语回答以下问题。\n\nExamples:\nWhat's the matter with him? (feel/tired) → He says that he feels tired.\nWhat do they want? (some/money) → They say that they want some money.",
+        "translation": "Answer each question using indirect speech, following the printed examples.",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-written-b-1",
+            "number": "1",
+            "prompt": "What's the matter with him? (feel/ill)",
+            "answer": "He says that he feels ill.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-2",
+            "number": "2",
+            "prompt": "What's the matter with her? (have got/a headache)",
+            "answer": "She says that she has got a headache.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-3",
+            "number": "3",
+            "prompt": "What does he want? (a haircut)",
+            "answer": "He says that he wants a haircut.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-4",
+            "number": "4",
+            "prompt": "What's the matter with them? (are/thirsty)",
+            "answer": "They say that they are thirsty.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-5",
+            "number": "5",
+            "prompt": "What's the matter with them? (have/a toothache)",
+            "answer": "They say that they have a toothache.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-6",
+            "number": "6",
+            "prompt": "What does she need? (a licence)",
+            "answer": "She says that she needs a licence.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-7",
+            "number": "7",
+            "prompt": "What does he want? (an X-ray)",
+            "answer": "He says that he wants an X-ray.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-8",
+            "number": "8",
+            "prompt": "What's the matter with her? (is/cold)",
+            "answer": "She says that she is cold.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-9",
+            "number": "9",
+            "prompt": "What's the matter with him? (have got/a cold)",
+            "answer": "He says that he has got a cold.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-10",
+            "number": "10",
+            "prompt": "What's the matter with him? (have/an earache)",
+            "answer": "He says that he has an earache.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — What does he say?",
+        "instruction": "Report what these people say, think, know, etc. — like the example. 模仿例句将直接引语改写成间接引语。\n\nExample (item 1):\nHe says: 'I feel cold.' → He says that he feels cold.",
+        "translation": "Report what these people say, think, know, etc. — like the example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-095-100.jpg",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are taken from the supplied Lesson 100 key (img/key-095-100.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "He says: 'I feel cold.'",
+            "answer": "He says that he feels cold.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "She thinks: 'I've got a cold.'",
+            "answer": "She thinks that she's got a cold.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "I know: 'I need an X-ray.'",
+            "answer": "I know that I need an X-ray.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "We know: 'He can swim well.'",
+            "answer": "We know that he can swim well.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "They believe: 'She is ill.'",
+            "answer": "They believe that she is ill.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "'I am sure. He will sell his house.'",
+            "answer": "I am sure that he will sell his house.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-7",
+            "number": "7",
+            "prompt": "'I am sure. She is at home today.'",
+            "answer": "I am sure that she is at home today.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-8",
+            "number": "8",
+            "prompt": "'I am sorry. She is ill.'",
+            "answer": "I am sorry that she is ill.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-9",
+            "number": "9",
+            "prompt": "'I am afraid. You are wrong.'",
+            "answer": "I am afraid that you are wrong.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-10",
+            "number": "10",
+            "prompt": "I understand: 'You need money.'",
+            "answer": "I understand that you need money.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — Structure: Fill in the blanks with reflexive pronouns",
+        "instruction": "Fill in the blanks with myself, yourself, himself, ourselves, etc. 用反身代词填空。",
+        "translation": "Fill in each blank with the correct reflexive pronoun.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-095-100.jpg",
+        "context": "8 items. All answers are taken from the supplied Lesson 100 key (img/key-095-100.jpg).",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "I've hurt ______.",
+            "answer": "myself",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "Tom, you will hurt ______.",
+            "answer": "yourself",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "He hurt ______ last week.",
+            "answer": "himself",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "She hurt ______ yesterday.",
+            "answer": "herself",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "We aren't going to hurt ______.",
+            "answer": "ourselves",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-6",
+            "number": "6",
+            "prompt": "Have you two boys hurt ______?",
+            "answer": "yourselves",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-7",
+            "number": "7",
+            "prompt": "Ken and George have hurt ______.",
+            "answer": "themselves",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-8",
+            "number": "8",
+            "prompt": "Did Andy hurt ______?",
+            "answer": "himself",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "title": "C — About you",
+        "instruction": "Answer these questions with short answers or full sentences. 用简短形式或完整的句子回答问题。",
+        "translation": "Answer these personal questions with short answers or full sentences.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 open-ended items. Suggested model answers are provided.",
+        "questions": [
+          {
+            "id": "practice-c-1",
+            "number": "1",
+            "prompt": "When did you hurt yourself last?",
+            "answer": "I hurt myself last Monday.",
+            "rows": 1
+          },
+          {
+            "id": "practice-c-2",
+            "number": "2",
+            "prompt": "What happened to you?",
+            "answer": "I slipped and fell down at school.",
+            "rows": 1
+          },
+          {
+            "id": "practice-c-3",
+            "number": "3",
+            "prompt": "When did you see the doctor the last time?",
+            "answer": "I saw the doctor 6 months ago.",
+            "rows": 1
+          },
+          {
+            "id": "practice-c-4",
+            "number": "4",
+            "prompt": "Have you ever had an X-ray? When? Why?",
+            "answer": "Yes, I have had an X-ray. I had an X-ray in 1990. I broke my leg.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。\n\nExample (item 1):\nWhat does he say? (\"I have a bad toothache.\")\nHe says that he has a bad toothache.",
+        "translation": "Answer each 'What does he say?' question using the direct-speech cue in parentheses, rewriting it as indirect speech.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are taken from the supplied Lesson 100 grammar key (PDF viewer p. 530-531).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "What does he say? (\"I have a bad toothache.\")",
+            "answer": "He says that he has a bad toothache.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "What do you say? (\"I feel cold.\")",
+            "answer": "I say that I feel cold.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "What do they say? (\"We will fly to London next Tuesday.\")",
+            "answer": "They say that they will fly to London next Tuesday.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "What does she say? (\"I am going to have an X-ray tomorrow.\")",
+            "answer": "She says that she is going to have an X-ray tomorrow.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "What does the teacher say? (\"Your son is working very well.\")",
+            "answer": "The teacher says that my/our son is working very well.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "What do you say? (\"We don't need any sugar.\")",
+            "answer": "We say that we don't need any sugar.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "What does he say? (\"I have already got a driver's licence.\")",
+            "answer": "He says that he has already got a driver's licence.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "What do they say? (\"It isn't very hot in our city in summer.\")",
+            "answer": "They say that it isn't very hot in their city in summer.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "What does she say? (\"I must catch the ten fifteen train.\")",
+            "answer": "She says that she must catch the ten fifteen train.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "What does the doctor say? (\"You'd better stay at home for two days.\")",
+            "answer": "The doctor says that I'd/you'd better stay at home for two days.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Change the sentences according to the example. 仿照例句改写下列句子。",
+        "instruction": "Change the sentences according to the example. 仿照例句改写下列句子。\n\nExample (item 1):\nAnn: I can swim very well in the sea.\nAnn says that she can swim very well in the sea.",
+        "translation": "Change each direct-speech sentence into indirect speech, following the printed example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are taken from the supplied Lesson 100 grammar key (PDF viewer p. 531).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "Ann: I can swim very well in the sea.",
+            "answer": "Ann says that she can swim very well in the sea.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "The boys: We want an ice cream.",
+            "answer": "The boys say that they want an ice cream.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "Mary: I've just emptied the basket.",
+            "answer": "Mary says that she's just emptied the basket.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "Tom: I've never been to Sydney.",
+            "answer": "Tom says that he's never been to Sydney.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "The postmen: We're going to have a holiday tomorrow.",
+            "answer": "The postmen say that they're going to have a holiday tomorrow.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "My daughter: I need a watch.",
+            "answer": "My daughter says that she needs a watch.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "Mrs. Scott: There isn't much cheese in the refrigerator.",
+            "answer": "Mrs. Scott says that there isn't much cheese in the refrigerator.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "The weatherman: It will be very hot tomorrow.",
+            "answer": "The weatherman says that it will be very hot tomorrow.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "My friends: We've enjoyed ourselves very much.",
+            "answer": "My friends say that they've enjoyed themselves very much.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "The mechanic: I can't repair the car.",
+            "answer": "The mechanic says that he can't repair the car.",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  }
+}
