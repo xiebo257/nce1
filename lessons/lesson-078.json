@@ -1,0 +1,519 @@
+{
+  "number": 78,
+  "status": "verified",
+  "title": "When did you ...?",
+  "translation": "你什么时候……？",
+  "description": "A lesson on asking and answering past-tense questions with time phrases (at + times, on + days/dates, in + months/years). Students practice reading clocks, writing past-tense answers about appointments, and sorting time words into the correct preposition columns. Written exercises include completing sentences in the past tense and answering questions about past events with appropriate time phrases. Workbook practice covers prepositions of time (at/on/in) and personal questions about past experiences. Grammar exercises ask and answer questions using cues and fill in blanks with correct verb forms (present and past tense) in a narrative about the Scott family and their son Sam.",
+  "answer_note": "Written A (complete sentences in past tense) item 1 is a printed example; items 2-6 are suggested model answers. Written B (answer questions) items 1-4 are suggested model answers based on the time cues. Practice A (prepositions) 15 words are sorted into at/on/in columns per the workbook key (img/key-075-080.jpg). Practice B (about you) items 1-6 are suggested model answers. Grammar I (ask and answer) item 1 is a printed example; items 2-6 (10 answers) are taken from the grammar key (PDF viewer page 508). Grammar II (fill in verb forms) 20 blanks are taken from the grammar key (PDF viewer page 508). No external sources were used.",
+  "expected_answers": 52,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "text": "Lesson 78 — When did you ...? 你什么时候……？\n\nAT: 6 o'clock / 9 a.m. / 3.30 p.m. / 5.45 / half past one\n\nON: Sunday / Monday / Tuesday / Wednesday / Thursday / Friday / Saturday\n\nIN: January / February / March / April / May / June / July / August / September / October / November / December",
+        "translation": "Time phrase reference: at + times, on + days, in + months."
+      },
+      {
+        "id": "lesson-clocks",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "text": "Clock practice: Read each clock and write the time. 读钟面，写出时间。\n\nRow 1: 6:00 / 9:00 / 3:30 / 5:45 / 1:30 / 2:15\nRow 2: 4:30 / 7:15 / 9:20 / 10:50 / 3:10 / 11:55",
+        "translation": "Read each clock face and write the corresponding time."
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-078-02-text.jpg",
+        "title": "Written A — Complete these sentences in the past tense",
+        "instruction": "A Complete these sentences. 把下列句子改写成过去时。\nExample: She goes to town every day. She went to town yesterday.",
+        "translation": "Rewrite each sentence in the past tense, following the example.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "She goes to town every day. She ______ to town yesterday.",
+            "answer": "went",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "She buys a new car every year. She ______ a new car last year.",
+            "answer": "bought",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "She airs the room every day. She ______ it this morning.",
+            "answer": "aired",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "He often loses his pen. He ______ his pen this morning.",
+            "answer": "lost",
+            "rows": 1
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "She always listens to the news. She ______ to the news yesterday.",
+            "answer": "listened",
+            "rows": 1
+          },
+          {
+            "id": "written-a-6",
+            "number": "6",
+            "prompt": "She empties this basket every day. She ______ it yesterday.",
+            "answer": "emptied",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-078-02-text.jpg",
+        "title": "Written B — Answer these questions",
+        "instruction": "B Answer these questions. 模仿例句回答以下问题，注意时间状语的变化。\nExample: It's eight o'clock. When did you see him? (half an hour ago) → I saw him at half past seven.\nExample: It's Friday. When did she go to London? (the day before yesterday) → She went to London on Wednesday.\nExample: It's June. When did Mr. Jones buy that car? (last month) → He bought that car in May.",
+        "translation": "Answer each question in the past tense, using the time cue in brackets.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "1. It's 1997. When did you paint this room? (last year)",
+            "answer": "I painted this room in 1996.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "2. It's 5th January. When did she meet him? (two months ago)",
+            "answer": "She met him in November.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "3. It's a quarter past eleven. When did they arrive? (half an hour ago)",
+            "answer": "They arrived at ten o'clock.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "4. It's Sunday. When did he lose his pen? (yesterday)",
+            "answer": "He lost his pen on Saturday.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-078-practice.jpg",
+        "title": "A — Prepositions of time (at / on / in)",
+        "instruction": "Put these words and times into the correct columns with the correct prepositions. 将以下表示日期和时间的词填入正确的栏目内。\n\nWords: Monday / 1990 / 1st March / August / 6 o'clock / 9 a.m. / 28th February / 1953 / Saturday / 3.30 p.m. / 3rd July / December / Wednesday / June / 1972 / Thursday / 1984 / May / October / 5.45 / 1st April / Friday / half past one / 2nd May / 1965",
+        "translation": "Sort each word into the correct column: at + times, on + days/dates, in + months/years.",
+        "expected_items": 5,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-075-080.jpg",
+        "context": "The key provides the completed columns. Answers: at + times (6 o'clock, 9 a.m., 3.30 p.m., 5.45, half past one); on + days (Saturday, Wednesday, Thursday); on + dates (28th February, 3rd July, 1st April, 2nd May); in + months (August, December, June, May, October); in + years (1953, 1972, 1984, 1965).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "at + times (6 o'clock, 9 a.m., 3.30 p.m., 5.45, half past one)",
+            "answer": "at: 6 o'clock, 9 a.m., 3.30 p.m., 5.45, half past one",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "on + days (Saturday, Wednesday, Thursday)",
+            "answer": "on: Saturday, Wednesday, Thursday",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "on + dates (28th February, 3rd July, 1st April, 2nd May)",
+            "answer": "on: 28th February, 3rd July, 1st April, 2nd May",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "in + months (August, December, June, May, October)",
+            "answer": "in: August, December, June, May, October",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "in + years (1953, 1972, 1984, 1965)",
+            "answer": "in: 1953, 1972, 1984, 1965",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-078-practice.jpg",
+        "title": "B — About you (personal questions)",
+        "instruction": "Answer these questions about yourself with complete sentences. 根据自己的情况用完整的句子回答以下问题。",
+        "translation": "Answer each question with a complete sentence about yourself.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. What time did you go to bed last night?",
+            "answer": "I went to bed at half past eleven last night.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. What time did you get up this morning?",
+            "answer": "I got up at 7 a.m. this morning.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. What date did this school or college term start?",
+            "answer": "This term started on 12th January.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "4. When was your last appointment at the dentist's?",
+            "answer": "My last appointment at the dentists was on 23rd March.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "5. When was your last appointment at the doctor's or the hospital?",
+            "answer": "My last appointment at the hospital was on 2nd August last year.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-6",
+            "number": "6",
+            "prompt": "6. In which year did you start High School?",
+            "answer": "I started High School in 1998.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=238",
+        "title": "I. Ask and answer questions, using the cues given according to the example. 仿照例句用所给的词提问并回答。",
+        "instruction": "Ask and answer questions, using the cues given according to the example. 仿照例句用所给的词提问并回答。\n\n1. swim in the river/in the sea/yesterday evening\nDid you swim in the river yesterday evening?\nNo, I didn't. I swam in the sea.\n\n2. lose your way in the city/in the country/a year ago\n3. sit at the front of the class/at the back/last month\n4. buy a car/a bike/the day before yesterday\n5. travel to France/in May/in June/2000\n6. arrive here/on August 2nd/August 3rd/last year",
+        "translation": "Write a question and answer for each set of cues, following the example pattern.",
+        "expected_items": 11,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=508",
+        "context": "Item 1 is a printed example (not editable). Items 2-6 each require a question and an answer. Key: PDF viewer page 508.",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. swim in the river/in the sea/yesterday evening → Q & A",
+            "answer": "Did you swim in the river yesterday evening? No, I didn't. I swam in the sea.",
+            "rows": 3,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. Q: lose your way in the city/in the country/a year ago",
+            "answer": "Did you lose your way in the city a year ago?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "2. A:",
+            "answer": "No, I didn't. I lost my way in the country.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "3. Q: sit at the front of the class/at the back/last month",
+            "answer": "Did you sit at the front of the class last month?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "3. A:",
+            "answer": "No, I didn't. I sat at the back of the class.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "4. Q: buy a car/a bike/the day before yesterday",
+            "answer": "Did you buy a car the day before yesterday?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "4. A:",
+            "answer": "No, I didn't. I bought a bike.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "5. Q: travel to France/in May/in June/2000",
+            "answer": "Did you travel to France in May 2000?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "5. A:",
+            "answer": "No, I didn't. I travelled in June 2000.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "6. Q: arrive here/on August 2nd/August 3rd/last year",
+            "answer": "Did you arrive here on August 2nd last year?",
+            "rows": 2
+          },
+          {
+            "id": "grammar-i-11",
+            "number": "11",
+            "prompt": "6. A:",
+            "answer": "No, I didn't. I arrived on August 3rd.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=238",
+        "title": "II. Fill in the blanks with the correct form of the verbs given. 用所给动词的正确形式填空。",
+        "instruction": "Fill in the blanks with the correct form of the verbs given. 用所给动词的正确形式填空。\n\nMr. and Mrs. Scott ______ (have) two children, a son and a daughter. Their son's name ______ (be) Sam. Their daughter's name ______ (be) Ann. Sam and Ann ______ (go) to the same school, but they ______ (be) not in the same grade. They ______ (go) to school by bus.\n\nBut Sam Scott ______ (walk) to school yesterday morning. He ______ (go) to his first class at eight o'clock. He ______ (open) the door and ______ (walk) in. The teacher ______ (be) not there, but his classmates ______ (be).\n\nThe windows ______ (be) closed. Sam ______ (open) one. He ______ (look) at his homework. He ______ (talk) to his friend. They ______ (talk) and ______ (wait) for their teacher.\n\nFinally the teacher ______ (arrive). He ______ (be) half an hour late, but he ______ (not say) why. He ______ (say), \"______ (sit) down and ______ (start) work.\" He ______ (give) them a new lesson.",
+        "translation": "Fill in each blank with the correct form of the verb in brackets (present or past tense).",
+        "expected_items": 22,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=508",
+        "context": "Answers are taken from the grammar key (PDF viewer page 508).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "Mr. and Mrs. Scott ______ (have) two children",
+            "answer": "have",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "Their son's name ______ (be) Sam",
+            "answer": "is",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "Their daughter's name ______ (be) Ann",
+            "answer": "is",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "Sam and Ann ______ (go) to the same school",
+            "answer": "go",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "but they ______ (be) not in the same grade",
+            "answer": "are",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "They ______ (go) to school by bus",
+            "answer": "go",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "But Sam Scott ______ (walk) to school yesterday morning",
+            "answer": "walked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "He ______ (go) to his first class at eight o'clock",
+            "answer": "went",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "He ______ (open) the door",
+            "answer": "opened",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "and ______ (walk) in",
+            "answer": "walked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-11",
+            "number": "11",
+            "prompt": "The teacher ______ (be) not there",
+            "answer": "was",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-12",
+            "number": "12",
+            "prompt": "but his classmates ______ (be)",
+            "answer": "were",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-13",
+            "number": "13",
+            "prompt": "The windows ______ (be) closed",
+            "answer": "were",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-14",
+            "number": "14",
+            "prompt": "Sam ______ (open) one",
+            "answer": "opened",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-15",
+            "number": "15",
+            "prompt": "He ______ (look) at his homework",
+            "answer": "looked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-16",
+            "number": "16",
+            "prompt": "He ______ (talk) to his friend",
+            "answer": "talked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-17",
+            "number": "17",
+            "prompt": "They ______ (talk) and ______ (wait) for their teacher",
+            "answer": "talked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-18",
+            "number": "18",
+            "prompt": "They talked and ______ (wait) for their teacher",
+            "answer": "waited",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-19",
+            "number": "19",
+            "prompt": "Finally the teacher ______ (arrive)",
+            "answer": "arrived",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-20",
+            "number": "20",
+            "prompt": "He ______ (be) half an hour late",
+            "answer": "was",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-21",
+            "number": "21",
+            "prompt": "but he ______ (not say) why",
+            "answer": "didn't say",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-22",
+            "number": "22",
+            "prompt": "He ______ (say), \"______ (sit) down and ______ (start) work.\"",
+            "answer": "said",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Lesson 78 textbook — time phrases and clocks (p. 159)",
+      "href": "../img/lesson-078-01-text.jpg"
+    },
+    {
+      "label": "Lesson 78 textbook — written exercises (p. 160)",
+      "href": "../img/lesson-078-02-text.jpg"
+    },
+    {
+      "label": "Lesson 78 workbook practice scan",
+      "href": "../img/lesson-078-practice.jpg"
+    },
+    {
+      "label": "Lessons 75-80 workbook answer key scan",
+      "href": "../img/key-075-080.jpg"
+    },
+    {
+      "label": "Lesson 78 grammar exercises (pp. 238-239)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=238"
+    },
+    {
+      "label": "Lesson 78 grammar answer key (p. 508)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=508"
+    }
+  ],
+  "characters": {},
+  "images": {}
+}
