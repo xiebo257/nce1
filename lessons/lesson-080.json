@@ -1,0 +1,500 @@
+{
+  "number": 80,
+  "status": "verified",
+  "title": "I must go to the ...",
+  "translation": "我必须去……",
+  "description": "A picture lesson in which students match numbered shop items (groceries, fruit and vegetables, meat, stationery, and baker/chemist goods) with the shop where they are bought. Written exercises rewrite negative have-got sentences as 'haven't got' and make two statements (need/must go) for each question. Workbook practice covers sentences with 'so or because' and about-you shopping questions. Grammar exercises cover giving correct replies with 'need ...' and answering have-got questions with 'must go to the ... to get/buy some'.",
+  "answer_note": "Lesson listening questions are suggested model answers based on the picture lesson. Written A (rewrite sentences) 5 items are suggested model answers in the haven't-got pattern shown by the printed examples. Written B (make two statements) 7 items are suggested model answers following the printed example pattern. Practice A (so or because) 5 items are taken from the workbook key (img/key-080-085.jpg). Practice B (about you) 3 items are taken from the workbook key (img/key-080-085.jpg). Grammar I (give correct replies) item 1 is a printed example; items 2-10 are taken from the grammar key (PDF viewer pages 510-511). Grammar II (answer the questions) item 1 is a printed example; items 2-10 are taken from the grammar key (PDF viewer page 511). No external sources were used.",
+  "expected_answers": 43,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "text": "Listen and answer the questions. 听录音并回答问题。\n\nGROCER'S to get some GROCERIES:\ncheese (120) / eggs (121) / butter (122) / honey (123) / jam (124) / biscuits (125)\n\nGREENGROCER'S to get some FRUIT and VEGETABLES:\npears (226) / oranges (227) / bananas (228) / beans (229) / peas (230) / cabbages (231)\n\nBUTCHER'S to get some MEAT:\nlamb (332) / beef (333) / steak (334) / mince (335) / chicken (336)\n\nNEWSAGENT'S to get some STATIONERY:\nglue (437) / envelopes (438) / writing paper (439) / newspapers (440) / magazines (441)\n\nBAKER'S to get some:\nbread (543) / cakes (544)\n\nCHEMIST'S to get some:\naspirins (545) / medicine (546)",
+        "translation": "Match each numbered item with the shop where it is sold."
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-080-01-text.jpg",
+        "title": "Listening — match the items with the shops",
+        "instruction": "Listen and answer the questions. 听录音并回答问题。\n1. Where can you get some cheese?\n2. Where can you get some steak?\n3. Where can you get some writing paper?\n4. Where can you get some bread?\n5. Where can you get some medicine?",
+        "translation": "Answer each question with the correct shop.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "Where can you get some cheese?",
+            "answer": "At the grocer's.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-2",
+            "number": "2",
+            "prompt": "Where can you get some steak?",
+            "answer": "At the butcher's.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-3",
+            "number": "3",
+            "prompt": "Where can you get some writing paper?",
+            "answer": "At the newsagent's.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-4",
+            "number": "4",
+            "prompt": "Where can you get some bread?",
+            "answer": "At the baker's.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-5",
+            "number": "5",
+            "prompt": "Where can you get some medicine?",
+            "answer": "At the chemist's.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../img/lesson-080-02-text.jpg",
+        "items": [
+          {
+            "word": "groceries",
+            "ipa": "/ˈgrəʊsərɪz/",
+            "pos": "n.",
+            "meaning": "食品杂货"
+          },
+          {
+            "word": "fruit",
+            "ipa": "/fruːt/",
+            "pos": "n.",
+            "meaning": "水果"
+          },
+          {
+            "word": "stationery",
+            "ipa": "/ˈsteɪənəri/",
+            "pos": "n.",
+            "meaning": "文具"
+          },
+          {
+            "word": "newsagent",
+            "ipa": "/ˈnjuːzəʊdʒənt/",
+            "pos": "n.",
+            "meaning": "报刊零售人"
+          },
+          {
+            "word": "chemist",
+            "ipa": "/ˈkemɪst/",
+            "pos": "n.",
+            "meaning": "药剂师"
+          }
+        ]
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-080-02-text.jpg",
+        "title": "Written A — Rewrite these sentences",
+        "instruction": "A Rewrite these sentences. 模仿例句改写以下句子。\nExamples: I don't have any eggs. → I haven't got many eggs.\nHe doesn't have any coffee. → He hasn't got much coffee.",
+        "translation": "Rewrite each sentence using haven't got.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "1. I don't have any butter.",
+            "answer": "I haven't got any butter.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "2. You don't have any envelopes.",
+            "answer": "You haven't got any envelopes.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "3. We don't have any milk.",
+            "answer": "We haven't got any milk.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "4. She doesn't have any biscuits.",
+            "answer": "She hasn't got any biscuits.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "5. They don't have any stationery.",
+            "answer": "They haven't got any stationery.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-080-02-text.jpg",
+        "title": "Written B — Make two statements for each question",
+        "instruction": "B Make two statements for each question, as in the examples. 模仿例句用两种方式回答以下每个问题。\nExample: Have you got any cheese? (grocer's) → I need a lot of cheese. I haven't got much. I must go to the grocer's to get some cheese.\nExample: Has he got any envelopes? (newsagent's) → He needs a lot of envelopes. He hasn't got many. He must go to the newsagent's to get some envelopes.",
+        "translation": "For each question, write a need statement and a must-go statement.",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "1. Have they got any bread? (baker's)",
+            "answer": "They need a lot of bread. They haven't got much. They must go to the baker's to get some bread.",
+            "rows": 3
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "2. Has she got any eggs? (grocer's)",
+            "answer": "She needs a lot of eggs. She hasn't got many. She must go to the grocer's to get some eggs.",
+            "rows": 3
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "3. Have they got any magazines? (newsagent's)",
+            "answer": "They need a lot of magazines. They haven't got many. They must go to the newsagent's to get some magazines.",
+            "rows": 3
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "4. Have you got any beef? (butcher's)",
+            "answer": "I need a lot of beef. I haven't got much. I must go to the butcher's to get some beef.",
+            "rows": 3
+          },
+          {
+            "id": "written-b-5",
+            "number": "5",
+            "prompt": "5. Has she got any butter? (grocer's)",
+            "answer": "She needs a lot of butter. She hasn't got much. She must go to the grocer's to get some butter.",
+            "rows": 3
+          },
+          {
+            "id": "written-b-6",
+            "number": "6",
+            "prompt": "6. Have they got any bananas? (greengrocer's)",
+            "answer": "They need a lot of bananas. They haven't got many. They must go to the greengrocer's to get some bananas.",
+            "rows": 3
+          },
+          {
+            "id": "written-b-7",
+            "number": "7",
+            "prompt": "7. Has he got any medicine? (chemist's)",
+            "answer": "He needs a lot of medicine. He hasn't got much. He must go to the chemist's to get some medicine.",
+            "rows": 3
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-080-practice.jpg",
+        "title": "A — We must go to the ... with so or because",
+        "instruction": "Use these words to write sentences using must, so and because. 用所给单词造句，用 must, so and because。\nExample: we / bread / baker's → We haven't got any bread so we must go to the baker's to get some. / We must go to the baker's to get some bread because we haven't got any.",
+        "translation": "Write two sentences for each set of cues: one with 'so' and one with 'because'.",
+        "expected_items": 5,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-080-085.jpg",
+        "context": "Item 1 is a printed example. Items 2-5 are taken from the workbook key (img/key-080-085.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "2",
+            "prompt": "2. I / eggs / grocer's",
+            "answer": "I haven't got any eggs so I must go to the grocer's to get some. / I must go to the grocer's to get some eggs because I haven't got any.",
+            "rows": 3
+          },
+          {
+            "id": "practice-a-2",
+            "number": "3",
+            "prompt": "3. Carol / potatoes / greengrocer's",
+            "answer": "Carol hasn't got any potatoes so she must go to the greengrocer's to get some. / Carol must go to the greengrocer's to get some potatoes because she hasn't got any.",
+            "rows": 3
+          },
+          {
+            "id": "practice-a-3",
+            "number": "4",
+            "prompt": "4. Tom / steak / butcher's",
+            "answer": "Tom hasn't got any steak so he must go to the butcher's to get some. / Tom must go to the butcher's to get some steak because he hasn't got any.",
+            "rows": 3
+          },
+          {
+            "id": "practice-a-4",
+            "number": "5",
+            "prompt": "5. Tom and Carol / money / bank",
+            "answer": "Tom and Carol haven't got any money so they must go to the bank to get some. / Tom and Carol must go to the bank to get some money because they haven't got any.",
+            "rows": 3
+          },
+          {
+            "id": "practice-a-5",
+            "number": "6",
+            "prompt": "6. (write your own with so or because)",
+            "answer": "We haven't got any milk so we must go to the grocer's to get some.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-080-practice.jpg",
+        "title": "B — About you",
+        "instruction": "What must you buy or get this week? Where? And when? Write five sentences like this. 写出 5 个句子，说明你本周要买的商品以及采购的地点和时间。\nExample: I must go to the newsagent's tomorrow to get some envelopes.",
+        "translation": "Write sentences about what you must buy or get this week, where, and when.",
+        "expected_items": 3,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-080-085.jpg",
+        "context": "Open-ended; possible answers are taken from the workbook key (img/key-080-085.jpg).",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. (newsagent's / magazines)",
+            "answer": "I must go to the newsagent's on Friday to get some magazines.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. (chemist's / soap and medicine)",
+            "answer": "I must go to the chemist's on Saturday to buy some soap and some medicine.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. (grocer's / eggs and cheese)",
+            "answer": "I must go to the grocer's tomorrow afternoon to buy some eggs and cheese.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=244",
+        "title": "I. Give correct replies, using the cues given according to the example. 仿照例句用所给的词写出下列各句的对应句。",
+        "instruction": "Give correct replies, using the cues given according to the example. 仿照例句用所给的词写出下列各句的对应句。\nExample: You look tired. (a rest) → You need a rest.",
+        "translation": "Give the correct reply for each cue using 'need'.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=510",
+        "context": "Item 1 is a printed example (not editable). Items 2-10 are taken from the grammar key (PDF viewer pages 510-511).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. You look tired. (a rest)",
+            "answer": "You need a rest.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. I'm very thirsty. (some water)",
+            "answer": "I need some water.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. He wants to buy a television. (five thousand yuan)",
+            "answer": "He needs five thousand yuan.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. You look sleepy. (some sleep)",
+            "answer": "You need some sleep.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. She is ill. (some medicine)",
+            "answer": "She needs some medicine.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. We feel hungry. (some food)",
+            "answer": "We need some food.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. I want to cook dinner. (some meat and vegetables)",
+            "answer": "I need some meat and vegetables.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. I'm going to write a letter. (some paper and ink)",
+            "answer": "I need some paper and ink.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "9. She has a bad headache. (two aspirins)",
+            "answer": "She needs two aspirins.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "10. We're having a party. (some beer and wine)",
+            "answer": "We need some beer and wine.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=245",
+        "title": "II. Answer the questions according to the example. 仿照例句回答下列问题。",
+        "instruction": "Answer the questions according to the example. 仿照例句回答下列问题。\nExample: Do we have any honey? (grocer's/get) → No, we don't. We must go to the grocer's to get some.",
+        "translation": "Answer each question with a negative reply and a must-go statement, following the example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=511",
+        "context": "Item 1 is a printed example (not editable). Items 2-10 are taken from the grammar key (PDF viewer page 511).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. Do we have any honey? (grocer's/get)",
+            "answer": "No, we don't. We must go to the grocer's to get some.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. Does she have any envelopes? (newsagent's/buy)",
+            "answer": "No, she doesn't. She must go to the newsagent's to buy some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. Do you have any steak? (butcher's/buy)",
+            "answer": "No, I/we don't. I/We must go to the butcher's to buy some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. Do you have any bread? (baker's/get)",
+            "answer": "No, I/we don't. I/We must go to the baker's to get some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. Do you have any beans? (greengrocer's/buy)",
+            "answer": "No, I/we don't. I/We must go to the greengrocer's to buy some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. Do we have any aspirins? (chemist's/get)",
+            "answer": "No, we don't. We must go to the chemist's to get some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. Do you have any jam? (grocer's/buy)",
+            "answer": "No, I/we don't. I/We must go to the grocer's to buy some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. Does he have any writing paper? (newsagent's/get)",
+            "answer": "No, he doesn't. He must go to the newsagent's to get some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "9. Do we have any eggs? (grocer's/buy)",
+            "answer": "No, we don't. We must go to the grocer's to buy some.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "10. Do we have any medicine for a bad cold? (chemist's/get)",
+            "answer": "No, we don't. We must go to the chemist's to get some.",
+            "rows": 2
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Lesson 80 textbook — shop items and numbers (p. 163)",
+      "href": "../img/lesson-080-01-text.jpg"
+    },
+    {
+      "label": "Lesson 80 textbook — vocabulary and written exercises (p. 164)",
+      "href": "../img/lesson-080-02-text.jpg"
+    },
+    {
+      "label": "Lesson 80 workbook practice scan",
+      "href": "../img/lesson-080-practice.jpg"
+    },
+    {
+      "label": "Lessons 80-85 workbook answer key scan",
+      "href": "../img/key-080-085.jpg"
+    },
+    {
+      "label": "Lesson 80 grammar exercises (pp. 244-245)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=244"
+    },
+    {
+      "label": "Lesson 80 grammar answer key (pp. 510-511)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=510"
+    }
+  ],
+  "characters": {},
+  "images": {}
+}
