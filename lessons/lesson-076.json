@@ -1,0 +1,929 @@
+{
+  "number": 76,
+  "status": "verified",
+  "title": "When did you ...?",
+  "translation": "你什么时候……？",
+  "description": "A lesson on past-tense questions and answers with time phrases. Students listen to questions about past actions, then complete a time-phrase reference table (this/last/before-last week/month/year vs. a minute/hour/day/week/month/year ago). Fifteen illustrations (109-123) show people performing past-tense actions. Written exercises include rewriting present-tense sentences in the past and writing questions and answers with time cues. Workbook practice covers the simple past with irregular verbs in dialogues and personal questions about past experiences. Grammar exercises fill in past-tense forms and complete dialogues.",
+  "answer_note": "Lesson listening question is a suggested model answer based on the lesson context. Written A (rewrite in past tense) item 1 is a printed example; items 2-6 are suggested model answers. Written B (write questions and answers) item 1 is a printed example; items 2-13 are suggested model answers. Practice A (dialogue fill-in) the printed example is not editable; items 2-10 are suggested model answers based on the simple-past irregular-verb pattern. Practice B (about you) items 1-4 are personal questions requiring the word 'ago'; answers are suggested. Grammar I (fill in past tense) 12 blanks are taken from the grammar key (PDF viewer page 507). Grammar II (complete dialogues) item 1 is a printed example; items 2-6 (15 answers) are taken from the grammar key (PDF viewer page 507). No external sources were used.",
+  "expected_answers": 58,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。\n\nTime phrase reference:\nthis week / last week / the week before last\nthis month / last month / the month before last\nthis year / last year / the year before last\n\na minute ago / two minutes ago\nan hour ago / five hours ago\na day ago / three days ago\na week ago / two weeks ago\na month ago / four months ago\na year ago / six years ago",
+        "translation": "Listen and answer the questions. 听录音并回答问题。Time phrase table: this/last/before-last week/month/year and a minute/hour/day/week/month/year ago."
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-076-01-text.jpg",
+        "title": "Listening — answer the questions",
+        "instruction": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "Listen to the recording and answer the questions about past actions.",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "What did you do last weekend?",
+            "answer": "I watched television and read a book.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "lesson-pic-109",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-109",
+        "text": "109 — looked at a photograph",
+        "translation": "看了照片"
+      },
+      {
+        "id": "lesson-pic-110",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-110",
+        "text": "110 — jumped off the wall",
+        "translation": "从墙上跳下来"
+      },
+      {
+        "id": "lesson-pic-111",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-111",
+        "text": "111 — walked across the park",
+        "translation": "穿过公园"
+      },
+      {
+        "id": "lesson-pic-112",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-112",
+        "text": "112 — washed his hands",
+        "translation": "洗了手"
+      },
+      {
+        "id": "lesson-pic-113",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-113",
+        "text": "113 — worked in an office",
+        "translation": "在办公室工作"
+      },
+      {
+        "id": "lesson-pic-114",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-114",
+        "text": "114 — asked a question",
+        "translation": "问了一个问题"
+      },
+      {
+        "id": "lesson-pic-115",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-115",
+        "text": "115 — typed those letters",
+        "translation": "打了那些信"
+      },
+      {
+        "id": "lesson-pic-116",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-116",
+        "text": "116 — watched television",
+        "translation": "看了电视"
+      },
+      {
+        "id": "lesson-pic-117",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-117",
+        "text": "117 — talked to the salesman",
+        "translation": "和售货员谈话"
+      },
+      {
+        "id": "lesson-pic-118",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-118",
+        "text": "118 — thanked her father",
+        "translation": "感谢了她的父亲"
+      },
+      {
+        "id": "lesson-pic-119",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-119",
+        "text": "119 — dusted the cupboard",
+        "translation": "给柜子掸了灰"
+      },
+      {
+        "id": "lesson-pic-120",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-120",
+        "text": "120 — painted that bookcase",
+        "translation": "漆了那个书柜"
+      },
+      {
+        "id": "lesson-pic-121",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-121",
+        "text": "121 — waited at the bus stop",
+        "translation": "在公共汽车候车处等"
+      },
+      {
+        "id": "lesson-pic-122",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-122",
+        "text": "122 — wanted a car like that one",
+        "translation": "想要像那样的一辆车"
+      },
+      {
+        "id": "lesson-pic-123",
+        "type": "text",
+        "source": "../img/lesson-076-01-text.jpg",
+        "image": "lesson-076-pic-123",
+        "text": "123 — greeted her",
+        "translation": "跟她打招呼"
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-076-02-text.jpg",
+        "title": "Written A — Rewrite these sentences in the past tense",
+        "instruction": "A Rewrite these sentences. 模仿例句将以下句子改成过去时。\nExample: She goes to town every day. → She went to town yesterday.",
+        "translation": "Rewrite each sentence in the past tense, following the example.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "She goes to town every day. →",
+            "answer": "She went to town yesterday.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "She meets her friends every day. →",
+            "answer": "She met her friends yesterday.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "They drink some milk every day. →",
+            "answer": "They drank some milk yesterday.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "He swims in the river every day. →",
+            "answer": "He swam in the river yesterday.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "She takes him to school every day. →",
+            "answer": "She took him to school yesterday.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-6",
+            "number": "6",
+            "prompt": "He cuts himself every morning. →",
+            "answer": "He cut himself this morning.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-076-02-text.jpg",
+        "title": "Written B — Write questions and answers",
+        "instruction": "B Write questions and answers. 模仿例句提问并回答。\nExample: look at that photograph/an hour ago → When did you look at that photograph? I looked at that photograph an hour ago.",
+        "translation": "Write a past-tense question and answer for each cue, following the example.",
+        "expected_items": 13,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "look at that photograph/an hour ago →",
+            "answer": "When did you look at that photograph? I looked at that photograph an hour ago.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "walk across the park/last week →",
+            "answer": "When did you walk across the park? I walked across the park last week.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "wash your hands/a minute ago →",
+            "answer": "When did you wash your hands? I washed my hands a minute ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "work in an office/the year before last →",
+            "answer": "When did you work in an office? I worked in an office the year before last.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-5",
+            "number": "5",
+            "prompt": "ask a question/five minutes ago →",
+            "answer": "When did you ask a question? I asked a question five minutes ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-6",
+            "number": "6",
+            "prompt": "type those letters/a month ago →",
+            "answer": "When did you type those letters? I typed those letters a month ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-7",
+            "number": "7",
+            "prompt": "watch television/every day this week →",
+            "answer": "How often do you watch television? I watch television every day this week.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-8",
+            "number": "8",
+            "prompt": "talk to the shop assistant/last month →",
+            "answer": "When did you talk to the shop assistant? I talked to the shop assistant last month.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-9",
+            "number": "9",
+            "prompt": "thank your father/an hour ago →",
+            "answer": "When did you thank your father? I thanked my father an hour ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-10",
+            "number": "10",
+            "prompt": "dust the cupboard/three days ago →",
+            "answer": "When did you dust the cupboard? I dusted the cupboard three days ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-11",
+            "number": "11",
+            "prompt": "paint that bookcase/the year before last →",
+            "answer": "When did you paint that bookcase? I painted that bookcase the year before last.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-12",
+            "number": "12",
+            "prompt": "want a car like that one/a year ago →",
+            "answer": "When did you want a car like that one? I wanted a car like that one a year ago.",
+            "rows": 2
+          },
+          {
+            "id": "written-b-13",
+            "number": "13",
+            "prompt": "greet her/a minute ago →",
+            "answer": "When did you greet her? I greeted her a minute ago.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-076-practice.jpg",
+        "title": "A — The simple past with irregular verbs (dialogues)",
+        "instruction": "Look at this, then write dialogues like the example. Use the simple past tense. 看下表，模仿例句用一般过去时完成以下对话。\nVerb: buy → Positive: he bought / Negative: he did not buy or he didn't buy / Question: did he buy? / Short answers: Yes, he did. or No, he didn't.\n\n1. I / see that film / six months ago\nA: I saw that film.\nB: Oh, did you? When did you see it?\nA: I saw it six months ago.\n\n2. she / wear a dress like that / a week ago\n3. John / go to Japan / three years ago\n4. I / lose my passport once / about five years ago\n5. my friends / meet a famous film star / two weeks ago",
+        "translation": "Write dialogues using the simple past tense with irregular verbs, following the example pattern.",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "The printed example (item 1) is not editable. Items 2-5 each require three answers (A statement, B question, A answer).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "1. A: I saw that film. B: Oh, did you? When did you see it? A: I saw it six months ago.",
+            "answer": "I saw that film. / Oh, did you? When did you see it? / I saw it six months ago.",
+            "rows": 3,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "2. A: (she / wear a dress like that / a week ago)",
+            "answer": "She wore a dress like that.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "2. B: Oh, did she? When did she wear it?",
+            "answer": "Oh, did she? When did she wear it?",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "2. A: (answer with time)",
+            "answer": "She wore it a week ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "3. A: (John / go to Japan / three years ago)",
+            "answer": "John went to Japan.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "3. B: Oh, did he? When did he go?",
+            "answer": "Oh, did he? When did he go?",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-7",
+            "number": "7",
+            "prompt": "3. A: (answer with time)",
+            "answer": "He went three years ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-8",
+            "number": "8",
+            "prompt": "4. A: (I / lose my passport once / about five years ago)",
+            "answer": "I lost my passport once.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-9",
+            "number": "9",
+            "prompt": "4. B: Oh, did you? When did you lose it?",
+            "answer": "Oh, did you? When did you lose it?",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-10",
+            "number": "10",
+            "prompt": "4. A: (answer with time)",
+            "answer": "I lost it about five years ago.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-076-practice.jpg",
+        "title": "B — About you (personal questions with 'ago')",
+        "instruction": "Write true answers to these questions. Try to use the word ago in your answers. 回答以下问题，争取使用 ago。",
+        "translation": "Answer each question truthfully, using the word 'ago' where possible.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "1. How long ago did you start school?",
+            "answer": "I started school about ten years ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2. When did you first go to the cinema?",
+            "answer": "I first went to the cinema two years ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "3. When did you first play a computer game?",
+            "answer": "I first played a computer game five years ago.",
+            "rows": 2
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "4. When did you last tidy your room?",
+            "answer": "I last tidied my room a week ago.",
+            "rows": 2
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=233",
+        "title": "I. Fill in the blanks with the past tense form of the verbs given. 用所给动词的过去式填空。",
+        "instruction": "Fill in the blanks with the past tense form of the verbs given. 用所给动词的过去式填空。\n\nThe children ______ (leave) home last Saturday morning at nine o'clock. The bus ______ (go) very slowly, so they ______ (arrive) at the beach at about nine thirty. Some of them ______ (jump) into the sea and ______ (swim) happily. Some ______ (make) a fire and some ______ (bring) some wood. They ______ (cook) some food and ______ (eat) it quickly. They also ______ (drink) cold drinks. Then some of them ______ (play) on the sand, and others ______ (sleep). At four o'clock they ______ (catch) a bus home.",
+        "translation": "Fill in each blank with the correct past-tense form of the verb in brackets.",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=507",
+        "context": "Answers are taken from the grammar key (PDF viewer page 507).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "The children ______ (leave) home last Saturday morning.",
+            "answer": "left",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "The bus ______ (go) very slowly.",
+            "answer": "went",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "so they ______ (arrive) at the beach at about nine thirty.",
+            "answer": "arrived",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "Some of them ______ (jump) into the sea",
+            "answer": "jumped",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "and ______ (swim) happily.",
+            "answer": "swam",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "Some ______ (make) a fire",
+            "answer": "made",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "and some ______ (bring) some wood.",
+            "answer": "brought",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "They ______ (cook) some food",
+            "answer": "cooked",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "and ______ (eat) it quickly.",
+            "answer": "ate",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "They also ______ (drink) cold drinks.",
+            "answer": "drank",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-11",
+            "number": "11",
+            "prompt": "Then some of them ______ (play) on the sand, and others ______ (sleep).",
+            "answer": "played",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-12",
+            "number": "12",
+            "prompt": "At four o'clock they ______ (catch) a bus home.",
+            "answer": "caught",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=233",
+        "title": "II. Complete the dialogues, using the cues given according to the example. 仿照例句用所给的词完成下列对话。",
+        "instruction": "Complete the dialogues, using the cues given according to the example. 仿照例句用所给的词完成下列对话。\n\n1. Did you buy a bike? → Yes, I did. When did you buy it? (last week) → I bought it last week. Did you buy a handbag, too? → No, I didn't.\n\n2. Did you play football?\n3. Did she go shopping?\n4. Did he talk to the shop assistant?\n5. Did they go to see a doctor?\n6. Did the postman come?",
+        "translation": "Complete each dialogue with appropriate past-tense answers, following the example pattern.",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=507",
+        "context": "Item 1 is a printed example (not editable). Items 2-6 each require three answers (short answer, full answer with time, short answer to follow-up). Key: PDF viewer page 507.",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. Did you buy a bike? → Yes, I did. When did you buy it? (last week) → I bought it last week. Did you buy a handbag, too? → No, I didn't.",
+            "answer": "Yes, I did. / I bought it last week. / No, I didn't.",
+            "rows": 3,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. Did you play football? → (short answer)",
+            "answer": "Yes, I did.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "When did you play? (yesterday afternoon)",
+            "answer": "I played yesterday afternoon.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "Did you play hockey, too? → (short answer)",
+            "answer": "No, I didn't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "3. Did she go shopping? → (short answer)",
+            "answer": "Yes, she did.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "When did she go shopping? (three days ago)",
+            "answer": "She went shopping three days ago.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "Did her husband go shopping with her? → (short answer)",
+            "answer": "No, he didn't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "4. Did he talk to the shop assistant? → (short answer)",
+            "answer": "Yes, he did.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "When did he talk to the shop assistant? (the day before yesterday)",
+            "answer": "He talked to the shop assistant the day before yesterday.",
+            "rows": 2
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "Did he talk to the manager, too? → (short answer)",
+            "answer": "No, he didn't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-11",
+            "number": "11",
+            "prompt": "5. Did they go to see a doctor? → (short answer)",
+            "answer": "Yes, they did.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-12",
+            "number": "12",
+            "prompt": "When did they go to see a doctor? (a week ago)",
+            "answer": "They went to see a doctor a week ago.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-13",
+            "number": "13",
+            "prompt": "Did they see a nurse, too? → (short answer)",
+            "answer": "No, they didn't.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-14",
+            "number": "14",
+            "prompt": "6. Did the postman come? → (short answer)",
+            "answer": "Yes, he did.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-15",
+            "number": "15",
+            "prompt": "When did he come? (at seven this morning)",
+            "answer": "He came at seven this morning.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-16",
+            "number": "16",
+            "prompt": "Did the milkman come, too? → (short answer)",
+            "answer": "No, he didn't.",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Lesson 76 textbook — listening, time phrases, and illustrations (p. 155)",
+      "href": "../img/lesson-076-01-text.jpg"
+    },
+    {
+      "label": "Lesson 76 textbook — written exercises (p. 156)",
+      "href": "../img/lesson-076-02-text.jpg"
+    },
+    {
+      "label": "Lesson 76 workbook practice scan",
+      "href": "../img/lesson-076-practice.jpg"
+    },
+    {
+      "label": "Lessons 75-80 workbook answer key scan",
+      "href": "../img/key-075-080.jpg"
+    },
+    {
+      "label": "Lesson 76 grammar exercises (pp. 233-234)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=233"
+    },
+    {
+      "label": "Lesson 76 grammar answer key (p. 507)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=507"
+    }
+  ],
+  "characters": {},
+  "images": {
+    "lesson-076-pic-109": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man looks at a framed photograph.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-109.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-110": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A cat jumps off a brick wall.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-110.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-111": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A boy walks across a park with trees.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-111.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-112": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A boy washes his hands at a sink.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-112.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-113": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man works at a desk in an office with filing cabinets.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-113.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-114": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A girl asks a question, raising her hand.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-114.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-115": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man types letters at a typewriter.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-115.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-116": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man and a woman watch television.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-116.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-117": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man talks to a salesman at a counter.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-117.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-118": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A girl thanks her father, who holds flowers.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-118.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-119": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A woman dusts a cupboard.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-119.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-120": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man paints a bookcase with a brush.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-120.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-121": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Two people wait at a bus stop.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-121.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-122": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A boy looks at a car in a show room and wants one like that.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-122.jpg",
+      "width": 270,
+      "height": 190
+    },
+    "lesson-076-pic-123": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A boy greets a girl who waves back.",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-076-01-text.jpg",
+      "source_size": [
+        1557,
+        2500
+      ],
+      "src": "assets/lesson-076/pic-123.jpg",
+      "width": 270,
+      "height": 190
+    }
+  }
+}
