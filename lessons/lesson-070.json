@@ -1,0 +1,246 @@
+{
+  "number": 70,
+  "status": "verified",
+  "title": "When were they there?",
+  "translation": "他们是什么时候在那里的？",
+  "description": "A bilingual lesson built around 18 dated illustrations in three rows — days of the week (stationer's, greengrocer, hairdresser, butcher, grocer, dairy), dates (church, school, the office, the baker's, home, the butcher's) and months (Australia, Austria, Canada, China, Denmark, Finland) — that practise 'When were they there?' with at/on/in. Includes workbook time- and place-classification with at/on/in and was/wasn't/were/weren't dialogues, plus grammar on there was/were questions and preposition fill-ins. 以三行共18幅带日期插图为主的双语课——星期（文具店、蔬果店、理发店、肉铺、杂货店、乳品店）、日期（教堂、学校、办公室、面包店、家、肉铺）和月份（澳大利亚、奥地利、加拿大、中国、丹麦、芬兰）——练习 at/on/in 的「他们什么时候在那里？」句型。配合教材时间/地点分类（at/on/in）和 was/wasn't/were/weren't 对话练习，以及 there was/were 问句和介词填空的语法练习。",
+  "answer_note": "Workbook A (time and place classification) answers are taken from the supplied Lesson 70 key (img/key-067-072.jpg). Workbook B (structure dialogues) item 1 is a printed example; the remaining answers follow the printed example pattern and the given cues and are labelled suggested. Textbook written-exercise A answers are constructed from standard English usage and the printed example and labelled suggested; written-exercise B follows the two printed examples and is labelled suggested. Grammar I and II answers are taken from the supplied Lesson 70 grammar key (PDF viewer page 501); items marked as printed examples are not editable. No external sources were used.",
+  "expected_answers": 39,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=139",
+        "text": "Listen and answer the questions.\n听录音并回答问题。\n\nWhen were they there? 他们是什么时候在那里的？",
+        "translation": "Listen and answer the questions. When were they there?"
+      },
+      {
+        "id": "lesson-row-days",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=139",
+        "image": "lesson-070-row-days",
+        "text": "ON (days of the week)\nMonday — the stationer's\nTuesday — the greengrocer's\nWednesday — the hairdresser's\nThursday — the butcher's\nFriday — the grocer's\nSaturday — the dairy",
+        "translation": "ON（星期）\n星期一——文具店\n星期二——蔬果店\n星期三——理发店\n星期四——肉铺\n星期五——杂货店\n星期六——乳品店"
+      },
+      {
+        "id": "lesson-row-dates",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=139",
+        "image": "lesson-070-row-dates",
+        "text": "ON (dates)\nJan. 21st — church\nFeb. 22nd — school\nMarch 23rd — the office\nApril 24th — the baker's\nMay 25th — home\nJune 26th — the butcher's",
+        "translation": "ON（日期）\n1月21日——教堂\n2月22日——学校\n3月23日——办公室\n4月24日——面包店\n5月25日——家\n6月26日——肉铺"
+      },
+      {
+        "id": "lesson-row-months",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=139",
+        "image": "lesson-070-row-months",
+        "text": "IN (months)\nJuly — Australia\nAugust — Austria\nSeptember — Canada\nOctober — China\nNovember — Denmark\nDecember — Finland",
+        "translation": "IN（月份）\n七月——澳大利亚\n八月——奥地利\n九月——加拿大\n十月——中国\n十一月——丹麦\n十二月——芬兰"
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=140",
+        "items": [
+          {"word": "stationer", "ipa": "/ˈsteɪʃənə/", "pos": "n.", "meaning": "文具商"},
+          {"word": "Denmark", "ipa": "/ˈdenmɑːk/", "pos": "n.", "meaning": "丹麦"}
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=140",
+        "title": "Written exercise A Complete these sentences using at, on or in.",
+        "instruction": "Complete these sentences using at, on or in. 完成以下句子，用适当的介词填空。",
+        "translation": "Fill in each blank with at, on or in.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "No official key is supplied; answers are constructed from standard English usage (at + time/clock, on + day/date, in + month/season/year/country) and labelled suggested.",
+        "questions": [
+          {"id": "lesson-written-a-1", "number": "1", "prompt": "We were ______ the stationer's ______ Monday.", "answer": "at\non", "rows": 2},
+          {"id": "lesson-written-a-2", "number": "2", "prompt": "We were there ______ four o'clock.", "answer": "at", "rows": 1},
+          {"id": "lesson-written-a-3", "number": "3", "prompt": "They were ______ Australia ______ September.", "answer": "in\nin", "rows": 2},
+          {"id": "lesson-written-a-4", "number": "4", "prompt": "They were there ______ spring.", "answer": "in", "rows": 1},
+          {"id": "lesson-written-a-5", "number": "5", "prompt": "______ November 25th, they were ______ Canada.", "answer": "On\nin", "rows": 2},
+          {"id": "lesson-written-a-6", "number": "6", "prompt": "They were there ______ 1990.", "answer": "in", "rows": 1}
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=140",
+        "title": "Written exercise B Write questions and answers using we/they and at/in/on.",
+        "instruction": "Write questions and answers using we/they and at/in/on. 模仿例句提问并回答，选用 we 或 they 作主语，介词可选用 at, in 或 on。",
+        "translation": "Write a question and a full answer for each set of cues, following the printed examples.",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "The two printed examples (Sam and Penny/the stationer's/Monday → Where were Sam and Penny on Monday? They were at the stationer's on Monday.; you and Penny/Australia/July → Where were you and Penny in July? We were in Australia in July.) are not editable. Items 1-8 follow the same pattern; the question and answer are each one field.",
+        "questions": [
+          {"id": "lesson-written-b-0", "number": "Example 1", "prompt": "Sam and Penny/the stationer's/Monday", "answer": "Where were Sam and Penny on Monday?\nThey were at the stationer's on Monday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "lesson-written-b-0b", "number": "Example 2", "prompt": "you and Penny/Australia/July", "answer": "Where were you and Penny in July?\nWe were in Australia in July.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "lesson-written-b-1", "number": "1", "prompt": "you and Susan/the office/March 23rd", "answer": "Where were you and Susan on March 23rd?\nWe were in the office on March 23rd.", "rows": 2},
+          {"id": "lesson-written-b-2", "number": "2", "prompt": "Sam and Penny/India/1986", "answer": "Where were Sam and Penny in 1986?\nThey were in India in 1986.", "rows": 2},
+          {"id": "lesson-written-b-3", "number": "3", "prompt": "you and Penny/the baker's/Saturday", "answer": "Where were you and Penny on Saturday?\nWe were at the baker's on Saturday.", "rows": 2},
+          {"id": "lesson-written-b-4", "number": "4", "prompt": "Sam and Penny/Canada/1993", "answer": "Where were Sam and Penny in 1993?\nThey were in Canada in 1993.", "rows": 2},
+          {"id": "lesson-written-b-5", "number": "5", "prompt": "you and Penny/Austria/August", "answer": "Where were you and Penny in August?\nWe were in Austria in August.", "rows": 2},
+          {"id": "lesson-written-b-6", "number": "6", "prompt": "Sam and Penny/home/May 25th", "answer": "Where were Sam and Penny on May 25th?\nThey were at home on May 25th.", "rows": 2},
+          {"id": "lesson-written-b-7", "number": "7", "prompt": "you and Penny/Finland/December", "answer": "Where were you and Penny in December?\nWe were in Finland in December.", "rows": 2},
+          {"id": "lesson-written-b-8", "number": "8", "prompt": "you and Sam/school/February 22nd", "answer": "Where were you and Sam on February 22nd?\nWe were at school on February 22nd.", "rows": 2}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a-time",
+        "type": "exercise",
+        "source": "../img/lesson-070-practice.jpg",
+        "title": "A Prepositions of time and place — 1 (times)",
+        "instruction": "Put these times (days, months, dates, years) in the correct box with on or in. 将下列表示时间的词和短语列入正确的介词栏目中。",
+        "translation": "Classify each time expression under 'on' or 'in'.",
+        "expected_items": 1,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-067-072.jpg",
+        "context": "The word bank is: November 1989, August 1st, July 1st, October 26th, January, Wednesday, 1989, Tuesday, June, September, 1952, Saturday 1975, February 16th. The key lists: on → July 1st, October 26th, Saturday, February 16th, Tuesday, January; in → August, January, 1975, June, September, 1952. Each box is one answer field.",
+        "questions": [
+          {"id": "practice-a-time-1", "number": "1", "prompt": "Put each time expression in the correct box: on / in.", "answer": "on: July 1st, October 26th, Saturday, February 16th, Tuesday, January\nin: August, January, 1975, June, September, 1952", "rows": 3}
+        ]
+      },
+      {
+        "id": "practice-a-place",
+        "type": "exercise",
+        "source": "../img/lesson-070-practice.jpg",
+        "title": "A Prepositions of time and place — 2 (places)",
+        "instruction": "Put these places (countries, shops, etc.) in the correct box with at or in. 将下列表示地点的词和短语列入正确的介词栏目中。",
+        "translation": "Classify each place under 'at' or 'in'.",
+        "expected_items": 1,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-067-072.jpg",
+        "context": "The word bank is: Australia, home, the baker's, China, the dairy, Canada, the hairdresser's, India, the greengrocer's, France, the office, the butcher's, Turkey, Japan. The key lists: at → the baker's, the dairy, the hairdresser's, the greengrocer's, church, the office, the butcher's, home, the stationer's; in → China, Canada, India, France, Turkey, Japan.",
+        "questions": [
+          {"id": "practice-a-place-1", "number": "2", "prompt": "Put each place in the correct box: at / in.", "answer": "at: the baker's, the dairy, the hairdresser's, the greengrocer's, the office, the butcher's, home, the stationer's\nin: China, Canada, India, France, Turkey, Japan, Australia", "rows": 3}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-070-practice.jpg",
+        "title": "B Structure",
+        "instruction": "Write dialogues like the example. Use was, wasn't, were or weren't. 仿照例句完成以下对话，使用 was, wasn't, were 或 weren't。",
+        "translation": "Write a question and a full answer for each set of cues, following the printed example.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Item 1 is a printed example and is not editable. The remaining items follow the same pattern; the question and answer are each one field. No official key is supplied; answers are constructed from the printed example and the given cues and labelled suggested.",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "Sam / Monday / church?", "answer": "Where was Sam on Monday? Was he at church?", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-b-2", "number": "2", "prompt": "your father / 1996 / England?", "answer": "Where was your father in 1996? Was he in England?", "rows": 1},
+          {"id": "practice-b-3", "number": "3", "prompt": "you / March 1st / school?", "answer": "Where were you on March 1st? Were you at school?", "rows": 1},
+          {"id": "practice-b-4", "number": "4", "prompt": "they / November / Austria?", "answer": "Where were they in November? Were they in Austria?", "rows": 1},
+          {"id": "practice-b-5", "number": "5", "prompt": "Jill / Wednesday / the office?", "answer": "Where was Jill on Wednesday? Was she at the office?", "rows": 1},
+          {"id": "practice-b-6", "number": "6", "prompt": "Mr. and Mrs. Johnson / the weekend / home?", "answer": "Where were Mr. and Mrs. Johnson at the weekend? Were they at home?", "rows": 1}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=214",
+        "title": "I. Answer the questions according to the examples. 仿照例句回答下列问题。",
+        "instruction": "Answer the questions according to the examples. 仿照例句回答下列问题。",
+        "translation": "Answer each there-was/were question with a short answer and a full sentence, following the printed examples.",
+        "expected_items": 14,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501",
+        "context": "Items 1a, 1b, 2a and 2b are printed examples and are not editable.",
+        "questions": [
+          {"id": "grammar-i-1a", "number": "1.a", "prompt": "Were there any apples at the greengrocer's on Saturday? (yes)", "answer": "Yes, there were. There were some apples there on Saturday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-1b", "number": "1.b", "prompt": "Were there any oranges at the greengrocer's on Sunday? (no)", "answer": "No, there weren't. There weren't any oranges there on Sunday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-1c", "number": "1.c", "prompt": "Were there any people in the building on July 11th? (yes)", "answer": "Yes, there were. There were some people there on July 11th.", "rows": 2},
+          {"id": "grammar-i-1d", "number": "1.d", "prompt": "Were there any boys in the room on Wednesday? (no)", "answer": "No, there weren't. There weren't any boys there on Wednesday.", "rows": 2},
+          {"id": "grammar-i-1e", "number": "1.e", "prompt": "Were there any tins in the cupboard on Saturday? (no)", "answer": "No, there weren't. There weren't any tins there on Saturday.", "rows": 2},
+          {"id": "grammar-i-1f", "number": "1.f", "prompt": "Were there any students at school on June 1st? (yes)", "answer": "Yes, there were. There were some students there on June 1st.", "rows": 2},
+          {"id": "grammar-i-1g", "number": "1.g", "prompt": "Were there any good cars in the race on June 30th? (yes)", "answer": "Yes, there were. There were some good cars there on June 30th.", "rows": 2},
+          {"id": "grammar-i-2a", "number": "2.a", "prompt": "Was there any sugar in the packet on Tuesday? (yes)", "answer": "Yes, there was. There was some sugar in the packet on Tuesday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2b", "number": "2.b", "prompt": "Was there any mince at the butcher's on Friday? (no)", "answer": "No, there wasn't. There wasn't any mince at the butcher's on Friday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2c", "number": "2.c", "prompt": "Was there any butter in the refrigerator last week? (yes)", "answer": "Yes, there was. There was some butter in the refrigerator last week.", "rows": 2},
+          {"id": "grammar-i-2d", "number": "2.d", "prompt": "Was there any tea at the grocer's on Monday? (no)", "answer": "No, there wasn't. There wasn't any tea at the grocer's on Monday.", "rows": 2},
+          {"id": "grammar-i-2e", "number": "2.e", "prompt": "Was there any milk at the dairy on Thursday? (yes)", "answer": "Yes, there was. There was some milk at the dairy on Thursday.", "rows": 2},
+          {"id": "grammar-i-2f", "number": "2.f", "prompt": "Was there any soap in the bathroom on Sunday? (yes)", "answer": "Yes, there was. There was some soap in the bathroom on Sunday.", "rows": 2},
+          {"id": "grammar-i-2g", "number": "2.g", "prompt": "Was there any writing paper and ink at the stationer's on Tuesday? (no)", "answer": "No, there wasn't. There wasn't any writing paper and ink at the stationer's on Tuesday.", "rows": 2}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=215",
+        "title": "II. Add an appropriate preposition to each answer. 用适合的介词填空。",
+        "instruction": "Add an appropriate preposition to each answer. 用适合的介词填空。",
+        "translation": "Fill in each blank with the appropriate preposition.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501",
+        "context": "",
+        "questions": [
+          {"id": "grammar-ii-1", "number": "1", "prompt": "Where is Sally? ______ the garden.", "answer": "In", "rows": 1},
+          {"id": "grammar-ii-2", "number": "2", "prompt": "Where is my book? ______ the desk.", "answer": "On", "rows": 1},
+          {"id": "grammar-ii-3", "number": "3", "prompt": "When is he going to arrive home? ______ six o'clock.", "answer": "At", "rows": 1},
+          {"id": "grammar-ii-4", "number": "4", "prompt": "How do you go to work every day? ______ bus.", "answer": "By", "rows": 1},
+          {"id": "grammar-ii-5", "number": "5", "prompt": "Where is Tony sitting? ______ the left of Dave.", "answer": "On", "rows": 1},
+          {"id": "grammar-ii-6", "number": "6", "prompt": "Where is Fred? ______ the park.", "answer": "In", "rows": 1},
+          {"id": "grammar-ii-7", "number": "7", "prompt": "When do you usually go to bed? ______ midnight.", "answer": "At", "rows": 1},
+          {"id": "grammar-ii-8", "number": "8", "prompt": "When are you going to fly to Australia? ______ May 6th.", "answer": "On", "rows": 1}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 70 textbook main text and illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=139"},
+    {"label": "Lesson 70 textbook vocabulary and written exercises", "href": "../pdf/新概念英语1 英语初阶.pdf#page=140"},
+    {"label": "Lesson 70 workbook practice scan", "href": "../img/lesson-070-practice.jpg"},
+    {"label": "Lessons 67-72 workbook answer key scan", "href": "../img/key-067-072.jpg"},
+    {"label": "Lesson 70 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=214"},
+    {"label": "Lesson 70 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=215"},
+    {"label": "Lesson 70 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501"}
+  ],
+  "characters": {},
+  "images": {
+    "lesson-070-row-days": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Six dated shop illustrations in a row: the stationer's (Monday), the greengrocer's (Tuesday), the hairdresser's (Wednesday), the butcher's (Thursday), the grocer's (Friday) and the dairy (Saturday).",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-070-01-text.jpg",
+      "source_size": [2471, 2500],
+      "src": "assets/lesson-070/row-days.jpg",
+      "width": 2471,
+      "height": 640
+    },
+    "lesson-070-row-dates": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Six dated illustrations in a row: church (Jan. 21st), school (Feb. 22nd), the office (March 23rd), the baker's (April 24th), home (May 25th) and the butcher's (June 26th).",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-070-01-text.jpg",
+      "source_size": [2471, 2500],
+      "src": "assets/lesson-070/row-dates.jpg",
+      "width": 2471,
+      "height": 660
+    },
+    "lesson-070-row-months": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Six country-map illustrations in a row: Australia (July), Austria (August), Canada (September), China (October), Denmark (November) and Finland (December).",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-070-01-text.jpg",
+      "source_size": [2471, 2500],
+      "src": "assets/lesson-070/row-months.jpg",
+      "width": 2471,
+      "height": 670
+    }
+  }
+}
