@@ -1,0 +1,256 @@
+{
+  "number": 72,
+  "status": "verified",
+  "title": "When did you ...?",
+  "translation": "你什么时候……？",
+  "description": "A bilingual lesson built around 15 past-tense verb illustrations (aired, cleaned, opened, sharpened, turned on, listened, boiled, arrived, played, stayed, shaved, climbed, telephoned, called, emptied) in three rows and a time-phrase reference table (TODAY / YESTERDAY / THE DAY BEFORE YESTERDAY), practising 'When did you ...?' with regular verbs in the simple past. Includes textbook written exercises on completing sentences and writing questions and answers, workbook dialogues with regular past verbs and situations, and grammar on answering 'When did ...?' questions and completing dialogues. 以15幅过去时动词插图（ aired、cleaned、opened、sharpened、turned on、listened、boiled、arrived、played、stayed、shaved、climbed、telephoned、called、emptied）和三行时间短语对照表（今天/昨天/前天）为主的双语课，练习规则动词一般过去时的「你什么时候……？」句型。配合教材书面练习（完成句子、提问并回答）、教材填空对话与情景练习，以及「何时……？」问句回答和完成对话的语法练习。",
+  "answer_note": "Textbook written-exercise A (complete sentences) item 1 is a printed example; the remaining answers follow the printed example pattern and the given cues and are labelled suggested. Textbook written-exercise B (write questions and answers) item 1 is a printed example; the remaining answers follow the printed example pattern and the given cues and are labelled suggested. Workbook A (dialogues) item 1 is a printed example; items 2–5 are taken from the supplied Lesson 72 key (img/key-067-072.jpg and img/key-072-075.jpg). Workbook B (situations) answers are taken from the supplied Lesson 72 key (img/key-072-075.jpg). Grammar I item 1 is a printed example; items 2–8 are taken from the supplied Lesson 72 grammar key (PDF viewer page 503). Grammar II item 1 is a printed example; items 2–8 are taken from the supplied Lesson 72 grammar key (PDF viewer page 503). No external sources were used.",
+  "expected_answers": 34,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "text": "Listen and answer the questions.\n听录音并回答问题。\n\nWhen did you ...? 你什么时候……？",
+        "translation": "Listen and answer the questions. When did you ...?"
+      },
+      {
+        "id": "lesson-time-table",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "text": "TODAY: this morning, this afternoon, this evening, tonight\nYESTERDAY: yesterday morning, yesterday afternoon, yesterday evening, last night\nTHE DAY BEFORE YESTERDAY: the day before yesterday in the morning, the day before yesterday in the afternoon, the day before yesterday in the evening, the night before last",
+        "translation": "今天：今天上午、今天下午、今天晚上、今晚\n昨天：昨天上午、昨天下午、昨天晚上、昨夜\n前天：前天上午、前天下午、前天晚上、前天夜里"
+      },
+      {
+        "id": "lesson-verbs-row1",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "image": "lesson-072-verbs-row1",
+        "text": "1st: aired  2nd: cleaned  3rd: opened  4th: sharpened  5th: turned on",
+        "translation": "第1幅：通风  第2幅：打扫  第3幅：打开  第4幅：削尖  第5幅：打开（电器）"
+      },
+      {
+        "id": "lesson-verbs-row2",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "image": "lesson-072-verbs-row2",
+        "text": "6th: listened  7th: boiled  8th: arrived  9th: played  10th: stayed",
+        "translation": "第6幅：听  第7幅：煮  第8幅：到达  第9幅：玩耍  第10幅：待着"
+      },
+      {
+        "id": "lesson-verbs-row3",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "image": "lesson-072-verbs-row3",
+        "text": "11th: shaved  12th: climbed  13th: telephoned  14th: called  15th: emptied",
+        "translation": "第11幅：刮胡子  第12幅：攀爬  第13幅：打电话  第14幅：叫（人）  第15幅：倒空"
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "items": [
+          {"word": "air", "ipa": "/eə/", "pos": "v.", "meaning": "给……通风"},
+          {"word": "clean", "ipa": "/kliːn/", "pos": "v.", "meaning": "打扫, 弄干净"},
+          {"word": "open", "ipa": "/ˈəʊpən/", "pos": "v.", "meaning": "打开"},
+          {"word": "sharpen", "ipa": "/ˈʃɑːpn/", "pos": "v.", "meaning": "削尖, 磨快"},
+          {"word": "turn on", "ipa": "/tɜːn ɒn/", "pos": "phr. v.", "meaning": "打开（电器）"},
+          {"word": "listen", "ipa": "/ˈlɪsən/", "pos": "v.", "meaning": "听"},
+          {"word": "boil", "ipa": "/bɔɪl/", "pos": "v.", "meaning": "煮沸, 烧开水"},
+          {"word": "arrive", "ipa": "/əˈraɪv/", "pos": "v.", "meaning": "到达"},
+          {"word": "play", "ipa": "/pleɪ/", "pos": "v.", "meaning": "玩, 做（游戏）"},
+          {"word": "stay", "ipa": "/steɪ/", "pos": "v.", "meaning": "停留, 待"},
+          {"word": "shave", "ipa": "/ʃeɪv/", "pos": "v.", "meaning": "刮（胡子）"},
+          {"word": "climb", "ipa": "/klaɪm/", "pos": "v.", "meaning": "攀爬, 爬"},
+          {"word": "telephone", "ipa": "/ˈtelɪfəʊn/", "pos": "v.", "meaning": "打电话给"},
+          {"word": "call", "ipa": "/kɔːl/", "pos": "v.", "meaning": "叫, 唤"},
+          {"word": "empty", "ipa": "/ˈempti/", "pos": "v.", "meaning": "倒空, 清空"}
+        ]
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
+        "items": [
+          {"title": "一般过去时的时间短语", "text": "本课的时间短语分为三组：今天（TODAY）：this morning, this afternoon, this evening, tonight；昨天（YESTERDAY）：yesterday morning, yesterday afternoon, yesterday evening, last night；前天（THE DAY BEFORE YESTERDAY）：the day before yesterday in the morning/afternoon/evening, the night before last。"},
+          {"title": "规则动词的一般过去时", "text": "规则动词的过去式一般是在动词原形后加 ed，如 clean/cleaned, arrive/arrived, listen/listened, play/played, stay/stayed。以不发音的 e 结尾的动词只加 d，如 open/opened, turn/turned。以辅音字母加 y 结尾的动词变 y 为 i 再加 ed，如 carry/carried。"}
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=144",
+        "title": "Written exercises A Complete these sentences. 模仿例句完成以下句子。",
+        "instruction": "Complete these sentences. 模仿例句完成以下句子。",
+        "translation": "Complete each sentence using the simple past form of the verb, following the printed example.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "Item 1 is a printed example and is not editable. The remaining items follow the same pattern (present continuous → simple past).",
+        "questions": [
+          {"id": "lesson-written-a-0", "number": "Example", "prompt": "She is airing the room now. She ______ it yesterday.", "answer": "aired", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "lesson-written-a-1", "number": "1", "prompt": "It is raining now. It ______ yesterday.", "answer": "rained", "rows": 1},
+          {"id": "lesson-written-a-2", "number": "2", "prompt": "It is snowing now. It ______ yesterday.", "answer": "snowed", "rows": 1},
+          {"id": "lesson-written-a-3", "number": "3", "prompt": "He is boiling some eggs. He ______ some yesterday.", "answer": "boiled", "rows": 1},
+          {"id": "lesson-written-a-4", "number": "4", "prompt": "We are enjoying our lunch. We ______ it yesterday, too.", "answer": "enjoyed", "rows": 1}
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=144",
+        "title": "Written exercises B Write questions and answers. 模仿例句提问并回答。",
+        "instruction": "Write questions and answers. 模仿例句提问并回答。",
+        "translation": "Write a question and a full answer for each set of cues, following the printed example.",
+        "expected_items": 11,
+        "answer_kind": "suggested",
+        "context": "The printed example (she/air the room/yesterday → What did she do yesterday? She aired the room yesterday.) is not editable. Items 1–10 follow the same pattern.",
+        "questions": [
+          {"id": "lesson-written-b-0", "number": "Example", "prompt": "she/air the room/yesterday", "answer": "What did she do yesterday?\nShe aired the room yesterday.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "lesson-written-b-1", "number": "1", "prompt": "they/clean their shoes/yesterday", "answer": "What did they do yesterday?\nThey cleaned their shoes yesterday.", "rows": 2},
+          {"id": "lesson-written-b-2", "number": "2", "prompt": "he/open the box/last night", "answer": "What did he do last night?\nHe opened the box last night.", "rows": 2},
+          {"id": "lesson-written-b-3", "number": "3", "prompt": "they/sharpen their pencils/this morning", "answer": "What did they do this morning?\nThey sharpened their pencils this morning.", "rows": 2},
+          {"id": "lesson-written-b-4", "number": "4", "prompt": "she/turn on the television/this evening", "answer": "What did she do this evening?\nShe turned on the television this evening.", "rows": 2},
+          {"id": "lesson-written-b-5", "number": "5", "prompt": "she/listen to the radio/last night", "answer": "What did she do last night?\nShe listened to the radio last night.", "rows": 2},
+          {"id": "lesson-written-b-6", "number": "6", "prompt": "she/boil an egg/yesterday morning", "answer": "What did she do yesterday morning?\nShe boiled an egg yesterday morning.", "rows": 2},
+          {"id": "lesson-written-b-7", "number": "7", "prompt": "they/play a game/yesterday afternoon", "answer": "What did they do yesterday afternoon?\nThey played a game yesterday afternoon.", "rows": 2},
+          {"id": "lesson-written-b-8", "number": "8", "prompt": "he/stay in bed/the day before yesterday/in the morning", "answer": "What did he do the day before yesterday in the morning?\nHe stayed in bed the day before yesterday in the morning.", "rows": 2},
+          {"id": "lesson-written-b-9", "number": "9", "prompt": "she/telephone her husband/yesterday evening", "answer": "What did she do yesterday evening?\nShe telephoned her husband yesterday evening.", "rows": 2},
+          {"id": "lesson-written-b-10", "number": "10", "prompt": "she/call the doctor/the night before last", "answer": "What did she do the night before last?\nShe called the doctor the night before last.", "rows": 2}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-072-practice.jpg",
+        "title": "A The simple past with regular verbs",
+        "instruction": "Now write dialogues like the example. Use the simple past tense. 仿照例句，用一般过去时完成以下对话。",
+        "translation": "Write a dialogue for each set of cues, following the printed example pattern.",
+        "expected_items": 5,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-072-075.jpg",
+        "context": "Item 1 is a printed example and is not editable. Items 2–5 are taken from the supplied Lesson 72 key (img/key-067-072.jpg and img/key-072-075.jpg).",
+        "questions": [
+          {"id": "practice-a-1", "number": "1", "prompt": "Sam / stay at home? yesterday? / the day before yesterday", "answer": "When did Sam stay at home? Was it yesterday?\nNo, he didn't stay at home yesterday. He stayed at home the day before yesterday.", "rows": 3, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-a-2", "number": "2", "prompt": "you / telephone Pauline? this morning? / last night", "answer": "When did you telephone Pauline? Was it this morning?\nNo, I didn't telephone her this morning. I telephoned her last night.", "rows": 3},
+          {"id": "practice-a-3", "number": "3", "prompt": "Jane / clean her room? Monday? / Saturday", "answer": "When did Jane clean her room? Was it Monday?\nNo, she didn't clean her room on Monday. She cleaned it on Saturday.", "rows": 3},
+          {"id": "practice-a-4", "number": "4", "prompt": "they / watch that film? last night? / the night before last", "answer": "When did they watch that film? Was it last night?\nNo, they didn't watch it last night. They watched it the night before last.", "rows": 3},
+          {"id": "practice-a-5", "number": "5", "prompt": "you / type those letters? this afternoon? / yesterday afternoon", "answer": "When did you type those letters? Was it this afternoon?\nNo, I didn't type them this afternoon. I typed them yesterday afternoon.", "rows": 3}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-072-practice.jpg",
+        "title": "B Situations",
+        "instruction": "What do you say in these situations? 根据以下情景写出你应该说的话。",
+        "translation": "Write what you would say in each situation.",
+        "expected_items": 2,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-072-075.jpg",
+        "context": "Answers are taken from the supplied Lesson 72 key (img/key-072-075.jpg).",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "You want to know about Jim's personality. What do you ask a friend about him?", "answer": "What's Jim like?", "rows": 1},
+          {"id": "practice-b-2", "number": "2", "prompt": "You are in a friend's car and he / she is driving fast. What do you say to him or her?", "answer": "Please don't drive so quickly.", "rows": 1}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=220",
+        "title": "I. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each 'When did ...?' question using the given cue, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=503",
+        "context": "Item 1 is a printed example and is not editable. Items 2–8 are taken from the supplied Lesson 72 grammar key (PDF viewer page 503).",
+        "questions": [
+          {"id": "grammar-i-1", "number": "1", "prompt": "When did you air your room? (yesterday morning)", "answer": "I aired my room yesterday morning.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2", "number": "2", "prompt": "When did the doctor call? (the day before yesterday)", "answer": "The doctor called the day before yesterday.", "rows": 1},
+          {"id": "grammar-i-3", "number": "3", "prompt": "When did she arrive home? (at nine fifty last night)", "answer": "She arrived home at nine fifty last night.", "rows": 1},
+          {"id": "grammar-i-4", "number": "4", "prompt": "When did you telephone him? (at three twenty-five yesterday afternoon)", "answer": "I telephoned him at three twenty-five yesterday afternoon.", "rows": 1},
+          {"id": "grammar-i-5", "number": "5", "prompt": "When did they play in the garden? (yesterday afternoon)", "answer": "They played in the garden yesterday afternoon.", "rows": 1},
+          {"id": "grammar-i-6", "number": "6", "prompt": "When did he paint the floor? (the day before yesterday)", "answer": "He painted the floor the day before yesterday.", "rows": 1},
+          {"id": "grammar-i-7", "number": "7", "prompt": "When did you enjoy yourselves? (the night before last)", "answer": "We enjoyed ourselves the night before last.", "rows": 1},
+          {"id": "grammar-i-8", "number": "8", "prompt": "When did she clean the kitchen? (the day before yesterday)", "answer": "She cleaned the kitchen the day before yesterday.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=220",
+        "title": "II. Complete the dialogues, using the cues given according to the example. 仿照例句用所给的词完成下列对话。",
+        "instruction": "Complete the dialogues, using the cues given according to the example. 仿照例句用所给的词完成下列对话。",
+        "translation": "Complete each dialogue using the given cues, following the printed example pattern.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=503",
+        "context": "Item 1 is a printed example and is not editable. Items 2–8 are taken from the supplied Lesson 72 grammar key (PDF viewer page 503). Each item has two lines: the first sentence and the 'What else did ...?' answer.",
+        "questions": [
+          {"id": "grammar-ii-1", "number": "1", "prompt": "Jack/paint/chairs / What else did he paint? (tables)", "answer": "Jack painted the chairs yesterday.\nHe painted the tables.", "rows": 2, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-ii-2", "number": "2", "prompt": "Mrs. Scott/clean/shelves / What else did she clean? (cooker)", "answer": "Mrs. Scott cleaned the shelves yesterday.\nShe cleaned the cooker.", "rows": 2},
+          {"id": "grammar-ii-3", "number": "3", "prompt": "I/dry/glasses / What else did you dry? (cups)", "answer": "I dried the glasses yesterday.\nI dried the cups.", "rows": 2},
+          {"id": "grammar-ii-4", "number": "4", "prompt": "they/play/football / What else did they play? (basketball)", "answer": "They played football yesterday.\nThey played basketball.", "rows": 2},
+          {"id": "grammar-ii-5", "number": "5", "prompt": "she/wash/her clothes / What else did she wash? (dishes)", "answer": "She washed her clothes yesterday.\nShe washed the dishes.", "rows": 2},
+          {"id": "grammar-ii-6", "number": "6", "prompt": "Mr. Martin/paint/door / What else did he paint? (windows)", "answer": "Mr. Martin painted the door yesterday.\nHe painted the windows.", "rows": 2},
+          {"id": "grammar-ii-7", "number": "7", "prompt": "Marie/dust/dressing table / What else did she dust? (cupboard)", "answer": "Marie dusted the dressing table yesterday.\nShe dusted the cupboard.", "rows": 2},
+          {"id": "grammar-ii-8", "number": "8", "prompt": "we/clean/classroom / What else did you clean? (blackboard)", "answer": "We cleaned the classroom yesterday.\nWe cleaned the blackboard.", "rows": 2}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 72 textbook main text and verb illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=143"},
+    {"label": "Lesson 72 textbook vocabulary and written exercises", "href": "../pdf/新概念英语1 英语初阶.pdf#page=144"},
+    {"label": "Lesson 72 workbook practice scan", "href": "../img/lesson-072-practice.jpg"},
+    {"label": "Lessons 67-72 workbook answer key scan", "href": "../img/key-067-072.jpg"},
+    {"label": "Lessons 72-75 workbook answer key scan", "href": "../img/key-072-075.jpg"},
+    {"label": "Lesson 72 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=220"},
+    {"label": "Lesson 72 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=221"},
+    {"label": "Lesson 72 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=503"}
+  ],
+  "characters": {},
+  "images": {
+    "lesson-072-verbs-row1": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Five past-tense verb illustrations in a row: 1st aired (woman opening a window), 2nd cleaned (two boys cleaning shoes), 3rd opened (man opening a box), 4th sharpened (boy sharpening a pencil), 5th turned on (woman turning on a television).",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-072-01-text.jpg",
+      "source_size": [1557, 2500],
+      "src": "assets/lesson-072/verbs-row1.jpg",
+      "width": 1520,
+      "height": 400
+    },
+    "lesson-072-verbs-row2": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Five past-tense verb illustrations in a row: 6th listened (girl listening to a radio), 7th boiled (woman boiling eggs), 8th arrived (woman arriving in a car), 9th played (two children playing with a ball), 10th stayed (child staying in bed).",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-072-01-text.jpg",
+      "source_size": [1557, 2500],
+      "src": "assets/lesson-072/verbs-row2.jpg",
+      "width": 1520,
+      "height": 370
+    },
+    "lesson-072-verbs-row3": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Five past-tense verb illustrations in a row: 11th shaved (man shaving his face), 12th climbed (boy climbing a tree), 13th telephoned (woman on the telephone), 14th called (woman calling a man at the door), 15th emptied (woman emptying a waste basket).",
+      "characters": [],
+      "origin": "textbook-crop",
+      "source": "../img/lesson-072-01-text.jpg",
+      "source_size": [1557, 2500],
+      "src": "assets/lesson-072/verbs-row3.jpg",
+      "width": 1520,
+      "height": 370
+    }
+  }
+}
