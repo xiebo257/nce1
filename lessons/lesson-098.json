@@ -1,0 +1,608 @@
+{
+  "number": 98,
+  "status": "verified",
+  "title": "Whose is it? Whose are they?",
+  "translation": "它是谁的？它们是谁的？",
+  "description": "A written-exercises lesson on possessive pronouns. Students listen and answer questions about a grid of 12 items (keys, envelope, clothes, passport, tickets, pocket watch, flowers, boat, phrase book, tools, car, pens). Written exercises include completing sentences with possessive pronouns ('belong to' -> 'it is his/hers/mine/ours/theirs'), and answering questions using the examples. Workbook practice covers writing dialogues with prompts ('Do they belong to you?'), writing exact times using minute/minutes, and situational language. Grammar exercises practise answering 'Whose is it?' and 'Whose are they?' questions using possessive pronouns (mine, yours, his, hers, ours, theirs), following printed examples.",
+  "answer_note": "Lesson written exercises A (complete sentences) 6 items: example printed; items 1-6 are suggested model answers based on the 'belong to' -> possessive pronoun pattern. Lesson written exercises B (answer questions) 6 items: 3 examples printed; items 4-6 are suggested. Practice A (write dialogues) 5 items: item 1 is a printed example; items 2-5 are suggested. Practice B (exact times) 3 items are suggested. Practice C (situations) 3 items are suggested. Grammar I (answer 'Whose is it/are they?') items 1a and 2a are printed examples; items 1b-h, 2b-h are taken from the supplied Lesson 98 grammar key (PDF viewer p. 529). Grammar II (answer questions) item 1 is a printed example; items 2-8 are taken from the supplied Lesson 98 grammar key (PDF viewer p. 529).",
+  "expected_answers": 52,
+  "sources": [
+    {
+      "label": "Lesson 98 textbook — listening and item grid (p. 199)",
+      "href": "../img/lesson-098-01-text.jpg"
+    },
+    {
+      "label": "Lesson 98 textbook — written exercises (p. 200)",
+      "href": "../img/lesson-098-02-text.jpg"
+    },
+    {
+      "label": "Lesson 98 workbook practice scan",
+      "href": "../img/lesson-098-practice.jpg"
+    },
+    {
+      "label": "Lessons 95-100 workbook answer key scan",
+      "href": "../img/key-095-100.jpg"
+    },
+    {
+      "label": "Lesson 98 grammar exercises (pp. 297-299)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=297"
+    }
+  ],
+  "characters": {},
+  "images": {
+    "lesson-098-items": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "A grid of 12 numbered items: 1 keys, 2 envelope, 3 clothes (trousers, dress, coat), 4 passport, 5 tickets, 6 pocket watch, 7 flowers, 8 boat, 9 phrase book, 10 tools (saw, hammer), 11 car, 12 pens.",
+      "characters": [],
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/items-grid.jpg",
+      "width": 1600,
+      "height": 1450
+    }
+  },
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。",
+        "translation": "Listen to the recording and answer the questions about each item."
+      },
+      {
+        "id": "lesson-items",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "text": "1 keys  2 envelope  3 clothes  4 passport  5 tickets  6 pocket watch\n7 flowers  8 boat  9 phrase book  10 tools  11 car  12 pens",
+        "translation": "1 钥匙  2 信封  3 衣服  4 护照  5 票  6 怀表  7 花  8 船  9 短语书  10 工具  11 汽车  12 钢笔",
+        "image": "lesson-098-items"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-098-01-text.jpg",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen and answer the questions. 听录音并回答问题。\n\nAnswer each question: Whose is it? / Whose are they?",
+        "translation": "Listen to the recording and answer: Whose is it? / Whose are they?",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "context": "12 items. Answers are suggested based on the listening script; the key does not print specific answers for this lesson's listening.",
+        "questions": [
+          {
+            "id": "lesson-listening-1",
+            "number": "1",
+            "prompt": "keys",
+            "answer": "They are mine. They belong to me.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-2",
+            "number": "2",
+            "prompt": "envelope",
+            "answer": "It is hers. It belongs to her.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-3",
+            "number": "3",
+            "prompt": "clothes",
+            "answer": "They are theirs. They belong to them.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-4",
+            "number": "4",
+            "prompt": "passport",
+            "answer": "It is his. It belongs to him.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-5",
+            "number": "5",
+            "prompt": "tickets",
+            "answer": "They are ours. They belong to us.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-6",
+            "number": "6",
+            "prompt": "pocket watch",
+            "answer": "It is his. It belongs to him.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-7",
+            "number": "7",
+            "prompt": "flowers",
+            "answer": "They are hers. They belong to her.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-8",
+            "number": "8",
+            "prompt": "boat",
+            "answer": "It is theirs. It belongs to them.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-9",
+            "number": "9",
+            "prompt": "phrase book",
+            "answer": "It is mine. It belongs to me.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-10",
+            "number": "10",
+            "prompt": "tools",
+            "answer": "They are his. They belong to him.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-11",
+            "number": "11",
+            "prompt": "car",
+            "answer": "It is ours. It belongs to us.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-listening-12",
+            "number": "12",
+            "prompt": "pens",
+            "answer": "They are yours. They belong to you.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "../img/lesson-098-02-text.jpg",
+        "title": "A — Complete these sentences",
+        "instruction": "Complete these sentences. 模仿例句完成以下句子，选用适当的所有格代词。\n\nExample:\nThis dress belongs to my sister. It is hers.",
+        "translation": "Complete each sentence with the correct possessive pronoun, following the example.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "6 items. The example is printed. Items 1-6 are suggested model answers based on the 'belong to' -> possessive pronoun pattern.",
+        "questions": [
+          {
+            "id": "lesson-written-a-1",
+            "number": "1",
+            "prompt": "These things belong to my husband. They ______.",
+            "answer": "are his. They belong to him.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-2",
+            "number": "2",
+            "prompt": "This coat belongs to me. It ______.",
+            "answer": "is mine. It belongs to me.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-3",
+            "number": "3",
+            "prompt": "These shoes belong to my wife. They ______.",
+            "answer": "are hers. They belong to her.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-4",
+            "number": "4",
+            "prompt": "These books belong to my brother and me. They ______.",
+            "answer": "are ours. They belong to us.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-5",
+            "number": "5",
+            "prompt": "These pens belong to Tom and Jill. The pens ______.",
+            "answer": "are theirs. They belong to them.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-6",
+            "number": "6",
+            "prompt": "This suitcase belongs to you. It ______.",
+            "answer": "is yours. It belongs to you.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "../img/lesson-098-02-text.jpg",
+        "title": "B — Answer these questions",
+        "instruction": "Answer these questions. 模仿例句回答以下问题。\n\nExamples:\nAre these your keys? Yes, they're mine. They belong to me.\nIs this John's letter? Yes, it's his. It belongs to him.\nAre these my clothes? Yes, they're yours. They belong to you.",
+        "translation": "Answer each question using a possessive pronoun and 'belong to', following the examples.",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "6 items. 3 examples are printed (not editable). Items 4-6 are suggested model answers.",
+        "questions": [
+          {
+            "id": "lesson-written-b-1",
+            "number": "1",
+            "prompt": "Are these your keys?",
+            "answer": "Yes, they're mine. They belong to me.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-b-2",
+            "number": "2",
+            "prompt": "Is this John's letter?",
+            "answer": "Yes, it's his. It belongs to him.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-b-3",
+            "number": "3",
+            "prompt": "Are these my clothes?",
+            "answer": "Yes, they're yours. They belong to you.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-b-4",
+            "number": "4",
+            "prompt": "Is this her bag?",
+            "answer": "Yes, it's hers. It belongs to her.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-5",
+            "number": "5",
+            "prompt": "Are these our tickets?",
+            "answer": "Yes, they're ours. They belong to us.",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-b-6",
+            "number": "6",
+            "prompt": "Is this his car?",
+            "answer": "No, it isn't his. It's theirs. It belongs to them.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — Do they belong to you?",
+        "instruction": "Write dialogues with the prompts. 按照提示完成以下对话。",
+        "translation": "Write a dialogue for each set of prompts, following the example.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "5 items. Item 1 is a printed example (not editable). Items 2-5 are suggested model answers based on the dialogue pattern.",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "these keys / belong / you?  No / not mine / yours",
+            "answer": "Do these keys belong to you? No, they aren't mine. I think they're yours.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "that suitcase / belong / her?  No / not hers / his",
+            "answer": "Does that suitcase belong to her? No, it isn't hers. I think it's his.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "these pencils / belong / us?  No / not ours / theirs",
+            "answer": "Do these pencils belong to us? No, they aren't ours. I think they're theirs.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "these tickets / belong / them?  No / not theirs / ours",
+            "answer": "Do these tickets belong to them? No, they aren't theirs. I think they're ours.",
+            "rows": 2
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "this book / belong / you?  No / not mine / John's",
+            "answer": "Does this book belong to you? No, it isn't mine. I think it's John's.",
+            "rows": 2
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — What's the exact time?",
+        "instruction": "Write the exact times under these clocks using the word minute or minutes. 写出时钟上所示的准确时间，使用 minute 或 minutes。",
+        "translation": "Write the exact time shown on each clock using 'minute' or 'minutes'.",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "3 items. Answers are suggested based on the clock times shown in the workbook.",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "10:16",
+            "answer": "sixteen minutes past ten",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "2:59",
+            "answer": "one minute to three",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "7:11",
+            "answer": "eleven minutes past seven",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "title": "C — Situations",
+        "instruction": "What do you say in these situations? 根据以下情景写出你应该说的话。",
+        "translation": "Write what you would say in each situation.",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "3 items. Answers are suggested model responses based on the situations.",
+        "questions": [
+          {
+            "id": "practice-c-1",
+            "number": "1",
+            "prompt": "You think you have found a watch that a friend lost. How do you ask him/her to describe it?",
+            "answer": "Can you describe it? Is it a small silver watch with a black strap?",
+            "rows": 1
+          },
+          {
+            "id": "practice-c-2",
+            "number": "2",
+            "prompt": "A friend says he/she has something that belongs to you. How do you ask to see it?",
+            "answer": "Can I see it? / Let me see it.",
+            "rows": 1
+          },
+          {
+            "id": "practice-c-3",
+            "number": "3",
+            "prompt": "You are talking to someone. You want to know where he/she lives (the number of the house and the name of the street).",
+            "answer": "What's your address?",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i-1",
+        "type": "exercise",
+        "title": "I.1 Answer the questions, using the cues given according to the examples. 仿照例句用所给的词回答下列问题。(Whose is it?)",
+        "instruction": "Answer the questions, using the cues given according to the examples. 仿照例句用所给的词回答下列问题。\n\nExample (item 1a):\nWhose is this bag? Is it Mary's? (John's bag)\nNo, it isn't hers. It's his.",
+        "translation": "Answer each question using a possessive pronoun and the cue given, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "8 items. Item 1a is a printed example (not editable). Items 1b-h are taken from the supplied Lesson 98 grammar key (PDF viewer p. 529).",
+        "questions": [
+          {
+            "id": "grammar-i-1a",
+            "number": "1a",
+            "prompt": "Whose is this bag? Is it Mary's? (John's bag)",
+            "answer": "No, it isn't hers. It's his.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-1b",
+            "number": "1b",
+            "prompt": "Whose is this tie? Is it Frank's? (my tie)",
+            "answer": "No, it isn't his. It's mine.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1c",
+            "number": "1c",
+            "prompt": "Whose is this skirt? Is it mine? (Ann's skirt)",
+            "answer": "No, it isn't yours. It's hers.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1d",
+            "number": "1d",
+            "prompt": "Whose is this flat? Is it Mr. and Mrs. Blake's? (our flat)",
+            "answer": "No, it isn't theirs. It's ours.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1e",
+            "number": "1e",
+            "prompt": "Whose is this television? Is it ours? (Stephen's television)",
+            "answer": "No, it isn't ours. It's his.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1f",
+            "number": "1f",
+            "prompt": "Whose is this shop? Is it Mr. Smith's? (Mr. and Mrs. Scott's shop)",
+            "answer": "No, it isn't his. It's theirs.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1g",
+            "number": "1g",
+            "prompt": "Whose is this hat? Is it Jane's? (Sam's hat)",
+            "answer": "No, it isn't hers. It's his.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-1h",
+            "number": "1h",
+            "prompt": "Whose is this beer? Is it mine? (Dave's beer)",
+            "answer": "No, it isn't yours. It's his.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-i-2",
+        "type": "exercise",
+        "title": "I.2 Answer the questions, using the cues given according to the examples. 仿照例句用所给的词回答下列问题。(Whose are they?)",
+        "instruction": "Answer the questions, using the cues given according to the examples. 仿照例句用所给的词回答下列问题。\n\nExample (item 2a):\nWhose are these apples? Are they yours? (the woman's apples)\nNo, they aren't mine. They're hers.",
+        "translation": "Answer each question using a possessive pronoun and the cue given, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "8 items. Item 2a is a printed example (not editable). Items 2b-h are taken from the supplied Lesson 98 grammar key (PDF viewer p. 529).",
+        "questions": [
+          {
+            "id": "grammar-i-2a",
+            "number": "2a",
+            "prompt": "Whose are these apples? Are they yours? (the woman's apples)",
+            "answer": "No, they aren't mine. They're hers.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2b",
+            "number": "2b",
+            "prompt": "Whose are these keys? Are they ours? (his keys)",
+            "answer": "No, they aren't ours. They're his.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2c",
+            "number": "2c",
+            "prompt": "Whose are these magazines? Are they Jane's? (the boys' magazines)",
+            "answer": "No, they aren't hers. They're theirs.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2d",
+            "number": "2d",
+            "prompt": "Whose are these shoes? Are they yours? (my brother's shoes)",
+            "answer": "No, they aren't mine. They're his.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2e",
+            "number": "2e",
+            "prompt": "Whose are these hammers? Are they ours? (the workers' hammers)",
+            "answer": "No, they aren't ours. They're theirs.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2f",
+            "number": "2f",
+            "prompt": "Whose are these cigarettes? Are they Jane's? (Jack's cigarettes)",
+            "answer": "No, they aren't hers. They're his.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2g",
+            "number": "2g",
+            "prompt": "Whose are these cases? Are they ours? (the tourists' cases)",
+            "answer": "No, they aren't ours. They're theirs.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-2h",
+            "number": "2h",
+            "prompt": "Whose are these trousers? Are they your son's? (my daughter's trousers)",
+            "answer": "No, they aren't his. They're hers.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Answer the questions according to the example. 仿照例句回答下列问题。",
+        "instruction": "Answer the questions according to the example. 仿照例句回答下列问题。\n\nExample (item 1):\nWhose case is it? Is it Kathy's or yours?\nIt isn't hers. It's mine.",
+        "translation": "Answer each question using a possessive pronoun, following the printed example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "8 items. Item 1 is a printed example (not editable). Items 2-8 are taken from the supplied Lesson 98 grammar key (PDF viewer p. 529).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "Whose case is it? Is it Kathy's or yours?",
+            "answer": "It isn't hers. It's mine.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "Whose clothes are these? Are they yours or theirs?",
+            "answer": "They aren't mine. They're theirs.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "Whose car is this? Is it his or yours?",
+            "answer": "It isn't his. It's mine.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "Whose tickets are these? Are they ours or yours?",
+            "answer": "They aren't yours. They're ours.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "Whose key is this? Is it Kathy's or yours?",
+            "answer": "It isn't hers. It's mine.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "Whose cup is this? Is it Bob's or mine?",
+            "answer": "It isn't his. It's yours.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "Whose room is this? Is it theirs or ours?",
+            "answer": "It isn't theirs. It's yours.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "Whose newspapers are these? Are they yours or Ken's?",
+            "answer": "They aren't mine. They're his.",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  }
+}
