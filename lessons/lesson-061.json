@@ -1,0 +1,369 @@
+{
+  "number": 61,
+  "status": "verified",
+  "title": "A bad cold",
+  "translation": "重感冒",
+  "description": "A bilingual lesson about Jimmy's bad cold, calling the doctor and what he must do, with workbook practice on fill-in dialogue and illness vocabulary, plus grammar on have/has, must and why-questions. 关于吉米得了重感冒、请医生以及他必须做什么的双语课程，配合教材填空对话和疾病词汇练习，以及 have/has、must 和 why 问句的语法练习。",
+  "answer_note": "Textbook reading answer is labelled suggested. Workbook answers are taken from the supplied Lesson 61 key. Practice B is a free sorting exercise: the supplied key lists which phrases belong under each verb, and the sentence task is open-ended; the supplied model sentences are labelled suggested. In grammar II the two printed model questions are accepted answers; the key omits the question lines for those two items, which the supplied answers retain. Grammar answers are taken from the supplied Lesson 61 grammar key (PDF pages 478-479). No external sources were used.",
+  "expected_answers": 55,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "text": "Listen to the tape then answer this question. What is good news for Jimmy?",
+        "translation": "听录音，然后回答问题。吉米有什么好消息？"
+      },
+      {
+        "id": "lesson-scene-01",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-061-scene-01",
+        "lines": [
+          {"number": 1, "speaker": "Mr. Williams", "text": "Where's Jimmy?", "translation": "吉米在哪儿？"},
+          {"number": 2, "speaker": "Mrs. Williams", "text": "He's in bed.", "translation": "他躺在床上。"},
+          {"number": 3, "speaker": "Mr. Williams", "text": "What's the matter with him?", "translation": "他怎么啦？"},
+          {"number": 4, "speaker": "Mrs. Williams", "text": "He feels ill.", "translation": "他觉得不舒服。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-02",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-061-scene-02",
+        "lines": [
+          {"number": 5, "speaker": "Mr. Williams", "text": "He looks ill.", "translation": "他看上去是病了。"},
+          {"number": 6, "speaker": "Mrs. Williams", "text": "We must call the doctor.", "translation": "我们得去请医生。"},
+          {"number": 7, "speaker": "Mr. Williams", "text": "Yes, we must.", "translation": "是的，一定得请。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-03",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-061-scene-03",
+        "lines": [
+          {"number": 8, "speaker": "Mr. Williams", "text": "Can you remember the doctor's telephone number?", "translation": "你还记得医生的电话号码吗？"},
+          {"number": 9, "speaker": "Mrs. Williams", "text": "Yes.\nIt's 09754.", "translation": "记得。是 09754。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-04",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-061-scene-04",
+        "lines": [
+          {"number": 10, "speaker": "Doctor", "text": "Open your mouth, Jimmy.\nShow me your tongue.\nSay, 'Ah'.", "translation": "把嘴张开，吉米。让我看看你的舌头。说“啊——”"}
+        ]
+      },
+      {
+        "id": "lesson-scene-05",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-061-scene-05",
+        "lines": [
+          {"number": 11, "speaker": "Mr. Williams", "text": "What's the matter with him, doctor?", "translation": "他得了什么病，医生？"},
+          {"number": 12, "speaker": "Doctor", "text": "He has a bad cold, Mr. Williams,\nso he must stay in bed\nfor a week.", "translation": "他得了重感冒，威廉斯先生，因此他必须卧床一周。"}
+        ]
+      },
+      {
+        "id": "lesson-scene-06",
+        "type": "dialogue",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "image": "lesson-061-scene-06",
+        "lines": [
+          {"number": 13, "speaker": "Mrs. Williams", "text": "That's good news for Jimmy.", "translation": "对吉米来说，这可是个好消息。"},
+          {"number": 14, "speaker": "Doctor", "text": "Good news?\nWhy?", "translation": "好消息？为什么？"},
+          {"number": 15, "speaker": "Mr. Williams", "text": "Because he doesn't like school!", "translation": "因为他不喜欢上学。"}
+        ]
+      },
+      {
+        "id": "lesson-reading-answer",
+        "type": "exercise",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+        "title": "Before-reading question",
+        "instruction": "Listen to the tape then answer this question. What is good news for Jimmy? 听录音，然后回答问题。吉米有什么好消息？",
+        "translation": "Answer the question according to the dialogue. 根据对话回答问题。",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "context": "The doctor says Jimmy has a bad cold and must stay in bed for a week, so he does not have to go to school.",
+        "questions": [
+          {"id": "lesson-reading-answer-1", "number": "1", "prompt": "What is good news for Jimmy?", "answer": "He has a bad cold, so he must stay in bed for a week and does not have to go to school.", "rows": 2}
+        ]
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=126",
+        "items": [
+          {"word": "feel", "ipa": "/fi:l/", "pos": "v.", "meaning": "感觉"},
+          {"word": "look", "ipa": "/luk/", "pos": "v.", "meaning": "看（起来）"},
+          {"word": "must", "ipa": "/mast/", "pos": "modal verb", "meaning": "必须"},
+          {"word": "call", "ipa": "/kɔ:l/", "pos": "v.", "meaning": "叫，请"},
+          {"word": "doctor", "ipa": "/ˈdɒktə/", "pos": "n.", "meaning": "医生"},
+          {"word": "telephone", "ipa": "/ˈtelɪfəʊn/", "pos": "n.", "meaning": "电话"},
+          {"word": "remember", "ipa": "/rɪˈmembə/", "pos": "v.", "meaning": "记得，记住"},
+          {"word": "mouth", "ipa": "/maʊθ/", "pos": "n.", "meaning": "嘴"},
+          {"word": "tongue", "ipa": "/tʌŋ/", "pos": "n.", "meaning": "舌头"},
+          {"word": "bad", "ipa": "/bæd/", "pos": "adj.", "meaning": "坏的，严重的"},
+          {"word": "cold", "ipa": "/kəʊld/", "pos": "n.", "meaning": "感冒"},
+          {"word": "news", "ipa": "/nju:z/", "pos": "n.", "meaning": "消息"}
+        ]
+      },
+      {
+        "id": "lesson-notes",
+        "type": "notes",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=126",
+        "items": [
+          {"title": "What's the matter with him?", "text": "他怎么啦？\nWhat's the matter with ...? 常用来询问人或事物的状况，常作“是否有问题？”“是否有麻烦”讲。"},
+          {"title": "feel ill", "text": "觉得病了，feel 是系动词，ill 是表语。注意 feel ill 和 look ill 在意思上的区别：前者指自我感觉，后者指外表形象。"},
+          {"title": "It's 09754", "text": "其中 It's 指“电话号码是”。"},
+          {"title": "have a bad cold", "text": "得了重感冒。"},
+          {"title": "That's good news", "text": "That's good news 中的 news 是不可数名词，不是复数形式。"},
+          {"title": "Good news?", "text": "是省略句，完整的句子应为 Is it good news?"}
+        ]
+      },
+      {
+        "id": "lesson-reference-translation",
+        "type": "text",
+        "source": "../pdf/新概念英语1 英语初阶.pdf#page=126",
+        "text": "参考译文\n威廉斯先生：吉米在哪儿？\n威廉斯夫人：他躺在床上。\n威廉斯先生：他怎么啦？\n威廉斯夫人：他觉得不舒服。\n\n威廉斯先生：他看上去是病了。\n威廉斯夫人：我们得去请医生。\n威廉斯先生：是的，一定得请。\n\n威廉斯先生：你还记得医生的电话号码吗？\n威廉斯夫人：记得。是 09754。\n\n医生：把嘴张开，吉米。让我看看你的舌头。说“啊——”\n\n威廉斯先生：他得了什么病，医生？\n医生：他得了重感冒，威廉斯先生，因此他必须卧床一周。\n\n威廉斯夫人：对吉米来说，这可是个好消息。\n医生：好消息？为什么？\n威廉斯先生：因为他不喜欢上学。",
+        "translation": "Full Chinese reference translation of the lesson dialogue."
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "../img/lesson-061-practice.jpg",
+        "title": "A Dialogue",
+        "instruction": "Read this. Fill in the missing words. 读下面的对话，填空。",
+        "translation": "Read the dialogue and fill in the missing words.",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-058-062.jpg",
+        "context": "Complete each dialogue turn. Multiple blanks in one printed sentence are one answer field; answers are listed in blank order.",
+        "questions": [
+          {"id": "practice-a-1", "number": "1", "prompt": "Mrs. Williams: Jimmy's ______ bed.", "answer": "in", "rows": 1},
+          {"id": "practice-a-2", "number": "2", "prompt": "Mr. Williams: What's the ______ with him?", "answer": "matter", "rows": 1},
+          {"id": "practice-a-3", "number": "3", "prompt": "Mrs. Williams: He feels ______.", "answer": "ill", "rows": 1},
+          {"id": "practice-a-4", "number": "4", "prompt": "Mr. Williams: And he looks ______. Open your ______, Jimmy, and show ______ your ______.", "answer": "ill\nmouth\nme\ntongue", "rows": 4},
+          {"id": "practice-a-5", "number": "5", "prompt": "Mrs. Williams: We must ______ the doctor.", "answer": "call", "rows": 1},
+          {"id": "practice-a-6", "number": "6", "prompt": "Mrs. Williams: Yes, we ______.", "answer": "must", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "../img/lesson-061-practice.jpg",
+        "title": "B Vocabulary",
+        "instruction": "Write these words and phrases under the correct verbs below. 将以下词和短语列入正确的栏目之下。",
+        "translation": "Sort the printed phrases under the verb that they can follow.",
+        "expected_items": 15,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-058-062.jpg",
+        "word_bank": ["a bad cold", "an aspirin", "a doctor", "a headache", "an earache", "a dentist", "a toothache", "a stomach ache", "in bed", "a temperature", "flu", "at home", "measles", "some medicine", "mumps"],
+        "context": "The supplied key assigns the phrases: have — a headache, an earache, a toothache, a stomach ache, a temperature, flu, measles, mumps; take — some medicine; see — a doctor, a dentist; stay — in bed, at home. Items 1 and 6 are printed examples and are not editable.",
+        "questions": [
+          {"id": "practice-b-1", "number": "1", "prompt": "have + a bad cold", "answer": "have a bad cold", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-b-2", "number": "2", "prompt": "have + an aspirin", "answer": "an aspirin", "rows": 1},
+          {"id": "practice-b-3", "number": "3", "prompt": "have + a doctor", "answer": "a doctor", "rows": 1},
+          {"id": "practice-b-4", "number": "4", "prompt": "have + a headache", "answer": "a headache", "rows": 1},
+          {"id": "practice-b-5", "number": "5", "prompt": "have + an earache", "answer": "an earache", "rows": 1},
+          {"id": "practice-b-6", "number": "6", "prompt": "have + a dentist", "answer": "a dentist", "rows": 1},
+          {"id": "practice-b-7", "number": "7", "prompt": "have + a toothache", "answer": "a toothache", "rows": 1},
+          {"id": "practice-b-8", "number": "8", "prompt": "have + a stomach ache", "answer": "a stomach ache", "rows": 1},
+          {"id": "practice-b-9", "number": "9", "prompt": "have + in bed", "answer": "in bed", "rows": 1},
+          {"id": "practice-b-10", "number": "10", "prompt": "have + a temperature", "answer": "a temperature", "rows": 1},
+          {"id": "practice-b-11", "number": "11", "prompt": "have + flu", "answer": "flu", "rows": 1},
+          {"id": "practice-b-12", "number": "12", "prompt": "have + at home", "answer": "at home", "rows": 1},
+          {"id": "practice-b-13", "number": "13", "prompt": "have + measles", "answer": "measles", "rows": 1},
+          {"id": "practice-b-14", "number": "14", "prompt": "have + some medicine", "answer": "some medicine", "rows": 1},
+          {"id": "practice-b-15", "number": "15", "prompt": "have + mumps", "answer": "mumps", "rows": 1}
+        ]
+      },
+      {
+        "id": "practice-c",
+        "type": "exercise",
+        "source": "../img/lesson-061-practice.jpg",
+        "image": "practice-c-example",
+        "title": "C Sentences",
+        "instruction": "Now write three sentences like the examples to answer these questions. 模仿例句为以下问题写出 3 个回答。\nWhat's the matter with you today? What must you do? Who must you see?",
+        "translation": "Write three sentences like the printed examples to answer the questions.",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Printed example: I have a bad cold today. I must stay at home and take some medicine. And I must see a doctor. The supplied key marks this exercise open-ended and gives possible sentences: I have a bad toothache today. I must take an aspirin. And I must see a dentist.",
+        "questions": [
+          {"id": "practice-c-1", "number": "1", "prompt": "I have a ______ today. (example)", "answer": "a bad cold", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-c-2", "number": "2", "prompt": "I must stay at home and take some ______.", "answer": "medicine", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-c-3", "number": "3", "prompt": "And I must see a ______.", "answer": "doctor", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "practice-c-4", "number": "4", "prompt": "What's the matter with you today? What must you do? Who must you see?", "answer": "I have a bad toothache today. I must take an aspirin. And I must see a dentist.", "rows": 3}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=187",
+        "title": "I. Answer the questions, using the words given according to the examples. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the words given according to the examples. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each question using the given word, following the example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=493",
+        "context": "Each item has a printed example answer for the first sub-question.",
+        "questions": [
+          {"id": "grammar-i-1a", "number": "1a", "prompt": "Does he have a car? (small)", "answer": "Yes, he does. He has a small car.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-1b", "number": "1b", "prompt": "Does Dave have a glass? (clean)", "answer": "Yes, he does. He has a clean glass.", "rows": 1},
+          {"id": "grammar-i-1c", "number": "1c", "prompt": "Does she have a radio? (new)", "answer": "Yes, she does. She has a new radio.", "rows": 1},
+          {"id": "grammar-i-1d", "number": "1d", "prompt": "Does Tim have an umbrella? (black)", "answer": "Yes, he does. He has a black umbrella.", "rows": 1},
+          {"id": "grammar-i-1e", "number": "1e", "prompt": "Does Helen have an orange? (big)", "answer": "Yes, she does. She has a big orange.", "rows": 1},
+          {"id": "grammar-i-2a", "number": "2a", "prompt": "Does she have a pen? (pencil)", "answer": "No, she doesn't. She only has a pencil.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-i-2b", "number": "2b", "prompt": "Does John have a blue tie? (red tie)", "answer": "No, he doesn't. He only has a red tie.", "rows": 1},
+          {"id": "grammar-i-2c", "number": "2c", "prompt": "Does Mary have a house? (room)", "answer": "No, she doesn't. She only has a room.", "rows": 1},
+          {"id": "grammar-i-2d", "number": "2d", "prompt": "Does Mike have a spoon? (fork)", "answer": "No, he doesn't. He only has a fork.", "rows": 1},
+          {"id": "grammar-i-2e", "number": "2e", "prompt": "Does he have a television? (radio)", "answer": "No, he doesn't. He only has a radio.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=188",
+        "title": "II. Ask and answer questions, using the cues given according to the examples. 仿照例句用所给的词提问并回答。",
+        "instruction": "Ask and answer questions, using the cues given according to the examples. 仿照例句用所给的词提问并回答。",
+        "translation": "Write the question and answer from each set of cues, following the example.",
+        "expected_items": 9,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=493",
+        "context": "Each group has a printed example answer. Answers include both the question and the two-part answer.",
+        "questions": [
+          {"id": "grammar-ii-1a", "number": "1a", "prompt": "he/cups/plates", "answer": "Does he have any cups and plates?\nHe has some cups, but he doesn't have any plates.", "rows": 2},
+          {"id": "grammar-ii-1b", "number": "1b", "prompt": "Linda/pencils/pens", "answer": "Does Linda have any pencils and pens?\nShe has some pencils, but she doesn't have any pens.", "rows": 2},
+          {"id": "grammar-ii-1c", "number": "1c", "prompt": "George/books/pads of paper", "answer": "Does George have any books and pads of paper?\nHe has some books, but he doesn't have any pads of paper.", "rows": 2},
+          {"id": "grammar-ii-1d", "number": "1d", "prompt": "the girl/oranges/peaches", "answer": "Does the girl have any oranges and peaches?\nShe has some oranges, but she doesn't have any peaches.", "rows": 2},
+          {"id": "grammar-ii-1e", "number": "1e", "prompt": "the man/newspapers/magazines", "answer": "Does the man have any newspapers and magazines?\nHe has some newspapers, but he doesn't have any magazines.", "rows": 2},
+          {"id": "grammar-ii-2a", "number": "2a", "prompt": "our teacher/chalk/glue", "answer": "Does our teacher have any chalk and glue?\nShe has some chalk, but she doesn't have any glue.", "rows": 2},
+          {"id": "grammar-ii-2b", "number": "2b", "prompt": "he/paper/ink", "answer": "Does he have any paper and ink?\nHe has some paper, but he doesn't have any ink.", "rows": 2},
+          {"id": "grammar-ii-2c", "number": "2c", "prompt": "she/bread/jam", "answer": "Does she have any bread and jam?\nShe has some bread, but she doesn't have any jam.", "rows": 2},
+          {"id": "grammar-ii-2d", "number": "2d", "prompt": "Dave/tea/sugar", "answer": "Does Dave have any tea and sugar?\nHe has some tea, but he doesn't have any sugar.", "rows": 2}
+        ]
+      },
+      {
+        "id": "grammar-iii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=189",
+        "title": "III. Give correct replies to the sentences, using the cues given according to the example. 仿照例句用所给的词写出下列句子的对应句。",
+        "instruction": "Give correct replies to the sentences, using the cues given according to the example. 仿照例句用所给的词写出下列句子的对应句。",
+        "translation": "Write a correct reply to each sentence using the given cue.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=494",
+        "questions": [
+          {"id": "grammar-iii-1", "number": "1", "prompt": "I have a bad headache. (take two aspirins)", "answer": "You must take two aspirins.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-iii-2", "number": "2", "prompt": "She has measles. (stay at home)", "answer": "She must stay at home.", "rows": 1},
+          {"id": "grammar-iii-3", "number": "3", "prompt": "She has a toothache. (see a dentist)", "answer": "She must see a dentist.", "rows": 1},
+          {"id": "grammar-iii-4", "number": "4", "prompt": "My son has flu. (take some medicine)", "answer": "He must take some medicine.", "rows": 1},
+          {"id": "grammar-iii-5", "number": "5", "prompt": "Bob has a temperature. (stay in bed)", "answer": "He must stay in bed.", "rows": 1},
+          {"id": "grammar-iii-6", "number": "6", "prompt": "My sister has mumps. (you/take her to a doctor)", "answer": "You must take her to a doctor.", "rows": 1},
+          {"id": "grammar-iii-7", "number": "7", "prompt": "He has a bad stomachache. (you/call the doctor)", "answer": "You must call the doctor.", "rows": 1},
+          {"id": "grammar-iii-8", "number": "8", "prompt": "I have a bad cold. (drink more water)", "answer": "You must drink more water.", "rows": 1},
+          {"id": "grammar-iii-9", "number": "9", "prompt": "He has an earache. (see a doctor)", "answer": "He must see a doctor.", "rows": 1},
+          {"id": "grammar-iii-10", "number": "10", "prompt": "I have a bad cough. (take some medicine)", "answer": "You must take some medicine.", "rows": 1}
+        ]
+      },
+      {
+        "id": "grammar-iv",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=189",
+        "title": "IV. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "translation": "Answer each question using the given cue, following the example.",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=494",
+        "context": "The exercise continues on grammar PDF page 190.",
+        "questions": [
+          {"id": "grammar-iv-1", "number": "1", "prompt": "Why is he late? (ill)", "answer": "Because he is ill.", "rows": 1, "example": true, "answer_kind": "source-example"},
+          {"id": "grammar-iv-2", "number": "2", "prompt": "Why is she eating a big meal? (hungry)", "answer": "Because she is hungry.", "rows": 1},
+          {"id": "grammar-iv-3", "number": "3", "prompt": "Why is she crying? (want an ice cream)", "answer": "Because she wants an ice cream.", "rows": 1},
+          {"id": "grammar-iv-4", "number": "4", "prompt": "Why must she call the doctor? (have measles)", "answer": "Because she has measles.", "rows": 1},
+          {"id": "grammar-iv-5", "number": "5", "prompt": "Why does Jane study English? (like English)", "answer": "Because she likes English.", "rows": 1},
+          {"id": "grammar-iv-6", "number": "6", "prompt": "Why are you going to bed so early? (tired)", "answer": "Because I am tired.", "rows": 1},
+          {"id": "grammar-iv-7", "number": "7", "prompt": "Why must they go home? (it/late)", "answer": "Because it is late.", "rows": 1},
+          {"id": "grammar-iv-8", "number": "8", "prompt": "Why are you taking aspirins? (have a headache)", "answer": "Because I have a headache.", "rows": 1}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Lesson 61 textbook main text and illustrations", "href": "../pdf/新概念英语1 英语初阶.pdf#page=125"},
+    {"label": "Lesson 61 textbook vocabulary, notes and reference translation", "href": "../pdf/新概念英语1 英语初阶.pdf#page=126"},
+    {"label": "Lesson 61 workbook practice scan", "href": "../img/lesson-061-practice.jpg"},
+    {"label": "Lessons 58-62 workbook answer key scan", "href": "../img/key-058-062.jpg"},
+    {"label": "Lesson 61 grammar exercises", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=187"},
+    {"label": "Lesson 61 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=188"},
+    {"label": "Lesson 61 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=189"},
+    {"label": "Lesson 61 grammar exercise continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=190"},
+    {"label": "Lesson 61 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=493"},
+    {"label": "Lesson 61 grammar answer key continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=494"}
+  ],
+  "characters": {
+    "mr-williams": "An adult man with short dark hair and a moustache, wearing a jacket and tie.",
+    "mrs-williams": "An adult woman with a short blonde bob, wearing a light jacket over a patterned blouse.",
+    "jimmy": "A schoolboy with dark curly hair, lying in bed or standing in the scene.",
+    "doctor": "An elderly bald man with grey hair at the sides, wearing a coat and tie."
+  },
+  "images": {
+    "practice-c-example": {
+      "kind": "action", "status": "pending",
+      "description": "A sick person at home taking medicine and staying in bed, matching the printed example: I have a bad cold today. I must stay at home and take some medicine.",
+      "characters": [],
+      "source": "../img/lesson-061-practice.jpg",
+      "reason": "Odd lesson: workbook illustration deferred."
+    },
+    "lesson-061-scene-01": {
+      "kind": "scene", "status": "pending",
+      "description": "Mrs. Williams stands beside Mr. Williams near a desk with a telephone; they talk about Jimmy, who is in bed.",
+      "characters": ["mr-williams", "mrs-williams"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-061-scene-02": {
+      "kind": "scene", "status": "pending",
+      "description": "Jimmy lies ill in bed with his parents beside him; the family decides to call the doctor.",
+      "characters": ["mr-williams", "mrs-williams", "jimmy"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-061-scene-03": {
+      "kind": "scene", "status": "pending",
+      "description": "Mrs. Williams answers the question about the doctor's telephone number, 09754, while Mr. Williams is near the telephone.",
+      "characters": ["mr-williams", "mrs-williams"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-061-scene-04": {
+      "kind": "scene", "status": "pending",
+      "description": "The doctor bends over Jimmy in bed and examines his open mouth and tongue.",
+      "characters": ["jimmy", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-061-scene-05": {
+      "kind": "scene", "status": "pending",
+      "description": "The doctor tells Mr. Williams at the doorway that Jimmy has a bad cold and must stay in bed for a week.",
+      "characters": ["mr-williams", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    },
+    "lesson-061-scene-06": {
+      "kind": "scene", "status": "pending",
+      "description": "The Williams parents and the doctor stand together; Mr. Williams explains that Jimmy does not like school.",
+      "characters": ["mr-williams", "mrs-williams", "doctor"],
+      "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
+      "reason": "Odd lesson: text first; illustration deferred."
+    }
+  }
+}
