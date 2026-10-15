@@ -1,0 +1,526 @@
+{
+  "number": 94,
+  "status": "verified",
+  "title": "When did you/will you go to ...?",
+  "translation": "你过去/将在什么时候去……？",
+  "description": "A lesson on past and future time expressions. A time-reference table (last week/this week/next week/the week after next, and similar for month and year) is followed by fifteen small pictures of world cities (Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Seoul, Stockholm, Sydney, Tokyo). Students listen to questions about when people went to or will go to these cities. Written exercises A (rewrite sentences using will) and B (answer questions following the example) are transcribed from the textbook. Workbook practice covers making sentences with went/will go pairs and open-ended personal questions. Grammar exercises practise answering questions using shall/will with given cues, and changing statements into questions.",
+  "answer_note": "Written exercise A (rewrite using will) 5 items are suggested standard forms following the printed example. Written exercise B (answer questions) item is a printed example; items 1-5 are suggested model answers following the example pattern. Practice A (went/will go) item 1 is a printed example; items 2-6 are taken from the supplied Lesson 94 key (img/key-091-095.jpg). Practice B (about you) 6 items are open-ended with suggested model answers (taken from the supplied Lesson 94 key). Grammar I (answer with shall/will) item 1 is a printed example; items 2-10 are taken from the supplied Lesson 94 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 509-510). Grammar II (change to questions) item 1 is a printed example; items 2-14 are taken from the supplied Lesson 94 grammar key (PDF viewer p. 510). No external sources were used.",
+  "expected_answers": 43,
+  "sources": [
+    {
+      "label": "Lesson 94 textbook — time table and 15 city pictures (p. 191)",
+      "href": "../img/lesson-094-01-text.jpg"
+    },
+    {
+      "label": "Lesson 94 textbook — vocabulary and written exercises (p. 192)",
+      "href": "../img/lesson-094-02-text.jpg"
+    },
+    {
+      "label": "Lesson 94 workbook practice scan",
+      "href": "../img/lesson-094-practice.jpg"
+    },
+    {
+      "label": "Lessons 91-95 workbook answer key scan",
+      "href": "../img/key-091-095.jpg"
+    },
+    {
+      "label": "Lesson 94 grammar exercises (pp. 284-286)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=284"
+    }
+  ],
+  "characters": {},
+  "images": {},
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "text": "Listen and answer the questions.\n听录音并回答问题。",
+        "translation": "Listen to the recording and answer the questions."
+      },
+      {
+        "id": "lesson-table",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "text": "last week | this week | next week | the week after next\nlast month | this month | next month | the month after next\nlast year | this year | next year | the year after next",
+        "translation": "Time-reference table for last/this/next week, month, and year."
+      },
+      {
+        "id": "lesson-pictures",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "text": "1. Athens\n2. Beijing\n3. Berlin\n4. Bombay\n5. Geneva\n6. London\n7. Madrid\n8. Moscow\n9. New York\n10. Paris\n11. Rome\n12. Seoul\n13. Stockholm\n14. Sydney\n15. Tokyo",
+        "translation": "Fifteen small pictures, each showing a different world city."
+      },
+      {
+        "id": "lesson-vocabulary",
+        "type": "vocabulary",
+        "source": "../img/lesson-094-02-text.jpg",
+        "items": [
+          {
+            "word": "Athens",
+            "ipa": "/ˈæθnz/",
+            "pos": "n.",
+            "meaning": "雅典"
+          },
+          {
+            "word": "Berlin",
+            "ipa": "/bɜːˈlɪn/",
+            "pos": "n.",
+            "meaning": "柏林"
+          },
+          {
+            "word": "Bombay",
+            "ipa": "/bɒmˈbeɪ/",
+            "pos": "n.",
+            "meaning": "孟买"
+          },
+          {
+            "word": "Geneva",
+            "ipa": "/dʒəˈniːvə/",
+            "pos": "n.",
+            "meaning": "日内瓦"
+          },
+          {
+            "word": "Moscow",
+            "ipa": "/ˈmɒskəʊ/",
+            "pos": "n.",
+            "meaning": "莫斯科"
+          },
+          {
+            "word": "Rome",
+            "ipa": "/rəʊm/",
+            "pos": "n.",
+            "meaning": "罗马"
+          },
+          {
+            "word": "Seoul",
+            "ipa": "/səʊl/",
+            "pos": "n.",
+            "meaning": "首尔"
+          },
+          {
+            "word": "Stockholm",
+            "ipa": "/ˈstɒkhəʊm/",
+            "pos": "n.",
+            "meaning": "斯德哥尔摩"
+          },
+          {
+            "word": "Sydney",
+            "ipa": "/ˈsɪdni/",
+            "pos": "n.",
+            "meaning": "悉尼"
+          }
+        ]
+      },
+      {
+        "id": "written-a",
+        "type": "exercise",
+        "source": "../img/lesson-094-02-text.jpg",
+        "title": "Written exercises A — Rewrite these sentences using will",
+        "instruction": "Rewrite these sentences using will. 模仿例句改写以下句子，用上 will。\n\nExample:\nHe went to Beijing last year.\nHe will go to Beijing next year.",
+        "translation": "Rewrite each sentence, changing the past time expression to a future one and using 'will'.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-a-1",
+            "number": "1",
+            "prompt": "He went to New York last week.",
+            "answer": "He will go to New York next week.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-2",
+            "number": "2",
+            "prompt": "She went to Sydney last month.",
+            "answer": "She will go to Sydney next month.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-3",
+            "number": "3",
+            "prompt": "I went to Paris the year before last.",
+            "answer": "I will go to Paris the year after next.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-4",
+            "number": "4",
+            "prompt": "We went to Stockholm last year.",
+            "answer": "We will go to Stockholm next year.",
+            "rows": 1
+          },
+          {
+            "id": "written-a-5",
+            "number": "5",
+            "prompt": "They went to Geneva the week before last.",
+            "answer": "They will go to Geneva the week after next.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "written-b",
+        "type": "exercise",
+        "source": "../img/lesson-094-02-text.jpg",
+        "title": "Written exercises B — Answer these questions",
+        "instruction": "Answer these questions. 模仿例句回答以下问题。\n\nExample:\nWill you go to Athens next week? (Beijing)\nNo, I won't go to Athens next week. I'll go to Beijing.",
+        "translation": "Answer each question following the printed example, using the city in parentheses as the alternative destination.",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "questions": [
+          {
+            "id": "written-b-1",
+            "number": "1",
+            "prompt": "Will Helen return to Geneva next year? (Bombay)",
+            "answer": "No, she won't return to Geneva next year. She'll return to Bombay.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-2",
+            "number": "2",
+            "prompt": "Will you fly to London tomorrow? (Geneva)",
+            "answer": "No, I won't fly to London tomorrow. I'll fly to Geneva.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-3",
+            "number": "3",
+            "prompt": "Will you and Tom go to Madrid next month? (London)",
+            "answer": "No, Tom and I won't go to Madrid next month. We'll go to London.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-4",
+            "number": "4",
+            "prompt": "Will Tom arrive from Moscow next month? (Madrid)",
+            "answer": "No, he won't arrive from Moscow next month. He'll arrive from Madrid.",
+            "rows": 1
+          },
+          {
+            "id": "written-b-5",
+            "number": "5",
+            "prompt": "Will Carol and Helen stay in New York next month? (Moscow)",
+            "answer": "No, they won't stay in New York next month. They'll stay in Moscow.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "title": "A — Went there last week — will go again next week",
+        "instruction": "Make sentences from the prompts like the example. 模仿例句根据提示完成以下句子。\n\nExample (item 1):\nhe / go / Athens / last week / next week\nHe went to Athens last week and he'll go there again next week.",
+        "translation": "Make a sentence using the past and future time expressions, following the printed example.",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "../img/key-091-095.jpg",
+        "context": "6 items. Item 1 is a printed example (not editable). Items 2-6 are taken from the supplied Lesson 94 key (img/key-091-095.jpg).",
+        "questions": [
+          {
+            "id": "practice-a-1",
+            "number": "1",
+            "prompt": "1. he / go / Athens / last week / next week",
+            "answer": "He went to Athens last week and he'll go there again next week.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "practice-a-2",
+            "number": "2",
+            "prompt": "2. she / fly / Paris / last month / next month",
+            "answer": "She flew to Paris last month and she'll fly there again next month.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-3",
+            "number": "3",
+            "prompt": "3. I / drive / Rome / last year / next year",
+            "answer": "I drove to Rome last year and I'll drive there again next year.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-4",
+            "number": "4",
+            "prompt": "4. we / go / Sydney / two years ago / the year after next",
+            "answer": "We went to Sydney two years ago and we'll go there again the year after next.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-5",
+            "number": "5",
+            "prompt": "5. my friend / fly / Tokyo / the year before last / the week after next",
+            "answer": "My friend flew to Tokyo the year before last and he'll / she'll fly there again the week after next.",
+            "rows": 1
+          },
+          {
+            "id": "practice-a-6",
+            "number": "6",
+            "prompt": "6. my family and I / stay / London / last August / next August",
+            "answer": "My family and I stayed in London last August and we'll stay there again next August.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "title": "B — About you",
+        "instruction": "Answer these questions with short answers or full sentences. 用简短形式或完整句子回答以下问题。",
+        "translation": "Answer each question with a short answer or a full sentence. (Open-ended.)",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "6 open-ended questions. Suggested model answers taken from the supplied Lesson 94 key (img/key-091-095.jpg).",
+        "questions": [
+          {
+            "id": "practice-b-1",
+            "number": "1",
+            "prompt": "How many cities have you been to in China?",
+            "answer": "I've been to three big cities in China.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-2",
+            "number": "2",
+            "prompt": "Will you return to one or two of them? Which? And when?",
+            "answer": "I shall return to Beijing next year.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-3",
+            "number": "3",
+            "prompt": "When will you have a haircut?",
+            "answer": "I'll have a haircut next Saturday.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-4",
+            "number": "4",
+            "prompt": "When will you do your homework?",
+            "answer": "I shall do my homework this evening.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-5",
+            "number": "5",
+            "prompt": "When will you get up tomorrow morning?",
+            "answer": "I shall get up at 6.15 tomorrow morning.",
+            "rows": 1
+          },
+          {
+            "id": "practice-b-6",
+            "number": "6",
+            "prompt": "Will you telephone a friend this evening? Who? And when?",
+            "answer": "I'll telephone my friend ... at half past nine this evening.",
+            "rows": 1
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "title": "I. Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+        "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。\n\nExample (item 1):\nWhat will you do tomorrow? (wash my clothes)\nI shall wash my clothes.",
+        "translation": "Answer each question using the cue in parentheses, following the printed example.",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "10 items. Item 1 is a printed example (not editable). Items 2-10 are taken from the supplied Lesson 94 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 509-510).",
+        "questions": [
+          {
+            "id": "grammar-i-1",
+            "number": "1",
+            "prompt": "1. What will you do tomorrow? (wash my clothes)\n______",
+            "answer": "I shall wash my clothes.",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-i-2",
+            "number": "2",
+            "prompt": "2. What will your daughter do the day after tomorrow? (have a holiday)",
+            "answer": "She will have a holiday.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-3",
+            "number": "3",
+            "prompt": "3. What will your friends do next week? (fly to Beijing)",
+            "answer": "They will fly to Beijing.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-4",
+            "number": "4",
+            "prompt": "4. What will Jane do next month? (move into a new flat)",
+            "answer": "She will move into a new flat.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-5",
+            "number": "5",
+            "prompt": "5. What shall we do next year? (travel to Stockholm)",
+            "answer": "We shall travel to Stockholm.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-6",
+            "number": "6",
+            "prompt": "6. What will you do this evening? (watch television)",
+            "answer": "I/We shall watch television.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-7",
+            "number": "7",
+            "prompt": "7. What will John and Helen do tomorrow evening? (go for a walk in the park)",
+            "answer": "They will go for a walk in the park.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-8",
+            "number": "8",
+            "prompt": "8. What will the students do next weekend? (have a party)",
+            "answer": "They will have a party.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-9",
+            "number": "9",
+            "prompt": "9. What will you do tomorrow evening? (stay at home and have a rest)",
+            "answer": "I/We shall stay at home and have a rest.",
+            "rows": 1
+          },
+          {
+            "id": "grammar-i-10",
+            "number": "10",
+            "prompt": "10. What will Ann do at eight o'clock tomorrow morning? (have a lesson)",
+            "answer": "She will have a lesson.",
+            "rows": 1
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "title": "II. Change the statements into questions according to the example. 仿照例句将下列肯定句改为疑问句。",
+        "instruction": "Change the statements into questions according to the example. 仿照例句将下列肯定句改为疑问句。\n\nExample (item 1):\nYou will come and see me next Tuesday.\nWill you come and see me next Tuesday?",
+        "translation": "Change each statement into a question, following the printed example.",
+        "expected_items": 14,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf",
+        "context": "14 items. Item 1 is a printed example (not editable). Items 2-14 are taken from the supplied Lesson 94 grammar key (PDF 新概念英语语法练习1_按课程索引.pdf, viewer p. 510).",
+        "questions": [
+          {
+            "id": "grammar-ii-1",
+            "number": "1",
+            "prompt": "1. You will come and see me next Tuesday.",
+            "answer": "Will you come and see me next Tuesday?",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "grammar-ii-2",
+            "number": "2",
+            "prompt": "2. You will buy me some envelopes tomorrow.",
+            "answer": "Will you buy me some envelopes tomorrow?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-3",
+            "number": "3",
+            "prompt": "3. I shall meet you next Thursday.",
+            "answer": "Shall I meet you next Thursday?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-4",
+            "number": "4",
+            "prompt": "4. They will go there next week.",
+            "answer": "Will they go there next week?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-5",
+            "number": "5",
+            "prompt": "5. We shall have a party the day after tomorrow.",
+            "answer": "Shall we have a party the day after tomorrow?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-6",
+            "number": "6",
+            "prompt": "6. We shall go for a walk tomorrow morning.",
+            "answer": "Shall we go for a walk tomorrow morning?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-7",
+            "number": "7",
+            "prompt": "7. I shall speak to him about it tomorrow.",
+            "answer": "Shall I speak to him about it tomorrow?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-8",
+            "number": "8",
+            "prompt": "8. He will invite her to dinner tonight.",
+            "answer": "Will he invite her to dinner tonight?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-9",
+            "number": "9",
+            "prompt": "9. She will buy a new radio next month.",
+            "answer": "Will she buy a new radio next month?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-10",
+            "number": "10",
+            "prompt": "10. They will go to Berlin again next year.",
+            "answer": "Will they go to Berlin again next year?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-11",
+            "number": "11",
+            "prompt": "11. We shall climb up the hill tomorrow evening.",
+            "answer": "Shall we climb up the hill tomorrow evening?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-12",
+            "number": "12",
+            "prompt": "12. The children will play in the park next Sunday.",
+            "answer": "Will the children play in the park next Sunday?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-13",
+            "number": "13",
+            "prompt": "13. I shall buy some beef at the butcher's tomorrow.",
+            "answer": "Shall I buy some beef at the butcher's tomorrow?",
+            "rows": 1
+          },
+          {
+            "id": "grammar-ii-14",
+            "number": "14",
+            "prompt": "14. You will talk to them tomorrow morning.",
+            "answer": "Will you talk to them tomorrow morning?",
+            "rows": 1
+          }
+        ]
+      }
+    ]
+  }
+}
