@@ -1,0 +1,262 @@
+{
+  "number": 120,
+  "status": "verified",
+  "title": "It had already happened. 事情已经发生了。",
+  "translation": "事情已经发生了。",
+  "description": "A picture lesson on the past perfect with 'already', 'just', 'after' and 'before'. Six pictures (s-x) show an earlier completed action (the car had been sold, the train had already left, the housework had been finished before she went out, they had had dinner before they arrived). The written exercises rewrite sentences using 'after' and answer present-perfect and past-perfect questions. The grammar workbook drills combining sentences with 'when' + past perfect, adding 'just' with the past perfect, and making sentences with the past perfect.",
+  "answer_note": "Listening captions are model answers (suggested). Written exercises A-D are model answers (suggested). Workbook A (Was doing, had done and did) and B (When and after) are from the workbook answer key (source-key, img/key-118-123.jpg). Grammar I (combine with when + past perfect), II (add 'just' with past perfect) and III (make sentences) are from the grammar workbook answer key (source-key, pdf p.555-556).",
+  "expected_answers": 60,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l120-lesson-intro",
+        "type": "text",
+        "source": "textbook-p243",
+        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l120-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p243",
+        "image": "l120-pictures-grid",
+        "text": "Six pictures (s-x) illustrating the past perfect with 'already', 'after' and 'before'. s: I asked the price of the car, but they had already sold it. t: I ran to the platform quickly, but the train had already left. u: He gave us our exercise books after he had corrected them. v: She went on holiday after she had taken the examination. w: She had finished the housework before she went out. x: We had had dinner before they arrived.",
+        "translation": "六张图片（s-x）展示过去完成时与 already、after、before 的用法。s 我问了那辆车的价钱，但他们已经把它卖了。t 我迅速跑到月台，但火车已经开走了。u 他批改完作业后把练习本发给了我们。v 她考完试后去度假了。w 她出门前已经把家务做完了。x 他们到来之前我们已经吃过晚饭了。"
+      },
+      {
+        "id": "l120-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p243",
+        "title": "Listen and answer the questions (pictures s-x)",
+        "instruction": "Listen to the recording and answer the question for each picture (s-x).",
+        "translation": "听录音并回答每组图片（s-x）的问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "The recording reads each caption; the answer is the caption sentence itself.",
+        "questions": [
+          {"id": "l120-listen-s", "number": 1, "prompt": "Picture s: the sold car.", "answer": "I asked the price of the car, but they had already sold it."},
+          {"id": "l120-listen-t", "number": 2, "prompt": "Picture t: the train leaving the platform.", "answer": "I ran to the platform quickly, but the train had already left."},
+          {"id": "l120-listen-u", "number": 3, "prompt": "Picture u: the teacher giving out exercise books.", "answer": "He gave us our exercise books after he had corrected them."},
+          {"id": "l120-listen-v", "number": 4, "prompt": "Picture v: going on holiday after the examination.", "answer": "She went on holiday after she had taken the examination."},
+          {"id": "l120-listen-w", "number": 5, "prompt": "Picture w: finishing the housework before going out.", "answer": "She had finished the housework before she went out."},
+          {"id": "l120-listen-x", "number": 6, "prompt": "Picture x: having dinner before they arrived.", "answer": "We had had dinner before they arrived."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l120-written-a",
+        "type": "exercise",
+        "source": "textbook-p243",
+        "title": "Written exercise A",
+        "instruction": "Rewrite these sentences using after. 用 after 把两个句子合并为一。",
+        "translation": "用 after 把两个句子合并为一。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Model answers combining with 'after'. Item 0 is the printed example (She went home after she had typed the letter).",
+        "questions": [
+          {"id": "l120-wa0", "number": 0, "example": true, "prompt": "Example: She went home. She typed the letter.", "answer": "She went home after she had typed the letter."},
+          {"id": "l120-wa1", "number": 1, "prompt": "He dropped the vase. He took it into the living room.", "answer": "He took it into the living room after he had dropped the vase."},
+          {"id": "l120-wa2", "number": 2, "prompt": "He bought another car. He sold his old one.", "answer": "He bought another car after he had sold his old one."},
+          {"id": "l120-wa3", "number": 3, "prompt": "He swept the floor. He dusted everything.", "answer": "He dusted everything after he had swept the floor."}
+        ]
+      },
+      {
+        "id": "l120-written-b",
+        "type": "exercise",
+        "source": "textbook-p244",
+        "title": "Written exercise B",
+        "instruction": "Answer these questions. 仿照例句回答以下问题。",
+        "translation": "仿照例句回答以下问题。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "Model present-perfect answers. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l120-wb0", "number": 0, "example": true, "prompt": "Have you met him?", "answer": "Yes, I have just met him. I had never met him before."},
+          {"id": "l120-wb1", "number": 1, "prompt": "Have you seen it?", "answer": "Yes, I have just seen it. I had never seen it before."},
+          {"id": "l120-wb2", "number": 2, "prompt": "Have you read it?", "answer": "Yes, I have just read it. I had never read it before."},
+          {"id": "l120-wb3", "number": 3, "prompt": "Have you tried it?", "answer": "Yes, I have just tried it. I had never tried it before."},
+          {"id": "l120-wb4", "number": 4, "prompt": "Have you been there?", "answer": "Yes, I have just been there. I had never been there before."},
+          {"id": "l120-wb5", "number": 5, "prompt": "Have you written a letter in English?", "answer": "Yes, I have just written a letter in English. I had never written one before."},
+          {"id": "l120-wb6", "number": 6, "prompt": "Have you watched this programme?", "answer": "Yes, I have just watched this programme. I had never watched it before."}
+        ]
+      },
+      {
+        "id": "l120-written-c",
+        "type": "exercise",
+        "source": "textbook-p244",
+        "title": "Written exercise C",
+        "instruction": "Answer these questions. 仿照例句回答以下问题。",
+        "translation": "仿照例句回答以下问题。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "Model past-perfect answers. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l120-wc0", "number": 0, "example": true, "prompt": "Why didn't you sweep the floor? (She)", "answer": "It was too late. She had already swept it."},
+          {"id": "l120-wc1", "number": 1, "prompt": "Why didn't you paint the bookcase? (He)", "answer": "It was too late. He had already painted it."},
+          {"id": "l120-wc2", "number": 2, "prompt": "Why didn't you dust the dressing table? (She)", "answer": "It was too late. She had already dusted it."},
+          {"id": "l120-wc3", "number": 3, "prompt": "Why didn't you telephone him? (You)", "answer": "It was too late. You had already telephoned him."},
+          {"id": "l120-wc4", "number": 4, "prompt": "Why didn't you correct it? (You)", "answer": "It was too late. You had already corrected it."},
+          {"id": "l120-wc5", "number": 5, "prompt": "Why didn't you shut the door? (They)", "answer": "It was too late. They had already shut it."},
+          {"id": "l120-wc6", "number": 6, "prompt": "Why didn't you make the bed? (She)", "answer": "It was too late. She had already made it."}
+        ]
+      },
+      {
+        "id": "l120-written-d",
+        "type": "exercise",
+        "source": "textbook-p244",
+        "title": "Written exercise D",
+        "instruction": "Write new sentences using after. 仿照例句，使用 after 改写以下句子。",
+        "translation": "仿照例句，使用 after 改写以下句子。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "Model 'Yes, but ...' responses rewritten with 'after'. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l120-wd0", "number": 0, "example": true, "prompt": "Did you read the book?", "answer": "Yes, but I saw the film first. I read the book after I had seen the film."},
+          {"id": "l120-wd1", "number": 1, "prompt": "Did you go to the doctor?", "answer": "Yes, but I made an appointment first. I went to the doctor after I had made an appointment."},
+          {"id": "l120-wd2", "number": 2, "prompt": "Did the boss leave the office?", "answer": "Yes, but he finished work first. The boss left the office after he had finished work."},
+          {"id": "l120-wd3", "number": 3, "prompt": "Did your wife go out?", "answer": "Yes, but she finished the housework first. My wife went out after she had finished the housework."},
+          {"id": "l120-wd4", "number": 4, "prompt": "Did your teacher give you your exercise book?", "answer": "Yes, but he corrected it first. My teacher gave me my exercise book after he had corrected it."},
+          {"id": "l120-wd5", "number": 5, "prompt": "Did your sister go on holiday?", "answer": "Yes, but she took the examination first. My sister went on holiday after she had taken the examination."},
+          {"id": "l120-wd6", "number": 6, "prompt": "Did you buy a new car?", "answer": "Yes, but I sold my old one first. I bought a new car after I had sold my old one."}
+        ]
+      },
+      {
+        "id": "l120-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-120-a",
+        "title": "Practice A: Was doing, had done and did",
+        "instruction": "Fill in the correct form of the verb - the simple past, the past perfect or the past continuous. 选用一般过去时、过去完成时或过去进行时填空。",
+        "translation": "选用一般过去时、过去完成时或过去进行时填空。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "img/key-118-123.jpg (Lesson 120 A)",
+        "context": "Workbook L120 A: 10 items; item 1 is the printed example (had already left).",
+        "questions": [
+          {"id": "l120-pa1", "number": 1, "example": true, "prompt": "We ___ (already leave) the house when the postman arrived.", "answer": "had already left"},
+          {"id": "l120-pa2", "number": 2, "prompt": "She ___ (already hear) the news before her friend told her.", "answer": "had already heard"},
+          {"id": "l120-pa3", "number": 3, "prompt": "He cut himself while he ___ (shave).", "answer": "was shaving"},
+          {"id": "l120-pa4", "number": 4, "prompt": "He ___ (already cut) himself once when he cut himself again!", "answer": "had already cut"},
+          {"id": "l120-pa5", "number": 5, "prompt": "He asked for a glass of beer, but they ___ (drink) all of it!", "answer": "had drunk"},
+          {"id": "l120-pa6", "number": 6, "prompt": "The girl ___ (joke) when she said there was no milk left.", "answer": "was joking"},
+          {"id": "l120-pa7", "number": 7, "prompt": "The man ___ (get on) the bus and then the conductor asked him for his fare.", "answer": "got on"},
+          {"id": "l120-pa8", "number": 8, "prompt": "When I visited them, they ___ (watch) television.", "answer": "were watching"},
+          {"id": "l120-pa9", "number": 9, "prompt": "We heard a noise and ___ (run away).", "answer": "ran away"},
+          {"id": "l120-pa10", "number": 10, "prompt": "They went home when they ___ (spend) all their money.", "answer": "had spent"}
+        ]
+      },
+      {
+        "id": "l120-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-120-b",
+        "title": "Practice B: When and after",
+        "instruction": "Join these sentences using when or after. 用 when 或 after 连接以下各组句子。",
+        "translation": "用 when 或 after 连接以下各组句子。",
+        "expected_items": 5,
+        "answer_kind": "source-key",
+        "key_source": "img/key-118-123.jpg (Lesson 120 B)",
+        "context": "Workbook L120 B: 5 join items; item 1 is the printed example.",
+        "questions": [
+          {"id": "l120-pb1", "number": 1, "example": true, "prompt": "I sat down and read a book. + I had finished my homework.", "answer": "I sat down and read a book after I had finished my homework."},
+          {"id": "l120-pb2", "number": 2, "prompt": "She had already heard the news. + Her friend telephoned her.", "answer": "Her friend telephoned her after she had already heard the news."},
+          {"id": "l120-pb3", "number": 3, "prompt": "I got there. + They had eaten everything!", "answer": "When I got there, they had eaten everything!"},
+          {"id": "l120-pb4", "number": 4, "prompt": "They had already finished the job. + We arrived.", "answer": "When we arrived, they had already finished the job."},
+          {"id": "l120-pb5", "number": 5, "prompt": "She arrived at the station. + The train had left.", "answer": "When she arrived at the station, the train had left."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l120-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p368",
+        "title": "Grammar I: Combine each pair of sentences according to the example (when + past perfect)",
+        "instruction": "仿照例句合并下列句子。",
+        "translation": "仿照例句合并下列句子。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.555-556 (新概念英语语法练习1)",
+        "context": "8 combine items using 'when' + past perfect with 'already'; item 1 is the printed example.",
+        "questions": [
+          {"id": "l120-gi1", "number": 1, "example": true, "prompt": "The play started. I turned on the television.", "answer": "When I turned on the television, the play had already started."},
+          {"id": "l120-gi2", "number": 2, "prompt": "The class started. Bob reached school.", "answer": "When Bob reached school, the class had already started."},
+          {"id": "l120-gi3", "number": 3, "prompt": "They had dinner. I got back home.", "answer": "When I got back home, they had already had dinner."},
+          {"id": "l120-gi4", "number": 4, "prompt": "The rain stopped. She opened her umbrella.", "answer": "When she opened her umbrella, the rain had already stopped."},
+          {"id": "l120-gi5", "number": 5, "prompt": "The thief ran away. The policeman arrived.", "answer": "When the policeman arrived, the thief had already run away."},
+          {"id": "l120-gi6", "number": 6, "prompt": "Mrs. Smith finished cooking. Her husband went to help.", "answer": "When her husband went to help, Mrs. Smith had already finished cooking."},
+          {"id": "l120-gi7", "number": 7, "prompt": "They took him to hospital. I got to his home.", "answer": "When I got to his home, they had already taken him to hospital."},
+          {"id": "l120-gi8", "number": 8, "prompt": "I had driving lessons for three weeks. I got my licence.", "answer": "When I got my licence, I had already had driving lessons for three weeks."}
+        ]
+      },
+      {
+        "id": "l120-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p368-369",
+        "title": "Grammar II: Complete the sentences by adding 'just' with the past perfect",
+        "instruction": "用 just 和所给动词的过去完成时形式填空。",
+        "translation": "用 just 和所给动词的过去完成时形式填空。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.556 (新概念英语语法练习1)",
+        "context": "8 fill-in items adding 'just' with the past perfect.",
+        "questions": [
+          {"id": "l120-gii1", "number": 1, "prompt": "I ___ (reach) the gate when someone closed it.", "answer": "had just reached"},
+          {"id": "l120-gii2", "number": 2, "prompt": "When the teacher asked us to stop writing, we ___ (finish).", "answer": "had just finished"},
+          {"id": "l120-gii3", "number": 3, "prompt": "I ___ (leave) the house when it began to rain.", "answer": "had just left"},
+          {"id": "l120-gii4", "number": 4, "prompt": "I ___ (open) the newspaper when the telephone rang.", "answer": "had just opened"},
+          {"id": "l120-gii5", "number": 5, "prompt": "I ___ (answer) the telephone when the doorbell rang.", "answer": "had just answered"},
+          {"id": "l120-gii6", "number": 6, "prompt": "I ___ (sit) down when the telephone rang again.", "answer": "had just sat"},
+          {"id": "l120-gii7", "number": 7, "prompt": "When they went into the cinema, the film ___ (begin).", "answer": "had just begun"},
+          {"id": "l120-gii8", "number": 8, "prompt": "He took the picture down when I ___ (put) it up on the wall.", "answer": "had just put"}
+        ]
+      },
+      {
+        "id": "l120-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p369",
+        "title": "Grammar III: Make sentences according to the example",
+        "instruction": "仿照例句造句。",
+        "translation": "仿照例句造句。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.556 (新概念英语语法练习1)",
+        "context": "6 make-sentences items using the past perfect; item 1 is the printed example.",
+        "questions": [
+          {"id": "l120-giii1", "number": 1, "example": true, "prompt": "he / make a bookcase / be proud of himself", "answer": "He had made a bookcase so he was proud of himself. He had never been so proud of himself before."},
+          {"id": "l120-giii2", "number": 2, "prompt": "he / work for twelve hours / be tired", "answer": "He had worked for twelve hours so he was tired. He had never been so tired before."},
+          {"id": "l120-giii3", "number": 3, "prompt": "she / run for five miles / be thirsty", "answer": "She had run for five miles so she was thirsty. She had never been so thirsty before."},
+          {"id": "l120-giii4", "number": 4, "prompt": "he / cook a meal for his family / be proud of himself", "answer": "He had cooked a meal for his family so he was proud of himself. He had never been so proud of himself before."},
+          {"id": "l120-giii5", "number": 5, "prompt": "she / fail the exam / be sad", "answer": "She had failed the exam so she was sad. She had never been so sad before."},
+          {"id": "l120-giii6", "number": 6, "prompt": "he / pass the English test / be excited", "answer": "He had passed the English test so he was excited. He had never been so excited before."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.243 (Lesson 120 pictures s-x & written A)", "href": "../img/lesson-120-01-text.jpg"},
+    {"label": "Textbook p.244 (Lesson 120 written exercises B-D)", "href": "../img/lesson-120-02-text.jpg"},
+    {"label": "Workbook Lesson 120 (practice page 165)", "href": "../img/lesson-120-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 118-123, p.214)", "href": "../img/key-118-123.jpg"},
+    {"label": "Grammar Workbook p.368-369 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=368"},
+    {"label": "Grammar Workbook p.555-556 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=555"}
+  ],
+  "characters": {
+    "lady": "A lady shown asking the price of the car, going on holiday, finishing the housework and having dinner.",
+    "gentleman": "A gentleman shown selling the car, giving out exercise books, and standing on the platform."
+  },
+  "images": {
+    "l120-pictures-grid": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
+      "source": "img/lesson-120-01-text.jpg (textbook p.243)",
+      "characters": ["lady", "gentleman"],
+      "origin": "textbook-crop",
+      "source_size": [1458, 2500],
+      "crop": [0, 350, 1458, 1500],
+      "src": "assets/lesson-120/pictures-grid.jpg",
+      "width": 1458,
+      "height": 1150
+    }
+  }
+}
