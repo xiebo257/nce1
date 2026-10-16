@@ -1,0 +1,235 @@
+{
+  "number": 124,
+  "status": "verified",
+  "title": "(Who) / (whom), (which) and (that) 关系代词",
+  "translation": "关系代词",
+  "description": "A picture lesson on relative clauses with the relative pronoun omitted or used. Nine pictures show examples of questions and answers using who/whom/which/that and omitted relative pronouns. The lesson introduces the word kitten and written exercises on rewriting sentences, writing questions and answers, and writing new sentences.",
+  "answer_note": "The listening questions are model answers (suggested). Workbook A (Structure) is from the workbook answer key (source-key, img/key-123-129.jpg p.215), item 1 is the printed example. Workbook B (Situations) is from the workbook answer key (source-key, img/key-123-129.jpg p.215). Grammar I (rewrite by omitting relative pronouns) and II (correct and rewrite) are from the grammar workbook answer key (source-key, pdf p.559-560).",
+  "expected_answers": 59,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l124-lesson-intro",
+        "type": "text",
+        "source": "textbook-p251",
+        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l124-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p251",
+        "image": "l124-pictures",
+        "text": "1. Who served you? / The man standing behind the counter.\n2. Who served you? / The woman standing behind the counter.\n3. Who is making all that noise? / The men repairing the road.\n4. I served him yesterday. / He is the man I served yesterday.\n5. I served her yesterday. / She is the woman I served yesterday.\n6. I saw them yesterday. / They are the men I saw yesterday.\n7. What's this? / This is the book I bought yesterday.\n8. What are these? / These are the books I bought yesterday.\n9. What's this? / This is the kitten I found in the garden.",
+        "translation": "1. 是谁接待您的？/ 站在柜台后面的那位男士。\n2. 是谁接待您的？/ 站在柜台后面的那位女士。\n3. 是谁在发出那么大的响声？/ 修路的那些人。\n4. 我昨天接待了他。/ 他是我昨天接待的那位男士。\n5. 我昨天接待了她。/ 她是我昨天接待的那位女士。\n6. 我昨天见到了他们。/ 他们是我昨天见到的那些人。\n7. 这是什么？/ 这是我昨天买的那本书。\n8. 这些是什么？/ 这些是我昨天买的那些书。\n9. 这是什么？/ 这是我在花园里发现的那只小猫。"
+      },
+      {
+        "id": "l124-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p251",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 9,
+        "answer_kind": "suggested",
+        "context": "One question per picture (9 pictures).",
+        "questions": [
+          {"id": "l124-lq1", "number": 1, "prompt": "Who served you? (Picture 1)", "answer": "The man standing behind the counter."},
+          {"id": "l124-lq2", "number": 2, "prompt": "Who served you? (Picture 2)", "answer": "The woman standing behind the counter."},
+          {"id": "l124-lq3", "number": 3, "prompt": "Who is making all that noise? (Picture 3)", "answer": "The men repairing the road."},
+          {"id": "l124-lq4", "number": 4, "prompt": "Who is the man you served yesterday? (Picture 4)", "answer": "He is the man I served yesterday."},
+          {"id": "l124-lq5", "number": 5, "prompt": "Who is the woman you served yesterday? (Picture 5)", "answer": "She is the woman I served yesterday."},
+          {"id": "l124-lq6", "number": 6, "prompt": "Who are the men you saw yesterday? (Picture 6)", "answer": "They are the men I saw yesterday."},
+          {"id": "l124-lq7", "number": 7, "prompt": "What's this? (Picture 7)", "answer": "This is the book I bought yesterday."},
+          {"id": "l124-lq8", "number": 8, "prompt": "What are these? (Picture 8)", "answer": "These are the books I bought yesterday."},
+          {"id": "l124-lq9", "number": 9, "prompt": "What's this? (Picture 9)", "answer": "This is the kitten I found in the garden."}
+        ]
+      },
+      {
+        "id": "l124-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook-p252",
+        "items": [
+          {"word": "kitten", "ipa": "/'kɪtn/", "pos": "n.", "meaning": "小猫"}
+        ]
+      },
+      {
+        "id": "l124-written-a",
+        "type": "exercise",
+        "source": "textbook-p252",
+        "title": "Written A: Rewrite these sentences",
+        "instruction": "模仿例句把以下每对句子改写成一句话。",
+        "translation": "模仿例句把以下每对句子改写成一句话。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "6 rewrite items forming relative clauses with the pronoun omitted; 3 examples printed on the page.",
+        "questions": [
+          {"id": "l124-wa1", "number": 1, "prompt": "She is the woman. I drove her to London.", "answer": "She is the woman I drove to London."},
+          {"id": "l124-wa2", "number": 2, "prompt": "That's the film. I saw it.", "answer": "That's the film I saw."},
+          {"id": "l124-wa3", "number": 3, "prompt": "That's the man. I spoke to him.", "answer": "That's the man I spoke to."},
+          {"id": "l124-wa4", "number": 4, "prompt": "They are the thieves. The police caught them.", "answer": "They are the thieves the police caught."},
+          {"id": "l124-wa5", "number": 5, "prompt": "These are the letters. I typed them.", "answer": "These are the letters I typed."},
+          {"id": "l124-wa6", "number": 6, "prompt": "These are the people. You asked me about them.", "answer": "These are the people you asked me about."}
+        ]
+      },
+      {
+        "id": "l124-written-b",
+        "type": "exercise",
+        "source": "textbook-p252",
+        "title": "Written B: Write questions and answers",
+        "instruction": "模仿例句提问并回答。",
+        "translation": "模仿例句提问并回答。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "6 question-and-answer items; 1 example printed on the page.",
+        "questions": [
+          {"id": "l124-wb1", "number": 1, "prompt": "I saw that man yesterday.", "answer": "Which man? That man? / Yes, that's the man I saw yesterday."},
+          {"id": "l124-wb2", "number": 2, "prompt": "I repaired that car yesterday.", "answer": "Which car? That car? / Yes, that's the car I repaired yesterday."},
+          {"id": "l124-wb3", "number": 3, "prompt": "I drove that woman to London yesterday.", "answer": "Which woman? That woman? / Yes, that's the woman I drove to London yesterday."},
+          {"id": "l124-wb4", "number": 4, "prompt": "I bought that umbrella yesterday.", "answer": "Which umbrella? That umbrella? / Yes, that's the umbrella I bought yesterday."},
+          {"id": "l124-wb5", "number": 5, "prompt": "I took that medicine yesterday.", "answer": "Which medicine? That medicine? / Yes, that's the medicine I took yesterday."},
+          {"id": "l124-wb6", "number": 6, "prompt": "I invited that man to my house yesterday.", "answer": "Which man? That man? / Yes, that's the man I invited to my house yesterday."}
+        ]
+      },
+      {
+        "id": "l124-written-c",
+        "type": "exercise",
+        "source": "textbook-p252",
+        "title": "Written C: Write new sentences",
+        "instruction": "模仿例句改写以下句子。",
+        "translation": "模仿例句改写以下句子。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "6 rewrite items forming relative clauses; 1 example printed on the page.",
+        "questions": [
+          {"id": "l124-wc1", "number": 1, "prompt": "This is the village. I wrote to you about it.", "answer": "That's right. This is the village you wrote to me about."},
+          {"id": "l124-wc2", "number": 2, "prompt": "He is the person. I have heard about him.", "answer": "That's right. He is the person you have heard about."},
+          {"id": "l124-wc3", "number": 3, "prompt": "This is the test. I spoke to you about it.", "answer": "That's right. This is the test you spoke to me about."},
+          {"id": "l124-wc4", "number": 4, "prompt": "She is the woman. I read about her.", "answer": "That's right. She is the woman you read about."},
+          {"id": "l124-wc5", "number": 5, "prompt": "This is something new. I haven't thought about it.", "answer": "That's right. This is something new you haven't thought about."},
+          {"id": "l124-wc6", "number": 6, "prompt": "This is something. I must decide about it.", "answer": "That's right. This is something you must decide about."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l124-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-124-a",
+        "title": "Practice A: Structure",
+        "instruction": "Write answers to these questions using the prompts and omitting the relative pronoun. 用括号中的提示回答以下问题，省略关系代词。",
+        "translation": "用括号中的提示回答以下问题，省略关系代词。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 124 A, p.215)",
+        "context": "8 structure items omitting the relative pronoun; item 1 is the printed example.",
+        "questions": [
+          {"id": "l124-pa1", "number": 1, "example": true, "prompt": "Who's that man? (I told you about him.)", "answer": "That's the man I told you about."},
+          {"id": "l124-pa2", "number": 2, "prompt": "Who's that girl? (I met her yesterday.)", "answer": "That's the girl I met yesterday."},
+          {"id": "l124-pa3", "number": 3, "prompt": "Which is this book? (We talked about it.)", "answer": "This is the book we talked about."},
+          {"id": "l124-pa4", "number": 4, "prompt": "Who are those people? (We went to London with them.)", "answer": "Those are the people we went to London with."},
+          {"id": "l124-pa5", "number": 5, "prompt": "What's this programme? (I often listen to it.)", "answer": "This is the programme I often listen to."},
+          {"id": "l124-pa6", "number": 6, "prompt": "What's that chair? (The president sat on it.)", "answer": "That's the chair the president sat on."},
+          {"id": "l124-pa7", "number": 7, "prompt": "Which plane is that? (I flew to America in it.)", "answer": "That's the plane I flew to America in."},
+          {"id": "l124-pa8", "number": 8, "prompt": "Who are those women? (I spoke to you about them.)", "answer": "Those are the women I spoke to you about."}
+        ]
+      },
+      {
+        "id": "l124-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-124-b",
+        "title": "Practice B: Situations",
+        "instruction": "Read these situations. What exclamations do you make in each beginning 'What ...?' 读这些情况，用 'What ...?' 开头的感叹句回答。",
+        "translation": "读这些情况，用 'What ...?' 开头的感叹句回答。",
+        "expected_items": 4,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 124 B, p.215)",
+        "context": "4 situation items writing exclamations beginning 'What ...?'",
+        "questions": [
+          {"id": "l124-pb1", "number": 1, "prompt": "A friend has an idea. You think it's good. What do you say?", "answer": "What a good idea!"},
+          {"id": "l124-pb2", "number": 2, "prompt": "Another friend shows you a photograph he/she took. You think it's excellent. What do you say?", "answer": "What an excellent photograph!"},
+          {"id": "l124-pb3", "number": 3, "prompt": "The photograph is of a girl. You think she's beautiful. What do you say?", "answer": "What a beautiful girl!"},
+          {"id": "l124-pb4", "number": 4, "prompt": "You and a friend go to the cinema. You think the film was awful. What do you say about the film when you get outside?", "answer": "What an awful film!"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l124-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p363-364",
+        "title": "Grammar I: Rewrite the sentences by omitting the relative pronouns according to the example",
+        "instruction": "仿照例句改写下列句子，省去关系代词。",
+        "translation": "仿照例句改写下列句子，省去关系代词。",
+        "expected_items": 13,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.559 (新概念英语语法练习1)",
+        "context": "13 rewrite items omitting the relative pronoun; item 1 is the printed example.",
+        "questions": [
+          {"id": "l124-gi1", "number": 1, "example": true, "prompt": "The boy who is on the blue bike is my son.", "answer": "The boy on the blue bike is my son."},
+          {"id": "l124-gi2", "number": 2, "prompt": "The man who is opening the bank is Mr. Brown.", "answer": "The man opening the bank is Mr. Brown."},
+          {"id": "l124-gi3", "number": 3, "prompt": "The car that is on the right belongs to Mike.", "answer": "The car on the right belongs to Mike."},
+          {"id": "l124-gi4", "number": 4, "prompt": "The hat that the nurse is wearing is part of her uniform.", "answer": "The hat the nurse is wearing is part of her uniform."},
+          {"id": "l124-gi5", "number": 5, "prompt": "The babies whom you can see are only a few hours old.", "answer": "The babies you can see are only a few hours old."},
+          {"id": "l124-gi6", "number": 6, "prompt": "The bus that we are on will take us downtown.", "answer": "The bus we are on will take us downtown."},
+          {"id": "l124-gi7", "number": 7, "prompt": "What's the name of the town that you live in?", "answer": "What's the name of the town you live in?"},
+          {"id": "l124-gi8", "number": 8, "prompt": "He gave her the purse which she had left in the taxi.", "answer": "He gave her the purse she had left in the taxi."},
+          {"id": "l124-gi9", "number": 9, "prompt": "The people who were standing there saw the accident.", "answer": "The people standing there saw the accident."},
+          {"id": "l124-gi10", "number": 10, "prompt": "The hospital which is around the corner is the one that we are going to.", "answer": "The hospital around the corner is the one we are going to."},
+          {"id": "l124-gi11", "number": 11, "prompt": "Is this the coat which you took off?", "answer": "Is this the coat you took off?"},
+          {"id": "l124-gi12", "number": 12, "prompt": "I'm afraid there is little that I can do for you.", "answer": "I'm afraid there is little I can do for you."},
+          {"id": "l124-gi13", "number": 13, "prompt": "The music that is coming from that window is nice.", "answer": "The music coming from that window is nice."}
+        ]
+      },
+      {
+        "id": "l124-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p364-365",
+        "title": "Grammar II: Correct the sentences and rewrite them according to the example",
+        "instruction": "仿照例句改正并重写下列句子。",
+        "translation": "仿照例句改正并重写下列句子。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.559-560 (新概念英语语法练习1)",
+        "context": "10 correct-and-rewrite items; item 1 is the printed example.",
+        "questions": [
+          {"id": "l124-gii1", "number": 1, "example": true, "prompt": "The building you are looking is the Foreign Language Department Building.", "answer": "The building you are looking at is the Foreign Language Department Building."},
+          {"id": "l124-gii2", "number": 2, "prompt": "I want a watch who I can use as a stop-watch.", "answer": "I want a watch which/that I can use as a stop-watch."},
+          {"id": "l124-gii3", "number": 3, "prompt": "This writing paper my father gave it to me is very good.", "answer": "This writing paper my father gave to me is very good."},
+          {"id": "l124-gii4", "number": 4, "prompt": "She couldn't find her shopping bag which she had put all her books.", "answer": "She couldn't find her shopping bag which she had put all her books in."},
+          {"id": "l124-gii5", "number": 5, "prompt": "The pen he was writing with it was very expensive.", "answer": "The pen he was writing with was very expensive."},
+          {"id": "l124-gii6", "number": 6, "prompt": "There were some people not liking the idea.", "answer": "There were some people who/that didn't like the idea."},
+          {"id": "l124-gii7", "number": 7, "prompt": "This is my brother going to Australia.", "answer": "This is my brother who/that is going to Australia."},
+          {"id": "l124-gii8", "number": 8, "prompt": "I don't know the full name of the person I'm writing.", "answer": "I don't know the full name of the person I'm writing to."},
+          {"id": "l124-gii9", "number": 9, "prompt": "There's the boy losing his book.", "answer": "There's the boy who/that lost his book."},
+          {"id": "l124-gii10", "number": 10, "prompt": "This is the kitten Jane finding in the garden.", "answer": "This is the kitten Jane found in the garden."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.251 (Lesson 124 pictures)", "href": "../img/lesson-124-01-text.jpg"},
+    {"label": "Textbook p.252 (Lesson 124 new words & written exercises)", "href": "../img/lesson-124-02-text.jpg"},
+    {"label": "Workbook Lesson 124 (practice page)", "href": "../img/lesson-124-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
+    {"label": "Grammar Workbook p.363-365 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=363"},
+    {"label": "Grammar Workbook p.559-560 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=559"}
+  ],
+  "characters": {
+    "man": "The man standing behind the counter (Picture 1).",
+    "woman": "The woman standing behind the counter (Picture 2).",
+    "men": "The men repairing the road (Picture 3).",
+    "kitten": "The kitten found in the garden (Picture 9)."
+  },
+  "images": {
+    "l124-pictures": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
+      "src": "assets/lesson-124/pictures-grid.jpg",
+      "width": 1636,
+      "height": 1800,
+      "source": "img/lesson-124-01-text.jpg (textbook p.251)"
+    }
+  }
+}
