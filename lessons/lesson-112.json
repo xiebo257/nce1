@@ -1,0 +1,236 @@
+{
+  "number": 112,
+  "status": "verified",
+  "title": "How do they compare? 比一比",
+  "translation": "它们怎么样？比一比。",
+  "description": "Lesson 112 is a picture lesson about 'as...as' and 'not as...as' comparisons. Eighteen pictures (a-r) show pairs of things compared using as...as (sweet, tall, short, old, blunt, sharp) and not as...as (clean, fat, smart, light, new, expensive), followed by examples of difficult/more difficult/most difficult and interesting/less interesting/least interesting. The written exercises and grammar workbook section focus on age, weight and height comparisons using as...as and not as...as.",
+  "answer_note": "Listening and written exercises A-C are model answers (suggested). Workbook A and B are from the workbook answer key (source-key). Grammar I-III are from the grammar workbook answer key (source-key, p.545).",
+  "expected_answers": 62,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l112-lesson-intro",
+        "type": "text",
+        "source": "textbook-p227",
+        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l112-lesson-items",
+        "type": "text",
+        "source": "textbook-p227",
+        "image": "l112-items-grid",
+        "text": "As...as (a-f): sweet, tall, short, old, blunt, sharp. Not as...as (g-l): clean, fat, smart, light, new, expensive. Examples (m-r): difficult / more difficult / most difficult; interesting / less interesting / least interesting.",
+        "translation": "像……一样（a-f）：甜的、高的、矮的、老的、钝的、锋利的。不像……一样（g-l）：干净的、胖的、聪明的、轻的、新的、贵的。例句（m-r）：难的/更难的/最难的；有趣的/没那么有趣的/最没趣的。"
+      },
+      {
+        "id": "l112-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p227",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the recording and answer the questions for each picture (a-r).",
+        "translation": "听录音并回答每组图片（a-r）的问题。",
+        "expected_items": 18,
+        "answer_kind": "suggested",
+        "context": "The recording reads comparisons for each picture pair.",
+        "questions": [
+          {"id": "l112-listen-a", "number": 1, "prompt": "Picture a: Compare the two apples (sweet).", "answer": "The red apple is as sweet as the green apple."},
+          {"id": "l112-listen-b", "number": 2, "prompt": "Picture b: Compare the two people (tall).", "answer": "The policeman is as tall as the policewoman."},
+          {"id": "l112-listen-c", "number": 3, "prompt": "Picture c: Compare the two people (short).", "answer": "The man is as short as the woman."},
+          {"id": "l112-listen-d", "number": 4, "prompt": "Picture d: Compare the two people (old).", "answer": "The boy is as old as the girl."},
+          {"id": "l112-listen-e", "number": 5, "prompt": "Picture e: Compare the two pencils (blunt).", "answer": "The red pencil is as blunt as the green pencil."},
+          {"id": "l112-listen-f", "number": 6, "prompt": "Picture f: Compare the two knives (sharp).", "answer": "The red knife is as sharp as the green knife."},
+          {"id": "l112-listen-g", "number": 7, "prompt": "Picture g: Compare the two cars (clean).", "answer": "The blue car is not as clean as the red car."},
+          {"id": "l112-listen-h", "number": 8, "prompt": "Picture h: Compare the two people (fat).", "answer": "The woman is not as fat as the man."},
+          {"id": "l112-listen-i", "number": 9, "prompt": "Picture i: Compare the two people (smart).", "answer": "The boy is not as smart as the girl."},
+          {"id": "l112-listen-j", "number": 10, "prompt": "Picture j: Compare the two boxes (light).", "answer": "The red box is not as light as the blue box."},
+          {"id": "l112-listen-k", "number": 11, "prompt": "Picture k: Compare the two bags (new).", "answer": "The red bag is not as new as the blue bag."},
+          {"id": "l112-listen-l", "number": 12, "prompt": "Picture l: Compare the two shops (expensive).", "answer": "The red shop is not as expensive as the blue shop."},
+          {"id": "l112-listen-m", "number": 13, "prompt": "Picture m: What do you think of this test?", "answer": "This test is difficult."},
+          {"id": "l112-listen-n", "number": 14, "prompt": "Picture n: What do you think of this test?", "answer": "This test is more difficult."},
+          {"id": "l112-listen-o", "number": 15, "prompt": "Picture o: What do you think of this test?", "answer": "This is the most difficult test I have ever done!"},
+          {"id": "l112-listen-p", "number": 16, "prompt": "Picture p: What do you think of this book?", "answer": "This book is interesting."},
+          {"id": "l112-listen-q", "number": 17, "prompt": "Picture q: What do you think of this book?", "answer": "This book is less interesting."},
+          {"id": "l112-listen-r", "number": 18, "prompt": "Picture r: What do you think of this book?", "answer": "This is the least interesting book I have ever read!"}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l112-written-a",
+        "type": "exercise",
+        "source": "textbook-p228",
+        "title": "Written exercise A",
+        "instruction": "Complete these sentences. (Two examples are given.)",
+        "translation": "模仿例句完成以下句子。（已给出两个例子。）",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Model answers using comparatives.",
+        "questions": [
+          {"id": "l112-wa1", "number": 1, "prompt": "This book is cheap, but that one is ...", "answer": "This book is cheap, but that one is more expensive."},
+          {"id": "l112-wa2", "number": 2, "prompt": "This book is expensive, but that one is ...", "answer": "This book is expensive, but that one is cheaper."},
+          {"id": "l112-wa3", "number": 3, "prompt": "This question is easy, but that one is ...", "answer": "This question is easy, but that one is more difficult."},
+          {"id": "l112-wa4", "number": 4, "prompt": "This question is difficult, but that one is ...", "answer": "This question is difficult, but that one is easier."}
+        ]
+      },
+      {
+        "id": "l112-written-b",
+        "type": "exercise",
+        "source": "textbook-p228",
+        "title": "Written exercise B",
+        "instruction": "Write questions and answers. (One example is given.)",
+        "translation": "模仿例句提问并回答。（已给出一个例子。）",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Model questions and answers using as...as.",
+        "questions": [
+          {"id": "l112-wb1", "number": 1, "example": true, "prompt": "policeman / tall / policewoman", "answer": "Is the policeman as tall as the policewoman? No, he isn't. The policeman isn't as tall as the policewoman."},
+          {"id": "l112-wb2", "number": 2, "prompt": "man / short / woman", "answer": "Is the man as short as the woman? Yes, he is. The man is as short as the woman."},
+          {"id": "l112-wb3", "number": 3, "prompt": "boy / old / girl", "answer": "Is the boy as old as the girl? No, he isn't. The boy isn't as old as the girl."},
+          {"id": "l112-wb4", "number": 4, "prompt": "red pencil / blunt / green pencil", "answer": "Is the red pencil as blunt as the green pencil? Yes, it is. The red pencil is as blunt as the green pencil."},
+          {"id": "l112-wb5", "number": 5, "prompt": "blue car / clean / red car", "answer": "Is the blue car as clean as the red car? No, it isn't. The blue car isn't as clean as the red car."},
+          {"id": "l112-wb6", "number": 6, "prompt": "woman / fat / man", "answer": "Is the woman as fat as the man? No, she isn't. The woman isn't as fat as the man."}
+        ]
+      },
+      {
+        "id": "l112-written-c",
+        "type": "exercise",
+        "source": "textbook-p228",
+        "title": "Written exercise C",
+        "instruction": "Write new sentences. (Two examples are given.)",
+        "translation": "模仿例句改写以下句子。（已给出两个例子。）",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Model sentences using comparative + superlative.",
+        "questions": [
+          {"id": "l112-wc1", "number": 1, "prompt": "My radio is less expensive than yours. (ever seen)", "answer": "No, it isn't. It is more expensive. It's the most expensive radio I've ever seen."},
+          {"id": "l112-wc2", "number": 2, "prompt": "Tom is less intelligent than Bill. (person / ever met)", "answer": "No, he isn't. He is more intelligent. He's the most intelligent person I've ever met."},
+          {"id": "l112-wc3", "number": 3, "prompt": "My book is less interesting than yours. (ever read)", "answer": "No, it isn't. It is more interesting. It's the most interesting book I've ever read."},
+          {"id": "l112-wc4", "number": 4, "prompt": "This test is more difficult. (ever done)", "answer": "Yes, it is. It is the most difficult test I've ever done."}
+        ]
+      },
+      {
+        "id": "l112-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-112-a",
+        "title": "Practice A: Complete the dialogues",
+        "instruction": "Complete the dialogues using comparative and superlative forms. (One example is given.)",
+        "translation": "用比较级和最高级形式完成对话。（已给出一个例子。）",
+        "expected_items": 4,
+        "answer_kind": "source-key",
+        "key_source": "img/key-106-112.jpg",
+        "context": "Workbook L112 A: adjectives expensive/difficult with comparative/superlative forms.",
+        "questions": [
+          {"id": "l112-pa1", "number": 1, "example": true, "prompt": "A: These shoes are uncomfortable. What are yours like? (any others / ever worn)", "answer": "B: They're more uncomfortable than any others. I think they're the most uncomfortable shoes I've ever worn."},
+          {"id": "l112-pa2", "number": 2, "prompt": "A: This second race is exciting. What do you think? (first race / ever seen)", "answer": "B: It's more exciting than the first race. I think it's the most exciting race I've ever seen."},
+          {"id": "l112-pa3", "number": 3, "prompt": "A: What did you think of the test? Was it difficult? (less difficult / others / ever had)", "answer": "B: It was less difficult than the others. I think it was the least difficult test I've ever had."},
+          {"id": "l112-pa4", "number": 4, "prompt": "A: I think London's interesting. What do you think? (many other cities / been to)", "answer": "B: It's more interesting than many other cities. I think it's the most interesting city I've ever been to."}
+        ]
+      },
+      {
+        "id": "l112-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-112-b",
+        "title": "Practice B: Compare using (not) as...as",
+        "instruction": "Compare these sentences using (not) as...as. (One example is given.)",
+        "translation": "用 (not) as...as 比较以下句子。（已给出一个例子。）",
+        "expected_items": 4,
+        "answer_kind": "source-key",
+        "key_source": "img/key-106-112.jpg",
+        "context": "Workbook L112 B: items 1-4.",
+        "questions": [
+          {"id": "l112-pb1", "number": 1, "example": true, "prompt": "Tom's 1m 20cm tall. His sister Jane is 1m 20cm tall, too. And Bob is 1m 30cm.", "answer": "Jane is as tall as her brother Tom, but she isn't as tall as Bob."},
+          {"id": "l112-pb2", "number": 2, "prompt": "The Maths test was difficult. The French test was difficult, too. The English test was the most difficult.", "answer": "The French test was as difficult as the Maths test, but it wasn't as difficult as the English test."},
+          {"id": "l112-pb3", "number": 3, "prompt": "Penny is 10 years old. Gary is 10, too. Sandra is 12 years old.", "answer": "Gary is as old as Penny, but he isn't as old as Sandra."},
+          {"id": "l112-pb4", "number": 4, "prompt": "The yellow apples are sweet. The green ones are sweet, too. The red ones are the sweetest.", "answer": "The green apples are as sweet as the yellow ones, but they aren't as sweet as the red ones."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l112-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p340",
+        "title": "Grammar I: Answer questions about children's ages",
+        "instruction": "仿照例句用表格里提供的学生年龄的信息回答下列问题。",
+        "translation": "仿照例句用表格里提供的学生年龄的信息回答下列问题。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.545 (新概念英语语法练习1)",
+        "context": "Ages: Mary 14, Marie 16, Carol 16, Sophie 17, William 12, Jill 16, Scott 16, Jim 17. Item 1 is the printed example.",
+        "questions": [
+          {"id": "l112-gi1", "number": 1, "example": true, "prompt": "Which girls are as old as Marie?", "answer": "Carol and Jill are as old as Marie."},
+          {"id": "l112-gi2", "number": 2, "prompt": "Which boys are not as old as Jim?", "answer": "William and Scott are not as old as Jim."},
+          {"id": "l112-gi3", "number": 3, "prompt": "Which girl is not as old as Carol?", "answer": "Mary is not as old as Carol."},
+          {"id": "l112-gi4", "number": 4, "prompt": "Which boy is not as old as Scott?", "answer": "William is not as old as Scott."},
+          {"id": "l112-gi5", "number": 5, "prompt": "Which boy is not as old as Mary?", "answer": "William is not as old as Mary."},
+          {"id": "l112-gi6", "number": 6, "prompt": "Which boy is as old as Jill?", "answer": "Scott is as old as Jill."},
+          {"id": "l112-gi7", "number": 7, "prompt": "Which girls are not as old as Sophie?", "answer": "Mary, Marie, Carol and Jill are not as old as Sophie."},
+          {"id": "l112-gi8", "number": 8, "prompt": "Which boy is as old as Sophie?", "answer": "Jim is as old as Sophie."}
+        ]
+      },
+      {
+        "id": "l112-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p341",
+        "title": "Grammar II: Finish sentences about children's weight",
+        "instruction": "用表格里提供的学生体重的信息完成下列各句。",
+        "translation": "用表格里提供的学生体重的信息完成下列各句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.545 (新概念英语语法练习1)",
+        "context": "Weights: Mary 45, Marie 55, Carol 47, Sophie 40, William 45, Jill 47, Scott 55, Jim 57.",
+        "questions": [
+          {"id": "l112-gii1", "number": 1, "prompt": "Mary is as heavy as ...", "answer": "William"},
+          {"id": "l112-gii2", "number": 2, "prompt": "Carol is not as heavy as ...", "answer": "Marie, Scott or Jim"},
+          {"id": "l112-gii3", "number": 3, "prompt": "William is not ...", "answer": "as heavy as Marie, Carol, Jill, Scott or Jim"},
+          {"id": "l112-gii4", "number": 4, "prompt": "Jill is as ...", "answer": "heavy as Carol"},
+          {"id": "l112-gii5", "number": 5, "prompt": "Scott is not ...", "answer": "as heavy as Jim"},
+          {"id": "l112-gii6", "number": 6, "prompt": "Marie is not ...", "answer": "as heavy as Jim"},
+          {"id": "l112-gii7", "number": 7, "prompt": "Marie is as ...", "answer": "heavy as Scott"},
+          {"id": "l112-gii8", "number": 8, "prompt": "Mary is not ...", "answer": "as heavy as Marie, Carol, Jill, Scott or Jim"},
+          {"id": "l112-gii9", "number": 9, "prompt": "Sophie is not ...", "answer": "as heavy as Mary, Marie, Carol, William, Jill, Scott or Jim"},
+          {"id": "l112-gii10", "number": 10, "prompt": "Jill is not ...", "answer": "as heavy as Marie, Scott or Jim"}
+        ]
+      },
+      {
+        "id": "l112-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p341-342",
+        "title": "Grammar III: Make sentences about children's height",
+        "instruction": "仿照例句用表格里提供的学生身高的信息造句。",
+        "translation": "仿照例句用表格里提供的学生身高的信息造句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.545 (新概念英语语法练习1)",
+        "context": "Heights: Mary 1.63, Marie 1.68, Carol 1.63, Sophie 1.60, William 1.60, Jill 1.65, Scott 1.65, Jim 1.68. Items 1-2 are printed examples.",
+        "questions": [
+          {"id": "l112-giii1", "number": 1, "example": true, "prompt": "Mary is ... (height 1.63)", "answer": "as tall as Carol."},
+          {"id": "l112-giii2", "number": 2, "example": true, "prompt": "Mary is ... (height 1.63)", "answer": "not as tall as Marie."},
+          {"id": "l112-giii3", "number": 3, "prompt": "Marie is ... (height 1.68)", "answer": "as tall as Jim."},
+          {"id": "l112-giii4", "number": 4, "prompt": "Carol is ... (height 1.63)", "answer": "not as tall as Jim."},
+          {"id": "l112-giii5", "number": 5, "prompt": "Sophie is ... (height 1.60)", "answer": "as tall as William."},
+          {"id": "l112-giii6", "number": 6, "prompt": "William is ... (height 1.60)", "answer": "not as tall as Mary."},
+          {"id": "l112-giii7", "number": 7, "prompt": "Jill is ... (height 1.65)", "answer": "not as tall as Jim."},
+          {"id": "l112-giii8", "number": 8, "prompt": "Scott is ... (height 1.65)", "answer": "as tall as Jill."},
+          {"id": "l112-giii9", "number": 9, "prompt": "Jim is ... (height 1.68)", "answer": "as tall as Marie."},
+          {"id": "l112-giii10", "number": 10, "prompt": "Scott is ... (height 1.65)", "answer": "not as tall as Marie."}
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {},
+  "images": {
+    "l112-items-grid": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Grid of 18 pictures (a-r) in groups: a-f showing as...as comparisons (sweet, tall, short, old, blunt, sharp), g-l showing not as...as comparisons (clean, fat, smart, light, new, expensive), and m-r showing examples of difficult/more/most and interesting/less/least.",
+      "source": "img/lesson-112-01-text.jpg (textbook p.227)",
+      "characters": [],
+      "src": "assets/lesson-112/items-grid.jpg",
+      "width": 1553,
+      "height": 2400
+    }
+  }
+}
