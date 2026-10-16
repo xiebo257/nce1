@@ -1,0 +1,225 @@
+{
+  "number": 128,
+  "status": "verified",
+  "title": "He can't be... He must be... 他不可能…… 他肯定是……",
+  "translation": "他不可能…… 他肯定是……",
+  "description": "A picture lesson on the modal verbs for deduction: 'can't be' (negative certainty) and 'must be' (positive certainty). Eight pictures show deductions about a man's condition, a hat, a woman's nationality, a man's job, ages, a date, family birth order and what a man is doing. The lesson introduces written exercises on rewriting 'must' sentences with 'has to' or 'I think he is probably...', and writing new sentences with 'can't be' and 'must be'. The workbook drills writing deductions with 'can't be' and 'must be' and agreeing with tag questions; the grammar workbook completes sentences with 'can't' or 'must' and answers questions following the model.",
+  "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (rewrite with has to / I think he is probably) and B (write new sentences with can't be / must be) are model answers (suggested). Workbook A (write answers with can't be / must be) is from the workbook answer key (source-key, img/key-123-129.jpg p.215); Workbook B (agreeing with tag questions) is from the workbook answer key (source-key, img/key-123-129.jpg p.215). Grammar I (fill in can't or must) and II (answer the questions according to the example) are from the grammar workbook answer key (source-key, pdf p.564-565).",
+  "expected_answers": 65,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l128-lesson-intro",
+        "type": "text",
+        "source": "textbook-p259",
+        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l128-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p259",
+        "image": "l128-pictures",
+        "text": "1. He can't be ill. He must be tired.\n2. It can't be my new hat. It must be my old one.\n3. She can't be Danish. She must be Swedish.\n4. He can't be a dentist. He must be a doctor.\n5. She can't be forty. She must be fifty.\n6. It can't be the 20th. It must be the 21st.\n7. He can't be the youngest. He must be the oldest.\n8. He can't be reading. He must be sleeping.",
+        "translation": "1. 他不可能生病了。他肯定是累了。\n2. 那不可能是我的新帽子。那肯定是我的旧帽子。\n3. 她不可能丹麦人。她肯定是瑞典人。\n4. 他不可能牙医。他肯定是医生。\n5. 她不可能四十岁。她肯定五十岁了。\n6. 那不可能是二十号。那肯定是二十一号。\n7. 他不可能是最小的。他肯定是最老的。\n8. 他不可能在阅读。他肯定在睡觉。"
+      },
+      {
+        "id": "l128-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p259",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 8,
+        "answer_kind": "suggested",
+        "context": "One question per picture (8 pictures); the answer is the spoken deduction from the picture captions.",
+        "questions": [
+          {"id": "l128-lq1", "number": 1, "prompt": "What's wrong with him? (Picture 1)", "answer": "He can't be ill. He must be tired."},
+          {"id": "l128-lq2", "number": 2, "prompt": "Whose hat is it? (Picture 2)", "answer": "It can't be my new hat. It must be my old one."},
+          {"id": "l128-lq3", "number": 3, "prompt": "Where is she from? (Picture 3)", "answer": "She can't be Danish. She must be Swedish."},
+          {"id": "l128-lq4", "number": 4, "prompt": "What is his job? (Picture 4)", "answer": "He can't be a dentist. He must be a doctor."},
+          {"id": "l128-lq5", "number": 5, "prompt": "How old is she? (Picture 5)", "answer": "She can't be forty. She must be fifty."},
+          {"id": "l128-lq6", "number": 6, "prompt": "What's the date? (Picture 6)", "answer": "It can't be the 20th. It must be the 21st."},
+          {"id": "l128-lq7", "number": 7, "prompt": "Where does he come in the family? (Picture 7)", "answer": "He can't be the youngest. He must be the oldest."},
+          {"id": "l128-lq8", "number": 8, "prompt": "What is he doing? (Picture 8)", "answer": "He can't be reading. He must be sleeping."}
+        ]
+      },
+      {
+        "id": "l128-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook-p259",
+        "items": [
+          {"word": "dentist", "ipa": "/'dentist/", "pos": "n.", "meaning": "牙医"},
+          {"word": "probably", "ipa": "/'prɔbəbli/", "pos": "adv.", "meaning": "很可能，大概"}
+        ]
+      },
+      {
+        "id": "l128-written-a",
+        "type": "exercise",
+        "source": "textbook-p260",
+        "title": "Written A: Rewrite these sentences",
+        "instruction": "模仿例句，使用 has to 或 I think he is probably... 改写以下句子。",
+        "translation": "模仿例句，使用 has to 或 I think he is probably... 改写以下句子。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "7 rewrite items; 2 examples printed on the page (He must be home before six o'clock. → He has to be home before six o'clock. He must be tired. → I think he is probably tired.).",
+        "questions": [
+          {"id": "l128-wa1", "number": 1, "prompt": "He must be here at six o'clock.", "answer": "He has to be here at six o'clock."},
+          {"id": "l128-wa2", "number": 2, "prompt": "He must be busy.", "answer": "I think he is probably busy."},
+          {"id": "l128-wa3", "number": 3, "prompt": "He must be at the office early tomorrow.", "answer": "He has to be at the office early tomorrow."},
+          {"id": "l128-wa4", "number": 4, "prompt": "He must be sleeping.", "answer": "I think he is probably sleeping."},
+          {"id": "l128-wa5", "number": 5, "prompt": "He must be French.", "answer": "I think he is probably French."},
+          {"id": "l128-wa6", "number": 6, "prompt": "He must be in France next week.", "answer": "He has to be in France next week."},
+          {"id": "l128-wa7", "number": 7, "prompt": "He must be an engineer.", "answer": "I think he is probably an engineer."}
+        ]
+      },
+      {
+        "id": "l128-written-b",
+        "type": "exercise",
+        "source": "textbook-p260",
+        "title": "Written B: Write new sentences",
+        "instruction": "模仿例句改写下列句子。",
+        "translation": "模仿例句改写下列句子。",
+        "expected_items": 20,
+        "answer_kind": "suggested",
+        "context": "20 rewrite items; 1 example printed on the page (I think she's Danish. (Swedish) → I don't think so. She can't be Danish. She must be Swedish.).",
+        "questions": [
+          {"id": "l128-wb1", "number": 1, "prompt": "I think she's Italian. (Greek)", "answer": "I don't think so. She can't be Italian. She must be Greek."},
+          {"id": "l128-wb2", "number": 2, "prompt": "I think he's English. (American)", "answer": "I don't think so. He can't be English. He must be American."},
+          {"id": "l128-wb3", "number": 3, "prompt": "I think they're Canadian. (Australian)", "answer": "I don't think so. They can't be Canadian. They must be Australian."},
+          {"id": "l128-wb4", "number": 4, "prompt": "I think he's a mechanic. (engineer)", "answer": "I don't think so. He can't be a mechanic. He must be an engineer."},
+          {"id": "l128-wb5", "number": 5, "prompt": "I think he's a bus conductor. (bus driver)", "answer": "I don't think so. He can't be a bus conductor. He must be a bus driver."},
+          {"id": "l128-wb6", "number": 6, "prompt": "I think he's a sales rep. (the boss)", "answer": "I don't think so. He can't be a sales rep. He must be the boss."},
+          {"id": "l128-wb7", "number": 7, "prompt": "I think he's twenty-four. (thirty)", "answer": "I don't think so. He can't be twenty-four. He must be thirty."},
+          {"id": "l128-wb8", "number": 8, "prompt": "I think they're five. (seven)", "answer": "I don't think so. They can't be five. They must be seven."},
+          {"id": "l128-wb9", "number": 9, "prompt": "I think he's seventy-six. (over eighty)", "answer": "I don't think so. He can't be seventy-six. He must be over eighty."},
+          {"id": "l128-wb10", "number": 10, "prompt": "I think she's fifty-five. (under fifty)", "answer": "I don't think so. She can't be fifty-five. She must be under fifty."},
+          {"id": "l128-wb11", "number": 11, "prompt": "I think it's the 21st today. (20th)", "answer": "I don't think so. It can't be the 21st today. It must be the 20th."},
+          {"id": "l128-wb12", "number": 12, "prompt": "I think it's Tuesday today. (Wednesday)", "answer": "I don't think so. It can't be Tuesday today. It must be Wednesday."},
+          {"id": "l128-wb13", "number": 13, "prompt": "I think it's the 2nd today. (3rd)", "answer": "I don't think so. It can't be the 2nd today. It must be the 3rd."},
+          {"id": "l128-wb14", "number": 14, "prompt": "I think it's cheap. (expensive)", "answer": "I don't think so. It can't be cheap. It must be expensive."},
+          {"id": "l128-wb15", "number": 15, "prompt": "I think it's easy. (difficult)", "answer": "I don't think so. It can't be easy. It must be difficult."},
+          {"id": "l128-wb16", "number": 16, "prompt": "I think she's old. (young)", "answer": "I don't think so. She can't be old. She must be young."},
+          {"id": "l128-wb17", "number": 17, "prompt": "I think they're early. (late)", "answer": "I don't think so. They can't be early. They must be late."},
+          {"id": "l128-wb18", "number": 18, "prompt": "I think he's reading. (sleeping)", "answer": "I don't think so. He can't be reading. He must be sleeping."},
+          {"id": "l128-wb19", "number": 19, "prompt": "I think they're listening to the radio. (watching television)", "answer": "I don't think so. They can't be listening to the radio. They must be watching television."},
+          {"id": "l128-wb20", "number": 20, "prompt": "I think she's retiring. (looking for a new job)", "answer": "I don't think so. She can't be retiring. She must be looking for a new job."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l128-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-128-a",
+        "title": "Practice A: Must be and can't be",
+        "instruction": "Use the prompts to write the answers. 根据提示写出答案。",
+        "translation": "根据提示写出答案。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 128 A, p.215)",
+        "context": "8 items writing deductions with 'can't be' and 'must be'; item 1 (Japanese / Chinese) is the printed example.",
+        "questions": [
+          {"id": "l128-pa1", "number": 1, "example": true, "prompt": "Do you think she's Japanese? (Chinese)", "answer": "No, I'm sure she can't be Japanese. She must be Chinese."},
+          {"id": "l128-pa2", "number": 2, "prompt": "Is it Thursday today? (Friday)", "answer": "No, I'm sure it can't be Thursday. It must be Friday."},
+          {"id": "l128-pa3", "number": 3, "prompt": "Do you think those men are Greek? (Italian)", "answer": "No, I'm sure they can't be Greek. They must be Italian."},
+          {"id": "l128-pa4", "number": 4, "prompt": "How old do you think he is? Twenty? (About twenty-five)", "answer": "No, I'm sure he can't be twenty. He must be about twenty-five."},
+          {"id": "l128-pa5", "number": 5, "prompt": "She's an actress, isn't she? (Shop assistant)", "answer": "No, I'm sure she can't be an actress. She must be a shop assistant."},
+          {"id": "l128-pa6", "number": 6, "prompt": "Is it the 13th today? (The 14th)", "answer": "No, I'm sure it can't be the 13th. It must be the 14th."},
+          {"id": "l128-pa7", "number": 7, "prompt": "They're drinking wine, aren't they? (drinking beer)", "answer": "No, I'm sure they can't be drinking wine. They must be drinking beer."},
+          {"id": "l128-pa8", "number": 8, "prompt": "Do you think he's buying that car? (just looking at it)", "answer": "No, I'm sure he can't be buying that car. He must be just looking at it."}
+        ]
+      },
+      {
+        "id": "l128-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-128-b",
+        "title": "Practice B: Agreeing with tag questions",
+        "instruction": "Agree with what the person says. 同意说话者的说法。",
+        "translation": "同意说话者的说法。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 128 B, p.215)",
+        "context": "6 tag-question items; items 1 and 2 are the printed examples.",
+        "questions": [
+          {"id": "l128-pb1", "number": 1, "example": true, "prompt": "Karen looks old.", "answer": "Yes, she does, doesn't she?"},
+          {"id": "l128-pb2", "number": 2, "example": true, "prompt": "She doesn't look very young.", "answer": "No, she doesn't, does she?"},
+          {"id": "l128-pb3", "number": 3, "prompt": "She's a good actress.", "answer": "Yes, she is, isn't she?"},
+          {"id": "l128-pb4", "number": 4, "prompt": "But she isn't very famous.", "answer": "No, she isn't, is she?"},
+          {"id": "l128-pb5", "number": 5, "prompt": "She can speak English very well.", "answer": "Yes, she can, can't she?"},
+          {"id": "l128-pb6", "number": 6, "prompt": "But she can't speak French.", "answer": "No, she can't, can she?"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l128-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p376",
+        "title": "Grammar I: Fill in the blanks with 'can't' or 'must'",
+        "instruction": "用 can't 或 must 填空。",
+        "translation": "用 can't 或 must 填空。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.564 (新概念英语语法练习1)",
+        "context": "10 fill-in items choosing between 'can't' and 'must'; some items have two blanks.",
+        "questions": [
+          {"id": "l128-gi1", "number": 1, "prompt": "You are going to Paris? You ___ be serious! You ___ be joking!", "answer": "can't, must"},
+          {"id": "l128-gi2", "number": 2, "prompt": "He looks very young. He ___ be over thirty. It ___ be because he has two big boys.", "answer": "can't, must"},
+          {"id": "l128-gi3", "number": 3, "prompt": "The ambulance is in a hurry. Someone ___ be seriously ill.", "answer": "must"},
+          {"id": "l128-gi4", "number": 4, "prompt": "It can't be Friday today. I came here on Monday and I've only been here for three days. You ___ be wrong.", "answer": "must"},
+          {"id": "l128-gi5", "number": 5, "prompt": "I don't believe it. It ___ be true. You ___ be dreaming.", "answer": "can't, must"},
+          {"id": "l128-gi6", "number": 6, "prompt": "What did he say about her? He ___ mean it. He ___ be joking.", "answer": "can't, must"},
+          {"id": "l128-gi7", "number": 7, "prompt": "It ___ be ten o'clock, can it? I feel we've only been here for half an hour. Your watch ___ be fast.", "answer": "can't, must"},
+          {"id": "l128-gi8", "number": 8, "prompt": "I think the answer is yes. You ___ be right.", "answer": "must"},
+          {"id": "l128-gi9", "number": 9, "prompt": "Did you say he is English? He ___ be from England. He looks like an Indian. He ___ be from Asia.", "answer": "can't, must"},
+          {"id": "l128-gi10", "number": 10, "prompt": "It's the 13th tomorrow, so it ___ be the 12th today.", "answer": "must"}
+        ]
+      },
+      {
+        "id": "l128-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p377",
+        "title": "Grammar II: Answer the questions according to the example",
+        "instruction": "仿照例句回答下列问题。",
+        "translation": "仿照例句回答下列问题。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.564-565 (新概念英语语法练习1)",
+        "context": "10 answer items; item 1 (Holland / Russia) is the printed example. Each answer uses 'can't be' and 'must be'.",
+        "questions": [
+          {"id": "l128-gii1", "number": 1, "example": true, "prompt": "Where do you think he is from? Is he from Holland? (Russia)", "answer": "No, he can't be from Holland. He must be from Russia."},
+          {"id": "l128-gii2", "number": 2, "prompt": "Who do you think that is? Is it Jack? (Mike)", "answer": "No, it can't be Jack. It must be Mike."},
+          {"id": "l128-gii3", "number": 3, "prompt": "What do you think his job is? Is he a lawyer? (artist)", "answer": "No, he can't be a lawyer. He must be an artist."},
+          {"id": "l128-gii4", "number": 4, "prompt": "Where do you think she lives? Does she live near the school? (a long way from the school)", "answer": "No, she can't live near the school. She must live a long way from the school."},
+          {"id": "l128-gii5", "number": 5, "prompt": "Where do you think Ann is? Is she at home? (at the office)", "answer": "No, she can't be at home. She must be at the office."},
+          {"id": "l128-gii6", "number": 6, "prompt": "What do you think they are doing now? Are they working? (playing)", "answer": "No, they can't be working. They must be playing."},
+          {"id": "l128-gii7", "number": 7, "prompt": "What time do you think it is now? Is it two o'clock? (three o'clock)", "answer": "No, it can't be two o'clock. It must be three o'clock."},
+          {"id": "l128-gii8", "number": 8, "prompt": "Which umbrella do you think is hers? Is it the red one? (yellow one)", "answer": "No, it can't be the red one. It must be the yellow one."},
+          {"id": "l128-gii9", "number": 9, "prompt": "Which month is it? Is it December? (August)", "answer": "No, it can't be December. It must be August."},
+          {"id": "l128-gii10", "number": 10, "prompt": "How old is he? Is he fourteen? (eighteen)", "answer": "No, he can't be fourteen. He must be eighteen."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.259 (Lesson 128 pictures)", "href": "../img/lesson-128-01-text.jpg"},
+    {"label": "Textbook p.260 (Lesson 128 written exercises)", "href": "../img/lesson-128-02-text.jpg"},
+    {"label": "Workbook Lesson 128 (practice page 173)", "href": "../img/lesson-128-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
+    {"label": "Grammar Workbook p.376-377 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=376"},
+    {"label": "Grammar Workbook p.564-565 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=564"}
+  ],
+  "characters": {},
+  "images": {
+    "l128-pictures": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
+      "src": "assets/lesson-128/pictures-grid.jpg",
+      "width": 1647,
+      "height": 1800,
+      "source": "img/lesson-128-01-text.jpg (textbook p.259)"
+    }
+  }
+}
