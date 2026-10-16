@@ -1,0 +1,209 @@
+{
+  "number": 141,
+  "status": "verified",
+  "title": "Sally's first train ride",
+  "translation": "萨莉第一次乘火车旅行",
+  "description": "A story lesson about Sally's first train ride. Last week, the narrator's four-year-old daughter Sally was invited to a children's party, and the narrator decided to take her by train. Sally was very excited because she had never travelled on a train before. She sat near the window and asked questions about everything she saw. A pretty lady got on the train and sat near Sally, wearing a blue dress and a large, fashionable hat. After the train had reached the next station, the lady opened her handbag and took out her hand mirror. The lesson introduces the past perfect tense ('had never travelled', 'had reached') and the use of 'decided', 'invited', and 'excited'. The workbook drills the story fill-in and vocabulary; the grammar workbook rewrites active sentences into the passive voice (present, past, and future passive), answers questions in the passive, and writes dialogues with 'will be + past participle'.",
+  "answer_note": "The story is from the textbook. Workbook A (story fill-in) is from the workbook answer key (source-key, img/key-135-141.jpg p.217); Workbook B (vocabulary) has no printed key, so the answers are model answers (suggested). Grammar I (rewrite in the present passive), II (rewrite in the past passive), and III (rewrite in the passive) are from the grammar workbook answer key (source-key, pdf p.577-578).",
+  "expected_answers": 55,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l141-lesson-intro",
+        "type": "text",
+        "source": "textbook-p285",
+        "text": "Listen to the tape and then answer the question that follows. 听录音，然后回答所接下来的问题。",
+        "translation": "听录音，然后回答所接下来的问题。"
+      },
+      {
+        "id": "l141-lesson-story",
+        "type": "text",
+        "source": "textbook-p285",
+        "image": "l141-scene",
+        "text": "Sally's first train ride. 萨莉第一次乘火车旅行。Last week, my four-year-old daughter, Sally, was invited to a children's party. I decided to take her by train. Sally was very excited because she had never travelled on a train before. She sat near the window and asked questions about everything she saw. A pretty lady got on the train and sat near Sally. 'Hello, little girl,' she said. Sally did not answer, but stared at her. The lady was wearing a blue dress and a large, fashionable hat. After the train had reached the next station, the lady opened her handbag and took out her hand mirror.",
+        "translation": "萨莉第一次乘火车旅行。上星期，我四岁的女儿萨莉被邀请去参加一个儿童聚会。我决定带她乘火车去。萨莉非常兴奋，因为她以前从未乘过火车。她坐在窗户旁边，对她看到的一切问这问那。一位漂亮的女士上了火车，坐在萨莉旁边。「你好，小姑娘，」她说。萨莉没有回答，只是盯着她看。那位女士穿着一件蓝连衣裙，戴着一顶时髦的大帽子。火车到达下一站后，那位女士打开她的手提包，取出她的化妆镜。"
+      },
+      {
+        "id": "l141-lesson-question",
+        "type": "text",
+        "source": "textbook-p285",
+        "text": "Question: 问题。Why was Sally excited? 萨莉为什么兴奋？",
+        "translation": "问题：萨莉为什么兴奋？"
+      },
+      {
+        "id": "l141-lesson-vocab",
+        "type": "vocabulary",
+        "source": "textbook-p285",
+        "items": [
+          {"word": "invite", "ipa": "/ɪnˈvaɪt/", "pos": "v.", "meaning": "邀请"},
+          {"word": "decide", "ipa": "/dɪˈsaɪd/", "pos": "v.", "meaning": "决定"},
+          {"word": "excited", "ipa": "/ɪkˈsaɪtɪd/", "pos": "adj.", "meaning": "兴奋的"},
+          {"word": "fashionable", "ipa": "/ˈfæʃənable/", "pos": "adj.", "meaning": "时髦的"}
+        ]
+      },
+      {
+        "id": "l141-lesson-notes",
+        "type": "notes",
+        "source": "textbook-p285",
+        "items": [
+          {"title": "past perfect 的用法", "text": "过去完成时表示「过去的过去」：She had never travelled on a train before. (她以前从未乘过火车。)"},
+          {"title": "was invited 的用法", "text": "「被邀请」用被动语态：Sally was invited to a children's party. 本单元的语法练习正是围绕被动语态展开。"},
+          {"title": "decided to do 的用法", "text": "「决定做某事」用 decide + to do：I decided to take her by train."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l141-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-141-a",
+        "title": "Practice A: Sally's first train ride (fill in the missing words)",
+        "instruction": "Read this and fill in the missing words. 读以下短文，填空。",
+        "translation": "读以下短文，填空。",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "img/key-135-141.jpg p.217 (Lesson 141 A)",
+        "context": "16 fill-in items in the Sally's first train ride story.",
+        "questions": [
+          {"id": "l141-pa1", "number": 1, "prompt": "my four-year-old ______, Sally", "answer": "daughter"},
+          {"id": "l141-pa2", "number": 2, "prompt": "was ______ to a children's party", "answer": "invited"},
+          {"id": "l141-pa3", "number": 3, "prompt": "I ______ to take her", "answer": "decided"},
+          {"id": "l141-pa4", "number": 4, "prompt": "take her ______ train", "answer": "by"},
+          {"id": "l141-pa5", "number": 5, "prompt": "Sally was very ______", "answer": "excited"},
+          {"id": "l141-pa6", "number": 6, "prompt": "she had never ______ on a train", "answer": "travelled"},
+          {"id": "l141-pa7", "number": 7, "prompt": "She ______ near the window", "answer": "sat"},
+          {"id": "l141-pa8", "number": 8, "prompt": "asked questions about ______ she saw", "answer": "everything"},
+          {"id": "l141-pa9", "number": 9, "prompt": "a ______ lady got on the train", "answer": "pretty"},
+          {"id": "l141-pa10", "number": 10, "prompt": "Sally did not answer, but ______ at her", "answer": "stared"},
+          {"id": "l141-pa11", "number": 11, "prompt": "The lady was ______ in a blue dress", "answer": "wearing"},
+          {"id": "l141-pa12", "number": 12, "prompt": "a large, ______ hat", "answer": "fashionable"},
+          {"id": "l141-pa13", "number": 13, "prompt": "After the train had ______ the next station", "answer": "reached"},
+          {"id": "l141-pa14", "number": 14, "prompt": "the lady opened her ______", "answer": "handbag"},
+          {"id": "l141-pa15", "number": 15, "prompt": "took out her ______", "answer": "hand mirror"},
+          {"id": "l141-pa16", "number": 16, "prompt": "a pretty lady ______ on the train", "answer": "got"}
+        ]
+      },
+      {
+        "id": "l141-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-141-b",
+        "title": "Practice B: Vocabulary (fill in the blanks)",
+        "instruction": "Fill in the blanks in these sentences with words from the text. 选用课文中的词填空。",
+        "translation": "选用课文中的词填空。",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "10 vocabulary fill-in items using words from the text.",
+        "questions": [
+          {"id": "l141-pb1", "number": 1, "prompt": "The man's story wasn't at all serious; in fact it was quite ______.", "answer": "funny"},
+          {"id": "l141-pb2", "number": 2, "prompt": "My aunt isn't young and she isn't old; she's ______.", "answer": "middle-aged"},
+          {"id": "l141-pb3", "number": 3, "prompt": "When his trousers fell down, the boy was very ______.", "answer": "embarrassed"},
+          {"id": "l141-pb4", "number": 4, "prompt": "The girl's sister is beautiful, but the girl herself is ______.", "answer": "ugly"},
+          {"id": "l141-pb5", "number": 5, "prompt": "I didn't think she had seen me. I was very surprised when she ______ at me.", "answer": "shouted"},
+          {"id": "l141-pb6", "number": 6, "prompt": "We were in a hurry so we ______ the first bus that we could find.", "answer": "caught"},
+          {"id": "l141-pb7", "number": 7, "prompt": "We children were always ______ when our uncle told us funny stories.", "answer": "delighted"},
+          {"id": "l141-pb8", "number": 8, "prompt": "The lady took out a ______ and began to make up her face.", "answer": "hand mirror"},
+          {"id": "l141-pb9", "number": 9, "prompt": "I had never flown in a plane before so I was very ______.", "answer": "nervous"},
+          {"id": "l141-pb10", "number": 10, "prompt": "Our house is ______ the school, so I only have to cross the road every morning for my lessons.", "answer": "opposite"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l141-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p414",
+        "title": "Grammar I: Rewrite the sentences in the passive (present passive)",
+        "instruction": "仿照例句将下列句子改写为被动语态。",
+        "translation": "仿照例句将下列句子改写为被动语态。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.577 (新概念英语语法练习1)",
+        "context": "12 rewrite items; item 1 (Someone sweeps the classroom every day. → The classroom is swept every day.) is the printed example.",
+        "questions": [
+          {"id": "l141-gi1", "number": 1, "example": true, "prompt": "Someone sweeps the classroom every day.", "answer": "The classroom is swept every day."},
+          {"id": "l141-gi2", "number": 2, "prompt": "Someone cleans the blackboard after every lesson.", "answer": "The blackboard is cleaned after every lesson."},
+          {"id": "l141-gi3", "number": 3, "prompt": "Someone turns on the lights in the evening.", "answer": "The lights are turned on in the evening."},
+          {"id": "l141-gi4", "number": 4, "prompt": "Someone washes the dishes every day.", "answer": "The dishes are washed every day."},
+          {"id": "l141-gi5", "number": 5, "prompt": "Some people paint the school regularly.", "answer": "The school is painted regularly."},
+          {"id": "l141-gi6", "number": 6, "prompt": "Someone cuts the grass very often.", "answer": "The grass is cut very often."},
+          {"id": "l141-gi7", "number": 7, "prompt": "Someone cooks supper at six o'clock.", "answer": "Supper is cooked at six o'clock."},
+          {"id": "l141-gi8", "number": 8, "prompt": "People sell meat at the market every day.", "answer": "Meat is sold at the market every day."},
+          {"id": "l141-gi9", "number": 9, "prompt": "People in Canada grow a lot of wheat.", "answer": "A lot of wheat is grown in Canada."},
+          {"id": "l141-gi10", "number": 10, "prompt": "People in Brazil grow a lot of coffee.", "answer": "A lot of coffee is grown in Brazil."},
+          {"id": "l141-gi11", "number": 11, "prompt": "People in some parts of Canada speak French.", "answer": "French is spoken in some parts of Canada."},
+          {"id": "l141-gi12", "number": 12, "prompt": "People clean our office every day.", "answer": "Our office is cleaned every day."}
+        ]
+      },
+      {
+        "id": "l141-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p415",
+        "title": "Grammar II: Rewrite the sentences in the passive (past passive)",
+        "instruction": "仿照例句将下列句子改写为被动语态（过去时）。",
+        "translation": "仿照例句将下列句子改写为被动语态（过去时）。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.577 (新概念英语语法练习1)",
+        "context": "10 rewrite items in the past passive; item 1 (Someone washed the car last week. → The car was washed last week.) is the printed example.",
+        "questions": [
+          {"id": "l141-gii1", "number": 1, "example": true, "prompt": "Someone washed the car last week.", "answer": "The car was washed last week."},
+          {"id": "l141-gii2", "number": 2, "prompt": "Someone cleaned the desks and chairs before the lesson.", "answer": "The desks and chairs were cleaned before the lesson."},
+          {"id": "l141-gii3", "number": 3, "prompt": "Someone invited him to a party.", "answer": "He was invited to a party."},
+          {"id": "l141-gii4", "number": 4, "prompt": "Someone met the children after school.", "answer": "The children were met after school."},
+          {"id": "l141-gii5", "number": 5, "prompt": "Someone took the children to school by car.", "answer": "The children were taken to school by car."},
+          {"id": "l141-gii6", "number": 6, "prompt": "Someone repaired his car yesterday.", "answer": "His car was repaired yesterday."},
+          {"id": "l141-gii7", "number": 7, "prompt": "Someone turned off the lights last night.", "answer": "The lights were turned off last night."},
+          {"id": "l141-gii8", "number": 8, "prompt": "Someone washed the dishes yesterday.", "answer": "The dishes were washed yesterday."},
+          {"id": "l141-gii9", "number": 9, "prompt": "Someone made the beds this morning.", "answer": "The beds were made this morning."},
+          {"id": "l141-gii10", "number": 10, "prompt": "Tom was badly hurt in the crash. Someone took him to hospital.", "answer": "Tom was badly hurt in the crash and he was taken to hospital."}
+        ]
+      },
+      {
+        "id": "l141-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p416",
+        "title": "Grammar III: Rewrite the sentences in the passive",
+        "instruction": "仿照例句将下列句子改写为被动语态。",
+        "translation": "仿照例句将下列句子改写为被动语态。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.577-578 (新概念英语语法练习1)",
+        "context": "10 rewrite items (present and past passive); item 1 (People speak English all over the world. → English is spoken all over the world.) is the printed example.",
+        "questions": [
+          {"id": "l141-giii1", "number": 1, "example": true, "prompt": "People speak English all over the world.", "answer": "English is spoken all over the world."},
+          {"id": "l141-giii2", "number": 2, "prompt": "They build houses very quickly here.", "answer": "Houses are built very quickly here."},
+          {"id": "l141-giii3", "number": 3, "prompt": "Someone broke that window last month.", "answer": "That window was broken last month."},
+          {"id": "l141-giii4", "number": 4, "prompt": "They painted the door red.", "answer": "The door was painted red."},
+          {"id": "l141-giii5", "number": 5, "prompt": "Someone saw him in the park.", "answer": "He was seen in the park."},
+          {"id": "l141-giii6", "number": 6, "prompt": "Someone caught the thief in the shop.", "answer": "The thief was caught in the shop."},
+          {"id": "l141-giii7", "number": 7, "prompt": "Someone dusts the furniture every day.", "answer": "The furniture is dusted every day."},
+          {"id": "l141-giii8", "number": 8, "prompt": "Someone found the money and gave it to the policeman.", "answer": "The money was found and given to the policeman."},
+          {"id": "l141-giii9", "number": 9, "prompt": "Someone delivers letters to every house every morning.", "answer": "Letters are delivered to every house every morning."},
+          {"id": "l141-giii10", "number": 10, "prompt": "Someone put the vase on the top shelf.", "answer": "The vase was put on the top shelf."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.285 (Lesson 141 story)", "href": "../img/lesson-141-01-text.jpg"},
+    {"label": "Textbook p.286 (Lesson 141 exercises)", "href": "../img/lesson-141-02-text.jpg"},
+    {"label": "Workbook Lesson 141 (practice page 186)", "href": "../img/lesson-141-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
+    {"label": "Grammar Workbook p.414-416 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=429"},
+    {"label": "Grammar Workbook p.562-563 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=577"}
+  ],
+  "characters": {
+    "Sally": "four-year-old daughter",
+    "narrator": "Sally's parent",
+    "lady": "pretty lady in a blue dress and fashionable hat"
+  },
+  "images": {
+    "l141-scene": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Sally sitting near a train window, looking out at the scenery, with a pretty lady in a blue dress and fashionable hat sitting next to her",
+      "source": "img/lesson-141-01-text.jpg (textbook p.285)",
+      "reason": "No suitable crop available for the story scene"
+    }
+  }
+}
