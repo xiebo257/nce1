@@ -1,0 +1,207 @@
+{
+  "number": 125,
+  "status": "verified",
+  "title": "Tea for two 两个人一起喝茶",
+  "translation": "两个人一起喝茶",
+  "description": "A dialogue between Susan and Peter. Susan invites Peter in for tea, but he must water the garden first because it's terribly dry. After a few minutes, Peter comes in and Susan notices it's raining, which means he doesn't need to water the garden. Peter says it's a pleasant surprise because now he can have tea instead. The lesson introduces 'have to' and 'had to', and the words water, terribly, dry, nuisance, mean and surprise.",
+  "answer_note": "The listening comprehension question is a model answer (suggested). Workbook A (Complete the dialogue) is from the workbook answer key (source-key, img/key-123-129.jpg p.215). Workbook B (Structure) is from the workbook answer key (source-key, img/key-123-129.jpg p.215). Grammar I (answer with 'have to'), II (answer with 'have to'/'had to') and III (answer with 'must'/'don't need to') are from the grammar workbook answer key (source-key, pdf p.560-561).",
+  "expected_answers": 42,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l125-lesson-intro",
+        "type": "text",
+        "source": "textbook-p253",
+        "text": "Listen to the tape then answer this question. Does Susan have tea by herself? 听录音，然后回答问题。苏珊是一个人喝茶吗？",
+        "translation": "听录音，然后回答问题。苏珊是一个人喝茶吗？"
+      },
+      {
+        "id": "l125-lesson-text",
+        "type": "text",
+        "source": "textbook-p253",
+        "image": "l125-scene",
+        "text": "SUSAN:  Can't you come in and have tea now, Peter?\nPETER:  Not yet.\n        I must water the garden first.\n\nSUSAN:  Do you have to water it now?\nPETER:  I'm afraid I must.\n        Look at it!\n        It's terribly dry.\n\nSUSAN:  What a nuisance!\nPETER:  Last summer it was very dry, too.\n        Don't you remember?\n        I had to water it every day.\nSUSAN:  Well, I'll have tea by myself.\n\nSUSAN:  That was quick!\n        Have you finished already?\nPETER:  Yes.\n        Look out of the window.\n\nSUSAN:  It's raining!\n        That means you don't need to water the garden.\nPETER:  That was a pleasant surprise.\n        It means I can have tea, instead.",
+        "translation": "苏珊：彼得，你现在能进来喝茶吗？\n彼得：还不能。我得先给花园浇水。\n\n苏珊：你一定得现在浇吗？\n彼得：恐怕我得现在浇。你看看，干得厉害。\n\n苏珊：真讨厌！\n彼得：去年夏天也是干得很。你不记得了吗？我不得不每天浇水。\n苏珊：好吧，我一个人喝茶了。\n\n苏珊：好快啊！你已经浇完了？\n彼得：是的。你看看窗外。\n\n苏珊：下雨了！这就是说，你不必给花园浇水了。\n彼得：这是意想不到的好事。这意味着我反而可以喝茶了。"
+      },
+      {
+        "id": "l125-lesson-question",
+        "type": "exercise",
+        "source": "textbook-p253",
+        "title": "Does Susan have tea by herself?",
+        "instruction": "Answer the question. 回答这个问题。",
+        "translation": "回答这个问题。",
+        "expected_items": 1,
+        "answer_kind": "suggested",
+        "context": "Comprehension question about whether Susan has tea by herself.",
+        "questions": [
+          {"id": "l125-lq1", "number": 1, "prompt": "Does Susan have tea by herself?", "answer": "No, she doesn't. Peter comes in and they have tea together."}
+        ]
+      },
+      {
+        "id": "l125-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook-p254",
+        "items": [
+          {"word": "water", "ipa": "/'wɔːtə/", "pos": "v.", "meaning": "浇水"},
+          {"word": "terribly", "ipa": "/'terəbli/", "pos": "adv.", "meaning": "非常"},
+          {"word": "dry", "ipa": "/draɪ/", "pos": "adj.", "meaning": "干燥的，干的"},
+          {"word": "nuisance", "ipa": "/'njuːsəns/", "pos": "n.", "meaning": "讨厌的东西或人"},
+          {"word": "mean", "ipa": "/miːn/ (meant /ment/, meant)", "pos": "v.", "meaning": "意味着，意思是"},
+          {"word": "surprise", "ipa": "/sə'praɪz/", "pos": "n.", "meaning": "惊奇，意外的事"}
+        ]
+      },
+      {
+        "id": "l125-notes",
+        "type": "notes",
+        "source": "textbook-p254",
+        "items": [
+          {"title": "1. have to (过去式 had to)", "text": "have to 不得不，必须。have to 强调客观需要多一些。must 则着重说明主观看法。"},
+          {"title": "2. What a nuisance!", "text": "真讨厌！"},
+          {"title": "3. by myself", "text": "我自己，独自。同样，我们可以说 by yourself, by himself, by herself, by itself, by ourselves, by yourselves, by themselves, by oneself。"}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l125-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-125-a",
+        "title": "Practice A: Complete the dialogue",
+        "instruction": "Read this dialogue. Fill in the missing words. 读这段对话。填入缺少的词。",
+        "translation": "读这段对话。填入缺少的词。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 125 A, p.215)",
+        "context": "Workbook L125 A: fill in the missing words in the Susan/Peter dialogue.",
+        "questions": [
+          {"id": "l125-pa1", "number": 1, "prompt": "Susan: Can't you ___ in and have ___ now, Peter?", "answer": "come; tea"},
+          {"id": "l125-pa2", "number": 2, "prompt": "Peter: Not ___. I ___ water the garden first.", "answer": "yet; must"},
+          {"id": "l125-pa3", "number": 3, "prompt": "Susan: Do you ___ to ___ it now?", "answer": "have; water"},
+          {"id": "l125-pa4", "number": 4, "prompt": "Peter: I'm ___ I ___. Look at it! It's ___ ___.", "answer": "afraid; must; terribly; dry"},
+          {"id": "l125-pa5", "number": 5, "prompt": "Susan: What a ___!", "answer": "nuisance"},
+          {"id": "l125-pa6", "number": 6, "prompt": "Peter: Last summer it was very ___, too. Don't you ___? I ___ to water it ___ day.", "answer": "dry; remember; had; every"},
+          {"id": "l125-pa7", "number": 7, "prompt": "Susan: Well, I'll have tea by ___.", "answer": "myself"},
+          {"id": "l125-pa8", "number": 8, "prompt": "Susan: That was ___! Have you ___ already?", "answer": "quick; finished"},
+          {"id": "l125-pa9", "number": 9, "prompt": "Peter: Yes. Look ___ of the ___.", "answer": "out; window"},
+          {"id": "l125-pa10", "number": 10, "prompt": "Susan: It's ___! That ___ you don't ___ to water the ___.", "answer": "raining; means; need; garden"}
+        ]
+      },
+      {
+        "id": "l125-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-125-b",
+        "title": "Practice B: Structure",
+        "instruction": "Complete these sentences with by myself, by yourself, by himself, etc. 用 by myself, by yourself, by himself 等填空。",
+        "translation": "用 by myself, by yourself, by himself 等填空。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 125 B, p.215)",
+        "context": "Workbook L125 B: complete sentences with by myself/yourself/himself/etc.",
+        "questions": [
+          {"id": "l125-pb1", "number": 1, "prompt": "No one can help, so I'll have to do the job ___.", "answer": "by myself"},
+          {"id": "l125-pb2", "number": 2, "prompt": "Susan, can you stay ___ for an hour?", "answer": "by yourself"},
+          {"id": "l125-pb3", "number": 3, "prompt": "I must go to the shops. You will have to stay ___, boys.", "answer": "by yourselves"},
+          {"id": "l125-pb4", "number": 4, "prompt": "His friend didn't want to see the film, so he went to the cinema ___.", "answer": "by himself"},
+          {"id": "l125-pb5", "number": 5, "prompt": "They always have tea ___ — just the two of them.", "answer": "by themselves"},
+          {"id": "l125-pb6", "number": 6, "prompt": "We live in the country so we spend a lot of time ___.", "answer": "by ourselves"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l125-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p366",
+        "title": "Grammar I: Answer the questions according to the example (have to ... and ... too)",
+        "instruction": "仿照例句回答下列问题。",
+        "translation": "仿照例句回答下列问题。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.560 (新概念英语语法练习1)",
+        "context": "8 answer items with 'have to ... and ... too'; item 1 is the printed example.",
+        "questions": [
+          {"id": "l125-gi1", "number": 1, "example": true, "prompt": "Do you have to clean the blackboard today?", "answer": "Yes, I have to clean it today and I shall have to clean it tomorrow, too."},
+          {"id": "l125-gi2", "number": 2, "prompt": "Do you have to see the doctor today?", "answer": "Yes, I have to see him today and I shall have to see him tomorrow, too."},
+          {"id": "l125-gi3", "number": 3, "prompt": "Do I have to cook lunch today?", "answer": "Yes, you have to cook lunch today and you will have to cook lunch tomorrow, too."},
+          {"id": "l125-gi4", "number": 4, "prompt": "Does he have to serve in the shop today?", "answer": "Yes, he has to serve in the shop today and he will have to serve in the shop tomorrow, too."},
+          {"id": "l125-gi5", "number": 5, "prompt": "Do you have to see the dentist today?", "answer": "Yes, I have to see him today and I shall have to see him tomorrow, too."},
+          {"id": "l125-gi6", "number": 6, "prompt": "Does he have to wear that tie today?", "answer": "Yes, he has to wear it today and he will have to wear it tomorrow, too."},
+          {"id": "l125-gi7", "number": 7, "prompt": "Does she have to help her mother today?", "answer": "Yes, she has to help her today and she will have to help her tomorrow, too."},
+          {"id": "l125-gi8", "number": 8, "prompt": "Do you have to water the garden today?", "answer": "Yes, I have to water it today and I shall have to water it tomorrow, too."}
+        ]
+      },
+      {
+        "id": "l125-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p366-367",
+        "title": "Grammar II: Answer the questions according to the examples (have to / had to)",
+        "instruction": "仿照例句回答下列问题。",
+        "translation": "仿照例句回答下列问题。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.560-561 (新概念英语语法练习1)",
+        "context": "12 answer items (2 groups of 6); items 1a, 1b and 2a are the printed examples.",
+        "questions": [
+          {"id": "l125-gii1", "number": 1, "example": true, "prompt": "1a. Do you have to take an examination today?", "answer": "No, I don't have to take one today, but I had to take one yesterday."},
+          {"id": "l125-gii2", "number": 2, "example": true, "prompt": "1b. Does she have to type any letters today?", "answer": "No, she doesn't have to type any today, but she had to type some yesterday."},
+          {"id": "l125-gii3", "number": 3, "prompt": "1c. Do I have to water the flowers today?", "answer": "No, you don't have to water them today, but you had to water them yesterday."},
+          {"id": "l125-gii4", "number": 4, "prompt": "1d. Do you have to clean your bike today?", "answer": "No, I don't have to clean it today, but I had to clean it yesterday."},
+          {"id": "l125-gii5", "number": 5, "prompt": "1e. Do we have to clean the windows today?", "answer": "No, you don't have to clean them today, but you had to clean them yesterday."},
+          {"id": "l125-gii6", "number": 6, "prompt": "1f. Does he have to buy some butter today?", "answer": "No, he doesn't have to buy any today, but he had to buy some yesterday."},
+          {"id": "l125-gii7", "number": 7, "example": true, "prompt": "2a. Do you have to go to school today?", "answer": "No, I don't, and I won't have to go to school tomorrow, either."},
+          {"id": "l125-gii8", "number": 8, "prompt": "2b. Do I have to go to bed early today?", "answer": "No, you don't, and you won't have to go to bed early tomorrow, either."},
+          {"id": "l125-gii9", "number": 9, "prompt": "2c. Do you have to do your homework today?", "answer": "No, I don't, and I won't have to do my homework tomorrow, either."},
+          {"id": "l125-gii10", "number": 10, "prompt": "2d. Does she have to wash any clothes today?", "answer": "No, she doesn't, and she won't have to wash any clothes tomorrow, either."},
+          {"id": "l125-gii11", "number": 11, "prompt": "2e. Do I have to do the shopping today?", "answer": "No, you don't, and you won't have to do the shopping tomorrow, either."},
+          {"id": "l125-gii12", "number": 12, "prompt": "2f. Do we have to hand in our papers today?", "answer": "No, you don't, and you won't have to hand in your papers tomorrow, either."}
+        ]
+      },
+      {
+        "id": "l125-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p367-368",
+        "title": "Grammar III: Answer the questions according to the example (must / don't need to)",
+        "instruction": "仿照例句回答下列问题。",
+        "translation": "仿照例句回答下列问题。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.561 (新概念英语语法练习1)",
+        "context": "10 answer items with 'must ... but ... don't need to'; item 1 is the printed example.",
+        "questions": [
+          {"id": "l125-giii1", "number": 1, "example": true, "prompt": "Do I have to wear shoes and socks?", "answer": "You must wear shoes but you don't need to wear socks."},
+          {"id": "l125-giii2", "number": 2, "prompt": "Do I have to wash my hands and face?", "answer": "You must wash your hands but you don't need to wash your face."},
+          {"id": "l125-giii3", "number": 3, "prompt": "Do we have to close the door and the windows?", "answer": "You must close the door but you don't need to close the windows."},
+          {"id": "l125-giii4", "number": 4, "prompt": "Does he have to wear a shirt and a tie?", "answer": "He must wear a shirt but he doesn't need to wear a tie."},
+          {"id": "l125-giii5", "number": 5, "prompt": "Do we have to go to school today and tomorrow?", "answer": "You must go to school today but you don't need to go tomorrow."},
+          {"id": "l125-giii6", "number": 6, "prompt": "Do we have to read the book and answer the questions?", "answer": "You must read the book but you don't need to answer the questions."},
+          {"id": "l125-giii7", "number": 7, "prompt": "Do I have to clean my teeth and wash my hair?", "answer": "You must clean your teeth but you don't need to wash your hair."},
+          {"id": "l125-giii8", "number": 8, "prompt": "Do you have to cook vegetables and fish for supper?", "answer": "I must cook vegetables for supper but I don't need to cook fish."},
+          {"id": "l125-giii9", "number": 9, "prompt": "Does she have to look after the baby and the cat?", "answer": "She must look after the baby but she doesn't need to look after the cat."},
+          {"id": "l125-giii10", "number": 10, "prompt": "Do I have to put on my coat and hat?", "answer": "You must put on your coat but you don't need to put on your hat."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.253 (Lesson 125 text)", "href": "../img/lesson-125-01-text.jpg"},
+    {"label": "Textbook p.254 (Lesson 125 new words & notes)", "href": "../img/lesson-125-02-text.jpg"},
+    {"label": "Workbook Lesson 125 (practice page)", "href": "../img/lesson-125-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
+    {"label": "Grammar Workbook p.366-368 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=366"},
+    {"label": "Grammar Workbook p.560-561 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=560"}
+  ],
+  "characters": {
+    "susan": "Susan, who invites Peter in for tea and notices it's raining.",
+    "peter": "Peter, who must water the garden before having tea."
+  },
+  "images": {
+    "l125-scene": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Five numbered panels: 1 Susan calling to Peter from the window; 2 Peter watering the garden; 3 Susan looking at Peter through the window; 4 Susan and Peter at the table with tea; 5 Susan and Peter having tea together.",
+      "source": "img/lesson-125-01-text.jpg (textbook p.253)",
+      "characters": ["susan", "peter"],
+      "reason": "Odd lesson: text first; illustration deferred."
+    }
+  }
+}
