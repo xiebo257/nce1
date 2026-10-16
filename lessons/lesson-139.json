@@ -1,0 +1,182 @@
+{
+  "number": 139,
+  "status": "verified",
+  "title": "Is that you, John? 是你吗，约翰？",
+  "translation": "是你吗，约翰？",
+  "description": "A dialogue lesson about a telephone conversation between Graham Turner (at his office) and John Smith (the telephone engineer). Graham invites John to dinner this evening at his home with his wife Mary, but John can't come because Mary wants to invite Charlotte and Graham to dinner. Graham wants to know what John is writing about, and John is repairing Graham's telephone line. The lesson introduces tag questions: 'aren't you?', 'do you?', 'is he?', 'are they?', 'won't she?', 'will they?', 'didn't they?', 'has he?', 'wasn't she?'. The workbook drills comprehension questions about the dialogue and tag-question completion; the grammar workbook completes 'will' and 'won't' dialogue items and writes 'if' sentences with 'will'/'won't' and 'may'.",
+  "answer_note": "The dialogue is from the textbook. Workbook A (comprehension questions about the telephone dialogue) has no printed key, so the answers are model answers (suggested); Workbook B (tag questions) is from the workbook answer key (source-key, img/key-135-141.jpg p.217). Grammar I (complete 'will'/'won't' dialogue) and II (write 'if' sentences with 'will'/'won't' and 'may') are from the grammar workbook answer key (source-key, pdf p.579).",
+  "expected_answers": 33,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l139-lesson-intro",
+        "type": "text",
+        "source": "textbook-p281",
+        "text": "Listen to the tape and then answer the question that follows. 听录音，然后回答所接下来的问题。",
+        "translation": "听录音，然后回答所接下来的问题。"
+      },
+      {
+        "id": "l139-lesson-dialogue",
+        "type": "dialogue",
+        "source": "textbook-p281",
+        "image": "l139-scene",
+        "lines": [
+          {"number": 1, "speaker": "Graham", "text": "Hello. Is that you, John? Is that you, the telephone engineer?", "translation": "你好。是你吗，约翰？是你吗，电话工程师？"},
+          {"number": 2, "speaker": "John", "text": "Yes, it is. It's me. Is that you, Graham?", "translation": "是的，是我。是我。是你吗，格雷厄姆？"},
+          {"number": 3, "speaker": "Graham", "text": "Yes. Where are you? You're not at home, are you?", "translation": "是的。你在哪里？你不在家，是吗？"},
+          {"number": 4, "speaker": "John", "text": "No, I'm not. I'm on my way home.", "translation": "不，我不在。我正在回家的路上。"},
+          {"number": 5, "speaker": "Graham", "text": "I see. Where's your wife? Is she at home?", "translation": "我明白了。你妻子在哪里？她在家吗？"},
+          {"number": 6, "speaker": "John", "text": "Yes, she is. She's waiting for me at home. She's making dinner.", "translation": "是的，她在家。她正在家里等我。她正在做晚餐。"},
+          {"number": 7, "speaker": "Graham", "text": "I see. What's your wife writing? Is she writing a letter?", "translation": "我明白了。你妻子在写什么？她在写信吗？"},
+          {"number": 8, "speaker": "John", "text": "No, she isn't. She's writing a list of the things she wants to buy at the shops.", "translation": "不，她不是。她在写她想在商店里买的东西的清单。"},
+          {"number": 9, "speaker": "Graham", "text": "I see. Is that you, John? Are you still at work?", "translation": "我明白了。是你吗，约翰？你还在工作吗？"},
+          {"number": 10, "speaker": "John", "text": "Yes, I am. I'm at my office. I'm repairing Graham's telephone line.", "translation": "是的，我在。我在我的办公室。我正在修格雷厄姆的电话线。"}
+        ]
+      },
+      {
+        "id": "l139-lesson-question",
+        "type": "text",
+        "source": "textbook-p281",
+        "text": "Question: 问题。What is John writing? 约翰在写什么？",
+        "translation": "问题：约翰在写什么？"
+      },
+      {
+        "id": "l139-lesson-vocab",
+        "type": "vocabulary",
+        "source": "textbook-p281",
+        "items": [
+          {"word": "telephone engineer", "ipa": "", "pos": "n. phr.", "meaning": "电话工程师"},
+          {"word": "on one's way home", "ipa": "", "pos": "phr.", "meaning": "在回家的路上"},
+          {"word": "repair", "ipa": "/rɪˈpeə(r)/", "pos": "v.", "meaning": "修理"},
+          {"word": "tag question", "ipa": "", "pos": "n. phr.", "meaning": "附加疑问句"}
+        ]
+      },
+      {
+        "id": "l139-lesson-notes",
+        "type": "notes",
+        "source": "textbook-p281",
+        "items": [
+          {"title": "tag questions 的用法", "text": "附加疑问句由陈述句 + 简短疑问句组成：You are John Smith, aren't you? / You work for the company, don't you?"},
+          {"title": "Is that you? 的用法", "text": "「是你吗？」用于电话中确认对方身份：Is that you, John? / Is that Graham?"}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l139-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-139-a",
+        "title": "Practice A: Comprehension (telephone dialogue)",
+        "instruction": "Look at the dialogue on Students' Book page 281 and answer these questions. 第 281 页上的对话，然后回答以下问题。",
+        "translation": "第 281 页上的对话，然后回答以下问题。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "7 comprehension questions about the telephone dialogue between Graham and John.",
+        "questions": [
+          {"id": "l139-pa1", "number": 1, "prompt": "Is Graham Turner telephoning from his office?", "answer": "Yes, he is."},
+          {"id": "l139-pa2", "number": 2, "prompt": "What message does he want John to give Mary?", "answer": "He wants him to tell Mary they'll be late for dinner this evening."},
+          {"id": "l139-pa3", "number": 3, "prompt": "What did Mary invite Charlotte and Graham to? And when?", "answer": "She invited them to dinner this evening."},
+          {"id": "l139-pa4", "number": 4, "prompt": "Why can't Graham and Charlotte be at John's house at six o'clock?", "answer": "Because Graham's boss wants him to do some extra work."},
+          {"id": "l139-pa5", "number": 5, "prompt": "What does Charlotte want to know?", "answer": "She wants to know if Mary needs any help."},
+          {"id": "l139-pa6", "number": 6, "prompt": "Does John know what Graham is talking about?", "answer": "No, he doesn't."},
+          {"id": "l139-pa7", "number": 7, "prompt": "Which John Smith is Graham speaking to?", "answer": "John Smith, the telephone engineer. (He's repairing Graham's telephone line.)"}
+        ]
+      },
+      {
+        "id": "l139-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-139-b",
+        "title": "Practice B: Tag questions",
+        "instruction": "Add the tags to these questions. Don't forget to add the question mark. 别忘记了加问号。附加疑问句。",
+        "translation": "附加疑问句。别忘记了加问号。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "img/key-135-141.jpg p.217 (Lesson 139 B)",
+        "context": "10 tag-question items.",
+        "questions": [
+          {"id": "l139-pb1", "number": 1, "prompt": "You are John Smith, the engineer, ______?", "answer": "aren't you?"},
+          {"id": "l139-pb2", "number": 2, "prompt": "You work for the Overseas Engineering Company, ______?", "answer": "don't you?"},
+          {"id": "l139-pb3", "number": 3, "prompt": "You don't come to China very often, ______?", "answer": "do you?"},
+          {"id": "l139-pb4", "number": 4, "prompt": "He isn't a postman, ______?", "answer": "is he?"},
+          {"id": "l139-pb5", "number": 5, "prompt": "They aren't working very hard, ______?", "answer": "are they?"},
+          {"id": "l139-pb6", "number": 6, "prompt": "She will be here tomorrow, ______?", "answer": "won't she?"},
+          {"id": "l139-pb7", "number": 7, "prompt": "They won't be late, ______?", "answer": "will they?"},
+          {"id": "l139-pb8", "number": 8, "prompt": "They arrived yesterday, ______?", "answer": "didn't they?"},
+          {"id": "l139-pb9", "number": 9, "prompt": "He hasn't retired yet, ______?", "answer": "has he?"},
+          {"id": "l139-pb10", "number": 10, "prompt": "She was leaving when you arrived, ______?", "answer": "wasn't she?"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l139-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p405",
+        "title": "Grammar I: Complete the sentences with 'will' or 'won't'",
+        "instruction": "仿照例句用 will 或 won't 完成以下句子。",
+        "translation": "仿照例句用 will 或 won't 完成以下句子。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.579 (新概念英语语法练习1)",
+        "context": "8 'will'/'won't' fill-in items; item 1 (He won't let me make another film. (the producer, the actress) → The producer told the actress that he wouldn't let her make another film.) is the printed example.",
+        "questions": [
+          {"id": "l139-gi1", "number": 1, "example": true, "prompt": "He won't let me make another film. (the producer, the actress)", "answer": "The producer told the actress that he wouldn't let her make another film."},
+          {"id": "l139-gi2", "number": 2, "prompt": "I'll be at home at 6. (she, me)", "answer": "She told me that she would be at home at 6."},
+          {"id": "l139-gi3", "number": 3, "prompt": "We'll go to the seaside this weekend. (they, him)", "answer": "They told him that they would go to the seaside that weekend."},
+          {"id": "l139-gi4", "number": 4, "prompt": "I won't come to the party. (he, his friends)", "answer": "He told his friends that he wouldn't come to the party."},
+          {"id": "l139-gi5", "number": 5, "prompt": "We'll stay at the best hotels. (they, me)", "answer": "They told me that they would stay at the best hotels."},
+          {"id": "l139-gi6", "number": 6, "prompt": "I'll try and win the football pools again. (Brian, Julie)", "answer": "Brian told Julie that he would try and win the football pools again."},
+          {"id": "l139-gi7", "number": 7, "prompt": "We'll be late for dinner. (Graham, John)", "answer": "Graham told John that they would be late for dinner."},
+          {"id": "l139-gi8", "number": 8, "prompt": "I'll see a doctor if I'm ill. (she, her friend)", "answer": "She told her friend that she would see a doctor if she was ill."}
+        ]
+      },
+      {
+        "id": "l139-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p405-406",
+        "title": "Grammar II: Write sentences using 'if' with 'will'/'won't' and 'may'",
+        "instruction": "仿照例句用 if 和 will/won't 以及 may 造句。",
+        "translation": "仿照例句用 if 和 will/won't 以及 may 造句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.579 (新概念英语语法练习1)",
+        "context": "10 'if' sentence items with 'will'/'won't' and 'may'; item 1 (We may win the prize. (if, win) → If we win the prize, we'll travel abroad.) is the printed example.",
+        "questions": [
+          {"id": "l139-gii1", "number": 1, "example": true, "prompt": "We may win the prize. (if, win)", "answer": "If we win the prize, we'll travel abroad."},
+          {"id": "l139-gii2", "number": 2, "prompt": "I may be ill next week. (if, ill)", "answer": "If I am ill next week, I'll see a doctor."},
+          {"id": "l139-gii3", "number": 3, "prompt": "They may not come to the party. (if, not come)", "answer": "If they don't come to the party, we'll have a good time anyway."},
+          {"id": "l139-gii4", "number": 4, "prompt": "She may get the job. (if, get)", "answer": "If she gets the job, she'll celebrate with a dinner."},
+          {"id": "l139-gii5", "number": 5, "prompt": "We may not have enough time. (if, not have)", "answer": "If we don't have enough time, we'll leave early."},
+          {"id": "l139-gii6", "number": 6, "prompt": "It may rain tomorrow. (if, rain)", "answer": "If it rains tomorrow, we'll stay at home."},
+          {"id": "l139-gii7", "number": 7, "prompt": "They may not reach the top. (if, not reach)", "answer": "If they don't reach the top, they'll try again next year."},
+          {"id": "l139-gii8", "number": 8, "prompt": "I may win the competition. (if, win)", "answer": "If I win the competition, I'll buy a new coat."},
+          {"id": "l139-gii9", "number": 9, "prompt": "They may win the contract. (if, win)", "answer": "If they win the contract, we'll open a new branch."},
+          {"id": "l139-gii10", "number": 10, "prompt": "You may not understand. (if, not understand)", "answer": "If you don't understand, I'll explain again."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.281 (Lesson 139 dialogue)", "href": "../img/lesson-139-01-text.jpg"},
+    {"label": "Textbook p.282 (Lesson 139 exercises)", "href": "../img/lesson-139-02-text.jpg"},
+    {"label": "Workbook Lesson 139 (practice page 184)", "href": "../img/lesson-139-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
+    {"label": "Grammar Workbook p.405-406 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=405"},
+    {"label": "Grammar Workbook p.579 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"}
+  ],
+  "characters": {
+    "Graham Turner": "man at his office, has wife Mary",
+    "John Smith": "telephone engineer, repairing Graham's telephone line",
+    "Mary": "Graham's wife",
+    "Charlotte": "friend of Mary and Graham"
+  },
+  "images": {
+    "l139-scene": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Graham Turner at his office making a telephone call to John Smith, the telephone engineer, who is on his way home",
+      "source": "img/lesson-139-01-text.jpg (textbook p.281)",
+      "reason": "No suitable crop available for the dialogue scene"
+    }
+  }
+}
