@@ -1,0 +1,276 @@
+{
+  "number": 142,
+  "status": "verified",
+  "title": "Someone invited Sally to a party.",
+  "translation": "有人邀请萨莉出席一个聚会。",
+  "description": "A picture lesson on the passive voice. Eight pictures show active and passive pairs: she is embarrassed; they are worried; does anyone ever repair this car / it is repaired regularly; does anyone ever correct these exercise books / they are corrected regularly; did anyone meet him at the station this morning / he was met at the station this morning. The lesson introduces written exercises A (answer questions about the Lesson 141 story), B (answer questions using the active or passive), and C (answer questions imitating the example). The workbook drills passive rewrites, 'How do they feel?' rewrites, and 'About you' personalization; the grammar workbook fills in passive forms, answers questions in the passive, and writes sentences and dialogues with 'will be + past participle'.",
+  "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (answer questions about the Lesson 141 story), B (answer using the active or passive), and C (answer imitating the example) are model answers (suggested). Workbook A (rewrite in the passive), B (How do they feel?), and C (About you) have no printed key, so the answers are model answers (suggested). Grammar I (fill in the passive), II (answer in the passive), and III (write sentences and dialogues in the passive) are from the grammar workbook answer key (source-key, pdf p.578).",
+  "expected_answers": 79,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l142-lesson-intro",
+        "type": "text",
+        "source": "textbook-p287",
+        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l142-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p287",
+        "image": "l142-pictures",
+        "text": "1. She is embarrassed. 她很尴尬。 2. They are worried. 他们很担心。 3. Does anyone ever repair this car? 有人修理过这辆车吗？ 4. Someone repairs it regularly. It is repaired regularly. 有人经常修理它。它被经常修理。 5. Does anyone ever correct these exercise books? 有人批改过这些练习本吗？ 6. Someone corrects them regularly. They are corrected regularly. 有人经常批改它们。它们被经常批改。 7. Did anyone meet him at the station this morning? 今天上午有人在车站接他吗？ 8. Someone met him at the station this morning. He was met at the station this morning. 今天上午有人在车站接了他。他今天上午在车站被接了。",
+        "translation": "1. 她很尴尬。 2. 他们很担心。 3. 有人修理过这辆车吗？ 4. 有人经常修理它。它被经常修理。 5. 有人批改过这些练习本吗？ 6. 有人经常批改它们。它们被经常批改。 7. 今天上午有人在车站接他吗？ 8. 今天上午有人在车站接了他。他今天上午在车站被接了。"
+      },
+      {
+        "id": "l142-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p287",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 8,
+        "answer_kind": "suggested",
+        "context": "One question per picture (8 pictures); the answer is the passive sentence shown in the picture captions.",
+        "questions": [
+          {"id": "l142-lq1", "number": 1, "prompt": "Picture 1: How is she?", "answer": "She is embarrassed."},
+          {"id": "l142-lq2", "number": 2, "prompt": "Picture 2: How are they?", "answer": "They are worried."},
+          {"id": "l142-lq3", "number": 3, "prompt": "Picture 3: Does anyone ever repair this car?", "answer": "Yes. It is repaired regularly."},
+          {"id": "l142-lq4", "number": 4, "prompt": "Picture 4: How is the car repaired?", "answer": "It is repaired regularly."},
+          {"id": "l142-lq5", "number": 5, "prompt": "Picture 5: Does anyone ever correct these exercise books?", "answer": "Yes. They are corrected regularly."},
+          {"id": "l142-lq6", "number": 6, "prompt": "Picture 6: How are the exercise books corrected?", "answer": "They are corrected regularly."},
+          {"id": "l142-lq7", "number": 7, "prompt": "Picture 7: Did anyone meet him at the station this morning?", "answer": "Yes, he was met at the station this morning."},
+          {"id": "l142-lq8", "number": 8, "prompt": "Picture 8: How was he met?", "answer": "He was met at the station this morning."}
+        ]
+      },
+      {
+        "id": "l142-written-a",
+        "type": "exercise",
+        "source": "textbook-p288",
+        "title": "Written A: Answer the questions (about Lesson 141)",
+        "instruction": "Read the story in Lesson 141 again. Then answer these questions. 重读第 141 课的故事，然后回答以下问题。",
+        "translation": "重读第 141 课的故事，然后回答以下问题。",
+        "expected_items": 8,
+        "answer_kind": "suggested",
+        "context": "8 comprehension questions about the Lesson 141 story (Sally's first train ride).",
+        "questions": [
+          {"id": "l142-wa1", "number": 1, "prompt": "How old is Sally?", "answer": "She is four years old."},
+          {"id": "l142-wa2", "number": 2, "prompt": "Why did Sally's mother decide to take her by train?", "answer": "Because Sally was invited to a children's party."},
+          {"id": "l142-wa3", "number": 3, "prompt": "Where did Sally sit?", "answer": "She sat near the window."},
+          {"id": "l142-wa4", "number": 4, "prompt": "Who got on the train?", "answer": "A pretty lady got on the train."},
+          {"id": "l142-wa5", "number": 5, "prompt": "How was the lady dressed?", "answer": "She was wearing a blue dress and a large, fashionable hat."},
+          {"id": "l142-wa6", "number": 6, "prompt": "What did the lady do?", "answer": "She opened her handbag and took out her hand mirror."},
+          {"id": "l142-wa7", "number": 7, "prompt": "Why did the lady make up her face?", "answer": "Because she wanted to look beautiful."},
+          {"id": "l142-wa8", "number": 8, "prompt": "Did Sally think the lady was beautiful?", "answer": "No, she thought the lady was ugly / middle-aged."}
+        ]
+      },
+      {
+        "id": "l142-written-b",
+        "type": "exercise",
+        "source": "textbook-p288",
+        "title": "Written B: Answer the questions (active or passive)",
+        "instruction": "Answer these questions using the active or the passive. 用主动语态和被动语态来回答以下问题。",
+        "translation": "用主动语态和被动语态来回答以下问题。",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "10 answer items; items 1-2 (Did anyone ever open this window? → Someone opened it. It was opened this morning.) and items 3-4 (Did anyone ever open these windows? → Someone opens them regularly. They are opened regularly.) are the printed examples.",
+        "questions": [
+          {"id": "l142-wb1", "number": 1, "example": true, "prompt": "Did anyone ever open this window?", "answer": "Someone opened it. It was opened this morning."},
+          {"id": "l142-wb2", "number": 2, "example": true, "prompt": "Did anyone ever open these windows?", "answer": "Someone opens them regularly. They are opened regularly."},
+          {"id": "l142-wb3", "number": 3, "prompt": "Does anyone ever air this room?", "answer": "Yes. It is aired every day."},
+          {"id": "l142-wb4", "number": 4, "prompt": "Does anyone ever empty this basket?", "answer": "Yes. It is emptied every morning."},
+          {"id": "l142-wb5", "number": 5, "prompt": "Does anyone ever sharpen this knife?", "answer": "Yes. It is sharpened every week."},
+          {"id": "l142-wb6", "number": 6, "prompt": "Does anyone ever turn on these taps?", "answer": "Yes. They are turned on every day."},
+          {"id": "l142-wb7", "number": 7, "prompt": "Does anyone ever water these flowers?", "answer": "Yes. They are watered every day."},
+          {"id": "l142-wb8", "number": 8, "prompt": "Does anyone ever repair this car?", "answer": "Yes. It is repaired regularly."},
+          {"id": "l142-wb9", "number": 9, "prompt": "Does anyone ever dust this cupboard?", "answer": "Yes. It is dusted every day."},
+          {"id": "l142-wb10", "number": 10, "prompt": "Does anyone ever correct these exercise books?", "answer": "Yes. They are corrected regularly."}
+        ]
+      },
+      {
+        "id": "l142-written-c",
+        "type": "exercise",
+        "source": "textbook-p288",
+        "title": "Written C: Answer the questions (imitate the example)",
+        "instruction": "Answer the questions imitating the example. 模仿例句回答以下问题。",
+        "translation": "模仿例句回答以下问题。",
+        "expected_items": 10,
+        "answer_kind": "suggested",
+        "context": "10 answer items; item 1 (Did anyone open this window? → Someone opened it. It was opened this morning.) is the printed example.",
+        "questions": [
+          {"id": "l142-wc1", "number": 1, "example": true, "prompt": "Did anyone open this window?", "answer": "Someone opened it. It was opened this morning."},
+          {"id": "l142-wc2", "number": 2, "prompt": "Did anyone water these flowers?", "answer": "Yes. They were watered this morning."},
+          {"id": "l142-wc3", "number": 3, "prompt": "Did anyone repair this car?", "answer": "Yes. It was repaired last week."},
+          {"id": "l142-wc4", "number": 4, "prompt": "Did anyone dust this cupboard?", "answer": "Yes. It was dusted yesterday."},
+          {"id": "l142-wc5", "number": 5, "prompt": "Did anyone correct these exercise books?", "answer": "Yes. They were corrected last night."},
+          {"id": "l142-wc6", "number": 6, "prompt": "Did anyone buy these models?", "answer": "Yes. They were bought last month."},
+          {"id": "l142-wc7", "number": 7, "prompt": "Did anyone sweep this floor?", "answer": "Yes. It was swept this morning."},
+          {"id": "l142-wc8", "number": 8, "prompt": "Did anyone take them to school?", "answer": "Yes. They were taken to school by car."},
+          {"id": "l142-wc9", "number": 9, "prompt": "Did anyone meet them at the station?", "answer": "Yes. They were met at the station."},
+          {"id": "l142-wc10", "number": 10, "prompt": "Did anyone tell them?", "answer": "Yes. They were told last night."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l142-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-142-a",
+        "title": "Practice A: Rewrite the sentences in the passive",
+        "instruction": "Look at this, and then rewrite the sentences below in the passive, like the example. 看例句，然后仿照例句将以下句子改写为被动语态。",
+        "translation": "看例句，然后仿照例句将以下句子改写为被动语态。",
+        "expected_items": 8,
+        "answer_kind": "suggested",
+        "context": "8 active-to-passive rewrite items; item 1 (People often invite me to parties. → I am often invited to parties.) is the printed example.",
+        "questions": [
+          {"id": "l142-pa1", "number": 1, "example": true, "prompt": "People often invite me to parties.", "answer": "I am often invited to parties."},
+          {"id": "l142-pa2", "number": 2, "prompt": "Someone invited me to one last week.", "answer": "I was invited to one last week."},
+          {"id": "l142-pa3", "number": 3, "prompt": "Someone paints our house every year.", "answer": "Our house is painted every year."},
+          {"id": "l142-pa4", "number": 4, "prompt": "Some people painted it last year.", "answer": "It was painted last year."},
+          {"id": "l142-pa5", "number": 5, "prompt": "People often overtake him on the road.", "answer": "He is often overtaken on the road."},
+          {"id": "l142-pa6", "number": 6, "prompt": "Someone overtook him a minute ago.", "answer": "He was overtaken a minute ago."},
+          {"id": "l142-pa7", "number": 7, "prompt": "Someone waters the flowers every day.", "answer": "The flowers are watered every day."},
+          {"id": "l142-pa8", "number": 8, "prompt": "Someone watered them yesterday.", "answer": "They were watered yesterday."}
+        ]
+      },
+      {
+        "id": "l142-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-142-b",
+        "title": "Practice B: How do they feel?",
+        "instruction": "Rewrite the sentences like the example. How do they feel? 仿照例句改写句子。他们感觉如何？",
+        "translation": "仿照例句改写句子。他们感觉如何？",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 'How do they feel?' rewrite items; item 1 (Someone embarrassed her. → She was embarrassed.) is the printed example.",
+        "questions": [
+          {"id": "l142-pb1", "number": 1, "example": true, "prompt": "Someone embarrassed her.", "answer": "She was embarrassed."},
+          {"id": "l142-pb2", "number": 2, "prompt": "Something is worrying me.", "answer": "I am worried."},
+          {"id": "l142-pb3", "number": 3, "prompt": "Something excited him.", "answer": "He was excited."},
+          {"id": "l142-pb4", "number": 4, "prompt": "Something is amusing them.", "answer": "They are amused."}
+        ]
+      },
+      {
+        "id": "l142-practice-c",
+        "type": "exercise",
+        "source": "workbook-lesson-142-c",
+        "title": "Practice C: About you",
+        "instruction": "Answer these questions about yourself with complete sentences. 根据自己的情况用完整的句子回答以下问题。",
+        "translation": "根据自己的情况用完整的句子回答以下问题。",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "3 open-ended personalization questions; answers vary by student.",
+        "questions": [
+          {"id": "l142-pc1", "number": 1, "prompt": "Are you ever worried? If so, why?", "answer": "Yes, I am worried when I have an exam. / No, I am rarely worried."},
+          {"id": "l142-pc2", "number": 2, "prompt": "When were you last embarrassed?", "answer": "I was last embarrassed when I forgot my lines in a play."},
+          {"id": "l142-pc3", "number": 3, "prompt": "Whose party were you last invited to? And when was it?", "answer": "I was last invited to my friend's birthday party. It was last weekend."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l142-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p417",
+        "title": "Grammar I: Fill in the blanks with the correct passive form of the verb",
+        "instruction": "仿照例句用所给动词的被动语态形式填空。",
+        "translation": "仿照例句用所给动词的被动语态形式填空。",
+        "expected_items": 15,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.578 (新概念英语语法练习1)",
+        "context": "15 passive fill-in items; items 1 (Our house is painted (paint) regularly every June.) and 2 (My father's car was repaired (repair) last week.) are the printed examples.",
+        "questions": [
+          {"id": "l142-gi1", "number": 1, "example": true, "prompt": "Our house ______ (paint) regularly every June.", "answer": "is painted"},
+          {"id": "l142-gi2", "number": 2, "example": true, "prompt": "My father's car ______ (repair) last week.", "answer": "was repaired"},
+          {"id": "l142-gi3", "number": 3, "prompt": "English ______ (speak) all over the world now.", "answer": "is spoken"},
+          {"id": "l142-gi4", "number": 4, "prompt": "The flowers in our small garden ______ (water) every day.", "answer": "are watered"},
+          {"id": "l142-gi5", "number": 5, "prompt": "This book ______ (write) about ten years ago.", "answer": "was written"},
+          {"id": "l142-gi6", "number": 6, "prompt": "The doors and windows ______ (shut) last night and then we went to bed.", "answer": "were shut"},
+          {"id": "l142-gi7", "number": 7, "prompt": "Last Saturday I ______ (meet) at the station.", "answer": "was met"},
+          {"id": "l142-gi8", "number": 8, "prompt": "We ______ (invite) to a party last Saturday evening.", "answer": "were invited"},
+          {"id": "l142-gi9", "number": 9, "prompt": "We couldn't use the telephone the day before yesterday, but the telephone line ______ (repair) yesterday afternoon.", "answer": "was repaired"},
+          {"id": "l142-gi10", "number": 10, "prompt": "Our house is very old. It ______ (build) a hundred years ago.", "answer": "was built"},
+          {"id": "l142-gi11", "number": 11, "prompt": "A lot of money ______ (win) every week on the football pools.", "answer": "is won"},
+          {"id": "l142-gi12", "number": 12, "prompt": "Last week we ______ (introduce) to a famous actress.", "answer": "were introduced"},
+          {"id": "l142-gi13", "number": 13, "prompt": "'You are the thief,' said the policeman. 'You ______ (see) in the shop at midnight last Saturday.'", "answer": "were seen"},
+          {"id": "l142-gi14", "number": 14, "prompt": "I can't understand this magazine. It ______ (write) in German!", "answer": "is written"},
+          {"id": "l142-gi15", "number": 15, "prompt": "Their house is very clean. The furniture ______ (dust) every day and the floors ______ (wash) every day, too.", "answer": "is dusted, are washed"}
+        ]
+      },
+      {
+        "id": "l142-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p418",
+        "title": "Grammar II: Answer the questions in the passive",
+        "instruction": "仿照例句回答下列问题（用被动语态）。",
+        "translation": "仿照例句回答下列问题（用被动语态）。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.578 (新概念英语语法练习1)",
+        "context": "8 passive answer items; item 1 (Doesn't anyone ever open these windows? (this morning) → Of course they do! They were opened this morning.) is the printed example.",
+        "questions": [
+          {"id": "l142-gii1", "number": 1, "example": true, "prompt": "Doesn't anyone ever open these windows? (this morning)", "answer": "Of course they do! They were opened this morning."},
+          {"id": "l142-gii2", "number": 2, "prompt": "Doesn't anyone ever air this room? (yesterday)", "answer": "Of course they do! It was aired yesterday."},
+          {"id": "l142-gii3", "number": 3, "prompt": "Doesn't anyone ever invite her to a party? (last weekend)", "answer": "Of course they do! She was invited to a party last weekend."},
+          {"id": "l142-gii4", "number": 4, "prompt": "Doesn't anyone ever water those flowers? (yesterday evening)", "answer": "Of course they do! They were watered yesterday evening."},
+          {"id": "l142-gii5", "number": 5, "prompt": "Doesn't anyone ever clean this carpet? (a week ago)", "answer": "Of course they do! It was cleaned a week ago."},
+          {"id": "l142-gii6", "number": 6, "prompt": "Doesn't anyone ever empty these baskets? (this morning)", "answer": "Of course they do! They were emptied this morning."},
+          {"id": "l142-gii7", "number": 7, "prompt": "Doesn't anyone ever wash the kitchen floor? (yesterday)", "answer": "Of course they do! It was washed yesterday."},
+          {"id": "l142-gii8", "number": 8, "prompt": "Doesn't anyone ever ask her out to dinner? (last Saturday evening)", "answer": "Of course they do! She was asked out to dinner last Saturday evening."}
+        ]
+      },
+      {
+        "id": "l142-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p420-421",
+        "title": "Grammar III: Write sentences and dialogues in the passive",
+        "instruction": "仿照例句造句并编写对话（用被动语态）。",
+        "translation": "仿照例句造句并编写对话（用被动语态）。",
+        "expected_items": 15,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.578-580 (新概念英语语法练习1)",
+        "context": "15 items: 10 'Make sentences' items (item 1 example) + 5 'Write dialogues' items (item 1 example).",
+        "questions": [
+          {"id": "l142-giii1", "number": 1, "example": true, "prompt": "new shop/open/tomorrow", "answer": "The new shop will be opened tomorrow."},
+          {"id": "l142-giii2", "number": 2, "prompt": "the job/do/soon", "answer": "The job will be done soon."},
+          {"id": "l142-giii3", "number": 3, "prompt": "your shoes/repair/tomorrow", "answer": "Your shoes will be repaired tomorrow."},
+          {"id": "l142-giii4", "number": 4, "prompt": "the highest building in the city/build/next year", "answer": "The highest building in the city will be built next year."},
+          {"id": "l142-giii5", "number": 5, "prompt": "children/send to school/next week", "answer": "The children will be sent to school next week."},
+          {"id": "l142-giii6", "number": 6, "prompt": "wall/paint/green/next week", "answer": "The wall will be painted green next week."},
+          {"id": "l142-giii7", "number": 7, "prompt": "refrigerator/repair/next Monday", "answer": "The refrigerator will be repaired next Monday."},
+          {"id": "l142-giii8", "number": 8, "prompt": "two new films/show/in the city/next month", "answer": "Two new films will be shown in the city next month."},
+          {"id": "l142-giii9", "number": 9, "prompt": "pictures/put up on the wall/soon", "answer": "The pictures will be put up on the wall soon."},
+          {"id": "l142-giii10", "number": 10, "prompt": "party/hold/in two days' time", "answer": "The party will be held in two days' time."},
+          {"id": "l142-giii11", "number": 11, "example": true, "prompt": "repair your car/soon", "answer": "Has anyone repaired your car yet? No, it hasn't been repaired yet, but it will be repaired soon."},
+          {"id": "l142-giii12", "number": 12, "prompt": "catch the thief/this week", "answer": "Has anyone caught the thief yet? No, he hasn't been caught yet, but he will be caught this week."},
+          {"id": "l142-giii13", "number": 13, "prompt": "empty the litter bins/tomorrow", "answer": "Have the litter bins been emptied yet? No, they haven't been emptied yet, but they will be emptied tomorrow."},
+          {"id": "l142-giii14", "number": 14, "prompt": "repair the telephone line/next week", "answer": "Has the telephone line been repaired yet? No, it hasn't been repaired yet, but it will be repaired next week."},
+          {"id": "l142-giii15", "number": 15, "prompt": "water the garden/this evening", "answer": "Has the garden been watered yet? No, it hasn't been watered yet, but it will be watered this evening."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.287 (Lesson 142 pictures)", "href": "../img/lesson-142-01-text.jpg"},
+    {"label": "Textbook p.288 (Lesson 142 written exercises)", "href": "../img/lesson-142-02-text.jpg"},
+    {"label": "Workbook Lesson 142 (practice page 187)", "href": "../img/lesson-142-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 141-144, p.218)", "href": "../img/key-141-144.jpg"},
+    {"label": "Grammar Workbook p.417-421 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=432"},
+    {"label": "Grammar Workbook p.563-565 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=578"}
+  ],
+  "characters": {
+    "Sally": "four-year-old daughter (from Lesson 141)"
+  },
+  "images": {
+    "l142-pictures": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Eight numbered pictures in a 2x4 grid showing active and passive pairs: 1 a embarrassed woman; 2 a worried couple; 3 two men looking at a broken car; 4 a man repairing the car; 5 a teacher correcting exercise books; 6 a student writing at a desk; 7 a man arriving at a station; 8 a man greeting a woman at the station.",
+      "src": "assets/lesson-142/pictures-grid.jpg",
+      "width": 1620,
+      "height": 1800,
+      "source": "img/lesson-142-01-text.jpg (textbook p.287)"
+    }
+  }
+}
