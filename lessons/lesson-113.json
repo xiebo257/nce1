@@ -1,0 +1,241 @@
+{
+  "number": 113,
+  "status": "verified",
+  "title": "Small change 零钱",
+  "translation": "零钱",
+  "description": "A man on a bus has only a ten-pound note and no small change. The bus conductor cannot change it and asks other passengers, but none can help. The man must get off the bus, but two tramps offer to change the note. The lesson covers 'none', 'neither', 'get off', and short agreement/disagreement forms (So can I / Neither can I).",
+  "answer_note": "Workbook A (complete dialogue) and B (vocabulary matching) are from the workbook answer key (source-key). Grammar I-IV are from the grammar workbook answer key (source-key, p.546-547).",
+  "expected_answers": 65,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l113-dialogue",
+        "type": "dialogue",
+        "source": "textbook-p229",
+        "image": "l113-scene",
+        "lines": [
+          {"number": 1, "speaker": "CONDUCTOR", "text": "Fares, please!", "translation": "请买票！"},
+          {"number": 2, "speaker": "MAN", "text": "Trafalgar Square, please.", "translation": "请买一张到特拉法加广场的票。"},
+          {"number": 3, "speaker": "CONDUCTOR", "text": "I'm sorry, sir. I can't change a ten-pound note. Haven't you got any small change?", "translation": "对不起，先生。我找不开10英镑的钞票。您没有零钱吗？"},
+          {"number": 4, "speaker": "MAN", "text": "I've got no small change, I'm afraid.", "translation": "恐怕我没有零钱。"},
+          {"number": 5, "speaker": "CONDUCTOR", "text": "I'll ask some of the passengers.", "translation": "我来问问其他乘客。"},
+          {"number": 6, "speaker": "CONDUCTOR", "text": "Have you any small change, sir?", "translation": "先生，您有零钱吗？"},
+          {"number": 7, "speaker": "1ST PASSENGER", "text": "I'm sorry. I've got none.", "translation": "对不起，我没有。"},
+          {"number": 8, "speaker": "2ND PASSENGER", "text": "I haven't got any either.", "translation": "我也没有。"},
+          {"number": 9, "speaker": "CONDUCTOR", "text": "Can you change this ten-pound note, madam?", "translation": "夫人，您能把这张10英镑的钞票换开吗？"},
+          {"number": 10, "speaker": "3RD PASSENGER", "text": "I'm afraid I can't.", "translation": "恐怕不能。"},
+          {"number": 11, "speaker": "4TH PASSENGER", "text": "Neither can I.", "translation": "我也不能。"},
+          {"number": 12, "speaker": "CONDUCTOR", "text": "I'm very sorry, sir. You must get off the bus. None of our passengers can change this note. They're all millionaires!", "translation": "非常抱歉，先生。您必须下车。我们的乘客中没人能换开这张钞票。他们都是百万富翁！"},
+          {"number": 13, "speaker": "TWO TRAMPS", "text": "Except us.", "translation": "我们俩除外。"},
+          {"number": 14, "speaker": "1ST TRAMP", "text": "I've got some small change.", "translation": "我有零钱。"},
+          {"number": 15, "speaker": "2ND TRAMP", "text": "So have I.", "translation": "我也有。"}
+        ]
+      },
+      {
+        "id": "l113-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook-p230",
+        "items": [
+          {"word": "conductor", "ipa": "/kən'dʌktə/", "pos": "n.", "meaning": "售票员"},
+          {"word": "fare", "ipa": "/feə/", "pos": "n.", "meaning": "车费，车票"},
+          {"word": "change", "ipa": "/tʃeindʒ/", "pos": "v.", "meaning": "兑换（钱）"},
+          {"word": "note", "ipa": "/nəut/", "pos": "n.", "meaning": "纸币"},
+          {"word": "passenger", "ipa": "/'pæsidʒə/", "pos": "n.", "meaning": "乘客"},
+          {"word": "none", "ipa": "/nʌn/", "pos": "pron.", "meaning": "没有任何东西"},
+          {"word": "neither", "ipa": "/'naɪðə/", "pos": "adv.", "meaning": "也不"},
+          {"word": "get off", "ipa": "", "pos": "", "meaning": "下车"},
+          {"word": "tramp", "ipa": "/træmp/", "pos": "n.", "meaning": "流浪汉"},
+          {"word": "except", "ipa": "/ik'sept/", "pos": "prep.", "meaning": "除……外"}
+        ]
+      },
+      {
+        "id": "l113-notes",
+        "type": "notes",
+        "source": "textbook-p230",
+        "items": [
+          {"title": "1. Fares, please! 请买票！", "text": "这是公共车辆售票员用语。"},
+          {"title": "2. Trafalgar Square", "text": "特拉法加广场，位于伦敦市区。"},
+          {"title": "3. I've got no small change", "text": "我没有一点儿零钱。no + 名词表示所指的东西全然没有，以上这句话比 'I haven't got any small change' 更强调没有任何一点儿零钱。"},
+          {"title": "4. I've got none", "text": "这里是指零钱（不可数名词）。none 也可与可数名词连用，如 none of our passengers can change this note."},
+          {"title": "5. Neither can I", "text": "当有人说了一句否定意义的话，其否定的内容也适于你或另外的人或事物时，可以采用这种简略的句式。注意这种简略句式中主语和动词（包括 be）的顺序。"},
+          {"title": "6. get off the bus", "text": "下车。"},
+          {"title": "7. So have I", "text": "当有人说了一句肯定意义的话，其肯定的内容也适于你或另外的人或事物时，可以采用这种简略的句式。注意这种简略句式中主语和动词（包括 be）的顺序。"}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l113-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-113-a",
+        "title": "Practice A: Complete the dialogue",
+        "instruction": "Fill in the missing words. 读以下对话，填空。",
+        "translation": "读以下对话，填空。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg",
+        "context": "Workbook L113 A: fill in the dialogue with words from the lesson.",
+        "questions": [
+          {"id": "l113-pa1", "number": 1, "prompt": "Conductor: ..., please!", "answer": "Fares"},
+          {"id": "l113-pa2", "number": 2, "prompt": "Man: Trafalgar Square, ...", "answer": "please"},
+          {"id": "l113-pa3", "number": 3, "prompt": "Conductor: I'm ..., sir. I can't ... a ten-pound ...", "answer": "sorry, change, note"},
+          {"id": "l113-pa4", "number": 4, "prompt": "Haven't you got any ...?", "answer": "small change"},
+          {"id": "l113-pa5", "number": 5, "prompt": "Man: I've got no small ..., I'm ...", "answer": "change, afraid"},
+          {"id": "l113-pa6", "number": 6, "prompt": "Conductor: I'll ask some of the ...", "answer": "passengers"},
+          {"id": "l113-pa7", "number": 7, "prompt": "A few minutes later. Conductor: ... very ..., sir. You must ... off the bus.", "answer": "I'm, sorry, get"},
+          {"id": "l113-pa8", "number": 8, "prompt": "... of our passengers can change this ...", "answer": "None, note"},
+          {"id": "l113-pa9", "number": 9, "prompt": "They're all ...", "answer": "millionaires"},
+          {"id": "l113-pa10", "number": 10, "prompt": "Two tramps: Except us.", "answer": "Except us."},
+          {"id": "l113-pa11", "number": 11, "prompt": "1st Tramp: I've got ... small ...", "answer": "some, change"},
+          {"id": "l113-pa12", "number": 12, "prompt": "2nd Tramp: ... have I.", "answer": "So"}
+        ]
+      },
+      {
+        "id": "l113-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-113-b",
+        "title": "Practice B: Vocabulary matching",
+        "instruction": "Who are these people? Can you remember? Match the definitions on the right with the words on the left. 谁人这些？你能记得吗？为右栏中的描述配上左栏上职业的名称。",
+        "translation": "谁人这些？你能记得吗？为右栏中的描述配上左栏上职业的名称。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg",
+        "context": "Workbook L113 B: match a-l definitions to occupations.",
+        "questions": [
+          {"id": "l113-pb1", "number": 1, "prompt": "This person travels on a bus or in a car.", "answer": "e (A conductor)"},
+          {"id": "l113-pb2", "number": 2, "prompt": "This person sells tickets on a bus.", "answer": "c (An assistant)"},
+          {"id": "l113-pb3", "number": 3, "prompt": "This person serves people in a shop.", "answer": "d (A garage attendant)"},
+          {"id": "l113-pb4", "number": 4, "prompt": "This person flies an aeroplane.", "answer": "f (A pilot)"},
+          {"id": "l113-pb5", "number": 5, "prompt": "This person belongs to a club.", "answer": "i (A neighbour)"},
+          {"id": "l113-pb6", "number": 6, "prompt": "This person lives near you.", "answer": "i (A neighbour)"},
+          {"id": "l113-pb7", "number": 7, "prompt": "This person makes and sells bread.", "answer": "a (A baker)"},
+          {"id": "l113-pb8", "number": 8, "prompt": "This person sells writing paper and envelopes.", "answer": "k (A stationer)"},
+          {"id": "l113-pb9", "number": 9, "prompt": "This person begs money from other people.", "answer": "j (A tramp)"},
+          {"id": "l113-pb10", "number": 10, "prompt": "This person serves petrol in a garage.", "answer": "d (A garage attendant)"},
+          {"id": "l113-pb11", "number": 11, "prompt": "This person sells medicine.", "answer": "b (A chemist)"},
+          {"id": "l113-pb12", "number": 12, "prompt": "This person sells fruit and vegetables.", "answer": "h (A greengrocer)"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l113-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p343",
+        "title": "Grammar I: Give correct replies to the sentences",
+        "instruction": "仿照例句写出下列各句的对应句。",
+        "translation": "仿照例句写出下列各句的对应句。",
+        "expected_items": 14,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.546 (新概念英语语法练习1)",
+        "context": "I.1 (a-g) So... I; I.2 (a-g) Neither... I. Items 1a and 2a are printed examples.",
+        "questions": [
+          {"id": "l113-gi1a", "number": 1, "example": true, "prompt": "1a. Ken can speak English.", "answer": "So can I."},
+          {"id": "l113-gi1b", "number": 2, "prompt": "1b. He can read English.", "answer": "So can I."},
+          {"id": "l113-gi1c", "number": 3, "prompt": "1c. She had a swim yesterday.", "answer": "So did I."},
+          {"id": "l113-gi1d", "number": 4, "prompt": "1d. Bob is tall.", "answer": "So am I."},
+          {"id": "l113-gi1e", "number": 5, "prompt": "1e. David will go.", "answer": "So will I."},
+          {"id": "l113-gi1f", "number": 6, "prompt": "1f. He is learning English.", "answer": "So am I."},
+          {"id": "l113-gi1g", "number": 7, "prompt": "1g. She has read that book.", "answer": "So have I."},
+          {"id": "l113-gi2a", "number": 8, "example": true, "prompt": "2a. Sam can't speak Chinese.", "answer": "Neither can I."},
+          {"id": "l113-gi2b", "number": 9, "prompt": "2b. She can't write German.", "answer": "Neither can I."},
+          {"id": "l113-gi2c", "number": 10, "prompt": "2c. They don't like chocolate.", "answer": "Neither do I."},
+          {"id": "l113-gi2d", "number": 11, "prompt": "2d. Jack won't sing.", "answer": "Neither will I."},
+          {"id": "l113-gi2e", "number": 12, "prompt": "2e. Tony didn't go.", "answer": "Neither did I."},
+          {"id": "l113-gi2f", "number": 13, "prompt": "2f. John couldn't hear it.", "answer": "Neither could I."},
+          {"id": "l113-gi2g", "number": 14, "prompt": "2g. Mary hasn't read it.", "answer": "Neither have I."}
+        ]
+      },
+      {
+        "id": "l113-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p343-344",
+        "title": "Grammar II: Join the sentences according to the example",
+        "instruction": "仿照例句合并下列句子。",
+        "translation": "仿照例句合并下列句子。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.546 (新概念英语语法练习1)",
+        "context": "Positive 'so' agreement. Item 1 is the printed example.",
+        "questions": [
+          {"id": "l113-gii1", "number": 1, "example": true, "prompt": "They all smiled. I smiled, too.", "answer": "They all smiled, and so did I."},
+          {"id": "l113-gii2", "number": 2, "prompt": "He is tall. You are tall, too.", "answer": "He is tall, and so are you."},
+          {"id": "l113-gii3", "number": 3, "prompt": "My shoes are dirty. My trousers are dirty, too.", "answer": "My shoes are dirty, and so are my trousers."},
+          {"id": "l113-gii4", "number": 4, "prompt": "This pencil is blunt. That one is blunt, too.", "answer": "This pencil is blunt, and so is that one."},
+          {"id": "l113-gii5", "number": 5, "prompt": "You must come to the party. Your husband must come, too.", "answer": "You must come to the party, and so must your husband."},
+          {"id": "l113-gii6", "number": 6, "prompt": "He went away. His father went away, too.", "answer": "He went away, and so did his father."},
+          {"id": "l113-gii7", "number": 7, "prompt": "I like tomatoes. My friends like tomatoes, too.", "answer": "I like tomatoes, and so do my friends."},
+          {"id": "l113-gii8", "number": 8, "prompt": "She goes to school every day. Her sister goes to school every day, too.", "answer": "She goes to school every day, and so does her sister."},
+          {"id": "l113-gii9", "number": 9, "prompt": "He sits in the front. His brother sits there, too.", "answer": "He sits in the front, and so does his brother."},
+          {"id": "l113-gii10", "number": 10, "prompt": "I will have a haircut. My father will have one, too.", "answer": "I will have a haircut, and so will my father."},
+          {"id": "l113-gii11", "number": 11, "prompt": "You have finished. We have finished, too.", "answer": "You have finished, and so have we."},
+          {"id": "l113-gii12", "number": 12, "prompt": "He is here. His friends are here, too.", "answer": "He is here, and so are his friends."}
+        ]
+      },
+      {
+        "id": "l113-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p344-345",
+        "title": "Grammar III: Make sentences according to the example",
+        "instruction": "仿照例句造句。",
+        "translation": "仿照例句造句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.546-547 (新概念英语语法练习1)",
+        "context": "Negative 'neither/either' agreement. Item 1 is the printed example.",
+        "questions": [
+          {"id": "l113-giii1", "number": 1, "example": true, "prompt": "She doesn't know. / I", "answer": "She doesn't know, and I don't know, either. / She doesn't know, and neither do I."},
+          {"id": "l113-giii2", "number": 2, "prompt": "I don't want to go. / she", "answer": "I don't want to go, and she doesn't want to go, either. / I don't want to go, and neither does she."},
+          {"id": "l113-giii3", "number": 3, "prompt": "They haven't done their homework. / he", "answer": "They haven't done their homework, and he hasn't done his homework, either. / They haven't done their homework, and neither has he."},
+          {"id": "l113-giii4", "number": 4, "prompt": "I didn't sleep well last night. / she", "answer": "I didn't sleep well last night, and she didn't sleep well, either. / I didn't sleep well last night, and neither did she."},
+          {"id": "l113-giii5", "number": 5, "prompt": "This shop doesn't sell fruit. / that one", "answer": "This shop doesn't sell fruit, and that one doesn't sell fruit, either. / This shop doesn't sell fruit, and neither does that one."},
+          {"id": "l113-giii6", "number": 6, "prompt": "The cat won't drink tea. / the dog", "answer": "The cat won't drink tea, and the dog won't drink tea, either. / The cat won't drink tea, and neither will the dog."},
+          {"id": "l113-giii7", "number": 7, "prompt": "She hasn't seen him. / we", "answer": "She hasn't seen him, and we haven't seen him, either. / She hasn't seen him, and neither have we."},
+          {"id": "l113-giii8", "number": 8, "prompt": "You aren't very old. / he", "answer": "You aren't very old, and he isn't very old, either. / You aren't very old, and neither is he."},
+          {"id": "l113-giii9", "number": 9, "prompt": "Your town isn't very big. / mine", "answer": "Your town isn't very big, and mine isn't very big, either. / Your town isn't very big, and neither is mine."},
+          {"id": "l113-giii10", "number": 10, "prompt": "She hasn't got any ink. / I", "answer": "She hasn't got any ink, and I haven't got any ink, either. / She hasn't got any ink, and neither have I."}
+        ]
+      },
+      {
+        "id": "l113-grammar-iv",
+        "type": "exercise",
+        "source": "grammar-workbook-p346",
+        "title": "Grammar IV: Complete the sentences according to the example",
+        "instruction": "仿照例句完成下列句子。",
+        "translation": "仿照例句完成下列句子。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.547 (新概念英语语法练习1)",
+        "context": "Negative 'some' → 'any/no/none'. Item 1 is the printed example.",
+        "questions": [
+          {"id": "l113-giv1", "number": 1, "example": true, "prompt": "I had some ice in my beer but Peter ...", "answer": "didn't have any. He had no ice in his beer. He had none in his beer."},
+          {"id": "l113-giv2", "number": 2, "prompt": "Mrs. Smith bought some beef but Mrs. Scott ...", "answer": "didn't buy any. She bought no beef. She bought none."},
+          {"id": "l113-giv3", "number": 3, "prompt": "David wants some envelopes but John ...", "answer": "doesn't want any. He wants no envelopes. He wants none."},
+          {"id": "l113-giv4", "number": 4, "prompt": "I have got some red ink but my friend ...", "answer": "hasn't got any. He/She has got no red ink. He/She has got none."},
+          {"id": "l113-giv5", "number": 5, "prompt": "We have got some homework but they ...", "answer": "haven't got any. They've got no homework. They've got none."},
+          {"id": "l113-giv6", "number": 6, "prompt": "Tom needs some boxes but Peter ...", "answer": "doesn't need any. He needs no boxes. He needs none."},
+          {"id": "l113-giv7", "number": 7, "prompt": "The big room has windows but the little room ...", "answer": "doesn't have any. It has no windows. It has none."},
+          {"id": "l113-giv8", "number": 8, "prompt": "She bought some new dresses but I ...", "answer": "didn't buy any. I bought no new dresses. I bought none."},
+          {"id": "l113-giv9", "number": 9, "prompt": "We ate some pears but he ...", "answer": "didn't eat any. He ate no pears. He ate none."},
+          {"id": "l113-giv10", "number": 10, "prompt": "Hans had some small change but Jim ...", "answer": "didn't have any. He had no small change. He had none."}
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {
+    "conductor": "Conductor 售票员",
+    "man": "Man 男子",
+    "passengers": "Passengers 乘客",
+    "tramps": "Two Tramps 俩流浪汉"
+  },
+  "images": {
+    "l113-scene": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Five panels on a bus: the conductor asking for fares, a man with a £10 note, passengers with no small change, the conductor telling the man to get off, and two tramps offering to help.",
+      "source": "img/lesson-113-01-text.jpg (textbook p.229)",
+      "characters": ["conductor", "man", "passengers", "tramps"]
+    }
+  }
+}
