@@ -1,184 +1,495 @@
 {
-  "number": 137,
-  "status": "verified",
-  "title": "A pleasant dream",
-  "translation": "美好的梦",
-  "description": "A dialogue lesson between Brian and Julie about their dreams of winning a lot of money on the football pools. Brian says he's nearly finished the football pools and is sure they'll win something. Julie says if they win a lot of money, she wants to see the world, travel round the world, and stay at the best hotels. Brian says if they win, they'll travel round the world, stay at the best hotels, return home, and buy a big house in the country. Julie worries that if they spend all the money, they'll be poor again. The lesson introduces the use of 'if' clauses with present and past tenses, and the use of 'win' with sports and games. The workbook drills the dialogue fill-in and vocabulary opposites; the grammar workbook rewrites sentences with 'if' and present tense, and rewrites 'if' clauses in the past tense.",
-  "answer_note": "The dialogue is from the textbook. Workbook A (dialogue fill-in) is from the workbook answer key (source-key, img/key-135-141.jpg p.217); Workbook B (vocabulary opposites) has no printed key, so the answers are model answers (suggested). Grammar I (rewrite with 'if' and present tense) and II (rewrite 'if' clauses in the past tense) are from the grammar workbook answer key (source-key, pdf p.575).",
-  "expected_answers": 40,
-  "sections": {
-    "lesson": [
-      {
-        "id": "l137-lesson-intro",
-        "type": "text",
-        "source": "textbook-p277",
-        "text": "Listen to the tape and then answer the question that follows. 听录音，然后回答所接下来的问题。",
-        "translation": "听录音，然后回答所接下来的问题。"
-      },
-      {
-        "id": "l137-lesson-dialogue",
-        "type": "dialogue",
-        "source": "textbook-p277",
-        "image": "l137-scene",
-        "lines": [
-          {"number": 1, "speaker": "Brian", "text": "I've nearly finished the football pools, Julie. I'm sure we'll win something this week.", "translation": "我差不多已填好足球彩票，朱莉。我肯定我们这星期会中的。"},
-          {"number": 2, "speaker": "Julie", "text": "We never win anything, but what will you do if you win a lot of money?", "translation": "我们从来未中过奖，但如果你中了一大笔钱，你将干什么？"},
-          {"number": 3, "speaker": "Brian", "text": "If I win a lot of money, I'll buy you a mink coat.", "translation": "如果我中了大笔钱，我就给你买一件貂皮大衣。"},
-          {"number": 4, "speaker": "Julie", "text": "I don't want a mink coat! I want to see the world.", "translation": "我不想要貂皮大衣！我想看看这个世界。"},
-          {"number": 5, "speaker": "Brian", "text": "All right. If we win a lot of money, we'll travel round the world and we'll stay at the best hotels. Then we'll return home and buy a big house in the country.", "translation": "好吧。如果我们中了大笔钱，我们将环游世界并住最好的旅馆。然后我们回来，在乡下买幢大房子。"},
-          {"number": 6, "speaker": "Julie", "text": "But if we spend all that money, we'll be poor again. And what will we do then?", "translation": "但如果我们把钱花光了，我们又将变成穷人。那时我们将怎么办呢？"},
-          {"number": 7, "speaker": "Brian", "text": "If we spend all the money, we'll try and win the football pools again!", "translation": "如果花光所有的钱，我们再来一次足球彩票！"}
-        ]
-      },
-      {
-        "id": "l137-lesson-question",
-        "type": "text",
-        "source": "textbook-p277",
-        "text": "Question: 问题。Who always wins the football pools? 谁总是中足球彩票奖？",
-        "translation": "问题：谁总是中足球彩票奖？"
-      },
-      {
-        "id": "l137-lesson-vocab",
-        "type": "vocabulary",
-        "source": "textbook-p277",
-        "items": [
-          {"word": "football pools", "ipa": "", "pos": "n. phr.", "meaning": "足球彩票"},
-          {"word": "win", "ipa": "/wɪn/", "pos": "v.", "meaning": "赢，获胜"},
-          {"word": "mink coat", "ipa": "", "pos": "n. phr.", "meaning": "貂皮大衣"},
-          {"word": "return", "ipa": "/rɪˈtɜːn/", "pos": "v.", "meaning": "返回"}
-        ]
-      },
-      {
-        "id": "l137-lesson-notes",
-        "type": "notes",
-        "source": "textbook-p277",
-        "items": [
-          {"title": "win 的用法", "text": "「赢」用于比赛、游戏、彩票等：win a match / win the football pools / win a prize."},
-          {"title": "if 条件句的时态", "text": "if 引导的条件从句用一般现在时，主句用一般将来时：If I win a lot of money, I'll buy you a mink coat."}
-        ]
-      }
-    ],
-    "practice": [
-      {
-        "id": "l137-practice-a",
-        "type": "exercise",
-        "source": "workbook-lesson-137-a",
-        "title": "Practice A: Dialogue (fill in the missing words)",
-        "instruction": "Read this dialogue. Fill in the missing words. 读以下对话，填空。",
-        "translation": "读以下对话，填空。",
-        "expected_items": 12,
-        "answer_kind": "source-key",
-        "key_source": "img/key-135-141.jpg p.217 (Lesson 137 A)",
-        "context": "12 fill-in items in the Brian and Julie dialogue about football pools.",
-        "questions": [
-          {"id": "l137-pa1", "number": 1, "prompt": "I've ______ finished the football pools, Julie.", "answer": "nearly"},
-          {"id": "l137-pa2", "number": 2, "prompt": "I'm sure we'll ______ something this week.", "answer": "win"},
-          {"id": "l137-pa3", "number": 3, "prompt": "We never win anything, but what ______ you do if you win a lot of money?", "answer": "will"},
-          {"id": "l137-pa4", "number": 4, "prompt": "If I win a lot of money, I'll buy you a mink coat.", "answer": "a"},
-          {"id": "l137-pa5", "number": 5, "prompt": "I don't want a mink coat! I ______ to see the world.", "answer": "want"},
-          {"id": "l137-pa6", "number": 6, "prompt": "If we win a lot of money, we'll ______ round the world.", "answer": "travel"},
-          {"id": "l137-pa7", "number": 7, "prompt": "we'll ______ at the best hotels.", "answer": "stay"},
-          {"id": "l137-pa8", "number": 8, "prompt": "Then we'll ______ home and buy a big house in the country.", "answer": "return"},
-          {"id": "l137-pa9", "number": 9, "prompt": "But if we ______ all that money, we'll be poor again.", "answer": "spend"},
-          {"id": "l137-pa10", "number": 10, "prompt": "If we spend all the money, we'll try and win the football pools ______.", "answer": "again"},
-          {"id": "l137-pa11", "number": 11, "prompt": "And what ______ we do then?", "answer": "will"},
-          {"id": "l137-pa12", "number": 12, "prompt": "we'll ______ and win the football pools again!", "answer": "try"}
-        ]
-      },
-      {
-        "id": "l137-practice-b",
-        "type": "exercise",
-        "source": "workbook-lesson-137-b",
-        "title": "Practice B: Vocabulary (correct with opposites)",
-        "instruction": "Read this. The person who wrote it has used some wrong words. The wrong words are underlined. Correct them with their opposites. 用反义词来纠正短文中划线的错误用词。",
-        "translation": "用反义词来纠正短文中划线的错误用词。",
-        "expected_items": 10,
-        "answer_kind": "suggested",
-        "context": "10 vocabulary correction items; the wrong words are underlined and must be replaced with their opposites.",
-        "questions": [
-          {"id": "l137-pb1", "number": 1, "prompt": "John was a very ______ man. (rich → poor)", "answer": "poor"},
-          {"id": "l137-pb2", "number": 2, "prompt": "He always had dreams of ______ the lottery or the football pools. (losing → winning)", "answer": "winning"},
-          {"id": "l137-pb3", "number": 3, "prompt": "He told me that if he lost ______ the lottery, he would sell a small ______ house in the town.", "answer": "a"},
-          {"id": "l137-pb4", "number": 4, "prompt": "he would sell ______ a small ______ house in the town.", "answer": "his"},
-          {"id": "l137-pb5", "number": 5, "prompt": "John's wife likes to save ______ money, so she told me that she would have the worst ______ mink coat in the world.", "answer": "no"},
-          {"id": "l137-pb6", "number": 6, "prompt": "she told me that she would have the worst ______ mink coat in the world.", "answer": "best"},
-          {"id": "l137-pb7", "number": 7, "prompt": "She would also like an ugly ______ in and sunbathe on hot days.", "answer": "garden"},
-          {"id": "l137-pb8", "number": 8, "prompt": "She would also like an ugly ______ in and sunbathe on hot days.", "answer": "pool"},
-          {"id": "l137-pb9", "number": 9, "prompt": "______ garden that she could stand in and sunbathe on hot days.", "answer": "a beautiful"},
-          {"id": "l137-pb10", "number": 10, "prompt": "She would also like an ugly ______ in and sunbathe on hot days.", "answer": "garden"}
-        ]
-      }
-    ],
-    "grammar": [
-      {
-        "id": "l137-grammar-i",
-        "type": "exercise",
-        "source": "grammar-workbook-p400-401",
-        "title": "Grammar I: Rewrite the sentences using 'if' and the present tense",
-        "instruction": "仿照例句用 if 和现在时改写以下句子。",
-        "translation": "仿照例句用 if 和现在时改写以下句子。",
-        "expected_items": 10,
-        "answer_kind": "source-key",
-        "key_source": "pdf p.575 (新概念英语语法练习1)",
-        "context": "10 sentence-rewrite items; item 1 (We may win the prize. (we/won, you/invite) → If we won the prize, we would invite you to dinner.) is the printed example.",
-        "questions": [
-          {"id": "l137-gi1", "number": 1, "example": true, "prompt": "We may win the prize. (we/won, you/invite)", "answer": "If we won the prize, we would invite you to dinner."},
-          {"id": "l137-gi2", "number": 2, "prompt": "You may win the race. (you/won, he/invite)", "answer": "If you won the race, he would invite you to the party."},
-          {"id": "l137-gi3", "number": 3, "prompt": "You may pass your driving test. (you/won, he/give)", "answer": "If you won the race, he would give you a present."},
-          {"id": "l137-gi4", "number": 4, "prompt": "They may be able to buy the house. (they/won, we/stay)", "answer": "If they won the house, we would stay there for the summer."},
-          {"id": "l137-gi5", "number": 5, "prompt": "We may be able to see the play. (we/won, he/take)", "answer": "If we won the tickets, he would take us to the play."},
-          {"id": "l137-gi6", "number": 6, "prompt": "He may get the job. (he/won, we/celebrate)", "answer": "If he won the job, we would celebrate with a dinner."},
-          {"id": "l137-gi7", "number": 7, "prompt": "She may find the ring. (she/won, we/return)", "answer": "If she won the ring, we would return it to the owner."},
-          {"id": "l137-gi8", "number": 8, "prompt": "They may reach the top. (they/won, we/cheer)", "answer": "If they won the race, we would cheer for them."},
-          {"id": "l137-gi9", "number": 9, "prompt": "I may win the competition. (I/won, she/buy)", "answer": "If I won the competition, she would buy me a new coat."},
-          {"id": "l137-gi10", "number": 10, "prompt": "They may win the contract. (they/won, we/open)", "answer": "If they won the contract, we would open a new branch."}
-        ]
-      },
-      {
-        "id": "l137-grammar-ii",
-        "type": "exercise",
-        "source": "grammar-workbook-p401-402",
-        "title": "Grammar II: Rewrite the 'if' clauses in the past tense",
-        "instruction": "仿照例句用过去时改写以下句子中的 if 从句。",
-        "translation": "仿照例句用过去时改写以下句子中的 if 从句。",
-        "expected_items": 10,
-        "answer_kind": "source-key",
-        "key_source": "pdf p.575-576 (新概念英语语法练习1)",
-        "context": "10 sentence-rewrite items; item 1 (If I win the prize, I'll invite you to dinner. → If I had won the prize, I would have invited you to dinner.) is the printed example.",
-        "questions": [
-          {"id": "l137-gii1", "number": 1, "example": true, "prompt": "If I win the prize, I'll invite you to dinner.", "answer": "If I had won the prize, I would have invited you to dinner."},
-          {"id": "l137-gii2", "number": 2, "prompt": "If we get the tickets, we'll see the play.", "answer": "If we had got the tickets, we would have seen the play."},
-          {"id": "l137-gii3", "number": 3, "prompt": "If he passes the exam, he'll get the job.", "answer": "If he had passed the exam, he would have got the job."},
-          {"id": "l137-gii4", "number": 4, "prompt": "If she finds the ring, she'll return it.", "answer": "If she had found the ring, she would have returned it."},
-          {"id": "l137-gii5", "number": 5, "prompt": "If they reach the top, they'll cheer.", "answer": "If they had reached the top, they would have cheered."},
-          {"id": "l137-gii6", "number": 6, "prompt": "If I win the competition, I'll buy a new coat.", "answer": "If I had won the competition, I would have bought a new coat."},
-          {"id": "l137-gii7", "number": 7, "prompt": "If they win the contract, we'll open a branch.", "answer": "If they had won the contract, we would have opened a branch."},
-          {"id": "l137-gii8", "number": 8, "prompt": "If you get the job, you'll celebrate.", "answer": "If you had got the job, you would have celebrated."},
-          {"id": "l137-gii9", "number": 9, "prompt": "If she wins the prize, she'll travel abroad.", "answer": "If she had won the prize, she would have travelled abroad."},
-          {"id": "l137-gii10", "number": 10, "prompt": "If we win the race, we'll buy a new car.", "answer": "If we had won the race, we would have bought a new car."}
-        ]
-      }
+ "number": 137,
+ "status": "verified",
+ "title": "A pleasant dream",
+ "translation": "美好的梦",
+ "description": "A dialogue lesson between Brian and Julie about their dreams of winning a lot of money on the football pools. Brian says he's nearly finished the football pools and is sure they'll win something. Julie says if they win a lot of money, she wants to see the world, travel round the world, and stay at the best hotels. Brian says if they win, they'll travel round the world, stay at the best hotels, return home, and buy a big house in the country. Julie worries that if they spend all the money, they'll be poor again. The lesson introduces the use of 'if' clauses with present and past tenses, and the use of 'win' with sports and games. The workbook drills the dialogue fill-in and vocabulary opposites; the grammar workbook rewrites sentences with 'if' and present tense, and rewrites 'if' clauses in the past tense.",
+ "answer_note": "The dialogue is from the textbook. Workbook A (dialogue fill-in) is from the workbook answer key (source-key, img/key-135-141.jpg p.217); Workbook B (vocabulary opposites) has no printed key, so the answers are model answers (suggested). Grammar I (rewrite with 'if' and present tense) and II (rewrite 'if' clauses in the past tense) are from the grammar workbook answer key (source-key, pdf p.575).",
+ "expected_answers": 41,
+ "sections": {
+  "lesson": [
+   {
+    "id": "l137-lesson-intro",
+    "type": "text",
+    "source": "textbook-p277",
+    "text": "Listen to the tape and then answer the question that follows. 听录音，然后回答所接下来的问题。",
+    "translation": "听录音，然后回答所接下来的问题。"
+   },
+   {
+    "id": "l137-lesson-dialogue",
+    "type": "dialogue",
+    "source": "textbook-p277",
+    "image": "l137-scene",
+    "lines": [
+     {
+      "number": 1,
+      "speaker": "Brian",
+      "text": "I've nearly finished the football pools, Julie. I'm sure we'll win something this week.",
+      "translation": "我差不多已填好足球彩票，朱莉。我肯定我们这星期会中的。"
+     },
+     {
+      "number": 2,
+      "speaker": "Julie",
+      "text": "We never win anything, but what will you do if you win a lot of money?",
+      "translation": "我们从来未中过奖，但如果你中了一大笔钱，你将干什么？"
+     },
+     {
+      "number": 3,
+      "speaker": "Brian",
+      "text": "If I win a lot of money, I'll buy you a mink coat.",
+      "translation": "如果我中了大笔钱，我就给你买一件貂皮大衣。"
+     },
+     {
+      "number": 4,
+      "speaker": "Julie",
+      "text": "I don't want a mink coat! I want to see the world.",
+      "translation": "我不想要貂皮大衣！我想看看这个世界。"
+     },
+     {
+      "number": 5,
+      "speaker": "Brian",
+      "text": "All right. If we win a lot of money, we'll travel round the world and we'll stay at the best hotels. Then we'll return home and buy a big house in the country.",
+      "translation": "好吧。如果我们中了大笔钱，我们将环游世界并住最好的旅馆。然后我们回来，在乡下买幢大房子。"
+     },
+     {
+      "number": 6,
+      "speaker": "Julie",
+      "text": "But if we spend all that money, we'll be poor again. And what will we do then?",
+      "translation": "但如果我们把钱花光了，我们又将变成穷人。那时我们将怎么办呢？"
+     },
+     {
+      "number": 7,
+      "speaker": "Brian",
+      "text": "If we spend all the money, we'll try and win the football pools again!",
+      "translation": "如果花光所有的钱，我们再来一次足球彩票！"
+     }
     ]
-  },
-  "sources": [
-    {"label": "Textbook p.277 (Lesson 137 dialogue)", "href": "../img/lesson-137-01-text.jpg"},
-    {"label": "Textbook p.278 (Lesson 137 exercises)", "href": "../img/lesson-137-02-text.jpg"},
-    {"label": "Workbook Lesson 137 (practice page 182)", "href": "../img/lesson-137-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
-    {"label": "Grammar Workbook p.400-402 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=400"},
-    {"label": "Grammar Workbook p.575-576 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=575"}
+   },
+   {
+    "id": "l137-lesson-question",
+    "type": "text",
+    "source": "textbook-p277",
+    "text": "Question: 问题。Who always wins the football pools? 谁总是中足球彩票奖？",
+    "translation": "问题：谁总是中足球彩票奖？"
+   },
+   {
+    "id": "l137-lesson-vocab",
+    "type": "vocabulary",
+    "source": "textbook-p277",
+    "items": [
+     {
+      "word": "football pools",
+      "ipa": "",
+      "pos": "n. phr.",
+      "meaning": "足球彩票"
+     },
+     {
+      "word": "win",
+      "ipa": "/wɪn/",
+      "pos": "v.",
+      "meaning": "赢，获胜"
+     },
+     {
+      "word": "mink coat",
+      "ipa": "",
+      "pos": "n. phr.",
+      "meaning": "貂皮大衣"
+     },
+     {
+      "word": "return",
+      "ipa": "/rɪˈtɜːn/",
+      "pos": "v.",
+      "meaning": "返回"
+     }
+    ]
+   },
+   {
+    "id": "l137-lesson-notes",
+    "type": "notes",
+    "source": "textbook-p277",
+    "items": [
+     {
+      "title": "win 的用法",
+      "text": "「赢」用于比赛、游戏、彩票等：win a match / win the football pools / win a prize."
+     },
+     {
+      "title": "if 条件句的时态",
+      "text": "if 引导的条件从句用一般现在时，主句用一般将来时：If I win a lot of money, I'll buy you a mink coat."
+     }
+    ]
+   }
   ],
-  "characters": {
-    "Brian": "man who fills in football pools",
-    "Julie": "Brian's wife"
+  "practice": [
+   {
+    "id": "l137-practice-a",
+    "type": "exercise",
+    "source": "workbook-lesson-137-a",
+    "title": "Practice A: Dialogue (fill in the missing words)",
+    "instruction": "Read this dialogue. Fill in the missing words. 读以下对话，填空。",
+    "translation": "读以下对话，填空。",
+    "expected_items": 12,
+    "answer_kind": "source-key",
+    "key_source": "img/key-135-141.jpg p.217 (Lesson 137 A)",
+    "context": "12 fill-in items in the Brian and Julie dialogue about football pools.",
+    "questions": [
+     {
+      "id": "l137-pa1",
+      "number": 1,
+      "prompt": "I've ______ finished the football pools, Julie.",
+      "answer": "nearly"
+     },
+     {
+      "id": "l137-pa2",
+      "number": 2,
+      "prompt": "I'm sure we'll ______ something this week.",
+      "answer": "win"
+     },
+     {
+      "id": "l137-pa3",
+      "number": 3,
+      "prompt": "We never win anything, but what ______ you do if you win a lot of money?",
+      "answer": "will"
+     },
+     {
+      "id": "l137-pa4",
+      "number": 4,
+      "prompt": "If I win a lot of money, I'll buy you a mink coat.",
+      "answer": "a"
+     },
+     {
+      "id": "l137-pa5",
+      "number": 5,
+      "prompt": "I don't want a mink coat! I ______ to see the world.",
+      "answer": "want"
+     },
+     {
+      "id": "l137-pa6",
+      "number": 6,
+      "prompt": "If we win a lot of money, we'll ______ round the world.",
+      "answer": "travel"
+     },
+     {
+      "id": "l137-pa7",
+      "number": 7,
+      "prompt": "we'll ______ at the best hotels.",
+      "answer": "stay"
+     },
+     {
+      "id": "l137-pa8",
+      "number": 8,
+      "prompt": "Then we'll ______ home and buy a big house in the country.",
+      "answer": "return"
+     },
+     {
+      "id": "l137-pa9",
+      "number": 9,
+      "prompt": "But if we ______ all that money, we'll be poor again.",
+      "answer": "spend"
+     },
+     {
+      "id": "l137-pa10",
+      "number": 10,
+      "prompt": "If we spend all the money, we'll try and win the football pools ______.",
+      "answer": "again"
+     },
+     {
+      "id": "l137-pa11",
+      "number": 11,
+      "prompt": "And what ______ we do then?",
+      "answer": "will"
+     },
+     {
+      "id": "l137-pa12",
+      "number": 12,
+      "prompt": "we'll ______ and win the football pools again!",
+      "answer": "try"
+     }
+    ]
+   },
+   {
+    "id": "l137-practice-b",
+    "type": "exercise",
+    "source": "workbook-lesson-137-b",
+    "title": "Practice B: Vocabulary (correct with opposites)",
+    "instruction": "Read this. The person who wrote it has used some wrong words. The wrong words are underlined. Correct them with their opposites. 用反义词来纠正短文中划线的错误用词。",
+    "translation": "用反义词来纠正短文中划线的错误用词。",
+    "expected_items": 10,
+    "answer_kind": "suggested",
+    "context": "10 vocabulary correction items; the wrong words are underlined and must be replaced with their opposites.",
+    "questions": [
+     {
+      "id": "l137-pb1",
+      "number": 1,
+      "prompt": "John was a very ______ man. (rich → poor)",
+      "answer": "poor"
+     },
+     {
+      "id": "l137-pb2",
+      "number": 2,
+      "prompt": "He always had dreams of ______ the lottery or the football pools. (losing → winning)",
+      "answer": "winning"
+     },
+     {
+      "id": "l137-pb3",
+      "number": 3,
+      "prompt": "He told me that if he lost ______ the lottery, he would sell a small ______ house in the town.",
+      "answer": "a"
+     },
+     {
+      "id": "l137-pb4",
+      "number": 4,
+      "prompt": "he would sell ______ a small ______ house in the town.",
+      "answer": "his"
+     },
+     {
+      "id": "l137-pb5",
+      "number": 5,
+      "prompt": "John's wife likes to save ______ money, so she told me that she would have the worst ______ mink coat in the world.",
+      "answer": "no"
+     },
+     {
+      "id": "l137-pb6",
+      "number": 6,
+      "prompt": "she told me that she would have the worst ______ mink coat in the world.",
+      "answer": "best"
+     },
+     {
+      "id": "l137-pb7",
+      "number": 7,
+      "prompt": "She would also like an ugly ______ in and sunbathe on hot days.",
+      "answer": "garden"
+     },
+     {
+      "id": "l137-pb8",
+      "number": 8,
+      "prompt": "She would also like an ugly ______ in and sunbathe on hot days.",
+      "answer": "pool"
+     },
+     {
+      "id": "l137-pb9",
+      "number": 9,
+      "prompt": "______ garden that she could stand in and sunbathe on hot days.",
+      "answer": "a beautiful"
+     },
+     {
+      "id": "l137-pb10",
+      "number": 10,
+      "prompt": "She would also like an ugly ______ in and sunbathe on hot days.",
+      "answer": "garden"
+     }
+    ]
+   }
+  ],
+  "grammar": [
+   {
+    "id": "l137-grammar-i",
+    "type": "exercise",
+    "source": "grammar-workbook-p400-401",
+    "title": "Grammar I: Fill in the blanks with the correct tense of the verb given",
+    "instruction": "Fill in the blanks with the correct tense of the verb given. 用所给动词的正确时态填空。",
+    "translation": "Fill in the blanks with the correct tense of the verb given.",
+    "expected_items": 12,
+    "answer_kind": "source-key",
+    "key_source": "pdf p.572 (新概念英语语法练习1)",
+    "context": "12 first-conditional fill-in items with the base verb in brackets; all editable; answers from the answer key.",
+    "questions": [
+     {
+      "id": "l137-gi1",
+      "number": 1,
+      "prompt": "If you ______ (see) him, please give him this letter.",
+      "answer": "see",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi2",
+      "number": 2,
+      "prompt": "Everything ______ (be) all right if you win some money.",
+      "answer": "will be",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi3",
+      "number": 3,
+      "prompt": "What ______ you ______ (say) if you ______ (see) him?",
+      "answer": "will … say, see",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi4",
+      "number": 4,
+      "prompt": "If you ______ (not arrive) early, you ______ (not get) a seat.",
+      "answer": "don’t arrive, won’t get",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi5",
+      "number": 5,
+      "prompt": "If he ______ (stay) with me, I will not be afraid.",
+      "answer": "stays",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi6",
+      "number": 6,
+      "prompt": "I ______ (help) you if I can.",
+      "answer": "will help",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi7",
+      "number": 7,
+      "prompt": "If you ______ (not hurry), you ______ (be) late.",
+      "answer": "don’t hurry, will be",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi8",
+      "number": 8,
+      "prompt": "If he ______ (fall) off that wall, he ______ (hurt) himself.",
+      "answer": "falls, will hurt",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi9",
+      "number": 9,
+      "prompt": "We ______ (do) it if we can.",
+      "answer": "will do",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi10",
+      "number": 10,
+      "prompt": "If she ______ (feel) ill tomorrow, she ______ (go) and see a doctor.",
+      "answer": "feels, will go",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi11",
+      "number": 11,
+      "prompt": "If you ______ (work) hard, you ______ (get) good marks.",
+      "answer": "work, will get",
+      "rows": 1
+     },
+     {
+      "id": "l137-gi12",
+      "number": 12,
+      "prompt": "If she ______ (pass) the examination, she ______ (leave) school.",
+      "answer": "passes, will leave",
+      "rows": 1
+     }
+    ]
+   },
+   {
+    "id": "l137-grammar-ii",
+    "type": "exercise",
+    "source": "grammar-workbook-p401-402",
+    "title": "Grammar II: Answer the questions, using the cues given",
+    "instruction": "Answer the questions, using the cues given according to the example. 仿照例句用所给的词回答下列问题。",
+    "translation": "Answer the questions, using the cues given according to the example.",
+    "expected_items": 8,
+    "answer_kind": "source-key",
+    "key_source": "pdf p.572 (新概念英语语法练习1)",
+    "context": "8 question-and-cue items answered as first-conditional sentences; item 1 is a printed example (shown, not editable); items 2-8 are editable; answers from the answer key.",
+    "questions": [
+     {
+      "id": "l137-gii1",
+      "number": 1,
+      "prompt": "What will you do if you take a long holiday next summer? (go to New York)",
+      "answer": "If I take a long holiday next summer, I’ll go to New York.",
+      "rows": 1,
+      "example": true,
+      "answer_kind": "source-example"
+     },
+     {
+      "id": "l137-gii2",
+      "number": 2,
+      "prompt": "How will you go if you go to New York? (by air)",
+      "answer": "If I go to New York, I’ll go by air.",
+      "rows": 1
+     },
+     {
+      "id": "l137-gii3",
+      "number": 3,
+      "prompt": "Which airport will you arrive at if you fly to New York? (Kennedy Airport)",
+      "answer": "If I fly to New York, I’ll arrive at Kennedy Airport.",
+      "rows": 1
+     },
+     {
+      "id": "l137-gii4",
+      "number": 4,
+      "prompt": "Where will you go if you arrive at Kennedy Airport? (Manhattan)",
+      "answer": "If I arrive at Kennedy Airport, I’ll go to Manhattan.",
+      "rows": 1
+     },
+     {
+      "id": "l137-gii5",
+      "number": 5,
+      "prompt": "How will you go if you go to Manhattan? (go by bus)",
+      "answer": "If I go to Manhattan, I’ll go by bus.",
+      "rows": 1
+     },
+     {
+      "id": "l137-gii6",
+      "number": 6,
+      "prompt": "What will you see if you go to Manhattan? (the Empire State Building)",
+      "answer": "If I go to Manhattan, I’ll see the Empire State Building.",
+      "rows": 1
+     },
+     {
+      "id": "l137-gii7",
+      "number": 7,
+      "prompt": "What will you do if you visit the Empire State Building? (go to the top)",
+      "answer": "If I visit the Empire State Building, I’ll go to the top.",
+      "rows": 1
+     },
+     {
+      "id": "l137-gii8",
+      "number": 8,
+      "prompt": "What will you do if you go to the top? (take some photographs of New York)",
+      "answer": "If I go to the top, I’ll take some photographs of New York.",
+      "rows": 1
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Textbook p.277 (Lesson 137 dialogue)",
+   "href": "../img/lesson-137-01-text.jpg"
   },
-  "images": {
-    "l137-scene": {
-      "kind": "scene",
-      "status": "pending",
-      "description": "Brian and Julie sitting at a table discussing their football pools dreams, with a mink coat and a house in the country illustrated",
-      "source": "img/lesson-137-01-text.jpg (textbook p.277)",
-      "reason": "No suitable crop available for the dialogue scene"
-    }
+  {
+   "label": "Textbook p.278 (Lesson 137 exercises)",
+   "href": "../img/lesson-137-02-text.jpg"
+  },
+  {
+   "label": "Workbook Lesson 137 (practice page 182)",
+   "href": "../img/lesson-137-practice.jpg"
+  },
+  {
+   "label": "Workbook Answer Key (Lessons 135-141, p.217)",
+   "href": "../img/key-135-141.jpg"
+  },
+  {
+   "label": "Grammar Workbook p.400-402 (exercises)",
+   "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=400"
+  },
+  {
+   "label": "Grammar Workbook p.575-576 (answer key)",
+   "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=575"
   }
+ ],
+ "characters": {
+  "Brian": "man who fills in football pools",
+  "Julie": "Brian's wife"
+ },
+ "images": {
+  "l137-scene": {
+   "kind": "scene",
+   "status": "pending",
+   "description": "Brian and Julie sitting at a table discussing their football pools dreams, with a mink coat and a house in the country illustrated",
+   "source": "img/lesson-137-01-text.jpg (textbook p.277)",
+   "reason": "No suitable crop available for the dialogue scene"
+  }
+ }
 }
