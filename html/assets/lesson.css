@@ -624,12 +624,13 @@ progress::-moz-progress-bar {
 
   border-top: 1px solid var(--line);
   padding: 14px 24px max(14px, env(safe-area-inset-bottom));
+  padding-bottom: max(14px, env(safe-area-inset-bottom));
 }
 .bottom-inner {
   max-width: 1192px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr 1.35fr 1fr 1fr;
   align-items: center;
 }
 .page-step {
@@ -953,12 +954,12 @@ dialog textarea {
     padding: 4px 8px;
   }
   .bottom-bar {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .bottom-inner {
-    grid-template-columns: 1fr 1.35fr 1fr;
-    gap: 8px;
+    grid-template-columns: 1fr 1.25fr 1fr 1fr;
+    gap: 6px;
   }
   .submit-action button {
     min-width: 0;
@@ -1205,15 +1206,19 @@ body {
     padding: 20px 14px;
   }
   .bottom-bar {
-    position: static;
-    padding: 20px 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    padding: 10px 12px max(10px, env(safe-area-inset-bottom));
   }
   body {
-    padding-bottom: 0;
+    padding-bottom: 120px;
   }
   .bottom-inner {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
     align-items: start;
   }
   .page-step button,

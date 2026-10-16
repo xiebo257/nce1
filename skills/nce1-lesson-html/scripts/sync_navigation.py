@@ -31,6 +31,7 @@ def main():
         for direction in ['previous','next']:
             if n==args.first-1 and direction=='previous':continue
             if n==args.last+1 and direction=='next':continue
+            if not re.search(rf'<div class="page-step {direction}">',s):continue
             s=replace_once(s,rf'<div class="page-step {direction}">.*?</div>',step(root,n,direction,set(pages)))
         changes.append((path,s))
     cards=[];nav=[]
