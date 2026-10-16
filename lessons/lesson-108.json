@@ -1,0 +1,524 @@
+{
+  "number": 108,
+  "status": "verified",
+  "title": "How do they compare?",
+  "translation": "比一比",
+  "description": "A picture lesson about comparative and superlative adjectives. 12 pictures in 4 groups show positive, comparative, and superlative forms (height, heat, crowds, suitcase weight). Written exercises cover completing sentences with comparatives and writing new sentences.",
+  "answer_note": "Textbook written exercises and practice A/B are open-ended (suggested answers). Grammar answers are from the grammar practice book key.",
+  "expected_answers": 54,
+  "sections": {
+    "lesson": [
+      {
+        "id": "lesson-intro",
+        "type": "text",
+        "source": "textbook",
+        "text": "Lesson 108: How do they compare? 比一比",
+        "translation": "第108课：比一比",
+        "image": "items-grid"
+      },
+      {
+        "id": "lesson-items",
+        "type": "text",
+        "source": "textbook",
+        "text": "Listen and answer the questions. Look at the pictures and describe them using comparative and superlative adjectives.",
+        "translation": "听录音并回答问题。看图并用比较级和最高级形容词描述它们。"
+      },
+      {
+        "id": "lesson-listening",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Listen and describe the pictures",
+        "instruction": "Look at the pictures and describe them using positive, comparative, and superlative forms.",
+        "translation": "看图并用原级、比较级和最高级形式描述它们。",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers based on the pictures.",
+        "context": "Each group of three pictures shows positive, comparative, and superlative forms.",
+        "questions": [
+          {
+            "id": "l108-list-1",
+            "number": 1,
+            "prompt": "Picture A: Sophie standing alone (height)",
+            "answer": "Sophie is tall."
+          },
+          {
+            "id": "l108-list-2",
+            "number": 2,
+            "prompt": "Picture B: Sophie and Paul standing together",
+            "answer": "Paul is taller than Sophie."
+          },
+          {
+            "id": "l108-list-3",
+            "number": 3,
+            "prompt": "Picture C: Four students standing together",
+            "answer": "Hans is the tallest student in our class."
+          },
+          {
+            "id": "l108-list-4",
+            "number": 4,
+            "prompt": "Picture D: A sunny day at the beach (few people)",
+            "answer": "It is hot today."
+          },
+          {
+            "id": "l108-list-5",
+            "number": 5,
+            "prompt": "Picture E: A sunny day at the beach (more people)",
+            "answer": "It was hotter yesterday."
+          },
+          {
+            "id": "l108-list-6",
+            "number": 6,
+            "prompt": "Picture F: A very crowded beach (many people)",
+            "answer": "The day before yesterday was the hottest day in the year."
+          },
+          {
+            "id": "l108-list-7",
+            "number": 7,
+            "prompt": "Picture G: A race with a large crowd watching",
+            "answer": "There was a large crowd at the race last year."
+          },
+          {
+            "id": "l108-list-8",
+            "number": 8,
+            "prompt": "Picture H: A race with an even larger crowd",
+            "answer": "This year the crowd is larger."
+          },
+          {
+            "id": "l108-list-9",
+            "number": 9,
+            "prompt": "Picture I: A race with the largest crowd",
+            "answer": "It is the largest crowd I have ever seen."
+          },
+          {
+            "id": "l108-list-10",
+            "number": 10,
+            "prompt": "Picture J: A brown suitcase on a scale",
+            "answer": "The brown suitcase is heavy."
+          },
+          {
+            "id": "l108-list-11",
+            "number": 11,
+            "prompt": "Picture K: A blue suitcase on a scale (heavier)",
+            "answer": "The blue suitcase is heavier than the brown one."
+          },
+          {
+            "id": "l108-list-12",
+            "number": 12,
+            "prompt": "Picture L: A green suitcase on a scale (heaviest)",
+            "answer": "The green suitcase is the heaviest of them all."
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-a",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises A: Complete sentences with comparatives",
+        "instruction": "Look at these words: cold—colder; nice—nicer; hot—hotter; heavy—heavier. Now complete these sentences. Example: It is warm today, but it was warmer yesterday.",
+        "translation": "注意这些形容词的比较级形式：cold—colder; nice—nicer; hot—hotter; heavy—heavier。模仿例句完成以下句子。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers completing sentences with appropriate comparative forms.",
+        "context": "Complete each sentence with the comparative form of the adjective.",
+        "questions": [
+          {
+            "id": "l108-wa-0",
+            "number": 0,
+            "prompt": "Example: It is warm today, but it was ________ yesterday.",
+            "answer": "It is warm today, but it was warmer yesterday.",
+            "example": true
+          },
+          {
+            "id": "l108-wa-1",
+            "number": 1,
+            "prompt": "It is cool today, but it was ________ yesterday.",
+            "answer": "It is cool today, but it was cooler yesterday."
+          },
+          {
+            "id": "l108-wa-2",
+            "number": 2,
+            "prompt": "It is wet today, but it was ________ yesterday.",
+            "answer": "It is wet today, but it was wetter yesterday."
+          },
+          {
+            "id": "l108-wa-3",
+            "number": 3,
+            "prompt": "He's late again today, but he was ________ yesterday.",
+            "answer": "He's late again today, but he was later yesterday."
+          },
+          {
+            "id": "l108-wa-4",
+            "number": 4,
+            "prompt": "This test is easy, but that one is ________.",
+            "answer": "This test is easy, but that one is easier."
+          },
+          {
+            "id": "l108-wa-5",
+            "number": 5,
+            "prompt": "This bookcase is large, but that one is ________.",
+            "answer": "This bookcase is large, but that one is larger."
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-b",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises B: Write new sentences with comparative and superlative",
+        "instruction": "Write new sentences. Example: I am very young. → I am younger than you are. I am the youngest in the class.",
+        "translation": "模仿例句改写以下句子，写出比较级和最高级形式。例句：我非常年轻。→ 我比你年轻。我是班上最年轻的。",
+        "expected_items": 9,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers writing comparative and superlative sentences.",
+        "context": "Write two sentences for each adjective: one with the comparative and one with the superlative.",
+        "questions": [
+          {
+            "id": "l108-wb-0",
+            "number": 0,
+            "prompt": "Example: I am very young.",
+            "answer": "I am younger than you are. I am the youngest in the class.",
+            "example": true
+          },
+          {
+            "id": "l108-wb-1",
+            "number": 1,
+            "prompt": "I am very old.",
+            "answer": "I am older than you are. I am the oldest in the class."
+          },
+          {
+            "id": "l108-wb-2",
+            "number": 2,
+            "prompt": "I am very tall.",
+            "answer": "I am taller than you are. I am the tallest in the class."
+          },
+          {
+            "id": "l108-wb-3",
+            "number": 3,
+            "prompt": "I am very lazy.",
+            "answer": "I am lazier than you are. I am the laziest in the class."
+          },
+          {
+            "id": "l108-wb-4",
+            "number": 4,
+            "prompt": "I am very heavy.",
+            "answer": "I am heavier than you are. I am the heaviest in the class."
+          },
+          {
+            "id": "l108-wb-5",
+            "number": 5,
+            "prompt": "I am very lucky.",
+            "answer": "I am luckier than you are. I am the luckiest in the class."
+          },
+          {
+            "id": "l108-wb-6",
+            "number": 6,
+            "prompt": "I am very fat.",
+            "answer": "I am fatter than you are. I am the fattest in the class."
+          },
+          {
+            "id": "l108-wb-7",
+            "number": 7,
+            "prompt": "I am very thin.",
+            "answer": "I am thinner than you are. I am the thinnest in the class."
+          },
+          {
+            "id": "l108-wb-8",
+            "number": 8,
+            "prompt": "I am very big.",
+            "answer": "I am bigger than you are. I am the biggest in the class."
+          }
+        ]
+      },
+      {
+        "id": "lesson-written-c",
+        "type": "exercise",
+        "source": "textbook",
+        "title": "Written exercises C: Write new sentences with comparative and superlative",
+        "instruction": "Write new sentences. Example: This policeman is tall. → But that policeman is taller. He is the tallest policeman I have ever seen.",
+        "translation": "模仿例句改写以下句子，写出比较级和最高级形式。例句：这个警察很高。→ 但那个警察更高。他是我见过的最高的警察。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers writing comparative and superlative sentences.",
+        "context": "Write two sentences for each: one with the comparative and one with the superlative.",
+        "questions": [
+          {
+            "id": "l108-wc-0",
+            "number": 0,
+            "prompt": "Example: This policeman is tall.",
+            "answer": "But that policeman is taller. He is the tallest policeman I have ever seen.",
+            "example": true
+          },
+          {
+            "id": "l108-wc-1",
+            "number": 1,
+            "prompt": "This street is clean.",
+            "answer": "But that street is cleaner. It is the cleanest street I have ever seen."
+          },
+          {
+            "id": "l108-wc-2",
+            "number": 2,
+            "prompt": "This man is old.",
+            "answer": "But that man is older. He is the oldest man I have ever seen."
+          },
+          {
+            "id": "l108-wc-3",
+            "number": 3,
+            "prompt": "This river is long.",
+            "answer": "But that river is longer. It is the longest river I have ever seen."
+          },
+          {
+            "id": "l108-wc-4",
+            "number": 4,
+            "prompt": "This woman is short.",
+            "answer": "But that woman is shorter. She is the shortest woman I have ever seen."
+          },
+          {
+            "id": "l108-wc-5",
+            "number": 5,
+            "prompt": "This knife is blunt.",
+            "answer": "But that knife is blunter. It is the bluntest knife I have ever seen."
+          },
+          {
+            "id": "l108-wc-6",
+            "number": 6,
+            "prompt": "This car is cheap.",
+            "answer": "But that car is cheaper. It is the cheapest car I have ever seen."
+          }
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "practice-a",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice A: Polly is taller than John",
+        "instruction": "Look at this table showing comparative and superlative forms. Now compare these. Example: John—tall, Polly—taller, George—tallest of all → John is tall, but Polly is taller than John, and George is the tallest of them all.",
+        "translation": "请看下表，注意比较级和最高级形式。完成以下句子。例句：John—tall, Polly—taller, George—tallest of all → John很高，但Polly比John高，George是他们中间最高的。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "answer_note": "Model answers combining sentences with positive, comparative, and superlative forms.",
+        "context": "Combine each set of three statements into one sentence using positive, comparative, and superlative forms. Item 1 is a printed example.",
+        "questions": [
+          {
+            "id": "l108-pa-1",
+            "number": 1,
+            "prompt": "John—tall, Polly—taller, George—tallest of all",
+            "answer": "John is tall, but Polly is taller than John, and George is the tallest of them all.",
+            "example": true
+          },
+          {
+            "id": "l108-pa-2",
+            "number": 2,
+            "prompt": "this skirt—pretty, that one—prettier, the red one—prettiest in the shop",
+            "answer": "This skirt is pretty, but that one is prettier, and the red one is the prettiest in the shop."
+          },
+          {
+            "id": "l108-pa-3",
+            "number": 3,
+            "prompt": "Mary is lucky, Ken—luckier, Tom—luckiest person I know",
+            "answer": "Mary is lucky, but Ken is luckier, and Tom is the luckiest person I know."
+          },
+          {
+            "id": "l108-pa-4",
+            "number": 4,
+            "prompt": "the French test—easy, Maths test—easier, English test—easiest we've had for a long time",
+            "answer": "The French test was easy, but the Maths test was easier, and the English test was the easiest we've had for a long time."
+          },
+          {
+            "id": "l108-pa-5",
+            "number": 5,
+            "prompt": "Paul had a low mark, Sophie—lower mark, poor Hans—lowest mark in the class",
+            "answer": "Paul had a low mark, but Sophie had a lower mark, and poor Hans had the lowest mark in the class."
+          },
+          {
+            "id": "l108-pa-6",
+            "number": 6,
+            "prompt": "last summer—hot, the summer before that—hotter, this summer—hottest we've had for a long time",
+            "answer": "Last summer was hot, but the summer before that was hotter, and this summer is the hottest we've had for a long time."
+          }
+        ]
+      },
+      {
+        "id": "practice-b",
+        "type": "exercise",
+        "source": "practice",
+        "title": "Practice B: About you",
+        "instruction": "Answer these questions with short answers or complete sentences.",
+        "translation": "用简短形式或完整句子回答以下问题。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "answer_note": "Open-ended personal questions. Model answers provided.",
+        "context": "Answer each question about yourself using comparative or superlative forms.",
+        "questions": [
+          {
+            "id": "l108-pb-1",
+            "number": 1,
+            "prompt": "Who is older— you or your friend?",
+            "answer": "I am older than my friend."
+          },
+          {
+            "id": "l108-pb-2",
+            "number": 2,
+            "prompt": "Who is taller— you or your friend?",
+            "answer": "My friend is taller than me."
+          },
+          {
+            "id": "l108-pb-3",
+            "number": 3,
+            "prompt": "Who is the cleverest person you know?",
+            "answer": "The cleverest person I know is my grandfather."
+          },
+          {
+            "id": "l108-pb-4",
+            "number": 4,
+            "prompt": "Which are usually the hottest and coldest months in your part of China?",
+            "answer": "The hottest month is usually July and the coldest month is usually February."
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-i",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar I: Make sentences according to the example",
+        "instruction": "Make sentences according to the example. Example: red car / blue car / white car fast → The red car is fast, the blue car is faster, and the white car is the fastest I've ever seen.",
+        "translation": "仿照例句造句。例句：red car / blue car / white car fast → 红色的车很快，蓝色的车更快，白色的车是我见过的最快的。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 108 I, PDF p.539-540)",
+        "context": "Make three sentences for each set: positive, comparative, and superlative. Item 1 is a printed example.",
+        "questions": [
+          {
+            "id": "l108-gi-1",
+            "number": 1,
+            "prompt": "red car / blue car / white car — fast",
+            "answer": "The red car is fast, the blue car is faster, and the white car is the fastest I've ever seen.",
+            "example": true
+          },
+          {
+            "id": "l108-gi-2",
+            "number": 2,
+            "prompt": "men / women / little children — happy",
+            "answer": "The men are happy, the women are happier, and the children are the happiest of all the people."
+          },
+          {
+            "id": "l108-gi-3",
+            "number": 3,
+            "prompt": "Sam / Ann / Jack — suitcase heavy",
+            "answer": "Sam's suitcase is heavy, Ann's suitcase is heavier, and Jack's (suitcase) is the heaviest of all the suitcases."
+          },
+          {
+            "id": "l108-gi-4",
+            "number": 4,
+            "prompt": "Jane / David / Tony — tall",
+            "answer": "Jane is tall, David is taller, and Tony is the tallest in the class."
+          },
+          {
+            "id": "l108-gi-5",
+            "number": 5,
+            "prompt": "my / your / her shoes — small",
+            "answer": "My shoes are small, your shoes are smaller, and her shoes are the smallest of all the shoes."
+          },
+          {
+            "id": "l108-gi-6",
+            "number": 6,
+            "prompt": "dress / shoes / hat — cheap",
+            "answer": "The dress is cheap, the shoes are cheaper, and the hat is the cheapest in the shop."
+          },
+          {
+            "id": "l108-gi-7",
+            "number": 7,
+            "prompt": "this / that / blue watch — nice",
+            "answer": "This watch is nice, that watch is nicer, and the blue watch is the nicest I've ever seen."
+          },
+          {
+            "id": "l108-gi-8",
+            "number": 8,
+            "prompt": "white / black / black-and-white bird — big",
+            "answer": "The white bird is big, the black bird is bigger, and the black and white bird is the biggest I've ever seen."
+          },
+          {
+            "id": "l108-gi-9",
+            "number": 9,
+            "prompt": "Summer Palace / Imperial Palace / Great Wall — great",
+            "answer": "The Summer Palace is great, the Imperial Palace is greater, and the Great Wall is the greatest I've ever seen."
+          },
+          {
+            "id": "l108-gi-10",
+            "number": 10,
+            "prompt": "this / that / living-room carpet — lovely",
+            "answer": "This carpet is lovely, that carpet is lovelier, and the carpet in the living room is the loveliest in the house."
+          }
+        ]
+      },
+      {
+        "id": "grammar-ii",
+        "type": "exercise",
+        "source": "grammar",
+        "title": "Grammar II: Make dialogues according to the example",
+        "instruction": "Make dialogues according to the example. Example: oranges / sweet → Those oranges are sweet, aren't they? Yes, they are, but these are sweeter.",
+        "translation": "仿照例句编对话。例句：oranges / sweet → 那些橙子很甜，是吗？是的，但这些更甜。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 108 II, PDF p.540)",
+        "context": "Make a dialogue for each pair using a question tag and a comparative response. Item 1 is a printed example.",
+        "questions": [
+          {
+            "id": "l108-gii-1",
+            "number": 1,
+            "prompt": "oranges / sweet",
+            "answer": "Those oranges are sweet, aren't they? Yes, they are, but these are sweeter.",
+            "example": true
+          },
+          {
+            "id": "l108-gii-2",
+            "number": 2,
+            "prompt": "apples / big",
+            "answer": "Those apples are big, aren't they? Yes, they are, but these are bigger."
+          },
+          {
+            "id": "l108-gii-3",
+            "number": 3,
+            "prompt": "tomatoes / fresh",
+            "answer": "Those tomatoes are fresh, aren't they? Yes, they are, but these are fresher."
+          },
+          {
+            "id": "l108-gii-4",
+            "number": 4,
+            "prompt": "peaches / nice",
+            "answer": "Those peaches are nice, aren't they? Yes, they are, but these are nicer."
+          },
+          {
+            "id": "l108-gii-5",
+            "number": 5,
+            "prompt": "dresses / smart",
+            "answer": "Those dresses are smart, aren't they? Yes, they are, but these are smarter."
+          },
+          {
+            "id": "l108-gii-6",
+            "number": 6,
+            "prompt": "eggs / large",
+            "answer": "Those eggs are large, aren't they? Yes, they are, but these are larger."
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {},
+  "images": {
+    "items-grid": {
+      "kind": "scene",
+      "description": "12 pictures in 4 groups showing comparative and superlative forms: height (Sophie/Paul/Hans), heat at the beach (D-F), crowds at a race (G-I), and suitcase weight (J-L)",
+      "source": "img/lesson-108-01-text.jpg",
+      "characters": [],
+      "status": "ready",
+      "src": "assets/lesson-108/items-grid.jpg",
+      "width": 1689,
+      "height": 2325
+    }
+  }
+}
