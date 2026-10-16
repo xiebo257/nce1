@@ -1,0 +1,258 @@
+{
+  "number": 114,
+  "status": "verified",
+  "title": "I've got none. 我没有。",
+  "translation": "我没有。",
+  "description": "Lesson 114 is a picture lesson about 'none', 'no' and 'any' in negative sentences. Twelve pictures (o-z) show pairs of people asking about chocolate, envelopes and cake, with answers using 'I haven't got any', 'I've got no...', 'I've got none', 'Neither have I' and 'So have I'. The written exercises and grammar workbook section focus on rewriting sentences with 'no' and answering questions using the 'any/no/none' pattern.",
+  "answer_note": "Listening and written exercises A-D are model answers (suggested). Workbook A (dialogues), B (So/Neither), C (situations) are from the workbook answer key (source-key). Grammar I-II are from the grammar workbook answer key (source-key, p.548-549).",
+  "expected_answers": 69,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l114-lesson-intro",
+        "type": "text",
+        "source": "textbook-p231",
+        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l114-lesson-items",
+        "type": "text",
+        "source": "textbook-p231",
+        "image": "l114-items-grid",
+        "text": "Twelve pictures (o-z) in groups of three: o-q chocolate/envelopes (Have you got any? / I haven't got any. I've got no... I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
+        "translation": "十二张图片（o-z）分三组：o-q 巧克力/信封（你有吗？/ 我没有。我没有……我一点也没有。/ 我也没有。我也一点没有。），r-t 信封（同），u-w 蛋糕（你有吗？/ 我有一些。/ 我也有。），x-z 饼干（同）。"
+      },
+      {
+        "id": "l114-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p231",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the recording and answer the questions for each picture (o-z).",
+        "translation": "听录音并回答每组图片（o-z）的问题。",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "context": "The recording reads each caption.",
+        "questions": [
+          {"id": "l114-listen-o", "number": 1, "prompt": "Picture o: Have you got any chocolate?", "answer": "Have you got any chocolate?"},
+          {"id": "l114-listen-p", "number": 2, "prompt": "Picture p: Answer about chocolate.", "answer": "I haven't got any. I've got no chocolate. I've got none."},
+          {"id": "l114-listen-q", "number": 3, "prompt": "Picture q: Answer about chocolate.", "answer": "I haven't any either. Neither have I."},
+          {"id": "l114-listen-r", "number": 4, "prompt": "Picture r: Have you got any envelopes?", "answer": "Have you got any envelopes?"},
+          {"id": "l114-listen-s", "number": 5, "prompt": "Picture s: Answer about envelopes.", "answer": "I haven't got any. I've got no envelopes. I've got none."},
+          {"id": "l114-listen-t", "number": 6, "prompt": "Picture t: Answer about envelopes.", "answer": "I haven't any either. Neither have I."},
+          {"id": "l114-listen-u", "number": 7, "prompt": "Picture u: Have you got any cake?", "answer": "Have you got any cake?"},
+          {"id": "l114-listen-v", "number": 8, "prompt": "Picture v: Answer about cake.", "answer": "I've got some."},
+          {"id": "l114-listen-w", "number": 9, "prompt": "Picture w: Answer about cake.", "answer": "So have I."},
+          {"id": "l114-listen-x", "number": 10, "prompt": "Picture x: Have you got any cookies?", "answer": "Have you got any cookies?"},
+          {"id": "l114-listen-y", "number": 11, "prompt": "Picture y: Answer about cookies.", "answer": "I've got some."},
+          {"id": "l114-listen-z", "number": 12, "prompt": "Picture z: Answer about cookies.", "answer": "So have I."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l114-written-a",
+        "type": "exercise",
+        "source": "textbook-p232",
+        "title": "Written exercise A",
+        "instruction": "Rewrite these sentences using 'no'. (One example is given.)",
+        "translation": "用 no 改写以下句子。（已给出一个例子。）",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Model answers rewriting with 'no'.",
+        "questions": [
+          {"id": "l114-wa1", "number": 1, "example": true, "prompt": "There isn't any milk in that bottle.", "answer": "There is no milk in that bottle."},
+          {"id": "l114-wa2", "number": 2, "prompt": "There aren't any books on that shelf.", "answer": "There are no books on that shelf."},
+          {"id": "l114-wa3", "number": 3, "prompt": "I haven't got any money.", "answer": "I've got no money."},
+          {"id": "l114-wa4", "number": 4, "prompt": "I didn't see any cars in the street.", "answer": "I saw no cars in the street."}
+        ]
+      },
+      {
+        "id": "l114-written-b",
+        "type": "exercise",
+        "source": "textbook-p232",
+        "title": "Written exercise B",
+        "instruction": "Answer these questions. (One example is given.)",
+        "translation": "模仿例句回答以下问题。（已给出一个例子。）",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "Model answers using any/no/none pattern.",
+        "questions": [
+          {"id": "l114-wb1", "number": 1, "example": true, "prompt": "Have you got any beer?", "answer": "No, I haven't got any beer. I've got no beer. I've got none."},
+          {"id": "l114-wb2", "number": 2, "prompt": "Have you got any milk?", "answer": "No, I haven't got any milk. I've got no milk. I've got none."},
+          {"id": "l114-wb3", "number": 3, "prompt": "Have you got any envelopes?", "answer": "No, I haven't got any envelopes. I've got no envelopes. I've got none."},
+          {"id": "l114-wb4", "number": 4, "prompt": "Have you got any magazines?", "answer": "No, I haven't got any magazines. I've got no magazines. I've got none."}
+        ]
+      },
+      {
+        "id": "l114-written-c",
+        "type": "exercise",
+        "source": "textbook-p232",
+        "title": "Written exercise C",
+        "instruction": "Write new sentences. (One example is given.)",
+        "translation": "模仿例句完成以下句子。（已给出一个例子。）",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Model answers using neither/So pattern (negative).",
+        "questions": [
+          {"id": "l114-wc1", "number": 1, "example": true, "prompt": "I'm not tired.", "answer": "Neither am I. I'm not tired, either."},
+          {"id": "l114-wc2", "number": 2, "prompt": "I'm not hungry.", "answer": "Neither am I. I'm not hungry, either."},
+          {"id": "l114-wc3", "number": 3, "prompt": "I didn't meet him.", "answer": "Neither did I. I didn't meet him, either."},
+          {"id": "l114-wc4", "number": 4, "prompt": "I wasn't at church yesterday.", "answer": "Neither was I. I wasn't at church yesterday, either."},
+          {"id": "l114-wc5", "number": 5, "prompt": "I don't like ice cream.", "answer": "Neither do I. I don't like ice cream, either."},
+          {"id": "l114-wc6", "number": 6, "prompt": "I can't swim.", "answer": "Neither can I. I can't swim, either."}
+        ]
+      },
+      {
+        "id": "l114-written-d",
+        "type": "exercise",
+        "source": "textbook-p232",
+        "title": "Written exercise D",
+        "instruction": "Write new sentences. (One example is given.)",
+        "translation": "模仿例句完成以下句子。（已给出一个例子。）",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Model answers using So pattern (positive).",
+        "questions": [
+          {"id": "l114-wd1", "number": 1, "example": true, "prompt": "I'm tired.", "answer": "So am I. I'm tired, too."},
+          {"id": "l114-wd2", "number": 2, "prompt": "I'm hungry.", "answer": "So am I. I'm hungry, too."},
+          {"id": "l114-wd3", "number": 3, "prompt": "I met him.", "answer": "So did I. I met him, too."},
+          {"id": "l114-wd4", "number": 4, "prompt": "I was at church yesterday.", "answer": "So was I. I was at church yesterday, too."},
+          {"id": "l114-wd5", "number": 5, "prompt": "I like ice cream.", "answer": "So do I. I like ice cream, too."},
+          {"id": "l114-wd6", "number": 6, "prompt": "I can swim.", "answer": "So can I. I can swim, too."}
+        ]
+      },
+      {
+        "id": "l114-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-114-a",
+        "title": "Practice A: Complete the dialogues",
+        "instruction": "Complete the dialogues using 'any', 'no' and 'none'. 用 any、no 和 none 完成以下对话。",
+        "translation": "用 any、no 和 none 完成以下对话。",
+        "expected_items": 4,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg",
+        "context": "Workbook L114 A: 4 dialogues with any/no/none.",
+        "questions": [
+          {"id": "l114-pa1", "number": 1, "prompt": "A: Was there any chocolate left? B: No, there was no chocolate left. There was none at all.", "answer": "No, there was no chocolate left. There was none at all."},
+          {"id": "l114-pa2", "number": 2, "prompt": "A: Were there any envelopes in the desk? B: ...", "answer": "No, there weren't any envelopes. There were no envelopes. There were none."},
+          {"id": "l114-pa3", "number": 3, "prompt": "A: Have you got any milk? B: ...", "answer": "No, I haven't got any milk. I've got no milk. I've got none."},
+          {"id": "l114-pa4", "number": 4, "prompt": "A: Are there any people on that bus? B: ...", "answer": "No, there aren't any people. There are no people. There are none."}
+        ]
+      },
+      {
+        "id": "l114-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-114-b",
+        "title": "Practice B: Agree using So... or Neither...",
+        "instruction": "Agree with these statements using So... or Neither... 用 So... 或 Neither... 对以下陈述表示赞同。",
+        "translation": "用 So... 或 Neither... 对以下陈述表示赞同。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg",
+        "context": "Workbook L114 B: items 1-12 (item 1 is the printed example).",
+        "questions": [
+          {"id": "l114-pb1", "number": 1, "example": true, "prompt": "I'm hungry.", "answer": "So am I."},
+          {"id": "l114-pb2", "number": 2, "prompt": "I'm not Korean.", "answer": "Neither am I."},
+          {"id": "l114-pb3", "number": 3, "prompt": "I've got a bad cold.", "answer": "So have I."},
+          {"id": "l114-pb4", "number": 4, "prompt": "I haven't got a pen.", "answer": "Neither have I."},
+          {"id": "l114-pb5", "number": 5, "prompt": "I was at home.", "answer": "So was I."},
+          {"id": "l114-pb6", "number": 6, "prompt": "I wasn't at school.", "answer": "Neither was I."},
+          {"id": "l114-pb7", "number": 7, "prompt": "I went to town.", "answer": "So did I."},
+          {"id": "l114-pb8", "number": 8, "prompt": "I didn't stay at home.", "answer": "Neither did I."},
+          {"id": "l114-pb9", "number": 9, "prompt": "I can swim.", "answer": "So can I."},
+          {"id": "l114-pb10", "number": 10, "prompt": "I can't ride a horse.", "answer": "Neither can I."},
+          {"id": "l114-pb11", "number": 11, "prompt": "I live in China.", "answer": "So do I."},
+          {"id": "l114-pb12", "number": 12, "prompt": "I don't like fish.", "answer": "Neither do I."}
+        ]
+      },
+      {
+        "id": "l114-practice-c",
+        "type": "exercise",
+        "source": "workbook-lesson-114-c",
+        "title": "Practice C: Situations",
+        "instruction": "Read these situations. What do you say in each? 根据以下情景写出你应该说的话。",
+        "translation": "根据以下情景写出你应该说的话。",
+        "expected_items": 3,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg",
+        "context": "Workbook L114 C: 3 situational responses.",
+        "questions": [
+          {"id": "l114-pc1", "number": 1, "prompt": "You and a friend want to buy a newspaper. It doesn't cost much, but you only have a five-pound note. How do you ask the friend for small change?", "answer": "Have you got any small change? I've got no small change. I've got none."},
+          {"id": "l114-pc2", "number": 2, "prompt": "Someone says to you: 'I don't like coffee much.' How do you agree?", "answer": "Neither do I. I don't like coffee much, either."},
+          {"id": "l114-pc3", "number": 3, "prompt": "You want to buy a newspaper. It doesn't cost much, but you only have a five-pound note. How do you ask the friend for small change?", "answer": "Have you got any small change?"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l114-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p347-348",
+        "title": "Grammar I: Answer the questions according to the examples",
+        "instruction": "仿照例句回答下列问题。",
+        "translation": "仿照例句回答下列问题。",
+        "expected_items": 16,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.548 (新概念英语语法练习1)",
+        "context": "I.1 (a-h) Are/Is there any...? I.2 (a-h) Have/Has... got/had any...? Items 1a and 2a are printed examples.",
+        "questions": [
+          {"id": "l114-gi1a", "number": 1, "example": true, "prompt": "1a. Are there any tins in the cupboard?", "answer": "No, there aren't any tins. There are no tins. There are none."},
+          {"id": "l114-gi1b", "number": 2, "prompt": "1b. Are there any flowers in the vase?", "answer": "No, there aren't any flowers. There are no flowers. There are none."},
+          {"id": "l114-gi1c", "number": 3, "prompt": "1c. Is there any water in the kettle?", "answer": "No, there isn't any water. There is no water. There is none."},
+          {"id": "l114-gi1d", "number": 4, "prompt": "1d. Is there any butter on the bread?", "answer": "No, there isn't any butter. There is no butter. There is none."},
+          {"id": "l114-gi1e", "number": 5, "prompt": "1e. Are there any eggs in the basket?", "answer": "No, there aren't any eggs. There are no eggs. There are none."},
+          {"id": "l114-gi1f", "number": 6, "prompt": "1f. Is there any paper on the table?", "answer": "No, there isn't any paper. There is no paper. There is none."},
+          {"id": "l114-gi1g", "number": 7, "prompt": "1g. Is there any ink in the ink bottle?", "answer": "No, there isn't any ink. There is no ink. There is none."},
+          {"id": "l114-gi1h", "number": 8, "prompt": "1h. Are there any matches in the box?", "answer": "No, there aren't any matches. There are no matches. There are none."},
+          {"id": "l114-gi2a", "number": 9, "example": true, "prompt": "2a. Have you got any oil?", "answer": "No, I haven't got any oil. I've got no oil. I've got none."},
+          {"id": "l114-gi2b", "number": 10, "prompt": "2b. Have they bought any biscuits?", "answer": "No, they haven't bought any biscuits. They've bought no biscuits. They've bought none."},
+          {"id": "l114-gi2c", "number": 11, "prompt": "2c. Have you had any fruit?", "answer": "No, I haven't had any fruit. I've had no fruit. I've had none."},
+          {"id": "l114-gi2d", "number": 12, "prompt": "2d. Has he got any tobacco?", "answer": "No, he hasn't got any tobacco. He's got no tobacco. He's got none."},
+          {"id": "l114-gi2e", "number": 13, "prompt": "2e. Have you got any vegetables?", "answer": "No, I haven't got any vegetables. I've got no vegetables. I've got none."},
+          {"id": "l114-gi2f", "number": 14, "prompt": "2f. Has she had any food?", "answer": "No, she hasn't had any food. She's had no food. She's had none."},
+          {"id": "l114-gi2g", "number": 15, "prompt": "2g. Has the dog eaten any bones?", "answer": "No, it hasn't eaten any bones. It's eaten no bones. It's eaten none."},
+          {"id": "l114-gi2h", "number": 16, "prompt": "2h. Have we bought any soap?", "answer": "No, we haven't bought any soap. We've bought no soap. We've bought none."}
+        ]
+      },
+      {
+        "id": "l114-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p348-349",
+        "title": "Grammar II: Answer the questions according to the example",
+        "instruction": "仿照例句回答下列问题。",
+        "translation": "仿照例句回答下列问题。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.549 (新概念英语语法练习1)",
+        "context": "Can you give me some...? Item 1 is the printed example.",
+        "questions": [
+          {"id": "l114-gii1", "number": 1, "example": true, "prompt": "Can you give me some apples, please?", "answer": "I'm sorry. I've got no apples. I've got none."},
+          {"id": "l114-gii2", "number": 2, "prompt": "Can you give me some sweets, please?", "answer": "I'm sorry. I've got no sweets. I've got none."},
+          {"id": "l114-gii3", "number": 3, "prompt": "Can you give me some writing paper, please?", "answer": "I'm sorry. I've got no writing paper. I've got none."},
+          {"id": "l114-gii4", "number": 4, "prompt": "Can you give me some water, please?", "answer": "I'm sorry. I've got no water. I've got none."},
+          {"id": "l114-gii5", "number": 5, "prompt": "Can you give me some matches, please?", "answer": "I'm sorry. I've got no matches. I've got none."},
+          {"id": "l114-gii6", "number": 6, "prompt": "Can you give me some rice, please?", "answer": "I'm sorry. I've got no rice. I've got none."},
+          {"id": "l114-gii7", "number": 7, "prompt": "Can you give me some flowers, please?", "answer": "I'm sorry. I've got no flowers. I've got none."},
+          {"id": "l114-gii8", "number": 8, "prompt": "Can you give me some chalk, please?", "answer": "I'm sorry. I've got no chalk. I've got none."},
+          {"id": "l114-gii9", "number": 9, "prompt": "Can you give me some money, please?", "answer": "I'm sorry. I've got no money. I've got none."},
+          {"id": "l114-gii10", "number": 10, "prompt": "Can you give me some magazines, please?", "answer": "I'm sorry. I've got no magazines. I've got none."}
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "characters": {},
+  "images": {
+    "l114-items-grid": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Grid of 12 pictures (o-z) in groups of three: o-q chocolate (Have you got any? / I haven't got any. I've got no chocolate. I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
+      "source": "img/lesson-114-01-text.jpg (textbook p.231)",
+      "characters": [],
+      "src": "assets/lesson-114/items-grid.jpg",
+      "width": 1772,
+      "height": 2400
+    }
+  }
+}
