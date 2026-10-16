@@ -1,0 +1,209 @@
+{
+  "number": 132,
+  "status": "verified",
+  "title": "He may be... He may have been... 他可能是…… 他可能已经……",
+  "translation": "他可能是…… 他可能已经……",
+  "description": "A picture lesson on possibility: 'may be/do' (present or future possibility), 'may have been/done' (past possibility), and 'I'm not sure'. Six pictures show someone guessing where Harry is, where he will go, why he is late, what he is doing, why he was late and what he was doing. The lesson introduces written exercises on answering questions about the Lesson 131 conversation, and answering 'Do you think ...?' questions with 'I'm not sure. She may (have) been ...'. The workbook drills rewriting answers with 'may' and answering personal questions; the grammar workbook writes sentences with 'may' and 'may have ...' according to examples.",
+  "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (answer questions about the Lesson 131 conversation) and B (answer 'Do you think ...?' questions with 'may') are model answers (suggested). Workbook A (rewrite the answers using may) is from the workbook answer key (source-key, img/key-129-135.jpg p.216); Workbook B (about you) has no printed key, so the answers are model answers (suggested). Grammar I (write sentences using may) and II (write sentences using may have ...) are from the grammar workbook answer key (source-key, pdf p.568).",
+  "expected_answers": 60,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l132-lesson-intro",
+        "type": "text",
+        "source": "textbook-p267",
+        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l132-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p267",
+        "image": "l132-pictures",
+        "text": "1. Where's Harry? He may be in his room. I'm not sure.\n2. Where will he go? He may go to the cinema. I'm not sure.\n3. Why is he late? He may be busy. I'm not sure.\n4. What is he doing? He may be reading. I'm not sure.\n5. Why was he late? He may have been busy. I'm not sure.\n6. What was he doing? He may have been reading. I'm not sure.",
+        "translation": "1. 哈里在哪里？他可能在他的房间里。我不敢肯定。\n2. 他要去哪里？他可能去看电影。我不敢肯定。\n3. 他为什么迟到了？他可能很忙。我不敢肯定。\n4. 他在做什么？他可能在看书。我不敢肯定。\n5. 他为什么迟到了？他当时可能很忙。我不敢肯定。\n6. 他当时在做什么？他当时可能在看书。我不敢肯定。"
+      },
+      {
+        "id": "l132-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p267",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "One question per picture (6 pictures); the answer is the spoken possibility from the picture captions.",
+        "questions": [
+          {"id": "l132-lq1", "number": 1, "prompt": "Where's Harry? (Picture 1)", "answer": "He may be in his room. I'm not sure."},
+          {"id": "l132-lq2", "number": 2, "prompt": "Where will he go? (Picture 2)", "answer": "He may go to the cinema. I'm not sure."},
+          {"id": "l132-lq3", "number": 3, "prompt": "Why is he late? (Picture 3)", "answer": "He may be busy. I'm not sure."},
+          {"id": "l132-lq4", "number": 4, "prompt": "What is he doing? (Picture 4)", "answer": "He may be reading. I'm not sure."},
+          {"id": "l132-lq5", "number": 5, "prompt": "Why was he late? (Picture 5)", "answer": "He may have been busy. I'm not sure."},
+          {"id": "l132-lq6", "number": 6, "prompt": "What was he doing? (Picture 6)", "answer": "He may have been reading. I'm not sure."}
+        ]
+      },
+      {
+        "id": "l132-written-a",
+        "type": "exercise",
+        "source": "textbook-p268",
+        "title": "Written A: Answer the questions",
+        "instruction": "Read the conversation in Lesson 131 again. Then answer these questions. 重读第 131 课的对话，然后回答以下问题。",
+        "translation": "重读第 131 课的对话，然后回答以下问题。",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "7 comprehension questions about the Lesson 131 conversation (Martin and Gary).",
+        "questions": [
+          {"id": "l132-wa1", "number": 1, "prompt": "Is Martin talking to Gary?", "answer": "Yes, he is."},
+          {"id": "l132-wa2", "number": 2, "prompt": "Where may Gary and his wife go this year?", "answer": "They may go abroad. They may go to Egypt."},
+          {"id": "l132-wa3", "number": 3, "prompt": "Who wants to go to Egypt?", "answer": "Gary's wife (wants to go to Egypt)."},
+          {"id": "l132-wa4", "number": 4, "prompt": "How will they travel?", "answer": "They may travel by sea."},
+          {"id": "l132-wa5", "number": 5, "prompt": "Isn't it cheaper to travel by sea?", "answer": "Yes, it may be cheaper."},
+          {"id": "l132-wa6", "number": 6, "prompt": "Doesn't it take a long time?", "answer": "Yes, it takes a long time."},
+          {"id": "l132-wa7", "number": 7, "prompt": "Why might Gary and his wife not go anywhere?", "answer": "Because Gary's wife always worries too much (and no one will look after the dog, the house and the garden)."}
+        ]
+      },
+      {
+        "id": "l132-written-b",
+        "type": "exercise",
+        "source": "textbook-p268",
+        "title": "Written B: Answer the questions",
+        "instruction": "Answer these questions. 模仿例句回答以下问题。",
+        "translation": "模仿例句回答以下问题。",
+        "expected_items": 20,
+        "answer_kind": "suggested",
+        "context": "20 'Do you think ...?' rewrite items; 2 printed examples on the page (Do you think she is Danish? (Swedish) → I'm not sure. She may be Swedish. / Do you think she was Danish? (Swedish) → I'm not sure. She may have been Swedish.).",
+        "questions": [
+          {"id": "l132-wb1", "number": 1, "prompt": "Do you think they are Canadian? (Australian)", "answer": "I'm not sure. They may be Australian."},
+          {"id": "l132-wb2", "number": 2, "prompt": "Do you think she is Finnish? (Russian)", "answer": "I'm not sure. She may be Russian."},
+          {"id": "l132-wb3", "number": 3, "prompt": "Do you think they are Japanese? (Chinese)", "answer": "I'm not sure. They may be Chinese."},
+          {"id": "l132-wb4", "number": 4, "prompt": "Do you think they were butchers? (bakers)", "answer": "I'm not sure. They may have been bakers."},
+          {"id": "l132-wb5", "number": 5, "prompt": "Do you think she was a dentist? (doctor)", "answer": "I'm not sure. She may have been a doctor."},
+          {"id": "l132-wb6", "number": 6, "prompt": "Do you think he is a sales rep? (the boss)", "answer": "I'm not sure. He may be the boss."},
+          {"id": "l132-wb7", "number": 7, "prompt": "Do you think she is seventeen? (twenty-one)", "answer": "I'm not sure. She may be twenty-one."},
+          {"id": "l132-wb8", "number": 8, "prompt": "Do you think they were five? (seven)", "answer": "I'm not sure. They may have been seven."},
+          {"id": "l132-wb9", "number": 9, "prompt": "Do you think he was seventy-six? (over eighty)", "answer": "I'm not sure. He may have been over eighty."},
+          {"id": "l132-wb10", "number": 10, "prompt": "Do you think she was fifty-five? (under fifty)", "answer": "I'm not sure. She may have been under fifty."},
+          {"id": "l132-wb11", "number": 11, "prompt": "Do you think it is the 17th today? (16th)", "answer": "I'm not sure. It may be the 16th."},
+          {"id": "l132-wb12", "number": 12, "prompt": "Do you think it was Tuesday yesterday? (Wednesday)", "answer": "I'm not sure. It may have been Wednesday."},
+          {"id": "l132-wb13", "number": 13, "prompt": "Do you think it is the 19th today? (20th)", "answer": "I'm not sure. It may be the 20th."},
+          {"id": "l132-wb14", "number": 14, "prompt": "Do you think it is cheap? (expensive)", "answer": "I'm not sure. It may be expensive."},
+          {"id": "l132-wb15", "number": 15, "prompt": "Do you think it was easy? (difficult)", "answer": "I'm not sure. It may have been difficult."},
+          {"id": "l132-wb16", "number": 16, "prompt": "Do you think she was old? (young)", "answer": "I'm not sure. She may have been young."},
+          {"id": "l132-wb17", "number": 17, "prompt": "Do you think he was ill? (tired)", "answer": "I'm not sure. He may have been tired."},
+          {"id": "l132-wb18", "number": 18, "prompt": "Do you think they are listening to the radio? (watching television)", "answer": "I'm not sure. They may be watching television."},
+          {"id": "l132-wb19", "number": 19, "prompt": "Do you think she was retiring? (looking for a new job)", "answer": "I'm not sure. She may have been looking for a new job."},
+          {"id": "l132-wb20", "number": 20, "prompt": "Do you think they are sitting? (standing)", "answer": "I'm not sure. They may be standing."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l132-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-132-a",
+        "title": "Practice A: May be and may have been",
+        "instruction": "Rewrite the answers in these dialogues using may (may be, may do, may have been, may be doing, may have been doing). 用 may 和相关的动词改写以下句子。",
+        "translation": "用 may 和相关的动词改写以下句子。",
+        "expected_items": 7,
+        "answer_kind": "source-key",
+        "key_source": "img/key-129-135.jpg p.216 (Lesson 132 A)",
+        "context": "7 dialogue-rewrite items; item 1 (Was he right, do you think? → I'm not sure. He may have been right.) is the printed example.",
+        "questions": [
+          {"id": "l132-pa1", "number": 1, "example": true, "prompt": "A: Was he right, do you think? B:", "answer": "I'm not sure. He may have been right."},
+          {"id": "l132-pa2", "number": 2, "prompt": "A: Is Liz cooking the dinner? B:", "answer": "I'm not sure. She may be cooking the dinner."},
+          {"id": "l132-pa3", "number": 3, "prompt": "A: Was Harry working in the garden? B:", "answer": "I'm not sure. He may have been working in the garden."},
+          {"id": "l132-pa4", "number": 4, "prompt": "A: Is she the youngest in the class, do you think? B:", "answer": "I'm not sure. She may be the youngest in the class."},
+          {"id": "l132-pa5", "number": 5, "prompt": "A: Were they waiting for their friends? B:", "answer": "I'm not sure. They may have been waiting for their friends."},
+          {"id": "l132-pa6", "number": 6, "prompt": "A: Were you wrong, do you think? B:", "answer": "I'm not sure. I may have been wrong."},
+          {"id": "l132-pa7", "number": 7, "prompt": "A: Are you going abroad this year? B:", "answer": "I'm not sure. I may be going abroad this year."}
+        ]
+      },
+      {
+        "id": "l132-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-132-b",
+        "title": "Practice B: About you",
+        "instruction": "Answer these questions about yourself with full sentences. 根据你自己的情况用完整的句子回答以下问题。",
+        "translation": "根据你自己的情况用完整的句子回答以下问题。",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "3 open-ended personal questions; the workbook answer key gives only possible sample answers.",
+        "questions": [
+          {"id": "l132-pb1", "number": 1, "prompt": "How long does it take you to get to school or college in the mornings?", "answer": "It (usually) takes me about half an hour."},
+          {"id": "l132-pb2", "number": 2, "prompt": "Where and how do you usually spend your summer holidays?", "answer": "We usually spend our summer holidays with my uncle and aunt."},
+          {"id": "l132-pb3", "number": 3, "prompt": "What do you think you may do tomorrow evening?", "answer": "I may go to the cinema with some friends."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l132-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p388",
+        "title": "Grammar I: Write sentences using 'may'",
+        "instruction": "仿照例句用 may 造句。",
+        "translation": "仿照例句用 may 造句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.568 (新概念英语语法练习1)",
+        "context": "10 sentence items; item 1 (You'd better go to bed early. (feel better/in the morning) → You may feel better in the morning.) is the printed example.",
+        "questions": [
+          {"id": "l132-gi1", "number": 1, "example": true, "prompt": "You'd better go to bed early. (feel better/in the morning)", "answer": "You may feel better in the morning."},
+          {"id": "l132-gi2", "number": 2, "prompt": "He'd better not go out tonight. (his cold/get worse)", "answer": "His cold may get worse."},
+          {"id": "l132-gi3", "number": 3, "prompt": "You'd better try on that coat. (it/fit)", "answer": "It may fit."},
+          {"id": "l132-gi4", "number": 4, "prompt": "You'd better take an aspirin. (it/help your headache)", "answer": "It may help your headache."},
+          {"id": "l132-gi5", "number": 5, "prompt": "You'd better telephone first. (she/not be at home)", "answer": "She may not be at home."},
+          {"id": "l132-gi6", "number": 6, "prompt": "You'd better put on more clothes. (it/get colder)", "answer": "It may get colder."},
+          {"id": "l132-gi7", "number": 7, "prompt": "We'd better wait for them. (they/be on their way)", "answer": "They may be on their way."},
+          {"id": "l132-gi8", "number": 8, "prompt": "You'd better not worry him. (he/be busy)", "answer": "He may be busy."},
+          {"id": "l132-gi9", "number": 9, "prompt": "You'd better ask his advice. (he/know the answer)", "answer": "He may know the answer."},
+          {"id": "l132-gi10", "number": 10, "prompt": "We'd better not shout. (they/be having a lesson in the next room)", "answer": "They may be having a lesson in the next room."}
+        ]
+      },
+      {
+        "id": "l132-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p389",
+        "title": "Grammar II: Write sentences using 'may have ...'",
+        "instruction": "仿照例句用 may have ... 造句。",
+        "translation": "仿照例句用 may have ... 造句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.568 (新概念英语语法练习1)",
+        "context": "10 sentence items; item 1 (We'd better hurry. (the film/already started) → The film may have already started.) is the printed example.",
+        "questions": [
+          {"id": "l132-gii1", "number": 1, "example": true, "prompt": "We'd better hurry. (the film/already started)", "answer": "The film may have already started."},
+          {"id": "l132-gii2", "number": 2, "prompt": "We'd better call the police. (a thief/broken in)", "answer": "A thief may have broken in."},
+          {"id": "l132-gii3", "number": 3, "prompt": "We'd better call the doctor. (he/caught flu)", "answer": "He may have caught flu."},
+          {"id": "l132-gii4", "number": 4, "prompt": "You'd better stop. (that policeman/seen you)", "answer": "That policeman may have seen you."},
+          {"id": "l132-gii5", "number": 5, "prompt": "I'd better go home now. (my mother/prepared supper)", "answer": "My mother may have prepared supper."},
+          {"id": "l132-gii6", "number": 6, "prompt": "You'd better help that man. (he/lost his way)", "answer": "He may have lost his way."},
+          {"id": "l132-gii7", "number": 7, "prompt": "We'd better telephone him. (he/lost our number)", "answer": "He may have lost our number."},
+          {"id": "l132-gii8", "number": 8, "prompt": "You'd better look for her in her classroom. (she/gone there)", "answer": "She may have gone there."},
+          {"id": "l132-gii9", "number": 9, "prompt": "We'd better ring the police. (they/had an accident)", "answer": "They may have had an accident."},
+          {"id": "l132-gii10", "number": 10, "prompt": "Perhaps he didn't hear the telephone. (he/been in the garden)", "answer": "He may have been in the garden."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.267 (Lesson 132 pictures)", "href": "../img/lesson-132-01-text.jpg"},
+    {"label": "Textbook p.268 (Lesson 132 written exercises)", "href": "../img/lesson-132-02-text.jpg"},
+    {"label": "Workbook Lesson 132 (practice page 177)", "href": "../img/lesson-132-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 129-135, p.216)", "href": "../img/key-129-135.jpg"},
+    {"label": "Grammar Workbook p.388-389 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=388"},
+    {"label": "Grammar Workbook p.568 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=568"}
+  ],
+  "characters": {},
+  "images": {
+    "l132-pictures": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Six numbered pictures in a 3x2 grid, each showing two people with thought-bubbles and a question mark: 1 where Harry is (a man at a desk); 2 where he will go (a cinema sign); 3 why he is late (a man on the phone); 4 what he is doing (a man reading); 5 why he was late (a man reading at a desk); 6 what he was doing (a man reading).",
+      "src": "assets/lesson-132/pictures-grid.jpg",
+      "width": 1641,
+      "height": 1800,
+      "source": "img/lesson-132-01-text.jpg (textbook p.267)"
+    }
+  }
+}
