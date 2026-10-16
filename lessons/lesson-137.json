@@ -211,71 +211,81 @@
     "type": "exercise",
     "source": "workbook-lesson-137-b",
     "title": "Practice B: Vocabulary (correct with opposites)",
-    "instruction": "Read this. The person who wrote it has used some wrong words. The wrong words are underlined. Correct them with their opposites. 用反义词来纠正短文中划线的错误用词。",
-    "translation": "用反义词来纠正短文中划线的错误用词。",
+    "instruction": "Read this. The person who wrote it has used some wrong words. The wrong words are underlined. Correct them with their opposites. 阅读短文。写短文的人用了一些错误的词，错误词已划线。用反义词改正它们。",
+    "translation": "Correct the underlined words with their opposites.",
     "expected_items": 10,
     "answer_kind": "suggested",
-    "context": "10 vocabulary correction items; the wrong words are underlined and must be replaced with their opposites.",
+    "context": "10 fill-in-the-blank items in a short story about John and his wife; each blank takes the opposite of the underlined word in the printed story. Sample answers are suggested (no fixed key in the workbook).",
     "questions": [
      {
       "id": "l137-pb1",
       "number": 1,
       "prompt": "John was a very ______ man. (rich → poor)",
-      "answer": "poor"
+      "answer": "poor",
+      "rows": 1
      },
      {
       "id": "l137-pb2",
       "number": 2,
-      "prompt": "He always had dreams of ______ the lottery or the football pools. (losing → winning)",
-      "answer": "winning"
+      "prompt": "He always had dreams of ______ the lottery or the football pools. (winning → losing)",
+      "answer": "losing",
+      "rows": 1
      },
      {
       "id": "l137-pb3",
       "number": 3,
       "prompt": "He told me that if he lost ______ the lottery, he would sell a small ______ house in the town.",
-      "answer": "a"
+      "answer": "a",
+      "rows": 1
      },
      {
       "id": "l137-pb4",
       "number": 4,
       "prompt": "he would sell ______ a small ______ house in the town.",
-      "answer": "his"
+      "answer": "his",
+      "rows": 1
      },
      {
       "id": "l137-pb5",
       "number": 5,
-      "prompt": "John's wife likes to save ______ money, so she told me that she would have the worst ______ mink coat in the world.",
-      "answer": "no"
+      "prompt": "John’s wife likes to save ______ money, so she told me that she would have the worst ______ mink coat in the world.",
+      "answer": "no",
+      "rows": 1
      },
      {
       "id": "l137-pb6",
       "number": 6,
       "prompt": "she told me that she would have the worst ______ mink coat in the world.",
-      "answer": "best"
+      "answer": "best",
+      "rows": 1
      },
      {
       "id": "l137-pb7",
       "number": 7,
       "prompt": "She would also like an ugly ______ in and sunbathe on hot days.",
-      "answer": "garden"
+      "answer": "garden",
+      "rows": 1
      },
      {
       "id": "l137-pb8",
       "number": 8,
       "prompt": "She would also like an ugly ______ in and sunbathe on hot days.",
-      "answer": "pool"
+      "answer": "pool",
+      "rows": 1
      },
      {
       "id": "l137-pb9",
       "number": 9,
       "prompt": "______ garden that she could stand in and sunbathe on hot days.",
-      "answer": "a beautiful"
+      "answer": "a beautiful",
+      "rows": 1
      },
      {
       "id": "l137-pb10",
       "number": 10,
       "prompt": "She would also like an ugly ______ in and sunbathe on hot days.",
-      "answer": "garden"
+      "answer": "garden",
+      "rows": 1
      }
     ]
    }
