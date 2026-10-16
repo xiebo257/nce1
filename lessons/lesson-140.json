@@ -1,0 +1,235 @@
+{
+  "number": 140,
+  "status": "verified",
+  "title": "He wants to know if/why/what/when",
+  "translation": "他想知道是否/为什么/什么/什么时候",
+  "description": "A picture lesson on indirect (reported) questions. Six pictures show different scenarios: if a man is a teacher, why Mary teaches here, if a girl speaks English, what Graham is writing, if they are coming soon, when she is leaving. The lesson introduces written exercises A (answer questions about the Lesson 139 dialogue), B (write 'He/She wants to know if/why/what/when...' sentences), and C (answer questions with indirect questions). The workbook drills indirect-question completion and open-ended 'Situations'; the grammar workbook completes indirect-question dialogue items, rewrites direct questions as indirect questions, and writes short reports with indirect questions.",
+  "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (answer questions about the Lesson 139 dialogue), B (write indirect questions), and C (answer with indirect questions) are model answers (suggested). Workbook A (complete indirect-question sentences) is from the workbook answer key (source-key, img/key-135-141.jpg p.217); Workbook B ('Situations') has no printed key, so the answers are model answers (suggested). Grammar I (complete indirect-question dialogue), II (rewrite direct questions as indirect questions), and III (write short reports) are from the grammar workbook answer key (source-key, pdf p.579-580).",
+  "expected_answers": 58,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l140-lesson-intro",
+        "type": "text",
+        "source": "textbook-p283",
+        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l140-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p283",
+        "image": "l140-pictures",
+        "text": "1. Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.\n2. John: Why does Mary teach here? → John wants to know why Mary teaches here.\n3. Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.\n4. Julie: What is Graham writing? → Julie wants to know what Graham is writing.\n5. Gary: Are they coming soon? → Gary wants to know if they are coming soon.\n6. Jim: When is she leaving? → Jim wants to know when she is leaving.",
+        "translation": "1. 苏：那个男人是老师吗？→ 苏想知道那个男人是否是老师。 2. 约翰：玛丽为什么在这里教书？→ 约翰想知道玛丽为什么在这里教书。 3. 本：那个女孩会说英语吗？→ 本想知道那个女孩是否会说英语。 4. 朱莉：格雷厄姆在写什么？→ 朱莉想知道格雷厄姆在写什么。 5. 加里：他们很快就要来吗？→ 加里想知道他们是否很快就要来。 6. 吉姆：她什么时候离开？→ 吉姆想知道她什么时候离开。"
+      },
+      {
+        "id": "l140-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p283",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "One question per picture (6 pictures); the answer is the indirect question shown in the picture captions.",
+        "questions": [
+          {"id": "l140-lq1", "number": 1, "prompt": "Picture 1: What does Sue want to know?", "answer": "Sue wants to know if that man is a teacher."},
+          {"id": "l140-lq2", "number": 2, "prompt": "Picture 2: What does John want to know?", "answer": "John wants to know why Mary teaches here."},
+          {"id": "l140-lq3", "number": 3, "prompt": "Picture 3: What does Ben want to know?", "answer": "Ben wants to know if that girl speaks English."},
+          {"id": "l140-lq4", "number": 4, "prompt": "Picture 4: What does Julie want to know?", "answer": "Julie wants to know what Graham is writing."},
+          {"id": "l140-lq5", "number": 5, "prompt": "Picture 5: What does Gary want to know?", "answer": "Gary wants to know if they are coming soon."},
+          {"id": "l140-lq6", "number": 6, "prompt": "Picture 6: What does Jim want to know?", "answer": "Jim wants to know when she is leaving."}
+        ]
+      },
+      {
+        "id": "l140-written-a",
+        "type": "exercise",
+        "source": "textbook-p284",
+        "title": "Written A: Answer the questions (about Lesson 139)",
+        "instruction": "Read the dialogue in Lesson 139 again. Then answer these questions. 重读第 139 课的对话，然后回答以下问题。",
+        "translation": "重读第 139 课的对话，然后回答以下问题。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 comprehension questions about the Lesson 139 dialogue (Graham and John).",
+        "questions": [
+          {"id": "l140-wa1", "number": 1, "prompt": "Is Graham Turner telephoning from his office?", "answer": "Yes, he is."},
+          {"id": "l140-wa2", "number": 2, "prompt": "What message does he want John to give Mary?", "answer": "He wants him to tell Mary they'll be late for dinner this evening."},
+          {"id": "l140-wa3", "number": 3, "prompt": "What did Mary invite Charlotte and Graham to? And when?", "answer": "She invited them to dinner this evening."},
+          {"id": "l140-wa4", "number": 4, "prompt": "Why can't Graham and Charlotte be at John's house at six o'clock?", "answer": "Because Graham's boss wants him to do some extra work."}
+        ]
+      },
+      {
+        "id": "l140-written-b",
+        "type": "exercise",
+        "source": "textbook-p284",
+        "title": "Written B: Write indirect questions",
+        "instruction": "Write sentences like the example. 按照例句写句子。",
+        "translation": "按照例句写句子。",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "5 indirect question items; item 1 (Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.) is the printed example.",
+        "questions": [
+          {"id": "l140-wb1", "number": 1, "example": true, "prompt": "Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.", "answer": "Sue wants to know if that man is a teacher."},
+          {"id": "l140-wb2", "number": 2, "prompt": "John: Why does Mary teach here? → John wants to know why Mary teaches here.", "answer": "John wants to know why Mary teaches here."},
+          {"id": "l140-wb3", "number": 3, "prompt": "Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.", "answer": "Ben wants to know if that girl speaks English."},
+          {"id": "l140-wb4", "number": 4, "prompt": "Julie: What is Graham writing? → Julie wants to know what Graham is writing.", "answer": "Julie wants to know what Graham is writing."},
+          {"id": "l140-wb5", "number": 5, "prompt": "Gary: Are they coming soon? → Gary wants to know if they are coming soon.", "answer": "Gary wants to know if they are coming soon."}
+        ]
+      },
+      {
+        "id": "l140-written-c",
+        "type": "exercise",
+        "source": "textbook-p284",
+        "title": "Written C: Answer the questions (indirect questions)",
+        "instruction": "Answer the questions. 回答以下问题。",
+        "translation": "回答以下问题。",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "5 indirect question items.",
+        "questions": [
+          {"id": "l140-wc1", "number": 1, "prompt": "What does Sue want to know?", "answer": "She wants to know if that man is a teacher."},
+          {"id": "l140-wc2", "number": 2, "prompt": "What does John want to know?", "answer": "He wants to know why Mary teaches here."},
+          {"id": "l140-wc3", "number": 3, "prompt": "What does Ben want to know?", "answer": "He wants to know if that girl speaks English."},
+          {"id": "l140-wc4", "number": 4, "prompt": "What does Julie want to know?", "answer": "She wants to know what Graham is writing."},
+          {"id": "l140-wc5", "number": 5, "prompt": "What does Gary want to know?", "answer": "He wants to know if they are coming soon."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l140-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-140-a",
+        "title": "Practice A: Complete the indirect questions",
+        "instruction": "Look at the table. Then write sentences like the example. 看下表，按照例句写句子。",
+        "translation": "看下表，按照例句写句子。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "img/key-135-141.jpg p.217 (Lesson 140 A)",
+        "context": "10 indirect-question items; item 1 (Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.) is the printed example.",
+        "questions": [
+          {"id": "l140-pa1", "number": 1, "example": true, "prompt": "Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.", "answer": "Sue wants to know if that man is a teacher."},
+          {"id": "l140-pa2", "number": 2, "prompt": "John: Why does Mary teach here? → John wants to know why Mary teaches here.", "answer": "John wants to know why Mary teaches here."},
+          {"id": "l140-pa3", "number": 3, "prompt": "Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.", "answer": "Ben wants to know if that girl speaks English."},
+          {"id": "l140-pa4", "number": 4, "prompt": "Julie: What is Graham writing? → Julie wants to know what Graham is writing.", "answer": "Julie wants to know what Graham is writing."},
+          {"id": "l140-pa5", "number": 5, "prompt": "Gary: Are they coming soon? → Gary wants to know if they are coming soon.", "answer": "Gary wants to know if they are coming soon."},
+          {"id": "l140-pa6", "number": 6, "prompt": "Jim: When is she leaving? → Jim wants to know when she is leaving.", "answer": "Jim wants to know when she is leaving."},
+          {"id": "l140-pa7", "number": 7, "prompt": "Tom: Did they enjoy the film? → Tom wants to know if they enjoyed the film.", "answer": "Tom wants to know if they enjoyed the film."},
+          {"id": "l140-pa8", "number": 8, "prompt": "Carol: When did they see it? → Carol wants to know when they saw it.", "answer": "Carol wants to know when they saw it."},
+          {"id": "l140-pa9", "number": 9, "prompt": "Mike: Have you met Susan yet? → Mike wants to know if you have met Susan yet.", "answer": "Mike wants to know if you have met Susan yet."},
+          {"id": "l140-pa10", "number": 10, "prompt": "Peter: Why haven't they eaten their dinner? → Peter wants to know why they haven't eaten their dinner.", "answer": "Peter wants to know why they haven't eaten their dinner."}
+        ]
+      },
+      {
+        "id": "l140-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-140-b",
+        "title": "Practice B: Situations",
+        "instruction": "Read these situations. What might you say in each? 根据以下情景写出你应该说的话。",
+        "translation": "根据以下情景写出你应该说的话。",
+        "expected_items": 2,
+        "answer_kind": "suggested",
+        "context": "2 open-ended situation questions; the workbook answer key gives only possible sample answers.",
+        "questions": [
+          {"id": "l140-pb1", "number": 1, "prompt": "Your phone rings. When you pick it up, a voice says: 'Is that you, [your name]?' What do you say?", "answer": "(Yes,) speaking."},
+          {"id": "l140-pb2", "number": 2, "prompt": "Someone tells you something which you do not understand at all. It all seems a mystery to you. What do you say?", "answer": "I'm afraid I don't understand. / I don't know what you're talking about."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l140-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p407",
+        "title": "Grammar I: Complete the sentences (indirect questions)",
+        "instruction": "仿照例句完成以下句子（间接疑问句）。",
+        "translation": "仿照例句完成以下句子（间接疑问句）。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.579 (新概念英语语法练习1)",
+        "context": "10 indirect-question fill-in items; item 1 (Is that man a teacher? (Sue) → Sue wants to know if that man is a teacher.) is the printed example.",
+        "questions": [
+          {"id": "l140-gi1", "number": 1, "example": true, "prompt": "Is that man a teacher? (Sue)", "answer": "Sue wants to know if that man is a teacher."},
+          {"id": "l140-gi2", "number": 2, "prompt": "Why does Mary teach here? (John)", "answer": "John wants to know why Mary teaches here."},
+          {"id": "l140-gi3", "number": 3, "prompt": "Does that girl speak English? (Ben)", "answer": "Ben wants to know if that girl speaks English."},
+          {"id": "l140-gi4", "number": 4, "prompt": "What is Graham writing? (Julie)", "answer": "Julie wants to know what Graham is writing."},
+          {"id": "l140-gi5", "number": 5, "prompt": "Are they coming soon? (Gary)", "answer": "Gary wants to know if they are coming soon."},
+          {"id": "l140-gi6", "number": 6, "prompt": "When is she leaving? (Jim)", "answer": "Jim wants to know when she is leaving."},
+          {"id": "l140-gi7", "number": 7, "prompt": "Did they enjoy the film? (Tom)", "answer": "Tom wants to know if they enjoyed the film."},
+          {"id": "l140-gi8", "number": 8, "prompt": "When did they see it? (Carol)", "answer": "Carol wants to know when they saw it."},
+          {"id": "l140-gi9", "number": 9, "prompt": "Have you met Susan yet? (Mike)", "answer": "Mike wants to know if you have met Susan yet."},
+          {"id": "l140-gi10", "number": 10, "prompt": "Why haven't they eaten their dinner? (Peter)", "answer": "Peter wants to know why they haven't eaten their dinner."}
+        ]
+      },
+      {
+        "id": "l140-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p407-408",
+        "title": "Grammar II: Rewrite the direct questions as indirect questions",
+        "instruction": "仿照例句将直接疑问句改写为间接疑问句。",
+        "translation": "仿照例句将直接疑问句改写为间接疑问句。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.579 (新概念英语语法练习1)",
+        "context": "10 direct-to-indirect question rewrite items; item 1 (Is that man a teacher? (Sue) → Sue wants to know if that man is a teacher.) is the printed example.",
+        "questions": [
+          {"id": "l140-gii1", "number": 1, "example": true, "prompt": "Is that man a teacher? (Sue)", "answer": "Sue wants to know if that man is a teacher."},
+          {"id": "l140-gii2", "number": 2, "prompt": "Why does Mary teach here? (John)", "answer": "John wants to know why Mary teaches here."},
+          {"id": "l140-gii3", "number": 3, "prompt": "Does that girl speak English? (Ben)", "answer": "Ben wants to know if that girl speaks English."},
+          {"id": "l140-gii4", "number": 4, "prompt": "What is Graham writing? (Julie)", "answer": "Julie wants to know what Graham is writing."},
+          {"id": "l140-gii5", "number": 5, "prompt": "Are they coming soon? (Gary)", "answer": "Gary wants to know if they are coming soon."},
+          {"id": "l140-gii6", "number": 6, "prompt": "When is she leaving? (Jim)", "answer": "Jim wants to know when she is leaving."},
+          {"id": "l140-gii7", "number": 7, "prompt": "Did they enjoy the film? (Tom)", "answer": "Tom wants to know if they enjoyed the film."},
+          {"id": "l140-gii8", "number": 8, "prompt": "When did they see it? (Carol)", "answer": "Carol wants to know when they saw it."},
+          {"id": "l140-gii9", "number": 9, "prompt": "Have you met Susan yet? (Mike)", "answer": "Mike wants to know if you have met Susan yet."},
+          {"id": "l140-gii10", "number": 10, "prompt": "Why haven't they eaten their dinner? (Peter)", "answer": "Peter wants to know why they haven't eaten their dinner."}
+        ]
+      },
+      {
+        "id": "l140-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p408",
+        "title": "Grammar III: Write a short report (indirect questions)",
+        "instruction": "根据所给事实写一个简短的报道（用间接疑问句）。",
+        "translation": "根据所给事实写一个简短的报道（用间接疑问句）。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.580 (新概念英语语法练习1)",
+        "context": "10 short-report items with indirect questions.",
+        "questions": [
+          {"id": "l140-giii1", "number": 1, "prompt": "The reporter asked the actress if she was going to retire.", "answer": "The reporter asked the actress if she was going to retire."},
+          {"id": "l140-giii2", "number": 2, "prompt": "The reporter asked the actress why she couldn't make up her mind.", "answer": "The reporter asked the actress why she couldn't make up her mind."},
+          {"id": "l140-giii3", "number": 3, "prompt": "The reporter asked the actress what she would have to do.", "answer": "The reporter asked the actress what she would have to do."},
+          {"id": "l140-giii4", "number": 4, "prompt": "The reporter asked the actress when she was going to ask her future husband.", "answer": "The reporter asked the actress when she was going to ask her future husband."},
+          {"id": "l140-giii5", "number": 5, "prompt": "The reporter asked the actress if her future husband would let her make another film.", "answer": "The reporter asked the actress if her future husband would let her make another film."},
+          {"id": "l140-giii6", "number": 6, "prompt": "The reporter asked the actress why she wanted to see the world.", "answer": "The reporter asked the actress why she wanted to see the world."},
+          {"id": "l140-giii7", "number": 7, "prompt": "The reporter asked the actress what she would do if she won a lot of money.", "answer": "The reporter asked the actress what she would do if she won a lot of money."},
+          {"id": "l140-giii8", "number": 8, "prompt": "The reporter asked the actress when she was going to travel to England.", "answer": "The reporter asked the actress when she was going to travel to England."},
+          {"id": "l140-giii9", "number": 9, "prompt": "The reporter asked the actress if she was going to buy a big house in the country.", "answer": "The reporter asked the actress if she was going to buy a big house in the country."},
+          {"id": "l140-giii10", "number": 10, "prompt": "The reporter asked the actress why she didn't want a mink coat.", "answer": "The reporter asked the actress why she didn't want a mink coat."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.283 (Lesson 140 pictures)", "href": "../img/lesson-140-01-text.jpg"},
+    {"label": "Textbook p.284 (Lesson 140 written exercises)", "href": "../img/lesson-140-02-text.jpg"},
+    {"label": "Workbook Lesson 140 (practice page 185)", "href": "../img/lesson-140-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
+    {"label": "Grammar Workbook p.407-408 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=407"},
+    {"label": "Grammar Workbook p.579-580 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"}
+  ],
+  "characters": {},
+  "images": {
+    "l140-pictures": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Six numbered pictures in a 2x3 grid, each showing a person with a speech bubble containing a direct question and a thought-bubble showing the indirect question: 1 Sue asking if a man is a teacher; 2 John asking why Mary teaches here; 3 Ben asking if a girl speaks English; 4 Julie asking what Graham is writing; 5 Gary asking if they are coming soon; 6 Jim asking when she is leaving.",
+      "src": "assets/lesson-140/pictures-grid.jpg",
+      "width": 1697,
+      "height": 1800,
+      "source": "img/lesson-140-01-text.jpg (textbook p.283)"
+    }
+  }
+}
