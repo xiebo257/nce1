@@ -1,0 +1,288 @@
+{
+  "number": 116,
+  "status": "verified",
+  "title": "Every, no, any and some 每一、无、若干和一些",
+  "translation": "每一、无、若干和一些",
+  "description": "A picture lesson introducing the compound pronouns of 'every', 'no', 'any' and 'some'. Twelve pictures (a-l) illustrate everyone/everybody, everything, everywhere, anyone/anybody, anything, anywhere, no one/nobody, nothing, nowhere, someone/somebody and somewhere. The written exercises rewrite sentences and answer questions using these compounds, and the grammar workbook drills filling blanks and completing dialogues.",
+  "answer_note": "Listening and written exercises A-D are model answers (suggested). Workbook A (Choose and write in the best word) and B (Situations) are from the workbook answer key (source-key, img/key-112-117.jpg). Grammar I-III are from the grammar workbook answer key (source-key, pdf p.552-553).",
+  "expected_answers": 78,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l116-lesson-intro",
+        "type": "text",
+        "source": "textbook-p235",
+        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l116-lesson-words",
+        "type": "text",
+        "source": "textbook-p235",
+        "text": "Word box: Every / Everyone / Everybody / Everything / Everywhere | None / No one / Nobody / Nothing / Nowhere | Any / Anyone / Anybody / Anything / Anywhere | Some / Someone / Somebody / Something / Somewhere",
+        "translation": "单词表：每一（everyone/everybody/everything/everywhere）| 无（no one/nobody/nothing/nowhere）| 若干（anyone/anybody/anything/anywhere）| 一些（someone/somebody/something/somewhere）"
+      },
+      {
+        "id": "l116-lesson-items",
+        "type": "text",
+        "source": "textbook-p235",
+        "image": "l116-items-grid",
+        "text": "Twelve pictures (a-l): a Everyone is asleep. Everybody is asleep. b Everything is untidy. c I looked for my pen everywhere. d Is there anyone at home? Is there anybody at home? e Is there anything in that box? f I couldn't find my pen anywhere. g There's no one at home. There's nobody at home. h There's nothing in this box. i Where did you go yesterday? Nowhere. I stayed at home. j There's someone in the garden. There's somebody in the garden. k There's something under that chair! l My glasses must be somewhere! You're wearing them!",
+        "translation": "十二张图片（a-l）：a 大家都睡着了。b 什么东西都乱七八糟。c 我在到处找我的钢笔。d 家里有人吗？e 那个盒子里有什么吗？f 我到处找不到我的钢笔。g 家里没有一个人。h 这个盒子里什么都没有。i 你昨天去哪儿了？哪儿也没去。我待在家里。j 园子里有人。k 那把椅子下面有什么东西！l 我的眼镜一定在什么地方！你正戴着呢！"
+      },
+      {
+        "id": "l116-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p235",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the recording and answer the questions for each picture (a-l).",
+        "translation": "听录音并回答每组图片（a-l）的问题。",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "context": "The recording reads each caption.",
+        "questions": [
+          {"id": "l116-listen-a", "number": 1, "prompt": "Picture a: Everyone is asleep.", "answer": "Everyone is asleep. Everybody is asleep."},
+          {"id": "l116-listen-b", "number": 2, "prompt": "Picture b: Everything is untidy.", "answer": "Everything is untidy."},
+          {"id": "l116-listen-c", "number": 3, "prompt": "Picture c: Looking for a pen.", "answer": "I looked for my pen everywhere."},
+          {"id": "l116-listen-d", "number": 4, "prompt": "Picture d: At the door.", "answer": "Is there anyone at home? Is there anybody at home?"},
+          {"id": "l116-listen-e", "number": 5, "prompt": "Picture e: The box.", "answer": "Is there anything in that box?"},
+          {"id": "l116-listen-f", "number": 6, "prompt": "Picture f: Lost pen.", "answer": "I couldn't find my pen anywhere."},
+          {"id": "l116-listen-g", "number": 7, "prompt": "Picture g: Looking through the window.", "answer": "There's no one at home. There's nobody at home."},
+          {"id": "l116-listen-h", "number": 8, "prompt": "Picture h: The empty box.", "answer": "There's nothing in this box."},
+          {"id": "l116-listen-i", "number": 9, "prompt": "Picture i: Watching television.", "answer": "Where did you go yesterday? Nowhere. I stayed at home."},
+          {"id": "l116-listen-j", "number": 10, "prompt": "Picture j: In the garden.", "answer": "There's someone in the garden. There's somebody in the garden."},
+          {"id": "l116-listen-k", "number": 11, "prompt": "Picture k: Under the chair.", "answer": "There's something under that chair!"},
+          {"id": "l116-listen-l", "number": 12, "prompt": "Picture l: The glasses.", "answer": "My glasses must be somewhere! You're wearing them!"}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l116-written-a",
+        "type": "exercise",
+        "source": "textbook-p236",
+        "title": "Written exercise A",
+        "instruction": "Rewrite these sentences using any/no with -one, -body, -thing, -where. (One example is given.)",
+        "translation": "用 any/no 加 -one、-body、-thing、-where 改写以下句子。（已给出一个例子。）",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "Model answers rewriting with no-compounds. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l116-wa0", "number": 0, "example": true, "prompt": "Example: I didn't buy anything. I bought nothing.", "answer": "I bought nothing."},
+          {"id": "l116-wa1", "number": 1, "prompt": "I didn't do anything.", "answer": "I did nothing."},
+          {"id": "l116-wa2", "number": 2, "prompt": "I didn't see anyone.", "answer": "I saw no one."},
+          {"id": "l116-wa3", "number": 3, "prompt": "I didn't go anywhere.", "answer": "I went nowhere."},
+          {"id": "l116-wa4", "number": 4, "prompt": "I didn't meet anybody.", "answer": "I met nobody."}
+        ]
+      },
+      {
+        "id": "l116-written-b",
+        "type": "exercise",
+        "source": "textbook-p236",
+        "title": "Written exercise B",
+        "instruction": "Answer these questions using no one. (One example is given.)",
+        "translation": "用 no one 回答以下问题。（已给出一个例子。）",
+        "expected_items": 7,
+        "answer_kind": "suggested",
+        "context": "Model answers using the any/no one pattern. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l116-wb0", "number": 0, "example": true, "prompt": "Did you see anyone?", "answer": "No, I didn't see anyone. I saw no one."},
+          {"id": "l116-wb1", "number": 1, "prompt": "Did you hear anything?", "answer": "No, I didn't hear anything. I heard nothing."},
+          {"id": "l116-wb2", "number": 2, "prompt": "Did you speak to anyone?", "answer": "No, I didn't speak to anyone. I spoke to no one."},
+          {"id": "l116-wb3", "number": 3, "prompt": "Did you go anywhere?", "answer": "No, I didn't go anywhere. I went nowhere."},
+          {"id": "l116-wb4", "number": 4, "prompt": "Did you buy anything?", "answer": "No, I didn't buy anything. I bought nothing."},
+          {"id": "l116-wb5", "number": 5, "prompt": "Did you write to anybody?", "answer": "No, I didn't write to anybody. I wrote to nobody."},
+          {"id": "l116-wb6", "number": 6, "prompt": "Did you meet anyone?", "answer": "No, I didn't meet anyone. I met no one."}
+        ]
+      },
+      {
+        "id": "l116-written-c",
+        "type": "exercise",
+        "source": "textbook-p236",
+        "title": "Written exercise C",
+        "instruction": "Rewrite these sentences. (One example is given.)",
+        "translation": "改写以下句子。（已给出一个例子。）",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "Model answers using Everyone's/Everybody's. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l116-wc0", "number": 0, "example": true, "prompt": "They're all watching television.", "answer": "Everyone's watching television."},
+          {"id": "l116-wc1", "number": 1, "prompt": "They're all looking out of the window.", "answer": "Everyone's looking out of the window."},
+          {"id": "l116-wc2", "number": 2, "prompt": "They're all hurrying to work.", "answer": "Everybody's hurrying to work."},
+          {"id": "l116-wc3", "number": 3, "prompt": "They're all eating.", "answer": "Everyone's eating."},
+          {"id": "l116-wc4", "number": 4, "prompt": "They're all drinking lemonade.", "answer": "Everybody's drinking lemonade."}
+        ]
+      },
+      {
+        "id": "l116-written-d",
+        "type": "exercise",
+        "source": "textbook-p236",
+        "title": "Written exercise D",
+        "instruction": "Answer these questions. (One example is given.)",
+        "translation": "回答以下问题。（已给出一个例子。）",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "Model answers using anything/nothing and something. Item 0 is the printed example.",
+        "questions": [
+          {"id": "l116-wd0", "number": 0, "example": true, "prompt": "Have you got anything to wear? What about Penny?", "answer": "No, I haven't got anything to wear. I've got nothing to wear. She's got something to wear."},
+          {"id": "l116-wd1", "number": 1, "prompt": "Have you got anything to eat? What about Sam?", "answer": "No, I haven't got anything to eat. I've got nothing to eat. He's got something to eat."},
+          {"id": "l116-wd2", "number": 2, "prompt": "Have you got anything to do? What about the children?", "answer": "No, I haven't got anything to do. I've got nothing to do. They've got something to do."},
+          {"id": "l116-wd3", "number": 3, "prompt": "Have you got anything to drink? What about Jane?", "answer": "No, I haven't got anything to drink. I've got nothing to drink. She's got something to drink."},
+          {"id": "l116-wd4", "number": 4, "prompt": "Have you got anything to read? What about Alan?", "answer": "No, I haven't got anything to read. I've got nothing to read. He's got something to read."}
+        ]
+      },
+      {
+        "id": "l116-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-116-a",
+        "title": "Practice A: Choose and write in the best word",
+        "instruction": "Everyone, no one, anyone, someone, etc. Choose and write in the best word for you. 选择最恰当的词。",
+        "translation": "从 everyone、no one、anyone、someone 等中选择最恰当的词填入。",
+        "expected_items": 11,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg (Lesson 116 A)",
+        "context": "Workbook L116 A: 11 multiple-choice items; item 1 is the printed example (everywhere).",
+        "questions": [
+          {"id": "l116-pa1", "number": 1, "example": true, "prompt": "I've looked ___ for my glasses. (a) nowhere (b) anywhere (c) everywhere", "answer": "everywhere"},
+          {"id": "l116-pa2", "number": 2, "prompt": "There is ___ in our garden. (a) somebody (b) anybody (c) everybody", "answer": "somebody"},
+          {"id": "l116-pa3", "number": 3, "prompt": "There isn't ___ in the cupboard for lunch. (a) something (b) anything (c) everything", "answer": "anything"},
+          {"id": "l116-pa4", "number": 4, "prompt": "We've just moved into this street, so we don't know ___ yet. (a) everyone (b) anyone (c) no one", "answer": "anyone"},
+          {"id": "l116-pa5", "number": 5, "prompt": "Listen. I want to tell you ___. (a) anything (b) nothing (c) something", "answer": "something"},
+          {"id": "l116-pa6", "number": 6, "prompt": "We have invited ___ to the party, but no one has answered yet. (a) everybody (b) anybody (c) somebody", "answer": "everybody"},
+          {"id": "l116-pa7", "number": 7, "prompt": "I'm sure there is a good job for you ___. You must find it! (a) everywhere (b) nowhere (c) somewhere", "answer": "somewhere"},
+          {"id": "l116-pa8", "number": 8, "prompt": "I looked in our class 10 minutes ago. There wasn't ___ there. (a) somebody (b) anybody (c) everybody", "answer": "anybody"},
+          {"id": "l116-pa9", "number": 9, "prompt": "___ in your room is dirty! You must clean it. (a) Something (b) Anything (c) Everything", "answer": "Everything"},
+          {"id": "l116-pa10", "number": 10, "prompt": "She can't go to the party because she's got ___ to wear. (a) nothing (b) anything (c) everything", "answer": "nothing"},
+          {"id": "l116-pa11", "number": 11, "prompt": "I'm hungry. I'd like ___ to eat. (a) nothing (b) something (c) everything", "answer": "something"}
+        ]
+      },
+      {
+        "id": "l116-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-116-b",
+        "title": "Practice B: Situations",
+        "instruction": "Read these situations. What do you say in each? 根据以下情景写出你应该说的话。",
+        "translation": "根据以下情景写出你应该说的话。",
+        "expected_items": 2,
+        "answer_kind": "source-key",
+        "key_source": "img/key-112-117.jpg (Lesson 116 B)",
+        "context": "Workbook L116 B: 2 situational responses.",
+        "questions": [
+          {"id": "l116-pb1", "number": 1, "prompt": "You are with friends and want a glass of lemonade. How do you ask politely?", "answer": "May I have a glass of lemonade, please?"},
+          {"id": "l116-pb2", "number": 2, "prompt": "A friend is looking through a dirty glass window. You want to know if he/she can see anything. How do you ask?", "answer": "Can you see anything?"}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l116-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p340-341",
+        "title": "Grammar I: Fill in the blanks with compounds of 'every', 'no', 'any' or 'some'",
+        "instruction": "用 every, no, any 或 some 的复合词填空。",
+        "translation": "用 every, no, any 或 some 的复合词填空。",
+        "expected_items": 22,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.552-553 (新概念英语语法练习1)",
+        "context": "16 numbered sentences (22 blanks). Items 2, 4, 6, 8 and 10 each have two blanks; where the key accepts two equivalent forms (nobody/no one), both are kept as separate fields.",
+        "questions": [
+          {"id": "l116-gi1", "number": 1, "prompt": "There is ___ interesting in the newspaper today. You must read it!", "answer": "something"},
+          {"id": "l116-gi2a", "number": 2, "prompt": "Can ___ read French? (blank 1 of 2)", "answer": "anyone"},
+          {"id": "l116-gi2b", "number": 3, "prompt": "We've got ___ here in French. (blank 2 of 2)", "answer": "something"},
+          {"id": "l116-gi2c", "number": 4, "prompt": "but we can't understand ___ in French. (blank 3 of 3)", "answer": "anything"},
+          {"id": "l116-gi3", "number": 5, "prompt": "He went ___ yesterday. He stayed at home.", "answer": "nowhere"},
+          {"id": "l116-gi4a", "number": 6, "prompt": "I know ___ here. (blank 1 of 2)", "answer": "nobody"},
+          {"id": "l116-gi4b", "number": 7, "prompt": "I know ___ here. (alternate: no one)", "answer": "no one"},
+          {"id": "l116-gi5", "number": 8, "prompt": "Is there ___ cheap in the shop? I haven't got much money.", "answer": "anything"},
+          {"id": "l116-gi6a", "number": 9, "prompt": "Are you going ___ now? (blank 1 of 2)", "answer": "anywhere"},
+          {"id": "l116-gi6b", "number": 10, "prompt": "Yes, I'm going ___ for lunch. (blank 2 of 2)", "answer": "somewhere"},
+          {"id": "l116-gi7", "number": 11, "prompt": "Mrs. Jones is very lazy. ___ in her house is dirty and untidy.", "answer": "Everything"},
+          {"id": "l116-gi8a", "number": 12, "prompt": "They are looking for you ___. (blank 1 of 2)", "answer": "everywhere"},
+          {"id": "l116-gi8b", "number": 13, "prompt": "They've got ___ important to tell you. (blank 2 of 2)", "answer": "something"},
+          {"id": "l116-gi9", "number": 14, "prompt": "He goes ___ by aeroplane. He thinks an aeroplane is the fastest.", "answer": "everywhere"},
+          {"id": "l116-gi10a", "number": 15, "prompt": "___ helped me. (blank 1 of 2)", "answer": "Nobody"},
+          {"id": "l116-gi10b", "number": 16, "prompt": "___ helped me. (alternate: No one)", "answer": "No one"},
+          {"id": "l116-gi11", "number": 17, "prompt": "These poor people have ___ to live. They have no home.", "answer": "nowhere"},
+          {"id": "l116-gi12", "number": 18, "prompt": "I can remember ___ about it. I've forgotten all about it.", "answer": "nothing"},
+          {"id": "l116-gi13", "number": 19, "prompt": "There must be ___ in the room. I heard a noise.", "answer": "someone"},
+          {"id": "l116-gi14", "number": 20, "prompt": "Can you see ___ in the sky? Yes, some stars.", "answer": "anything"},
+          {"id": "l116-gi15", "number": 21, "prompt": "I'm very thirsty. I want to buy ___ to drink.", "answer": "something"},
+          {"id": "l116-gi16", "number": 22, "prompt": "Have you seen Mike? Yes, I saw him in front of the library just now. He must be ___ in the library now.", "answer": "somewhere"}
+        ]
+      },
+      {
+        "id": "l116-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p341-342",
+        "title": "Grammar II: Rewrite the sentences according to the examples",
+        "instruction": "仿照例句改写下列句子。",
+        "translation": "仿照例句改写下列句子。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.553 (新概念英语语法练习1)",
+        "context": "12 rewrite items; items 1-3 are printed examples.",
+        "questions": [
+          {"id": "l116-gii1", "number": 1, "example": true, "prompt": "There isn't anything in the desk.", "answer": "There's nothing in the desk."},
+          {"id": "l116-gii2", "number": 2, "example": true, "prompt": "There isn't anybody in the room.", "answer": "There's nobody in the room."},
+          {"id": "l116-gii3", "number": 3, "example": true, "prompt": "There isn't anyone in the house.", "answer": "There's no one in the house."},
+          {"id": "l116-gii4", "number": 4, "prompt": "There isn't anything on the table.", "answer": "There's nothing on the table."},
+          {"id": "l116-gii5", "number": 5, "prompt": "There isn't anybody in the school.", "answer": "There's nobody in the school."},
+          {"id": "l116-gii6", "number": 6, "prompt": "There isn't anyone in the car.", "answer": "There's no one in the car."},
+          {"id": "l116-gii7", "number": 7, "prompt": "There isn't anything in the room.", "answer": "There's nothing in the room."},
+          {"id": "l116-gii8", "number": 8, "prompt": "There isn't anybody in the building.", "answer": "There's nobody in the building."},
+          {"id": "l116-gii9", "number": 9, "prompt": "There isn't anyone in the street.", "answer": "There's no one in the street."},
+          {"id": "l116-gii10", "number": 10, "prompt": "There isn't anything in the box.", "answer": "There's nothing in the box."},
+          {"id": "l116-gii11", "number": 11, "prompt": "There isn't anybody in the library.", "answer": "There's nobody in the library."},
+          {"id": "l116-gii12", "number": 12, "prompt": "There isn't anyone in the classroom.", "answer": "There's no one in the classroom."}
+        ]
+      },
+      {
+        "id": "l116-grammar-iii",
+        "type": "exercise",
+        "source": "grammar-workbook-p342-343",
+        "title": "Grammar III: Complete the dialogues according to the example",
+        "instruction": "仿照例句完成下列对话。",
+        "translation": "仿照例句完成下列对话。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.553 (新概念英语语法练习1)",
+        "context": "6 dialogue items; item 1 is the printed example.",
+        "questions": [
+          {"id": "l116-giii1", "number": 1, "example": true, "prompt": "I'd like some more butter, please. ... We haven't eaten all of it, have we?", "answer": "I'm sorry. There isn't any left. ... Yes, we have. There's none left."},
+          {"id": "l116-giii2", "number": 2, "prompt": "I'd like some more milk, please. ... We haven't drunk all of it, have we?", "answer": "I'm sorry. There isn't any left. ... Yes, we have. There's none left."},
+          {"id": "l116-giii3", "number": 3, "prompt": "I'd like some more grapes, please. ... We haven't eaten all of them, have we?", "answer": "I'm sorry. There aren't any left. ... Yes, we have. There are none left."},
+          {"id": "l116-giii4", "number": 4, "prompt": "I'd like some more paper, please. ... We haven't used all of it, have we?", "answer": "I'm sorry. There isn't any left. ... Yes, we have. There's none left."},
+          {"id": "l116-giii5", "number": 5, "prompt": "I'd like some more envelopes, please. ... We haven't used all of them, have we?", "answer": "I'm sorry. There aren't any left. ... Yes, we have. There are none left."},
+          {"id": "l116-giii6", "number": 6, "prompt": "I'd like some more bread, please. ... We haven't eaten all of it, have we?", "answer": "I'm sorry. There isn't any left. ... Yes, we have. There's none left."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.235 (Lesson 116 pictures)", "href": "../img/lesson-116-01-text.jpg"},
+    {"label": "Textbook p.236 (Lesson 116 written exercises)", "href": "../img/lesson-116-02-text.jpg"},
+    {"label": "Workbook Lesson 116 (practice page 161)", "href": "../img/lesson-116-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 112-117, p.213)", "href": "../img/key-112-117.jpg"},
+    {"label": "Grammar Workbook p.340-343 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=355"},
+    {"label": "Grammar Workbook p.552-553 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=552"}
+  ],
+  "characters": {
+    "lady": "A lady with curly dark hair and a polka-dot dress.",
+    "gentleman": "A gentleman with receding hair, wearing a jacket and trousers."
+  },
+  "images": {
+    "l116-items-grid": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Grid of 12 pictures (a-l): a everyone asleep, b everything untidy, c looking for pen everywhere, d anyone/anybody at home, e anything in the box, f couldn't find pen anywhere, g no one/nobody at home, h nothing in the box, i went nowhere/stayed at home, j someone/somebody in the garden, k something under the chair, l glasses must be somewhere.",
+      "source": "img/lesson-116-01-text.jpg (textbook p.235)",
+      "characters": ["lady", "gentleman"],
+      "origin": "textbook-crop",
+      "source_size": [2500, 1492],
+      "crop": [1452, 40, 2460, 1800],
+      "src": "assets/lesson-116/items-grid.jpg",
+      "width": 1412,
+      "height": 1760
+    }
+  }
+}
