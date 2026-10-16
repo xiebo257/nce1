@@ -1,0 +1,252 @@
+{
+  "number": 118,
+  "status": "verified",
+  "title": "What were you doing? 你那时正在做什么？",
+  "translation": "你那时正在做什么？",
+  "description": "A picture lesson introducing the past continuous and past simple in 'when'/'while'/'just as' clauses. Six pictures (m-r) show an action in progress interrupted by a shorter action. The written exercises model 'What were you doing when he arrived?' and 'What was he doing while you were cooking the dinner?'. The grammar workbook drills choosing between the past simple and past continuous, and completing open-ended sentences with while/when/just as.",
+  "answer_note": "Listening captions and written exercises B-C are model answers (suggested). Workbook A (Was doing and did) and B (When and while) are from the workbook answer key (source-key, img/key-118-123.jpg); C (About you) is open (suggested). Grammar I is from the grammar workbook answer key (source-key, pdf p.553-554); Grammar II is open-ended (suggested model answers).",
+  "expected_answers": 82,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l118-lesson-intro",
+        "type": "text",
+        "source": "textbook-p239",
+        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l118-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p239",
+        "image": "l118-pictures-grid",
+        "text": "Six pictures (m-r) illustrating past continuous + past simple in when/while/just as clauses. m: Someone knocked at the door when I was having breakfast. n: When I was leaving the house, the postman arrived. o: Just as I was opening the front door, the telephone rang. p: She slipped and hurt herself while she was getting off the bus. q: A man shaving in the mirror. r: A woman cooking the dinner while a man is standing in the rain outside.",
+        "translation": "六张图片（m-r）展示 when/while/just as 从句中过去进行时代替一般过去时的用法。m 我正吃早饭时，有人敲门。n 我正要出门时，邮递员到了。o 我刚要打开前门，电话就响了。p 她下公共汽车时滑倒了，伤了自己。q 一个男人在镜子里刮脸。r 一个女人在做晚饭，男人在外面的雨里站着。"
+      },
+      {
+        "id": "l118-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p239",
+        "title": "Listen and answer the questions (pictures m-r)",
+        "instruction": "Listen to the recording and answer the question for each picture (m-r).",
+        "translation": "听录音并回答每组图片（m-r）的问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "The recording reads each caption; the answer is the caption sentence itself.",
+        "questions": [
+          {"id": "l118-listen-m", "number": 1, "prompt": "Picture m: knocking at the door while having breakfast.", "answer": "Someone knocked at the door when I was having breakfast."},
+          {"id": "l118-listen-n", "number": 2, "prompt": "Picture n: postman arriving while leaving the house.", "answer": "When I was leaving the house, the postman arrived."},
+          {"id": "l118-listen-o", "number": 3, "prompt": "Picture o: opening the front door as the telephone rang.", "answer": "Just as I was opening the front door, the telephone rang."},
+          {"id": "l118-listen-p", "number": 4, "prompt": "Picture p: getting off the bus.", "answer": "She slipped and hurt herself while she was getting off the bus."},
+          {"id": "l118-listen-q", "number": 5, "prompt": "Picture q: shaving in the mirror.", "answer": "He was shaving when the telephone rang."},
+          {"id": "l118-listen-r", "number": 6, "prompt": "Picture r: cooking the dinner while it was raining outside.", "answer": "She was cooking the dinner while it was raining outside."}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l118-written-b",
+        "type": "exercise",
+        "source": "textbook-p240",
+        "title": "Written exercise B",
+        "instruction": "Answer these questions. (One example is given.)",
+        "translation": "回答以下问题。（已给出一个例子。）",
+        "expected_items": 9,
+        "answer_kind": "suggested",
+        "context": "Model answers using 'When he arrived I was ...'. Item 0 is the printed example (have a bath).",
+        "questions": [
+          {"id": "l118-wb0", "number": 0, "example": true, "prompt": "Example: What were you doing when he arrived? (have a bath)", "answer": "When he arrived I was having a bath."},
+          {"id": "l118-wb1", "number": 1, "prompt": "What were you doing when he arrived? (cook a meal)", "answer": "When he arrived I was cooking a meal."},
+          {"id": "l118-wb2", "number": 2, "prompt": "What were you doing when he arrived? (wash the dishes)", "answer": "When he arrived I was washing the dishes."},
+          {"id": "l118-wb3", "number": 3, "prompt": "What were you doing when he arrived? (work in the garden)", "answer": "When he arrived I was working in the garden."},
+          {"id": "l118-wb4", "number": 4, "prompt": "What were you doing when he arrived? (type letters)", "answer": "When he arrived I was typing letters."},
+          {"id": "l118-wb5", "number": 5, "prompt": "What were you doing when he arrived? (shave)", "answer": "When he arrived I was shaving."},
+          {"id": "l118-wb6", "number": 6, "prompt": "What were you doing when he arrived? (boil the milk)", "answer": "When he arrived I was boiling the milk."},
+          {"id": "l118-wb7", "number": 7, "prompt": "What were you doing when he arrived? (phone my sister)", "answer": "When he arrived I was phoning my sister."},
+          {"id": "l118-wb8", "number": 8, "prompt": "What were you doing when he arrived? (dust the bedroom)", "answer": "When he arrived I was dusting the bedroom."}
+        ]
+      },
+      {
+        "id": "l118-written-c",
+        "type": "exercise",
+        "source": "textbook-p240",
+        "title": "Written exercise C",
+        "instruction": "Answer these questions. (One example is given.)",
+        "translation": "回答以下问题。（已给出一个例子。）",
+        "expected_items": 9,
+        "answer_kind": "suggested",
+        "context": "Model answers using 'While I was cooking the dinner, he was ...'. Item 0 is the printed example (work in the garden).",
+        "questions": [
+          {"id": "l118-wc0", "number": 0, "example": true, "prompt": "Example: What was he doing while you were cooking the dinner? (work in the garden)", "answer": "While I was cooking the dinner, he was working in the garden."},
+          {"id": "l118-wc1", "number": 1, "prompt": "What was he doing while you were cooking the dinner? (have a wash)", "answer": "While I was cooking the dinner, he was having a wash."},
+          {"id": "l118-wc2", "number": 2, "prompt": "What was he doing while you were cooking the dinner? (watch television)", "answer": "While I was cooking the dinner, he was watching television."},
+          {"id": "l118-wc3", "number": 3, "prompt": "What was he doing while you were cooking the dinner? (clean his shoes)", "answer": "While I was cooking the dinner, he was cleaning his shoes."},
+          {"id": "l118-wc4", "number": 4, "prompt": "What was he doing while you were cooking the dinner? (listen to the radio)", "answer": "While I was cooking the dinner, he was listening to the radio."},
+          {"id": "l118-wc5", "number": 5, "prompt": "What was he doing while you were cooking the dinner? (change his suit)", "answer": "While I was cooking the dinner, he was changing his suit."},
+          {"id": "l118-wc6", "number": 6, "prompt": "What was he doing while you were cooking the dinner? (sit in the dining room)", "answer": "While I was cooking the dinner, he was sitting in the dining room."},
+          {"id": "l118-wc7", "number": 7, "prompt": "What was he doing while you were cooking the dinner? (read the paper)", "answer": "While I was cooking the dinner, he was reading the paper."},
+          {"id": "l118-wc8", "number": 8, "prompt": "What was he doing while you were cooking the dinner? (drive home from work)", "answer": "While I was cooking the dinner, he was driving home from work."}
+        ]
+      },
+      {
+        "id": "l118-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-118-a",
+        "title": "Practice A: Was doing and did",
+        "instruction": "Fill in the correct form of the verb - the simple past or the past continuous. 用一般过去时或过去进行时填空。",
+        "translation": "用一般过去时或过去进行时填空。",
+        "expected_items": 8,
+        "answer_kind": "source-key",
+        "key_source": "img/key-118-123.jpg (Lesson 118 A)",
+        "context": "Workbook L118 A: 8 items; item 1 is the printed example (were leaving).",
+        "questions": [
+          {"id": "l118-pa1", "number": 1, "example": true, "prompt": "We ___ (leave) the house when the postman arrived.", "answer": "were leaving"},
+          {"id": "l118-pa2", "number": 2, "prompt": "She dropped some money just as she ___ (get off) the bus.", "answer": "was getting off"},
+          {"id": "l118-pa3", "number": 3, "prompt": "Someone ___ (ring) while I was working in the garden.", "answer": "rang"},
+          {"id": "l118-pa4", "number": 4, "prompt": "They arrived while we ___ (cook) the meal.", "answer": "were cooking"},
+          {"id": "l118-pa5", "number": 5, "prompt": "We ___ (all have) breakfast when the postman came with the letters.", "answer": "were all having"},
+          {"id": "l118-pa6", "number": 6, "prompt": "It ___ (rain) very heavily when I got off the train.", "answer": "was raining"},
+          {"id": "l118-pa7", "number": 7, "prompt": "John ___ (remember) his passport just as he was leaving the house.", "answer": "remembered"},
+          {"id": "l118-pa8", "number": 8, "prompt": "I dropped the milk while I ___ (make) some coffee in the kitchen.", "answer": "was making"}
+        ]
+      },
+      {
+        "id": "l118-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-118-b",
+        "title": "Practice B: When and while",
+        "instruction": "Join these sentences using when or while. 用 when 或 while 连接以下各组句子。",
+        "translation": "用 when 或 while 连接以下各组句子。",
+        "expected_items": 4,
+        "answer_kind": "source-key",
+        "key_source": "img/key-118-123.jpg (Lesson 118 B)",
+        "context": "Workbook L118 B: 4 join items; item 1 is the printed example (I was walking to school when I met a friend).",
+        "questions": [
+          {"id": "l118-pb1", "number": 1, "example": true, "prompt": "I was walking to school. + I met a friend.", "answer": "I was walking to school when I met a friend."},
+          {"id": "l118-pb2", "number": 2, "prompt": "My friend broke his leg. + He was playing football.", "answer": "My friend broke his leg while he was playing football."},
+          {"id": "l118-pb3", "number": 3, "prompt": "We were driving into the city. + We had an accident.", "answer": "We were driving into the city when we had an accident."},
+          {"id": "l118-pb4", "number": 4, "prompt": "She was leaving the house. + The telephone rang.", "answer": "She was leaving the house when the telephone rang."}
+        ]
+      },
+      {
+        "id": "l118-practice-c",
+        "type": "exercise",
+        "source": "workbook-lesson-118-c",
+        "title": "Practice C: About you",
+        "instruction": "Write true answers to these questions. 根据真实情况回答以下问题。",
+        "translation": "根据真实情况回答以下问题。",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "Open-ended personal responses; model answers shown. (Workbook key lists 'Open-ended, but these are possible answers.')",
+        "questions": [
+          {"id": "l118-pc1", "number": 1, "prompt": "What were you doing when the teacher came into the class this morning?", "answer": "I was talking to some friends."},
+          {"id": "l118-pc2", "number": 2, "prompt": "What happened while you were having breakfast this morning?", "answer": "The postman brought me a letter."},
+          {"id": "l118-pc3", "number": 3, "prompt": "Did you meet anyone while you were going home from school yesterday?", "answer": "No, I didn't meet anyone."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l118-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p362-363",
+        "title": "Grammar I: Complete the sentences with either the past simple or the past continuous",
+        "instruction": "用所给动词的一般过去时或过去进行时形式填空。",
+        "translation": "用所给动词的一般过去时或过去进行时形式填空。",
+        "expected_items": 35,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.553-554 (新概念英语语法练习1)",
+        "context": "16 numbered items. Items 2 and 4 have two blanks (one answer field per blank). Item 10 has three blanks. Where the key accepts two equivalent forms (4b: wasn't feeling / didn't feel), the first form is used.",
+        "questions": [
+          {"id": "l118-gi1a", "number": 1, "prompt": "While she ___ (sit) in the library, someone ___ (throw) a letter through the window. (blank 1 of 2)", "answer": "was sitting"},
+          {"id": "l118-gi1b", "number": 2, "prompt": "While she was sitting in the library, someone ___ (throw) a letter through the window. (blank 2 of 2)", "answer": "threw"},
+          {"id": "l118-gi2a", "number": 3, "prompt": "When the telephone ___ (ring), she ___ (do) her housework. (blank 1 of 2)", "answer": "rang"},
+          {"id": "l118-gi2b", "number": 4, "prompt": "When the telephone rang, she ___ (do) her housework. (blank 2 of 2)", "answer": "was doing"},
+          {"id": "l118-gi3a", "number": 5, "prompt": "When I ___ (leave) the party, the people ___ (enjoy) themselves. (blank 1 of 2)", "answer": "left"},
+          {"id": "l118-gi3b", "number": 6, "prompt": "When I left the party, the people ___ (enjoy) themselves. (blank 2 of 2)", "answer": "were enjoying"},
+          {"id": "l118-gi4a", "number": 7, "prompt": "He ___ (not go) to school yesterday because he ___ (not feel) very well. (blank 1 of 2)", "answer": "didn't go"},
+          {"id": "l118-gi4b", "number": 8, "prompt": "He didn't go to school yesterday because he ___ (not feel) very well. (blank 2 of 2)", "answer": "wasn't feeling"},
+          {"id": "l118-gi5a", "number": 9, "prompt": "Just as the bus ___ (begin) to move, he ___ (run) quickly and ___ (jump) on it. (blank 1 of 3)", "answer": "was beginning"},
+          {"id": "l118-gi5b", "number": 10, "prompt": "Just as the bus was beginning to move, he ___ (run) quickly and jumped on it. (blank 2 of 3)", "answer": "ran"},
+          {"id": "l118-gi5c", "number": 11, "prompt": "Just as the bus was beginning to move, he ran quickly and ___ (jump) on it. (blank 3 of 3)", "answer": "jumped"},
+          {"id": "l118-gi6a", "number": 12, "prompt": "The teacher ___ (go) into the classroom while the boy ___ (draw) on the blackboard. (blank 1 of 2)", "answer": "went"},
+          {"id": "l118-gi6b", "number": 13, "prompt": "The teacher went into the classroom while the boy ___ (draw) on the blackboard. (blank 2 of 2)", "answer": "was drawing"},
+          {"id": "l118-gi7a", "number": 14, "prompt": "She ___ (break) her ankle while she ___ (play) tennis. (blank 1 of 2)", "answer": "broke"},
+          {"id": "l118-gi7b", "number": 15, "prompt": "She broke her ankle while she ___ (play) tennis. (blank 2 of 2)", "answer": "was playing"},
+          {"id": "l118-gi8a", "number": 16, "prompt": "While the teacher ___ (talk) to us, a boy ___ (bring) him a note. (blank 1 of 2)", "answer": "was talking"},
+          {"id": "l118-gi8b", "number": 17, "prompt": "While the teacher was talking to us, a boy ___ (bring) him a note. (blank 2 of 2)", "answer": "brought"},
+          {"id": "l118-gi9a", "number": 18, "prompt": "When my brother ___ (come) into the room, I ___ (telephone) Mary. (blank 1 of 2)", "answer": "came"},
+          {"id": "l118-gi9b", "number": 19, "prompt": "When my brother came into the room, I ___ (telephone) Mary. (blank 2 of 2)", "answer": "was telephoning"},
+          {"id": "l118-gi10a", "number": 20, "prompt": "I ___ (listen) to the stereo when you ___ (knock) at the door the first time, so I ___ (not hear) you. (blank 1 of 3)", "answer": "was listening"},
+          {"id": "l118-gi10b", "number": 21, "prompt": "I was listening to the stereo when you ___ (knock) at the door the first time, so I didn't hear you. (blank 2 of 3)", "answer": "knocked"},
+          {"id": "l118-gi10c", "number": 22, "prompt": "I was listening to the stereo when you knocked at the door the first time, so I ___ (not hear) you. (blank 3 of 3)", "answer": "didn't hear"},
+          {"id": "l118-gi11", "number": 23, "prompt": "I'm afraid there's no more cake left. We ___ (eat) it all this morning.", "answer": "ate"},
+          {"id": "l118-gi12a", "number": 24, "prompt": "While the train ___ (still move), a lot of people suddenly ___ (jump) out of their seats. (blank 1 of 2)", "answer": "was still moving"},
+          {"id": "l118-gi12b", "number": 25, "prompt": "While the train was still moving, a lot of people suddenly ___ (jump) out of their seats. (blank 2 of 2)", "answer": "jumped"},
+          {"id": "l118-gi13a", "number": 26, "prompt": "While the children ___ (play) outside, their mother ___ (cook) their dinner. (blank 1 of 2)", "answer": "were playing"},
+          {"id": "l118-gi13b", "number": 27, "prompt": "While the children were playing outside, their mother ___ (cook) their dinner. (blank 2 of 2)", "answer": "was cooking"},
+          {"id": "l118-gi14a", "number": 28, "prompt": "It ___ (rain) heavily when we ___ (leave) the house, but it ___ (clear) up later. (blank 1 of 3)", "answer": "was raining"},
+          {"id": "l118-gi14b", "number": 29, "prompt": "It was raining heavily when we ___ (leave) the house, but it cleared up later. (blank 2 of 3)", "answer": "left"},
+          {"id": "l118-gi14c", "number": 30, "prompt": "It was raining heavily when we left the house, but it ___ (clear) up later. (blank 3 of 3)", "answer": "cleared"},
+          {"id": "l118-gi15a", "number": 31, "prompt": "We ___ (walk) home this evening when we ___ (see) an accident involving a car and a bike. (blank 1 of 2)", "answer": "were walking"},
+          {"id": "l118-gi15b", "number": 32, "prompt": "We were walking home this evening when we ___ (see) an accident involving a car and a bike. (blank 2 of 2)", "answer": "saw"},
+          {"id": "l118-gi16a", "number": 33, "prompt": "Because he ___ (not want) the noise to disturb his daughter while she ___ (study), he ___ (shut) the door. (blank 1 of 3)", "answer": "didn't want"},
+          {"id": "l118-gi16b", "number": 34, "prompt": "Because he didn't want the noise to disturb his daughter while she ___ (study), he shut the door. (blank 2 of 3)", "answer": "was studying"},
+          {"id": "l118-gi16c", "number": 35, "prompt": "Because he didn't want the noise to disturb his daughter while she was studying, he ___ (shut) the door. (blank 3 of 3)", "answer": "shut"}
+        ]
+      },
+      {
+        "id": "l118-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p363-364",
+        "title": "Grammar II: Complete the sentences, using your own words",
+        "instruction": "用自己的话完成下列句子。",
+        "translation": "用自己的话完成下列句子。",
+        "expected_items": 12,
+        "answer_kind": "suggested",
+        "context": "Open-ended sentence completion with while/when/just as; model answers shown. No printed examples.",
+        "questions": [
+          {"id": "l118-gii1", "number": 1, "prompt": "While I was having my breakfast this morning, ___", "answer": "the telephone rang."},
+          {"id": "l118-gii2", "number": 2, "prompt": "I was having a bath when ___", "answer": "the telephone rang."},
+          {"id": "l118-gii3", "number": 3, "prompt": "While I was putting on shoes this morning, ___", "answer": "I dropped a book on the floor."},
+          {"id": "l118-gii4", "number": 4, "prompt": "When I was walking to school this morning, ___", "answer": "I met a friend."},
+          {"id": "l118-gii5", "number": 5, "prompt": "While our class was having an English lesson, ___", "answer": "someone knocked at the door."},
+          {"id": "l118-gii6", "number": 6, "prompt": "Just as I was leaving the classroom after class, ___", "answer": "it began to rain."},
+          {"id": "l118-gii7", "number": 7, "prompt": "___ while I was walking home yesterday.", "answer": "Someone called me to dinner."},
+          {"id": "l118-gii8", "number": 8, "prompt": "While I was watching television last night, ___", "answer": "the lights went out."},
+          {"id": "l118-gii9", "number": 9, "prompt": "I was reading in the library when ___", "answer": "someone turned on the stereo."},
+          {"id": "l118-gii10", "number": 10, "prompt": "While I was cooking the dinner, ___", "answer": "the children were playing outside."},
+          {"id": "l118-gii11", "number": 11, "prompt": "Just as I was going to sleep, ___", "answer": "I heard a loud noise from the road."},
+          {"id": "l118-gii12", "number": 12, "prompt": "While I was walking home yesterday, ___", "answer": "a dog followed me for a few minutes."}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.239 (Lesson 118 pictures m-r)", "href": "../img/lesson-118-01-text.jpg"},
+    {"label": "Textbook p.240 (Lesson 118 written exercises B-C)", "href": "../img/lesson-118-02-text.jpg"},
+    {"label": "Workbook Lesson 118 (practice page 163)", "href": "../img/lesson-118-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 118-123, p.214)", "href": "../img/key-118-123.jpg"},
+    {"label": "Grammar Workbook p.362-364 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=362"},
+    {"label": "Grammar Workbook p.553-554 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=553"}
+  ],
+  "characters": {
+    "lady": "A lady with dark hair, shown having breakfast, opening the front door, cooking the dinner and getting off the bus.",
+    "gentleman": "A gentleman shown knocking at the door, delivering letters, shaving in the mirror and standing in the rain."
+  },
+  "images": {
+    "l118-pictures-grid": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Grid of 6 pictures (m-r): m knocking while having breakfast, n postman arriving while leaving, o opening the door as the telephone rang, p getting off the bus, q shaving, r cooking the dinner while it rained.",
+      "source": "img/lesson-118-01-text.jpg (textbook p.239)",
+      "characters": ["lady", "gentleman"],
+      "origin": "textbook-crop",
+      "source_size": [2500, 2147],
+      "crop": [0, 601, 2500, 2147],
+      "src": "assets/lesson-118/pictures-grid.jpg",
+      "width": 2500,
+      "height": 1546
+    }
+  }
+}
