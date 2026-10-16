@@ -1,0 +1,216 @@
+{
+  "number": 126,
+  "status": "verified",
+  "title": "Have to and do not need to 不得不和不必要",
+  "translation": "不得不和不必要",
+  "description": "A picture lesson on 'have to' (obligation) and 'do not need to' (absence of obligation), including the past form 'didn't need to' and 'had to'. Six pictures show questions and answers about having to leave immediately, getting up early, taking a taxi, waiting two hours, watering the garden and walking to the station. The lesson introduces the word immediately and written exercises on writing questions and answers, answering with have to/has to, and writing questions with have to. The workbook drills choosing between have to / don't need to / didn't need to and reacting to situations; the grammar workbook completes sentences with have to, don't need to or didn't need to and makes dialogues about school duties.",
+  "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (write questions and answers), B (answer with have to/has to) and C (write questions) are model answers (suggested). Workbook A (choose the best word) is from the workbook answer key (source-key, img/key-123-129.jpg p.215); Workbook B (situations) has no printed key in the answer key, so its answers are model answers (suggested). Grammar I (fill in have to / don't need to / didn't need to) and II (make dialogues) are from the grammar workbook answer key (source-key, pdf p.561-563).",
+  "expected_answers": 47,
+  "sections": {
+    "lesson": [
+      {
+        "id": "l126-lesson-intro",
+        "type": "text",
+        "source": "textbook-p255",
+        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l126-lesson-pictures",
+        "type": "text",
+        "source": "textbook-p255",
+        "image": "l126-pictures",
+        "text": "1. Do you have to go now? / Yes, I have to leave immediately.\n2. Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.\n3. Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.\n4. Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!\n5. Do you have to water the garden? / No, I don't need to water it now. It's going to rain.\n6. Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
+        "translation": "1. 你现在必须走了吗？/ 是的，我必须立刻离开。\n2. 你明天早上必须早起吗？/ 是的，我不得不六点钟起床。\n3. 你不得不打的了吗？/ 恐怕是的，我坐不上公共汽车。\n4. 你的朋友还没到吗？你等了多久了？/ 我不得不等了两个小时了！\n5. 你不得不浇花园吗？/ 不，我现在不必浇，天要下雨了。\n6. 我们不得不走到车站吗？/ 不，我们不必，我们可以坐公共汽车。"
+      },
+      {
+        "id": "l126-lesson-listening",
+        "type": "exercise",
+        "source": "textbook-p255",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "One question per picture (6 pictures); the answer is the spoken reply from the picture captions.",
+        "questions": [
+          {"id": "l126-lq1", "number": 1, "prompt": "Do you have to go now? (Picture 1)", "answer": "Yes, I have to leave immediately."},
+          {"id": "l126-lq2", "number": 2, "prompt": "Do you have to get up early tomorrow morning? (Picture 2)", "answer": "Yes, I'll have to get up at six o'clock."},
+          {"id": "l126-lq3", "number": 3, "prompt": "Did you have to take a taxi? (Picture 3)", "answer": "I'm afraid I had to. I couldn't get a bus."},
+          {"id": "l126-lq4", "number": 4, "prompt": "Hasn't your friend arrived yet? How long have you had to wait? (Picture 4)", "answer": "I've had to wait for two hours!"},
+          {"id": "l126-lq5", "number": 5, "prompt": "Do you have to water the garden? (Picture 5)", "answer": "No, I don't need to water it now. It's going to rain."},
+          {"id": "l126-lq6", "number": 6, "prompt": "Do we have to walk to the station? (Picture 6)", "answer": "No, we don't need to. We can catch a bus."}
+        ]
+      },
+      {
+        "id": "l126-vocabulary",
+        "type": "vocabulary",
+        "source": "textbook-p256",
+        "items": [
+          {"word": "immediately", "ipa": "/'ɪmɪdiətli/", "pos": "adv.", "meaning": "立即地"}
+        ]
+      },
+      {
+        "id": "l126-written-a",
+        "type": "exercise",
+        "source": "textbook-p256",
+        "title": "Written A: Write questions and answers",
+        "instruction": "抄写以下句子，然后提问并写出相应的否定句。",
+        "translation": "抄写以下句子，然后提问并写出相应的否定句。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 items; 2 examples printed on the page (You have to leave early. → Do you have to leave early? / You don't have to leave early. She must leave early. → Must she leave early? / She needn't leave early.).",
+        "questions": [
+          {"id": "l126-wa1", "number": 1, "prompt": "She has to decide immediately.", "answer": "Does she have to decide immediately? / She doesn't have to decide immediately."},
+          {"id": "l126-wa2", "number": 2, "prompt": "She must decide immediately.", "answer": "Must she decide immediately? / She needn't decide immediately."},
+          {"id": "l126-wa3", "number": 3, "prompt": "We have to take a taxi.", "answer": "Do we have to take a taxi? / We don't have to take a taxi."},
+          {"id": "l126-wa4", "number": 4, "prompt": "We must take a taxi.", "answer": "Must we take a taxi? / We needn't take a taxi."}
+        ]
+      },
+      {
+        "id": "l126-written-b",
+        "type": "exercise",
+        "source": "textbook-p256",
+        "title": "Written B: Answer these questions",
+        "instruction": "用 have to 或 has to 回答问题。",
+        "translation": "用 have to 或 has to 回答问题。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 answer items; 1 example printed on the page (I must go now. What about you? → I have to go, too.).",
+        "questions": [
+          {"id": "l126-wb1", "number": 1, "prompt": "I must telephone him. What about you?", "answer": "I have to telephone him, too."},
+          {"id": "l126-wb2", "number": 2, "prompt": "I must wait for him. What about Mary?", "answer": "Mary has to wait for him, too."},
+          {"id": "l126-wb3", "number": 3, "prompt": "I must meet her. What about Jim?", "answer": "Jim has to meet her, too."},
+          {"id": "l126-wb4", "number": 4, "prompt": "I must travel by ship. What about Tom and Mary?", "answer": "They have to travel by ship, too."}
+        ]
+      },
+      {
+        "id": "l126-written-c",
+        "type": "exercise",
+        "source": "textbook-p256",
+        "title": "Written C: Write questions",
+        "instruction": "模仿例句改写提问。",
+        "translation": "模仿例句改写提问。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 question items; 1 example printed on the page (I must go now. → Do you really have to go now?).",
+        "questions": [
+          {"id": "l126-wc1", "number": 1, "prompt": "I must telephone him.", "answer": "Do you really have to telephone him?"},
+          {"id": "l126-wc2", "number": 2, "prompt": "Mary must wait for him.", "answer": "Does Mary really have to wait for him?"},
+          {"id": "l126-wc3", "number": 3, "prompt": "Jim must meet her.", "answer": "Does Jim really have to meet her?"},
+          {"id": "l126-wc4", "number": 4, "prompt": "Tom and Mary must travel by ship.", "answer": "Do Tom and Mary really have to travel by ship?"}
+        ]
+      }
+    ],
+    "practice": [
+      {
+        "id": "l126-practice-a",
+        "type": "exercise",
+        "source": "workbook-lesson-126-a",
+        "title": "Practice A: Choose and write in the best words",
+        "instruction": "Choose and write in the best words. 选择最恰当的词。",
+        "translation": "选择最恰当的词。",
+        "expected_items": 10,
+        "answer_kind": "source-key",
+        "key_source": "img/key-123-129.jpg (Lesson 126 A, p.215)",
+        "context": "10 multiple-choice items choosing the correct form of have to / need to; item 1 is the printed example.",
+        "questions": [
+          {"id": "l126-pa1", "number": 1, "example": true, "prompt": "When ___ you have to leave? (a) you have to (b) do you have to (c) you had to", "answer": "do you have to"},
+          {"id": "l126-pa2", "number": 2, "prompt": "You ___ leave school early tomorrow. (a) had to (b) have had to (c) will have to", "answer": "will have to"},
+          {"id": "l126-pa3", "number": 3, "prompt": "I ___ go to the dentist's very often. (a) don't have to (b) don't need (c) doesn't have to", "answer": "don't have to"},
+          {"id": "l126-pa4", "number": 4, "prompt": "We ___ walk home. Here's a bus. (a) doesn't have to (b) don't need to (c) didn't need to", "answer": "don't need to"},
+          {"id": "l126-pa5", "number": 5, "prompt": "I ___ wait for you for the past twenty minutes. (a) have to (b) have had to (c) hadn't had to", "answer": "have had to"},
+          {"id": "l126-pa6", "number": 6, "prompt": "___ leave now? Our other friends are staying till late. (a) Does she have to (b) Did she have to (c) Has she had to", "answer": "Does she have to"},
+          {"id": "l126-pa7", "number": 7, "prompt": "He ___ water the garden now. It's raining. (a) don't need (b) doesn't need to (c) won't have to", "answer": "doesn't need to"},
+          {"id": "l126-pa8", "number": 8, "prompt": "___ take a taxi home in the past? (a) Do you ever need to (b) Do you ever have to (c) Have you ever had to", "answer": "Have you ever had to"},
+          {"id": "l126-pa9", "number": 9, "prompt": "I ___ go to the dentist's very often. (a) have to (b) had to (c) don't need to", "answer": "don't need to"},
+          {"id": "l126-pa10", "number": 10, "prompt": "We ___ walk home. Here's a bus. (a) have to (b) had to (c) don't need to", "answer": "don't need to"}
+        ]
+      },
+      {
+        "id": "l126-practice-b",
+        "type": "exercise",
+        "source": "workbook-lesson-126-b",
+        "title": "Practice B: Situations",
+        "instruction": "Read these situations. What do you say in each? 根据以下情景写出你应该说的话。",
+        "translation": "根据以下情景写出你应该说的话。",
+        "expected_items": 3,
+        "answer_kind": "suggested",
+        "context": "3 situation items; the workbook answer key has no printed answers for Lesson 126 B, so the answers are model answers (suggested).",
+        "questions": [
+          {"id": "l126-pb1", "number": 1, "prompt": "You want to buy something, but find that you haven't got enough money on you. What do you say with 'What ...?'", "answer": "What bad luck! I must have to sell something else first."},
+          {"id": "l126-pb2", "number": 2, "prompt": "You're in the garden with a friend. It's a fine day. Suddenly you see a big cloud and think it's going to rain. You point to the cloud and say: 'I must go now. What about you?' You agree you must go, too. What do you say?", "answer": "I have to go, too. It's going to rain."},
+          {"id": "l126-pb3", "number": 3, "prompt": "A friend says: 'I must go now. What about you?' You agree you must go, too. How do you say it?", "answer": "So must I. / I have to go, too."}
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "id": "l126-grammar-i",
+        "type": "exercise",
+        "source": "grammar-workbook-p369",
+        "title": "Grammar I: Complete the sentences by adding 'have to', 'don't need to' or 'didn't need to'",
+        "instruction": "用 have to, don't need to 或 didn't need to 填空。",
+        "translation": "用 have to, don't need to 或 didn't need to 填空。",
+        "expected_items": 12,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.562 (新概念英语语法练习1)",
+        "context": "12 fill-in items choosing between have to, don't need to and didn't need to.",
+        "questions": [
+          {"id": "l126-gi1", "number": 1, "prompt": "I ___ buy both books so I bought only one.", "answer": "didn't need to"},
+          {"id": "l126-gi2", "number": 2, "prompt": "We ___ hurry. We are very late.", "answer": "have to"},
+          {"id": "l126-gi3", "number": 3, "prompt": "We ___ hurry. There is plenty of time.", "answer": "don't need to"},
+          {"id": "l126-gi4", "number": 4, "prompt": "He ___ do any homework last night because he had finished it at school.", "answer": "didn't need to"},
+          {"id": "l126-gi5", "number": 5, "prompt": "You ___ take a taxi. There is a bus coming.", "answer": "don't need to"},
+          {"id": "l126-gi6", "number": 6, "prompt": "She ___ get up early yesterday because it was a holiday, so she stayed in bed till 10 o'clock.", "answer": "didn't need to"},
+          {"id": "l126-gi7", "number": 7, "prompt": "You ___ stay behind to help me with my work. I can do it by myself.", "answer": "don't need to"},
+          {"id": "l126-gi8", "number": 8, "prompt": "I ___ take a taxi. I can't wait for a bus.", "answer": "have to"},
+          {"id": "l126-gi9", "number": 9, "prompt": "You ___ write home because you are going home tomorrow.", "answer": "don't need to"},
+          {"id": "l126-gi10", "number": 10, "prompt": "I ___ buy any new shoes because my mother bought two pairs for me yesterday.", "answer": "don't need to"},
+          {"id": "l126-gi11", "number": 11, "prompt": "He ___ do any work yesterday because his brother had done it all for him.", "answer": "didn't need to"},
+          {"id": "l126-gi12", "number": 12, "prompt": "You ___ do all the work by yourself. I can help you if you want.", "answer": "don't need to"}
+        ]
+      },
+      {
+        "id": "l126-grammar-ii",
+        "type": "exercise",
+        "source": "grammar-workbook-p370",
+        "title": "Grammar II: Make dialogues using the cues given according to the example",
+        "instruction": "仿照例句用所给的词编写对话。",
+        "translation": "仿照例句用所给的词编写对话。",
+        "expected_items": 6,
+        "answer_kind": "source-key",
+        "key_source": "pdf p.561-563 (新概念英语语法练习1)",
+        "context": "6 dialogue items; item 1 (clean the blackboard) is the printed example. Each dialogue has 4 lines.",
+        "questions": [
+          {"id": "l126-gii1", "number": 1, "example": true, "prompt": "clean the blackboard", "answer": "I must clean the blackboard now because I'm on duty today. / No, you don't need to do it because I'll do it for you. / Then I shall have to clean it tomorrow. / No, you won't have to do it then, either, because I'll clean it for you."},
+          {"id": "l126-gii2", "number": 2, "prompt": "sweep the floor", "answer": "I must sweep the floor now because I'm on duty today. / No, you don't need to do it because I'll do it for you. / Then I shall have to sweep it tomorrow. / No, you won't have to do it then, either, because I'll sweep it for you.", "rows": 6},
+          {"id": "l126-gii3", "number": 3, "prompt": "clean the desks and chairs", "answer": "I must clean the desks and chairs now because I'm on duty today. / No, you don't need to do it because I'll do it for you. / Then I shall have to clean them tomorrow. / No, you won't have to do it then, either, because I'll clean them for you.", "rows": 6},
+          {"id": "l126-gii4", "number": 4, "prompt": "clean the windows", "answer": "I must clean the windows now because I'm on duty today. / No, you don't need to do it because I'll do it for you. / Then I shall have to clean them tomorrow. / No, you won't have to do it then, either, because I'll clean them for you.", "rows": 6},
+          {"id": "l126-gii5", "number": 5, "prompt": "collect the books", "answer": "I must collect the books now because I'm on duty today. / No, you don't need to do it because I'll do it for you. / Then I shall have to collect them tomorrow. / No, you won't have to do it then, either, because I'll collect them for you.", "rows": 6},
+          {"id": "l126-gii6", "number": 6, "prompt": "water the flowers", "answer": "I must water the flowers now because I'm on duty today. / No, you don't need to do it because I'll do it for you. / Then I shall have to water them tomorrow. / No, you won't have to do it then, either, because I'll water them for you.", "rows": 6}
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {"label": "Textbook p.255 (Lesson 126 pictures)", "href": "../img/lesson-126-01-text.jpg"},
+    {"label": "Textbook p.256 (Lesson 126 new words & written exercises)", "href": "../img/lesson-126-02-text.jpg"},
+    {"label": "Workbook Lesson 126 (practice page 171)", "href": "../img/lesson-126-practice.jpg"},
+    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
+    {"label": "Grammar Workbook p.369-370 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=369"},
+    {"label": "Grammar Workbook p.561-563 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=561"}
+  ],
+  "characters": {},
+  "images": {
+    "l126-pictures": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Six numbered pictures in a 3x2 grid: 1 two people at a door in the rain; 2 a man and woman by an alarm clock; 3 a man in a taxi at a bus stop; 4 two men talking on the street; 5 two people by a garden before rain; 6 two people walking past a bus stop.",
+      "src": "assets/lesson-126/pictures-grid.jpg",
+      "width": 1677,
+      "height": 1800,
+      "source": "img/lesson-126-01-text.jpg (textbook p.255)"
+    }
+  }
+}
