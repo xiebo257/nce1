@@ -67,6 +67,8 @@
 | 061 | A bad cold | [2:36](061-1-lesson.wav) | [2:31](061-2-practice.wav) | [5:10](061-3-gramar.wav) | [脚本](scripts/061/README.md) |
 | 062 | What's the matter with them? What must they do? | [2:10](062-1-lesson.wav) | [2:42](062-2-practice.wav) | [4:27](062-3-gramar.wav) | [脚本](scripts/062/README.md) |
 | 063 | Thank you, doctor. | [2:20](063-1-lesson.wav) | [1:54](063-2-practice.wav) | [3:38](063-3-gramar.wav) | [脚本](scripts/063/README.md) |
+| 064 | Don't ...! You mustn't ...! | [3:44](064-1-lesson.wav) | [2:23](064-2-practice.wav) | [3:27](064-3-gramar.wav) | [脚本](scripts/064/README.md) |
+| 065 | Not a baby | [2:12](065-1-lesson.wav) | [2:02](065-2-practice.wav) | [4:08](065-3-gramar.wav) | [脚本](scripts/065/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
