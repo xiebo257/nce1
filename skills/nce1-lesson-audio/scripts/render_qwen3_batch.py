@@ -4,6 +4,8 @@ import argparse
 import hashlib
 import json
 import time
+import os
+import shutil
 from pathlib import Path
 import mlx.core as mx
 import numpy as np
@@ -59,7 +61,10 @@ def render(model, script, model_path, cache, output):
                 repaired_key=digest(repaired_identity)
                 sf.write(cache/(repaired_key+'.wav'),audio,sr,subtype='PCM_16')
                 write_json(cache/(repaired_key+'.json'),details)
-        sf.write(parts/f'{i:03}.wav',audio,sr,subtype='PCM_16')
+        segment_path=parts/f'{i:03}.wav'
+        segment_path.unlink(missing_ok=True)
+        try:os.link(wav,segment_path)
+        except OSError:shutil.copyfile(wav,segment_path)
         frames.extend([audio,np.zeros(round(s.get('pause_after',.8)*sr),dtype=np.float32)])
         times.append(dict(segment=i,role=s.get('role'),speaker=s['speaker'],source_item=s.get('source_item'),seconds=len(audio)/sr,cache_key=key,reused=reused,**{k:v for k,v in details.items() if k!='seconds'}))
         # Persist effective generation parameters so the script can be reproduced without cache.
