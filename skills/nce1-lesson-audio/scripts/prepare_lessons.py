@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Compile HTML answer fields into speech scripts; report unsupported content, never omit it."""
 import argparse,json,re
+from num2words import num2words
 from pathlib import Path
 from lxml import html
 import lesson_compiler_base as base
@@ -60,6 +61,10 @@ class Lesson(base.Lesson):
    CAST[label]=speaker
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
   text=text.replace('×','times').replace('÷','divided by').replace('=','equals')
+  clock=re.fullmatch(r'(\d{1,2}):(\d{2})\.?',text.strip())
+  if clock:
+   hour,minute=map(int,clock.groups());suffix=' p.m.' if hour>=12 else ''
+   text=num2words(hour%12 or 12)+(' '+num2words(minute) if minute>=10 else ' oh '+num2words(minute) if minute else " o'clock")+suffix+'.'
   if 'character' in meta:role=self.role(meta.pop('character'))
   text=re.sub(r'\.{2,}|…','',text).strip()
   if text.lower().strip('.')=='putting':text='Putting my keys in my bag. The verb form is putting.';meta['supplemental']=True
