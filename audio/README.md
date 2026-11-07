@@ -51,6 +51,8 @@
 | 045 | The boss’s letter | [1:28](045-1-lesson.wav) | [2:06](045-2-practice.wav) | [4:21](045-3-gramar.wav) | [脚本](scripts/045/README.md) |
 | 046 | Can you …? | [3:29](046-1-lesson.wav) | [1:55](046-2-practice.wav) | [3:02](046-3-gramar.wav) | [脚本](scripts/046/README.md) |
 | 047 | A cup of coffee | [1:05](047-1-lesson.wav) | [1:54](047-2-practice.wav) | [5:04](047-3-gramar.wav) | [脚本](scripts/047/README.md) |
+| 048 | Do you like ...? Do you want ...? | [4:16](048-1-lesson.wav) | [1:57](048-2-practice.wav) | [3:24](048-3-gramar.wav) | [脚本](scripts/048/README.md) |
+| 049 | At the butcher’s | [2:17](049-1-lesson.wav) | [2:20](049-2-practice.wav) | [5:51](049-3-gramar.wav) | [脚本](scripts/049/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
