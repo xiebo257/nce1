@@ -35,6 +35,8 @@
 | 029 | Come in, Amy. | [2:04](029-1-lesson.wav) | [1:43](029-2-practice.wav) | [3:28](029-3-gramar.wav) | [脚本](scripts/029/README.md) |
 | 030 | What must I do? | [6:30](030-1-lesson.wav) | [1:38](030-2-practice.wav) | [2:02](030-3-gramar.wav) | [脚本](scripts/030/README.md) |
 | 031 | Where’s Sally? | [1:55](031-1-lesson.wav) | [2:12](031-2-practice.wav) | [3:25](031-3-gramar.wav) | [脚本](scripts/031/README.md) |
+| 032 | What’s he/she/it doing? | [7:18](032-1-lesson.wav) | [1:33](032-2-practice.wav) | [3:44](032-3-gramar.wav) | [脚本](scripts/032/README.md) |
+| 033 | A fine day | [2:26](033-1-lesson.wav) | [2:11](033-2-practice.wav) | [2:06](033-3-gramar.wav) | [脚本](scripts/033/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
