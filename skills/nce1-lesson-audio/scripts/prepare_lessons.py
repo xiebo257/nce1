@@ -18,7 +18,7 @@ def normalize(s):
  return base.clean(s).replace('–','—')
 
 def answer(s):
- s=s.replace('’',"'")
+ s=s.replace('’',"'").replace('×','').replace('∅','')
  s=re.sub(r'\((?:Suggested|Personal|Source|Accept|Other|Answers?|参考|答案)[^)]*\)','',s,flags=re.I)
  s=re.sub(r'\([^)]*\)','',s)
  s=re.sub(r'^[a-z]\s*[—–]\s*','',s)
@@ -208,7 +208,7 @@ class Lesson(base.Lesson):
   if 'lesson-notes' in cls:
    self.section='notes'
    for i,e in enumerate(art.xpath('.//span[@class="small-label"]'),1):
-    t=re.sub(r'^\d+\s*[·.]\s*','',normalize(e.text_content()))
+    t=re.sub(r'^\d+\s*[·.]?\s*','',normalize(e.text_content()))
     if t and not re.search(r'[/\u4e00-\u9fff_]|\.{2,}|…',t):self.add(t,source=f'lesson-note-{i}',pause=1)
    return
   self.section=title;self.source=None;title,ins=self.intro(art)

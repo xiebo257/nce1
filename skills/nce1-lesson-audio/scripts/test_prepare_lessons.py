@@ -7,6 +7,8 @@ class CompilerRegression(unittest.TestCase):
  def test_digit_sequence_must_not_lose_a_zero(self):
   self.assertFalse(benign(dict(text="Write two, zero, zero, zero, zero, zero.",heard="Write 20000.")))
   self.assertTrue(benign(dict(text="Write two, zero, zero, zero, zero, zero.",heard="Write 200000.")))
+ def test_zero_article_is_silent(self):
+  self.assertEqual(fill('She goes to ___ work in ___ morning.',answer('×, the')),'She goes to  work in the morning.')
  def test_matching_answer_letter_is_not_spoken(self):
   self.assertEqual(answer('h. What are the girls doing?'),'What are the girls doing?')
  def test_multiword_answer_is_not_two_unrelated_blanks(self):
