@@ -65,6 +65,8 @@
 | 059 | Is that all? | [1:56](059-1-lesson.wav) | [1:59](059-2-practice.wav) | [5:11](059-3-gramar.wav) | [脚本](scripts/059/README.md) |
 | 060 | What's the time? | [10:33](060-1-lesson.wav) | [1:39](060-2-practice.wav) | [3:37](060-3-gramar.wav) | [脚本](scripts/060/README.md) |
 | 061 | A bad cold | [2:36](061-1-lesson.wav) | [2:31](061-2-practice.wav) | [5:10](061-3-gramar.wav) | [脚本](scripts/061/README.md) |
+| 062 | What's the matter with them? What must they do? | [2:10](062-1-lesson.wav) | [2:42](062-2-practice.wav) | [4:27](062-3-gramar.wav) | [脚本](scripts/062/README.md) |
+| 063 | Thank you, doctor. | [2:20](063-1-lesson.wav) | [1:54](063-2-practice.wav) | [3:38](063-3-gramar.wav) | [脚本](scripts/063/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
