@@ -6,7 +6,7 @@ from lxml import html
 import lesson_compiler_base as base
 from lesson_content import VOCAB,USAGE,CAST
 BASE=base.BASE
-FEMALE={'mrs. smith','mrs. jackson','mrs. jones','amy','jean','sally','jane','penny','pamela','susan','carol','charlotte','mrs. bird','mrs. williams','jill','mrs. johnson','ann','pauline','kate','lady','nurse','jenny','grandmother','sandra','helen','liz','linda','catherine','lucy','miss marsh','mrs. mills','mrs. frith','julie','christine'}
+FEMALE={'caroline','mrs. smith','mrs. jackson','mrs. jones','amy','jean','sally','jane','penny','pamela','susan','carol','charlotte','mrs. bird','mrs. williams','jill','mrs. johnson','ann','pauline','kate','lady','nurse','jenny','grandmother','sandra','helen','liz','linda','catherine','lucy','miss marsh','mrs. mills','mrs. frith','julie','christine'}
 CAST.update({'A':'Aiden','B':'Serena','C':'Ryan','1st Tramp':'Ryan','2nd Tramp':'Aiden','Actress':'Serena','Reporter':'Aiden','Mrs. Smith':'Serena','Mrs. Jackson':'Vivian','Mrs. Jones':'Serena','Amy':'Vivian','Mr. Smith':'Ryan','A friend':'Aiden'})
 OVERRIDES={}
 PASSAGES={}
@@ -44,7 +44,8 @@ class Lesson(base.Lesson):
   for e in self.root.xpath('//section[@id="lesson"]//div[@class="reading-prompt"]/p[not(@lang)]'):
    self.labels.update(re.findall(r'(?:^|\n)([A-Z][A-Z .\'-]+):',e.text_content()))
   self.labels.update(s['character'] for s in PASSAGES.get(str(n),[]) if 'character' in s)
-  self.labels.discard('');self.skip=set()
+  explicit={normalize(e.text_content()) for e in self.root.xpath('//p[@class="small-label"]') if e.getparent().xpath('./p[@class="spoken"]')}
+  self.labels={label for label in self.labels if label and (label in explicit or label in CAST or label.isupper() or all(w[0].isupper() or w in ['the','and','of'] for w in label.split()))};self.skip=set()
   used=set()
   for label in sorted(self.labels):
    old=next((v for k,v in CAST.items() if k.lower()==label.lower()),None)
@@ -65,6 +66,9 @@ class Lesson(base.Lesson):
   if not label or label.upper()=='NARRATOR' or re.fullmatch(r'\d+(?:st|nd|rd|th)',label):return 'narrator'
   if label not in CAST:CAST[label]=next((v for k,v in CAST.items() if k.lower()==label.lower()),'Serena' if label.lower() in FEMALE else 'Aiden')
   return super().role(label)
+ def is_dialogue(self,text):
+  labels='|'.join(re.escape(k) for k in sorted(set(CAST)|self.labels,key=len,reverse=True))
+  return bool(re.match(r'^(?:'+labels+r'):',text,re.I))
  def dialogue(self,text):
   labels='|'.join(re.escape(k) for k in sorted(set(CAST)|self.labels,key=len,reverse=True))
   matches=list(re.finditer(r'(?<!\w)('+labels+r'):\s*',text,flags=re.I))
@@ -75,7 +79,7 @@ class Lesson(base.Lesson):
  def turn(self,text,start='prompt',end='answer',pause=1.2):
   text=re.sub(r'(?:QUESTION|NEGATIVE|POSITIVE|AFFIRMATIVE):\s*','',text,flags=re.I)
   text=re.sub(r'(?:^|\n)(at|on|in):',r'\1.',text,flags=re.I)
-  if re.match(r'^[A-Za-z][A-Za-z .\'-]{0,25}:',text):return self.dialogue(text)
+  if self.is_dialogue(text):return self.dialogue(text)
   # A newline is often a sentence boundary within one answer, not a new actor.
   text=re.sub(r'\s+/\s+', ' — ',text).replace('\n',' ')
   text=re.sub(r'^(?:at|on|in):',lambda m:m[0][:-1]+'.',text,flags=re.I)
@@ -116,6 +120,9 @@ class Lesson(base.Lesson):
   if not '_' in q:k=k.replace('/',', ')
   if 'translation' in low or re.search(r'[\u4e00-\u9fff]',q):
    self.add(k,'answer',pause=2);return
+  if self.n==118 and item['id'].startswith('l118-gii'):
+   completed=q.replace('___',k.rstrip('.'))
+   self.add(completed,'answer',pause=1.5);return
   if '_' in q:
    if re.match(r"^[A-Z][A-Z ']+:",q) and len(re.findall(r'_{2,}',q))==1:
     self.add(q.split(':')[0].title()+'. '+k,'answer',pause=1.5);return
@@ -149,7 +156,7 @@ class Lesson(base.Lesson):
       self.skip.update(consumed[1:])
       self.pending_sources=consumed
    begin=len(self.s)
-   if re.match(r'^[A-Za-z][A-Za-z .\'-]{0,25}:',completed):self.dialogue(completed)
+   if self.is_dialogue(completed):self.dialogue(completed)
    else:self.turn(completed,'prompt' if '?' in completed else 'answer','answer',pause=1.3)
    for segment in self.s[begin:]:segment['source_items']=getattr(self,'pending_sources',[])
    self.pending_sources=[]
@@ -168,7 +175,6 @@ class Lesson(base.Lesson):
    if '...' in q:self.dialogue(q.replace('...',k));return
    self.dialogue(base.no_parens(q));return
   cue=normalize(base.no_parens(q)).replace('/' ,', ').replace('→',', then ').replace('…','').strip()
-  if re.match(r'^[A-Za-z][A-Za-z .\'-]{0,25}:',cue):cue=cue.split(':',1)[1].strip()
   cue=re.sub(r'\.{2,}', '',cue)
   if '/' in q and '?' in k:cue=''
   if cue and normalize(cue)!=normalize(k):self.add(cue,'prompt',pause=1.7)
