@@ -6,6 +6,7 @@ import json
 import time
 import os
 import shutil
+import fcntl
 from pathlib import Path
 import mlx.core as mx
 import numpy as np
@@ -89,6 +90,8 @@ def main():
         if not script.is_file():raise FileNotFoundError(script)
         resolve_segments(json.loads(script.read_text()),script)
     cache=a.audio_dir/'work'/'speech-cache';cache.mkdir(parents=True,exist_ok=True)
+    lock=(cache/'render.lock').open('w')
+    fcntl.flock(lock,fcntl.LOCK_EX)
     model=load_model(str(a.model.expanduser().resolve()))
     for script,output in scripts:render(model,script,a.model,cache,output)
 if __name__=='__main__':main()

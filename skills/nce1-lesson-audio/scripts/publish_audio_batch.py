@@ -26,7 +26,8 @@ def validate(n):
   stats.append(dict(file=str(path),seconds=info.duration,segments=len(data['segments']),source_items=len(expected),bytes=path.stat().st_size))
  words=json.loads((folder/'lesson.json').read_text()).get('vocabulary_words',[])
  sourcewords=[' '.join(e.xpath('./text()')).strip() for e in tree.xpath('//section[@id="lesson"]//dl[@class="vocabulary"]//dt')]
- assert words==sourcewords,(n,'vocabulary order mismatch')
+ recovered=json.loads((folder/'lesson.json').read_text()).get('recovered_vocabulary',{}).get('words',[])
+ assert words==sourcewords+[w for w in recovered if w not in sourcewords],(n,'vocabulary order mismatch')
  text=f'# 第 {n} 课录音\n\n依据 [lesson-{n:03}.html](../../../html/lesson-{n:03}.html) 中的课文、提示及答案字段生成，包含示例和完整答案。词汇按 HTML 顺序并入 lesson；日常例句和现代用法说明属于补充内容。个人信息题使用示范答案。\n\n'
  text+='| 文件 | 时长（秒） | 片段 | 答题条目 |\n| --- | ---: | ---: | ---: |\n'+'\n'.join(f'| [{x["file"].split("/")[-1]}](../../{x["file"].split("/")[-1]}) | {x["seconds"]:.1f} | {x["segments"]} | {x["source_items"]} |' for x in stats)+'\n\n'
  text+='词汇：'+(', '.join(words) if words else '本课没有独立的生词表。')+'\n\n'

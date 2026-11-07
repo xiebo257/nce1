@@ -11,7 +11,7 @@ model=str(next((Path.home()/'.cache/huggingface/hub/models--mlx-community--whisp
 def norm(t):
  t=t.lower().replace('’',"'").replace('grey','gray').replace('colour','color')
  t=re.sub(r'(?<=\d),(?=\d)','',t)
- t=t.replace('schoolbag','school bag').replace('alright','all right')
+ t=t.replace('schoolbag','school bag').replace('alright','all right').replace('aeroplane','airplane')
  t=re.sub(r'\d+',lambda m:num2words(int(m[0])),t)
  t=re.sub(r"\b(can't|cannot)\b",'can not',t)
  t=re.sub(r"\bwon't\b",'will not',t)

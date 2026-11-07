@@ -10,6 +10,8 @@ FEMALE={'mrs. smith','mrs. jackson','mrs. jones','amy','jean','sally','jane','pe
 CAST.update({'A':'Aiden','B':'Serena','C':'Ryan','1st Tramp':'Ryan','2nd Tramp':'Aiden','Actress':'Serena','Reporter':'Aiden','Mrs. Smith':'Serena','Mrs. Jackson':'Vivian','Mrs. Jones':'Serena','Amy':'Vivian','Mr. Smith':'Ryan','A friend':'Aiden'})
 OVERRIDES={}
 PASSAGES={}
+RECOVERED={}
+CAST.update({'Jill':'Vivian','Mrs. Johnson':'Vivian','Tom':'Aiden','Grandmother':'Sohee','Charlotte':'Vivian','Carol':'Vivian','Attendant':'Dylan'})
 DATA=Path(__file__).resolve().parent.parent/'assets'
 
 def normalize(s):
@@ -47,7 +49,10 @@ class Lesson(base.Lesson):
   for label in sorted(self.labels):
    old=next((v for k,v in CAST.items() if k.lower()==label.lower()),None)
    pool=['Serena','Vivian','Sohee','Ono_Anna'] if label.lower() in FEMALE or label.lower().startswith(('mrs.','miss ')) else ['Ryan','Aiden','Uncle_Fu','Dylan','Eric']
-   speaker=old or next((x for x in pool if x not in used),pool[0]);used.add(speaker)
+   speaker=old or next((x for x in pool if x not in used),pool[0])
+   if n==141 and label.lower()=='lady':speaker='Ono_Anna'
+   if n==113:speaker={'conductor':'Ryan','man':'Aiden','1st passenger':'Uncle_Fu','2nd passenger':'Dylan','3rd passenger':'Serena','4th passenger':'Vivian','1st tramp':'Eric','2nd tramp':'Uncle_Fu','two tramps':'Eric'}.get(label.lower(),speaker)
+   used.add(speaker)
    CAST[label]=speaker
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
   if 'character' in meta:role=self.role(meta.pop('character'))
@@ -57,7 +62,7 @@ class Lesson(base.Lesson):
    self.dialogue(text);return
   super().add(text,role,pause,source,section,extra,**meta)
  def role(self,label):
-  if not label or label.upper()=='NARRATOR':return 'narrator'
+  if not label or label.upper()=='NARRATOR' or re.fullmatch(r'\d+(?:st|nd|rd|th)',label):return 'narrator'
   if label not in CAST:CAST[label]=next((v for k,v in CAST.items() if k.lower()==label.lower()),'Serena' if label.lower() in FEMALE else 'Aiden')
   return super().role(label)
  def dialogue(self,text):
@@ -168,6 +173,14 @@ class Lesson(base.Lesson):
   if '/' in q and '?' in k:cue=''
   if cue and normalize(cue)!=normalize(k):self.add(cue,'prompt',pause=1.7)
   self.turn(k,'prompt' if '?' in k else 'answer','answer',pause=1.2)
+ def recovered_vocabulary(self):
+  record=RECOVERED.get(str(self.n),{})
+  words=[w for w in record.get('words',[]) if w not in self.vocab]
+  if not words:return
+  self.add('More words from the textbook. Listen and repeat.',source='recovered-vocabulary-introduction',section='vocabulary')
+  for word in words:
+   self.vocab.append(word)
+   self.add(word+'. '+VOCAB[word],source='vocabulary-'+word,section='vocabulary',pause=1.5,supplemental=True,vocabulary_word=word,recovered_from=record['source'])
  def article(self,art):
   cls=art.get('class','');title=normalize(' '.join(art.xpath('.//h3//text()')))
   if 'vocabulary-block' in cls:
@@ -175,9 +188,10 @@ class Lesson(base.Lesson):
    for dt in art.xpath('.//dl[@class="vocabulary"]//dt'):
     word=normalize(' '.join(dt.xpath('./text()')));self.vocab.append(word);self.source='vocabulary-'+word
     if word not in VOCAB:raise ValueError(('missing vocabulary example',word))
-    spoken={'Mr.':'Mister','Mrs.':'Missus','tooth (plural: teeth)':'Tooth. The plural is teeth'}.get(word,word)
+    spoken={'in':'The word in','Mr.':'Mister','Mrs.':'Missus','tooth (plural: teeth)':'Tooth. The plural is teeth'}.get(word,word)
     self.add(spoken+'. '+VOCAB[word],'narrator',pause=1.5,supplemental=True,vocabulary_word=word)
     for note in USAGE.get(word,[]):self.add(note,pause=1.1,supplemental=True,vocabulary_word=word)
+   self.recovered_vocabulary()
    return
   if 'lesson-notes' in cls:
    self.section='notes'
@@ -221,10 +235,11 @@ class Lesson(base.Lesson):
    for art in sec.xpath('.//article'):
     if dialogue and reading and reading[0] in art.iterdescendants():continue
     self.article(art)
+   if part=='lesson':self.recovered_vocabulary()
    expected={e.get('id') for e in sec.xpath('.//*[@data-key]')};covered={s['source_item'] for s in self.s}|{i for s in self.s for i in s.get('source_items',[])}
    if expected-covered:raise ValueError(('uncovered items',expected-covered))
    data=dict(seed=42,roles_file='roles.json',source=f'html/lesson-{self.n:03}.html',source_items=len(expected),notes='Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.',segments=self.s)
-   if part=='lesson':data['vocabulary_words']=self.vocab
+   if part=='lesson':data['vocabulary_words']=self.vocab;data['recovered_vocabulary']=RECOVERED.get(str(self.n),{})
    path=folder/f'{part}.json'
    if path.exists():
     repairs={(s['source_item'],s['role'],s['text']):s for s in json.loads(path.read_text())['segments']}
@@ -237,7 +252,7 @@ class Lesson(base.Lesson):
 
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);a=p.parse_args()
- for name,target in [('vocabulary-examples.json',VOCAB),('vocabulary-usage.json',USAGE),('speech-overrides.json',OVERRIDES),('passage-overrides.json',PASSAGES)]:
+ for name,target in [('vocabulary-examples.json',VOCAB),('vocabulary-usage.json',USAGE),('speech-overrides.json',OVERRIDES),('passage-overrides.json',PASSAGES),('recovered-vocabulary.json',RECOVERED)]:
   path=DATA/name
   if path.exists():target.update(json.loads(path.read_text()))
  failures=[]
