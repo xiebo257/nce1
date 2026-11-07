@@ -53,6 +53,8 @@
 | 047 | A cup of coffee | [1:05](047-1-lesson.wav) | [1:54](047-2-practice.wav) | [5:04](047-3-gramar.wav) | [脚本](scripts/047/README.md) |
 | 048 | Do you like ...? Do you want ...? | [4:16](048-1-lesson.wav) | [1:57](048-2-practice.wav) | [3:24](048-3-gramar.wav) | [脚本](scripts/048/README.md) |
 | 049 | At the butcher’s | [2:17](049-1-lesson.wav) | [2:20](049-2-practice.wav) | [5:51](049-3-gramar.wav) | [脚本](scripts/049/README.md) |
+| 050 | He likes ... But he doesn’t like ... | [3:43](050-1-lesson.wav) | [2:09](050-2-practice.wav) | [3:41](050-3-gramar.wav) | [脚本](scripts/050/README.md) |
+| 051 | A pleasant climate | [3:49](051-1-lesson.wav) | [2:40](051-2-practice.wav) | [4:25](051-3-gramar.wav) | [脚本](scripts/051/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
