@@ -61,6 +61,7 @@ class Lesson(base.Lesson):
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
   if 'character' in meta:role=self.role(meta.pop('character'))
   text=re.sub(r'\.{2,}|…','',text).strip()
+  if text.lower().strip('.')=='putting':text='Putting my keys in my bag. The verb form is putting.';meta['supplemental']=True
   labels='|'.join(re.escape(k) for k in sorted(set(CAST)|self.labels,key=len,reverse=True))
   if re.match(r'^(?:'+labels+r'):\s*',text,re.I):
    self.dialogue(text);return

@@ -9,7 +9,7 @@ p=argparse.ArgumentParser();p.add_argument('--start',type=int,required=True);p.a
 root=Path('audio/work/batch-025-144');cache=root/'asr-cache';cache.mkdir(exist_ok=True)
 model=str(next((Path.home()/'.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots').iterdir()))
 def norm(t):
- t=t.lower().replace('’',"'").replace('grey','gray').replace('colour','color').replace('hullo','hello')
+ t=t.lower().replace('’',"'").replace('grey','gray').replace('colour','color').replace('favourite','favorite').replace('neighbour','neighbor').replace('travelling','traveling').replace('travelled','traveled').replace('centre','center').replace('theatre','theater').replace('hullo','hello')
  t=re.sub(r'\banne\b','ann',t)
  t=re.sub(r'\bstephen\b','steven',t)
  t=re.sub(r'\bmr\.?(?=\s)', 'mister',t)

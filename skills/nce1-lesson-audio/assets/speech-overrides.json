@@ -381,9 +381,24 @@
       "pause": 1.5
     },
     {
-      "text": "Putting. I'm putting my keys in my bag.",
+      "text": "Putting my keys in my bag. The verb form is putting.",
       "role": "answer",
       "pause": 1.3,
+      "supplemental": true
+    }
+  ],
+  "089/grammar-i-9": [
+    {
+      "text": "The verb is read.",
+      "role": "prompt",
+      "pause": 1.5,
+      "extra": "Read is present tense here, pronounced reed."
+    },
+    {
+      "text": "The past tense is read. I read the book yesterday. The past participle is also read. I have read it twice.",
+      "role": "answer",
+      "pause": 1.3,
+      "extra": "Every occurrence of read in this turn is pronounced red.",
       "supplemental": true
     }
   ]
