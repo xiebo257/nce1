@@ -63,6 +63,8 @@
 | 057 | An unusual day | [1:46](057-1-lesson.wav) | [1:54](057-2-practice.wav) | [5:53](057-3-gramar.wav) | [脚本](scripts/057/README.md) |
 | 058 | What's the time? | [4:29](058-1-lesson.wav) | [1:43](058-2-practice.wav) | [5:24](058-3-gramar.wav) | [脚本](scripts/058/README.md) |
 | 059 | Is that all? | [1:56](059-1-lesson.wav) | [1:59](059-2-practice.wav) | [5:11](059-3-gramar.wav) | [脚本](scripts/059/README.md) |
+| 060 | What's the time? | [10:33](060-1-lesson.wav) | [1:39](060-2-practice.wav) | [3:37](060-3-gramar.wav) | [脚本](scripts/060/README.md) |
+| 061 | A bad cold | [2:36](061-1-lesson.wav) | [2:31](061-2-practice.wav) | [5:10](061-3-gramar.wav) | [脚本](scripts/061/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 

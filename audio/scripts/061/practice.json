@@ -1,0 +1,483 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-061.html",
+  "source_items": 25,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 61. Practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "practice",
+      "generation_seed": 173001130,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the completed conversation. Then practice the parts.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "A Dialogue",
+      "generation_seed": 290732773,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "mrs_williams",
+      "text": "Jimmy's in bed.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "practice-a-1",
+      "section": "A Dialogue",
+      "source_items": [],
+      "generation_seed": 1912939391,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "mr_williams",
+      "text": "What's the matter with him?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 0.65,
+      "source_item": "practice-a-2",
+      "section": "A Dialogue",
+      "source_items": [],
+      "generation_seed": 1788482856,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "mrs_williams",
+      "text": "He feels ill.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "practice-a-3",
+      "section": "A Dialogue",
+      "source_items": [],
+      "generation_seed": 322278769,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "mr_williams",
+      "text": "And he looks ill. Open your mouth, Jimmy, and show me your tongue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "practice-a-4",
+      "section": "A Dialogue",
+      "source_items": [],
+      "generation_seed": 37873522,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "mrs_williams",
+      "text": "We must call the doctor.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "practice-a-5",
+      "section": "A Dialogue",
+      "source_items": [],
+      "generation_seed": 1613282056,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "mrs_williams",
+      "text": "Yes, we must.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "practice-a-6",
+      "section": "A Dialogue",
+      "source_items": [],
+      "generation_seed": 366698472,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "B Vocabulary",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a bad cold.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-1",
+      "section": "B Vocabulary",
+      "generation_seed": 590230704,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have a bad cold.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-1",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1235835080,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "an aspirin.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-2",
+      "section": "B Vocabulary",
+      "generation_seed": 1540005232,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "take an aspirin.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-2",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1840121530,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a doctor.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-3",
+      "section": "B Vocabulary",
+      "generation_seed": 1620758272,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "see a doctor.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-3",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1134196842,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a headache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-4",
+      "section": "B Vocabulary",
+      "generation_seed": 531513698,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have a headache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-4",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 902478483,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "an earache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-5",
+      "section": "B Vocabulary",
+      "generation_seed": 25210581,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have an earache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-5",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 22586597,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a dentist.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-6",
+      "section": "B Vocabulary",
+      "generation_seed": 1235369577,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "see a dentist.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-6",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 992943626,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a toothache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-7",
+      "section": "B Vocabulary",
+      "generation_seed": 1347237769,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have a toothache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-7",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1082843880,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a stomach ache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-8",
+      "section": "B Vocabulary",
+      "generation_seed": 165008196,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have a stomach ache.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-8",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 502739935,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "in bed.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-9",
+      "section": "B Vocabulary",
+      "generation_seed": 532176506,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "stay in bed.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-9",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 850539936,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "a temperature.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-10",
+      "section": "B Vocabulary",
+      "generation_seed": 468996207,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have a temperature.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-10",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1856274860,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "flu.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-11",
+      "section": "B Vocabulary",
+      "generation_seed": 674979497,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have flu.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-11",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1510852263,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "at home.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-12",
+      "section": "B Vocabulary",
+      "generation_seed": 1149702002,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "stay at home.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-12",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 174714115,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "measles.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-13",
+      "section": "B Vocabulary",
+      "generation_seed": 499307292,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have measles.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-13",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 608321565,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "some medicine.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-14",
+      "section": "B Vocabulary",
+      "generation_seed": 212888291,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "take some medicine.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-14",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1429077556,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "mumps.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-b-15",
+      "section": "B Vocabulary",
+      "generation_seed": 1328885846,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "have mumps.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-15",
+      "section": "B Vocabulary",
+      "source_correction": "Resolved the verb sorting task from img/lesson-061-practice.jpg; HTML incorrectly prefixes every cue with have.",
+      "generation_seed": 1812351265,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "C Sentences",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I have a bad cold today.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-c-1",
+      "section": "C Sentences",
+      "source_correction": "Removed duplicate article introduced by the HTML blank and answer key; follows printed example.",
+      "generation_seed": 273939962,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I must stay at home and take some medicine.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-c-2",
+      "section": "C Sentences",
+      "source_items": [],
+      "generation_seed": 1252281895,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "And I must see a doctor.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-c-3",
+      "section": "C Sentences",
+      "source_items": [],
+      "generation_seed": 1758053446,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with you today? What must you do? Who must you see?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "practice-c-4",
+      "section": "C Sentences",
+      "generation_seed": 2083763791,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I have a bad toothache today. I must take an aspirin. And I must see a dentist.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-4",
+      "section": "C Sentences",
+      "generation_seed": 1954555783,
+      "generation_temperature": 0.65
+    }
+  ]
+}
