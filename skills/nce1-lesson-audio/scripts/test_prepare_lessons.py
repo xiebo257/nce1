@@ -3,7 +3,13 @@ import json,unittest
 from pathlib import Path
 from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
 from run_audio_queue import benign
+from asr_text import align_digit_sequences
 class CompilerRegression(unittest.TestCase):
+ def test_phone_asr_spelling_preserves_every_digit(self):
+  expected='The number is five five five, zero one zero one.'
+  self.assertEqual(align_digit_sequences(expected,'The number is 555-0101.'),expected)
+  self.assertEqual(align_digit_sequences(expected,'The number is 555101.'),'The number is 555101.')
+  self.assertEqual(align_digit_sequences(expected,'The number is 15550101.'),'The number is 15550101.')
  def test_leading_zero_phone_number_keeps_every_digit(self):
   lesson=Lesson(61);lesson.add("Yes. It's 09754.")
   self.assertEqual(lesson.s[-1]['text'],"Yes. It's zero, nine, seven, five, four.")
