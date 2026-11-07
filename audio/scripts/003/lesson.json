@@ -1,0 +1,398 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-003.html",
+  "notes": "Source exercises checked against original scans and answer keys. Vocabulary examples and usage notes are supplemental.",
+  "vocabulary_words": [
+    "umbrella",
+    "please",
+    "here",
+    "my",
+    "ticket",
+    "number",
+    "five",
+    "sorry",
+    "sir",
+    "cloakroom"
+  ],
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson three. Sorry, sir.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7
+    },
+    {
+      "role": "narrator",
+      "text": "A man is picking up his coat and umbrella. Listen to the conversation.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7
+    },
+    {
+      "role": "narrator",
+      "text": "Does the man get his umbrella back?",
+      "instructions": "Ask a genuine yes-or-no question with a gentle rise. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-question"
+    },
+    {
+      "role": "customer",
+      "text": "My coat and my umbrella, please.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.45,
+      "source_item": "lesson-dialogue-1",
+      "section": "dialogue"
+    },
+    {
+      "role": "customer",
+      "text": "Here is my ticket.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-2",
+      "section": "dialogue"
+    },
+    {
+      "role": "attendant",
+      "text": "Thank you, sir.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.45,
+      "source_item": "lesson-dialogue-3",
+      "section": "dialogue"
+    },
+    {
+      "role": "attendant",
+      "text": "Number five.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-4",
+      "section": "dialogue"
+    },
+    {
+      "role": "attendant",
+      "text": "Here's your umbrella and your coat.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-5",
+      "section": "dialogue"
+    },
+    {
+      "role": "customer",
+      "text": "This is not my umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. Gently stress not when correcting the mistake.",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-6",
+      "section": "dialogue"
+    },
+    {
+      "role": "attendant",
+      "text": "Sorry, sir.",
+      "instructions": "End completed statements with a natural falling cadence. Sound mildly apologetic.",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-7",
+      "section": "dialogue"
+    },
+    {
+      "role": "attendant",
+      "text": "Is this your umbrella?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-8",
+      "section": "dialogue"
+    },
+    {
+      "role": "customer",
+      "text": "No, it isn't.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-9",
+      "section": "dialogue"
+    },
+    {
+      "role": "attendant",
+      "text": "Is this it?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-10",
+      "section": "dialogue"
+    },
+    {
+      "role": "customer",
+      "text": "Yes, it is.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.45,
+      "source_item": "lesson-dialogue-11",
+      "section": "dialogue"
+    },
+    {
+      "role": "customer",
+      "text": "Thank you very much.",
+      "instructions": "End completed statements with a natural falling cadence. Sound warmly thankful.",
+      "pause_after": 0.7,
+      "source_item": "lesson-dialogue-12",
+      "section": "dialogue"
+    },
+    {
+      "role": "narrator",
+      "text": "Yes, he does. He gets his umbrella back.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.1,
+      "source_item": "lesson-question"
+    },
+    {
+      "role": "narrator",
+      "text": "A few useful expressions.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7,
+      "section": "notes"
+    },
+    {
+      "role": "vocabulary_reader",
+      "text": "Here's your coat. We can also say, here is your coat.",
+      "instructions": "Give two clear examples at a relaxed conversational pace. Use the contraction in the first sentence. Say here is in full in the second sentence.",
+      "pause_after": 1,
+      "source_item": "lesson-note-1",
+      "section": "notes",
+      "generation_seed": 718,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Sorry is a short way to say I'm sorry.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1,
+      "source_item": "lesson-note-2",
+      "section": "notes"
+    },
+    {
+      "role": "narrator",
+      "text": "We use sir to address a man politely, especially in a service setting.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1,
+      "source_item": "lesson-note-3",
+      "section": "notes",
+      "generation_seed": 320,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Is this it? Here, it means your umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1,
+      "source_item": "lesson-note-4",
+      "section": "notes"
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1,
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "umbrella",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-umbrella",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "Don't forget your umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-umbrella",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "please",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-please",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "Could you close the door, please?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-please",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "here",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-here",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "Your keys are right here.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-here",
+      "section": "vocabulary"
+    },
+    {
+      "role": "vocabulary_reader",
+      "text": "My. My phone.",
+      "instructions": "Clearly pronounce the possessive word my, pause briefly, then give the phrase my phone. Use a relaxed falling cadence.",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-my",
+      "section": "vocabulary",
+      "generation_seed": 729,
+      "generation_temperature": 0.6,
+      "supplemental": true
+    },
+    {
+      "role": "sue",
+      "text": "I can't find my phone.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-my",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "ticket",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-ticket",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "I have the ticket on my phone.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-ticket",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "number",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-number",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "What's your phone number?",
+      "instructions": "Ask a neutral wh-question with a gentle falling finish. Keep all words clear and naturally connected.",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-number",
+      "section": "vocabulary",
+      "generation_seed": 334,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "five",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-five",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "I'll be there in five minutes.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-five",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "sorry",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-sorry",
+      "section": "vocabulary",
+      "generation_seed": 137,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "sue",
+      "text": "Sorry, I'm a little late.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-sorry",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "sir",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-sir",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "Excuse me, sir. You dropped your wallet.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-sir",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "Sir is still used, but it can sound formal. In many casual situations, excuse me is enough.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1,
+      "supplemental": true,
+      "source_item": "vocabulary-sir",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "cloakroom",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.65,
+      "source_item": "vocabulary-cloakroom",
+      "section": "vocabulary"
+    },
+    {
+      "role": "sue",
+      "text": "You can leave your coat in the cloakroom.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-cloakroom",
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "In American English, coat check is common for a place where someone looks after your coat.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7,
+      "supplemental": true,
+      "source_item": "vocabulary-cloakroom",
+      "section": "vocabulary"
+    },
+    {
+      "role": "vocabulary_reader",
+      "text": "You can leave your jacket at the coat check.",
+      "instructions": "Speak in clear conversational American English at a normal pace with a gentle falling finish.",
+      "pause_after": 1.3,
+      "supplemental": true,
+      "source_item": "vocabulary-cloakroom",
+      "section": "vocabulary",
+      "generation_seed": 845,
+      "generation_temperature": 0.6
+    }
+  ]
+}

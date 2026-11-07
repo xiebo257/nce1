@@ -1,0 +1,826 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-003.html",
+  "notes": "Source exercises checked against original scans and answer keys. Vocabulary examples and usage notes are supplemental.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson three. Grammar practice.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 0.7
+    },
+    {
+      "role": "narrator",
+      "text": "First, use the short form. Listen to each sentence, then say it with a contraction.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2
+    },
+    {
+      "role": "teacher",
+      "text": "It is a school.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-1",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "It's a school.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-1",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "It is my book.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-2",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "It's my book.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-2",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "Here is my watch.",
+      "instructions": "This is a grammar demonstration of the full form. Clearly pronounce here and is as two words, with light emphasis on is. Do not contract here is into here's. End with a natural falling cadence.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-3",
+      "section": "i",
+      "generation_seed": 607,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "learner",
+      "text": "Here's my watch.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-3",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "It is not my pen.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-4",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't my pen.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-4",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "Here is your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-5",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "Here's your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-5",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "This is not my suit.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-6",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't my suit.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-6",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "It is your umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-7",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "It's your umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-7",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "This is not my teacher.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-8",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't my teacher.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-8",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "It is my house.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-9",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "It's my house.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-9",
+      "section": "i"
+    },
+    {
+      "role": "teacher",
+      "text": "It is not my shirt.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-i-10",
+      "section": "i"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't my shirt.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-10",
+      "section": "i"
+    },
+    {
+      "role": "narrator",
+      "text": "Now make each sentence negative. Say the full form first, then the short form.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2
+    },
+    {
+      "role": "teacher",
+      "text": "This is my teacher.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-1",
+      "section": "ii",
+      "generation_seed": 424,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "learner",
+      "text": "This is not my teacher.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-1",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't my teacher.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "This is my umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-2",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This is not my umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-2",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't my umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "It is your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-3",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It is not your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-3",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "This is your suit.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-4",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This is not your suit.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-4",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't your suit.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "It is my handbag.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-5",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It is not my handbag.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-5",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't my handbag.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "It is your car.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-6",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It is not your car.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-6",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't your car.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "This is my son.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-7",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This is not my son.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-7",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't my son.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "This is my daughter.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-8",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This is not my daughter.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-8",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "This isn't my daughter.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "It is my school.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-9",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It is not my school.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-9",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't my school.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-9",
+      "section": "ii"
+    },
+    {
+      "role": "teacher",
+      "text": "It is your dress.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 1.8,
+      "source_item": "grammar-ii-10",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It is not your dress.",
+      "instructions": "End completed statements with a natural falling cadence. Clearly say the full form as written; do not contract words.",
+      "pause_after": 0.7,
+      "source_item": "grammar-ii-10",
+      "section": "ii"
+    },
+    {
+      "role": "learner",
+      "text": "It isn't your dress.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-10",
+      "section": "ii"
+    },
+    {
+      "role": "narrator",
+      "text": "Next, answer yes, it is. Then say who it belongs to, as in the examples.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your handbag?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-1",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's my handbag.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-1",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my ticket?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-2",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-2",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my shirt?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-3",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's your shirt.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-3",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your house?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-4",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's my house.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-4",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your suit?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-5",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's my suit.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-5",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my watch?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-6",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's your watch.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-6",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your pen?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-7",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's my pen.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-7",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my dress?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-8",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's your dress.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-8",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your class?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-9",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's my class.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-9",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my chair?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-10",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's your chair.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-10",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your pencil?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-11",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's my pencil.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-11",
+      "section": "iii"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my book?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iii-12",
+      "section": "iii"
+    },
+    {
+      "role": "learner",
+      "text": "Yes, it is. It's your book.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-12",
+      "section": "iii"
+    },
+    {
+      "role": "narrator",
+      "text": "Finally, answer no, it isn't. Then explain who it belongs to.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your umbrella?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-1",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't my umbrella. It's your umbrella.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-1",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my skirt?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-2",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't your skirt. It's my skirt.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-2",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your ticket?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-3",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't my ticket. It's your ticket.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-3",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my suit?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-4",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't your suit. It's my suit.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-4",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my pencil?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-5",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't your pencil. It's my pencil.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-5",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my book?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-6",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't your book. It's my book.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-6",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your handbag?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-7",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't my handbag. It's your handbag.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-7",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your coat?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-8",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't my coat. It's your coat.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-8",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your watch?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-9",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't my watch. It's your watch.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-9",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my pen?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-10",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't your pen. It's my pen.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-10",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this my dress?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-11",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't your dress. It's my dress.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-11",
+      "section": "iv"
+    },
+    {
+      "role": "teacher",
+      "text": "Is this your house?",
+      "instructions": "Use a gentle, natural questioning rise. ",
+      "pause_after": 1.8,
+      "source_item": "grammar-iv-12",
+      "section": "iv"
+    },
+    {
+      "role": "learner",
+      "text": "No, it isn't. It isn't my house. It's your house.",
+      "instructions": "End completed statements with a natural falling cadence. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iv-12",
+      "section": "iv"
+    }
+  ]
+}
