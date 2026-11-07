@@ -29,7 +29,8 @@
 | 023 | Which glasses? | [1:08](023-1-lesson.wav) | [1:46](023-2-practice.wav) | [4:44](023-3-gramar.wav) | [脚本](scripts/023/README.md) |
 | 024 | Give me/him/her/us/them some … Which ones? | [6:48](024-1-lesson.wav) | [1:34](024-2-practice.wav) | [2:42](024-3-gramar.wav) | [脚本](scripts/024/README.md) |
 | 025 | Mrs. Smith’s kitchen | [2:10](025-1-lesson.wav) | [2:27](025-2-practice.wav) | [5:17](025-3-gramar.wav) | [脚本](scripts/025/README.md) |
-| 026 | Where is it? | [3:41](026-1-lesson.wav) | [1:47](026-2-practice.wav) | [3:10](026-3-gramar.wav) | [脚本](scripts/026/README.md) |
+| 026 | Where is it? | [3:40](026-1-lesson.wav) | [1:47](026-2-practice.wav) | [3:07](026-3-gramar.wav) | [脚本](scripts/026/README.md) |
+| 027 | Mrs. Smith’s living room | [1:45](027-1-lesson.wav) | [1:47](027-2-practice.wav) | [5:32](027-3-gramar.wav) | [脚本](scripts/027/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
