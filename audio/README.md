@@ -55,6 +55,8 @@
 | 049 | At the butcher’s | [2:17](049-1-lesson.wav) | [2:20](049-2-practice.wav) | [5:51](049-3-gramar.wav) | [脚本](scripts/049/README.md) |
 | 050 | He likes ... But he doesn’t like ... | [3:43](050-1-lesson.wav) | [2:09](050-2-practice.wav) | [3:41](050-3-gramar.wav) | [脚本](scripts/050/README.md) |
 | 051 | A pleasant climate | [3:49](051-1-lesson.wav) | [2:40](051-2-practice.wav) | [4:25](051-3-gramar.wav) | [脚本](scripts/051/README.md) |
+| 052 | What nationality are they? Where do they come from? | [5:22](052-1-lesson.wav) | [2:39](052-2-practice.wav) | [3:28](052-3-gramar.wav) | [脚本](scripts/052/README.md) |
+| 053 | An interesting climate | [2:52](053-1-lesson.wav) | [2:28](053-2-practice.wav) | [4:38](053-3-gramar.wav) | [脚本](scripts/053/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
