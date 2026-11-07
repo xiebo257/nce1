@@ -1,0 +1,481 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-002.html",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson two. Picture practice.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 0.7,
+      "generation_seed": 1143,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Look at each picture. Listen to the object, then make a question. After the pause, listen to the complete question.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 0.7,
+      "generation_seed": 44
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 1. pen.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-1",
+      "generation_seed": 45
+    },
+    {
+      "role": "man_one",
+      "text": "Is this your pen?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-1",
+      "generation_seed": 46
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 2. pencil.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-2",
+      "generation_seed": 47
+    },
+    {
+      "role": "man_two",
+      "text": "Is this your pencil?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-2",
+      "generation_seed": 48
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 3. book.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-3",
+      "generation_seed": 49
+    },
+    {
+      "role": "woman_one",
+      "text": "Is this your book?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-3",
+      "generation_seed": 50
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 4. watch.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-4",
+      "generation_seed": 51
+    },
+    {
+      "role": "woman_two",
+      "text": "Is this your watch?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-4",
+      "generation_seed": 52
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 5. coat.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-5",
+      "generation_seed": 53
+    },
+    {
+      "role": "man_one",
+      "text": "Is this your coat?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-5",
+      "generation_seed": 54
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 6. dress.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-6",
+      "generation_seed": 55
+    },
+    {
+      "role": "woman_one",
+      "text": "Is this your dress?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-6",
+      "generation_seed": 56
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 7. skirt.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-7",
+      "generation_seed": 57
+    },
+    {
+      "role": "woman_two",
+      "text": "Is this your skirt?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-7",
+      "generation_seed": 58
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 8. shirt.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-8",
+      "generation_seed": 59
+    },
+    {
+      "role": "man_two",
+      "text": "Is this your shirt?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-8",
+      "generation_seed": 60
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 9. car.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-9",
+      "generation_seed": 61
+    },
+    {
+      "role": "man_one",
+      "text": "Is this your car?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-9",
+      "generation_seed": 62
+    },
+    {
+      "role": "narrator",
+      "text": "Picture 10. house.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-10",
+      "generation_seed": 63
+    },
+    {
+      "role": "man_two",
+      "text": "Is this your house?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 0.9,
+      "source_item": "lesson-picture-10",
+      "generation_seed": 64
+    },
+    {
+      "text": "New words and expressions.",
+      "role": "narrator",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Introduce the next section clearly.",
+      "pause_after": 0.7,
+      "generation_seed": 8223,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each word or expression, then hear it in a short sentence. Repeat after the pause.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 0.7,
+      "generation_seed": 44,
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "pen.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-1",
+      "generation_seed": 45,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "Can I borrow your pen?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-1",
+      "generation_seed": 8226,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "pencil.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-2",
+      "generation_seed": 47,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "Do you have a pencil?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-2",
+      "generation_seed": 8228,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "book.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-3",
+      "generation_seed": 49,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "I'm reading a really good book.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-3",
+      "generation_seed": 8230,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Watch.",
+      "instructions": "Speak in clear American English. Say only the supplied word once, at an ordinary pace, with clear consonants. Do not add any other sounds or words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-4",
+      "generation_seed": 6009,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "I left my watch at home.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-4",
+      "generation_seed": 8232,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "coat.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-5",
+      "generation_seed": 1053,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "Grab your coat. It's cold outside.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-5",
+      "generation_seed": 8234,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "dress.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-6",
+      "generation_seed": 1055,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "I love your dress.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-6",
+      "generation_seed": 8236,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "skirt.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-7",
+      "generation_seed": 57,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "This skirt fits really well.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-7",
+      "generation_seed": 8238,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "A shirt.",
+      "instructions": "Speak in clear American English. Say the clothing vocabulary phrase with a clearly articulated final t in shirt.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-8",
+      "generation_seed": 34039,
+      "generation_temperature": 0.5,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "I need a clean shirt.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-8",
+      "generation_seed": 8240,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Car.",
+      "instructions": "Speak in clear American English. Say only the supplied word once, at an ordinary pace, with clear consonants. Do not add any other sounds or words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-9",
+      "generation_seed": 6019,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "Where did you park your car?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-9",
+      "generation_seed": 8242,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "house.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-10",
+      "generation_seed": 63,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman_one",
+      "text": "Come over to my house after work.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-10",
+      "generation_seed": 8244,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Written exercise. Listen to each sentence, then copy it. Pause the recording if you need more time.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 0.7,
+      "generation_seed": 65
+    },
+    {
+      "role": "man_one",
+      "text": "Excuse me!",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-1",
+      "generation_seed": 66
+    },
+    {
+      "role": "woman_one",
+      "text": "Yes?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-2",
+      "generation_seed": 67
+    },
+    {
+      "role": "man_one",
+      "text": "Is this your handbag?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-3",
+      "generation_seed": 68
+    },
+    {
+      "role": "woman_one",
+      "text": "Pardon?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-4",
+      "generation_seed": 69
+    },
+    {
+      "role": "man_one",
+      "text": "Is this your handbag?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask politely with a gentle rising ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-5",
+      "generation_seed": 70
+    },
+    {
+      "role": "woman_one",
+      "text": "Yes, it is.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-6",
+      "generation_seed": 71
+    },
+    {
+      "role": "woman_one",
+      "text": "Thank you very much.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 1.0,
+      "source_item": "lesson-copy-7",
+      "generation_seed": 72
+    }
+  ],
+  "notes": [
+    "Pictures visually checked against img/lesson-002-01-text.jpg. Completed picture questions follow HTML suggested keys; no ownership answers inferred from drawings.",
+    "Written exercise follows img/lesson-002-02-text.jpg."
+  ],
+  "vocabulary_words": [
+    "pen",
+    "pencil",
+    "book",
+    "watch",
+    "coat",
+    "dress",
+    "skirt",
+    "shirt",
+    "car",
+    "house"
+  ],
+  "section_order": [
+    "picture_prompts",
+    "vocabulary",
+    "written_exercise"
+  ],
+  "vocabulary_notes": [
+    "Original vocabulary retained in HTML order. Examples use contemporary everyday contexts. Supplemental alternatives are labeled in metadata: handbag/purse, pardon/sorry, thank you/thanks. No claim that the original terms are obsolete."
+  ]
+}

@@ -5,67 +5,78 @@
       "text": "Lesson one: Excuse me.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Give a clear, friendly learning prompt. Use natural sentence stress and brief pauses between sentences.",
       "pause_after": 0.8,
-      "role": "narrator"
+      "role": "narrator",
+      "generation_seed": 43
     },
     {
       "text": "First, listen to a short conversation. A man is speaking to a woman.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Give a clear, friendly learning prompt. Use natural sentence stress and brief pauses between sentences.",
       "pause_after": 0.8,
-      "role": "narrator"
+      "role": "narrator",
+      "generation_seed": 44
     },
     {
       "text": "Whose handbag is it?",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly wh-question with a gentle falling ending.",
       "pause_after": 0.8,
-      "role": "narrator"
+      "role": "narrator",
+      "generation_seed": 45
     },
     {
       "text": "Excuse me!",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. State the sentence clearly and naturally, with a gentle falling ending.",
       "pause_after": 0.55,
-      "role": "man"
+      "role": "man",
+      "generation_seed": 46
     },
     {
       "text": "Yes?",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Respond to someone getting your attention. A short, friendly question with a natural rising ending.",
       "pause_after": 0.45,
-      "role": "woman"
+      "role": "woman",
+      "generation_seed": 47
     },
     {
       "text": "Is this your handbag?",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Repeat the question clearly and politely, with a gentle questioning rise at the end.",
       "pause_after": 0.55,
-      "role": "man"
+      "role": "man",
+      "generation_seed": 48
     },
     {
       "text": "Pardon?",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Politely ask someone to repeat what you missed. A short questioning rise, relaxed rather than surprised.",
       "pause_after": 0.5,
-      "role": "woman"
+      "role": "woman",
+      "generation_seed": 49
     },
     {
       "text": "Is this your handbag?",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Repeat the question clearly and politely, with a gentle questioning rise at the end.",
       "pause_after": 0.55,
-      "role": "man"
+      "role": "man",
+      "generation_seed": 50
     },
     {
       "text": "Yes, it is.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Give a friendly, confident affirmative answer with a natural falling ending.",
       "pause_after": 0.55,
-      "role": "woman"
+      "role": "woman",
+      "generation_seed": 51
     },
     {
       "text": "Thank you very much.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Express warm, everyday gratitude, with a relaxed falling ending.",
       "pause_after": 0.8,
-      "role": "man"
+      "role": "man",
+      "generation_seed": 52
     },
     {
       "text": "It is the woman's handbag.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Give a clear, friendly learning prompt. Use natural sentence stress and brief pauses between sentences.",
       "pause_after": 0.7,
-      "role": "narrator"
+      "role": "narrator",
+      "generation_seed": 53
     },
     {
       "text": "Key expressions: excuse me, pardon, and thank you very much.",
@@ -79,14 +90,333 @@
       "text": "In everyday American speech, thank you often flows together: thank-you.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Give a clear, friendly learning prompt. Use natural sentence stress and brief pauses between sentences.",
       "pause_after": 0.65,
-      "role": "narrator"
+      "role": "narrator",
+      "generation_seed": 55
     },
     {
       "text": "Pardon is a polite way to ask someone to repeat what they said.",
       "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Give a clear, friendly learning prompt. Use natural sentence stress and brief pauses between sentences.",
       "pause_after": 0.8,
-      "role": "narrator"
+      "role": "narrator",
+      "generation_seed": 56
+    },
+    {
+      "text": "New words and expressions.",
+      "role": "narrator",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Introduce the next section clearly.",
+      "pause_after": 0.7,
+      "generation_seed": 8215,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each word or expression, then hear it in a short sentence. Repeat after the pause.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Read clearly with natural stress and a gentle falling ending.",
+      "pause_after": 0.7,
+      "generation_seed": 44,
+      "section": "vocabulary"
+    },
+    {
+      "role": "narrator",
+      "text": "Excuse.",
+      "instructions": "Speak in clear American English. Say only the supplied word once, at an ordinary pace, with clear consonants. Do not add any other sounds or words. Use the verb pronunciation with a voiced z ending.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-1",
+      "generation_seed": 6003,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Excuse me. Can you help me?",
+      "instructions": "Speak in natural American English at a normal pace. Politely get someone's attention and ask for help.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-1",
+      "generation_seed": 34018,
+      "section": "vocabulary",
+      "generation_temperature": 0.5
+    },
+    {
+      "role": "narrator",
+      "text": "me.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-2",
+      "generation_seed": 47,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Can you help me for a second?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-2",
+      "generation_seed": 8220,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "yes.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-3",
+      "generation_seed": 49,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Yes, that works for me.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-3",
+      "generation_seed": 8222,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Is.",
+      "instructions": "Speak in clear American English. Say only the supplied word once, at an ordinary pace, with clear consonants. Do not add any other sounds or words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-4",
+      "generation_seed": 6009,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Is this seat taken?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-4",
+      "generation_seed": 8224,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "This.",
+      "instructions": "Speak in clear American English. Say only the supplied word once, at an ordinary pace, with clear consonants. Do not add any other sounds or words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-5",
+      "generation_seed": 6011,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "This looks great.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-5",
+      "generation_seed": 8226,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "your.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-6",
+      "generation_seed": 55,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Is this your phone?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-6",
+      "generation_seed": 8228,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "handbag.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-7",
+      "generation_seed": 57,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "I left my handbag in the car.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-7",
+      "generation_seed": 8530,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Handbag is still used. In everyday American English, purse is also common for this kind of bag.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Speak naturally, with clear sentence stress.",
+      "pause_after": 1.0,
+      "section": "vocabulary",
+      "source_item": "vocabulary-7",
+      "supplemental": true,
+      "generation_seed": 9500,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "woman",
+      "text": "I left my keys in my purse.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Speak naturally, with clear sentence stress.",
+      "pause_after": 1.0,
+      "section": "vocabulary",
+      "source_item": "vocabulary-7",
+      "supplemental": true,
+      "generation_seed": 9501,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "pardon.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-8",
+      "generation_seed": 59,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Pardon?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly question naturally.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-8",
+      "generation_seed": 8232,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Pardon is polite and can sound formal. In a casual conversation, you can say:",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Speak naturally, with clear sentence stress.",
+      "pause_after": 1.0,
+      "section": "vocabulary",
+      "source_item": "vocabulary-8",
+      "supplemental": true,
+      "generation_seed": 9520,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "woman",
+      "text": "Sorry, I didn't catch that.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Speak naturally, with clear sentence stress.",
+      "pause_after": 1.0,
+      "section": "vocabulary",
+      "source_item": "vocabulary-8",
+      "supplemental": true,
+      "generation_seed": 9521,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "it.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-9",
+      "generation_seed": 1061,
+      "generation_temperature": 0.6,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "It's on the table.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-9",
+      "generation_seed": 8234,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "thank you.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-10",
+      "generation_seed": 63,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Thank you for your help.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-10",
+      "generation_seed": 8236,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "Thanks is a common, shorter way to say thank you.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Speak naturally, with clear sentence stress.",
+      "pause_after": 1.0,
+      "section": "vocabulary",
+      "source_item": "vocabulary-10",
+      "supplemental": true,
+      "generation_seed": 9560,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "woman",
+      "text": "Thanks for your help.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Speak naturally, with clear sentence stress.",
+      "pause_after": 1.0,
+      "section": "vocabulary",
+      "source_item": "vocabulary-10",
+      "supplemental": true,
+      "generation_seed": 9561,
+      "generation_temperature": 0.6
+    },
+    {
+      "role": "narrator",
+      "text": "very much.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Pronounce this English vocabulary item clearly and naturally, without adding any words.",
+      "pause_after": 0.8,
+      "source_item": "vocabulary-11",
+      "generation_seed": 65,
+      "section": "vocabulary"
+    },
+    {
+      "role": "woman",
+      "text": "Thank you very much for your help.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Say this as a natural everyday sentence.",
+      "pause_after": 1.2,
+      "source_item": "vocabulary-11",
+      "generation_seed": 8238,
+      "section": "vocabulary",
+      "generation_temperature": 0.6
     }
   ],
-  "roles_file": "roles.json"
+  "roles_file": "roles.json",
+  "vocabulary_words": [
+    "excuse",
+    "me",
+    "yes",
+    "is",
+    "this",
+    "your",
+    "handbag",
+    "pardon",
+    "it",
+    "thank you",
+    "very much"
+  ],
+  "section_order": [
+    "dialogue",
+    "notes",
+    "vocabulary"
+  ],
+  "vocabulary_notes": [
+    "Original vocabulary retained in HTML order. Examples use contemporary everyday contexts. Supplemental alternatives are labeled in metadata: handbag/purse, pardon/sorry, thank you/thanks. No claim that the original terms are obsolete."
+  ]
 }
