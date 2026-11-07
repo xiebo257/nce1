@@ -1,8 +1,10 @@
 """Regression checks for source structures that previously caused silent speech errors."""
 import json,unittest
 from pathlib import Path
-from prepare_lessons import fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
+from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
 class CompilerRegression(unittest.TestCase):
+ def test_matching_answer_letter_is_not_spoken(self):
+  self.assertEqual(answer('h. What are the girls doing?'),'What are the girls doing?')
  def test_multiword_answer_is_not_two_unrelated_blanks(self):
   with self.assertRaises(ValueError):fill('While she ___ in the library, someone ___ a letter.','was sitting')
  def test_multiword_adjacent_blanks(self):

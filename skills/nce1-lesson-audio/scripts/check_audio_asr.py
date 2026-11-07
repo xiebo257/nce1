@@ -15,7 +15,7 @@ def norm(t):
  t=re.sub(r'\bmr\.?(?=\s)', 'mister',t)
  t=re.sub(r'\bmrs\.?(?=\s)', 'missus',t)
  t=re.sub(r'(?<=\d),(?=\d)','',t)
- t=t.replace('schoolbag','school bag').replace('alright','all right').replace('aeroplane','airplane')
+ t=t.replace('schoolbag','school bag').replace('riverbank','river bank').replace('alright','all right').replace('aeroplane','airplane')
  t=re.sub(r'\d+',lambda m:num2words(int(m[0])),t)
  t=re.sub(r"\b(can't|cannot)\b",'can not',t)
  t=re.sub(r"\bwon't\b",'will not',t)

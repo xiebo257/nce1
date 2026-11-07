@@ -22,6 +22,7 @@ def answer(s):
  s=re.sub(r'\((?:Suggested|Personal|Source|Accept|Other|Answers?|参考|答案)[^)]*\)','',s,flags=re.I)
  s=re.sub(r'\([^)]*\)','',s)
  s=re.sub(r'^[a-z]\s*[—–]\s*','',s)
+ s=re.sub(r'^[a-z][.)]\s+(?=[A-Z])','',s)
  return s.strip()
 
 def fill(q,k):
@@ -46,9 +47,11 @@ class Lesson(base.Lesson):
   self.labels.update(s['character'] for s in PASSAGES.get(str(n),[]) if 'character' in s)
   explicit={normalize(e.text_content()) for e in self.root.xpath('//p[@class="small-label"]') if e.getparent().xpath('./p[@class="spoken"]')}
   self.labels={label for label in self.labels if label and (label in explicit or label in CAST or label.isupper() or all(w[0].isupper() or w in ['the','and','of'] for w in label.split()))};self.skip=set()
+  saved=Path(f'audio/scripts/{n:03}/roles.json')
+  saved_roles=json.loads(saved.read_text()) if saved.exists() else {}
   used=set()
   for label in sorted(self.labels):
-   old=next((v for k,v in CAST.items() if k.lower()==label.lower()),None)
+   old=saved_roles.get(base.roleid(label),{}).get('speaker') or next((v for k,v in CAST.items() if k.lower()==label.lower()),None)
    pool=['Serena','Vivian','Sohee','Ono_Anna'] if label.lower() in FEMALE or label.lower().startswith(('mrs.','miss ')) else ['Ryan','Aiden','Uncle_Fu','Dylan','Eric']
    speaker=old or next((x for x in pool if x not in used),pool[0])
    if n==141 and label.lower()=='lady':speaker='Ono_Anna'
@@ -111,7 +114,7 @@ class Lesson(base.Lesson):
   else:k=k.replace('/',', ')
   k=re.sub(r'\.{3,}', '',k).strip()
 
-  q=re.sub(r'^\d+\.\s*','',q)
+  q=re.sub(r'^(?:\d+|[a-z])[.)]\s*','',q)
   q=q.replace('[your name]','Alex')
   q=re.sub(r'\[[^]]*\]','',q)
   if 'Complete the contrast' in q:
