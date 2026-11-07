@@ -59,6 +59,7 @@ class Lesson(base.Lesson):
    used.add(speaker)
    CAST[label]=speaker
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
+  text=text.replace('×','times').replace('÷','divided by').replace('=','equals')
   if 'character' in meta:role=self.role(meta.pop('character'))
   text=re.sub(r'\.{2,}|…','',text).strip()
   if text.lower().strip('.')=='putting':text='Putting my keys in my bag. The verb form is putting.';meta['supplemental']=True
