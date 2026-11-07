@@ -71,6 +71,8 @@
 | 065 | Not a baby | [2:12](065-1-lesson.wav) | [2:02](065-2-practice.wav) | [4:08](065-3-gramar.wav) | [脚本](scripts/065/README.md) |
 | 068 | What's the time? | [2:01](068-1-lesson.wav) | [2:12](068-2-practice.wav) | [2:06](068-3-gramar.wav) | [脚本](scripts/068/README.md) |
 | 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [3:35](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
+| 076 | When did you ...? | [2:44](076-1-lesson.wav) | [1:30](076-2-practice.wav) | [3:04](076-3-gramar.wav) | [脚本](scripts/076/README.md) |
+| 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [4:47](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
