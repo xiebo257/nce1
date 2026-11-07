@@ -59,6 +59,8 @@
 | 053 | An interesting climate | [2:52](053-1-lesson.wav) | [2:28](053-2-practice.wav) | [4:38](053-3-gramar.wav) | [脚本](scripts/053/README.md) |
 | 054 | What nationality are they? Where do they come from? | [4:45](054-1-lesson.wav) | [3:00](054-2-practice.wav) | [4:12](054-3-gramar.wav) | [脚本](scripts/054/README.md) |
 | 055 | The Sawyer family | [2:23](055-1-lesson.wav) | [1:50](055-2-practice.wav) | [4:31](055-3-gramar.wav) | [脚本](scripts/055/README.md) |
+| 056 | What do they usually do? | [2:04](056-1-lesson.wav) | [1:27](056-2-practice.wav) | [2:42](056-3-gramar.wav) | [脚本](scripts/056/README.md) |
+| 057 | An unusual day | [1:46](057-1-lesson.wav) | [1:54](057-2-practice.wav) | [5:53](057-3-gramar.wav) | [脚本](scripts/057/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
