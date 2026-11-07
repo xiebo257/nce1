@@ -31,6 +31,15 @@ def validate(n):
  text=f'# 第 {n} 课录音\n\n依据 [lesson-{n:03}.html](../../../html/lesson-{n:03}.html) 中的课文、提示及答案字段生成，包含示例和完整答案。词汇按 HTML 顺序并入 lesson；日常例句和现代用法说明属于补充内容。个人信息题使用示范答案。\n\n'
  text+='| 文件 | 时长（秒） | 片段 | 答题条目 |\n| --- | ---: | ---: | ---: |\n'+'\n'.join(f'| [{x["file"].split("/")[-1]}](../../{x["file"].split("/")[-1]}) | {x["seconds"]:.1f} | {x["segments"]} | {x["source_items"]} |' for x in stats)+'\n\n'
  text+='词汇：'+(', '.join(words) if words else '本课没有独立的生词表。')+'\n\n'
+ corrections=[]
+ for part,_ in PARTS:
+  for segment in json.loads((folder/f'{part}.json').read_text())['segments']:
+   note=segment.get('source_correction')
+   if note and note not in corrections:corrections.append(note)
+ if corrections:text+='源文补正记录：\n\n'+'\n'.join('- '+note for note in corrections)+'\n\n'
+ recovered_record=json.loads((folder/'lesson.json').read_text()).get('recovered_vocabulary',{})
+ if recovered_record:text+='补回 HTML 中缺失的课本词汇，依据 ['+recovered_record['source']+'](../../../'+recovered_record['source']+')。\n\n'
+ if n==113:text+='本课有六位男性个体角色，模型只有五个男性预设；在不同场景的乘客与后续旅客之间复用一位声音，角色身份和台词仍分别记录。第三、第四位乘客按课本插图使用女声。\n\n'
  text+='角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。\n'
  (folder/'README.md').write_text(text)
  return stats
