@@ -2,7 +2,11 @@
 import json,unittest
 from pathlib import Path
 from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
+from run_audio_queue import benign
 class CompilerRegression(unittest.TestCase):
+ def test_digit_sequence_must_not_lose_a_zero(self):
+  self.assertFalse(benign(dict(text="Write two, zero, zero, zero, zero, zero.",heard="Write 20000.")))
+  self.assertTrue(benign(dict(text="Write two, zero, zero, zero, zero, zero.",heard="Write 200000.")))
  def test_matching_answer_letter_is_not_spoken(self):
   self.assertEqual(answer('h. What are the girls doing?'),'What are the girls doing?')
  def test_multiword_answer_is_not_two_unrelated_blanks(self):

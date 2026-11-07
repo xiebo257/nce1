@@ -14,7 +14,11 @@ def call(args,log):
 def benign(f):
  # Orthography only. Never discard missing negatives, changed pronouns, or inflections.
  text=f['text'].lower();heard=f['heard'].lower()
- if text.startswith('write ') and re.fullmatch(r'[\d ,.!]+',heard.removeprefix('write ').strip()):return True
+ if text.startswith('write ') and re.fullmatch(r'[\d ,.!]+',heard.removeprefix('write ').strip()):
+  digits=dict(zip('zero one two three four five six seven eight nine'.split(),'0123456789'))
+  expected=''.join(digits[w] for w in re.findall(r'[a-z]+',text[6:]) if w in digits)
+  actual=''.join(re.findall(r'\d',heard))
+  return bool(expected) and expected==actual
  def norm(s):
   s=s.lower().replace('’',"'").replace('schoolbag','school bag').replace('alright','all right').replace('okay','ok')
   s=s.replace('mrs.','missus').replace('mr.','mister').replace('miss is','missus')

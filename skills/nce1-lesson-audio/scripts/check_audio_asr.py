@@ -27,6 +27,13 @@ def norm(t):
  t=t.replace('airhostess','air hostess').replace('icecream','ice cream').replace('ice-cream','ice cream')
  return re.findall(r"[a-z]+(?:'[a-z]+)?",t)
 def diff(e,t):
+ if e.lower().startswith('write '):
+  digits=dict(zip('zero one two three four five six seven eight nine'.split(),'0123456789'))
+  expected=''.join(digits[w] for w in re.findall(r'[a-z]+',e.lower()[6:]) if w in digits)
+  spoken=t.lower().removeprefix('write ').strip()
+  if expected and re.fullmatch(r'[\d ,.!]+',spoken):
+   actual=''.join(re.findall(r'\d',spoken))
+   return [] if expected==actual else [dict(expected=expected,heard=actual)]
  x,y=norm(e),norm(t)
  return [{'expected':' '.join(x[i:j]),'heard':' '.join(y[k:l])} for op,i,j,k,l in difflib.SequenceMatcher(None,x,y,autojunk=False).get_opcodes() if op!='equal']
 def transcribe(x):
