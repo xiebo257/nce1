@@ -33,6 +33,8 @@
 | 027 | Mrs. Smith’s living room | [1:45](027-1-lesson.wav) | [1:47](027-2-practice.wav) | [5:32](027-3-gramar.wav) | [脚本](scripts/027/README.md) |
 | 028 | Where are they? | [5:58](028-1-lesson.wav) | [1:59](028-2-practice.wav) | [3:11](028-3-gramar.wav) | [脚本](scripts/028/README.md) |
 | 029 | Come in, Amy. | [2:04](029-1-lesson.wav) | [1:43](029-2-practice.wav) | [3:28](029-3-gramar.wav) | [脚本](scripts/029/README.md) |
+| 030 | What must I do? | [6:30](030-1-lesson.wav) | [1:38](030-2-practice.wav) | [2:02](030-3-gramar.wav) | [脚本](scripts/030/README.md) |
+| 031 | Where’s Sally? | [1:55](031-1-lesson.wav) | [2:12](031-2-practice.wav) | [3:25](031-3-gramar.wav) | [脚本](scripts/031/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
