@@ -57,6 +57,8 @@
 | 051 | A pleasant climate | [3:49](051-1-lesson.wav) | [2:40](051-2-practice.wav) | [4:25](051-3-gramar.wav) | [脚本](scripts/051/README.md) |
 | 052 | What nationality are they? Where do they come from? | [5:22](052-1-lesson.wav) | [2:39](052-2-practice.wav) | [3:28](052-3-gramar.wav) | [脚本](scripts/052/README.md) |
 | 053 | An interesting climate | [2:52](053-1-lesson.wav) | [2:28](053-2-practice.wav) | [4:38](053-3-gramar.wav) | [脚本](scripts/053/README.md) |
+| 054 | What nationality are they? Where do they come from? | [4:45](054-1-lesson.wav) | [3:00](054-2-practice.wav) | [4:12](054-3-gramar.wav) | [脚本](scripts/054/README.md) |
+| 055 | The Sawyer family | [2:23](055-1-lesson.wav) | [1:50](055-2-practice.wav) | [4:31](055-3-gramar.wav) | [脚本](scripts/055/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
