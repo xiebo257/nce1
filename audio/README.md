@@ -49,6 +49,8 @@
 | 043 | Hurry up! | [1:46](043-1-lesson.wav) | [1:32](043-2-practice.wav) | [5:10](043-3-gramar.wav) | [脚本](scripts/043/README.md) |
 | 044 | Are there any …? Is there any …? | [5:18](044-1-lesson.wav) | [1:42](044-2-practice.wav) | [2:55](044-3-gramar.wav) | [脚本](scripts/044/README.md) |
 | 045 | The boss’s letter | [1:28](045-1-lesson.wav) | [2:06](045-2-practice.wav) | [4:21](045-3-gramar.wav) | [脚本](scripts/045/README.md) |
+| 046 | Can you …? | [3:29](046-1-lesson.wav) | [1:55](046-2-practice.wav) | [3:02](046-3-gramar.wav) | [脚本](scripts/046/README.md) |
+| 047 | A cup of coffee | [1:05](047-1-lesson.wav) | [1:54](047-2-practice.wav) | [5:04](047-3-gramar.wav) | [脚本](scripts/047/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
