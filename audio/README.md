@@ -41,6 +41,8 @@
 | 035 | Our village | [2:37](035-1-lesson.wav) | [2:06](035-2-practice.wav) | [3:37](035-3-gramar.wav) | [脚本](scripts/035/README.md) |
 | 036 | Where …? | [4:29](036-1-lesson.wav) | [1:47](036-2-practice.wav) | [2:04](036-3-gramar.wav) | [脚本](scripts/036/README.md) |
 | 037 | Making a bookcase | [1:38](037-1-lesson.wav) | [1:30](037-2-practice.wav) | [3:42](037-3-gramar.wav) | [脚本](scripts/037/README.md) |
+| 038 | What are you going to do? What are you doing now? | [4:56](038-1-lesson.wav) | [2:47](038-2-practice.wav) | [3:28](038-3-gramar.wav) | [脚本](scripts/038/README.md) |
+| 039 | Don’t drop it! | [1:35](039-1-lesson.wav) | [2:48](039-2-practice.wav) | [5:21](039-3-gramar.wav) | [脚本](scripts/039/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 

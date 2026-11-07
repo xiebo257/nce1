@@ -1,0 +1,833 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-038.html",
+  "source_items": 24,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 38.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 1799370829,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Look at the pictures. Listen to the cues and practice the model sentences.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Picture prompts",
+      "generation_seed": 1782157705,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I am going to shave.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-1",
+      "section": "Picture prompts",
+      "generation_seed": 1068755992,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-1",
+      "section": "Picture prompts",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am going to shave.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-1",
+      "section": "Picture prompts",
+      "generation_seed": 395852762,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Now I am shaving.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-2",
+      "section": "Picture prompts",
+      "generation_seed": 221777827,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing now?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-2",
+      "section": "Picture prompts",
+      "generation_seed": 629750373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Now I am shaving.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-2",
+      "section": "Picture prompts",
+      "generation_seed": 40462408,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I am going to wait for a bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-3",
+      "section": "Picture prompts",
+      "generation_seed": 2005334955,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-3",
+      "section": "Picture prompts",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am going to wait for a bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-3",
+      "section": "Picture prompts",
+      "generation_seed": 1399847147,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Now I am waiting for a bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-4",
+      "section": "Picture prompts",
+      "generation_seed": 1361700196,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing now?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-4",
+      "section": "Picture prompts",
+      "generation_seed": 629750373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Now I am waiting for a bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-4",
+      "section": "Picture prompts",
+      "generation_seed": 1955468914,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "We are going to do our homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-5",
+      "section": "Picture prompts",
+      "generation_seed": 708455220,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-5",
+      "section": "Picture prompts",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We are going to do our homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-5",
+      "section": "Picture prompts",
+      "generation_seed": 1247780042,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Now we are doing our homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-6",
+      "section": "Picture prompts",
+      "generation_seed": 374214621,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing now?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-6",
+      "section": "Picture prompts",
+      "generation_seed": 629750373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Now we are doing our homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-6",
+      "section": "Picture prompts",
+      "generation_seed": 904090802,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I am going to paint this bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-7",
+      "section": "Picture prompts",
+      "generation_seed": 162136236,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-7",
+      "section": "Picture prompts",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am going to paint this bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-7",
+      "section": "Picture prompts",
+      "generation_seed": 1824730041,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Now I am painting this bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-8",
+      "section": "Picture prompts",
+      "generation_seed": 1238587503,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing now?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-8",
+      "section": "Picture prompts",
+      "generation_seed": 629750373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Now I am painting this bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-8",
+      "section": "Picture prompts",
+      "generation_seed": 1529182231,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "We are going to listen to the stereo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-9",
+      "section": "Picture prompts",
+      "generation_seed": 1884204647,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-9",
+      "section": "Picture prompts",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We are going to listen to the stereo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-9",
+      "section": "Picture prompts",
+      "generation_seed": 1207825405,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Now we are listening to the stereo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-10",
+      "section": "Picture prompts",
+      "generation_seed": 1879381863,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing now?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-10",
+      "section": "Picture prompts",
+      "generation_seed": 629750373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Now we are listening to the stereo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-10",
+      "section": "Picture prompts",
+      "generation_seed": 1831856470,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I am going to wash the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-11",
+      "section": "Picture prompts",
+      "generation_seed": 427625121,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-11",
+      "section": "Picture prompts",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am going to wash the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-11",
+      "section": "Picture prompts",
+      "generation_seed": 149501854,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Now I am washing the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-12",
+      "section": "Picture prompts",
+      "generation_seed": 389592270,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing now?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-12",
+      "section": "Picture prompts",
+      "generation_seed": 629750373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Now I am washing the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-12",
+      "section": "Picture prompts",
+      "generation_seed": 157858631,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "homework. Have you finished your homework?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-homework",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "homework",
+      "generation_seed": 655643709,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "listen. Listen to this song.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-listen",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "listen",
+      "generation_seed": 640354295,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "dish. I'll wash the dishes after dinner.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-dish",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "dish",
+      "generation_seed": 1597125029,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Complete the items on the page. Pause to try each one, then listen to the completed version.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise A · Am, is or are",
+      "generation_seed": 625324337,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "are.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-1",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 133810600,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What are you doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-1",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 1473855414,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "are.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-2",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 1299185592,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We are reading.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-2",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 405015223,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-a-1",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 2043595539,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We are reading.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-1",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 405015223,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are they doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-a-2",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 435790006,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They are doing their homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-2",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 2051956680,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What is he doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-a-3",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 858807620,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He is working hard.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-3",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 808913706,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-a-4",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 2043595539,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am washing the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-4",
+      "section": "Written exercise A · Am, is or are",
+      "source_items": [],
+      "generation_seed": 382336257,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "paint this bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-b-0",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 859113617,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-0",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm going to paint this bookcase. What are you doing now?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-0",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 397239781,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm painting this bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-0",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1088935853,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "shave.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 413285713,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm going to shave. What are you doing now?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 324313742,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm shaving.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1970697834,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "wait for a bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1815146332,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm going to wait for a bus. What are you doing now?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 173834197,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm waiting for a bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1151169626,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "do my homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1037888325,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm going to do my homework. What are you doing now?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1546849168,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm doing my homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 54818049,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "listen to the stereo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 2047542543,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm going to listen to the stereo. What are you doing now?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1845226673,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm listening to the stereo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 176552276,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "wash the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 36365476,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are you going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1075105326,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm going to wash the dishes. What are you doing now?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1620094146,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm washing the dishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 559397599,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "homework",
+    "listen",
+    "dish"
+  ],
+  "recovered_vocabulary": {}
+}
