@@ -39,6 +39,8 @@
 | 033 | A fine day | [2:26](033-1-lesson.wav) | [2:11](033-2-practice.wav) | [2:06](033-3-gramar.wav) | [脚本](scripts/033/README.md) |
 | 034 | What are they doing? | [4:14](034-1-lesson.wav) | [1:31](034-2-practice.wav) | [2:39](034-3-gramar.wav) | [脚本](scripts/034/README.md) |
 | 035 | Our village | [2:37](035-1-lesson.wav) | [2:06](035-2-practice.wav) | [3:37](035-3-gramar.wav) | [脚本](scripts/035/README.md) |
+| 036 | Where …? | [4:29](036-1-lesson.wav) | [1:47](036-2-practice.wav) | [2:04](036-3-gramar.wav) | [脚本](scripts/036/README.md) |
+| 037 | Making a bookcase | [1:38](037-1-lesson.wav) | [1:30](037-2-practice.wav) | [3:42](037-3-gramar.wav) | [脚本](scripts/037/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
