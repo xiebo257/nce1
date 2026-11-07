@@ -43,6 +43,8 @@
 | 037 | Making a bookcase | [1:38](037-1-lesson.wav) | [1:30](037-2-practice.wav) | [3:42](037-3-gramar.wav) | [脚本](scripts/037/README.md) |
 | 038 | What are you going to do? What are you doing now? | [4:56](038-1-lesson.wav) | [2:47](038-2-practice.wav) | [3:28](038-3-gramar.wav) | [脚本](scripts/038/README.md) |
 | 039 | Don’t drop it! | [1:35](039-1-lesson.wav) | [2:48](039-2-practice.wav) | [5:21](039-3-gramar.wav) | [脚本](scripts/039/README.md) |
+| 040 | What are you going to do? I’m going to … | [4:10](040-1-lesson.wav) | [2:21](040-2-practice.wav) | [5:06](040-3-gramar.wav) | [脚本](scripts/040/README.md) |
+| 041 | Penny’s bag | [1:34](041-1-lesson.wav) | [2:09](041-2-practice.wav) | [4:08](041-3-gramar.wav) | [脚本](scripts/041/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
