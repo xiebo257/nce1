@@ -96,7 +96,7 @@ def process(start,end,publish=True,next_range=None):
  print('DONE',tag,flush=True);return True
 
 def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);p.add_argument('--batch-size',type=int,default=2);p.add_argument('--wait-pid',type=int);a=p.parse_args();ROOT.mkdir(parents=True,exist_ok=True)
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);p.add_argument('--batch-size',type=int,default=2);p.add_argument('--wait-pid',type=int);p.add_argument('--prefetch',action='store_true',help='Opt in only after measuring throughput on the current machine');a=p.parse_args();ROOT.mkdir(parents=True,exist_ok=True)
  if a.wait_pid:
   while True:
    try:os.kill(a.wait_pid,0)
@@ -104,5 +104,5 @@ def main():
    time.sleep(5)
  for n in range(a.start,a.end+1,a.batch_size):
   next_start=n+a.batch_size
-  process(n,min(n+a.batch_size-1,a.end),next_range=(next_start,min(next_start+a.batch_size-1,a.end)) if next_start<=a.end else None)
+  process(n,min(n+a.batch_size-1,a.end),next_range=(next_start,min(next_start+a.batch_size-1,a.end)) if a.prefetch and next_start<=a.end else None)
 if __name__=='__main__':main()
