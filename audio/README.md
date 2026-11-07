@@ -37,6 +37,8 @@
 | 031 | Where’s Sally? | [1:55](031-1-lesson.wav) | [2:12](031-2-practice.wav) | [3:25](031-3-gramar.wav) | [脚本](scripts/031/README.md) |
 | 032 | What’s he/she/it doing? | [7:18](032-1-lesson.wav) | [1:33](032-2-practice.wav) | [3:44](032-3-gramar.wav) | [脚本](scripts/032/README.md) |
 | 033 | A fine day | [2:26](033-1-lesson.wav) | [2:11](033-2-practice.wav) | [2:06](033-3-gramar.wav) | [脚本](scripts/033/README.md) |
+| 034 | What are they doing? | [4:14](034-1-lesson.wav) | [1:31](034-2-practice.wav) | [2:39](034-3-gramar.wav) | [脚本](scripts/034/README.md) |
+| 035 | Our village | [2:37](035-1-lesson.wav) | [2:06](035-2-practice.wav) | [3:37](035-3-gramar.wav) | [脚本](scripts/035/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
