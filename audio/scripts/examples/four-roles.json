@@ -1,0 +1,71 @@
+{
+  "seed": 42,
+  "roles": {
+    "tom": {
+      "speaker": "Ryan",
+      "description": "男声一"
+    },
+    "jack": {
+      "speaker": "Aiden",
+      "description": "男声二"
+    },
+    "sue": {
+      "speaker": "Serena",
+      "description": "女声一"
+    },
+    "anna": {
+      "speaker": "Vivian",
+      "description": "女声二"
+    }
+  },
+  "segments": [
+    {
+      "role": "tom",
+      "text": "Hi, Sue. Is this your book?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a friendly yes-or-no question with a gentle rising ending.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "sue",
+      "text": "No, it isn't. I think it's Anna's.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Reply naturally, with a gentle falling ending.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "anna",
+      "text": "Yes, it is. Thank you, Tom.",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Reply warmly and naturally.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "jack",
+      "text": "Excuse me. Is this your pen, Anna?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Ask a polite yes-or-no question with a gentle rising ending.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "anna",
+      "text": "Pardon?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Politely ask for repetition with a natural questioning rise.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "jack",
+      "text": "Is this your pen?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Repeat clearly with a gentle questioning rise.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "anna",
+      "text": "No, it isn't. Sue, is it yours?",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Respond naturally, then ask a friendly question.",
+      "pause_after": 0.45
+    },
+    {
+      "role": "sue",
+      "text": "Yes, it is. Thanks, Jack!",
+      "instructions": "Speak in conversational American English at a normal pace, with relaxed, understated expression. Respond with relaxed gratitude.",
+      "pause_after": 0.45
+    }
+  ]
+}
