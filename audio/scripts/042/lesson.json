@@ -1,0 +1,941 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-042.html",
+  "source_items": 38,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 42.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 1885088294,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Look at the pictures. Listen to the cues and practice the model sentences.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Picture prompts",
+      "generation_seed": 1782157705,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "passport.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-1",
+      "section": "Picture prompts",
+      "generation_seed": 1696169766,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a passport on that table?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-1",
+      "section": "Picture prompts",
+      "generation_seed": 860266625,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-1",
+      "section": "Picture prompts",
+      "generation_seed": 819590369,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "milk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-2",
+      "section": "Picture prompts",
+      "generation_seed": 65417734,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any milk on that table?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-2",
+      "section": "Picture prompts",
+      "generation_seed": 1457105306,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on that table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-2",
+      "section": "Picture prompts",
+      "generation_seed": 448956154,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "spoon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-3",
+      "section": "Picture prompts",
+      "generation_seed": 1942414643,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a spoon on that plate?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-3",
+      "section": "Picture prompts",
+      "generation_seed": 2082578151,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that plate.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-3",
+      "section": "Picture prompts",
+      "generation_seed": 1564661448,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "tie.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-4",
+      "section": "Picture prompts",
+      "generation_seed": 1147077129,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a tie on that chair?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-4",
+      "section": "Picture prompts",
+      "generation_seed": 537045187,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that chair.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-4",
+      "section": "Picture prompts",
+      "generation_seed": 101450976,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "bread.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-5",
+      "section": "Picture prompts",
+      "generation_seed": 962781052,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any bread on that table?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-5",
+      "section": "Picture prompts",
+      "generation_seed": 309201611,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on that table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-5",
+      "section": "Picture prompts",
+      "generation_seed": 448956154,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "hammer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-6",
+      "section": "Picture prompts",
+      "generation_seed": 1724309246,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a hammer on that bookcase?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-6",
+      "section": "Picture prompts",
+      "generation_seed": 1044440453,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-6",
+      "section": "Picture prompts",
+      "generation_seed": 2078422407,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "tea.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-7",
+      "section": "Picture prompts",
+      "generation_seed": 484537603,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any tea on that table?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-7",
+      "section": "Picture prompts",
+      "generation_seed": 26056220,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on that table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-7",
+      "section": "Picture prompts",
+      "generation_seed": 448956154,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "vase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-8",
+      "section": "Picture prompts",
+      "generation_seed": 270370795,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a vase on that radio?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-8",
+      "section": "Picture prompts",
+      "generation_seed": 1922404615,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that radio.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-8",
+      "section": "Picture prompts",
+      "generation_seed": 1589490498,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "suit.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-9",
+      "section": "Picture prompts",
+      "generation_seed": 2108123292,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a suit in that wardrobe?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-9",
+      "section": "Picture prompts",
+      "generation_seed": 1736621915,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one in that wardrobe.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-9",
+      "section": "Picture prompts",
+      "generation_seed": 1639618627,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "tobacco.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-10",
+      "section": "Picture prompts",
+      "generation_seed": 1636106327,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any tobacco in that tin?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-10",
+      "section": "Picture prompts",
+      "generation_seed": 309528634,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some in that tin.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-10",
+      "section": "Picture prompts",
+      "generation_seed": 1953571729,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "chocolate.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-11",
+      "section": "Picture prompts",
+      "generation_seed": 855740456,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any chocolate on that desk?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-11",
+      "section": "Picture prompts",
+      "generation_seed": 694967497,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on that desk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-11",
+      "section": "Picture prompts",
+      "generation_seed": 1618595740,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "cheese.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-12",
+      "section": "Picture prompts",
+      "generation_seed": 1403198614,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any cheese on that plate?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-12",
+      "section": "Picture prompts",
+      "generation_seed": 830121395,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on that plate.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-12",
+      "section": "Picture prompts",
+      "generation_seed": 890993027,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "newspaper.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-13",
+      "section": "Picture prompts",
+      "generation_seed": 940236782,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a newspaper on that television?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-13",
+      "section": "Picture prompts",
+      "generation_seed": 1439836160,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that television.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-13",
+      "section": "Picture prompts",
+      "generation_seed": 307944999,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-14",
+      "section": "Picture prompts",
+      "generation_seed": 1799770179,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a car on that bridge?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-14",
+      "section": "Picture prompts",
+      "generation_seed": 1406400748,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on that bridge.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-14",
+      "section": "Picture prompts",
+      "generation_seed": 548548864,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "soap.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-15",
+      "section": "Picture prompts",
+      "generation_seed": 1735199145,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any soap on that shelf?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-15",
+      "section": "Picture prompts",
+      "generation_seed": 1784642989,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on that shelf.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-15",
+      "section": "Picture prompts",
+      "generation_seed": 2083405908,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "bird.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-picture-16",
+      "section": "Picture prompts",
+      "generation_seed": 1809538180,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a bird in that tree?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-16",
+      "section": "Picture prompts",
+      "generation_seed": 1181113516,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one in that tree.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-16",
+      "section": "Picture prompts",
+      "generation_seed": 2061810582,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "bird. There's a bird outside the window.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-bird",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "bird",
+      "generation_seed": 529132919,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "any. Do you have any questions?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-any",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "any",
+      "generation_seed": 750070949,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "some. Would you like some water?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-some",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "some",
+      "generation_seed": 1075857944,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "some and any.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1,
+      "source_item": "lesson-note-1",
+      "section": "notes",
+      "generation_seed": 507296147,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Complete the items on the page. Pause to try each one, then listen to the completed version.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise A · A, any or some",
+      "generation_seed": 625324337,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There's a photograph on the desk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-1",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 1410367249,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any milk in the bottle?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-2",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 226077850,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There isn't any milk in the bottle.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-3",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 1524428265,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There's some milk in that cup.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-example-4",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 34598904,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any bread in the kitchen?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-1",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 93640940,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There's a loaf on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-2",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 617646905,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There's some coffee on the table, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-3",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 1108602676,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There isn't any chocolate on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-4",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 1944866174,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There's a spoon on that dish.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-5",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 192162340,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any soap on the dressing table?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-a-6",
+      "section": "Written exercise A · A, any or some",
+      "source_items": [],
+      "generation_seed": 2055476587,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a passport here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-0",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1943035699,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-0",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 37536535,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any bread here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1463616136,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1380303014,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a spoon here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 597411277,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on the plate.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1830383972,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a tie here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 260167228,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on the chair.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 579110180,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any milk here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 120961719,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1380303014,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a hammer here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 735122844,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on the bookcase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 541925822,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any tea here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-6",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 306224414,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-6",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1380303014,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a vase here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-7",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1692896779,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one on the radio.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-7",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 2073612059,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there a suit here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-8",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1325275939,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's one in the wardrobe.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-8",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1485218127,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any tobacco here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-9",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1662798316,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some in the tin.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-9",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1620565025,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any chocolate here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-10",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 1566834489,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on the desk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-10",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 2073067047,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is there any cheese here?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-11",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 108164079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, there is. There's some on the plate.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-11",
+      "section": "Written exercise B · Questions and answers",
+      "generation_seed": 250609148,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "bird",
+    "any",
+    "some"
+  ],
+  "recovered_vocabulary": {}
+}

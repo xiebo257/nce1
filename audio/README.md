@@ -45,6 +45,8 @@
 | 039 | Don’t drop it! | [1:35](039-1-lesson.wav) | [2:48](039-2-practice.wav) | [5:21](039-3-gramar.wav) | [脚本](scripts/039/README.md) |
 | 040 | What are you going to do? I’m going to … | [4:10](040-1-lesson.wav) | [2:21](040-2-practice.wav) | [5:06](040-3-gramar.wav) | [脚本](scripts/040/README.md) |
 | 041 | Penny’s bag | [1:34](041-1-lesson.wav) | [2:09](041-2-practice.wav) | [4:08](041-3-gramar.wav) | [脚本](scripts/041/README.md) |
+| 042 | Is there a …? Is there any …? | [5:37](042-1-lesson.wav) | [2:00](042-2-practice.wav) | [2:56](042-3-gramar.wav) | [脚本](scripts/042/README.md) |
+| 043 | Hurry up! | [1:46](043-1-lesson.wav) | [1:32](043-2-practice.wav) | [5:10](043-3-gramar.wav) | [脚本](scripts/043/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
