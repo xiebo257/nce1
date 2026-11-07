@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validate a small completed range, update its index, then commit and push explicit paths."""
-import argparse,json,re,subprocess
+import argparse,json,re,subprocess,fcntl
 from pathlib import Path
 import soundfile as sf
 import numpy as np
@@ -35,11 +35,13 @@ def validate(n):
  (folder/'README.md').write_text(text)
  return stats
 
-def index(through=144):
+def index(start,end):
  rows=[]
- for n in range(1,through+1):
+ tracked=set(subprocess.check_output(['git','ls-files','--','audio'],text=True).splitlines())
+ for n in range(1,145):
   files=[Path(f'audio/{n:03}-{s}.wav') for _,s in PARTS]
   if not all(p.exists() for p in files):continue
+  if not start<=n<=end and not all(str(p) in tracked for p in files):continue
   title=' '.join(html.parse(f'html/lesson-{n:03}.html').xpath('//h1/text()')).strip()
   cells=[]
   for p in files:
@@ -50,14 +52,18 @@ def index(through=144):
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);p.add_argument('--publish',action='store_true');a=p.parse_args()
  assert 1<=a.start<=a.end<=144
+ Path('audio/work').mkdir(exist_ok=True)
+ lock=open('audio/work/publish.lock','w');fcntl.flock(lock,fcntl.LOCK_EX)
  stats=[];paths=['audio/README.md']
  for n in range(a.start,a.end+1):
   stats.extend(validate(n));paths.append(f'audio/scripts/{n:03}');paths.extend(f'audio/{n:03}-{s}.wav' for _,s in PARTS)
- index(a.end);root=Path('audio/work/batch-025-144');root.mkdir(parents=True,exist_ok=True);(root/f'integrity-{a.start:03}-{a.end:03}.json').write_text(json.dumps(stats,indent=2)+'\n')
+ index(a.start,a.end);root=Path('audio/work/batch-025-144');root.mkdir(parents=True,exist_ok=True);(root/f'integrity-{a.start:03}-{a.end:03}.json').write_text(json.dumps(stats,indent=2)+'\n')
  print('PASS',len(stats),'files',round(sum(x['seconds'] for x in stats)/60,1),'minutes',flush=True)
  if a.publish:
   subprocess.run(['git','add','--',*paths],check=True)
   subprocess.run(['git','diff','--cached','--stat','--',*paths],check=True)
-  subprocess.run(['git','commit','--only','-m',f'feat(audio): add lessons {a.start:03} through {a.end:03}','--',*paths],check=True)
+  changed=subprocess.run(['git','diff','--quiet','HEAD','--',*paths]).returncode
+  if changed:
+   subprocess.run(['git','commit','--only','-m',f'feat(audio): add lessons {a.start:03} through {a.end:03}','--',*paths],check=True)
   subprocess.run(['git','push','origin','main'],check=True)
 if __name__=='__main__':main()
