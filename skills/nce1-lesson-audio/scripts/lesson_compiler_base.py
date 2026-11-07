@@ -27,7 +27,7 @@ class Lesson:
   if role=='answer' and re.search(r"\bI(?:'m| am| am not|'m not)\b.*\b(?:policeman|postman|milkman|boy|man)\b",text):role='male_answer'
   chunks=sentences(text)
   # Keep one thought together; divide long turns at sentence boundaries.
-  if len(text.split())>30 and len(chunks)>1:
+  if len(text.split())>24 and len(chunks)>1:
    for i,c in enumerate(chunks):self.add(c,role,pause if i==len(chunks)-1 else .35,source,section,extra,**meta)
    return
   direction=NORMAL

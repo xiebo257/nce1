@@ -103,6 +103,7 @@ class Lesson(base.Lesson):
   if override:
    for s in override:self.add(**s)
    return
+  if 'match' in low and re.fullmatch(r'[a-z](?:[,; ]+[a-z])*',k):raise ValueError(('matching letters need source phrase resolution',item['id'],k))
   k=re.sub(r"\b([A-Za-z]+(?:'[A-Za-z]+)?)/[A-Za-z]+(?:'[A-Za-z]+)?",r'\1',k)
   if ' / ' in k and '_' not in q:
    choices=k.split(' / ')
