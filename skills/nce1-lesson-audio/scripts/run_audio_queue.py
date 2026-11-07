@@ -42,11 +42,19 @@ def score(f):return sum(max(len(d['expected'].split()),len(d['heard'].split())) 
 def render(start,end,tag):call([TTS,SCRIPTS/'render_qwen3_batch.py','--start',start,'--end',end,'--model',MODEL],f'render-{tag}.log')
 def check(start,end,tag):call([sys.executable,SCRIPTS/'check_audio_asr.py','--start',start,'--end',end],f'asr-{tag}.log')
 
-def process(start,end,publish=True):
+def process(start,end,publish=True,next_range=None):
  tag=f'{start:03}-{end:03}';state=ROOT/f'queue-{tag}.json'
  if state.exists() and json.loads(state.read_text()).get('pushed'):
   print('SKIP pushed',tag,flush=True);return
  print('RENDER',tag,flush=True);render(start,end,tag)
+ prefetch=None
+ if next_range:
+  next_start,next_end=next_range;next_tag=f'{next_start:03}-{next_end:03}'
+  next_state=ROOT/f'queue-{next_tag}.json'
+  if not next_state.exists() or not json.loads(next_state.read_text()).get('pushed'):
+   log=(ROOT/f'render-{next_tag}.log').open('a')
+   prefetch=subprocess.Popen([str(TTS),str(SCRIPTS/'render_qwen3_batch.py'),'--start',str(next_start),'--end',str(next_end),'--model',str(MODEL)],stdout=log,stderr=subprocess.STDOUT,env={**os.environ,'HF_HUB_OFFLINE':'1'})
+   log.close();print('PREFETCH',next_tag,'pid',prefetch.pid,flush=True)
  print('CHECK',tag,flush=True);check(start,end,tag)
  initial=findings(start,end);best={};repairs=[]
  for f in initial:
@@ -95,5 +103,6 @@ def main():
    except ProcessLookupError:break
    time.sleep(5)
  for n in range(a.start,a.end+1,a.batch_size):
-  process(n,min(n+a.batch_size-1,a.end))
+  next_start=n+a.batch_size
+  process(n,min(n+a.batch_size-1,a.end),next_range=(next_start,min(next_start+a.batch_size-1,a.end)) if next_start<=a.end else None)
 if __name__=='__main__':main()

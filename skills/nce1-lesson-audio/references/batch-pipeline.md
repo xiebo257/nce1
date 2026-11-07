@@ -48,7 +48,7 @@ Queue state files and logs live under ignored `audio/work/`. A successful queue 
 - No remote LLM calls, API keys, ffmpeg, or new model downloads are needed on the configured machine.
 - Exact speech reuse is keyed by text, voice, instructions, model, seed, and temperature. Silence is added at assembly time.
 - Intermediate segment files hard-link to cached speech where possible, reducing duplicated disk use. Final WAVs remain independent files.
-- Keep one TTS worker; multiple copies compete for unified memory. ASR can run alongside it if memory permits.
+- Keep one TTS worker; a filesystem lock prevents competing model loads. The queue prefetches the next two lessons while checking the current batch with ASR. This overlaps work while keeping at most one following batch in progress.
 - Use compact counts, log tails, and exception reports instead of loading every HTML file and every recognition transcript into the conversation.
 - ASR normalizes common contractions and spelling variants. It cannot prove that a required full form was articulated distinctly, or that accent, linking, reduction, and intonation sound natural. Preserve contrast instructions in the script and use listening when that distinction matters.
 - Bare numerals and isolated function words may be unstable. Use a short appropriate frame without changing the answer. Proper names, weak vowels, and homophones can produce recognition differences; do not retry endlessly merely to force a spelling.
