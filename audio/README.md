@@ -31,6 +31,8 @@
 | 025 | Mrs. Smith’s kitchen | [2:10](025-1-lesson.wav) | [2:27](025-2-practice.wav) | [5:17](025-3-gramar.wav) | [脚本](scripts/025/README.md) |
 | 026 | Where is it? | [3:40](026-1-lesson.wav) | [1:47](026-2-practice.wav) | [3:07](026-3-gramar.wav) | [脚本](scripts/026/README.md) |
 | 027 | Mrs. Smith’s living room | [1:45](027-1-lesson.wav) | [1:47](027-2-practice.wav) | [5:32](027-3-gramar.wav) | [脚本](scripts/027/README.md) |
+| 028 | Where are they? | [5:58](028-1-lesson.wav) | [1:59](028-2-practice.wav) | [3:11](028-3-gramar.wav) | [脚本](scripts/028/README.md) |
+| 029 | Come in, Amy. | [2:04](029-1-lesson.wav) | [1:43](029-2-practice.wav) | [3:28](029-3-gramar.wav) | [脚本](scripts/029/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
