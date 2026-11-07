@@ -61,6 +61,8 @@ class Lesson(base.Lesson):
    CAST[label]=speaker
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
   text=text.replace('×','times').replace('÷','divided by').replace('=','equals')
+  # Leading-zero identifiers are digit sequences, never cardinal numbers.
+  text=re.sub(r'\b0\d{3,}\b',lambda m:', '.join(num2words(int(d)) for d in m[0]),text)
   clock=re.fullmatch(r'(\d{1,2}):(\d{2})\.?',text.strip())
   if clock:
    hour,minute=map(int,clock.groups());suffix=' p.m.' if hour>=12 else ''

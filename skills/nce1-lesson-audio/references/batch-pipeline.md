@@ -52,6 +52,7 @@ Queue state files and logs live under ignored `audio/work/`. A successful queue 
 - Use compact counts, log tails, and exception reports instead of loading every HTML file and every recognition transcript into the conversation.
 - ASR normalizes common contractions and spelling variants. It cannot prove that a required full form was articulated distinctly, or that accent, linking, reduction, and intonation sound natural. Preserve contrast instructions in the script and use listening when that distinction matters.
 - Bare numerals and isolated function words may be unstable. Use a short appropriate frame without changing the answer. Proper names, weak vowels, and homophones can produce recognition differences; do not retry endlessly merely to force a spelling.
+- Spell telephone numbers and other leading-zero identifiers digit by digit, preserving every zero. For verb sorting exercises, reconstruct the complete correct collocation from the printed table; HTML may incorrectly attach the same verb to every cue (lesson 061).
 
 Recovered vocabulary is recorded in `recovered-vocabulary.json` with the inspected scan path. Keep the HTML word list in order and add the verified missing textbook words within its vocabulary block; if the HTML omits the block entirely, add the recovered list after the reading. Do not claim that missing HTML vocabulary never existed in the textbook.
 

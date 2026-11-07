@@ -4,6 +4,9 @@ from pathlib import Path
 from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
 from run_audio_queue import benign
 class CompilerRegression(unittest.TestCase):
+ def test_leading_zero_phone_number_keeps_every_digit(self):
+  lesson=Lesson(61);lesson.add("Yes. It's 09754.")
+  self.assertEqual(lesson.s[-1]['text'],"Yes. It's zero, nine, seven, five, four.")
  def test_digit_sequence_must_not_lose_a_zero(self):
   self.assertFalse(benign(dict(text="Write two, zero, zero, zero, zero, zero.",heard="Write 20000.")))
   self.assertTrue(benign(dict(text="Write two, zero, zero, zero, zero, zero.",heard="Write 200000.")))
