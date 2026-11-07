@@ -61,6 +61,8 @@
 | 055 | The Sawyer family | [2:23](055-1-lesson.wav) | [1:50](055-2-practice.wav) | [4:31](055-3-gramar.wav) | [脚本](scripts/055/README.md) |
 | 056 | What do they usually do? | [2:04](056-1-lesson.wav) | [1:27](056-2-practice.wav) | [2:42](056-3-gramar.wav) | [脚本](scripts/056/README.md) |
 | 057 | An unusual day | [1:46](057-1-lesson.wav) | [1:54](057-2-practice.wav) | [5:53](057-3-gramar.wav) | [脚本](scripts/057/README.md) |
+| 058 | What's the time? | [4:29](058-1-lesson.wav) | [1:43](058-2-practice.wav) | [5:24](058-3-gramar.wav) | [脚本](scripts/058/README.md) |
+| 059 | Is that all? | [1:56](059-1-lesson.wav) | [1:59](059-2-practice.wav) | [5:11](059-3-gramar.wav) | [脚本](scripts/059/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
