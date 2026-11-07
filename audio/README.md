@@ -66,3 +66,12 @@ HF_HUB_OFFLINE=1 /Users/admin/.local/share/nce1-qwen3-tts/bin/python \
 [四人对话示例](examples/four-roles.wav)约 23 秒，对应[脚本](scripts/examples/four-roles.json)：Tom/Ryan、Jack/Aiden、Sue/Serena、Anna/Vivian。Ryan/Aiden 是英语预设，其他声音的口音和自然度需结合试听判断。
 
 音频已检查完整性，并用本地语音识别辅助核对台词。识别差异需结合后续分段检查和修正记录查看，ASR 不代表听感评价。正式 WAV、角色表和脚本随 Git 提交，逐句缓存与本地校验报告不上传。旧 Kokoro 成品、历史试听和对应程序已清理。模型和 Python 环境位于用户目录，生成无需 API key，不使用 ffmpeg。
+
+## 扩展声音表：5 男 + 4 女
+
+现在可按角色选择全部 9 个预设，模板见 [roles-template.json](../skills/nce1-lesson-audio/assets/roles-template.json)。
+
+- 男声：Ryan、Aiden、Uncle_Fu、Dylan、Eric。
+- 女声：Serena、Vivian、Ono_Anna、Sohee。
+
+[九种声音对比](examples/nine-voices.wav)使用相同的问句和回答；播放顺序、时间位置见 [声音索引](examples/voices.md)。新声音的英文口音和听感需要试听判断，优先保证清楚自然。后续人物多的课文会按人物建立固定分配，并可用角色指令补充老师、学生、店员等说话风格；风格变化不等于新的独立音色。

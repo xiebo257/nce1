@@ -101,19 +101,30 @@ And a section script:
 
 `roles_file` is relative to the script. An inline `roles` object is also supported, but not together with `roles_file`. Role instructions are prepended to sentence instructions. The helper rejects undefined roles and conflicting speaker overrides. Existing direct `speaker` segments remain supported. Per-segment `generation_seed` and `generation_temperature` preserve repairs. Only `text` is spoken.
 
-Available presets in the installed model:
+The reusable cast pool has **five male voices and four female voices**. Read [assets/roles-template.json](assets/roles-template.json) when preparing a lesson with multiple characters; copy only the required entries to that lesson's `roles.json`, rename IDs to actual character names, and preserve metadata about original language.
 
-| Presets | Voice group | Original language |
-| --- | --- | --- |
-| Ryan, Aiden | Male | English |
-| Serena, Vivian | Female | Chinese |
-| Uncle_Fu, Dylan, Eric | Male | Chinese |
-| Ono_Anna | Female | Japanese |
-| Sohee | Female | Korean |
+| Template role | Preset | Group | Original language |
+| --- | --- | --- | --- |
+| man_1 | Ryan | Male | English |
+| man_2 | Aiden | Male | English |
+| man_3 | Uncle_Fu | Male | Chinese |
+| man_4 | Dylan | Male | Chinese, Beijing dialect preset |
+| man_5 | Eric | Male | Chinese, Sichuan dialect preset |
+| woman_1 | Serena | Female | Chinese |
+| woman_2 | Vivian | Female | Chinese |
+| woman_3 | Ono_Anna | Female | Japanese |
+| woman_4 | Sohee | Female | Korean |
 
-Start with Ryan/Aiden and Serena/Vivian for two male and two female characters. Additional presets can be tested when a lesson needs more distinct voices. Non-English presets can synthesize English, but do not assume their accent is native American. Instructions can adjust delivery; they do not create unlimited distinct voice identities. Do not add characters absent from the lesson. A narrator may share a preset when clearly separated from dialogue.
+Cast allocation:
 
-The current four-character example is `audio/scripts/examples/four-roles.json`, rendered to `audio/examples/four-roles.wav`. Its roles are Tom/Ryan, Jack/Aiden, Sue/Serena, Anna/Vivian. Additional voices have not yet received learner listening approval; report that distinction without making approval a prerequisite to requested generation.
+- List distinct characters, their source gender when known, and relationships before assigning voices. Use separate presets for characters speaking in the same scene whenever possible. Do not stop at two voices per gender when more characters are present.
+- Keep the existing accepted Ryan/Serena pairing for the first lesson. For new scenes, prefer Ryan/Aiden for English male voices and Serena/Vivian as the established female options; draw additional actors from the pool as needed. Select based on actual sample clarity, not the preset's name.
+- Record a stable delivery style in a role's `instructions` when helpful: calm teacher, friendly shop assistant, curious student, or polite customer. Sentence instructions then express the immediate question or response. These are delivery directions, not additional independent voices or guaranteed age changes. Avoid exaggerated acting and artificial pitch shifts.
+- Keep the same character's speaker and general delivery consistent across lesson, practice, and grammar. For recurring named characters, reuse an established mapping from earlier lessons unless there is a reason to change.
+- Non-English presets can synthesize English; test their accent and clarity rather than assuming a native American accent. Do not use an unclear voice solely to fill all nine slots. This model has nine preset identities, not unlimited independent voices; if a scene exceeds the usable pool, explain the limitation and choose another model or explicitly plan scene-separated reuse.
+- A narrator may share a preset when clearly separated from dialogue. Do not invent extra characters just to use more voices, and never read role labels.
+
+The nine-preset comparison script is `audio/scripts/examples/nine-voices.json`, rendered to `audio/examples/nine-voices.wav`; its sequence and timestamps are documented in `audio/examples/voices.md`. Every preset reads identical question and answer lines to make comparison easier. The original four-character scene remains at `audio/examples/four-roles.wav` as a dialogue example. New presets are candidates, not learner-approved native American voices; do not make new approval a prerequisite to requested generation.
 
 ## Generate with Qwen3-TTS
 
