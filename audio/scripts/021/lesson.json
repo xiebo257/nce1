@@ -1,0 +1,213 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-021.html",
+  "source_items": 1,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 21.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 1338518594,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "A man asks Jane for a book.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 2069803031,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Which book does the man want?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "lesson-question",
+      "section": "lesson",
+      "generation_seed": 1288651957,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "Give me a book please, Jane.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-1",
+      "section": "dialogue",
+      "generation_seed": 29400051,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "Which book?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-2",
+      "section": "dialogue",
+      "generation_seed": 1023743462,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "This one?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-3",
+      "section": "dialogue",
+      "generation_seed": 1425693842,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "No, not that one. The red one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-4",
+      "section": "dialogue",
+      "generation_seed": 1186770935,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "This one?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-5",
+      "section": "dialogue",
+      "generation_seed": 1425693842,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "Yes, please.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-6",
+      "section": "dialogue",
+      "generation_seed": 608443455,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "Here you are.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-7",
+      "section": "dialogue",
+      "generation_seed": 1024812940,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "Thank you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-8",
+      "section": "dialogue",
+      "generation_seed": 438427749,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "He wants the red book.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-question",
+      "section": "reading-answer",
+      "generation_seed": 422388680,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Give me a book, please. This is a request.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "lesson-note-1",
+      "section": "notes",
+      "supplemental": true,
+      "generation_seed": 3443185,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Could you give me a book, please? This is a softer way to ask in everyday conversation.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "lesson-note-2",
+      "section": "notes",
+      "supplemental": true,
+      "generation_seed": 206025321,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Which book? This one? Here, one stands for book.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "lesson-note-3",
+      "section": "notes",
+      "supplemental": true,
+      "generation_seed": 1542662312,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "give. Could you give me a hand?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-give",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "give",
+      "generation_seed": 434619799,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "one. I'll take the blue one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-one",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "one",
+      "generation_seed": 251579137,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "which. Which one do you prefer?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-which",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "which",
+      "generation_seed": 1020035246,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "give",
+    "one",
+    "which"
+  ]
+}

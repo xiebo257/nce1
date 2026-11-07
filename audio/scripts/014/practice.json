@@ -1,0 +1,373 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-014.html",
+  "source_items": 16,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 14. Practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "practice",
+      "generation_seed": 391746449,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "These are sample answers. Use your own information when you practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "A. About you",
+      "generation_seed": 1000780972,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour is your watch?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-a-1",
+      "section": "A. About you",
+      "generation_seed": 1390711453,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "My watch is black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-1",
+      "section": "A. About you",
+      "model_response": true,
+      "generation_seed": 696096601,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour is your English book?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-a-2",
+      "section": "A. About you",
+      "generation_seed": 1768537346,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "My English book is yellow and green.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-2",
+      "section": "A. About you",
+      "model_response": true,
+      "generation_seed": 1216664579,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour is your hair?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-a-3",
+      "section": "A. About you",
+      "generation_seed": 1854583145,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "My hair's brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-3",
+      "section": "A. About you",
+      "model_response": true,
+      "generation_seed": 632679595,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your shirt or blouse?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "practice-a-4",
+      "section": "A. About you",
+      "generation_seed": 2000617844,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "My shirt's white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-4",
+      "section": "A. About you",
+      "model_response": true,
+      "generation_seed": 169086904,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "B. Questions and answers",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour is his new car?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-1",
+      "section": "B. Questions and answers",
+      "generation_seed": 322501962,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-1",
+      "section": "B. Questions and answers",
+      "generation_seed": 1577364604,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Whose is this red case?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-2",
+      "section": "B. Questions and answers",
+      "generation_seed": 997736167,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's my red case.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-2",
+      "section": "B. Questions and answers",
+      "generation_seed": 1839683755,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's her job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-3",
+      "section": "B. Questions and answers",
+      "generation_seed": 1278825573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's a nurse.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-3",
+      "section": "B. Questions and answers",
+      "generation_seed": 1813456615,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What nationality is she?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-4",
+      "section": "B. Questions and answers",
+      "generation_seed": 1968573331,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's Korean.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-4",
+      "section": "B. Questions and answers",
+      "generation_seed": 1776149664,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "How are you?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-5",
+      "section": "B. Questions and answers",
+      "generation_seed": 1057261068,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm very well, thanks.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-5",
+      "section": "B. Questions and answers",
+      "generation_seed": 1643038882,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What make is her car?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-6",
+      "section": "B. Questions and answers",
+      "generation_seed": 2112208289,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's a Volvo.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-6",
+      "section": "B. Questions and answers",
+      "generation_seed": 764697480,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "How do you do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-7",
+      "section": "B. Questions and answers",
+      "generation_seed": 835112902,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "How do you do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-7",
+      "section": "B. Questions and answers",
+      "generation_seed": 1299824621,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your name?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "practice-b-8",
+      "section": "B. Questions and answers",
+      "generation_seed": 1091658128,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Tim Brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-b-8",
+      "section": "B. Questions and answers",
+      "generation_seed": 1883835267,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "C. Structure",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Whose is that black case?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-1",
+      "section": "C. Structure",
+      "generation_seed": 1740709110,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The black case is Anna's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-1",
+      "section": "C. Structure",
+      "generation_seed": 675225868,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Whose is the blue shirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-2",
+      "section": "C. Structure",
+      "generation_seed": 106312585,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The blue shirt is my brother's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-2",
+      "section": "C. Structure",
+      "generation_seed": 723732495,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Whose is this red pencil?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-3",
+      "section": "C. Structure",
+      "generation_seed": 63989549,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This red pencil is Steven's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-3",
+      "section": "C. Structure",
+      "generation_seed": 688337729,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Whose is that green tie?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-4",
+      "section": "C. Structure",
+      "generation_seed": 169428171,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "That green tie is my father's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-4",
+      "section": "C. Structure",
+      "generation_seed": 1733798353,
+      "generation_temperature": 0.65
+    }
+  ]
+}

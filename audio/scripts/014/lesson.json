@@ -1,0 +1,934 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-014.html",
+  "source_items": 29,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 14.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 1386542106,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Look at the pictures. Listen to the cues and practice the model sentences.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Picture prompts",
+      "generation_seed": 1782157705,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "umbrella , black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-20",
+      "section": "Picture prompts",
+      "generation_seed": 716590675,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your umbrella?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-20",
+      "section": "Picture prompts",
+      "generation_seed": 1436489207,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-20",
+      "section": "Picture prompts",
+      "generation_seed": 1577364604,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "car , blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-30",
+      "section": "Picture prompts",
+      "generation_seed": 1349577173,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your car?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-30",
+      "section": "Picture prompts",
+      "generation_seed": 1870445514,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-30",
+      "section": "Picture prompts",
+      "generation_seed": 65169453,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "A white shirt.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-40",
+      "section": "Picture prompts",
+      "generation_seed": 2071291272,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your shirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-40",
+      "section": "Picture prompts",
+      "generation_seed": 613952104,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-40",
+      "section": "Picture prompts",
+      "generation_seed": 1708517540,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "coat , grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-50",
+      "section": "Picture prompts",
+      "generation_seed": 1512362006,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your coat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-50",
+      "section": "Picture prompts",
+      "generation_seed": 731366290,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-50",
+      "section": "Picture prompts",
+      "generation_seed": 1265778429,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "case , brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-60",
+      "section": "Picture prompts",
+      "generation_seed": 2017491433,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your case?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-60",
+      "section": "Picture prompts",
+      "generation_seed": 668369276,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-60",
+      "section": "Picture prompts",
+      "generation_seed": 1872964063,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "carpet , red.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-70",
+      "section": "Picture prompts",
+      "generation_seed": 1843683912,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your carpet?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-70",
+      "section": "Picture prompts",
+      "generation_seed": 722721608,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's red.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-70",
+      "section": "Picture prompts",
+      "generation_seed": 109038834,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "blouse , yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-80",
+      "section": "Picture prompts",
+      "generation_seed": 364347526,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your blouse?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-80",
+      "section": "Picture prompts",
+      "generation_seed": 1326330062,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-80",
+      "section": "Picture prompts",
+      "generation_seed": 870488148,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "An orange tie.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-90",
+      "section": "Picture prompts",
+      "generation_seed": 2113673373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your tie?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-90",
+      "section": "Picture prompts",
+      "generation_seed": 453470122,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's orange.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-90",
+      "section": "Picture prompts",
+      "generation_seed": 102209733,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "A gray and black hat.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-100",
+      "section": "Picture prompts",
+      "generation_seed": 1842539836,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your hat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-100",
+      "section": "Picture prompts",
+      "generation_seed": 300766603,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's grey and black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-100",
+      "section": "Picture prompts",
+      "generation_seed": 1797904357,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "dog , brown and white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-picture-101",
+      "section": "Picture prompts",
+      "generation_seed": 750533219,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your dog?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-picture-101",
+      "section": "Picture prompts",
+      "generation_seed": 1141111100,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's brown and white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-101",
+      "section": "Picture prompts",
+      "generation_seed": 839964485,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "case. My case is too heavy to carry.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-case",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "case",
+      "generation_seed": 2089346628,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "For luggage, suitcase is often clearer in American English.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "vocabulary-case",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "case",
+      "generation_seed": 654880894,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "I packed my suitcase last night.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "vocabulary-case",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "case",
+      "generation_seed": 719212557,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "carpet. We need to clean the carpet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-carpet",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "carpet",
+      "generation_seed": 351620949,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "dog. I'm taking the dog for a walk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-dog",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "dog",
+      "generation_seed": 663197442,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is Stella. This is her handbag.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-a-example",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 1212193347,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is Stella's handbag.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-a-example",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 2084176917,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is Paul. This is his car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-a-1",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 136183742,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is Paul's car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-a-1",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 1923111339,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is Sophie. This is her coat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-a-2",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 1929005434,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is Sophie's coat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-a-2",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 1564045131,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is Helen. This is her dog.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-a-3",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 2131881142,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is Helen's dog.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-a-3",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 581978924,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is my father. This is his suit.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-a-4",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 1992876002,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is my father's suit.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-a-4",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 2108356653,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is my daughter. This is her dress.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-a-5",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 1649030324,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is my daughter's dress.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-a-5",
+      "section": "Written exercise A · Join the sentences",
+      "generation_seed": 2013026343,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Steven, umbrella, black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-example",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 794848586,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Steven's umbrella?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-example",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 437910028,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His umbrella's black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-example",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1621941037,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Steven, car, blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1307240680,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Steven's car?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1505296154,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His car's blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-1",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 273956744,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Tim, a white shirt.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 887966798,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Tim's shirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 938351670,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His shirt's white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-2",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1802561305,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Sophie, coat, grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 401506793,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Sophie's coat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 849839362,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her coat's grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-3",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1741417916,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Mrs. White, carpet, red.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1398057655,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Mrs. White's carpet?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 177062173,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her carpet's red.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-4",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 699315342,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Dave, an orange tie.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 153070328,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Dave's tie?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 838296666,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His tie's orange.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-5",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 639460600,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Steven, hat, grey and black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-6",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1025273661,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Steven's hat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-6",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 481351526,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His hat's grey and black.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-6",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 118286783,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Helen, a brown and white dog.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-7",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1747936004,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Helen's dog?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-7",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 757483680,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her dog's brown and white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-7",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 816485573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Hans, pen, green.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-8",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 224860765,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Hans's pen?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-8",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 918518488,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His pen's green.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-8",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 247262552,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Luming, suit, grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-9",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 437767771,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What color is Luming's suit?",
+      "instructions": "Ask a neutral information question with a gentle falling finish.  Speak each word clearly and naturally, preserving the nouns and possessive endings. Read the full question clearly, including the possessive ending on Luming's.",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-9",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 626566873,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "His suit's grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-9",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1125342839,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Stella, pencil, blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-10",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 988392277,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Stella's pencil?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-10",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 113349313,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her pencil's blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-10",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 970868818,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Xiaohui, handbag, brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-11",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1195703318,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Xiaohui's handbag?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-11",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 541629968,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her handbag's brown.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Speak each word clearly and naturally, preserving the nouns and possessive endings.",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-11",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1548676985,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Sophie, skirt, yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "lesson-b-12",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 6661478,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Sophie's skirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.4,
+      "source_item": "lesson-b-12",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 552042305,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her skirt's yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-b-12",
+      "section": "Written exercise B · Ask about colours",
+      "generation_seed": 1182670979,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "case",
+    "carpet",
+    "dog"
+  ]
+}

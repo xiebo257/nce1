@@ -1,0 +1,701 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-004.html",
+  "source_items": 30,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 4.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 344511345,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Practice short answers. Either yes or no is possible here. These are model responses.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Picture questions",
+      "generation_seed": 1259386497,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your pen?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-1",
+      "section": "Picture questions",
+      "generation_seed": 1208844924,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-1",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your pencil?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-2",
+      "section": "Picture questions",
+      "generation_seed": 1230067695,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-2",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 530604592,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your book?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-3",
+      "section": "Picture questions",
+      "generation_seed": 1275870173,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-3",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your watch?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-4",
+      "section": "Picture questions",
+      "generation_seed": 752273518,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-4",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 933763558,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your coat?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-5",
+      "section": "Picture questions",
+      "generation_seed": 463126661,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-5",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your dress?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-6",
+      "section": "Picture questions",
+      "generation_seed": 533187191,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-6",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 530604592,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your skirt?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-7",
+      "section": "Picture questions",
+      "generation_seed": 1778218316,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-7",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 622260978,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your shirt?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-8",
+      "section": "Picture questions",
+      "generation_seed": 1520835797,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-8",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 933763558,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your car?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-9",
+      "section": "Picture questions",
+      "generation_seed": 973607967,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-9",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your house?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-10",
+      "section": "Picture questions",
+      "generation_seed": 743114846,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-10",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 530604592,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your suit?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-11",
+      "section": "Picture questions",
+      "generation_seed": 1983312587,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-11",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your school?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-12",
+      "section": "Picture questions",
+      "generation_seed": 2007502674,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-12",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 530604592,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your teacher?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-13",
+      "section": "Picture questions",
+      "generation_seed": 631148381,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-13",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "female_prompt",
+      "text": "Is this your son?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-14",
+      "section": "Picture questions",
+      "generation_seed": 241727839,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it isn't.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-14",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 530604592,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your daughter?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-picture-15",
+      "section": "Picture questions",
+      "generation_seed": 1891540932,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "Yes, it is.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-picture-15",
+      "section": "Picture questions",
+      "model_response": true,
+      "generation_seed": 818106930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "suit. He wore a suit to the interview.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-suit",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "suit",
+      "generation_seed": 1716837894,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "school. The school is close to our house.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-school",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "school",
+      "generation_seed": 1823111657,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "teacher. Our teacher explains things clearly.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-teacher",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "teacher",
+      "generation_seed": 2136135455,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "son. My son starts school next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-son",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "son",
+      "generation_seed": 56873181,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "daughter. Her daughter loves reading.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-daughter",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "daughter",
+      "generation_seed": 773188000,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen and copy each complete sentence. Pause whenever you need more time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise A · Copy the sentences",
+      "generation_seed": 321106125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "This is not my umbrella.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "lesson-copy-1",
+      "section": "Written exercise A · Copy the sentences",
+      "generation_seed": 1990122785,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Sorry, sir.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "lesson-copy-2",
+      "section": "Written exercise A · Copy the sentences",
+      "generation_seed": 378223285,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your umbrella?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "lesson-copy-3",
+      "section": "Written exercise A · Copy the sentences",
+      "generation_seed": 556775460,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "No, it isn't!",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "lesson-copy-4",
+      "section": "Written exercise A · Copy the sentences",
+      "generation_seed": 1835760845,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your umbrella?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-example",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 556775460,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my umbrella. It's your umbrella.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-example",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1995978367,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your pen?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-1",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1208844924,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my pen. It's your pen.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-1",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1913738689,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your pencil?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-2",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1230067695,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my pencil. It's your pencil.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-2",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 2111774345,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your book?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-3",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 365141909,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my book. It's your book.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-3",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 2137027243,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your watch?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-4",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 917590847,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my watch. It's your watch.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-4",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 912839625,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your coat?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-5",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 463126661,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my coat. It's your coat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-5",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1021812603,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your dress?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-6",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 750911408,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my dress. It's your dress.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-6",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 562722616,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your skirt?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-7",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 2044588540,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my skirt. It's your skirt.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-7",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 311905494,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your shirt?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-8",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1520835797,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my shirt. It's your shirt.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-8",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 12491075,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your car?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-9",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 973607967,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my car. It's your car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-9",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 1924105167,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is this your house?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.6,
+      "source_item": "lesson-written-b-10",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 743114846,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No. It isn't my house. It's your house.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-written-b-10",
+      "section": "Written exercise B · Answer the questions",
+      "generation_seed": 68494791,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "suit",
+    "school",
+    "teacher",
+    "son",
+    "daughter"
+  ]
+}

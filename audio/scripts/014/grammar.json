@@ -1,0 +1,599 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-014.html",
+  "source_items": 28,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 14. Grammar practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "grammar",
+      "generation_seed": 831338469,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the statement. Make the matching question, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "I. Ask about colours",
+      "generation_seed": 1374430565,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "your carpet. It's green.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-1",
+      "section": "I. Ask about colours",
+      "generation_seed": 942005165,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's your carpet?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-1",
+      "section": "I. Ask about colours",
+      "generation_seed": 1315703728,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Paul's tie. His tie's blue and yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-2",
+      "section": "I. Ask about colours",
+      "generation_seed": 1268356355,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's Paul's tie?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-2",
+      "section": "I. Ask about colours",
+      "generation_seed": 1936757629,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "your brother's car. It's black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-3",
+      "section": "I. Ask about colours",
+      "generation_seed": 179369847,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's your brother's car?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-3",
+      "section": "I. Ask about colours",
+      "generation_seed": 2143766537,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "that old man's hair. His hair's grey.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-4",
+      "section": "I. Ask about colours",
+      "generation_seed": 51347132,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's that old man's hair?",
+      "instructions": "Ask a neutral information question with a gentle falling finish.  Keep possessive s endings audible and pronounce the final noun clearly, at a natural pace.",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-4",
+      "section": "I. Ask about colours",
+      "generation_seed": 1646432939,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Sophie's hat. Her hat's orange.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-5",
+      "section": "I. Ask about colours",
+      "generation_seed": 2010983349,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's Sophie's hat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-5",
+      "section": "I. Ask about colours",
+      "generation_seed": 1498934744,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "your son's dog. It's black and white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-6",
+      "section": "I. Ask about colours",
+      "generation_seed": 1715555733,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's your son's dog?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-6",
+      "section": "I. Ask about colours",
+      "generation_seed": 1286098575,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "My pencil's yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-7",
+      "section": "I. Ask about colours",
+      "generation_seed": 1569243632,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's your pencil?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-7",
+      "section": "I. Ask about colours",
+      "generation_seed": 660012347,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Her handbag's red.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-8",
+      "section": "I. Ask about colours",
+      "generation_seed": 1885657746,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's her handbag?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-8",
+      "section": "I. Ask about colours",
+      "generation_seed": 522807495,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "His case is brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-9",
+      "section": "I. Ask about colours",
+      "generation_seed": 1613087620,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's his case?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-9",
+      "section": "I. Ask about colours",
+      "generation_seed": 921089593,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Stella's coat's blue.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-10",
+      "section": "I. Ask about colours",
+      "generation_seed": 1671031427,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's Stella's coat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-10",
+      "section": "I. Ask about colours",
+      "generation_seed": 1933316563,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "My shirt's white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-11",
+      "section": "I. Ask about colours",
+      "generation_seed": 678488912,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's your shirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-11",
+      "section": "I. Ask about colours",
+      "generation_seed": 795331754,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Anna's skirt's brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-i-12",
+      "section": "I. Ask about colours",
+      "generation_seed": 948309974,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "What colour's Anna's skirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-12",
+      "section": "I. Ask about colours",
+      "generation_seed": 290084468,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "II. The same colour",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Naoko's skirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-1a",
+      "section": "II. The same colour",
+      "generation_seed": 1346625817,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's red.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1a",
+      "section": "II. The same colour",
+      "generation_seed": 109038834,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's her sister's skirt?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-1b",
+      "section": "II. The same colour",
+      "generation_seed": 1409731025,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's red, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1b",
+      "section": "II. The same colour",
+      "generation_seed": 1162909138,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your mother's blouse?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-2a",
+      "section": "II. The same colour",
+      "generation_seed": 1751632629,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's brown.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2a",
+      "section": "II. The same colour",
+      "generation_seed": 1872964063,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your blouse?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-2b",
+      "section": "II. The same colour",
+      "generation_seed": 1326330062,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's brown, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2b",
+      "section": "II. The same colour",
+      "generation_seed": 2014197148,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Tim's case?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-3a",
+      "section": "II. The same colour",
+      "generation_seed": 824205989,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3a",
+      "section": "II. The same colour",
+      "generation_seed": 1577364604,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's his brother's case?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-3b",
+      "section": "II. The same colour",
+      "generation_seed": 180224384,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's black, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3b",
+      "section": "II. The same colour",
+      "generation_seed": 1320916372,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What color is Ann's hat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish.  Read color is as two words and clearly pronounce the owner and the object.",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-4a",
+      "section": "II. The same colour",
+      "generation_seed": 1372503917,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's grey and black.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4a",
+      "section": "II. The same colour",
+      "generation_seed": 1797904357,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What color is her sister's hat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish.  Keep possessive s endings audible and pronounce the final noun clearly, at a natural pace. Read color is as two words and clearly pronounce the owner and the object.",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-4b",
+      "section": "II. The same colour",
+      "generation_seed": 1395477912,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's grey and black, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4b",
+      "section": "II. The same colour",
+      "generation_seed": 651812869,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's that policeman's suit?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-5a",
+      "section": "II. The same colour",
+      "generation_seed": 859216504,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's green.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5a",
+      "section": "II. The same colour",
+      "generation_seed": 276311266,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's that policewoman's suit?",
+      "instructions": "Ask a neutral information question with a gentle falling finish.  Keep possessive s endings audible and pronounce the final noun clearly, at a natural pace.",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-5b",
+      "section": "II. The same colour",
+      "generation_seed": 1912888790,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's green, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5b",
+      "section": "II. The same colour",
+      "generation_seed": 1337139626,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your dog?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-6a",
+      "section": "II. The same colour",
+      "generation_seed": 1141111100,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's brown and white.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6a",
+      "section": "II. The same colour",
+      "generation_seed": 839964485,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's your cat?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-6b",
+      "section": "II. The same colour",
+      "generation_seed": 2015416627,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's brown and white, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6b",
+      "section": "II. The same colour",
+      "generation_seed": 1666874943,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Steven's carpet?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-7a",
+      "section": "II. The same colour",
+      "generation_seed": 205257318,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's orange.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7a",
+      "section": "II. The same colour",
+      "generation_seed": 102209733,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What color is his tie?",
+      "instructions": "Ask a neutral information question with a gentle falling finish.  Read color is as two words and clearly pronounce the owner and the object.",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-7b",
+      "section": "II. The same colour",
+      "generation_seed": 663196045,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's orange, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7b",
+      "section": "II. The same colour",
+      "generation_seed": 1329082664,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's Helen's umbrella?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-8a",
+      "section": "II. The same colour",
+      "generation_seed": 721807267,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's yellow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8a",
+      "section": "II. The same colour",
+      "generation_seed": 870488148,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What colour's her handbag?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-8b",
+      "section": "II. The same colour",
+      "generation_seed": 1371490861,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's the same colour. It's yellow, too.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8b",
+      "section": "II. The same colour",
+      "generation_seed": 204091805,
+      "generation_temperature": 0.65
+    }
+  ]
+}

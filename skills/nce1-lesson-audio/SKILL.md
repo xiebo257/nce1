@@ -144,6 +144,23 @@ Repeat with `practice.json` → `001-2-practice.wav` and `grammar.json` → `001
 
 For a fresh setup, create a separate Python 3.11 environment and install `mlx-audio==0.6.4` plus `soundfile`. Download `mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit`, including `speech_tokenizer/` (approximately 2.3 GB total). ModelScope hosts this repository and worked when HF mirror large-file downloads stalled. Verify sizes and SHA256 against repository metadata, then load the local directory. No API key, ffmpeg, macOS say, or pitch shifting is needed.
 
+## Batch generation
+
+For several lessons, inventory every source HTML section and prepare reviewed JSON scripts before rendering. Include fixed dialogue lines outside answer fields (for example, `section-intro` paragraphs); answer-field coverage alone does not prove a complete conversation. Fill missing words into complete sentences, choose and identify model responses for personal questions, and keep both questions with the same speaker when one turn contains consecutive questions. Read IPA sound groups through whole-word examples rather than spelling out the symbols. If a lesson has no New words section, preserve its actual vocabulary or word-form review in the notes instead of inventing a new textbook section.
+
+Use `scripts/render_qwen3_batch.py` to load the local model once and render a range of prepared lessons:
+
+```sh
+HF_HUB_OFFLINE=1 /Users/admin/.local/share/nce1-qwen3-tts/bin/python \
+  skills/nce1-lesson-audio/scripts/render_qwen3_batch.py \
+  --start 4 --end 24 \
+  --model "$HOME/.cache/nce1-models/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit"
+```
+
+The batch helper caches exact text, voice, instructions, model location and generation parameters under ignored `audio/work/speech-cache/`. Re-running resumes through this cache; edited speech gets a new cache key. Effective generation seeds and temperatures are saved in the lesson scripts. Excessively long short sentences are retried up to three times and remaining duration concerns are recorded for review. This check does not detect all wrong words: perform content checks and repair affected segments before delivery. Batch intermediate segment names use three digits.
+
+For connected speech, ask for light reductions of unstressed function words and natural linking at a normal pace. Preserve full forms when an exercise explicitly contrasts them with contractions. A short word plus a natural example in the same generation can be clearer than an unstable isolated word; keep the word audible before its example. Bare numerals can also produce unstable speech: spell out the number and use a brief natural context when needed, such as “That makes five” for a sum. Check number answers separately from digit-by-digit writing cues. If an isolated exercise word remains unclear, use a task-appropriate short sentence such as “The plural is skirts” or “The opposite is cold,” keeping the target answer intact. Do not infer correct linking, pitch, or accent from successful speech recognition.
+
 ## Validation
 
 Check WAV decoding, sample rate, duration, and nonempty finite audio. Review unusually long short sentences, especially outputs at the generation token limit. Regenerate suspicious segments and preserve their selected seed/temperature in the source JSON.

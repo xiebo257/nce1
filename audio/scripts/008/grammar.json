@@ -1,0 +1,759 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-008.html",
+  "source_items": 32,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 8. Grammar practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "grammar",
+      "generation_seed": 536365205,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Complete the items on the page. Pause to try each one, then listen to the completed version.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "I. A or an?",
+      "generation_seed": 625324337,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "My name is Thomas. I am an Italian student. My father is an engineer. My mother is a teacher.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-1",
+      "section": "I. A or an?",
+      "generation_seed": 1385423896,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Here's a new book. It's an English book.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-2",
+      "section": "I. A or an?",
+      "generation_seed": 1154860473,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-3",
+      "section": "I. A or an?",
+      "generation_seed": 323359899,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm a hairdresser.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-3",
+      "section": "I. A or an?",
+      "generation_seed": 622305873,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a policewoman?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-4",
+      "section": "I. A or an?",
+      "generation_seed": 1698662847,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I'm not a policewoman. I'm an air hostess.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-4",
+      "section": "I. A or an?",
+      "generation_seed": 546144557,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is an umbrella. It's an old umbrella.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-5",
+      "section": "I. A or an?",
+      "generation_seed": 1387381508,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is he a mechanic or a taxi driver?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-6",
+      "section": "I. A or an?",
+      "generation_seed": 456349964,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He's a taxi driver.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-6",
+      "section": "I. A or an?",
+      "generation_seed": 1019669491,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's her job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-7",
+      "section": "I. A or an?",
+      "generation_seed": 1278825573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's a keyboard operator.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-7",
+      "section": "I. A or an?",
+      "generation_seed": 612451757,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "This is an English car. It's a Mini.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-8",
+      "section": "I. A or an?",
+      "generation_seed": 2116523101,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a German student or an Italian student?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-9",
+      "section": "I. A or an?",
+      "generation_seed": 900375813,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What make is it?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-10",
+      "section": "I. A or an?",
+      "generation_seed": 1331118044,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It's a Ford.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-10",
+      "section": "I. A or an?",
+      "generation_seed": 1508383667,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "II. Ask and answer",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "your, milkman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-1",
+      "section": "II. Ask and answer",
+      "generation_seed": 1212464327,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1",
+      "section": "II. Ask and answer",
+      "generation_seed": 323359899,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "I'm a milkman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1",
+      "section": "II. Ask and answer",
+      "generation_seed": 1578341153,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "your, engineer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-2",
+      "section": "II. Ask and answer",
+      "generation_seed": 1369785863,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2",
+      "section": "II. Ask and answer",
+      "generation_seed": 323359899,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm an engineer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2",
+      "section": "II. Ask and answer",
+      "generation_seed": 1260321649,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Her, and nurse.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Read both cue words distinctly, with one short pause between them. Do not repeat them.",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-3",
+      "section": "II. Ask and answer",
+      "generation_seed": 897229916,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's her job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3",
+      "section": "II. Ask and answer",
+      "generation_seed": 1278825573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's a nurse.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3",
+      "section": "II. Ask and answer",
+      "generation_seed": 1813456615,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "his, teacher.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-4",
+      "section": "II. Ask and answer",
+      "generation_seed": 638863142,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's his job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4",
+      "section": "II. Ask and answer",
+      "generation_seed": 465549271,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He's a teacher.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4",
+      "section": "II. Ask and answer",
+      "generation_seed": 1160840277,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "his, mechanic.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-5",
+      "section": "II. Ask and answer",
+      "generation_seed": 1851163124,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's his job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5",
+      "section": "II. Ask and answer",
+      "generation_seed": 465549271,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He's a mechanic.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5",
+      "section": "II. Ask and answer",
+      "generation_seed": 1413723341,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "your, postman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-6",
+      "section": "II. Ask and answer",
+      "generation_seed": 1608928659,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6",
+      "section": "II. Ask and answer",
+      "generation_seed": 323359899,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "I'm a postman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6",
+      "section": "II. Ask and answer",
+      "generation_seed": 1969136623,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "your, hairdresser.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-7",
+      "section": "II. Ask and answer",
+      "generation_seed": 479970816,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7",
+      "section": "II. Ask and answer",
+      "generation_seed": 323359899,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm a hairdresser.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7",
+      "section": "II. Ask and answer",
+      "generation_seed": 622305873,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "his, taxi driver.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-8",
+      "section": "II. Ask and answer",
+      "generation_seed": 233039148,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's his job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8",
+      "section": "II. Ask and answer",
+      "generation_seed": 465549271,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He's a taxi driver.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8",
+      "section": "II. Ask and answer",
+      "generation_seed": 1019669491,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "her, keyboard operator.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-9",
+      "section": "II. Ask and answer",
+      "generation_seed": 753236096,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's her job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-9",
+      "section": "II. Ask and answer",
+      "generation_seed": 1278825573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's a keyboard operator.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-9",
+      "section": "II. Ask and answer",
+      "generation_seed": 612451757,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use her and the job air hostess.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Read both cue words distinctly, with one short pause between them. Do not repeat them. Say the occupation air hostess clearly, as two words.",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-10",
+      "section": "II. Ask and answer",
+      "generation_seed": 1394026416,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's her job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-10",
+      "section": "II. Ask and answer",
+      "generation_seed": 1278825573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's an air hostess.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-10",
+      "section": "II. Ask and answer",
+      "generation_seed": 358350489,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "your, policewoman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-11",
+      "section": "II. Ask and answer",
+      "generation_seed": 84248787,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's your job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-11",
+      "section": "II. Ask and answer",
+      "generation_seed": 323359899,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm a policewoman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-11",
+      "section": "II. Ask and answer",
+      "generation_seed": 1062254548,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "her, housewife.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "grammar-ii-12",
+      "section": "II. Ask and answer",
+      "generation_seed": 1014121840,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's her job?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-12",
+      "section": "II. Ask and answer",
+      "generation_seed": 1278825573,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She's a housewife.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-12",
+      "section": "II. Ask and answer",
+      "generation_seed": 248525076,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "III. Answer with the cues",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is he an engineer or a mechanic?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-1",
+      "section": "III. Answer with the cues",
+      "generation_seed": 557290116,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He isn't a mechanic. He's an engineer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-1",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1795454429,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a taxi driver or a mechanic?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-2",
+      "section": "III. Answer with the cues",
+      "generation_seed": 2104208562,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm not a mechanic. I'm a taxi driver.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-2",
+      "section": "III. Answer with the cues",
+      "generation_seed": 591226389,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is she a nurse or a doctor?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-3",
+      "section": "III. Answer with the cues",
+      "generation_seed": 892378079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She isn't a nurse. She's a doctor.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-3",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1006818717,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is he a postman or a milkman?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-4",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1432036764,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He isn't a postman. He's a milkman.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-4",
+      "section": "III. Answer with the cues",
+      "generation_seed": 610353399,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a French teacher or an English teacher?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-5",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1058301544,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm not a French teacher. I'm an English teacher.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-5",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1274960656,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is your sister a nurse or an air hostess?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-6",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1140100073,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She isn't a nurse. She's an air hostess.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-6",
+      "section": "III. Answer with the cues",
+      "generation_seed": 366433988,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Is your teacher German or Swedish?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-7",
+      "section": "III. Answer with the cues",
+      "generation_seed": 166106301,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He isn't Swedish. He's German.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-7",
+      "section": "III. Answer with the cues",
+      "generation_seed": 638480145,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a keyboard operator or a nurse?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-8",
+      "section": "III. Answer with the cues",
+      "generation_seed": 857463804,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm not a nurse. I'm a keyboard operator.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-8",
+      "section": "III. Answer with the cues",
+      "generation_seed": 535661126,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a policeman or a hairdresser?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-9",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1790086491,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "male_answer",
+      "text": "I'm not a policeman. I'm a hairdresser.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-9",
+      "section": "III. Answer with the cues",
+      "generation_seed": 765943284,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Are you a teacher or a student?",
+      "instructions": "Ask a choice question, rising on the first choice and falling on the final choice. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-iii-10",
+      "section": "III. Answer with the cues",
+      "generation_seed": 175716983,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm not a teacher. I'm a student.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-10",
+      "section": "III. Answer with the cues",
+      "generation_seed": 1279338983,
+      "generation_temperature": 0.65
+    }
+  ]
+}

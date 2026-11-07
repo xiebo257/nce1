@@ -1,0 +1,210 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-023.html",
+  "source_items": 1,
+  "notes": "Textbook targets and completed answer keys retained. Contemporary vocabulary examples and usage notes are supplemental. Personal and open picture answers are model responses. Fixed printed dialogue turns are included.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 23.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 1088980620,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "A man asks Jane for some glasses.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 695464507,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Which glasses does the man want?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "lesson-question",
+      "section": "lesson",
+      "generation_seed": 540566572,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "Give me some glasses please, Jane.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-1",
+      "section": "dialogue",
+      "generation_seed": 1278499587,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "Which glasses?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-2",
+      "section": "dialogue",
+      "generation_seed": 49975684,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "These glasses?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-3",
+      "section": "dialogue",
+      "generation_seed": 1416340643,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "No, not those.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-4",
+      "section": "dialogue",
+      "generation_seed": 1783147920,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "The ones on the shelf.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-5",
+      "section": "dialogue",
+      "generation_seed": 1870693359,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "These?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-6",
+      "section": "dialogue",
+      "generation_seed": 1690421036,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "Yes, please.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-7",
+      "section": "dialogue",
+      "generation_seed": 608443455,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "woman",
+      "text": "Here you are.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-8",
+      "section": "dialogue",
+      "generation_seed": 1024812940,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "man",
+      "text": "Thanks.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-9",
+      "section": "dialogue",
+      "generation_seed": 1449687064,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "He wants the glasses on the shelf.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-question",
+      "section": "reading-answer",
+      "generation_seed": 75445100,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Give me some glasses, please. Me tells us who receives the glasses.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "lesson-note-1",
+      "section": "notes",
+      "supplemental": true,
+      "generation_seed": 386240133,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Please give him a book. Can you give her a cup? Give us some water, please. Please give them some pencils.",
+      "instructions": "Speak clearly at a normal pace. Lightly emphasize each object pronoun: him, her, us, them. Keep all four pronouns audible.",
+      "pause_after": 1.1,
+      "source_item": "lesson-note-2",
+      "section": "notes",
+      "supplemental": true,
+      "generation_seed": 286175666,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "narrator",
+      "text": "The ones on the shelf. We use ones to refer to glasses.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Say ones as a plural, preserving its final z sound.",
+      "pause_after": 1.1,
+      "source_item": "lesson-note-3",
+      "section": "notes",
+      "supplemental": true,
+      "generation_seed": 970219922,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "On. For example, your keys are on the table.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Read the vocabulary word on clearly before the example sentence.",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-on",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "on",
+      "generation_seed": 529038722,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "shelf. Put the book back on the shelf.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "vocabulary-shelf",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "shelf",
+      "generation_seed": 1339432388,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "on",
+    "shelf"
+  ]
+}
