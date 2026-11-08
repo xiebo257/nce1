@@ -5,9 +5,13 @@
 | 文件 | 时长（秒） | 片段 | 答题条目 |
 | --- | ---: | ---: | ---: |
 | [071-1-lesson.wav](../../071-1-lesson.wav) | 134.0 | 28 | 1 |
-| [071-2-practice.wav](../../071-2-practice.wav) | 138.8 | 30 | 26 |
+| [071-2-practice.wav](../../071-2-practice.wav) | 133.8 | 27 | 26 |
 | [071-3-gramar.wav](../../071-3-gramar.wav) | 359.9 | 64 | 30 |
 
 词汇：awful, telephone, time, answer, last, phone, again, say
+
+源文补正记录：
+
+- Completed named dialogue from img/lesson-071-practice.jpg. Extra HTML questions follow the textbook dialogue order; merged blank fields retain all source IDs.
 
 角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。
