@@ -1,0 +1,779 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-120.html",
+  "source_items": 40,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 120. Practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "practice",
+      "generation_seed": 358284410,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise A",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "example",
+      "text": "She went home. She typed the letter.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "l120-wa0",
+      "section": "Written exercise A",
+      "generation_seed": 65205437,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "He dropped the vase. He took it into the living room.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wa1",
+      "section": "Written exercise A",
+      "generation_seed": 699713478,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He took it into the living room after he had dropped the vase.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wa1",
+      "section": "Written exercise A",
+      "generation_seed": 1655264092,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "He bought another car. He sold his old one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wa2",
+      "section": "Written exercise A",
+      "generation_seed": 1250151690,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He bought another car after he had sold his old one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wa2",
+      "section": "Written exercise A",
+      "generation_seed": 1274811556,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "He swept the floor. He dusted everything.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wa3",
+      "section": "Written exercise A",
+      "generation_seed": 765051117,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He dusted everything after he had swept the floor.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wa3",
+      "section": "Written exercise A",
+      "generation_seed": 187238377,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise B",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you met him?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb0",
+      "section": "Written exercise B",
+      "generation_seed": 1513754350,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just met him. I had never met him before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb0",
+      "section": "Written exercise B",
+      "generation_seed": 1564719180,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you seen it?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb1",
+      "section": "Written exercise B",
+      "generation_seed": 1237468144,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just seen it. I had never seen it before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb1",
+      "section": "Written exercise B",
+      "generation_seed": 1898869645,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you read it?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb2",
+      "section": "Written exercise B",
+      "generation_seed": 1773588764,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just read it. I had never read it before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb2",
+      "section": "Written exercise B",
+      "generation_seed": 1352316582,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you tried it?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb3",
+      "section": "Written exercise B",
+      "generation_seed": 725988441,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just tried it. I had never tried it before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb3",
+      "section": "Written exercise B",
+      "generation_seed": 706193180,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you been there?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb4",
+      "section": "Written exercise B",
+      "generation_seed": 761068223,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just been there. I had never been there before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb4",
+      "section": "Written exercise B",
+      "generation_seed": 1670874140,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you written a letter in English?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb5",
+      "section": "Written exercise B",
+      "generation_seed": 1061750093,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just written a letter in English. I had never written one before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb5",
+      "section": "Written exercise B",
+      "generation_seed": 930339644,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you watched this programme?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wb6",
+      "section": "Written exercise B",
+      "generation_seed": 1565632256,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have just watched this programme. I had never watched it before.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wb6",
+      "section": "Written exercise B",
+      "generation_seed": 1617623649,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise C",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you sweep the floor?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc0",
+      "section": "Written exercise C",
+      "generation_seed": 893064237,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. She had already swept it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc0",
+      "section": "Written exercise C",
+      "generation_seed": 1289126610,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you paint the bookcase?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc1",
+      "section": "Written exercise C",
+      "generation_seed": 1786637851,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. He had already painted it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc1",
+      "section": "Written exercise C",
+      "generation_seed": 610375208,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you dust the dressing table?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc2",
+      "section": "Written exercise C",
+      "generation_seed": 588755718,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. She had already dusted it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc2",
+      "section": "Written exercise C",
+      "generation_seed": 922532504,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you telephone him?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc3",
+      "section": "Written exercise C",
+      "generation_seed": 235526801,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. You had already telephoned him.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc3",
+      "section": "Written exercise C",
+      "generation_seed": 263297600,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you correct it?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc4",
+      "section": "Written exercise C",
+      "generation_seed": 822824233,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. You had already corrected it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc4",
+      "section": "Written exercise C",
+      "generation_seed": 836987009,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you shut the door?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc5",
+      "section": "Written exercise C",
+      "generation_seed": 182963374,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. They had already shut it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc5",
+      "section": "Written exercise C",
+      "generation_seed": 1026023064,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Why didn't you make the bed?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wc6",
+      "section": "Written exercise C",
+      "generation_seed": 222570824,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "It was too late. She had already made it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wc6",
+      "section": "Written exercise C",
+      "generation_seed": 534962247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise D",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you read the book?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd0",
+      "section": "Written exercise D",
+      "generation_seed": 1600740381,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but I saw the film first. I read the book after I had seen the film.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd0",
+      "section": "Written exercise D",
+      "generation_seed": 1975618892,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you go to the doctor?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd1",
+      "section": "Written exercise D",
+      "generation_seed": 301094985,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but I made an appointment first. I went to the doctor after I had made an appointment.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd1",
+      "section": "Written exercise D",
+      "generation_seed": 1364971227,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did the boss leave the office?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd2",
+      "section": "Written exercise D",
+      "generation_seed": 201623008,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but he finished work first. The boss left the office after he had finished work.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd2",
+      "section": "Written exercise D",
+      "generation_seed": 412712622,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did your wife go out?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd3",
+      "section": "Written exercise D",
+      "generation_seed": 1739324016,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but she finished the housework first. My wife went out after she had finished the housework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd3",
+      "section": "Written exercise D",
+      "generation_seed": 87107767,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did your teacher give you your exercise book?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd4",
+      "section": "Written exercise D",
+      "generation_seed": 172410427,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but he corrected it first. My teacher gave me my exercise book after he had corrected it.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd4",
+      "section": "Written exercise D",
+      "generation_seed": 1050526637,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did your sister go on holiday?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd5",
+      "section": "Written exercise D",
+      "generation_seed": 1038037752,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but she took the examination first. My sister went on holiday after she had taken the examination.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd5",
+      "section": "Written exercise D",
+      "generation_seed": 1758025152,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you buy a new car?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l120-wd6",
+      "section": "Written exercise D",
+      "generation_seed": 1245811197,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, but I sold my old one first. I bought a new car after I had sold my old one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-wd6",
+      "section": "Written exercise D",
+      "generation_seed": 1405961908,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Complete the items on the page. Pause to try each one, then listen to the completed version.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Practice A: Was doing, had done and did",
+      "generation_seed": 625324337,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We had already left the house when the postman arrived.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa1",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1155290325,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She had already heard the news before her friend told her.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa2",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 2062766347,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He cut himself while he was shaving .",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa3",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1876280099,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He had already cut himself once when he cut himself again!",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa4",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 489345386,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He asked for a glass of beer, but they had drunk all of it!",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa5",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 118509747,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The girl was joking when she said there was no milk left.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa6",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1257721996,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The man got on the bus and then the conductor asked him for his fare.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa7",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1223497336,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "When I visited them, they were watching television.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa8",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1244200882,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We heard a noise and ran away .",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa9",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1579745348,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They went home when they had spent all their money.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l120-pa10",
+      "section": "Practice A: Was doing, had done and did",
+      "source_items": [],
+      "generation_seed": 1741489090,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Practice B: When and after",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I sat down and read a book. plus I had finished my homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-pb1",
+      "section": "Practice B: When and after",
+      "generation_seed": 142432681,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I sat down and read a book after I had finished my homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-pb1",
+      "section": "Practice B: When and after",
+      "generation_seed": 620925153,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "She had already heard the news. plus Her friend telephoned her.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-pb2",
+      "section": "Practice B: When and after",
+      "generation_seed": 1919081318,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Her friend telephoned her after she had already heard the news.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-pb2",
+      "section": "Practice B: When and after",
+      "generation_seed": 1747629862,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I got there. plus They had eaten everything!",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-pb3",
+      "section": "Practice B: When and after",
+      "generation_seed": 489565018,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "When I got there, they had eaten everything!",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-pb3",
+      "section": "Practice B: When and after",
+      "generation_seed": 1546540822,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They had already finished the job. plus We arrived.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-pb4",
+      "section": "Practice B: When and after",
+      "generation_seed": 1428203148,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "When we arrived, they had already finished the job.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-pb4",
+      "section": "Practice B: When and after",
+      "generation_seed": 878902861,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "She arrived at the station. plus The train had left.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l120-pb5",
+      "section": "Practice B: When and after",
+      "generation_seed": 1864709502,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "When she arrived at the station, the train had left.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l120-pb5",
+      "section": "Practice B: When and after",
+      "generation_seed": 199471888,
+      "generation_temperature": 0.65
+    }
+  ]
+}

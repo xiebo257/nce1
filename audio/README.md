@@ -123,6 +123,8 @@
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 118 | What were you doing? 你那时正在做什么？ | [0:29](118-1-lesson.wav) | [4:59](118-2-practice.wav) | [3:44](118-3-gramar.wav) | [脚本](scripts/118/README.md) |
 | 119 | A true story 一个真实的故事 | [2:27](119-1-lesson.wav) | [2:34](119-2-practice.wav) | [4:36](119-3-gramar.wav) | [脚本](scripts/119/README.md) |
+| 120 | It had already happened. 事情已经发生了。 | [0:26](120-1-lesson.wav) | [6:49](120-2-practice.wav) | [4:13](120-3-gramar.wav) | [脚本](scripts/120/README.md) |
+| 121 | The man in a hat 戴帽子的男士 | [1:52](121-1-lesson.wav) | [2:09](121-2-practice.wav) | [3:38](121-3-gramar.wav) | [脚本](scripts/121/README.md) |
 | 122 | Who (whom), which and that 关系代词 | [1:19](122-1-lesson.wav) | [7:23](122-2-practice.wav) | [3:37](122-3-gramar.wav) | [脚本](scripts/122/README.md) |
 | 123 | A trip to Australia 澳大利亚之行 | [2:00](123-1-lesson.wav) | [1:54](123-2-practice.wav) | [3:21](123-3-gramar.wav) | [脚本](scripts/123/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
