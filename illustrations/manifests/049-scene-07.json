@@ -1,0 +1,31 @@
+{
+  "slot": "scene-07",
+  "prompt": "Exactly 1 people appear in the entire image. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is butcher). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: The butcher alone behind the clean shop counter, preparing a plucked chicken on a chopping board. His expression is amused and friendly. Ordinary butcher shop scene, no blood. Characters in this scene: butcher: Man about 45, short combed-back dark hair, light shirt, blue-and-white striped apron. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "butcher"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "butcher"
+  ],
+  "cast_layout": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "lesson": 49,
+  "seed": 49024,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "d51c2cc6c947093bfed008219deb2f165ae177efe4786a67b1ec47baf2fb2fb3",
+  "fingerprint": "3af2b08e368ee0c89a0668f2f8eaa1dbfbb0e4eb7aa122911ea6093ade511864",
+  "sha256": "00604a2c17f6f5990b60cfc93c3ce2aab634e85ce11a4b0f64894614adaa530e",
+  "seconds": 51.28,
+  "peak_mlx_gb": 5.164,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven meat-shop scenes. Mrs Bird retains her cream hat, dark bob, olive coat and brown bag; butcher retains dark hair, white shirt and striped apron. Steak, mince and poultry follow the dialogue. Rejected live chicken in scene 6 and replaced it with plucked poultry on a tray. No extra principal characters or duplicated figures in final images.",
+  "published_sha256": "0abbd0773e725df756048e28fbc32ebed8d25175f436da82e3493f5a7ed89af8"
+}

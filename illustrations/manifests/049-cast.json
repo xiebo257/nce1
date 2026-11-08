@@ -1,0 +1,24 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 2 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. mrs-bird: Woman about 40, shoulder-length dark hair, small cream hat, sage green coat, brown handbag. 2. butcher: Man about 45, short combed-back dark hair, light shirt, blue-and-white striped apron. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "reference": null,
+  "lesson": 49,
+  "seed": 49017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "cba977af1f13da329d2745c000c0de7ce6ec081c16d4b4bbbfffe4b221827db5",
+  "sha256": "d51c2cc6c947093bfed008219deb2f165ae177efe4786a67b1ec47baf2fb2fb3",
+  "seconds": 36.93,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven meat-shop scenes. Mrs Bird retains her cream hat, dark bob, olive coat and brown bag; butcher retains dark hair, white shirt and striped apron. Steak, mince and poultry follow the dialogue. Rejected live chicken in scene 6 and replaced it with plucked poultry on a tray. No extra principal characters or duplicated figures in final images.",
+  "published_sha256": "0d0c6a277e9fed13c1695e0713d9cb28e3496133bdfb7edddb858d91899f94dc"
+}

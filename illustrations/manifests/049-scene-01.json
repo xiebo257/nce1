@@ -1,0 +1,33 @@
+{
+  "slot": "scene-01",
+  "prompt": "Exactly 2 people appear in the entire image. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is mrs-bird, reference 2 is butcher). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Mrs. Bird stands at the butcher’s counter with her handbag while the butcher asks whether she wants meat. Characters in this scene: mrs-bird: Woman about 40, shoulder-length dark hair, small cream hat, sage green coat, brown handbag. butcher: Man about 45, short combed-back dark hair, light shirt, blue-and-white striped apron. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "cast_layout": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "lesson": 49,
+  "seed": 49018,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "d51c2cc6c947093bfed008219deb2f165ae177efe4786a67b1ec47baf2fb2fb3",
+  "fingerprint": "388142ea880c417b8e018ac993a06c9707e978a8d5e490d4974ca61149a9462e",
+  "sha256": "ca7b7fb462bf51b86c7065b3805b9ed1fc1a72db902ca2c1626e29d16328c805",
+  "seconds": 66.16,
+  "peak_mlx_gb": 5.244,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven meat-shop scenes. Mrs Bird retains her cream hat, dark bob, olive coat and brown bag; butcher retains dark hair, white shirt and striped apron. Steak, mince and poultry follow the dialogue. Rejected live chicken in scene 6 and replaced it with plucked poultry on a tray. No extra principal characters or duplicated figures in final images.",
+  "published_sha256": "0d36e3131d1fa249aef35612641fa5da583b08695bf21b86d3bb5c2e88a4f5d2"
+}

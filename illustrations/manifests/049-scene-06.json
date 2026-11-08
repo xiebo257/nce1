@@ -1,0 +1,33 @@
+{
+  "slot": "scene-06",
+  "prompt": "At the butcher counter, the butcher presents a metal tray holding a raw PLUCKED whole chicken, prepared for cooking with pale smooth skin, without feathers or head. Mrs Bird looks at the poultry on the tray. A food-shopping scene inside a butcher shop; the chicken is packaged meat, not a living bird. Exactly 2 people appear. Image 1 is the appearance reference for mrs-bird. Image 2 is the appearance reference for butcher. Keep their same faces, hairstyles and clothing. Appearance: mrs-bird: Woman about 40, shoulder-length dark hair, small cream hat, sage green coat, brown handbag. butcher: Man about 45, short combed-back dark hair, light shirt, blue-and-white striped apron. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "cast_layout": [
+    "mrs-bird",
+    "butcher"
+  ],
+  "lesson": 49,
+  "seed": 49134,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "d51c2cc6c947093bfed008219deb2f165ae177efe4786a67b1ec47baf2fb2fb3",
+  "fingerprint": "a4ab1b590876d70cffbb6c512842ed749c26b90b0505a3c928132b9f692fc110",
+  "sha256": "4d20f38b6e6c03cfad5a45e8a07818e163da3b26d9a08f11ecaaf8f89d525a61",
+  "seconds": 49.26,
+  "peak_mlx_gb": 5.244,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven meat-shop scenes. Mrs Bird retains her cream hat, dark bob, olive coat and brown bag; butcher retains dark hair, white shirt and striped apron. Steak, mince and poultry follow the dialogue. Rejected live chicken in scene 6 and replaced it with plucked poultry on a tray. No extra principal characters or duplicated figures in final images.",
+  "published_sha256": "96abe6d8df06afb23cce90de8f1e62d2036e0740a9c6d6b81f95cc30c388f9f8"
+}
