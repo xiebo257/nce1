@@ -603,7 +603,7 @@
   "images": {
     "lesson-083-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Carol and Sam meet at the door; Tom offers Sam lunch and coffee; the three sit in the living room while Carol and Tom pack their suitcases for a holiday; Sam sits alone on the sofa looking disappointed.",
       "characters": [
         "carol",
@@ -611,11 +611,22 @@
         "sam"
       ],
       "source": "../img/lesson-083-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "An untidy living room with two open suitcases and folded holiday clothes. Carol and Tom pack while their visitor Sam sits on the sofa listening, slightly disappointed that his own holiday was spent at home.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-083/lesson-083-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Going on holiday",
+      "alt": "An untidy living room with two open suitcases and folded holiday clothes.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 83017,
+        "manifest": "illustrations/manifests/083-lesson-083-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

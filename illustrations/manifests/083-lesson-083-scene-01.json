@@ -1,0 +1,28 @@
+{
+  "slot": "lesson-083-scene-01",
+  "prompt": "An untidy living room with two open suitcases and folded holiday clothes. Carol and Tom pack while their visitor Sam sits on the sofa listening, slightly disappointed that his own holiday was spent at home. Exactly 3 people appear.  Appearance: carol: Woman about 33, short blond curls, light blue floral dress. tom: Man about 35, short dark hair, tan jacket, cream shirt. sam: Man about 35, short dark hair and a neat moustache, pale blue patterned shirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "carol",
+    "tom",
+    "sam"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 83,
+  "seed": 83017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "1086065212d1c74b7c4d085e6abe654b809f12e32914ac9c6a0662aa9f0af926",
+  "sha256": "817c45b118fcfd2c2310581c72ff7591df3e1886b72fe9160ef15218e46c8a2e",
+  "seconds": 42.25,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Three people and two open suitcases reviewed. Carol floral dress, Tom tan jacket and moustached Sam patterned shirt have distinct appearances; holiday packing context clear.",
+  "published_sha256": "43fb07ed62f43d6dc305cce6d24654e7eb799ad458aec0d0f7aef092522aad74"
+}
