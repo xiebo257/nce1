@@ -77,6 +77,8 @@
 | 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [4:47](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
+| 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
+| 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:46](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
 | 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:34](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
 | 129 | Seventy miles an hour 时速70英里 | [2:29](129-1-lesson.wav) | [2:24](129-2-practice.wav) | [4:49](129-3-gramar.wav) | [脚本](scripts/129/README.md) |
 
