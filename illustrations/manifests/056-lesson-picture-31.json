@@ -1,0 +1,117 @@
+{
+  "slot": "lesson-picture-31",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. A cat drinks from a dish.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "html/assets/lesson-056/lesson-picture-31.webp",
+  "lesson": 56,
+  "seed": 56025,
+  "width": 384,
+  "height": 256,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "96527bcecc583a8e6012782cd73cd755a567cadd45db9ace11400e18331e5b98",
+  "fingerprint": "9210422757d3f79c80549f7722f7c2b023d417abda73a74a6f4f622524f5d8ec",
+  "sha256": "699775ffd80841f44ac157854765ff8e8e78c037cadd2a6316bb07bd974b99ea",
+  "status": "visually-reviewed",
+  "seconds": 15.204166666666666,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 56901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 12 textbook picture tiles in their EXACT 4-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1280,
+    "height": 672,
+    "steps": 4,
+    "seconds": 182.45,
+    "peak_mlx_gb": 6.628,
+    "input_sha256": "9e911459e6b8dca6761fd63ff6a40c962a9a31c888027b6a5a3ffc7132d94288",
+    "output_sha256": "e278c6108d64212082daf826d0f3b33ba02e409e71cb3196e2e029c12f2e61e6",
+    "slots": [
+      "lesson-picture-01",
+      "lesson-picture-02",
+      "lesson-picture-03",
+      "lesson-picture-04",
+      "lesson-picture-21",
+      "lesson-picture-22",
+      "lesson-picture-23",
+      "lesson-picture-24",
+      "lesson-picture-31",
+      "lesson-picture-32",
+      "lesson-picture-33",
+      "lesson-picture-34"
+    ],
+    "inputs": [
+      {
+        "path": "html/assets/lesson-056/lesson-picture-01.webp",
+        "sha256": "529a825b51414ee7bbf5b75c3983b9ce1dab433fc463904bc189e25a9e2790cf"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-02.webp",
+        "sha256": "3cf273f56949f0afb48db27d0f903472ac742067ea0d573074b9c4d692b1172c"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-03.webp",
+        "sha256": "29e2f1113e622c28b6d12a789d7f6f1eb04a3183165691a41b52b349534421ef"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-04.webp",
+        "sha256": "fd806d75c35e618983bbc4a1f3dc842b08536ce9e1f03dfd52408075584bf703"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-21.webp",
+        "sha256": "c7186bd2758c2d2a7dcb21323fbfb06996d3ddee734f6004928ca7132a3a40c3"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-22.webp",
+        "sha256": "f40f2294966b2f155f6be686a97ea09000f7b6c66f5c67010dec8f3303b3c939"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-23.webp",
+        "sha256": "4b42ca230d99d6df9a1f2e91e69ea3bea1616d9f0ac093cfd52f7de2ffe64384"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-24.webp",
+        "sha256": "ba727e7afd300ac7af40ca54c3c28f33e692621b86e9bae9a2cf92047986d96e"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-31.webp",
+        "sha256": "96527bcecc583a8e6012782cd73cd755a567cadd45db9ace11400e18331e5b98"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-32.webp",
+        "sha256": "0f541a66c144cc7e12e821d38efd7ecaeb850d49ab96293a02a3c81e020a9303"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-33.webp",
+        "sha256": "ad2de00b6a44b4c29025c435e670cf923179012c0f7f6d2f8d2985679a15c631"
+      },
+      {
+        "path": "html/assets/lesson-056/lesson-picture-34.webp",
+        "sha256": "3d0f552f6e55dedfc469f8497a0084297ce021443094933b94068430e2903b14"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v1",
+    "crop_box": [
+      0,
+      448,
+      320,
+      672
+    ],
+    "output_size": [
+      320,
+      224
+    ],
+    "source_atlas_sha256": "9e911459e6b8dca6761fd63ff6a40c962a9a31c888027b6a5a3ffc7132d94288",
+    "color_guide_sha256": "e278c6108d64212082daf826d0f3b33ba02e409e71cb3196e2e029c12f2e61e6",
+    "region_overrides": []
+  },
+  "review_notes": "Twelve source actions preserved using model-guided colors on original line art: cooking, airing bed, shaving, radio, waking, sleeping in beds, washing dishes, typing, cat drinking, television, eating, reading. Raw model incorrectly replaced sleepers with doctors; discarded that redraw and retained original ink. Corrected shaving foam to white and reading shirt to green. Model palette and source provenance retained.",
+  "published_sha256": "1bcf92d900fbf00f0b4ecfa39fa0dca2f84822a05b9d3bbb3748d4029c7dd882"
+}
