@@ -72,15 +72,15 @@
 | 066 | What's the time? | [2:56](066-1-lesson.wav) | [2:32](066-2-practice.wav) | [3:03](066-3-gramar.wav) | [脚本](scripts/066/README.md) |
 | 067 | The weekend | [2:55](067-1-lesson.wav) | [2:32](067-2-practice.wav) | [4:22](067-3-gramar.wav) | [脚本](scripts/067/README.md) |
 | 068 | What's the time? | [2:01](068-1-lesson.wav) | [2:12](068-2-practice.wav) | [2:06](068-3-gramar.wav) | [脚本](scripts/068/README.md) |
-| 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [3:35](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
+| 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [4:15](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
 | 070 | When were they there? | [2:35](070-1-lesson.wav) | [1:39](070-2-practice.wav) | [3:30](070-3-gramar.wav) | [脚本](scripts/070/README.md) |
 | 071 | He's awful! | [2:14](071-1-lesson.wav) | [2:14](071-2-practice.wav) | [6:00](071-3-gramar.wav) | [脚本](scripts/071/README.md) |
 | 072 | When did you ...? | [3:36](072-1-lesson.wav) | [1:33](072-2-practice.wav) | [2:54](072-3-gramar.wav) | [脚本](scripts/072/README.md) |
-| 073 | Did you lose your way? | [2:06](073-1-lesson.wav) | [2:06](073-2-practice.wav) | [8:05](073-3-gramar.wav) | [脚本](scripts/073/README.md) |
+| 073 | Did you lose your way? | [2:06](073-1-lesson.wav) | [2:06](073-2-practice.wav) | [8:51](073-3-gramar.wav) | [脚本](scripts/073/README.md) |
 | 074 | What did they do? | [1:54](074-1-lesson.wav) | [2:59](074-2-practice.wav) | [3:09](074-3-gramar.wav) | [脚本](scripts/074/README.md) |
-| 075 | Uncomfortable shoes | [2:06](075-1-lesson.wav) | [1:43](075-2-practice.wav) | [5:55](075-3-gramar.wav) | [脚本](scripts/075/README.md) |
+| 075 | Uncomfortable shoes | [2:06](075-1-lesson.wav) | [1:43](075-2-practice.wav) | [6:01](075-3-gramar.wav) | [脚本](scripts/075/README.md) |
 | 076 | When did you ...? | [2:44](076-1-lesson.wav) | [1:30](076-2-practice.wav) | [3:04](076-3-gramar.wav) | [脚本](scripts/076/README.md) |
-| 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [4:47](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
+| 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [5:23](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
 | 078 | When did you ...? | [1:32](078-1-lesson.wav) | [2:15](078-2-practice.wav) | [2:30](078-3-gramar.wav) | [脚本](scripts/078/README.md) |
 | 079 | Carol's shopping list | [2:00](079-1-lesson.wav) | [1:42](079-2-practice.wav) | [6:20](079-3-gramar.wav) | [脚本](scripts/079/README.md) |
 | 080 | I must go to the ... | [3:59](080-1-lesson.wav) | [1:20](080-2-practice.wav) | [2:57](080-3-gramar.wav) | [脚本](scripts/080/README.md) |

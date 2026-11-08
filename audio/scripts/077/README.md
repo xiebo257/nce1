@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [077-1-lesson.wav](../../077-1-lesson.wav) | 93.4 | 21 | 1 |
 | [077-2-practice.wav](../../077-2-practice.wav) | 98.9 | 25 | 21 |
-| [077-3-gramar.wav](../../077-3-gramar.wav) | 287.0 | 74 | 40 |
+| [077-3-gramar.wav](../../077-3-gramar.wav) | 323.0 | 86 | 26 |
 
 词汇：appointment, urgent, till
 
