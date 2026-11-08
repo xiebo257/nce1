@@ -72,7 +72,7 @@
 | 066 | What's the time? | [2:56](066-1-lesson.wav) | [2:32](066-2-practice.wav) | [3:03](066-3-gramar.wav) | [脚本](scripts/066/README.md) |
 | 067 | The weekend | [2:55](067-1-lesson.wav) | [2:32](067-2-practice.wav) | [4:22](067-3-gramar.wav) | [脚本](scripts/067/README.md) |
 | 068 | What's the time? | [2:01](068-1-lesson.wav) | [2:12](068-2-practice.wav) | [2:06](068-3-gramar.wav) | [脚本](scripts/068/README.md) |
-| 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [4:15](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
+| 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [4:11](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
 | 070 | When were they there? | [2:35](070-1-lesson.wav) | [1:39](070-2-practice.wav) | [3:30](070-3-gramar.wav) | [脚本](scripts/070/README.md) |
 | 071 | He's awful! | [2:14](071-1-lesson.wav) | [2:14](071-2-practice.wav) | [6:00](071-3-gramar.wav) | [脚本](scripts/071/README.md) |
 | 072 | When did you ...? | [3:36](072-1-lesson.wav) | [1:33](072-2-practice.wav) | [2:54](072-3-gramar.wav) | [脚本](scripts/072/README.md) |
@@ -88,7 +88,7 @@
 | 082 | I had ... | [2:56](082-1-lesson.wav) | [1:53](082-2-practice.wav) | [3:25](082-3-gramar.wav) | [脚本](scripts/082/README.md) |
 | 083 | Going on holiday | [1:57](083-1-lesson.wav) | [1:52](083-2-practice.wav) | [2:34](083-3-gramar.wav) | [脚本](scripts/083/README.md) |
 | 084 | Have you had ...? | [2:49](084-1-lesson.wav) | [2:42](084-2-practice.wav) | [4:02](084-3-gramar.wav) | [脚本](scripts/084/README.md) |
-| 085 | Paris in the spring | [2:17](085-1-lesson.wav) | [2:10](085-2-practice.wav) | [4:26](085-3-gramar.wav) | [脚本](scripts/085/README.md) |
+| 085 | Paris in the spring | [2:17](085-1-lesson.wav) | [2:10](085-2-practice.wav) | [4:17](085-3-gramar.wav) | [脚本](scripts/085/README.md) |
 | 086 | What have you done? | [4:06](086-1-lesson.wav) | [1:13](086-2-practice.wav) | [2:39](086-3-gramar.wav) | [脚本](scripts/086/README.md) |
 | 087 | A car crash | [1:58](087-1-lesson.wav) | [1:40](087-2-practice.wav) | [4:13](087-3-gramar.wav) | [脚本](scripts/087/README.md) |
 | 088 | Have you ... yet? | [4:03](088-1-lesson.wav) | [1:18](088-2-practice.wav) | [3:09](088-3-gramar.wav) | [脚本](scripts/088/README.md) |
@@ -113,7 +113,7 @@
 | 107 | It's too small. | [1:56](107-1-lesson.wav) | [2:42](107-2-practice.wav) | [5:10](107-3-gramar.wav) | [脚本](scripts/107/README.md) |
 | 108 | How do they compare? | [4:18](108-1-lesson.wav) | [2:48](108-2-practice.wav) | [3:46](108-3-gramar.wav) | [脚本](scripts/108/README.md) |
 | 109 | A good idea | [1:47](109-1-lesson.wav) | [1:40](109-2-practice.wav) | [5:44](109-3-gramar.wav) | [脚本](scripts/109/README.md) |
-| 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:44](110-2-practice.wav) | [5:28](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
+| 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:43](110-2-practice.wav) | [5:28](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
 | 111 | The most expensive model 最昂贵的型号 | [1:43](111-1-lesson.wav) | [2:43](111-2-practice.wav) | [6:52](111-3-gramar.wav) | [脚本](scripts/111/README.md) |
 | 112 | How do they compare? 比一比 | [0:56](112-1-lesson.wav) | [4:53](112-2-practice.wav) | [3:09](112-3-gramar.wav) | [脚本](scripts/112/README.md) |
 | 113 | Small change 零钱 | [2:35](113-1-lesson.wav) | [2:16](113-2-practice.wav) | [7:39](113-3-gramar.wav) | [脚本](scripts/113/README.md) |
@@ -130,7 +130,7 @@
 | 124 | (Who) / (whom), (which) and (that) 关系代词 | [4:03](124-1-lesson.wav) | [1:47](124-2-practice.wav) | [3:57](124-3-gramar.wav) | [脚本](scripts/124/README.md) |
 | 125 | Tea for two 两个人一起喝茶 | [1:48](125-1-lesson.wav) | [1:36](125-2-practice.wav) | [5:44](125-3-gramar.wav) | [脚本](scripts/125/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
-| 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:47](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
+| 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:45](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
 | 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:36](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
 | 129 | Seventy miles an hour 时速70英里 | [2:29](129-1-lesson.wav) | [2:24](129-2-practice.wav) | [4:49](129-3-gramar.wav) | [脚本](scripts/129/README.md) |
 | 130 | He can't have been... He must have been... 他那时不可能…… 他那时肯定是…… | [6:36](130-1-lesson.wav) | [2:07](130-2-practice.wav) | [3:17](130-3-gramar.wav) | [脚本](scripts/130/README.md) |

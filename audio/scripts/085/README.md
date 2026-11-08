@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [085-1-lesson.wav](../../085-1-lesson.wav) | 137.0 | 33 | 1 |
 | [085-2-practice.wav](../../085-2-practice.wav) | 129.6 | 31 | 18 |
-| [085-3-gramar.wav](../../085-3-gramar.wav) | 208.9 | 49 | 29 |
+| [085-3-gramar.wav](../../085-3-gramar.wav) | 256.7 | 67 | 29 |
 
 词汇：Paris, cinema, film, beautiful, city, never, ever
 
