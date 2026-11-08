@@ -31,13 +31,15 @@ def main():
         if n%2:continue
         jobs=[j for j in lesson_jobs(repo,n,768,512) if j.get('source_reference') and not j.get('exact_diagram')]
         if not jobs:continue
+        data=json.loads((repo/f'lessons/lesson-{n:03}.json').read_text())
+        atlas_recipe='shared-atlas-v2:'+data.get('illustration_palette','')
         specs=[specification(repo,j) for j in jobs]
         cached=True
         for j,s in zip(jobs,specs):
             img,meta=candidate_paths(repo,j)
             if not img.exists() or not meta.exists():cached=False;break
             old=json.loads(meta.read_text())
-            if old.get('fingerprint')!=s['fingerprint'] or old.get('sha256')!=digest(img):cached=False;break
+            if old.get('fingerprint')!=s['fingerprint'] or old.get('sha256')!=digest(img) or old.get('atlas_recipe')!=atlas_recipe:cached=False;break
         if cached:print('CACHED_LESSON',n,flush=True);continue
         cols=min(4,math.ceil(math.sqrt(len(jobs))))
         cw,ch=((256,192) if len(jobs)>15 else (320,224)) if len(jobs)>1 else (jobs[0]['width'],jobs[0]['height'])
@@ -63,8 +65,13 @@ def main():
                 'Use natural skin tones, cheerful full-color clothing, realistic object colors, and pure white background. '
                 'Remove gray paper texture and faint reverse-page bleed-through. Preserve all visible letters, numerals and clock hands. '
                 'Do not draw extra objects, people, labels or captions. Do not move, resize, combine, omit or rearrange any tile. '
-                'Color only the existing drawing, preserving the original black outlines.')
+                'Color only the existing drawing, preserving the original black outlines. '
+                'Remove cropped text fragments OUTSIDE picture borders, keeping only the drawings. '
+                'Keep complete map labels and symbols INSIDE the picture unchanged.')
+        data=json.loads((repo/f'lessons/lesson-{n:03}.json').read_text())
         if len(jobs)==1:prompt=jobs[0]['prompt']
+        if data.get('illustration_palette'):
+            prompt += ' Mandatory recurring character colors: '+data['illustration_palette']
         if model is None:
             model=Flux2KleinEdit(model_config=ModelConfig.flux2_klein_4b(),model_path=str(MODEL_PATH),quantize=4)
         print('COLORIZING_LESSON',n,len(jobs),width,height,flush=True)
@@ -81,7 +88,7 @@ def main():
                 img,meta=candidate_paths(repo,j);img.parent.mkdir(parents=True,exist_ok=True)
                 box=(i%cols*cw,i//cols*ch,(i%cols+1)*cw,(i//cols+1)*ch)
                 atlas.crop(box).save(img)
-                s.update(sha256=digest(img),status='candidate',seconds=elapsed/len(jobs),atlas_generation=atlas_meta,
+                s.update(sha256=digest(img),status='candidate',seconds=elapsed/len(jobs),atlas_generation=atlas_meta,atlas_recipe=atlas_recipe,
                          postprocess={'method':'split-shared-colorized-atlas','crop_box':list(box),'output_size':[cw,ch]})
                 write_json(meta,s)
         del result;mx.clear_cache();gc.collect()

@@ -200,3 +200,34 @@ complete scan before generating. Model colorization still requires visual review
 For exact clock diagrams, `illustration_exact_diagram` preserves every original
 hand and numeral using deterministic ink/background colorization; record origin
 `local-diagram` and no model attribution. Do not describe these as model generated.
+
+## Batch source-panel colorization
+
+For even lessons with verified source references, `colorize_lesson_panels.py`
+combines one lesson's panels into a shared reference sheet, uses one local model
+pass, then splits candidates back into the original slots. It skips exact clock
+diagrams and lessons without source references. Start with one lesson and inspect
+both the full sheet and split candidates before running a range:
+
+```sh
+~/.local/share/nce1-imagegen/bin/python \
+  skills/nce1-lesson-html/scripts/colorize_lesson_panels.py --from 52 --to 52
+```
+
+Use the optional lesson-level `illustration_palette` to give repeated characters
+explicit clothing/hair colors. A generic consistency instruction alone allowed
+one boy's shirt to change across panels. Inspect color consistency, panel order,
+crop boundaries, counts and exact teaching cues. Remove stray text fragments
+outside illustration borders; preserve meaningful labels inside pictures.
+Long horizontal source strips need wide cells rather than tiny square thumbnails.
+Shared-sheet generation metadata records the actual prompt, input/output hashes,
+settings and per-slot split coordinates. When publishing, preserve the exact
+source and colored sheet plus metadata under `illustrations/references/atlas/`.
+Resume checks include the atlas recipe and palette as well as source hashes.
+
+Use complete source pages: older `ready` crops can omit the final row. Detecting
+rectangular frames is only a starting point; inspect the extracted sheet because
+a shifted crop can still truncate a figure or reorder adjacent panels. Match
+new images to the actual Lesson text; where old text disagrees with a scan,
+verify the specific fact before changing it. Do not silently replace a lesson's
+exercise content merely to fit a source illustration.
