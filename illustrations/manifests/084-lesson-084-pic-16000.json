@@ -1,0 +1,174 @@
+{
+  "slot": "lesson-084-pic-16000",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. A glass and a bottle of milk.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/084-lesson-084-pic-16000-clean.png",
+  "lesson": 84,
+  "seed": 84032,
+  "width": 480,
+  "height": 336,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "593df3aa68d61dc1fe85591307e19b1790ae276ad2d63592917063d2f662c132",
+  "fingerprint": "ed10932317771c97f29c8d7698adcb20cababcbcdb8646067f7f89f36a05c0d8",
+  "sha256": "ad495d859c95f935a52709f4c1f776586c314608302048fa8988b57e7304d579",
+  "status": "visually-reviewed",
+  "seconds": 10.328,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 84901,
+    "prompt": "Colorize these 20 textbook picture tiles in their EXACT 4-column, 5-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1024,
+    "height": 960,
+    "steps": 4,
+    "seconds": 206.56,
+    "peak_mlx_gb": 7.29,
+    "input_sha256": "6d08e33eb4f77c11608b2886f584e3f03c5f4392753d3da9dceddac4bc9afcf0",
+    "output_sha256": "cec814a29651d8dcb41070e3719be6f3123b7b6e234e03b863152314ad1c2d85",
+    "slots": [
+      "lesson-084-pic-1000",
+      "lesson-084-pic-2000",
+      "lesson-084-pic-3000",
+      "lesson-084-pic-4000",
+      "lesson-084-pic-5000",
+      "lesson-084-pic-6000",
+      "lesson-084-pic-7000",
+      "lesson-084-pic-8000",
+      "lesson-084-pic-9000",
+      "lesson-084-pic-10000",
+      "lesson-084-pic-11000",
+      "lesson-084-pic-12000",
+      "lesson-084-pic-13000",
+      "lesson-084-pic-14000",
+      "lesson-084-pic-15000",
+      "lesson-084-pic-16000",
+      "lesson-084-pic-17000",
+      "lesson-084-pic-18000",
+      "lesson-084-pic-19000",
+      "lesson-084-pic-20000"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-1000-clean.png",
+        "sha256": "b315e6e6e8cc85e6ca69dc1a5309cf2b423c77189213e5edc0159370d8a396b3"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-2000-clean.png",
+        "sha256": "0554a170112ea8c4c6b90c3af039d9bcd9869b375fa4b9bccb66a171c8b35c5e"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-3000-clean.png",
+        "sha256": "aa1380a18491e2e641aef257b72df08c084aa441d130827406d1a394ed82a661"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-4000-clean.png",
+        "sha256": "4984f526dd66c92d389db0b7b9b8bc650e42741b16fe57a028a5ad2f227ec96c"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-5000-clean.png",
+        "sha256": "d98cf29033cca57bb9575092a19a09a333bb018aae68aa041e5e3a99165b8392"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-6000-clean.png",
+        "sha256": "2ccbd0f556c581adcbf8e3c1f0ab0625e623fc8af602da789e1c34854e644ca7"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-7000-clean.png",
+        "sha256": "ccd04bc11843ccbcbc4d67d376ce3e40c5fe4fc78b5fd8b4b015e76454abae13"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-8000-clean.png",
+        "sha256": "9f0f461b71491e9495c93ae9201ca1760177a5fe0aa4933b604f315b4232d210"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-9000-clean.png",
+        "sha256": "25b045a77802f4efde2cf85016407a5e6b97d6e43404ad745b303de44d3ac83a"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-10000-clean.png",
+        "sha256": "b1904c80dd6fd560cec3524d7309c3f6d27cd372d2b4e73c0dcd0298e00ae636"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-11000-clean.png",
+        "sha256": "1c643958bbf379e7fcb863b573d1834d363bbd4603fa9ea0d5bcb01579b422a6"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-12000-clean.png",
+        "sha256": "084b64972ce3ea580a194b09cb29a4072f717f59d22ea7fe6e1f8232a1e5b684"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-13000-clean.png",
+        "sha256": "27c5667581cd84b6062f56d9c066b64a39ab2be3c7d78f94586c134439d1987b"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-14000-clean.png",
+        "sha256": "171a93665a4daac5ca6df4367de99d0636842498eef4b48027508df29a049eee"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-15000-clean.png",
+        "sha256": "35702b247116290c89daba4d1777425a25afc6d39074602cc43c9cdf115b3fbe"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-16000-clean.png",
+        "sha256": "593df3aa68d61dc1fe85591307e19b1790ae276ad2d63592917063d2f662c132"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-17000-clean.png",
+        "sha256": "710b85bf7fbafcdd3a8c449ded5abac604563bb4f17bd19ce977aac21676211b"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-18000-clean.png",
+        "sha256": "aec409242ecc967f5d7fa05a2c4700619839ee7539d5adc639066547f86193e2"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-19000-clean.png",
+        "sha256": "fd40cd612aff7ad0958833f1049819909797383b2a385f126ff0b70b73a062d3"
+      },
+      {
+        "path": "illustrations/references/source/084-lesson-084-pic-20000-clean.png",
+        "sha256": "f6aed3a7dc436df443f1efc2b6863cb667ee91f011de0aefd975742da5a88cbe"
+      }
+    ],
+    "saved_output_recovery": "Adopted actual newly generated colored_1.png from MFLUX non-overwrite naming."
+  },
+  "atlas_recipe": "shared-atlas-v3:",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      768,
+      576,
+      1024,
+      768
+    ],
+    "output_size": [
+      256,
+      192
+    ],
+    "source_atlas_sha256": "6d08e33eb4f77c11608b2886f584e3f03c5f4392753d3da9dceddac4bc9afcf0",
+    "color_guide_sha256": "cec814a29651d8dcb41070e3719be6f3123b7b6e234e03b863152314ad1c2d85",
+    "region_overrides": [],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          136,
+          99,
+          183,
+          161
+        ],
+        "selection": "colored",
+        "color": [
+          249,
+          247,
+          234
+        ]
+      }
+    ]
+  },
+  "review_notes": "Reviewed all 20 complete food/drink panels in source order. Corrected bananas yellow, oranges orange, lettuce/cabbage/peas/beans green and milk pale cream. Source outlines, quantities and wine/beer labels retained.",
+  "published_sha256": "d2a0f4cef5bb2684dd0fc8bcda8d1b16f62812619a0e7b1f8378c8816a43855a"
+}
