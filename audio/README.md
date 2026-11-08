@@ -91,6 +91,8 @@
 | 085 | Paris in the spring | [2:17](085-1-lesson.wav) | [2:10](085-2-practice.wav) | [3:29](085-3-gramar.wav) | [脚本](scripts/085/README.md) |
 | 086 | What have you done? | [4:06](086-1-lesson.wav) | [1:13](086-2-practice.wav) | [2:39](086-3-gramar.wav) | [脚本](scripts/086/README.md) |
 | 087 | A car crash | [1:58](087-1-lesson.wav) | [1:40](087-2-practice.wav) | [4:13](087-3-gramar.wav) | [脚本](scripts/087/README.md) |
+| 088 | Have you ... yet? | [4:03](088-1-lesson.wav) | [1:18](088-2-practice.wav) | [3:09](088-3-gramar.wav) | [脚本](scripts/088/README.md) |
+| 089 | For sale | [2:42](089-1-lesson.wav) | [1:52](089-2-practice.wav) | [5:15](089-3-gramar.wav) | [脚本](scripts/089/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
