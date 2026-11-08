@@ -1,0 +1,47 @@
+{
+  "slot": "lesson-079-scene-01",
+  "prompt": "At their kitchen table, Carol writes a shopping list in an open notebook while Tom stands beside her discussing the groceries. A near-empty jam jar and a few potatoes sit on the counter. One domestic scene. Exactly 2 people appear.  Appearance: tom: Man about 35, short dark hair, brown checked jacket, pale blue shirt. carol: Woman about 33, short blond curls, light blue floral dress, wicker shopping basket. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "tom",
+    "carol"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 79,
+  "seed": 79017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "b0bba3515b4172aede0a06f4df2b357be1f0f379e78fd95fc7884f7126fa3512",
+  "sha256": "7fe227556d276181ab2ec67e3a4b3a36e30eda8569473085fe975e681b3a4661",
+  "seconds": 55.15,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Move the open shopping-list notebook and pen to the blonde woman in the blue floral dress. She writes the list herself, holding the pen, looking down at the notebook. The man in the brown checked jacket has empty hands and talks to her. Preserve faces, clothing, jam jar, potatoes, basket, kitchen and natural photograph style.",
+        "seed": 790111,
+        "input_sha256": "b983d740f1811a54da675189aba77a256a00820790821fcac4719a083f78db61",
+        "output_sha256": "3463acbd24d53c3f77b0985d0380ae8321c4a47cc87d3013f2668a3f14da47df",
+        "seconds": 80.74
+      },
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the open spiral notebook and pen from in front of the man at the LEFT. His hand rests empty on the kitchen counter. Keep the woman at RIGHT holding her shopping list paper. Preserve both faces, clothes, basket, potatoes, jam jar and kitchen. One shopping list, held only by the woman.",
+        "seed": 790112,
+        "input_sha256": "3463acbd24d53c3f77b0985d0380ae8321c4a47cc87d3013f2668a3f14da47df",
+        "output_sha256": "7fe227556d276181ab2ec67e3a4b3a36e30eda8569473085fe975e681b3a4661",
+        "seconds": 78.24
+      }
+    ]
+  },
+  "review_notes": "Carol holds the single shopping list and discusses it with Tom; removed notebook and pen from Tom. Two characters, jam jar, potatoes and shopping basket preserved in kitchen.",
+  "published_sha256": "cc8c45cfc2ef755296e8d6acd2597469328cce40292ea698642e11b789ad48ca"
+}
