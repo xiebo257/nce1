@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [069-1-lesson.wav](../../069-1-lesson.wav) | 136.3 | 32 | 1 |
 | [069-2-practice.wav](../../069-2-practice.wav) | 184.9 | 36 | 24 |
-| [069-3-gramar.wav](../../069-3-gramar.wav) | 214.8 | 47 | 29 |
+| [069-3-gramar.wav](../../069-3-gramar.wav) | 251.0 | 67 | 31 |
 
 词汇：year, race, town, crowd, stand, exciting, just, finish, winner, behind, way
 
