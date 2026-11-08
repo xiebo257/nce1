@@ -117,6 +117,8 @@
 | 111 | The most expensive model 最昂贵的型号 | [1:43](111-1-lesson.wav) | [2:43](111-2-practice.wav) | [6:52](111-3-gramar.wav) | [脚本](scripts/111/README.md) |
 | 112 | How do they compare? 比一比 | [0:56](112-1-lesson.wav) | [4:53](112-2-practice.wav) | [3:09](112-3-gramar.wav) | [脚本](scripts/112/README.md) |
 | 113 | Small change 零钱 | [2:35](113-1-lesson.wav) | [2:16](113-2-practice.wav) | [7:39](113-3-gramar.wav) | [脚本](scripts/113/README.md) |
+| 114 | I've got none. 我没有。 | [0:40](114-1-lesson.wav) | [5:54](114-2-practice.wav) | [5:13](114-3-gramar.wav) | [脚本](scripts/114/README.md) |
+| 115 | Knock, knock! 敲敲门！ | [2:16](115-1-lesson.wav) | [2:29](115-2-practice.wav) | [6:41](115-3-gramar.wav) | [脚本](scripts/115/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
