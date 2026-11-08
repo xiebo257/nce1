@@ -87,6 +87,8 @@
 | 081 | Roast beef and potatoes | [1:46](081-1-lesson.wav) | [2:17](081-2-practice.wav) | [4:21](081-3-gramar.wav) | [脚本](scripts/081/README.md) |
 | 082 | I had ... | [2:56](082-1-lesson.wav) | [1:53](082-2-practice.wav) | [3:25](082-3-gramar.wav) | [脚本](scripts/082/README.md) |
 | 083 | Going on holiday | [1:57](083-1-lesson.wav) | [1:52](083-2-practice.wav) | [2:34](083-3-gramar.wav) | [脚本](scripts/083/README.md) |
+| 084 | Have you had ...? | [2:49](084-1-lesson.wav) | [2:42](084-2-practice.wav) | [4:02](084-3-gramar.wav) | [脚本](scripts/084/README.md) |
+| 085 | Paris in the spring | [2:17](085-1-lesson.wav) | [2:10](085-2-practice.wav) | [3:29](085-3-gramar.wav) | [脚本](scripts/085/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
