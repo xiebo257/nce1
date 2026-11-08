@@ -842,11 +842,23 @@
         "gary",
         "richard"
       ],
-      "status": "pending",
+      "status": "ready",
       "illustration_scene": "Gary and Richard stand outside a classroom after an examination, each holding a few exam papers. One looks worried about the difficult French test while the other offers encouragement. School corridor, no readable writing.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-103/scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The French test",
+      "alt": "Gary and Richard stand outside a classroom after an examination, each holding a few exam papers.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 103017,
+        "manifest": "illustrations/manifests/103-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

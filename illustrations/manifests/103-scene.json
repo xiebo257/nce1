@@ -1,0 +1,27 @@
+{
+  "slot": "scene",
+  "prompt": "Gary and Richard stand outside a classroom after an examination, each holding a few exam papers. One looks worried about the difficult French test while the other offers encouragement. School corridor, no readable writing. Exactly 2 people appear.  Appearance: gary: Male student about 18, short dark hair, pale blue shirt, navy school blazer. richard: Male student about 18, short sandy hair, cream shirt, gray school blazer. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "gary",
+    "richard"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 103,
+  "seed": 103017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "6521ca7715a56486eb03d97585959c5422edee4e2091023270dfbe9c95179309",
+  "sha256": "8cd537f482687e5db9bbd8fe370ad0829c6783a74e1fdd01d7e4d404ac2afb65",
+  "seconds": 39.13,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed two students with papers after examination, one worried and one reassuring in school corridor; correct subject and distinct faces.",
+  "published_sha256": "9b04561bb3a736509f0deee4ce0e03fed1cb2078a5325087780d5f4d0659b075"
+}
