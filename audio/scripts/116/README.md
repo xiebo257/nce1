@@ -6,8 +6,12 @@
 | --- | ---: | ---: | ---: |
 | [116-1-lesson.wav](../../116-1-lesson.wav) | 33.9 | 14 | 12 |
 | [116-2-practice.wav](../../116-2-practice.wav) | 357.2 | 64 | 35 |
-| [116-3-gramar.wav](../../116-3-gramar.wav) | 315.6 | 65 | 40 |
+| [116-3-gramar.wav](../../116-3-gramar.wav) | 326.9 | 77 | 40 |
 
 词汇：本课没有独立的生词表。
+
+源文补正记录：
+
+- Restored alternating dialogue turns from source prompts and answers.
 
 角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。
