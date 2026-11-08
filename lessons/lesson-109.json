@@ -675,11 +675,23 @@
         "charlotte",
         "jane"
       ],
-      "status": "pending",
+      "status": "ready",
       "illustration_scene": "At a coffee table with two cups and a small milk jug, Charlotte offers Jane a plate of biscuits. Jane smiles and reaches for one. An empty plain cigarette box sits unobtrusively on the table; nobody is smoking.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-109/scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A good idea",
+      "alt": "At a coffee table with two cups and a small milk jug, Charlotte offers Jane a plate of biscuits.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 109017,
+        "manifest": "illustrations/manifests/109-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

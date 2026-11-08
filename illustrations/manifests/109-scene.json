@@ -1,0 +1,27 @@
+{
+  "slot": "scene",
+  "prompt": "At a coffee table with two cups and a small milk jug, Charlotte offers Jane a plate of biscuits. Jane smiles and reaches for one. An empty plain cigarette box sits unobtrusively on the table; nobody is smoking. Exactly 2 people appear.  Appearance: charlotte: Woman about 35, dark bob haircut, pale blue blouse, mustard skirt. jane: Woman about 33, short blond curls, burgundy blouse, navy skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "charlotte",
+    "jane"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 109,
+  "seed": 109017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "ff20c9d4b220fbfe2855a11515192c2f246d2de494748afb863c9bcd094f0daa",
+  "sha256": "b02df9626e49293868c7460755260a90b149262f114f5f94a307f5c15e76be10",
+  "seconds": 39.07,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed two women at coffee table with cups, milk jug and biscuits; clear domestic conversation and no active smoking.",
+  "published_sha256": "04d79adc25de88ae05bb2c3d0e331425ae186eb2bcd285828659afff4e46e558"
+}
