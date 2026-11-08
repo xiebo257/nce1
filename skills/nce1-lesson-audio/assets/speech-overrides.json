@@ -133,13 +133,16 @@
     {
       "text": "Will you telephone a friend this evening? Who? And when?",
       "role": "prompt",
-      "pause": 1.7
+      "pause": 1.7,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "I'll telephone my friend Alex at half past nine this evening.",
       "role": "answer",
       "pause": 1.3,
-      "model_response": true
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     }
   ],
   "076/grammar-i-11": [
@@ -152,9 +155,10 @@
   ],
   "078/grammar-ii-22": [
     {
-      "text": "He said, \"Sit down and start work.\"",
+      "text": "He said, \"Sit down and start work.\".",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Imperatives supplied in direct speech; source key only contains said."
     }
   ],
@@ -171,23 +175,75 @@
       "text": "I want her to come to my office.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Removed duplicated her in the source prompt."
     }
   ],
   "107/l107-pb-1": [
     {
-      "text": "Here is a sample address. One two three Main Street. The street name is spelled M, A, I, N. Street is spelled S, T, R, E, E, T.",
+      "text": "Here is a sample address.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "One two three Main Street.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "The street name is spelled M, A, I, N.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "Street is spelled S, T, R, E, E, T.",
       "role": "answer",
       "pause": 1.3,
-      "model_response": true
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     }
   ],
   "107/l107-pb-2": [
     {
-      "text": "Here is a sample school name. West High School. West is spelled W, E, S, T. High is spelled H, I, G, H. School is spelled S, C, H, O, O, L.",
+      "text": "Here is a sample school name.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "West High School.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "West is spelled W, E, S, T.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "High is spelled H, I, G, H.",
+      "role": "answer",
+      "pause": 0.35,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
+    },
+    {
+      "text": "School is spelled S, C, H, O, O, L.",
       "role": "answer",
       "pause": 1.3,
-      "model_response": true
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     }
   ],
   "115/l115-giii5": [
@@ -195,6 +251,7 @@
       "text": "I'm sure it must be somewhere in my room, and I've looked everywhere in the room for an hour.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Completed the second blank from the next source key."
     }
   ],
@@ -203,6 +260,7 @@
       "text": "I've looked everywhere in the room for an hour, but still I can't find it anywhere.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Corrected misplaced somewhere and completed the final blank from the adjacent key."
     }
   ],
@@ -341,6 +399,7 @@
       "text": "Ah, yes, Sandra. How do you spell intelligent?",
       "role": "the_boss",
       "pause": 1.2,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
       "source_correction": "Adjacent key supplies intelligent."
     }
   ],
@@ -349,14 +408,15 @@
       "text": "The verb is read.",
       "role": "prompt",
       "pause": 1.7,
-      "extra": "Pronounce read as reed here, the present-tense verb."
+      "extra": "Use a relaxed natural falling finish for statements. Pronounce read as reed here, the present-tense verb.",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "The past tense is read. I read a book yesterday.",
       "role": "answer",
       "pause": 1.3,
-      "extra": "Both occurrences of read here are past tense, pronounced like red.",
-      "supplemental": true
+      "extra": "Use a relaxed natural falling finish for statements. Both occurrences of read here are past tense, pronounced like red.",
+      "source_correction": "Reviewed batch speech script."
     }
   ],
   "075/grammar-i-15": [
@@ -364,14 +424,15 @@
       "text": "The verb is read.",
       "role": "prompt",
       "pause": 1.7,
-      "extra": "Pronounce read as reed here, the present-tense verb."
+      "extra": "Use a relaxed natural falling finish for statements. Pronounce read as reed here, the present-tense verb.",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "The past tense is read. I read a book yesterday.",
       "role": "answer",
       "pause": 1.3,
-      "extra": "Both occurrences of read here are past tense, pronounced like red.",
-      "supplemental": true
+      "extra": "Use a relaxed natural falling finish for statements. Both occurrences of read here are past tense, pronounced like red.",
+      "source_correction": "Reviewed batch speech script."
     }
   ],
   "035/practice-b-forms-3": [
@@ -392,14 +453,15 @@
       "text": "The verb is read.",
       "role": "prompt",
       "pause": 1.5,
-      "extra": "Read is present tense here, pronounced reed."
+      "extra": "Use a relaxed natural falling finish for statements. Read is present tense here, pronounced reed.",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "The past tense is read. I read the book yesterday. The past participle is also read. I have read it twice.",
       "role": "answer",
       "pause": 1.3,
-      "extra": "Every occurrence of read in this turn is pronounced red.",
-      "supplemental": true
+      "extra": "Use a relaxed natural falling finish for statements. Every occurrence of read in this turn is pronounced red.",
+      "source_correction": "Reviewed batch speech script."
     }
   ],
   "041/grammar-i-1": [
@@ -770,12 +832,15 @@
     {
       "text": "This person travels on a bus or in a car.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A passenger.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -783,12 +848,15 @@
     {
       "text": "This person sells tickets on a bus.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A conductor.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -796,12 +864,15 @@
     {
       "text": "This person serves people in a shop.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A shop assistant.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -809,12 +880,15 @@
     {
       "text": "This person flies an aeroplane.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A pilot.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -822,12 +896,15 @@
     {
       "text": "This person belongs to a club.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A member.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -835,12 +912,15 @@
     {
       "text": "This person lives near you.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A neighbour.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -848,12 +928,15 @@
     {
       "text": "This person makes and sells bread.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A baker.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -861,12 +944,15 @@
     {
       "text": "This person sells writing paper and envelopes.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A stationer.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -874,12 +960,15 @@
     {
       "text": "This person begs money from other people.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A tramp.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -887,12 +976,15 @@
     {
       "text": "This person serves petrol in a garage.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A garage attendant.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -900,12 +992,15 @@
     {
       "text": "This person sells medicine.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A chemist.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -913,12 +1008,15 @@
     {
       "text": "This person sells fruit and vegetables.",
       "role": "prompt",
-      "pause": 1.5
+      "pause": 1.5,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed batch speech script."
     },
     {
       "text": "A greengrocer.",
       "role": "answer",
       "pause": 1.3,
+      "extra": "Use a relaxed natural falling finish for statements. ",
       "source_correction": "Matched occupations to definitions in img/lesson-113-practice.jpg; corrected misaligned HTML keys."
     }
   ],
@@ -1213,6 +1311,1338 @@
       "role": "answer",
       "pause": 1.3,
       "source_correction": "Removed duplicate article introduced by the HTML blank and answer key; follows printed example."
+    }
+  ],
+  "067/practice-b-1": [
+    {
+      "text": "eight oh five.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's five past eight.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-2": [
+    {
+      "text": "nine ten.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's ten past nine.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-3": [
+    {
+      "text": "ten fifteen.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's a quarter past ten.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-4": [
+    {
+      "text": "eleven twenty.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's twenty past eleven.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-5": [
+    {
+      "text": "twelve twenty-five p.m..",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's twenty-five past twelve.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-6": [
+    {
+      "text": "one thirty.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's half past one.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-7": [
+    {
+      "text": "one forty.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's twenty to two.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-8": [
+    {
+      "text": "two forty-five.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's a quarter to three.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-9": [
+    {
+      "text": "three fifty.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's ten to four.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "067/practice-b-10": [
+    {
+      "text": "four fifty-five.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "It's five to five.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "096/practice-a-1": [
+    {
+      "text": "nine sixteen.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "sixteen minutes past nine",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "096/practice-a-2": [
+    {
+      "text": "seven thirty-four.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "twenty-six minutes to eight",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "096/practice-a-3": [
+    {
+      "text": "twelve oh one p.m..",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "one minute past twelve",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "096/practice-a-4": [
+    {
+      "text": "three oh nine p.m..",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "nine minutes past three",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "096/practice-a-5": [
+    {
+      "text": "one fifty-six.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "four minutes to two",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "096/practice-a-6": [
+    {
+      "text": "five twenty-one p.m..",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "twenty-one minutes past five",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "098/practice-b-1": [
+    {
+      "text": "ten sixteen.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "sixteen minutes past ten",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "098/practice-b-2": [
+    {
+      "text": "two fifty-nine.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "one minute to three",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "098/practice-b-3": [
+    {
+      "text": "seven eleven.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    },
+    {
+      "text": "eleven minutes past seven",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Clock cue spelled out without dropping its hour."
+    }
+  ],
+  "070/practice-a-time-1": [
+    {
+      "text": "On July first. On October twenty-sixth. On Saturday.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the time table from img/lesson-070-practice.jpg; January belongs under in, not on."
+    },
+    {
+      "text": "On February sixteenth. On Tuesday.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the time table from img/lesson-070-practice.jpg; January belongs under in, not on."
+    },
+    {
+      "text": "In August. In January. In nineteen seventy-five.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the time table from img/lesson-070-practice.jpg; January belongs under in, not on."
+    },
+    {
+      "text": "In June. In September. In nineteen fifty-two.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the time table from img/lesson-070-practice.jpg; January belongs under in, not on."
+    }
+  ],
+  "070/practice-a-place-1": [
+    {
+      "text": "At the baker's. At the dairy. At the hairdresser's.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the place table from img/lesson-070-practice.jpg; church is in the bank, stationer is not."
+    },
+    {
+      "text": "At the greengrocer's. At the office. At the butcher's.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the place table from img/lesson-070-practice.jpg; church is in the bank, stationer is not."
+    },
+    {
+      "text": "At home. At church.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the place table from img/lesson-070-practice.jpg; church is in the bank, stationer is not."
+    },
+    {
+      "text": "In Australia. In China. In Canada. In India.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the place table from img/lesson-070-practice.jpg; church is in the bank, stationer is not."
+    },
+    {
+      "text": "In France. In Turkey. In Japan.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Resolved the place table from img/lesson-070-practice.jpg; church is in the bank, stationer is not."
+    }
+  ],
+  "078/practice-a-4": [
+    {
+      "text": "In August. In December. In June.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    },
+    {
+      "text": "In May. In October.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "078/practice-a-5": [
+    {
+      "text": "In nineteen fifty-three. In nineteen seventy-two.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    },
+    {
+      "text": "In nineteen eighty-four. In nineteen sixty-five.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "111/l111-pb1": [
+    {
+      "text": "I can't spend so much money on a new suit.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "I can't afford it.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-pb2": [
+    {
+      "text": "That man has more than £1 million.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "He is a millionaire",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-pb3": [
+    {
+      "text": "I'm going to pay the first twenty pounds on a new bicycle.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "That's the deposit.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "And then there are thirty-six installments of five pounds a month.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-pb4": [
+    {
+      "text": "You've just bought a new dress.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "What was the price of it?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "Only £20.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-pb5": [
+    {
+      "text": "Charlotte bought a new cooker last week.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "She bought the latest model",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi1": [
+    {
+      "text": "Ann is older  than Hans.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi2": [
+    {
+      "text": "Summer is warmer  than winter.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi3": [
+    {
+      "text": "Summer is the warmest  of the four seasons.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi4": [
+    {
+      "text": "These cars are the most expensive  in China.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi5": [
+    {
+      "text": "An aeroplane is faster  than a train, and a train is faster  than a car, so an aeroplane is the fastest  of the three.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi6": [
+    {
+      "text": "This is the worst  coffee I have ever tried.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi7": [
+    {
+      "text": "You are no worse  than I am at singing.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    },
+    {
+      "text": "I think I am the worst  singer in the world!",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "111/l111-gi8": [
+    {
+      "text": "Your work is much better  than it was last week.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled ellipsis blanks into complete answers; lesson 111 deposit sentence order verified against img/lesson-111-practice.jpg."
+    }
+  ],
+  "112/l112-gii1": [
+    {
+      "text": "Mary is as heavy as William",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii2": [
+    {
+      "text": "Carol is not as heavy as Marie, Scott or Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii3": [
+    {
+      "text": "William is not as heavy as Marie, Carol, Jill, Scott or Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii4": [
+    {
+      "text": "Jill is as heavy as Carol",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii5": [
+    {
+      "text": "Scott is not as heavy as Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii6": [
+    {
+      "text": "Marie is not as heavy as Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii7": [
+    {
+      "text": "Marie is as heavy as Scott",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii8": [
+    {
+      "text": "Mary is not as heavy as Marie, Carol, Jill, Scott or Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii9": [
+    {
+      "text": "Sophie is not as heavy as Mary, Marie, Carol, William, Jill, Scott or Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-gii10": [
+    {
+      "text": "Jill is not as heavy as Marie, Scott or Jim",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii1": [
+    {
+      "text": "Mary is as tall as Carol.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii2": [
+    {
+      "text": "Mary is not as tall as Marie.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii3": [
+    {
+      "text": "Marie is as tall as Jim.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii4": [
+    {
+      "text": "Carol is not as tall as Jim.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii5": [
+    {
+      "text": "Sophie is as tall as William.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii6": [
+    {
+      "text": "William is not as tall as Mary.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii7": [
+    {
+      "text": "Jill is not as tall as Jim.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii8": [
+    {
+      "text": "Scott is as tall as Jill.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii9": [
+    {
+      "text": "Jim is as tall as Marie.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "112/l112-giii10": [
+    {
+      "text": "Scott is not as tall as Marie.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv1": [
+    {
+      "text": "I had some ice in my beer but Peter didn't have any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He had no ice in his beer.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He had none in his beer.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv2": [
+    {
+      "text": "Mrs.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "Smith bought some beef but Mrs.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "Scott didn't buy any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "She bought no beef.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "She bought none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv3": [
+    {
+      "text": "David wants some envelopes but John doesn't want any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He wants no envelopes.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He wants none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv4": [
+    {
+      "text": "I have got some red ink but my friend hasn't got any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He has got no red ink.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He has got none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv5": [
+    {
+      "text": "We have got some homework but they haven't got any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "They've got no homework.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "They've got none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv6": [
+    {
+      "text": "Tom needs some boxes but Peter doesn't need any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He needs no boxes.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He needs none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv7": [
+    {
+      "text": "The big room has windows but the little room doesn't have any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "It has no windows.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "It has none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv8": [
+    {
+      "text": "She bought some new dresses but I didn't buy any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "I bought no new dresses.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "I bought none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv9": [
+    {
+      "text": "We ate some pears but he didn't eat any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He ate no pears.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He ate none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "113/l113-giv10": [
+    {
+      "text": "Hans had some small change but Jim didn't have any.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He had no small change.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "He had none.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "115/l115-pb1": [
+    {
+      "text": "Is there anyone at home?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "Knock at the door.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "115/l115-pb2": [
+    {
+      "text": "Let's invite all our friends to a party!",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "115/l115-pb3": [
+    {
+      "text": "Of course there's some wine left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "You're joking, aren't you?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "115/l115-pb4": [
+    {
+      "text": "This is Trafalgar Square.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    },
+    {
+      "text": "You must get off here, said the conductor.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Filled source ellipsis blanks into complete answer sentences."
+    }
+  ],
+  "110/l110-pb1": [
+    {
+      "text": "Has he got any money in his pocket?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "110/l110-pb2": [
+    {
+      "text": "She's got a new car.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "110/l110-pb3": [
+    {
+      "text": "They haven't got any time today.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "110/l110-pb4": [
+    {
+      "text": "Have you got a letter for me?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "110/l110-pb5": [
+    {
+      "text": "I haven't got any chocolate.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "110/l110-pb6": [
+    {
+      "text": "The shop hasn't got any oranges.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "111/l111-pa3": [
+    {
+      "text": "How much does it cost?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a neutral information question with a gentle falling finish. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    },
+    {
+      "text": "It costs five hundred pounds.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "107/l107-pa-10": [
+    {
+      "text": "What does the lady ask the assistant?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    },
+    {
+      "text": "Could you show me another blue dress?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "123/l123-pb7": [
+    {
+      "text": "That was me in that photo, with a beard, said Mike. Didn't you recognize me?",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Reviewed source content and repaired for complete natural speech."
+    }
+  ],
+  "116/l116-giii1": [
+    {
+      "text": "I'd like some more butter, please.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "I'm sorry. There isn't any left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "We haven't eaten all of it, have we?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "Yes, we have. There's none left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    }
+  ],
+  "116/l116-giii2": [
+    {
+      "text": "I'd like some more milk, please.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "I'm sorry. There isn't any left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "We haven't drunk all of it, have we?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "Yes, we have. There's none left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    }
+  ],
+  "116/l116-giii3": [
+    {
+      "text": "I'd like some more grapes, please.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "I'm sorry. There aren't any left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "We haven't eaten all of them, have we?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "Yes, we have. There are none left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    }
+  ],
+  "116/l116-giii4": [
+    {
+      "text": "I'd like some more paper, please.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "I'm sorry. There isn't any left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "We haven't used all of it, have we?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "Yes, we have. There's none left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    }
+  ],
+  "116/l116-giii5": [
+    {
+      "text": "I'd like some more envelopes, please.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "I'm sorry. There aren't any left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "We haven't used all of them, have we?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "Yes, we have. There are none left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    }
+  ],
+  "116/l116-giii6": [
+    {
+      "text": "I'd like some more bread, please.",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "I'm sorry. There isn't any left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "We haven't eaten all of it, have we?",
+      "role": "prompt",
+      "pause": 1.4,
+      "extra": "Ask a genuine question with a gentle natural rise. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
+    },
+    {
+      "text": "Yes, we have. There's none left.",
+      "role": "answer",
+      "pause": 1.4,
+      "extra": "Use a relaxed natural falling finish for statements. ",
+      "source_correction": "Restored alternating dialogue turns from source prompts and answers."
     }
   ]
 }

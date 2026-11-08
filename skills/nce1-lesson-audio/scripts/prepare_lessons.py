@@ -60,6 +60,8 @@ class Lesson(base.Lesson):
    used.add(speaker)
    CAST[label]=speaker
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
+  text=re.sub(r'^(?:\d+[.]?[a-z][.]?|[a-z][.])\s+(?=[A-Z])','',text)
+  if self.n==119:text=re.sub(r'^[a-j] (?=(?:After|Before)\b)','',text)
   text=text.replace('×','times').replace('÷','divided by').replace('=','equals')
   # Leading-zero identifiers are digit sequences, never cardinal numbers.
   text=re.sub(r'\b0\d{3,}\b',lambda m:', '.join(num2words(int(d)) for d in m[0]),text)
@@ -124,7 +126,7 @@ class Lesson(base.Lesson):
   else:k=k.replace('/',', ')
   k=re.sub(r'\.{3,}', '',k).strip()
 
-  q=re.sub(r'^(?:\d+|[a-z])[.)]\s*','',q)
+  q=re.sub(r'^(?:\d+[.]?[a-z]|\d+|[a-z])[.)]\s+(?=[A-Z])','',q)
   q=q.replace('[your name]','Alex')
   q=re.sub(r'\[[^]]*\]','',q)
   if 'Complete the contrast' in q:

@@ -5,6 +5,11 @@ from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USA
 from run_audio_queue import benign
 from asr_text import align_digit_sequences
 class CompilerRegression(unittest.TestCase):
+ def test_printed_item_codes_are_not_spoken(self):
+  lesson=Lesson(113);lesson.add('1e. David will go.')
+  self.assertEqual(lesson.s[-1]['text'],'David will go.')
+  lesson.add('c. Have they got a book?')
+  self.assertEqual(lesson.s[-1]['text'],'Have they got a book?')
  def test_phone_asr_spelling_preserves_every_digit(self):
   expected='The number is five five five, zero one zero one.'
   self.assertEqual(align_digit_sequences(expected,'The number is 555-0101.'),expected)

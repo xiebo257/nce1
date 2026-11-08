@@ -28,6 +28,7 @@ def norm(t):
  for short,long in [("i've",'i have'),("we've",'we have'),("they've",'they have'),("you've",'you have'),("i'm",'i am'),("you're",'you are'),("we're",'we are'),("they're",'they are'),("it's",'it is'),("that's",'that is'),("he's",'he is'),("she's",'she is'),("there's",'there is')]:t=re.sub(r'\b'+short+r'\b',long,t)
  t=t.replace('airhostess','air hostess').replace('icecream','ice cream').replace('ice-cream','ice cream')
  t=t.replace('stomachache','stomach ache').replace('seatbelt','seat belt')
+ for uk,us in [('labour','labor'),('programme','program'),('licence','license'),('instalment','installment')]:t=t.replace(uk,us)
  return re.findall(r"[a-z]+(?:'[a-z]+)?",t)
 def diff(e,t):
  t=align_digit_sequences(e,t)
