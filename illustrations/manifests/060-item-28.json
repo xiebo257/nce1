@@ -1,0 +1,174 @@
+{
+  "slot": "item-28",
+  "prompt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background. Preserve every face, pose, person count, action and object. Remove gray paper and bleed-through, keep readable text and all clock hands unchanged. 28th peaches: Three peaches.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/060-item-28.png",
+  "lesson": 60,
+  "seed": 60044,
+  "width": 512,
+  "height": 320,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "0b3782d503c0bdcca81b1ce54db00300b3d09a92a8dfb49be81e6259093806e5",
+  "fingerprint": "eec0fe00ac1fa2ed60a87f789ab6a356d25f449a9dc90ad998954d3d7bc3b607",
+  "sha256": "caf6bd951a6f2730a8ac95b4ebcc3f572a5a33262413c06931658b98072c5bec",
+  "status": "visually-reviewed",
+  "seconds": 10.304583333333333,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 60901,
+    "prompt": "Colorize these 24 textbook picture tiles in their EXACT 4-column, 6-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1024,
+    "height": 1152,
+    "steps": 4,
+    "seconds": 247.31,
+    "peak_mlx_gb": 7.539,
+    "input_sha256": "c6a279a4050483c952d1ef70f51affd9f641dcfd79a87b765292e847523c1543",
+    "output_sha256": "f956f53c19850d6548df5c7efd5717ce8ae85407928b3562316210f51d5c3d73",
+    "slots": [
+      "item-13",
+      "item-14",
+      "item-15",
+      "item-16",
+      "item-17",
+      "item-18",
+      "item-19",
+      "item-20",
+      "item-21",
+      "item-22",
+      "item-23",
+      "item-24",
+      "item-25",
+      "item-26",
+      "item-27",
+      "item-28",
+      "item-29",
+      "item-30",
+      "item-31",
+      "item-32",
+      "item-33",
+      "item-34",
+      "item-35",
+      "item-36"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/060-item-13.png",
+        "sha256": "90f27fe1a8ca60027344b5522fecab06d3c9f501d5e7b470cce0fb91db922552"
+      },
+      {
+        "path": "illustrations/references/source/060-item-14.png",
+        "sha256": "798169535306a0ad39aaa6c894212ef71a17886a3d575aa73b2e28831f7d1088"
+      },
+      {
+        "path": "illustrations/references/source/060-item-15.png",
+        "sha256": "c0b2dfd7dbdf1bb86c9ac80d0cc4b533dc93872a620462f604fdeede8a3ebc48"
+      },
+      {
+        "path": "illustrations/references/source/060-item-16.png",
+        "sha256": "f8bc1e785d86189dc10882368b29e11ff6111b0d113493fa03b332172943165e"
+      },
+      {
+        "path": "illustrations/references/source/060-item-17.png",
+        "sha256": "3a5cb85ee9599e836bed989a8c5226487efd113ac0b6c6d8b3a2aae6b12b894c"
+      },
+      {
+        "path": "illustrations/references/source/060-item-18.png",
+        "sha256": "976c0014e5d6d1640fd148d8c2ffaab83e8c6f81a06344adde8ab795fcb6b18e"
+      },
+      {
+        "path": "illustrations/references/source/060-item-19.png",
+        "sha256": "f7715c9932e8dfd8e3a725e58e669b8f973a68f39ad604935b990eaa7a2a66ed"
+      },
+      {
+        "path": "illustrations/references/source/060-item-20.png",
+        "sha256": "10953309e5b03a384817f14223cca5395dbd08227907f2d93ae6fb01d36c153e"
+      },
+      {
+        "path": "illustrations/references/source/060-item-21.png",
+        "sha256": "37af13c7ba8247778dab451622a6bb06eb0d38e6986179970efaab877c25aa9c"
+      },
+      {
+        "path": "illustrations/references/source/060-item-22.png",
+        "sha256": "3a8c72a93466da856c73ba934d7db1b1eaf5eaabc6eb153cb6540e71bd2ddb28"
+      },
+      {
+        "path": "illustrations/references/source/060-item-23.png",
+        "sha256": "3871b8f75ebfa4e18de13a2343da61de077a48ac80a3496e010055155d174438"
+      },
+      {
+        "path": "illustrations/references/source/060-item-24.png",
+        "sha256": "e2bd57b3c6bc70f3a719b9c5c8e2989151ce25cb2701fff826663e2c7852d923"
+      },
+      {
+        "path": "illustrations/references/source/060-item-25.png",
+        "sha256": "b0993404783ac80937b101e489e4772709e6c1d8f9f0de1d459bf289496499cb"
+      },
+      {
+        "path": "illustrations/references/source/060-item-26.png",
+        "sha256": "fb9c2fc9808ec2c85e92bb80915617759b5df32371302accb31050dcef3e68b1"
+      },
+      {
+        "path": "illustrations/references/source/060-item-27.png",
+        "sha256": "393941567e696fc9437d3fc7d37024b208f506e9e68f3e334b784bfa34b5217a"
+      },
+      {
+        "path": "illustrations/references/source/060-item-28.png",
+        "sha256": "0b3782d503c0bdcca81b1ce54db00300b3d09a92a8dfb49be81e6259093806e5"
+      },
+      {
+        "path": "illustrations/references/source/060-item-29.png",
+        "sha256": "7e003ff047688945f2c30b9174bd9c3bad022fa0bac08ffa96fab94c5b22eb62"
+      },
+      {
+        "path": "illustrations/references/source/060-item-30.png",
+        "sha256": "41dbb1210ed2589a22897f1ab2ec79074bd45bed62b0bb54936cd080c824e523"
+      },
+      {
+        "path": "illustrations/references/source/060-item-31.png",
+        "sha256": "a4c15bec63beefa93182ce932600f61fc96927ab5a2b2c36ffb0d27cebe1355b"
+      },
+      {
+        "path": "illustrations/references/source/060-item-32.png",
+        "sha256": "a82e5ad4198a812ccff041724446f63299fa54a27be3c245d51f2e7dcd2cfa7d"
+      },
+      {
+        "path": "illustrations/references/source/060-item-33.png",
+        "sha256": "4b90c4f379977b30af38fe374e0c4847fdfff54ad0de7bbbe5bb246a86d08b7e"
+      },
+      {
+        "path": "illustrations/references/source/060-item-34.png",
+        "sha256": "1c8e6dc0d7885ef41e42e84678f37ff4aa2544fbc06ad688f69b8930f77f0938"
+      },
+      {
+        "path": "illustrations/references/source/060-item-35.png",
+        "sha256": "14252f27996b57797851be074a3bab120a1d9f6e3aed2782bcbcb9a2e5bbafec"
+      },
+      {
+        "path": "illustrations/references/source/060-item-36.png",
+        "sha256": "0f4d8665d5b02976aad39523584ef68f7ca60a4aeaaa987725c63fbcca53286b"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:",
+  "postprocess": {
+    "method": "split-shared-colorized-atlas",
+    "crop_box": [
+      768,
+      576,
+      1024,
+      768
+    ],
+    "output_size": [
+      256,
+      192
+    ]
+  },
+  "review_notes": "Twelve exact source clocks 1–12 and twenty-four objects checked. Corrected food hues for tomatoes, peas, beans, cabbage, lettuce, grapes, eggs and chicken; restored readable product labels including butter, honey, biscuits, chicken, whisky, beer, wine, tobacco and soap. Original object arrangements retained.",
+  "published_sha256": "f89788249a8b3336bdfd483a0c6ddee7e49929ac680b75e75e8d798fc1b6fda1"
+}
