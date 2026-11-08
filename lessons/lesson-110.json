@@ -4,7 +4,7 @@
   "title": "How do they compare? 比一比",
   "translation": "它们怎么样？比一比。",
   "description": "Lesson 110 is a picture lesson about comparatives and superlatives of quantity and quality. Eight groups of three pictures (I–Z) compare things like chocolate, mistakes, cars and restaurants. The lesson uses much/many, little/few, more/most, less/least, fewer/fewest, better/best and worse/worst, followed by written exercises, workbook practice and a grammar workbook section comparing people's possessions and exam results.",
-  "answer_note": "Listening, written exercises A–D are model answers (suggested). Workbook A and B are from the workbook answer key (source-key). Grammar I and II are from the grammar workbook answer key (source-key).",
+  "answer_note": "Listening, written exercises A–D are model answers (suggested). Workbook A and B are from the workbook answer key (source-key). Grammar I and II are from the grammar workbook answer key (source-key). Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
   "expected_answers": 65,
   "sections": {
     "lesson": [
@@ -34,24 +34,114 @@
         "answer_kind": "suggested",
         "context": "The recording reads each caption; the answer is the caption's second sentence.",
         "questions": [
-          {"id": "l110-listen-i", "number": 1, "prompt": "Picture I: Have you got any chocolate?", "answer": "I haven't got much."},
-          {"id": "l110-listen-j", "number": 2, "prompt": "Picture J: How much chocolate have you got?", "answer": "I've got more than you have."},
-          {"id": "l110-listen-k", "number": 3, "prompt": "Picture K: How much chocolate have you got?", "answer": "I've got the most."},
-          {"id": "l110-listen-l", "number": 4, "prompt": "Picture L: Have you got any chocolate?", "answer": "I've got very little."},
-          {"id": "l110-listen-m", "number": 5, "prompt": "Picture M: How much chocolate have you got?", "answer": "I've got less than you have."},
-          {"id": "l110-listen-n", "number": 6, "prompt": "Picture N: How much chocolate have you got?", "answer": "I've got the least."},
-          {"id": "l110-listen-o", "number": 7, "prompt": "Picture O: Have you made any mistakes?", "answer": "I haven't made many."},
-          {"id": "l110-listen-p", "number": 8, "prompt": "Picture P: How many mistakes have you made?", "answer": "I've made more than you have."},
-          {"id": "l110-listen-q", "number": 9, "prompt": "Picture Q: How many mistakes have you made?", "answer": "I've made the most."},
-          {"id": "l110-listen-r", "number": 10, "prompt": "Picture R: Have you made any mistakes?", "answer": "I've made very few."},
-          {"id": "l110-listen-s", "number": 11, "prompt": "Picture S: How many mistakes have you made?", "answer": "I've made fewer than you have."},
-          {"id": "l110-listen-t", "number": 12, "prompt": "Picture T: How many mistakes have you made?", "answer": "I've made the fewest."},
-          {"id": "l110-listen-u", "number": 13, "prompt": "Picture U: What do you think of my new car?", "answer": "It's very good."},
-          {"id": "l110-listen-v", "number": 14, "prompt": "Picture V: What do you think of this car?", "answer": "This one's better."},
-          {"id": "l110-listen-w", "number": 15, "prompt": "Picture W: What do you think of this car?", "answer": "This one's the best I've ever seen."},
-          {"id": "l110-listen-x", "number": 16, "prompt": "Picture X: What do you think of that restaurant?", "answer": "It's very bad."},
-          {"id": "l110-listen-y", "number": 17, "prompt": "Picture Y: What do you think of this one?", "answer": "This one's worse."},
-          {"id": "l110-listen-z", "number": 18, "prompt": "Picture Z: What do you think of this one?", "answer": "This one's the worst I've ever seen."}
+          {
+            "id": "l110-listen-i",
+            "number": 1,
+            "prompt": "Picture I: Have you got any chocolate?",
+            "answer": "I haven't got much."
+          },
+          {
+            "id": "l110-listen-j",
+            "number": 2,
+            "prompt": "Picture J: How much chocolate have you got?",
+            "answer": "I've got more than you have."
+          },
+          {
+            "id": "l110-listen-k",
+            "number": 3,
+            "prompt": "Picture K: How much chocolate have you got?",
+            "answer": "I've got the most."
+          },
+          {
+            "id": "l110-listen-l",
+            "number": 4,
+            "prompt": "Picture L: Have you got any chocolate?",
+            "answer": "I've got very little."
+          },
+          {
+            "id": "l110-listen-m",
+            "number": 5,
+            "prompt": "Picture M: How much chocolate have you got?",
+            "answer": "I've got less than you have."
+          },
+          {
+            "id": "l110-listen-n",
+            "number": 6,
+            "prompt": "Picture N: How much chocolate have you got?",
+            "answer": "I've got the least."
+          },
+          {
+            "id": "l110-listen-o",
+            "number": 7,
+            "prompt": "Picture O: Have you made any mistakes?",
+            "answer": "I haven't made many."
+          },
+          {
+            "id": "l110-listen-p",
+            "number": 8,
+            "prompt": "Picture P: How many mistakes have you made?",
+            "answer": "I've made more than you have."
+          },
+          {
+            "id": "l110-listen-q",
+            "number": 9,
+            "prompt": "Picture Q: How many mistakes have you made?",
+            "answer": "I've made the most."
+          },
+          {
+            "id": "l110-listen-r",
+            "number": 10,
+            "prompt": "Picture R: Have you made any mistakes?",
+            "answer": "I've made very few."
+          },
+          {
+            "id": "l110-listen-s",
+            "number": 11,
+            "prompt": "Picture S: How many mistakes have you made?",
+            "answer": "I've made fewer than you have."
+          },
+          {
+            "id": "l110-listen-t",
+            "number": 12,
+            "prompt": "Picture T: How many mistakes have you made?",
+            "answer": "I've made the fewest."
+          },
+          {
+            "id": "l110-listen-u",
+            "number": 13,
+            "prompt": "Picture U: What do you think of my new car?",
+            "answer": "It's very good."
+          },
+          {
+            "id": "l110-listen-v",
+            "number": 14,
+            "prompt": "Picture V: What do you think of this car?",
+            "answer": "This one's better."
+          },
+          {
+            "id": "l110-listen-w",
+            "number": 15,
+            "prompt": "Picture W: What do you think of this car?",
+            "answer": "This one's the best I've ever seen."
+          },
+          {
+            "id": "l110-listen-x",
+            "number": 16,
+            "prompt": "Picture X: What do you think of that restaurant?",
+            "answer": "It's very bad."
+          },
+          {
+            "id": "l110-listen-y",
+            "number": 17,
+            "prompt": "Picture Y: What do you think of this one?",
+            "answer": "This one's worse."
+          },
+          {
+            "id": "l110-listen-z",
+            "number": 18,
+            "prompt": "Picture Z: What do you think of this one?",
+            "answer": "This one's the worst I've ever seen."
+          }
         ]
       }
     ],
@@ -67,10 +157,30 @@
         "answer_kind": "suggested",
         "context": "Model answers; many variants possible.",
         "questions": [
-          {"id": "l110-wa1", "number": 1, "prompt": "How ... money do you need for the holiday?", "answer": "How much money do you need for the holiday?"},
-          {"id": "l110-wa2", "number": 2, "prompt": "How ... books have you got?", "answer": "How many books have you got?"},
-          {"id": "l110-wa3", "number": 3, "prompt": "I'd like ... time to think about it.", "answer": "I'd like less time to think about it."},
-          {"id": "l110-wa4", "number": 4, "prompt": "We need ... people to finish the work.", "answer": "We need fewer people to finish the work."}
+          {
+            "id": "l110-wa1",
+            "number": 1,
+            "prompt": "How ... money do you need for the holiday?",
+            "answer": "How much money do you need for the holiday?"
+          },
+          {
+            "id": "l110-wa2",
+            "number": 2,
+            "prompt": "How ... books have you got?",
+            "answer": "How many books have you got?"
+          },
+          {
+            "id": "l110-wa3",
+            "number": 3,
+            "prompt": "I'd like ... time to think about it.",
+            "answer": "I'd like less time to think about it."
+          },
+          {
+            "id": "l110-wa4",
+            "number": 4,
+            "prompt": "We need ... people to finish the work.",
+            "answer": "We need fewer people to finish the work."
+          }
         ]
       },
       {
@@ -84,12 +194,44 @@
         "answer_kind": "suggested",
         "context": "Model answers based on the picture's quantities.",
         "questions": [
-          {"id": "l110-wb1", "number": 1, "example": true, "prompt": "Have you got any jam?", "answer": "Yes, I have. I've got a little."},
-          {"id": "l110-wb2", "number": 2, "example": true, "prompt": "Have you got any potatoes?", "answer": "Yes, I have. I've got a lot."},
-          {"id": "l110-wb3", "number": 3, "prompt": "Have you got any oranges?", "answer": "Yes, I have. I've got some."},
-          {"id": "l110-wb4", "number": 4, "prompt": "Have you got any vegetables?", "answer": "Yes, I have. I've got a few."},
-          {"id": "l110-wb5", "number": 5, "prompt": "Have you got any meat?", "answer": "No, I haven't. I haven't got any."},
-          {"id": "l110-wb6", "number": 6, "prompt": "Have you got any money?", "answer": "Yes, I have. I've got some."}
+          {
+            "id": "l110-wb1",
+            "number": 1,
+            "example": true,
+            "prompt": "Have you got any jam?",
+            "answer": "Yes, I have. I've got a little."
+          },
+          {
+            "id": "l110-wb2",
+            "number": 2,
+            "example": true,
+            "prompt": "Have you got any potatoes?",
+            "answer": "Yes, I have. I've got a lot."
+          },
+          {
+            "id": "l110-wb3",
+            "number": 3,
+            "prompt": "Have you got any oranges?",
+            "answer": "Yes, I have. I've got some."
+          },
+          {
+            "id": "l110-wb4",
+            "number": 4,
+            "prompt": "Have you got any vegetables?",
+            "answer": "Yes, I have. I've got a few."
+          },
+          {
+            "id": "l110-wb5",
+            "number": 5,
+            "prompt": "Have you got any meat?",
+            "answer": "No, I haven't. I haven't got any."
+          },
+          {
+            "id": "l110-wb6",
+            "number": 6,
+            "prompt": "Have you got any money?",
+            "answer": "Yes, I have. I've got some."
+          }
         ]
       },
       {
@@ -103,12 +245,43 @@
         "answer_kind": "suggested",
         "context": "Model answers; prompt words: soap, fruit, books, presents, eggs, stationery.",
         "questions": [
-          {"id": "l110-wc1", "number": 1, "example": true, "prompt": "soap", "answer": "I've got more soap than you have."},
-          {"id": "l110-wc2", "number": 2, "prompt": "fruit", "answer": "I've got less fruit than you have."},
-          {"id": "l110-wc3", "number": 3, "prompt": "books", "answer": "I've got more books than you have."},
-          {"id": "l110-wc4", "number": 4, "prompt": "presents", "answer": "I've got fewer presents than you have."},
-          {"id": "l110-wc5", "number": 5, "prompt": "eggs", "answer": "I've got more eggs than you have."},
-          {"id": "l110-wc6", "number": 6, "prompt": "stationery", "answer": "I've got less stationery than you have."}
+          {
+            "id": "l110-wc1",
+            "number": 1,
+            "example": true,
+            "prompt": "soap",
+            "answer": "I've got more soap than you have."
+          },
+          {
+            "id": "l110-wc2",
+            "number": 2,
+            "prompt": "fruit",
+            "answer": "I've got less fruit than you have."
+          },
+          {
+            "id": "l110-wc3",
+            "number": 3,
+            "prompt": "books",
+            "answer": "I've got more books than you have."
+          },
+          {
+            "id": "l110-wc4",
+            "number": 4,
+            "prompt": "presents",
+            "answer": "I've got fewer presents than you have."
+          },
+          {
+            "id": "l110-wc5",
+            "number": 5,
+            "prompt": "eggs",
+            "answer": "I've got more eggs than you have."
+          },
+          {
+            "id": "l110-wc6",
+            "number": 6,
+            "prompt": "stationery",
+            "answer": "I've got less stationery than you have."
+          }
         ]
       },
       {
@@ -122,12 +295,44 @@
         "answer_kind": "suggested",
         "context": "Model answers; prompt words: jam, potatoes, vegetables, oranges, meat, money.",
         "questions": [
-          {"id": "l110-wd1", "number": 1, "example": true, "prompt": "jam", "answer": "I've got less jam than you have, but he's got the least of all."},
-          {"id": "l110-wd2", "number": 2, "example": true, "prompt": "potatoes", "answer": "I've got more potatoes than you have, and I've got the most of all."},
-          {"id": "l110-wd3", "number": 3, "prompt": "vegetables", "answer": "I've got fewer vegetables than you have, and she's got the fewest of all."},
-          {"id": "l110-wd4", "number": 4, "prompt": "oranges", "answer": "I've got more oranges than you have, and we've got the most of all."},
-          {"id": "l110-wd5", "number": 5, "prompt": "meat", "answer": "I've got less meat than you have, and they've got the least of all."},
-          {"id": "l110-wd6", "number": 6, "prompt": "money", "answer": "I've got more money than you have, and I've got the most of all."}
+          {
+            "id": "l110-wd1",
+            "number": 1,
+            "example": true,
+            "prompt": "jam",
+            "answer": "I've got less jam than you have, but he's got the least of all."
+          },
+          {
+            "id": "l110-wd2",
+            "number": 2,
+            "example": true,
+            "prompt": "potatoes",
+            "answer": "I've got more potatoes than you have, and I've got the most of all."
+          },
+          {
+            "id": "l110-wd3",
+            "number": 3,
+            "prompt": "vegetables",
+            "answer": "I've got fewer vegetables than you have, and she's got the fewest of all."
+          },
+          {
+            "id": "l110-wd4",
+            "number": 4,
+            "prompt": "oranges",
+            "answer": "I've got more oranges than you have, and we've got the most of all."
+          },
+          {
+            "id": "l110-wd5",
+            "number": 5,
+            "prompt": "meat",
+            "answer": "I've got less meat than you have, and they've got the least of all."
+          },
+          {
+            "id": "l110-wd6",
+            "number": 6,
+            "prompt": "money",
+            "answer": "I've got more money than you have, and I've got the most of all."
+          }
         ]
       },
       {
@@ -142,11 +347,37 @@
         "key_source": "img/key-106-112.jpg",
         "context": "Table: good-better-best, bad-worse-worst, much/many-more-most, little-less-least, few-fewer-fewest.",
         "questions": [
-          {"id": "l110-pa1", "number": 1, "example": true, "prompt": "chocolate (I / you): I've got more chocolates than you.", "answer": "I've got more chocolates than you."},
-          {"id": "l110-pa2", "number": 2, "prompt": "meal (I / mine): I had a worse meal than ...", "answer": "I had a worse meal than she had."},
-          {"id": "l110-pa3", "number": 3, "prompt": "meat (I / Jane): I've got less meat than ...", "answer": "I've got less meat than Jane has."},
-          {"id": "l110-pa4", "number": 4, "prompt": "vegetables (I / Jane): I've got fewer vegetables than ...", "answer": "I've got fewer vegetables than Jane has."},
-          {"id": "l110-pa5", "number": 5, "prompt": "mistakes (English letter / I): I made fewer mistakes than ...", "answer": "I made fewer mistakes than Jane did."}
+          {
+            "id": "l110-pa1",
+            "number": 1,
+            "example": true,
+            "prompt": "chocolate (I / you): I've got more chocolates than you.",
+            "answer": "I've got more chocolates than you."
+          },
+          {
+            "id": "l110-pa2",
+            "number": 2,
+            "prompt": "meal (I / mine): I had a worse meal than ...",
+            "answer": "I had a worse meal than she had."
+          },
+          {
+            "id": "l110-pa3",
+            "number": 3,
+            "prompt": "meat (I / Jane): I've got less meat than ...",
+            "answer": "I've got less meat than Jane has."
+          },
+          {
+            "id": "l110-pa4",
+            "number": 4,
+            "prompt": "vegetables (I / Jane): I've got fewer vegetables than ...",
+            "answer": "I've got fewer vegetables than Jane has."
+          },
+          {
+            "id": "l110-pa5",
+            "number": 5,
+            "prompt": "mistakes (English letter / I): I made fewer mistakes than ...",
+            "answer": "I made fewer mistakes than Jane did."
+          }
         ]
       },
       {
@@ -161,12 +392,42 @@
         "key_source": "img/key-106-112.jpg",
         "context": "Workbook L110 B, items 1–6.",
         "questions": [
-          {"id": "l110-pb1", "number": 1, "prompt": "He ... any money in his pocket.", "answer": "Has he got"},
-          {"id": "l110-pb2", "number": 2, "prompt": "She ... a new car.", "answer": "She's got"},
-          {"id": "l110-pb3", "number": 3, "prompt": "They ... any time today.", "answer": "They haven't got"},
-          {"id": "l110-pb4", "number": 4, "prompt": "... you got a letter for me?", "answer": "Have you got"},
-          {"id": "l110-pb5", "number": 5, "prompt": "I ... any chocolate.", "answer": "I haven't got"},
-          {"id": "l110-pb6", "number": 6, "prompt": "The shop ... any oranges.", "answer": "hasn't got"}
+          {
+            "id": "l110-pb1",
+            "number": 1,
+            "prompt": "He ... any money in his pocket.",
+            "answer": "Has he got"
+          },
+          {
+            "id": "l110-pb2",
+            "number": 2,
+            "prompt": "She ... a new car.",
+            "answer": "She's got"
+          },
+          {
+            "id": "l110-pb3",
+            "number": 3,
+            "prompt": "They ... any time today.",
+            "answer": "They haven't got"
+          },
+          {
+            "id": "l110-pb4",
+            "number": 4,
+            "prompt": "... you got a letter for me?",
+            "answer": "Have you got"
+          },
+          {
+            "id": "l110-pb5",
+            "number": 5,
+            "prompt": "I ... any chocolate.",
+            "answer": "I haven't got"
+          },
+          {
+            "id": "l110-pb6",
+            "number": 6,
+            "prompt": "The shop ... any oranges.",
+            "answer": "hasn't got"
+          }
         ]
       }
     ],
@@ -183,16 +444,187 @@
         "key_source": "pdf p.542 (新概念英语语法练习1)",
         "context": "Table: Jane/Mary/Ann — 1. books 3/5/8; 2. bought skirts 4/6/2; 3. got handbags 2/1/3; 4. dollars 60/150/100; 5. had chocolate 7/4/3 bars; 6. ate bread 2/1/4 slices; 7. drank beer 1/4/2 bottles; 8. written letters 2/3/4; 9. had steak 1/2/3 pieces; 10. made mistakes 2/5/3.",
         "questions": [
-          {"id": "l110-gi1", "number": 1, "example": true, "prompt": "books (3 / 5 / 8)", "answer": "Jane has got fewer books than Mary has got, and Mary has got fewer books than Ann has got."},
-          {"id": "l110-gi2", "number": 2, "prompt": "bought skirts (4 / 6 / 2)", "answer": "Mary bought more skirts than Jane bought, and Jane bought more skirts than Ann bought."},
-          {"id": "l110-gi3", "number": 3, "prompt": "got handbags (2 / 1 / 3)", "answer": "Ann has got more handbags than Jane has got, and Jane has got more handbags than Mary has got."},
-          {"id": "l110-gi4", "number": 4, "prompt": "dollars (60 / 150 / 100)", "answer": "Mary has got more dollars than Ann has got, and Ann has got more dollars than Jane has got."},
-          {"id": "l110-gi5", "number": 5, "prompt": "had chocolate (7 / 4 / 3 bars)", "answer": "Jane had more chocolate than Mary had, and Mary had more chocolate than Ann had."},
-          {"id": "l110-gi6", "number": 6, "prompt": "ate bread (2 / 1 / 4 slices)", "answer": "Ann ate more bread than Jane ate, and Jane ate more bread than Mary ate."},
-          {"id": "l110-gi7", "number": 7, "prompt": "drank beer (1 / 4 / 2 bottles)", "answer": "Mary drank more beer than Ann drank, and Ann drank more beer than Jane drank."},
-          {"id": "l110-gi8", "number": 8, "prompt": "written letters (2 / 3 / 4)", "answer": "Ann has written more letters than Mary has written, and Mary has written more letters than Jane has written."},
-          {"id": "l110-gi9", "number": 9, "prompt": "had steak (1 / 2 / 3 pieces)", "answer": "Ann had more steak than Mary had, and Mary had more steak than Jane had."},
-          {"id": "l110-gi10", "number": 10, "prompt": "made mistakes (2 / 5 / 3)", "answer": "Mary made more mistakes than Ann made, and Ann made more mistakes than Jane made."}
+          {
+            "id": "l110-gi1",
+            "number": 1,
+            "example": true,
+            "prompt": "books (3 / 5 / 8)",
+            "answer": "Mary has more books than Jane does, but she has fewer books than Ann does. Ann has the most books of the three, and Jane has the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane has three books. Mary has five. Ann has eight.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Mary has more books than Jane does, but she has fewer books than Ann does. Ann has the most books of the three, and Jane has the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi2",
+            "number": 2,
+            "prompt": "bought skirts (4 / 6 / 2)",
+            "answer": "Jane has bought more skirts than Ann has, but she has bought fewer skirts than Mary has. Mary has bought the most skirts of the three, and Ann has bought the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane has bought four skirts. Mary has bought six. Ann has bought two.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Jane has bought more skirts than Ann has, but she has bought fewer skirts than Mary has. Mary has bought the most skirts of the three, and Ann has bought the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi3",
+            "number": 3,
+            "prompt": "got handbags (2 / 1 / 3)",
+            "answer": "Jane has got more handbags than Mary has, but she has got fewer handbags than Ann has. Ann has got the most handbags of the three, and Mary has got the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane has got two handbags. Mary has got one. Ann has got three.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Jane has got more handbags than Mary has, but she has got fewer handbags than Ann has. Ann has got the most handbags of the three, and Mary has got the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi4",
+            "number": 4,
+            "prompt": "dollars (60 / 150 / 100)",
+            "answer": "Ann has more dollars than Jane has, but she has fewer dollars than Mary has. Mary has the most dollars of the three, and Jane has the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane has sixty dollars. Mary has a hundred and fifty. Ann has a hundred.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Ann has more dollars than Jane has, but she has fewer dollars than Mary has. Mary has the most dollars of the three, and Jane has the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi5",
+            "number": 5,
+            "prompt": "had chocolate (7 / 4 / 3 bars)",
+            "answer": "Mary had more bars of chocolate than Ann did, but she had fewer bars of chocolate than Jane did. Jane had the most bars of chocolate of the three, and Ann had the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane had seven bars of chocolate. Mary had four. Ann had three.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Mary had more bars of chocolate than Ann did, but she had fewer bars of chocolate than Jane did. Jane had the most bars of chocolate of the three, and Ann had the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi6",
+            "number": 6,
+            "prompt": "ate bread (2 / 1 / 4 slices)",
+            "answer": "Jane ate more slices of bread than Mary did, but she ate fewer slices of bread than Ann did. Ann ate the most slices of bread of the three, and Mary ate the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane ate two slices of bread. Mary ate one. Ann ate four.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Jane ate more slices of bread than Mary did, but she ate fewer slices of bread than Ann did. Ann ate the most slices of bread of the three, and Mary ate the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi7",
+            "number": 7,
+            "prompt": "drank beer (1 / 4 / 2 bottles)",
+            "answer": "Ann drank more bottles of beer than Jane did, but she drank fewer bottles of beer than Mary did. Mary drank the most bottles of beer of the three, and Jane drank the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane drank one bottle of beer. Mary drank four. Ann drank two.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Ann drank more bottles of beer than Jane did, but she drank fewer bottles of beer than Mary did. Mary drank the most bottles of beer of the three, and Jane drank the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi8",
+            "number": 8,
+            "prompt": "written letters (2 / 3 / 4)",
+            "answer": "Mary has written more letters than Jane has, but she has written fewer letters than Ann has. Ann has written the most letters of the three, and Jane has written the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane has written two letters. Mary has written three. Ann has written four.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Mary has written more letters than Jane has, but she has written fewer letters than Ann has. Ann has written the most letters of the three, and Jane has written the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi9",
+            "number": 9,
+            "prompt": "had steak (1 / 2 / 3 pieces)",
+            "answer": "Mary had more pieces of steak than Jane did, but she had fewer pieces of steak than Ann did. Ann had the most pieces of steak of the three, and Jane had the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane had one piece of steak. Mary had two. Ann had three.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Mary had more pieces of steak than Jane did, but she had fewer pieces of steak than Ann did. Ann had the most pieces of steak of the three, and Jane had the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gi10",
+            "number": 10,
+            "prompt": "made mistakes (2 / 5 / 3)",
+            "answer": "Ann made more mistakes than Jane did, but she made fewer mistakes than Mary did. Mary made the most mistakes of the three, and Jane made the fewest.",
+            "audio_segments": [
+              {
+                "text": "Jane made two mistakes. Mary made five. Ann made three.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Ann made more mistakes than Jane did, but she made fewer mistakes than Mary did. Mary made the most mistakes of the three, and Jane made the fewest.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       },
       {
@@ -207,18 +639,223 @@
         "key_source": "pdf p.543 (新概念英语语法练习1)",
         "context": "Scores (English / Chinese / Science): Sam 89/79/88, David 78/64/73, Sophie 80/82/84, Hans 66/65/69, Ken 73/88/34, Tim 92/70/71, Bob 85/90/86, Kathy 82/94/87.",
         "questions": [
-          {"id": "l110-gii1", "number": 1, "example": true, "prompt": "Who are better at Science than Bob?", "answer": "Sam and Kathy are better at Science than Bob."},
-          {"id": "l110-gii2", "number": 2, "prompt": "Who is the best at English?", "answer": "Tim is the best at English."},
-          {"id": "l110-gii3", "number": 3, "prompt": "Who is the worst at Science?", "answer": "Ken is the worst at Science."},
-          {"id": "l110-gii4", "number": 4, "prompt": "Who are better at Chinese than Sophie?", "answer": "Ken, Bob and Kathy are better at Chinese than Sophie."},
-          {"id": "l110-gii5", "number": 5, "prompt": "Who is worse at English than David?", "answer": "Hans and Ken are worse at English than David."},
-          {"id": "l110-gii6", "number": 6, "prompt": "Who are better at Science than Hans?", "answer": "Sam, Sophie, Tim, Bob and Kathy are better at Science than Hans."},
-          {"id": "l110-gii7", "number": 7, "prompt": "Who is the best at Chinese?", "answer": "Kathy is the best at Chinese."},
-          {"id": "l110-gii8", "number": 8, "prompt": "Who is the worst at English?", "answer": "Hans is the worst at English."},
-          {"id": "l110-gii9", "number": 9, "prompt": "Who are worse at Science than Sophie?", "answer": "David, Hans and Ken are worse at Science than Sophie."},
-          {"id": "l110-gii10", "number": 10, "prompt": "Who are better at English than Kathy?", "answer": "Sam, Tim and Bob are better at English than Kathy."},
-          {"id": "l110-gii11", "number": 11, "prompt": "Who is the best at Science?", "answer": "Sam is the best at Science."},
-          {"id": "l110-gii12", "number": 12, "prompt": "Who is worse at Chinese than Tim?", "answer": "David and Hans are worse at Chinese than Tim."}
+          {
+            "id": "l110-gii1",
+            "number": 1,
+            "example": true,
+            "prompt": "Who are better at Science than Bob?",
+            "answer": "Sam and Kathy are better at Science than Bob.",
+            "audio_segments": [
+              {
+                "text": "Who are better at Science than Bob?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Sam and Kathy are better at Science than Bob.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii2",
+            "number": 2,
+            "prompt": "Who is the best at Science in this class?",
+            "answer": "Sam is the best at Science in this class.",
+            "audio_segments": [
+              {
+                "text": "Who is the best at Science in this class?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Sam is the best at Science in this class.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii3",
+            "number": 3,
+            "prompt": "Who is the worst at Science in this class?",
+            "answer": "Ken is the worst at Science in this class.",
+            "audio_segments": [
+              {
+                "text": "Who is the worst at Science in this class?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Ken is the worst at Science in this class.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii4",
+            "number": 4,
+            "prompt": "Who are worse at Science than Tim?",
+            "answer": "Hans and Ken are worse at Science than Tim.",
+            "audio_segments": [
+              {
+                "text": "Who are worse at Science than Tim?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Hans and Ken are worse at Science than Tim.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii5",
+            "number": 5,
+            "prompt": "Who are better at English than Bob?",
+            "answer": "Tim and Sam are better at English than Bob.",
+            "audio_segments": [
+              {
+                "text": "Who are better at English than Bob?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tim and Sam are better at English than Bob.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii6",
+            "number": 6,
+            "prompt": "Who are worse at English than Sophie?",
+            "answer": "David, Hans and Ken are worse at English than Sophie.",
+            "audio_segments": [
+              {
+                "text": "Who are worse at English than Sophie?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "David, Hans and Ken are worse at English than Sophie.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii7",
+            "number": 7,
+            "prompt": "Who is the worst at English in this class?",
+            "answer": "Hans is the worst at English in this class.",
+            "audio_segments": [
+              {
+                "text": "Who is the worst at English in this class?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Hans is the worst at English in this class.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii8",
+            "number": 8,
+            "prompt": "Who is the best at English in this class?",
+            "answer": "Tim is the best at English in this class.",
+            "audio_segments": [
+              {
+                "text": "Who is the best at English in this class?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tim is the best at English in this class.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii9",
+            "number": 9,
+            "prompt": "Who are better at Chinese than Sam?",
+            "answer": "Sophie, Ken, Bob and Kathy are better at Chinese than Sam.",
+            "audio_segments": [
+              {
+                "text": "Who are better at Chinese than Sam?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Sophie, Ken, Bob and Kathy are better at Chinese than Sam.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii10",
+            "number": 10,
+            "prompt": "Who are worse at Chinese than Tim?",
+            "answer": "David and Hans are worse at Chinese than Tim.",
+            "audio_segments": [
+              {
+                "text": "Who are worse at Chinese than Tim?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "David and Hans are worse at Chinese than Tim.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii11",
+            "number": 11,
+            "prompt": "Who is the worst at Chinese in this class?",
+            "answer": "David is the worst at Chinese in this class.",
+            "audio_segments": [
+              {
+                "text": "Who is the worst at Chinese in this class?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "David is the worst at Chinese in this class.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l110-gii12",
+            "number": 12,
+            "prompt": "Who is the best at Chinese in this class?",
+            "answer": "Kathy is the best at Chinese in this class.",
+            "audio_segments": [
+              {
+                "text": "Who is the best at Chinese in this class?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Kathy is the best at Chinese in this class.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       }
     ]
@@ -236,5 +873,16 @@
       "width": 1561,
       "height": 2412
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 110,
+      "start": 333,
+      "end": 335,
+      "bookmark_start": 333
+    },
+    "checked_answer_pages": 542,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }
