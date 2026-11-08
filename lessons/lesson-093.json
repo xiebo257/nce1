@@ -39,17 +39,27 @@
   "images": {
     "lesson-093-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Nigel, a pilot in uniform and cap, stands beside an aeroplane. The scene includes illustrations of New York, Tokyo, Madrid (Spain), and London, showing his travel destinations.",
       "characters": [
         "nigel"
       ],
       "source": "../img/lesson-093-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Nigel, the experienced airline pilot, stands near a passenger aircraft on an airport apron holding a small flight bag. Clear daylight, airport terminal in the distance. One location, no travel montage.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-093/lesson-093-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Our new neighbour",
+      "alt": "Nigel, the experienced airline pilot, stands near a passenger aircraft on an airport apron holding a small flight bag.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 93017,
+        "manifest": "illustrations/manifests/093-lesson-093-scene-01.json"
+      }
     }
   },
   "sections": {
