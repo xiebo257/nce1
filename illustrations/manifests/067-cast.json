@@ -1,0 +1,29 @@
+{
+  "slot": "cast",
+  "prompt": "A horizontal character reference sheet with exactly 2 equal-width vertical panels in ONE row. Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. Left to right: 1. mrs-johnson: Woman about 40, short blond curls, camel coat, brown wicker shopping basket. 2. mrs-williams: Woman about 40, dark bob haircut, teal coat, light wicker shopping basket. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Portraits only, no scene or props.",
+  "cast": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference": null,
+  "lesson": 67,
+  "seed": 67017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "34cb988b49d8f96cb963d6041b2f445688a6cdff872fdae96bccd61d4150a432",
+  "sha256": "17098a36cbdbbd4e2e011cd2632b901c79fef0bd03c0b7031b213c25a63b5429",
+  "seconds": 37.27,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "reference_source": "illustrations/references/067-cast-source.png",
+  "reference_review": {
+    "sha256": "17098a36cbdbbd4e2e011cd2632b901c79fef0bd03c0b7031b213c25a63b5429",
+    "review_notes": "Two separate portraits in the correct order: Mrs Johnson with short blond waves and tan coat/brown basket, Mrs Williams with dark bob and teal coat/light basket. One face per panel, no extra people."
+  },
+  "review_notes": "All five scenes visually checked against two-portrait cast: blonde woman camel coat/dark basket and dark bob woman teal coat/light basket remain consistent. Natural shopping conversation, produce and bakery scenes match. Local edits removed large invented shop lettering in first two scenes; no extra main people or speech balloons.",
+  "published_sha256": "472ccccd25707e1c92d5f718dea8bfd61bc6f067477db3844e28f7697b0af8e6"
+}

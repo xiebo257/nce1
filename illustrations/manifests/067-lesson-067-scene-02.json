@@ -1,0 +1,47 @@
+{
+  "slot": "lesson-067-scene-02",
+  "prompt": "Mrs Johnson gestures toward a window display of fresh fruit and vegetables while Mrs Williams listens, both holding their shopping baskets. Two women standing together on the same pavement, natural daylight, camera framing below shop name signs. Exactly 2 people appear. Image 1 is the appearance reference for mrs-johnson. Image 2 is the appearance reference for mrs-williams. Keep their same faces, hairstyles and clothing. Appearance: mrs-johnson: Woman about 40, short blond curls, camel coat, brown wicker shopping basket. mrs-williams: Woman about 40, dark bob haircut, teal coat, light wicker shopping basket. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "cast_layout": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 67,
+  "seed": 67019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "17098a36cbdbbd4e2e011cd2632b901c79fef0bd03c0b7031b213c25a63b5429",
+  "fingerprint": "72fbf75a4edbe748707afeb5c3e602ed0f2b9c75ef3a4782917cee4f289498cb",
+  "sha256": "9c94146ed7eff0a1369462a03bb69ba15bf0689c0511ec61d93da64189cea72b",
+  "seconds": 45.52,
+  "peak_mlx_gb": 5.223,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove all lettering from the shop signs, leaving clean plain signboards. Preserve both women, faces, camel and teal coats, baskets, produce display, shop architecture and photographic style.",
+        "seed": 670211,
+        "input_sha256": "99db80418a58f4c063f1b967777a1d90fa741dee25c23b6aebda0e1175e548f4",
+        "output_sha256": "9c94146ed7eff0a1369462a03bb69ba15bf0689c0511ec61d93da64189cea72b",
+        "seconds": 49.32
+      }
+    ]
+  },
+  "review_notes": "All five scenes visually checked against two-portrait cast: blonde woman camel coat/dark basket and dark bob woman teal coat/light basket remain consistent. Natural shopping conversation, produce and bakery scenes match. Local edits removed large invented shop lettering in first two scenes; no extra main people or speech balloons.",
+  "published_sha256": "a1bdeb0126762da597edb2a9afce5075f25ea02bc09d2a821d5e2b5fe5acfb9c"
+}

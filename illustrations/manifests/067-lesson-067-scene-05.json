@@ -1,0 +1,35 @@
+{
+  "slot": "lesson-067-scene-05",
+  "prompt": "Mrs Williams looks pleasantly surprised and smiles warmly at Mrs Johnson, who smiles back. Both women stand beside the same food-shop window holding shopping baskets, ready to continue their day. Exactly 2 people appear. Image 1 is the appearance reference for mrs-johnson. Image 2 is the appearance reference for mrs-williams. Keep their same faces, hairstyles and clothing. Appearance: mrs-johnson: Woman about 40, short blond curls, camel coat, brown wicker shopping basket. mrs-williams: Woman about 40, dark bob haircut, teal coat, light wicker shopping basket. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "cast_layout": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 67,
+  "seed": 67022,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "17098a36cbdbbd4e2e011cd2632b901c79fef0bd03c0b7031b213c25a63b5429",
+  "fingerprint": "7135220e058734e1a5d246cad584319fea903d8507e5dd47a1957b7af10757b6",
+  "sha256": "c0109231067460f4d7be087878df40f1fd62107b8d9dd81c2f302e0b02c6d753",
+  "seconds": 61.73,
+  "peak_mlx_gb": 5.223,
+  "status": "visually-reviewed",
+  "review_notes": "All five scenes visually checked against two-portrait cast: blonde woman camel coat/dark basket and dark bob woman teal coat/light basket remain consistent. Natural shopping conversation, produce and bakery scenes match. Local edits removed large invented shop lettering in first two scenes; no extra main people or speech balloons.",
+  "published_sha256": "83b5906601f03b87917d2b878d3074ac62c8d5ec05122b68bafa4ff2d77fae91"
+}

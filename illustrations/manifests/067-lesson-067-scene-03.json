@@ -1,0 +1,35 @@
+{
+  "slot": "lesson-067-scene-03",
+  "prompt": "Mrs Williams and Mrs Johnson continue their conversation on the pavement, their expressions thoughtful and concerned. Each carries her same shopping basket. A medium two-person view with softly blurred shop windows behind. Exactly 2 people appear. Image 1 is the appearance reference for mrs-johnson. Image 2 is the appearance reference for mrs-williams. Keep their same faces, hairstyles and clothing. Appearance: mrs-johnson: Woman about 40, short blond curls, camel coat, brown wicker shopping basket. mrs-williams: Woman about 40, dark bob haircut, teal coat, light wicker shopping basket. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "cast_layout": [
+    "mrs-johnson",
+    "mrs-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 67,
+  "seed": 67020,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "17098a36cbdbbd4e2e011cd2632b901c79fef0bd03c0b7031b213c25a63b5429",
+  "fingerprint": "ddfbfe7006089753f98c1f8f611e915694424b0857e8d8c8e1d81d71c454da7f",
+  "sha256": "2a1ff5bdf93842a322dd0195bd477652a98e3736ef6da255b98b1c1bde672928",
+  "seconds": 51.62,
+  "peak_mlx_gb": 5.223,
+  "status": "visually-reviewed",
+  "review_notes": "All five scenes visually checked against two-portrait cast: blonde woman camel coat/dark basket and dark bob woman teal coat/light basket remain consistent. Natural shopping conversation, produce and bakery scenes match. Local edits removed large invented shop lettering in first two scenes; no extra main people or speech balloons.",
+  "published_sha256": "4fc1eae76dedaca87449df57ec8ccaa5534df010f1f887eb481d5c5642d5289c"
+}
