@@ -1,0 +1,35 @@
+{
+  "slot": "l138-pictures",
+  "prompt": "A clean full-color educational illustration with exactly SIX separate panels in two columns and three rows. Top left: a woman stays indoors looking at rain outside her window. Top right: a man relaxes at a sunny seaside beach. Middle left: a patient talks to a doctor in a clinic. Middle right: a woman discusses a decision with a female friend. Bottom left: an older man rests at home after retirement. Bottom right: travelers with suitcases admire Big Ben in London. Each panel is a separate everyday situation. No captions, numbers or speech bubbles.   Appearance:  Warm full-color educational illustration, clear distinct panels, natural faces and anatomy.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "lesson": 138,
+  "seed": 138017,
+  "width": 768,
+  "height": 960,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "1f4fbec8ac3a039b88b8d6c9f09554cb744f1bb86d14994b77ebe758e8952352",
+  "sha256": "d8ce75730402c3933ee9be513eb0e538c4ef9b472d2f48da45c839fa5c90fbe6",
+  "seconds": 75.12,
+  "peak_mlx_gb": 5.229,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "In the MIDDLE LEFT panel only, change the woman at left into a PATIENT: she wears a plain coral sweater with no stethoscope and no lab coat. The male doctor at right keeps his white coat. Preserve all six panel positions and every other scene. No text.",
+        "seed": 1380111,
+        "input_sha256": "e767bfc258744644eb4729c99dd0c5df33d450329eb77b653d9e729c76a2581e",
+        "output_sha256": "d8ce75730402c3933ee9be513eb0e538c4ef9b472d2f48da45c839fa5c90fbe6",
+        "seconds": 174.68
+      }
+    ]
+  },
+  "review_notes": "Six complete panels: rainy window at home, sunny seaside, patient consulting doctor, two friends discussing decision, retired older man resting, travelers in London. Corrected patient to coral sweater, doctor keeps white coat. No captions or speech balloons.",
+  "published_sha256": "60acb0aa90d3a4a4517f714d394e098d856f874d1686a1d5f0a03795e00a8595"
+}
