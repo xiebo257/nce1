@@ -1,0 +1,133 @@
+{
+  "slot": "lesson-076-pic-123",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. A boy greets a girl who waves back.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/076-lesson-076-pic-123-clean.png",
+  "lesson": 76,
+  "seed": 76031,
+  "width": 336,
+  "height": 336,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "1879e6a5793dc1674ec943edc8df1b3b98188349ed625d96fd2dcc34ea175e20",
+  "fingerprint": "0add29eef497c932bb67fe04c590f11a25a13582c97f24f889c99453e7183af1",
+  "sha256": "a3d41af9efbe8bc57b68d9c6155593f7e19da522397631b5294496ed9a5349c4",
+  "status": "visually-reviewed",
+  "seconds": 10.434666666666667,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 76901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 15 textbook picture tiles in their EXACT 4-column, 4-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1024,
+    "height": 768,
+    "steps": 4,
+    "seconds": 156.52,
+    "peak_mlx_gb": 6.226,
+    "input_sha256": "1134064a8dd679744a97f73406f511328782ed1892fdf97a07a4cf6bfc7471ff",
+    "output_sha256": "019c763226b77e5c3cadda357704962ae481c0db02eaa37f81ce4c7b96631bc6",
+    "slots": [
+      "lesson-076-pic-109",
+      "lesson-076-pic-110",
+      "lesson-076-pic-111",
+      "lesson-076-pic-112",
+      "lesson-076-pic-113",
+      "lesson-076-pic-114",
+      "lesson-076-pic-115",
+      "lesson-076-pic-116",
+      "lesson-076-pic-117",
+      "lesson-076-pic-118",
+      "lesson-076-pic-119",
+      "lesson-076-pic-120",
+      "lesson-076-pic-121",
+      "lesson-076-pic-122",
+      "lesson-076-pic-123"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-109-clean.png",
+        "sha256": "c8edce8e5e751624a83569c4fa3a2b2c5756b7548ca91697ce83fd430ea73fc5"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-110-clean.png",
+        "sha256": "0523d48f7a5de2e6ef953e021ae6275f49a59381d58f79064cfc8abe213081a1"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-111-clean.png",
+        "sha256": "5a3addcdfc744e23c519fdea8ccf3f18e15f5d8abec3595f21d8427f5d71dc5e"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-112-clean.png",
+        "sha256": "d37e6bc26f120b3ee471c457a090eb5f64cf293b2028d5dfd00a6d379482fe48"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-113-clean.png",
+        "sha256": "c97a855c4cdb10ea231fd2d4192f00611659dd5968e14f3814231f69392ef492"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-114-clean.png",
+        "sha256": "a76d4ff8361dbb830e523ac6707d0ae35a5917b36bac113220c1f2da5359c720"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-115-clean.png",
+        "sha256": "4ae09b710995beaf6a48cf0d2411c53fa1c58cbd402ad4033e5f7ac757ee3919"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-116-clean.png",
+        "sha256": "f66e552edc86c6f68ef9d44ef99ea6ea11f2f09af0fecafaac8a1202a44c8131"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-117-clean.png",
+        "sha256": "21dc23434b1bdb9306b50fba7d7509c54d278bae5d3e8732175c3be3164dd3d6"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-118-clean.png",
+        "sha256": "7278ead05e5787a5cf1ab1978f0ce08e26131fafa9fe905003d23eaba59d8810"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-119-clean.png",
+        "sha256": "9be6d387094f558eab5f34423f2ebfe4268451f6464c11382a194c21e4915bce"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-120-clean.png",
+        "sha256": "ed569f2ad2c4b6cf4e093cebf8f639e66bacb78cb69432651ce1232e468ed9ab"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-121-clean.png",
+        "sha256": "d59497f566ef5555ef01c838c58c2435a17cdb21fe98f2fd6c07c94d33f1bac3"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-122-clean.png",
+        "sha256": "a9ec27e5514055bfd416f143a4893ad09176d16d1679aa6c1475d687da090bbf"
+      },
+      {
+        "path": "illustrations/references/source/076-lesson-076-pic-123-clean.png",
+        "sha256": "1879e6a5793dc1674ec943edc8df1b3b98188349ed625d96fd2dcc34ea175e20"
+      }
+    ],
+    "saved_output_recovery": "Adopted actual newly generated colored_1.png from MFLUX non-overwrite naming."
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      512,
+      576,
+      768,
+      768
+    ],
+    "output_size": [
+      256,
+      192
+    ],
+    "source_atlas_sha256": "1134064a8dd679744a97f73406f511328782ed1892fdf97a07a4cf6bfc7471ff",
+    "color_guide_sha256": "019c763226b77e5c3cadda357704962ae481c0db02eaa37f81ce4c7b96631bc6",
+    "region_overrides": []
+  },
+  "review_notes": "Reviewed all 15 complete source panels: photo, cat/wall, walking, washing, lost key, greeting, typing, TV, conversation, arrival, shopping, cupboard, bus stop, car and greeting. Source count, order and people retained.",
+  "published_sha256": "2c75c7b46fdfe20d2dc0cfa0886068b4ff6be5ff509b30372042edac46397085"
+}
