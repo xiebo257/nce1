@@ -1,0 +1,28 @@
+{
+  "slot": "l121-scene",
+  "prompt": "Inside a bookshop, the customer has just put on his brimmed hat. Caroline behind the counter smiles in recognition, and the manager gestures toward two thick dictionaries on the counter. Three distinct adults, shelves of books behind. Exactly 3 people appear.  Appearance: customer: Man about 45, short brown hair, a distinctive brown brimmed hat, dark gray coat. manager: Man about 50, short graying hair, rectangular glasses, navy cardigan. caroline: Woman about 25, dark bob, teal blouse, navy skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "customer",
+    "manager",
+    "caroline"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 121,
+  "seed": 121017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "c008730fa592242b292a3ea1b7f266aa30fc7d8a9f321e558adea5e76f817894",
+  "sha256": "1c68f355629e48c6644e3f670f72d081bb6c0a4093836d208daaf35033b53b89",
+  "seconds": 40.23,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed hat-wearing customer, manager and Caroline in bookshop; two thick central dictionary volumes visible with other books around. Three distinct people.",
+  "published_sha256": "7be9861b009d88642040b749aee474b02ad0049e8986c93b69f632786fb7f1ce"
+}

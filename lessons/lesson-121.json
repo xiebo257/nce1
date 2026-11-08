@@ -220,7 +220,7 @@
   "images": {
     "l121-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Six numbered panels: 1 the customer talking to Caroline in the bookshop; 2 the manager asking Caroline about the customer; 3 Caroline pointing at the books on the counter; 4 the manager showing Caroline the customer's hat; 5 Caroline and the manager looking at the hat; 6 Caroline recognizing the customer who is now wearing his hat.",
       "source": "img/lesson-121-01-text.jpg (textbook p.245)",
       "characters": [
@@ -228,11 +228,21 @@
         "manager",
         "caroline"
       ],
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Inside a bookshop, the customer has just put on his brimmed hat. Caroline behind the counter smiles in recognition, and the manager gestures toward two thick dictionaries on the counter. Three distinct adults, shelves of books behind.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-121/l121-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The man in a hat 戴帽子的男士",
+      "alt": "Inside a bookshop, the customer has just put on his brimmed hat.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 121017,
+        "manifest": "illustrations/manifests/121-l121-scene.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
