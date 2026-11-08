@@ -226,9 +226,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
-      "src": "assets/lesson-124/pictures-grid.jpg",
-      "width": 1636,
-      "height": 1800,
+      "src": "assets/lesson-124/l124-pictures-color.webp",
+      "width": 768,
+      "height": 480,
       "source": "img/lesson-124-01-text.jpg (textbook p.251)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/124-complete-panels.png",
@@ -299,6 +299,14 @@
             758
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "(Who) / (whom), (which) and (that) 关系代词",
+      "alt": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 124017,
+        "manifest": "illustrations/manifests/124-l124-pictures.json"
       }
     }
   },

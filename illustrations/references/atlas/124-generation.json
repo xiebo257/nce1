@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 124901,
+  "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
+  "width": 768,
+  "height": 480,
+  "steps": 4,
+  "seconds": 74.11,
+  "peak_mlx_gb": 5.297,
+  "input_sha256": "e7d7bbbcc889b6578cdb36a15ba2b38d7b681a83604ccc2847929986faf0cc47",
+  "output_sha256": "a55067275301c7765dfc797d302a5e2e596f9d2a9a5c917d2d2349b782e2b8d1",
+  "slots": [
+    "l124-pictures"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/124-complete-panels.png",
+      "sha256": "e7d7bbbcc889b6578cdb36a15ba2b38d7b681a83604ccc2847929986faf0cc47"
+    }
+  ]
+}

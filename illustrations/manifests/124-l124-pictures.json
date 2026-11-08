@@ -1,0 +1,83 @@
+{
+  "slot": "l124-pictures",
+  "prompt": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/124-complete-panels.png",
+  "lesson": 124,
+  "seed": 124017,
+  "width": 768,
+  "height": 480,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "e7d7bbbcc889b6578cdb36a15ba2b38d7b681a83604ccc2847929986faf0cc47",
+  "fingerprint": "5151eb6719c0df701d2d052e76b0301429677efd1abe078a4b106db2392a8b47",
+  "sha256": "70d6fae152b52be23194c2835c047c019743d41a1c4a4087d8895ac579f412de",
+  "status": "visually-reviewed",
+  "seconds": 74.11,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 124901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
+    "width": 768,
+    "height": 480,
+    "steps": 4,
+    "seconds": 74.11,
+    "peak_mlx_gb": 5.297,
+    "input_sha256": "e7d7bbbcc889b6578cdb36a15ba2b38d7b681a83604ccc2847929986faf0cc47",
+    "output_sha256": "a55067275301c7765dfc797d302a5e2e596f9d2a9a5c917d2d2349b782e2b8d1",
+    "slots": [
+      "l124-pictures"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/124-complete-panels.png",
+        "sha256": "e7d7bbbcc889b6578cdb36a15ba2b38d7b681a83604ccc2847929986faf0cc47"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      768,
+      480
+    ],
+    "output_size": [
+      768,
+      480
+    ],
+    "source_atlas_sha256": "e7d7bbbcc889b6578cdb36a15ba2b38d7b681a83604ccc2847929986faf0cc47",
+    "color_guide_sha256": "a55067275301c7765dfc797d302a5e2e596f9d2a9a5c917d2d2349b782e2b8d1",
+    "region_overrides": [],
+    "panel_reorder": {
+      "bottom_row_from_original_columns": [
+        2,
+        3,
+        1
+      ],
+      "reason": "Match original numbered order 7 book, 8 books, 9 kitten; source contour sorting had put kitten first."
+    },
+    "repeated_scene_color_match": {
+      "from": [
+        512,
+        0,
+        768,
+        160
+      ],
+      "to": [
+        512,
+        160
+      ],
+      "reason": "Same road-worker scene in original panels 3 and 6; reuse colors for consistency."
+    }
+  },
+  "review_notes": "Reviewed nine scenes against numbered source page. Corrected bottom row order to single book, multiple books, kitten (7-9). Matched repeated road-worker scene colors in panels 3 and 6; counters, people and possessions preserved.",
+  "published_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf"
+}
