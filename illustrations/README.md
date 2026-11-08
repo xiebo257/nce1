@@ -7,7 +7,8 @@ Lesson 44 is preserved.
 
 There are 100 lessons in scope; even lessons include objects, actions and
 picture prompts. A slot is complete only
-when its canonical `status` is `ready` with `origin: local-model`. Candidate
+when its canonical `status` is `ready` with `origin: local-model` (illustrations)
+or `origin: local-diagram` (exact instructional clocks). Candidate
 images under ignored `work/` are not published artwork.
 
 ## Local model
@@ -43,6 +44,27 @@ reference hash, dimensions, timings, file hashes and actual review notes.
 Illustrative appearance choices are distinguished from facts stated in the
 textbook. Image metadata preserves the original source description separately
 from the selected scene and accessible alt text.
+
+For picture-based lessons, a shared source sheet keeps all panels together in
+one local model pass. If the model changes a teaching action or object, the
+reviewed result instead transfers its colors into the original source linework.
+This is model-assisted source colorization; it is not a wholly model-redrawn
+scene. Exact clocks retain their original hands and numerals with deterministic
+color treatment. Manifests distinguish these methods and record any reviewed
+color or crop corrections. Original source and generated sheets are preserved
+under `illustrations/references/atlas/`.
+
+Run the asset and provenance audit with the image environment:
+
+```sh
+~/.local/share/nce1-imagegen/bin/python \
+  skills/nce1-lesson-html/scripts/audit_published_illustrations.py \
+  --from 45 --to 144 --baseline d44d5eb
+```
+
+It checks completion, published hashes, image dimensions, review records,
+source/atlas hashes, and unchanged Practice/Grammar sections against the given
+Git revision. It does not replace the visual review of each lesson.
 
 See the [local illustration workflow](../skills/nce1-lesson-html/references/local-illustrations.md)
 for verified mirror downloads, generation, resumption and publishing commands.
