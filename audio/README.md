@@ -115,6 +115,8 @@
 | 109 | A good idea | [1:47](109-1-lesson.wav) | [1:40](109-2-practice.wav) | [5:44](109-3-gramar.wav) | [脚本](scripts/109/README.md) |
 | 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:44](110-2-practice.wav) | [4:05](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
 | 111 | The most expensive model 最昂贵的型号 | [1:43](111-1-lesson.wav) | [2:43](111-2-practice.wav) | [6:52](111-3-gramar.wav) | [脚本](scripts/111/README.md) |
+| 112 | How do they compare? 比一比 | [0:56](112-1-lesson.wav) | [4:53](112-2-practice.wav) | [3:09](112-3-gramar.wav) | [脚本](scripts/112/README.md) |
+| 113 | Small change 零钱 | [2:35](113-1-lesson.wav) | [2:16](113-2-practice.wav) | [7:39](113-3-gramar.wav) | [脚本](scripts/113/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
