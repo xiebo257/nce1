@@ -1,0 +1,181 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-086.html",
+  "source_items": 13,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 86. Practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "practice",
+      "generation_seed": 1422660393,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "A — Has he ever been to...?",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has Ken ever been to Paris?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-1",
+      "section": "A — Has he ever been to...?",
+      "generation_seed": 506365480,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you ever been to London?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-2",
+      "section": "A — Has he ever been to...?",
+      "generation_seed": 1045176581,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has Carol ever been to Australia?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-3",
+      "section": "A — Has he ever been to...?",
+      "generation_seed": 803198039,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have your friends ever been to England?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-4",
+      "section": "A — Has he ever been to...?",
+      "generation_seed": 544780557,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have Sam and Carol ever been to China?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "practice-a-5",
+      "section": "A — Has he ever been to...?",
+      "generation_seed": 1620820179,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "B — I've already done it. I did it an hour ago.",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She has already typed your letters. She typed them an hour ago.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-1",
+      "section": "B — I've already done it. I did it an hour ago.",
+      "source_items": [
+        "practice-b-1",
+        "practice-b-2"
+      ],
+      "generation_seed": 729242259,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They have already cleaned their shoes. They cleaned them this morning.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-3",
+      "section": "B — I've already done it. I did it an hour ago.",
+      "source_items": [
+        "practice-b-3",
+        "practice-b-4"
+      ],
+      "generation_seed": 6893360,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Mum has already cooked a meal. She cooked it at 6 o'clock.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "practice-b-5",
+      "section": "B — I've already done it. I did it an hour ago.",
+      "source_items": [
+        "practice-b-5",
+        "practice-b-6"
+      ],
+      "generation_seed": 762214591,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each situation. What would you say?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "C — Situations",
+      "generation_seed": 867987091,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "You want to know what film is being shown at the Roxy Cinema this week. What do you ask a friend?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "practice-c-1",
+      "section": "C — Situations",
+      "generation_seed": 284317017,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's on at the Roxy Cinema this week?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-1",
+      "section": "C — Situations",
+      "generation_seed": 815089194,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "A friend has been to see a new film. You want to know what it was like.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "practice-c-2",
+      "section": "C — Situations",
+      "generation_seed": 1209478971,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the film like?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "practice-c-2",
+      "section": "C — Situations",
+      "generation_seed": 630969867,
+      "generation_temperature": 0.65
+    }
+  ]
+}
