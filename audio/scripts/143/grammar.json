@@ -2,7 +2,7 @@
   "seed": 42,
   "roles_file": "roles.json",
   "source": "html/lesson-143.html",
-  "source_items": 10,
+  "source_items": 26,
   "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
   "segments": [
     {
@@ -223,6 +223,406 @@
       "source_item": "l143-gi10",
       "section": "Grammar I: Give correct replies according to the example",
       "generation_seed": 1591876938,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: new shop, open, tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii1",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1446843019,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Tomorrow, the new shop will be opened.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii1",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 2047603199,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: the job, do, soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii2",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 2121749365,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The job will be done soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii2",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1417459546,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: your shoes, repair, tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii3",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1064809743,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Your shoes will be repaired tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii3",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 328256383,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: the highest building in the city, build, next year.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii4",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 737673952,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The highest building in the city will be built next year.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii4",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1026065459,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: children, send to school, next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii5",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 672907020,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The children will be sent to school next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii5",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1672941875,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: wall, paint, green, next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii6",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1778662021,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The wall will be painted green next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii6",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1250040531,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: refrigerator, repair, next Monday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii7",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 700692755,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The refrigerator will be repaired next Monday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii7",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 845455416,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: two new films, show, in the city, next month.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii8",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 839749981,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Two new films will be shown in the city next month.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii8",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 2135983526,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: pictures, put up on the wall, soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii9",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 678696796,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The pictures will be put up on the wall soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii9",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 815152193,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: party, hold, in two days' time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l143-gii10",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 1615289868,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The party will be held in two days' time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-gii10",
+      "section": "Grammar II: Make sentences according to the example",
+      "generation_seed": 951600443,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use these cues: repair your car, soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "l143-giii1",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 352516473,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has anyone repaired your car yet?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.1,
+      "source_item": "l143-giii1",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 972891309,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it hasn't been repaired yet, but it will be repaired soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-giii1",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 247247682,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use these cues: catch the thief, this week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "l143-giii2",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1571448343,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has anyone caught the thief yet?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.1,
+      "source_item": "l143-giii2",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1204232349,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, he hasn't been caught yet, but he will be caught this week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-giii2",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 628049489,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use these cues: empty the litter bins, tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "l143-giii3",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1666524312,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has anyone emptied the litter bins yet?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.1,
+      "source_item": "l143-giii3",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 432650858,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, they haven't been emptied yet, but they will be emptied tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-giii3",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1010815738,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use these cues: repair the telephone line, next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "l143-giii4",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 954889925,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has anyone repaired the telephone line yet?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.1,
+      "source_item": "l143-giii4",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1911713525,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it hasn't been repaired yet, but it will be repaired next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-giii4",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1479642560,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use these cues: water the garden, this evening.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "l143-giii5",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 343915080,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has anyone watered the garden yet?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.1,
+      "source_item": "l143-giii5",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 421758153,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, it hasn't been watered yet, but it will be watered this evening.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-giii5",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 2117725059,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Use these cues: tell them the good news, this evening.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "l143-giii6",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 443480989,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has anyone told them the good news yet?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.1,
+      "source_item": "l143-giii6",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1012522641,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, they haven't been told yet, but they will be told this evening.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l143-giii6",
+      "section": "Grammar III: Write dialogues according to the example",
+      "generation_seed": 1542744371,
       "generation_temperature": 0.65
     }
   ]

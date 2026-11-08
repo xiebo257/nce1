@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [143-1-lesson.wav](../../143-1-lesson.wav) | 221.3 | 42 | 0 |
 | [143-2-practice.wav](../../143-2-practice.wav) | 153.2 | 39 | 18 |
-| [143-3-gramar.wav](../../143-3-gramar.wav) | 103.6 | 22 | 10 |
+| [143-3-gramar.wav](../../143-3-gramar.wav) | 311.6 | 62 | 26 |
 
 词汇：surround, wood, beauty spot, hundred, city, through, visitor, tidy, litter, litter basket, place, throw, rubbish, count, cover, piece, tyre, rusty, among, prosecute
 

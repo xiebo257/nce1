@@ -2,8 +2,6 @@
 
 词汇合并在 lesson 中，顺序跟随 HTML。practice 含完整练习答案；gramar 含提示与答案，保留原文件命名。使用已选定的本地 Qwen3-TTS 多角色声音，正常语速。
 
-全套 144 课，共 432 个 WAV，总时长 22 小时 27 分 21 秒。文件校验值、时长与本次批处理的复核记录见 [验证汇总](validation.json)。语音识别用于检查内容，不代表逐句听感验收。
-
 | 课 | 标题 | Lesson（含词汇） | Practice | Grammar | 内容依据 |
 | --- | --- | --- | --- | --- | --- |
 | 001 | Excuse me | [2:17](001-1-lesson.wav) | [1:51](001-2-practice.wav) | [2:46](001-3-gramar.wav) | [脚本](scripts/001/README.md) |
@@ -120,11 +118,11 @@
 | 112 | How do they compare? 比一比 | [0:56](112-1-lesson.wav) | [4:53](112-2-practice.wav) | [3:09](112-3-gramar.wav) | [脚本](scripts/112/README.md) |
 | 113 | Small change 零钱 | [2:35](113-1-lesson.wav) | [2:16](113-2-practice.wav) | [7:39](113-3-gramar.wav) | [脚本](scripts/113/README.md) |
 | 114 | I've got none. 我没有。 | [0:40](114-1-lesson.wav) | [5:54](114-2-practice.wav) | [5:13](114-3-gramar.wav) | [脚本](scripts/114/README.md) |
-| 115 | Knock, knock! 敲敲门！ | [2:16](115-1-lesson.wav) | [2:29](115-2-practice.wav) | [6:41](115-3-gramar.wav) | [脚本](scripts/115/README.md) |
+| 115 | Knock, knock! 敲敲门！ | [2:16](115-1-lesson.wav) | [2:29](115-2-practice.wav) | [6:31](115-3-gramar.wav) | [脚本](scripts/115/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:27](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 118 | What were you doing? 你那时正在做什么？ | [0:29](118-1-lesson.wav) | [4:59](118-2-practice.wav) | [3:44](118-3-gramar.wav) | [脚本](scripts/118/README.md) |
-| 119 | A true story 一个真实的故事 | [2:27](119-1-lesson.wav) | [2:34](119-2-practice.wav) | [4:36](119-3-gramar.wav) | [脚本](scripts/119/README.md) |
+| 119 | A true story 一个真实的故事 | [2:27](119-1-lesson.wav) | [2:34](119-2-practice.wav) | [5:52](119-3-gramar.wav) | [脚本](scripts/119/README.md) |
 | 120 | It had already happened. 事情已经发生了。 | [0:26](120-1-lesson.wav) | [6:49](120-2-practice.wav) | [4:13](120-3-gramar.wav) | [脚本](scripts/120/README.md) |
 | 121 | The man in a hat 戴帽子的男士 | [1:52](121-1-lesson.wav) | [2:09](121-2-practice.wav) | [3:38](121-3-gramar.wav) | [脚本](scripts/121/README.md) |
 | 122 | Who (whom), which and that 关系代词 | [1:19](122-1-lesson.wav) | [7:23](122-2-practice.wav) | [3:37](122-3-gramar.wav) | [脚本](scripts/122/README.md) |
@@ -132,23 +130,23 @@
 | 124 | (Who) / (whom), (which) and (that) 关系代词 | [4:03](124-1-lesson.wav) | [1:47](124-2-practice.wav) | [3:57](124-3-gramar.wav) | [脚本](scripts/124/README.md) |
 | 125 | Tea for two 两个人一起喝茶 | [1:48](125-1-lesson.wav) | [1:36](125-2-practice.wav) | [5:44](125-3-gramar.wav) | [脚本](scripts/125/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
-| 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:46](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
-| 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:34](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
+| 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:47](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
+| 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:36](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
 | 129 | Seventy miles an hour 时速70英里 | [2:29](129-1-lesson.wav) | [2:24](129-2-practice.wav) | [4:49](129-3-gramar.wav) | [脚本](scripts/129/README.md) |
 | 130 | He can't have been... He must have been... 他那时不可能…… 他那时肯定是…… | [6:36](130-1-lesson.wav) | [2:07](130-2-practice.wav) | [3:17](130-3-gramar.wav) | [脚本](scripts/130/README.md) |
 | 131 | Don't be so sure! 别那么肯定！ | [1:35](131-1-lesson.wav) | [1:34](131-2-practice.wav) | [4:31](131-3-gramar.wav) | [脚本](scripts/131/README.md) |
 | 132 | He may be... He may have been... 他可能是…… 他可能已经…… | [5:07](132-1-lesson.wav) | [1:32](132-2-practice.wav) | [2:28](132-3-gramar.wav) | [脚本](scripts/132/README.md) |
-| 133 | Sensational news! 爆炸性新闻！ | [1:53](133-1-lesson.wav) | [2:10](133-2-practice.wav) | [3:09](133-3-gramar.wav) | [脚本](scripts/133/README.md) |
-| 134 | He said (that) he… He told me (that) he… | [5:41](134-1-lesson.wav) | [1:15](134-2-practice.wav) | [4:22](134-3-gramar.wav) | [脚本](scripts/134/README.md) |
-| 135 | The latest report | [2:20](135-1-lesson.wav) | [1:48](135-2-practice.wav) | [3:32](135-3-gramar.wav) | [脚本](scripts/135/README.md) |
-| 136 | He said (that) he… He told me (that) he… | [4:22](136-1-lesson.wav) | [1:43](136-2-practice.wav) | [3:39](136-3-gramar.wav) | [脚本](scripts/136/README.md) |
-| 137 | A pleasant dream | [1:46](137-1-lesson.wav) | [2:51](137-2-practice.wav) | [2:36](137-3-gramar.wav) | [脚本](scripts/137/README.md) |
+| 133 | Sensational news! 爆炸性新闻！ | [1:53](133-1-lesson.wav) | [2:10](133-2-practice.wav) | [5:05](133-3-gramar.wav) | [脚本](scripts/133/README.md) |
+| 134 | He said (that) he… He told me (that) he… | [5:41](134-1-lesson.wav) | [1:15](134-2-practice.wav) | [3:17](134-3-gramar.wav) | [脚本](scripts/134/README.md) |
+| 135 | The latest report | [2:20](135-1-lesson.wav) | [1:48](135-2-practice.wav) | [5:05](135-3-gramar.wav) | [脚本](scripts/135/README.md) |
+| 136 | He said (that) he… He told me (that) he… | [4:22](136-1-lesson.wav) | [1:43](136-2-practice.wav) | [2:52](136-3-gramar.wav) | [脚本](scripts/136/README.md) |
+| 137 | A pleasant dream | [1:46](137-1-lesson.wav) | [2:53](137-2-practice.wav) | [4:24](137-3-gramar.wav) | [脚本](scripts/137/README.md) |
 | 138 | If... | [3:09](138-1-lesson.wav) | [1:31](138-2-practice.wav) | [3:29](138-3-gramar.wav) | [脚本](scripts/138/README.md) |
-| 139 | Is that you, John? 是你吗，约翰？ | [2:34](139-1-lesson.wav) | [1:52](139-2-practice.wav) | [2:59](139-3-gramar.wav) | [脚本](scripts/139/README.md) |
-| 140 | He wants to know if/why/what/when | [2:55](140-1-lesson.wav) | [1:39](140-2-practice.wav) | [3:54](140-3-gramar.wav) | [脚本](scripts/140/README.md) |
+| 139 | Is that you, John? 是你吗，约翰？ | [2:34](139-1-lesson.wav) | [1:52](139-2-practice.wav) | [5:52](139-3-gramar.wav) | [脚本](scripts/139/README.md) |
+| 140 | He wants to know if/why/what/when | [2:55](140-1-lesson.wav) | [1:39](140-2-practice.wav) | [4:17](140-3-gramar.wav) | [脚本](scripts/140/README.md) |
 | 141 | Sally's first train ride | [2:57](141-1-lesson.wav) | [2:47](141-2-practice.wav) | [4:37](141-3-gramar.wav) | [脚本](scripts/141/README.md) |
-| 142 | Someone invited Sally to a party. | [5:00](142-1-lesson.wav) | [2:25](142-2-practice.wav) | [5:36](142-3-gramar.wav) | [脚本](scripts/142/README.md) |
-| 143 | A walk through the woods | [3:41](143-1-lesson.wav) | [2:33](143-2-practice.wav) | [1:44](143-3-gramar.wav) | [脚本](scripts/143/README.md) |
+| 142 | Someone invited Sally to a party. | [5:00](142-1-lesson.wav) | [2:25](142-2-practice.wav) | [3:10](142-3-gramar.wav) | [脚本](scripts/142/README.md) |
+| 143 | A walk through the woods | [3:41](143-1-lesson.wav) | [2:33](143-2-practice.wav) | [5:12](143-3-gramar.wav) | [脚本](scripts/143/README.md) |
 | 144 | He hasn't been served yet. He will be served soon. | [6:39](144-1-lesson.wav) | [1:02](144-2-practice.wav) | [3:26](144-3-gramar.wav) | [脚本](scripts/144/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
