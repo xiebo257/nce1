@@ -4,8 +4,8 @@
   "title": "He wants to know if/why/what/when",
   "translation": "他想知道是否/为什么/什么/什么时候",
   "description": "A picture lesson on indirect (reported) questions. Six pictures show different scenarios: if a man is a teacher, why Mary teaches here, if a girl speaks English, what Graham is writing, if they are coming soon, when she is leaving. The lesson introduces written exercises A (answer questions about the Lesson 139 dialogue), B (write 'He/She wants to know if/why/what/when...' sentences), and C (answer questions with indirect questions). The workbook drills indirect-question completion and open-ended 'Situations'; the grammar workbook completes indirect-question dialogue items, rewrites direct questions as indirect questions, and writes short reports with indirect questions.",
-  "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (answer questions about the Lesson 139 dialogue), B (write indirect questions), and C (answer with indirect questions) are model answers (suggested). Workbook A (complete indirect-question sentences) is from the workbook answer key (source-key, img/key-135-141.jpg p.217); Workbook B ('Situations') has no printed key, so the answers are model answers (suggested). Grammar I (complete indirect-question dialogue), II (rewrite direct questions as indirect questions), and III (write short reports) are from the grammar workbook answer key (source-key, pdf p.579-580).",
-  "expected_answers": 58,
+  "answer_note": "Grammar I–II and their answers are restored from PDF pp.426–428 and575–577. Other sections retain their recorded sources. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
+  "expected_answers": 56,
   "sections": {
     "lesson": [
       {
@@ -34,12 +34,42 @@
         "answer_kind": "suggested",
         "context": "One question per picture (6 pictures); the answer is the indirect question shown in the picture captions.",
         "questions": [
-          {"id": "l140-lq1", "number": 1, "prompt": "Picture 1: What does Sue want to know?", "answer": "Sue wants to know if that man is a teacher."},
-          {"id": "l140-lq2", "number": 2, "prompt": "Picture 2: What does John want to know?", "answer": "John wants to know why Mary teaches here."},
-          {"id": "l140-lq3", "number": 3, "prompt": "Picture 3: What does Ben want to know?", "answer": "Ben wants to know if that girl speaks English."},
-          {"id": "l140-lq4", "number": 4, "prompt": "Picture 4: What does Julie want to know?", "answer": "Julie wants to know what Graham is writing."},
-          {"id": "l140-lq5", "number": 5, "prompt": "Picture 5: What does Gary want to know?", "answer": "Gary wants to know if they are coming soon."},
-          {"id": "l140-lq6", "number": 6, "prompt": "Picture 6: What does Jim want to know?", "answer": "Jim wants to know when she is leaving."}
+          {
+            "id": "l140-lq1",
+            "number": 1,
+            "prompt": "Picture 1: What does Sue want to know?",
+            "answer": "Sue wants to know if that man is a teacher."
+          },
+          {
+            "id": "l140-lq2",
+            "number": 2,
+            "prompt": "Picture 2: What does John want to know?",
+            "answer": "John wants to know why Mary teaches here."
+          },
+          {
+            "id": "l140-lq3",
+            "number": 3,
+            "prompt": "Picture 3: What does Ben want to know?",
+            "answer": "Ben wants to know if that girl speaks English."
+          },
+          {
+            "id": "l140-lq4",
+            "number": 4,
+            "prompt": "Picture 4: What does Julie want to know?",
+            "answer": "Julie wants to know what Graham is writing."
+          },
+          {
+            "id": "l140-lq5",
+            "number": 5,
+            "prompt": "Picture 5: What does Gary want to know?",
+            "answer": "Gary wants to know if they are coming soon."
+          },
+          {
+            "id": "l140-lq6",
+            "number": 6,
+            "prompt": "Picture 6: What does Jim want to know?",
+            "answer": "Jim wants to know when she is leaving."
+          }
         ]
       },
       {
@@ -53,10 +83,30 @@
         "answer_kind": "suggested",
         "context": "4 comprehension questions about the Lesson 139 dialogue (Graham and John).",
         "questions": [
-          {"id": "l140-wa1", "number": 1, "prompt": "Is Graham Turner telephoning from his office?", "answer": "Yes, he is."},
-          {"id": "l140-wa2", "number": 2, "prompt": "What message does he want John to give Mary?", "answer": "He wants him to tell Mary they'll be late for dinner this evening."},
-          {"id": "l140-wa3", "number": 3, "prompt": "What did Mary invite Charlotte and Graham to? And when?", "answer": "She invited them to dinner this evening."},
-          {"id": "l140-wa4", "number": 4, "prompt": "Why can't Graham and Charlotte be at John's house at six o'clock?", "answer": "Because Graham's boss wants him to do some extra work."}
+          {
+            "id": "l140-wa1",
+            "number": 1,
+            "prompt": "Is Graham Turner telephoning from his office?",
+            "answer": "Yes, he is."
+          },
+          {
+            "id": "l140-wa2",
+            "number": 2,
+            "prompt": "What message does he want John to give Mary?",
+            "answer": "He wants him to tell Mary they'll be late for dinner this evening."
+          },
+          {
+            "id": "l140-wa3",
+            "number": 3,
+            "prompt": "What did Mary invite Charlotte and Graham to? And when?",
+            "answer": "She invited them to dinner this evening."
+          },
+          {
+            "id": "l140-wa4",
+            "number": 4,
+            "prompt": "Why can't Graham and Charlotte be at John's house at six o'clock?",
+            "answer": "Because Graham's boss wants him to do some extra work."
+          }
         ]
       },
       {
@@ -70,11 +120,37 @@
         "answer_kind": "suggested",
         "context": "5 indirect question items; item 1 (Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.) is the printed example.",
         "questions": [
-          {"id": "l140-wb1", "number": 1, "example": true, "prompt": "Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.", "answer": "Sue wants to know if that man is a teacher."},
-          {"id": "l140-wb2", "number": 2, "prompt": "John: Why does Mary teach here? → John wants to know why Mary teaches here.", "answer": "John wants to know why Mary teaches here."},
-          {"id": "l140-wb3", "number": 3, "prompt": "Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.", "answer": "Ben wants to know if that girl speaks English."},
-          {"id": "l140-wb4", "number": 4, "prompt": "Julie: What is Graham writing? → Julie wants to know what Graham is writing.", "answer": "Julie wants to know what Graham is writing."},
-          {"id": "l140-wb5", "number": 5, "prompt": "Gary: Are they coming soon? → Gary wants to know if they are coming soon.", "answer": "Gary wants to know if they are coming soon."}
+          {
+            "id": "l140-wb1",
+            "number": 1,
+            "example": true,
+            "prompt": "Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.",
+            "answer": "Sue wants to know if that man is a teacher."
+          },
+          {
+            "id": "l140-wb2",
+            "number": 2,
+            "prompt": "John: Why does Mary teach here? → John wants to know why Mary teaches here.",
+            "answer": "John wants to know why Mary teaches here."
+          },
+          {
+            "id": "l140-wb3",
+            "number": 3,
+            "prompt": "Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.",
+            "answer": "Ben wants to know if that girl speaks English."
+          },
+          {
+            "id": "l140-wb4",
+            "number": 4,
+            "prompt": "Julie: What is Graham writing? → Julie wants to know what Graham is writing.",
+            "answer": "Julie wants to know what Graham is writing."
+          },
+          {
+            "id": "l140-wb5",
+            "number": 5,
+            "prompt": "Gary: Are they coming soon? → Gary wants to know if they are coming soon.",
+            "answer": "Gary wants to know if they are coming soon."
+          }
         ]
       },
       {
@@ -88,11 +164,36 @@
         "answer_kind": "suggested",
         "context": "5 indirect question items.",
         "questions": [
-          {"id": "l140-wc1", "number": 1, "prompt": "What does Sue want to know?", "answer": "She wants to know if that man is a teacher."},
-          {"id": "l140-wc2", "number": 2, "prompt": "What does John want to know?", "answer": "He wants to know why Mary teaches here."},
-          {"id": "l140-wc3", "number": 3, "prompt": "What does Ben want to know?", "answer": "He wants to know if that girl speaks English."},
-          {"id": "l140-wc4", "number": 4, "prompt": "What does Julie want to know?", "answer": "She wants to know what Graham is writing."},
-          {"id": "l140-wc5", "number": 5, "prompt": "What does Gary want to know?", "answer": "He wants to know if they are coming soon."}
+          {
+            "id": "l140-wc1",
+            "number": 1,
+            "prompt": "What does Sue want to know?",
+            "answer": "She wants to know if that man is a teacher."
+          },
+          {
+            "id": "l140-wc2",
+            "number": 2,
+            "prompt": "What does John want to know?",
+            "answer": "He wants to know why Mary teaches here."
+          },
+          {
+            "id": "l140-wc3",
+            "number": 3,
+            "prompt": "What does Ben want to know?",
+            "answer": "He wants to know if that girl speaks English."
+          },
+          {
+            "id": "l140-wc4",
+            "number": 4,
+            "prompt": "What does Julie want to know?",
+            "answer": "She wants to know what Graham is writing."
+          },
+          {
+            "id": "l140-wc5",
+            "number": 5,
+            "prompt": "What does Gary want to know?",
+            "answer": "He wants to know if they are coming soon."
+          }
         ]
       }
     ],
@@ -109,16 +210,67 @@
         "key_source": "img/key-135-141.jpg p.217 (Lesson 140 A)",
         "context": "10 indirect-question items; item 1 (Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.) is the printed example.",
         "questions": [
-          {"id": "l140-pa1", "number": 1, "example": true, "prompt": "Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.", "answer": "Sue wants to know if that man is a teacher."},
-          {"id": "l140-pa2", "number": 2, "prompt": "John: Why does Mary teach here? → John wants to know why Mary teaches here.", "answer": "John wants to know why Mary teaches here."},
-          {"id": "l140-pa3", "number": 3, "prompt": "Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.", "answer": "Ben wants to know if that girl speaks English."},
-          {"id": "l140-pa4", "number": 4, "prompt": "Julie: What is Graham writing? → Julie wants to know what Graham is writing.", "answer": "Julie wants to know what Graham is writing."},
-          {"id": "l140-pa5", "number": 5, "prompt": "Gary: Are they coming soon? → Gary wants to know if they are coming soon.", "answer": "Gary wants to know if they are coming soon."},
-          {"id": "l140-pa6", "number": 6, "prompt": "Jim: When is she leaving? → Jim wants to know when she is leaving.", "answer": "Jim wants to know when she is leaving."},
-          {"id": "l140-pa7", "number": 7, "prompt": "Tom: Did they enjoy the film? → Tom wants to know if they enjoyed the film.", "answer": "Tom wants to know if they enjoyed the film."},
-          {"id": "l140-pa8", "number": 8, "prompt": "Carol: When did they see it? → Carol wants to know when they saw it.", "answer": "Carol wants to know when they saw it."},
-          {"id": "l140-pa9", "number": 9, "prompt": "Mike: Have you met Susan yet? → Mike wants to know if you have met Susan yet.", "answer": "Mike wants to know if you have met Susan yet."},
-          {"id": "l140-pa10", "number": 10, "prompt": "Peter: Why haven't they eaten their dinner? → Peter wants to know why they haven't eaten their dinner.", "answer": "Peter wants to know why they haven't eaten their dinner."}
+          {
+            "id": "l140-pa1",
+            "number": 1,
+            "example": true,
+            "prompt": "Sue: Is that man a teacher? → Sue wants to know if that man is a teacher.",
+            "answer": "Sue wants to know if that man is a teacher."
+          },
+          {
+            "id": "l140-pa2",
+            "number": 2,
+            "prompt": "John: Why does Mary teach here? → John wants to know why Mary teaches here.",
+            "answer": "John wants to know why Mary teaches here."
+          },
+          {
+            "id": "l140-pa3",
+            "number": 3,
+            "prompt": "Ben: Does that girl speak English? → Ben wants to know if that girl speaks English.",
+            "answer": "Ben wants to know if that girl speaks English."
+          },
+          {
+            "id": "l140-pa4",
+            "number": 4,
+            "prompt": "Julie: What is Graham writing? → Julie wants to know what Graham is writing.",
+            "answer": "Julie wants to know what Graham is writing."
+          },
+          {
+            "id": "l140-pa5",
+            "number": 5,
+            "prompt": "Gary: Are they coming soon? → Gary wants to know if they are coming soon.",
+            "answer": "Gary wants to know if they are coming soon."
+          },
+          {
+            "id": "l140-pa6",
+            "number": 6,
+            "prompt": "Jim: When is she leaving? → Jim wants to know when she is leaving.",
+            "answer": "Jim wants to know when she is leaving."
+          },
+          {
+            "id": "l140-pa7",
+            "number": 7,
+            "prompt": "Tom: Did they enjoy the film? → Tom wants to know if they enjoyed the film.",
+            "answer": "Tom wants to know if they enjoyed the film."
+          },
+          {
+            "id": "l140-pa8",
+            "number": 8,
+            "prompt": "Carol: When did they see it? → Carol wants to know when they saw it.",
+            "answer": "Carol wants to know when they saw it."
+          },
+          {
+            "id": "l140-pa9",
+            "number": 9,
+            "prompt": "Mike: Have you met Susan yet? → Mike wants to know if you have met Susan yet.",
+            "answer": "Mike wants to know if you have met Susan yet."
+          },
+          {
+            "id": "l140-pa10",
+            "number": 10,
+            "prompt": "Peter: Why haven't they eaten their dinner? → Peter wants to know why they haven't eaten their dinner.",
+            "answer": "Peter wants to know why they haven't eaten their dinner."
+          }
         ]
       },
       {
@@ -132,8 +284,18 @@
         "answer_kind": "suggested",
         "context": "2 open-ended situation questions; the workbook answer key gives only possible sample answers.",
         "questions": [
-          {"id": "l140-pb1", "number": 1, "prompt": "Your phone rings. When you pick it up, a voice says: 'Is that you, [your name]?' What do you say?", "answer": "(Yes,) speaking."},
-          {"id": "l140-pb2", "number": 2, "prompt": "Someone tells you something which you do not understand at all. It all seems a mystery to you. What do you say?", "answer": "I'm afraid I don't understand. / I don't know what you're talking about."}
+          {
+            "id": "l140-pb1",
+            "number": 1,
+            "prompt": "Your phone rings. When you pick it up, a voice says: 'Is that you, [your name]?' What do you say?",
+            "answer": "(Yes,) speaking."
+          },
+          {
+            "id": "l140-pb2",
+            "number": 2,
+            "prompt": "Someone tells you something which you do not understand at all. It all seems a mystery to you. What do you say?",
+            "answer": "I'm afraid I don't understand. / I don't know what you're talking about."
+          }
         ]
       }
     ],
@@ -141,84 +303,640 @@
       {
         "id": "l140-grammar-i",
         "type": "exercise",
-        "source": "grammar-workbook-p407",
-        "title": "Grammar I: Complete the sentences (indirect questions)",
-        "instruction": "仿照例句完成以下句子（间接疑问句）。",
-        "translation": "仿照例句完成以下句子（间接疑问句）。",
-        "expected_items": 10,
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=426",
+        "title": "Grammar I: Change the following into indirect questions according to the example",
+        "instruction": "Change the following into indirect questions according to the example",
+        "translation": "",
+        "expected_items": 18,
         "answer_kind": "source-key",
-        "key_source": "pdf p.579 (新概念英语语法练习1)",
-        "context": "10 indirect-question fill-in items; item 1 (Is that man a teacher? (Sue) → Sue wants to know if that man is a teacher.) is the printed example.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=575",
         "questions": [
-          {"id": "l140-gi1", "number": 1, "example": true, "prompt": "Is that man a teacher? (Sue)", "answer": "Sue wants to know if that man is a teacher."},
-          {"id": "l140-gi2", "number": 2, "prompt": "Why does Mary teach here? (John)", "answer": "John wants to know why Mary teaches here."},
-          {"id": "l140-gi3", "number": 3, "prompt": "Does that girl speak English? (Ben)", "answer": "Ben wants to know if that girl speaks English."},
-          {"id": "l140-gi4", "number": 4, "prompt": "What is Graham writing? (Julie)", "answer": "Julie wants to know what Graham is writing."},
-          {"id": "l140-gi5", "number": 5, "prompt": "Are they coming soon? (Gary)", "answer": "Gary wants to know if they are coming soon."},
-          {"id": "l140-gi6", "number": 6, "prompt": "When is she leaving? (Jim)", "answer": "Jim wants to know when she is leaving."},
-          {"id": "l140-gi7", "number": 7, "prompt": "Did they enjoy the film? (Tom)", "answer": "Tom wants to know if they enjoyed the film."},
-          {"id": "l140-gi8", "number": 8, "prompt": "When did they see it? (Carol)", "answer": "Carol wants to know when they saw it."},
-          {"id": "l140-gi9", "number": 9, "prompt": "Have you met Susan yet? (Mike)", "answer": "Mike wants to know if you have met Susan yet."},
-          {"id": "l140-gi10", "number": 10, "prompt": "Why haven't they eaten their dinner? (Peter)", "answer": "Peter wants to know why they haven't eaten their dinner."}
+          {
+            "id": "l140-gi1",
+            "number": 1,
+            "prompt": "What are you doing?",
+            "answer": "Tell me what you're doing.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "What are you doing?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me what you're doing.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi2",
+            "number": 2,
+            "prompt": "Where is your brother?",
+            "answer": "Tell me where your brother is.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where is your brother?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me where your brother is.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi3",
+            "number": 3,
+            "prompt": "What's she eating?",
+            "answer": "Tell me what she's eating.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "What's she eating?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me what she's eating.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi4",
+            "number": 4,
+            "prompt": "Where are you going?",
+            "answer": "Tell me where you're going.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where are you going?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me where you're going.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi5",
+            "number": 5,
+            "prompt": "When are we going to have dinner?",
+            "answer": "Tell me when we're going to have dinner.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When are we going to have dinner?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me when we're going to have dinner.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi6",
+            "number": 6,
+            "prompt": "Are you ready?",
+            "answer": "Tell me if you're ready.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Are you ready?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if you're ready.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi7",
+            "number": 7,
+            "prompt": "Will there be a meeting tomorrow?",
+            "answer": "Tell me if there will be a meeting tomorrow.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Will there be a meeting tomorrow?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if there will be a meeting tomorrow.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi8",
+            "number": 8,
+            "prompt": "Is that big house yours?",
+            "answer": "Tell me if that big house is yours.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Is that big house yours?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if that big house is yours.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi9",
+            "number": 9,
+            "prompt": "When did they play football?",
+            "answer": "Tell me when they played football.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When did they play football?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me when they played football.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi10",
+            "number": 10,
+            "prompt": "What did you buy in that shop?",
+            "answer": "Tell me what you bought in that shop.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "What did you buy in that shop?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me what you bought in that shop.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi11",
+            "number": 11,
+            "prompt": "Do you want a drink?",
+            "answer": "Tell me if you want a drink.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Do you want a drink?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if you want a drink.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi12",
+            "number": 12,
+            "prompt": "What is the answer?",
+            "answer": "Tell me what the answer is.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "What is the answer?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me what the answer is.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi13",
+            "number": 13,
+            "prompt": "Can he swim?",
+            "answer": "Tell me if he can swim.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Can he swim?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if he can swim.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi14",
+            "number": 14,
+            "prompt": "Are you coming with us?",
+            "answer": "Tell me if you're coming with us.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Are you coming with us?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if you're coming with us.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi15",
+            "number": 15,
+            "prompt": "How did you lose your watch?",
+            "answer": "Tell me how you lost your watch.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How did you lose your watch?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me how you lost your watch.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi16",
+            "number": 16,
+            "prompt": "What are you talking about?",
+            "answer": "Tell me what you're talking about.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "What are you talking about?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me what you're talking about.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi17",
+            "number": 17,
+            "prompt": "Does the lesson start at eight?",
+            "answer": "Tell me if the lesson starts at eight.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Does the lesson start at eight?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if the lesson starts at eight.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l140-gi18",
+            "number": 18,
+            "prompt": "Must I do it?",
+            "answer": "Tell me if I must do it.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Must I do it?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Tell me if I must do it.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       },
       {
         "id": "l140-grammar-ii",
         "type": "exercise",
-        "source": "grammar-workbook-p407-408",
-        "title": "Grammar II: Rewrite the direct questions as indirect questions",
-        "instruction": "仿照例句将直接疑问句改写为间接疑问句。",
-        "translation": "仿照例句将直接疑问句改写为间接疑问句。",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=427",
+        "title": "Grammar II: Make dialogues according to the example",
+        "instruction": "Make dialogues according to the example",
+        "translation": "",
         "expected_items": 10,
         "answer_kind": "source-key",
-        "key_source": "pdf p.579 (新概念英语语法练习1)",
-        "context": "10 direct-to-indirect question rewrite items; item 1 (Is that man a teacher? (Sue) → Sue wants to know if that man is a teacher.) is the printed example.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=576",
         "questions": [
-          {"id": "l140-gii1", "number": 1, "example": true, "prompt": "Is that man a teacher? (Sue)", "answer": "Sue wants to know if that man is a teacher."},
-          {"id": "l140-gii2", "number": 2, "prompt": "Why does Mary teach here? (John)", "answer": "John wants to know why Mary teaches here."},
-          {"id": "l140-gii3", "number": 3, "prompt": "Does that girl speak English? (Ben)", "answer": "Ben wants to know if that girl speaks English."},
-          {"id": "l140-gii4", "number": 4, "prompt": "What is Graham writing? (Julie)", "answer": "Julie wants to know what Graham is writing."},
-          {"id": "l140-gii5", "number": 5, "prompt": "Are they coming soon? (Gary)", "answer": "Gary wants to know if they are coming soon."},
-          {"id": "l140-gii6", "number": 6, "prompt": "When is she leaving? (Jim)", "answer": "Jim wants to know when she is leaving."},
-          {"id": "l140-gii7", "number": 7, "prompt": "Did they enjoy the film? (Tom)", "answer": "Tom wants to know if they enjoyed the film."},
-          {"id": "l140-gii8", "number": 8, "prompt": "When did they see it? (Carol)", "answer": "Carol wants to know when they saw it."},
-          {"id": "l140-gii9", "number": 9, "prompt": "Have you met Susan yet? (Mike)", "answer": "Mike wants to know if you have met Susan yet."},
-          {"id": "l140-gii10", "number": 10, "prompt": "Why haven't they eaten their dinner? (Peter)", "answer": "Peter wants to know why they haven't eaten their dinner."}
-        ]
-      },
-      {
-        "id": "l140-grammar-iii",
-        "type": "exercise",
-        "source": "grammar-workbook-p408",
-        "title": "Grammar III: Write a short report (indirect questions)",
-        "instruction": "根据所给事实写一个简短的报道（用间接疑问句）。",
-        "translation": "根据所给事实写一个简短的报道（用间接疑问句）。",
-        "expected_items": 10,
-        "answer_kind": "source-key",
-        "key_source": "pdf p.580 (新概念英语语法练习1)",
-        "context": "10 short-report items with indirect questions.",
-        "questions": [
-          {"id": "l140-giii1", "number": 1, "prompt": "The reporter asked the actress if she was going to retire.", "answer": "The reporter asked the actress if she was going to retire."},
-          {"id": "l140-giii2", "number": 2, "prompt": "The reporter asked the actress why she couldn't make up her mind.", "answer": "The reporter asked the actress why she couldn't make up her mind."},
-          {"id": "l140-giii3", "number": 3, "prompt": "The reporter asked the actress what she would have to do.", "answer": "The reporter asked the actress what she would have to do."},
-          {"id": "l140-giii4", "number": 4, "prompt": "The reporter asked the actress when she was going to ask her future husband.", "answer": "The reporter asked the actress when she was going to ask her future husband."},
-          {"id": "l140-giii5", "number": 5, "prompt": "The reporter asked the actress if her future husband would let her make another film.", "answer": "The reporter asked the actress if her future husband would let her make another film."},
-          {"id": "l140-giii6", "number": 6, "prompt": "The reporter asked the actress why she wanted to see the world.", "answer": "The reporter asked the actress why she wanted to see the world."},
-          {"id": "l140-giii7", "number": 7, "prompt": "The reporter asked the actress what she would do if she won a lot of money.", "answer": "The reporter asked the actress what she would do if she won a lot of money."},
-          {"id": "l140-giii8", "number": 8, "prompt": "The reporter asked the actress when she was going to travel to England.", "answer": "The reporter asked the actress when she was going to travel to England."},
-          {"id": "l140-giii9", "number": 9, "prompt": "The reporter asked the actress if she was going to buy a big house in the country.", "answer": "The reporter asked the actress if she was going to buy a big house in the country."},
-          {"id": "l140-giii10", "number": 10, "prompt": "The reporter asked the actress why she didn't want a mink coat.", "answer": "The reporter asked the actress why she didn't want a mink coat."}
+          {
+            "id": "l140-gii1",
+            "number": 1,
+            "prompt": "What does he want?",
+            "answer": "Do you know what he wants?\nNo, I don't know what he wants.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "What does he want?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know what he wants?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know what he wants.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii2",
+            "number": 2,
+            "prompt": "Has the bus arrived?",
+            "answer": "Do you know if the bus has arrived?\nNo, I don't know if the bus has arrived.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Has the bus arrived?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know if the bus has arrived?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know if the bus has arrived.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii3",
+            "number": 3,
+            "prompt": "Does he want a cup of coffee?",
+            "answer": "Do you know if he wants a cup of coffee?\nNo, I don't know if he wants a cup of coffee.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Does he want a cup of coffee?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know if he wants a cup of coffee?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know if he wants a cup of coffee.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii4",
+            "number": 4,
+            "prompt": "Is he all right?",
+            "answer": "Do you know if he is all right?\nNo, I don't know if he is all right.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Is he all right?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know if he is all right?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know if he is all right.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii5",
+            "number": 5,
+            "prompt": "Is Mount Qomolangma the highest mountain in the world?",
+            "answer": "Do you know if Mount Qomolangma is the highest mountain in the world?\nNo, I don't know if Mount Qomolangma is the highest mountain in the world.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Is Mount Qomolangma the highest mountain in the world?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know if Mount Qomolangma is the highest mountain in the world?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know if Mount Qomolangma is the highest mountain in the world.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii6",
+            "number": 6,
+            "prompt": "Why didn't she tell me?",
+            "answer": "Do you know why she didn't tell me?\nNo, I don't know why she didn't tell you.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why didn't she tell me?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know why she didn't tell me?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know why she didn't tell you.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii7",
+            "number": 7,
+            "prompt": "When can they start work?",
+            "answer": "Do you know when they can start work?\nNo, I don't know when they can start work.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When can they start work?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know when they can start work?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know when they can start work.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii8",
+            "number": 8,
+            "prompt": "Does he like beef?",
+            "answer": "Do you know if he likes beef?\nNo, I don't know if he likes beef.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Does he like beef?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know if he likes beef?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know if he likes beef.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii9",
+            "number": 9,
+            "prompt": "Is she going to England or France?",
+            "answer": "Do you know if she is going to England or France?\nNo, I don't know if she is going to England or France.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Is she going to England or France?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know if she is going to England or France?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know if she is going to England or France.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          },
+          {
+            "id": "l140-gii10",
+            "number": 10,
+            "prompt": "How did he hurt himself?",
+            "answer": "Do you know how he hurt himself?\nNo, I don't know how he hurt himself.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How did he hurt himself?",
+                "role": "narrator",
+                "pause": 1.6
+              },
+              {
+                "text": "Do you know how he hurt himself?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "No, I don't know how he hurt himself.",
+                "role": "answer",
+                "pause": 1.3
+              }
+            ]
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.283 (Lesson 140 pictures)", "href": "../img/lesson-140-01-text.jpg"},
-    {"label": "Textbook p.284 (Lesson 140 written exercises)", "href": "../img/lesson-140-02-text.jpg"},
-    {"label": "Workbook Lesson 140 (practice page 185)", "href": "../img/lesson-140-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
-    {"label": "Grammar Workbook p.407-408 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=407"},
-    {"label": "Grammar Workbook p.579-580 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"}
+    {
+      "label": "Textbook p.283 (Lesson 140 pictures)",
+      "href": "../img/lesson-140-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.284 (Lesson 140 written exercises)",
+      "href": "../img/lesson-140-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 140 (practice page 185)",
+      "href": "../img/lesson-140-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 135-141, p.217)",
+      "href": "../img/key-135-141.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.407-408 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=407"
+    },
+    {
+      "label": "Grammar Workbook p.579-580 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"
+    }
   ],
   "characters": {},
   "images": {
@@ -231,5 +949,16 @@
       "height": 1800,
       "source": "img/lesson-140-01-text.jpg (textbook p.283)"
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 140,
+      "start": 426,
+      "end": 428,
+      "bookmark_start": 426
+    },
+    "checked_answer_pages": 575,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }

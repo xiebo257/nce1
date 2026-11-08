@@ -4,8 +4,8 @@
   "title": "Is that you, John? 是你吗，约翰？",
   "translation": "是你吗，约翰？",
   "description": "A dialogue lesson about a telephone conversation between Graham Turner (at his office) and John Smith (the telephone engineer). Graham invites John to dinner this evening at his home with his wife Mary, but John can't come because Mary wants to invite Charlotte and Graham to dinner. Graham wants to know what John is writing about, and John is repairing Graham's telephone line. The lesson introduces tag questions: 'aren't you?', 'do you?', 'is he?', 'are they?', 'won't she?', 'will they?', 'didn't they?', 'has he?', 'wasn't she?'. The workbook drills comprehension questions about the dialogue and tag-question completion; the grammar workbook completes 'will' and 'won't' dialogue items and writes 'if' sentences with 'will'/'won't' and 'may'.",
-  "answer_note": "The dialogue is from the textbook. Workbook A (comprehension questions about the telephone dialogue) has no printed key, so the answers are model answers (suggested); Workbook B (tag questions) is from the workbook answer key (source-key, img/key-135-141.jpg p.217). Grammar I (complete 'will'/'won't' dialogue) and II (write 'if' sentences with 'will'/'won't' and 'may') are from the grammar workbook answer key (source-key, pdf p.579).",
-  "expected_answers": 33,
+  "answer_note": "Grammar answers are checked against PDF pp.574–575; slash pronoun alternatives follow the printed key. Audio uses a consistent singular model where alternatives are available. Other sections retain their recorded sources. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
+  "expected_answers": 59,
   "sections": {
     "lesson": [
       {
@@ -21,16 +21,66 @@
         "source": "textbook-p281",
         "image": "l139-scene",
         "lines": [
-          {"number": 1, "speaker": "Graham", "text": "Hello. Is that you, John? Is that you, the telephone engineer?", "translation": "你好。是你吗，约翰？是你吗，电话工程师？"},
-          {"number": 2, "speaker": "John", "text": "Yes, it is. It's me. Is that you, Graham?", "translation": "是的，是我。是我。是你吗，格雷厄姆？"},
-          {"number": 3, "speaker": "Graham", "text": "Yes. Where are you? You're not at home, are you?", "translation": "是的。你在哪里？你不在家，是吗？"},
-          {"number": 4, "speaker": "John", "text": "No, I'm not. I'm on my way home.", "translation": "不，我不在。我正在回家的路上。"},
-          {"number": 5, "speaker": "Graham", "text": "I see. Where's your wife? Is she at home?", "translation": "我明白了。你妻子在哪里？她在家吗？"},
-          {"number": 6, "speaker": "John", "text": "Yes, she is. She's waiting for me at home. She's making dinner.", "translation": "是的，她在家。她正在家里等我。她正在做晚餐。"},
-          {"number": 7, "speaker": "Graham", "text": "I see. What's your wife writing? Is she writing a letter?", "translation": "我明白了。你妻子在写什么？她在写信吗？"},
-          {"number": 8, "speaker": "John", "text": "No, she isn't. She's writing a list of the things she wants to buy at the shops.", "translation": "不，她不是。她在写她想在商店里买的东西的清单。"},
-          {"number": 9, "speaker": "Graham", "text": "I see. Is that you, John? Are you still at work?", "translation": "我明白了。是你吗，约翰？你还在工作吗？"},
-          {"number": 10, "speaker": "John", "text": "Yes, I am. I'm at my office. I'm repairing Graham's telephone line.", "translation": "是的，我在。我在我的办公室。我正在修格雷厄姆的电话线。"}
+          {
+            "number": 1,
+            "speaker": "Graham",
+            "text": "Hello. Is that you, John? Is that you, the telephone engineer?",
+            "translation": "你好。是你吗，约翰？是你吗，电话工程师？"
+          },
+          {
+            "number": 2,
+            "speaker": "John",
+            "text": "Yes, it is. It's me. Is that you, Graham?",
+            "translation": "是的，是我。是我。是你吗，格雷厄姆？"
+          },
+          {
+            "number": 3,
+            "speaker": "Graham",
+            "text": "Yes. Where are you? You're not at home, are you?",
+            "translation": "是的。你在哪里？你不在家，是吗？"
+          },
+          {
+            "number": 4,
+            "speaker": "John",
+            "text": "No, I'm not. I'm on my way home.",
+            "translation": "不，我不在。我正在回家的路上。"
+          },
+          {
+            "number": 5,
+            "speaker": "Graham",
+            "text": "I see. Where's your wife? Is she at home?",
+            "translation": "我明白了。你妻子在哪里？她在家吗？"
+          },
+          {
+            "number": 6,
+            "speaker": "John",
+            "text": "Yes, she is. She's waiting for me at home. She's making dinner.",
+            "translation": "是的，她在家。她正在家里等我。她正在做晚餐。"
+          },
+          {
+            "number": 7,
+            "speaker": "Graham",
+            "text": "I see. What's your wife writing? Is she writing a letter?",
+            "translation": "我明白了。你妻子在写什么？她在写信吗？"
+          },
+          {
+            "number": 8,
+            "speaker": "John",
+            "text": "No, she isn't. She's writing a list of the things she wants to buy at the shops.",
+            "translation": "不，她不是。她在写她想在商店里买的东西的清单。"
+          },
+          {
+            "number": 9,
+            "speaker": "Graham",
+            "text": "I see. Is that you, John? Are you still at work?",
+            "translation": "我明白了。是你吗，约翰？你还在工作吗？"
+          },
+          {
+            "number": 10,
+            "speaker": "John",
+            "text": "Yes, I am. I'm at my office. I'm repairing Graham's telephone line.",
+            "translation": "是的，我在。我在我的办公室。我正在修格雷厄姆的电话线。"
+          }
         ]
       },
       {
@@ -45,10 +95,30 @@
         "type": "vocabulary",
         "source": "textbook-p281",
         "items": [
-          {"word": "telephone engineer", "ipa": "", "pos": "n. phr.", "meaning": "电话工程师"},
-          {"word": "on one's way home", "ipa": "", "pos": "phr.", "meaning": "在回家的路上"},
-          {"word": "repair", "ipa": "/rɪˈpeə(r)/", "pos": "v.", "meaning": "修理"},
-          {"word": "tag question", "ipa": "", "pos": "n. phr.", "meaning": "附加疑问句"}
+          {
+            "word": "telephone engineer",
+            "ipa": "",
+            "pos": "n. phr.",
+            "meaning": "电话工程师"
+          },
+          {
+            "word": "on one's way home",
+            "ipa": "",
+            "pos": "phr.",
+            "meaning": "在回家的路上"
+          },
+          {
+            "word": "repair",
+            "ipa": "/rɪˈpeə(r)/",
+            "pos": "v.",
+            "meaning": "修理"
+          },
+          {
+            "word": "tag question",
+            "ipa": "",
+            "pos": "n. phr.",
+            "meaning": "附加疑问句"
+          }
         ]
       },
       {
@@ -56,8 +126,14 @@
         "type": "notes",
         "source": "textbook-p281",
         "items": [
-          {"title": "tag questions 的用法", "text": "附加疑问句由陈述句 + 简短疑问句组成：You are John Smith, aren't you? / You work for the company, don't you?"},
-          {"title": "Is that you? 的用法", "text": "「是你吗？」用于电话中确认对方身份：Is that you, John? / Is that Graham?"}
+          {
+            "title": "tag questions 的用法",
+            "text": "附加疑问句由陈述句 + 简短疑问句组成：You are John Smith, aren't you? / You work for the company, don't you?"
+          },
+          {
+            "title": "Is that you? 的用法",
+            "text": "「是你吗？」用于电话中确认对方身份：Is that you, John? / Is that Graham?"
+          }
         ]
       }
     ],
@@ -73,13 +149,48 @@
         "answer_kind": "suggested",
         "context": "7 comprehension questions about the telephone dialogue between Graham and John.",
         "questions": [
-          {"id": "l139-pa1", "number": 1, "prompt": "Is Graham Turner telephoning from his office?", "answer": "Yes, he is."},
-          {"id": "l139-pa2", "number": 2, "prompt": "What message does he want John to give Mary?", "answer": "He wants him to tell Mary they'll be late for dinner this evening."},
-          {"id": "l139-pa3", "number": 3, "prompt": "What did Mary invite Charlotte and Graham to? And when?", "answer": "She invited them to dinner this evening."},
-          {"id": "l139-pa4", "number": 4, "prompt": "Why can't Graham and Charlotte be at John's house at six o'clock?", "answer": "Because Graham's boss wants him to do some extra work."},
-          {"id": "l139-pa5", "number": 5, "prompt": "What does Charlotte want to know?", "answer": "She wants to know if Mary needs any help."},
-          {"id": "l139-pa6", "number": 6, "prompt": "Does John know what Graham is talking about?", "answer": "No, he doesn't."},
-          {"id": "l139-pa7", "number": 7, "prompt": "Which John Smith is Graham speaking to?", "answer": "John Smith, the telephone engineer. (He's repairing Graham's telephone line.)"}
+          {
+            "id": "l139-pa1",
+            "number": 1,
+            "prompt": "Is Graham Turner telephoning from his office?",
+            "answer": "Yes, he is."
+          },
+          {
+            "id": "l139-pa2",
+            "number": 2,
+            "prompt": "What message does he want John to give Mary?",
+            "answer": "He wants him to tell Mary they'll be late for dinner this evening."
+          },
+          {
+            "id": "l139-pa3",
+            "number": 3,
+            "prompt": "What did Mary invite Charlotte and Graham to? And when?",
+            "answer": "She invited them to dinner this evening."
+          },
+          {
+            "id": "l139-pa4",
+            "number": 4,
+            "prompt": "Why can't Graham and Charlotte be at John's house at six o'clock?",
+            "answer": "Because Graham's boss wants him to do some extra work."
+          },
+          {
+            "id": "l139-pa5",
+            "number": 5,
+            "prompt": "What does Charlotte want to know?",
+            "answer": "She wants to know if Mary needs any help."
+          },
+          {
+            "id": "l139-pa6",
+            "number": 6,
+            "prompt": "Does John know what Graham is talking about?",
+            "answer": "No, he doesn't."
+          },
+          {
+            "id": "l139-pa7",
+            "number": 7,
+            "prompt": "Which John Smith is Graham speaking to?",
+            "answer": "John Smith, the telephone engineer. (He's repairing Graham's telephone line.)"
+          }
         ]
       },
       {
@@ -94,16 +205,66 @@
         "key_source": "img/key-135-141.jpg p.217 (Lesson 139 B)",
         "context": "10 tag-question items.",
         "questions": [
-          {"id": "l139-pb1", "number": 1, "prompt": "You are John Smith, the engineer, ______?", "answer": "aren't you?"},
-          {"id": "l139-pb2", "number": 2, "prompt": "You work for the Overseas Engineering Company, ______?", "answer": "don't you?"},
-          {"id": "l139-pb3", "number": 3, "prompt": "You don't come to China very often, ______?", "answer": "do you?"},
-          {"id": "l139-pb4", "number": 4, "prompt": "He isn't a postman, ______?", "answer": "is he?"},
-          {"id": "l139-pb5", "number": 5, "prompt": "They aren't working very hard, ______?", "answer": "are they?"},
-          {"id": "l139-pb6", "number": 6, "prompt": "She will be here tomorrow, ______?", "answer": "won't she?"},
-          {"id": "l139-pb7", "number": 7, "prompt": "They won't be late, ______?", "answer": "will they?"},
-          {"id": "l139-pb8", "number": 8, "prompt": "They arrived yesterday, ______?", "answer": "didn't they?"},
-          {"id": "l139-pb9", "number": 9, "prompt": "He hasn't retired yet, ______?", "answer": "has he?"},
-          {"id": "l139-pb10", "number": 10, "prompt": "She was leaving when you arrived, ______?", "answer": "wasn't she?"}
+          {
+            "id": "l139-pb1",
+            "number": 1,
+            "prompt": "You are John Smith, the engineer, ______?",
+            "answer": "aren't you?"
+          },
+          {
+            "id": "l139-pb2",
+            "number": 2,
+            "prompt": "You work for the Overseas Engineering Company, ______?",
+            "answer": "don't you?"
+          },
+          {
+            "id": "l139-pb3",
+            "number": 3,
+            "prompt": "You don't come to China very often, ______?",
+            "answer": "do you?"
+          },
+          {
+            "id": "l139-pb4",
+            "number": 4,
+            "prompt": "He isn't a postman, ______?",
+            "answer": "is he?"
+          },
+          {
+            "id": "l139-pb5",
+            "number": 5,
+            "prompt": "They aren't working very hard, ______?",
+            "answer": "are they?"
+          },
+          {
+            "id": "l139-pb6",
+            "number": 6,
+            "prompt": "She will be here tomorrow, ______?",
+            "answer": "won't she?"
+          },
+          {
+            "id": "l139-pb7",
+            "number": 7,
+            "prompt": "They won't be late, ______?",
+            "answer": "will they?"
+          },
+          {
+            "id": "l139-pb8",
+            "number": 8,
+            "prompt": "They arrived yesterday, ______?",
+            "answer": "didn't they?"
+          },
+          {
+            "id": "l139-pb9",
+            "number": 9,
+            "prompt": "He hasn't retired yet, ______?",
+            "answer": "has he?"
+          },
+          {
+            "id": "l139-pb10",
+            "number": 10,
+            "prompt": "She was leaving when you arrived, ______?",
+            "answer": "wasn't she?"
+          }
         ]
       }
     ],
@@ -111,58 +272,927 @@
       {
         "id": "l139-grammar-i",
         "type": "exercise",
-        "source": "grammar-workbook-p405",
-        "title": "Grammar I: Complete the sentences with 'will' or 'won't'",
-        "instruction": "仿照例句用 will 或 won't 完成以下句子。",
-        "translation": "仿照例句用 will 或 won't 完成以下句子。",
-        "expected_items": 8,
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=422",
+        "title": "Grammar I: Change the following into indirect questions according to the example",
+        "instruction": "Change the following into indirect questions according to the example",
+        "translation": "",
+        "expected_items": 15,
         "answer_kind": "source-key",
-        "key_source": "pdf p.579 (新概念英语语法练习1)",
-        "context": "8 'will'/'won't' fill-in items; item 1 (He won't let me make another film. (the producer, the actress) → The producer told the actress that he wouldn't let her make another film.) is the printed example.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=574",
         "questions": [
-          {"id": "l139-gi1", "number": 1, "example": true, "prompt": "He won't let me make another film. (the producer, the actress)", "answer": "The producer told the actress that he wouldn't let her make another film."},
-          {"id": "l139-gi2", "number": 2, "prompt": "I'll be at home at 6. (she, me)", "answer": "She told me that she would be at home at 6."},
-          {"id": "l139-gi3", "number": 3, "prompt": "We'll go to the seaside this weekend. (they, him)", "answer": "They told him that they would go to the seaside that weekend."},
-          {"id": "l139-gi4", "number": 4, "prompt": "I won't come to the party. (he, his friends)", "answer": "He told his friends that he wouldn't come to the party."},
-          {"id": "l139-gi5", "number": 5, "prompt": "We'll stay at the best hotels. (they, me)", "answer": "They told me that they would stay at the best hotels."},
-          {"id": "l139-gi6", "number": 6, "prompt": "I'll try and win the football pools again. (Brian, Julie)", "answer": "Brian told Julie that he would try and win the football pools again."},
-          {"id": "l139-gi7", "number": 7, "prompt": "We'll be late for dinner. (Graham, John)", "answer": "Graham told John that they would be late for dinner."},
-          {"id": "l139-gi8", "number": 8, "prompt": "I'll see a doctor if I'm ill. (she, her friend)", "answer": "She told her friend that she would see a doctor if she was ill."}
+          {
+            "id": "l139-gi1",
+            "number": 1,
+            "prompt": "What are you watching?",
+            "answer": "He wants to know what I am watching.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "What are you watching?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know what I am watching.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi2",
+            "number": 2,
+            "prompt": "When will the tourists arrive?",
+            "answer": "He wants to know when the tourists will arrive.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When will the tourists arrive?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know when the tourists will arrive.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi3",
+            "number": 3,
+            "prompt": "Why must you leave?",
+            "answer": "He wants to know why I/we must leave.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why must you leave?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why I must leave.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi4",
+            "number": 4,
+            "prompt": "Who are they?",
+            "answer": "He wants to know who they are.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Who are they?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know who they are.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi5",
+            "number": 5,
+            "prompt": "How will you travel?",
+            "answer": "He wants to know how I/we will travel.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How will you travel?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know how I will travel.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi6",
+            "number": 6,
+            "prompt": "Where can I find the book?",
+            "answer": "He wants to know where he can find the book.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where can I find the book?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know where he can find the book.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi7",
+            "number": 7,
+            "prompt": "Where are your dresses?",
+            "answer": "He wants to know where my dresses are.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where are your dresses?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know where my dresses are.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi8",
+            "number": 8,
+            "prompt": "When will the next train be here?",
+            "answer": "He wants to know when the next train will be here.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When will the next train be here?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know when the next train will be here.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi9",
+            "number": 9,
+            "prompt": "Why are you looking so tired?",
+            "answer": "He wants to know why I am looking so tired.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why are you looking so tired?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why I am looking so tired.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi10",
+            "number": 10,
+            "prompt": "Who is that man behind Ann?",
+            "answer": "He wants to know who that man behind Ann is.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Who is that man behind Ann?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know who that man behind Ann is.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi11",
+            "number": 11,
+            "prompt": "How is your mother?",
+            "answer": "He wants to know how my mother is.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How is your mother?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know how my mother is.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi12",
+            "number": 12,
+            "prompt": "What is she studying?",
+            "answer": "He wants to know what she is studying.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "What is she studying?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know what she is studying.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi13",
+            "number": 13,
+            "prompt": "Why is the boy crying?",
+            "answer": "He wants to know why the boy is crying.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why is the boy crying?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why the boy is crying.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi14",
+            "number": 14,
+            "prompt": "Where will you go next weekend?",
+            "answer": "He wants to know where I/we will go next weekend.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where will you go next weekend?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know where I will go next weekend.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gi15",
+            "number": 15,
+            "prompt": "Who is your new teacher?",
+            "answer": "He wants to know who my/our new teacher is.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Who is your new teacher?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know who my new teacher is.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       },
       {
         "id": "l139-grammar-ii",
         "type": "exercise",
-        "source": "grammar-workbook-p405-406",
-        "title": "Grammar II: Write sentences using 'if' with 'will'/'won't' and 'may'",
-        "instruction": "仿照例句用 if 和 will/won't 以及 may 造句。",
-        "translation": "仿照例句用 if 和 will/won't 以及 may 造句。",
-        "expected_items": 10,
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=423",
+        "title": "Grammar II: Change the following into indirect questions according to the example",
+        "instruction": "Change the following into indirect questions according to the example",
+        "translation": "",
+        "expected_items": 15,
         "answer_kind": "source-key",
-        "key_source": "pdf p.579 (新概念英语语法练习1)",
-        "context": "10 'if' sentence items with 'will'/'won't' and 'may'; item 1 (We may win the prize. (if, win) → If we win the prize, we'll travel abroad.) is the printed example.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=574",
         "questions": [
-          {"id": "l139-gii1", "number": 1, "example": true, "prompt": "We may win the prize. (if, win)", "answer": "If we win the prize, we'll travel abroad."},
-          {"id": "l139-gii2", "number": 2, "prompt": "I may be ill next week. (if, ill)", "answer": "If I am ill next week, I'll see a doctor."},
-          {"id": "l139-gii3", "number": 3, "prompt": "They may not come to the party. (if, not come)", "answer": "If they don't come to the party, we'll have a good time anyway."},
-          {"id": "l139-gii4", "number": 4, "prompt": "She may get the job. (if, get)", "answer": "If she gets the job, she'll celebrate with a dinner."},
-          {"id": "l139-gii5", "number": 5, "prompt": "We may not have enough time. (if, not have)", "answer": "If we don't have enough time, we'll leave early."},
-          {"id": "l139-gii6", "number": 6, "prompt": "It may rain tomorrow. (if, rain)", "answer": "If it rains tomorrow, we'll stay at home."},
-          {"id": "l139-gii7", "number": 7, "prompt": "They may not reach the top. (if, not reach)", "answer": "If they don't reach the top, they'll try again next year."},
-          {"id": "l139-gii8", "number": 8, "prompt": "I may win the competition. (if, win)", "answer": "If I win the competition, I'll buy a new coat."},
-          {"id": "l139-gii9", "number": 9, "prompt": "They may win the contract. (if, win)", "answer": "If they win the contract, we'll open a new branch."},
-          {"id": "l139-gii10", "number": 10, "prompt": "You may not understand. (if, not understand)", "answer": "If you don't understand, I'll explain again."}
+          {
+            "id": "l139-gii1",
+            "number": 1,
+            "prompt": "What do you want to drink?",
+            "answer": "He wants to know what I want to drink.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "What do you want to drink?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know what I want to drink.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii2",
+            "number": 2,
+            "prompt": "Where do you live?",
+            "answer": "He wants to know where I/we live.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where do you live?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know where I live.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii3",
+            "number": 3,
+            "prompt": "When does your school day start?",
+            "answer": "He wants to know when my/our school day starts.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When does your school day start?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know when my school day starts.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii4",
+            "number": 4,
+            "prompt": "Why does she want the book?",
+            "answer": "He wants to know why she wants the book.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why does she want the book?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why she wants the book.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii5",
+            "number": 5,
+            "prompt": "How did they go there?",
+            "answer": "He wants to know how they went there.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How did they go there?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know how they went there.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii6",
+            "number": 6,
+            "prompt": "Who does Tim look like?",
+            "answer": "He wants to know who Tim looks like.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Who does Tim look like?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know who Tim looks like.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii7",
+            "number": 7,
+            "prompt": "When did you have your party?",
+            "answer": "He wants to know when I/we had my/our party.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When did you have your party?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know when I had my party.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii8",
+            "number": 8,
+            "prompt": "Where do you keep the fruit?",
+            "answer": "He wants to know where I/we keep the fruit.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Where do you keep the fruit?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know where I keep the fruit.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii9",
+            "number": 9,
+            "prompt": "Why does she want to see you?",
+            "answer": "He wants to know why she wants to see me.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why does she want to see you?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why she wants to see me.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii10",
+            "number": 10,
+            "prompt": "When did you do the job?",
+            "answer": "He wants to know when I/we did the job.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "When did you do the job?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know when I did the job.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii11",
+            "number": 11,
+            "prompt": "What did you do yesterday?",
+            "answer": "He wants to know what I/we did yesterday.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "What did you do yesterday?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know what I did yesterday.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii12",
+            "number": 12,
+            "prompt": "How do you keep your house clean and tidy?",
+            "answer": "He wants to know how I/we keep my/our house clean and tidy.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How do you keep your house clean and tidy?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know how I keep my house clean and tidy.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii13",
+            "number": 13,
+            "prompt": "How does she know the answer?",
+            "answer": "He wants to know how she knows the answer.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "How does she know the answer?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know how she knows the answer.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii14",
+            "number": 14,
+            "prompt": "Why did you buy that book?",
+            "answer": "He wants to know why I/we bought that book.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why did you buy that book?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why I bought that book.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-gii15",
+            "number": 15,
+            "prompt": "Why do you want to be a doctor?",
+            "answer": "He wants to know why I want to be a doctor.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Why do you want to be a doctor?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know why I want to be a doctor.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l139-grammar-iii",
+        "type": "exercise",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=424",
+        "title": "Grammar III: Change the following into indirect questions according to the example",
+        "instruction": "Change the following into indirect questions according to the example",
+        "translation": "",
+        "expected_items": 15,
+        "answer_kind": "source-key",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=574",
+        "questions": [
+          {
+            "id": "l139-giii1",
+            "number": 1,
+            "prompt": "Did you do your work?",
+            "answer": "He wants to know if I did my work.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "Did you do your work?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I did my work.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii2",
+            "number": 2,
+            "prompt": "Can you all hear me?",
+            "answer": "He wants to know if we can all hear him.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Can you all hear me?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if we can all hear him.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii3",
+            "number": 3,
+            "prompt": "Can I open the windows?",
+            "answer": "He wants to know if he can open the windows.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Can I open the windows?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if he can open the windows.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii4",
+            "number": 4,
+            "prompt": "Are you coming to my party?",
+            "answer": "He wants to know if I am/we are coming to his party.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Are you coming to my party?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I am coming to his party.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii5",
+            "number": 5,
+            "prompt": "Will you go and see the doctor?",
+            "answer": "He wants to know if I/we will go and see the doctor.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Will you go and see the doctor?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I will go and see the doctor.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii6",
+            "number": 6,
+            "prompt": "Do you want to go swimming?",
+            "answer": "He wants to know if I/we want to go swimming.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Do you want to go swimming?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I want to go swimming.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii7",
+            "number": 7,
+            "prompt": "Will anyone help you?",
+            "answer": "He wants to know if anyone will help me/us.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Will anyone help you?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if anyone will help me.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii8",
+            "number": 8,
+            "prompt": "Have you made up your mind?",
+            "answer": "He wants to know if I have made up my mind.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Have you made up your mind?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I have made up my mind.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii9",
+            "number": 9,
+            "prompt": "Did you enjoy the film?",
+            "answer": "He wants to know if I/we enjoyed the film.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Did you enjoy the film?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I enjoyed the film.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii10",
+            "number": 10,
+            "prompt": "Can you tell me the way to the station?",
+            "answer": "He wants to know if I/we can tell him the way to the station.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Can you tell me the way to the station?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I can tell him the way to the station.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii11",
+            "number": 11,
+            "prompt": "Are there any mistakes in my paper?",
+            "answer": "He wants to know if there are any mistakes in his paper.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Are there any mistakes in my paper?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if there are any mistakes in his paper.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii12",
+            "number": 12,
+            "prompt": "May I ask you a question?",
+            "answer": "He wants to know if he may ask me a question.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "May I ask you a question?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if he may ask me a question.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii13",
+            "number": 13,
+            "prompt": "Will you write to me soon?",
+            "answer": "He wants to know if I will write to him soon.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Will you write to me soon?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I will write to him soon.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii14",
+            "number": 14,
+            "prompt": "Do you work for an engineering company?",
+            "answer": "He wants to know if I/we work for an engineering company.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Do you work for an engineering company?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I work for an engineering company.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l139-giii15",
+            "number": 15,
+            "prompt": "Have you ever been to Paris?",
+            "answer": "He wants to know if I/we have ever been to Paris.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Have you ever been to Paris?",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He wants to know if I have ever been to Paris.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.281 (Lesson 139 dialogue)", "href": "../img/lesson-139-01-text.jpg"},
-    {"label": "Textbook p.282 (Lesson 139 exercises)", "href": "../img/lesson-139-02-text.jpg"},
-    {"label": "Workbook Lesson 139 (practice page 184)", "href": "../img/lesson-139-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
-    {"label": "Grammar Workbook p.405-406 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=405"},
-    {"label": "Grammar Workbook p.579 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"}
+    {
+      "label": "Textbook p.281 (Lesson 139 dialogue)",
+      "href": "../img/lesson-139-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.282 (Lesson 139 exercises)",
+      "href": "../img/lesson-139-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 139 (practice page 184)",
+      "href": "../img/lesson-139-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 135-141, p.217)",
+      "href": "../img/key-135-141.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.405-406 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=405"
+    },
+    {
+      "label": "Grammar Workbook p.579 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"
+    }
   ],
   "characters": {
     "Graham Turner": "man at his office, has wife Mary",
@@ -178,5 +1208,16 @@
       "source": "img/lesson-139-01-text.jpg (textbook p.281)",
       "reason": "No suitable crop available for the dialogue scene"
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 139,
+      "start": 422,
+      "end": 425,
+      "bookmark_start": 422
+    },
+    "checked_answer_pages": 574,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }
