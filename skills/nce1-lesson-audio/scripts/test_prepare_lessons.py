@@ -5,6 +5,11 @@ from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USA
 from run_audio_queue import benign
 from asr_text import align_digit_sequences,align_clock_sequences,normalize_year_words
 class CompilerRegression(unittest.TestCase):
+ def test_named_blank_keeps_sentence_and_assigns_actor(self):
+  lesson=Lesson(71);lesson.part='practice'
+  lesson.exercise({'id':'practice-a-1','data-prompt':"JANE: What's Ron Marston _____, Pauline?",'data-key':'like'},'Dialogue','Fill in the missing words.')
+  self.assertEqual(lesson.s[0]['text'],"What's Ron Marston like, Pauline?")
+  self.assertEqual(lesson.s[0]['role'],'jane')
  def test_year_words_keep_the_year(self):
   self.assertEqual(normalize_year_words('In nineteen seventy-five.'),'In 1975.')
   self.assertNotEqual(normalize_year_words('In nineteen seventy-five.'),'In 1957.')

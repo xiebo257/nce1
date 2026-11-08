@@ -139,8 +139,6 @@ class Lesson(base.Lesson):
    completed=q.replace('___',k.rstrip('.'))
    self.add(completed,'answer',pause=1.5);return
   if '_' in q:
-   if re.match(r"^[A-Z][A-Z ']+:",q) and len(re.findall(r'_{2,}',q))==1:
-    self.add(q.split(':')[0].title()+'. '+k,'answer',pause=1.5);return
    if re.search(r'[.!?]$',k) and len(k.split())>=max(4,len(base.no_parens(q).split())-2):completed=k
    else:
     try:completed=fill(q,k)
@@ -236,6 +234,7 @@ class Lesson(base.Lesson):
    self.add(f'Lesson {self.n}.'+('' if part=='lesson' else ' Practice.' if part=='practice' else ' Grammar practice.'))
    reading=sec.xpath('.//*[@data-key and (contains(@id,"reading") or @id="lesson-question")]')
    dialogue=sec.xpath('.//p[@class="spoken"]')
+   if part=='lesson' and str(self.n) in PASSAGES:dialogue=[]
    if part=='lesson' and not dialogue and self.n%2==1:
     replacement=PASSAGES.get(str(self.n))
     if replacement:

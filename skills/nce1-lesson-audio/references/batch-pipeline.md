@@ -21,6 +21,8 @@ Compilation fails on unresolved blanks, unknown vocabulary examples, Chinese in 
 
 ASR compares speech to the prepared script, so a matching transcript does not establish that the script correctly completed the workbook. Audit source ellipsis blanks, verb/preposition sorting tables, printed item codes, and quoted dialogue independently. The reviewed overrides cover lessons 070, 110–116 and other known source exceptions. Preserve complete filled answers and alternating dialogue turns; never read an unfinished sentence followed by an isolated missing word as though that were a completed answer. Time cues such as `8.05` must retain the hour rather than being stripped as question numbering.
 
+Named blanks must fill the whole sentence before removing its speaker label, then assign that actor (lesson 071). A transcript such as `Jane. like.` is a source-compilation failure even if ASR matches it perfectly. Lesson 115 has misordered/misattributed HTML turns, and lesson 139 has an HTML dialogue that differs from the actual textbook story; their complete scan-verified replacements take precedence even when `.spoken` paragraphs exist. Record the image provenance in `passage-overrides.json` and re-render/recheck any previously published correction.
+
 Do not recompile scripts currently being rendered: the renderer writes effective seeds back into them. Recompilation preserves exact `(source_item, role, text)` repairs, but changes in role assignment or instructions invalidate speech cache entries. Keep a consistent named cast across a range and inspect same-scene voice collisions.
 
 ## Render, check, and publish small batches
