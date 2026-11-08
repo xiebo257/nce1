@@ -41,6 +41,13 @@ def main():
         if cached:print('CACHED_LESSON',n,flush=True);continue
         cols=min(4,math.ceil(math.sqrt(len(jobs))))
         cw,ch=((256,192) if len(jobs)>15 else (320,224)) if len(jobs)>1 else (jobs[0]['width'],jobs[0]['height'])
+        if len(jobs)>1:
+            aspects=[]
+            for j in jobs:
+                with Image.open(repo/j['source_reference']) as original:
+                    aspects.append(original.width/original.height)
+            if min(aspects)>3:
+                cols,cw,ch=1,1024,288
         rows=math.ceil(len(jobs)/cols)
         width,height=cols*cw,rows*ch
         source=Image.new('RGB',(width,height),'white')

@@ -39,10 +39,25 @@
       "description": "Twelve analogue clocks numbered 1st to 12th, each showing a different time of day.",
       "source": "../img/lesson-096-01-text.jpg",
       "characters": [],
-      "illustration_source_reference": "html/assets/lesson-096/clocks-01.jpg",
-      "illustration_width": 640,
-      "illustration_height": 256,
-      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Twelve analogue clocks numbered 1st to 12th, each showing a different time of day."
+      "illustration_source_reference": "illustrations/references/source/096-lesson-096-clocks-01.png",
+      "illustration_width": 1024,
+      "illustration_height": 224,
+      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Twelve analogue clocks numbered 1st to 12th, each showing a different time of day.",
+      "illustration_source_crop": {
+        "file": "pdf/新概念英语1 英语初阶.pdf",
+        "viewer_page": 199,
+        "box": [
+          65,
+          193,
+          643,
+          312
+        ],
+        "coordinate_space": [
+          833,
+          1179
+        ]
+      },
+      "illustration_exact_diagram": true
     },
     "lesson-096-cities-01": {
       "kind": "scene",
@@ -50,13 +65,27 @@
       "src": "assets/lesson-096/cities-01.jpg",
       "width": 1826,
       "height": 950,
-      "description": "Fifteen numbered pictures of world cities and landmarks: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Tokyo, Stockholm, Sydney, and a bus station.",
+      "description": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Seoul, Stockholm, Sydney, and Tokyo.",
       "source": "../img/lesson-096-01-text.jpg",
       "characters": [],
-      "illustration_source_reference": "html/assets/lesson-096/cities-01.jpg",
-      "illustration_width": 640,
-      "illustration_height": 336,
-      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Fifteen numbered pictures of world cities and landmarks: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Tokyo, Stockholm, Sydney, and a bus station."
+      "illustration_source_reference": "illustrations/references/source/096-lesson-096-cities-01.png",
+      "illustration_width": 1024,
+      "illustration_height": 576,
+      "illustration_scene": "Colorize this exact fifteen-panel city illustration. Preserve all fifteen panels, landmarks, numbering and city names including Seoul as 12 and Tokyo as 15. Add natural colors to the existing ink drawings, keep white background and all text unchanged. No new objects or panels.",
+      "illustration_source_crop": {
+        "file": "pdf/新概念英语1 英语初阶.pdf",
+        "viewer_page": 199,
+        "box": [
+          64,
+          570,
+          762,
+          965
+        ],
+        "coordinate_space": [
+          833,
+          1179
+        ]
+      }
     }
   },
   "sections": {
@@ -92,8 +121,8 @@
         "type": "text",
         "source": "../img/lesson-096-01-text.jpg",
         "image": "lesson-096-cities-01",
-        "text": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Tokyo, Stockholm, Sydney, and a bus station.",
-        "translation": "十五个城市：雅典、北京、柏林、孟买、日内瓦、伦敦、马德里、莫斯科、纽约、巴黎、罗马、东京、斯德哥尔摩、悉尼和汽车客运站。"
+        "text": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Seoul, Stockholm, Sydney, and Tokyo.",
+        "translation": "十五个城市：雅典、北京、柏林、孟买、日内瓦、伦敦、马德里、莫斯科、纽约、巴黎、罗马、首尔、斯德哥尔摩、悉尼和东京。"
       },
       {
         "id": "lesson-written-a",
