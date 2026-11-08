@@ -6,12 +6,8 @@
 | --- | ---: | ---: | ---: |
 | [073-1-lesson.wav](../../073-1-lesson.wav) | 126.0 | 27 | 1 |
 | [073-2-practice.wav](../../073-2-practice.wav) | 125.6 | 30 | 29 |
-| [073-3-gramar.wav](../../073-3-gramar.wav) | 484.6 | 118 | 63 |
+| [073-3-gramar.wav](../../073-3-gramar.wav) | 522.2 | 119 | 64 |
 
 词汇：week, suddenly, smile, pleasantly, understand, speak, hand, pocket, phrasebook, phrase, slowly
-
-源文补正记录：
-
-- Replaced parenthesized base verbs with the answer-key past forms to speak a complete sentence.
 
 角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。
