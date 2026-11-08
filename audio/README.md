@@ -115,6 +115,8 @@
 | 135 | The latest report | [2:20](135-1-lesson.wav) | [1:48](135-2-practice.wav) | [3:32](135-3-gramar.wav) | [脚本](scripts/135/README.md) |
 | 136 | He said (that) he… He told me (that) he… | [4:22](136-1-lesson.wav) | [1:43](136-2-practice.wav) | [3:39](136-3-gramar.wav) | [脚本](scripts/136/README.md) |
 | 137 | A pleasant dream | [1:46](137-1-lesson.wav) | [2:51](137-2-practice.wav) | [2:36](137-3-gramar.wav) | [脚本](scripts/137/README.md) |
+| 140 | He wants to know if/why/what/when | [2:55](140-1-lesson.wav) | [1:39](140-2-practice.wav) | [3:54](140-3-gramar.wav) | [脚本](scripts/140/README.md) |
+| 141 | Sally's first train ride | [2:57](141-1-lesson.wav) | [2:47](141-2-practice.wav) | [4:37](141-3-gramar.wav) | [脚本](scripts/141/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
