@@ -869,9 +869,9 @@
       "description": "Grid of 24 pictures (I–Z) in 8 groups of three comparing quantities and qualities: chocolate (I–N), mistakes (O–T), cars (U–W) and restaurants (X–Z), each showing positive, comparative and superlative.",
       "source": "img/lesson-110-01-text.jpg (textbook p.243)",
       "characters": [],
-      "src": "assets/lesson-110/items-grid.jpg",
-      "width": 1561,
-      "height": 2412,
+      "src": "assets/lesson-110/l110-items-grid-color.webp",
+      "width": 768,
+      "height": 960,
       "illustration_source_reference": "illustrations/references/source/110-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 960,
@@ -994,6 +994,14 @@
             1003
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "How do they compare? 比一比",
+      "alt": "Faithfully colorize this EXACT 18-panel cartoon grid, with 3 columns and 6 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 110017,
+        "manifest": "illustrations/manifests/110-l110-items-grid.json"
       }
     }
   },
