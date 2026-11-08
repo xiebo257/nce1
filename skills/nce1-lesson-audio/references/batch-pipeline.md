@@ -45,6 +45,8 @@ The publisher checks source coverage, vocabulary order, role references, WAV dec
 
 Queue state files and logs live under ignored `audio/work/`. A successful queue batch records `pushed: true`. If publishing manually, update that batch's queue record after checking the push result. A failed push is not completion; retry the push rather than generating another commit for unchanged files.
 
+After all requested lessons have been published, run `scripts/audit_audio_completion.py --end 144`. It checks tracked WAV files, published job records, and exact ASR coverage of the final scripts, then writes `audio/validation.json` with durations, SHA256 hashes, retained transcript differences, and review notes. Commit that compact final record after the per-batch audio commits. This audit does not replace source review or listening.
+
 ## Cost, speed, and quality limits
 
 - No remote LLM calls, API keys, ffmpeg, or new model downloads are needed on the configured machine.
