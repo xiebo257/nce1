@@ -3,8 +3,12 @@ import json,unittest
 from pathlib import Path
 from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
 from run_audio_queue import benign
-from asr_text import align_digit_sequences
+from asr_text import align_digit_sequences,align_clock_sequences
 class CompilerRegression(unittest.TestCase):
+ def test_clock_comparison_preserves_minutes(self):
+  self.assertEqual(align_clock_sequences('eight oh five.','8.05'),'eight oh five')
+  self.assertEqual(align_clock_sequences('eight oh five.','8.50'),'8.50')
+  self.assertEqual(align_clock_sequences('eight oh five.','$8.05'),'$8.05')
  def test_printed_item_codes_are_not_spoken(self):
   lesson=Lesson(113);lesson.add('1e. David will go.')
   self.assertEqual(lesson.s[-1]['text'],'David will go.')

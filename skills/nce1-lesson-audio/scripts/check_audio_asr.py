@@ -5,7 +5,7 @@ import soundfile as sf
 from scipy.signal import resample_poly
 import mlx_whisper
 from num2words import num2words
-from asr_text import align_digit_sequences
+from asr_text import align_digit_sequences,align_clock_sequences
 p=argparse.ArgumentParser();p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);a=p.parse_args()
 root=Path('audio/work/batch-025-144');cache=root/'asr-cache';cache.mkdir(exist_ok=True)
 model=str(next((Path.home()/'.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots').iterdir()))
@@ -35,6 +35,7 @@ def norm(t):
  return re.findall(r"[a-z]+(?:'[a-z]+)?",t)
 def diff(e,t):
  t=align_digit_sequences(e,t)
+ t=align_clock_sequences(e,t)
  if e.lower().startswith('write '):
   digits=dict(zip('zero one two three four five six seven eight nine'.split(),'0123456789'))
   expected=''.join(digits[w] for w in re.findall(r'[a-z]+',e.lower()[6:]) if w in digits)
