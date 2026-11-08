@@ -101,6 +101,8 @@
 | 131 | Don't be so sure! 别那么肯定！ | [1:35](131-1-lesson.wav) | [1:34](131-2-practice.wav) | [4:31](131-3-gramar.wav) | [脚本](scripts/131/README.md) |
 | 132 | He may be... He may have been... 他可能是…… 他可能已经…… | [5:07](132-1-lesson.wav) | [1:32](132-2-practice.wav) | [2:28](132-3-gramar.wav) | [脚本](scripts/132/README.md) |
 | 133 | Sensational news! 爆炸性新闻！ | [1:53](133-1-lesson.wav) | [2:10](133-2-practice.wav) | [3:09](133-3-gramar.wav) | [脚本](scripts/133/README.md) |
+| 134 | He said (that) he… He told me (that) he… | [5:41](134-1-lesson.wav) | [1:15](134-2-practice.wav) | [4:22](134-3-gramar.wav) | [脚本](scripts/134/README.md) |
+| 135 | The latest report | [2:20](135-1-lesson.wav) | [1:48](135-2-practice.wav) | [3:32](135-3-gramar.wav) | [脚本](scripts/135/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
