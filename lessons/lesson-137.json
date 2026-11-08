@@ -710,10 +710,9 @@
   "images": {
     "l137-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Brian and Julie sitting at a table discussing their football pools dreams, with a mink coat and a house in the country illustrated",
       "source": "img/lesson-137-01-text.jpg (textbook p.277)",
-      "reason": "No suitable crop available for the dialogue scene",
       "illustration_scene": "Brian and Julie sit at their living-room table discussing dreams of travel. Brian holds a pencil over a football-pools coupon with small unlettered boxes; Julie smiles thoughtfully. A globe and a holiday brochure sit nearby. They are still at home, not already wealthy.",
       "characters": [
         "Brian",
@@ -721,7 +720,18 @@
       ],
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-137/l137-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A pleasant dream",
+      "alt": "Brian and Julie sit at their living-room table discussing dreams of travel.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 137017,
+        "manifest": "illustrations/manifests/137-l137-scene.json"
+      }
     }
   },
   "grammar_source_audit": {
