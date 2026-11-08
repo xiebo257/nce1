@@ -77,6 +77,8 @@
 | 071 | He's awful! | [2:14](071-1-lesson.wav) | [2:19](071-2-practice.wav) | [6:00](071-3-gramar.wav) | [脚本](scripts/071/README.md) |
 | 072 | When did you ...? | [3:36](072-1-lesson.wav) | [1:33](072-2-practice.wav) | [2:54](072-3-gramar.wav) | [脚本](scripts/072/README.md) |
 | 073 | Did you lose your way? | [2:06](073-1-lesson.wav) | [2:06](073-2-practice.wav) | [8:05](073-3-gramar.wav) | [脚本](scripts/073/README.md) |
+| 074 | What did they do? | [1:54](074-1-lesson.wav) | [2:59](074-2-practice.wav) | [3:09](074-3-gramar.wav) | [脚本](scripts/074/README.md) |
+| 075 | Uncomfortable shoes | [2:06](075-1-lesson.wav) | [1:43](075-2-practice.wav) | [5:55](075-3-gramar.wav) | [脚本](scripts/075/README.md) |
 | 076 | When did you ...? | [2:44](076-1-lesson.wav) | [1:30](076-2-practice.wav) | [3:04](076-3-gramar.wav) | [脚本](scripts/076/README.md) |
 | 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [4:47](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
 | 078 | When did you ...? | [1:32](078-1-lesson.wav) | [2:15](078-2-practice.wav) | [2:30](078-3-gramar.wav) | [脚本](scripts/078/README.md) |
