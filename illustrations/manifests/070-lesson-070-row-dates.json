@@ -1,0 +1,121 @@
+{
+  "slot": "lesson-070-row-dates",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Six dated illustrations in a row: church (Jan. 21st), school (Feb. 22nd), the office (March 23rd), the baker's (April 24th), home (May 25th) and the butcher's (June 26th).",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/070-lesson-070-row-dates-clean.png",
+  "lesson": 70,
+  "seed": 70018,
+  "width": 640,
+  "height": 256,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "4d2f066d0365fdcdc3c2b0d1f4c8847c1e45270d1962ebdf7a88a9ed428780a0",
+  "fingerprint": "264a1bd7ac0d4130add7b96bb0ad0da86992a358ad5e7c9a2d978f18e63bf0c8",
+  "sha256": "a0b1f0174344dc423faf848d7b3ce1b01b57714275aef6a97b02d09aab4b61e0",
+  "status": "visually-reviewed",
+  "seconds": 59.96,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 70901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 3 textbook picture tiles in their EXACT 1-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1024,
+    "height": 864,
+    "steps": 4,
+    "seconds": 179.88,
+    "peak_mlx_gb": 6.758,
+    "input_sha256": "730e31fe7b107111d3f75040635f5099bf6e199552ba03331ffa238eb99d8c1f",
+    "output_sha256": "89075c1ee00bd29039addf5517dad24b4a8002dfa26b98c8be2b4717d395a7c6",
+    "slots": [
+      "lesson-070-row-days",
+      "lesson-070-row-dates",
+      "lesson-070-row-months"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/070-lesson-070-row-days-clean.png",
+        "sha256": "5f7d19c0477e196f441a01049754f08c955dfca18c8e03cc0832d78eac1b52e9"
+      },
+      {
+        "path": "illustrations/references/source/070-lesson-070-row-dates-clean.png",
+        "sha256": "4d2f066d0365fdcdc3c2b0d1f4c8847c1e45270d1962ebdf7a88a9ed428780a0"
+      },
+      {
+        "path": "illustrations/references/source/070-lesson-070-row-months-clean.png",
+        "sha256": "9b697db7f18f59f96e919edb64906707abd075b9970b25b300133542128ab7f0"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      288,
+      1024,
+      576
+    ],
+    "output_size": [
+      507,
+      200
+    ],
+    "source_atlas_sha256": "730e31fe7b107111d3f75040635f5099bf6e199552ba03331ffa238eb99d8c1f",
+    "color_guide_sha256": "89075c1ee00bd29039addf5517dad24b4a8002dfa26b98c8be2b4717d395a7c6",
+    "region_overrides": [],
+    "crop": [
+      6,
+      93,
+      1020,
+      193
+    ],
+    "reason": "Trim white margins around complete instructional picture strip.",
+    "reflow": {
+      "columns": 3,
+      "source_boxes": [
+        [
+          0,
+          0,
+          169,
+          100
+        ],
+        [
+          169,
+          0,
+          338,
+          100
+        ],
+        [
+          338,
+          0,
+          507,
+          100
+        ],
+        [
+          507,
+          0,
+          676,
+          100
+        ],
+        [
+          676,
+          0,
+          845,
+          100
+        ],
+        [
+          845,
+          0,
+          1014,
+          100
+        ]
+      ],
+      "reason": "Keep sequential panels readable on phones."
+    }
+  },
+  "review_notes": "Three source strips retain all six day/shop cues, six date/location cues and six month/country maps. Source linework and labels preserved; map ink colored teal. Reflowed each strip to three columns in original reading order for phone readability.",
+  "published_sha256": "7a72c837394360e5c0a62f06640b140ffdff8ce0c35b1ca29455172a5e4d0244"
+}

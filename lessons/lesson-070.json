@@ -211,15 +211,15 @@
       "status": "ready",
       "description": "Six dated shop illustrations in a row: the stationer's (Monday), the greengrocer's (Tuesday), the hairdresser's (Wednesday), the butcher's (Thursday), the grocer's (Friday) and the dairy (Saturday).",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-070-01-text.jpg",
       "source_size": [
         2471,
         2500
       ],
-      "src": "assets/lesson-070/row-days.jpg",
-      "width": 2471,
-      "height": 640,
+      "src": "assets/lesson-070/lesson-070-row-days-color.webp",
+      "width": 507,
+      "height": 196,
       "illustration_source_reference": "illustrations/references/source/070-lesson-070-row-days-clean.png",
       "illustration_width": 640,
       "illustration_height": 256,
@@ -237,6 +237,14 @@
           750,
           309
         ]
+      },
+      "layout": "above",
+      "caption": "When were they there?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 70017,
+        "manifest": "illustrations/manifests/070-lesson-070-row-days.json"
       }
     },
     "lesson-070-row-dates": {
@@ -244,15 +252,15 @@
       "status": "ready",
       "description": "Six dated illustrations in a row: church (Jan. 21st), school (Feb. 22nd), the office (March 23rd), the baker's (April 24th), home (May 25th) and the butcher's (June 26th).",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-070-01-text.jpg",
       "source_size": [
         2471,
         2500
       ],
-      "src": "assets/lesson-070/row-dates.jpg",
-      "width": 2471,
-      "height": 660,
+      "src": "assets/lesson-070/lesson-070-row-dates-color.webp",
+      "width": 507,
+      "height": 200,
       "illustration_source_reference": "illustrations/references/source/070-lesson-070-row-dates-clean.png",
       "illustration_width": 640,
       "illustration_height": 256,
@@ -270,6 +278,14 @@
           750,
           493
         ]
+      },
+      "layout": "above",
+      "caption": "When were they there?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 70018,
+        "manifest": "illustrations/manifests/070-lesson-070-row-dates.json"
       }
     },
     "lesson-070-row-months": {
@@ -277,15 +293,15 @@
       "status": "ready",
       "description": "Six country-map illustrations in a row: Australia (July), Austria (August), Canada (September), China (October), Denmark (November) and Finland (December).",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-070-01-text.jpg",
       "source_size": [
         2471,
         2500
       ],
-      "src": "assets/lesson-070/row-months.jpg",
-      "width": 2471,
-      "height": 670,
+      "src": "assets/lesson-070/lesson-070-row-months-color.webp",
+      "width": 507,
+      "height": 196,
       "illustration_source_reference": "illustrations/references/source/070-lesson-070-row-months-clean.png",
       "illustration_width": 640,
       "illustration_height": 256,
@@ -303,6 +319,14 @@
           752,
           672
         ]
+      },
+      "layout": "above",
+      "caption": "When were they there?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 70019,
+        "manifest": "illustrations/manifests/070-lesson-070-row-months.json"
       }
     }
   },

@@ -1,0 +1,31 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 70901,
+  "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 3 textbook picture tiles in their EXACT 1-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+  "width": 1024,
+  "height": 864,
+  "steps": 4,
+  "seconds": 179.88,
+  "peak_mlx_gb": 6.758,
+  "input_sha256": "730e31fe7b107111d3f75040635f5099bf6e199552ba03331ffa238eb99d8c1f",
+  "output_sha256": "89075c1ee00bd29039addf5517dad24b4a8002dfa26b98c8be2b4717d395a7c6",
+  "slots": [
+    "lesson-070-row-days",
+    "lesson-070-row-dates",
+    "lesson-070-row-months"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/070-lesson-070-row-days-clean.png",
+      "sha256": "5f7d19c0477e196f441a01049754f08c955dfca18c8e03cc0832d78eac1b52e9"
+    },
+    {
+      "path": "illustrations/references/source/070-lesson-070-row-dates-clean.png",
+      "sha256": "4d2f066d0365fdcdc3c2b0d1f4c8847c1e45270d1962ebdf7a88a9ed428780a0"
+    },
+    {
+      "path": "illustrations/references/source/070-lesson-070-row-months-clean.png",
+      "sha256": "9b697db7f18f59f96e919edb64906707abd075b9970b25b300133542128ab7f0"
+    }
+  ]
+}
