@@ -1,0 +1,98 @@
+{
+  "slot": "lesson-074-pic-104",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. A man and a woman meet in the street and greet each other warmly.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/074-lesson-074-pic-104-clean.png",
+  "lesson": 74,
+  "seed": 74020,
+  "width": 640,
+  "height": 400,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "a5500875a6e66e00b1eced0ff6844c8bc2f58c286dd6ef54a7ac1f97f202159f",
+  "fingerprint": "ee6291d69e54f34a027be6893285cef2dacc472008932427516d8de4a61f31e2",
+  "sha256": "d19077014a9f38d2236d6444920a470d4c5044a3023faaa73b2fb6fa24abed4b",
+  "status": "visually-reviewed",
+  "seconds": 10.5375,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 74901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 8 textbook picture tiles in their EXACT 3-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 768,
+    "height": 576,
+    "steps": 4,
+    "seconds": 84.3,
+    "peak_mlx_gb": 5.304,
+    "input_sha256": "e68275650719653e5e90438e170b025767a67f7f085de9d8e1681f8f0a612bce",
+    "output_sha256": "e253165535ba7ce563cc8a8cef6d8f78b3cec6b48915e7d4022205cdb8436e7a",
+    "slots": [
+      "lesson-074-pic-101",
+      "lesson-074-pic-102",
+      "lesson-074-pic-103",
+      "lesson-074-pic-104",
+      "lesson-074-pic-105",
+      "lesson-074-pic-106",
+      "lesson-074-pic-107",
+      "lesson-074-pic-108"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-101-clean.png",
+        "sha256": "5b7bb4b202ca767d2ef1675747f55a8e533111a1f459cac6dc5d9d3aedbe7a4a"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-102-clean.png",
+        "sha256": "09fca70239c2a69f281ea58120dc61dd059ea64f1c3898e33fac64d62b4f4256"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-103-clean.png",
+        "sha256": "ec56fe46b36a36fd965e6ed36facea6a9ac0b6b2c3c8f6b8ac60df3dd23ba7d3"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-104-clean.png",
+        "sha256": "a5500875a6e66e00b1eced0ff6844c8bc2f58c286dd6ef54a7ac1f97f202159f"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-105-clean.png",
+        "sha256": "2d99c7d2eda0110583980efc91931654593338dd10254a18e6b0d3713a12bbb0"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-106-clean.png",
+        "sha256": "f4bf11f30c9669c6e7593db39ba7acd69c90b208b88b3d0154e082d6a66ca26e"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-107-clean.png",
+        "sha256": "62b3972e5de61a0727fda47b68211b8ce52d0575fe09fac3b8444ed0d4329f25"
+      },
+      {
+        "path": "illustrations/references/source/074-lesson-074-pic-108-clean.png",
+        "sha256": "31b156ad0a40f42b60f987f59fa30cc819a873a0f9172954ecdcbeaebd17c8af"
+      }
+    ],
+    "saved_output_recovery": "Adopted actual newly generated colored_1.png from MFLUX non-overwrite naming."
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      192,
+      256,
+      384
+    ],
+    "output_size": [
+      256,
+      192
+    ],
+    "source_atlas_sha256": "e68275650719653e5e90438e170b025767a67f7f085de9d8e1681f8f0a612bce",
+    "color_guide_sha256": "e253165535ba7ce563cc8a8cef6d8f78b3cec6b48915e7d4022205cdb8436e7a",
+    "region_overrides": []
+  },
+  "review_notes": "Reviewed eight complete action panels from rebuilt source crops: hurried shaving, quickly eating cake, drinking thirstily, greeting warmly, slow bus, hard work, enjoyment, swimming. No clipped captions or omitted actions.",
+  "published_sha256": "965a70ef42d77f500299e8b0457a06f36f3f452995365f6dff731b87b7f5fe6c"
+}
