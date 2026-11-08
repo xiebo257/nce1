@@ -83,6 +83,8 @@
 | 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:46](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
 | 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:34](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
 | 129 | Seventy miles an hour 时速70英里 | [2:29](129-1-lesson.wav) | [2:24](129-2-practice.wav) | [4:49](129-3-gramar.wav) | [脚本](scripts/129/README.md) |
+| 130 | He can't have been... He must have been... 他那时不可能…… 他那时肯定是…… | [6:36](130-1-lesson.wav) | [2:07](130-2-practice.wav) | [3:17](130-3-gramar.wav) | [脚本](scripts/130/README.md) |
+| 131 | Don't be so sure! 别那么肯定！ | [1:35](131-1-lesson.wav) | [1:34](131-2-practice.wav) | [4:31](131-3-gramar.wav) | [脚本](scripts/131/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
