@@ -95,6 +95,8 @@
 | 089 | For sale | [2:42](089-1-lesson.wav) | [1:52](089-2-practice.wav) | [5:15](089-3-gramar.wav) | [脚本](scripts/089/README.md) |
 | 090 | Have you ... yet? | [3:30](090-1-lesson.wav) | [0:51](090-2-practice.wav) | [2:52](090-3-gramar.wav) | [脚本](scripts/090/README.md) |
 | 091 | Poor Ian! | [2:11](091-1-lesson.wav) | [1:53](091-2-practice.wav) | [2:27](091-3-gramar.wav) | [脚本](scripts/091/README.md) |
+| 092 | When will ...? | [1:55](092-1-lesson.wav) | [1:57](092-2-practice.wav) | [3:20](092-3-gramar.wav) | [脚本](scripts/092/README.md) |
+| 093 | Our new neighbour | [1:49](093-1-lesson.wav) | [2:11](093-2-practice.wav) | [3:13](093-3-gramar.wav) | [脚本](scripts/093/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
