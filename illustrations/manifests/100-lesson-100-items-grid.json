@@ -1,0 +1,62 @@
+{
+  "slot": "lesson-100-items-grid",
+  "prompt": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 16 small pictures with captions (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell) for making reported-speech sentences.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/100-complete-panels.png",
+  "lesson": 100,
+  "seed": 100017,
+  "width": 1024,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "dade59dee7d85bf4e4bb1227aa229099754ed62896a4214105d0b36cb107c13d",
+  "fingerprint": "cc58199d912507a5fb48b71b783b390523b2bd1ceb4c49e88e76ce949be95296",
+  "sha256": "966e8b30263dd7469bac65e217cace537042396f8f1d6b317073888c3c0bc572",
+  "status": "visually-reviewed",
+  "seconds": 128.65,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 100901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 16 small pictures with captions (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell) for making reported-speech sentences.",
+    "width": 1024,
+    "height": 640,
+    "steps": 4,
+    "seconds": 128.65,
+    "peak_mlx_gb": 5.737,
+    "input_sha256": "dade59dee7d85bf4e4bb1227aa229099754ed62896a4214105d0b36cb107c13d",
+    "output_sha256": "b576419791a21811922bfb43066c46f4f727551e1895bc3dfd116a225a4aeb8f",
+    "slots": [
+      "lesson-100-items-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/100-complete-panels.png",
+        "sha256": "dade59dee7d85bf4e4bb1227aa229099754ed62896a4214105d0b36cb107c13d"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      1024,
+      640
+    ],
+    "output_size": [
+      1024,
+      640
+    ],
+    "source_atlas_sha256": "dade59dee7d85bf4e4bb1227aa229099754ed62896a4214105d0b36cb107c13d",
+    "color_guide_sha256": "b576419791a21811922bfb43066c46f4f727551e1895bc3dfd116a225a4aeb8f",
+    "region_overrides": []
+  },
+  "review_notes": "Checked all 16 condition/action panels including sleepiness, thirst, cold at bus stop, illness, X-ray, waiting, missed bus, car and house sale. Source drawing retains facial expressions and text.",
+  "published_sha256": "920b9c6d23ec335ac47132545b93de4c2f7b00a35e6cadf0433a17f9d3b3cffb"
+}
