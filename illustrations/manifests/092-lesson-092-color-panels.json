@@ -1,0 +1,77 @@
+{
+  "slot": "lesson-092-color-panels",
+  "prompt": "Faithfully colorize this exact textbook illustration. Sixteen action pictures in four columns and four rows, in the original order. Preserve all sixteen panels, people and objects exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/092-lesson-panels.png",
+  "lesson": 92,
+  "seed": 92017,
+  "width": 1024,
+  "height": 992,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "19c3897f640cfe0afe9dd9d96560138871849ddf5ce780b5f101ee0c7d0022da",
+  "fingerprint": "cf5990bcf18ccca378b4d5cc3c6f4f2efa7c2c8146e4a056160de80d43b4b6f0",
+  "sha256": "e5dac01741a539fb3be58f7e1c432acecb311803de3f039b474a9e8684435150",
+  "status": "visually-reviewed",
+  "seconds": 208.46,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 92901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this exact textbook illustration. Sixteen action pictures in four columns and four rows, in the original order. Preserve all sixteen panels, people and objects exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+    "width": 1024,
+    "height": 992,
+    "steps": 4,
+    "seconds": 208.46,
+    "peak_mlx_gb": 7.477,
+    "input_sha256": "fac415073b471faae112343e85dbeb87174fd4468c0b9899659053851b9ceeba",
+    "output_sha256": "c0213eeebfd3cd156dd67a64a643db8ba3a12e05a7952af87991bcc24bfedc40",
+    "slots": [
+      "lesson-092-color-panels"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/092-lesson-panels.png",
+        "sha256": "19c3897f640cfe0afe9dd9d96560138871849ddf5ce780b5f101ee0c7d0022da"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      1024,
+      992
+    ],
+    "output_size": [
+      1024,
+      1020
+    ],
+    "source_atlas_sha256": "fac415073b471faae112343e85dbeb87174fd4468c0b9899659053851b9ceeba",
+    "color_guide_sha256": "c0213eeebfd3cd156dd67a64a643db8ba3a12e05a7952af87991bcc24bfedc40",
+    "region_overrides": [],
+    "caption_repair": "Complete clipped make an appointment label in added bottom margin.",
+    "skin_hue_repairs": [
+      [
+        70,
+        616,
+        151,
+        658
+      ],
+      [
+        383,
+        117,
+        418,
+        147
+      ]
+    ]
+  },
+  "review_notes": "Checked all 16 ordinal action panels, original clock and readable labels. Preserved source geometry; corrected blue facial areas and completed the clipped appointment caption.",
+  "published_sha256": "c21ebb030a3241306c87093126ef8926b1fa95104078ae4498c93167b623d211"
+}

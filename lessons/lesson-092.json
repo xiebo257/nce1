@@ -32,7 +32,7 @@
   "images": {
     "lesson-092-color-panels": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Sixteen action pictures in four columns and four rows, in the original order. Preserve all sixteen panels, people and objects exactly.",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/092-lesson-panels.png",
@@ -53,7 +53,18 @@
         ]
       },
       "illustration_scene": "Faithfully colorize this exact textbook illustration. Sixteen action pictures in four columns and four rows, in the original order. Preserve all sixteen panels, people and objects exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
-      "source": "img/lesson-092-01-text.jpg"
+      "source": "img/lesson-092-01-text.jpg",
+      "src": "assets/lesson-092/lesson-092-color-panels-color.webp",
+      "width": 1024,
+      "height": 1020,
+      "origin": "local-model",
+      "caption": "When will ...?",
+      "alt": "Faithfully colorize this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 92017,
+        "manifest": "illustrations/manifests/092-lesson-092-color-panels.json"
+      }
     }
   },
   "sections": {
