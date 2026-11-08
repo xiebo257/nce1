@@ -45,18 +45,29 @@
   "images": {
     "lesson-097-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mr. Hall at the lost property office: describing his suitcase, the attendant showing him different cases, checking the label, paying three pounds fifty, and Mr. Hall discovering the attendant has given him the wrong case.",
       "characters": [
         "mr-hall",
         "attendant"
       ],
       "source": "../img/lesson-097-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "At a station lost-property counter, Mr Hall looks surprised while the attendant presents a small BLUE zippered suitcase with a paper label tied to its handle. Other differently sized cases on shelves. Keep the blue case the central object, label unlettered.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-097/lesson-097-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A small blue case",
+      "alt": "At a station lost-property counter, Mr Hall looks surprised while the attendant presents a small BLUE zippered suitcase with a paper label tied to its handle.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 97017,
+        "manifest": "illustrations/manifests/097-lesson-097-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "sections": {
