@@ -4,7 +4,7 @@
   "title": "Paris in the spring",
   "translation": "巴黎之春",
   "description": "A dialogue lesson on the present perfect tense (have/has been to). George and Ken meet outside a cinema; Ken has just been to the cinema to see 'Paris in the Spring', a film George has already seen on television. Ken says Paris is a beautiful city, but the weather was awful — it rained all the time, just like London. Workbook practice covers comprehension questions and a fill-in exercise with to/to the, on/on the, and in phrases. Grammar exercises practise do/did/done, giving replies to telephone calls, and completing present-perfect dialogues.",
-  "answer_note": "Lesson listening question (At what time of year did Ken visit Paris) is a suggested model answer based on the dialogue. Practice A (comprehension) 10 items are taken from the supplied Lesson 85 key (img/key-085-090.jpg). Practice B (fill in with to, to the, on, on the, in) 8 blanks are taken from the same key. Grammar I (complete with do/did/done) 9 items are taken from the grammar key (PDF viewer pages 516-517). Grammar II (give correct replies) item 1 is a printed example; items 2-8 are taken from the grammar key. Grammar III (write correct questions or answers) items 1.a and 2.a are printed examples; the remaining 10 items are taken from the grammar key. No external sources were used.",
+  "answer_note": "Lesson listening question (At what time of year did Ken visit Paris) is a suggested model answer based on the dialogue. Practice A (comprehension) 10 items are taken from the supplied Lesson 85 key (img/key-085-090.jpg). Practice B (fill in with to, to the, on, on the, in) 8 blanks are taken from the same key. Grammar I (complete with do/did/done) 9 items are taken from the grammar key (PDF viewer pages 516-517). Grammar II (give correct replies) item 1 is a printed example; items 2-8 are taken from the grammar key. Grammar III (write correct questions or answers) items 1.a and 2.a are printed examples; the remaining 10 items are taken from the grammar key. No external sources were used. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
   "expected_answers": 45,
   "sections": {
     "lesson": [
@@ -520,46 +520,178 @@
           {
             "id": "grammar-iii-1a",
             "number": "1a",
-            "prompt": "1. a. you / the United States (write the question and the when-question)",
+            "prompt": "1. a. you / the United States\nA: ___\nB: Yes, I have.\nA: ___\nB: I went there two years ago.",
             "answer": "Have you ever been to the United States? / When did you go there?",
             "rows": 1,
             "example": true,
-            "answer_kind": "source-example"
+            "answer_kind": "source-example",
+            "audio_segments": [
+              {
+                "text": "Have you ever been to the United States?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "Yes, I have.",
+                "role": "answer",
+                "pause": 0.8
+              },
+              {
+                "text": "When did you go there?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "I went there two years ago.",
+                "role": "answer",
+                "pause": 0.8
+              }
+            ]
           },
           {
             "id": "grammar-iii-1b",
             "number": "1b",
-            "prompt": "1. b. she / Greece (write the question and the when-question)",
+            "prompt": "1. b. she / Greece\nA: ___\nB: Yes, she has.\nA: ___\nB: She went there in 1998.",
             "answer": "Has she ever been to Greece? / When did she go there?",
-            "rows": 1
+            "rows": 1,
+            "audio_segments": [
+              {
+                "text": "Has she ever been to Greece?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "Yes, she has.",
+                "role": "answer",
+                "pause": 0.8
+              },
+              {
+                "text": "When did she go there?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "She went there in 1998.",
+                "role": "answer",
+                "pause": 0.8
+              }
+            ]
           },
           {
             "id": "grammar-iii-1c",
             "number": "1c",
-            "prompt": "1. c. they / Norway (write the question and the when-question)",
+            "prompt": "1. c. they / Norway\nA: ___\nB: Yes, they have.\nA: ___\nB: They went there in September 1999.",
             "answer": "Have they ever been to Norway? / When did they go there?",
-            "rows": 1
+            "rows": 1,
+            "audio_segments": [
+              {
+                "text": "Have they ever been to Norway?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "Yes, they have.",
+                "role": "answer",
+                "pause": 0.8
+              },
+              {
+                "text": "When did they go there?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "They went there in September 1999.",
+                "role": "answer",
+                "pause": 0.8
+              }
+            ]
           },
           {
             "id": "grammar-iii-1d",
             "number": "1d",
-            "prompt": "1. d. he / Thailand (write the question and the when-question)",
+            "prompt": "1. d. he / Thailand\nA: ___\nB: Yes, he has.\nA: ___\nB: He went there six months ago.",
             "answer": "Has he ever been to Thailand? / When did he go there?",
-            "rows": 1
+            "rows": 1,
+            "audio_segments": [
+              {
+                "text": "Has he ever been to Thailand?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "Yes, he has.",
+                "role": "answer",
+                "pause": 0.8
+              },
+              {
+                "text": "When did he go there?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "He went there six months ago.",
+                "role": "answer",
+                "pause": 0.8
+              }
+            ]
           },
           {
             "id": "grammar-iii-1e",
             "number": "1e",
-            "prompt": "1. e. you / Japan (write the question and the when-question)",
+            "prompt": "1. e. you / Japan\nA: ___\nB: Yes, we have.\nA: ___\nB: We went there last month.",
             "answer": "Have you ever been to Japan? / When did you go there?",
-            "rows": 1
+            "rows": 1,
+            "audio_segments": [
+              {
+                "text": "Have you ever been to Japan?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "Yes, we have.",
+                "role": "answer",
+                "pause": 0.8
+              },
+              {
+                "text": "When did you go there?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "We went there last month.",
+                "role": "answer",
+                "pause": 0.8
+              }
+            ]
           },
           {
             "id": "grammar-iii-1f",
             "number": "1f",
-            "prompt": "1. f. you / the Great Wall (write the question and the when-question)",
+            "prompt": "1. f. you / the Great Wall\nA: ___\nB: Yes, I have.\nA: ___\nB: I went there last summer.",
             "answer": "Have you ever been to the Great Wall? / When did you go there?",
-            "rows": 1
+            "rows": 1,
+            "audio_segments": [
+              {
+                "text": "Have you ever been to the Great Wall?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "Yes, I have.",
+                "role": "answer",
+                "pause": 0.8
+              },
+              {
+                "text": "When did you go there?",
+                "role": "prompt",
+                "pause": 1
+              },
+              {
+                "text": "I went there last summer.",
+                "role": "answer",
+                "pause": 0.8
+              }
+            ]
           },
           {
             "id": "grammar-iii-2a",
@@ -651,5 +783,16 @@
       "source": "../img/lesson-085-01-text.jpg",
       "reason": "Odd lesson: text first; illustration deferred."
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 85,
+      "start": 258,
+      "end": 260,
+      "bookmark_start": 258
+    },
+    "checked_answer_pages": 516,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }
