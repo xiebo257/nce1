@@ -77,6 +77,7 @@ class Lesson:
   elif 'opposites' in low:text='Say the opposite of each word, then check.'
   elif 'fill' in low or 'complete these sentences' in low or 'complete the sentences' in low or 'complete the questions' in low or 'a or an?' in low:text='Complete the items on the page. Pause to try each one, then listen to the completed version.'
   elif 'ask and answer' in low or 'questions and answers' in low or 'conversations' in low or 'complete the dialogues' in low:text='Listen to the cues. Practice the conversation, then check.'
+  elif 'correct the sentences' in low:text='Each sentence has a mistake. Correct it, then listen to the corrected sentence.'
   elif 'rewrite' in low or 'make sentences' in low or 'make statements' in low or 'imperative' in low:text='Listen to the words or sentence. Make the new sentence, then check.'
   else:text='Listen to each prompt. Pause to try it yourself, then check the model answer.'
   if self.n==7 and title.startswith('II.'):text='Listen to different people giving sample answers. Then practice with your own information.'
