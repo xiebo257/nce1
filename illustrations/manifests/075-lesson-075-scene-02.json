@@ -1,0 +1,35 @@
+{
+  "slot": "lesson-075-scene-02",
+  "prompt": "In the same shoe shop, the assistant presents a different pair of fashionable BLACK pointed high-heeled shoes on the counter. The lady regards the narrow high heels with a doubtful expression, thinking they look uncomfortable. Exactly 2 people appear. Image 1 is the appearance reference for lady. Image 2 is the appearance reference for shop-assistant. Keep their same faces, hairstyles and clothing. Appearance: lady: Woman about 35, dark wavy bob, pale blue coat, cream blouse, brown handbag. shop-assistant: Man about 35, short brown hair, clean-shaven, charcoal suit, white shirt, blue tie. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "lady",
+    "shop-assistant"
+  ],
+  "cast_layout": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 75,
+  "seed": 75019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "48bc381722b39c70aef7397e9d4a92d4e139581414f7e57569376f9dd8e11c31",
+  "fingerprint": "49907669eb39193aaeda9b731974b88a70b6c7469259872715a5a6fb0805261f",
+  "sha256": "6a6f01927b9addf9c914e20228e89755b10cb0e2574d7d835cf4f75968f9fe50",
+  "seconds": 48.63,
+  "peak_mlx_gb": 5.257,
+  "status": "visually-reviewed",
+  "review_notes": "Two scenes and cast visually checked: same dark-haired lady in light blue coat and male assistant dark suit blue tie; black low heels followed by black pointed high heels in the shoe shop.",
+  "published_sha256": "7a6e390f21296c94a2bd16b6cd5da5952ee0857ea7a08d2422f999a1331c0f9b"
+}
