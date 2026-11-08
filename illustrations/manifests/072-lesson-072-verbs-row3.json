@@ -1,0 +1,115 @@
+{
+  "slot": "lesson-072-verbs-row3",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Five past-tense verb illustrations in a row: 11th shaved (man shaving his face), 12th climbed (boy climbing a tree), 13th telephoned (woman on the telephone), 14th called (woman calling a man at the door), 15th emptied (woman emptying a waste basket).",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/072-lesson-072-verbs-row3-clean.png",
+  "lesson": 72,
+  "seed": 72019,
+  "width": 640,
+  "height": 256,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "b4857f0822eb642a8bd28bd1fa393c6c4139e2700ea9b56f4b9927d9c43913ac",
+  "fingerprint": "7daaa32b70cedd742e0cd018adc6602e84781459dd6c0eea7e12ea81bcac6209",
+  "sha256": "7630fc0f1e6ed1c710ae285ad26fc1cf80f905f8d2baed809aff51aaad632f87",
+  "status": "visually-reviewed",
+  "seconds": 60.42333333333334,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 72901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 3 textbook picture tiles in their EXACT 1-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1024,
+    "height": 864,
+    "steps": 4,
+    "seconds": 181.27,
+    "peak_mlx_gb": 6.758,
+    "input_sha256": "70d37dedfcac1321bf7aea7d0df6e2e2dbaa72e9b082278fb500e293dfdf6859",
+    "output_sha256": "e48ebb45693fbc3505a37c30e82f74aac95e027c9dbdadb84bfdb7efe951aad0",
+    "slots": [
+      "lesson-072-verbs-row1",
+      "lesson-072-verbs-row2",
+      "lesson-072-verbs-row3"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/072-lesson-072-verbs-row1-clean.png",
+        "sha256": "2579863c5ab0126caf90f0b48ca99e56c1983c2181293392759f640a8cab7a85"
+      },
+      {
+        "path": "illustrations/references/source/072-lesson-072-verbs-row2-clean.png",
+        "sha256": "bd72be1068328a2f59e5ac0442a96c3ee35ee5be071d4930fbb1edfac61435ea"
+      },
+      {
+        "path": "illustrations/references/source/072-lesson-072-verbs-row3-clean.png",
+        "sha256": "b4857f0822eb642a8bd28bd1fa393c6c4139e2700ea9b56f4b9927d9c43913ac"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      576,
+      1024,
+      864
+    ],
+    "output_size": [
+      609,
+      254
+    ],
+    "source_atlas_sha256": "70d37dedfcac1321bf7aea7d0df6e2e2dbaa72e9b082278fb500e293dfdf6859",
+    "color_guide_sha256": "e48ebb45693fbc3505a37c30e82f74aac95e027c9dbdadb84bfdb7efe951aad0",
+    "region_overrides": [],
+    "crop": [
+      4,
+      80,
+      1019,
+      207
+    ],
+    "reason": "Trim white margins around complete instructional picture strip.",
+    "reflow": {
+      "columns": 3,
+      "source_boxes": [
+        [
+          0,
+          0,
+          203,
+          127
+        ],
+        [
+          203,
+          0,
+          406,
+          127
+        ],
+        [
+          406,
+          0,
+          609,
+          127
+        ],
+        [
+          609,
+          0,
+          812,
+          127
+        ],
+        [
+          812,
+          0,
+          1015,
+          127
+        ]
+      ],
+      "reason": "Keep sequential panels readable on phones."
+    }
+  },
+  "review_notes": "All fifteen source action panels preserved, in original order across three blocks: air, clean, open, sharpen, turn on; listen, boil, arrive, play, stay; shave, climb, telephone, call, empty. Model color guide retained. Trimmed whitespace and reflowed each five-picture strip into three columns.",
+  "published_sha256": "64565fcca3dd1e7f3ac63655c5f2c9a07a1c9236584a51bdb4b53fa4ca9ceb3b"
+}

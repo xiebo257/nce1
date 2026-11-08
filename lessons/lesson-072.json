@@ -221,15 +221,15 @@
       "status": "ready",
       "description": "Five past-tense verb illustrations in a row: 1st aired (woman opening a window), 2nd cleaned (two boys cleaning shoes), 3rd opened (man opening a box), 4th sharpened (boy sharpening a pencil), 5th turned on (woman turning on a television).",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-072-01-text.jpg",
       "source_size": [
         1557,
         2500
       ],
-      "src": "assets/lesson-072/verbs-row1.jpg",
-      "width": 1520,
-      "height": 400,
+      "src": "assets/lesson-072/lesson-072-verbs-row1-color.webp",
+      "width": 609,
+      "height": 254,
       "illustration_source_reference": "illustrations/references/source/072-lesson-072-verbs-row1-clean.png",
       "illustration_width": 640,
       "illustration_height": 256,
@@ -247,6 +247,14 @@
           741,
           559
         ]
+      },
+      "layout": "above",
+      "caption": "When did you ...?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 72017,
+        "manifest": "illustrations/manifests/072-lesson-072-verbs-row1.json"
       }
     },
     "lesson-072-verbs-row2": {
@@ -254,15 +262,15 @@
       "status": "ready",
       "description": "Five past-tense verb illustrations in a row: 6th listened (girl listening to a radio), 7th boiled (woman boiling eggs), 8th arrived (woman arriving in a car), 9th played (two children playing with a ball), 10th stayed (child staying in bed).",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-072-01-text.jpg",
       "source_size": [
         1557,
         2500
       ],
-      "src": "assets/lesson-072/verbs-row2.jpg",
-      "width": 1520,
-      "height": 370,
+      "src": "assets/lesson-072/lesson-072-verbs-row2-color.webp",
+      "width": 609,
+      "height": 252,
       "illustration_source_reference": "illustrations/references/source/072-lesson-072-verbs-row2-clean.png",
       "illustration_width": 640,
       "illustration_height": 256,
@@ -280,6 +288,14 @@
           743,
           740
         ]
+      },
+      "layout": "above",
+      "caption": "When did you ...?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 72018,
+        "manifest": "illustrations/manifests/072-lesson-072-verbs-row2.json"
       }
     },
     "lesson-072-verbs-row3": {
@@ -287,15 +303,15 @@
       "status": "ready",
       "description": "Five past-tense verb illustrations in a row: 11th shaved (man shaving his face), 12th climbed (boy climbing a tree), 13th telephoned (woman on the telephone), 14th called (woman calling a man at the door), 15th emptied (woman emptying a waste basket).",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-072-01-text.jpg",
       "source_size": [
         1557,
         2500
       ],
-      "src": "assets/lesson-072/verbs-row3.jpg",
-      "width": 1520,
-      "height": 370,
+      "src": "assets/lesson-072/lesson-072-verbs-row3-color.webp",
+      "width": 609,
+      "height": 254,
       "illustration_source_reference": "illustrations/references/source/072-lesson-072-verbs-row3-clean.png",
       "illustration_width": 640,
       "illustration_height": 256,
@@ -313,6 +329,14 @@
           745,
           920
         ]
+      },
+      "layout": "above",
+      "caption": "When did you ...?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 72019,
+        "manifest": "illustrations/manifests/072-lesson-072-verbs-row3.json"
       }
     }
   },

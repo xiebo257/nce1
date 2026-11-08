@@ -1,0 +1,31 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 72901,
+  "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 3 textbook picture tiles in their EXACT 1-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+  "width": 1024,
+  "height": 864,
+  "steps": 4,
+  "seconds": 181.27,
+  "peak_mlx_gb": 6.758,
+  "input_sha256": "70d37dedfcac1321bf7aea7d0df6e2e2dbaa72e9b082278fb500e293dfdf6859",
+  "output_sha256": "e48ebb45693fbc3505a37c30e82f74aac95e027c9dbdadb84bfdb7efe951aad0",
+  "slots": [
+    "lesson-072-verbs-row1",
+    "lesson-072-verbs-row2",
+    "lesson-072-verbs-row3"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/072-lesson-072-verbs-row1-clean.png",
+      "sha256": "2579863c5ab0126caf90f0b48ca99e56c1983c2181293392759f640a8cab7a85"
+    },
+    {
+      "path": "illustrations/references/source/072-lesson-072-verbs-row2-clean.png",
+      "sha256": "bd72be1068328a2f59e5ac0442a96c3ee35ee5be071d4930fbb1edfac61435ea"
+    },
+    {
+      "path": "illustrations/references/source/072-lesson-072-verbs-row3-clean.png",
+      "sha256": "b4857f0822eb642a8bd28bd1fa393c6c4139e2700ea9b56f4b9927d9c43913ac"
+    }
+  ]
+}
