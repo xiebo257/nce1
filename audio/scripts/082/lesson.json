@@ -1,0 +1,496 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-082.html",
+  "source_items": 19,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 82.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 1703059328,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Listening — answer the question",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What did you have for breakfast today?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-1",
+      "section": "Listening — answer the question",
+      "generation_seed": 1953752376,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I had a cup of coffee and a biscuit for breakfast today.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-1",
+      "section": "Listening — answer the question",
+      "generation_seed": 1968513826,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "example",
+      "text": "I had a cup of coffee.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "written-a-1",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 1859713195,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They had a meal at a restaurant.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-2",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 1327666728,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They ate a meal at a restaurant.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-2",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 972922490,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "We had a holiday last month.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-3",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 695011195,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We went for a holiday last month.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-3",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 2074473536,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have a biscuit.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-4",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 1700303442,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Take a biscuit.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-4",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 1210880206,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "You had a good time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-5",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 1269756703,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "You enjoyed yourself.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-5",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 925535373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They are having their lunch.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-6",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 728982654,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They are eating their lunch.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-6",
+      "section": "Written A — Rewrite using the verbs given",
+      "generation_seed": 111002640,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are they going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-1",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1409653861,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They're going to have breakfast.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-1",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 496518700,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are they doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-2",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 435790006,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They're having lunch.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-2",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1602555981,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What must he do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-3",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 52693774,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He must have tea.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-3",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1242885125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What did they do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-4",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1316369203,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They had dinner.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-4",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2123260851,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What must they do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-5",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2122623276,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They must have a meal.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-5",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 240725940,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What is he going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-6",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 58914868,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He's going to have a swim.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-6",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2073051823,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What is he doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-7",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 858807620,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He's having a bath.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-7",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1937801675,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What did he do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-8",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 939641731,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He had a haircut.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-8",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2096199046,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are they doing?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-9",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 435790006,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They're having a lesson.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-9",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 667867722,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What did they do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-10",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1316369203,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They had a party.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-10",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2106316415,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What must they do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-11",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 2122623276,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They must have a holiday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-11",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 257304234,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What are they going to do?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-12",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 1409653861,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They're going to have a good time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-12",
+      "section": "Written B — Answer using going to have / having / must have / had",
+      "generation_seed": 130711215,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "breakfast. What did you have for breakfast?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-breakfast",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "breakfast",
+      "generation_seed": 374085215,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "haircut. I need a haircut.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-haircut",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "haircut",
+      "generation_seed": 1643498694,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "party. Are you coming to the party?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-party",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "party",
+      "generation_seed": 1769276002,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "holiday. We're going on holiday next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-holiday",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "holiday",
+      "generation_seed": 1924833509,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "For time away from work or a trip, Americans usually say vacation. Holiday often means a special day such as Thanksgiving.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "vocabulary-holiday",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "holiday",
+      "generation_seed": 1469584860,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "breakfast",
+    "haircut",
+    "party",
+    "holiday"
+  ],
+  "recovered_vocabulary": {}
+}
