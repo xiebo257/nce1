@@ -5,13 +5,28 @@
   "translation": "你能……吗？",
   "description": "Describe what you can and can’t do; practise requests and large numbers.\n描述能做和不能做的事情，练习请求与大数的表达。",
   "answer_note": "Workbook and grammar keys were checked against the linked source pages. Suggested answers are labelled. Fill-in answers list missing words in order. Worked examples are excluded from progress. Pronoun alternatives follow the answer key.",
-  "characters": {},
+  "characters": {
+    "boy": {
+      "name": "Boy",
+      "illustration_appearance": "Boy aged seven, short straight brown hair, round face, mustard yellow T-shirt, blue jeans."
+    },
+    "man": {
+      "name": "Man",
+      "illustration_appearance": "Man aged thirty, short dark brown hair, clean-shaven oval face, teal long-sleeved shirt, beige trousers."
+    },
+    "woman": {
+      "name": "Woman",
+      "illustration_appearance": "Woman aged thirty, shoulder-length wavy dark hair, warm brown skin, coral blouse and navy trousers."
+    }
+  },
   "images": {
     "action-01": {
       "kind": "action",
       "status": "ready",
       "description": "A child can put on a hat but cannot put on a coat.",
-      "characters": [],
+      "characters": [
+        "boy"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-01.webp",
       "width": 521,
@@ -31,13 +46,19 @@
         1022,
         954,
         786
-      ]
+      ],
+      "illustration_scene": "A young boy places a soft blue sunhat on his head with both hands. A red coat hangs unused on a low hook beside him. Cozy hallway, full upper body visible.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-02": {
       "kind": "action",
       "status": "ready",
       "description": "A person can see the aeroplane but cannot see a bird.",
-      "characters": [],
+      "characters": [
+        "man"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-02.webp",
       "width": 638,
@@ -57,13 +78,19 @@
         984,
         2329,
         730
-      ]
+      ],
+      "illustration_scene": "A man outdoors looks up and points toward a clearly visible passenger aeroplane in a bright blue empty sky. No birds. Wide shot showing man and aeroplane.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-03": {
       "kind": "action",
       "status": "ready",
       "description": "A person can paint a bookcase but cannot paint the room.",
-      "characters": [],
+      "characters": [
+        "man"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-03.webp",
       "width": 540,
@@ -83,13 +110,19 @@
         1796,
         909,
         1554
-      ]
+      ],
+      "illustration_scene": "A man uses a small paintbrush to paint a freestanding wooden bookcase blue, with paint can beside it. The room walls remain unpainted cream plaster. Show the whole bookcase and his painting action.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-04": {
       "kind": "action",
       "status": "ready",
       "description": "A person can lift a chair but cannot lift the heavier table.",
-      "characters": [],
+      "characters": [
+        "man"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-04.webp",
       "width": 661,
@@ -109,13 +142,19 @@
         1814,
         2320,
         1514
-      ]
+      ],
+      "illustration_scene": "A man easily lifts one light wooden chair clear of the floor with both hands. A large heavy oak dining table remains firmly on the floor beside him. Full-body wide shot, both objects clearly visible.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-05": {
       "kind": "action",
       "status": "ready",
       "description": "A person can read this book but cannot read that magazine.",
-      "characters": [],
+      "characters": [
+        "man"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-05.webp",
       "width": 560,
@@ -135,13 +174,19 @@
         2616,
         856,
         2371
-      ]
+      ],
+      "illustration_scene": "A man sits comfortably reading an open illustrated hardcover book. A closed colorful magazine rests unused on the side table. Visible natural reading pose, no readable lettering.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-06": {
       "kind": "action",
       "status": "ready",
       "description": "A person can jump off a low box but cannot jump off a high wall.",
-      "characters": [],
+      "characters": [
+        "boy"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-06.webp",
       "width": 682,
@@ -161,13 +206,19 @@
         2708,
         2311,
         2423
-      ]
+      ],
+      "illustration_scene": "A boy is landing with both feet on a soft grassy lawn just beside a very low wooden box he has jumped off. A much taller garden brick wall is visible in the background. Wide full-body view, child safely on the grass.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-07": {
       "kind": "action",
       "status": "ready",
       "description": "A person can make cakes but cannot make biscuits.",
-      "characters": [],
+      "characters": [
+        "woman"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-07.webp",
       "width": 602,
@@ -187,13 +238,19 @@
         3483,
         797,
         3216
-      ]
+      ],
+      "illustration_scene": "A woman stands in her kitchen smiling beside a freshly baked small round cake on a plate. On a separate tray nearby are a few failed burnt irregular cookies. Cake and failed cookies clearly separated.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     },
     "action-08": {
       "kind": "action",
       "status": "ready",
       "description": "A person can put a vase on the table but cannot reach the high shelf.",
-      "characters": [],
+      "characters": [
+        "woman"
+      ],
       "source": "../img/lesson-046-01-text.jpg",
       "src": "assets/lesson-046/picture-08.webp",
       "width": 683,
@@ -213,7 +270,11 @@
         3622,
         2286,
         3362
-      ]
+      ],
+      "illustration_scene": "A woman gently places a blue vase of flowers on a low wooden table. An empty wall shelf is mounted far above her head, visibly out of reach. Full-body side view showing table height and high shelf.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "panel"
     }
   },
   "sections": {
@@ -743,5 +804,7 @@
       "label": "Grammar answer key · PDF p. 479"
     }
   ],
-  "expected_answers": 40
+  "expected_answers": 40,
+  "illustration_style": "Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks.",
+  "illustration_cast_layout": "portrait-strip"
 }

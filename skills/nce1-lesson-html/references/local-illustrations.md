@@ -3,9 +3,14 @@
 Use this workflow when the user asks to add generated lesson artwork. Canonical
 content is `lessons/lesson-NNN.json`; only images referenced by
 `sections.lesson` are in scope. A pending practice image (for example Lesson 61)
-must not accidentally enter the generation queue. Lessons 45–143 have 50 odd
-narrative lessons and 127 lesson image slots; Lesson 75's two old monochrome
-crops also need replacement. Preserve the original source scans and old crops.
+must not accidentally enter the generation queue. Scope includes BOTH odd and even
+lessons 45–144. Even lessons have picture-based Lesson content; do not confuse
+that with the separate Practice tab. Existing `ready` textbook crops are not
+generated color artwork. Preserve the original source scans and old crops.
+Use `--parity odd` or `--parity even` only to schedule a batch, never to redefine
+the requested scope. Prepare scene prompts from each Lesson block before running
+a batch. For clock times, counts, comparisons and before/after scenes, verify
+the exact teaching cue; a plausible decorative scene is insufficient.
 
 ## Hardware and model
 
@@ -66,6 +71,10 @@ For each lesson:
   impersonates whom, where people sit, which object is exchanged. If source
   content conflicts, check the scan before producing an image. Do not infer
   story facts from a stale image prompt.
+
+`illustration_inventory.py` audits both parities using provenance and file existence;
+`ready` alone is insufficient. `--json` writes machine-readable progress. Lessons
+with no Lesson image slots are reported explicitly, not counted as complete.
 
 `illustrate_lessons.py plan` produces the queue without loading the model.
 Multiple scenes use a cast reference image, conditioned through

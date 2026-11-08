@@ -54,9 +54,9 @@ description: "在 nce1 项目中根据本地教材扫描页与语法 PDF，快�
 
 ## 后续补图
 
-用户要求本地模型生成彩色课文插图时，读取 [本地彩色配图流程](references/local-illustrations.md)。按课文原文选场景，以固定人物设定和参考图保持课内一致；只处理用户指定 section，目视检查后再入页。
+用户要求本地模型生成彩色课文插图时，读取 [本地彩色配图流程](references/local-illustrations.md)。按课文原文选场景，以固定人物设定和参考图保持课内一致；只处理用户指定 section，目视检查后再入页。Lesson 范围包含奇数和偶数课，不能按课号奇偶跳过；Practice、Grammar 页仍排除。偶数课的物品、动作、时间和对比图需要逐项保留教学含义。
 
-图片和文案的唯一数据源是 `lessons/lesson-NNN.json`。筛选 `images.*.status == "pending"` 得到待补图；使用 `description`、对应 block 的原文及引用的 `characters` 制作图片。文本优先模式无需 API key。
+图片和文案的唯一数据源是 `lessons/lesson-NNN.json`。按 `sections.lesson` 引用筛选待补图；补彩图时同时检查 `origin`，旧裁图即使为 `ready` 也不代表已生成彩图；使用 `description`、对应 block 的原文及引用的 `characters` 制作图片。文本优先模式无需 API key。
 
 将图片放入 `html/assets/lesson-NNN/`，在该 slot 设置 `status: ready`、`src`（相对 html/）、`width`、`height`，保留原来的 `kind`、描述和文字关联，然后重新渲染该课。页面自动把图放到对应原文旁边。批量补图不改题目 ID、不删文字、不重新编排练习。
 

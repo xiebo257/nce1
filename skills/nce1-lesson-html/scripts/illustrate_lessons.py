@@ -34,6 +34,8 @@ def lesson_jobs(repo, number, width, height):
     if not slots:
         return []
     cast = data.get('characters', {})
+    if not data.get('illustration_style') or any(not data['images'][key].get('illustration_scene') for key in slots):
+        raise ValueError(f'Lesson {number:03}: prepare and review Lesson scene descriptions before generation')
     style = data['illustration_style']
     used = list(dict.fromkeys(c for key in slots for c in data['images'][key].get('characters', [])))
     # Anonymous crowds are not identity references.
@@ -54,6 +56,7 @@ def lesson_jobs(repo, number, width, height):
                       f'Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. '
                       f'Left to right: {descriptions} {style} Portraits only, no scene or props.')
         jobs.append(dict(slot='cast', prompt=prompt, cast=used, reference=None))
+    scene_style = data.get('illustration_scene_style', style)
     for key in slots:
         scene = data['images'][key]
         people = scene.get('characters', [])
@@ -65,7 +68,7 @@ def lesson_jobs(repo, number, width, height):
                      'ages and clothing colors of the named people. Create a NEW scene with a new pose '
                      'and background. Include only the characters named below, not the entire reference cast. ') if use_reference else ''
         count_hint = f"Exactly {scene['illustration_person_count']} people appear in the entire image. " if scene.get('illustration_person_count') else ''
-        prompt = (f'{count_hint}{scene.get("illustration_style", style)} {condition}Scene: {scene["illustration_scene"]} '
+        prompt = (f'{count_hint}{scene.get("illustration_style", scene_style)} {condition}Scene: {scene["illustration_scene"]} '
                   f'Characters in this scene: {descriptions or "No recurring characters."} '
                   'Readable composition, expressive natural interaction, plausible hands and props. '
                   'One continuous scene unless the scene explicitly requests two telephone locations. '
@@ -77,7 +80,7 @@ def lesson_jobs(repo, number, width, height):
             precise_count = (f'Only {person_count} person appears, alone.' if person_count == 1 else
                              f'Exactly {person_count} people appear.' if person_count else '')
             prompt = (f"{scene['illustration_scene']} {precise_count} {refs_text} "
-                      f"Appearance: {descriptions} {scene.get('illustration_style', style)}")
+                      f"Appearance: {descriptions} {scene.get('illustration_style', scene_style)}")
         jobs.append(dict(slot=key, prompt=prompt, cast=people, reference='cast' if use_reference else None,
                          reference_people=reference_people if use_reference else [],
                          cast_layout=used if use_reference else []))
@@ -248,7 +251,8 @@ def main():
     parser.add_argument('action', choices=['plan','generate','approve-reference','publish'])
     parser.add_argument('--repo', type=Path, default=Path.cwd())
     parser.add_argument('--from', dest='start', type=int, default=45)
-    parser.add_argument('--to', dest='end', type=int, default=143)
+    parser.add_argument('--to', dest='end', type=int, default=144)
+    parser.add_argument('--parity', choices=['all', 'odd', 'even'], default='all', help='Select lesson numbers; section scope is always Lesson only')
     parser.add_argument('--width', type=int, default=768)
     parser.add_argument('--height', type=int, default=512)
     parser.add_argument('--model-path', type=Path, default=MODEL_PATH)
@@ -256,10 +260,10 @@ def main():
     parser.add_argument('--slot', help='Generate one scene slot plus its cast reference')
     parser.add_argument('--review-notes')
     args = parser.parse_args()
-    if args.start > args.end or args.start < 45 or args.end > 143:
-        parser.error('Supported range is 45–143; first must not exceed last')
+    if args.start > args.end or args.start < 45 or args.end > 144:
+        parser.error('Supported range is 45–144; first must not exceed last')
     repo = args.repo.resolve()
-    jobs = [job for n in range(args.start, args.end+1) if n % 2
+    jobs = [job for n in range(args.start, args.end+1) if args.parity == 'all' or n % 2 == (1 if args.parity == 'odd' else 0)
             for job in lesson_jobs(repo, n, args.width, args.height)]
     if args.slot:
         if args.action == 'publish':

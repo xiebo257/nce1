@@ -1,10 +1,12 @@
 # Color lesson illustrations
 
 The illustration source is `lessons/lesson-NNN.json`. Color artwork is added
-only to the narrative/dialogue section of odd lessons 45–143. Practice and
-grammar are excluded. Existing color artwork through Lesson 44 is preserved.
+to the Lesson section of BOTH odd and even lessons 45–144. The separate
+Practice and Grammar sections are excluded. Existing color artwork through
+Lesson 44 is preserved.
 
-This batch has 50 lessons and 127 lesson image slots. A slot is complete only
+There are 100 lessons in scope; even lessons include objects, actions and
+picture prompts. A slot is complete only
 when its canonical `status` is `ready` with `origin: local-model`. Candidate
 images under ignored `work/` are not published artwork.
 
