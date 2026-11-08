@@ -1,0 +1,28 @@
+{
+  "slot": "lesson-095-scene-01",
+  "prompt": "On a railway platform, George and Ken hold tickets and look dismayed as the uniformed porter explains they have missed their train. A departing passenger train is distant in the background. No readable clocks or timetable. Exactly 3 people appear.  Appearance: george: Man about 35, short dark hair, gray jacket, white shirt. ken: Man about 35, curly blond hair, tan jacket, blue shirt. porter: Male station porter about 50, navy uniform and peaked cap. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "george",
+    "ken",
+    "porter"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 95,
+  "seed": 95017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "70e3a3ce349fc7d062eb9005f26956e1d64c6aa8209e0c6cc665132000ba1b31",
+  "sha256": "06de19ecd7c24de12671945e8bed2baa17dfda08f5f1da1924771694c6812b01",
+  "seconds": 34.35,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed three men on railway platform: George and Ken hold tickets and porter explains beside train. No readable invented timetable or clock.",
+  "published_sha256": "1241dc3fb220d020b5ec68f93ed78ee362124429bbe791d30f99c806db9fb0a6"
+}

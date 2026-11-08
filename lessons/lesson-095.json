@@ -57,7 +57,7 @@
   "images": {
     "lesson-095-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "George and Ken at a railway station: buying tickets from the attendant, asking about the platform, having a drink in a bar next door to the station, and being stopped by the porter who tells them they have missed the train.",
       "characters": [
         "george",
@@ -65,11 +65,22 @@
         "porter"
       ],
       "source": "../img/lesson-095-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "On a railway platform, George and Ken hold tickets and look dismayed as the uniformed porter explains they have missed their train. A departing passenger train is distant in the background. No readable clocks or timetable.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-095/lesson-095-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Tickets, please.",
+      "alt": "On a railway platform, George and Ken hold tickets and look dismayed as the uniformed porter explains they have missed their train.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 95017,
+        "manifest": "illustrations/manifests/095-lesson-095-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "sections": {
