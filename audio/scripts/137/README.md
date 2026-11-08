@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [137-1-lesson.wav](../../137-1-lesson.wav) | 106.1 | 17 | 0 |
 | [137-2-practice.wav](../../137-2-practice.wav) | 171.4 | 34 | 22 |
-| [137-3-gramar.wav](../../137-3-gramar.wav) | 156.4 | 31 | 20 |
+| [137-3-gramar.wav](../../137-3-gramar.wav) | 264.1 | 52 | 30 |
 
 词汇：football pools, win, mink coat, return
 

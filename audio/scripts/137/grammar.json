@@ -2,7 +2,7 @@
   "seed": 42,
   "roles_file": "roles.json",
   "source": "html/lesson-137.html",
-  "source_items": 20,
+  "source_items": 30,
   "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
   "segments": [
     {
@@ -325,6 +325,216 @@
       "source_item": "l137-gii8",
       "section": "Grammar II: Answer the questions, using the cues given",
       "generation_seed": 359649458,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that you won't feel better tomorrow. You must go to the doctor's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii1",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 810332999,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If you don't feel better tomorrow, you must go to the doctor's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii1",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1410024892,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that it'll be fine tomorrow. I'm going to have a swim.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii2",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 791074197,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If it's fine tomorrow, I'll have a swim.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii2",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1474633190,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that it won't rain tomorrow. I'll go to the beach.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii3",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 2137470980,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If it doesn't rain tomorrow, I'll go to the beach.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii3",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 199146069,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that you'll ask him. I'm sure he'll help you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii4",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 2085371558,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If you ask him, I'm sure he'll help you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii4",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 253638298,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that you'll finish the test before me. Please wait for me.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii5",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1418266265,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If you finish the test before me, please wait for me.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii5",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 2082032659,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that you'll see him. Please give him my best wishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii6",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1491304328,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If you see him, please give him my best wishes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii6",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 426430067,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that she won't speak more loudly. No one will hear her.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii7",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1207451785,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If she doesn't speak more loudly, no one will hear her.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii7",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1214651809,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that I will know the answer. I'll tell you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii8",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1678005402,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If I know the answer, I'll tell you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii8",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1600013525,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that he'll pass the exam. He'll go to university.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii9",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1835101195,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If he passes the exam, he'll go to university.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii9",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1372778915,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "It's possible that I'll have enough money. I'll buy a car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "l137-giii10",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 2019596758,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "If I have enough money, I'll buy a car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l137-giii10",
+      "section": "Grammar III: Combine each pair of sentences, using if according to the example",
+      "generation_seed": 1199286460,
       "generation_temperature": 0.65
     }
   ]

@@ -143,7 +143,7 @@
 | 137 | A pleasant dream | [1:46](137-1-lesson.wav) | [2:51](137-2-practice.wav) | [4:24](137-3-gramar.wav) | [脚本](scripts/137/README.md) |
 | 138 | If... | [3:09](138-1-lesson.wav) | [1:31](138-2-practice.wav) | [3:29](138-3-gramar.wav) | [脚本](scripts/138/README.md) |
 | 139 | Is that you, John? 是你吗，约翰？ | [2:34](139-1-lesson.wav) | [1:52](139-2-practice.wav) | [5:52](139-3-gramar.wav) | [脚本](scripts/139/README.md) |
-| 140 | He wants to know if/why/what/when | [2:55](140-1-lesson.wav) | [1:39](140-2-practice.wav) | [4:16](140-3-gramar.wav) | [脚本](scripts/140/README.md) |
+| 140 | He wants to know if/why/what/when | [2:55](140-1-lesson.wav) | [1:39](140-2-practice.wav) | [4:17](140-3-gramar.wav) | [脚本](scripts/140/README.md) |
 | 141 | Sally's first train ride | [2:57](141-1-lesson.wav) | [2:47](141-2-practice.wav) | [4:37](141-3-gramar.wav) | [脚本](scripts/141/README.md) |
 | 142 | Someone invited Sally to a party. | [5:00](142-1-lesson.wav) | [2:25](142-2-practice.wav) | [3:10](142-3-gramar.wav) | [脚本](scripts/142/README.md) |
 | 143 | A walk through the woods | [3:41](143-1-lesson.wav) | [2:33](143-2-practice.wav) | [5:12](143-3-gramar.wav) | [脚本](scripts/143/README.md) |
