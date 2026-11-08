@@ -1,0 +1,92 @@
+{
+  "slot": "l128-pictures",
+  "prompt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/128-complete-panels.png",
+  "lesson": 128,
+  "seed": 128017,
+  "width": 512,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "7f922e2cd5e3ab822dd069898e337c48a308d10e67c9b790d10614bd328bf757",
+  "fingerprint": "bff07db67c5fa05dc8860017f1ba35c0ff4a1d614b673c6d00c25b992fc71005",
+  "sha256": "06feae4b86cf6c55759e77cdc75ec4b8dd67a213213bc7db5176321e720bc226",
+  "status": "visually-reviewed",
+  "seconds": 65.54,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 128901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
+    "width": 512,
+    "height": 640,
+    "steps": 4,
+    "seconds": 65.54,
+    "peak_mlx_gb": 5.26,
+    "input_sha256": "7f922e2cd5e3ab822dd069898e337c48a308d10e67c9b790d10614bd328bf757",
+    "output_sha256": "85f9de1119a332e7a886395d9cad28ecee965f3733ba1652745ddcc8711ac5c6",
+    "slots": [
+      "l128-pictures"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/128-complete-panels.png",
+        "sha256": "7f922e2cd5e3ab822dd069898e337c48a308d10e67c9b790d10614bd328bf757"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      640
+    ],
+    "output_size": [
+      512,
+      640
+    ],
+    "source_atlas_sha256": "7f922e2cd5e3ab822dd069898e337c48a308d10e67c9b790d10614bd328bf757",
+    "color_guide_sha256": "85f9de1119a332e7a886395d9cad28ecee965f3733ba1652745ddcc8711ac5c6",
+    "region_overrides": [],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          276,
+          249,
+          334,
+          280
+        ],
+        "selection": "green",
+        "color": [
+          83,
+          155,
+          202
+        ]
+      },
+      {
+        "box": [
+          25,
+          415,
+          163,
+          448
+        ],
+        "selection": "green",
+        "color": [
+          83,
+          155,
+          202
+        ]
+      }
+    ]
+  },
+  "review_notes": "Checked all eight inference scenes: sleeping man, hat, nationality, medical bag, age, April calendar, oldest/youngest, reading versus sleep. Original faces and calendar numerals retained; normalized recurring womens tops to blue.",
+  "published_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c"
+}

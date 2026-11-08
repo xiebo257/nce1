@@ -593,9 +593,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
-      "src": "assets/lesson-128/pictures-grid.jpg",
-      "width": 1647,
-      "height": 1800,
+      "src": "assets/lesson-128/l128-pictures-color.webp",
+      "width": 512,
+      "height": 640,
       "source": "img/lesson-128-01-text.jpg (textbook p.259)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/128-complete-panels.png",
@@ -660,6 +660,14 @@
             932
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "He can't be... He must be... 他不可能…… 他肯定是……",
+      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 128017,
+        "manifest": "illustrations/manifests/128-l128-pictures.json"
       }
     }
   },
