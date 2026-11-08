@@ -89,8 +89,13 @@ def lesson_jobs(repo, number, width, height):
         if scene.get('illustration_reference_crop'):
             jobs[-1]['reference_crop'] = scene['illustration_reference_crop']
     for index, job in enumerate(jobs):
+        size = data['images'].get(job['slot'], {})
         job.update(lesson=number, seed=number * 1000 + index + 17 + (data['images'][job['slot']].get('illustration_seed_offset', 0) if job['slot']!='cast' else 0), width=width, height=height,
                    steps=4, guidance=1.0, model=MODEL_ID, recipe=RECIPE if job['slot']=='cast' else RECIPE+'-individual-refs')
+        job['width'] = size.get('illustration_width', width)
+        job['height'] = size.get('illustration_height', height)
+        if any(not isinstance(job[k], int) or job[k] < 256 or job[k] % 16 for k in ('width', 'height')):
+            raise ValueError(f'Lesson {number:03}, {job["slot"]}: dimensions must be multiples of 16, at least 256')
     return jobs
 
 

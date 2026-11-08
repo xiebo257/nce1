@@ -102,7 +102,11 @@ python3 skills/nce1-lesson-html/scripts/illustrate_lessons.py plan \
   --from 45 --to 49
 ```
 
-The initial output is 768×512, 4 steps. The first measured cast image took 29.56 s
+The default output is 768×512, 4 steps. Simple object slots can set
+`illustration_width: 512` and `illustration_height: 384` to reduce generation
+time while retaining enough detail for their displayed size. Keep larger scene
+and cast images where faces and interactions need detail. Dimensions are part
+of the resume fingerprint and are checked before publishing. The first measured cast image took 29.56 s
 with 4.98 GB peak MLX allocation; the first reference scene took 49.11 s with
 5.24 GB. These are initial samples, not a throughput guarantee. Measure actual generation duration and
 MLX peak allocation on this machine; don't extrapolate CPU RAM from MLX alone.
