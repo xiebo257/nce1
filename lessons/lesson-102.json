@@ -4,7 +4,7 @@
   "title": "He says he ... She says she ... They say they ...",
   "translation": "他/她/他们说他/她/他们……",
   "description": "A picture lesson about reporting what people say, think, believe, know, hope, fear, and need. 16 pictures illustrate common situations using indirect speech. No dialogue. No new vocabulary section.",
-  "answer_note": "Answers for practice section A are from the workbook answer key. Textbook written exercises and practice B/C are open-ended (suggested answers). Grammar answers are from the grammar practice book key.",
+  "answer_note": "Answers for practice section A are from the workbook answer key. Textbook written exercises and practice B/C are open-ended (suggested answers). Grammar answers are from the grammar practice book key. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
   "expected_answers": 72,
   "sections": {
     "lesson": [
@@ -385,62 +385,132 @@
           {
             "id": "l102-gi-1",
             "number": 1,
-            "prompt": "I'm sorry I ___ (don't understand / won't understand).",
-            "answer": "don't understand"
+            "prompt": "I'm sorry I ___ (don't understand / won't understand) this sentence.",
+            "answer": "don't understand",
+            "audio_segments": [
+              {
+                "text": "I'm sorry I don't understand this sentence.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-2",
             "number": 2,
-            "prompt": "The man ___ (knew / knows).",
-            "answer": "knows"
+            "prompt": "The man ___ (knew / knows) the train will be late.",
+            "answer": "knows",
+            "audio_segments": [
+              {
+                "text": "The man knows the train will be late.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-3",
             "number": 3,
-            "prompt": "She says I ___ (speak / have spoken).",
-            "answer": "speak"
+            "prompt": "She says I ___ (speak / have spoken) English very well.",
+            "answer": "speak",
+            "audio_segments": [
+              {
+                "text": "She says I speak English very well.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-4",
             "number": 4,
-            "prompt": "The boys say they ___ (were / are).",
-            "answer": "are"
+            "prompt": "The boys say they ___ (were / are) thirsty.",
+            "answer": "are",
+            "audio_segments": [
+              {
+                "text": "The boys say they are thirsty.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-5",
             "number": 5,
-            "prompt": "Mrs. Bell says she ___ (has been / is going).",
-            "answer": "is going"
+            "prompt": "Mrs. Bell says she ___ (has been / is going) to the shop in an hour.",
+            "answer": "is going",
+            "audio_segments": [
+              {
+                "text": "Mrs. Bell says she is going to the shop in an hour.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-6",
             "number": 6,
-            "prompt": "They ___ (say / said).",
-            "answer": "say"
+            "prompt": "They ___ (say / said) he swims very well.",
+            "answer": "say",
+            "audio_segments": [
+              {
+                "text": "They say he swims very well.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-7",
             "number": 7,
-            "prompt": "We hope it ___ (wasn't / won't be).",
-            "answer": "won't be"
+            "prompt": "We hope it ___ (wasn't / won't be) hot next month.",
+            "answer": "won't be",
+            "audio_segments": [
+              {
+                "text": "We hope it won't be hot next month.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-8",
             "number": 8,
-            "prompt": "Mary says she ___ (is having / is going to have).",
-            "answer": "is going to have"
+            "prompt": "Mary says she ___ (is having / is going to have) a haircut next week.",
+            "answer": "is going to have",
+            "audio_segments": [
+              {
+                "text": "Mary says she is going to have a haircut next week.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-9",
             "number": 9,
-            "prompt": "They say they ___ (waited / are waiting).",
-            "answer": "are waiting"
+            "prompt": "They say they ___ (waited / are waiting) for the bus now.",
+            "answer": "are waiting",
+            "audio_segments": [
+              {
+                "text": "They say they are waiting for the bus now.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           },
           {
             "id": "l102-gi-10",
             "number": 10,
-            "prompt": "The boy says he ___ (don't want / doesn't want).",
-            "answer": "doesn't want"
+            "prompt": "The boy says he ___ (don't want / doesn't want) a haircut.",
+            "answer": "doesn't want",
+            "audio_segments": [
+              {
+                "text": "The boy says he doesn't want a haircut.",
+                "role": "answer",
+                "pause": 1.6
+              }
+            ]
           }
         ]
       },
@@ -621,5 +691,16 @@
       "width": 1494,
       "height": 2325
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 102,
+      "start": 308,
+      "end": 310,
+      "bookmark_start": 308
+    },
+    "checked_answer_pages": 532,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }
