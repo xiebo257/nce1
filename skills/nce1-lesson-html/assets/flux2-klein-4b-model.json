@@ -1,0 +1,71 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "mirror": "https://modelscope.cn/models/mlx-community/FLUX.2-Klein-4B-4bit",
+  "files": [
+    {
+      "Path": "README.md",
+      "Size": 1166,
+      "Sha256": "995c7463797804885f8d53321fb312a86f95a85175a13c7789940af2f115ebfa"
+    },
+    {
+      "Path": "configuration.json",
+      "Size": 72,
+      "Sha256": "2bdeaa1d19b71d185c88e12f91168380e72108e8f3bda429656b5a4128184eb6"
+    },
+    {
+      "Path": "text_encoder/0.safetensors",
+      "Size": 2135435091,
+      "Sha256": "4e6e8808772e8d2451fb956521d11150521e2dbe26387512c906ec7cca5543af"
+    },
+    {
+      "Path": "text_encoder/1.safetensors",
+      "Size": 127582109,
+      "Sha256": "b4290e224bfc0aedce3ff3f500e1dcbf9b7ec6232e755daa1b469d92accaf1f2"
+    },
+    {
+      "Path": "text_encoder/model.safetensors.index.json",
+      "Size": 51332,
+      "Sha256": "373e85c5349d9575dd52d84e881c8031b07880ac8a34ba20ecddc78ac87248b7"
+    },
+    {
+      "Path": "tokenizer/chat_template.jinja",
+      "Size": 4168,
+      "Sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    },
+    {
+      "Path": "tokenizer/tokenizer.json",
+      "Size": 11422650,
+      "Sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+    },
+    {
+      "Path": "tokenizer/tokenizer_config.json",
+      "Size": 376,
+      "Sha256": "779410a34a98fb2c6c925a1be6f24d632f1723473161b037f6676eb6c04886c6"
+    },
+    {
+      "Path": "transformer/0.safetensors",
+      "Size": 2145323701,
+      "Sha256": "0834a7f4c1c933b1abbdbad67ece489b60f308d478ffd2c14c73950bb2a43a54"
+    },
+    {
+      "Path": "transformer/1.safetensors",
+      "Size": 34727730,
+      "Sha256": "cc06d157e656857a47d429b1869314ccb136b986d43d92792674c3319f6ea560"
+    },
+    {
+      "Path": "transformer/model.safetensors.index.json",
+      "Size": 26908,
+      "Sha256": "9385ea2b8d473fdbb6fdff8d1e6678466d65815ed517c00da396a81e45997cc7"
+    },
+    {
+      "Path": "vae/0.safetensors",
+      "Size": 165107912,
+      "Sha256": "8e83c0cd6c9f697a5966f198ab59470f9db51906ae82adae314f3580792d1cb1"
+    },
+    {
+      "Path": "vae/model.safetensors.index.json",
+      "Size": 17547,
+      "Sha256": "f1b4b3083865554d05cea71b422037db40ed646fd724060fcee6d94362c56e37"
+    }
+  ]
+}

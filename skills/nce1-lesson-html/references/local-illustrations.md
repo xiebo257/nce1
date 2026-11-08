@@ -35,6 +35,16 @@ python3.11 -m venv ~/.local/share/nce1-imagegen
   --index-url https://pypi.tuna.tsinghua.edu.cn/simple 'mflux==0.24.0'
 ```
 
+Download or verify the pinned files (resumes completed ranges):
+
+```sh
+python3 skills/nce1-lesson-html/scripts/download_image_model.py
+```
+
+The checked file inventory is in `assets/flux2-klein-4b-model.json`. It records
+actual mirror SHA256 values; a changed upstream file requires an explicit
+inventory review rather than accepting a mismatched model.
+
 No API key, Codex credentials or audio processing tools are needed. The runner
 sets Hugging Face and Transformers offline mode after downloading the model.
 
@@ -73,10 +83,15 @@ python3 skills/nce1-lesson-html/scripts/illustrate_lessons.py plan \
   --from 45 --to 49
 ```
 
-The initial output is 768×512, 4 steps. Measure actual generation duration and
+The initial output is 768×512, 4 steps. The first measured cast image took 29.56 s
+with 4.98 GB peak MLX allocation; the first reference scene took 49.11 s with
+5.24 GB. These are initial samples, not a throughput guarantee. Measure actual generation duration and
 MLX peak allocation on this machine; don't extrapolate CPU RAM from MLX alone.
 Only one GPU generation process should run at a time. Candidates live under
-ignored `illustrations/work/candidates/`. One loaded model serves the queue.
+ignored `illustrations/work/candidates/`. One active model serves the queue. Reuse it while the inference mode is unchanged;
+switch between `Flux2Klein` for text-only images and `Flux2KleinEdit` for reference
+images. In MFLUX 0.24.0 the edit class fails when `image_paths` is absent, so do
+not use it for plain text-to-image. Release the previous model before switching.
 Unchanged completed candidates are skipped using prompt/settings/reference and
 file hashes; failures leave completed work available for resumption.
 

@@ -88,9 +88,10 @@ def generate(args, repo, jobs):
     os.environ['TRANSFORMERS_OFFLINE'] = '1'
     import mlx.core as mx
     from mflux.models.common.config import ModelConfig
-    from mflux.models.flux2.variants import Flux2KleinEdit
+    from mflux.models.flux2.variants import Flux2Klein, Flux2KleinEdit
     mx.set_cache_limit(256 * 1024**2)
     model = None
+    model_class = None
     count = 0
     for job in jobs:
         image_path, metadata_path = candidate_paths(repo, job)
@@ -102,9 +103,15 @@ def generate(args, repo, jobs):
                 continue
         if args.limit is not None and count >= args.limit:
             break
-        if model is None:
+        wanted_class = Flux2KleinEdit if job['reference'] else Flux2Klein
+        if model_class is not wanted_class:
+            import gc
+            del model
+            gc.collect()
+            mx.clear_cache()
             start = time.monotonic()
-            model = Flux2KleinEdit(model_config=ModelConfig.flux2_klein_4b(),
+            model_class = wanted_class
+            model = wanted_class(model_config=ModelConfig.flux2_klein_4b(),
                                    model_path=str(args.model_path), quantize=4)
             print('MODEL_LOADED seconds', round(time.monotonic() - start, 2), flush=True)
         print('GENERATING', job['lesson'], job['slot'], flush=True)
@@ -114,7 +121,7 @@ def generate(args, repo, jobs):
         mx.reset_peak_memory()
         result = model.generate_image(seed=job['seed'], prompt=job['prompt'],
             num_inference_steps=job['steps'], width=job['width'], height=job['height'],
-            guidance=job['guidance'], image_paths=refs)
+            guidance=job['guidance'], **({'image_paths':refs} if refs else {}))
         temporary = image_path.with_name(image_path.stem + '.tmp.png')
         result.save(str(temporary))
         temporary.replace(image_path)
