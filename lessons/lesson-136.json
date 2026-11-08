@@ -584,16 +584,24 @@
       "kind": "scene",
       "status": "ready",
       "description": "Twelve numbered pictures in a 4x3 grid, each group of three showing: 1 a person saying a sentence with 'will/may/can/have to'; 2 a question mark bubble 'What did she say?'; 3 the same person with a speech bubble showing reported speech. Four groups illustrate: will → would, may → might, can → could, have to → had to.",
-      "src": "assets/lesson-136/pictures-grid.jpg",
-      "width": 1490,
-      "height": 1800,
+      "src": "assets/lesson-136/l136-pictures-color.webp",
+      "width": 768,
+      "height": 768,
       "source": "img/lesson-136-01-text.jpg (textbook p.275)",
       "characters": [],
       "illustration_width": 768,
       "illustration_height": 768,
       "illustration_scene": "A clean full-color educational illustration with exactly FOUR separate panels in a two-by-two grid. Top left: a woman arrives at her own front door in the early evening. Top right: a different woman walks home in daylight carrying a handbag. Bottom left: a woman runs very fast along a park path, athletic running pose. Bottom right: a schoolgirl in a school uniform with a backpack walks toward a school. Natural clear everyday actions. No clocks, text, numbers, speech bubbles or captions.",
       "illustration_prompt_version": 2,
-      "layout": "above"
+      "layout": "above",
+      "origin": "local-model",
+      "caption": "He said (that) he… He told me (that) he…",
+      "alt": "A clean full-color educational illustration with exactly FOUR separate panels in a two-by-two grid.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 136017,
+        "manifest": "illustrations/manifests/136-l136-pictures.json"
+      }
     }
   },
   "grammar_source_audit": {
