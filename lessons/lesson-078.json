@@ -519,7 +519,7 @@
   "images": {
     "lesson-078-color-panels": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Twelve analogue clocks in two rows. Preserve every number and both hands exactly; only add teal clock rims and cream faces.",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/078-lesson-078-color-panels.png",
@@ -541,7 +541,19 @@
         ]
       },
       "illustration_scene": "Faithfully colorize this exact textbook illustration. Twelve analogue clocks in two rows. Preserve every number and both hands exactly; only add teal clock rims and cream faces. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
-      "illustration_exact_diagram": true
+      "illustration_exact_diagram": true,
+      "src": "assets/lesson-078/lesson-078-color-panels-color.webp",
+      "width": 1024,
+      "height": 320,
+      "origin": "local-diagram",
+      "caption": "When did you ...?",
+      "alt": "Faithfully colorize this exact textbook illustration.",
+      "generation": {
+        "model": null,
+        "seed": 78017,
+        "manifest": "illustrations/manifests/078-lesson-078-color-panels.json"
+      },
+      "source": "pdf/新概念英语1 英语初阶.pdf#page=163"
     }
   },
   "illustration_style": "Full-color textbook cartoon."
