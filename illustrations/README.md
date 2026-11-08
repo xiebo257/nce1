@@ -27,8 +27,9 @@ system memory, and sustained speed varies by scene and thermal conditions.
 
 ## Character consistency and review
 
-Each lesson has explicit hair, age and clothing designs. Repeated scenes use a
-cast reference, cropped into separate character references for only the people
+Each lesson has explicit hair, age and clothing designs. Later cast sheets use
+one separate head-and-shoulders portrait per panel, visually checked before any
+scene generation. Repeated scenes use these portraits as references for only the people
 appearing in that scene. This prevents an absent character from being copied
 into the scene as easily. It improves consistency but is not a guarantee: every
 lesson still needs visual review. An early Lesson 45 candidate confused Bob and

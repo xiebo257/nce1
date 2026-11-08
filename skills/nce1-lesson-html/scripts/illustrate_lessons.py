@@ -48,6 +48,11 @@ def lesson_jobs(repo, number, width, height):
                   f'From left to right: {descriptions} '
                   'Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. '
                   'No lettering, names, numbers or panels printed in the image.')
+        if data.get('illustration_cast_layout') == 'portrait-strip':
+            prompt = (f'A horizontal character reference sheet with exactly {len(used)} equal-width vertical panels in ONE row. '
+                      f'Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. '
+                      f'Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. '
+                      f'Left to right: {descriptions} {style} Portraits only, no scene or props.')
         jobs.append(dict(slot='cast', prompt=prompt, cast=used, reference=None))
     for key in slots:
         scene = data['images'][key]
@@ -65,9 +70,21 @@ def lesson_jobs(repo, number, width, height):
                   'Readable composition, expressive natural interaction, plausible hands and props. '
                   'One continuous scene unless the scene explicitly requests two telephone locations. '
                   'No speech bubbles, captions, watermark or extra panels.')
+        if scene.get('illustration_prompt_version') == 2:
+            refs_text = (' '.join(f'Image {i+1} is the appearance reference for {c}.' for i,c in enumerate(reference_people)) +
+                         ' Keep their same faces, hairstyles and clothing.') if use_reference else ''
+            person_count = scene.get('illustration_person_count')
+            precise_count = (f'Only {person_count} person appears, alone.' if person_count == 1 else
+                             f'Exactly {person_count} people appear.' if person_count else '')
+            prompt = (f"{scene['illustration_scene']} {precise_count} {refs_text} "
+                      f"Appearance: {descriptions} {scene.get('illustration_style', style)}")
         jobs.append(dict(slot=key, prompt=prompt, cast=people, reference='cast' if use_reference else None,
                          reference_people=reference_people if use_reference else [],
                          cast_layout=used if use_reference else []))
+        if use_reference and data.get('illustration_cast_layout'):
+            jobs[-1]['reference_layout'] = data['illustration_cast_layout']
+        if scene.get('illustration_reference_crop'):
+            jobs[-1]['reference_crop'] = scene['illustration_reference_crop']
     for index, job in enumerate(jobs):
         job.update(lesson=number, seed=number * 1000 + index + 17 + (data['images'][job['slot']].get('illustration_seed_offset', 0) if job['slot']!='cast' else 0), width=width, height=height,
                    steps=4, guidance=1.0, model=MODEL_ID, recipe=RECIPE if job['slot']=='cast' else RECIPE+'-individual-refs')
@@ -108,6 +125,12 @@ def generate(args, repo, jobs):
                 continue
         if args.limit is not None and count >= args.limit:
             break
+        if job['reference']:
+            approval_path = image_path.parent / 'cast.approved.json'
+            approved = json.loads(approval_path.read_text()) if approval_path.exists() else {}
+            if approved.get('sha256') != spec['reference_sha256']:
+                print('REFERENCE_REVIEW_REQUIRED', job['lesson'], image_path.parent / 'cast.png', flush=True)
+                return
         wanted_class = Flux2KleinEdit if job['reference'] else Flux2Klein
         if model_class is not wanted_class:
             import gc
@@ -130,7 +153,8 @@ def generate(args, repo, jobs):
                     position = job['cast_layout'].index(character)
                     columns = len(job['cast_layout'])
                     bounds = (round(cast_image.width*position/columns), 0,
-                              round(cast_image.width*(position+1)/columns), cast_image.height)
+                              round(cast_image.width*(position+1)/columns),
+                              round(cast_image.height*0.62) if job.get('reference_crop')=='portrait' and job.get('reference_layout')!='portrait-strip' else cast_image.height)
                     target = image_path.parent / f'{job["slot"]}-ref-{index+1}.webp'
                     cast_image.crop(bounds).save(target, 'WEBP', lossless=True)
                     refs.append(target)
@@ -168,7 +192,7 @@ def publish(args, repo, jobs):
             assert recorded['fingerprint'] == specification(repo, job)['fingerprint'], f'Stale prompt: {metadata}'
             assert recorded['sha256'] == digest(img), f'Changed candidate: {img}'
             with Image.open(img) as opened:
-                assert opened.size == (job['width'], job['height'])
+                assert opened.size == tuple(recorded.get('postprocess', {}).get('output_size', [job['width'], job['height']]))
                 opened.verify()
             checked.append((job, img, recorded))
         path = repo / f'lessons/lesson-{number:03}.json'
@@ -181,6 +205,12 @@ def publish(args, repo, jobs):
             destination.parent.mkdir(parents=True, exist_ok=True)
             with Image.open(img) as opened:
                 opened.convert('RGB').save(destination, 'WEBP', quality=92, method=6)
+            if is_cast:
+                approval_path = img.parent / 'cast.approved.json'
+                if approval_path.exists():
+                    approval = json.loads(approval_path.read_text())
+                    assert approval['sha256'] == recorded['sha256'], 'Stale cast approval'
+                    recorded['reference_review'] = approval
             provenance = {**recorded, 'status':'visually-reviewed',
                           'review_notes':args.review_notes, 'published_sha256':digest(destination)}
             write_json(repo / f'illustrations/manifests/{number:03}-{job["slot"]}.json', provenance)
@@ -189,7 +219,8 @@ def publish(args, repo, jobs):
             else:
                 slot = data['images'][job['slot']]
                 slot.update(status='ready', src=relative.removeprefix('html/'),
-                            width=job['width'], height=job['height'], origin='local-model',
+                            width=recorded.get('postprocess', {}).get('output_size', [job['width'], job['height']])[0],
+                            height=recorded.get('postprocess', {}).get('output_size', [job['width'], job['height']])[1], origin='local-model',
                             caption=data['title'], alt=slot['illustration_scene'].replace('Mrs. ', 'Mrs ').replace('Mr. ', 'Mr ').split('. ')[0].rstrip('.') + '.',
                             generation={'model':MODEL_ID, 'seed':job['seed'],
                                         'manifest':f'illustrations/manifests/{number:03}-{job["slot"]}.json'})
@@ -203,7 +234,7 @@ def publish(args, repo, jobs):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['plan','generate','publish'])
+    parser.add_argument('action', choices=['plan','generate','approve-reference','publish'])
     parser.add_argument('--repo', type=Path, default=Path.cwd())
     parser.add_argument('--from', dest='start', type=int, default=45)
     parser.add_argument('--to', dest='end', type=int, default=143)
@@ -225,6 +256,18 @@ def main():
         jobs = [j for j in jobs if j['slot'] in {'cast', args.slot}]
     if args.action == 'plan':
         print(json.dumps(jobs, ensure_ascii=False, indent=2))
+    elif args.action == 'approve-reference':
+        if not args.review_notes:
+            parser.error('Reference approval requires visual inspection and --review-notes')
+        for job in jobs:
+            if job['slot'] != 'cast':
+                continue
+            img, metadata = candidate_paths(repo, job)
+            record = json.loads(metadata.read_text())
+            assert record['fingerprint'] == specification(repo, job)['fingerprint'], 'Stale cast prompt'
+            assert record['sha256'] == digest(img), 'Changed cast image'
+            write_json(img.parent / 'cast.approved.json', {'sha256':digest(img), 'review_notes':args.review_notes})
+            print('REFERENCE_APPROVED', job['lesson'])
     elif args.action == 'generate':
         generate(args, repo, jobs)
     else:

@@ -70,6 +70,11 @@ For each lesson:
 `illustrate_lessons.py plan` produces the queue without loading the model.
 Multiple scenes use a cast reference image, conditioned through
 `Flux2KleinEdit.image_paths`. The same seed alone does not preserve identity.
+Prefer `illustration_cast_layout: portrait-strip`: one head-and-shoulders portrait
+per equal-width panel, in the recorded order. Keep poses and scene actions out
+of `illustration_appearance`; describing a child lying in bed caused extra
+children and furniture in an early reference sheet.
+
 The cast sheet is cropped into individual reference images for only the people
 appearing in that scene, in the recorded left-to-right cast order. Inspect that
 the cast sheet actually follows this order and that crops contain the correct
@@ -97,7 +102,18 @@ ignored `illustrations/work/candidates/`. One active model serves the queue. Reu
 switch between `Flux2Klein` for text-only images and `Flux2KleinEdit` for reference
 images. In MFLUX 0.24.0 the edit class fails when `image_paths` is absent, so do
 not use it for plain text-to-image. Release the previous model before switching.
-Unchanged completed candidates are skipped using prompt/settings/reference and
+Generation pauses before using a newly generated cast until its hash has a
+visual approval record. Inspect the portrait count, identities, order and crop
+boundaries, then run (this is the agent recording its inspection, not a request
+for user permission):
+
+```sh
+~/.local/share/nce1-imagegen/bin/python \
+  skills/nce1-lesson-html/scripts/illustrate_lessons.py approve-reference \
+  --from 61 --to 61 --review-notes 'Record the observed cast count and order.'
+```
+
+Resume `generate` for the remaining range. Unchanged completed candidates are skipped using prompt/settings/reference and
 file hashes; failures leave completed work available for resumption.
 
 Inspect every lesson's full-size images or sufficiently detailed contact
@@ -123,3 +139,19 @@ Render from JSON instead of editing generated HTML. Verify the practice and
 grammar sections remain unchanged. Check representative desktop/mobile layouts
 if a browser is available. Commit/push in small batches when session-authorized,
 including the actual image assets, while preserving unrelated staged changes.
+
+## Lessons from local trials
+
+Use concise scene-first prompts (`illustration_prompt_version: 2`). State the
+actual number and roles of people. Do not add generic “interaction” or unrelated
+“two telephone locations” instructions to solitary scenes. Specify purchased
+objects explicitly: a vague “finished purchase” became groceries in a stationery
+shop. Use separate visual designs for incidental friends so the reference
+character is not cloned.
+
+Images with wrong people or core actions need regeneration. A clean crop may
+remove an unrelated edge artifact while preserving the intended scene; inspect
+the crop afterward. Record crop bounds, source hash and final `output_size` in
+manifest `postprocess`, and preserve aspect ratio. Publishing uses the actual
+postprocessed size. Do not accept an inaccurate teaching diagram, wrong clock
+time, or large invented shop lettering as correct source content.

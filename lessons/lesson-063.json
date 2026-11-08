@@ -265,7 +265,7 @@
     "mr-williams": {
       "name": "Mr Williams",
       "description": "Jimmy’s father, who also has a bad cold.",
-      "illustration_appearance": "Father about 42, short dark hair, neat moustache, pale blue pajamas, lying in bed."
+      "illustration_appearance": "Father about 42, short dark hair, neat moustache, pale blue pajamas."
     }
   },
   "images": {
@@ -280,7 +280,9 @@
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
       "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait"
     },
     "lesson-063-scene-02": {
       "kind": "scene",
@@ -293,7 +295,9 @@
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
       "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait"
     },
     "lesson-063-scene-03": {
       "kind": "scene",
@@ -306,7 +310,9 @@
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
       "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait"
     },
     "lesson-063-scene-04": {
       "kind": "scene",
@@ -320,8 +326,11 @@
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
       "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too.",
-      "illustration_person_count": 3
+      "illustration_person_count": 3,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait"
     }
   },
-  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "illustration_cast_layout": "portrait-strip"
 }
