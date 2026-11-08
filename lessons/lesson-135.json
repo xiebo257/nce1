@@ -4,8 +4,8 @@
   "title": "The latest report",
   "translation": "最新消息",
   "description": "A story lesson about a newspaper report on actress Karen Marsh. Karen told reporters that she might retire, that she couldn't make up her mind, that she would have to ask her future husband, and that her future husband would not let her make another film. The lesson introduces the use of 'would' and 'would have to' in reported speech. The workbook drills reported-speech comprehension questions about the story and vocabulary fill-in; the grammar workbook rewrites sentences using 'said'/'told' with 'would', completes a dialogue with reported-speech words, and rewrites 'would have to' sentences in reported speech.",
-  "answer_note": "The story is from the textbook. Workbook A (comprehension questions about the Karen Marsh report) has no printed key, so the answers are model answers (suggested); Workbook B (vocabulary fill-in) is from the workbook answer key (source-key, img/key-135-141.jpg p.217). Grammar I (rewrite with said/told and would), II (complete dialogue with reported-speech words), and III (rewrite with would have to) are from the grammar workbook answer key (source-key, pdf p.571).",
-  "expected_answers": 34,
+  "answer_note": "Grammar restored from PDF pp.411–413 and answer pp.570–571. Slash pronouns preserve printed alternatives; audio uses the singular model. Other sections retain their recorded sources. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
+  "expected_answers": 38,
   "sections": {
     "lesson": [
       {
@@ -35,10 +35,30 @@
         "type": "vocabulary",
         "source": "textbook-p273",
         "items": [
-          {"word": "reporter", "ipa": "/rɪˈpɔːtə(r)/", "pos": "n.", "meaning": "记者"},
-          {"word": "retire", "ipa": "/rɪˈtaɪə(r)/", "pos": "v.", "meaning": "退休"},
-          {"word": "make up one's mind", "ipa": "", "pos": "phr.", "meaning": "拿定主意"},
-          {"word": "future husband", "ipa": "", "pos": "n. phr.", "meaning": "未婚夫"}
+          {
+            "word": "reporter",
+            "ipa": "/rɪˈpɔːtə(r)/",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
+            "word": "retire",
+            "ipa": "/rɪˈtaɪə(r)/",
+            "pos": "v.",
+            "meaning": "退休"
+          },
+          {
+            "word": "make up one's mind",
+            "ipa": "",
+            "pos": "phr.",
+            "meaning": "拿定主意"
+          },
+          {
+            "word": "future husband",
+            "ipa": "",
+            "pos": "n. phr.",
+            "meaning": "未婚夫"
+          }
         ]
       },
       {
@@ -46,9 +66,18 @@
         "type": "notes",
         "source": "textbook-p273",
         "items": [
-          {"title": "would 在间接引语中的用法", "text": "在间接引语中，will 变为 would：She said (that) she would retire. / She told reporters (that) she might retire."},
-          {"title": "would have to", "text": "「不得不」在间接引语中用 would have to：She said that she would have to ask her future husband."},
-          {"title": "might 的用法", "text": "「可能」在间接引语中可以用 might：She told reporters that she might retire."}
+          {
+            "title": "would 在间接引语中的用法",
+            "text": "在间接引语中，will 变为 would：She said (that) she would retire. / She told reporters (that) she might retire."
+          },
+          {
+            "title": "would have to",
+            "text": "「不得不」在间接引语中用 would have to：She said that she would have to ask her future husband."
+          },
+          {
+            "title": "might 的用法",
+            "text": "「可能」在间接引语中可以用 might：She told reporters that she might retire."
+          }
         ]
       }
     ],
@@ -64,10 +93,30 @@
         "answer_kind": "suggested",
         "context": "4 comprehension questions about the Karen Marsh newspaper report, answered using reported speech.",
         "questions": [
-          {"id": "l135-pa1", "number": 1, "prompt": "What did Karen Marsh tell reporters at her London hotel? (What did she actually say? What were her actual words?)", "answer": "She told reporters that she might retire. Her actual words were: 'I might retire.'"},
-          {"id": "l135-pa2", "number": 2, "prompt": "Did she say that she could, or couldn't make up her mind? (What did she actually say? What were her actual words?)", "answer": "She said that she couldn't make up her mind. Her actual words were: 'I can't make up my mind.'"},
-          {"id": "l135-pa3", "number": 3, "prompt": "Who did she say she would have to ask? (What did she actually say? What were her actual words?)", "answer": "She said that she would have to ask her future husband. Her actual words were: 'I will have to ask my future husband.'"},
-          {"id": "l135-pa4", "number": 4, "prompt": "Who did she say would not let her make another film? (What did she actually say? What were her actual words?)", "answer": "She said that her future husband would not let her make another film. Her actual words were: 'He won't let me make another film.'"}
+          {
+            "id": "l135-pa1",
+            "number": 1,
+            "prompt": "What did Karen Marsh tell reporters at her London hotel? (What did she actually say? What were her actual words?)",
+            "answer": "She told reporters that she might retire. Her actual words were: 'I might retire.'"
+          },
+          {
+            "id": "l135-pa2",
+            "number": 2,
+            "prompt": "Did she say that she could, or couldn't make up her mind? (What did she actually say? What were her actual words?)",
+            "answer": "She said that she couldn't make up her mind. Her actual words were: 'I can't make up my mind.'"
+          },
+          {
+            "id": "l135-pa3",
+            "number": 3,
+            "prompt": "Who did she say she would have to ask? (What did she actually say? What were her actual words?)",
+            "answer": "She said that she would have to ask her future husband. Her actual words were: 'I will have to ask my future husband.'"
+          },
+          {
+            "id": "l135-pa4",
+            "number": 4,
+            "prompt": "Who did she say would not let her make another film? (What did she actually say? What were her actual words?)",
+            "answer": "She said that her future husband would not let her make another film. Her actual words were: 'He won't let me make another film.'"
+          }
         ]
       },
       {
@@ -82,12 +131,42 @@
         "key_source": "img/key-135-141.jpg p.217 (Lesson 135 B)",
         "context": "6 vocabulary fill-in items.",
         "questions": [
-          {"id": "l135-pb1", "number": 1, "prompt": "That actor has ______ twenty films in his life. (done / made)", "answer": "made"},
-          {"id": "l135-pb2", "number": 2, "prompt": "'This is my third ______,' the woman said when we met. (man / husband)", "answer": "husband"},
-          {"id": "l135-pb3", "number": 3, "prompt": "Those people ______ abroad for their holidays every year. (go / leave)", "answer": "go"},
-          {"id": "l135-pb4", "number": 4, "prompt": "Two friends of ours are ______ married next September. (going / getting)", "answer": "getting"},
-          {"id": "l135-pb5", "number": 5, "prompt": "'This is my last job,' he said. 'I'm 60 and I'm going to ______.' (retire / leave)", "answer": "retire"},
-          {"id": "l135-pb6", "number": 6, "prompt": "'I must ______ you to my wife,' the man said to me. (tell / introduce)", "answer": "introduce"}
+          {
+            "id": "l135-pb1",
+            "number": 1,
+            "prompt": "That actor has ______ twenty films in his life. (done / made)",
+            "answer": "made"
+          },
+          {
+            "id": "l135-pb2",
+            "number": 2,
+            "prompt": "'This is my third ______,' the woman said when we met. (man / husband)",
+            "answer": "husband"
+          },
+          {
+            "id": "l135-pb3",
+            "number": 3,
+            "prompt": "Those people ______ abroad for their holidays every year. (go / leave)",
+            "answer": "go"
+          },
+          {
+            "id": "l135-pb4",
+            "number": 4,
+            "prompt": "Two friends of ours are ______ married next September. (going / getting)",
+            "answer": "getting"
+          },
+          {
+            "id": "l135-pb5",
+            "number": 5,
+            "prompt": "'This is my last job,' he said. 'I'm 60 and I'm going to ______.' (retire / leave)",
+            "answer": "retire"
+          },
+          {
+            "id": "l135-pb6",
+            "number": 6,
+            "prompt": "'I must ______ you to my wife,' the man said to me. (tell / introduce)",
+            "answer": "introduce"
+          }
         ]
       }
     ],
@@ -95,80 +174,681 @@
       {
         "id": "l135-grammar-i",
         "type": "exercise",
-        "source": "grammar-workbook-p395-396",
-        "title": "Grammar I: Rewrite the sentences using 'said' or 'told'",
-        "instruction": "仿照例句用 said 或 told 改写以下句子。",
-        "translation": "仿照例句用 said 或 told 改写以下句子。",
-        "expected_items": 8,
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=411",
+        "title": "Grammar I: Change the direct speech into indirect speech according to the example",
+        "instruction": "Change the direct speech into indirect speech according to the example",
+        "translation": "",
+        "expected_items": 10,
         "answer_kind": "source-key",
-        "key_source": "pdf p.571 (新概念英语语法练习1)",
-        "context": "8 sentence-rewrite items; item 1 (I'll be back before dark. (the thief) → The thief said (that) he would be back before dark.) is the printed example.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=570",
         "questions": [
-          {"id": "l135-gi1", "number": 1, "example": true, "prompt": "I'll be back before dark. (the thief)", "answer": "The thief said (that) he would be back before dark."},
-          {"id": "l135-gi2", "number": 2, "prompt": "We won't go to town on Saturday. (the children, their parents)", "answer": "The children told their parents (that) they wouldn't go to town on Saturday."},
-          {"id": "l135-gi3", "number": 3, "prompt": "I can swim very well. (he, his friends)", "answer": "He told his friends (that) he could swim very well."},
-          {"id": "l135-gi4", "number": 4, "prompt": "My parents will be in London next week. (she, him)", "answer": "She told him (that) her parents would be in London the following week."},
-          {"id": "l135-gi5", "number": 5, "prompt": "I can't hear very well because it is so noisy. (he, her)", "answer": "He told her (that) he couldn't hear very well because it was so noisy."},
-          {"id": "l135-gi6", "number": 6, "prompt": "I'm going to travel round the world. (she, her friend)", "answer": "She told her friend (that) she was going to travel round the world."},
-          {"id": "l135-gi7", "number": 7, "prompt": "I won't let you make another film. (the producer, the actress)", "answer": "The producer told the actress (that) he wouldn't let her make another film."},
-          {"id": "l135-gi8", "number": 8, "prompt": "I might retire next year. (the actress, the reporters)", "answer": "The actress told the reporters (that) she might retire the following year."}
+          {
+            "id": "l135-gi1",
+            "number": 1,
+            "prompt": "\"I shall be glad to meet you.\"\nHe said ...",
+            "answer": "He said he would be glad to meet me.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "\"I shall be glad to meet you.\" He said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said he would be glad to meet me.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi2",
+            "number": 2,
+            "prompt": "\"I will do it myself.\"\nHe said ...",
+            "answer": "He said he would do it himself.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I will do it myself.\" He said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said he would do it himself.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi3",
+            "number": 3,
+            "prompt": "\"You can watch television.\"\nHis mother said ...",
+            "answer": "His mother said he could watch television.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"You can watch television.\" His mother said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "His mother said he could watch television.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi4",
+            "number": 4,
+            "prompt": "\"I think I can help you.\"\nShe said ...",
+            "answer": "She said she thought she could help me.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I think I can help you.\" She said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She said she thought she could help me.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi5",
+            "number": 5,
+            "prompt": "\"I may go with you.\"\nHe said ...",
+            "answer": "He said he might go with me/us.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I may go with you.\" He said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said he might go with me.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi6",
+            "number": 6,
+            "prompt": "\"I can't understand long English sentences.\"\nHe said ...",
+            "answer": "He said he couldn't understand long English sentences.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I can't understand long English sentences.\" He said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said he couldn't understand long English sentences.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi7",
+            "number": 7,
+            "prompt": "\"He may be getting married soon.\"\nShe said ...",
+            "answer": "She said he might be getting married soon.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"He may be getting married soon.\" She said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She said he might be getting married soon.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi8",
+            "number": 8,
+            "prompt": "\"I shall meet your teacher.\"\nMy mother said ...",
+            "answer": "My mother said she would meet my teacher.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I shall meet your teacher.\" My mother said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "My mother said she would meet my teacher.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi9",
+            "number": 9,
+            "prompt": "\"You will have to stay at home.\"\nHe said ...",
+            "answer": "He said I/we would have to stay at home.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"You will have to stay at home.\" He said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said I would have to stay at home.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gi10",
+            "number": 10,
+            "prompt": "\"We will often visit you.\"\nThey said ...",
+            "answer": "They said they would often visit me/us.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"We will often visit you.\" They said.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "They said they would often visit me.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       },
       {
         "id": "l135-grammar-ii",
         "type": "exercise",
-        "source": "grammar-workbook-p396-397",
-        "title": "Grammar II: Complete the dialogue (reported speech words)",
-        "instruction": "完成以下对话，填入适当的词（间接引语中的 would / would have to / couldn't 等）。",
-        "translation": "完成以下对话，填入适当的词（间接引语中的 would / would have to / couldn't 等）。",
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=412",
+        "title": "Grammar II: Change the direct speech into indirect speech according to the example",
+        "instruction": "Change the direct speech into indirect speech according to the example",
+        "translation": "",
         "expected_items": 10,
         "answer_kind": "source-key",
-        "key_source": "pdf p.571 (新概念英语语法练习1)",
-        "context": "10 fill-in items in a dialogue about a woman's plans to retire and make a film.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=570",
         "questions": [
-          {"id": "l135-gii1", "number": 1, "prompt": "Reporter: Have you made up your mind about the new film? Actress: No, I haven't. (reported speech)", "answer": "She said that she hadn't made up her mind about the new film."},
-          {"id": "l135-gii2", "number": 2, "prompt": "Reporter: What are you going to do? Actress: I might retire. (reported speech)", "answer": "She said that she might retire."},
-          {"id": "l135-gii3", "number": 3, "prompt": "Reporter: Why? Actress: I can't make up my mind. (reported speech)", "answer": "She said that she couldn't make up her mind."},
-          {"id": "l135-gii4", "number": 4, "prompt": "Reporter: What will you do? Actress: I will have to ask my future husband. (reported speech)", "answer": "She said that she would have to ask her future husband."},
-          {"id": "l135-gii5", "number": 5, "prompt": "Reporter: What did he say? Actress: He won't let me make another film. (reported speech)", "answer": "She said that he wouldn't let her make another film."},
-          {"id": "l135-gii6", "number": 6, "prompt": "Reporter: Are you going to travel? Actress: I might travel to England. (reported speech)", "answer": "She said that she might travel to England."},
-          {"id": "l135-gii7", "number": 7, "prompt": "Reporter: When? Actress: I will go in the spring. (reported speech)", "answer": "She said that she would go in the spring."},
-          {"id": "l135-gii8", "number": 8, "prompt": "Reporter: Who is coming with you? Actress: My future husband will come. (reported speech)", "answer": "She said that her future husband would come."},
-          {"id": "l135-gii9", "number": 9, "prompt": "Reporter: What will you do there? Actress: I will visit my friends. (reported speech)", "answer": "She said that she would visit her friends."},
-          {"id": "l135-gii10", "number": 10, "prompt": "Reporter: How long will you stay? Actress: I will stay for a month. (reported speech)", "answer": "She said that she would stay for a month."}
+          {
+            "id": "l135-gii1",
+            "number": 1,
+            "prompt": "\"We shall leave after lunch.\"\nHe told me ...",
+            "answer": "He told me they would leave after lunch.",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "\"We shall leave after lunch.\" He told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me they would leave after lunch.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii2",
+            "number": 2,
+            "prompt": "\"I shall never sell my house.\"\nHe told me ...",
+            "answer": "He told me he would never sell his house.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I shall never sell my house.\" He told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me he would never sell his house.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii3",
+            "number": 3,
+            "prompt": "\"You can't go out by yourself at night.\"\nHer mother told her ...",
+            "answer": "Her mother told her she couldn't go out by herself at night.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"You can't go out by yourself at night.\" Her mother told her.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Her mother told her she couldn't go out by herself at night.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii4",
+            "number": 4,
+            "prompt": "\"You can buy something with the money.\"\nHis mother told him ...",
+            "answer": "His mother told him he could buy something with the money.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"You can buy something with the money.\" His mother told him.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "His mother told him he could buy something with the money.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii5",
+            "number": 5,
+            "prompt": "\"I need some sugar.\"\nShe told me ...",
+            "answer": "She told me she needed some sugar.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I need some sugar.\" She told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She told me she needed some sugar.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii6",
+            "number": 6,
+            "prompt": "\"My friend may visit me.\"\nMy sister told me ...",
+            "answer": "My sister told me her friend might visit her.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"My friend may visit me.\" My sister told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "My sister told me her friend might visit her.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii7",
+            "number": 7,
+            "prompt": "\"There may be a lot of tourists in my city this year.\"\nHe told me ...",
+            "answer": "He told me there might be a lot of tourists in his city this year.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"There may be a lot of tourists in my city this year.\" He told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me there might be a lot of tourists in his city this year.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii8",
+            "number": 8,
+            "prompt": "\"You will have to start school soon.\"\nHis father told him ...",
+            "answer": "His father told him he would have to start school soon.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"You will have to start school soon.\" His father told him.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "His father told him he would have to start school soon.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii9",
+            "number": 9,
+            "prompt": "\"I'm sure I shall have a good time in England.\"\nShe told me ...",
+            "answer": "She told me she was sure she would have a good time in England.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I'm sure I shall have a good time in England.\" She told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She told me she was sure she would have a good time in England.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-gii10",
+            "number": 10,
+            "prompt": "\"I can't find my school report anywhere.\"\nHe told me ...",
+            "answer": "He told me he couldn't find his school report anywhere.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "\"I can't find my school report anywhere.\" He told me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me he couldn't find his school report anywhere.",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       },
       {
         "id": "l135-grammar-iii",
         "type": "exercise",
-        "source": "grammar-workbook-p397",
-        "title": "Grammar III: Rewrite the sentences using 'would have to'",
-        "instruction": "仿照例句用 would have to 改写以下句子。",
-        "translation": "仿照例句用 would have to 改写以下句子。",
-        "expected_items": 8,
+        "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=412",
+        "title": "Grammar III: Change the indirect speech into direct speech according to the examples",
+        "instruction": "Change the indirect speech into direct speech according to the examples",
+        "translation": "",
+        "expected_items": 12,
         "answer_kind": "source-key",
-        "key_source": "pdf p.571 (新概念英语语法练习1)",
-        "context": "8 sentence-rewrite items using 'would have to'; item 1 (I have to ask my wife. → He said that he would have to ask his wife.) is the printed example.",
+        "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=571",
         "questions": [
-          {"id": "l135-giii1", "number": 1, "example": true, "prompt": "I have to ask my wife.", "answer": "He said that he would have to ask his wife."},
-          {"id": "l135-giii2", "number": 2, "prompt": "You must be quiet during the examination.", "answer": "The teacher said that we would have to be quiet during the examination."},
-          {"id": "l135-giii3", "number": 3, "prompt": "We have to pay for everything we buy.", "answer": "She said that they would have to pay for everything they bought."},
-          {"id": "l135-giii4", "number": 4, "prompt": "I must see the doctor this week.", "answer": "He said that he would have to see the doctor that week."},
-          {"id": "l135-giii5", "number": 5, "prompt": "You have to show your ticket before you get on the train.", "answer": "The conductor said that I would have to show my ticket before I got on the train."},
-          {"id": "l135-giii6", "number": 6, "prompt": "We must leave now or we'll miss the bus.", "answer": "They said that they would have to leave then or they would miss the bus."},
-          {"id": "l135-giii7", "number": 7, "prompt": "I have to work late this evening.", "answer": "She said that she would have to work late that evening."},
-          {"id": "l135-giii8", "number": 8, "prompt": "You must stop smoking.", "answer": "The doctor said that he would have to stop smoking."}
+          {
+            "id": "l135-giii1",
+            "number": 1,
+            "prompt": "She said she couldn't remember my telephone number.",
+            "answer": "She said, \"I can't remember your telephone number.\"",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "She said she couldn't remember my telephone number.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She said, \"I can't remember your telephone number.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii2",
+            "number": 2,
+            "prompt": "He said he might know my father.",
+            "answer": "He said, \"I may know your father.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He said he might know my father.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said, \"I may know your father.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii3",
+            "number": 3,
+            "prompt": "My teacher said I would have to be more careful the next time.",
+            "answer": "My teacher said, \"You will have to be more careful next time.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "My teacher said I would have to be more careful the next time.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "My teacher said, \"You will have to be more careful next time.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii4",
+            "number": 4,
+            "prompt": "He said the telephone call might be for me.",
+            "answer": "He said, \"The telephone call may be for you.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He said the telephone call might be for me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said, \"The telephone call may be for you.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii5",
+            "number": 5,
+            "prompt": "She said she would sweep the floor and dust the furniture.",
+            "answer": "She said, \"I will sweep the floor and dust the furniture.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "She said she would sweep the floor and dust the furniture.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She said, \"I will sweep the floor and dust the furniture.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii6",
+            "number": 6,
+            "prompt": "He said it might snow soon.",
+            "answer": "He said, \"It may snow soon.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He said it might snow soon.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He said, \"It may snow soon.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii7",
+            "number": 7,
+            "prompt": "He told me he would tell me about it soon.",
+            "answer": "He told me, \"I shall tell you about it soon.\"",
+            "rows": 3,
+            "example": true,
+            "audio_segments": [
+              {
+                "text": "He told me he would tell me about it soon.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me, \"I shall tell you about it soon.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii8",
+            "number": 8,
+            "prompt": "He told me he couldn't finish the job.",
+            "answer": "He told me, \"I can't finish the job.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He told me he couldn't finish the job.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me, \"I can't finish the job.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii9",
+            "number": 9,
+            "prompt": "She told me she would go and have a look.",
+            "answer": "She told me, \"I shall go and have a look.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "She told me she would go and have a look.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "She told me, \"I shall go and have a look.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii10",
+            "number": 10,
+            "prompt": "He told me he was sorry he couldn't write to me.",
+            "answer": "He told me, \"I am sorry I can't write to you.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He told me he was sorry he couldn't write to me.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me, \"I am sorry I can't write to you.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii11",
+            "number": 11,
+            "prompt": "Kate told me the train would leave at four fifty.",
+            "answer": "Kate told me, \"The train will leave at four fifty.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Kate told me the train would leave at four fifty.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "Kate told me, \"The train will leave at four fifty.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          },
+          {
+            "id": "l135-giii12",
+            "number": 12,
+            "prompt": "He told me he might retire next year.",
+            "answer": "He told me, \"I may retire next year.\"",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He told me he might retire next year.",
+                "role": "prompt",
+                "pause": 1.6
+              },
+              {
+                "text": "He told me, \"I may retire next year.\"",
+                "role": "answer",
+                "pause": 1.2
+              }
+            ]
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.273 (Lesson 135 story)", "href": "../img/lesson-135-01-text.jpg"},
-    {"label": "Textbook p.274 (Lesson 135 exercises)", "href": "../img/lesson-135-02-text.jpg"},
-    {"label": "Workbook Lesson 135 (practice page 180)", "href": "../img/lesson-135-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 135-141, p.217)", "href": "../img/key-135-141.jpg"},
-    {"label": "Grammar Workbook p.395-397 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=395"},
-    {"label": "Grammar Workbook p.571 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=571"}
+    {
+      "label": "Textbook p.273 (Lesson 135 story)",
+      "href": "../img/lesson-135-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.274 (Lesson 135 exercises)",
+      "href": "../img/lesson-135-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 135 (practice page 180)",
+      "href": "../img/lesson-135-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 135-141, p.217)",
+      "href": "../img/key-135-141.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.395-397 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=395"
+    },
+    {
+      "label": "Grammar Workbook p.571 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=571"
+    }
   ],
   "characters": {
     "Karen Marsh": "actress",
@@ -182,5 +862,16 @@
       "source": "img/lesson-135-01-text.jpg (textbook p.273)",
       "reason": "No suitable crop available for the story scene"
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 135,
+      "start": 411,
+      "end": 413,
+      "bookmark_start": 411
+    },
+    "checked_answer_pages": 570,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }
