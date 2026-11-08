@@ -1,0 +1,39 @@
+{
+  "slot": "lesson-101-scene-01",
+  "prompt": "In a comfortable sitting room, Penny reads a postcard aloud beside an elderly woman seated in an armchair. The older woman cups a hand behind her ear to hear better. One postcard, warm attentive expressions. Exactly 2 people appear.  Appearance: grandmother: Woman about 75, soft gray curls, round glasses, mauve cardigan, blue dress. penny: Woman about 25, shoulder-length chestnut hair, pale blue blouse, navy skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "grandmother",
+    "penny"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 101,
+  "seed": 101017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "52a19a01e07ce7d47b8b76e801ca15269dea615e7359745ad58d78e6701360ae",
+  "sha256": "963d12b49b5fd43fae0ce77248a8a31d1df4c135afc8720ee664da2185278b8e",
+  "seconds": 36.85,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Swap only the actions and postcard: the YOUNG woman on the right holds the postcard and reads it aloud. The ELDERLY woman on the left cups one hand behind her own ear to hear better and has no postcard. Preserve both faces, hair, clothing, positions, armchair, room and warm natural photograph style.",
+        "seed": 1010111,
+        "input_sha256": "7e7de52762f1dc17a4918ee3b12ddeaa8829f0d6576c076187fe001c71b001cd",
+        "output_sha256": "963d12b49b5fd43fae0ce77248a8a31d1df4c135afc8720ee664da2185278b8e",
+        "seconds": 81.67
+      }
+    ]
+  },
+  "review_notes": "Young Penny on right now holds and reads postcard; elderly woman on left raises hands near her ears to hear. Corrected action assignment; both faces and clothes preserved.",
+  "published_sha256": "24f5d3841f920a019695aa1f8af2199150ed59aeb49f3f9b497c47cf6beecf5e"
+}

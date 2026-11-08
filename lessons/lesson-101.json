@@ -45,18 +45,29 @@
   "images": {
     "lesson-101-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Grandmother and Penny sitting in an armchair, Penny reading Jimmy's card to Grandmother, Grandmother asking Penny to speak up.",
       "characters": [
         "grandmother",
         "penny"
       ],
       "source": "../img/lesson-101-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "In a comfortable sitting room, Penny reads a postcard aloud beside an elderly woman seated in an armchair. The older woman cups a hand behind her ear to hear better. One postcard, warm attentive expressions.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-101/lesson-101-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A card from Jimmy",
+      "alt": "In a comfortable sitting room, Penny reads a postcard aloud beside an elderly woman seated in an armchair.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 101017,
+        "manifest": "illustrations/manifests/101-lesson-101-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "sections": {
