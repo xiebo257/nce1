@@ -182,18 +182,28 @@
   "images": {
     "l123-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Six numbered panels: 1 Mike showing Scott the photograph; 2 the people in the photograph; 3 the ship they travelled on; 4 the man who offered him a job in Australia; 5 Mike himself with the beard; 6 Mike explaining that his wife didn't like the beard.",
       "source": "img/lesson-123-01-text.jpg (textbook p.249)",
       "characters": [
         "mike",
         "scott"
       ],
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "In a sitting room, clean-shaven Mike shows Scott a printed holiday photograph, both studying it with amused interest. The small photograph depicts a bearded man on a ship deck; Mike himself is clean-shaven now. One natural scene, no collage.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-123/l123-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A trip to Australia 澳大利亚之行",
+      "alt": "In a sitting room, clean-shaven Mike shows Scott a printed holiday photograph, both studying it with amused interest.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 123017,
+        "manifest": "illustrations/manifests/123-l123-scene.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

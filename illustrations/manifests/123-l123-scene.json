@@ -1,0 +1,27 @@
+{
+  "slot": "l123-scene",
+  "prompt": "In a sitting room, clean-shaven Mike shows Scott a printed holiday photograph, both studying it with amused interest. The small photograph depicts a bearded man on a ship deck; Mike himself is clean-shaven now. One natural scene, no collage. Exactly 2 people appear.  Appearance: mike: Man about 35, short brown hair, clean-shaven in the current conversation, pale blue shirt; the same man has a dark full beard in the photograph. scott: Man about 35, short blond hair, navy sweater over cream shirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mike",
+    "scott"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 123,
+  "seed": 123017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "460c0a4634c37d285f99747cce256e57902b892aeb7dd865bcf699cbec59d14c",
+  "sha256": "367e6c88f19014186a7080bd07bab86b6af70afa943d1ebc9d53b38a049c3425",
+  "seconds": 40.63,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed two clean-shaven men studying a holiday photograph of a bearded man. Main Mike remains clean-shaven; photograph visibly distinct from present scene.",
+  "published_sha256": "f5ad76e11e3fc0eaaf650d3b85c7e37576e287c6e0a713ffd4c5010069f470e4"
+}
