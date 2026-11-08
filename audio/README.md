@@ -121,6 +121,8 @@
 | 115 | Knock, knock! 敲敲门！ | [2:16](115-1-lesson.wav) | [2:29](115-2-practice.wav) | [6:41](115-3-gramar.wav) | [脚本](scripts/115/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:27](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
+| 118 | What were you doing? 你那时正在做什么？ | [0:29](118-1-lesson.wav) | [4:59](118-2-practice.wav) | [3:44](118-3-gramar.wav) | [脚本](scripts/118/README.md) |
+| 119 | A true story 一个真实的故事 | [2:27](119-1-lesson.wav) | [2:34](119-2-practice.wav) | [4:36](119-3-gramar.wav) | [脚本](scripts/119/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
 | 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:46](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
 | 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:34](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
