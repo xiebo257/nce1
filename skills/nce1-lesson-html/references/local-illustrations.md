@@ -155,3 +155,24 @@ the crop afterward. Record crop bounds, source hash and final `output_size` in
 manifest `postprocess`, and preserve aspect ratio. Publishing uses the actual
 postprocessed size. Do not accept an inaccurate teaching diagram, wrong clock
 time, or large invented shop lettering as correct source content.
+
+If the scene is otherwise correct, the same local model can edit a candidate to
+remove a duplicate person or speech balloon while preserving the correct faces:
+
+```sh
+~/.local/share/nce1-imagegen/bin/python \
+  skills/nce1-lesson-html/scripts/edit_illustration.py \
+  --lesson 63 --slot lesson-063-scene-02 --seed 630222 \
+  --instruction 'Remove the speech bubble and its text; preserve the boy, doctor, faces, clothing and room.'
+```
+
+Run one GPU process at a time. The editor preserves the original in ignored
+`work/originals/`, records the edit instruction/seed/input and output hashes, and
+leaves the result a candidate. Inspect the edited image before publishing; an
+inference success is not a visual approval. For portrait strips, use
+`illustration_reference_crop: panel` to trim white margins from each portrait:
+otherwise dividers can be copied into a scene. Put the main subject first in a
+scene's character references (for example the sick child before his parents).
+
+Published cast references include the original `NNN-cast-source.png` as well as
+the display WebP, so the exact model-conditioning pixels and file hash are kept.

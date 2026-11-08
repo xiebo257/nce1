@@ -156,7 +156,14 @@ def generate(args, repo, jobs):
                               round(cast_image.width*(position+1)/columns),
                               round(cast_image.height*0.62) if job.get('reference_crop')=='portrait' and job.get('reference_layout')!='portrait-strip' else cast_image.height)
                     target = image_path.parent / f'{job["slot"]}-ref-{index+1}.webp'
-                    cast_image.crop(bounds).save(target, 'WEBP', lossless=True)
+                    reference_image = cast_image.crop(bounds).convert('RGB')
+                    if job.get('reference_crop') == 'panel':
+                        from PIL import ImageChops
+                        mask = ImageChops.difference(reference_image, Image.new('RGB', reference_image.size, 'white')).convert('L').point(lambda value: 255 if value > 20 else 0)
+                        nonwhite = mask.getbbox()
+                        if nonwhite:
+                            reference_image = reference_image.crop(nonwhite)
+                    reference_image.save(target, 'WEBP', lossless=True)
                     refs.append(target)
         start = time.monotonic()
         mx.reset_peak_memory()
@@ -206,6 +213,10 @@ def publish(args, repo, jobs):
             with Image.open(img) as opened:
                 opened.convert('RGB').save(destination, 'WEBP', quality=92, method=6)
             if is_cast:
+                import shutil
+                source_relative = f'illustrations/references/{number:03}-cast-source.png'
+                shutil.copyfile(img, repo / source_relative)
+                recorded['reference_source'] = source_relative
                 approval_path = img.parent / 'cast.approved.json'
                 if approval_path.exists():
                     approval = json.loads(approval_path.read_text())
