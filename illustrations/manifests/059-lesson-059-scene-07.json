@@ -1,0 +1,34 @@
+{
+  "slot": "lesson-059-scene-07",
+  "prompt": "The lady and shop assistant remain at the counter after the purchase; the lady asks for her change. Exactly 2 people appear. Image 1 is the appearance reference for lady. Image 2 is the appearance reference for shop-assistant. Keep their same faces, hairstyles and clothing. Appearance: lady: Woman about 40, dark bob, small dark hat, cream blouse with navy collar, teal skirt. shop-assistant: Man about 55, bald crown with gray hair at the sides, round glasses, pale blue shirt, maroon tie, gray apron. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "lady",
+    "shop-assistant"
+  ],
+  "cast_layout": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference_crop": "portrait",
+  "lesson": 59,
+  "seed": 59024,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "511b54f71956d083e00c0f404cf911fcc91b98039329a35b69638862c1610e5e",
+  "fingerprint": "02ae57497c1ac3dbcc2184864e72edf3406a5bee8c565053fe3bd8a03a26d0ae",
+  "sha256": "c413ce01b494ce9bdeedc8b0f8ce846f2233c249fe10b3b8fe46e62cba2a20c8",
+  "seconds": 56.78,
+  "peak_mlx_gb": 5.218,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven stationery-shop scenes. Same lady with dark hat, dark bob, cream blouse and teal skirt, and same elderly assistant with round glasses, blue shirt, burgundy tie and gray apron. Envelope, writing-pad, glue and chalk scenes follow the dialogue. Rejected grocery bags in scene 6; final version shows paper stationery and glue. No extra main figures in final images.",
+  "published_sha256": "220213befd071ed67c37f8010d960bd2b8067db7e7869254c1c7359a9a4e3d9e"
+}

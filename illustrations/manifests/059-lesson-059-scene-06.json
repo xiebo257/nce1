@@ -1,0 +1,34 @@
+{
+  "slot": "lesson-059-scene-06",
+  "prompt": "At the stationery shop counter, the lady and the elderly assistant look at her finished purchase: a stack of large plain paper envelopes, one large white writing pad and one small white bottle of glue. These three stationery items lie visibly on the wooden counter. The lady smiles in thanks. Two people, ordinary stationery shop shelves behind them. Exactly 2 people appear. Image 1 is the appearance reference for lady. Image 2 is the appearance reference for shop-assistant. Keep their same faces, hairstyles and clothing. Appearance: lady: Woman about 40, dark bob, small dark hat, cream blouse with navy collar, teal skirt. shop-assistant: Man about 55, bald crown with gray hair at the sides, round glasses, pale blue shirt, maroon tie, gray apron. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "lady",
+    "shop-assistant"
+  ],
+  "cast_layout": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference_crop": "portrait",
+  "lesson": 59,
+  "seed": 59134,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "511b54f71956d083e00c0f404cf911fcc91b98039329a35b69638862c1610e5e",
+  "fingerprint": "da141c1d475acc10e582bb5694552f58801f41361b44efb94ba312d1ae58db00",
+  "sha256": "77c054ed3c36225115fab0ef6a1f1949c8b5261188a38d18c8bd9464fce01d7c",
+  "seconds": 57.7,
+  "peak_mlx_gb": 5.218,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven stationery-shop scenes. Same lady with dark hat, dark bob, cream blouse and teal skirt, and same elderly assistant with round glasses, blue shirt, burgundy tie and gray apron. Envelope, writing-pad, glue and chalk scenes follow the dialogue. Rejected grocery bags in scene 6; final version shows paper stationery and glue. No extra main figures in final images.",
+  "published_sha256": "d54dd0ee80efa07e23bd65c8a1b086a15d25a1c376f15d270806efc3389d5d78"
+}

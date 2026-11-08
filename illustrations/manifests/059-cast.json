@@ -1,0 +1,24 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 2 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. lady: Woman about 40, dark bob, small dark hat, cream blouse with navy collar, teal skirt. 2. shop-assistant: Man about 55, bald crown with gray hair at the sides, round glasses, pale blue shirt, maroon tie, gray apron. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "lady",
+    "shop-assistant"
+  ],
+  "reference": null,
+  "lesson": 59,
+  "seed": 59017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "40762eff40cadce0643464d3a522ac41741658d41a8ee9e198411730742d8b15",
+  "sha256": "511b54f71956d083e00c0f404cf911fcc91b98039329a35b69638862c1610e5e",
+  "seconds": 38.99,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven stationery-shop scenes. Same lady with dark hat, dark bob, cream blouse and teal skirt, and same elderly assistant with round glasses, blue shirt, burgundy tie and gray apron. Envelope, writing-pad, glue and chalk scenes follow the dialogue. Rejected grocery bags in scene 6; final version shows paper stationery and glue. No extra main figures in final images.",
+  "published_sha256": "679c9678d29cdb9216f2bfeca9bbb3f461644b393789a4138d36497e6d2631ad"
+}
