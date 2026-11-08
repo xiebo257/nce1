@@ -36,9 +36,9 @@
       "description": "A grid of 12 numbered items: 1 keys, 2 envelope, 3 clothes (trousers, dress, coat), 4 passport, 5 tickets, 6 pocket watch, 7 flowers, 8 boat, 9 phrase book, 10 tools (saw, hammer), 11 car, 12 pens.",
       "characters": [],
       "source": "../img/lesson-098-01-text.jpg",
-      "src": "assets/lesson-098/items-grid.jpg",
-      "width": 1600,
-      "height": 1450,
+      "src": "assets/lesson-098/lesson-098-items-color.webp",
+      "width": 768,
+      "height": 640,
       "illustration_source_reference": "illustrations/references/source/098-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 640,
@@ -125,6 +125,14 @@
             1048
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "Whose is it? Whose are they?",
+      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 98017,
+        "manifest": "illustrations/manifests/098-lesson-098-items.json"
       }
     }
   },
