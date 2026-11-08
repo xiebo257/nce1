@@ -277,7 +277,7 @@
       "description": "Grid of 12 pictures (a-l): a everyone asleep, b everything untidy, c looking for pen everywhere, d anyone/anybody at home, e anything in the box, f couldn't find pen anywhere, g no one/nobody at home, h nothing in the box, i went nowhere/stayed at home, j someone/somebody in the garden, k something under the chair, l glasses must be somewhere.",
       "source": "img/lesson-116-01-text.jpg (textbook p.235)",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source_size": [
         2500,
         1492
@@ -288,9 +288,9 @@
         2460,
         1800
       ],
-      "src": "assets/lesson-116/items-grid.jpg",
-      "width": 1412,
-      "height": 1760,
+      "src": "assets/lesson-116/l116-items-grid-color.webp",
+      "width": 768,
+      "height": 640,
       "illustration_source_reference": "illustrations/references/source/116-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 640,
@@ -377,6 +377,13 @@
             972
           ]
         ]
+      },
+      "caption": "Every, no, any and some 每一、无、若干和一些",
+      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 116017,
+        "manifest": "illustrations/manifests/116-l116-items-grid.json"
       }
     }
   },
