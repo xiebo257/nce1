@@ -226,7 +226,7 @@
       "description": "Grid of 9 pictures: 1 man behind counter, 2 woman behind counter, 3 men repairing road, 4 man in shop, 5 woman in clothes shop, 6 men on road, 7 book on counter, 8 books on counter, 9 dog with basket.",
       "source": "img/lesson-122-01-text.jpg (textbook p.247)",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source_size": [
         1581,
         2500
@@ -237,9 +237,9 @@
         1541,
         2350
       ],
-      "src": "assets/lesson-122/pictures-grid.jpg",
-      "width": 1491,
-      "height": 2050,
+      "src": "assets/lesson-122/l122-pictures-grid-color.webp",
+      "width": 768,
+      "height": 480,
       "illustration_source_reference": "illustrations/references/source/122-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 480,
@@ -308,6 +308,13 @@
             759
           ]
         ]
+      },
+      "caption": "Who (whom), which and that 关系代词",
+      "alt": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 122017,
+        "manifest": "illustrations/manifests/122-l122-pictures-grid.json"
       }
     }
   },

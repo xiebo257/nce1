@@ -1,0 +1,77 @@
+{
+  "slot": "l122-pictures-grid",
+  "prompt": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 9 pictures: 1 man behind counter, 2 woman behind counter, 3 men repairing road, 4 man in shop, 5 woman in clothes shop, 6 men on road, 7 book on counter, 8 books on counter, 9 dog with basket.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/122-complete-panels.png",
+  "lesson": 122,
+  "seed": 122017,
+  "width": 768,
+  "height": 480,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "5792c356d94e4363252affb615965ac541264c25d4620fc34f6a1fe74586c7bb",
+  "fingerprint": "06dc7575d7521d431bfae4984e5312e0d4d00ed5a2052b34b449c4bfeb98edb0",
+  "sha256": "f108802caed203497911011cb59a21dae417cb193ea63dc068fc0a4df25be5b3",
+  "status": "visually-reviewed",
+  "seconds": 74.29,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 122901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 9 pictures: 1 man behind counter, 2 woman behind counter, 3 men repairing road, 4 man in shop, 5 woman in clothes shop, 6 men on road, 7 book on counter, 8 books on counter, 9 dog with basket.",
+    "width": 768,
+    "height": 480,
+    "steps": 4,
+    "seconds": 74.29,
+    "peak_mlx_gb": 5.297,
+    "input_sha256": "5792c356d94e4363252affb615965ac541264c25d4620fc34f6a1fe74586c7bb",
+    "output_sha256": "ef3bb5b4d450c9cd315630d3a465821b56e213f3e3f7f09f5a35d6a95c612a09",
+    "slots": [
+      "l122-pictures-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/122-complete-panels.png",
+        "sha256": "5792c356d94e4363252affb615965ac541264c25d4620fc34f6a1fe74586c7bb"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      768,
+      480
+    ],
+    "output_size": [
+      768,
+      480
+    ],
+    "source_atlas_sha256": "5792c356d94e4363252affb615965ac541264c25d4620fc34f6a1fe74586c7bb",
+    "color_guide_sha256": "ef3bb5b4d450c9cd315630d3a465821b56e213f3e3f7f09f5a35d6a95c612a09",
+    "region_overrides": [],
+    "source_erratum_repair": {
+      "reason": "Clean PDF incorrectly duplicates shop picture at panel 6. Original photographed textbook shows same road-worker scene as panel 3. Reuse reviewed colored panel 3 in panel 6.",
+      "verified_against": "img/lesson-122-01-text.jpg",
+      "verified_source_sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+      "copy_box": [
+        512,
+        0,
+        768,
+        160
+      ],
+      "destination": [
+        512,
+        160
+      ]
+    }
+  },
+  "review_notes": "Reviewed nine panels against both PDF and photographed original textbook. PDF wrongly repeats shop panel 5 as panel 6; original photo confirms road workers, so replaced panel 6 with reviewed matching road-worker panel 3. Retained counter scenes, one/multiple books and dog carrying basket.",
+  "published_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97"
+}
