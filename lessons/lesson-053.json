@@ -831,8 +831,18 @@
     }
   ],
   "characters": {
-    "hans": "Hans: a man shown in the textbook illustrations, wearing a suit and speaking with Jim about England's climate.",
-    "jim": "Jim: an English man shown in the textbook illustrations, wearing a suit and explaining England's climate and seasons."
+    "hans": {
+      "description": "Hans: a man shown in the textbook illustrations, wearing a suit and speaking with Jim about England's climate.",
+      "name": "hans",
+      "illustration_appearance": "Man about 35, short wavy blond hair, charcoal suit, pale blue shirt, burgundy tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "jim": {
+      "description": "Jim: an English man shown in the textbook illustrations, wearing a suit and explaining England's climate and seasons.",
+      "name": "jim",
+      "illustration_appearance": "Man about 40, short brown hair, thin moustache, tan suit, white shirt, dark green tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-scene-01": {
@@ -844,7 +854,8 @@
         "jim"
       ],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied."
+      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
+      "illustration_scene": "Hans and Jim stand beside a wall map of England; Hans faces Jim and asks where he comes from and what the climate is like."
     },
     "lesson-scene-02": {
       "kind": "scene",
@@ -852,7 +863,8 @@
       "description": "A map of England divided into North, East, West and South, with weather symbols showing cold, wind, rain and warmth in the regions.",
       "characters": [],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied."
+      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
+      "illustration_scene": "A wordless illustrated weather map of England in green, surrounded by blue sea: snowy hills in the north, wind-bent trees in the east, rain showers in the west, sunshine over the south. Clear recognizable England silhouette, colorful educational artwork, no labels."
     },
     "lesson-scene-03": {
       "kind": "scene",
@@ -860,7 +872,8 @@
       "description": "A spring or summer landscape with flowers, a long bright day, and arrows showing the sun rising early and setting late.",
       "characters": [],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied."
+      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
+      "illustration_scene": "A peaceful English countryside on a long bright late-spring evening, flowering hedges, green fields, warm sunlight low in the clear sky. No arrows or diagrams."
     },
     "lesson-scene-04": {
       "kind": "scene",
@@ -868,7 +881,8 @@
       "description": "An autumn or winter landscape with bare trees, rain or snow, a low sun, and arrows showing the sun rising late and setting early.",
       "characters": [],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied."
+      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
+      "illustration_scene": "The same type of English countryside on a short winter afternoon, bare trees, damp fields, a low sun disappearing behind clouds. Cool twilight colors, no arrows or diagrams."
     }
   },
   "verification": {
@@ -921,5 +935,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

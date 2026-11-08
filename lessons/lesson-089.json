@@ -720,8 +720,18 @@
     }
   ],
   "characters": {
-    "nigel": "A man wearing a hat, visiting the house for sale.",
-    "ian": "An older man with grey hair, the owner of the house."
+    "nigel": {
+      "description": "A man wearing a hat, visiting the house for sale.",
+      "name": "nigel",
+      "illustration_appearance": "Man about 40, short brown hair, gray brimmed hat, navy jacket, white shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "ian": {
+      "description": "An older man with grey hair, the owner of the house.",
+      "name": "ian",
+      "illustration_appearance": "Man about 60, short gray hair, tan cardigan, cream shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-089-scene-01": {
@@ -733,7 +743,9 @@
         "ian"
       ],
       "source": "../img/lesson-089-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Ian welcomes prospective buyer Nigel through the front door of a comfortable modest British house, gesturing into the hall. Nigel looks around thoughtfully. A small unlettered estate-agent board outside suggests the house is for sale."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

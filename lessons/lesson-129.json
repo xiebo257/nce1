@@ -202,9 +202,24 @@
     {"label": "Grammar Workbook p.565 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=565"}
   ],
   "characters": {
-    "Ann": "加里（Gary）的妻子，一直提醒丈夫开慢点",
-    "Gary": "超速驾驶被警察拦下的男子",
-    "Policeman": "拦下加里的警察"
+    "Ann": {
+      "description": "加里（Gary）的妻子，一直提醒丈夫开慢点",
+      "name": "Ann",
+      "illustration_appearance": "Woman about 35, shoulder-length brown hair, pale blue blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Gary": {
+      "description": "超速驾驶被警察拦下的男子",
+      "name": "Gary",
+      "illustration_appearance": "Man about 38, short dark hair, gray jacket, cream shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Policeman": {
+      "description": "拦下加里的警察",
+      "name": "Policeman",
+      "illustration_appearance": "Man about 40, navy police uniform and peaked cap.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l129-scene": {
@@ -212,7 +227,14 @@
       "status": "pending",
       "reason": "Odd lesson: no crops. The dialogue page contains six small illustration panels (a car being waved down by a policeman, the policeman speaking to the driver, the speed-limit sign, the driving licence, a warning, and Ann in the car). No single scene crop is appropriate.",
       "description": "Six small illustration panels beside the dialogue: 1 a policeman waving a speeding car down near a 40 sign; 2 the policeman speaking to the driver; 3 the car stopped at the 40 sign; 4 a hand holding a driving licence; 5 the policeman warning the driver; 6 Ann in the passenger seat.",
-      "source": "img/lesson-129-01-text.jpg (textbook p.261)"
+      "source": "img/lesson-129-01-text.jpg (textbook p.261)",
+      "illustration_scene": "A car is stopped safely at the roadside. A uniformed policeman stands beside the open driver window while Gary hands him his driving licence. Ann sits in the passenger seat looking knowingly at Gary. A circular speed-limit sign marked only 40 is visible behind. British road setting.",
+      "characters": [
+        "Gary",
+        "Ann",
+        "Policeman"
+      ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

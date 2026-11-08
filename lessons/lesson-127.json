@@ -908,8 +908,28 @@
     }
   ],
   "characters": {
-    "kate": "Kate, who recognizes Karen Marsh and Conrad Reeves at a restaurant.",
-    "liz": "Liz, who knows Karen Marsh well and is not more than twenty-nine."
+    "kate": {
+      "description": "Kate, who recognizes Karen Marsh and Conrad Reeves at a restaurant.",
+      "name": "kate",
+      "illustration_appearance": "Woman about 30, straight dark bob, pale blue blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "liz": {
+      "description": "Liz, who knows Karen Marsh well and is not more than twenty-nine.",
+      "name": "liz",
+      "illustration_appearance": "Woman about 29, blond wavy shoulder-length hair, cream blouse, green cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "karen-marsh": {
+      "name": "karen marsh",
+      "illustration_appearance": "Woman about 40, dark waved hair, elegant navy dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "conrad-reeves": {
+      "name": "conrad reeves",
+      "illustration_appearance": "Man about 45, neatly combed gray hair, charcoal suit.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l127-scene": {
@@ -919,9 +939,12 @@
       "source": "img/lesson-127-01-text.jpg (textbook p.257)",
       "characters": [
         "kate",
-        "liz"
+        "liz",
+        "karen-marsh",
+        "conrad-reeves"
       ],
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "In a restaurant, Kate and Liz sit at a foreground table, glancing toward actress Karen Marsh and actor Conrad Reeves at a separate table in the background. Exactly four main adults, two separate tables, relaxed elegant setting."
     }
   },
   "grammar_source_audit": {
@@ -934,5 +957,6 @@
     },
     "checked_answer_pages": 563,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

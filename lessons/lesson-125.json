@@ -191,8 +191,18 @@
     {"label": "Grammar Workbook p.560-561 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=560"}
   ],
   "characters": {
-    "susan": "Susan, who invites Peter in for tea and notices it's raining.",
-    "peter": "Peter, who must water the garden before having tea."
+    "susan": {
+      "description": "Susan, who invites Peter in for tea and notices it's raining.",
+      "name": "susan",
+      "illustration_appearance": "Woman about 35, shoulder-length brown hair, cream blouse, blue cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "peter": {
+      "description": "Peter, who must water the garden before having tea.",
+      "name": "peter",
+      "illustration_appearance": "Man about 37, short dark hair, rolled-sleeve pale blue shirt, charcoal trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l125-scene": {
@@ -200,8 +210,13 @@
       "status": "pending",
       "description": "Five numbered panels: 1 Susan calling to Peter from the window; 2 Peter watering the garden; 3 Susan looking at Peter through the window; 4 Susan and Peter at the table with tea; 5 Susan and Peter having tea together.",
       "source": "img/lesson-125-01-text.jpg (textbook p.253)",
-      "characters": ["susan", "peter"],
-      "reason": "Odd lesson: text first; illustration deferred."
+      "characters": [
+        "susan",
+        "peter"
+      ],
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Susan and Peter sit at a kitchen table having tea, smiling with relief. Through a large window behind them, rain waters the garden and a garden hose lies unused on the ground. Two teacups and teapot in foreground."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

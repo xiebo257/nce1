@@ -45,8 +45,18 @@
     }
   ],
   "characters": {
-    "mrs-bird": "Mrs. Bird is a woman with dark, shoulder-length hair, a small light-coloured hat and a handbag. Keep her appearance consistent throughout the butcher-shop scenes.",
-    "butcher": "The butcher is a smiling man with short, combed-back hair, a striped apron and a light shirt. Keep his appearance consistent throughout the butcher-shop scenes."
+    "mrs-bird": {
+      "description": "Mrs. Bird is a woman with dark, shoulder-length hair, a small light-coloured hat and a handbag. Keep her appearance consistent throughout the butcher-shop scenes.",
+      "name": "mrs bird",
+      "illustration_appearance": "Woman about 40, shoulder-length dark hair, small cream hat, sage green coat, brown handbag.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "butcher": {
+      "description": "The butcher is a smiling man with short, combed-back hair, a striped apron and a light shirt. Keep his appearance consistent throughout the butcher-shop scenes.",
+      "name": "butcher",
+      "illustration_appearance": "Man about 45, short combed-back dark hair, light shirt, blue-and-white striped apron.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "scene-01": {
@@ -58,7 +68,8 @@
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Mrs. Bird stands at the butcher’s counter with her handbag while the butcher asks whether she wants meat."
     },
     "scene-02": {
       "kind": "scene",
@@ -69,7 +80,8 @@
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "At the butcher counter, the butcher gestures toward two different neatly displayed cuts of beef and lamb while Mrs Bird considers her choice. No signs or labels."
     },
     "scene-03": {
       "kind": "scene",
@@ -80,7 +92,8 @@
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Mrs. Bird and the butcher continue talking beside the displayed beef and lamb."
     },
     "scene-04": {
       "kind": "scene",
@@ -91,7 +104,8 @@
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "The butcher presents a piece of steak on the counter and Mrs. Bird indicates the piece she wants."
     },
     "scene-05": {
       "kind": "scene",
@@ -102,7 +116,8 @@
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Mrs. Bird orders mince at the counter; a heap of mince and a meat mincer are pictured nearby."
     },
     "scene-06": {
       "kind": "scene",
@@ -113,18 +128,19 @@
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "The butcher holds up a chicken to offer it to Mrs. Bird."
     },
     "scene-07": {
       "kind": "scene",
       "status": "pending",
       "description": "The butcher is pictured alone behind the counter, cutting up a chicken.",
       "characters": [
-        "mrs-bird",
         "butcher"
       ],
       "source": "../img/lesson-049-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "The butcher alone behind the clean shop counter, preparing a plucked chicken on a chopping board. His expression is amused and friendly. Ordinary butcher shop scene, no blood."
     }
   },
   "sections": {
@@ -897,5 +913,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

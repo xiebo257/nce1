@@ -18,68 +18,98 @@
       {
         "id": "l139-lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook-p281",
+        "source": "../img/lesson-139-01-text.jpg",
         "image": "l139-scene",
         "lines": [
           {
             "number": 1,
             "speaker": "Graham",
-            "text": "Hello. Is that you, John? Is that you, the telephone engineer?",
-            "translation": "你好。是你吗，约翰？是你吗，电话工程师？"
+            "text": "Is that you, John?",
+            "translation": "是你吗，约翰？"
           },
           {
             "number": 2,
             "speaker": "John",
-            "text": "Yes, it is. It's me. Is that you, Graham?",
-            "translation": "是的，是我。是我。是你吗，格雷厄姆？"
+            "text": "Yes, speaking.",
+            "translation": "是我，请讲。"
           },
           {
             "number": 3,
             "speaker": "Graham",
-            "text": "Yes. Where are you? You're not at home, are you?",
-            "translation": "是的。你在哪里？你不在家，是吗？"
+            "text": "Tell Mary we'll be late for dinner this evening.",
+            "translation": "告诉玛丽，今天晚上我们吃晚饭要晚到一会儿。"
           },
           {
             "number": 4,
             "speaker": "John",
-            "text": "No, I'm not. I'm on my way home.",
-            "translation": "不，我不在。我正在回家的路上。"
+            "text": "I'm afraid I don't understand.",
+            "translation": "恐怕我不明白您的意思。"
           },
           {
             "number": 5,
             "speaker": "Graham",
-            "text": "I see. Where's your wife? Is she at home?",
-            "translation": "我明白了。你妻子在哪里？她在家吗？"
+            "text": "Hasn't Mary told you? She invited Charlotte and me to dinner this evening.",
+            "translation": "玛丽没有告诉你吗？她邀请夏洛特和我今晚去吃饭。"
           },
           {
             "number": 6,
-            "speaker": "John",
-            "text": "Yes, she is. She's waiting for me at home. She's making dinner.",
-            "translation": "是的，她在家。她正在家里等我。她正在做晚餐。"
+            "speaker": "Graham",
+            "text": "I said I would be at your house at six o'clock, but the boss wants me to do some extra work.",
+            "translation": "我说过六点到你家，但老板要我加班。"
           },
           {
             "number": 7,
             "speaker": "Graham",
-            "text": "I see. What's your wife writing? Is she writing a letter?",
-            "translation": "我明白了。你妻子在写什么？她在写信吗？"
+            "text": "I'll have to stay at the office. I don't know when I'll finish.",
+            "translation": "我得留在办公室。我不知道什么时候才能做完。"
           },
           {
             "number": 8,
-            "speaker": "John",
-            "text": "No, she isn't. She's writing a list of the things she wants to buy at the shops.",
-            "translation": "不，她不是。她在写她想在商店里买的东西的清单。"
+            "speaker": "Graham",
+            "text": "Oh, and by the way, my wife wants to know if Mary needs any help.",
+            "translation": "噢，顺便问一下，我妻子想知道玛丽是否需要帮忙。"
           },
           {
             "number": 9,
-            "speaker": "Graham",
-            "text": "I see. Is that you, John? Are you still at work?",
-            "translation": "我明白了。是你吗，约翰？你还在工作吗？"
+            "speaker": "John",
+            "text": "I don't know what you're talking about.",
+            "translation": "我不知道您在说什么。"
           },
           {
             "number": 10,
+            "speaker": "Graham",
+            "text": "That is John Smith, isn't it?",
+            "translation": "你是约翰·史密斯，对吗？"
+          },
+          {
+            "number": 11,
             "speaker": "John",
-            "text": "Yes, I am. I'm at my office. I'm repairing Graham's telephone line.",
-            "translation": "是的，我在。我在我的办公室。我正在修格雷厄姆的电话线。"
+            "text": "Yes, I'm John Smith.",
+            "translation": "是的，我是约翰·史密斯。"
+          },
+          {
+            "number": 12,
+            "speaker": "Graham",
+            "text": "You are John Smith, the engineer, aren't you?",
+            "translation": "你是工程师约翰·史密斯，对吗？"
+          },
+          {
+            "number": 13,
+            "speaker": "John",
+            "text": "That's right.",
+            "translation": "是的。"
+          },
+          {
+            "number": 14,
+            "speaker": "Graham",
+            "text": "You work for the Overseas Engineering Company, don't you?",
+            "translation": "你在海外工程公司工作，对吗？"
+          },
+          {
+            "number": 15,
+            "speaker": "John",
+            "text": "No, I don't. I'm John Smith the telephone engineer and I'm repairing your telephone line.",
+            "translation": "不，我不在那里工作。我是电话工程师约翰·史密斯，正在修理您的电话线路。"
           }
         ]
       },
@@ -87,8 +117,8 @@
         "id": "l139-lesson-question",
         "type": "text",
         "source": "textbook-p281",
-        "text": "Question: 问题。What is John writing? 约翰在写什么？",
-        "translation": "问题：约翰在写什么？"
+        "text": "Which John Smith does Graham Turner think he is talking to?",
+        "translation": "格雷厄姆·特纳以为正在同哪位约翰·史密斯通话？"
       },
       {
         "id": "l139-lesson-vocab",
@@ -1195,10 +1225,18 @@
     }
   ],
   "characters": {
-    "Graham Turner": "man at his office, has wife Mary",
-    "John Smith": "telephone engineer, repairing Graham's telephone line",
-    "Mary": "Graham's wife",
-    "Charlotte": "friend of Mary and Graham"
+    "graham-turner": {
+      "description": "Graham Turner, an office worker; his wife is Charlotte.",
+      "name": "graham turner",
+      "illustration_appearance": "Office worker about 40, short dark hair, white shirt with rolled sleeves, burgundy tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "john-smith": {
+      "description": "John Smith, the telephone engineer repairing Graham’s line. He is not the engineer at the Overseas Engineering Company.",
+      "name": "john smith",
+      "illustration_appearance": "Telephone engineer about 45, short sandy hair, blue work jacket over gray shirt, small tool pouch.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l139-scene": {
@@ -1206,7 +1244,12 @@
       "status": "pending",
       "description": "Graham Turner at his office making a telephone call to John Smith, the telephone engineer, who is on his way home",
       "source": "img/lesson-139-01-text.jpg (textbook p.281)",
-      "reason": "No suitable crop available for the dialogue scene"
+      "reason": "No suitable crop available for the dialogue scene",
+      "illustration_scene": "A clean two-part editorial scene showing a telephone conversation: on the left Graham Turner at his office desk speaks into a black telephone receiver; on the right John Smith, a telephone engineer in blue workwear, listens on a line-testing handset beside open telephone wiring and his tool bag. Two different locations with a soft vertical division; no captions.",
+      "characters": [
+        "graham-turner",
+        "john-smith"
+      ]
     }
   },
   "grammar_source_audit": {
@@ -1219,5 +1262,10 @@
     },
     "checked_answer_pages": 574,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_source_corrections": {
+    "source": "../img/lesson-139-01-text.jpg",
+    "evidence": "Visually checked source scan and existing independently verified audio passage overrides. Corrected story/roles before creating illustrations; practice and grammar untouched."
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

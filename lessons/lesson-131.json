@@ -186,8 +186,18 @@
     {"label": "Grammar Workbook p.567 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=567"}
   ],
   "characters": {
-    "Martin": "加里（Gary）的朋友，向他询问假期计划",
-    "Gary": "拿不定主意去哪里度假的丈夫"
+    "Martin": {
+      "description": "加里（Gary）的朋友，向他询问假期计划",
+      "name": "Martin",
+      "illustration_appearance": "Man about 38, short blond hair, tan jacket, white shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Gary": {
+      "description": "拿不定主意去哪里度假的丈夫",
+      "name": "Gary",
+      "illustration_appearance": "Man about 38, short dark hair, gray jacket, cream shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l131-scene": {
@@ -195,7 +205,13 @@
       "status": "pending",
       "reason": "Odd lesson: no crops. The dialogue page contains a single wide illustration above the text (Martin and Gary sitting at a desk surrounded by holiday brochures for Spain, Paris, the Alps and London). No single crop is appropriate.",
       "description": "A single wide illustration above the dialogue: Martin and Gary sit at a desk covered with holiday brochures; more brochures (Sunny Spain, the Alps, Paris) are scattered on the floor around them.",
-      "source": "img/lesson-131-01-text.jpg (textbook p.265)"
+      "source": "img/lesson-131-01-text.jpg (textbook p.265)",
+      "illustration_scene": "Gary and Martin sit beside a table covered with holiday brochures, considering a trip to Egypt. One brochure shows pyramids and a passenger ship, another an airplane. Gary looks undecided, Martin listens; a pet dog rests by the table. No legible lettering.",
+      "characters": [
+        "Gary",
+        "Martin"
+      ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

@@ -29,9 +29,24 @@
     }
   ],
   "characters": {
-    "catherine": "A woman with a hat, one of Ian's neighbours.",
-    "jenny": "A woman with short dark hair, Ian's neighbour who knew him well.",
-    "linda": "A woman with curly hair, another of Ian's neighbours."
+    "catherine": {
+      "description": "A woman with a hat, one of Ian's neighbours.",
+      "name": "catherine",
+      "illustration_appearance": "Woman about 45, auburn hair under a cream hat, green coat.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "jenny": {
+      "description": "A woman with short dark hair, Ian's neighbour who knew him well.",
+      "name": "jenny",
+      "illustration_appearance": "Woman about 40, short dark bob, pale blue jacket.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "linda": {
+      "description": "A woman with curly hair, another of Ian's neighbours.",
+      "name": "linda",
+      "illustration_appearance": "Woman about 40, short blond curls, burgundy cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-091-scene-01": {
@@ -44,7 +59,8 @@
         "linda"
       ],
       "source": "../img/lesson-091-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Catherine, Jenny and Linda stand together on a residential pavement outside their neighbour Ian's house, talking with fond, slightly sad expressions about his imminent move. Quiet brick houses and a garden gate behind them."
     }
   },
   "sections": {
@@ -578,5 +594,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

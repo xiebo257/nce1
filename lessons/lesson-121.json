@@ -198,9 +198,24 @@
     {"label": "Grammar Workbook p.556-557 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=556"}
   ],
   "characters": {
-    "customer": "The customer, a man with a hat, shown buying dictionaries and later putting his hat on.",
-    "manager": "The bookshop manager, a man with glasses.",
-    "caroline": "Caroline, the assistant standing behind the counter."
+    "customer": {
+      "description": "The customer, a man with a hat, shown buying dictionaries and later putting his hat on.",
+      "name": "customer",
+      "illustration_appearance": "Man about 45, short brown hair, a distinctive brown brimmed hat, dark gray coat.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "manager": {
+      "description": "The bookshop manager, a man with glasses.",
+      "name": "manager",
+      "illustration_appearance": "Man about 50, short graying hair, rectangular glasses, navy cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "caroline": {
+      "description": "Caroline, the assistant standing behind the counter.",
+      "name": "caroline",
+      "illustration_appearance": "Woman about 25, dark bob, teal blouse, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l121-scene": {
@@ -208,8 +223,14 @@
       "status": "pending",
       "description": "Six numbered panels: 1 the customer talking to Caroline in the bookshop; 2 the manager asking Caroline about the customer; 3 Caroline pointing at the books on the counter; 4 the manager showing Caroline the customer's hat; 5 Caroline and the manager looking at the hat; 6 Caroline recognizing the customer who is now wearing his hat.",
       "source": "img/lesson-121-01-text.jpg (textbook p.245)",
-      "characters": ["customer", "manager", "caroline"],
-      "reason": "Odd lesson: text first; illustration deferred."
+      "characters": [
+        "customer",
+        "manager",
+        "caroline"
+      ],
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Inside a bookshop, the customer has just put on his brimmed hat. Caroline behind the counter smiles in recognition, and the manager gestures toward two thick dictionaries on the counter. Three distinct adults, shelves of books behind."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

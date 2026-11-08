@@ -816,8 +816,18 @@
     }
   ],
   "characters": {
-    "lady": "An adult woman customer with dark bobbed hair, wearing a light blouse or dress with a dark collar and a small dark hat.",
-    "shop-assistant": "An adult male shop assistant with a bald crown, short hair at the sides, round glasses and a light shirt with a tie behind the shop counter."
+    "lady": {
+      "description": "An adult woman customer with dark bobbed hair, wearing a light blouse or dress with a dark collar and a small dark hat.",
+      "name": "lady",
+      "illustration_appearance": "Woman about 40, dark bob, small dark hat, cream blouse with navy collar, teal skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "shop-assistant": {
+      "description": "An adult male shop assistant with a bald crown, short hair at the sides, round glasses and a light shirt with a tie behind the shop counter.",
+      "name": "shop assistant",
+      "illustration_appearance": "Man about 55, bald crown with gray hair at the sides, round glasses, pale blue shirt, maroon tie, gray apron.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-059-scene-01": {
@@ -829,7 +839,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The lady and the shop assistant stand beside a display of plain envelopes; the lady asks for envelopes and the assistant serves her."
     },
     "lesson-059-scene-02": {
       "kind": "scene",
@@ -840,7 +851,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The lady and shop assistant stand beside a display of plain writing pads; the assistant indicates the writing pads."
     },
     "lesson-059-scene-03": {
       "kind": "scene",
@@ -851,7 +863,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The lady and shop assistant are close to a counter and a display of plain writing pads; the assistant handles a large pad while explaining that only large pads are available."
     },
     "lesson-059-scene-04": {
       "kind": "scene",
@@ -862,7 +875,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The shop assistant holds a bottle of white glue across the counter while the lady watches."
     },
     "lesson-059-scene-05": {
       "kind": "scene",
@@ -873,7 +887,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The shop assistant holds a small box of white chalk sticks; the lady declines it because she asked for a large box."
     },
     "lesson-059-scene-06": {
       "kind": "scene",
@@ -884,7 +899,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The lady receives or examines the purchased items at the counter while the shop assistant serves her."
     },
     "lesson-059-scene-07": {
       "kind": "scene",
@@ -895,7 +911,8 @@
         "shop-assistant"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=121",
-      "reason": "Odd lesson: actual story illustration deferred; no image generation."
+      "reason": "Odd lesson: actual story illustration deferred; no image generation.",
+      "illustration_scene": "The lady and shop assistant remain at the counter after the purchase; the lady asks for her change."
     }
   },
   "verification": {
@@ -949,5 +966,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

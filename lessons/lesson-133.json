@@ -967,10 +967,30 @@
     }
   ],
   "characters": {
-    "Reporter": "采访卡伦·马什的记者（艾伦·琼斯）",
-    "Miss Marsh (Karen Marsh)": "刚拍完一部新电影、准备退休的女演员",
-    "Kate": "买报纸给莉兹看的女子",
-    "Liz": "读到爆炸性新闻的女子"
+    "Reporter": {
+      "description": "采访卡伦·马什的记者（艾伦·琼斯）",
+      "name": "Reporter",
+      "illustration_appearance": "Male reporter about 35, short brown hair, gray suit, notebook.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Miss Marsh (Karen Marsh)": {
+      "description": "刚拍完一部新电影、准备退休的女演员",
+      "name": "Miss Marsh (Karen Marsh)",
+      "illustration_appearance": "Actress about 40, elegant dark waved hair, blue dress, brown fur-look coat as stated in the text.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Kate": {
+      "description": "买报纸给莉兹看的女子",
+      "name": "Kate",
+      "illustration_appearance": "Woman about 30, straight dark bob, pale blue blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Liz": {
+      "description": "读到爆炸性新闻的女子",
+      "name": "Liz",
+      "illustration_appearance": "Woman about 29, blond shoulder-length waves, green cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l133-scene": {
@@ -978,7 +998,12 @@
       "status": "pending",
       "reason": "Odd lesson: no crops. The dialogue page contains two separate small illustration panels (a reporter interviewing a film star near a plane, and two women reading a newspaper). No single scene crop is appropriate.",
       "description": "Two small illustration panels beside the dialogue: 1 a reporter interviewing a film star (Karen Marsh) in front of an airplane at the airport; 2 two women (Kate and Liz) reading a newspaper that reads 'KAREN MARSH SENSATIONAL NEWS'.",
-      "source": "img/lesson-133-01-text.jpg (textbook p.269)"
+      "source": "img/lesson-133-01-text.jpg (textbook p.269)",
+      "illustration_scene": "At an airport, a reporter with a notebook interviews Karen Marsh. She wears a BLUE dress and brown fur-look coat, and appears tired after making a film. A passenger aircraft is visible through large terminal windows.",
+      "characters": [
+        "Reporter",
+        "Miss Marsh (Karen Marsh)"
+      ]
     }
   },
   "grammar_source_audit": {
@@ -991,5 +1016,6 @@
     },
     "checked_answer_pages": 568,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

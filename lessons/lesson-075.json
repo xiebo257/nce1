@@ -941,8 +941,18 @@
     }
   ],
   "characters": {
-    "lady": "A lady who asks the shop assistant for a pair of fashionable black shoes.",
-    "shop-assistant": "A shop assistant who explains that the fashionable shoes are no longer in fashion."
+    "lady": {
+      "description": "A lady who asks the shop assistant for a pair of fashionable black shoes.",
+      "name": "lady",
+      "illustration_appearance": "Woman about 35, dark wavy bob, pale blue coat, cream blouse, brown handbag.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "shop-assistant": {
+      "description": "A shop assistant who explains that the fashionable shoes are no longer in fashion.",
+      "name": "shop assistant",
+      "illustration_appearance": "Man about 35, short brown hair, clean-shaven, charcoal suit, white shirt, blue tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-075-scene-01": {
@@ -961,7 +971,8 @@
       ],
       "src": "assets/lesson-075/scene-01.jpg",
       "width": 697,
-      "height": 500
+      "height": 500,
+      "illustration_scene": "In a shoe shop, the lady shows the assistant a pair of BLACK low-heeled shoes she brought with her. The assistant looks apologetic and gestures toward the shelves."
     },
     "lesson-075-scene-02": {
       "kind": "scene",
@@ -979,7 +990,8 @@
       ],
       "src": "assets/lesson-075/scene-02.jpg",
       "width": 697,
-      "height": 500
+      "height": 500,
+      "illustration_scene": "In the same shoe shop, the assistant presents a different pair of fashionable BLACK pointed high-heeled shoes on the counter. The lady regards the narrow high heels with a doubtful expression, thinking they look uncomfortable."
     }
   },
   "grammar_source_audit": {
@@ -992,5 +1004,6 @@
     },
     "checked_answer_pages": 505,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

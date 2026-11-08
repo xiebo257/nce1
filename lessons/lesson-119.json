@@ -684,9 +684,24 @@
     }
   ],
   "characters": {
-    "george": "George, the author's friend, a young man with light hair, shown reading in bed and later standing in the dining room.",
-    "thieves": "Two thieves wearing dark masks and striped shirts, shown climbing into the kitchen and holding a torch in the dining room.",
-    "parrot": "Henry, George's parrot, shown in its cage."
+    "george": {
+      "description": "George, the author's friend, a young man with light hair, shown reading in bed and later standing in the dining room.",
+      "name": "george",
+      "illustration_appearance": "Man about 30, short sandy hair, pale blue pajamas.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "thieves": {
+      "description": "Two thieves wearing dark masks and striped shirts, shown climbing into the kitchen and holding a torch in the dining room.",
+      "name": "thieves",
+      "illustration_appearance": "Two distinct adults wearing dark face masks; one in a gray striped shirt and the other in a brown striped shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "parrot": {
+      "description": "Henry, George's parrot, shown in its cage.",
+      "name": "parrot",
+      "illustration_appearance": "Henry, a bright green parrot with a yellow forehead, in a brass cage.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l119-scene": {
@@ -696,10 +711,10 @@
       "source": "img/lesson-119-01-text.jpg (textbook p.241)",
       "characters": [
         "george",
-        "thieves",
         "parrot"
       ],
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "At night in the dining room with the light just switched on, George in pajamas smiles at his parrot Henry in its cage. A dropped torch lies on the floor and the room is otherwise empty. The thieves have already fled."
     }
   },
   "grammar_source_audit": {
@@ -712,5 +727,6 @@
     },
     "checked_answer_pages": 554,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

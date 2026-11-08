@@ -29,8 +29,18 @@
     }
   ],
   "characters": {
-    "andy": "A man who has slipped and fallen downstairs and hurt his back.",
-    "lucy": "A woman who helps Andy and phones Dr. Carter."
+    "andy": {
+      "description": "A man who has slipped and fallen downstairs and hurt his back.",
+      "name": "andy",
+      "illustration_appearance": "Man about 35, short dark hair, pale blue shirt, gray trousers, seated carefully after a fall.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "lucy": {
+      "description": "A woman who helps Andy and phones Dr. Carter.",
+      "name": "lucy",
+      "illustration_appearance": "Woman about 33, short auburn hair, cream blouse, green cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-099-scene-01": {
@@ -42,7 +52,8 @@
         "lucy"
       ],
       "source": "../img/lesson-099-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Andy sits on the floor at the foot of the stairs, carefully supporting his sore lower back after a fall. Lucy kneels beside him, offering a steadying hand and looking concerned. Domestic hallway, no visible injury."
     }
   },
   "sections": {
@@ -649,5 +660,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

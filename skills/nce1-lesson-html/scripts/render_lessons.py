@@ -138,7 +138,7 @@ def render(root, d, available):
             used_images.add(slot)
             im = images[slot]
             if im['status'] == 'ready':
-                figure = f'<figure class="question-illustration"><img src="{esc(im["src"])}" alt="{esc(im["description"])}" width="{im["width"]}" height="{im["height"]}" loading="lazy" /><figcaption>{esc(im.get("caption", slot))}</figcaption></figure>'
+                figure = f'<figure class="question-illustration"><img src="{esc(im["src"])}" alt="{esc(im.get("alt", im["description"]))}" width="{im["width"]}" height="{im["height"]}" loading="lazy" /><figcaption>{esc(im.get("caption", slot))}</figcaption></figure>'
                 content = f'<div class="illustrated-question{" dialogue-scene" if kind == "dialogue" else ""}" data-image-slot="{esc(slot)}">{figure}{content}</div>'
             else:
                 content = f'<div data-image-slot="{esc(slot)}">{content}</div>'

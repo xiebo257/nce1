@@ -17,18 +17,78 @@
       },
       {
         "id": "l135-lesson-story",
-        "type": "text",
-        "source": "textbook-p273",
+        "type": "dialogue",
+        "source": "../img/lesson-135-01-text.jpg",
         "image": "l135-scene",
-        "text": "The latest report. 最新消息。The latest newspaper report about Karen Marsh says: 'Karen Marsh has just arrived at her London hotel. She told reporters that she might retire. She couldn't make up her mind. She said that she would have to ask her future husband. Her future husband, the actor Michael Jones, said that he would not let her make another film.' 最新关于卡伦·马什的报纸报道说：「卡伦·马什刚到她的伦敦旅馆。她告诉记者说她可能要退休。她拿不定主意。她说她不得不问问她的未婚夫。她的未婚夫，演员迈克尔·琼斯说，他决不会让她再拍别的电影。」",
-        "translation": "最新消息。最新关于卡伦·马什的报纸报道说：「卡伦·马什刚到她的伦敦旅馆。她告诉记者说她可能要退休。她拿不定主意。她说她不得不问问她的未婚夫。她的未婚夫，演员迈克尔·琼斯说，他决不会让她再拍别的电影。」"
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "Reporter",
+            "text": "Are you really going to retire, Miss Marsh?",
+            "translation": "马什小姐，您真的准备退休吗？"
+          },
+          {
+            "number": 2,
+            "speaker": "Miss Marsh",
+            "text": "I may. I can't make up my mind. I will have to ask my future husband. He won't let me make another film.",
+            "translation": "有可能。我拿不定主意。我得问问我的未婚夫。他不会让我再拍电影了。"
+          },
+          {
+            "number": 3,
+            "speaker": "Reporter",
+            "text": "Your future husband, Miss Marsh?",
+            "translation": "您的未婚夫，马什小姐？"
+          },
+          {
+            "number": 4,
+            "speaker": "Miss Marsh",
+            "text": "Yes. Let me introduce him to you. His name is Carlos. We're going to get married next week.",
+            "translation": "是的。让我把他介绍给您。他叫卡洛斯。我们打算下星期结婚。"
+          },
+          {
+            "number": 5,
+            "speaker": "Kate",
+            "text": "Look, Liz! Here's another report about Karen Marsh. Listen. Karen Marsh: The latest.",
+            "translation": "瞧，莉兹！这里又有一篇关于卡伦·马什的报道。听着：卡伦·马什——最新消息。"
+          },
+          {
+            "number": 6,
+            "speaker": "Kate",
+            "text": "At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind.",
+            "translation": "今天在伦敦的旅馆里，马什小姐告诉记者她可能要退休。她说她拿不定主意。"
+          },
+          {
+            "number": 7,
+            "speaker": "Kate",
+            "text": "She said she would have to ask her future husband. She said her future husband would not let her make another film.",
+            "translation": "她说她得问问她的未婚夫。她说她的未婚夫不会再让她拍电影了。"
+          },
+          {
+            "number": 8,
+            "speaker": "Kate",
+            "text": "Then she introduced us to Carlos and told us they would get married next week.",
+            "translation": "随后她向我们介绍了卡洛斯，并告诉我们他们下星期要结婚。"
+          },
+          {
+            "number": 9,
+            "speaker": "Liz",
+            "text": "That's sensational news, isn't it, Kate?",
+            "translation": "这可是轰动的新闻，对吧，凯特？"
+          },
+          {
+            "number": 10,
+            "speaker": "Kate",
+            "text": "It certainly is. He'll be her sixth husband!",
+            "translation": "当然了。他将是她的第六任丈夫！"
+          }
+        ]
       },
       {
         "id": "l135-lesson-question",
         "type": "text",
         "source": "textbook-p273",
-        "text": "Question: 问题。Who told reporters that she might retire? 谁告诉记者说她可能要退休？",
-        "translation": "问题：谁告诉记者说她可能要退休？"
+        "text": "Is Karen Marsh going to retire, do you think?",
+        "translation": "你认为卡伦·马什会退休吗？"
       },
       {
         "id": "l135-lesson-vocab",
@@ -851,8 +911,36 @@
     }
   ],
   "characters": {
-    "Karen Marsh": "actress",
-    "Michael Jones": "actor, Karen Marsh's future husband"
+    "reporter": {
+      "description": "A male reporter interviewing Karen Marsh.",
+      "name": "reporter",
+      "illustration_appearance": "Male reporter about 35, short brown hair, gray suit, notebook.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "karen-marsh": {
+      "description": "Karen Marsh, the actress considering retirement.",
+      "name": "karen marsh",
+      "illustration_appearance": "Actress about 40, dark waved hair, elegant blue dress, brown fur-look coat.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "carlos": {
+      "description": "Carlos, Karen Marsh’s future husband; she introduces him to the reporter.",
+      "name": "carlos",
+      "illustration_appearance": "Man about 45, short dark wavy hair, neat moustache, charcoal suit, white shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "kate": {
+      "description": "Kate, a woman reading the newspaper report to Liz.",
+      "name": "kate",
+      "illustration_appearance": "Woman about 30, dark bob, pale blue blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "liz": {
+      "description": "Liz, a woman listening to Kate.",
+      "name": "liz",
+      "illustration_appearance": "Woman about 29, blond shoulder-length waves, green cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l135-scene": {
@@ -860,7 +948,13 @@
       "status": "pending",
       "description": "Karen Marsh arriving at her London hotel, being interviewed by reporters about her retirement plans",
       "source": "img/lesson-135-01-text.jpg (textbook p.273)",
-      "reason": "No suitable crop available for the story scene"
+      "reason": "No suitable crop available for the story scene",
+      "illustration_scene": "In a London hotel lobby, Karen Marsh introduces her future husband Carlos to a reporter holding a notebook. Karen gestures toward Carlos, who stands close beside her and smiles. Three distinct adults, upholstered seats and warm hotel lighting.",
+      "characters": [
+        "karen-marsh",
+        "carlos",
+        "reporter"
+      ]
     }
   },
   "grammar_source_audit": {
@@ -873,5 +967,10 @@
     },
     "checked_answer_pages": 570,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_source_corrections": {
+    "source": "../img/lesson-135-01-text.jpg",
+    "evidence": "Visually checked source scan and existing independently verified audio passage overrides. Corrected story/roles before creating illustrations; practice and grammar untouched."
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

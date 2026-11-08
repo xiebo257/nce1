@@ -168,9 +168,24 @@
     {"label": "Grammar Workbook p.552-553 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=552"}
   ],
   "characters": {
-    "husband": "The husband/father, a man with dark hair and a moustache, wearing a shirt and jacket.",
-    "wife": "The wife/mother, a woman with curly hair and a polka-dot dress.",
-    "tommy": "Tommy, the little boy with short blond hair."
+    "husband": {
+      "description": "The husband/father, a man with dark hair and a moustache, wearing a shirt and jacket.",
+      "name": "husband",
+      "illustration_appearance": "Father about 35, short dark hair and a neat moustache, pale blue shirt, brown jacket.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "wife": {
+      "description": "The wife/mother, a woman with curly hair and a polka-dot dress.",
+      "name": "wife",
+      "illustration_appearance": "Mother about 33, short dark curls, cream dress with small blue polka dots.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "tommy": {
+      "description": "Tommy, the little boy with short blond hair.",
+      "name": "tommy",
+      "illustration_appearance": "Little boy about 3, short blond hair, mustard sweater and navy shorts.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l117-scene": {
@@ -178,8 +193,14 @@
       "status": "pending",
       "description": "Six numbered panels: 1 the husband dropping coins on the dining room floor; 2 coins scattered all over the floor; 3 Tommy finding two small coins on the floor while the family has breakfast; 4 the husband and wife trying to get the coins out of Tommy's mouth; 5 Tommy having swallowed them; 6 the husband phoning from the office asking about Tommy.",
       "source": "img/lesson-117-01-text.jpg (textbook p.237)",
-      "characters": ["husband", "wife", "tommy"],
-      "reason": "Odd lesson: text first; illustration deferred."
+      "characters": [
+        "husband",
+        "wife",
+        "tommy"
+      ],
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "At a family breakfast table, the father crouches to gather scattered coins from the dining-room floor. The mother watches their small son Tommy, who has noticed two coins near his chair. Show the moment before he puts anything in his mouth; no objects in mouths."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

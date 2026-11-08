@@ -913,8 +913,18 @@
     }
   ],
   "characters": {
-    "hans": "A light-haired man with short, slightly wavy hair, wearing a collared shirt, tie and patterned jacket.",
-    "dimitri": "A dark-haired man with short, thick hair, wearing a striped jacket over a collared shirt and tie."
+    "hans": {
+      "description": "A light-haired man with short, slightly wavy hair, wearing a collared shirt, tie and patterned jacket.",
+      "name": "hans",
+      "illustration_appearance": "Man about 35, short wavy blond hair, charcoal patterned jacket, white shirt, blue tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "dimitri": {
+      "description": "A dark-haired man with short, thick hair, wearing a striped jacket over a collared shirt and tie.",
+      "name": "dimitri",
+      "illustration_appearance": "Man about 40, short thick black hair, brown striped jacket, cream shirt, dark green tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "scene-01": {
@@ -926,7 +936,8 @@
         "dimitri"
       ],
       "source": "../img/lesson-051-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Hans and Dimitri converse beside a map of Greece. Hans has light hair and a patterned jacket; Dimitri has dark hair and a striped jacket."
     },
     "scene-02": {
       "kind": "scene",
@@ -934,7 +945,8 @@
       "description": "Spring in Greece: flowering trees and wildflowers, mountains in the distance, and a sun partly obscured by a rain cloud.",
       "characters": [],
       "source": "../img/lesson-051-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Spring in rural Greece: flowering trees and wildflowers, green hills, mountains, soft sunshine breaking through light rain clouds. Natural landscape, no weather icons."
     },
     "scene-03": {
       "kind": "scene",
@@ -942,7 +954,8 @@
       "description": "A hot Greek summer landscape with a large bright sun above mountains, sparse plants and a shoreline.",
       "characters": [],
       "source": "../img/lesson-051-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "A hot dry Greek summer: bright blue sky, sunlit white coastal houses, olive trees, rocky hills and deep blue sea. Natural landscape."
     },
     "scene-04": {
       "kind": "scene",
@@ -950,7 +963,8 @@
       "description": "Autumn in Greece: leaves falling from a tree near mountains and water, with both sunshine and a rain cloud.",
       "characters": [],
       "source": "../img/lesson-051-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Autumn in rural Greece: golden leaves on trees near mountains and water, soft warm sunshine and a few rain clouds. Natural landscape."
     },
     "scene-05": {
       "kind": "scene",
@@ -958,7 +972,8 @@
       "description": "Winter in Greece: snow falling over a bare tree, distant mountains and snow-covered ground.",
       "characters": [],
       "source": "../img/lesson-051-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Winter in rural Greece: bare trees, distant mountains, a light dusting of snow on the countryside and a few falling snowflakes beneath gray clouds. Natural landscape, no icons."
     }
   },
   "verification": {
@@ -1020,5 +1035,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

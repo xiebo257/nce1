@@ -244,38 +244,80 @@
     {"label": "Lesson 63 grammar answer key continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=496"}
   ],
   "characters": {
-    "mrs-williams": "An adult woman with a short blonde bob, wearing a light jacket over a patterned blouse.",
-    "jimmy": "A schoolboy with dark curly hair, lying in bed or standing in the scene.",
-    "doctor": "An elderly bald man with grey hair at the sides, wearing a coat and tie."
+    "mrs-williams": {
+      "description": "An adult woman with a short blonde bob, wearing a light jacket over a patterned blouse.",
+      "name": "mrs williams",
+      "illustration_appearance": "Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "jimmy": {
+      "description": "A schoolboy with dark curly hair, lying in bed or standing in the scene.",
+      "name": "jimmy",
+      "illustration_appearance": "Schoolboy about 8, short dark curly hair, pale blue pajamas.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "doctor": {
+      "description": "An elderly bald man with grey hair at the sides, wearing a coat and tie.",
+      "name": "doctor",
+      "illustration_appearance": "Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mr-williams": {
+      "name": "Mr Williams",
+      "description": "Jimmy’s father, who also has a bad cold.",
+      "illustration_appearance": "Father about 42, short dark hair, neat moustache, pale blue pajamas, lying in bed."
+    }
   },
   "images": {
     "lesson-063-scene-01": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs.",
-      "characters": ["mrs-williams", "doctor"],
+      "characters": [
+        "mrs-williams",
+        "doctor"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs."
     },
     "lesson-063-scene-02": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days.",
-      "characters": ["jimmy", "doctor"],
+      "characters": [
+        "jimmy",
+        "doctor"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days."
     },
     "lesson-063-scene-03": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed.",
-      "characters": ["mrs-williams", "doctor"],
+      "characters": [
+        "mrs-williams",
+        "doctor"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed."
     },
     "lesson-063-scene-04": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too.",
-      "characters": ["mrs-williams", "doctor"],
+      "characters": [
+        "mrs-williams",
+        "doctor",
+        "mr-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

@@ -585,10 +585,30 @@
     }
   ],
   "characters": {
-    "sawyer-son": "A young boy with short hair, a cap and school clothes; keep his appearance consistent in the school and garden scenes.",
-    "sawyer-daughter": "A young girl with a short bob haircut and school clothes; keep her appearance consistent in the school and garden scenes.",
-    "mrs-sawyer": "An adult woman with curly hair and a patterned dress; keep her appearance consistent in the shopping and tea scenes.",
-    "mr-sawyer": "An adult man with short hair and glasses, seated comfortably while reading."
+    "sawyer-son": {
+      "description": "A young boy with short hair, a cap and school clothes; keep his appearance consistent in the school and garden scenes.",
+      "name": "sawyer son",
+      "illustration_appearance": "Schoolboy about 9, short brown hair, navy cap and school blazer, white shirt, gray trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "sawyer-daughter": {
+      "description": "A young girl with a short bob haircut and school clothes; keep her appearance consistent in the school and garden scenes.",
+      "name": "sawyer daughter",
+      "illustration_appearance": "Schoolgirl about 7, brown bob haircut, navy cardigan, white blouse, gray skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mrs-sawyer": {
+      "description": "An adult woman with curly hair and a patterned dress; keep her appearance consistent in the shopping and tea scenes.",
+      "name": "mrs sawyer",
+      "illustration_appearance": "Mother about 38, curly blond hair, pale green patterned dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mr-sawyer": {
+      "description": "An adult man with short hair and glasses, seated comfortably while reading.",
+      "name": "mr sawyer",
+      "illustration_appearance": "Father about 40, short dark hair, rectangular glasses, cream shirt, navy cardigan, brown trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "scene-01": {
@@ -600,7 +620,8 @@
         "sawyer-daughter"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "At eight o'clock, the Sawyer children are walking to school together instead of travelling by car."
     },
     "scene-02": {
       "kind": "scene",
@@ -610,7 +631,8 @@
         "mrs-sawyer"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "At ten o'clock, Mrs. Sawyer walks past shops, including a butcher's shop, carrying a shopping basket."
     },
     "scene-03": {
       "kind": "scene",
@@ -620,7 +642,8 @@
         "mrs-sawyer"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "At four o'clock, Mrs. Sawyer sits at a small table drinking tea in a sunny garden."
     },
     "scene-04": {
       "kind": "scene",
@@ -631,7 +654,8 @@
         "sawyer-daughter"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "At six o'clock, the Sawyer children play together with a ball in the garden."
     },
     "scene-05": {
       "kind": "scene",
@@ -641,7 +665,8 @@
         "mr-sawyer"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "At nine o'clock, Mr. Sawyer sits indoors reading a book while his newspaper lies nearby."
     }
   },
   "verification": {
@@ -692,5 +717,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

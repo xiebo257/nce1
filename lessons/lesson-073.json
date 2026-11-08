@@ -1502,8 +1502,18 @@
     }
   ],
   "characters": {
-    "mrs-mills": "A woman who loses her way in London and asks a tourist for the way to King Street.",
-    "german-tourist": "A German tourist at the bus stop who smiles pleasantly but does not speak English."
+    "mrs-mills": {
+      "description": "A woman who loses her way in London and asks a tourist for the way to King Street.",
+      "name": "mrs mills",
+      "illustration_appearance": "Woman about 50, softly curled auburn bob, small navy hat, camel coat, burgundy scarf, brown handbag.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "german-tourist": {
+      "description": "A German tourist at the bus stop who smiles pleasantly but does not speak English.",
+      "name": "german tourist",
+      "illustration_appearance": "Man about 40, short sandy hair, small neat moustache, gray jacket, pale blue shirt, small dark-green phrasebook.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-073-scene-01": {
@@ -1514,7 +1524,8 @@
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Mills is walking along a street in London; she suddenly has an idea."
     },
     "lesson-073-scene-02": {
       "kind": "scene",
@@ -1525,7 +1536,8 @@
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Mills sees a man waiting at the bus stop and stops him."
     },
     "lesson-073-scene-03": {
       "kind": "scene",
@@ -1536,7 +1548,8 @@
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Mills asks the man if this is a long way to King Street."
     },
     "lesson-073-scene-04": {
       "kind": "scene",
@@ -1547,7 +1560,8 @@
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The man smiles pleasantly at Mrs. Mills without answering her question."
     },
     "lesson-073-scene-05": {
       "kind": "scene",
@@ -1558,7 +1572,8 @@
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Mills apologises and asks the man if he is English."
     },
     "lesson-073-scene-06": {
       "kind": "scene",
@@ -1569,7 +1584,8 @@
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The man tells Mrs. Mills that he is German, not English."
     },
     "lesson-073-scene-07": {
       "kind": "scene",
@@ -1579,7 +1595,8 @@
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Mills realises why the man could not understand her and says, 'Oh, that's it!'"
     },
     "lesson-073-scene-08": {
       "kind": "scene",
@@ -1589,7 +1606,8 @@
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The man takes a small phrasebook out of his pocket and reads it slowly: 'I do not speak English.'"
     },
     "lesson-073-scene-09": {
       "kind": "scene",
@@ -1600,7 +1618,8 @@
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Mills apologises to the man and says goodbye."
     }
   },
   "grammar_source_audit": {
@@ -1613,5 +1632,6 @@
     },
     "checked_answer_pages": 503,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

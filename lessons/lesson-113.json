@@ -224,10 +224,30 @@
   },
   "sources": [],
   "characters": {
-    "conductor": "Conductor 售票员",
-    "man": "Man 男子",
-    "passengers": "Passengers 乘客",
-    "tramps": "Two Tramps 俩流浪汉"
+    "conductor": {
+      "description": "Conductor 售票员",
+      "name": "conductor",
+      "illustration_appearance": "Male bus conductor about 45, short dark hair, navy uniform, peaked cap, leather ticket bag.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "man": {
+      "description": "Man 男子",
+      "name": "man",
+      "illustration_appearance": "Male passenger about 40, short brown hair, tan suit, blue tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "passengers": {
+      "description": "Passengers 乘客",
+      "name": "passengers",
+      "illustration_appearance": "Several different adult bus passengers, both men and women, wearing ordinary understated coats.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "tramps": {
+      "description": "Two Tramps 俩流浪汉",
+      "name": "tramps",
+      "illustration_appearance": "Two distinct adult men in worn brown and gray coats and soft caps, respectfully depicted, one with a short beard and the other clean-shaven.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l113-scene": {
@@ -235,7 +255,13 @@
       "status": "pending",
       "description": "Five panels on a bus: the conductor asking for fares, a man with a £10 note, passengers with no small change, the conductor telling the man to get off, and two tramps offering to help.",
       "source": "img/lesson-113-01-text.jpg (textbook p.229)",
-      "characters": ["conductor", "man", "passengers", "tramps"]
+      "characters": [
+        "conductor",
+        "man",
+        "tramps"
+      ],
+      "illustration_scene": "Inside an old London bus, the conductor and a seated passenger with a banknote look toward two men in worn coats. The two men each offer small coins from an open palm, kindly helping with change. Four main people clearly separated; a few soft-focus passengers behind."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

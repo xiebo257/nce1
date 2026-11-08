@@ -768,8 +768,18 @@
     }
   ],
   "characters": {
-    "george": "A man with curly light hair, wearing a jacket.",
-    "ken": "A man with dark hair, wearing a jacket."
+    "george": {
+      "description": "A man with curly light hair, wearing a jacket.",
+      "name": "george",
+      "illustration_appearance": "Man about 35, curly blond hair, brown jacket, cream shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "ken": {
+      "description": "A man with dark hair, wearing a jacket.",
+      "name": "ken",
+      "illustration_appearance": "Man about 35, short dark hair, navy jacket, pale blue shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-085-scene-01": {
@@ -781,7 +791,8 @@
         "ken"
       ],
       "source": "../img/lesson-085-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "George and Ken chat on a damp London pavement outside a small cinema. A wordless poster of Paris with the Eiffel Tower is in the window. Ken gestures while recalling the rain on his visit; George listens. No ticket prices or written title."
     }
   },
   "grammar_source_audit": {
@@ -794,5 +805,6 @@
     },
     "checked_answer_pages": 516,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

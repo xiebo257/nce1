@@ -892,8 +892,18 @@
     }
   ],
   "characters": {
-    "mr-croft": "A man with dark hair, wearing a patterned jacket and tie, holding his jaw in pain.",
-    "nurse": "A woman with curly hair and glasses, wearing a nurses cap and white uniform, sitting at a desk."
+    "mr-croft": {
+      "description": "A man with dark hair, wearing a patterned jacket and tie, holding his jaw in pain.",
+      "name": "mr croft",
+      "illustration_appearance": "Man about 40, short dark hair, brown checked jacket, white shirt, burgundy tie, pressing his hand against his sore jaw.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "nurse": {
+      "description": "A woman with curly hair and glasses, wearing a nurses cap and white uniform, sitting at a desk.",
+      "name": "nurse",
+      "illustration_appearance": "Woman about 35, short dark curls, round glasses, white nurse cap and white uniform.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-077-scene-01": {
@@ -905,7 +915,8 @@
         "nurse"
       ],
       "source": "../img/lesson-077-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "At a dentist reception desk, Mr Croft holds one cheek with a pained expression and leans toward the nurse, who explains that he must wait. A waiting-room chair and appointment book nearby. No calendar date or lettering."
     }
   },
   "grammar_source_audit": {
@@ -918,5 +929,6 @@
     },
     "checked_answer_pages": 507,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

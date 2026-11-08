@@ -862,12 +862,42 @@
     }
   ],
   "characters": {
-    "narrator": "The unnamed speaker of the lesson text, husband of the wife.",
-    "wife": "The narrator's wife, who comments 'Don't drive so quickly! You're not Billy Stewart!'",
-    "julie": "A friend of the narrator and his wife, who was at the race.",
-    "jack": "A friend of the narrator and his wife, who was at the race.",
-    "billy-stewart": "The winner of the 1995 race, in car number fifteen.",
-    "crowd": "The hundreds of spectators at the race."
+    "narrator": {
+      "description": "The unnamed speaker of the lesson text, husband of the wife.",
+      "name": "narrator",
+      "illustration_appearance": "Man about 35, short brown hair, clean-shaven, navy sweater over white collared shirt, gray trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "wife": {
+      "description": "The narrator's wife, who comments 'Don't drive so quickly! You're not Billy Stewart!'",
+      "name": "wife",
+      "illustration_appearance": "Woman about 35, shoulder-length auburn hair, mustard cardigan, cream blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "julie": {
+      "description": "A friend of the narrator and his wife, who was at the race.",
+      "name": "julie",
+      "illustration_appearance": "Woman about 30, short blond hair, pale blue cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "jack": {
+      "description": "A friend of the narrator and his wife, who was at the race.",
+      "name": "jack",
+      "illustration_appearance": "Man about 32, short dark curly hair, red casual jacket.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "billy-stewart": {
+      "description": "The winner of the 1995 race, in car number fifteen.",
+      "name": "billy stewart",
+      "illustration_appearance": "Adult race driver in a white racing suit and red helmet.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "crowd": {
+      "description": "The hundreds of spectators at the race.",
+      "name": "crowd",
+      "illustration_appearance": "Varied adult spectators in everyday clothes, kept behind a safety barrier.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-069-scene-01": {
@@ -878,17 +908,22 @@
         "crowd"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "A wide view of a race track curving past the grandstand, with crowds of spectators and the town in the background."
     },
     "lesson-069-scene-02": {
       "kind": "scene",
       "status": "pending",
       "description": "A packed grandstand of spectators behind a barrier, with a race car passing on the track below.",
       "characters": [
-        "crowd"
+        "narrator",
+        "wife",
+        "julie",
+        "jack"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "A packed grandstand of spectators behind a barrier, with a race car passing on the track below."
     },
     "lesson-069-scene-03": {
       "kind": "scene",
@@ -896,7 +931,8 @@
       "description": "A starter holding a checkered flag waves a line of race cars away from the starting grid.",
       "characters": [],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Race cars accelerate away from the starting line while spectators watch from behind a barrier. Wide view of a safe motor-racing circuit, cars all travelling in the same direction."
     },
     "lesson-069-scene-04": {
       "kind": "scene",
@@ -906,7 +942,8 @@
         "billy-stewart"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Billy Stewart drives a racing car prominently marked 15, leading the race past a checkered finish flag. He wears a red helmet. Low trackside view with spectators behind barriers; the only lettering is 15 on the car."
     },
     "lesson-069-scene-05": {
       "kind": "scene",
@@ -917,7 +954,8 @@
         "wife"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The narrator drives a car along a road while his wife points and shouts at him from the passenger seat."
     }
   },
   "grammar_source_audit": {
@@ -930,5 +968,6 @@
     },
     "checked_answer_pages": 500,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

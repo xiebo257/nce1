@@ -17,28 +17,114 @@
       },
       {
         "id": "l141-lesson-story",
-        "type": "text",
-        "source": "textbook-p285",
+        "type": "dialogue",
+        "source": "../img/lesson-141-01-text.jpg",
         "image": "l141-scene",
-        "text": "Sally's first train ride. 萨莉第一次乘火车旅行。Last week, my four-year-old daughter, Sally, was invited to a children's party. I decided to take her by train. Sally was very excited because she had never travelled on a train before. She sat near the window and asked questions about everything she saw. A pretty lady got on the train and sat near Sally. 'Hello, little girl,' she said. Sally did not answer, but stared at her. The lady was wearing a blue dress and a large, fashionable hat. After the train had reached the next station, the lady opened her handbag and took out her hand mirror.",
-        "translation": "萨莉第一次乘火车旅行。上星期，我四岁的女儿萨莉被邀请去参加一个儿童聚会。我决定带她乘火车去。萨莉非常兴奋，因为她以前从未乘过火车。她坐在窗户旁边，对她看到的一切问这问那。一位漂亮的女士上了火车，坐在萨莉旁边。「你好，小姑娘，」她说。萨莉没有回答，只是盯着她看。那位女士穿着一件蓝连衣裙，戴着一顶时髦的大帽子。火车到达下一站后，那位女士打开她的手提包，取出她的化妆镜。"
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "Mother",
+            "text": "Last week, my four-year-old daughter, Sally, was invited to a children's party. I decided to take her by train.",
+            "translation": "上星期，我四岁的女儿萨莉被邀请去参加一个儿童聚会。我决定带她坐火车去。"
+          },
+          {
+            "number": 2,
+            "speaker": "Mother",
+            "text": "Sally was very excited because she had never travelled on a train before. She sat near the window and asked questions about everything she saw.",
+            "translation": "萨莉非常兴奋，因为她以前从未乘过火车。她坐在窗边，对看到的一切都问个不停。"
+          },
+          {
+            "number": 3,
+            "speaker": "Mother",
+            "text": "Suddenly, a middle-aged lady got on the train and sat opposite Sally.",
+            "translation": "突然，一位中年女士上了火车，坐在萨莉对面。"
+          },
+          {
+            "number": 4,
+            "speaker": "Lady",
+            "text": "Hello, little girl.",
+            "translation": "你好，小姑娘。"
+          },
+          {
+            "number": 5,
+            "speaker": "Mother",
+            "text": "Sally did not answer, but looked at her curiously. The lady was dressed in a blue coat and a large, funny hat.",
+            "translation": "萨莉没有回答，却好奇地看着她。这位女士穿着蓝色外套，戴着一顶又大又滑稽的帽子。"
+          },
+          {
+            "number": 6,
+            "speaker": "Mother",
+            "text": "After the train had left the station, the lady opened her handbag and took out her powder compact. She then began to make up her face.",
+            "translation": "火车离站后，女士打开手提包，拿出了粉盒，开始化妆。"
+          },
+          {
+            "number": 7,
+            "speaker": "Sally",
+            "text": "Why are you doing that?",
+            "translation": "你为什么那样做？"
+          },
+          {
+            "number": 8,
+            "speaker": "Lady",
+            "text": "To make myself beautiful.",
+            "translation": "为了让自己漂亮。"
+          },
+          {
+            "number": 9,
+            "speaker": "Mother",
+            "text": "She put away her compact and smiled kindly.",
+            "translation": "她收起粉盒，亲切地笑了。"
+          },
+          {
+            "number": 10,
+            "speaker": "Sally",
+            "text": "But you are still ugly.",
+            "translation": "可是你仍然很丑。"
+          },
+          {
+            "number": 11,
+            "speaker": "Mother",
+            "text": "Sally was amused, but I was very embarrassed!",
+            "translation": "萨莉觉得很有趣，我却非常尴尬！"
+          }
+        ]
       },
       {
         "id": "l141-lesson-question",
         "type": "text",
         "source": "textbook-p285",
-        "text": "Question: 问题。Why was Sally excited? 萨莉为什么兴奋？",
-        "translation": "问题：萨莉为什么兴奋？"
+        "text": "Why was the mother embarrassed?",
+        "translation": "母亲为什么感到尴尬？"
       },
       {
         "id": "l141-lesson-vocab",
         "type": "vocabulary",
         "source": "textbook-p285",
         "items": [
-          {"word": "invite", "ipa": "/ɪnˈvaɪt/", "pos": "v.", "meaning": "邀请"},
-          {"word": "decide", "ipa": "/dɪˈsaɪd/", "pos": "v.", "meaning": "决定"},
-          {"word": "excited", "ipa": "/ɪkˈsaɪtɪd/", "pos": "adj.", "meaning": "兴奋的"},
-          {"word": "fashionable", "ipa": "/ˈfæʃənable/", "pos": "adj.", "meaning": "时髦的"}
+          {
+            "word": "invite",
+            "ipa": "/ɪnˈvaɪt/",
+            "pos": "v.",
+            "meaning": "邀请"
+          },
+          {
+            "word": "decide",
+            "ipa": "/dɪˈsaɪd/",
+            "pos": "v.",
+            "meaning": "决定"
+          },
+          {
+            "word": "excited",
+            "ipa": "/ɪkˈsaɪtɪd/",
+            "pos": "adj.",
+            "meaning": "兴奋的"
+          },
+          {
+            "word": "fashionable",
+            "ipa": "/ˈfæʃənable/",
+            "pos": "adj.",
+            "meaning": "时髦的"
+          }
         ]
       },
       {
@@ -46,9 +132,18 @@
         "type": "notes",
         "source": "textbook-p285",
         "items": [
-          {"title": "past perfect 的用法", "text": "过去完成时表示「过去的过去」：She had never travelled on a train before. (她以前从未乘过火车。)"},
-          {"title": "was invited 的用法", "text": "「被邀请」用被动语态：Sally was invited to a children's party. 本单元的语法练习正是围绕被动语态展开。"},
-          {"title": "decided to do 的用法", "text": "「决定做某事」用 decide + to do：I decided to take her by train."}
+          {
+            "title": "past perfect 的用法",
+            "text": "过去完成时表示「过去的过去」：She had never travelled on a train before. (她以前从未乘过火车。)"
+          },
+          {
+            "title": "was invited 的用法",
+            "text": "「被邀请」用被动语态：Sally was invited to a children's party. 本单元的语法练习正是围绕被动语态展开。"
+          },
+          {
+            "title": "decided to do 的用法",
+            "text": "「决定做某事」用 decide + to do：I decided to take her by train."
+          }
         ]
       }
     ],
@@ -193,9 +288,24 @@
     {"label": "Grammar Workbook p.562-563 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=577"}
   ],
   "characters": {
-    "Sally": "four-year-old daughter",
-    "narrator": "Sally's parent",
-    "lady": "pretty lady in a blue dress and fashionable hat"
+    "sally": {
+      "description": "Sally, a four-year-old girl, travelling by train for the first time.",
+      "name": "sally",
+      "illustration_appearance": "Four-year-old girl with dark wavy hair in two small pigtails, mustard cardigan, cream dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mother": {
+      "description": "Sally’s mother, seated beside her.",
+      "name": "mother",
+      "illustration_appearance": "Woman about 32, dark curly bob, pale green dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "lady": {
+      "description": "A middle-aged lady wearing a blue coat and a large funny hat, sitting opposite Sally and using a powder compact.",
+      "name": "lady",
+      "illustration_appearance": "Woman about 50, gray-brown curls, bright blue coat, very large decorative navy hat, dark handbag, small powder compact.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l141-scene": {
@@ -203,7 +313,18 @@
       "status": "pending",
       "description": "Sally sitting near a train window, looking out at the scenery, with a pretty lady in a blue dress and fashionable hat sitting next to her",
       "source": "img/lesson-141-01-text.jpg (textbook p.285)",
-      "reason": "No suitable crop available for the story scene"
+      "reason": "No suitable crop available for the story scene",
+      "illustration_scene": "Inside a train compartment, four-year-old Sally in her mustard cardigan sits beside her mother on the LEFT bench near the window. On the OPPOSITE bench, a middle-aged lady in a bright BLUE COAT and large decorative navy hat holds an open powder compact and gently applies face powder. Sally watches curiously; mother looks embarrassed. Three people, visibly facing across the space between the seats.",
+      "characters": [
+        "mother",
+        "sally",
+        "lady"
+      ]
     }
-  }
+  },
+  "illustration_source_corrections": {
+    "source": "../img/lesson-141-01-text.jpg",
+    "evidence": "Visually checked source scan and existing independently verified audio passage overrides. Corrected story/roles before creating illustrations; practice and grammar untouched."
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

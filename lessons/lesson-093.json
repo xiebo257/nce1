@@ -29,7 +29,12 @@
     }
   ],
   "characters": {
-    "nigel": "A middle-aged man in a pilot's uniform with a cap, the family's new next-door neighbour."
+    "nigel": {
+      "description": "A middle-aged man in a pilot's uniform with a cap, the family's new next-door neighbour.",
+      "name": "nigel",
+      "illustration_appearance": "Man about 40, short brown hair, navy airline pilot uniform, gold sleeve stripes and pilot cap.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-093-scene-01": {
@@ -40,7 +45,8 @@
         "nigel"
       ],
       "source": "../img/lesson-093-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Nigel, the experienced airline pilot, stands near a passenger aircraft on an airport apron holding a small flight bag. Clear daylight, airport terminal in the distance. One location, no travel montage."
     }
   },
   "sections": {
@@ -459,5 +465,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

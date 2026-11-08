@@ -660,10 +660,30 @@
     }
   ],
   "characters": {
-    "mr-sawyer": "Adult man with a round face, short dark hair, glasses, a brimmed hat and a collared coat; the children's father.",
-    "mrs-sawyer": "Adult woman with short, voluminous curly light hair, a round face and a patterned dress; the children's mother.",
-    "sawyer-boy": "School-age boy with short straight light hair and a school outfit; one of the Sawyer children.",
-    "sawyer-girl": "School-age girl with shoulder-length light hair and a school outfit; one of the Sawyer children."
+    "mr-sawyer": {
+      "description": "Adult man with a round face, short dark hair, glasses, a brimmed hat and a collared coat; the children's father.",
+      "name": "mr sawyer",
+      "illustration_appearance": "Father about 40, round face, short dark hair, rectangular glasses, brown brimmed hat, tan coat over pale blue shirt, navy trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mrs-sawyer": {
+      "description": "Adult woman with short, voluminous curly light hair, a round face and a patterned dress; the children's mother.",
+      "name": "mrs sawyer",
+      "illustration_appearance": "Mother about 38, round face, short curly blond hair, blue patterned dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "sawyer-boy": {
+      "description": "School-age boy with short straight light hair and a school outfit; one of the Sawyer children.",
+      "name": "sawyer boy",
+      "illustration_appearance": "Schoolboy about 9, short straight sandy hair, navy school blazer, white shirt, gray shorts.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "sawyer-girl": {
+      "description": "School-age girl with shoulder-length light hair and a school outfit; one of the Sawyer children.",
+      "name": "sawyer girl",
+      "illustration_appearance": "Schoolgirl about 7, shoulder-length sandy hair, navy school cardigan, white blouse, gray skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "scene-01": {
@@ -672,7 +692,8 @@
       "description": "The Sawyer family's house at number 87 King Street, with its front door and windows.",
       "characters": [],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "A modest two-storey British family house with a garden gate, brick walls and welcoming front door. The only text is the small house number 87 next to the door. Warm morning light."
     },
     "scene-02": {
       "kind": "scene",
@@ -684,7 +705,8 @@
         "sawyer-girl"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "In the morning Mr. Sawyer takes the two children to school as he leaves for work."
     },
     "scene-03": {
       "kind": "scene",
@@ -694,7 +716,8 @@
         "mrs-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Mrs. Sawyer stays at home and sweeps while doing the housework."
     },
     "scene-04": {
       "kind": "scene",
@@ -704,7 +727,8 @@
         "mrs-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Mrs. Sawyer eats lunch at the table at noon, with a clock visible nearby."
     },
     "scene-05": {
       "kind": "scene",
@@ -714,7 +738,8 @@
         "mrs-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "In the afternoon Mrs. Sawyer sits with two friends and they drink tea together."
     },
     "scene-06": {
       "kind": "scene",
@@ -725,7 +750,8 @@
         "sawyer-girl"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "The two Sawyer children return home from school early in the evening."
     },
     "scene-07": {
       "kind": "scene",
@@ -735,7 +761,8 @@
         "mr-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "Mr. Sawyer arrives home late from work in his car outside the family house."
     },
     "scene-08": {
       "kind": "scene",
@@ -748,7 +775,8 @@
         "sawyer-girl"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred."
+      "reason": "Odd lesson: story scene illustration deferred.",
+      "illustration_scene": "A cozy family living room at night. The Sawyer boy and girl do homework together at a small table. Mr Sawyer reads a newspaper in an armchair and Mrs Sawyer watches television nearby. Exactly four people, same established faces and clothing."
     }
   },
   "verification": {
@@ -799,5 +827,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

@@ -694,8 +694,18 @@
     }
   ],
   "characters": {
-    "Brian": "man who fills in football pools",
-    "Julie": "Brian's wife"
+    "Brian": {
+      "description": "man who fills in football pools",
+      "name": "Brian",
+      "illustration_appearance": "Man about 38, short dark hair, cream shirt, navy cardigan.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "Julie": {
+      "description": "Brian's wife",
+      "name": "Julie",
+      "illustration_appearance": "Woman about 35, auburn bob, pale green blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l137-scene": {
@@ -703,7 +713,12 @@
       "status": "pending",
       "description": "Brian and Julie sitting at a table discussing their football pools dreams, with a mink coat and a house in the country illustrated",
       "source": "img/lesson-137-01-text.jpg (textbook p.277)",
-      "reason": "No suitable crop available for the dialogue scene"
+      "reason": "No suitable crop available for the dialogue scene",
+      "illustration_scene": "Brian and Julie sit at their living-room table discussing dreams of travel. Brian holds a pencil over a football-pools coupon with small unlettered boxes; Julie smiles thoughtfully. A globe and a holiday brochure sit nearby. They are still at home, not already wealthy.",
+      "characters": [
+        "Brian",
+        "Julie"
+      ]
     }
   },
   "grammar_source_audit": {
@@ -716,5 +731,6 @@
     },
     "checked_answer_pages": 572,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

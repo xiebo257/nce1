@@ -267,60 +267,100 @@
     {"label": "Lesson 71 grammar answer key", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501"}
   ],
   "characters": {
-    "jane": "Asks Pauline about Ron Marston.",
-    "pauline": "Tells Jane about Ron Marston's repeated phone calls.",
-    "ron-marston": "The man who has been telephoning Pauline repeatedly.",
-    "boss": "Pauline's boss, who answered the telephone.",
-    "pauline-mother": "Pauline's mother, who told Ron Marston not to telephone again."
+    "jane": {
+      "description": "Asks Pauline about Ron Marston.",
+      "name": "jane",
+      "illustration_appearance": "Woman about 27, short blond bob, pale blue blouse, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "pauline": {
+      "description": "Tells Jane about Ron Marston's repeated phone calls.",
+      "name": "pauline",
+      "illustration_appearance": "Woman about 27, shoulder-length dark brown hair, cream blouse, teal cardigan, dark skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "ron-marston": {
+      "description": "The man who has been telephoning Pauline repeatedly.",
+      "name": "ron marston",
+      "illustration_appearance": "Man about 30, short brown hair, round glasses, tan jacket, green tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "boss": {
+      "description": "Pauline's boss, who answered the telephone.",
+      "name": "boss",
+      "illustration_appearance": "Man about 55, bald crown, round glasses, navy suit, white shirt, burgundy tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-071-scene-01": {
       "kind": "scene",
       "status": "pending",
       "description": "Jane and Pauline talk; Pauline looks annoyed as she describes Ron Marston's repeated phone calls.",
-      "characters": ["jane", "pauline"],
+      "characters": [
+        "jane",
+        "pauline"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Jane and Pauline talk; Pauline looks annoyed as she describes Ron Marston's repeated phone calls."
     },
     "lesson-071-scene-02": {
       "kind": "scene",
       "status": "pending",
       "description": "Pauline's boss, a bald man with glasses, answers the telephone at his desk while Pauline looks on.",
-      "characters": ["boss", "pauline"],
+      "characters": [
+        "boss",
+        "pauline"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Pauline's boss, a bald man with glasses, answers the telephone at his desk while Pauline looks on."
     },
     "lesson-071-scene-03": {
       "kind": "scene",
       "status": "pending",
       "description": "The boss speaks on the telephone; Ron Marston (a man with glasses) listens on the other end.",
-      "characters": ["boss", "ron-marston"],
+      "characters": [
+        "boss",
+        "ron-marston"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "A two-part telephone scene: on the left the bald boss with glasses speaks firmly into his desk phone at the office; on the right Ron Marston in glasses and tan jacket listens to a receiver in a different room. Two separate locations, no Pauline, no captions."
     },
     "lesson-071-scene-04": {
       "kind": "scene",
       "status": "pending",
       "description": "Pauline arrives home at six o'clock; the telephone rings on the table and she looks surprised.",
-      "characters": ["pauline"],
+      "characters": [
+        "pauline"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Pauline arrives home at six o'clock; the telephone rings on the table and she looks surprised."
     },
     "lesson-071-scene-05": {
       "kind": "scene",
       "status": "pending",
-      "description": "The telephone rings again at nine o'clock; Pauline, in her nightgown, reaches for it.",
-      "characters": ["pauline"],
+      "description": "At home in the evening, Pauline reaches for the ringing telephone; she keeps the same hair and teal cardigan.",
+      "characters": [
+        "pauline"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "At home in the evening, Pauline reaches for the ringing telephone; she keeps the same hair and teal cardigan."
     },
     "lesson-071-scene-06": {
       "kind": "scene",
       "status": "pending",
-      "description": "Pauline's mother speaks on the telephone; Ron Marston listens on the other end.",
-      "characters": ["pauline-mother", "ron-marston"],
+      "description": "Pauline herself speaks firmly into the telephone, pretending to be her mother. Show Pauline, not a separate mother character.",
+      "characters": [
+        "pauline"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Pauline herself speaks firmly into the telephone, pretending to be her mother. Show Pauline, not a separate mother character."
     },
     "lesson-071-scene-07": {
       "kind": "scene",
@@ -328,7 +368,9 @@
       "description": "The telephone sits silent on the table; a clock shows the time. No more calls.",
       "characters": [],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=141",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "A silent black rotary telephone rests on the same wooden side table in Pauline’s warm living room, receiver properly on its cradle. Quiet evening light; no people."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

@@ -668,9 +668,24 @@
     }
   ],
   "characters": {
-    "sam": "A man with dark hair, wearing a jacket.",
-    "carol": "A woman with light hair, wearing a floral dress.",
-    "tom": "A man with dark hair and a moustache, wearing a patterned shirt."
+    "sam": {
+      "description": "A man with dark hair, wearing a jacket.",
+      "name": "sam",
+      "illustration_appearance": "Man about 35, short dark hair, navy jacket, pale blue shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "carol": {
+      "description": "A woman with light hair, wearing a floral dress.",
+      "name": "carol",
+      "illustration_appearance": "Woman about 33, short blond curls, light blue floral dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "tom": {
+      "description": "A man with dark hair and a moustache, wearing a patterned shirt.",
+      "name": "tom",
+      "illustration_appearance": "Man about 35, short dark hair and a neat moustache, cream patterned shirt, dark trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-081-scene-01": {
@@ -683,7 +698,9 @@
         "tom"
       ],
       "source": "../img/lesson-081-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Tom and Sam sit in separate living-room armchairs with small glasses of whisky. Carol stands at the open kitchen doorway holding a serving dish of roast beef and potatoes, giving them an amused, exasperated look."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

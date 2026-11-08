@@ -278,44 +278,80 @@
     {"label": "Lesson 67 grammar answer key continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=499"}
   ],
   "characters": {
-    "mrs-johnson": "A woman with blonde curly hair, wearing a coat and holding a basket.",
-    "mrs-williams": "A woman with dark bob hair, wearing a coat and holding a basket."
+    "mrs-johnson": {
+      "description": "A woman with blonde curly hair, wearing a coat and holding a basket.",
+      "name": "mrs johnson",
+      "illustration_appearance": "Woman about 40, short blond curls, camel coat, brown wicker shopping basket.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mrs-williams": {
+      "description": "A woman with dark bob hair, wearing a coat and holding a basket.",
+      "name": "mrs williams",
+      "illustration_appearance": "Woman about 40, dark bob haircut, teal coat, light wicker shopping basket.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-067-scene-01": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Johnson and Mrs. Williams meet outside the greengrocer's and the butcher's, each holding a basket, and begin to talk.",
-      "characters": ["mrs-johnson", "mrs-williams"],
+      "characters": [
+        "mrs-johnson",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=133",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Johnson and Mrs. Williams meet outside the greengrocer's and the butcher's, each holding a basket, and begin to talk."
     },
     "lesson-067-scene-02": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Johnson says she was at the greengrocer's, not the butcher's, and asks how Jimmy is today.",
-      "characters": ["mrs-johnson", "mrs-williams"],
+      "characters": [
+        "mrs-johnson",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=133",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Johnson says she was at the greengrocer's, not the butcher's, and asks how Jimmy is today."
     },
     "lesson-067-scene-03": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Williams says Jimmy was absent on Monday, Tuesday, Wednesday and Thursday, and asks how the Johnsons are all keeping.",
-      "characters": ["mrs-johnson", "mrs-williams"],
+      "characters": [
+        "mrs-johnson",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=133",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Williams says Jimmy was absent on Monday, Tuesday, Wednesday and Thursday, and asks how the Johnsons are all keeping."
     },
     "lesson-067-scene-04": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Johnson says they are going to spend three days in the country and stay at her mother's for the weekend.",
-      "characters": ["mrs-johnson", "mrs-williams"],
+      "characters": [
+        "mrs-johnson",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=133",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Johnson says they are going to spend three days in the country and stay at her mother's for the weekend."
     },
     "lesson-067-scene-05": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Williams exclaims that Friday, Saturday and Sunday in the country is very lucky.",
-      "characters": ["mrs-johnson", "mrs-williams"],
+      "characters": [
+        "mrs-johnson",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=133",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Williams exclaims that Friday, Saturday and Sunday in the country is very lucky."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

@@ -29,10 +29,30 @@
     }
   ],
   "characters": {
-    "george": "A man with dark hair, one of the two travellers.",
-    "ken": "A man with curly blond hair, George's travelling companion.",
-    "attendant": "The ticket clerk at the station.",
-    "porter": "A station porter in a cap, who checks tickets."
+    "george": {
+      "description": "A man with dark hair, one of the two travellers.",
+      "name": "george",
+      "illustration_appearance": "Man about 35, short dark hair, gray jacket, white shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "ken": {
+      "description": "A man with curly blond hair, George's travelling companion.",
+      "name": "ken",
+      "illustration_appearance": "Man about 35, curly blond hair, tan jacket, blue shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "attendant": {
+      "description": "The ticket clerk at the station.",
+      "name": "attendant",
+      "illustration_appearance": "Male railway ticket clerk about 45, navy uniform.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "porter": {
+      "description": "A station porter in a cap, who checks tickets.",
+      "name": "porter",
+      "illustration_appearance": "Male station porter about 50, navy uniform and peaked cap.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-095-scene-01": {
@@ -42,11 +62,11 @@
       "characters": [
         "george",
         "ken",
-        "attendant",
         "porter"
       ],
       "source": "../img/lesson-095-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "On a railway platform, George and Ken hold tickets and look dismayed as the uniformed porter explains they have missed their train. A departing passenger train is distant in the background. No readable clocks or timetable."
     }
   },
   "sections": {
@@ -750,5 +770,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

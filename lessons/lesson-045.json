@@ -6,9 +6,24 @@
   "description": "Ask for help politely, talk about ability, and practise can and can’t.\n礼貌地请求帮助，谈论能力，练习 can 和 can’t。",
   "answer_note": "Workbook and grammar keys were checked against the linked source pages. Suggested answers are labelled. Fill-in answers list missing words in order. Worked examples are excluded from progress. Pronoun alternatives follow the answer key.",
   "characters": {
-    "boss": "Recurring boss: middle-aged man, short dark hair, rectangular glasses, navy suit, white shirt, burgundy tie.",
-    "bob": "Recurring Bob: young adult man, short chestnut hair, light blue shirt, charcoal trousers.",
-    "pamela": "Recurring Pamela: young adult woman, shoulder-length dark brown hair, cream blouse, teal cardigan."
+    "boss": {
+      "description": "Recurring boss: middle-aged man, short dark hair, rectangular glasses, navy suit, white shirt, burgundy tie.",
+      "name": "boss",
+      "illustration_appearance": "Man about 50, short dark hair with gray temples, rectangular glasses, navy suit, white shirt, burgundy tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "bob": {
+      "description": "Recurring Bob: young adult man, short chestnut hair, light blue shirt, charcoal trousers.",
+      "name": "bob",
+      "illustration_appearance": "Man about 27, short chestnut hair, clean-shaven, light blue collared shirt, charcoal trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "pamela": {
+      "description": "Recurring Pamela: young adult woman, shoulder-length dark brown hair, cream blouse, teal cardigan.",
+      "name": "pamela",
+      "illustration_appearance": "Woman about 27, shoulder-length straight dark brown hair, cream blouse, teal cardigan, dark skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "scene-01": {
@@ -20,7 +35,8 @@
         "bob"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The boss calls Bob to his desk for a moment."
     },
     "scene-02": {
       "kind": "scene",
@@ -31,7 +47,8 @@
         "bob"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Bob tells the boss that Pamela is in her office next door."
     },
     "scene-03": {
       "kind": "scene",
@@ -42,7 +59,8 @@
         "bob"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The boss gives Bob a handwritten letter and asks him to have Pamela type it."
     },
     "scene-04": {
       "kind": "scene",
@@ -53,7 +71,8 @@
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "In Pamela’s office, Bob asks Pamela to type the boss’s letter and she agrees."
     },
     "scene-05": {
       "kind": "scene",
@@ -64,7 +83,8 @@
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Bob hands Pamela the handwritten letter; she thanks him."
     },
     "scene-06": {
       "kind": "scene",
@@ -75,7 +95,8 @@
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Pamela looks puzzled at the letter and calls Bob back, saying she cannot type it."
     },
     "scene-07": {
       "kind": "scene",
@@ -85,7 +106,8 @@
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Pamela studies a handwritten letter covered in illegible scribbles; the boss’s handwriting is terrible."
     }
   },
   "sections": {
@@ -807,5 +829,6 @@
       "label": "Grammar answer key · PDF p. 478"
     }
   ],
-  "expected_answers": 54
+  "expected_answers": 54,
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

@@ -789,8 +789,18 @@
     }
   ],
   "characters": {
-    "mr-wood": "A man with dark hair and a hat, wearing a jacket.",
-    "attendant": "A woman with curly hair, wearing a patterned dress."
+    "mr-wood": {
+      "description": "A man with dark hair and a hat, wearing a jacket.",
+      "name": "mr wood",
+      "illustration_appearance": "Man about 45, dark hair under a brown brimmed hat, tan jacket, white shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "attendant": {
+      "description": "A woman with curly hair, wearing a patterned dress.",
+      "name": "attendant",
+      "illustration_appearance": "Woman about 35, short dark curls, muted blue patterned dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-087-scene-01": {
@@ -802,7 +812,9 @@
         "attendant"
       ],
       "source": "../img/lesson-087-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Inside a repair garage, Mr Wood and a garage attendant look at his badly crumpled car, its bonnet bent and front bumper crushed. The attendant gestures apologetically toward the damaged car. The collision happened earlier; show a stationary car under repair."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

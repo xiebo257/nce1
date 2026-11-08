@@ -690,8 +690,18 @@
     }
   ],
   "characters": {
-    "tom": "A man with dark hair, wearing a patterned jacket.",
-    "carol": "A woman with light hair, wearing a floral dress and carrying a shopping basket."
+    "tom": {
+      "description": "A man with dark hair, wearing a patterned jacket.",
+      "name": "tom",
+      "illustration_appearance": "Man about 35, short dark hair, brown checked jacket, pale blue shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "carol": {
+      "description": "A woman with light hair, wearing a floral dress and carrying a shopping basket.",
+      "name": "carol",
+      "illustration_appearance": "Woman about 33, short blond curls, light blue floral dress, wicker shopping basket.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-079-scene-01": {
@@ -703,7 +713,9 @@
         "carol"
       ],
       "source": "../img/lesson-079-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "At their kitchen table, Carol writes a shopping list in an open notebook while Tom stands beside her discussing the groceries. A near-empty jam jar and a few potatoes sit on the counter. One domestic scene."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

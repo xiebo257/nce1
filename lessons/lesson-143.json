@@ -781,7 +781,12 @@
     }
   ],
   "characters": {
-    "narrator": "writer who lives in a very old town"
+    "narrator": {
+      "description": "writer who lives in a very old town",
+      "name": "narrator",
+      "illustration_appearance": "Man about 45, short brown hair graying at the temples, olive green walking jacket, beige trousers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l143-scene": {
@@ -789,7 +794,11 @@
       "status": "pending",
       "description": "A cartoon of a man standing in a woods covered with rubbish: old cars, old refrigerators, a litter basket, and a sign reading 'ANYONE WHO LEAVES LITTER IN THESE WOODS WILL BE PROSECUTED'",
       "source": "img/lesson-143-01-text.jpg (textbook p.289)",
-      "reason": "No suitable crop available for the story scene"
+      "reason": "No suitable crop available for the story scene",
+      "illustration_scene": "A disappointed man walks through beautiful green woodland spoiled by dumped rubbish. Rusty abandoned cars and old refrigerators stand among the trees; paper, bottles, old tyres and tins cover the ground. An empty litter basket is visible beside the path. Wide environmental illustration, natural forest colors, no readable sign.",
+      "characters": [
+        "narrator"
+      ]
     }
   },
   "grammar_source_audit": {
@@ -802,5 +811,6 @@
     },
     "checked_answer_pages": 578,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

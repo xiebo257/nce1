@@ -722,9 +722,24 @@
     }
   ],
   "characters": {
-    "jill": "A young woman with a blonde bob haircut, wearing a coat.",
-    "father": "A man with dark hair, wearing a suit.",
-    "mother": "A woman with dark curly hair, wearing a light dress."
+    "jill": {
+      "description": "A young woman with a blonde bob haircut, wearing a coat.",
+      "name": "jill",
+      "illustration_appearance": "Teenage daughter about 17, neat blond bob, pale blue knee-length coat, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "father": {
+      "description": "A man with dark hair, wearing a suit.",
+      "name": "father",
+      "illustration_appearance": "Father about 45, short dark hair, charcoal suit, white shirt, burgundy tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mother": {
+      "description": "A woman with dark curly hair, wearing a light dress.",
+      "name": "mother",
+      "illustration_appearance": "Mother about 43, dark curly hair, cream dress with small blue flowers.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-065-scene-01": {
@@ -736,7 +751,8 @@
         "father"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Jill stands in the hall talking to her father, who asks what she is going to do this evening."
     },
     "lesson-065-scene-02": {
       "kind": "scene",
@@ -747,7 +763,8 @@
         "father"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The father tells Jill she mustn't come home late and must be home at half past ten; Jill protests she can't get home so early."
     },
     "lesson-065-scene-03": {
       "kind": "scene",
@@ -758,7 +775,8 @@
         "father"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Jill asks her father for the key to the front door; he refuses, saying no, she can't."
     },
     "lesson-065-scene-04": {
       "kind": "scene",
@@ -770,7 +788,8 @@
         "mother"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The mother tells the father Jill is eighteen and not a baby, and he should give her the key; the father agrees."
     },
     "lesson-065-scene-05": {
       "kind": "scene",
@@ -781,7 +800,8 @@
         "father"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The father hands Jill the key but warns her she mustn't come home after a quarter past eleven."
     },
     "lesson-065-scene-06": {
       "kind": "scene",
@@ -792,7 +812,8 @@
         "mother"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=129",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Jill says goodbye to her mother, who tells her to enjoy herself; Jill says they always enjoy themselves."
     }
   },
   "grammar_source_audit": {
@@ -805,5 +826,6 @@
     },
     "checked_answer_pages": 497,
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

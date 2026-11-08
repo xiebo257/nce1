@@ -29,8 +29,18 @@
     }
   ],
   "characters": {
-    "grandmother": "An elderly woman who can't hear very well and asks Penny to read Jimmy's card.",
-    "penny": "A young woman who reads Jimmy's card to her grandmother."
+    "grandmother": {
+      "description": "An elderly woman who can't hear very well and asks Penny to read Jimmy's card.",
+      "name": "grandmother",
+      "illustration_appearance": "Woman about 75, soft gray curls, round glasses, mauve cardigan, blue dress.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "penny": {
+      "description": "A young woman who reads Jimmy's card to her grandmother.",
+      "name": "penny",
+      "illustration_appearance": "Woman about 25, shoulder-length chestnut hair, pale blue blouse, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-101-scene-01": {
@@ -42,7 +52,8 @@
         "penny"
       ],
       "source": "../img/lesson-101-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "In a comfortable sitting room, Penny reads a postcard aloud beside an elderly woman seated in an armchair. The older woman cups a hand behind her ear to hear better. One postcard, warm attentive expressions."
     }
   },
   "sections": {
@@ -556,5 +567,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

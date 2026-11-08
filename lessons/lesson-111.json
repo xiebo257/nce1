@@ -187,9 +187,24 @@
   },
   "sources": [],
   "characters": {
-    "mr-frith": "Mr Frith 弗里斯先生",
-    "mrs-frith": "Mrs Frith 弗里斯夫人",
-    "assistant": "Assistant 店员"
+    "mr-frith": {
+      "description": "Mr Frith 弗里斯先生",
+      "name": "mr frith",
+      "illustration_appearance": "Man about 45, short brown hair, rectangular glasses, brown suit, cream shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mrs-frith": {
+      "description": "Mrs Frith 弗里斯夫人",
+      "name": "mrs frith",
+      "illustration_appearance": "Woman about 43, auburn bob, teal coat, cream blouse.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "assistant": {
+      "description": "Assistant 店员",
+      "name": "assistant",
+      "illustration_appearance": "Male shop assistant about 30, short dark hair, navy suit, white shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l111-scene": {
@@ -197,7 +212,13 @@
       "status": "pending",
       "description": "Mr Frith and Mrs Frith in an electrical shop looking at televisions with the assistant. Six panels showing the dialogue progression: the expensive £500 TV, the cheaper £300 TV, the hire purchase sign, and the final discussion.",
       "source": "img/lesson-111-01-text.jpg (textbook p.225)",
-      "characters": ["mr-frith", "mrs-frith", "assistant"]
+      "characters": [
+        "mr-frith",
+        "mrs-frith",
+        "assistant"
+      ],
+      "illustration_scene": "In an electrical appliance shop, Mrs Frith admires a large vintage television while Mr Frith looks worried about the price. The assistant gestures toward a smaller television beside it. Two clearly different televisions, no printed prices."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

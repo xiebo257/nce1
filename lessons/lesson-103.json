@@ -822,11 +822,15 @@
   "characters": {
     "gary": {
       "name": "Gary",
-      "description": "A student who passed English and Maths"
+      "description": "A student who passed English and Maths",
+      "illustration_appearance": "Male student about 18, short dark hair, pale blue shirt, navy school blazer.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
     },
     "richard": {
       "name": "Richard",
-      "description": "A student who failed the French test"
+      "description": "A student who failed the French test",
+      "illustration_appearance": "Male student about 18, short sandy hair, cream shirt, gray school blazer.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
     }
   },
   "images": {
@@ -838,7 +842,9 @@
         "gary",
         "richard"
       ],
-      "status": "pending"
+      "status": "pending",
+      "illustration_scene": "Gary and Richard stand outside a classroom after an examination, each holding a few exam papers. One looks worried about the difficult French test while the other offers encouragement. School corridor, no readable writing."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

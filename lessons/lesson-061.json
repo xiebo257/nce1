@@ -310,60 +310,114 @@
     {"label": "Lesson 61 grammar answer key continuation", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=494"}
   ],
   "characters": {
-    "mr-williams": "An adult man with short dark hair and a moustache, wearing a jacket and tie.",
-    "mrs-williams": "An adult woman with a short blonde bob, wearing a light jacket over a patterned blouse.",
-    "jimmy": "A schoolboy with dark curly hair, lying in bed or standing in the scene.",
-    "doctor": "An elderly bald man with grey hair at the sides, wearing a coat and tie."
+    "mr-williams": {
+      "description": "An adult man with short dark hair and a moustache, wearing a jacket and tie.",
+      "name": "mr williams",
+      "illustration_appearance": "Father about 42, short dark hair, neat moustache, brown jacket, white shirt, navy tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "mrs-williams": {
+      "description": "An adult woman with a short blonde bob, wearing a light jacket over a patterned blouse.",
+      "name": "mrs williams",
+      "illustration_appearance": "Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "jimmy": {
+      "description": "A schoolboy with dark curly hair, lying in bed or standing in the scene.",
+      "name": "jimmy",
+      "illustration_appearance": "Schoolboy about 8, short dark curly hair, pale blue pajamas, lying under a white duvet.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "doctor": {
+      "description": "An elderly bald man with grey hair at the sides, wearing a coat and tie.",
+      "name": "doctor",
+      "illustration_appearance": "Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "practice-c-example": {
-      "kind": "action", "status": "pending",
+      "kind": "action",
+      "status": "pending",
       "description": "A sick person at home taking medicine and staying in bed, matching the printed example: I have a bad cold today. I must stay at home and take some medicine.",
       "characters": [],
       "source": "../img/lesson-061-practice.jpg",
       "reason": "Odd lesson: workbook illustration deferred."
     },
     "lesson-061-scene-01": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Williams stands beside Mr. Williams near a desk with a telephone; they talk about Jimmy, who is in bed.",
-      "characters": ["mr-williams", "mrs-williams"],
+      "characters": [
+        "mr-williams",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Williams stands beside Mr. Williams near a desk with a telephone; they talk about Jimmy, who is in bed."
     },
     "lesson-061-scene-02": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Jimmy lies ill in bed with his parents beside him; the family decides to call the doctor.",
-      "characters": ["mr-williams", "mrs-williams", "jimmy"],
+      "characters": [
+        "mr-williams",
+        "mrs-williams",
+        "jimmy"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Jimmy lies ill in bed with his parents beside him; the family decides to call the doctor."
     },
     "lesson-061-scene-03": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "Mrs. Williams answers the question about the doctor's telephone number, 09754, while Mr. Williams is near the telephone.",
-      "characters": ["mr-williams", "mrs-williams"],
+      "characters": [
+        "mr-williams",
+        "mrs-williams"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "Mrs. Williams answers the question about the doctor's telephone number, 09754, while Mr. Williams is near the telephone."
     },
     "lesson-061-scene-04": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "The doctor bends over Jimmy in bed and examines his open mouth and tongue.",
-      "characters": ["jimmy", "doctor"],
+      "characters": [
+        "jimmy",
+        "doctor"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The doctor bends over Jimmy in bed and examines his open mouth and tongue."
     },
     "lesson-061-scene-05": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "The doctor tells Mr. Williams at the doorway that Jimmy has a bad cold and must stay in bed for a week.",
-      "characters": ["mr-williams", "doctor"],
+      "characters": [
+        "mr-williams",
+        "doctor"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The doctor tells Mr. Williams at the doorway that Jimmy has a bad cold and must stay in bed for a week."
     },
     "lesson-061-scene-06": {
-      "kind": "scene", "status": "pending",
+      "kind": "scene",
+      "status": "pending",
       "description": "The Williams parents and the doctor stand together; Mr. Williams explains that Jimmy does not like school.",
-      "characters": ["mr-williams", "mrs-williams", "doctor"],
+      "characters": [
+        "mr-williams",
+        "mrs-williams",
+        "doctor"
+      ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "The Williams parents and the doctor stand together; Mr. Williams explains that Jimmy does not like school."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

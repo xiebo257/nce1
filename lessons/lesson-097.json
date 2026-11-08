@@ -29,8 +29,18 @@
     }
   ],
   "characters": {
-    "mr-hall": "A man in a suit and tie who has lost his suitcase on the train to London.",
-    "attendant": "The clerk at the lost property office, wearing a cap."
+    "mr-hall": {
+      "description": "A man in a suit and tie who has lost his suitcase on the train to London.",
+      "name": "mr hall",
+      "illustration_appearance": "Man about 45, short brown hair, charcoal suit, white shirt, green tie.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "attendant": {
+      "description": "The clerk at the lost property office, wearing a cap.",
+      "name": "attendant",
+      "illustration_appearance": "Male lost-property clerk about 50, navy uniform and peaked cap.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "lesson-097-scene-01": {
@@ -42,7 +52,8 @@
         "attendant"
       ],
       "source": "../img/lesson-097-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred."
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "At a station lost-property counter, Mr Hall looks surprised while the attendant presents a small BLUE zippered suitcase with a paper label tied to its handle. Other differently sized cases on shelves. Keep the blue case the central object, label unlettered."
     }
   },
   "sections": {
@@ -785,5 +796,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

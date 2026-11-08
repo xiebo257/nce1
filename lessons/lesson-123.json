@@ -166,8 +166,18 @@
     {"label": "Grammar Workbook p.558-559 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=558"}
   ],
   "characters": {
-    "mike": "Mike, the man who took the photograph during his trip to Australia and grew a beard.",
-    "scott": "Scott, Mike's friend who is looking at the photograph."
+    "mike": {
+      "description": "Mike, the man who took the photograph during his trip to Australia and grew a beard.",
+      "name": "mike",
+      "illustration_appearance": "Man about 35, short brown hair, clean-shaven in the current conversation, pale blue shirt; the same man has a dark full beard in the photograph.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "scott": {
+      "description": "Scott, Mike's friend who is looking at the photograph.",
+      "name": "scott",
+      "illustration_appearance": "Man about 35, short blond hair, navy sweater over cream shirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "l123-scene": {
@@ -175,8 +185,13 @@
       "status": "pending",
       "description": "Six numbered panels: 1 Mike showing Scott the photograph; 2 the people in the photograph; 3 the ship they travelled on; 4 the man who offered him a job in Australia; 5 Mike himself with the beard; 6 Mike explaining that his wife didn't like the beard.",
       "source": "img/lesson-123-01-text.jpg (textbook p.249)",
-      "characters": ["mike", "scott"],
-      "reason": "Odd lesson: text first; illustration deferred."
+      "characters": [
+        "mike",
+        "scott"
+      ],
+      "reason": "Odd lesson: text first; illustration deferred.",
+      "illustration_scene": "In a sitting room, clean-shaven Mike shows Scott a printed holiday photograph, both studying it with amused interest. The small photograph depicts a bearded man on a ship deck; Mike himself is clean-shaven now. One natural scene, no collage."
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }

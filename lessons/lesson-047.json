@@ -45,8 +45,18 @@
     }
   ],
   "characters": {
-    "christine": "A woman with short, straight dark hair cut around her cheeks, wearing a light top; she is on the left side of the textbook coffee-table scenes.",
-    "ann": "A woman with light, curly hair gathered into rounded curls around her face, wearing a dark top; she is on the right side of the textbook coffee-table scenes."
+    "christine": {
+      "description": "A woman with short, straight dark hair cut around her cheeks, wearing a light top; she is on the left side of the textbook coffee-table scenes.",
+      "name": "christine",
+      "illustration_appearance": "Woman about 35, straight dark cheek-length bob, pale blue blouse, mustard skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    },
+    "ann": {
+      "description": "A woman with light, curly hair gathered into rounded curls around her face, wearing a dark top; she is on the right side of the textbook coffee-table scenes.",
+      "name": "ann",
+      "illustration_appearance": "Woman about 35, short light-blond rounded curls, burgundy blouse, navy skirt.",
+      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+    }
   },
   "images": {
     "scene-01": {
@@ -58,7 +68,8 @@
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred."
+      "reason": "Odd lesson: scene illustration deferred.",
+      "illustration_scene": "Christine and Ann face one another across a table with cups, a coffee pot and biscuits as Christine asks whether Ann likes coffee."
     },
     "scene-02": {
       "kind": "scene",
@@ -69,7 +80,8 @@
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred."
+      "reason": "Odd lesson: scene illustration deferred.",
+      "illustration_scene": "Christine offers Ann a cup across the coffee table; Ann reaches toward it."
     },
     "scene-03": {
       "kind": "scene",
@@ -80,7 +92,8 @@
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred."
+      "reason": "Odd lesson: scene illustration deferred.",
+      "illustration_scene": "Christine and Ann continue serving coffee at the table while discussing sugar."
     },
     "scene-04": {
       "kind": "scene",
@@ -91,7 +104,8 @@
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred."
+      "reason": "Odd lesson: scene illustration deferred.",
+      "illustration_scene": "Christine offers milk; Ann declines while holding her cup of coffee."
     },
     "scene-05": {
       "kind": "scene",
@@ -102,7 +116,8 @@
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred."
+      "reason": "Odd lesson: scene illustration deferred.",
+      "illustration_scene": "Christine and Ann sit at the table beside a plate of biscuits as Christine asks whether Ann likes them."
     },
     "scene-06": {
       "kind": "scene",
@@ -113,7 +128,8 @@
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred."
+      "reason": "Odd lesson: scene illustration deferred.",
+      "illustration_scene": "Christine offers Ann a plate of biscuits across the table."
     }
   },
   "sections": {
@@ -888,5 +904,6 @@
         }
       ]
     }
-  }
+  },
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
 }
