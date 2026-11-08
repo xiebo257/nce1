@@ -1,0 +1,109 @@
+{
+  "slot": "picture-332",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. A woman at a telephone telling a man to call the doctor; caption: '... call the doctor!'",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/064-picture-332-clean.png",
+  "lesson": 64,
+  "seed": 64019,
+  "width": 640,
+  "height": 624,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "2afa4d68c965d4a14ddd2d9f4308a7dc579b830b598d7c892a9ab3a8a32cdfbc",
+  "fingerprint": "a9fd27ffe3d363eb07dae32beb58f19de511302a2552ae467788913af1c3ff9f",
+  "sha256": "e46b88e1f5198afe27c7702198c4d81a87370c474237ba36ade7271cf3fba1e2",
+  "status": "visually-reviewed",
+  "seconds": 14.944444444444445,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 64901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 9 textbook picture tiles in their EXACT 3-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 960,
+    "height": 672,
+    "steps": 4,
+    "seconds": 134.5,
+    "peak_mlx_gb": 5.714,
+    "input_sha256": "6ad7806a00d2e4f28bf0c0674d1b5e0ba4b37fc9f969cc9fbbbc6dc48315c055",
+    "output_sha256": "075577131cc57a37a5222ae2aaa34c841382387d98a797cb6961d94025a2e0b8",
+    "slots": [
+      "picture-110",
+      "picture-221",
+      "picture-332",
+      "picture-443",
+      "picture-554",
+      "picture-665",
+      "picture-776",
+      "picture-887",
+      "picture-998"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/064-picture-110-clean.png",
+        "sha256": "44e079e858778ef21af298cea94f48a37f29170483dfbfa54c8e122aa953d21b"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-221-clean.png",
+        "sha256": "d02961347cb2567823dde617dcfbb93b68eb9f73accef5610b341697d93fdea2"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-332-clean.png",
+        "sha256": "2afa4d68c965d4a14ddd2d9f4308a7dc579b830b598d7c892a9ab3a8a32cdfbc"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-443-clean.png",
+        "sha256": "180527ce746c1e83b4e1ef8b76b176869ce00eea523400d95b66afe90d14496e"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-554-clean.png",
+        "sha256": "49e18490f0136242a5980abbd03349294977a70ae3d6a17eef51747c44e2b9ac"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-665-clean.png",
+        "sha256": "ab472f16b8774b3b1a5cbbed29f389f754b356f4b65f92fbe5a8986e662e1376"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-776-clean.png",
+        "sha256": "393da97f3b4e5b05ce4e65d9c870919c0b73e921464521111c6fbb85c4454d58"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-887-clean.png",
+        "sha256": "39dcd47ae9106642ec43353a5c50a572a878a5a69489415c1a1af634e1c29944"
+      },
+      {
+        "path": "illustrations/references/source/064-picture-998-clean.png",
+        "sha256": "40b58c9134ac9ed7589d3fca0d35618608c6fd1165719f85af47b8f44f1f0456"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      640,
+      0,
+      960,
+      224
+    ],
+    "output_size": [
+      320,
+      224
+    ],
+    "source_atlas_sha256": "6ad7806a00d2e4f28bf0c0674d1b5e0ba4b37fc9f969cc9fbbbc6dc48315c055",
+    "color_guide_sha256": "075577131cc57a37a5222ae2aaa34c841382387d98a797cb6961d94025a2e0b8",
+    "region_overrides": [
+      [
+        273,
+        166,
+        "#83b575"
+      ]
+    ],
+    "color_correction": "Blue blanket matches preceding two scenes; wife blouse green across all three."
+  },
+  "review_notes": "Nine prohibition scenes use original source ink and model-guided colors: aspirin, medicine, doctor, matches, library talking, noise, driving, leaning out window and vase. Same first-three faces/hair; wife blouse green and blanket blue. Source actions and person counts retained.",
+  "published_sha256": "3d0a346fe70667bf87803dba5979bdbc2a35174f59c91836708e50d2ddde7e87"
+}
