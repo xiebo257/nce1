@@ -88,7 +88,7 @@
 | 082 | I had ... | [2:56](082-1-lesson.wav) | [1:53](082-2-practice.wav) | [3:25](082-3-gramar.wav) | [脚本](scripts/082/README.md) |
 | 083 | Going on holiday | [1:57](083-1-lesson.wav) | [1:52](083-2-practice.wav) | [2:34](083-3-gramar.wav) | [脚本](scripts/083/README.md) |
 | 084 | Have you had ...? | [2:49](084-1-lesson.wav) | [2:42](084-2-practice.wav) | [4:02](084-3-gramar.wav) | [脚本](scripts/084/README.md) |
-| 085 | Paris in the spring | [2:17](085-1-lesson.wav) | [2:10](085-2-practice.wav) | [3:29](085-3-gramar.wav) | [脚本](scripts/085/README.md) |
+| 085 | Paris in the spring | [2:17](085-1-lesson.wav) | [2:10](085-2-practice.wav) | [4:26](085-3-gramar.wav) | [脚本](scripts/085/README.md) |
 | 086 | What have you done? | [4:06](086-1-lesson.wav) | [1:13](086-2-practice.wav) | [2:39](086-3-gramar.wav) | [脚本](scripts/086/README.md) |
 | 087 | A car crash | [1:58](087-1-lesson.wav) | [1:40](087-2-practice.wav) | [4:13](087-3-gramar.wav) | [脚本](scripts/087/README.md) |
 | 088 | Have you ... yet? | [4:03](088-1-lesson.wav) | [1:18](088-2-practice.wav) | [3:09](088-3-gramar.wav) | [脚本](scripts/088/README.md) |
@@ -105,7 +105,7 @@
 | 099 | Ow! | [2:29](099-1-lesson.wav) | [1:32](099-2-practice.wav) | [5:11](099-3-gramar.wav) | [脚本](scripts/099/README.md) |
 | 100 | He says that ... She says that ... They say that ... | [4:45](100-1-lesson.wav) | [3:05](100-2-practice.wav) | [2:32](100-3-gramar.wav) | [脚本](scripts/100/README.md) |
 | 101 | A card from Jimmy | [2:16](101-1-lesson.wav) | [2:14](101-2-practice.wav) | [3:46](101-3-gramar.wav) | [脚本](scripts/101/README.md) |
-| 102 | He says he ... She says she ... They say they ... | [3:51](102-1-lesson.wav) | [2:17](102-2-practice.wav) | [2:39](102-3-gramar.wav) | [脚本](scripts/102/README.md) |
+| 102 | He says he ... She says she ... They say they ... | [3:51](102-1-lesson.wav) | [2:17](102-2-practice.wav) | [2:48](102-3-gramar.wav) | [脚本](scripts/102/README.md) |
 | 103 | The French test | [2:51](103-1-lesson.wav) | [1:58](103-2-practice.wav) | [6:08](103-3-gramar.wav) | [脚本](scripts/103/README.md) |
 | 104 | Too, very, enough | [4:59](104-1-lesson.wav) | [2:31](104-2-practice.wav) | [4:56](104-3-gramar.wav) | [脚本](scripts/104/README.md) |
 | 105 | Full of mistakes | [1:29](105-1-lesson.wav) | [2:04](105-2-practice.wav) | [3:44](105-3-gramar.wav) | [脚本](scripts/105/README.md) |
