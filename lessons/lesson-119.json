@@ -706,18 +706,29 @@
   "images": {
     "l119-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Seven numbered panels: 1 a 'TRUE STORIES' book; 2 George reading in bed while two masked thieves climb into the kitchen; 3 the thieves in the dark dining room with a torch; 4 the thieves dropping the torch and running away; 5 George coming downstairs quickly; 6 George in the dining room with the light on, the thieves gone; 7 the parrot Henry in its cage while George smiles.",
       "source": "img/lesson-119-01-text.jpg (textbook p.241)",
       "characters": [
         "george",
         "parrot"
       ],
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "At night in the dining room with the light just switched on, George in pajamas smiles at his parrot Henry in its cage. A dropped torch lies on the floor and the room is otherwise empty. The thieves have already fled.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-119/l119-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A true story 一个真实的故事",
+      "alt": "At night in the dining room with the light just switched on, George in pajamas smiles at his parrot Henry in its cage.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 119017,
+        "manifest": "illustrations/manifests/119-l119-scene.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {
