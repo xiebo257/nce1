@@ -1,0 +1,28 @@
+{
+  "slot": "l135-scene",
+  "prompt": "In a London hotel lobby, Karen Marsh introduces her future husband Carlos to a reporter holding a notebook. Karen gestures toward Carlos, who stands close beside her and smiles. Three distinct adults, upholstered seats and warm hotel lighting. Exactly 3 people appear.  Appearance: karen-marsh: Actress about 40, dark waved hair, elegant blue dress, brown fur-look coat. carlos: Man about 45, short dark wavy hair, neat moustache, charcoal suit, white shirt. reporter: Male reporter about 35, short brown hair, gray suit, notebook. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "karen-marsh",
+    "carlos",
+    "reporter"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 135,
+  "seed": 135017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "e8dc71beafee42deecb41e93bdab1e36b6f45f8ca1820067c4a82d821fd6af7a",
+  "sha256": "9f8c36f540b43a776cd3383c96bd1e48d0be2a6bdf4f6c5f153ed87ba870072e",
+  "seconds": 43.05,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Three adults: Karen in blue and brown with moustached Carlos and reporter holding notes.",
+  "published_sha256": "ae639771eec2329708c1bf2bdd9a635ca878eebd785c22ff1809d74b575cbb94"
+}

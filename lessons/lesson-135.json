@@ -945,10 +945,9 @@
   "images": {
     "l135-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Karen Marsh arriving at her London hotel, being interviewed by reporters about her retirement plans",
       "source": "img/lesson-135-01-text.jpg (textbook p.273)",
-      "reason": "No suitable crop available for the story scene",
       "illustration_scene": "In a London hotel lobby, Karen Marsh introduces her future husband Carlos to a reporter holding a notebook. Karen gestures toward Carlos, who stands close beside her and smiles. Three distinct adults, upholstered seats and warm hotel lighting.",
       "characters": [
         "karen-marsh",
@@ -957,7 +956,19 @@
       ],
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-135/l135-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The latest report",
+      "alt": "In a London hotel lobby, Karen Marsh introduces her future husband Carlos to a reporter holding a notebook.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 135017,
+        "manifest": "illustrations/manifests/135-l135-scene.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {
