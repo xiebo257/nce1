@@ -68,7 +68,7 @@
 | 062 | What's the matter with them? What must they do? | [2:10](062-1-lesson.wav) | [2:42](062-2-practice.wav) | [4:27](062-3-gramar.wav) | [脚本](scripts/062/README.md) |
 | 063 | Thank you, doctor. | [2:20](063-1-lesson.wav) | [1:54](063-2-practice.wav) | [3:38](063-3-gramar.wav) | [脚本](scripts/063/README.md) |
 | 064 | Don't ...! You mustn't ...! | [3:44](064-1-lesson.wav) | [2:23](064-2-practice.wav) | [3:27](064-3-gramar.wav) | [脚本](scripts/064/README.md) |
-| 065 | Not a baby | [2:13](065-1-lesson.wav) | [2:02](065-2-practice.wav) | [4:20](065-3-gramar.wav) | [脚本](scripts/065/README.md) |
+| 065 | Not a baby | [2:12](065-1-lesson.wav) | [2:02](065-2-practice.wav) | [4:20](065-3-gramar.wav) | [脚本](scripts/065/README.md) |
 | 066 | What's the time? | [2:56](066-1-lesson.wav) | [2:32](066-2-practice.wav) | [3:03](066-3-gramar.wav) | [脚本](scripts/066/README.md) |
 | 067 | The weekend | [2:55](067-1-lesson.wav) | [2:32](067-2-practice.wav) | [4:22](067-3-gramar.wav) | [脚本](scripts/067/README.md) |
 | 068 | What's the time? | [2:01](068-1-lesson.wav) | [2:12](068-2-practice.wav) | [2:06](068-3-gramar.wav) | [脚本](scripts/068/README.md) |
@@ -113,7 +113,7 @@
 | 107 | It's too small. | [1:56](107-1-lesson.wav) | [2:42](107-2-practice.wav) | [5:10](107-3-gramar.wav) | [脚本](scripts/107/README.md) |
 | 108 | How do they compare? | [4:18](108-1-lesson.wav) | [2:48](108-2-practice.wav) | [3:46](108-3-gramar.wav) | [脚本](scripts/108/README.md) |
 | 109 | A good idea | [1:47](109-1-lesson.wav) | [1:40](109-2-practice.wav) | [5:44](109-3-gramar.wav) | [脚本](scripts/109/README.md) |
-| 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:43](110-2-practice.wav) | [5:28](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
+| 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:44](110-2-practice.wav) | [5:28](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
 | 111 | The most expensive model 最昂贵的型号 | [1:43](111-1-lesson.wav) | [2:43](111-2-practice.wav) | [6:52](111-3-gramar.wav) | [脚本](scripts/111/README.md) |
 | 112 | How do they compare? 比一比 | [0:56](112-1-lesson.wav) | [4:53](112-2-practice.wav) | [3:09](112-3-gramar.wav) | [脚本](scripts/112/README.md) |
 | 113 | Small change 零钱 | [2:35](113-1-lesson.wav) | [2:16](113-2-practice.wav) | [7:39](113-3-gramar.wav) | [脚本](scripts/113/README.md) |

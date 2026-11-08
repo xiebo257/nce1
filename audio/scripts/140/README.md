@@ -6,8 +6,12 @@
 | --- | ---: | ---: | ---: |
 | [140-1-lesson.wav](../../140-1-lesson.wav) | 174.6 | 40 | 20 |
 | [140-2-practice.wav](../../140-2-practice.wav) | 99.0 | 17 | 12 |
-| [140-3-gramar.wav](../../140-3-gramar.wav) | 233.6 | 54 | 30 |
+| [140-3-gramar.wav](../../140-3-gramar.wav) | 256.7 | 69 | 28 |
 
 词汇：本课没有独立的生词表。
+
+源文补正记录：
+
+- The printed name Qomolangma refers to Mount Everest. Audio uses the familiar English name Mount Everest because synthesis of Qomolangma was unstable; the original exercise wording and key remain on the page.
 
 角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。

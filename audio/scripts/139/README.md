@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [139-1-lesson.wav](../../139-1-lesson.wav) | 154.3 | 30 | 0 |
 | [139-2-practice.wav](../../139-2-practice.wav) | 111.8 | 27 | 17 |
-| [139-3-gramar.wav](../../139-3-gramar.wav) | 179.2 | 39 | 18 |
+| [139-3-gramar.wav](../../139-3-gramar.wav) | 352.0 | 94 | 45 |
 
 词汇：telephone engineer, on one's way home, repair, tag question, extra, overseas, engineering, company, line
 
