@@ -1,0 +1,28 @@
+{
+  "slot": "l117-scene",
+  "prompt": "At a family breakfast table, the father crouches to gather scattered coins from the dining-room floor. The mother watches their small son Tommy, who has noticed two coins near his chair. Show the moment before he puts anything in his mouth; no objects in mouths. Exactly 3 people appear.  Appearance: husband: Father about 35, short dark hair and a neat moustache, pale blue shirt, brown jacket. wife: Mother about 33, short dark curls, cream dress with small blue polka dots. tommy: Little boy about 3, short blond hair, mustard sweater and navy shorts. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "husband",
+    "wife",
+    "tommy"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 117,
+  "seed": 117017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "e28a9102ab122abeb42aed0f43dd081e70e4700ff39a76866c1681a59bdc6293",
+  "sha256": "0de1dc0bece2d2d05a447c94262cf9b8a99a5defd9e08af93d9ec1a604fe27b4",
+  "seconds": 38.23,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed parents and toddler at breakfast table; father crouches by scattered coins, mother watches child, no coin in mouth. Three people with coherent positions.",
+  "published_sha256": "e42942457a3ce1720defd3f5af1001db0dda1ddf3160c9ed2eeeff5fcd14e1b1"
+}

@@ -190,7 +190,7 @@
   "images": {
     "l117-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Six numbered panels: 1 the husband dropping coins on the dining room floor; 2 coins scattered all over the floor; 3 Tommy finding two small coins on the floor while the family has breakfast; 4 the husband and wife trying to get the coins out of Tommy's mouth; 5 Tommy having swallowed them; 6 the husband phoning from the office asking about Tommy.",
       "source": "img/lesson-117-01-text.jpg (textbook p.237)",
       "characters": [
@@ -198,11 +198,22 @@
         "wife",
         "tommy"
       ],
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "At a family breakfast table, the father crouches to gather scattered coins from the dining-room floor. The mother watches their small son Tommy, who has noticed two coins near his chair. Show the moment before he puts anything in his mouth; no objects in mouths.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-117/l117-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Tommy's breakfast 汤米的早餐",
+      "alt": "At a family breakfast table, the father crouches to gather scattered coins from the dining-room floor.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 117017,
+        "manifest": "illustrations/manifests/117-l117-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
