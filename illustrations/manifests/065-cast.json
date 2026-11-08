@@ -1,0 +1,30 @@
+{
+  "slot": "cast",
+  "prompt": "A horizontal character reference sheet with exactly 3 equal-width vertical panels in ONE row. Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. Left to right: 1. jill: Teenage daughter about 17, neat blond bob, pale blue knee-length coat, navy skirt. 2. father: Father about 45, short dark hair, charcoal suit, white shirt, burgundy tie. 3. mother: Mother about 43, dark curly hair, cream dress with small blue flowers. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Portraits only, no scene or props.",
+  "cast": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "reference": null,
+  "lesson": 65,
+  "seed": 65017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "719298374df3c32228716c17e98ffef5798b4c01bba2c937ae28122287a5a49f",
+  "sha256": "9bfa0c5bccac4d558ca193bd1fd8b57d11bc6145ec55af43b6e4615abdf9e33c",
+  "seconds": 38.86,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "reference_source": "illustrations/references/065-cast-source.png",
+  "reference_review": {
+    "sha256": "9bfa0c5bccac4d558ca193bd1fd8b57d11bc6145ec55af43b6e4615abdf9e33c",
+    "review_notes": "Three separate portraits, left to right: Jill with blond bob and blue blouse; dark-haired father in charcoal suit/burgundy tie; dark-curly-haired mother in cream floral clothing. Correct count and separated faces, no extra figures."
+  },
+  "review_notes": "Reviewed three distinct cast portraits and six final scenes. Jill retains blond bob and pale blue clothing; father retains dark hair, charcoal suit and burgundy tie; mother retains dark curls and cream floral dress. Key request and handoff match the dialogue. Scene 5 locally edited to remove a speech balloon. Scene 6 edited from separate portraits into one farewell hallway, then cropped to an upper-body framing to exclude an extra hanging arm. No remaining visible extra figures or written dialogue.",
+  "published_sha256": "46f6a5b16bc600b56fbb81f6b5374f7ea1b438dba401afcece7000c33683d464"
+}

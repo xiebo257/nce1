@@ -1,0 +1,59 @@
+{
+  "slot": "lesson-065-scene-06",
+  "prompt": "Jill says goodbye to her mother, who tells her to enjoy herself; Jill says they always enjoy themselves. Exactly 2 people appear. Image 1 is the appearance reference for jill. Image 2 is the appearance reference for mother. Keep their same faces, hairstyles and clothing. Appearance: jill: Teenage daughter about 17, neat blond bob, pale blue knee-length coat, navy skirt. mother: Mother about 43, dark curly hair, cream dress with small blue flowers. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "jill",
+    "mother"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jill",
+    "mother"
+  ],
+  "cast_layout": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 65,
+  "seed": 65023,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "9bfa0c5bccac4d558ca193bd1fd8b57d11bc6145ec55af43b6e4615abdf9e33c",
+  "fingerprint": "838980327030e19e411b0628fb8d0bf75e03f2d3fd7f3f88ea8dea5b848ad2f4",
+  "sha256": "56e8bacd6f8037a33f20f63c30551d113a7789e2e268d244703828385b08c77c",
+  "seconds": 48.98,
+  "peak_mlx_gb": 5.177,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "crop": [
+      0,
+      0,
+      768,
+      335
+    ],
+    "output_size": [
+      768,
+      335
+    ],
+    "reason": "Use a natural upper-body farewell framing, excluding an extra hanging arm below the young woman’s waist in the edited candidate.",
+    "source_sha256": "672b202d3174aeacc60901084d3d35d74ee9ea1ddb4713b199ce8685a4db34e5",
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Place these SAME two women together in ONE continuous photographic hallway scene, with no central divider. The young blond woman in blue is near the open front door saying goodbye with a small wave; her curly dark-haired mother in the cream floral dress stands inside smiling and waving back. Preserve both faces, hairstyles and clothing. Replace the gray portrait backgrounds with one warm home hallway. Exactly two women, no text or speech balloons.",
+        "seed": 650666,
+        "input_sha256": "a25be8e0bed2461a60b85693f9ddf270e2d28bd42a005ad27fa5b54dfd8d3672",
+        "output_sha256": "672b202d3174aeacc60901084d3d35d74ee9ea1ddb4713b199ce8685a4db34e5"
+      }
+    ]
+  },
+  "review_notes": "Reviewed three distinct cast portraits and six final scenes. Jill retains blond bob and pale blue clothing; father retains dark hair, charcoal suit and burgundy tie; mother retains dark curls and cream floral dress. Key request and handoff match the dialogue. Scene 5 locally edited to remove a speech balloon. Scene 6 edited from separate portraits into one farewell hallway, then cropped to an upper-body framing to exclude an extra hanging arm. No remaining visible extra figures or written dialogue.",
+  "published_sha256": "b3f46e34503541ebffcb11f749f268b3be511fdd9ef848b08549048353875211"
+}

@@ -1,0 +1,36 @@
+{
+  "slot": "lesson-065-scene-03",
+  "prompt": "Jill asks her father for the key to the front door; he refuses, saying no, she can't. Exactly 2 people appear. Image 1 is the appearance reference for jill. Image 2 is the appearance reference for father. Keep their same faces, hairstyles and clothing. Appearance: jill: Teenage daughter about 17, neat blond bob, pale blue knee-length coat, navy skirt. father: Father about 45, short dark hair, charcoal suit, white shirt, burgundy tie. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "jill",
+    "father"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jill",
+    "father"
+  ],
+  "cast_layout": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 65,
+  "seed": 65020,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "9bfa0c5bccac4d558ca193bd1fd8b57d11bc6145ec55af43b6e4615abdf9e33c",
+  "fingerprint": "bed323df4e8216a0960b08b1ced99ca9e70bdc2786e70c3f7531138081055ace",
+  "sha256": "66c18ddab6993febfaf7fae5c9572169e600cc0d453e57e3239e539460085b6c",
+  "seconds": 38.11,
+  "peak_mlx_gb": 5.186,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed three distinct cast portraits and six final scenes. Jill retains blond bob and pale blue clothing; father retains dark hair, charcoal suit and burgundy tie; mother retains dark curls and cream floral dress. Key request and handoff match the dialogue. Scene 5 locally edited to remove a speech balloon. Scene 6 edited from separate portraits into one farewell hallway, then cropped to an upper-body framing to exclude an extra hanging arm. No remaining visible extra figures or written dialogue.",
+  "published_sha256": "8e6161fe6973b809d2fd31253547babf795573196751c80a193ad44047c9c611"
+}

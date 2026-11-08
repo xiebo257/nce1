@@ -1,0 +1,48 @@
+{
+  "slot": "lesson-065-scene-05",
+  "prompt": "The father hands Jill the key but warns her she mustn't come home after a quarter past eleven. Exactly 2 people appear. Image 1 is the appearance reference for jill. Image 2 is the appearance reference for father. Keep their same faces, hairstyles and clothing. Appearance: jill: Teenage daughter about 17, neat blond bob, pale blue knee-length coat, navy skirt. father: Father about 45, short dark hair, charcoal suit, white shirt, burgundy tie. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "jill",
+    "father"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jill",
+    "father"
+  ],
+  "cast_layout": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 65,
+  "seed": 65022,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "9bfa0c5bccac4d558ca193bd1fd8b57d11bc6145ec55af43b6e4615abdf9e33c",
+  "fingerprint": "acecfe1b0171aafd1796c729fb2a6b47d3641f75b13968fb13f133ec33a81d02",
+  "sha256": "f063c57c324da70562f3e415fd70c4551a46b31d695f7a63de5bc68700dc5e79",
+  "seconds": 48.22,
+  "peak_mlx_gb": 5.186,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the speech balloon, its tail and all writing. Fill that area with the same plain hallway wall. Preserve Jill and her father, their faces, hair, blue and dark clothing, their hands exchanging the keys, the camera framing, colors and illustration style.",
+        "seed": 650555,
+        "input_sha256": "e372720147f99deb7c02bbaea954350df37b7ec5171326623b9cc625fbd4e548",
+        "output_sha256": "f063c57c324da70562f3e415fd70c4551a46b31d695f7a63de5bc68700dc5e79",
+        "seconds": 48.91
+      }
+    ]
+  },
+  "review_notes": "Reviewed three distinct cast portraits and six final scenes. Jill retains blond bob and pale blue clothing; father retains dark hair, charcoal suit and burgundy tie; mother retains dark curls and cream floral dress. Key request and handoff match the dialogue. Scene 5 locally edited to remove a speech balloon. Scene 6 edited from separate portraits into one farewell hallway, then cropped to an upper-body framing to exclude an extra hanging arm. No remaining visible extra figures or written dialogue.",
+  "published_sha256": "943c3347a37b1f4b6199da56320d8c07382049fbb7ac8fb1b50c1ac754a470ab"
+}

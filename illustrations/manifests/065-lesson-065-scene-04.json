@@ -1,0 +1,38 @@
+{
+  "slot": "lesson-065-scene-04",
+  "prompt": "The mother tells the father Jill is eighteen and not a baby, and he should give her the key; the father agrees. Exactly 3 people appear. Image 1 is the appearance reference for jill. Image 2 is the appearance reference for father. Image 3 is the appearance reference for mother. Keep their same faces, hairstyles and clothing. Appearance: jill: Teenage daughter about 17, neat blond bob, pale blue knee-length coat, navy skirt. father: Father about 45, short dark hair, charcoal suit, white shirt, burgundy tie. mother: Mother about 43, dark curly hair, cream dress with small blue flowers. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "cast_layout": [
+    "jill",
+    "father",
+    "mother"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 65,
+  "seed": 65021,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "9bfa0c5bccac4d558ca193bd1fd8b57d11bc6145ec55af43b6e4615abdf9e33c",
+  "fingerprint": "7188850d130de082cf8e789fa36cab0f7d6e4609448af14352552572861269d7",
+  "sha256": "8a31c55c16e668b73e52aec1ca5f4f90423df283cc61a8edf958510c9f7895c1",
+  "seconds": 46.28,
+  "peak_mlx_gb": 5.215,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed three distinct cast portraits and six final scenes. Jill retains blond bob and pale blue clothing; father retains dark hair, charcoal suit and burgundy tie; mother retains dark curls and cream floral dress. Key request and handoff match the dialogue. Scene 5 locally edited to remove a speech balloon. Scene 6 edited from separate portraits into one farewell hallway, then cropped to an upper-body framing to exclude an extra hanging arm. No remaining visible extra figures or written dialogue.",
+  "published_sha256": "f89fd6c311c86c01e146d2c7386b8aca934168a8dd137600d21c7282bb397838"
+}
