@@ -1,0 +1,491 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-080.html",
+  "source_items": 17,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 80.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 500177199,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Where can you get some cheese?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-1",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 345592103,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "At the grocer's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-1",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 125682812,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Where can you get some steak?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-2",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 1851887016,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "At the butcher's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-2",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 966888489,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Where can you get some writing paper?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-3",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 1750308941,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "At the newsagent's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-3",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 1883426365,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Where can you get some bread?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-4",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 1657765216,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "At the baker's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-4",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 711136653,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Where can you get some medicine?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-5",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 1363411146,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "At the chemist's.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-5",
+      "section": "Listening — match the items with the shops",
+      "generation_seed": 23770935,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "groceries. I'll pick up some groceries on the way home.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-groceries",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "groceries",
+      "generation_seed": 867993213,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "fruit. Would you like some fresh fruit?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-fruit",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "fruit",
+      "generation_seed": 1274384066,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "stationery. We ordered stationery for the office.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-stationery",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "stationery",
+      "generation_seed": 1024630292,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "narrator",
+      "text": "newsagent. The newsagent sells newspapers and magazines.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-newsagent",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "newsagent",
+      "generation_seed": 194202049,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Newsagent is mainly British. In the U.S., newsstand or convenience store may fit, depending on the business.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "vocabulary-newsagent",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "newsagent",
+      "generation_seed": 2108814822,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "chemist. The chemist answered my question about the medicine.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-chemist",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "chemist",
+      "generation_seed": 1425031341,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "For a shop selling medicine, Americans say pharmacy or drugstore. In American English, a chemist is normally a scientist.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.1,
+      "source_item": "vocabulary-chemist",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "chemist",
+      "generation_seed": 321258259,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I don't have any butter.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-1",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 489953885,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I haven't got any butter.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-1",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 49898910,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "You don't have any envelopes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-2",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 1418514485,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "You haven't got any envelopes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-2",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 2073534364,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "We don't have any milk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-3",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 1730844622,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We haven't got any milk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-3",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 1258233334,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "She doesn't have any biscuits.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-4",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 1911370934,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She hasn't got any biscuits.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-4",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 1131340100,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They don't have any stationery.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-5",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 4313742,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They haven't got any stationery.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-5",
+      "section": "Written A — Rewrite these sentences",
+      "generation_seed": 119324828,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have they got any bread?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-1",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 992185322,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They need a lot of bread. They haven't got much. They must go to the baker's to get some bread.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-1",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 514188156,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has she got any eggs?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-2",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 182307133,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She needs a lot of eggs. She hasn't got many. She must go to the grocer's to get some eggs.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-2",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 519255094,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have they got any magazines?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-3",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 2088289031,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They need a lot of magazines. They haven't got many. They must go to the newsagent's to get some magazines.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-3",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 126749329,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you got any beef?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-4",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 1837623373,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I need a lot of beef. I haven't got much. I must go to the butcher's to get some beef.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-4",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 1232494124,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has she got any butter?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-5",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 1556180243,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She needs a lot of butter. She hasn't got much. She must go to the grocer's to get some butter.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-5",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 1457574349,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have they got any bananas?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-6",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 903884739,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They need a lot of bananas. They haven't got many. They must go to the greengrocer's to get some bananas.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-6",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 1416435915,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has he got any medicine?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-7",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 428852132,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He needs a lot of medicine. He hasn't got much. He must go to the chemist's to get some medicine.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-7",
+      "section": "Written B — Make two statements for each question",
+      "generation_seed": 176336621,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "groceries",
+    "fruit",
+    "stationery",
+    "newsagent",
+    "chemist"
+  ],
+  "recovered_vocabulary": {}
+}
