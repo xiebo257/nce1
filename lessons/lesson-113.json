@@ -252,7 +252,7 @@
   "images": {
     "l113-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Five panels on a bus: the conductor asking for fares, a man with a £10 note, passengers with no small change, the conductor telling the man to get off, and two tramps offering to help.",
       "source": "img/lesson-113-01-text.jpg (textbook p.229)",
       "characters": [
@@ -262,7 +262,19 @@
       ],
       "illustration_scene": "Inside an old London bus, the conductor and a seated passenger with a banknote look toward two men in worn coats. The two men each offer small coins from an open palm, kindly helping with change. Four main people clearly separated; a few soft-focus passengers behind.",
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-113/l113-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Small change 零钱",
+      "alt": "Inside an old London bus, the conductor and a seated passenger with a banknote look toward two men in worn coats.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 113017,
+        "manifest": "illustrations/manifests/113-l113-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

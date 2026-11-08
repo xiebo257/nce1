@@ -1,0 +1,28 @@
+{
+  "slot": "l113-scene",
+  "prompt": "Inside an old London bus, the conductor and a seated passenger with a banknote look toward two men in worn coats. The two men each offer small coins from an open palm, kindly helping with change. Four main people clearly separated; a few soft-focus passengers behind.   Appearance: conductor: Male bus conductor about 45, short dark hair, navy uniform, peaked cap, leather ticket bag. man: Male passenger about 40, short brown hair, tan suit, blue tie. tramps: Two distinct adult men in worn brown and gray coats and soft caps, respectfully depicted, one with a short beard and the other clean-shaven. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "conductor",
+    "man",
+    "tramps"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 113,
+  "seed": 113017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "b6a5d7394ec2d84eba93f1b7654874a13b12bdde2ccf8f329cec0fd4b518c798",
+  "sha256": "52377b987810dad5f2542d63d87441c85bd1a217bfe567a97c6d98e3b459a0bb",
+  "seconds": 41.58,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed conductor, banknote passenger and two men offering coins on bus; four distinct main people and coherent open palms, distant passengers remain background.",
+  "published_sha256": "36efbfeef71e61c8741a6ea185c126197c7316743fbcc8c998a0150c7b406af4"
+}
