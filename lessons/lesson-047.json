@@ -61,75 +61,135 @@
   "images": {
     "scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Christine and Ann face one another across a table with cups, a coffee pot and biscuits as Christine asks whether Ann likes coffee.",
       "characters": [
         "christine",
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred.",
-      "illustration_scene": "Christine and Ann face one another across a table with cups, a coffee pot and biscuits as Christine asks whether Ann likes coffee."
+      "illustration_scene": "Christine and Ann face one another across a table with cups, a coffee pot and biscuits as Christine asks whether Ann likes coffee.",
+      "src": "assets/lesson-047/scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A cup of coffee",
+      "alt": "Christine and Ann face one another across a table with cups, a coffee pot and biscuits as Christine asks whether Ann likes coffee.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 47018,
+        "manifest": "illustrations/manifests/047-scene-01.json"
+      }
     },
     "scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Christine offers Ann a cup across the coffee table; Ann reaches toward it.",
       "characters": [
         "christine",
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred.",
-      "illustration_scene": "Christine offers Ann a cup across the coffee table; Ann reaches toward it."
+      "illustration_scene": "Christine offers Ann a cup across the coffee table; Ann reaches toward it.",
+      "src": "assets/lesson-047/scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A cup of coffee",
+      "alt": "Christine offers Ann a cup across the coffee table; Ann reaches toward it.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 47019,
+        "manifest": "illustrations/manifests/047-scene-02.json"
+      }
     },
     "scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Christine and Ann continue serving coffee at the table while discussing sugar.",
       "characters": [
         "christine",
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred.",
-      "illustration_scene": "Christine and Ann continue serving coffee at the table while discussing sugar."
+      "illustration_scene": "Christine and Ann continue serving coffee at the table while discussing sugar.",
+      "src": "assets/lesson-047/scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A cup of coffee",
+      "alt": "Christine and Ann continue serving coffee at the table while discussing sugar.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 47020,
+        "manifest": "illustrations/manifests/047-scene-03.json"
+      }
     },
     "scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Christine offers milk; Ann declines while holding her cup of coffee.",
       "characters": [
         "christine",
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred.",
-      "illustration_scene": "Christine offers milk; Ann declines while holding her cup of coffee."
+      "illustration_scene": "Christine offers milk; Ann declines while holding her cup of coffee.",
+      "src": "assets/lesson-047/scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A cup of coffee",
+      "alt": "Christine offers milk; Ann declines while holding her cup of coffee.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 47021,
+        "manifest": "illustrations/manifests/047-scene-04.json"
+      }
     },
     "scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Christine and Ann sit at the table beside a plate of biscuits as Christine asks whether Ann likes them.",
       "characters": [
         "christine",
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred.",
-      "illustration_scene": "Christine and Ann sit at the table beside a plate of biscuits as Christine asks whether Ann likes them."
+      "illustration_scene": "Christine and Ann sit at the table beside a plate of biscuits as Christine asks whether Ann likes them.",
+      "src": "assets/lesson-047/scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A cup of coffee",
+      "alt": "Christine and Ann sit at the table beside a plate of biscuits as Christine asks whether Ann likes them.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 47022,
+        "manifest": "illustrations/manifests/047-scene-05.json"
+      }
     },
     "scene-06": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Christine offers Ann a plate of biscuits across the table.",
       "characters": [
         "christine",
         "ann"
       ],
       "source": "../img/lesson-047-01-text.jpg",
-      "reason": "Odd lesson: scene illustration deferred.",
-      "illustration_scene": "Christine offers Ann a plate of biscuits across the table."
+      "illustration_scene": "Christine offers Ann a plate of biscuits across the table.",
+      "src": "assets/lesson-047/scene-06-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A cup of coffee",
+      "alt": "Christine offers Ann a plate of biscuits across the table.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 47023,
+        "manifest": "illustrations/manifests/047-scene-06.json"
+      }
     }
   },
   "sections": {
@@ -905,5 +965,6 @@
       ]
     }
   },
-  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "illustration_reference": "illustrations/references/047-cast.webp"
 }

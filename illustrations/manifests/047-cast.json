@@ -1,0 +1,24 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 2 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. christine: Woman about 35, straight dark cheek-length bob, pale blue blouse, mustard skirt. 2. ann: Woman about 35, short light-blond rounded curls, burgundy blouse, navy skirt. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "christine",
+    "ann"
+  ],
+  "reference": null,
+  "lesson": 47,
+  "seed": 47017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "25cc51b4620eff6bf5c672c26f9bbb155ebaff5fc82c3c02c89c7e35688ca93c",
+  "sha256": "8914a945f9d089bda19f9f89d5d8b1a00eae76e96458efae49493acd18172d4a",
+  "seconds": 36.1,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all six coffee/biscuit scenes. Christine retains dark bob, pale blue blouse and mustard lower garment; Ann retains blond waves, burgundy blouse and navy skirt. Two distinct women throughout; coffee service, sugar/milk discussion and biscuits match the dialogue. Scene 6 uses a closer framing of the shared biscuit plate to exclude a lower-garment variation. Drawing realism varies slightly between scenes but recurring visual traits remain recognizable.",
+  "published_sha256": "c7c814cfe5aa752e8a5ef5f24a0e8b738f19eebc1a16f1898eda0798775f4548"
+}

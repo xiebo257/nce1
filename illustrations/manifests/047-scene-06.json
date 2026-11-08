@@ -1,0 +1,47 @@
+{
+  "slot": "scene-06",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is christine, reference 2 is ann). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Christine offers Ann a plate of biscuits across the table. Characters in this scene: christine: Woman about 35, straight dark cheek-length bob, pale blue blouse, mustard skirt. ann: Woman about 35, short light-blond rounded curls, burgundy blouse, navy skirt. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "christine",
+    "ann"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "christine",
+    "ann"
+  ],
+  "cast_layout": [
+    "christine",
+    "ann"
+  ],
+  "lesson": 47,
+  "seed": 47023,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "8914a945f9d089bda19f9f89d5d8b1a00eae76e96458efae49493acd18172d4a",
+  "fingerprint": "ce5b2a1862d6a1536eec67aea8740382f4db82708b834921a679f255c952441c",
+  "sha256": "7e56b1faa6719ca5467863cd47f07a18e40495e1241f4a50434d3474b6445eb6",
+  "seconds": 64.62,
+  "peak_mlx_gb": 5.342,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "crop": [
+      100,
+      0,
+      640,
+      360
+    ],
+    "resize": [
+      768,
+      512
+    ],
+    "reason": "Closer framing on faces and shared biscuit plate; excludes inconsistent lower garment in original candidate.",
+    "source_sha256": "2d6602b23431a94ddd4a14667f11922356fd1a3f6f548e9157c0ee582d268bcb"
+  },
+  "review_notes": "Reviewed cast and all six coffee/biscuit scenes. Christine retains dark bob, pale blue blouse and mustard lower garment; Ann retains blond waves, burgundy blouse and navy skirt. Two distinct women throughout; coffee service, sugar/milk discussion and biscuits match the dialogue. Scene 6 uses a closer framing of the shared biscuit plate to exclude a lower-garment variation. Drawing realism varies slightly between scenes but recurring visual traits remain recognizable.",
+  "published_sha256": "d382df473775f5d96e5407a82aaacc90842795dbe2c55f2abfff39dcdd46a08a"
+}

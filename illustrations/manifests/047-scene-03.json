@@ -1,0 +1,33 @@
+{
+  "slot": "scene-03",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is christine, reference 2 is ann). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Christine and Ann continue serving coffee at the table while discussing sugar. Characters in this scene: christine: Woman about 35, straight dark cheek-length bob, pale blue blouse, mustard skirt. ann: Woman about 35, short light-blond rounded curls, burgundy blouse, navy skirt. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "christine",
+    "ann"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "christine",
+    "ann"
+  ],
+  "cast_layout": [
+    "christine",
+    "ann"
+  ],
+  "lesson": 47,
+  "seed": 47020,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "8914a945f9d089bda19f9f89d5d8b1a00eae76e96458efae49493acd18172d4a",
+  "fingerprint": "269b1d3cd411d4ee0cff3298ce697a036552d1aa5c74c98ac52b7f5986bddaa3",
+  "sha256": "820f6631c26bbef5f5c4176ff8469b445fb08f30df360b8ec927ea4355cfcf5f",
+  "seconds": 53.5,
+  "peak_mlx_gb": 5.342,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all six coffee/biscuit scenes. Christine retains dark bob, pale blue blouse and mustard lower garment; Ann retains blond waves, burgundy blouse and navy skirt. Two distinct women throughout; coffee service, sugar/milk discussion and biscuits match the dialogue. Scene 6 uses a closer framing of the shared biscuit plate to exclude a lower-garment variation. Drawing realism varies slightly between scenes but recurring visual traits remain recognizable.",
+  "published_sha256": "30fb8767e9bb4caa777ec935e1a81ef286fddf3f593542f5e146edae54662122"
+}
