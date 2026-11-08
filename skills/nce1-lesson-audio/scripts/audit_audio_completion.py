@@ -16,13 +16,13 @@ def main():
     args=parser.parse_args()
     root=Path('audio/work/batch-025-144')
     tracked=set(subprocess.check_output(['git','ls-files','--','audio'],text=True).splitlines())
-    states=[json.loads(p.read_text()) for p in root.glob('queue-*.json')]
+    states=[json.loads(p.read_text()) for p in sorted(root.glob('queue-*.json'),key=lambda p:p.stat().st_mtime,reverse=True)]
     lessons=[]
     published_paths=[]
     for n in range(1,args.end+1):
-        reviewed=[s for s in states if s['start']<=n<=s['end'] and s.get('pushed')]
+        reviewed=[s for s in states if s['start']<=n<=s['end']][:1]
         if n>=args.checked_start:
-            assert reviewed, f'Lesson {n} has not completed publication'
+            assert reviewed and reviewed[0].get('pushed'), f'Lesson {n} has not completed its latest publication'
         files=[]
         published_paths.append(f'audio/scripts/{n:03}')
         for part,suffix in PARTS:

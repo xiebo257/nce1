@@ -40,6 +40,10 @@ def fill(q,k):
 class Lesson(base.Lesson):
  def __init__(self,n):
   super().__init__(n);self.roles['answer']['speaker']='Ryan';self.roles['prompt']['speaker']='Aiden'
+  source_path=Path(f'lessons/lesson-{n:03}.json')
+  source=json.loads(source_path.read_text()) if source_path.exists() else {}
+  self.grammar_blocks={b['id']:b for b in source.get('sections',{}).get('grammar',[])}
+  self.grammar_questions={q['id']:q for b in self.grammar_blocks.values() for q in b.get('questions',[])}
   self.labels={normalize(e.text_content()) for e in self.root.xpath('//p[@class="small-label"]') if e.getparent().xpath('./p[@class="spoken"]')}
   for e in self.root.xpath('//*[@data-prompt]'):
    self.labels.update(re.findall(r'(?:^|\n| — )([A-Za-z][A-Za-z .\'-]{0,25}):',e.get('data-prompt')))
@@ -101,6 +105,10 @@ class Lesson(base.Lesson):
  def exercise(self,item,title,ins):
   if item['id'] in self.skip:return
   self.source=item['id'];q=item['data-prompt'];k=answer(item['data-key']);low=(title+' '+ins).lower()
+  explicit=self.grammar_questions.get(item['id'],{}).get('audio_segments') if self.part=='grammar' else None
+  if explicit is not None:
+   for segment in explicit:self.add(source=item['id'],**segment)
+   return
   rawk=k
   if '_' in q and '\n' in q and '/' in q.split('\n')[0] and '_' not in q.split('\n')[0]:q=q.split('\n',1)[1]
   if '_' in q and re.search(r'\bwill … say',k):k=k.replace('will … say','will, say')
@@ -223,12 +231,15 @@ class Lesson(base.Lesson):
     if t and not re.search(r'[/\u4e00-\u9fff_]|\.{2,}|…',t):self.add(t,source=f'lesson-note-{i}',pause=1)
    return
   self.section=title;self.source=None;title,ins=self.intro(art)
+  if self.part=='grammar':
+   block=self.grammar_blocks.get(art.getparent().get('id'),{})
+   for segment in block.get('audio_context',[]):self.add(**segment)
   for e in art.xpath('.//*[@data-key] | .//p[@class="section-intro"]'):
    if e.get('data-key') is not None:self.exercise(dict(e.attrib),title,ins)
    elif ':' in e.text_content():self.source='printed-dialogue-'+str(len(self.s));self.dialogue(normalize(e.text_content()))
- def compile(self):
+ def compile(self,parts=None):
   folder=Path(f'audio/scripts/{self.n:03}');folder.mkdir(parents=True,exist_ok=True)
-  for part in ['lesson','practice','grammar']:
+  for part in parts or ['lesson','practice','grammar']:
    self.part=part;self.s=[];self.section=part;self.source=None
    sec=self.root.xpath(f'//section[@id="{part}"]')[0]
    self.add(f'Lesson {self.n}.'+('' if part=='lesson' else ' Practice.' if part=='practice' else ' Grammar practice.'))
@@ -269,19 +280,24 @@ class Lesson(base.Lesson):
     repairs={(s['source_item'],s['role'],s['text']):s for s in json.loads(path.read_text())['segments']}
     for s in self.s:
      old=repairs.get((s['source_item'],s['role'],s['text']),{})
-     for key in ['generation_seed','generation_temperature']:
+     for key in ['generation_seed','generation_temperature','instructions']:
       if key in old:s[key]=old[key]
    path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
-  (folder/'roles.json').write_text(json.dumps(self.roles,ensure_ascii=False,indent=2)+'\n')
+  roles_path=folder/'roles.json'
+  if parts and roles_path.exists():
+   saved=json.loads(roles_path.read_text())
+   for role,value in self.roles.items():saved.setdefault(role,value)
+   self.roles=saved
+  roles_path.write_text(json.dumps(self.roles,ensure_ascii=False,indent=2)+'\n')
 
 def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);a=p.parse_args()
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);p.add_argument('--parts',nargs='+',choices=['lesson','practice','grammar']);a=p.parse_args()
  for name,target in [('vocabulary-examples.json',VOCAB),('vocabulary-usage.json',USAGE),('speech-overrides.json',OVERRIDES),('passage-overrides.json',PASSAGES),('recovered-vocabulary.json',RECOVERED)]:
   path=DATA/name
   if path.exists():target.update(json.loads(path.read_text()))
  failures=[]
  for n in range(a.start,a.end+1):
-  try:Lesson(n).compile()
+  try:Lesson(n).compile(a.parts)
   except (ValueError,AssertionError,IndexError) as e:failures.append(dict(lesson=n,error=str(e)))
  report=Path('audio/work/batch-025-144/compile-errors.json');report.parent.mkdir(parents=True,exist_ok=True);report.write_text(json.dumps(failures,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps(dict(compiled=a.end-a.start+1-len(failures),failures=failures),ensure_ascii=False))

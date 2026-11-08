@@ -1,5 +1,5 @@
 """Regression checks for source structures that previously caused silent speech errors."""
-import json,unittest
+import json,unittest,os,tempfile
 from pathlib import Path
 from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
 from run_audio_queue import benign
@@ -62,4 +62,42 @@ class CompilerRegression(unittest.TestCase):
    for part in ['lesson','practice','grammar']:
     for s in json.loads(Path(f'audio/scripts/{n:03}/{part}.json').read_text())['segments']:
      self.assertNotRegex(s['text'],r'^(?:[ABC]|George|1st Tramp|2nd Tramp|Actress|Reporter):')
+class PartialCompilerRegression(unittest.TestCase):
+ def test_partial_compile_keeps_other_parts_and_explicit_dialogue(self):
+  original=Path.cwd()
+  with tempfile.TemporaryDirectory() as tmp:
+   try:
+    os.chdir(tmp)
+    Path('html').mkdir();Path('lessons').mkdir()
+    folder=Path('audio/scripts/099');folder.mkdir(parents=True)
+    for part in ['lesson','practice']:(folder/f'{part}.json').write_text('previously reviewed '+part)
+    roles={'answer':{'speaker':'Vivian','instructions':'Keep this voice.'},'existing_character':{'speaker':'Dylan'}}
+    (folder/'roles.json').write_text(json.dumps(roles))
+    Path('html/lesson-099.html').write_text('''<section id="grammar"><div id="grammar-ii"><article>
+      <h3>Complete the conversation</h3><p class="instruction">Listen and answer.</p>
+      <textarea id="g2" data-prompt="A: ___ B: ___" data-key="yes; yesterday"></textarea>
+      </article></div></section>''')
+    block={'id':'grammar-ii','audio_context':[{'text':'The bus arrived.','source':'fixed-opening','role':'narrator'}],
+      'questions':[{'id':'g2','audio_segments':[{'text':'Did you see it?','role':'prompt','pause':1.7},
+        {'text':'Yes, I saw it yesterday.','role':'answer','pause':1.2}]}]}
+    Path('lessons/lesson-099.json').write_text(json.dumps({'sections':{'grammar':[block]}}))
+    Lesson(99).compile(['grammar'])
+    grammar=json.loads((folder/'grammar.json').read_text())
+    segments=grammar['segments']
+    self.assertEqual([s['text'] for s in segments[-3:]],['The bus arrived.','Did you see it?','Yes, I saw it yesterday.'])
+    self.assertEqual([s['source_item'] for s in segments[-3:]],['fixed-opening','g2','g2'])
+    self.assertEqual([s['role'] for s in segments[-2:]],['prompt','answer'])
+    self.assertEqual(segments[-2]['pause_after'],1.7)
+    segments[-1].update(generation_seed=123,generation_temperature=.45,instructions='Previously checked delivery.')
+    (folder/'grammar.json').write_text(json.dumps(grammar))
+    Lesson(99).compile(['grammar'])
+    repaired=json.loads((folder/'grammar.json').read_text())['segments'][-1]
+    self.assertEqual(repaired['generation_seed'],123)
+    self.assertEqual(repaired['generation_temperature'],.45)
+    self.assertEqual(repaired['instructions'],'Previously checked delivery.')
+    for part in ['lesson','practice']:self.assertEqual((folder/f'{part}.json').read_text(),'previously reviewed '+part)
+    saved=json.loads((folder/'roles.json').read_text())
+    for key,value in roles.items():self.assertEqual(saved[key],value)
+   finally:os.chdir(original)
+
 if __name__=='__main__':unittest.main()

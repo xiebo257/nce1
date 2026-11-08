@@ -161,6 +161,20 @@ The batch helper caches exact text, voice, instructions, model location and gene
 
 For connected speech, ask for light reductions of unstressed function words and natural linking at a normal pace. Preserve full forms when an exercise explicitly contrasts them with contractions. A short word plus a natural example in the same generation can be clearer than an unstable isolated word; keep the word audible before its example. Bare numerals can also produce unstable speech: spell out the number and use a brief natural context when needed, such as “That makes five” for a sum. Check number answers separately from digit-by-digit writing cues. If an isolated exercise word remains unclear, use a task-appropriate short sentence such as “The plural is skirts” or “The opposite is cold,” keeping the target answer intact. Do not infer correct linking, pitch, or accent from successful speech recognition.
 
+## Repairing source coverage
+
+When checking completeness, compare against the original exercise PDF and answer key independently of HTML. Inventory each lesson's groups, examples, subitems, fixed dialogue, tables and continuation pages. PDF bookmarks are hints: read the actual next lesson heading to establish boundaries. A full HTML field count or clean ASR result cannot detect a group already missing from HTML. Record source findings before batch repairs when requested; keep a durable per-lesson audit with page references and verification limits.
+
+Repair canonical `lessons/lesson-NNN.json`, render its HTML, then compile only the affected part:
+
+```sh
+python3 skills/nce1-lesson-audio/scripts/prepare_lessons.py --start 143 --end 143 --parts grammar
+```
+
+This preserves the other scripts and existing role presets. Exact matching segments keep their checked generation settings and delivery instructions. Review changed grammar segments before synthesis; recompilation does not preserve arbitrary hand edits whose text no longer matches. Keep source tasks intact: if learners must form questions about a given sentence, preserve that sentence and provide both the model questions and answers. Retain fixed dialogue responses and supporting tables instead of treating answer blanks as the whole exercise.
+
+For source structures needing explicit speech order, use question `audio_segments` and block `audio_context` in canonical JSON, as documented in [source speech metadata](references/source-speech-metadata.md). These describe completed speech without altering the HTML exercise. Validate the resulting source-item coverage and full dialogue order, then render, transcribe and review residual differences. Publish completed small batches under the session's existing authorization.
+
 ## Validation
 
 Check WAV decoding, sample rate, duration, and nonempty finite audio. Review unusually long short sentences, especially outputs at the generation token limit. Regenerate suspicious segments and preserve their selected seed/temperature in the source JSON.
