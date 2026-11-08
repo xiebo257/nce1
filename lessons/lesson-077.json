@@ -4,8 +4,8 @@
   "title": "Terrible toothache",
   "translation": "要命的牙痛",
   "description": "A dialogue lesson in which Mr. Croft visits the dentist's office with a terrible toothache and insists on seeing the doctor immediately, even though the nurse says the dentist is busy and suggests he wait till 2 p.m. or this afternoon. Mr. Croft's famous reply 'I can wait, but my toothache can't!' closes the lesson. Includes a fill-in dialogue practice, an appointment-time Q&A exercise, and grammar on past-tense fill-in-the-blank, question-and-answer formation from sentences, and 'must ... I want to ...' sentence construction.",
-  "answer_note": "Lesson listening question is a suggested model answer based on the dialogue. Practice A (dialogue fill-in) 16 blanks are taken from the supplied Lesson 77 key (img/key-075-080.jpg). Practice B (when was the appointment) item 1 is a printed example; items 2-5 are suggested model answers. Grammar I (fill in past tense) 10 items are taken from the grammar key (PDF viewer page 507). Grammar II (ask three questions) item 1 is a printed example; items 2-8 (21 answers) are taken from the grammar key (PDF viewer pages 507-508). Grammar III (make sentences) item 1 is a printed example; items 2-8 are taken from the grammar key (PDF viewer page 508). No external sources were used.",
-  "expected_answers": 59,
+  "answer_note": "Lesson listening question is a suggested model answer based on the dialogue. Practice A (dialogue fill-in) 16 blanks are taken from the supplied Lesson 77 key (img/key-075-080.jpg). Practice B (when was the appointment) item 1 is a printed example; items 2-5 are suggested model answers. Grammar I (fill in past tense) 10 items are taken from the grammar key (PDF viewer page 507). Grammar II (ask three questions) item 1 is a printed example; items 2-8 (21 answers) are taken from the grammar key (PDF viewer pages 507-508). Grammar III (make sentences) item 1 is a printed example; items 2-8 are taken from the grammar key (PDF viewer page 508). No external sources were used. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
+  "expected_answers": 45,
   "sections": {
     "lesson": [
       {
@@ -431,166 +431,363 @@
         "title": "II. According to the example, ask three questions about each sentence given, then answer the questions. 仿照例句就每个句子提出三个问题，然后逐一回答。",
         "instruction": "According to the example, ask three questions about each sentence given, then answer the questions. 仿照例句就每个句子提出三个问题，然后逐一回答。\n\n1. Peter bought a watch at Mr. Lee's last month.\nWhat did Peter do? He bought a watch.\nWhere did he buy it? He bought it at Mr. Lee's.\nWhen did he buy it? He bought it last month.",
         "translation": "For each sentence, write three questions (what/where/when) and their answers, following the example pattern.",
-        "expected_items": 22,
+        "expected_items": 8,
         "answer_kind": "source-key",
         "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=507",
-        "context": "Item 1 is a printed example (not editable). Items 2-8 each require three answers. Key: PDF viewer pages 507-508.",
+        "context": "Ask three questions about each given sentence: what, where and when. Then answer each question. Item 1 is the printed example. All eight groups are included.",
         "questions": [
           {
             "id": "grammar-ii-1",
-            "number": "1",
-            "prompt": "1. What did Peter do? / Where did he buy it? / When did he buy it?",
-            "answer": "He bought a watch. / He bought it at Mr. Lee's. / He bought it last month.",
+            "number": 1,
+            "prompt": "Peter bought a watch at Mr. Lee's last month.",
+            "answer": "What did Peter do?\nHe bought a watch.\nWhere did he buy it?\nHe bought it at Mr. Lee's.\nWhen did he buy it?\nHe bought it last month.",
             "rows": 3,
             "example": true,
-            "answer_kind": "source-example"
+            "audio_segments": [
+              {
+                "text": "Peter bought a watch at Mr. Lee's last month.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did Peter do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He bought a watch.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did he buy it?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He bought it at Mr. Lee's.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did he buy it?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He bought it last month.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-2",
-            "number": "2",
-            "prompt": "2. What did Jack do?",
-            "answer": "He saw some nice cars.",
-            "rows": 1
+            "number": 2,
+            "prompt": "Jack saw some nice cars at the car race four days ago.",
+            "answer": "What did Jack do?\nHe saw some nice cars.\nWhere did he see them?\nHe saw them at the car race.\nWhen did he see them?\nHe saw them four days ago.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Jack saw some nice cars at the car race four days ago.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did Jack do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He saw some nice cars.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did he see them?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He saw them at the car race.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did he see them?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He saw them four days ago.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-3",
-            "number": "3",
-            "prompt": "2. Where did he see them?",
-            "answer": "He saw them at the car race.",
-            "rows": 1
+            "number": 3,
+            "prompt": "Marie ate two bars of chocolate at home yesterday.",
+            "answer": "What did Marie do?\nShe ate two bars of chocolate.\nWhere did she eat them?\nShe ate them at home.\nWhen did she eat them?\nShe ate them yesterday.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "Marie ate two bars of chocolate at home yesterday.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did Marie do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "She ate two bars of chocolate.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did she eat them?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "She ate them at home.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did she eat them?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "She ate them yesterday.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-4",
-            "number": "4",
-            "prompt": "2. When did he see them?",
-            "answer": "He saw them four days ago.",
-            "rows": 1
+            "number": 4,
+            "prompt": "She typed some letters in her office yesterday morning.",
+            "answer": "What did she do?\nShe typed some letters.\nWhere did she type them?\nShe typed them in her office.\nWhen did she type them?\nShe typed them yesterday morning.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "She typed some letters in her office yesterday morning.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did she do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "She typed some letters.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did she type them?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "She typed them in her office.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did she type them?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "She typed them yesterday morning.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-5",
-            "number": "5",
-            "prompt": "3. What did Marie do?",
-            "answer": "She ate two bars of chocolate.",
-            "rows": 1
+            "number": 5,
+            "prompt": "My father painted the bookcase in the garage a week ago.",
+            "answer": "What did your father do?\nHe painted the bookcase.\nWhere did he paint it?\nHe painted it in the garage.\nWhen did he paint it?\nHe painted it a week ago.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "My father painted the bookcase in the garage a week ago.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did your father do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He painted the bookcase.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did he paint it?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He painted it in the garage.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did he paint it?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He painted it a week ago.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-6",
-            "number": "6",
-            "prompt": "3. Where did she eat them?",
-            "answer": "She ate them at home.",
-            "rows": 1
+            "number": 6,
+            "prompt": "We met our dentist at the bus stop last Tuesday.",
+            "answer": "What did you do?\nWe met our dentist.\nWhere did you meet him?\nWe met him at the bus stop.\nWhen did you meet him?\nWe met him last Tuesday.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "We met our dentist at the bus stop last Tuesday.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did you do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "We met our dentist.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did you meet him?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "We met him at the bus stop.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did you meet him?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "We met him last Tuesday.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-7",
-            "number": "7",
-            "prompt": "3. When did she eat them?",
-            "answer": "She ate them yesterday.",
-            "rows": 1
+            "number": 7,
+            "prompt": "They sold their house in London in 1998.",
+            "answer": "What did they do?\nThey sold their house.\nWhere did they sell it?\nThey sold it in London.\nWhen did they sell it?\nThey sold it in 1998.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "They sold their house in London in 1998.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did they do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "They sold their house.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did they sell it?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "They sold it in London.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did they sell it?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "They sold it in 1998.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           },
           {
             "id": "grammar-ii-8",
-            "number": "8",
-            "prompt": "4. What did she do?",
-            "answer": "She typed some letters.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-9",
-            "number": "9",
-            "prompt": "4. Where did she type them?",
-            "answer": "She typed them in her office.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-10",
-            "number": "10",
-            "prompt": "4. When did she type them?",
-            "answer": "She typed them yesterday morning.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-11",
-            "number": "11",
-            "prompt": "5. What did your father do?",
-            "answer": "He painted the bookcase.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-12",
-            "number": "12",
-            "prompt": "5. Where did he paint it?",
-            "answer": "He painted it in the garage.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-13",
-            "number": "13",
-            "prompt": "5. When did he paint it?",
-            "answer": "He painted it a week ago.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-14",
-            "number": "14",
-            "prompt": "6. What did you do?",
-            "answer": "We met our dentist.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-15",
-            "number": "15",
-            "prompt": "6. Where did you meet him?",
-            "answer": "We met him at the bus stop.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-16",
-            "number": "16",
-            "prompt": "6. When did you meet him?",
-            "answer": "We met him last Tuesday.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-17",
-            "number": "17",
-            "prompt": "7. What did they do?",
-            "answer": "They sold their house.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-18",
-            "number": "18",
-            "prompt": "7. Where did they sell it?",
-            "answer": "They sold it in London.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-19",
-            "number": "19",
-            "prompt": "7. When did they sell it?",
-            "answer": "They sold it in 1998.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-20",
-            "number": "20",
-            "prompt": "8. What did he do?",
-            "answer": "He telephoned his brother.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-21",
-            "number": "21",
-            "prompt": "8. Where did he telephone him?",
-            "answer": "He telephoned him in Beijing.",
-            "rows": 1
-          },
-          {
-            "id": "grammar-ii-22",
-            "number": "22",
-            "prompt": "8. When did he telephone him?",
-            "answer": "He telephoned him last month.",
-            "rows": 1
+            "number": 8,
+            "prompt": "He telephoned his brother in Beijing last month.",
+            "answer": "What did he do?\nHe telephoned his brother.\nWhere did he telephone him?\nHe telephoned him in Beijing.\nWhen did he telephone him?\nHe telephoned him last month.",
+            "rows": 3,
+            "audio_segments": [
+              {
+                "text": "He telephoned his brother in Beijing last month.",
+                "role": "narrator",
+                "pause": 1.8
+              },
+              {
+                "text": "What did he do?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He telephoned his brother.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "Where did he telephone him?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He telephoned him in Beijing.",
+                "role": "answer",
+                "pause": 1.1
+              },
+              {
+                "text": "When did he telephone him?",
+                "role": "prompt",
+                "pause": 1.1
+              },
+              {
+                "text": "He telephoned him last month.",
+                "role": "answer",
+                "pause": 1.1
+              }
+            ]
           }
         ]
       },
@@ -710,5 +907,16 @@
       "source": "../img/lesson-077-01-text.jpg",
       "reason": "Odd lesson: text first; illustration deferred."
     }
+  },
+  "grammar_source_audit": {
+    "report": "reports/grammar-source-audit.json",
+    "exercise_pages": {
+      "lesson": 77,
+      "start": 235,
+      "end": 237,
+      "bookmark_start": 235
+    },
+    "checked_answer_pages": 507,
+    "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   }
 }
