@@ -103,6 +103,8 @@
 | 097 | A small blue case | [2:17](097-1-lesson.wav) | [2:14](097-2-practice.wav) | [6:14](097-3-gramar.wav) | [脚本](scripts/097/README.md) |
 | 098 | Whose is it? Whose are they? | [3:18](098-1-lesson.wav) | [1:31](098-2-practice.wav) | [4:01](098-3-gramar.wav) | [脚本](scripts/098/README.md) |
 | 099 | Ow! | [2:29](099-1-lesson.wav) | [1:32](099-2-practice.wav) | [5:11](099-3-gramar.wav) | [脚本](scripts/099/README.md) |
+| 100 | He says that ... She says that ... They say that ... | [4:45](100-1-lesson.wav) | [3:05](100-2-practice.wav) | [2:32](100-3-gramar.wav) | [脚本](scripts/100/README.md) |
+| 101 | A card from Jimmy | [2:16](101-1-lesson.wav) | [2:14](101-2-practice.wav) | [3:46](101-3-gramar.wav) | [脚本](scripts/101/README.md) |
 | 102 | He says he ... She says she ... They say they ... | [3:51](102-1-lesson.wav) | [2:17](102-2-practice.wav) | [2:39](102-3-gramar.wav) | [脚本](scripts/102/README.md) |
 | 103 | The French test | [2:51](103-1-lesson.wav) | [1:58](103-2-practice.wav) | [6:08](103-3-gramar.wav) | [脚本](scripts/103/README.md) |
 | 104 | Too, very, enough | [4:59](104-1-lesson.wav) | [2:31](104-2-practice.wav) | [4:56](104-3-gramar.wav) | [脚本](scripts/104/README.md) |

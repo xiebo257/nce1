@@ -1,0 +1,439 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-101.html",
+  "source_items": 20,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 101. Grammar practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "grammar",
+      "generation_seed": 40567943,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he says, he feels hot.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-1",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 172652924,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says he feels hot.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-1",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1906243805,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "she says, she is staying in Rome.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-2",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 422435543,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says she's staying in Rome.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-2",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1152660803,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I am sure, they enjoyed their holiday in Greece.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-3",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1579234628,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm sure they enjoyed their holiday in Greece.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-3",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1006709715,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "prompt",
+      "text": "I am afraid, it's going to be windy tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-4",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1301764366,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm afraid it's going to be windy tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-4",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1188818208,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the doctor says, you must stay at home for a week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-5",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1401990050,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The doctor says you must stay at home for a week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-5",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1184680097,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I am sorry, he hasn't got better.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-6",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 39341135,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm sorry he hasn't got better.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-6",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1339339854,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he believes, he can finish it in ten minutes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-7",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 567197893,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He believes he can finish it in ten minutes.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-7",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 2021177845,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "she hopes, she will go to university next year.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-8",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 50933418,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She hopes she'll go to university next year.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-8",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 579831493,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he says, he usually goes to work by bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-9",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1380698878,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says he usually goes to work by bus.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-9",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 421931448,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I know, they need a large house.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-10",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1109755280,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I know they need a large house.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-10",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1531978273,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I feel cold. I'm afraid that I've got a temperature.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-1",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 9053847,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says she feels cold, and she's afraid she's got a temperature.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1905152005,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I've hurt my leg. I think that I shall have an X-ray tomorrow.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-2",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1173970379,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says he's hurt his leg, and will have an X-ray tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1167625997,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "prompt",
+      "text": "\"We've got mumps. We're afraid that we can't go to school next week.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-3",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 94196714,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They say they've got mumps, and they're afraid they can't go to school next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 701593299,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I've got a headache. I believe that I've got flu.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-4",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1952048457,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says she's got a headache, and she believes she's got flu.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 444853472,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I've just had a car crash. I know that I must drive carefully.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-5",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 955056958,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says he's just had a car crash, and he knows he must drive carefully.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 117307780,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"You'd better go back to the station now. I'm sure that the train will leave soon.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-6",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1371128394,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says I'd better go back to the station now, and he's sure the train will leave soon.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1106797844,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I can't read my boss's letter. I'm sorry that I haven't typed it yet.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-7",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 113070370,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says she can't read her boss's letter, and she's sorry she hasn't typed it yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1036881004,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"We've already worked for two hours. We think that we need some coffee.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-8",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1896110630,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They say they've already worked for two hours, and they think they need some coffee.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1491594159,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I'm late for the meeting. I'm sorry that my watch is five minutes slow.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-9",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1870823500,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says he's late for the meeting, and he's sorry his watch is five minutes slow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-9",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1209339110,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "\"I've never been to Paris. But I hope that I'll go there next year.\".",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-10",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 645536750,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says she's never been to Paris, but she hopes she'll go there next year.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-10",
+      "section": "II. Rewrite the sentences, using a noun clause according to the example. 仿照例句用名词性从句改写下列句子。",
+      "generation_seed": 1685360052,
+      "generation_temperature": 0.65
+    }
+  ]
+}
