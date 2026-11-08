@@ -1,0 +1,57 @@
+{
+  "slot": "lesson-071-scene-02",
+  "prompt": "Pauline's boss, a bald man with glasses, answers the telephone at his desk while Pauline looks on. Exactly 2 people appear. Image 1 is the appearance reference for boss. Image 2 is the appearance reference for pauline. Keep their same faces, hairstyles and clothing. Appearance: boss: Man about 55, bald crown, round glasses, navy suit, white shirt, burgundy tie. pauline: Woman about 27, shoulder-length dark brown hair, cream blouse, teal cardigan, dark skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "boss",
+    "pauline"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "boss",
+    "pauline"
+  ],
+  "cast_layout": [
+    "jane",
+    "pauline",
+    "boss",
+    "ron-marston"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 71,
+  "seed": 71019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "554d0e3012d01c07a541efbc2f865d3f31e1d8db05b05553a11548e3879bea0c",
+  "fingerprint": "0334516b6be8d36854f4e9d5867023b09cc93fa0eea17461e7e659d004f98fe1",
+  "sha256": "10973fde40c5e8f47022a5dabc9d530bf2b306dbb01dae6a1e4f8c68af3ff31b",
+  "seconds": 37.14,
+  "peak_mlx_gb": 5.198,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "The bald boss now holds the black telephone receiver to his ear with one hand and speaks into it. The receiver is lifted off the telephone base on his desk. Preserve the same boss, glasses, navy suit, burgundy tie, Pauline sitting across from him in her teal cardigan, faces, office furniture and photographic style.",
+        "seed": 710211,
+        "input_sha256": "9d835ede36ff4c0cd73470249ec29c681a0f56bd9c0f09d30742554f0758f28b",
+        "output_sha256": "c5b45f67454f825a2596d94da0c9cecf0a8a5586783271fecc3b699b6ae14e48",
+        "seconds": 76.22
+      },
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "There is ONE telephone receiver only. Keep the receiver in the man LEFT hand beside his LEFT ear. Remove the second receiver and lower his RIGHT hand naturally onto the desk. Preserve the woman, faces, clothing, office and telephone base. Exactly one handset with one cord.",
+        "seed": 710212,
+        "input_sha256": "c5b45f67454f825a2596d94da0c9cecf0a8a5586783271fecc3b699b6ae14e48",
+        "output_sha256": "10973fde40c5e8f47022a5dabc9d530bf2b306dbb01dae6a1e4f8c68af3ff31b",
+        "seconds": 78.12
+      }
+    ]
+  },
+  "review_notes": "Seven scenes checked against four-person cast: Jane blonde, Pauline dark hair and teal cardigan, bald boss with glasses, young boyfriend with glasses. Boss now uses one receiver, extra handset removed. Telephone split scene and Pauline solitary reactions maintain correct identities; no literal mother character introduced.",
+  "published_sha256": "f92a3c61ab25f991f15d3ffb55230bd4bb5a634aef63cea6ff9fe0d35943d6a4"
+}

@@ -1,0 +1,37 @@
+{
+  "slot": "lesson-071-scene-01",
+  "prompt": "Jane and Pauline talk; Pauline looks annoyed as she describes Ron Marston's repeated phone calls. Exactly 2 people appear. Image 1 is the appearance reference for jane. Image 2 is the appearance reference for pauline. Keep their same faces, hairstyles and clothing. Appearance: jane: Woman about 27, short blond bob, pale blue blouse, navy skirt. pauline: Woman about 27, shoulder-length dark brown hair, cream blouse, teal cardigan, dark skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "jane",
+    "pauline"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jane",
+    "pauline"
+  ],
+  "cast_layout": [
+    "jane",
+    "pauline",
+    "boss",
+    "ron-marston"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 71,
+  "seed": 71018,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "554d0e3012d01c07a541efbc2f865d3f31e1d8db05b05553a11548e3879bea0c",
+  "fingerprint": "fee8740b33c5754d869bfcb057a7f58c6d19aed2c1cdcc94edd9bea0cb659e7d",
+  "sha256": "caa29e22d1fda587c6fc6d4037b9cbbe0b9d49cebbd0b8b3212611d267729861",
+  "seconds": 35.98,
+  "peak_mlx_gb": 5.1,
+  "status": "visually-reviewed",
+  "review_notes": "Seven scenes checked against four-person cast: Jane blonde, Pauline dark hair and teal cardigan, bald boss with glasses, young boyfriend with glasses. Boss now uses one receiver, extra handset removed. Telephone split scene and Pauline solitary reactions maintain correct identities; no literal mother character introduced.",
+  "published_sha256": "e0734be5963e8f0581375a21d9a6d426381d51f6e4cf85e5c98a2cdc5e1c3e5c"
+}

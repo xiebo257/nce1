@@ -1,0 +1,31 @@
+{
+  "slot": "cast",
+  "prompt": "A horizontal character reference sheet with exactly 4 equal-width vertical panels in ONE row. Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. Left to right: 1. jane: Woman about 27, short blond bob, pale blue blouse, navy skirt. 2. pauline: Woman about 27, shoulder-length dark brown hair, cream blouse, teal cardigan, dark skirt. 3. boss: Man about 55, bald crown, round glasses, navy suit, white shirt, burgundy tie. 4. ron-marston: Man about 30, short brown hair, round glasses, tan jacket, green tie. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Portraits only, no scene or props.",
+  "cast": [
+    "jane",
+    "pauline",
+    "boss",
+    "ron-marston"
+  ],
+  "reference": null,
+  "lesson": 71,
+  "seed": 71017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "43056662e3427d5f4b4621ec5a99f47b188b7aa13959ff9c4412f0334531c861",
+  "sha256": "554d0e3012d01c07a541efbc2f865d3f31e1d8db05b05553a11548e3879bea0c",
+  "seconds": 32.25,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "reference_source": "illustrations/references/071-cast-source.png",
+  "reference_review": {
+    "sha256": "554d0e3012d01c07a541efbc2f865d3f31e1d8db05b05553a11548e3879bea0c",
+    "review_notes": "Four portraits in correct used order: Jane blond blue blouse, Pauline dark hair teal cardigan, bald boss glasses navy suit burgundy tie, Ron glasses tan jacket green tie. Distinct faces and clean panel boundaries."
+  },
+  "review_notes": "Seven scenes checked against four-person cast: Jane blonde, Pauline dark hair and teal cardigan, bald boss with glasses, young boyfriend with glasses. Boss now uses one receiver, extra handset removed. Telephone split scene and Pauline solitary reactions maintain correct identities; no literal mother character introduced.",
+  "published_sha256": "a7f8b29fcc024299418f01315ed05972b2d31b2b36502878e4f2ad9aeeda9b24"
+}

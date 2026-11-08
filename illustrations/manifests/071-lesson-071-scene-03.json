@@ -1,0 +1,37 @@
+{
+  "slot": "lesson-071-scene-03",
+  "prompt": "A two-part telephone scene: on the left the bald boss with glasses speaks firmly into his desk phone at the office; on the right Ron Marston in glasses and tan jacket listens to a receiver in a different room. Two separate locations, no Pauline, no captions. Exactly 2 people appear. Image 1 is the appearance reference for boss. Image 2 is the appearance reference for ron-marston. Keep their same faces, hairstyles and clothing. Appearance: boss: Man about 55, bald crown, round glasses, navy suit, white shirt, burgundy tie. ron-marston: Man about 30, short brown hair, round glasses, tan jacket, green tie. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "boss",
+    "ron-marston"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "boss",
+    "ron-marston"
+  ],
+  "cast_layout": [
+    "jane",
+    "pauline",
+    "boss",
+    "ron-marston"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 71,
+  "seed": 71020,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "554d0e3012d01c07a541efbc2f865d3f31e1d8db05b05553a11548e3879bea0c",
+  "fingerprint": "16d50a24c5a06408590e1e8f4ad1edcfdc29453a1b43c0b5af5831fb0486ae6e",
+  "sha256": "a4f0be861376e082a76dfc8240daaf72466e386ca19c686712de715ffb21ea53",
+  "seconds": 38.78,
+  "peak_mlx_gb": 5.198,
+  "status": "visually-reviewed",
+  "review_notes": "Seven scenes checked against four-person cast: Jane blonde, Pauline dark hair and teal cardigan, bald boss with glasses, young boyfriend with glasses. Boss now uses one receiver, extra handset removed. Telephone split scene and Pauline solitary reactions maintain correct identities; no literal mother character introduced.",
+  "published_sha256": "4d5d3c20bd405d9679fb8acf2de82731629d110858a6c5cd0700e1b4a5262050"
+}

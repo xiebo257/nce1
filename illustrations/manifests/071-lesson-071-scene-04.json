@@ -1,0 +1,35 @@
+{
+  "slot": "lesson-071-scene-04",
+  "prompt": "Pauline arrives home at six o'clock; the telephone rings on the table and she looks surprised. Only 1 person appears, alone. Image 1 is the appearance reference for pauline. Keep their same faces, hairstyles and clothing. Appearance: pauline: Woman about 27, shoulder-length dark brown hair, cream blouse, teal cardigan, dark skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "pauline"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "pauline"
+  ],
+  "cast_layout": [
+    "jane",
+    "pauline",
+    "boss",
+    "ron-marston"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 71,
+  "seed": 71021,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "554d0e3012d01c07a541efbc2f865d3f31e1d8db05b05553a11548e3879bea0c",
+  "fingerprint": "65872c19d306cc6282d7052c5781279aaff30f45beec88e9af4f5056fa841b06",
+  "sha256": "d56687bdba56df6b4b4631e8dab9d6e350cd03ebe6957ae3f8c3d665438e480c",
+  "seconds": 38.46,
+  "peak_mlx_gb": 5.068,
+  "status": "visually-reviewed",
+  "review_notes": "Seven scenes checked against four-person cast: Jane blonde, Pauline dark hair and teal cardigan, bald boss with glasses, young boyfriend with glasses. Boss now uses one receiver, extra handset removed. Telephone split scene and Pauline solitary reactions maintain correct identities; no literal mother character introduced.",
+  "published_sha256": "bce7729859bb5c592fe5f59f0f8d22420ca8e70523738d8480386c8cfb485e52"
+}
