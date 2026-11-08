@@ -1,0 +1,217 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-105.html",
+  "source_items": 0,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 105.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 2036513366,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "the_boss",
+      "text": "Where's Sandra, Bob? I want her.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-1",
+      "section": "dialogue",
+      "generation_seed": 356181215,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "bob",
+      "text": "Do you want to speak to her?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-2",
+      "section": "dialogue",
+      "generation_seed": 655663105,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "the_boss",
+      "text": "Yes, I do. I want her to come to my office. Tell her to come at once.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-3",
+      "section": "dialogue",
+      "generation_seed": 887312125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "sandra",
+      "text": "Did you want to see me?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-4",
+      "section": "dialogue",
+      "generation_seed": 1361311552,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "the_boss",
+      "text": "Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-5",
+      "section": "dialogue",
+      "generation_seed": 376982676,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "sandra",
+      "text": "Spell intelligent: I, N, T, E, L, L, I, G, E, N, T.",
+      "instructions": "Use a relaxed natural falling finish for statements.  Articulate every word clearly without adding or omitting any words.",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-6",
+      "section": "dialogue",
+      "generation_seed": 132079370,
+      "generation_temperature": 0.4
+    },
+    {
+      "role": "the_boss",
+      "text": "That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-7",
+      "section": "dialogue",
+      "generation_seed": 1810438184,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "sandra",
+      "text": "Yes, I'll do that. I'm sorry about that.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-8",
+      "section": "dialogue",
+      "generation_seed": 1039743508,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "the_boss",
+      "text": "And here's a little present for you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-9",
+      "section": "dialogue",
+      "generation_seed": 899688713,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "sandra",
+      "text": "What is it?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-10",
+      "section": "dialogue",
+      "generation_seed": 300923515,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "the_boss",
+      "text": "It's a dictionary. I hope it'll help you.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.6,
+      "source_item": "lesson-dialogue-11",
+      "section": "dialogue",
+      "generation_seed": 1532383635,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Now, the words and expressions. Listen and repeat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "vocabulary",
+      "generation_seed": 226632927,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "spell. How do you spell your last name?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-spell",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "spell",
+      "generation_seed": 393249335,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "intelligent. She's an intelligent and thoughtful student.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-intelligent",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "intelligent",
+      "generation_seed": 1332514977,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "mistake. Sorry, I made a mistake.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-mistake",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "mistake",
+      "generation_seed": 1941651483,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "present. Thanks for the lovely present.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-present",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "present",
+      "generation_seed": 879556757,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "dictionary. I looked up the word in a dictionary.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.5,
+      "source_item": "vocabulary-dictionary",
+      "section": "vocabulary",
+      "supplemental": true,
+      "vocabulary_word": "dictionary",
+      "generation_seed": 213266511,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Do you want to speak to her?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1,
+      "source_item": "lesson-note-1",
+      "section": "notes",
+      "generation_seed": 655663105,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [
+    "spell",
+    "intelligent",
+    "mistake",
+    "present",
+    "dictionary"
+  ],
+  "recovered_vocabulary": {}
+}
