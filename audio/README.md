@@ -133,6 +133,8 @@
 | 139 | Is that you, John? 是你吗，约翰？ | [2:34](139-1-lesson.wav) | [1:52](139-2-practice.wav) | [2:59](139-3-gramar.wav) | [脚本](scripts/139/README.md) |
 | 140 | He wants to know if/why/what/when | [2:55](140-1-lesson.wav) | [1:39](140-2-practice.wav) | [3:54](140-3-gramar.wav) | [脚本](scripts/140/README.md) |
 | 141 | Sally's first train ride | [2:57](141-1-lesson.wav) | [2:47](141-2-practice.wav) | [4:37](141-3-gramar.wav) | [脚本](scripts/141/README.md) |
+| 142 | Someone invited Sally to a party. | [5:00](142-1-lesson.wav) | [2:25](142-2-practice.wav) | [5:36](142-3-gramar.wav) | [脚本](scripts/142/README.md) |
+| 143 | A walk through the woods | [3:41](143-1-lesson.wav) | [2:33](143-2-practice.wav) | [1:44](143-3-gramar.wav) | [脚本](scripts/143/README.md) |
 | 144 | He hasn't been served yet. He will be served soon. | [6:39](144-1-lesson.wav) | [1:02](144-2-practice.wav) | [3:26](144-3-gramar.wav) | [脚本](scripts/144/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
