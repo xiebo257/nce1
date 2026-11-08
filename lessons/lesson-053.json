@@ -847,43 +847,85 @@
   "images": {
     "lesson-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Hans and Jim stand beside a wall map of England; Hans faces Jim and asks where he comes from and what the climate is like.",
       "characters": [
         "hans",
         "jim"
       ],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
       "illustration_scene": "Hans and Jim stand beside a wall map of England; Hans faces Jim and asks where he comes from and what the climate is like.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "src": "assets/lesson-053/lesson-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An interesting climate",
+      "alt": "Hans and Jim stand beside a wall map of England; Hans faces Jim and asks where he comes from and what the climate is like.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 53018,
+        "manifest": "illustrations/manifests/053-lesson-scene-01.json"
+      }
     },
     "lesson-scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "A map of England divided into North, East, West and South, with weather symbols showing cold, wind, rain and warmth in the regions.",
       "characters": [],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
-      "illustration_scene": "A wordless illustrated weather map of England in green, surrounded by blue sea: snowy hills in the north, wind-bent trees in the east, rain showers in the west, sunshine over the south. Clear recognizable England silhouette, colorful educational artwork, no labels."
+      "illustration_scene": "A wide English countryside panorama showing changeable weather: cool snowy hills in the far distance, rain falling over fields on the left, wind bending a tree on the right, and warm sunshine lighting a green meadow in the foreground. Real landscape with natural clouds, rolling hills and hedgerows. An empty countryside scene, without any map outlines, diagrams, labels or people.",
+      "illustration_seed_offset": 111,
+      "illustration_prompt_version": 2,
+      "src": "assets/lesson-053/lesson-scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An interesting climate",
+      "alt": "A wide English countryside panorama showing changeable weather: cool snowy hills in the far distance, rain falling over fields on the left, wind bending a tree on the right, and warm sunshine lighting a green meadow in the foreground.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 53130,
+        "manifest": "illustrations/manifests/053-lesson-scene-02.json"
+      }
     },
     "lesson-scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "A spring or summer landscape with flowers, a long bright day, and arrows showing the sun rising early and setting late.",
       "characters": [],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
-      "illustration_scene": "A peaceful English countryside on a long bright late-spring evening, flowering hedges, green fields, warm sunlight low in the clear sky. No arrows or diagrams."
+      "illustration_scene": "A peaceful English countryside on a long bright late-spring evening, flowering hedges, green fields, warm sunlight low in the clear sky. No arrows or diagrams.",
+      "src": "assets/lesson-053/lesson-scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An interesting climate",
+      "alt": "A peaceful English countryside on a long bright late-spring evening, flowering hedges, green fields, warm sunlight low in the clear sky.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 53020,
+        "manifest": "illustrations/manifests/053-lesson-scene-03.json"
+      }
     },
     "lesson-scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "An autumn or winter landscape with bare trees, rain or snow, a low sun, and arrows showing the sun rising late and setting early.",
       "characters": [],
       "source": "../img/lesson-053-01-text.jpg",
-      "reason": "Odd lesson: actual story illustration is retained as a pending scene slot; no crop or generated image is supplied.",
-      "illustration_scene": "The same type of English countryside on a short winter afternoon, bare trees, damp fields, a low sun disappearing behind clouds. Cool twilight colors, no arrows or diagrams."
+      "illustration_scene": "The same type of English countryside on a short winter afternoon, bare trees, damp fields, a low sun disappearing behind clouds. Cool twilight colors, no arrows or diagrams.",
+      "src": "assets/lesson-053/lesson-scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An interesting climate",
+      "alt": "The same type of English countryside on a short winter afternoon, bare trees, damp fields, a low sun disappearing behind clouds.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 53021,
+        "manifest": "illustrations/manifests/053-lesson-scene-04.json"
+      }
     }
   },
   "verification": {
@@ -937,5 +979,6 @@
       ]
     }
   },
-  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "illustration_reference": "illustrations/references/053-cast.webp"
 }

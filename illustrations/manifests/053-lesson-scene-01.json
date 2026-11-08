@@ -1,0 +1,33 @@
+{
+  "slot": "lesson-scene-01",
+  "prompt": "Exactly 2 people appear in the entire image. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is hans, reference 2 is jim). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Hans and Jim stand beside a wall map of England; Hans faces Jim and asks where he comes from and what the climate is like. Characters in this scene: hans: Man about 35, short wavy blond hair, charcoal suit, pale blue shirt, burgundy tie. jim: Man about 40, short brown hair, thin moustache, tan suit, white shirt, dark green tie. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "hans",
+    "jim"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "hans",
+    "jim"
+  ],
+  "cast_layout": [
+    "hans",
+    "jim"
+  ],
+  "lesson": 53,
+  "seed": 53018,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "8b6f9527401e03aadbeca109be549df3ba8967e96b7f2ed18634918cef0f95c2",
+  "fingerprint": "0d2b1980ce233a18c72f7decc340c8163133a6f575fd7a7f835dbcae545674fe",
+  "sha256": "83e6f337667e5cee246c4970838c6302f258bb7429fe9f7b2a4ec5919a8bfd45",
+  "seconds": 67.97,
+  "peak_mlx_gb": 5.244,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed all four final scenes and cast reference. Hans and Jim preserve their hair, moustache, suit and tie designs. Rejected an inaccurate geographic weather map; the replacement is an illustrative English landscape with rain, wind, cool hills and warm sunlight rather than a cartographic claim. Long bright spring/summer evening and short wintry day match the lesson. Winter scene has an incidental dog walker, not a recurring dialogue character.",
+  "published_sha256": "41e28651c2a007ff4694a8dbc2bb7c490f231b69c671933117adb493b71c759c"
+}
