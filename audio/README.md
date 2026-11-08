@@ -2,6 +2,8 @@
 
 词汇合并在 lesson 中，顺序跟随 HTML。practice 含完整练习答案；gramar 含提示与答案，保留原文件命名。使用已选定的本地 Qwen3-TTS 多角色声音，正常语速。
 
+全套 144 课，共 432 个 WAV，总时长 22 小时 27 分 21 秒。文件校验值、时长与本次批处理的复核记录见 [验证汇总](validation.json)。语音识别用于检查内容，不代表逐句听感验收。
+
 | 课 | 标题 | Lesson（含词汇） | Practice | Grammar | 内容依据 |
 | --- | --- | --- | --- | --- | --- |
 | 001 | Excuse me | [2:17](001-1-lesson.wav) | [1:51](001-2-practice.wav) | [2:46](001-3-gramar.wav) | [脚本](scripts/001/README.md) |

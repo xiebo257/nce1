@@ -1,0 +1,4960 @@
+{
+  "summary": {
+    "lessons": 144,
+    "files": 432,
+    "seconds": 80841.48,
+    "bytes": 3880410048
+  },
+  "checked_start": 26,
+  "method": "Local Qwen3-TTS; source review; grouped and individual Whisper checks; bounded regeneration; WAV and script integrity checks.",
+  "limitation": "Retained transcript differences were reviewed separately. ASR does not verify subjective naturalness, accent, linking, reduction, or pitch contours.",
+  "lessons": [
+    {
+      "lesson": 1,
+      "files": [
+        {
+          "file": "001-1-lesson.wav",
+          "seconds": 136.79,
+          "bytes": 6565964,
+          "sha256": "27538815393f17f7019b33885c8795714069ba3888691f2a36d12adbae5e219f"
+        },
+        {
+          "file": "001-2-practice.wav",
+          "seconds": 110.72,
+          "bytes": 5314604,
+          "sha256": "50949db74e4ac2c16e696cb497d7d6046d7346332841123a46ba1ed7bb508e2b"
+        },
+        {
+          "file": "001-3-gramar.wav",
+          "seconds": 165.93,
+          "bytes": 7964684,
+          "sha256": "f2f3f11d8f4046ea1eea5e6be7f4385d9d3e736ab358f2043106265b0a41e37d"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 2,
+      "files": [
+        {
+          "file": "002-1-lesson.wav",
+          "seconds": 154.46,
+          "bytes": 7414124,
+          "sha256": "74834ca473b806a105add79b1ac05f8ae599bb03f6ee3e6b89a35bd022d07aa9"
+        },
+        {
+          "file": "002-2-practice.wav",
+          "seconds": 103.83,
+          "bytes": 4983884,
+          "sha256": "088f4a18b10386901b700b96149450b2fb3cc8ffb50d118248c2108918fd102a"
+        },
+        {
+          "file": "002-3-gramar.wav",
+          "seconds": 184.18,
+          "bytes": 8840684,
+          "sha256": "c969e052d70b2d0e01152728c296442ff9e54ddfa6775b93dda7d5509aa132cb"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 3,
+      "files": [
+        {
+          "file": "003-1-lesson.wav",
+          "seconds": 148.85,
+          "bytes": 7144844,
+          "sha256": "a27f60e6ec851d5a78255c9553d893bede4d78e795de2628ce5acf7a1c0fbac3"
+        },
+        {
+          "file": "003-2-practice.wav",
+          "seconds": 155.78,
+          "bytes": 7477484,
+          "sha256": "ac4eca44dad260ddd992f3c465e21c7cec94c7af650cc5fcf039cafee3eb3bcb"
+        },
+        {
+          "file": "003-3-gramar.wav",
+          "seconds": 379.86,
+          "bytes": 18233324,
+          "sha256": "5d2cfd3fc1cec18b692030ce37e4af3df9924e25036b9c2bf0b7896ad8486b7e"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 4,
+      "files": [
+        {
+          "file": "004-1-lesson.wav",
+          "seconds": 234.84,
+          "bytes": 11272364,
+          "sha256": "86092dc29ed1480c3cf067474f3800cb872c06e7c7f52a9317d86aba5d70835b"
+        },
+        {
+          "file": "004-2-practice.wav",
+          "seconds": 118.8,
+          "bytes": 5702444,
+          "sha256": "cb53c32d4cd2946ee172a35a96e2cfa4b2314da832703570c043801017e60ddf"
+        },
+        {
+          "file": "004-3-gramar.wav",
+          "seconds": 194.96,
+          "bytes": 9358124,
+          "sha256": "a25bfb8052a4039c1b72f302edc699675ce0ca9ece33e09ff62ed671b3fcab01"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 5,
+      "files": [
+        {
+          "file": "005-1-lesson.wav",
+          "seconds": 183.34,
+          "bytes": 8800364,
+          "sha256": "34ecb1612d459e78395b0c1d81840fa27d960d2312367d7b81aa7ac117b54f0d"
+        },
+        {
+          "file": "005-2-practice.wav",
+          "seconds": 113.31,
+          "bytes": 5438924,
+          "sha256": "a28f591afaa99cdafaced154c60c326c98be86ee2fd10cee0c7724942cf7f0b9"
+        },
+        {
+          "file": "005-3-gramar.wav",
+          "seconds": 315.78,
+          "bytes": 15157484,
+          "sha256": "865d6e05c7444fde6655539544e47dafe6726f3fb728fa7307768d08d99cad8a"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 6,
+      "files": [
+        {
+          "file": "006-1-lesson.wav",
+          "seconds": 371.76,
+          "bytes": 17844524,
+          "sha256": "e72eb40813fb3ef096c91997e53b7b3e56e33fd89fc85fbcef0e1af16907133b"
+        },
+        {
+          "file": "006-2-practice.wav",
+          "seconds": 140.16,
+          "bytes": 6727724,
+          "sha256": "4cc9bffdbe07f440088b9f0f4840ab252d55ac5164369d0684ae0e22cc6d5d36"
+        },
+        {
+          "file": "006-3-gramar.wav",
+          "seconds": 193.04,
+          "bytes": 9265964,
+          "sha256": "7d31e2f2ef27c118d9462630f0aa386d4d01b69d0c9f0f07c40a2728d2ab965d"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 7,
+      "files": [
+        {
+          "file": "007-1-lesson.wav",
+          "seconds": 140.76,
+          "bytes": 6756524,
+          "sha256": "03d32b4b3fe7aa6cf8fd6b49cea944bbfc8bbb9174b6588e50b3f0b065e7538b"
+        },
+        {
+          "file": "007-2-practice.wav",
+          "seconds": 143.4,
+          "bytes": 6883244,
+          "sha256": "20f5576232ea4365adc4a4b0352ebbd0166576051ec34cb2c227a1e263347f8d"
+        },
+        {
+          "file": "007-3-gramar.wav",
+          "seconds": 290.0,
+          "bytes": 13920044,
+          "sha256": "41c12e584823f4d9e503c3b1e2e02980d5dcb5cd3dd484f578b477ec74fbfbcc"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 8,
+      "files": [
+        {
+          "file": "008-1-lesson.wav",
+          "seconds": 332.66,
+          "bytes": 15967724,
+          "sha256": "b382c76d3e1ce39c5245af2f571d4648b7c6604941ebd78ee89f476360103d74"
+        },
+        {
+          "file": "008-2-practice.wav",
+          "seconds": 125.76,
+          "bytes": 6036524,
+          "sha256": "5086e8f5756188d961f8153fb8d80e4987b427864dc10228dc7492a2e2c99267"
+        },
+        {
+          "file": "008-3-gramar.wav",
+          "seconds": 269.36,
+          "bytes": 12929324,
+          "sha256": "3703b5a22ec9b16a78281277e179a96993b3c4e27e4844aa68c87422bcc388bc"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 9,
+      "files": [
+        {
+          "file": "009-1-lesson.wav",
+          "seconds": 99.42,
+          "bytes": 4772204,
+          "sha256": "d2073893aa18bac895f2f9ae0b30d051e773c03f59bcaf26210ea2764630ee9e"
+        },
+        {
+          "file": "009-2-practice.wav",
+          "seconds": 111.84,
+          "bytes": 5368364,
+          "sha256": "42541ffe0abc91d67191fc0ddc13c069bb4b5d124691e9efcb4cbf4c25dc43da"
+        },
+        {
+          "file": "009-3-gramar.wav",
+          "seconds": 230.04,
+          "bytes": 11041964,
+          "sha256": "be05a56043e1aca1ca43c75aed7db3518d40e9dd95d5e097016783c4c86f9d49"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 10,
+      "files": [
+        {
+          "file": "010-1-lesson.wav",
+          "seconds": 296.42,
+          "bytes": 14228204,
+          "sha256": "ba73dc7bd88219fa924358f4457b5c5cd535e5f59cc3487c59c0ead76770a4e3"
+        },
+        {
+          "file": "010-2-practice.wav",
+          "seconds": 94.55,
+          "bytes": 4538444,
+          "sha256": "0f8626daae1173d45e361a183fb415c2d840af95dafc26df94baf8ac8ce250f5"
+        },
+        {
+          "file": "010-3-gramar.wav",
+          "seconds": 213.2,
+          "bytes": 10233644,
+          "sha256": "c4bf50bb51059a378ae2dafc8e79e2bc50b60675c63f261b9e1a892167e1f216"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 11,
+      "files": [
+        {
+          "file": "011-1-lesson.wav",
+          "seconds": 98.08,
+          "bytes": 4707884,
+          "sha256": "c4f5c9f123382df0a8fa2ba36f67d94ae776b41df5cf0c3ce17feecff597c075"
+        },
+        {
+          "file": "011-2-practice.wav",
+          "seconds": 120.94,
+          "bytes": 5805164,
+          "sha256": "aa6037f252b648627c6579cf4eae775fefe8bb8bc40505545e006f2a3bfd4c92"
+        },
+        {
+          "file": "011-3-gramar.wav",
+          "seconds": 289.28,
+          "bytes": 13885484,
+          "sha256": "3af892cfa3f16acc5b42215f9552fa6d0d1d46bdea0ac7ab7747d7c5971b3903"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 12,
+      "files": [
+        {
+          "file": "012-1-lesson.wav",
+          "seconds": 301.94,
+          "bytes": 14493164,
+          "sha256": "9437a66fd612e71082c0a4eac46298b2b0be8ba55aea5441a39b0ac783fc2b1a"
+        },
+        {
+          "file": "012-2-practice.wav",
+          "seconds": 134.96,
+          "bytes": 6478124,
+          "sha256": "b0ed21a2ab53c08a467e28e70e8ab02781c38e1edd049df83ba782d3ae75ad5c"
+        },
+        {
+          "file": "012-3-gramar.wav",
+          "seconds": 160.48,
+          "bytes": 7703084,
+          "sha256": "d1ddfbd36faa6f0c0399c5af6680a31668eb6080dc1b4901c69ad98e6d6cda16"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 13,
+      "files": [
+        {
+          "file": "013-1-lesson.wav",
+          "seconds": 109.46,
+          "bytes": 5254124,
+          "sha256": "22e1f64b8942f43c680c0d4fcf1c31626c22112c6d1d8ff06a49412b13fc9c31"
+        },
+        {
+          "file": "013-2-practice.wav",
+          "seconds": 129.31,
+          "bytes": 6206924,
+          "sha256": "e461533e88c6db1495fc95c356650584f8df29baddb14e665e7a615a0fe97648"
+        },
+        {
+          "file": "013-3-gramar.wav",
+          "seconds": 166.64,
+          "bytes": 7998764,
+          "sha256": "a94cf2d5c30d0f1e6a75509ae02d9548b7eb4e59b50a83e02b10c292f65e5465"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 14,
+      "files": [
+        {
+          "file": "014-1-lesson.wav",
+          "seconds": 299.46,
+          "bytes": 14374124,
+          "sha256": "0df2b74a9514dd0426f098913aa539caee66073779223ce774b609d260031ef7"
+        },
+        {
+          "file": "014-2-practice.wav",
+          "seconds": 111.68,
+          "bytes": 5360684,
+          "sha256": "997b452ab29a4d41bccefbb31f43dba629adc271b6c00d3ae0f5a84a12269ad9"
+        },
+        {
+          "file": "014-3-gramar.wav",
+          "seconds": 200.88,
+          "bytes": 9642284,
+          "sha256": "7df869d4d4e3f0b7d27a1daf624394129d22502964af5d10b0235e7f6b1da32e"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 15,
+      "files": [
+        {
+          "file": "015-1-lesson.wav",
+          "seconds": 120.16,
+          "bytes": 5767724,
+          "sha256": "aed0fd51a417977a96f526d56f235c7a4bdbe51ca4ff09a1e846a71c36d99ecd"
+        },
+        {
+          "file": "015-2-practice.wav",
+          "seconds": 114.15,
+          "bytes": 5479244,
+          "sha256": "a7dde67ec232bef907dc219e5f388b1afc4076982dcb4dd7d1cc49d2d14c4448"
+        },
+        {
+          "file": "015-3-gramar.wav",
+          "seconds": 207.28,
+          "bytes": 9949484,
+          "sha256": "08e227eda4a2476a646b76155a752367b0ce6f27a19394f2f4d0b8707e3726c6"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 16,
+      "files": [
+        {
+          "file": "016-1-lesson.wav",
+          "seconds": 463.24,
+          "bytes": 22235564,
+          "sha256": "6751f92bee82f4ba57fc13660c546eeb6fa1d166dbc0db1d96ac8c75e886db8c"
+        },
+        {
+          "file": "016-2-practice.wav",
+          "seconds": 149.76,
+          "bytes": 7188524,
+          "sha256": "597a18a5fef222914e9733a25c31956fa24eb4f036e4214841f5ed997f4aa941"
+        },
+        {
+          "file": "016-3-gramar.wav",
+          "seconds": 278.64,
+          "bytes": 13374764,
+          "sha256": "e98681f332b91c36fc55d194a6da2dbc47a0283e12d5b6b78b00b70ff5472dce"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 17,
+      "files": [
+        {
+          "file": "017-1-lesson.wav",
+          "seconds": 114.8,
+          "bytes": 5510444,
+          "sha256": "06eb0da3c76ef6d84ca333aa894043b4ac5d56e610a6deb432661c75060e7e12"
+        },
+        {
+          "file": "017-2-practice.wav",
+          "seconds": 127.49,
+          "bytes": 6119564,
+          "sha256": "bd1f656ba275d2bd71e52ae58fee9d6e0aa002886395e9248a6e8eee6610fc01"
+        },
+        {
+          "file": "017-3-gramar.wav",
+          "seconds": 230.08,
+          "bytes": 11043884,
+          "sha256": "9f8e8ff641c967dad522f6221fc37d948b5ac668b5d145c181700081606ce28d"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 18,
+      "files": [
+        {
+          "file": "018-1-lesson.wav",
+          "seconds": 355.76,
+          "bytes": 17076524,
+          "sha256": "09564c75e9876a0550dd228893e44b53863115c789bc657f453ed14047201f72"
+        },
+        {
+          "file": "018-2-practice.wav",
+          "seconds": 150.28,
+          "bytes": 7213484,
+          "sha256": "1e513a1d1b766b5f7ef93b4f48f8a93766af7d88e142724d332d3dfb6e0207b1"
+        },
+        {
+          "file": "018-3-gramar.wav",
+          "seconds": 186.2,
+          "bytes": 8937644,
+          "sha256": "f5d5186606df1a57b8ececc97a2ee2d8c14bd376a5ca1e464166a7b59394f8b4"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 19,
+      "files": [
+        {
+          "file": "019-1-lesson.wav",
+          "seconds": 117.78,
+          "bytes": 5653484,
+          "sha256": "8a7fa67ce8d2a9ea2debbcb48ff6c8a9710275b446e862195c5aeb2f5a1326c0"
+        },
+        {
+          "file": "019-2-practice.wav",
+          "seconds": 141.41,
+          "bytes": 6787724,
+          "sha256": "6c9c5a295300ae26654328e2fd0d23a028e5b2d56d3d2154625fd5a9c3442735"
+        },
+        {
+          "file": "019-3-gramar.wav",
+          "seconds": 356.92,
+          "bytes": 17132204,
+          "sha256": "0003203878941957fa8629b9e37cb2e1fe0c683c234fd7b294191946ccbabf59"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 20,
+      "files": [
+        {
+          "file": "020-1-lesson.wav",
+          "seconds": 336.98,
+          "bytes": 16175084,
+          "sha256": "47f97c4015396bc172b5f914212d706f84f40dd095bc17f9393098029921535c"
+        },
+        {
+          "file": "020-2-practice.wav",
+          "seconds": 150.08,
+          "bytes": 7203884,
+          "sha256": "66f1883e7ad7b3be1cc1043372d83c54cc8ea4d0c33c800f3235f6864dd51db9"
+        },
+        {
+          "file": "020-3-gramar.wav",
+          "seconds": 216.16,
+          "bytes": 10375724,
+          "sha256": "27be033c7d6951d1292cb99b41af140b3f7450ab79b2777ce6c95ad7f6b3ca4b"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 21,
+      "files": [
+        {
+          "file": "021-1-lesson.wav",
+          "seconds": 70.92,
+          "bytes": 3404204,
+          "sha256": "44b4f8d9c42cd4032fdfed09f875de4f4797a02b15dcfeb32f36d308e25e9ba3"
+        },
+        {
+          "file": "021-2-practice.wav",
+          "seconds": 142.19,
+          "bytes": 6825164,
+          "sha256": "8d8dc29a327d9b366f9c6f1ae6e5f12bc3b4f854a0131dbcdf6cf66553d782d1"
+        },
+        {
+          "file": "021-3-gramar.wav",
+          "seconds": 136.56,
+          "bytes": 6554924,
+          "sha256": "b88b17a3ed6cb71252ed35c382eb50c68da2e17be3e4ecab4d5bdf1b7e09e456"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 22,
+      "files": [
+        {
+          "file": "022-1-lesson.wav",
+          "seconds": 518.22,
+          "bytes": 24874604,
+          "sha256": "0db446a8b9d452a23f4fe9f735bdd7ff76c6969f8003f7e7dc5685a5c3ad0180"
+        },
+        {
+          "file": "022-2-practice.wav",
+          "seconds": 69.12,
+          "bytes": 3317804,
+          "sha256": "b1e4d36b8ec4b438c797e69adb2ebef259e8e18770dfe155581b73fba124e3d6"
+        },
+        {
+          "file": "022-3-gramar.wav",
+          "seconds": 176.72,
+          "bytes": 8482604,
+          "sha256": "9668298d74605cd2e3736685dab108982949d6de192febf1a808869fdfc321af"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 23,
+      "files": [
+        {
+          "file": "023-1-lesson.wav",
+          "seconds": 68.28,
+          "bytes": 3277484,
+          "sha256": "f5f89d16cba604dc22957f33d41c902e6b64a33d1a5d18d9098466d44aaf91ce"
+        },
+        {
+          "file": "023-2-practice.wav",
+          "seconds": 105.59,
+          "bytes": 5068364,
+          "sha256": "d2286396a1addaaced317cf713f2e7a2f0120b528cdefa78c808a3835fb98fe2"
+        },
+        {
+          "file": "023-3-gramar.wav",
+          "seconds": 284.08,
+          "bytes": 13635884,
+          "sha256": "4214c552a3446d60bcc6a8c616839f1b3a18d8729515a27ad36c7b89ec3cdf25"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 24,
+      "files": [
+        {
+          "file": "024-1-lesson.wav",
+          "seconds": 407.84,
+          "bytes": 19576364,
+          "sha256": "092203381889228357049cb127904c751b59ca9220bdeabbd956ddd6f67b785c"
+        },
+        {
+          "file": "024-2-practice.wav",
+          "seconds": 93.84,
+          "bytes": 4504364,
+          "sha256": "1bffdce074a61efd16ba6f27587c6bd76efb1542b67d9b2da469b4af4ea41a2a"
+        },
+        {
+          "file": "024-3-gramar.wav",
+          "seconds": 162.24,
+          "bytes": 7787564,
+          "sha256": "eaad7509e7fe651a1aba2804bd2caf8b9819765525f47d6c8f61f4c1b0ea0c10"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 25,
+      "files": [
+        {
+          "file": "025-1-lesson.wav",
+          "seconds": 130.32,
+          "bytes": 6255404,
+          "sha256": "724c8ffec1d9643446b6e48ed034d8714aebbc721271fb1c0d978b4d963b3c55"
+        },
+        {
+          "file": "025-2-practice.wav",
+          "seconds": 147.46,
+          "bytes": 7078124,
+          "sha256": "840ae77ac48141258dff9a8f8a2634df0ba9c53934da4f57230162811771d46d"
+        },
+        {
+          "file": "025-3-gramar.wav",
+          "seconds": 317.28,
+          "bytes": 15229484,
+          "sha256": "a2c3cbdbd2f955abc990ed6487d3b3d8bc4130a19bc02402a179c44282d2f37e"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 26,
+      "files": [
+        {
+          "file": "026-1-lesson.wav",
+          "seconds": 219.7,
+          "bytes": 10545644,
+          "sha256": "63bf00a7d278691c51efbb06218f24d0685358b6ce019cba53ec8623f8e53106",
+          "segments": 57,
+          "retained_asr_differences": [
+            {
+              "segment": 38,
+              "text": "Yes, there is. Is the book red?",
+              "heard": "Yes, there is. Is the book read?"
+            }
+          ]
+        },
+        {
+          "file": "026-2-practice.wav",
+          "seconds": 106.88,
+          "bytes": 5130284,
+          "sha256": "b9be0037b45212c6bed76dcf8bdf93b067e262e1965de17d4cac5752a1502886",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "026-3-gramar.wav",
+          "seconds": 187.36,
+          "bytes": 8993324,
+          "sha256": "f5b7d63d1db42e82ea150dab2281fadd41a0e2eb6dc53dd9c433f28a154e2fe9",
+          "segments": 51,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Reframed isolated in as The word in and reran ASR. Only remaining difference is red/read (identical pronunciation in this context). All 27 findings cleared."
+      ]
+    },
+    {
+      "lesson": 27,
+      "files": [
+        {
+          "file": "027-1-lesson.wav",
+          "seconds": 105.28,
+          "bytes": 5053484,
+          "sha256": "0e81a7a22272a19cf9578d9b91d5cc940939288adb952c9f52d5708b94dcf86c",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "027-2-practice.wav",
+          "seconds": 106.9,
+          "bytes": 5131244,
+          "sha256": "dabdb62422e86bd93ece57900f6c3c34c237419ee470f00b2d3b6c4755c01bd2",
+          "segments": 26,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "027-3-gramar.wav",
+          "seconds": 331.94,
+          "bytes": 15933164,
+          "sha256": "238be94e9bcd7d552835087add180fcfa0ab80a1b5afe793680db4bcd5d72a8d",
+          "segments": 74,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Reframed isolated in as The word in and reran ASR. Only remaining difference is red/read (identical pronunciation in this context). All 27 findings cleared."
+      ]
+    },
+    {
+      "lesson": 28,
+      "files": [
+        {
+          "file": "028-1-lesson.wav",
+          "seconds": 357.7,
+          "bytes": 17169644,
+          "sha256": "e11a0e6e1ce858b560a7a684ce51f5768e6905797b05dac17afe024596cb21f1",
+          "segments": 83,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "028-2-practice.wav",
+          "seconds": 119.24,
+          "bytes": 5723564,
+          "sha256": "cff725d109c0271fe689403010f6a38def3776a8a88e61cc73f5e396efbe450e",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "028-3-gramar.wav",
+          "seconds": 190.94,
+          "bytes": 9165164,
+          "sha256": "72980c5e311a8f73f77983b311dc88959a209bc3bc12cbca2f7c7f000fe48986",
+          "segments": 50,
+          "retained_asr_differences": [
+            {
+              "segment": 20,
+              "text": "They're my brother's.",
+              "heard": "They're my brothers."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Only residual ASR difference is textbook Hullo versus recognized Hello. These are spelling variants of the greeting; no content omission."
+      ]
+    },
+    {
+      "lesson": 29,
+      "files": [
+        {
+          "file": "029-1-lesson.wav",
+          "seconds": 123.52,
+          "bytes": 5929004,
+          "sha256": "ff3448321e7bc774cf205523d4dcca9d8707c598f875bad317469f36a5398fd2",
+          "segments": 31,
+          "retained_asr_differences": [
+            {
+              "segment": 22,
+              "text": "must. You must wear a seat belt.",
+              "heard": "Must. You must wear a seatbelt."
+            }
+          ]
+        },
+        {
+          "file": "029-2-practice.wav",
+          "seconds": 103.43,
+          "bytes": 4964684,
+          "sha256": "c3a2b74c22e21fdc980c2a809d7140bcc633681b1b9a7ae7c6ecc8fa01f7dad4",
+          "segments": 25,
+          "retained_asr_differences": [
+            {
+              "segment": 11,
+              "text": "Hullo, John, please come in. And then shut the door.",
+              "heard": "Hello, John. Please come in and then shut the door."
+            }
+          ]
+        },
+        {
+          "file": "029-3-gramar.wav",
+          "seconds": 208.4,
+          "bytes": 10003244,
+          "sha256": "ed87fb916f36710f76d32a528c1530f8b19b8bc63a9f7f2aa730d3fe8d60fecd",
+          "segments": 59,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Only residual ASR difference is textbook Hullo versus recognized Hello. These are spelling variants of the greeting; no content omission."
+      ]
+    },
+    {
+      "lesson": 30,
+      "files": [
+        {
+          "file": "030-1-lesson.wav",
+          "seconds": 389.68,
+          "bytes": 18704684,
+          "sha256": "9cab9f9a1c2f9d050f87ff98fa5ed727e0bd2a835c4201a1c65b7e916f691677",
+          "segments": 114,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "030-2-practice.wav",
+          "seconds": 97.76,
+          "bytes": 4692524,
+          "sha256": "4f2fb6edb5db8dc66f7a97cac5b7171e32513805ce8724c4e8ae60f7972f5e40",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "030-3-gramar.wav",
+          "seconds": 122.48,
+          "bytes": 5879084,
+          "sha256": "80252ba8d3466b3aaffe403cdca4877a2521d9b6345350bacb2cff2cdbd3f666",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 31,
+      "files": [
+        {
+          "file": "031-1-lesson.wav",
+          "seconds": 114.86,
+          "bytes": 5513324,
+          "sha256": "8ace9e272bfab7f31627181055acb0e5f8a0480657237274b3fc9fab1634067e",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "031-2-practice.wav",
+          "seconds": 132.18,
+          "bytes": 6344684,
+          "sha256": "3ebcd8a6a58720d1996c44fed86951f28ee5c8f10cb5fa6de6ca5bbe5207901c",
+          "segments": 40,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "031-3-gramar.wav",
+          "seconds": 205.08,
+          "bytes": 9843884,
+          "sha256": "bb39f0ce802688abe4568f013d59fefc39dcb421339526682aac4c605896cdad",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 32,
+      "files": [
+        {
+          "file": "032-1-lesson.wav",
+          "seconds": 438.44,
+          "bytes": 21045164,
+          "sha256": "fdb268a266f17dda7461d840ba425b9c199049bedfd52867090168ec957360e1",
+          "segments": 112,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "032-2-practice.wav",
+          "seconds": 92.92,
+          "bytes": 4460204,
+          "sha256": "5f65b89b99f4ef14f4150c5e928e45d7c66e4b156f2c66aa19ce0b61d7022a03",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "032-3-gramar.wav",
+          "seconds": 224.0,
+          "bytes": 10752044,
+          "sha256": "6e3ac9d080c9aff03cb477024d51f934d0944999b25b34e2b38e160d58ee8ed6",
+          "segments": 66,
+          "retained_asr_differences": [
+            {
+              "segment": 3,
+              "text": "Is Ann reading?",
+              "heard": "Is Anne reading?"
+            },
+            {
+              "segment": 59,
+              "text": "Sally is. What about Ann?",
+              "heard": "Sally is, what about Anne?"
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Residual differences are Ann versus Anne, identical name pronunciation; all other content checks passed."
+      ]
+    },
+    {
+      "lesson": 33,
+      "files": [
+        {
+          "file": "033-1-lesson.wav",
+          "seconds": 146.2,
+          "bytes": 7017644,
+          "sha256": "5d9cd634e665fce884a0bbc0995975d4441fdfa1f47abb413220c61f35d7ae69",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "033-2-practice.wav",
+          "seconds": 130.98,
+          "bytes": 6287084,
+          "sha256": "4ed663dcb153a9b8d6f60baa7bc206b3522ffea8105778a1fafec582f66885c7",
+          "segments": 34,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "033-3-gramar.wav",
+          "seconds": 126.5,
+          "bytes": 6072044,
+          "sha256": "4b6133f5fda936d5ac94b2aeee5b4ce512bfccb0d23d4f8fa83b27f93828f557",
+          "segments": 27,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Residual differences are Ann versus Anne, identical name pronunciation; all other content checks passed."
+      ]
+    },
+    {
+      "lesson": 34,
+      "files": [
+        {
+          "file": "034-1-lesson.wav",
+          "seconds": 254.06,
+          "bytes": 12194924,
+          "sha256": "d1a9c16192cb789dbd3447ca1d2449381e13d69cde9e582c1f1fe36f5c255866",
+          "segments": 80,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "034-2-practice.wav",
+          "seconds": 90.72,
+          "bytes": 4354604,
+          "sha256": "f5f4c276feee982190f5d54f46a2a613d7b8db866fe0d6d27a5353f21648d4ba",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "034-3-gramar.wav",
+          "seconds": 158.6,
+          "bytes": 7612844,
+          "sha256": "f243e7bd3bb3dbd5a9f1d918da889beb443f11a3b925ff8304289c2a1cebce5d",
+          "segments": 47,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Removed matching letters; contextualized putting. Latest ASR reports for all six files have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 35,
+      "files": [
+        {
+          "file": "035-1-lesson.wav",
+          "seconds": 157.02,
+          "bytes": 7537004,
+          "sha256": "a7fcd4f23ca8373bb4f2bebac0f51a35136d642aeda1d65eeb9cb5813edc2c7f",
+          "segments": 38,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "035-2-practice.wav",
+          "seconds": 126.22,
+          "bytes": 6058604,
+          "sha256": "495c16ee82251afb267e443e4371af7ecfc4c82008cb9eecc542370457f3e8ff",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "035-3-gramar.wav",
+          "seconds": 217.08,
+          "bytes": 10419884,
+          "sha256": "ec347cb0f830e3fc04e3c6c2b5c21a0bf63cbc3bef9c30e5168d901b26e36387",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Removed matching letters; contextualized putting. Latest ASR reports for all six files have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 36,
+      "files": [
+        {
+          "file": "036-1-lesson.wav",
+          "seconds": 269.02,
+          "bytes": 12913004,
+          "sha256": "bd92c383b7958c1a2d5e737761008e73856df8bbbd711e9efa7aba6f7883a5b6",
+          "segments": 76,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "036-2-practice.wav",
+          "seconds": 106.92,
+          "bytes": 5132204,
+          "sha256": "378fcd1cba3bad655a7fad4deee493b3c00044f66af7c941bffb2bbeda95687d",
+          "segments": 32,
+          "retained_asr_differences": [
+            {
+              "segment": 4,
+              "text": "He's going to our friends' house.",
+              "heard": "He's going to our friend's house."
+            }
+          ]
+        },
+        {
+          "file": "036-3-gramar.wav",
+          "seconds": 124.34,
+          "bytes": 5968364,
+          "sha256": "a4c7c03f4049090b6edbbb295ef624c721b65853782ef20c6adbd85f34baaf9d",
+          "segments": 24,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Contextual putting now passes. Only remaining difference is friends possessive vs friend possessive; identical spoken form. Lesson37 latest ASR has no residual differences."
+      ]
+    },
+    {
+      "lesson": 37,
+      "files": [
+        {
+          "file": "037-1-lesson.wav",
+          "seconds": 98.3,
+          "bytes": 4718444,
+          "sha256": "98edeb637d361493c9efccd16b6ba528382c5a02e041899893dc56f3b5236576",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "037-2-practice.wav",
+          "seconds": 89.9,
+          "bytes": 4315244,
+          "sha256": "1936dd4996c2b4ba85f9646c687b166a37cf358a011395b82d33b2e6c634d1a5",
+          "segments": 17,
+          "retained_asr_differences": [
+            {
+              "segment": 12,
+              "text": "Add -ing.",
+              "heard": "Adding"
+            }
+          ]
+        },
+        {
+          "file": "037-3-gramar.wav",
+          "seconds": 222.48,
+          "bytes": 10679084,
+          "sha256": "142c2803d14e94533879fc306445eac4c3693819ae208fb9bf82c41c8759c709",
+          "segments": 60,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Contextual putting now passes. Only remaining difference is friends possessive vs friend possessive; identical spoken form. Lesson37 latest ASR has no residual differences."
+      ]
+    },
+    {
+      "lesson": 38,
+      "files": [
+        {
+          "file": "038-1-lesson.wav",
+          "seconds": 295.66,
+          "bytes": 14191724,
+          "sha256": "e4735285b78fdd0fad4bc5a22742b9184d427760c4e7defc5b4061e33f271455",
+          "segments": 80,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "038-2-practice.wav",
+          "seconds": 167.24,
+          "bytes": 8027564,
+          "sha256": "bd32819d0cebd15f482b51de83f52f00890c08d3f6ea3c0354a874fc644f77ee",
+          "segments": 40,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "038-3-gramar.wav",
+          "seconds": 207.52,
+          "bytes": 9961004,
+          "sha256": "41da72a8d00d51847289c1270a1bd7fb2236395dcd58ca7605aec88cb769acd2",
+          "segments": 52,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Replaced multiplication symbol with Nine times two equals what? Latest ASR reports for both lessons have no residual differences."
+      ]
+    },
+    {
+      "lesson": 39,
+      "files": [
+        {
+          "file": "039-1-lesson.wav",
+          "seconds": 94.82,
+          "bytes": 4551404,
+          "sha256": "2fb3cc2f5eb9388596434c38e7f9e2cb6054ebb40970d7c4a1d792bec1a051e4",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "039-2-practice.wav",
+          "seconds": 168.2,
+          "bytes": 8073644,
+          "sha256": "f97e22112114979a011043dff759f8980685e5aefb20bd40f794018a26298332",
+          "segments": 44,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "039-3-gramar.wav",
+          "seconds": 320.8,
+          "bytes": 15398444,
+          "sha256": "4020d06cb97c52a5d7dbf1f45be0341abf973593a47c59ea455e868dfec845be",
+          "segments": 60,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Replaced multiplication symbol with Nine times two equals what? Latest ASR reports for both lessons have no residual differences."
+      ]
+    },
+    {
+      "lesson": 40,
+      "files": [
+        {
+          "file": "040-1-lesson.wav",
+          "seconds": 250.38,
+          "bytes": 12018284,
+          "sha256": "68b8f59cd252c24be413fcc53c94fcd8b1f9861ffebd7f5e06a6c97cd839785a",
+          "segments": 70,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "040-2-practice.wav",
+          "seconds": 140.66,
+          "bytes": 6751724,
+          "sha256": "72dada7487138ba0aca55a5b9d31dac1d284372b84362a91a26c7d8fca447ae2",
+          "segments": 38,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "040-3-gramar.wav",
+          "seconds": 305.76,
+          "bytes": 14676524,
+          "sha256": "1115d5df8ed5563caff5c43940c0c47f328b4ba917ebee82f79a57d29cf0956b",
+          "segments": 55,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Resolved matching letters to complete phrases and split the four money-request variants. All six latest ASR reports have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 41,
+      "files": [
+        {
+          "file": "041-1-lesson.wav",
+          "seconds": 93.86,
+          "bytes": 4505324,
+          "sha256": "b49bb1d5c7976104bb4c88f14400c602426091ffae49d8883f1f4883d371c140",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "041-2-practice.wav",
+          "seconds": 129.28,
+          "bytes": 6205484,
+          "sha256": "3a299b1cc769207e0c3a3ca42861e427ba4962c1eeeebc79110d8a284f17a361",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "041-3-gramar.wav",
+          "seconds": 248.2,
+          "bytes": 11913644,
+          "sha256": "e71a86ee26a5413796f2691f62ad45b25f6c1e13bc3c8b69a6f30376f56daf0c",
+          "segments": 69,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Resolved matching letters to complete phrases and split the four money-request variants. All six latest ASR reports have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 42,
+      "files": [
+        {
+          "file": "042-1-lesson.wav",
+          "seconds": 337.3,
+          "bytes": 16190444,
+          "sha256": "2f5caad694feeaa313af0cf640976075ba35826452ad0026010212ef1889a950",
+          "segments": 91,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "042-2-practice.wav",
+          "seconds": 119.52,
+          "bytes": 5737004,
+          "sha256": "91f789af88d43b1292141dce694e5a8e948cfea8e28c61d3ea8433fdf3bb0faf",
+          "segments": 35,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "042-3-gramar.wav",
+          "seconds": 175.58,
+          "bytes": 8427884,
+          "sha256": "16341ff3931b93b2cb940e8482070f4de739e6e3215b0975a9f21c5048f7b03f",
+          "segments": 41,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Only residual is tea’s versus tea is, an equivalent contraction expansion in a conversation, not a contraction contrast exercise."
+      ]
+    },
+    {
+      "lesson": 43,
+      "files": [
+        {
+          "file": "043-1-lesson.wav",
+          "seconds": 106.28,
+          "bytes": 5101484,
+          "sha256": "2c7257feac96cd7b0d002b04e55ab8103dd49d7a8a8a4002ae0ab360bb3e9ab1",
+          "segments": 30,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "043-2-practice.wav",
+          "seconds": 92.28,
+          "bytes": 4429484,
+          "sha256": "37f18a1180d61563a23d73d5f6b107b12586f40996fb23a0e0969721646d9019",
+          "segments": 20,
+          "retained_asr_differences": [
+            {
+              "segment": 4,
+              "text": "Yes, there is. And the tea's over there, behind the teapot. Can you see it?",
+              "heard": "Yes, there is. And the tea is over there, behind the teapot. Can you see it?"
+            }
+          ]
+        },
+        {
+          "file": "043-3-gramar.wav",
+          "seconds": 310.4,
+          "bytes": 14899244,
+          "sha256": "72d95d835c219056bd73377ef28f1b2289f1e066b17d8490bccee2fe875e8e6a",
+          "segments": 54,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Only residual is tea’s versus tea is, an equivalent contraction expansion in a conversation, not a contraction contrast exercise."
+      ]
+    },
+    {
+      "lesson": 44,
+      "files": [
+        {
+          "file": "044-1-lesson.wav",
+          "seconds": 317.88,
+          "bytes": 15258284,
+          "sha256": "a22abdb3aafeb6899269ef779fce0d63a46e9146eef10112a6758f94b5c4bf56",
+          "segments": 73,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "044-2-practice.wav",
+          "seconds": 102.34,
+          "bytes": 4912364,
+          "sha256": "d9dea9c61f2064ecfd9906a2fcdd17553ff0c35c820b7b617b67a7409842dc6b",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "044-3-gramar.wav",
+          "seconds": 174.52,
+          "bytes": 8377004,
+          "sha256": "7748a80bb6abb70b9320c19e682b62c40699bd2b0379fe8bfeac848bcc8dc248",
+          "segments": 37,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "After contextualizing Xiao Li can translate this, residuals are boss’s/bosses, under water/underwater, Xiao Li/Shao Li. Complete translated answer is recognized; no words omitted. These are spelling/name transcription differences, not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 45,
+      "files": [
+        {
+          "file": "045-1-lesson.wav",
+          "seconds": 88.46,
+          "bytes": 4246124,
+          "sha256": "ebcd043159ff48dbd0e25d0a2dddee4f95faa79d24d78cab22420d38ad669392",
+          "segments": 27,
+          "retained_asr_differences": [
+            {
+              "segment": 20,
+              "text": "boss's.",
+              "heard": "Bosses."
+            }
+          ]
+        },
+        {
+          "file": "045-2-practice.wav",
+          "seconds": 126.18,
+          "bytes": 6056684,
+          "sha256": "6f033249807a91555d74fb00e2703b6cdb4cbf2e03dade9be86a7445b2cdd4f0",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "045-3-gramar.wav",
+          "seconds": 260.64,
+          "bytes": 12510764,
+          "sha256": "ddc3c32f2819a38f99a6c62b688fd1691fc1ba43fe33aea93966eff3f04bab83",
+          "segments": 85,
+          "retained_asr_differences": [
+            {
+              "segment": 28,
+              "text": "Can birds swim under water?",
+              "heard": "Can birds swim underwater?"
+            },
+            {
+              "segment": 56,
+              "text": "Xiao Li can translate this.",
+              "heard": "Shao Li can translate this."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "After contextualizing Xiao Li can translate this, residuals are boss’s/bosses, under water/underwater, Xiao Li/Shao Li. Complete translated answer is recognized; no words omitted. These are spelling/name transcription differences, not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 46,
+      "files": [
+        {
+          "file": "046-1-lesson.wav",
+          "seconds": 208.78,
+          "bytes": 10021484,
+          "sha256": "f3c8623387af10c9343eee2ebc7fef8fc3a75d1457ca587f71029d88be0e44b3",
+          "segments": 56,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "046-2-practice.wav",
+          "seconds": 114.8,
+          "bytes": 5510444,
+          "sha256": "5169b4e7f6586fca82d78131886db9fc5d456b51d35d4cfe994dbec77e0170ad",
+          "segments": 26,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "046-3-gramar.wav",
+          "seconds": 181.56,
+          "bytes": 8714924,
+          "sha256": "11f96b18a8092f2517294c00ec0dc0aba85efe20143c2cdbcd7b7cd4eb14e1e1",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Only residual differences are whisky versus whiskey, spelling variants with the same pronunciation. Scotch whisky source spelling retained."
+      ]
+    },
+    {
+      "lesson": 47,
+      "files": [
+        {
+          "file": "047-1-lesson.wav",
+          "seconds": 64.74,
+          "bytes": 3107564,
+          "sha256": "bd47ed86b2417b595b50749af38fda2597e794ce2c22a8ef12eb7c3ef2af520d",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "047-2-practice.wav",
+          "seconds": 114.3,
+          "bytes": 5486444,
+          "sha256": "3459a97b9d5036af23b84c3a3f6883ba793171e11fec433033b2943559308600",
+          "segments": 30,
+          "retained_asr_differences": [
+            {
+              "segment": 16,
+              "text": "I want a bottle of Scotch whisky, please.",
+              "heard": "I want a bottle of Scotch whiskey, please."
+            }
+          ]
+        },
+        {
+          "file": "047-3-gramar.wav",
+          "seconds": 304.04,
+          "bytes": 14593964,
+          "sha256": "6bb08896470444a7961fe1b5da697c5c26b647f0c8aa4a688543fbf6b76ce6b8",
+          "segments": 73,
+          "retained_asr_differences": [
+            {
+              "segment": 20,
+              "text": "Do you want any whisky?",
+              "heard": "Do you want any whiskey?"
+            },
+            {
+              "segment": 21,
+              "text": "No, I don't. I don't like whisky.",
+              "heard": "No, I don't. I don't like whiskey."
+            },
+            {
+              "segment": 58,
+              "text": "Do you like ice in your whisky?",
+              "heard": "Do you like ice in your whiskey?"
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Only residual differences are whisky versus whiskey, spelling variants with the same pronunciation. Scotch whisky source spelling retained."
+      ]
+    },
+    {
+      "lesson": 48,
+      "files": [
+        {
+          "file": "048-1-lesson.wav",
+          "seconds": 255.6,
+          "bytes": 12268844,
+          "sha256": "d2395e0a6e72c966259fa7795e432deabd959cbdf73734c2cac4346c69f32271",
+          "segments": 52,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "048-2-practice.wav",
+          "seconds": 116.8,
+          "bytes": 5606444,
+          "sha256": "94bd9f0945460a4c9c34e8ce0c59947d4a17bd7142bf4ecce59374f57b4b895b",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "048-3-gramar.wav",
+          "seconds": 203.84,
+          "bytes": 9784364,
+          "sha256": "51c7b5bf913bc76180be5a12b82875a980f6d95617a4bf1f3152861439f1ac73",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Rephrased the ambiguous he cue as a complete instruction. Latest ASR reports have zero residual differences for all six files."
+      ]
+    },
+    {
+      "lesson": 49,
+      "files": [
+        {
+          "file": "049-1-lesson.wav",
+          "seconds": 137.36,
+          "bytes": 6593324,
+          "sha256": "c28fae4d4f9980b7f38c3b698b681a64352bf57faa993419d47cc96aeadce3c9",
+          "segments": 34,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "049-2-practice.wav",
+          "seconds": 139.84,
+          "bytes": 6712364,
+          "sha256": "995a567436a2b73045c22a1398a79fff460aa05ba476f911c2d242822bca2cbd",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "049-3-gramar.wav",
+          "seconds": 350.72,
+          "bytes": 16834604,
+          "sha256": "2f8509bc796beb07a1816bd35977026097368ebe0bec34aae8aae35654741bff",
+          "segments": 67,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Rephrased the ambiguous he cue as a complete instruction. Latest ASR reports have zero residual differences for all six files."
+      ]
+    },
+    {
+      "lesson": 50,
+      "files": [
+        {
+          "file": "050-1-lesson.wav",
+          "seconds": 223.38,
+          "bytes": 10722284,
+          "sha256": "5bdc7857d4cc2a812d772d03dd2042a54ca766222b5ad88ea0487ed753986a7f",
+          "segments": 43,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "050-2-practice.wav",
+          "seconds": 128.84,
+          "bytes": 6184364,
+          "sha256": "2cebcfc2599e9a5bd18ae2161dedf06af7400e8489d258b9d81f6c6cc3dd9219",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "050-3-gramar.wav",
+          "seconds": 221.04,
+          "bytes": 10609964,
+          "sha256": "4c5a8dba8a5f5d595297db2bc924f2176baf336f9320775d050162fad3fbd65a",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 51,
+      "files": [
+        {
+          "file": "051-1-lesson.wav",
+          "seconds": 228.88,
+          "bytes": 10986284,
+          "sha256": "71128c169b47886500cc054bf14c7d1c31c967e810730f2f133a9346b8d66f60",
+          "segments": 51,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "051-2-practice.wav",
+          "seconds": 160.28,
+          "bytes": 7693484,
+          "sha256": "a7e0df69bbb459bb16a05593179693ae5b7e5f43aa628aa553c4c684c0c635de",
+          "segments": 48,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "051-3-gramar.wav",
+          "seconds": 264.92,
+          "bytes": 12716204,
+          "sha256": "06c65f7dc7b8034ce774f0be9f51f58b2b610500d0ad363b73f3a7ec741dcaaa",
+          "segments": 64,
+          "retained_asr_differences": [
+            {
+              "segment": 30,
+              "text": "The students are hard-working.",
+              "heard": "The students are hardworking."
+            },
+            {
+              "segment": 31,
+              "text": "The students are always hard-working.",
+              "heard": "The students are always hardworking."
+            }
+          ]
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 52,
+      "files": [
+        {
+          "file": "052-1-lesson.wav",
+          "seconds": 321.76,
+          "bytes": 15444524,
+          "sha256": "359d76beee6a39e7a780de9ee88337e4576c11d02d74f441fbf510a8e86e4495",
+          "segments": 69,
+          "retained_asr_differences": [
+            {
+              "segment": 20,
+              "text": "He comes from the U.S., but she comes from England.",
+              "heard": "He comes from the US, but she comes from England."
+            },
+            {
+              "segment": 23,
+              "text": "Stella comes from Spain, but Hans and Karl come from Germany.",
+              "heard": "Stella comes from Spain, but Hans and Carl come from Germany."
+            }
+          ]
+        },
+        {
+          "file": "052-2-practice.wav",
+          "seconds": 158.56,
+          "bytes": 7610924,
+          "sha256": "a3715a5e421c4aed16d94e101f3ad9df584f8ba40f49624329b121fa53f27b7b",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "052-3-gramar.wav",
+          "seconds": 208.28,
+          "bytes": 9997484,
+          "sha256": "0ba21d9d3cd7fb9cfe122cf9990fd7761da26be3aea515230b1d28b371059bb4",
+          "segments": 27,
+          "retained_asr_differences": [
+            {
+              "segment": 4,
+              "text": "Mrs. Longhi is Italian; she comes from Italy. She speaks Italian; her language is Italian.",
+              "heard": "Mrs. Lonky is Italian. She comes from Italy. She speaks Italian. Her language is Italian."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Residuals confined to proper-name recognition: Karl/Carl and Longhi/Lonky. Full surrounding clauses recognized; retain source names. Foreign-name pronunciation is not verified by ASR."
+      ]
+    },
+    {
+      "lesson": 53,
+      "files": [
+        {
+          "file": "053-1-lesson.wav",
+          "seconds": 171.96,
+          "bytes": 8254124,
+          "sha256": "4411923536664ebe13cf8511bd477d45cc295f154f0b62e233f63f2d558faff0",
+          "segments": 37,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "053-2-practice.wav",
+          "seconds": 147.82,
+          "bytes": 7095404,
+          "sha256": "03512a24cc4df37007d321789d9fe2ed0a5ec3da605ef5eac1551cd15c82bd56",
+          "segments": 30,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "053-3-gramar.wav",
+          "seconds": 278.24,
+          "bytes": 13355564,
+          "sha256": "e62fb2c2166ee42ec798686c2abfe23e80875b663e84149b610a837a94375462",
+          "segments": 68,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Residuals confined to proper-name recognition: Karl/Carl and Longhi/Lonky. Full surrounding clauses recognized; retain source names. Foreign-name pronunciation is not verified by ASR."
+      ]
+    },
+    {
+      "lesson": 54,
+      "files": [
+        {
+          "file": "054-1-lesson.wav",
+          "seconds": 284.76,
+          "bytes": 13668524,
+          "sha256": "347ab5199dfafa500630d651393ee9856688b2c79f4a1153a20cc75bb1b94297",
+          "segments": 73,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "054-2-practice.wav",
+          "seconds": 179.58,
+          "bytes": 8619884,
+          "sha256": "14341c409488140da49439f3fe088911bc9b107ad2a27e7c2c44bb728c0100b5",
+          "segments": 44,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "054-3-gramar.wav",
+          "seconds": 251.64,
+          "bytes": 12078764,
+          "sha256": "94cc23db9c482094769e18e609b0b10b4ba8564535db9e5d20110bdd8e547f12",
+          "segments": 79,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Removed zero-article × marks instead of speaking them as multiplication. Corrected note numbering; all latest ASR reports for both lessons have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 55,
+      "files": [
+        {
+          "file": "055-1-lesson.wav",
+          "seconds": 143.16,
+          "bytes": 6871724,
+          "sha256": "c417e5fc50c9f1daa122c768ac0593ceb0f0269b1ccab0ead897985636c15c32",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "055-2-practice.wav",
+          "seconds": 110.08,
+          "bytes": 5283884,
+          "sha256": "cdf356d95cd0b9dad96cd0f44470d9d9916a3ed59562e8ab709302abd106b8db",
+          "segments": 20,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "055-3-gramar.wav",
+          "seconds": 271.35,
+          "bytes": 13024844,
+          "sha256": "379bbd1b50dbbe7a26894701cc0a427db3d710acbb8bdf52de23ef9c000fd3c1",
+          "segments": 52,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Removed zero-article × marks instead of speaking them as multiplication. Corrected note numbering; all latest ASR reports for both lessons have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 56,
+      "files": [
+        {
+          "file": "056-1-lesson.wav",
+          "seconds": 123.8,
+          "bytes": 5942444,
+          "sha256": "5c688f9eda112975d84a14b68cb3b65ab7e3c64f8b7dcf06cac860263e127d92",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "056-2-practice.wav",
+          "seconds": 87.48,
+          "bytes": 4199084,
+          "sha256": "fc5ac0e9c6f728990e93ae3e92a8a88ffaa7450c5b914f59c617dc306232c630",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "056-3-gramar.wav",
+          "seconds": 162.28,
+          "bytes": 7789484,
+          "sha256": "51dd18ebf4df49a84cb41fbd33acbf31eb4a19e232a7280847de16b1abea31fe",
+          "segments": 37,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Clock cues rendered as conversational hours; ambiguous Mary cue rewritten as an instruction. Latest ASR reports for both lessons have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 57,
+      "files": [
+        {
+          "file": "057-1-lesson.wav",
+          "seconds": 105.96,
+          "bytes": 5086124,
+          "sha256": "6e015020373e4ca9b5c65a9c41983d498128f948144c27b3c423e1b9c4353e1e",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "057-2-practice.wav",
+          "seconds": 114.18,
+          "bytes": 5480684,
+          "sha256": "17435986567a1a76073ca401803c9eb5486dc1406048a8a3c3d65730931d2159",
+          "segments": 25,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "057-3-gramar.wav",
+          "seconds": 352.68,
+          "bytes": 16928684,
+          "sha256": "7975b78b7da07cede31b71daa7e0aca1dbcf7166902905835c659fff40342b17",
+          "segments": 64,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Clock cues rendered as conversational hours; ambiguous Mary cue rewritten as an instruction. Latest ASR reports for both lessons have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 58,
+      "files": [
+        {
+          "file": "058-1-lesson.wav",
+          "seconds": 268.8,
+          "bytes": 12902444,
+          "sha256": "f7774a4dced8479d78ad68c3f660de42d7b90c04f77f9f1a6eb29d2202a4c025",
+          "segments": 54,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "058-2-practice.wav",
+          "seconds": 102.82,
+          "bytes": 4935404,
+          "sha256": "effbaaa346ba14d95b951dfe70011d3975c0ba3e6a81a425fec63f0ba68000e3",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "058-3-gramar.wav",
+          "seconds": 324.12,
+          "bytes": 15557804,
+          "sha256": "b4c9ea319fbeef313f6e21bea151e5ad841b31952e66017dd910686d57ce7fb4",
+          "segments": 64,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "058 has no residuals. Recompiled 059 to resolve matching phrases without letter codes and to spell out clock cues; new practice ASR is clean. Grammar mince was transcribed mints, a near-homophonic spelling ambiguity in American speech; source sentence and complete contrast remain intact. ASR cannot independently verify subtle articulation."
+      ]
+    },
+    {
+      "lesson": 59,
+      "files": [
+        {
+          "file": "059-1-lesson.wav",
+          "seconds": 116.24,
+          "bytes": 5579564,
+          "sha256": "fcfd1532a22ca009548cce4a385821d1a4d0173d863b2cb3145f68978f2ce907",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "059-2-practice.wav",
+          "seconds": 118.67,
+          "bytes": 5696204,
+          "sha256": "a173713bdda86152f27d89ff10901bd16ef7b62d3c185cc27b41f70b218669b3",
+          "segments": 35,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "059-3-gramar.wav",
+          "seconds": 310.92,
+          "bytes": 14924204,
+          "sha256": "f0586ff68cfbf6e4b9d7ddb5bc0506362f9f349faf78932478202fbcfa734f82",
+          "segments": 80,
+          "retained_asr_differences": [
+            {
+              "segment": 51,
+              "text": "We have some mince, but we don't have any steak.",
+              "heard": "We have some mints, but we don't have any steak."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "058 has no residuals. Recompiled 059 to resolve matching phrases without letter codes and to spell out clock cues; new practice ASR is clean. Grammar mince was transcribed mints, a near-homophonic spelling ambiguity in American speech; source sentence and complete contrast remain intact. ASR cannot independently verify subtle articulation."
+      ]
+    },
+    {
+      "lesson": 60,
+      "files": [
+        {
+          "file": "060-1-lesson.wav",
+          "seconds": 633.08,
+          "bytes": 30387884,
+          "sha256": "79339579d452c6ae3531e44e71d98b1058fb69e26618f423a258e8649228e96b",
+          "segments": 108,
+          "retained_asr_differences": [
+            {
+              "segment": 62,
+              "text": "mince. Do you have any mince?",
+              "heard": "Mints. Do you have any mints?"
+            },
+            {
+              "segment": 63,
+              "text": "Yes, I do. I have some mince. No, I don't. I don't have any mince.",
+              "heard": "Yes, I do. I have some mints. No, I don't. I don't have any mints."
+            },
+            {
+              "segment": 84,
+              "text": "I don't have any mince, but I have some steak.",
+              "heard": "I don't have any mints, but I have some steak."
+            },
+            {
+              "segment": 101,
+              "text": "Do you have any mince? , steak.",
+              "heard": "Do you have any mints? Steak."
+            },
+            {
+              "segment": 102,
+              "text": "I don't have any mince, but I have some steak.",
+              "heard": "I don't have any mints, but I have some steak."
+            }
+          ]
+        },
+        {
+          "file": "060-2-practice.wav",
+          "seconds": 99.22,
+          "bytes": 4762604,
+          "sha256": "ad5d7ea69cab153088ce1c60bcac082fc25b05dc1bd4b2ade4de08d5cc19e9fd",
+          "segments": 19,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "060-3-gramar.wav",
+          "seconds": 217.44,
+          "bytes": 10437164,
+          "sha256": "304033c0b2a362bad939286e09acf7e29da3658c1ede329f34609614f9efddcb",
+          "segments": 46,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "061 phone digits are explicitly spelled out and strictly match ASR; verb sorting restored from inspected workbook scan and duplicated article fixed. All 061 parts have zero residuals. 060 actual mace substitution was repaired with a pronunciation direction; five remaining mince/mints transcriptions are near-homophonic orthography and do not demonstrate a content omission. No subjective accent claim."
+      ]
+    },
+    {
+      "lesson": 61,
+      "files": [
+        {
+          "file": "061-1-lesson.wav",
+          "seconds": 155.66,
+          "bytes": 7471724,
+          "sha256": "f4e6c93a6a3cbb309bd52f7a332f1e8e5f687da1cfd6420968dbf4ae89c1e34e",
+          "segments": 39,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "061-2-practice.wav",
+          "seconds": 150.58,
+          "bytes": 7227884,
+          "sha256": "805cffe1a3aedcf022b2380e2160962e014e842d35018d69bf61d1b096aa6852",
+          "segments": 45,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "061-3-gramar.wav",
+          "seconds": 309.88,
+          "bytes": 14874284,
+          "sha256": "1b7f24142948ee23b0f8affdb73b227153b3719805c778af4eb40d524ce17e8b",
+          "segments": 79,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "061 phone digits are explicitly spelled out and strictly match ASR; verb sorting restored from inspected workbook scan and duplicated article fixed. All 061 parts have zero residuals. 060 actual mace substitution was repaired with a pronunciation direction; five remaining mince/mints transcriptions are near-homophonic orthography and do not demonstrate a content omission. No subjective accent claim."
+      ]
+    },
+    {
+      "lesson": 62,
+      "files": [
+        {
+          "file": "062-1-lesson.wav",
+          "seconds": 129.78,
+          "bytes": 6229484,
+          "sha256": "c6a1a8a71071be81fd46211bf6f451a990f9a549020fcb21b54030e5667359e5",
+          "segments": 31,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "062-2-practice.wav",
+          "seconds": 162.35,
+          "bytes": 7792844,
+          "sha256": "312dfc7cc6ff8a5d7e4f05514b8132a033d319075f5399ff15164971dc53020e",
+          "segments": 26,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "062-3-gramar.wav",
+          "seconds": 267.32,
+          "bytes": 12831404,
+          "sha256": "90373034d38aa00dcad01880b48b7f59400a6396914e1461d9a8e73bfa268e7f",
+          "segments": 64,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Changed isolated earache introduction to An earache and regenerated. All latest 062 and 063 ASR reports have zero residual content differences."
+      ]
+    },
+    {
+      "lesson": 63,
+      "files": [
+        {
+          "file": "063-1-lesson.wav",
+          "seconds": 140.22,
+          "bytes": 6730604,
+          "sha256": "e32bba56a00136c68a2bc1944c975a164ced2c790526d70bcbb0d7234ffa9b63",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "063-2-practice.wav",
+          "seconds": 114.2,
+          "bytes": 5481644,
+          "sha256": "3db8765c0e8b5ef54a686078bc1c6d1b9574350ef16fc4b12b7384fdeccbe3ce",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "063-3-gramar.wav",
+          "seconds": 218.2,
+          "bytes": 10473644,
+          "sha256": "aaa3b0c436b8094af15a6e692b9104f3a3edab2a44cee20ce3b5b0230db089b6",
+          "segments": 64,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Changed isolated earache introduction to An earache and regenerated. All latest 062 and 063 ASR reports have zero residual content differences."
+      ]
+    },
+    {
+      "lesson": 64,
+      "files": [
+        {
+          "file": "064-1-lesson.wav",
+          "seconds": 223.54,
+          "bytes": 10729964,
+          "sha256": "8054497cd4f5ded70eff57e7cb0e1a92af59c727334ca6cfb7c22806bc21520f",
+          "segments": 49,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "064-2-practice.wav",
+          "seconds": 143.12,
+          "bytes": 6869804,
+          "sha256": "54c4502003ed87c24a59fee6c99b1bd2c76118c97aac83a812c149cbaa580a6c",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "064-3-gramar.wav",
+          "seconds": 206.68,
+          "bytes": 9920684,
+          "sha256": "0c577ad816a1248313fa83a48fdce78052622d0924e1db0ac785a0678baa4f93",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "064 clean after repairing in/and substitution. 065 residuals: hear/here is an exact homophone; Mum transcribed Mom is consistent with the requested American delivery, with a vocabulary note explicitly contrasting British mum and American mom. Source text is preserved. These spelling/regional differences do not omit exercise content; ASR alone cannot establish exact vowel realization."
+      ]
+    },
+    {
+      "lesson": 65,
+      "files": [
+        {
+          "file": "065-1-lesson.wav",
+          "seconds": 131.66,
+          "bytes": 6319724,
+          "sha256": "d54ce5abf063b5db0259eafc7387ee3ba2330f64cb5960c5f753762e4734adf2",
+          "segments": 31,
+          "retained_asr_differences": [
+            {
+              "segment": 12,
+              "text": "Thanks, Mum.",
+              "heard": "Thanks, Mom."
+            },
+            {
+              "segment": 14,
+              "text": "We always enjoy ourselves, Mum. Bye-bye.",
+              "heard": "We always enjoy ourselves, Mom. Bye-bye."
+            },
+            {
+              "segment": 22,
+              "text": "hear. Can you hear me clearly?",
+              "heard": "Here, can you hear me clearly?"
+            },
+            {
+              "segment": 26,
+              "text": "mum. Mum, can you help me?",
+              "heard": "Mom, Mom, can you help me?"
+            }
+          ]
+        },
+        {
+          "file": "065-2-practice.wav",
+          "seconds": 121.74,
+          "bytes": 5843564,
+          "sha256": "0b9fd9d1c4f3e2797894314d839a6b45ecf1e2705fecc3edc6019df1d0b05a5c",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "065-3-gramar.wav",
+          "seconds": 247.98,
+          "bytes": 11903084,
+          "sha256": "f1e082e80196fb65215208d459bc564e4d42d15a86ff5e8cd0c970a38fc52c28",
+          "segments": 47,
+          "retained_asr_differences": [
+            {
+              "segment": 29,
+              "text": "they, play basketball, four, afternoon.",
+              "heard": "They play basketball four after noon."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "064 clean after repairing in/and substitution. 065 residuals: hear/here is an exact homophone; Mum transcribed Mom is consistent with the requested American delivery, with a vocabulary note explicitly contrasting British mum and American mom. Source text is preserved. These spelling/regional differences do not omit exercise content; ASR alone cannot establish exact vowel realization."
+      ]
+    },
+    {
+      "lesson": 66,
+      "files": [
+        {
+          "file": "066-1-lesson.wav",
+          "seconds": 176.16,
+          "bytes": 8455724,
+          "sha256": "3b4faad620839995ebd39acd81fea62a0e9bdaecb415c055a1dcd21b20d74c2b",
+          "segments": 43,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "066-2-practice.wav",
+          "seconds": 152.4,
+          "bytes": 7315244,
+          "sha256": "a5067b1de02a9c0989ff15344197d46ffc23f29ea49cfe57115132dd4b6229d2",
+          "segments": 48,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "066-3-gramar.wav",
+          "seconds": 183.04,
+          "bytes": 8785964,
+          "sha256": "9d76fc9121bdd600dda895ed01c4ee5695cb369c0ed3321ac83aafc9ab2f4ce0",
+          "segments": 50,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Clock cues repaired and strict hour/minute comparison passes. Sole remaining difference is news agent's versus newsagents, an equivalent spacing/possessive transcription."
+      ]
+    },
+    {
+      "lesson": 67,
+      "files": [
+        {
+          "file": "067-1-lesson.wav",
+          "seconds": 175.28,
+          "bytes": 8413484,
+          "sha256": "565e3eb19ce5c00bc7592128f270ac476e95d3a9d72ee8c10b00cfcacbd26462",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "067-2-practice.wav",
+          "seconds": 151.64,
+          "bytes": 7278764,
+          "sha256": "2a9f194a7082f4cb5b95d7c16327deb7f39c8903c1da40b90523397d90664255",
+          "segments": 43,
+          "retained_asr_differences": [
+            {
+              "segment": 43,
+              "text": "You can buy one at the news agent's .",
+              "heard": "You can buy one at the newsagents."
+            }
+          ]
+        },
+        {
+          "file": "067-3-gramar.wav",
+          "seconds": 261.6,
+          "bytes": 12556844,
+          "sha256": "52a220507fae307960254199e8ac7f2fc76250e83ad7a917f6eb1267d1aa963b",
+          "segments": 66,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Clock cues repaired and strict hour/minute comparison passes. Sole remaining difference is news agent's versus newsagents, an equivalent spacing/possessive transcription."
+      ]
+    },
+    {
+      "lesson": 68,
+      "files": [
+        {
+          "file": "068-1-lesson.wav",
+          "seconds": 121.2,
+          "bytes": 5817644,
+          "sha256": "254d45683af8e7f9ffc7cbda7370a1389630e27c60ec05f991af38004f3bbdf8",
+          "segments": 32,
+          "retained_asr_differences": [
+            {
+              "segment": 22,
+              "text": "He was at the hairdresser's on Thursday.",
+              "heard": "He was at the hairdressers on Thursday."
+            }
+          ]
+        },
+        {
+          "file": "068-2-practice.wav",
+          "seconds": 132.12,
+          "bytes": 6341804,
+          "sha256": "e41223517f05275caba888a8aec3d92bb2f6fef1ece22435cf23c4784a0490b4",
+          "segments": 32,
+          "retained_asr_differences": [
+            {
+              "segment": 17,
+              "text": "hairdresser's at the.",
+              "heard": "hairdressers at the"
+            },
+            {
+              "segment": 18,
+              "text": "stationer's at the.",
+              "heard": "Stationers at the..."
+            },
+            {
+              "segment": 21,
+              "text": "grocer's at the.",
+              "heard": "Grocers at the..."
+            },
+            {
+              "segment": 22,
+              "text": "butcher's at the.",
+              "heard": "Butchers at the..."
+            },
+            {
+              "segment": 31,
+              "text": "Were you at the hairdresser's on Saturday?",
+              "heard": "Were you at the hairdressers on Saturday?"
+            },
+            {
+              "segment": 32,
+              "text": "No, I wasn't at the hairdresser's. I was in the country.",
+              "heard": "No, I wasn't at the hairdressers. I was in the country."
+            }
+          ]
+        },
+        {
+          "file": "068-3-gramar.wav",
+          "seconds": 126.4,
+          "bytes": 6067244,
+          "sha256": "6900c5afc061c05229122478749c7e8d5792b976c7009dbe28af89e70bf749c7",
+          "segments": 35,
+          "retained_asr_differences": [
+            {
+              "segment": 28,
+              "text": "When was Jane at the stationer's?",
+              "heard": "When was Jane at the stationers?"
+            },
+            {
+              "segment": 29,
+              "text": "She was at the stationer's at about four.",
+              "heard": "She was at the stationers at about four."
+            },
+            {
+              "segment": 35,
+              "text": "I was at the greengrocer's at nine.",
+              "heard": "I was at the Green Grocers at nine."
+            }
+          ]
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 69,
+      "files": [
+        {
+          "file": "069-1-lesson.wav",
+          "seconds": 136.28,
+          "bytes": 6541484,
+          "sha256": "15166102b99dd167ea3193750778b46f1916dbfc4ca1ed9ba08229965e977e2d",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "069-2-practice.wav",
+          "seconds": 184.88,
+          "bytes": 8874284,
+          "sha256": "86cf1087d8f03c87c9d65c711080a855db8bb394d3f1ba788ddaa383d2fb4adf",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "069-3-gramar.wav",
+          "seconds": 214.82,
+          "bytes": 10311404,
+          "sha256": "365f3374701e3818505036470b2f08a295649259ff136fa9f617251cf6ed1bab",
+          "segments": 47,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 70,
+      "files": [
+        {
+          "file": "070-1-lesson.wav",
+          "seconds": 154.7,
+          "bytes": 7425644,
+          "sha256": "4095b3914971ba4dbda91051de9046197449cf98a0250bb5b473d6c2ff5308bf",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "070-2-practice.wav",
+          "seconds": 98.52,
+          "bytes": 4729004,
+          "sha256": "116c8e5ac354b76791581703640a8a025b45112012e7c2e3fac69ff1d41bba58",
+          "segments": 19,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "070-3-gramar.wav",
+          "seconds": 210.36,
+          "bytes": 10097324,
+          "sha256": "b725cfc455a504b9a145cebb3562b65e997e4369891b8e8c933f3501ff733e3a",
+          "segments": 47,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "071 named dialogue restored from workbook scan as complete Jane/Pauline turns, with coverage preserved for grouped blanks; natural grammar cues retained. Latest remaining differences are only Mum/Mom under requested American delivery. 070 source table and year checks are clean."
+      ]
+    },
+    {
+      "lesson": 71,
+      "files": [
+        {
+          "file": "071-1-lesson.wav",
+          "seconds": 134.02,
+          "bytes": 6433004,
+          "sha256": "6599c221634a2991c72726a5e9fc0f68e9b129b8f3adce9d97c48ba31008016f",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "071-2-practice.wav",
+          "seconds": 133.76,
+          "bytes": 6420524,
+          "sha256": "ca7b286a445d3e5757636832ad1279c3ea849af09b5059ae455eb4f9af4521f9",
+          "segments": 27,
+          "retained_asr_differences": [
+            {
+              "segment": 17,
+              "text": "John was ill last night so Mum called the doctor.",
+              "heard": "John was ill last night, so mom called the doctor."
+            },
+            {
+              "segment": 27,
+              "text": "Mum opened the windows and aired the bedroom this morning.",
+              "heard": "Mom opened the windows and aired the bedroom this morning."
+            }
+          ]
+        },
+        {
+          "file": "071-3-gramar.wav",
+          "seconds": 359.88,
+          "bytes": 17274284,
+          "sha256": "c72ebc35a571c8beefd03a9dee6163718f29593152b3299263ef07d29bea6dcf",
+          "segments": 64,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "071 named dialogue restored from workbook scan as complete Jane/Pauline turns, with coverage preserved for grouped blanks; natural grammar cues retained. Latest remaining differences are only Mum/Mom under requested American delivery. 070 source table and year checks are clean."
+      ]
+    },
+    {
+      "lesson": 72,
+      "files": [
+        {
+          "file": "072-1-lesson.wav",
+          "seconds": 215.8,
+          "bytes": 10358444,
+          "sha256": "aba4e8d2e3752655836ed949ec8e945e576ca845244e4a77831d5d5a8ba727c9",
+          "segments": 48,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "072-2-practice.wav",
+          "seconds": 93.32,
+          "bytes": 4479404,
+          "sha256": "e01204c84a1830beb331b6a44d071a20fafe46bef21bd246561daf349bd204f1",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "072-3-gramar.wav",
+          "seconds": 173.6,
+          "bytes": 8332844,
+          "sha256": "d5d6a5cfa5d06d38ed3d54d1bc8fa6e3db1c78d2a1a3460b2cc12b0c27add475",
+          "segments": 35,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Parenthesized-verb exercise restored to full completed sentences and malformed cue strings rewritten. Remaining transcripts are exact homophones: see/C, ate/eight (8), meet/meat. All other latest 072-073 content checks pass."
+      ]
+    },
+    {
+      "lesson": 73,
+      "files": [
+        {
+          "file": "073-1-lesson.wav",
+          "seconds": 126.0,
+          "bytes": 6048044,
+          "sha256": "c9555bf67b3947e1402fb6b47a6dcd101e3ae18cfda33d7605df573cb0b0824a",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "073-2-practice.wav",
+          "seconds": 125.6,
+          "bytes": 6028844,
+          "sha256": "052a35c3cba129c432d781dc80bde769f4cbd8a96b1b43f354ffeae961c00832",
+          "segments": 30,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "073-3-gramar.wav",
+          "seconds": 484.6,
+          "bytes": 23260844,
+          "sha256": "14d800d4a966f5bcbd7dd0c4151eca4cd63ec39ed4414345e72bc1502307c8ac",
+          "segments": 118,
+          "retained_asr_differences": [
+            {
+              "segment": 14,
+              "text": "The past tense of see is saw.",
+              "heard": "The past tense of C is saw."
+            },
+            {
+              "segment": 18,
+              "text": "ate.",
+              "heard": "8."
+            },
+            {
+              "segment": 19,
+              "text": "The verb is meet.",
+              "heard": "The verb is meat."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Parenthesized-verb exercise restored to full completed sentences and malformed cue strings rewritten. Remaining transcripts are exact homophones: see/C, ate/eight (8), meet/meat. All other latest 072-073 content checks pass."
+      ]
+    },
+    {
+      "lesson": 74,
+      "files": [
+        {
+          "file": "074-1-lesson.wav",
+          "seconds": 114.1,
+          "bytes": 5476844,
+          "sha256": "a0521bab06fa3ef96053dceb11663ccb0ab5cdb3e7313ba7b786675d4ca47047",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "074-2-practice.wav",
+          "seconds": 178.7,
+          "bytes": 8577644,
+          "sha256": "f85e5d78574040597e96c92a68906c0b0412ec4a582860a89959111c5b5ffff5",
+          "segments": 54,
+          "retained_asr_differences": [
+            {
+              "segment": 16,
+              "text": "read.",
+              "heard": "Red."
+            }
+          ]
+        },
+        {
+          "file": "074-3-gramar.wav",
+          "seconds": 189.28,
+          "bytes": 9085484,
+          "sha256": "697dc10218e015df09607877d3a07ffeb3b84bdb9047d69f4766886240ce20b9",
+          "segments": 35,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 75,
+      "files": [
+        {
+          "file": "075-1-lesson.wav",
+          "seconds": 125.62,
+          "bytes": 6029804,
+          "sha256": "eb48cd2e4d876c71df21c84726b46e9c592ecb2947217844b28f513a9874b7c3",
+          "segments": 30,
+          "retained_asr_differences": [
+            {
+              "segment": 10,
+              "text": "No, she bought them in the U.S.",
+              "heard": "No, she bought them in the US."
+            },
+            {
+              "segment": 29,
+              "text": "ago.",
+              "heard": "A go!"
+            }
+          ]
+        },
+        {
+          "file": "075-2-practice.wav",
+          "seconds": 103.24,
+          "bytes": 4955564,
+          "sha256": "df8a043920848290b23a7df2a76ee03017cb9527944df4f2e6b5a25bf35d3063",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "075-3-gramar.wav",
+          "seconds": 354.98,
+          "bytes": 17039084,
+          "sha256": "b634292de711da2a409405583033bc50926764edbcf8c7e5ef69ca16939a1e21",
+          "segments": 93,
+          "retained_asr_differences": [
+            {
+              "segment": 3,
+              "text": "Give the past tense of wear.",
+              "heard": "Give the past tense of where."
+            },
+            {
+              "segment": 4,
+              "text": "The past tense is wore.",
+              "heard": "The past tense is war."
+            },
+            {
+              "segment": 25,
+              "text": "Give the past tense of know.",
+              "heard": "Give the past tense of no."
+            },
+            {
+              "segment": 26,
+              "text": "The past tense is knew.",
+              "heard": "the past tense is new"
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 76,
+      "files": [
+        {
+          "file": "076-1-lesson.wav",
+          "seconds": 163.7,
+          "bytes": 7857644,
+          "sha256": "f2f237951b93df51e2262fc5b663eaa47375f127a50ce445b93a8b6f6d4f2c84",
+          "segments": 44,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "076-2-practice.wav",
+          "seconds": 89.66,
+          "bytes": 4303724,
+          "sha256": "6c870cc1c12bad34738d8cf4cff2e787d6983dea96b42f6b7e2357ab11db1ab4",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "076-3-gramar.wav",
+          "seconds": 183.9,
+          "bytes": 8827244,
+          "sha256": "eac0f42c48f4f42df9abf9da0dd7df0d7da2cc9775873e87033153e5c8400a34",
+          "segments": 49,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 77,
+      "files": [
+        {
+          "file": "077-1-lesson.wav",
+          "seconds": 93.36,
+          "bytes": 4481324,
+          "sha256": "a13384c2205712e624a03c412c7e65e9c8eda08d718c61d3f7311be76c33eb3a",
+          "segments": 21,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "077-2-practice.wav",
+          "seconds": 98.94,
+          "bytes": 4749164,
+          "sha256": "5080b9a358d207d6f77545cc33fe8f6c0432a583ad990406ef413c5c1e62bd72",
+          "segments": 25,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "077-3-gramar.wav",
+          "seconds": 287.04,
+          "bytes": 13777964,
+          "sha256": "262666a3c8fba91770b9be771ec5d7bfa2cf3cbeff6ba0e13fc51989b1fd93ab",
+          "segments": 74,
+          "retained_asr_differences": [
+            {
+              "segment": 69,
+              "text": "go to the greengrocer's , cook a meal.",
+              "heard": "Go to the greengrocers. Cook a meal."
+            },
+            {
+              "segment": 70,
+              "text": "I must go to the greengrocer's. I want to cook a meal.",
+              "heard": "I must go to the greengrocers. I want to cook a meal."
+            }
+          ]
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 78,
+      "files": [
+        {
+          "file": "078-1-lesson.wav",
+          "seconds": 91.88,
+          "bytes": 4410284,
+          "sha256": "51057704f212f404021c7fbf582c525238288ceed399c30672df6a8a0f3f307f",
+          "segments": 17,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "078-2-practice.wav",
+          "seconds": 134.66,
+          "bytes": 6463724,
+          "sha256": "0a9db549fefaf9d792dcd996a87104739833a2648657e5a0463b3f12dd9bac4d",
+          "segments": 25,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "078-3-gramar.wav",
+          "seconds": 150.14,
+          "bytes": 7206764,
+          "sha256": "9aa9220fe57d8a0d3a4343479900443f600422d76c61ef4c0ac2615f1f25106f",
+          "segments": 36,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 79,
+      "files": [
+        {
+          "file": "079-1-lesson.wav",
+          "seconds": 119.8,
+          "bytes": 5750444,
+          "sha256": "5d74add78643c524ea0c98f3bdaeac0b3bd30f28878b0e3c709e04f2fb909613",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "079-2-practice.wav",
+          "seconds": 101.64,
+          "bytes": 4878764,
+          "sha256": "5655288b3cb33007a144d89a2d11ed029dfcffca8af48025ebac20bfcdb9b40b",
+          "segments": 25,
+          "retained_asr_differences": [
+            {
+              "segment": 23,
+              "text": "Newsagent'S. writing paper, magazines, envelopes.",
+              "heard": "News agents writing paper, magazines, envelopes."
+            }
+          ]
+        },
+        {
+          "file": "079-3-gramar.wav",
+          "seconds": 380.49,
+          "bytes": 18263564,
+          "sha256": "fb27b0000a043be9182c11be673fe38b6ef0483723baa878cb0f68c60101f2db",
+          "segments": 76,
+          "retained_asr_differences": [
+            {
+              "segment": 44,
+              "text": "He's got some lamb, but he hasn't got any mince.",
+              "heard": "He's got some lamb, but he hasn't got any mints."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 80,
+      "files": [
+        {
+          "file": "080-1-lesson.wav",
+          "seconds": 238.84,
+          "bytes": 11464364,
+          "sha256": "bd599f6b044789de60255224af1f37cd647e66293d14c2a127c1472f0c5567d3",
+          "segments": 46,
+          "retained_asr_differences": [
+            {
+              "segment": 17,
+              "text": "newsagent. The newsagent sells newspapers and magazines.",
+              "heard": "News agent? The news agent sells newspapers and magazines."
+            }
+          ]
+        },
+        {
+          "file": "080-2-practice.wav",
+          "seconds": 80.4,
+          "bytes": 3859244,
+          "sha256": "7c6b088aed265a89c9adbce64c54b574b05d9fe977b84eec00edb1a107a855ff",
+          "segments": 15,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "080-3-gramar.wav",
+          "seconds": 177.36,
+          "bytes": 8513324,
+          "sha256": "32b34b214df3628c8b53f9723bf3c84bbf49a7bef716a598e026e10cc722f066",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 81,
+      "files": [
+        {
+          "file": "081-1-lesson.wav",
+          "seconds": 106.46,
+          "bytes": 5110124,
+          "sha256": "26a6936503f887a4d42f78db78a37bdd76393e8e5737f0f3532c62e0de469e5e",
+          "segments": 31,
+          "retained_asr_differences": [
+            {
+              "segment": 11,
+              "text": "OK. Thanks.",
+              "heard": "Okay, thanks."
+            }
+          ]
+        },
+        {
+          "file": "081-2-practice.wav",
+          "seconds": 137.3,
+          "bytes": 6590444,
+          "sha256": "47ea94ff786d1732429e4fa1030833365337d104526543cb08ccb3ebac339947",
+          "segments": 38,
+          "retained_asr_differences": [
+            {
+              "segment": 10,
+              "text": "OK thanks.",
+              "heard": "Okay, thanks."
+            }
+          ]
+        },
+        {
+          "file": "081-3-gramar.wav",
+          "seconds": 260.76,
+          "bytes": 12516524,
+          "sha256": "649edded39dab2354f5bf1296651899529feecb41264cfc0a824410649077630",
+          "segments": 56,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 82,
+      "files": [
+        {
+          "file": "082-1-lesson.wav",
+          "seconds": 176.03,
+          "bytes": 8449484,
+          "sha256": "ffb18e8bf6c3151e6efb5bf69b79eaa3b8046281153d32d5ace2f73ceee33643",
+          "segments": 47,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "082-2-practice.wav",
+          "seconds": 112.56,
+          "bytes": 5402924,
+          "sha256": "248882002de35ca0dd9e52f893165c30cf5771fa01e2df8474bfb88edccdb663",
+          "segments": 25,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "082-3-gramar.wav",
+          "seconds": 204.84,
+          "bytes": 9832364,
+          "sha256": "5b40a4098b908f3042729c66f25ef803cb3cabd4fc22ceefc0f23ae092b2cbc2",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 83,
+      "files": [
+        {
+          "file": "083-1-lesson.wav",
+          "seconds": 116.8,
+          "bytes": 5606444,
+          "sha256": "d1388832861092ef92714acc5d852e5645f6a49bcb0363eb504eedce99ac6d8c",
+          "segments": 31,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "083-2-practice.wav",
+          "seconds": 111.7,
+          "bytes": 5361644,
+          "sha256": "af04a4c20cb71276be5739749c668a765dca57a6815827ed71ed9eab69c503f1",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "083-3-gramar.wav",
+          "seconds": 154.0,
+          "bytes": 7392044,
+          "sha256": "2afd2b7f56ba722898e1868deba6adbdd04077acb435219ebaa2ac3f283473ac",
+          "segments": 45,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 84,
+      "files": [
+        {
+          "file": "084-1-lesson.wav",
+          "seconds": 169.35,
+          "bytes": 8128844,
+          "sha256": "ed1be9ffef14dbf284f14ca97e5f2cdd232249436601add00b6f0ca281069b99",
+          "segments": 43,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "084-2-practice.wav",
+          "seconds": 162.2,
+          "bytes": 7785644,
+          "sha256": "90b5f1ed2a8c5a42b2e302eeb37e478d54f7b2051c70dda9db49951984dcbfea",
+          "segments": 43,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "084-3-gramar.wav",
+          "seconds": 241.88,
+          "bytes": 11610284,
+          "sha256": "5eab58838c98aff4d27e9dc4177a79bbda40ffbb944805bc264e5558a45598df",
+          "segments": 55,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 85,
+      "files": [
+        {
+          "file": "085-1-lesson.wav",
+          "seconds": 137.02,
+          "bytes": 6577004,
+          "sha256": "6e22614db837de53ddb7155e0747d224179120aa3ea76dc4c3df65719ecbf58b",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "085-2-practice.wav",
+          "seconds": 129.56,
+          "bytes": 6218924,
+          "sha256": "93a4118f8d17fbb8f152f01a43451291ffdb889210138c59ad6b3f7ba91516a6",
+          "segments": 31,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "085-3-gramar.wav",
+          "seconds": 208.86,
+          "bytes": 10025324,
+          "sha256": "8a4bebb4153c0073f0743fd4271667bf730824d363b5092e9336e649cc50fcda",
+          "segments": 49,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 86,
+      "files": [
+        {
+          "file": "086-1-lesson.wav",
+          "seconds": 246.12,
+          "bytes": 11813804,
+          "sha256": "9358a275f96368817e6daa0406e76b6f1d8fbc770ad112a8e77291e5504c2e94",
+          "segments": 65,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "086-2-practice.wav",
+          "seconds": 72.74,
+          "bytes": 3491564,
+          "sha256": "7d84ad517200412361322ab26d51f3f93cbb38ed088db6ae8c0e93e25c3b43f3",
+          "segments": 16,
+          "retained_asr_differences": [
+            {
+              "segment": 11,
+              "text": "Mum has already cooked a meal. She cooked it at 6 o'clock.",
+              "heard": "Mom has already cooked a meal. She cooked it at 6 o'clock."
+            }
+          ]
+        },
+        {
+          "file": "086-3-gramar.wav",
+          "seconds": 159.0,
+          "bytes": 7632044,
+          "sha256": "ec22be506b47d6d00da4547cbd812231fb54f35ba7af053201b5dcfc7467d6d1",
+          "segments": 39,
+          "retained_asr_differences": [
+            {
+              "segment": 25,
+              "text": "Yes, Mum's just cleaned it.",
+              "heard": "Yes, mom's just cleaned it."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 87,
+      "files": [
+        {
+          "file": "087-1-lesson.wav",
+          "seconds": 117.76,
+          "bytes": 5652524,
+          "sha256": "a020b5c226ba104153abfccf91db511ee087d429845a1e2ac89826bc9cd672e4",
+          "segments": 29,
+          "retained_asr_differences": [
+            {
+              "segment": 4,
+              "text": "It's LFZ 312 G.",
+              "heard": "It's LFZ 312G."
+            },
+            {
+              "segment": 13,
+              "text": "That's right. I drove it into a lamp-post. Can your mechanics repair it?",
+              "heard": "That's right. I drove it into a lamppost. Can your mechanics repair it?"
+            }
+          ]
+        },
+        {
+          "file": "087-2-practice.wav",
+          "seconds": 99.81,
+          "bytes": 4790924,
+          "sha256": "7f029ac498c28aeb8bfc2338c2780ff6687a67e2f067da593d239fdfd1e0cebd",
+          "segments": 26,
+          "retained_asr_differences": [
+            {
+              "segment": 8,
+              "text": "It's LFZ 312 G.",
+              "heard": "It's LFZ 312G."
+            },
+            {
+              "segment": 17,
+              "text": "I drove into a lamp-post.",
+              "heard": "I drove into a lamppost."
+            }
+          ]
+        },
+        {
+          "file": "087-3-gramar.wav",
+          "seconds": 253.04,
+          "bytes": 12145964,
+          "sha256": "ba1158aa3f4aaf95eb3c444a3fc7852c44e928796526c1a2d2eec0849409c0d3",
+          "segments": 71,
+          "retained_asr_differences": [
+            {
+              "segment": 6,
+              "text": "saw, seen.",
+              "heard": "Saw scene."
+            },
+            {
+              "segment": 9,
+              "text": "buy.",
+              "heard": "Bye."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 88,
+      "files": [
+        {
+          "file": "088-1-lesson.wav",
+          "seconds": 243.16,
+          "bytes": 11671724,
+          "sha256": "bf1039ffb46935c6474c3a4c8cc5890f8ec2f311282642a1a2d4f12044a8044c",
+          "segments": 60,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "088-2-practice.wav",
+          "seconds": 78.44,
+          "bytes": 3765164,
+          "sha256": "de7a5150f8949182c213d55ce094737fad12d10db40770707f1546bf5fe8d761",
+          "segments": 20,
+          "retained_asr_differences": [
+            {
+              "segment": 13,
+              "text": "Have you ever been to the U.S.A. or to the U.K.?",
+              "heard": "Have you ever been to the USA or to the UK?"
+            }
+          ]
+        },
+        {
+          "file": "088-3-gramar.wav",
+          "seconds": 189.36,
+          "bytes": 9089324,
+          "sha256": "4b58ae8cb8546047d63744181672860cfd7e6873511535e5a8afb752ffbc006d",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 89,
+      "files": [
+        {
+          "file": "089-1-lesson.wav",
+          "seconds": 161.62,
+          "bytes": 7757804,
+          "sha256": "bce969604ea517143256d0c9557a8de365f44d9a3105d708a6431f14a17b63f9",
+          "segments": 39,
+          "retained_asr_differences": [
+            {
+              "segment": 13,
+              "text": "£68,500.",
+              "heard": "68,500?"
+            }
+          ]
+        },
+        {
+          "file": "089-2-practice.wav",
+          "seconds": 112.04,
+          "bytes": 5377964,
+          "sha256": "7df1b6276324086497c461a21eb9a0ee4ae5e4a1cd4c5e5aa3638f74e5b2417c",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "089-3-gramar.wav",
+          "seconds": 314.54,
+          "bytes": 15097964,
+          "sha256": "67a221ad29d80ed1f775b8ea65543d8e71528c60b7e3ee660fc532e2228e7c71",
+          "segments": 74,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 90,
+      "files": [
+        {
+          "file": "090-1-lesson.wav",
+          "seconds": 209.72,
+          "bytes": 10066604,
+          "sha256": "579f25ddacfad6f3a002732ed705c9e1ada63d350d551aeee6fb3d87e0dda00e",
+          "segments": 54,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "090-2-practice.wav",
+          "seconds": 51.02,
+          "bytes": 2449004,
+          "sha256": "411d6134ead0a06f411a7c982b628ece381dcb70924f34ed5c87f1af407ba80f",
+          "segments": 14,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "090-3-gramar.wav",
+          "seconds": 171.76,
+          "bytes": 8244524,
+          "sha256": "8b5469683719d7a49b428aa43f827f5af71e403a9c61f862cc7bf33e14ec287b",
+          "segments": 37,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 91,
+      "files": [
+        {
+          "file": "091-1-lesson.wav",
+          "seconds": 130.8,
+          "bytes": 6278444,
+          "sha256": "04ea3967a613f8470f4a712d22f8972038d7481b3585373f1663e924cebe872f",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "091-2-practice.wav",
+          "seconds": 113.12,
+          "bytes": 5429804,
+          "sha256": "cc8517bfa13c8d0e4444d5a2c3aead5cd16ee8b673de68f7e0996782e27e1bdb",
+          "segments": 29,
+          "retained_asr_differences": [
+            {
+              "segment": 23,
+              "text": "mechanics, garage attendants, shop assistants, lamp-posts.",
+              "heard": "Mechanics, garage attendants, shop assistants, lampposts."
+            }
+          ]
+        },
+        {
+          "file": "091-3-gramar.wav",
+          "seconds": 146.84,
+          "bytes": 7048364,
+          "sha256": "247eaedc91f2a59bbc8a34d2f788252afbe78f48879c98c468ec5b4194d459cb",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 92,
+      "files": [
+        {
+          "file": "092-1-lesson.wav",
+          "seconds": 115.28,
+          "bytes": 5533484,
+          "sha256": "906352b54ed6e96af2781b2b2af9bb4f365c986b429df56b51dfeb90ad900e59",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "092-2-practice.wav",
+          "seconds": 117.2,
+          "bytes": 5625644,
+          "sha256": "0f0a248df56f6e483e4cf2c8eb190dd80fe7d18a1b153cb9ab51e72c352abe69",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "092-3-gramar.wav",
+          "seconds": 199.72,
+          "bytes": 9586604,
+          "sha256": "f6f9622f2695172f583b70bf64cebca200dfac9b4a01a6150ffb30dbecbd6f0a",
+          "segments": 55,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 93,
+      "files": [
+        {
+          "file": "093-1-lesson.wav",
+          "seconds": 109.18,
+          "bytes": 5240684,
+          "sha256": "a9196d185bf8bd2503ab9a8df896301e0c263d7c06e36786f55b2d040c3b5e55",
+          "segments": 25,
+          "retained_asr_differences": [
+            {
+              "segment": 4,
+              "text": "He was in the R.A.F.",
+              "heard": "He was in the RAF."
+            },
+            {
+              "segment": 25,
+              "text": "the R.A.F.",
+              "heard": "The RAF?"
+            }
+          ]
+        },
+        {
+          "file": "093-2-practice.wav",
+          "seconds": 131.3,
+          "bytes": 6302444,
+          "sha256": "9bc3ee89a85d82e4199a35accda592e1a064a1152caf0155bc3bcb0b28956162",
+          "segments": 36,
+          "retained_asr_differences": [
+            {
+              "segment": 8,
+              "text": "He was in the R.A.F. .",
+              "heard": "He was in the RAF."
+            }
+          ]
+        },
+        {
+          "file": "093-3-gramar.wav",
+          "seconds": 193.44,
+          "bytes": 9285164,
+          "sha256": "fc7223caaa0fe7cf85e1a39d9f71de5d8cb0c591bc1e2e9fc082613c2e272529",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 94,
+      "files": [
+        {
+          "file": "094-1-lesson.wav",
+          "seconds": 182.32,
+          "bytes": 8751404,
+          "sha256": "4d67b97ecccbd89377b9971aa5fbb47df4697aae52f56cac30247ce46883a733",
+          "segments": 34,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "094-2-practice.wav",
+          "seconds": 147.46,
+          "bytes": 7078124,
+          "sha256": "046a0fb4a560edd61732a2348d60d1f19ba7aac769ef2f931d927d7e06dc49df",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "094-3-gramar.wav",
+          "seconds": 179.76,
+          "bytes": 8628524,
+          "sha256": "f3bcf0b83157f3ea2b6fb1c30ac369f655a9e56dc6bfc3f3e961d32f4eff6e1a",
+          "segments": 50,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 95,
+      "files": [
+        {
+          "file": "095-1-lesson.wav",
+          "seconds": 142.63,
+          "bytes": 6846284,
+          "sha256": "41f274b31c22749847bb82fa7fdf8fcffc9a314284a52c54cc8797acb9b5bcdb",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "095-2-practice.wav",
+          "seconds": 103.27,
+          "bytes": 4957004,
+          "sha256": "a3ceba39a913f01f3d57fd4866421eddf2a9306985a9a59e4b7fe7c536e71a34",
+          "segments": 28,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "095-3-gramar.wav",
+          "seconds": 245.44,
+          "bytes": 11781164,
+          "sha256": "c9b91c80aa559ea7cf7abb2ddcdc8967774acd157d4d27bf26a2069e53df6811",
+          "segments": 68,
+          "retained_asr_differences": [
+            {
+              "segment": 53,
+              "text": "There are usually a lot of people in the park at week-ends.",
+              "heard": "There are usually a lot of people in the park at weekends."
+            }
+          ]
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 96,
+      "files": [
+        {
+          "file": "096-1-lesson.wav",
+          "seconds": 95.01,
+          "bytes": 4560524,
+          "sha256": "2fba994c322027f6fb495624cd3fb684614c30ddb68ceff76b8a845c8d786ad1",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "096-2-practice.wav",
+          "seconds": 115.98,
+          "bytes": 5567084,
+          "sha256": "5f93d9a85fcfef6cfc626cac97133f06b4b93ac8a75b5a25fa4efe35b0a1ee9a",
+          "segments": 30,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "096-3-gramar.wav",
+          "seconds": 157.04,
+          "bytes": 7537964,
+          "sha256": "71d233586ed04341cc62fdbbc2f2dc84fa999b10b4fcfdb76d6a48618d6f069b",
+          "segments": 35,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Monetary answer now explicitly says three pounds and fifty pence. Several policemen work here establishes the plural before the possessive sentence; ASR writes the reduced possessive as policeman's, whose unstressed ending can coincide with policemen's. The correct plural answer theirs/them is retained. Other checks pass."
+      ]
+    },
+    {
+      "lesson": 97,
+      "files": [
+        {
+          "file": "097-1-lesson.wav",
+          "seconds": 136.9,
+          "bytes": 6571244,
+          "sha256": "34207aa5c7481683db18a42065663c3ed82228ec789282af99a14ff86cad8b80",
+          "segments": 37,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "097-2-practice.wav",
+          "seconds": 133.8,
+          "bytes": 6422444,
+          "sha256": "98a402d3d3c1cc74d09cd609efa48293350a3977b0cfcd228e05a454cdfdda88",
+          "segments": 31,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "097-3-gramar.wav",
+          "seconds": 373.8,
+          "bytes": 17942444,
+          "sha256": "595a0e78276a96a576ba0b14bd1e003d688a1e0b91fb81bd80e9dbc404933a06",
+          "segments": 88,
+          "retained_asr_differences": [
+            {
+              "segment": 60,
+              "text": "Several policemen work here. This is the policemen's office.",
+              "heard": "Several policemen work here. This is the policeman's office."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Monetary answer now explicitly says three pounds and fifty pence. Several policemen work here establishes the plural before the possessive sentence; ASR writes the reduced possessive as policeman's, whose unstressed ending can coincide with policemen's. The correct plural answer theirs/them is retained. Other checks pass."
+      ]
+    },
+    {
+      "lesson": 98,
+      "files": [
+        {
+          "file": "098-1-lesson.wav",
+          "seconds": 197.68,
+          "bytes": 9488684,
+          "sha256": "cd3360c12929b4f43c6e6b2f7f9b5d536eb8cda7aa6fbb83847def0572fd2db9",
+          "segments": 46,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "098-2-practice.wav",
+          "seconds": 91.16,
+          "bytes": 4375724,
+          "sha256": "fdd4bd4d94abc49642df617f143db8ecaf94a43ce4ab46d091b9e3b7c0308c40",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "098-3-gramar.wav",
+          "seconds": 241.44,
+          "bytes": 11589164,
+          "sha256": "756f922d1c78572360d5ab638554530d314ebf148c4006ef4ecd1d3189a34718",
+          "segments": 52,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 99,
+      "files": [
+        {
+          "file": "099-1-lesson.wav",
+          "seconds": 149.14,
+          "bytes": 7158764,
+          "sha256": "d6dd1ad94ab10b242eeaabebdf269de315a944753ff94211324338b347fdacbb",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "099-2-practice.wav",
+          "seconds": 91.88,
+          "bytes": 4410284,
+          "sha256": "25b99f2b5837d3ef3294de7c8bd821e8da11220b2c36557cc8804f3f914e9754",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "099-3-gramar.wav",
+          "seconds": 311.28,
+          "bytes": 14941484,
+          "sha256": "835ac158dbda968b1e24c68a13d3cf1e74c0346903de14553922faa3e84ac943",
+          "segments": 60,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 100,
+      "files": [
+        {
+          "file": "100-1-lesson.wav",
+          "seconds": 284.98,
+          "bytes": 13679084,
+          "sha256": "3bdc42e8e85c7312ef74ae09bfa54091799c36edea09ac900f8c1970c7ff47b3",
+          "segments": 69,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "100-2-practice.wav",
+          "seconds": 184.6,
+          "bytes": 8860844,
+          "sha256": "c7963dbe70c85d7c33dc121b110ebff44c9be85ef7e6a84f2789527214a6945a",
+          "segments": 40,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "100-3-gramar.wav",
+          "seconds": 152.04,
+          "bytes": 7297964,
+          "sha256": "b788fc16610d35db03fbfa42fdab5d0dd1116869979773bd711f10569a8262d2",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 101,
+      "files": [
+        {
+          "file": "101-1-lesson.wav",
+          "seconds": 136.23,
+          "bytes": 6539084,
+          "sha256": "d552d2ef63ac6e35b78004ae948a8b657875bc3f65410bf5f0b69ed8a03afab9",
+          "segments": 29,
+          "retained_asr_differences": [
+            {
+              "segment": 5,
+              "text": "He says he's just arrived in Scotland. He says he's staying at a Youth Hostel. You know he's a member of the Y.H.A.",
+              "heard": "He says he's just arrived in Scotland. He says he's staying at a youth hostel. You know, he's a member of the YHA."
+            },
+            {
+              "segment": 7,
+              "text": "The Y.H.A., Mum. The Youth Hostels Association.",
+              "heard": "the YHA, MUM, the Youth Hostels Association."
+            },
+            {
+              "segment": 13,
+              "text": "He can't write very much on a card, Mum.",
+              "heard": "He can't write very much on a card, mom."
+            },
+            {
+              "segment": 26,
+              "text": "the Y.H.A. equals the Youth Hostels Association.",
+              "heard": "The YHA equals the Youth Hostels Association."
+            }
+          ]
+        },
+        {
+          "file": "101-2-practice.wav",
+          "seconds": 134.2,
+          "bytes": 6441644,
+          "sha256": "445e44477643c84f2d96acff403677fae53e4595d8b5ed7749d6670ff27a5259",
+          "segments": 33,
+          "retained_asr_differences": [
+            {
+              "segment": 9,
+              "text": "What is the Y.H.A.?",
+              "heard": "What is the YHA?"
+            },
+            {
+              "segment": 11,
+              "text": "Is Jimmy a member of the Y.H.A.?",
+              "heard": "Is Jimmy a member of the YHA?"
+            },
+            {
+              "segment": 31,
+              "text": "Scotland is in the north of the U.K.",
+              "heard": "Scotland is in the north of the UK."
+            }
+          ]
+        },
+        {
+          "file": "101-3-gramar.wav",
+          "seconds": 225.6,
+          "bytes": 10828844,
+          "sha256": "421ed0efa36b612ef0098430a3037fabb278301dc2d1fc2032c664d38a66d45d",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 102,
+      "files": [
+        {
+          "file": "102-1-lesson.wav",
+          "seconds": 230.76,
+          "bytes": 11076524,
+          "sha256": "bfd60342ae6b4ac0a3ecf48a8b4d6c1486b13e6b89607f3f2af9c70b7603e453",
+          "segments": 64,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "102-2-practice.wav",
+          "seconds": 136.75,
+          "bytes": 6564044,
+          "sha256": "ebadce0e896063cbc1fe2a4d678decd6ddad05cd06d0646bc1a855fae7e8c271",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "102-3-gramar.wav",
+          "seconds": 158.75,
+          "bytes": 7620044,
+          "sha256": "1b6223b207e494f6848553628e927221b453bdb59e5088fa8932e499560c5d63",
+          "segments": 41,
+          "retained_asr_differences": [
+            {
+              "segment": 15,
+              "text": "The boys: We're tired and sleepy.",
+              "heard": "The boys were tired and sleepy."
+            }
+          ]
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 103,
+      "files": [
+        {
+          "file": "103-1-lesson.wav",
+          "seconds": 171.3,
+          "bytes": 8222444,
+          "sha256": "ee9ff008fa6ce8fd5b5de1f3a5af6f497036e6bae79d98e0d3be00b61b574203",
+          "segments": 45,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "103-2-practice.wav",
+          "seconds": 118.05,
+          "bytes": 5666444,
+          "sha256": "b8e2561b4082e540f4a4ea17bbdafb0cd1a323c295dffbc8536d4ad543f47bf0",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "103-3-gramar.wav",
+          "seconds": 367.56,
+          "bytes": 17642924,
+          "sha256": "8f2bb7fe5f9d3c3798f1b4d8e68a98579ae998c64c7256c54c8f9a8772bc29c3",
+          "segments": 89,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 104,
+      "files": [
+        {
+          "file": "104-1-lesson.wav",
+          "seconds": 298.66,
+          "bytes": 14335724,
+          "sha256": "7f67594ff07c9a399182ee2e490d7fe8d5315833c8bcf9b0866c26fdc785c906",
+          "segments": 64,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "104-2-practice.wav",
+          "seconds": 151.42,
+          "bytes": 7268204,
+          "sha256": "0c15ba3e41993adaebcc37da9691eafdb173e950dec60eda1b0dfe5e536e4a99",
+          "segments": 25,
+          "retained_asr_differences": [
+            {
+              "segment": 24,
+              "text": "Are you old enough to ride a motor-bike?",
+              "heard": "Are you old enough to ride a motorbike?"
+            },
+            {
+              "segment": 25,
+              "text": "No, I'm not old enough to ride a motor-bike.",
+              "heard": "No, I'm not old enough to ride a motorbike."
+            }
+          ]
+        },
+        {
+          "file": "104-3-gramar.wav",
+          "seconds": 296.16,
+          "bytes": 14215724,
+          "sha256": "08eb410a79d183ff4fb69968bb81a9d6530fe7747841f567d7fe938abe621898",
+          "segments": 67,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 105,
+      "files": [
+        {
+          "file": "105-1-lesson.wav",
+          "seconds": 88.94,
+          "bytes": 4269164,
+          "sha256": "22c0e56f5717c3a71fe8e210f2eae6b392efa3883586facee2df6d060f4b9a8b",
+          "segments": 19,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "105-2-practice.wav",
+          "seconds": 124.5,
+          "bytes": 5976044,
+          "sha256": "98c21973ae5000bf8ccf65907eeaef7b90a873a5f6fc4556feace46e85f5b641",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "105-3-gramar.wav",
+          "seconds": 224.0,
+          "bytes": 10752044,
+          "sha256": "fff84369989b3f1ca5bc48b8aa1d2cd74556734b1066a62e7dcf64136593a0e1",
+          "segments": 67,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 106,
+      "files": [
+        {
+          "file": "106-1-lesson.wav",
+          "seconds": 329.66,
+          "bytes": 15823724,
+          "sha256": "fbaa40f969098d6a7b31e8984d3fb1ad655fb181dbf2fd987e1340ddd900dbc8",
+          "segments": 86,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "106-2-practice.wav",
+          "seconds": 94.4,
+          "bytes": 4531244,
+          "sha256": "03e8f63251388d31e09bfb2138f86cee074001dc3204cb5e8e877e527a293a35",
+          "segments": 21,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "106-3-gramar.wav",
+          "seconds": 242.27,
+          "bytes": 11629004,
+          "sha256": "0f91a378cebf884a6e2618a320a29871a916e09327632f08caf3b02062271698",
+          "segments": 44,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 107,
+      "files": [
+        {
+          "file": "107-1-lesson.wav",
+          "seconds": 116.36,
+          "bytes": 5585324,
+          "sha256": "4fbf6279bf239ae5c3dad53170a37d9ecd7b582d54d44b6bbded32960db3eb6e",
+          "segments": 21,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "107-2-practice.wav",
+          "seconds": 161.51,
+          "bytes": 7752524,
+          "sha256": "6141ee8aff6b0deacd8fa9735d7064eb877b98a9bad620f558d88840070ed8b2",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "107-3-gramar.wav",
+          "seconds": 310.4,
+          "bytes": 14899244,
+          "sha256": "2f180f2518d7a7415765a54bae023408a226bfc160968fe610c83342001be65d",
+          "segments": 68,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 108,
+      "files": [
+        {
+          "file": "108-1-lesson.wav",
+          "seconds": 257.5,
+          "bytes": 12360044,
+          "sha256": "9179c71904f33564673e696210a020fc7a8222dad59ce7379cb17b111bad5f27",
+          "segments": 53,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "108-2-practice.wav",
+          "seconds": 167.56,
+          "bytes": 8042924,
+          "sha256": "7de0152eef476c6125d44822b7f2a20f3d606dcc0238e10c8a9ea803a8170d5f",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "108-3-gramar.wav",
+          "seconds": 226.12,
+          "bytes": 10853804,
+          "sha256": "36dcc0b43dbf25ebdbf9990472a801034b27bc39e806154a30562c5f7b73e1dd",
+          "segments": 35,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 109,
+      "files": [
+        {
+          "file": "109-1-lesson.wav",
+          "seconds": 106.84,
+          "bytes": 5128364,
+          "sha256": "5ecaf4e5a831e6597a3ca23ce45ccc7368c893c09d958c57343c3fb34a980bbb",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "109-2-practice.wav",
+          "seconds": 100.5,
+          "bytes": 4824044,
+          "sha256": "cbde8e77f8815d64d3354a1c95a0a3435c8c6ae6b117ee8f9241fa9af308a95c",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "109-3-gramar.wav",
+          "seconds": 344.36,
+          "bytes": 16529324,
+          "sha256": "6ef4f63807bc26d2da30a2398594a2b82f00cbab6046e127d76c666a8896e9a4",
+          "segments": 72,
+          "retained_asr_differences": [
+            {
+              "segment": 65,
+              "text": "that restaurant, is very bad, the Small Café, the Sun Restaurant.",
+              "heard": "That restaurant is very bad. The small cafe, the sun restaurant."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 110,
+      "files": [
+        {
+          "file": "110-1-lesson.wav",
+          "seconds": 54.18,
+          "bytes": 2600684,
+          "sha256": "44bdbf91ad9996a03e01fec7ff40bad8d456b9c54e8ddf7100d95d7e5edb7ae3",
+          "segments": 20,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "110-2-practice.wav",
+          "seconds": 283.5,
+          "bytes": 13608044,
+          "sha256": "7778458101a48f287d0b4f79c421dc3fc6d0e9e93769629c35ab6985898ca6e9",
+          "segments": 67,
+          "retained_asr_differences": [
+            {
+              "segment": 35,
+              "text": "stationery.",
+              "heard": "stationary."
+            },
+            {
+              "segment": 36,
+              "text": "I've got less stationery than you have.",
+              "heard": "I've got less stationary than you have."
+            }
+          ]
+        },
+        {
+          "file": "110-3-gramar.wav",
+          "seconds": 245.32,
+          "bytes": 11775404,
+          "sha256": "6a0dec75e0a4eeb09575afeff402749af25676941452900cc29d3d8096b825fd",
+          "segments": 47,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Final residuals are stationery/stationary homophones and the exact spoken currency amount one million pounds for source £1 million. The currency normalizer incorrectly places pounds before million; the recognized amount is correct. Missing initial The in lesson110 was repaired and rechecked."
+      ]
+    },
+    {
+      "lesson": 111,
+      "files": [
+        {
+          "file": "111-1-lesson.wav",
+          "seconds": 103.14,
+          "bytes": 4950764,
+          "sha256": "958315e78578d487585205a65667275de4c5b24950a1c85a0e21815d64af90d9",
+          "segments": 20,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "111-2-practice.wav",
+          "seconds": 163.42,
+          "bytes": 7844204,
+          "sha256": "44c8539ab8b7519fa59933d1336e78804ca3fcc62b05e9bdf16bbc20fefefa19",
+          "segments": 39,
+          "retained_asr_differences": [
+            {
+              "segment": 30,
+              "text": "That man has more than £1 million.",
+              "heard": "That man has more than one million pounds."
+            }
+          ]
+        },
+        {
+          "file": "111-3-gramar.wav",
+          "seconds": 411.7,
+          "bytes": 19761644,
+          "sha256": "5fe2198593c94b1fa975751b2a569725587f9bd598743075f5b410cf31c14923",
+          "segments": 60,
+          "retained_asr_differences": [
+            {
+              "segment": 23,
+              "text": "My son is hard-working but my daughter is very hard-working.",
+              "heard": "My son is hardworking, but my daughter is very hardworking."
+            },
+            {
+              "segment": 24,
+              "text": "My daughter is more hard-working than my son. My son is less hard-working than my daughter.",
+              "heard": "My daughter is more hardworking than my son. My son is less hardworking than my daughter."
+            },
+            {
+              "segment": 37,
+              "text": "This engineer is the most hard-working I've ever met, and that engineer is the least hard-working.",
+              "heard": "This engineer is the most hardworking I've ever met, and that engineer is the least hardworking."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Final residuals are stationery/stationary homophones and the exact spoken currency amount one million pounds for source £1 million. The currency normalizer incorrectly places pounds before million; the recognized amount is correct. Missing initial The in lesson110 was repaired and rechecked."
+      ]
+    },
+    {
+      "lesson": 112,
+      "files": [
+        {
+          "file": "112-1-lesson.wav",
+          "seconds": 55.54,
+          "bytes": 2665964,
+          "sha256": "814de9703efdf1fb1be6d1977db40040ffc17e6ccb435face981a2c134f48ae2",
+          "segments": 20,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "112-2-practice.wav",
+          "seconds": 293.08,
+          "bytes": 14067884,
+          "sha256": "db557788d178f40f3e37bbe275d9939cc5366498828a4a4a7979689260ac76eb",
+          "segments": 46,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "112-3-gramar.wav",
+          "seconds": 189.12,
+          "bytes": 9077804,
+          "sha256": "b35878ddc00421b67e8ed0a911443af887a52de98dd4d31904d091c7e62f37e2",
+          "segments": 40,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Final differences are Fares/Fairs homophones and twenty-dollar bill transcribed as $20 bill, the same currency amount and denomination. The checker expands $20 as twenty dollars, creating a false plural difference before bill. All other content checks passed, including repaired vocabulary fare."
+      ]
+    },
+    {
+      "lesson": 113,
+      "files": [
+        {
+          "file": "113-1-lesson.wav",
+          "seconds": 155.33,
+          "bytes": 7455884,
+          "sha256": "0edffcace10a9b39f0ebf5a34f8b6cf7502dc4ede472e67d3d0f17a0adbe4b50",
+          "segments": 37,
+          "retained_asr_differences": [
+            {
+              "segment": 2,
+              "text": "Fares, please!",
+              "heard": "Fairs, please."
+            },
+            {
+              "segment": 23,
+              "text": "Can you change a twenty-dollar bill?",
+              "heard": "Can you change a $20 bill?"
+            }
+          ]
+        },
+        {
+          "file": "113-2-practice.wav",
+          "seconds": 135.59,
+          "bytes": 6508364,
+          "sha256": "9fc370b752deaa08864d572f0c98d177e07d4f9f717eb6e9c9462241488fcf2a",
+          "segments": 39,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "113-3-gramar.wav",
+          "seconds": 459.44,
+          "bytes": 22053164,
+          "sha256": "7491dc2ff86579e0cb66275fbddb9e02ce87711924d8791fef59b8ceec034927",
+          "segments": 109,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Final differences are Fares/Fairs homophones and twenty-dollar bill transcribed as $20 bill, the same currency amount and denomination. The checker expands $20 as twenty dollars, creating a false plural difference before bill. All other content checks passed, including repaired vocabulary fare."
+      ]
+    },
+    {
+      "lesson": 114,
+      "files": [
+        {
+          "file": "114-1-lesson.wav",
+          "seconds": 40.2,
+          "bytes": 1929644,
+          "sha256": "17457afb014739810b1494b5b50561b0c780f45b526d4d25e5bae1e029c2005d",
+          "segments": 14,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "114-2-practice.wav",
+          "seconds": 353.98,
+          "bytes": 16991084,
+          "sha256": "56edc4750a59e8ec505271004b73ba26a65bf7cf7f5f6fc47b3f96f6f76bf5fd",
+          "segments": 91,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "114-3-gramar.wav",
+          "seconds": 312.92,
+          "bytes": 15020204,
+          "sha256": "31f9f319c132dbe027f30e265b0aea10b2869bd67f76821e7fa63860f9cb3c8b",
+          "segments": 55,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 115,
+      "files": [
+        {
+          "file": "115-1-lesson.wav",
+          "seconds": 135.66,
+          "bytes": 6511724,
+          "sha256": "50d95de688b19392c38c38a5a57d7784ffb6802062e13b36c5c429e73d5bd0f3",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "115-2-practice.wav",
+          "seconds": 149.08,
+          "bytes": 7155884,
+          "sha256": "3a9c8df6eb79861ee48e58b7a6547a49f63453b2b7ead95214f19df7b0e5bf09",
+          "segments": 42,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "115-3-gramar.wav",
+          "seconds": 401.42,
+          "bytes": 19268204,
+          "sha256": "e2d399049d7bbfd8a84d5c0c84ace757fb9d4e0054c0012c99cd8385c24857ce",
+          "segments": 91,
+          "retained_asr_differences": [
+            {
+              "segment": 50,
+              "text": "Nobody is lazy in the class. Everybody is hard-working.",
+              "heard": "Nobody is lazy in the class. Everybody is hardworking."
+            }
+          ]
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 116,
+      "files": [
+        {
+          "file": "116-1-lesson.wav",
+          "seconds": 33.88,
+          "bytes": 1626284,
+          "sha256": "b5d845683d7bd3eea9c28a07e66192762c68d625403bfaa9c2b487241fbd7af9",
+          "segments": 14,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "116-2-practice.wav",
+          "seconds": 357.23,
+          "bytes": 17147084,
+          "sha256": "ea45649ea7bd4ebd48a374eff224279f733418f83049b7c3134e236478765b2f",
+          "segments": 64,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "116-3-gramar.wav",
+          "seconds": 326.88,
+          "bytes": 15690284,
+          "sha256": "42be89859c6e8d05a089f845646c16057464011aa30219094e1a31a9ed53c801",
+          "segments": 77,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 117,
+      "files": [
+        {
+          "file": "117-1-lesson.wav",
+          "seconds": 106.77,
+          "bytes": 5125004,
+          "sha256": "1873f900e632192c4ab8f25905532034ea053ff9ec3c7a2f0961482951d4ff44",
+          "segments": 18,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "117-2-practice.wav",
+          "seconds": 134.08,
+          "bytes": 6435884,
+          "sha256": "34aed622e5662da3914f22d01f16f1872fa72bc64f80bb4774b7213003ec156d",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "117-3-gramar.wav",
+          "seconds": 338.0,
+          "bytes": 16224044,
+          "sha256": "0c41f20b120f348bd996826f94b6a621267e58c26f5981da35c06eb11895e9bb",
+          "segments": 60,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 118,
+      "files": [
+        {
+          "file": "118-1-lesson.wav",
+          "seconds": 29.34,
+          "bytes": 1408364,
+          "sha256": "db635ba3b763c9bf8910958f693ee9d98c6c6bba5de0555d86021c0e919f527b",
+          "segments": 8,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "118-2-practice.wav",
+          "seconds": 299.04,
+          "bytes": 14353964,
+          "sha256": "5bc6f32614e2b9d2eafa7ccf094c1a883489d1d1903cfb03c86fcceecfb06807",
+          "segments": 62,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "118-3-gramar.wav",
+          "seconds": 223.68,
+          "bytes": 10736684,
+          "sha256": "9ab15a6f52fdbdd0deff2ab60caf276984bbb6cd5b87cbb425a680b51ad73986",
+          "segments": 35,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 119,
+      "files": [
+        {
+          "file": "119-1-lesson.wav",
+          "seconds": 147.14,
+          "bytes": 7062764,
+          "sha256": "2af06cc947365127393c65ba2da08b0ed75b45525e3a07c26ce3bfd0b446c0f7",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "119-2-practice.wav",
+          "seconds": 153.64,
+          "bytes": 7374764,
+          "sha256": "1cfef4c6dab0f48b7f5a0db49a21c0fad5b4564dab50f1e6b3139350703d7bb2",
+          "segments": 41,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "119-3-gramar.wav",
+          "seconds": 275.72,
+          "bytes": 13234604,
+          "sha256": "629e3b5c167c638f41a4a0e163a5254da53ac02b89584815f62dafbeaf295ade",
+          "segments": 62,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 120,
+      "files": [
+        {
+          "file": "120-1-lesson.wav",
+          "seconds": 25.66,
+          "bytes": 1231724,
+          "sha256": "2a030799b4ccc17b32c8e4d89ec329619ded9bc60c0a397b1e4a1747b28c95f3",
+          "segments": 8,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "120-2-practice.wav",
+          "seconds": 408.55,
+          "bytes": 19610444,
+          "sha256": "3bfb3520f7cb45be71d969700fd26ed10aec4f41d00e6f5b26196081aa5fbec0",
+          "segments": 76,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "120-3-gramar.wav",
+          "seconds": 252.68,
+          "bytes": 12128684,
+          "sha256": "053fc440106b9f9fab2abd5984caf369d942518d474eb03467bc32c7ddb4b98f",
+          "segments": 40,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 121,
+      "files": [
+        {
+          "file": "121-1-lesson.wav",
+          "seconds": 112.47,
+          "bytes": 5398604,
+          "sha256": "dddbbd121084ad6c2934968ef4cb737e582e5be717ea76100bff4a81966d00c8",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "121-2-practice.wav",
+          "seconds": 129.42,
+          "bytes": 6212204,
+          "sha256": "dede222837c41db2b29f9aab1559ec4ed42ebeaae730caecee6436c64e0f09d3",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "121-3-gramar.wav",
+          "seconds": 217.72,
+          "bytes": 10450604,
+          "sha256": "2989f8d0129ffab9797b4a67c107be4be2d10b8c9937748f1891758767adba45",
+          "segments": 46,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 122,
+      "files": [
+        {
+          "file": "122-1-lesson.wav",
+          "seconds": 79.22,
+          "bytes": 3802604,
+          "sha256": "f88bbfbb26cf8015ef6a8f6b5a02b2da11835a92d7af0d6f1e4340b2c158a8f6",
+          "segments": 20,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "122-2-practice.wav",
+          "seconds": 443.27,
+          "bytes": 21277004,
+          "sha256": "92a29e33ffcda2e07274425fcf81313e5631de5ed68e27d9cd3c1e37f6a2e6a0",
+          "segments": 124,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "122-3-gramar.wav",
+          "seconds": 216.56,
+          "bytes": 10394924,
+          "sha256": "a86bdb9b96cc8736b268f16c1cb38ab2fd8dffd3b7ccf549334c159793ec842a",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 123,
+      "files": [
+        {
+          "file": "123-1-lesson.wav",
+          "seconds": 120.15,
+          "bytes": 5767244,
+          "sha256": "9ade23d12162df15b588729b48bac23d480fac22f4514f2d5441ecafd78edcac",
+          "segments": 31,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "123-2-practice.wav",
+          "seconds": 113.5,
+          "bytes": 5448044,
+          "sha256": "8c93fac1c005547847a6a470c6d2fe7f5217ca59133cf62fd7dce1f4b14e676c",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "123-3-gramar.wav",
+          "seconds": 201.28,
+          "bytes": 9661484,
+          "sha256": "09a036f5eaad26b3e57bd179a513029a1a421f0ccd85b54eb2cfd26acfd5a7a5",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 124,
+      "files": [
+        {
+          "file": "124-1-lesson.wav",
+          "seconds": 242.84,
+          "bytes": 11656364,
+          "sha256": "59e5e3ea4801b54c993d3b93c5218feda908c115f00b318bb92d6247481fdd14",
+          "segments": 61,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "124-2-practice.wav",
+          "seconds": 107.42,
+          "bytes": 5156204,
+          "sha256": "c5610557f3e7de868839a183dd7fa5a1c435b141575b9cc11d2df2b81331d61a",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "124-3-gramar.wav",
+          "seconds": 237.26,
+          "bytes": 11388524,
+          "sha256": "089dd6063091f3e5c2fe42ab117f6ad427009ed593ff406af49518c56c83c420",
+          "segments": 49,
+          "retained_asr_differences": [
+            {
+              "segment": 33,
+              "text": "I want a watch which I can use as a stop-watch.",
+              "heard": "I want a watch which I can use as a stopwatch."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 125,
+      "files": [
+        {
+          "file": "125-1-lesson.wav",
+          "seconds": 108.33,
+          "bytes": 5199884,
+          "sha256": "a4b759ba62eaa88ef049f7dce1161f28a061679b0492b1d20a232f330fed3b53",
+          "segments": 24,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "125-2-practice.wav",
+          "seconds": 96.0,
+          "bytes": 4608044,
+          "sha256": "c58fd69d71fb264e4d3ccaaca1e36d379ac268f2b34155e0dfd23b231466a976",
+          "segments": 20,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "125-3-gramar.wav",
+          "seconds": 343.8,
+          "bytes": 16502444,
+          "sha256": "cae086d8f04ead041ba8d301aff20b976ebc679e4f6e4be5d4f4a2c9126bf3d7",
+          "segments": 64,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+      ]
+    },
+    {
+      "lesson": 126,
+      "files": [
+        {
+          "file": "126-1-lesson.wav",
+          "seconds": 169.78,
+          "bytes": 8149484,
+          "sha256": "e1c8a9c8f429ca5d6e9d557799908c8731966d68e77f811478426e986d3ba801",
+          "segments": 43,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "126-2-practice.wav",
+          "seconds": 159.09,
+          "bytes": 7636364,
+          "sha256": "25d45aeedd9e929db782a826add9656a33ac12295db837da43db1c19f531beec",
+          "segments": 27,
+          "retained_asr_differences": [
+            {
+              "segment": 6,
+              "text": "I don't have to go to the dentist's very often. don't have to don't need doesn't have to.",
+              "heard": "I don't have to go to the dentists very often. Don't have to. Don't need. Doesn't have to."
+            },
+            {
+              "segment": 14,
+              "text": "I don't need to go to the dentist's very often. have to had to don't need to.",
+              "heard": "I don't need to go to the dentists very often. Have to... Had to... Don't need to."
+            }
+          ]
+        },
+        {
+          "file": "126-3-gramar.wav",
+          "seconds": 156.84,
+          "bytes": 7528364,
+          "sha256": "b845d57c9ae986b7c86bc100ca51e673236a9be5ad283b587614fd0bf5d2b3f5",
+          "segments": 27,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Added Chinese currency context for yuan; latest 127 reports and prior 126 reports have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 127,
+      "files": [
+        {
+          "file": "127-1-lesson.wav",
+          "seconds": 145.33,
+          "bytes": 6975884,
+          "sha256": "877fb1c47b191668b08cf9fc63466f5cf9b1c7d597a2bb58cbc435e09510ba1f",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "127-2-practice.wav",
+          "seconds": 135.92,
+          "bytes": 6524204,
+          "sha256": "bf8f4de61b8346084907f7514a9b45563dcfabdd0d61a53fd80449cef00efa8d",
+          "segments": 34,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "127-3-gramar.wav",
+          "seconds": 346.08,
+          "bytes": 16611884,
+          "sha256": "d2742ad4844514c7894d23a200f6d0b10cb875ae9107394896a787001d4b003d",
+          "segments": 92,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Added Chinese currency context for yuan; latest 127 reports and prior 126 reports have zero residual differences."
+      ]
+    },
+    {
+      "lesson": 128,
+      "files": [
+        {
+          "file": "128-1-lesson.wav",
+          "seconds": 399.46,
+          "bytes": 19174124,
+          "sha256": "11de9743ffe66f589a04df9bc687b5460d96e5f05b68f9143934291082581b22",
+          "segments": 77,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "128-2-practice.wav",
+          "seconds": 154.52,
+          "bytes": 7417004,
+          "sha256": "af6c962e7e19b3b507d874c57c7846de5779265138cc72f3e817723e66cf02c8",
+          "segments": 31,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "128-3-gramar.wav",
+          "seconds": 214.08,
+          "bytes": 10275884,
+          "sha256": "985d1b683223eb6af63f24089256329069b9a39dc61ad4b7a876e7d79b196c29",
+          "segments": 37,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 129,
+      "files": [
+        {
+          "file": "129-1-lesson.wav",
+          "seconds": 149.4,
+          "bytes": 7171244,
+          "sha256": "2dc62ce6a9741327054e6aa676374c7e5679c6b06db8bf10c272e7dfa99c8af9",
+          "segments": 36,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "129-2-practice.wav",
+          "seconds": 143.82,
+          "bytes": 6903404,
+          "sha256": "a4937f1ed589482a845e0041e2ae98a83286138a503230c4d664c99c38a8b71e",
+          "segments": 33,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "129-3-gramar.wav",
+          "seconds": 289.2,
+          "bytes": 13881644,
+          "sha256": "4f0b342111f709a1cbf73f723dfb970c5efa853c119a168f308be28ad7fe5444",
+          "segments": 68,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 130,
+      "files": [
+        {
+          "file": "130-1-lesson.wav",
+          "seconds": 396.26,
+          "bytes": 19020524,
+          "sha256": "44473dec18193ddae58a69a340e36a3a9e76a5a09a828fc76a9583f79240a489",
+          "segments": 68,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "130-2-practice.wav",
+          "seconds": 126.85,
+          "bytes": 6088844,
+          "sha256": "493015b4d448d367a8d18e556f882e363501d3cdba0166c62a36aa496f21e02c",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "130-3-gramar.wav",
+          "seconds": 197.44,
+          "bytes": 9477164,
+          "sha256": "23355880484f7f198b7ff41296600145bb5ac3df717ff243068899d0c4681f68",
+          "segments": 51,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 131,
+      "files": [
+        {
+          "file": "131-1-lesson.wav",
+          "seconds": 94.74,
+          "bytes": 4547564,
+          "sha256": "615e62314cf3a950bc2d174e2d8ec6a2e12b5b7b780e30c00dc881a1aca68c1d",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "131-2-practice.wav",
+          "seconds": 94.08,
+          "bytes": 4515884,
+          "sha256": "ef2c3d8830b2f318b1f374dfae8e941fc3027589d0ec7ff342af97da038ec5b6",
+          "segments": 22,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "131-3-gramar.wav",
+          "seconds": 271.16,
+          "bytes": 13015724,
+          "sha256": "a383055283b05005b0ad14b7e99fc81d945f700d39b29f184a47301aa2b8d2d9",
+          "segments": 54,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 132,
+      "files": [
+        {
+          "file": "132-1-lesson.wav",
+          "seconds": 307.38,
+          "bytes": 14754284,
+          "sha256": "1776903e20883a985115194a85d0203d5dc538294ebefaee4b35a260edc33e17",
+          "segments": 70,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "132-2-practice.wav",
+          "seconds": 92.04,
+          "bytes": 4417964,
+          "sha256": "8ffaf4b82ca0606b408d21fa3a89a8784f15093e4c10f9a4b0789bd55d2ce8a7",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "132-3-gramar.wav",
+          "seconds": 147.68,
+          "bytes": 7088684,
+          "sha256": "abe90d981b8c7565418250ae7140701470d53d7bbb6ffa32d8e56528df1f07f8",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 133,
+      "files": [
+        {
+          "file": "133-1-lesson.wav",
+          "seconds": 113.28,
+          "bytes": 5437484,
+          "sha256": "87d6c7dc54a3b11048ba9eb8c433817c67a51485476166a597fb809537541a70",
+          "segments": 26,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "133-2-practice.wav",
+          "seconds": 129.7,
+          "bytes": 6225644,
+          "sha256": "000bdee6b9d58181a7ebe020509d257f1795a3989d500b9da575b9ad523e06a1",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "133-3-gramar.wav",
+          "seconds": 189.2,
+          "bytes": 9081644,
+          "sha256": "5cd6022166db9e68d6207bef112ca905fcedf6b8367e65dd3c85c40917cad926",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 134,
+      "files": [
+        {
+          "file": "134-1-lesson.wav",
+          "seconds": 340.78,
+          "bytes": 16357484,
+          "sha256": "4e112c55a96f04252a92058928c7d5607b9096f5878b2770b9a4f1d56641f2fe",
+          "segments": 68,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "134-2-practice.wav",
+          "seconds": 74.62,
+          "bytes": 3581804,
+          "sha256": "0179c737425cb8152c6f227153d7b0984157f69c5935b12fb37ac4528a15d682",
+          "segments": 15,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "134-3-gramar.wav",
+          "seconds": 261.92,
+          "bytes": 12572204,
+          "sha256": "cd5791d1abfd3d5e7667b292e2597ab30bc9159b9102c17c093970ce7d66b8f8",
+          "segments": 56,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "134 present-perfect auxiliary restored explicitly as I have finished my homework; latest 134 checks have zero residual differences. 135 retains two round/around variants in travel round the world, a standard equivalent phrasing in American speech, with reported-speech tense intact. This is an accepted natural wording variant, not a claim of exact transcript identity."
+      ]
+    },
+    {
+      "lesson": 135,
+      "files": [
+        {
+          "file": "135-1-lesson.wav",
+          "seconds": 140.28,
+          "bytes": 6733484,
+          "sha256": "0ada58d328bf496cfde8db50b9eaf4aa43cf5425674088f14280cc982107e307",
+          "segments": 23,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "135-2-practice.wav",
+          "seconds": 108.2,
+          "bytes": 5193644,
+          "sha256": "65f521f7bedf2fc3d991e2cc712224daabc061814bb92253ed4826aacac1832a",
+          "segments": 17,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "135-3-gramar.wav",
+          "seconds": 211.72,
+          "bytes": 10162604,
+          "sha256": "dacac7e7de3784eca56081ccf4e95f693933afbdeaef4139a6cc5c1c3d115447",
+          "segments": 56,
+          "retained_asr_differences": [
+            {
+              "segment": 13,
+              "text": "I'm going to travel round the world.",
+              "heard": "I'm going to travel around the world."
+            },
+            {
+              "segment": 14,
+              "text": "She told her friend she was going to travel round the world.",
+              "heard": "She told her friend she was going to travel around the world."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "134 present-perfect auxiliary restored explicitly as I have finished my homework; latest 134 checks have zero residual differences. 135 retains two round/around variants in travel round the world, a standard equivalent phrasing in American speech, with reported-speech tense intact. This is an accepted natural wording variant, not a claim of exact transcript identity."
+      ]
+    },
+    {
+      "lesson": 136,
+      "files": [
+        {
+          "file": "136-1-lesson.wav",
+          "seconds": 261.54,
+          "bytes": 12553964,
+          "sha256": "36c8361c9d0a07bae7962cae5e40ec3aae8a4c1d08ce6bd93d5b430dc5e63369",
+          "segments": 55,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "136-2-practice.wav",
+          "seconds": 103.43,
+          "bytes": 4964684,
+          "sha256": "2e7a94093b2b733d72be13a0b3611e245010c81dfa38935ebf43ecf87913dd89",
+          "segments": 26,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "136-3-gramar.wav",
+          "seconds": 218.56,
+          "bytes": 10490924,
+          "sha256": "4c8af2f12d4fd091f8e31115d7499eed15e3a4d871acbe45a8b30bef489a3706",
+          "segments": 45,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "137 completed conversation uses stable Brian/Julie voices, omits the duplicate isolated article, and places the final question before its answer while retaining source coverage. Remaining round/around is a natural equivalent American wording; won/one and sell/cell are exact homophones. All other current checks pass."
+      ]
+    },
+    {
+      "lesson": 137,
+      "files": [
+        {
+          "file": "137-1-lesson.wav",
+          "seconds": 106.06,
+          "bytes": 5090924,
+          "sha256": "4c0496193d3ecf646463e660f4c3a264d5e58b3bf7ea04c488fd5bfc1d59d3d5",
+          "segments": 17,
+          "retained_asr_differences": [
+            {
+              "segment": 7,
+              "text": "If we win a lot of money, we'll travel round the world and we'll stay at the best hotels.",
+              "heard": "If we win a lot of money, we'll travel around the world and we'll stay at the best hotels."
+            }
+          ]
+        },
+        {
+          "file": "137-2-practice.wav",
+          "seconds": 171.42,
+          "bytes": 8228204,
+          "sha256": "ab4136be57e4a3e07fe51770fd6008b8467cd4a147b0c658122a3f45c9420896",
+          "segments": 34,
+          "retained_asr_differences": [
+            {
+              "segment": 8,
+              "text": "If we win a lot of money, we'll travel round the world.",
+              "heard": "If we win a lot of money, we'll travel around the world."
+            },
+            {
+              "segment": 20,
+              "text": "won. He told me that if he won the football pools, he would buy a big house in the country.",
+              "heard": "One, he told me that if he won the football pools, he would buy a big house in the country."
+            },
+            {
+              "segment": 21,
+              "text": "Replace sell with its opposite.",
+              "heard": "Replace cell with its opposite."
+            }
+          ]
+        },
+        {
+          "file": "137-3-gramar.wav",
+          "seconds": 156.4,
+          "bytes": 7507244,
+          "sha256": "8de43c72ee64f7a2e0a603003070f8edf3b52d5ca2667eb2b8d8d96468c6cb71",
+          "segments": 31,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "137 completed conversation uses stable Brian/Julie voices, omits the duplicate isolated article, and places the final question before its answer while retaining source coverage. Remaining round/around is a natural equivalent American wording; won/one and sell/cell are exact homophones. All other current checks pass."
+      ]
+    },
+    {
+      "lesson": 138,
+      "files": [
+        {
+          "file": "138-1-lesson.wav",
+          "seconds": 188.7,
+          "bytes": 9057644,
+          "sha256": "728c93d899669481165d1f4c88407eb168bc8c7c87101ec48e482a0de7593961",
+          "segments": 40,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "138-2-practice.wav",
+          "seconds": 91.06,
+          "bytes": 4370924,
+          "sha256": "d0d1c0b57a54e7d01d542e9c963b90ce14298062be8af3b260badfb99387b96e",
+          "segments": 18,
+          "retained_asr_differences": [
+            {
+              "segment": 16,
+              "text": "I'll go to England and then to the U.S.A.",
+              "heard": "I'll go to England and then to the USA."
+            }
+          ]
+        },
+        {
+          "file": "138-3-gramar.wav",
+          "seconds": 208.76,
+          "bytes": 10020524,
+          "sha256": "efa411ed075af181abf787bf5e7090b46075b3a2760977f76b90b0eef01d327f",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "138 currency pronunciation and conditional cue sentences repaired; latest grammar check has no residuals. USA/U.S.A. is orthographic. 139 full scan-verified mistaken-identity dialogue, reading question and answer are restored with Graham/John voices; all latest 139 checks pass."
+      ]
+    },
+    {
+      "lesson": 139,
+      "files": [
+        {
+          "file": "139-1-lesson.wav",
+          "seconds": 154.35,
+          "bytes": 7408844,
+          "sha256": "bd1f883767f8e78f71859da81b9ec723afac555c7cd9edf266704e72cd6a7a10",
+          "segments": 30,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "139-2-practice.wav",
+          "seconds": 111.78,
+          "bytes": 5365484,
+          "sha256": "0e3a2ba1aa818a82544a168587a5236007e4990cef88f00ad3ae4773b1776a26",
+          "segments": 27,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "139-3-gramar.wav",
+          "seconds": 179.16,
+          "bytes": 8599724,
+          "sha256": "d6c597480c37c6d5f9d91f3540528ac84d9581a18feacbeb7ef6e53c98ad2bce",
+          "segments": 39,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "138 currency pronunciation and conditional cue sentences repaired; latest grammar check has no residuals. USA/U.S.A. is orthographic. 139 full scan-verified mistaken-identity dialogue, reading question and answer are restored with Graham/John voices; all latest 139 checks pass."
+      ]
+    },
+    {
+      "lesson": 140,
+      "files": [
+        {
+          "file": "140-1-lesson.wav",
+          "seconds": 174.59,
+          "bytes": 8380364,
+          "sha256": "94f052b60ee606ffcbf9172684587fee5257eb8cea02184d1ca60aebe64dc1dc",
+          "segments": 40,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "140-2-practice.wav",
+          "seconds": 99.02,
+          "bytes": 4753004,
+          "sha256": "e0f4bd59575c00431effc1540a36ad719263b244c8da070ff9da217ac27932f3",
+          "segments": 17,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "140-3-gramar.wav",
+          "seconds": 233.6,
+          "bytes": 11212844,
+          "sha256": "35eca42f3a0520f9e07d92dbe1b039a6f0da5c26f3e4878bb22757dde6551dc2",
+          "segments": 54,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 141,
+      "files": [
+        {
+          "file": "141-1-lesson.wav",
+          "seconds": 177.29,
+          "bytes": 8509964,
+          "sha256": "4b2dd0679d1dd2f32723561f6cebe0a11a619e17e4f9f6651d2c113c447c3d87",
+          "segments": 32,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "141-2-practice.wav",
+          "seconds": 166.92,
+          "bytes": 8012204,
+          "sha256": "30153efe80ad154392a945561c35f0cd717ddbb4a9094be8d3e106df1d264c4a",
+          "segments": 29,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "141-3-gramar.wav",
+          "seconds": 276.88,
+          "bytes": 13290284,
+          "sha256": "a7ba26db17c3b4952ae3d9bd840a4fb88c237525840ca72dd8653dd2511e1505",
+          "segments": 68,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "lesson": 142,
+      "files": [
+        {
+          "file": "142-1-lesson.wav",
+          "seconds": 299.92,
+          "bytes": 14396204,
+          "sha256": "26b215ef050ca3ca766460ac8a188f7884505894d9685e364a1e40f6ddf67a96",
+          "segments": 77,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "142-2-practice.wav",
+          "seconds": 145.02,
+          "bytes": 6961004,
+          "sha256": "09066f7c86f5c1b336c85272fd6860c1e769124d5965e266b688919356a1e2c7",
+          "segments": 34,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "142-3-gramar.wav",
+          "seconds": 336.38,
+          "bytes": 16146284,
+          "sha256": "ced13f1f3a04a250589e94a8f4f41e930fe64b238d1062c88c659071bc2e1bd4",
+          "segments": 65,
+          "retained_asr_differences": [
+            {
+              "segment": 38,
+              "text": "Use the job, do, and soon.",
+              "heard": "Use the job. Due and soon."
+            },
+            {
+              "segment": 50,
+              "text": "two new films, show, in the city, next month.",
+              "heard": "to new films, show, in the city, next month."
+            }
+          ]
+        }
+      ],
+      "review_notes": [
+        "Final opened passive-voice sentence and she sentence re-rendered and passed fresh ASR. Remaining differences are US tyre/tire spelling, piece/peace and two/to homophones, and do/due homophones under American yod-dropping. Exact cue words and correct answers are retained. This is content recognition review, not subjective listening validation."
+      ]
+    },
+    {
+      "lesson": 143,
+      "files": [
+        {
+          "file": "143-1-lesson.wav",
+          "seconds": 221.32,
+          "bytes": 10623404,
+          "sha256": "4343d018065f18fcdcca7e734810fa58508c4307f28acd664fbcf9b52b310402",
+          "segments": 42,
+          "retained_asr_differences": [
+            {
+              "segment": 11,
+              "text": "The litter baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+              "heard": "The litter baskets were empty, and the ground was covered with pieces of paper, cigarette ends, old tires, empty bottles, and rusty tins."
+            },
+            {
+              "segment": 34,
+              "text": "piece. Would you like a piece of cake?",
+              "heard": "Peace. Would you like a piece of cake?"
+            },
+            {
+              "segment": 35,
+              "text": "tyre. We need to change a tyre.",
+              "heard": "Tire. We need to change a tire."
+            }
+          ]
+        },
+        {
+          "file": "143-2-practice.wav",
+          "seconds": 153.16,
+          "bytes": 7351724,
+          "sha256": "b108327b358b97c1100160d76deef97b968957d8e7c9a72cb41470b9248309fb",
+          "segments": 39,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "143-3-gramar.wav",
+          "seconds": 103.56,
+          "bytes": 4970924,
+          "sha256": "2e45ef60fd89f96c13a197073b39c44d0ff5986b9a86a3b95e41dd93b48dc85d",
+          "segments": 22,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": [
+        "Final opened passive-voice sentence and she sentence re-rendered and passed fresh ASR. Remaining differences are US tyre/tire spelling, piece/peace and two/to homophones, and do/due homophones under American yod-dropping. Exact cue words and correct answers are retained. This is content recognition review, not subjective listening validation."
+      ]
+    },
+    {
+      "lesson": 144,
+      "files": [
+        {
+          "file": "144-1-lesson.wav",
+          "seconds": 399.36,
+          "bytes": 19169324,
+          "sha256": "79b0de755cca49ebccffed99b10658e1b6173985db37f427173c5da9e7f739bb",
+          "segments": 85,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "144-2-practice.wav",
+          "seconds": 61.59,
+          "bytes": 2956364,
+          "sha256": "6073b6dee0d8e486f94006364c8766d81279dcc09955f6177702c87a2a83aed0",
+          "segments": 16,
+          "retained_asr_differences": []
+        },
+        {
+          "file": "144-3-gramar.wav",
+          "seconds": 205.6,
+          "bytes": 9868844,
+          "sha256": "8f43075f0d1e330cc9d86c88786754f921627428e2315cec1dd74318acc6c20e",
+          "segments": 43,
+          "retained_asr_differences": []
+        }
+      ],
+      "review_notes": []
+    }
+  ]
+}
