@@ -109,7 +109,7 @@ class Lesson(base.Lesson):
   if 'dialogue' in low:q=re.sub(r'^A few minutes later\.\s*','',q)
 
   override=OVERRIDES.get(f'{self.n:03}/{self.source}')
-  if override:
+  if override is not None:
    for s in override:self.add(**s)
    return
   if 'match' in low and re.fullmatch(r'[a-z](?:[,; ]+[a-z])*',k):raise ValueError(('matching letters need source phrase resolution',item['id'],k))
