@@ -1,0 +1,46 @@
+{
+  "slot": "action-07",
+  "prompt": "A woman stands in her kitchen smiling beside a freshly baked small round cake on a plate. On a separate tray nearby are a few failed burnt irregular cookies. Cake and failed cookies clearly separated. Only 1 person appears, alone. Image 1 is the appearance reference for woman. Keep their same faces, hairstyles and clothing. Appearance: woman: Woman aged thirty, shoulder-length wavy dark hair, warm brown skin, coral blouse and navy trousers. Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks.",
+  "cast": [
+    "woman"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "woman"
+  ],
+  "cast_layout": [
+    "boy",
+    "man",
+    "woman"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 46,
+  "seed": 46024,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6c097be7c5d90827a173e8017808409c3a616218eff770a056da921d3d1991f3",
+  "fingerprint": "38bd3192c0cb3842576ed6825ce0572cd53bd97bb9d3921b3eef561640ea13d6",
+  "sha256": "5d7016e5c0b599dd0a3a0e8b2a4d3e36c80dce099afce09660cc2e71fbb0e4b9",
+  "seconds": 46.12,
+  "peak_mlx_gb": 5.115,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Change ONLY the cookies on the metal tray into obviously failed burned biscuits: irregular broken flat pieces, completely charred black and dark brown. Keep the beautiful successful golden cake unchanged. Preserve the woman, face, coral blouse, navy trousers, plate, kitchen and composition.",
+        "seed": 460711,
+        "input_sha256": "a6415f830e50022a9e37afd9f9e827ea734cfcbc8cf8ae29d142670dcccbbcca",
+        "output_sha256": "5d7016e5c0b599dd0a3a0e8b2a4d3e36c80dce099afce09660cc2e71fbb0e4b9",
+        "seconds": 75.91
+      }
+    ]
+  },
+  "review_notes": "Visually reviewed all eight scenes and the three-person cast. Boy: brown hair and mustard shirt; man: dark hair, teal shirt and beige trousers; woman: dark hair, coral blouse and navy trousers. Actions and contrasting props match Lesson cues. Rejected chair-on-floor and malformed-chair attempts; final local edit shows one intact chair held fully above the floor beside the heavy table. Removed invented book lettering. Jumping scene shows the boy taking off from a low box, with the much taller wall behind him. Cake is successful while biscuits are visibly charred. Vase/table/high shelf are clear. All original text and answer IDs retained.",
+  "published_sha256": "bbc4d019b0eee3eee825aef96cc6404ada869b5e88071fc7dad3a01a44fef8b6"
+}

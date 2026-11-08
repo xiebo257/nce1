@@ -1,0 +1,46 @@
+{
+  "slot": "action-06",
+  "prompt": "A boy is landing with both feet on a soft grassy lawn just beside a very low wooden box he has jumped off. A much taller garden brick wall is visible in the background. Wide full-body view, child safely on the grass. Only 1 person appears, alone. Image 1 is the appearance reference for boy. Keep their same faces, hairstyles and clothing. Appearance: boy: Boy aged seven, short straight brown hair, round face, mustard yellow T-shirt, blue jeans. Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks.",
+  "cast": [
+    "boy"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "boy"
+  ],
+  "cast_layout": [
+    "boy",
+    "man",
+    "woman"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 46,
+  "seed": 46023,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6c097be7c5d90827a173e8017808409c3a616218eff770a056da921d3d1991f3",
+  "fingerprint": "441e736e93321de7d7fa892e7a4851c45297a3233ba858418c15aadd86cfaa05",
+  "sha256": "ab8e50be0c6cedc58c28ea82d8baba83726efb2d46a17f0e5245f3c7ae30d28c",
+  "seconds": 47.8,
+  "peak_mlx_gb": 5.115,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Change the boy to a clear jumping pose beside the low wooden box: BOTH feet visibly airborne above the grass, knees bent, arms out for balance. Neither foot touches the box or ground. Show a shadow on the grass below him and a visible gap below both feet. Preserve his face, brown hair, yellow shirt, blue jeans, low box and much taller brick garden wall. Exactly one boy.",
+        "seed": 460611,
+        "input_sha256": "a456de8010d52adbbf8478a7b8967bbcecf03c5a7ac889ef45034f88d5a5f08f",
+        "output_sha256": "ab8e50be0c6cedc58c28ea82d8baba83726efb2d46a17f0e5245f3c7ae30d28c",
+        "seconds": 59.84
+      }
+    ]
+  },
+  "review_notes": "Visually reviewed all eight scenes and the three-person cast. Boy: brown hair and mustard shirt; man: dark hair, teal shirt and beige trousers; woman: dark hair, coral blouse and navy trousers. Actions and contrasting props match Lesson cues. Rejected chair-on-floor and malformed-chair attempts; final local edit shows one intact chair held fully above the floor beside the heavy table. Removed invented book lettering. Jumping scene shows the boy taking off from a low box, with the much taller wall behind him. Cake is successful while biscuits are visibly charred. Vase/table/high shelf are clear. All original text and answer IDs retained.",
+  "published_sha256": "6dbefb204e94b8c04332cb75614d0b55ed65dc5cd2a50efcbd8cb185ce2cd9e3"
+}

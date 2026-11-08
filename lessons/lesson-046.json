@@ -28,11 +28,11 @@
         "boy"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-01.webp",
-      "width": 521,
-      "height": 229,
-      "caption": "Picture 01",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -50,7 +50,13 @@
       "illustration_scene": "A young boy places a soft blue sunhat on his head with both hands. A red coat hangs unused on a low hook beside him. Cozy hallway, full upper body visible.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A young boy places a soft blue sunhat on his head with both hands.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46018,
+        "manifest": "illustrations/manifests/046-action-01.json"
+      }
     },
     "action-02": {
       "kind": "action",
@@ -60,11 +66,11 @@
         "man"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-02.webp",
-      "width": 638,
-      "height": 252,
-      "caption": "Picture 02",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -82,7 +88,13 @@
       "illustration_scene": "A man outdoors looks up and points toward a clearly visible passenger aeroplane in a bright blue empty sky. No birds. Wide shot showing man and aeroplane.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A man outdoors looks up and points toward a clearly visible passenger aeroplane in a bright blue empty sky.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46019,
+        "manifest": "illustrations/manifests/046-action-02.json"
+      }
     },
     "action-03": {
       "kind": "action",
@@ -92,11 +104,11 @@
         "man"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-03.webp",
-      "width": 540,
-      "height": 230,
-      "caption": "Picture 03",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -114,7 +126,13 @@
       "illustration_scene": "A man uses a small paintbrush to paint a freestanding wooden bookcase blue, with paint can beside it. The room walls remain unpainted cream plaster. Show the whole bookcase and his painting action.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A man uses a small paintbrush to paint a freestanding wooden bookcase blue, with paint can beside it.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46020,
+        "manifest": "illustrations/manifests/046-action-03.json"
+      }
     },
     "action-04": {
       "kind": "action",
@@ -124,11 +142,11 @@
         "man"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-04.webp",
-      "width": 661,
-      "height": 282,
-      "caption": "Picture 04",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -143,10 +161,17 @@
         2320,
         1514
       ],
-      "illustration_scene": "A man easily lifts one light wooden chair clear of the floor with both hands. A large heavy oak dining table remains firmly on the floor beside him. Full-body wide shot, both objects clearly visible.",
+      "illustration_scene": "Full-body side view of a man carrying one small intact wooden chair in front of his waist. He grasps the backrest with one hand and supports the seat with the other. The chair is upright: its backrest is above its seat and its four straight legs point downwards. All chair feet are suspended well above the floor. A heavy oak dining table stands on the floor to his right. Simple tidy living room, no other chairs. The small chair is unbroken.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "illustration_seed_offset": 100,
+      "alt": "Full-body side view of a man carrying one small intact wooden chair in front of his waist.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46121,
+        "manifest": "illustrations/manifests/046-action-04.json"
+      }
     },
     "action-05": {
       "kind": "action",
@@ -156,11 +181,11 @@
         "man"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-05.webp",
-      "width": 560,
-      "height": 246,
-      "caption": "Picture 05",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -178,7 +203,13 @@
       "illustration_scene": "A man sits comfortably reading an open illustrated hardcover book. A closed colorful magazine rests unused on the side table. Visible natural reading pose, no readable lettering.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A man sits comfortably reading an open illustrated hardcover book.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46022,
+        "manifest": "illustrations/manifests/046-action-05.json"
+      }
     },
     "action-06": {
       "kind": "action",
@@ -188,11 +219,11 @@
         "boy"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-06.webp",
-      "width": 682,
-      "height": 279,
-      "caption": "Picture 06",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-06-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -210,7 +241,13 @@
       "illustration_scene": "A boy is landing with both feet on a soft grassy lawn just beside a very low wooden box he has jumped off. A much taller garden brick wall is visible in the background. Wide full-body view, child safely on the grass.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A boy is landing with both feet on a soft grassy lawn just beside a very low wooden box he has jumped off.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46023,
+        "manifest": "illustrations/manifests/046-action-06.json"
+      }
     },
     "action-07": {
       "kind": "action",
@@ -220,11 +257,11 @@
         "woman"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-07.webp",
-      "width": 602,
-      "height": 266,
-      "caption": "Picture 07",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-07-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -242,7 +279,13 @@
       "illustration_scene": "A woman stands in her kitchen smiling beside a freshly baked small round cake on a plate. On a separate tray nearby are a few failed burnt irregular cookies. Cake and failed cookies clearly separated.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A woman stands in her kitchen smiling beside a freshly baked small round cake on a plate.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46024,
+        "manifest": "illustrations/manifests/046-action-07.json"
+      }
     },
     "action-08": {
       "kind": "action",
@@ -252,11 +295,11 @@
         "woman"
       ],
       "source": "../img/lesson-046-01-text.jpg",
-      "src": "assets/lesson-046/picture-08.webp",
-      "width": 683,
-      "height": 271,
-      "caption": "Picture 08",
-      "origin": "textbook-crop",
+      "src": "assets/lesson-046/action-08-color.webp",
+      "width": 768,
+      "height": 512,
+      "caption": "Can you …?",
+      "origin": "local-model",
       "source_size": [
         3072,
         4096
@@ -274,7 +317,13 @@
       "illustration_scene": "A woman gently places a blue vase of flowers on a low wooden table. An empty wall shelf is mounted far above her head, visibly out of reach. Full-body side view showing table height and high shelf.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "alt": "A woman gently places a blue vase of flowers on a low wooden table.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 46025,
+        "manifest": "illustrations/manifests/046-action-08.json"
+      }
     }
   },
   "sections": {
@@ -806,5 +855,6 @@
   ],
   "expected_answers": 40,
   "illustration_style": "Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks.",
-  "illustration_cast_layout": "portrait-strip"
+  "illustration_cast_layout": "portrait-strip",
+  "illustration_reference": "illustrations/references/046-cast.webp"
 }

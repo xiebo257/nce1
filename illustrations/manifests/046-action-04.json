@@ -1,0 +1,46 @@
+{
+  "slot": "action-04",
+  "prompt": "Full-body side view of a man carrying one small intact wooden chair in front of his waist. He grasps the backrest with one hand and supports the seat with the other. The chair is upright: its backrest is above its seat and its four straight legs point downwards. All chair feet are suspended well above the floor. A heavy oak dining table stands on the floor to his right. Simple tidy living room, no other chairs. The small chair is unbroken. Only 1 person appears, alone. Image 1 is the appearance reference for man. Keep their same faces, hairstyles and clothing. Appearance: man: Man aged thirty, short dark brown hair, clean-shaven oval face, teal long-sleeved shirt, beige trousers. Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks.",
+  "cast": [
+    "man"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "man"
+  ],
+  "cast_layout": [
+    "boy",
+    "man",
+    "woman"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 46,
+  "seed": 46121,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6c097be7c5d90827a173e8017808409c3a616218eff770a056da921d3d1991f3",
+  "fingerprint": "e87aa432a6f3f93eecaadf367d086ce620111e434c0246460498ec8f7409d2db",
+  "sha256": "51a73b9000360beb7e27198dcfe1dbdd313090057599e3181bc098365b4c19b3",
+  "seconds": 33.78,
+  "peak_mlx_gb": 5.018,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Raise the ENTIRE intact wooden chair vertically by thirty centimeters, and raise the hands that hold it by the same amount. The chair hangs upright in the air with all its feet thirty centimeters ABOVE the floor. Clear empty floor is visible below every chair leg. Preserve the chair shape exactly: a backrest, seat and four legs. Preserve the man, face, teal shirt, beige trousers and large table. The table stays on the floor.",
+        "seed": 460412,
+        "input_sha256": "1dfdce8ca345f97ea1506b6f722458d0ae984f1e0bb120a221136eae04f4a6c7",
+        "output_sha256": "51a73b9000360beb7e27198dcfe1dbdd313090057599e3181bc098365b4c19b3",
+        "seconds": 50.46
+      }
+    ]
+  },
+  "review_notes": "Visually reviewed all eight scenes and the three-person cast. Boy: brown hair and mustard shirt; man: dark hair, teal shirt and beige trousers; woman: dark hair, coral blouse and navy trousers. Actions and contrasting props match Lesson cues. Rejected chair-on-floor and malformed-chair attempts; final local edit shows one intact chair held fully above the floor beside the heavy table. Removed invented book lettering. Jumping scene shows the boy taking off from a low box, with the much taller wall behind him. Cake is successful while biscuits are visibly charred. Vase/table/high shelf are clear. All original text and answer IDs retained.",
+  "published_sha256": "652562fcef6cc086910ce1b90a6ab3afe6286e7fc96a25a09d1399c7e05c07af"
+}

@@ -1,0 +1,30 @@
+{
+  "slot": "cast",
+  "prompt": "A horizontal character reference sheet with exactly 3 equal-width vertical panels in ONE row. Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. Left to right: 1. boy: Boy aged seven, short straight brown hair, round face, mustard yellow T-shirt, blue jeans. 2. man: Man aged thirty, short dark brown hair, clean-shaven oval face, teal long-sleeved shirt, beige trousers. 3. woman: Woman aged thirty, shoulder-length wavy dark hair, warm brown skin, coral blouse and navy trousers. Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks. Portraits only, no scene or props.",
+  "cast": [
+    "boy",
+    "man",
+    "woman"
+  ],
+  "reference": null,
+  "lesson": 46,
+  "seed": 46017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "df53f033d30a0df8852e49a0cdfb9b0bf33074f0044b8e85dcd2c0e99e3eead4",
+  "sha256": "6c097be7c5d90827a173e8017808409c3a616218eff770a056da921d3d1991f3",
+  "seconds": 27.29,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "reference_source": "illustrations/references/046-cast-source.png",
+  "reference_review": {
+    "sha256": "6c097be7c5d90827a173e8017808409c3a616218eff770a056da921d3d1991f3",
+    "review_notes": "Three clean separate portraits in order: brown-haired boy in mustard T-shirt; dark-haired man in teal shirt; dark-haired woman in coral blouse. Faces and clothing distinct, each panel crop contains one person."
+  },
+  "review_notes": "Visually reviewed all eight scenes and the three-person cast. Boy: brown hair and mustard shirt; man: dark hair, teal shirt and beige trousers; woman: dark hair, coral blouse and navy trousers. Actions and contrasting props match Lesson cues. Rejected chair-on-floor and malformed-chair attempts; final local edit shows one intact chair held fully above the floor beside the heavy table. Removed invented book lettering. Jumping scene shows the boy taking off from a low box, with the much taller wall behind him. Cake is successful while biscuits are visibly charred. Vase/table/high shelf are clear. All original text and answer IDs retained.",
+  "published_sha256": "e948d8c645723bd208ead55809701441b3fa295fc02284ae8d4cdab779883ee6"
+}

@@ -1,0 +1,34 @@
+{
+  "slot": "action-08",
+  "prompt": "A woman gently places a blue vase of flowers on a low wooden table. An empty wall shelf is mounted far above her head, visibly out of reach. Full-body side view showing table height and high shelf. Only 1 person appears, alone. Image 1 is the appearance reference for woman. Keep their same faces, hairstyles and clothing. Appearance: woman: Woman aged thirty, shoulder-length wavy dark hair, warm brown skin, coral blouse and navy trousers. Warm full-color editorial illustration, lifelike natural faces and proportions, soft daylight, realistic surroundings and clear composition. No speech bubbles, lettering, logos or watermarks.",
+  "cast": [
+    "woman"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "woman"
+  ],
+  "cast_layout": [
+    "boy",
+    "man",
+    "woman"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 46,
+  "seed": 46025,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6c097be7c5d90827a173e8017808409c3a616218eff770a056da921d3d1991f3",
+  "fingerprint": "1172c9499f5a637bea00401288803aa2a8c01b339370935d2a5a7e898e2d7e8c",
+  "sha256": "7550e9048633991aa8f69a1b4e13fa4cd6c6e8f2507161091da1322def66cce8",
+  "seconds": 45.16,
+  "peak_mlx_gb": 5.115,
+  "status": "visually-reviewed",
+  "review_notes": "Visually reviewed all eight scenes and the three-person cast. Boy: brown hair and mustard shirt; man: dark hair, teal shirt and beige trousers; woman: dark hair, coral blouse and navy trousers. Actions and contrasting props match Lesson cues. Rejected chair-on-floor and malformed-chair attempts; final local edit shows one intact chair held fully above the floor beside the heavy table. Removed invented book lettering. Jumping scene shows the boy taking off from a low box, with the much taller wall behind him. Cake is successful while biscuits are visibly charred. Vase/table/high shelf are clear. All original text and answer IDs retained.",
+  "published_sha256": "e37375b70bcbf5d23033a539fd3b027e6b232fd85d5ac4121fa5d25a5fb597a1"
+}
