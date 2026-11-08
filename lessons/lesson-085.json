@@ -784,18 +784,29 @@
   "images": {
     "lesson-085-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "George and Ken stand outside a cinema with a 'Paris in the spring' poster behind them; a queue of people waits at the ticket box priced at £5.",
       "characters": [
         "george",
         "ken"
       ],
       "source": "../img/lesson-085-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "George and Ken chat on a damp London pavement outside a small cinema. A wordless poster of Paris with the Eiffel Tower is in the window. Ken gestures while recalling the rain on his visit; George listens. No ticket prices or written title.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-085/lesson-085-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Paris in the spring",
+      "alt": "George and Ken chat on a damp London pavement outside a small cinema.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 85017,
+        "manifest": "illustrations/manifests/085-lesson-085-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {

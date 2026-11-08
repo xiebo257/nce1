@@ -1,0 +1,39 @@
+{
+  "slot": "lesson-085-scene-01",
+  "prompt": "George and Ken chat on a damp London pavement outside a small cinema. A wordless poster of Paris with the Eiffel Tower is in the window. Ken gestures while recalling the rain on his visit; George listens. No ticket prices or written title. Exactly 2 people appear.  Appearance: george: Man about 35, curly blond hair, brown jacket, cream shirt. ken: Man about 35, short dark hair, navy jacket, pale blue shirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "george",
+    "ken"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 85,
+  "seed": 85017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "6873544c23ee1431284d8df60d5384887ff377056356d75bd1af2d87372484f8",
+  "sha256": "77439c0fac84d3c3300ac3f7ac6c267e5c792ab68f142e0a3dbb4d62ecbe814f",
+  "seconds": 39.04,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove all visible lettering from the background shop fascia. Behind the two men add a small wordless cinema poster showing the Eiffel Tower in Paris. Preserve both men, faces, brown and navy jackets, hand gestures and damp London street.",
+        "seed": 850111,
+        "input_sha256": "07d22e10341b984b880a8dc4a29bee479ca63924601794b82e9e4531677fb2bf",
+        "output_sha256": "77439c0fac84d3c3300ac3f7ac6c267e5c792ab68f142e0a3dbb4d62ecbe814f",
+        "seconds": 80.41
+      }
+    ]
+  },
+  "review_notes": "Two distinct men converse on damp street; shop lettering removed and Eiffel Tower cinema poster visible behind them. Faces, jackets and gestures preserved.",
+  "published_sha256": "f5dd43e6fbc9717fc41e1f6dfe6288b07a537a43cb7dbfe5547949cda74a44b6"
+}
