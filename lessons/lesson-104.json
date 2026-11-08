@@ -688,9 +688,9 @@
       "source": "img/lesson-104-01-text.jpg",
       "characters": [],
       "status": "ready",
-      "src": "assets/lesson-104/items-grid.jpg",
-      "width": 1534,
-      "height": 2325,
+      "src": "assets/lesson-104/items-grid-color.webp",
+      "width": 1024,
+      "height": 640,
       "illustration_source_reference": "illustrations/references/source/104-complete-panels.png",
       "illustration_width": 1024,
       "illustration_height": 640,
@@ -801,6 +801,14 @@
             966
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "Too, very, enough",
+      "alt": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 104017,
+        "manifest": "illustrations/manifests/104-items-grid.json"
       }
     }
   },
