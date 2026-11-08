@@ -1,0 +1,122 @@
+{
+  "slot": "lesson-item-05",
+  "prompt": "Faithfully colorize this exact textbook cartoon. Preserve the original number of people, their faces, poses, clothing shapes, objects, and placement. Use natural skin colors, distinct colorful clothes, a clean warm white background. Remove gray paper texture and faint reverse-page bleed-through. Preserve existing country outlines and labels exactly when present. No extra text or objects. Textbook illustration: one person holding a long object beside a map labelled FINLAND.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/054-lesson-item-05.png",
+  "lesson": 54,
+  "seed": 54021,
+  "width": 512,
+  "height": 320,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "f23c141fef9c2675029313f8ebdca14fc8475d2f98465fcf537e3574411f2c11",
+  "fingerprint": "757ce6d5d3555cb2c573935220de7796c3ea055e22f5f3338e8a87c94be3bc2a",
+  "sha256": "79ca463ae5df304e95f357f5b0eb9f4cd2655c903db63e7e04cd26b503d1642d",
+  "status": "visually-reviewed",
+  "seconds": 16.070833333333333,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 54901,
+    "prompt": "Colorize these 12 textbook picture tiles in their EXACT 4-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1280,
+    "height": 672,
+    "steps": 4,
+    "seconds": 192.85,
+    "peak_mlx_gb": 6.104,
+    "input_sha256": "b4850bbccc38f337e8dfa177da6ab1fbdd394a1e124e15a6aaa012cacc812d3c",
+    "output_sha256": "7a79d5f336d34791e13f3e9707ead47f58922b4c76acba67d24e808dfa41b250",
+    "slots": [
+      "lesson-item-01",
+      "lesson-item-02",
+      "lesson-item-03",
+      "lesson-item-04",
+      "lesson-item-05",
+      "lesson-item-06",
+      "lesson-item-07",
+      "lesson-item-08",
+      "lesson-item-09",
+      "lesson-item-10",
+      "lesson-item-11",
+      "lesson-item-12"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/054-lesson-item-01.png",
+        "sha256": "1510afc9a6398fbd85b456ec1e2eeb30abb6bd6e140d915897ecc50eea1683f2"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-02.png",
+        "sha256": "c1e27109d2dbe8b954c68b73a082496f31a7a1859ac01069c75edb69195e3cd9"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-03.png",
+        "sha256": "53d81bc24e6e8948a1d5def71c353598588547a1b1e4443a063bedc22250ce94"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-04.png",
+        "sha256": "bbf3c9c1ab35a77c8aee792b4ab898a86dff59577c834dacbbe5e01d6b772f1f"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-05.png",
+        "sha256": "f23c141fef9c2675029313f8ebdca14fc8475d2f98465fcf537e3574411f2c11"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-06.png",
+        "sha256": "729f2dae84f13cb0eb49c79e98031b7a0d1ca62c06564c7f572bc5a7df092e26"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-07.png",
+        "sha256": "36a478e0259c7f43f44d526589b97c095f05b25e5c5b1bbd3d51266014400312"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-08.png",
+        "sha256": "b53dfa908778138a6dd2827cf5072fca3e8dba28a66a96f6e7f5f94aadd417a7"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-09.png",
+        "sha256": "056debf73d1bec86ac6ebe14d154b8762e94cb31e3c68a05eb49f703ba0216c0"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-10.png",
+        "sha256": "6f29141583aaf8ee0e7a7de227ae0d2823d4eee44b3b4372b9b5ceb9a2694667"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-11.png",
+        "sha256": "a29959b812fdde9d7409f79e91db25de3118a8f8322489892abfed0816da0dd1"
+      },
+      {
+        "path": "illustrations/references/source/054-lesson-item-12.png",
+        "sha256": "84459b95776ad1aefac06804d371a21acffea1894b28ee620678f1c77c652c17"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:",
+  "postprocess": {
+    "method": "split-shared-colorized-atlas",
+    "crop_box": [
+      0,
+      224,
+      320,
+      448
+    ],
+    "output_size": [
+      320,
+      196
+    ],
+    "crop": [
+      0,
+      0,
+      320,
+      196
+    ],
+    "source_sha256": "51d5897efecce29ff93e0fa32b82735eaac888332bd2ef2d1fbbefefe57674c9",
+    "reason": "Trim partial source captions outside illustration frame."
+  },
+  "review_notes": "Twelve nationality figures and corresponding simplified source maps checked in source order. All main country labels readable; restored SOUTH KOREA after model distorted it. Cropped partial text below frames. Map shapes remain illustrative textbook sketches, not geographic reference maps.",
+  "published_sha256": "ad27b9a5738fd5b9e94c9956645e7ed437978efc6126fa8bd2b0c45a6e80c415"
+}
