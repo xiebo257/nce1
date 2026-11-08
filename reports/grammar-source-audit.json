@@ -48,9 +48,37 @@
       "html_grammar_sha256_before": "0d4e17f70a056cfca5375297a386d72f0cc9c6d769fb2e630ca41192c49424f1",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_sections",
-      "finding": "缺少原书 II（10题）和 III（6题），包括两道例题；部分内容错放在142课。"
+      "finding": "缺少原书 II（10题）和 III（6题），包括两道例题；部分内容错放在142课。",
+      "source_repair": {
+        "canonical": "lessons/lesson-143.json",
+        "sha256": "1606f41abbd2519d241049750bd9ad0002a450e3b3edcf870cd3b64045e77ec8",
+        "groups": [
+          {
+            "id": "l143-grammar-i",
+            "items": 10,
+            "examples": 1,
+            "source": "grammar-workbook-p419",
+            "key_source": "pdf p.578-579 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l143-grammar-ii",
+            "items": 10,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=435",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"
+          },
+          {
+            "id": "l143-grammar-iii",
+            "items": 6,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=435",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=579"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "800e6c404d871811d7c76bb2acb6c7a818024f7bb4319793b38605975039465d"
     },
     {
       "lesson": 142,
@@ -60,9 +88,30 @@
       "html_grammar_sha256_before": "80709ea74a71ec805ea219378ee1217b47924a71d438d287a1bb32b4ec177dd5",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_lesson",
-      "finding": "多出的 Grammar III 属于143课，混合两个题组且漏最后一题。"
+      "finding": "多出的 Grammar III 属于143课，混合两个题组且漏最后一题。",
+      "source_repair": {
+        "canonical": "lessons/lesson-142.json",
+        "sha256": "04a499bbe08ad61bef3f11f2787f00b19ec83721e8373a86760cf24c3825b90d",
+        "groups": [
+          {
+            "id": "l142-grammar-i",
+            "items": 15,
+            "examples": 2,
+            "source": "grammar-workbook-p417",
+            "key_source": "pdf p.578 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l142-grammar-ii",
+            "items": 8,
+            "examples": 1,
+            "source": "grammar-workbook-p418",
+            "key_source": "pdf p.578 (新概念英语语法练习1)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "62c0790ed4a33b40051351414c8c47f1a3da49c6a83f36d40af9cb39f406b439"
     },
     {
       "lesson": 141,
@@ -82,9 +131,30 @@
       "html_grammar_sha256_before": "ed5579e636983bd560f097bff8df6e2b6385f7adefeeda5d5ba78a60c4ffac38",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_content",
-      "finding": "原书 I为18题、II为10题；网页三组内容与原书不对应，须重建。"
+      "finding": "原书 I为18题、II为10题；网页三组内容与原书不对应，须重建。",
+      "source_repair": {
+        "canonical": "lessons/lesson-140.json",
+        "sha256": "c8bff832e8ea47fea24f78b54294219a30c3434eaaf494d61294ac7fae4f6c7d",
+        "groups": [
+          {
+            "id": "l140-grammar-i",
+            "items": 18,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=426",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=575"
+          },
+          {
+            "id": "l140-grammar-ii",
+            "items": 10,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=427",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=576"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "6924604524f25fbd4f23217919f02b34e5e1e1ab58f7f1af7b4bdf66bfc5206d"
     },
     {
       "lesson": 139,
@@ -94,9 +164,37 @@
       "html_grammar_sha256_before": "5fa0b89aa7e9c26c53417b8123ec237c1c323f0e7f7ccfff9bd23073fbd91e33",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_content",
-      "finding": "原书三组间接问句各15题；网页替换成了转述和条件句练习，须重建。"
+      "finding": "原书三组间接问句各15题；网页替换成了转述和条件句练习，须重建。",
+      "source_repair": {
+        "canonical": "lessons/lesson-139.json",
+        "sha256": "fd7719f46f5b0287d45f88eeb7ba68acb99e8067d1fe97b712b35ed6d4244d39",
+        "groups": [
+          {
+            "id": "l139-grammar-i",
+            "items": 15,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=422",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=574"
+          },
+          {
+            "id": "l139-grammar-ii",
+            "items": 15,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=423",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=574"
+          },
+          {
+            "id": "l139-grammar-iii",
+            "items": 15,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=424",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=574"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "27b470cb69a62e7bbafdb51353e1e2e1ba66474df7eff8650d3f84ed33801a53"
     },
     {
       "lesson": 138,
@@ -116,9 +214,37 @@
       "html_grammar_sha256_before": "62a0685d7a9cbfa6208378ab42e53b6112f397b3cc7c0210f1d881c6f0630d06",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_section",
-      "finding": "缺少原书 III 的10题条件句合并练习。"
+      "finding": "缺少原书 III 的10题条件句合并练习。",
+      "source_repair": {
+        "canonical": "lessons/lesson-137.json",
+        "sha256": "bd5a0861f82cd2d6a229312bde7db5d375c1da73a7b0ec9fd730c8ae59de846e",
+        "groups": [
+          {
+            "id": "l137-grammar-i",
+            "items": 12,
+            "examples": 0,
+            "source": "grammar-workbook-p400-401",
+            "key_source": "pdf p.572 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l137-grammar-ii",
+            "items": 8,
+            "examples": 1,
+            "source": "grammar-workbook-p401-402",
+            "key_source": "pdf p.572 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l137-grammar-iii",
+            "items": 10,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=418",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=572"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "775585543706b2136bc8ff3aa85aba79d5a729b70c4b54980e1d3dfdd52dca1b"
     },
     {
       "lesson": 136,
@@ -128,9 +254,30 @@
       "html_grammar_sha256_before": "0e18e59d4be8fe6cba5d347ac921c9a4d32047f2706b2253d07fbf65e714d232",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_lesson",
-      "finding": "多出的 III 是137课的部分答案，缺原题提示；本课应只有 I、II 各8题。"
+      "finding": "多出的 III 是137课的部分答案，缺原题提示；本课应只有 I、II 各8题。",
+      "source_repair": {
+        "canonical": "lessons/lesson-136.json",
+        "sha256": "15c89fe6dc38d88f1402d0a19a08d61d366889423bd8baad83defba51404a123",
+        "groups": [
+          {
+            "id": "l136-grammar-i",
+            "items": 8,
+            "examples": 0,
+            "source": "grammar-workbook-p398",
+            "key_source": "pdf p.572 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l136-grammar-ii",
+            "items": 8,
+            "examples": 0,
+            "source": "grammar-workbook-p398-399",
+            "key_source": "pdf p.572 (新概念英语语法练习1)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "9ce18457f29b2ae661873acb3d45089ded0c7ec740d6b222983d6a6e450d1e0b"
     },
     {
       "lesson": 135,
@@ -140,9 +287,37 @@
       "html_grammar_sha256_before": "87b48dc58a2864ce19d930536985247fc4f54173500462118227c7c837c5a966",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_content",
-      "finding": "原书三组10、10、12题；网页内容不对应，须重建。"
+      "finding": "原书三组10、10、12题；网页内容不对应，须重建。",
+      "source_repair": {
+        "canonical": "lessons/lesson-135.json",
+        "sha256": "c0c1a9c0dab679ce9c1c1c529f2fa6bcf461d8e7baca8c88c75abe30312e5c28",
+        "groups": [
+          {
+            "id": "l135-grammar-i",
+            "items": 10,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=411",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=570"
+          },
+          {
+            "id": "l135-grammar-ii",
+            "items": 10,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=412",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=570"
+          },
+          {
+            "id": "l135-grammar-iii",
+            "items": 12,
+            "examples": 2,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=412",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=571"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "cf0730ea9f90ef529edd346f665dd77e2b0e533ddeaff69314b6af38b59aa3ae"
     },
     {
       "lesson": 134,
@@ -152,9 +327,30 @@
       "html_grammar_sha256_before": "f334c3584fc0adacc70996c5a2d10cfd49bd47aae18978437703612196231b58",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_content",
-      "finding": "本课原书只有两组各8题；网页 I、II 不对应，III 属于133课。"
+      "finding": "本课原书只有两组各8题；网页 I、II 不对应，III 属于133课。",
+      "source_repair": {
+        "canonical": "lessons/lesson-134.json",
+        "sha256": "9a9fe91f35c294a0fee9677327a5a3eb294c0bdf7d56ec899870201a4cd73b7a",
+        "groups": [
+          {
+            "id": "l134-grammar-i",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=408",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=569"
+          },
+          {
+            "id": "l134-grammar-ii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=409",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=569"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "db90370f5e4ff9427069a1b52fc01daf889995cb7e17c36304df169c758f92d6"
     },
     {
       "lesson": 133,
@@ -164,9 +360,37 @@
       "html_grammar_sha256_before": "215da10b80d568fe53932a6244f6288dfa36da9e76d61fc0ec1f19eff74bf5a8",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_section",
-      "finding": "缺少 III 的12题间接引语还原直接引语练习（含2例题）。"
+      "finding": "缺少 III 的12题间接引语还原直接引语练习（含2例题）。",
+      "source_repair": {
+        "canonical": "lessons/lesson-133.json",
+        "sha256": "c96d69fcd8f26034db47a95e2af488928f81baaee3053d17684bbccc880a00d1",
+        "groups": [
+          {
+            "id": "l133-grammar-i",
+            "items": 10,
+            "examples": 1,
+            "source": "grammar-workbook-p390",
+            "key_source": "pdf p.568 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l133-grammar-ii",
+            "items": 10,
+            "examples": 0,
+            "source": "grammar-workbook-p391",
+            "key_source": "pdf p.568 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l133-grammar-iii",
+            "items": 12,
+            "examples": 2,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=407",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=569"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "43b2bdc15b409310a47eb4164261537610590a53310ba32e627711ff3dc5efe7"
     },
     {
       "lesson": 132,
@@ -216,9 +440,30 @@
       "html_grammar_sha256_before": "16b8af90d8af3dfbbc14931b4d1a70582f2587d5c2a1b6bcfc0ea26116cef4b0",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "changed_prompt",
-      "finding": "II.9 将“该国最热月份”改成“现在月份”，II.10 缩短题干。"
+      "finding": "II.9 将“该国最热月份”改成“现在月份”，II.10 缩短题干。",
+      "source_repair": {
+        "canonical": "lessons/lesson-128.json",
+        "sha256": "4bb408b45929c6ee2a9c1ef762b3612c260f7df6f8f68f4f9b7dfb73b6924335",
+        "groups": [
+          {
+            "id": "l128-grammar-i",
+            "items": 10,
+            "examples": 0,
+            "source": "grammar-workbook-p376",
+            "key_source": "pdf p.564 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l128-grammar-ii",
+            "items": 10,
+            "examples": 1,
+            "source": "grammar-workbook-p377",
+            "key_source": "pdf p.564-565 (新概念英语语法练习1)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "42633ca897023765059e79e299197129ff914d7d6941d033d6126b8c3adc28ab"
     },
     {
       "lesson": 127,
@@ -228,9 +473,37 @@
       "html_grammar_sha256_before": "b69f3551facfba4ce588b919145e51dc43b502720effa02433afa81af2af6f56",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "changed_prompt",
-      "finding": "III 多个原题被简写或替换；第9题把 I have to 改成 You must，改变主语和练习提示。"
+      "finding": "III 多个原题被简写或替换；第9题把 I have to 改成 You must，改变主语和练习提示。",
+      "source_repair": {
+        "canonical": "lessons/lesson-127.json",
+        "sha256": "ce82b53aa52b3249770cf5dd3b0d76deef6b38836b0706eb116058629b5ef17a",
+        "groups": [
+          {
+            "id": "l127-grammar-i",
+            "items": 12,
+            "examples": 1,
+            "source": "grammar-workbook-p372",
+            "key_source": "pdf p.563 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l127-grammar-ii",
+            "items": 12,
+            "examples": 1,
+            "source": "grammar-workbook-p373",
+            "key_source": "pdf p.563 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l127-grammar-iii",
+            "items": 20,
+            "examples": 3,
+            "source": "grammar-workbook-p373-374",
+            "key_source": "pdf p.563-564 (新概念英语语法练习1)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "531c6ca1e675ce571c78b54b1988764ccd136fd77de37830a55ee6932c8f5e5e"
     },
     {
       "lesson": 126,
@@ -310,9 +583,37 @@
       "html_grammar_sha256_before": "4cf0a993328f00315a5ba9ffa2d9676f828f482a9779e535fa24ecc64fba9c69",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_context",
-      "finding": "II 缺 Jimmy 从7:00至11:40的完整日记表，题目依赖的事件顺序不可见。"
+      "finding": "II 缺 Jimmy 从7:00至11:40的完整日记表，题目依赖的事件顺序不可见。",
+      "source_repair": {
+        "canonical": "lessons/lesson-119.json",
+        "sha256": "010fd016642f2b499aac5c161fc4e1eb6ec3dc029d69ccd5bca8981ed71f2bb9",
+        "groups": [
+          {
+            "id": "l119-grammar-i",
+            "items": 8,
+            "examples": 1,
+            "source": "grammar-workbook-p365",
+            "key_source": "pdf p.554 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l119-grammar-ii",
+            "items": 20,
+            "examples": 2,
+            "source": "grammar-workbook-p365-367",
+            "key_source": "pdf p.554-555 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l119-grammar-iii",
+            "items": 10,
+            "examples": 1,
+            "source": "grammar-workbook-p367",
+            "key_source": "pdf p.555 (新概念英语语法练习1)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "ec5efcfa7cfa8a186895ac6f22f5e0b71c4d1e978316036744eacaf10fe25851"
     },
     {
       "lesson": 118,
@@ -322,9 +623,30 @@
       "html_grammar_sha256_before": "761377ef00f7cfe25350dbaadd9cfb208ce2f2e9289f2d19258bb31d08d4d741",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "changed_prompt",
-      "finding": "II.8–12 被替换成其他句子；恢复原书待补全的从句。"
+      "finding": "II.8–12 被替换成其他句子；恢复原书待补全的从句。",
+      "source_repair": {
+        "canonical": "lessons/lesson-118.json",
+        "sha256": "ea74112e41f886c29aaa20c6bc860a0133ae8df8ea1166699340b4f6478a417f",
+        "groups": [
+          {
+            "id": "l118-grammar-i",
+            "items": 35,
+            "examples": 0,
+            "source": "grammar-workbook-p362-363",
+            "key_source": "pdf p.553-554 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l118-grammar-ii",
+            "items": 12,
+            "examples": 0,
+            "source": "grammar-workbook-p363-364",
+            "key_source": null
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "dc6c29815e90b3c610ab44ff19335e21e76b7e77bc274da9421c8af91851811f"
     },
     {
       "lesson": 117,
@@ -354,9 +676,37 @@
       "html_grammar_sha256_before": "122363bbbfcde4ab9c33b8359b276c3728f0450d7eb166e2290b4387e473f4a6",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "incomplete_dialogue",
-      "finding": "III 缺固定问句，部分多空句分拆错误，重复/截断末段，需按完整对话恢复。"
+      "finding": "III 缺固定问句，部分多空句分拆错误，重复/截断末段，需按完整对话恢复。",
+      "source_repair": {
+        "canonical": "lessons/lesson-115.json",
+        "sha256": "43e8344d8063bcb5b1e2c21b2f14d152a36ead3b5011d3433d4692abc7051b59",
+        "groups": [
+          {
+            "id": "l115-grammar-i",
+            "items": 30,
+            "examples": 4,
+            "source": "grammar-workbook-p350-352",
+            "key_source": "pdf p.551-552 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l115-grammar-ii",
+            "items": 10,
+            "examples": 2,
+            "source": "grammar-workbook-p353-354",
+            "key_source": "pdf p.552 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l115-grammar-iii",
+            "items": 4,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=354",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=550"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "99adecf793ad31600ae9f27b5292706179e9201f11ebfc90c6d7cffb4423b0a3"
     },
     {
       "lesson": 114,
@@ -406,9 +756,30 @@
       "html_grammar_sha256_before": "b53df6ef7e1e50285ff5117ef616c02fd6ddc5f8e732b10a02d3cd883a9e667a",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "incomplete_answers",
-      "finding": "I 缺最高级答案且改变例题模式；II 多道问题和答案与成绩表原题错位。"
+      "finding": "I 缺最高级答案且改变例题模式；II 多道问题和答案与成绩表原题错位。",
+      "source_repair": {
+        "canonical": "lessons/lesson-110.json",
+        "sha256": "b71a8a1b43db389f21fe058e243b02d596c6931056d691750cd2f7746157e751",
+        "groups": [
+          {
+            "id": "l110-grammar-i",
+            "items": 10,
+            "examples": 1,
+            "source": "grammar-workbook-p333",
+            "key_source": "pdf p.542 (新概念英语语法练习1)"
+          },
+          {
+            "id": "l110-grammar-ii",
+            "items": 12,
+            "examples": 1,
+            "source": "grammar-workbook-p334",
+            "key_source": "pdf p.543 (新概念英语语法练习1)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "237890b0bb5dc2b96441266f1d5fea458f8bb9addbbba2ccf8e1e7754144d156"
     },
     {
       "lesson": 109,
@@ -488,9 +859,37 @@
       "html_grammar_sha256_before": "00f7d03ec243588ddde2117e92616409c0597dbcbcf9d591bab0b777a089109c",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "truncated_prompts",
-      "finding": "I 的10题均截掉选项后的句子内容，产生不完整的题干和录音答案。"
+      "finding": "I 的10题均截掉选项后的句子内容，产生不完整的题干和录音答案。",
+      "source_repair": {
+        "canonical": "lessons/lesson-102.json",
+        "sha256": "3ef569e825b4d43f05bb3e9e4064c85e23e9a16ff9199c578e3ead25107a7f4d",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 10,
+            "examples": 0,
+            "source": "grammar",
+            "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 102 I, PDF p.532)"
+          },
+          {
+            "id": "grammar-ii",
+            "items": 10,
+            "examples": 1,
+            "source": "grammar",
+            "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 102 II, PDF p.532-533)"
+          },
+          {
+            "id": "grammar-iii",
+            "items": 12,
+            "examples": 1,
+            "source": "grammar",
+            "key_source": "pdf/新概念英语语法练习1_按课程索引.pdf (Lesson 102 III, PDF p.533)"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "760b6e85ae393c06321939d56d48454e1a2b349934b9b034b40c6018c9d470f5"
     },
     {
       "lesson": 101,
@@ -660,9 +1059,37 @@
       "html_grammar_sha256_before": "c172a8bae28b21e1a3f3b360cb20ccafdb22830161c90008ee7207e7ac977f17",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_dialogue_context",
-      "finding": "III.1 缺印刷的肯定答句、时间答句，问答对话不完整。"
+      "finding": "III.1 缺印刷的肯定答句、时间答句，问答对话不完整。",
+      "source_repair": {
+        "canonical": "lessons/lesson-085.json",
+        "sha256": "026d137f8508eac78d17acdf4e02a43e880660e18b8534a4d905341e8f580ca0",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 9,
+            "examples": 0,
+            "source": "pdf/新概念英语语法练习1_按课程索引.pdf#page=258",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501"
+          },
+          {
+            "id": "grammar-ii",
+            "items": 8,
+            "examples": 1,
+            "source": "pdf/新概念英语语法练习1_按课程索引.pdf#page=258",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501"
+          },
+          {
+            "id": "grammar-iii",
+            "items": 12,
+            "examples": 2,
+            "source": "pdf/新概念英语语法练习1_按课程索引.pdf#page=258",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=501"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "676c82e6ffe9502a07f834cdf2ad7c84882b8db50c6c0ead0902a1d06fa3f484"
     },
     {
       "lesson": 84,
@@ -742,9 +1169,37 @@
       "html_grammar_sha256_before": "efd3e6e918ed8f9cd57168429c3a9e90f79948106d5338dfd3d181bfb2690fe4",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "changed_exercise",
-      "finding": "II 将要求“按给定句子提出三问再回答”改成只回答现成问题，缺原给定句子。"
+      "finding": "II 将要求“按给定句子提出三问再回答”改成只回答现成问题，缺原给定句子。",
+      "source_repair": {
+        "canonical": "lessons/lesson-077.json",
+        "sha256": "4af8a302e69f5deadb5fd19f420c932c5bf62372d0aa163229973e63c669b0b9",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 10,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=235",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=507"
+          },
+          {
+            "id": "grammar-ii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=235",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=507"
+          },
+          {
+            "id": "grammar-iii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=237",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=508"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "80ba9b14f7c503e3a0ec5b4345eda0e9399e2885375b8b77cc1612670d3d9ff2"
     },
     {
       "lesson": 76,
@@ -764,9 +1219,44 @@
       "html_grammar_sha256_before": "866c1ff67c9417aeb4447efb0f1df9c94d29ac745e6738d18664be7fec5c5e90",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_dialogue_context",
-      "finding": "III 漏固定开场 What was the living room like? / It looked large and comfortable.，完整对话需补回。"
+      "finding": "III 漏固定开场 What was the living room like? / It looked large and comfortable.，完整对话需补回。",
+      "source_repair": {
+        "canonical": "lessons/lesson-075.json",
+        "sha256": "e7fdfb174462d3a54641cd44c53126b487ea50301bf48f523352db42936f87e5",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 20,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=229",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=506"
+          },
+          {
+            "id": "grammar-ii",
+            "items": 12,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=229",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=506"
+          },
+          {
+            "id": "grammar-iii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=230",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=506"
+          },
+          {
+            "id": "grammar-iv",
+            "items": 10,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=231",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=506"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "54e9ec858e25f84b237d150ecc4c112417112c4d7281d35cd1889ad3cd9dcdc1"
     },
     {
       "lesson": 74,
@@ -786,9 +1276,44 @@
       "html_grammar_sha256_before": "a016798367f577645465f16678ccc2cd6544c475e7fd3e73652cfb93bf28b7f2",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "wrong_content",
-      "finding": "II野餐短文被改写；III和IV替换成其他练习，需按原书恢复15空、18题及12题。"
+      "finding": "II野餐短文被改写；III和IV替换成其他练习，需按原书恢复15空、18题及12题。",
+      "source_repair": {
+        "canonical": "lessons/lesson-073.json",
+        "sha256": "589ea571c387f84655afda11cb7353daa18064bf79383ef7f045df92e4d4ec19",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 20,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=223",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=504"
+          },
+          {
+            "id": "l73-grammar-ii",
+            "items": 14,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=223",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=503"
+          },
+          {
+            "id": "l73-grammar-iii",
+            "items": 18,
+            "examples": 2,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=224",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=503"
+          },
+          {
+            "id": "l73-grammar-iv",
+            "items": 12,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=225",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=504"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "c8e532dd6dea704686d8d34b956df1449ee838f2a8c4f9db780510663108c82f"
     },
     {
       "lesson": 72,
@@ -828,9 +1353,37 @@
       "html_grammar_sha256_before": "0b87e4f80c7f5090be72ad5c7e18c694f167eb0aa87c9ebb5e50c54a6b6cb4db",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_items",
-      "finding": "II 漏7、8两组对话，例题1还漏后续时间问答。"
+      "finding": "II 漏7、8两组对话，例题1还漏后续时间问答。",
+      "source_repair": {
+        "canonical": "lessons/lesson-069.json",
+        "sha256": "b440efe73d336c973a7093750ea2fc1178b1b130485fdae8e464794ce47a43a6",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 15,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=210",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=500"
+          },
+          {
+            "id": "grammar-ii",
+            "items": 8,
+            "examples": 2,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=210",
+            "key_source": null
+          },
+          {
+            "id": "grammar-iii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=212",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=500"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "345411766b1526e634c698dfad148886a5061852f302005927368889d4b28657"
     },
     {
       "lesson": 68,
@@ -871,9 +1424,37 @@
       "html_grammar_sha256_before": "a40b88541e4aefd76a1e948bf3b0c05285960e04c31030a6783eed83553b9c1f",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "pending",
+      "repair_status": "source_fixed_audio_pending",
       "issue_type": "missing_item",
-      "finding": "II 漏第8题 he/go to work/twenty to eight/morning。"
+      "finding": "II 漏第8题 he/go to work/twenty to eight/morning。",
+      "source_repair": {
+        "canonical": "lessons/lesson-065.json",
+        "sha256": "869b026996283be9bb1fa369a2078e72ed355690d59f14877a8cdbc68b98f43f",
+        "groups": [
+          {
+            "id": "grammar-i",
+            "items": 10,
+            "examples": 0,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=199",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498"
+          },
+          {
+            "id": "grammar-ii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=199",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498"
+          },
+          {
+            "id": "grammar-iii",
+            "items": 8,
+            "examples": 1,
+            "source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=200",
+            "key_source": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=498"
+          }
+        ]
+      },
+      "html_grammar_sha256_after": "4d590c3b188e5ce561bb860bbe486078038acd48f648ec6a19cb07b9a2fc09c3"
     },
     {
       "lesson": 64,
@@ -1516,5 +2097,11 @@
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
       "repair_status": "not_required"
     }
-  ]
+  ],
+  "repair_summary": {
+    "source_fixed": 22,
+    "audio_published": 0,
+    "complete": false,
+    "verification": "Canonical HTML rendering check; compiler regression suite; per-batch source-item coverage, WAV decoding and segment consistency; grouped and individual ASR with residual review."
+  }
 }
