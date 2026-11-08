@@ -1,0 +1,62 @@
+{
+  "slot": "l118-pictures-grid",
+  "prompt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (m-r): m knocking while having breakfast, n postman arriving while leaving, o opening the door as the telephone rang, p getting off the bus, q shaving, r cooking the dinner while her husband worked in the garden.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/118-complete-panels.png",
+  "lesson": 118,
+  "seed": 118017,
+  "width": 512,
+  "height": 480,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "af4371181c06ba3a581d16a34035bee538c26c7256d6dc8037fde792d1f2eb80",
+  "fingerprint": "d4224546b9fc44c07f6e8f38cf7f8dff96b16c5af6b336e36a0ba115f7d70396",
+  "sha256": "6803c170fee52a7fb9c77e5fb5851ccd8405f70d95c780054edf0452a1cbf84e",
+  "status": "visually-reviewed",
+  "seconds": 51.16,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 118901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (m-r): m knocking while having breakfast, n postman arriving while leaving, o opening the door as the telephone rang, p getting off the bus, q shaving, r cooking the dinner while her husband worked in the garden.",
+    "width": 512,
+    "height": 480,
+    "steps": 4,
+    "seconds": 51.16,
+    "peak_mlx_gb": 5.094,
+    "input_sha256": "e86c60353512402b31154a435a8b618271be0b481a0bd063fa610c326448faf4",
+    "output_sha256": "d032215a99a2ca49232ddc224fa02db2d6811e14fb96d1d3e6004ac73ffee04a",
+    "slots": [
+      "l118-pictures-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/118-complete-panels.png",
+        "sha256": "af4371181c06ba3a581d16a34035bee538c26c7256d6dc8037fde792d1f2eb80"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      480
+    ],
+    "output_size": [
+      512,
+      480
+    ],
+    "source_atlas_sha256": "e86c60353512402b31154a435a8b618271be0b481a0bd063fa610c326448faf4",
+    "color_guide_sha256": "d032215a99a2ca49232ddc224fa02db2d6811e14fb96d1d3e6004ac73ffee04a",
+    "region_overrides": []
+  },
+  "review_notes": "Reviewed all six complete frames: breakfast and knocking, departure and postman, opening door and telephone, slipping off bus, shaving, cooking and husband outdoors. Preserved original simultaneous actions and character outlines.",
+  "published_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3"
+}

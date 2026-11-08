@@ -797,7 +797,7 @@
       "description": "Grid of 6 pictures (m-r): m knocking while having breakfast, n postman arriving while leaving, o opening the door as the telephone rang, p getting off the bus, q shaving, r cooking the dinner while her husband worked in the garden.",
       "source": "img/lesson-118-01-text.jpg (textbook p.239)",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source_size": [
         2500,
         2147
@@ -808,9 +808,9 @@
         2500,
         2147
       ],
-      "src": "assets/lesson-118/pictures-grid.jpg",
-      "width": 2500,
-      "height": 1546,
+      "src": "assets/lesson-118/l118-pictures-grid-color.webp",
+      "width": 512,
+      "height": 480,
       "illustration_source_reference": "illustrations/references/source/118-complete-panels.png",
       "illustration_width": 512,
       "illustration_height": 480,
@@ -861,6 +861,13 @@
             654
           ]
         ]
+      },
+      "caption": "What were you doing? 你那时正在做什么？",
+      "alt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 118017,
+        "manifest": "illustrations/manifests/118-l118-pictures-grid.json"
       }
     }
   },
