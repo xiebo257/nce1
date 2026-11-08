@@ -1,0 +1,39 @@
+{
+  "slot": "scene",
+  "prompt": "In the boss's office, the boss hands Sandra a small thick dictionary across his desk. A typed letter with red correction marks lies beside it. Sandra looks apologetic but attentive. Typewriter visible behind her, no legible text. Exactly 2 people appear.  Appearance: the_boss: Man about 50, short dark hair, rectangular glasses, navy suit, white shirt, burgundy tie. sandra: Woman about 27, straight dark bob, cream blouse, teal skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "the_boss",
+    "sandra"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 105,
+  "seed": 105017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "945484051e18d37b79ed2578a9fbd057a93f513d2d0cfa56bddee228957b35a3",
+  "sha256": "ebc662d6ae56675f5ddecd447dae794b039dfb844cff11aaeb8e5697b1c2ab99",
+  "seconds": 38.38,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Replace the small object being exchanged by a thick closed dictionary. The boss hands the dictionary across the desk and Sandra receives it with her hands. No coins or keys. Preserve both faces, glasses, suit and blouse, desk, typed letter with red correction marks and typewriter.",
+        "seed": 1050111,
+        "input_sha256": "86def8abe1766f7e6ba6fa8a353a8de96ab28fb6166ff96b805e268df80179c0",
+        "output_sha256": "ebc662d6ae56675f5ddecd447dae794b039dfb844cff11aaeb8e5697b1c2ab99",
+        "seconds": 79.58
+      }
+    ]
+  },
+  "review_notes": "Boss hands a visibly thick closed dictionary to Sandra across desk. Two people, natural handoff, corrected letter on desk and typewriter behind. Removed earlier tiny exchanged object.",
+  "published_sha256": "5c162a79053d0d3aedb6b0832a3d83024d8bc8029f6a09e179d2468e8aed37ce"
+}
