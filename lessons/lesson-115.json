@@ -738,7 +738,7 @@
   "images": {
     "l115-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Seven panels: Jim knocking at the door, Jim and Helen talking at the front door, Jim looking through the window, Jim and Helen at the back door, everyone in the garden, Carol offering Jim something to drink, and Jim drinking lemonade/beer.",
       "source": "img/lesson-115-01-text.jpg (textbook p.233)",
       "characters": [
@@ -750,7 +750,19 @@
       "illustration_scene": "In a sunny back garden set for lunch, Carol welcomes Helen and Jim while Tom offers Jim a glass of beer with a joking smile. Four adults around a garden table, a jug of lemonade and glasses, cheerful relaxed atmosphere.",
       "illustration_person_count": 4,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-115/l115-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Knock, knock! 敲敲门！",
+      "alt": "In a sunny back garden set for lunch, Carol welcomes Helen and Jim while Tom offers Jim a glass of beer with a joking smile.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 115017,
+        "manifest": "illustrations/manifests/115-l115-scene.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {

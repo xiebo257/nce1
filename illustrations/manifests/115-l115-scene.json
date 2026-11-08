@@ -1,0 +1,29 @@
+{
+  "slot": "l115-scene",
+  "prompt": "In a sunny back garden set for lunch, Carol welcomes Helen and Jim while Tom offers Jim a glass of beer with a joking smile. Four adults around a garden table, a jug of lemonade and glasses, cheerful relaxed atmosphere. Exactly 4 people appear.  Appearance: helen: Woman about 33, dark bob, pale blue jacket, navy skirt. jim: Man about 35, short dark hair, tan jacket, cream shirt. carol: Woman about 33, short blond curls, light blue floral dress. tom: Man about 35, neatly side-parted brown hair, navy cardigan, white shirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "helen",
+    "jim",
+    "carol",
+    "tom"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 115,
+  "seed": 115017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "405c6bdeb2f1e4494a50107d416bdd9e5b9f19fb92e158bb07c6fe7561750a05",
+  "sha256": "2c10eb7d0955cf06d16b704b0acf30735a9203968e0e122f40326405ca9dcff7",
+  "seconds": 38.33,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed exactly four adults at garden table, beer, lemonade jug and glasses; warm lunch gathering with distinct cast designs.",
+  "published_sha256": "7a2391dba2f9b4441782cecac9a77fe6c2a5e585e63c51f7365ca68289c2632e"
+}
