@@ -202,8 +202,7 @@
   "images": {
     "l131-scene": {
       "kind": "scene",
-      "status": "pending",
-      "reason": "Odd lesson: no crops. The dialogue page contains a single wide illustration above the text (Martin and Gary sitting at a desk surrounded by holiday brochures for Spain, Paris, the Alps and London). No single crop is appropriate.",
+      "status": "ready",
       "description": "A single wide illustration above the dialogue: Martin and Gary sit at a desk covered with holiday brochures; more brochures (Sunny Spain, the Alps, Paris) are scattered on the floor around them.",
       "source": "img/lesson-131-01-text.jpg (textbook p.265)",
       "illustration_scene": "Gary and Martin sit beside a table covered with holiday brochures, considering a trip to Egypt. One brochure shows pyramids and a passenger ship, another an airplane. Gary looks undecided, Martin listens; a pet dog rests by the table. No legible lettering.",
@@ -213,7 +212,19 @@
       ],
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-131/l131-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Don't be so sure! 别那么肯定！",
+      "alt": "Gary and Martin sit beside a table covered with holiday brochures, considering a trip to Egypt.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 131017,
+        "manifest": "illustrations/manifests/131-l131-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

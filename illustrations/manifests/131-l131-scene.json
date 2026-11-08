@@ -1,0 +1,27 @@
+{
+  "slot": "l131-scene",
+  "prompt": "Gary and Martin sit beside a table covered with holiday brochures, considering a trip to Egypt. One brochure shows pyramids and a passenger ship, another an airplane. Gary looks undecided, Martin listens; a pet dog rests by the table. No legible lettering. Exactly 2 people appear.  Appearance: Gary: Man about 38, short dark hair, gray jacket, cream shirt. Martin: Man about 38, short blond hair, tan jacket, white shirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "Gary",
+    "Martin"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 131,
+  "seed": 131017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "95587e2387e938e21b3680653c5e0333cb6791ab3c77a28bdba8087a699a1aa8",
+  "sha256": "c62bb9223ddfe3cfc8ba843b5dd472e010fac19d7a7da3a89c2de7c36849f35f",
+  "seconds": 43.0,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Two men consider holiday brochures with pyramids, ship and aircraft; dog visible beside table.",
+  "published_sha256": "c546225fe7b1ba5ad45e95992659849c21568b21c0bbdddd45b2f80af81eea24"
+}
