@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [133-1-lesson.wav](../../133-1-lesson.wav) | 113.3 | 26 | 0 |
 | [133-2-practice.wav](../../133-2-practice.wav) | 129.7 | 32 | 17 |
-| [133-3-gramar.wav](../../133-3-gramar.wav) | 189.2 | 43 | 20 |
+| [133-3-gramar.wav](../../133-3-gramar.wav) | 303.1 | 68 | 32 |
 
 词汇：reporter, sensational, mink coat
 

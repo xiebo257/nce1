@@ -113,7 +113,7 @@
 | 107 | It's too small. | [1:56](107-1-lesson.wav) | [2:42](107-2-practice.wav) | [5:10](107-3-gramar.wav) | [脚本](scripts/107/README.md) |
 | 108 | How do they compare? | [4:18](108-1-lesson.wav) | [2:48](108-2-practice.wav) | [3:46](108-3-gramar.wav) | [脚本](scripts/108/README.md) |
 | 109 | A good idea | [1:47](109-1-lesson.wav) | [1:40](109-2-practice.wav) | [5:44](109-3-gramar.wav) | [脚本](scripts/109/README.md) |
-| 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:44](110-2-practice.wav) | [4:05](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
+| 110 | How do they compare? 比一比 | [0:54](110-1-lesson.wav) | [4:44](110-2-practice.wav) | [5:28](110-3-gramar.wav) | [脚本](scripts/110/README.md) |
 | 111 | The most expensive model 最昂贵的型号 | [1:43](111-1-lesson.wav) | [2:43](111-2-practice.wav) | [6:52](111-3-gramar.wav) | [脚本](scripts/111/README.md) |
 | 112 | How do they compare? 比一比 | [0:56](112-1-lesson.wav) | [4:53](112-2-practice.wav) | [3:09](112-3-gramar.wav) | [脚本](scripts/112/README.md) |
 | 113 | Small change 零钱 | [2:35](113-1-lesson.wav) | [2:16](113-2-practice.wav) | [7:39](113-3-gramar.wav) | [脚本](scripts/113/README.md) |
@@ -136,7 +136,7 @@
 | 130 | He can't have been... He must have been... 他那时不可能…… 他那时肯定是…… | [6:36](130-1-lesson.wav) | [2:07](130-2-practice.wav) | [3:17](130-3-gramar.wav) | [脚本](scripts/130/README.md) |
 | 131 | Don't be so sure! 别那么肯定！ | [1:35](131-1-lesson.wav) | [1:34](131-2-practice.wav) | [4:31](131-3-gramar.wav) | [脚本](scripts/131/README.md) |
 | 132 | He may be... He may have been... 他可能是…… 他可能已经…… | [5:07](132-1-lesson.wav) | [1:32](132-2-practice.wav) | [2:28](132-3-gramar.wav) | [脚本](scripts/132/README.md) |
-| 133 | Sensational news! 爆炸性新闻！ | [1:53](133-1-lesson.wav) | [2:10](133-2-practice.wav) | [5:05](133-3-gramar.wav) | [脚本](scripts/133/README.md) |
+| 133 | Sensational news! 爆炸性新闻！ | [1:53](133-1-lesson.wav) | [2:10](133-2-practice.wav) | [5:03](133-3-gramar.wav) | [脚本](scripts/133/README.md) |
 | 134 | He said (that) he… He told me (that) he… | [5:41](134-1-lesson.wav) | [1:15](134-2-practice.wav) | [3:17](134-3-gramar.wav) | [脚本](scripts/134/README.md) |
 | 135 | The latest report | [2:20](135-1-lesson.wav) | [1:48](135-2-practice.wav) | [5:05](135-3-gramar.wav) | [脚本](scripts/135/README.md) |
 | 136 | He said (that) he… He told me (that) he… | [4:22](136-1-lesson.wav) | [1:43](136-2-practice.wav) | [2:52](136-3-gramar.wav) | [脚本](scripts/136/README.md) |

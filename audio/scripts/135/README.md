@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [135-1-lesson.wav](../../135-1-lesson.wav) | 140.3 | 23 | 0 |
 | [135-2-practice.wav](../../135-2-practice.wav) | 108.2 | 17 | 10 |
-| [135-3-gramar.wav](../../135-3-gramar.wav) | 211.7 | 56 | 26 |
+| [135-3-gramar.wav](../../135-3-gramar.wav) | 305.0 | 68 | 32 |
 
 词汇：reporter, retire, make up one's mind, future husband, future, get married, hotel, latest, introduce
 
