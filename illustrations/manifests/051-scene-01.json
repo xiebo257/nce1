@@ -1,0 +1,33 @@
+{
+  "slot": "scene-01",
+  "prompt": "Exactly 2 people appear in the entire image. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is hans, reference 2 is dimitri). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Hans and Dimitri converse beside a map of Greece. Hans has light hair and a patterned jacket; Dimitri has dark hair and a striped jacket. Characters in this scene: hans: Man about 35, short wavy blond hair, charcoal patterned jacket, white shirt, blue tie. dimitri: Man about 40, short thick black hair, brown striped jacket, cream shirt, dark green tie. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "hans",
+    "dimitri"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "hans",
+    "dimitri"
+  ],
+  "cast_layout": [
+    "hans",
+    "dimitri"
+  ],
+  "lesson": 51,
+  "seed": 51018,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "924d2326b733182324a543de98c2ae0969e4e8d6299965114191dcf8de066ba2",
+  "fingerprint": "315f4dc78d3780a138a8461d2cc17ea2bdc2961b5c8c555dfa4cbd1799e225d1",
+  "sha256": "9a9be36efb72fd982bffcd0e9a8b9724d4e83f5674064a413d11843cdb1af217",
+  "seconds": 67.69,
+  "peak_mlx_gb": 5.244,
+  "status": "visually-reviewed",
+  "review_notes": "Viewed cast and all five scenes. Hans and Dimitri match their reference hairstyles, suits and ties. Spring blossoms and passing rain, sunny Greek coast, autumn foliage and snowy winter landscape match the four seasonal passages. Summer includes incidental tourists; they are not recurring dialogue characters. Seasonal settings are illustrative, not identified exact locations.",
+  "published_sha256": "d4e2414645c3c37682f3b0953daf52b259098353088a404e32688a723207fdce"
+}

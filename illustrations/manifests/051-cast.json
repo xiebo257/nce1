@@ -1,0 +1,24 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 2 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. hans: Man about 35, short wavy blond hair, charcoal patterned jacket, white shirt, blue tie. 2. dimitri: Man about 40, short thick black hair, brown striped jacket, cream shirt, dark green tie. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "hans",
+    "dimitri"
+  ],
+  "reference": null,
+  "lesson": 51,
+  "seed": 51017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "bac319aeca64f43b9273b766a2c38433778ec5fc277fc6fe4885bd17eac5d0e3",
+  "sha256": "924d2326b733182324a543de98c2ae0969e4e8d6299965114191dcf8de066ba2",
+  "seconds": 37.73,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Viewed cast and all five scenes. Hans and Dimitri match their reference hairstyles, suits and ties. Spring blossoms and passing rain, sunny Greek coast, autumn foliage and snowy winter landscape match the four seasonal passages. Summer includes incidental tourists; they are not recurring dialogue characters. Seasonal settings are illustrative, not identified exact locations.",
+  "published_sha256": "91af7acc76e11bd0cc26a1e57fb515ac86083ecfd78310060abb6c62c3481d0f"
+}
