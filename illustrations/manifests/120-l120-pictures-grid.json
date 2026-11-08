@@ -1,0 +1,62 @@
+{
+  "slot": "l120-pictures-grid",
+  "prompt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/120-complete-panels.png",
+  "lesson": 120,
+  "seed": 120017,
+  "width": 512,
+  "height": 480,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "2316b16db2eac34e5308b4cdd07bdad18ab1dc6ba254d28a67da76976ef17472",
+  "fingerprint": "b584a0a55c7b645b717660cd9b4f0da2ae2d1fca0719d10fddb7d99b616038f7",
+  "sha256": "661535c0c4a6571149b216b0e5ad6c1da2f4fec0241985e3a11d703dfe1b6540",
+  "status": "visually-reviewed",
+  "seconds": 52.06,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 120901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
+    "width": 512,
+    "height": 480,
+    "steps": 4,
+    "seconds": 52.06,
+    "peak_mlx_gb": 5.094,
+    "input_sha256": "c43ac9dc2da4dc0f9cc9f6a423aeafd54131ddf48d9bc0de5cdf750e473bc28f",
+    "output_sha256": "c520d90d238ad81c523804816d6724698802e0f7eb188b417e69f0dd68314d44",
+    "slots": [
+      "l120-pictures-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/120-complete-panels.png",
+        "sha256": "2316b16db2eac34e5308b4cdd07bdad18ab1dc6ba254d28a67da76976ef17472"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      480
+    ],
+    "output_size": [
+      512,
+      480
+    ],
+    "source_atlas_sha256": "c43ac9dc2da4dc0f9cc9f6a423aeafd54131ddf48d9bc0de5cdf750e473bc28f",
+    "color_guide_sha256": "c520d90d238ad81c523804816d6724698802e0f7eb188b417e69f0dd68314d44",
+    "region_overrides": []
+  },
+  "review_notes": "Reviewed six complete past-perfect scenes in canonical s-x order: sold car, departed train, corrected books, holiday after exam, housework before going out, dinner before visitors. Last two panels correctly ordered; original labels and actions retained.",
+  "published_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd"
+}
