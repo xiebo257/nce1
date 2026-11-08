@@ -18,16 +18,15 @@
   "fingerprint": "951f04e21225bceae62d5571aa28ef7ff420111947bcba49c197adec3ae4c023",
   "sha256": "c144a92d84a8d5d6907af6b79d78d849b7a3976420308d815c87261f083b0595",
   "status": "visually-reviewed",
-  "seconds": 11.801666666666668,
+  "seconds": 15.2458,
   "atlas_generation": {
     "model": "mlx-community/FLUX.2-Klein-4B-4bit",
     "seed": 52901,
-    "prompt": "Colorize this exact textbook cartoon sheet in place. There are 12 input tiles in 4 columns and 3 rows. Keep the grid positions, panel borders, every face, hairstyle, pose, object, count and spatial relation EXACTLY unchanged. Repeated characters must have the same hair color, skin tone and clothing colors in every panel. Use natural skin tones, cheerful full-color clothing, realistic object colors, and pure white background. Remove gray paper texture and faint reverse-page bleed-through. Preserve all visible letters, numerals and clock hands. Do not draw extra objects, people, labels or captions. Do not move, resize, combine, omit or rearrange any tile. Color only the existing drawing, preserving the original black outlines. Remove cropped text fragments OUTSIDE picture borders, keeping only the drawings. Keep complete map labels and symbols INSIDE the picture unchanged. Mandatory recurring character colors: The same little boy with short CURLY hair points to people in seven panels. In EVERY appearance give this boy BROWN curly hair, a BLUE shirt, NAVY shorts and RED shoes. His hair and clothes never change color. Do not apply this rule to the other adults or girls.",
+    "prompt": "Colorize this exact textbook cartoon sheet in place. There are 12 input tiles in 4 columns and 3 rows. Keep the grid positions, panel borders, every face, hairstyle, pose, object, count and spatial relation EXACTLY unchanged. Repeated characters must have the same hair color, skin tone and clothing colors in every panel. Use natural skin tones, cheerful full-color clothing, realistic object colors, and pure white background. Remove gray paper texture and faint reverse-page bleed-through. Preserve all visible letters, numerals and clock hands. Do not draw extra objects, people, labels or captions. Do not move, resize, combine, omit or rearrange any tile. Color only the existing drawing, preserving the original black outlines.",
     "width": 1280,
     "height": 672,
     "steps": 4,
-    "seconds": 141.62,
-    "peak_mlx_gb": 6.104,
+    "seconds": 182.95,
     "input_sha256": "fac8a7a2797c56e1c1dae1f7f2496a77b67bc717735f35d600b26b7dd415326f",
     "output_sha256": "10e118aab1f6bcf78944a595bf0ffe43bf1caedf189cd54037d04dd5cc25eb48",
     "slots": [
@@ -93,7 +92,8 @@
         "path": "illustrations/references/source/052-lesson-52-picture-31.png",
         "sha256": "fab7d7a8396112729f2c6770f1004e4f68d4bcf73ba60cab1d97a4bbf5bccd4c"
       }
-    ]
+    ],
+    "provenance_note": "The visually reviewed final source-color transfer used this earlier guide, followed by manual clothing/skin corrections. Restored guide prompt and inference time from its embedded MFLUX metadata; later unused retry is not attributed to these pixels."
   },
   "atlas_recipe": "shared-atlas-v2:The same little boy with short CURLY hair points to people in seven panels. In EVERY appearance give this boy BROWN curly hair, a BLUE shirt, NAVY shorts and RED shoes. His hair and clothes never change color. Do not apply this rule to the other adults or girls.",
   "postprocess": {

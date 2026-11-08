@@ -225,12 +225,27 @@ settings and per-slot split coordinates. When publishing, preserve the exact
 source and colored sheet plus metadata under `illustrations/references/atlas/`.
 Resume checks include the atlas recipe and palette as well as source hashes.
 
+MFLUX `GeneratedImage.save()` defaults to `overwrite=False`: when regenerating,
+it can silently save `colored_1.png` while a later split still reads the old
+`colored.png`. The atlas runner must explicitly use `overwrite=True` and check
+the saved dimensions. Validate the PNG's embedded prompt against the generation
+record as well as its hash. `audit_published_illustrations.py --baseline REV`
+checks all published assets and excluded sections; it complements visual review.
+
 Use complete source pages: older `ready` crops can omit the final row. Detecting
 rectangular frames is only a starting point; inspect the extracted sheet because
 a shifted crop can still truncate a figure or reorder adjacent panels. Match
 new images to the actual Lesson text; where old text disagrees with a scan,
 verify the specific fact before changing it. Do not silently replace a lesson's
 exercise content merely to fit a source illustration.
+
+Do not assume a clean PDF is more accurate than the photographed book. The local
+Lesson 122 PDF repeats picture 5 at position 6; the photograph correctly shows
+road workers. Lessons 142/144 have faded PDF linework that the photographs can
+restore. For photographed frames, perspective rectification removes sloping
+caption fragments without cutting people or objects. Inspect numbered order
+after frame detection: small differences in top edges put Lesson 124's kitten
+before its book pictures when sorting boxes by raw y coordinates.
 
 When a model changes a teaching action (for example turning sleeping children
 into doctors), `preserve_panel_lineart.py --lesson N` can transfer model colors

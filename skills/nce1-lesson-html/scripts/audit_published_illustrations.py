@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import subprocess
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from PIL import Image
@@ -62,6 +63,13 @@ def main():
                     prefix = repo / f'illustrations/references/atlas/{number:03}'
                     assert sha(Path(f'{prefix}-source.png')) == atlas['input_sha256'], 'atlas source mismatch'
                     assert sha(Path(f'{prefix}-colored.png')) == atlas['output_sha256'], 'atlas output mismatch'
+                    with Image.open(Path(f'{prefix}-colored.png')) as guide:
+                        assert guide.size == (atlas['width'], atlas['height']), 'atlas size mismatch'
+                        if guide.info.get('xmp'):
+                            root = ET.fromstring(guide.info['xmp'])
+                            prompt = root.find('.//{http://purl.org/dc/elements/1.1/}description//'
+                                               '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}li')
+                            assert prompt is not None and prompt.text == atlas['prompt'], 'embedded atlas prompt mismatch'
                 method = manifest.get('postprocess', {}).get('method', slot.get('origin'))
                 origins[method] = origins.get(method, 0) + 1
                 checked += 1
