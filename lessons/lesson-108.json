@@ -516,9 +516,9 @@
       "source": "img/lesson-108-01-text.jpg",
       "characters": [],
       "status": "ready",
-      "src": "assets/lesson-108/items-grid.jpg",
-      "width": 1689,
-      "height": 2325,
+      "src": "assets/lesson-108/items-grid-color.webp",
+      "width": 768,
+      "height": 640,
       "illustration_source_reference": "illustrations/references/source/108-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 640,
@@ -605,6 +605,14 @@
             857
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "How do they compare?",
+      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 108017,
+        "manifest": "illustrations/manifests/108-items-grid.json"
       }
     }
   },

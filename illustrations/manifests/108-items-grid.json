@@ -1,0 +1,98 @@
+{
+  "slot": "items-grid",
+  "prompt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 12 pictures in 4 groups showing comparative and superlative forms: height (Sophie/Paul/Hans), heat at the beach (D-F), crowds at a race (G-I), and suitcase weight (J-L) The last row suitcases are brown, blue and green from left to right.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/108-complete-panels.png",
+  "lesson": 108,
+  "seed": 108017,
+  "width": 768,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "b000f56ef247f8d7302b5030191ec5461421f342028c7bdf2fc782adf3fbd082",
+  "fingerprint": "3d594843360c5019d1d91eff4212c1032ccde1b49dea83b912b84f530bde8b3f",
+  "sha256": "632d05c25ee06ff8fb27f8e5f20e19fed10df5109ade1f0e4775d9951500e4c3",
+  "status": "visually-reviewed",
+  "seconds": 103.32,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 108901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 12 pictures in 4 groups showing comparative and superlative forms: height (Sophie/Paul/Hans), heat at the beach (D-F), crowds at a race (G-I), and suitcase weight (J-L) The last row suitcases are brown, blue and green from left to right.",
+    "width": 768,
+    "height": 640,
+    "steps": 4,
+    "seconds": 103.32,
+    "peak_mlx_gb": 5.527,
+    "input_sha256": "b000f56ef247f8d7302b5030191ec5461421f342028c7bdf2fc782adf3fbd082",
+    "output_sha256": "e7a686c856df2974d6b05aaafbbca2433a42e428e493c6ac81ec5aa264574dd8",
+    "slots": [
+      "items-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/108-complete-panels.png",
+        "sha256": "b000f56ef247f8d7302b5030191ec5461421f342028c7bdf2fc782adf3fbd082"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      768,
+      640
+    ],
+    "output_size": [
+      768,
+      640
+    ],
+    "source_atlas_sha256": "b000f56ef247f8d7302b5030191ec5461421f342028c7bdf2fc782adf3fbd082",
+    "color_guide_sha256": "e7a686c856df2974d6b05aaafbbca2433a42e428e493c6ac81ec5aa264574dd8",
+    "region_overrides": [
+      [
+        60,
+        74,
+        "#f4c7ad"
+      ]
+    ],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          92,
+          370,
+          108,
+          385
+        ],
+        "selection": "green",
+        "color": [
+          244,
+          199,
+          173
+        ]
+      },
+      {
+        "box": [
+          92,
+          370,
+          108,
+          385
+        ],
+        "selection": "green",
+        "color": [
+          244,
+          199,
+          173
+        ]
+      }
+    ]
+  },
+  "review_notes": "Reviewed all 12 panels: height, beach heat/crowds, racing crowds and three suitcase weights. Brown, blue, green suitcase order and scale needles retained. Corrected blue/green facial fills without changing source geometry.",
+  "published_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee"
+}
