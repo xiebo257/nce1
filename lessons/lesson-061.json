@@ -346,83 +346,136 @@
     },
     "lesson-061-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Williams stands beside Mr. Williams near a desk with a telephone; they talk about Jimmy, who is in bed.",
       "characters": [
         "mr-williams",
         "mrs-williams"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs. Williams stands beside Mr. Williams near a desk with a telephone; they talk about Jimmy, who is in bed.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-061/lesson-061-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A bad cold",
+      "alt": "Mrs Williams stands beside Mr Williams near a desk with a telephone; they talk about Jimmy, who is in bed.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 61018,
+        "manifest": "illustrations/manifests/061-lesson-061-scene-01.json"
+      }
     },
     "lesson-061-scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Jimmy lies ill in bed with his parents beside him; the family decides to call the doctor.",
       "characters": [
+        "jimmy",
         "mr-williams",
-        "mrs-williams",
-        "jimmy"
+        "mrs-williams"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "Jimmy lies ill in bed with his parents beside him; the family decides to call the doctor.",
+      "illustration_scene": "A SINGLE sick schoolboy, Jimmy, lies under a white duvet in bed, wearing pale blue pajamas. His moustached father in a brown jacket and blond mother in a cream jacket STAND beside the bed, looking down at their son with concern. Exactly THREE people: one child patient in bed and his two parents standing. One continuous bedroom scene.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-061/lesson-061-scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A bad cold",
+      "alt": "A SINGLE sick schoolboy, Jimmy, lies under a white duvet in bed, wearing pale blue pajamas.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 61130,
+        "manifest": "illustrations/manifests/061-lesson-061-scene-02.json"
+      }
     },
     "lesson-061-scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Williams answers the question about the doctor's telephone number, 09754, while Mr. Williams is near the telephone.",
       "characters": [
         "mr-williams",
         "mrs-williams"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "Mrs. Williams answers the question about the doctor's telephone number, 09754, while Mr. Williams is near the telephone.",
+      "illustration_scene": "Mr Williams and Mrs Williams stand together in the SAME hallway beside ONE telephone on a wooden table. He prepares to dial while she tells him the number. One continuous scene with two people in one room, all furniture connected naturally.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-061/lesson-061-scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A bad cold",
+      "alt": "Mr Williams and Mrs Williams stand together in the SAME hallway beside ONE telephone on a wooden table.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 61131,
+        "manifest": "illustrations/manifests/061-lesson-061-scene-03.json"
+      }
     },
     "lesson-061-scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The doctor bends over Jimmy in bed and examines his open mouth and tongue.",
       "characters": [
         "jimmy",
         "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The doctor bends over Jimmy in bed and examines his open mouth and tongue.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-061/lesson-061-scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A bad cold",
+      "alt": "The doctor bends over Jimmy in bed and examines his open mouth and tongue.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 61021,
+        "manifest": "illustrations/manifests/061-lesson-061-scene-04.json"
+      }
     },
     "lesson-061-scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The doctor tells Mr. Williams at the doorway that Jimmy has a bad cold and must stay in bed for a week.",
       "characters": [
         "mr-williams",
         "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "The doctor tells Mr. Williams at the doorway that Jimmy has a bad cold and must stay in bed for a week.",
+      "illustration_scene": "TWO MEN ALONE talking at a bedroom doorway: the elderly bald doctor in a gray suit and glasses explains the diagnosis to Jimmy’s moustached father in his brown jacket. Only the father and the doctor are visible. A medium two-person view, one continuous hallway background.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-061/lesson-061-scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A bad cold",
+      "alt": "TWO MEN ALONE talking at a bedroom doorway: the elderly bald doctor in a gray suit and glasses explains the diagnosis to Jimmy’s moustached father in his brown jacket.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 61133,
+        "manifest": "illustrations/manifests/061-lesson-061-scene-05.json"
+      }
     },
     "lesson-061-scene-06": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The Williams parents and the doctor stand together; Mr. Williams explains that Jimmy does not like school.",
       "characters": [
         "mr-williams",
@@ -430,13 +483,24 @@
         "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The Williams parents and the doctor stand together; Mr. Williams explains that Jimmy does not like school.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-061/lesson-061-scene-06-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A bad cold",
+      "alt": "The Williams parents and the doctor stand together; Mr Williams explains that Jimmy does not like school.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 61023,
+        "manifest": "illustrations/manifests/061-lesson-061-scene-06.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_cast_layout": "portrait-strip"
+  "illustration_cast_layout": "portrait-strip",
+  "illustration_reference": "illustrations/references/061-cast.webp"
 }

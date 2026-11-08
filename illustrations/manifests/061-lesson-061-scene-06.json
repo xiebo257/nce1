@@ -1,0 +1,39 @@
+{
+  "slot": "lesson-061-scene-06",
+  "prompt": "The Williams parents and the doctor stand together; Mr. Williams explains that Jimmy does not like school. Exactly 3 people appear. Image 1 is the appearance reference for mr-williams. Image 2 is the appearance reference for mrs-williams. Image 3 is the appearance reference for doctor. Keep their same faces, hairstyles and clothing. Appearance: mr-williams: Father about 42, short dark hair, neat moustache, brown jacket, white shirt, navy tie. mrs-williams: Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt. doctor: Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mr-williams",
+    "mrs-williams",
+    "doctor"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mr-williams",
+    "mrs-williams",
+    "doctor"
+  ],
+  "cast_layout": [
+    "mr-williams",
+    "mrs-williams",
+    "jimmy",
+    "doctor"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "portrait",
+  "lesson": 61,
+  "seed": 61023,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "f930669fd34750e42a8b88380023f5742c2d998644a044508f596309bf1d0089",
+  "fingerprint": "16a4f3b9cbc3ba4abd3a388b95e7f10f1884ab963563edd116d83f1437664691",
+  "sha256": "8a4c35eca573a4430697ef2ddd43309523ba81bc1df444619f3069137a2e7a6a",
+  "seconds": 62.16,
+  "peak_mlx_gb": 5.229,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed the corrected four-portrait cast and all six final scenes. Father has dark hair/moustache and brown jacket; mother has blond bob/cream jacket/blue patterned blouse; Jimmy has dark curls and blue pajamas; doctor has bald crown/glasses/gray suit/burgundy tie. Rejected extra parents and reference-panel artifacts. Scene 2 locally edited to remove an extra woman while preserving the boy in bed and his parents. Final phone scene is one room, doctor examines Jimmy, and the last discussion has the intended three adults.",
+  "published_sha256": "4196bb25949aef356077922c780f66350e48e0649ac27e1cd29733de5f187455"
+}

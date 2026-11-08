@@ -1,0 +1,51 @@
+{
+  "slot": "lesson-061-scene-02",
+  "prompt": "A SINGLE sick schoolboy, Jimmy, lies under a white duvet in bed, wearing pale blue pajamas. His moustached father in a brown jacket and blond mother in a cream jacket STAND beside the bed, looking down at their son with concern. Exactly THREE people: one child patient in bed and his two parents standing. One continuous bedroom scene. Exactly 3 people appear. Image 1 is the appearance reference for jimmy. Image 2 is the appearance reference for mr-williams. Image 3 is the appearance reference for mrs-williams. Keep their same faces, hairstyles and clothing. Appearance: jimmy: Schoolboy about 8, short dark curly hair, pale blue pajamas. mr-williams: Father about 42, short dark hair, neat moustache, brown jacket, white shirt, navy tie. mrs-williams: Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "jimmy",
+    "mr-williams",
+    "mrs-williams"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jimmy",
+    "mr-williams",
+    "mrs-williams"
+  ],
+  "cast_layout": [
+    "mr-williams",
+    "mrs-williams",
+    "jimmy",
+    "doctor"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 61,
+  "seed": 61130,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "f930669fd34750e42a8b88380023f5742c2d998644a044508f596309bf1d0089",
+  "fingerprint": "97d9e93b6d89531dc7e3c27f3d09139971d5740a082c0eabdde9853f9ea168d7",
+  "sha256": "427273b04221a5be09c338bc0d7525b46a89c33f8d1f45361db724e1cb70a671",
+  "seconds": 36.47,
+  "peak_mlx_gb": 5.109,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the extra woman in the CENTER, who wears a plain blue shirt and cream jacket. Keep exactly these three people: the moustached father on the left, the sleeping curly-haired boy in bed, and the woman on the FAR RIGHT wearing a cream jacket over a blue floral blouse. Fill the removed woman area with the bedroom wall. Preserve the remaining faces, clothes, bed, positions, lighting and photographic style.",
+        "seed": 610222,
+        "input_sha256": "227e0f655d19f253c0b6fb5c846ddd51e0a964f5a09a36589c1e76a75e8fecf3",
+        "output_sha256": "427273b04221a5be09c338bc0d7525b46a89c33f8d1f45361db724e1cb70a671",
+        "seconds": 49.18
+      }
+    ]
+  },
+  "review_notes": "Reviewed the corrected four-portrait cast and all six final scenes. Father has dark hair/moustache and brown jacket; mother has blond bob/cream jacket/blue patterned blouse; Jimmy has dark curls and blue pajamas; doctor has bald crown/glasses/gray suit/burgundy tie. Rejected extra parents and reference-panel artifacts. Scene 2 locally edited to remove an extra woman while preserving the boy in bed and his parents. Final phone scene is one room, doctor examines Jimmy, and the last discussion has the intended three adults.",
+  "published_sha256": "fee24ac4ab6c2fc8b94cfe40b7b4ce416402bc99060d8a039481f9d7726038a9"
+}
