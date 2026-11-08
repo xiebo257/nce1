@@ -207,9 +207,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Six numbered pictures in a 3x2 grid: 1 two people at a door in the rain; 2 a man and woman by an alarm clock; 3 a man in a taxi at a bus stop; 4 two men talking on the street; 5 two people by a garden before rain; 6 two people walking past a bus stop.",
-      "src": "assets/lesson-126/pictures-grid.jpg",
-      "width": 1677,
-      "height": 1800,
+      "src": "assets/lesson-126/l126-pictures-color.webp",
+      "width": 512,
+      "height": 480,
       "source": "img/lesson-126-01-text.jpg (textbook p.255)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/126-complete-panels.png",
@@ -262,6 +262,14 @@
             783
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "Have to and do not need to 不得不和不必要",
+      "alt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 126017,
+        "manifest": "illustrations/manifests/126-l126-pictures.json"
       }
     }
   },

@@ -1,0 +1,68 @@
+{
+  "slot": "l126-pictures",
+  "prompt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Six numbered pictures in a 3x2 grid: 1 two people at a door in the rain; 2 a man and woman by an alarm clock; 3 a man in a taxi at a bus stop; 4 two men talking on the street; 5 two people by a garden before rain; 6 two people walking past a bus stop.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/126-complete-panels.png",
+  "lesson": 126,
+  "seed": 126017,
+  "width": 512,
+  "height": 480,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "9b4a2d0b21c6752fba1ac4a0337ad87eaa5bd455c20de8bc8a148b1d651f5d37",
+  "fingerprint": "3b37d07ed094c45d7351b4ded95a23454f4a7c8316ffcbae13924aa0db7b8dd9",
+  "sha256": "20e1fb55f28f32d5f1f5ba96308f3bd12ec50e7ea93c19cb50e73e7976cbdd68",
+  "status": "visually-reviewed",
+  "seconds": 50.47,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 126901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Six numbered pictures in a 3x2 grid: 1 two people at a door in the rain; 2 a man and woman by an alarm clock; 3 a man in a taxi at a bus stop; 4 two men talking on the street; 5 two people by a garden before rain; 6 two people walking past a bus stop.",
+    "width": 512,
+    "height": 480,
+    "steps": 4,
+    "seconds": 50.47,
+    "peak_mlx_gb": 5.094,
+    "input_sha256": "9b4a2d0b21c6752fba1ac4a0337ad87eaa5bd455c20de8bc8a148b1d651f5d37",
+    "output_sha256": "eb78bd7745c871eeb68fe80bb3cc5c35658aac3dd29f0c393e2953d001cebe9c",
+    "slots": [
+      "l126-pictures"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/126-complete-panels.png",
+        "sha256": "9b4a2d0b21c6752fba1ac4a0337ad87eaa5bd455c20de8bc8a148b1d651f5d37"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      480
+    ],
+    "output_size": [
+      512,
+      480
+    ],
+    "source_atlas_sha256": "9b4a2d0b21c6752fba1ac4a0337ad87eaa5bd455c20de8bc8a148b1d651f5d37",
+    "color_guide_sha256": "eb78bd7745c871eeb68fe80bb3cc5c35658aac3dd29f0c393e2953d001cebe9c",
+    "region_overrides": [
+      [
+        145,
+        415,
+        "#f4c7ad"
+      ]
+    ]
+  },
+  "review_notes": "Checked six scenes: departure, six-o-clock alarm, taxi, waiting, rain/garden, and bus. Original exact clock retained; repaired green skin on man looking at rain clouds.",
+  "published_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8"
+}
