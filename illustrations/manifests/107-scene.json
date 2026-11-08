@@ -1,0 +1,27 @@
+{
+  "slot": "scene",
+  "prompt": "Inside a dress shop, the assistant holds a BLUE dress on a hanger in front of the customer, who studies its size doubtfully. A GREEN dress hangs on the rack beside them. The customer still wears her cream blouse and charcoal skirt. Exactly 2 people appear.  Appearance: assistant: Woman about 35, short blond hair, navy dress with white collar. lady: Woman about 30, shoulder-length dark brown hair, cream blouse, charcoal skirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "assistant",
+    "lady"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 107,
+  "seed": 107017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "d42d789414267d760c22b2762c430889040050f223ec06b56a23543da8f109e2",
+  "sha256": "35479c998acdb0b61fb86ab8e6adff0f54cd09bb728648cc924bba476d5d9760",
+  "seconds": 38.01,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Blue dress and green dress explicitly verified in shop scene; two distinct women, assistant navy outfit and customer cream blouse/dark skirt. No extra characters.",
+  "published_sha256": "44eb8eab626a5808d0bc4c52e03536b43b7870bb18d01523d8036362b6319e69"
+}

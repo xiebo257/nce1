@@ -507,11 +507,22 @@
         "assistant",
         "lady"
       ],
-      "status": "pending",
+      "status": "ready",
       "illustration_scene": "Inside a dress shop, the assistant holds a BLUE dress on a hanger in front of the customer, who studies its size doubtfully. A GREEN dress hangs on the rack beside them. The customer still wears her cream blouse and charcoal skirt.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-107/scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "It's too small.",
+      "alt": "Inside a dress shop, the assistant holds a BLUE dress on a hanger in front of the customer, who studies its size doubtfully.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 107017,
+        "manifest": "illustrations/manifests/107-scene.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
