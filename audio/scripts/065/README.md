@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [065-1-lesson.wav](../../065-1-lesson.wav) | 131.7 | 31 | 1 |
 | [065-2-practice.wav](../../065-2-practice.wav) | 121.7 | 32 | 22 |
-| [065-3-gramar.wav](../../065-3-gramar.wav) | 248.0 | 47 | 25 |
+| [065-3-gramar.wav](../../065-3-gramar.wav) | 260.3 | 49 | 26 |
 
 词汇：dad, key, baby, hear, enjoy, yourself, ourselves, mum
 

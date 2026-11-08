@@ -2,7 +2,7 @@
   "seed": 42,
   "roles_file": "roles.json",
   "source": "html/lesson-065.html",
-  "source_items": 25,
+  "source_items": 26,
   "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
   "segments": [
     {
@@ -316,6 +316,26 @@
       "source_item": "grammar-ii-7",
       "section": "II. Make sentences, using the cues given according to the example. 仿照例句用所给的词造句。",
       "generation_seed": 310002496,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Use these cues: he, go to work, twenty to eight, morning.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.6,
+      "source_item": "grammar-ii-8",
+      "section": "II. Make sentences, using the cues given according to the example. 仿照例句用所给的词造句。",
+      "generation_seed": 1161764066,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "answer",
+      "text": "He usually goes to work at twenty to eight in the morning, but this morning he isn't going to.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8",
+      "section": "II. Make sentences, using the cues given according to the example. 仿照例句用所给的词造句。",
+      "generation_seed": 894663570,
       "generation_temperature": 0.65
     },
     {
