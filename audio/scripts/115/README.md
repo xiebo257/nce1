@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [115-1-lesson.wav](../../115-1-lesson.wav) | 135.7 | 29 | 0 |
 | [115-2-practice.wav](../../115-2-practice.wav) | 149.1 | 42 | 20 |
-| [115-3-gramar.wav](../../115-3-gramar.wav) | 401.4 | 91 | 48 |
+| [115-3-gramar.wav](../../115-3-gramar.wav) | 391.4 | 91 | 44 |
 
 词汇：anyone, knock, invite, everything, quiet, anything, impossible, nothing, lemonade, joke
 
@@ -14,7 +14,5 @@
 
 - Dialogue order and speakers checked against img/lesson-115-01-text.jpg; HTML reversed a question and answer and attributed several turns to the wrong character.
 - Filled source ellipsis blanks into complete answer sentences.
-- Completed the second blank from the next source key.
-- Corrected misplaced somewhere and completed the final blank from the adjacent key.
 
 角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。
