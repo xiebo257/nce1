@@ -1,0 +1,36 @@
+{
+  "slot": "scene-01",
+  "prompt": "At eight o'clock, the Sawyer children are walking to school together instead of travelling by car. Exactly 2 people appear. Image 1 is the appearance reference for sawyer-son. Image 2 is the appearance reference for sawyer-daughter. Keep their same faces, hairstyles and clothing. Appearance: sawyer-son: Schoolboy about 9, short brown hair, navy cap and school blazer, white shirt, gray trousers. sawyer-daughter: Schoolgirl about 7, brown bob haircut, navy cardigan, white blouse, gray skirt. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "sawyer-son",
+    "sawyer-daughter"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "sawyer-son",
+    "sawyer-daughter"
+  ],
+  "cast_layout": [
+    "sawyer-son",
+    "sawyer-daughter",
+    "mrs-sawyer",
+    "mr-sawyer"
+  ],
+  "reference_crop": "portrait",
+  "lesson": 57,
+  "seed": 57018,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "909b96384b4e9546d8e0f169d7bfc7dee138ac8978c8276fac48cc8e446474be",
+  "fingerprint": "14eda1ae4986272905e422cf29763e1762356044419b6a1682d8f0c50bf872c6",
+  "sha256": "3339526d4ffd7ab9c08105c10dddaf2bd446d31a06fa5ccf01e78ed217b6a3fb",
+  "seconds": 48.62,
+  "peak_mlx_gb": 5.124,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed all five final scenes and family reference. Son retains navy cap, blazer and gray trousers; daughter retains brown bob, navy cardigan and gray skirt; mother retains blond curls and pale green patterned dress; father retains glasses and navy cardigan. Scene 2 regenerated then cropped to remove invented signage. Scenes 3 and 4 cropped without stretching to exclude duplicate figures, leaving mother alone at tea and exactly the son and daughter playing ball. Father reads a book with newspaper nearby.",
+  "published_sha256": "b9ada40b0ecfb7a87a93ecb2da339fc73947f982ae2c707b94e49131b5a40424"
+}

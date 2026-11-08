@@ -613,65 +613,126 @@
   "images": {
     "scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "At eight o'clock, the Sawyer children are walking to school together instead of travelling by car.",
       "characters": [
         "sawyer-son",
         "sawyer-daughter"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "At eight o'clock, the Sawyer children are walking to school together instead of travelling by car.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-057/scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An unusual day",
+      "alt": "At eight o'clock, the Sawyer children are walking to school together instead of travelling by car.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 57018,
+        "manifest": "illustrations/manifests/057-scene-01.json"
+      }
     },
     "scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "At ten o'clock, Mrs. Sawyer walks past shops, including a butcher's shop, carrying a shopping basket.",
       "characters": [
         "mrs-sawyer"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
-      "illustration_scene": "At ten o'clock, Mrs. Sawyer walks past shops, including a butcher's shop, carrying a shopping basket.",
-      "illustration_person_count": 1
+      "illustration_scene": "One woman, Mrs Sawyer, walks past a butcher shop window carrying a woven shopping basket. A medium shot at street level shows her from head to knees, with a display of fresh meat in the window behind her. The composition is framed BELOW the shop fascia: storefront signs and lettering are completely outside the picture. Natural daylight, one main person.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-057/scene-02-color.webp",
+      "width": 588,
+      "height": 402,
+      "origin": "local-model",
+      "caption": "An unusual day",
+      "alt": "One woman, Mrs Sawyer, walks past a butcher shop window carrying a woven shopping basket.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 57130,
+        "manifest": "illustrations/manifests/057-scene-02.json"
+      }
     },
     "scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "At four o'clock, Mrs. Sawyer sits at a small table drinking tea in a sunny garden.",
       "characters": [
         "mrs-sawyer"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "At four o'clock, Mrs. Sawyer sits at a small table drinking tea in a sunny garden.",
-      "illustration_person_count": 1
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-057/scene-03-color.webp",
+      "width": 420,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An unusual day",
+      "alt": "At four o'clock, Mrs Sawyer sits at a small table drinking tea in a sunny garden.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 57020,
+        "manifest": "illustrations/manifests/057-scene-03.json"
+      }
     },
     "scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "At six o'clock, the Sawyer children play together with a ball in the garden.",
       "characters": [
         "sawyer-son",
         "sawyer-daughter"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "At six o'clock, the Sawyer children play together with a ball in the garden.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-057/scene-04-color.webp",
+      "width": 530,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An unusual day",
+      "alt": "At six o'clock, the Sawyer children play together with a ball in the garden.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 57021,
+        "manifest": "illustrations/manifests/057-scene-04.json"
+      }
     },
     "scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "At nine o'clock, Mr. Sawyer sits indoors reading a book while his newspaper lies nearby.",
       "characters": [
         "mr-sawyer"
       ],
       "source": "../img/lesson-057-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "At nine o'clock, Mr. Sawyer sits indoors reading a book while his newspaper lies nearby.",
-      "illustration_person_count": 1
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-057/scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "An unusual day",
+      "alt": "At nine o'clock, Mr Sawyer sits indoors reading a book while his newspaper lies nearby.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 57022,
+        "manifest": "illustrations/manifests/057-scene-05.json"
+      }
     }
   },
   "verification": {
@@ -723,5 +784,6 @@
       ]
     }
   },
-  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "illustration_reference": "illustrations/references/057-cast.webp"
 }

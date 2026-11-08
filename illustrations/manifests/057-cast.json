@@ -1,0 +1,26 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 4 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. sawyer-son: Schoolboy about 9, short brown hair, navy cap and school blazer, white shirt, gray trousers. 2. sawyer-daughter: Schoolgirl about 7, brown bob haircut, navy cardigan, white blouse, gray skirt. 3. mrs-sawyer: Mother about 38, curly blond hair, pale green patterned dress. 4. mr-sawyer: Father about 40, short dark hair, rectangular glasses, cream shirt, navy cardigan, brown trousers. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "sawyer-son",
+    "sawyer-daughter",
+    "mrs-sawyer",
+    "mr-sawyer"
+  ],
+  "reference": null,
+  "lesson": 57,
+  "seed": 57017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "f9c7f139324239c9502f9b29d6fe837ff8e779d5da13c112c61bade46b27bda2",
+  "sha256": "909b96384b4e9546d8e0f169d7bfc7dee138ac8978c8276fac48cc8e446474be",
+  "seconds": 37.31,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed all five final scenes and family reference. Son retains navy cap, blazer and gray trousers; daughter retains brown bob, navy cardigan and gray skirt; mother retains blond curls and pale green patterned dress; father retains glasses and navy cardigan. Scene 2 regenerated then cropped to remove invented signage. Scenes 3 and 4 cropped without stretching to exclude duplicate figures, leaving mother alone at tea and exactly the son and daughter playing ball. Father reads a book with newspaper nearby.",
+  "published_sha256": "4fc97bdb5e4e37e5e8ff7fde967bbbeadd799fc4f809b692629faf341878d746"
+}
