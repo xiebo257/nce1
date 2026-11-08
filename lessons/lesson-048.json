@@ -724,7 +724,6 @@
       "description": "An egg carton labelled FRESH EGGS.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.10891812865497076,
         0.23684210526315788,
@@ -732,10 +731,10 @@
         0.31524122807017546
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-01.webp",
-      "width": 637,
-      "height": 321,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-01-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         335,
         970,
@@ -746,10 +745,18 @@
         3072,
         4096
       ],
-      "illustration_scene": "An open cardboard carton containing fresh eggs. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
+      "illustration_scene": "Six fresh undyed chicken eggs with smooth natural white and light brown shells. Clearly elongated oval egg shapes with narrower tops. They sit upright in the six separate molded cups of an open gray pulp egg carton. Three-quarter view from slightly above, realistic food illustration, warm cream background. No pink eggs, no yellow eggs, no spherical fruit, no words or labels.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "illustration_seed_offset": 100,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "Six fresh undyed chicken eggs with smooth natural white and light brown shells.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48117,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-01.json"
+      }
     },
     "lesson-048-picture-02": {
       "kind": "item",
@@ -757,7 +764,6 @@
       "description": "A butter packet labelled BUTTER and 1 LB NET.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.37646198830409355,
         0.23081140350877194,
@@ -765,10 +771,10 @@
         0.3130482456140351
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-02.webp",
-      "width": 681,
-      "height": 337,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-02-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         1156,
         945,
@@ -782,7 +788,14 @@
       "illustration_scene": "A pale yellow block of butter, partially unwrapped in plain cream paper. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "A pale yellow block of butter, partially unwrapped in plain cream paper.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48018,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-02.json"
+      }
     },
     "lesson-048-picture-03": {
       "kind": "item",
@@ -790,7 +803,6 @@
       "description": "A jar labelled PURE HONEY.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.6652046783625731,
         0.22807017543859648,
@@ -798,10 +810,10 @@
         0.3305921052631579
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-03.webp",
-      "width": 617,
-      "height": 420,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-03-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         2044,
         934,
@@ -815,7 +827,14 @@
       "illustration_scene": "A transparent jar of golden honey beside a wooden honey dipper. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "A transparent jar of golden honey beside a wooden honey dipper.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48019,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-03.json"
+      }
     },
     "lesson-048-picture-04": {
       "kind": "item",
@@ -823,7 +842,6 @@
       "description": "A bunch of bananas with a RIPE BANANAS sign.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.0935672514619883,
         0.3678728070175439,
@@ -831,10 +849,10 @@
         0.4479166666666667
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-04.webp",
-      "width": 658,
-      "height": 328,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-04-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         287,
         1507,
@@ -848,7 +866,14 @@
       "illustration_scene": "A bunch of ripe yellow bananas. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "A bunch of ripe yellow bananas.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48020,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-04.json"
+      }
     },
     "lesson-048-picture-05": {
       "kind": "item",
@@ -856,7 +881,6 @@
       "description": "A jar labelled JAM.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.36622807017543857,
         0.3678728070175439,
@@ -864,10 +888,10 @@
         0.45339912280701755
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-05.webp",
-      "width": 689,
-      "height": 350,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-05-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         1125,
         1507,
@@ -881,7 +905,14 @@
       "illustration_scene": "A glass jar of red strawberry jam beside fresh strawberries. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "A glass jar of red strawberry jam beside fresh strawberries.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48021,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-05.json"
+      }
     },
     "lesson-048-picture-06": {
       "kind": "item",
@@ -889,7 +920,6 @@
       "description": "Oranges with a SWEET ORANGES sign.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.6564327485380117,
         0.3673245614035088,
@@ -897,10 +927,10 @@
         0.46710526315789475
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-06.webp",
-      "width": 669,
-      "height": 408,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-06-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         2017,
         1505,
@@ -914,7 +944,14 @@
       "illustration_scene": "Several ripe oranges, with one cut orange showing juicy orange segments. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "Several ripe oranges, with one cut orange showing juicy orange segments.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48022,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-06.json"
+      }
     },
     "lesson-048-picture-07": {
       "kind": "scene",
@@ -922,7 +959,6 @@
       "description": "Two children beside an ice-cream cart labelled ICE CREAM.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.07090643274853801,
         0.49890350877192985,
@@ -930,10 +966,10 @@
         0.5877192982456141
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-07.webp",
-      "width": 687,
-      "height": 363,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-07-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         218,
         2044,
@@ -947,7 +983,14 @@
       "illustration_scene": "Two children, one brown-haired boy in a blue T-shirt and one dark-haired girl in a yellow dress, stand beside a colorful ice-cream pushcart outdoors, each holding an ice-cream cone. Exactly two people. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "Two children, one brown-haired boy in a blue T-shirt and one dark-haired girl in a yellow dress, stand beside a colorful ice-cream pushcart outdoors, each holding an ice-cream cone.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48023,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-07.json"
+      }
     },
     "lesson-048-picture-08": {
       "kind": "item",
@@ -955,7 +998,6 @@
       "description": "A bottle labelled SCOTCH WHISKY.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.35453216374269003,
         0.5071271929824561,
@@ -963,10 +1005,10 @@
         0.5992324561403509
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-08.webp",
-      "width": 701,
-      "height": 377,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-08-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         1089,
         2077,
@@ -980,7 +1022,14 @@
       "illustration_scene": "A clear glass bottle of amber Scotch whisky beside a small empty whisky tumbler. Unbranded bottle. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "A clear glass bottle of amber Scotch whisky beside a small empty whisky tumbler.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48024,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-08.json"
+      }
     },
     "lesson-048-picture-09": {
       "kind": "item",
@@ -988,7 +1037,6 @@
       "description": "Apples with a CHOICE APPLES sign.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.6505847953216374,
         0.5137061403508771,
@@ -996,10 +1044,10 @@
         0.6129385964912281
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-09.webp",
-      "width": 705,
-      "height": 407,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-09-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         1999,
         2104,
@@ -1013,7 +1061,14 @@
       "illustration_scene": "Several fresh red and green apples. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "Several fresh red and green apples.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48025,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-09.json"
+      }
     },
     "lesson-048-picture-10": {
       "kind": "item",
@@ -1021,7 +1076,6 @@
       "description": "A bottle labelled WINE.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.04312865497076023,
         0.6370614035087719,
@@ -1029,10 +1083,10 @@
         0.7335526315789473
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-10.webp",
-      "width": 730,
-      "height": 396,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-10-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         132,
         2609,
@@ -1046,7 +1100,14 @@
       "illustration_scene": "An unbranded dark glass bottle of red wine beside a stemmed glass of red wine. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "An unbranded dark glass bottle of red wine beside a stemmed glass of red wine.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48026,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-10.json"
+      }
     },
     "lesson-048-picture-11": {
       "kind": "item",
@@ -1054,7 +1115,6 @@
       "description": "Biscuits beside a packet labelled BISCUITS.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.34137426900584794,
         0.6491228070175439,
@@ -1062,10 +1122,10 @@
         0.7489035087719298
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-11.webp",
-      "width": 716,
-      "height": 409,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-11-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         1049,
         2659,
@@ -1079,7 +1139,14 @@
       "illustration_scene": "Golden round biscuits beside an open plain paper biscuit packet. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "Golden round biscuits beside an open plain paper biscuit packet.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48027,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-11.json"
+      }
     },
     "lesson-048-picture-12": {
       "kind": "item",
@@ -1087,7 +1154,6 @@
       "description": "A can labelled BEER.",
       "characters": [],
       "source": "../img/lesson-048-01-text.jpg",
-      "reason": "Even lesson picture retained as a pending source image slot.",
       "crop_box": [
         0.6440058479532164,
         0.6655701754385965,
@@ -1095,10 +1161,10 @@
         0.7680921052631579
       ],
       "crop_confidence": "high",
-      "src": "assets/lesson-048/lesson-048-picture-12.webp",
-      "width": 741,
-      "height": 420,
-      "origin": "textbook-crop",
+      "src": "assets/lesson-048/lesson-048-picture-12-color.webp",
+      "width": 512,
+      "height": 384,
+      "origin": "local-model",
       "crop": [
         1978,
         2726,
@@ -1112,7 +1178,14 @@
       "illustration_scene": "An unbranded beer can beside a glass of golden beer with a foamy head. Clear full-color textbook illustration on a simple warm cream background. No printed words, labels, logos or numbers. All important objects entirely inside the frame.",
       "illustration_prompt_version": 2,
       "illustration_width": 512,
-      "illustration_height": 384
+      "illustration_height": 384,
+      "caption": "Do you like ...? Do you want ...?",
+      "alt": "An unbranded beer can beside a glass of golden beer with a foamy head.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 48028,
+        "manifest": "illustrations/manifests/048-lesson-048-picture-12.json"
+      }
     }
   },
   "verification": {
