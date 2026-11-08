@@ -1,0 +1,28 @@
+{
+  "slot": "l111-scene",
+  "prompt": "A medium-wide photograph of a group of THREE adults shopping for a television. LEFT: Mr Frith in brown suit and glasses. CENTER: Mrs Frith in teal coat, beside her husband. RIGHT: one male salesman in navy suit pointing at a small television. A large vintage television stands beside the small one. Empty shop aisle behind this group. Three faces total, one woman and two men. No other shoppers. No readable lettering. Exactly 3 people appear.  Appearance: mr-frith: Man about 45, short brown hair, rectangular glasses, brown suit, cream shirt. mrs-frith: Woman about 43, auburn bob, teal coat, cream blouse. assistant: Male shop assistant about 30, short dark hair, navy suit, white shirt. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mr-frith",
+    "mrs-frith",
+    "assistant"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 111,
+  "seed": 111250,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "cdee722882131e0166e5e81123a905d3ae2cb578ab39e8df82e41b1a843f46f3",
+  "sha256": "31b633c2b7003d4ce19fe453ea03c7aec97af279efbe51f409f135c9266fd3d4",
+  "seconds": 43.33,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Regenerated after duplicate-person edits failed. Exactly three adults: Mr Frith in brown with glasses, Mrs Frith in teal, navy-suited assistant beside vintage television. Other televisions on shop shelving; this is a shopping scene rather than a size comparison diagram.",
+  "published_sha256": "fd7769606298954a93c95283694307ce3ca8732004b7852cc4ee51f1c663a794"
+}

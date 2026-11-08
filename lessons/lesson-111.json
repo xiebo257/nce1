@@ -209,7 +209,7 @@
   "images": {
     "l111-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mr Frith and Mrs Frith in an electrical shop looking at televisions with the assistant. Six panels showing the dialogue progression: the expensive £500 TV, the cheaper £300 TV, the hire purchase sign, and the final discussion.",
       "source": "img/lesson-111-01-text.jpg (textbook p.225)",
       "characters": [
@@ -217,10 +217,23 @@
         "mrs-frith",
         "assistant"
       ],
-      "illustration_scene": "In an electrical appliance shop, Mrs Frith admires a large vintage television while Mr Frith looks worried about the price. The assistant gestures toward a smaller television beside it. Two clearly different televisions, no printed prices.",
+      "illustration_scene": "A medium-wide photograph of a group of THREE adults shopping for a television. LEFT: Mr Frith in brown suit and glasses. CENTER: Mrs Frith in teal coat, beside her husband. RIGHT: one male salesman in navy suit pointing at a small television. A large vintage television stands beside the small one. Empty shop aisle behind this group. Three faces total, one woman and two men. No other shoppers. No readable lettering.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "illustration_seed_offset": 233,
+      "src": "assets/lesson-111/l111-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The most expensive model 最昂贵的型号",
+      "alt": "A medium-wide photograph of a group of THREE adults shopping for a television.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 111250,
+        "manifest": "illustrations/manifests/111-l111-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
