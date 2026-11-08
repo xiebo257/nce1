@@ -1,0 +1,27 @@
+{
+  "slot": "l133-scene",
+  "prompt": "At an airport, a reporter with a notebook interviews Karen Marsh. She wears a BLUE dress and brown fur-look coat, and appears tired after making a film. A passenger aircraft is visible through large terminal windows. Exactly 2 people appear.  Appearance: Reporter: Male reporter about 35, short brown hair, gray suit, notebook. Miss Marsh (Karen Marsh): Actress about 40, elegant dark waved hair, blue dress, brown fur-look coat as stated in the text. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "Reporter",
+    "Miss Marsh (Karen Marsh)"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 133,
+  "seed": 133017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "8f9d5c65dd6089c23b133b95d0583af2a9a044325cbbf062750924539f7df2ea",
+  "sha256": "77880f18cb6478c8cf50f0bce82c681d39555c0a89ffc0bcbc9fc5ac6fe26024",
+  "seconds": 45.22,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reporter interviews dark-haired Karen in blue dress and brown coat at airport; passenger is incidental background.",
+  "published_sha256": "6f549d5876ebb4c224fb3368bdc786a04cdb359faf4a89ed050cdcd633d76a0d"
+}

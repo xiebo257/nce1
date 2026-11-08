@@ -995,8 +995,7 @@
   "images": {
     "l133-scene": {
       "kind": "scene",
-      "status": "pending",
-      "reason": "Odd lesson: no crops. The dialogue page contains two separate small illustration panels (a reporter interviewing a film star near a plane, and two women reading a newspaper). No single scene crop is appropriate.",
+      "status": "ready",
       "description": "Two small illustration panels beside the dialogue: 1 a reporter interviewing a film star (Karen Marsh) in front of an airplane at the airport; 2 two women (Kate and Liz) reading a newspaper that reads 'KAREN MARSH SENSATIONAL NEWS'.",
       "source": "img/lesson-133-01-text.jpg (textbook p.269)",
       "illustration_scene": "At an airport, a reporter with a notebook interviews Karen Marsh. She wears a BLUE dress and brown fur-look coat, and appears tired after making a film. A passenger aircraft is visible through large terminal windows.",
@@ -1006,7 +1005,19 @@
       ],
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-133/l133-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Sensational news! 爆炸性新闻！",
+      "alt": "At an airport, a reporter with a notebook interviews Karen Marsh.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 133017,
+        "manifest": "illustrations/manifests/133-l133-scene.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {
