@@ -1,0 +1,97 @@
+{
+  "slot": "item-52nd",
+  "prompt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background. Preserve every face, pose, person count, action and object. Remove gray paper and bleed-through, keep readable text and all clock hands unchanged. George with his hand to his ear; he has an earache.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/062-item-52nd.png",
+  "lesson": 62,
+  "seed": 62018,
+  "width": 512,
+  "height": 320,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "3923839f82fe0c901582b3654347a30c5b5903e721ba526a4fc32d24222a6504",
+  "fingerprint": "ad03f2bef85881eeb1161ebbf0cd5a01a4f39ca648fedfff7d81f1a4b589e2b5",
+  "sha256": "34ec23283427c23ec8fd25b40465ae2659d8d88589debb721afe3a918debb234",
+  "status": "visually-reviewed",
+  "seconds": 16.26875,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 62901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 8 textbook picture tiles in their EXACT 3-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 960,
+    "height": 672,
+    "steps": 4,
+    "seconds": 130.15,
+    "peak_mlx_gb": 5.714,
+    "input_sha256": "71bb8c770087c3329645752fe8c76f3f84e907e38fb1047a7f7f3e0d5844b730",
+    "output_sha256": "a840bb9613407084b3f4f625e0ee0a0880057f0443453a6f54d50f7e7ae8b8b5",
+    "slots": [
+      "item-41st",
+      "item-52nd",
+      "item-63rd",
+      "item-74th",
+      "item-85th",
+      "item-96th",
+      "item-107th",
+      "item-118th"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/062-item-41st.png",
+        "sha256": "b3ade5a6a30a7a555ed4d6f58ed907d751d292017d02dcce5e77ae816a7e3840"
+      },
+      {
+        "path": "illustrations/references/source/062-item-52nd.png",
+        "sha256": "3923839f82fe0c901582b3654347a30c5b5903e721ba526a4fc32d24222a6504"
+      },
+      {
+        "path": "illustrations/references/source/062-item-63rd.png",
+        "sha256": "7777d004baa9c5c0148c14e96f3081797f7fec9dedf816c3256d7203205982bb"
+      },
+      {
+        "path": "illustrations/references/source/062-item-74th.png",
+        "sha256": "f042522e63532adbe2ef64d611f3636ff594a1f35514536cd8aa5c4ca3df58b1"
+      },
+      {
+        "path": "illustrations/references/source/062-item-85th.png",
+        "sha256": "13e80556a88b03d4cbf2860a827dfbee5e962bc7f462dda9b7c978a06a69519d"
+      },
+      {
+        "path": "illustrations/references/source/062-item-96th.png",
+        "sha256": "6f24e45d5837d95a720fc23ca0fc7bf26c8632e2775adae84ba61b5f14342a8a"
+      },
+      {
+        "path": "illustrations/references/source/062-item-107th.png",
+        "sha256": "d7d7ef0dba71dfcc07576d37fb5d842f65fe091003afe65022fa74a328ff356f"
+      },
+      {
+        "path": "illustrations/references/source/062-item-118th.png",
+        "sha256": "a24c6b6694d1942115932820bc69afd8a5fbe6cd2d6ad4ee31f2a27a415e72b1"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v1",
+    "crop_box": [
+      320,
+      0,
+      640,
+      224
+    ],
+    "output_size": [
+      320,
+      224
+    ],
+    "source_atlas_sha256": "71bb8c770087c3329645752fe8c76f3f84e907e38fb1047a7f7f3e0d5844b730",
+    "color_guide_sha256": "a840bb9613407084b3f4f625e0ee0a0880057f0443453a6f54d50f7e7ae8b8b5",
+    "region_overrides": []
+  },
+  "review_notes": "Eight medical source pictures retained: headache/aspirin, earache, toothache/dentist, cold/medicine, stomachache, temperature and two hospital-bed cases. Model colors transferred to original line art so patient counts, beds and medical props remain intact.",
+  "published_sha256": "0dfc469cb11af6c733ebe2cf47bb6e123f4215c53f549c8924c203edece5ae42"
+}
