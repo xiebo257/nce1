@@ -633,9 +633,9 @@
       "source": "img/lesson-106-01-text.jpg",
       "characters": [],
       "status": "ready",
-      "src": "assets/lesson-106/items-grid.jpg",
-      "width": 1462,
-      "height": 2250,
+      "src": "assets/lesson-106/items-grid-color.webp",
+      "width": 1024,
+      "height": 640,
       "illustration_source_reference": "illustrations/references/source/106-complete-panels.png",
       "illustration_width": 1024,
       "illustration_height": 640,
@@ -746,6 +746,14 @@
             958
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "I want you/him/her/them to ... Tell him/her/them to ...",
+      "alt": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 106017,
+        "manifest": "illustrations/manifests/106-items-grid.json"
       }
     }
   },

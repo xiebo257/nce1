@@ -1,0 +1,62 @@
+{
+  "slot": "items-grid",
+  "prompt": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 16 pictures showing people in various situations (carrying, correcting, listening to, describing, moving, trying, finishing, keeping, hurting yourself, slipping, falling, missing, breaking, driving, losing, cutting yourself) with instructions for positive and negative forms",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/106-complete-panels.png",
+  "lesson": 106,
+  "seed": 106017,
+  "width": 1024,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "2923b4b350d555152c4aa629594d3e72524652c51a989678be2e0a7b0fe9c2ca",
+  "fingerprint": "40bd1354559405e5d9f95cee523309e844774099e5f1d6391abbe8bd3ca8bea2",
+  "sha256": "783b4a1b9beb24329e5323af7e19ba4d0322a492c3fad8f8763c73fe48f9d709",
+  "status": "visually-reviewed",
+  "seconds": 120.92,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 106901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 16 pictures showing people in various situations (carrying, correcting, listening to, describing, moving, trying, finishing, keeping, hurting yourself, slipping, falling, missing, breaking, driving, losing, cutting yourself) with instructions for positive and negative forms",
+    "width": 1024,
+    "height": 640,
+    "steps": 4,
+    "seconds": 120.92,
+    "peak_mlx_gb": 5.737,
+    "input_sha256": "2923b4b350d555152c4aa629594d3e72524652c51a989678be2e0a7b0fe9c2ca",
+    "output_sha256": "8c396c2eef83516cc516d32a6201718b6a0af28985e15d71a7c36e26d87e43dc",
+    "slots": [
+      "items-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/106-complete-panels.png",
+        "sha256": "2923b4b350d555152c4aa629594d3e72524652c51a989678be2e0a7b0fe9c2ca"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      1024,
+      640
+    ],
+    "output_size": [
+      1024,
+      640
+    ],
+    "source_atlas_sha256": "2923b4b350d555152c4aa629594d3e72524652c51a989678be2e0a7b0fe9c2ca",
+    "color_guide_sha256": "8c396c2eef83516cc516d32a6201718b6a0af28985e15d71a7c36e26d87e43dc",
+    "region_overrides": []
+  },
+  "review_notes": "Checked all 16 source-preserved command/action scenes, including suitcase, correction, music, lost property, car movement, cake, milk, photo, slipping/falling, bus, vase, car, banknote and knife. Original poses and objects retained.",
+  "published_sha256": "d48e7611ee9f1dab593baaf874864787eecd382ba990fa6c3c54168fb143f8a8"
+}
