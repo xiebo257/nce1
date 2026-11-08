@@ -791,17 +791,28 @@
   "images": {
     "l143-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "A cartoon of a man standing in a woods covered with rubbish: old cars, old refrigerators, a litter basket, and a sign reading 'ANYONE WHO LEAVES LITTER IN THESE WOODS WILL BE PROSECUTED'",
       "source": "img/lesson-143-01-text.jpg (textbook p.289)",
-      "reason": "No suitable crop available for the story scene",
       "illustration_scene": "A disappointed man walks through beautiful green woodland spoiled by dumped rubbish. Rusty abandoned cars and old refrigerators stand among the trees; paper, bottles, old tyres and tins cover the ground. An empty litter basket is visible beside the path. Wide environmental illustration, natural forest colors, no readable sign.",
       "characters": [
         "narrator"
       ],
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-143/l143-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A walk through the woods",
+      "alt": "A disappointed man walks through beautiful green woodland spoiled by dumped rubbish.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 143017,
+        "manifest": "illustrations/manifests/143-l143-scene.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {
