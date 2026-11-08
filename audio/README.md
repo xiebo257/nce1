@@ -127,6 +127,8 @@
 | 121 | The man in a hat 戴帽子的男士 | [1:52](121-1-lesson.wav) | [2:09](121-2-practice.wav) | [3:38](121-3-gramar.wav) | [脚本](scripts/121/README.md) |
 | 122 | Who (whom), which and that 关系代词 | [1:19](122-1-lesson.wav) | [7:23](122-2-practice.wav) | [3:37](122-3-gramar.wav) | [脚本](scripts/122/README.md) |
 | 123 | A trip to Australia 澳大利亚之行 | [2:00](123-1-lesson.wav) | [1:54](123-2-practice.wav) | [3:21](123-3-gramar.wav) | [脚本](scripts/123/README.md) |
+| 124 | (Who) / (whom), (which) and (that) 关系代词 | [4:03](124-1-lesson.wav) | [1:47](124-2-practice.wav) | [3:57](124-3-gramar.wav) | [脚本](scripts/124/README.md) |
+| 125 | Tea for two 两个人一起喝茶 | [1:48](125-1-lesson.wav) | [1:36](125-2-practice.wav) | [5:44](125-3-gramar.wav) | [脚本](scripts/125/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
 | 127 | A famous actress 著名的女演员 | [2:25](127-1-lesson.wav) | [2:16](127-2-practice.wav) | [5:46](127-3-gramar.wav) | [脚本](scripts/127/README.md) |
 | 128 | He can't be... He must be... 他不可能…… 他肯定是…… | [6:39](128-1-lesson.wav) | [2:35](128-2-practice.wav) | [3:34](128-3-gramar.wav) | [脚本](scripts/128/README.md) |
