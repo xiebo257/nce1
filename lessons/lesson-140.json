@@ -948,16 +948,24 @@
       "kind": "scene",
       "status": "ready",
       "description": "Six numbered pictures in a 2x3 grid, each showing a person with a speech bubble containing a direct question and a thought-bubble showing the indirect question: 1 Sue asking if a man is a teacher; 2 John asking why Mary teaches here; 3 Ben asking if a girl speaks English; 4 Julie asking what Graham is writing; 5 Gary asking if they are coming soon; 6 Jim asking when she is leaving.",
-      "src": "assets/lesson-140/pictures-grid.jpg",
-      "width": 1697,
-      "height": 1800,
+      "src": "assets/lesson-140/l140-pictures-color.webp",
+      "width": 768,
+      "height": 960,
       "source": "img/lesson-140-01-text.jpg (textbook p.283)",
       "characters": [],
       "illustration_width": 768,
       "illustration_height": 960,
       "illustration_scene": "A clean full-color educational illustration with exactly SIX separate panels in two columns and three rows. Top left: Sue, a young woman with brown bob and green blouse, gestures toward a male teacher holding books. Top right: John, a man with short brown hair and blue sweater, talks with Mary, a female teacher in red cardigan, in a school corridor. Middle left: Ben, a dark-haired man in tan jacket, talks to a young woman holding an English textbook with an unlettered cover. Middle right: Julie, a blonde woman in pale blue blouse, watches Graham, a man in a navy sweater, write in a notebook. Bottom left: Gary, a curly-haired man in brown jacket, waits at a front window for visitors. Bottom right: Jim, a man with dark hair and green sweater, talks to a woman holding a suitcase beside a door. Six separate scenes, no printed words or captions.",
       "illustration_prompt_version": 2,
-      "layout": "above"
+      "layout": "above",
+      "origin": "local-model",
+      "caption": "He wants to know if/why/what/when",
+      "alt": "A clean full-color educational illustration with exactly SIX separate panels in two columns and three rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 140017,
+        "manifest": "illustrations/manifests/140-l140-pictures.json"
+      }
     }
   },
   "grammar_source_audit": {

@@ -1,0 +1,23 @@
+{
+  "slot": "l140-pictures",
+  "prompt": "A clean full-color educational illustration with exactly SIX separate panels in two columns and three rows. Top left: Sue, a young woman with brown bob and green blouse, gestures toward a male teacher holding books. Top right: John, a man with short brown hair and blue sweater, talks with Mary, a female teacher in red cardigan, in a school corridor. Middle left: Ben, a dark-haired man in tan jacket, talks to a young woman holding an English textbook with an unlettered cover. Middle right: Julie, a blonde woman in pale blue blouse, watches Graham, a man in a navy sweater, write in a notebook. Bottom left: Gary, a curly-haired man in brown jacket, waits at a front window for visitors. Bottom right: Jim, a man with dark hair and green sweater, talks to a woman holding a suitcase beside a door. Six separate scenes, no printed words or captions.   Appearance:  Warm full-color educational illustration, clear distinct panels, natural faces and anatomy.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "lesson": 140,
+  "seed": 140017,
+  "width": 768,
+  "height": 960,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "80cb9d0eac98b50c23176708ddb2cface4887f33cbcda24fe768ab91a7534433",
+  "sha256": "a2f6bc9809d4321cfc62016a2a416180d6f3cca1bc2ccb55688e9e3324c5441a",
+  "seconds": 77.19,
+  "peak_mlx_gb": 5.229,
+  "status": "visually-reviewed",
+  "review_notes": "Six scenes checked: Sue/teacher; John/Mary in corridor; Ben and textbook holder; Julie watches Graham write; Gary with visitors at entrance; Jim with woman and suitcase. Distinct clothing and characters, no generated text. Fifth image illustrates arrival context rather than precise waiting posture.",
+  "published_sha256": "67839dbc49bef8432c364dfb96b2792835e76cf78eecb20bc20defdfb68a7a80"
+}
