@@ -1,0 +1,31 @@
+{
+  "slot": "cast",
+  "prompt": "A horizontal character reference sheet with exactly 4 equal-width vertical panels in ONE row. Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. Left to right: 1. mrs-williams: Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt. 2. doctor: Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag. 3. jimmy: Schoolboy about 8, short dark curly hair, pale blue pajamas. 4. mr-williams: Father about 42, short dark hair, neat moustache, pale blue pajamas. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Portraits only, no scene or props.",
+  "cast": [
+    "mrs-williams",
+    "doctor",
+    "jimmy",
+    "mr-williams"
+  ],
+  "reference": null,
+  "lesson": 63,
+  "seed": 63017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "dedd2e377738217e0f5a90d7eb56b0385702693dbd510001f79fcfe3f6f3bf0b",
+  "sha256": "ffeec54da9ce2414ffc913f69d1d33c02555ae92922dcf9a8aca15bc22c32f61",
+  "seconds": 38.09,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "reference_source": "illustrations/references/063-cast-source.png",
+  "reference_review": {
+    "sha256": "ffeec54da9ce2414ffc913f69d1d33c02555ae92922dcf9a8aca15bc22c32f61",
+    "review_notes": "Four separate portraits in the correct order: blond mother with cream jacket; bald doctor with glasses; one curly-haired boy in blue pajamas; moustached father in blue pajamas. No duplicated heads or furniture."
+  },
+  "review_notes": "Reviewed the four-portrait reference and all four final scenes. Mother has blond bob, cream jacket and blue patterned blouse; doctor is bald with glasses and gray suit; Jimmy has dark curls/blue pajamas; father has moustache and blue pajamas. Locally edited scene 2 to remove a speech bubble and scene 3 to remove an inconsistent background patient. Final scene 4 correctly shows the father ill in bed, with mother and doctor beside him. Faces and clothing preserved after edits.",
+  "published_sha256": "f0b2ed60f1345463f663d09dbb272fe30405ba2542ed07a64f5d13be09bef9b1"
+}

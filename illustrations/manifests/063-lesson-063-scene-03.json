@@ -1,0 +1,49 @@
+{
+  "slot": "lesson-063-scene-03",
+  "prompt": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed. Exactly 2 people appear. Image 1 is the appearance reference for mrs-williams. Image 2 is the appearance reference for doctor. Keep their same faces, hairstyles and clothing. Appearance: mrs-williams: Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt. doctor: Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mrs-williams",
+    "doctor"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-williams",
+    "doctor"
+  ],
+  "cast_layout": [
+    "mrs-williams",
+    "doctor",
+    "jimmy",
+    "mr-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 63,
+  "seed": 63020,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "ffeec54da9ce2414ffc913f69d1d33c02555ae92922dcf9a8aca15bc22c32f61",
+  "fingerprint": "8c7641d199f7baedfa8e6927b87ef831ff430f47b9f01b8cfad1ca954f2f6293",
+  "sha256": "4b10c420c481725f647719ef951ca6ab145834d052b0d9bfa21ca5712bff625b",
+  "seconds": 49.57,
+  "peak_mlx_gb": 5.16,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the small person and the bed visible in the background between the woman and the doctor. Replace that background area with a quiet empty hallway wall and doorway. Keep only the blond woman in her cream jacket and the elderly doctor with glasses in the foreground. Preserve both faces, poses, clothing, bag, lighting and illustration style.",
+        "seed": 630333,
+        "input_sha256": "ac8768f8988b1d469a1e5fbe348be69bf9d6a8733404a76848cbbb78f452d1f6",
+        "output_sha256": "4b10c420c481725f647719ef951ca6ab145834d052b0d9bfa21ca5712bff625b",
+        "seconds": 48.75
+      }
+    ]
+  },
+  "review_notes": "Reviewed the four-portrait reference and all four final scenes. Mother has blond bob, cream jacket and blue patterned blouse; doctor is bald with glasses and gray suit; Jimmy has dark curls/blue pajamas; father has moustache and blue pajamas. Locally edited scene 2 to remove a speech bubble and scene 3 to remove an inconsistent background patient. Final scene 4 correctly shows the father ill in bed, with mother and doctor beside him. Faces and clothing preserved after edits.",
+  "published_sha256": "781d3ed2f2b0ad8c0f964046278f73c435333d1a29c3c20eb21f63c7f6f60603"
+}

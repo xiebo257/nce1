@@ -1,0 +1,39 @@
+{
+  "slot": "lesson-063-scene-04",
+  "prompt": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too. Exactly 3 people appear. Image 1 is the appearance reference for mr-williams. Image 2 is the appearance reference for mrs-williams. Image 3 is the appearance reference for doctor. Keep their same faces, hairstyles and clothing. Appearance: mr-williams: Father about 42, short dark hair, neat moustache, pale blue pajamas. mrs-williams: Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt. doctor: Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mr-williams",
+    "mrs-williams",
+    "doctor"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mr-williams",
+    "mrs-williams",
+    "doctor"
+  ],
+  "cast_layout": [
+    "mrs-williams",
+    "doctor",
+    "jimmy",
+    "mr-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 63,
+  "seed": 63021,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "ffeec54da9ce2414ffc913f69d1d33c02555ae92922dcf9a8aca15bc22c32f61",
+  "fingerprint": "56a7c8d419ecff35d366ff0b14b7ee07c116ac0a39787994737148bd3952cdb9",
+  "sha256": "b6ff49247e438a6c8f0c7ecae1fcb06b0d226e0adf6a8082366f6cb7c5bbc99d",
+  "seconds": 53.16,
+  "peak_mlx_gb": 5.188,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed the four-portrait reference and all four final scenes. Mother has blond bob, cream jacket and blue patterned blouse; doctor is bald with glasses and gray suit; Jimmy has dark curls/blue pajamas; father has moustache and blue pajamas. Locally edited scene 2 to remove a speech bubble and scene 3 to remove an inconsistent background patient. Final scene 4 correctly shows the father ill in bed, with mother and doctor beside him. Faces and clothing preserved after edits.",
+  "published_sha256": "a0c2c68b93445dde29a0e09a332b07639dcc6195a07781aa8ea62de5c4e5925b"
+}

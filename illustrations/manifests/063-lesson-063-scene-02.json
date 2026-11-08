@@ -1,0 +1,49 @@
+{
+  "slot": "lesson-063-scene-02",
+  "prompt": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days. Exactly 2 people appear. Image 1 is the appearance reference for jimmy. Image 2 is the appearance reference for doctor. Keep their same faces, hairstyles and clothing. Appearance: jimmy: Schoolboy about 8, short dark curly hair, pale blue pajamas. doctor: Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "jimmy",
+    "doctor"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "jimmy",
+    "doctor"
+  ],
+  "cast_layout": [
+    "mrs-williams",
+    "doctor",
+    "jimmy",
+    "mr-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 63,
+  "seed": 63019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "ffeec54da9ce2414ffc913f69d1d33c02555ae92922dcf9a8aca15bc22c32f61",
+  "fingerprint": "fb5ee3c42aa2467d3bbbc7a94a6a8a00fc1d18f8b964b48e144b3e968b0f8673",
+  "sha256": "201f3e383b851277d667db7ff3ff3073e2fd3e093b9074d41b17cba326896d3f",
+  "seconds": 51.66,
+  "peak_mlx_gb": 5.171,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the speech bubble, its tail, and ALL text above the boy. Replace that region with the same plain beige bedroom wall. Preserve the boy, doctor, faces, clothing, hands, bed, camera framing, colors and illustration style exactly. The result has no speech bubble or writing.",
+        "seed": 630222,
+        "input_sha256": "6a12167f1af028b4a182217c145539e4efc8e9540211494f48513e338400a316",
+        "output_sha256": "201f3e383b851277d667db7ff3ff3073e2fd3e093b9074d41b17cba326896d3f",
+        "seconds": 49.05
+      }
+    ]
+  },
+  "review_notes": "Reviewed the four-portrait reference and all four final scenes. Mother has blond bob, cream jacket and blue patterned blouse; doctor is bald with glasses and gray suit; Jimmy has dark curls/blue pajamas; father has moustache and blue pajamas. Locally edited scene 2 to remove a speech bubble and scene 3 to remove an inconsistent background patient. Final scene 4 correctly shows the father ill in bed, with mother and doctor beside him. Faces and clothing preserved after edits.",
+  "published_sha256": "95e5926e9895428f3b39465e578db6cf35736ae36ae40c3631bed37cbc002edc"
+}

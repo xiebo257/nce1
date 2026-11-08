@@ -271,66 +271,107 @@
   "images": {
     "lesson-063-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs.",
       "characters": [
         "mrs-williams",
         "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-063/lesson-063-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Thank you, doctor.",
+      "alt": "The doctor stands in the hallway talking to Mrs Williams, who tells him Jimmy is better and invites him upstairs.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 63018,
+        "manifest": "illustrations/manifests/063-lesson-063-scene-01.json"
+      }
     },
     "lesson-063-scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days.",
       "characters": [
         "jimmy",
         "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-063/lesson-063-scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Thank you, doctor.",
+      "alt": "The doctor stands beside Jimmy's bed, who lies propped up smiling; the doctor says he looks very well but must stay in bed for another two days.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 63019,
+        "manifest": "illustrations/manifests/063-lesson-063-scene-02.json"
+      }
     },
     "lesson-063-scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed.",
       "characters": [
         "mrs-williams",
         "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs. Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-063/lesson-063-scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Thank you, doctor.",
+      "alt": "Mrs Williams stands at the bedroom door talking with the doctor about Jimmy's temperature and how long he must remain in bed.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 63020,
+        "manifest": "illustrations/manifests/063-lesson-063-scene-03.json"
+      }
     },
     "lesson-063-scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too.",
       "characters": [
+        "mr-williams",
         "mrs-williams",
-        "doctor",
-        "mr-williams"
+        "doctor"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=125",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mr. Williams lies ill in bed while Mrs. Williams and the doctor look in; she says he has a bad cold too.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-063/lesson-063-scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Thank you, doctor.",
+      "alt": "Mr Williams lies ill in bed while Mrs Williams and the doctor look in; she says he has a bad cold too.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 63021,
+        "manifest": "illustrations/manifests/063-lesson-063-scene-04.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_cast_layout": "portrait-strip"
+  "illustration_cast_layout": "portrait-strip",
+  "illustration_reference": "illustrations/references/063-cast.webp"
 }

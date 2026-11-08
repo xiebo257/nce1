@@ -1,0 +1,37 @@
+{
+  "slot": "lesson-063-scene-01",
+  "prompt": "The doctor stands in the hallway talking to Mrs. Williams, who tells him Jimmy is better and invites him upstairs. Exactly 2 people appear. Image 1 is the appearance reference for mrs-williams. Image 2 is the appearance reference for doctor. Keep their same faces, hairstyles and clothing. Appearance: mrs-williams: Mother about 38, short blond bob, cream jacket over a pale blue patterned blouse, navy skirt. doctor: Man about 65, bald crown and gray hair at the sides, round glasses, dark gray suit, white shirt, burgundy tie, black medical bag. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mrs-williams",
+    "doctor"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-williams",
+    "doctor"
+  ],
+  "cast_layout": [
+    "mrs-williams",
+    "doctor",
+    "jimmy",
+    "mr-williams"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 63,
+  "seed": 63018,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "ffeec54da9ce2414ffc913f69d1d33c02555ae92922dcf9a8aca15bc22c32f61",
+  "fingerprint": "71217af0d1bd5d3f7a6343a1ebe2766b7b6bb787c9034ba82db77b992f159fed",
+  "sha256": "9599adcbbb5b16d6dc8bd32667361a0f24e7f30c0dd1c3cc5b22441bb570bd9e",
+  "seconds": 45.05,
+  "peak_mlx_gb": 5.16,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed the four-portrait reference and all four final scenes. Mother has blond bob, cream jacket and blue patterned blouse; doctor is bald with glasses and gray suit; Jimmy has dark curls/blue pajamas; father has moustache and blue pajamas. Locally edited scene 2 to remove a speech bubble and scene 3 to remove an inconsistent background patient. Final scene 4 correctly shows the father ill in bed, with mother and doctor beside him. Faces and clothing preserved after edits.",
+  "published_sha256": "5900e6710120807a6b2fb5d592d8dd34cb6c7e4525a761c835450c6be39d024f"
+}
