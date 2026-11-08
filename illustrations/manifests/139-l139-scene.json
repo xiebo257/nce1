@@ -1,0 +1,27 @@
+{
+  "slot": "l139-scene",
+  "prompt": "A clean two-part editorial scene showing a telephone conversation: on the left Graham Turner at his office desk speaks into a black telephone receiver; on the right John Smith, a telephone engineer in blue workwear, listens on a line-testing handset beside open telephone wiring and his tool bag. Two different locations with a soft vertical division; no captions. Exactly 2 people appear.  Appearance: graham-turner: Office worker about 40, short dark hair, white shirt with rolled sleeves, burgundy tie. john-smith: Telephone engineer about 45, short sandy hair, blue work jacket over gray shirt, small tool pouch. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "graham-turner",
+    "john-smith"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 139,
+  "seed": 139017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "429081e9989a3a543e7ec5c5a8bfea2f85e97b2f70aaab50a916323027079946",
+  "sha256": "9799c8e1831853e97d3e028831a40f230ebe6a15496d33525293fc4fb4384675",
+  "seconds": 41.66,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Two telephone locations: suited caller and engineer beside wiring; receiver and tools visible.",
+  "published_sha256": "471c40ad82649b51f2b8a89a98128c3b210ddc769ccf4676695576deac63e37f"
+}
