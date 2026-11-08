@@ -1,0 +1,118 @@
+{
+  "slot": "lesson-082-pic-1070",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. A group of people dance at a party.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/082-lesson-082-pic-1070-clean.png",
+  "lesson": 82,
+  "seed": 82026,
+  "width": 480,
+  "height": 336,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "862f85517b9082ce9517bd27a83bba65ec78816fa33da6843e00fc7d319e5f1f",
+  "fingerprint": "d41646c058d95690d2e16206e2c70ce055e355f7a2a16926b9fce82814c359b5",
+  "sha256": "1805b13cf2bd8f22fe88cf4a0360d15287c6d3d9e4199340fa4e3cf4526f019f",
+  "status": "visually-reviewed",
+  "seconds": 9.628333333333334,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 82901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 12 textbook picture tiles in their EXACT 4-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1024,
+    "height": 576,
+    "steps": 4,
+    "seconds": 115.54,
+    "peak_mlx_gb": 5.589,
+    "input_sha256": "33beb5cf251be1547f43806d015f6e0aa274f45360c21f8c74ab844695881ccf",
+    "output_sha256": "57f3620bcfeb576207b2faf9a11e9b4798c133b0495efd1ee54155e2f99e6ad3",
+    "slots": [
+      "lesson-082-pic-760",
+      "lesson-082-pic-870",
+      "lesson-082-pic-980",
+      "lesson-082-pic-1010",
+      "lesson-082-pic-1020",
+      "lesson-082-pic-1030",
+      "lesson-082-pic-1040",
+      "lesson-082-pic-1050",
+      "lesson-082-pic-1060",
+      "lesson-082-pic-1070",
+      "lesson-082-pic-1080",
+      "lesson-082-pic-1090"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-760-clean.png",
+        "sha256": "ab37411b87a96442a926c08a587d1bf1a5753b3e7ff6e571b97956e2141e8a75"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-870-clean.png",
+        "sha256": "53f4ecf112e7085990f3ecc34496b0cd9bb87c4c732451b7198db6520661b3be"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-980-clean.png",
+        "sha256": "7d3fe0224637e57217ab130f96e78a14e7a634656621d19593e399608b0771f2"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1010-clean.png",
+        "sha256": "e9c233f80a1f8510dffe75c2cf9bf76fe6a0d1b7b6aa80080be778f9adda3c7c"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1020-clean.png",
+        "sha256": "b57b451de218dc02fe47f41d6790093e8f698816b094b01f01affdcac37447ee"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1030-clean.png",
+        "sha256": "0f305ae8096c542bf3b9995155871f0b0445dc8101d03146869b36afbfa6d1fd"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1040-clean.png",
+        "sha256": "04a71596da7c18a537c1faf8076c9b2df5518b0360adb41273aaac3bd0b964fc"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1050-clean.png",
+        "sha256": "f92769713cd999c5824548c0bc5fa3707093d427dce7ca32f2292fe6c18ac5ae"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1060-clean.png",
+        "sha256": "49c63e654d584a01858e1d88e1e906ec02b3c7e08c2911ba380c16565140d015"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1070-clean.png",
+        "sha256": "862f85517b9082ce9517bd27a83bba65ec78816fa33da6843e00fc7d319e5f1f"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1080-clean.png",
+        "sha256": "a6915bd18466793087e7ed7e9ae82f599af57d1087289c92be164c3ace0b0445"
+      },
+      {
+        "path": "illustrations/references/source/082-lesson-082-pic-1090-clean.png",
+        "sha256": "24dde57050d668b0dc6a748c881c6329f6ba7c63bd161436418b201ab9e65305"
+      }
+    ],
+    "saved_output_recovery": "Adopted actual newly generated colored_1.png from MFLUX non-overwrite naming."
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      256,
+      384,
+      512,
+      576
+    ],
+    "output_size": [
+      256,
+      192
+    ],
+    "source_atlas_sha256": "33beb5cf251be1547f43806d015f6e0aa274f45360c21f8c74ab844695881ccf",
+    "color_guide_sha256": "57f3620bcfeb576207b2faf9a11e9b4798c133b0495efd1ee54155e2f99e6ad3",
+    "region_overrides": []
+  },
+  "review_notes": "Reviewed all 12 complete panels from corrected source; old empty/truncated crops replaced. All meals and exact clocks, swim, bath, haircut, lesson, party, beach and outing visible with original poses and objects.",
+  "published_sha256": "88bcfc571ae421381034de3e073bcf51fc566dd82bf8dcadc24d11904a495662"
+}
