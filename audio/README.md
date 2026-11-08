@@ -109,6 +109,8 @@
 | 103 | The French test | [2:51](103-1-lesson.wav) | [1:58](103-2-practice.wav) | [6:08](103-3-gramar.wav) | [脚本](scripts/103/README.md) |
 | 104 | Too, very, enough | [4:59](104-1-lesson.wav) | [2:31](104-2-practice.wav) | [4:56](104-3-gramar.wav) | [脚本](scripts/104/README.md) |
 | 105 | Full of mistakes | [1:29](105-1-lesson.wav) | [2:04](105-2-practice.wav) | [3:44](105-3-gramar.wav) | [脚本](scripts/105/README.md) |
+| 106 | I want you/him/her/them to ... Tell him/her/them to ... | [5:30](106-1-lesson.wav) | [1:34](106-2-practice.wav) | [4:02](106-3-gramar.wav) | [脚本](scripts/106/README.md) |
+| 107 | It's too small. | [1:56](107-1-lesson.wav) | [2:42](107-2-practice.wav) | [5:10](107-3-gramar.wav) | [脚本](scripts/107/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
