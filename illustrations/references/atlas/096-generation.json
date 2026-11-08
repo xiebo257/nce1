@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 96901,
+  "prompt": "Colorize this exact fifteen-panel city illustration. Preserve all fifteen panels, landmarks, numbering and city names including Seoul as 12 and Tokyo as 15. Add natural colors to the existing ink drawings, keep white background and all text unchanged. No new objects or panels.",
+  "width": 1024,
+  "height": 576,
+  "steps": 4,
+  "seconds": 115.24,
+  "peak_mlx_gb": 5.589,
+  "input_sha256": "98357bda67574526ac3d1a71f15b49773aa9988c99d252e7c252d61929cca7b3",
+  "output_sha256": "64c30ee3b264f8059df437510f079b4a61104b0fec2379aeb13386a7af77a0f6",
+  "slots": [
+    "lesson-096-cities-01"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/096-lesson-096-cities-01.png",
+      "sha256": "60a63772dfd196f70536907937f7ab2cb8bed46fbf50d2667416f5d5ac51eb0f"
+    }
+  ]
+}

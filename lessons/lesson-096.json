@@ -33,9 +33,9 @@
     "lesson-096-clocks-01": {
       "kind": "scene",
       "status": "ready",
-      "src": "assets/lesson-096/clocks-01.jpg",
-      "width": 1826,
-      "height": 350,
+      "src": "assets/lesson-096/lesson-096-clocks-01-color.webp",
+      "width": 1024,
+      "height": 256,
       "description": "Twelve analogue clocks numbered 1st to 12th, each showing a different time of day.",
       "source": "../img/lesson-096-01-text.jpg",
       "characters": [],
@@ -57,14 +57,22 @@
           1179
         ]
       },
-      "illustration_exact_diagram": true
+      "illustration_exact_diagram": true,
+      "origin": "local-diagram",
+      "caption": "What's the exact time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": null,
+        "seed": 96017,
+        "manifest": "illustrations/manifests/096-lesson-096-clocks-01.json"
+      }
     },
     "lesson-096-cities-01": {
       "kind": "scene",
       "status": "ready",
-      "src": "assets/lesson-096/cities-01.jpg",
-      "width": 1826,
-      "height": 950,
+      "src": "assets/lesson-096/lesson-096-cities-01-color.webp",
+      "width": 1024,
+      "height": 576,
       "description": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Seoul, Stockholm, Sydney, and Tokyo.",
       "source": "../img/lesson-096-01-text.jpg",
       "characters": [],
@@ -85,6 +93,14 @@
           833,
           1179
         ]
+      },
+      "origin": "local-model",
+      "caption": "What's the exact time?",
+      "alt": "Colorize this exact fifteen-panel city illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 96018,
+        "manifest": "illustrations/manifests/096-lesson-096-cities-01.json"
       }
     }
   },
