@@ -74,7 +74,7 @@
 | 068 | What's the time? | [2:01](068-1-lesson.wav) | [2:12](068-2-practice.wav) | [2:06](068-3-gramar.wav) | [脚本](scripts/068/README.md) |
 | 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [3:35](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
 | 070 | When were they there? | [2:35](070-1-lesson.wav) | [1:39](070-2-practice.wav) | [3:30](070-3-gramar.wav) | [脚本](scripts/070/README.md) |
-| 071 | He's awful! | [2:14](071-1-lesson.wav) | [2:19](071-2-practice.wav) | [6:00](071-3-gramar.wav) | [脚本](scripts/071/README.md) |
+| 071 | He's awful! | [2:14](071-1-lesson.wav) | [2:14](071-2-practice.wav) | [6:00](071-3-gramar.wav) | [脚本](scripts/071/README.md) |
 | 072 | When did you ...? | [3:36](072-1-lesson.wav) | [1:33](072-2-practice.wav) | [2:54](072-3-gramar.wav) | [脚本](scripts/072/README.md) |
 | 073 | Did you lose your way? | [2:06](073-1-lesson.wav) | [2:06](073-2-practice.wav) | [8:05](073-3-gramar.wav) | [脚本](scripts/073/README.md) |
 | 074 | What did they do? | [1:54](074-1-lesson.wav) | [2:59](074-2-practice.wav) | [3:09](074-3-gramar.wav) | [脚本](scripts/074/README.md) |
@@ -97,6 +97,8 @@
 | 091 | Poor Ian! | [2:11](091-1-lesson.wav) | [1:53](091-2-practice.wav) | [2:27](091-3-gramar.wav) | [脚本](scripts/091/README.md) |
 | 092 | When will ...? | [1:55](092-1-lesson.wav) | [1:57](092-2-practice.wav) | [3:20](092-3-gramar.wav) | [脚本](scripts/092/README.md) |
 | 093 | Our new neighbour | [1:49](093-1-lesson.wav) | [2:11](093-2-practice.wav) | [3:13](093-3-gramar.wav) | [脚本](scripts/093/README.md) |
+| 094 | When did you/will you go to ...? | [3:02](094-1-lesson.wav) | [2:27](094-2-practice.wav) | [3:00](094-3-gramar.wav) | [脚本](scripts/094/README.md) |
+| 095 | Tickets, please. | [2:23](095-1-lesson.wav) | [1:43](095-2-practice.wav) | [4:05](095-3-gramar.wav) | [脚本](scripts/095/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |
