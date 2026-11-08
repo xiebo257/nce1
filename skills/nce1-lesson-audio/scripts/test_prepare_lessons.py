@@ -3,8 +3,11 @@ import json,unittest
 from pathlib import Path
 from prepare_lessons import answer,fill,Lesson,OVERRIDES,PASSAGES,DATA,VOCAB,USAGE
 from run_audio_queue import benign
-from asr_text import align_digit_sequences,align_clock_sequences
+from asr_text import align_digit_sequences,align_clock_sequences,normalize_year_words
 class CompilerRegression(unittest.TestCase):
+ def test_year_words_keep_the_year(self):
+  self.assertEqual(normalize_year_words('In nineteen seventy-five.'),'In 1975.')
+  self.assertNotEqual(normalize_year_words('In nineteen seventy-five.'),'In 1957.')
  def test_clock_comparison_preserves_minutes(self):
   self.assertEqual(align_clock_sequences('eight oh five.','8.05'),'eight oh five')
   self.assertEqual(align_clock_sequences('eight oh five.','8.50'),'8.50')

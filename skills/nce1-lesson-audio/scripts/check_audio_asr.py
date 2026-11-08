@@ -5,11 +5,12 @@ import soundfile as sf
 from scipy.signal import resample_poly
 import mlx_whisper
 from num2words import num2words
-from asr_text import align_digit_sequences,align_clock_sequences
+from asr_text import align_digit_sequences,align_clock_sequences,normalize_year_words
 p=argparse.ArgumentParser();p.add_argument('--start',type=int,required=True);p.add_argument('--end',type=int,required=True);a=p.parse_args()
 root=Path('audio/work/batch-025-144');cache=root/'asr-cache';cache.mkdir(exist_ok=True)
 model=str(next((Path.home()/'.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots').iterdir()))
 def norm(t):
+ t=normalize_year_words(t)
  t=t.lower().replace('’',"'").replace('grey','gray').replace('colour','color').replace('favourite','favorite').replace('neighbour','neighbor').replace('travelling','traveling').replace('travelled','traveled').replace('centre','center').replace('theatre','theater').replace('hullo','hello').replace('whisky','whiskey').replace('underwater','under water')
  t=re.sub(r'\banne\b','ann',t)
  t=re.sub(r'\bstephen\b','steven',t)

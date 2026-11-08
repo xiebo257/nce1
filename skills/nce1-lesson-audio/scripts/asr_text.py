@@ -25,3 +25,9 @@ def align_clock_sequences(expected, heard):
         pattern = r'(?<![\d$£])' + str(hour) + r'[:.]?' + f'{minute:02}' + r'(?!\d)'
         heard = re.sub(pattern, lambda _: match[0], heard)
     return heard
+
+YEARS = {num2words(n,to='year'): str(n) for n in range(1800,2100)}
+YEAR_PATTERN = re.compile(r'\b(?:' + '|'.join(re.escape(x) for x in sorted(YEARS,key=len,reverse=True)) + r')\b',re.I)
+
+def normalize_year_words(text):
+    return YEAR_PATTERN.sub(lambda m: YEARS[m[0].lower()], text)
