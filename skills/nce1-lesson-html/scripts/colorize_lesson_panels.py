@@ -73,7 +73,10 @@ def main():
         print('COLORIZING_LESSON',n,len(jobs),width,height,flush=True)
         start=time.monotonic();mx.reset_peak_memory()
         result=model.generate_image(seed=n*1000+901,prompt=prompt,num_inference_steps=4,width=width,height=height,guidance=1.0,image_paths=[source_path])
-        output=directory/'colored.png';result.save(str(output));elapsed=round(time.monotonic()-start,2)
+        output=directory/'colored.png';result.save(str(output), overwrite=True);elapsed=round(time.monotonic()-start,2)
+        with Image.open(output) as saved:
+            if saved.size != (width, height):
+                raise ValueError(f'Generated atlas size mismatch: {saved.size} != {(width, height)}')
         atlas_meta={'model':MODEL_ID,'seed':n*1000+901,'prompt':prompt,'width':width,'height':height,'steps':4,
                     'seconds':elapsed,'peak_mlx_gb':round(mx.get_peak_memory()/1e9,3),'input_sha256':digest(source_path),
                     'output_sha256':digest(output),'slots':[j['slot'] for j in jobs],
