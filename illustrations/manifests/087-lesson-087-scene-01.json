@@ -1,0 +1,27 @@
+{
+  "slot": "lesson-087-scene-01",
+  "prompt": "Inside a repair garage, Mr Wood and a garage attendant look at his badly crumpled car, its bonnet bent and front bumper crushed. The attendant gestures apologetically toward the damaged car. The collision happened earlier; show a stationary car under repair. Exactly 2 people appear.  Appearance: mr-wood: Man about 45, dark hair under a brown brimmed hat, tan jacket, white shirt. attendant: Woman about 35, short dark curls, muted blue patterned dress. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mr-wood",
+    "attendant"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 87,
+  "seed": 87017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "069a513cd13c4a90f19a7f72995cb0aea4310ae72612b91c3f48ac7ebecc7c1a",
+  "sha256": "6c596c7dcb0e767362edceb15cca0c9f00dae26b8fa492d16723d4d5c49e5dd5",
+  "seconds": 40.12,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Garage scene reviewed: hat-wearing Mr Wood and curly-haired blue-dress attendant look at visibly crumpled stationary car. Correct cast designs, no active collision.",
+  "published_sha256": "4791359ab0c228889b8eab92b48c904c56a331a71b6a7c555c598143f80812d0"
+}
