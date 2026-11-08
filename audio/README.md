@@ -73,6 +73,8 @@
 | 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [3:35](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
 | 076 | When did you ...? | [2:44](076-1-lesson.wav) | [1:30](076-2-practice.wav) | [3:04](076-3-gramar.wav) | [脚本](scripts/076/README.md) |
 | 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [4:47](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
+| 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
+| 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 

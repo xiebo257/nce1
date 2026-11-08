@@ -1,0 +1,660 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-116.html",
+  "source_items": 35,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 116. Practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "practice",
+      "generation_seed": 572678316,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise A",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "example",
+      "text": "I didn't buy anything. I bought nothing.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.65,
+      "source_item": "l116-wa0",
+      "section": "Written exercise A",
+      "generation_seed": 828202756,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I didn't do anything.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wa1",
+      "section": "Written exercise A",
+      "generation_seed": 1710929977,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I did nothing.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wa1",
+      "section": "Written exercise A",
+      "generation_seed": 904802100,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I didn't see anyone.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wa2",
+      "section": "Written exercise A",
+      "generation_seed": 1651947597,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I saw no one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wa2",
+      "section": "Written exercise A",
+      "generation_seed": 417065287,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I didn't go anywhere.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wa3",
+      "section": "Written exercise A",
+      "generation_seed": 487600533,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I went nowhere.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wa3",
+      "section": "Written exercise A",
+      "generation_seed": 326395768,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I didn't meet anybody.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wa4",
+      "section": "Written exercise A",
+      "generation_seed": 1200470107,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I met nobody.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wa4",
+      "section": "Written exercise A",
+      "generation_seed": 2088405778,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise B",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you see anyone?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb0",
+      "section": "Written exercise B",
+      "generation_seed": 990907178,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't see anyone. I saw no one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb0",
+      "section": "Written exercise B",
+      "generation_seed": 1436227105,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you hear anything?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb1",
+      "section": "Written exercise B",
+      "generation_seed": 1195391977,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't hear anything. I heard nothing.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb1",
+      "section": "Written exercise B",
+      "generation_seed": 124956101,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you speak to anyone?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb2",
+      "section": "Written exercise B",
+      "generation_seed": 158799619,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't speak to anyone. I spoke to no one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb2",
+      "section": "Written exercise B",
+      "generation_seed": 1647732508,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you go anywhere?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb3",
+      "section": "Written exercise B",
+      "generation_seed": 1473279554,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't go anywhere. I went nowhere.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb3",
+      "section": "Written exercise B",
+      "generation_seed": 1449084053,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you buy anything?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb4",
+      "section": "Written exercise B",
+      "generation_seed": 44201679,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't buy anything. I bought nothing.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb4",
+      "section": "Written exercise B",
+      "generation_seed": 1556443155,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you write to anybody?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb5",
+      "section": "Written exercise B",
+      "generation_seed": 1244417511,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't write to anybody. I wrote to nobody.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb5",
+      "section": "Written exercise B",
+      "generation_seed": 2142130324,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you meet anyone?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wb6",
+      "section": "Written exercise B",
+      "generation_seed": 147038472,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I didn't meet anyone. I met no one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wb6",
+      "section": "Written exercise B",
+      "generation_seed": 1725691640,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise C",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They're all watching television.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wc0",
+      "section": "Written exercise C",
+      "generation_seed": 2145319524,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Everyone's watching television.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wc0",
+      "section": "Written exercise C",
+      "generation_seed": 732874901,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They're all looking out of the window.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wc1",
+      "section": "Written exercise C",
+      "generation_seed": 1882416393,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Everyone's looking out of the window.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wc1",
+      "section": "Written exercise C",
+      "generation_seed": 1700448169,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They're all hurrying to work.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wc2",
+      "section": "Written exercise C",
+      "generation_seed": 1726768906,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Everybody's hurrying to work.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wc2",
+      "section": "Written exercise C",
+      "generation_seed": 317576900,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They're all eating.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wc3",
+      "section": "Written exercise C",
+      "generation_seed": 145906304,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Everyone's eating.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wc3",
+      "section": "Written exercise C",
+      "generation_seed": 444418584,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "prompt",
+      "text": "They're all drinking lemonade.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wc4",
+      "section": "Written exercise C",
+      "generation_seed": 1558958183,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Everybody's drinking lemonade.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wc4",
+      "section": "Written exercise C",
+      "generation_seed": 310674207,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercise D",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you got anything to wear? What about Penny?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wd0",
+      "section": "Written exercise D",
+      "generation_seed": 899729386,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I haven't got anything to wear. I've got nothing to wear. She's got something to wear.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wd0",
+      "section": "Written exercise D",
+      "generation_seed": 1563281491,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you got anything to eat? What about Sam?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wd1",
+      "section": "Written exercise D",
+      "generation_seed": 166348250,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I haven't got anything to eat. I've got nothing to eat. He's got something to eat.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wd1",
+      "section": "Written exercise D",
+      "generation_seed": 169916173,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you got anything to do? What about the children?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wd2",
+      "section": "Written exercise D",
+      "generation_seed": 767230292,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I haven't got anything to do. I've got nothing to do. They've got something to do.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wd2",
+      "section": "Written exercise D",
+      "generation_seed": 1499026879,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you got anything to drink? What about Jane?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wd3",
+      "section": "Written exercise D",
+      "generation_seed": 824436878,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I haven't got anything to drink. I've got nothing to drink. She's got something to drink.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wd3",
+      "section": "Written exercise D",
+      "generation_seed": 53935664,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you got anything to read? What about Alan?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-wd4",
+      "section": "Written exercise D",
+      "generation_seed": 392795972,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "No, I haven't got anything to read. I've got nothing to read. He's got something to read.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "l116-wd4",
+      "section": "Written exercise D",
+      "generation_seed": 536970417,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Practice A: Choose and write in the best word",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I've looked everywhere for my glasses. nowhere anywhere everywhere.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa1",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 95642531,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There is somebody in our garden. somebody anybody everybody.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa2",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 1793264714,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "There isn't anything in the cupboard for lunch. something anything everything.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa3",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 894326720,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We've just moved into this street, so we don't know anyone yet. everyone anyone no one.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa4",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 626368054,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Listen. I want to tell you something. anything nothing something.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa5",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 1008499428,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We have invited everybody to the party, but no one has answered yet. everybody anybody somebody.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa6",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 1127936988,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm sure there is a good job for you somewhere. You must find it! everywhere nowhere somewhere.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa7",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 683439134,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I looked in our class 10 minutes ago. There wasn't anybody there. somebody anybody everybody.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa8",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 1547274995,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Everything in your room is dirty! You must clean it. Something Anything Everything.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa9",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 819941849,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She can't go to the party because she's got nothing to wear. nothing anything everything.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa10",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 96446607,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm hungry. I'd like something to eat. nothing something everything.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.3,
+      "source_item": "l116-pa11",
+      "section": "Practice A: Choose and write in the best word",
+      "source_items": [],
+      "generation_seed": 1013237093,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each situation. What would you say?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Practice B: Situations",
+      "generation_seed": 867987091,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "You are with friends and want a glass of lemonade. How do you ask politely?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "l116-pb1",
+      "section": "Practice B: Situations",
+      "generation_seed": 1161947198,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "May I have a glass of lemonade, please?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "l116-pb1",
+      "section": "Practice B: Situations",
+      "generation_seed": 829479930,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Can you see anything?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.2,
+      "source_item": "l116-pb2",
+      "section": "Practice B: Situations",
+      "generation_seed": 487457833,
+      "generation_temperature": 0.65
+    }
+  ]
+}
