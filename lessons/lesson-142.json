@@ -634,9 +634,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Eight numbered pictures in a 2x4 grid showing active and passive pairs: 1 a embarrassed woman; 2 a worried couple; 3 two men looking at a broken car; 4 a man repairing the car; 5 a teacher correcting exercise books; 6 a student writing at a desk; 7 a man arriving at a station; 8 a man greeting a woman at the station.",
-      "src": "assets/lesson-142/pictures-grid.jpg",
-      "width": 1620,
-      "height": 1800,
+      "src": "assets/lesson-142/l142-pictures-color.webp",
+      "width": 512,
+      "height": 640,
       "source": "img/lesson-142-01-text.jpg (textbook p.287)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/142-restored-photograph-panels.png",
@@ -701,6 +701,14 @@
           ]
         ],
         "normalization": "Morphological paper estimate then threshold 165; original photo replaces faded left-column PDF panels."
+      },
+      "origin": "local-model",
+      "caption": "Someone invited Sally to a party.",
+      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 142017,
+        "manifest": "illustrations/manifests/142-l142-pictures.json"
       }
     }
   },

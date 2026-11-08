@@ -1,0 +1,68 @@
+{
+  "slot": "l142-pictures",
+  "prompt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing active and passive pairs: 1 a embarrassed woman; 2 a worried couple; 3 two men looking at a broken car; 4 a man repairing the car; 5 a teacher correcting exercise books; 6 a student writing at a desk; 7 a man arriving at a station; 8 a man greeting a woman at the station.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/142-restored-photograph-panels.png",
+  "lesson": 142,
+  "seed": 142017,
+  "width": 512,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "d2714a0fa8a132a32abdd053e957fdf90098e3f39e32af9c43e61526a580e6f9",
+  "fingerprint": "0c7947d0ad8c6a37ece31c216b7f0c4b0fc627f5779bc23456a4642b4070ddc4",
+  "sha256": "c83ebf89b5f9b4627b7cd01ed99cf8d3cecc49065f00290af8ecddf346fd3521",
+  "status": "visually-reviewed",
+  "seconds": 62.92,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 142901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing active and passive pairs: 1 a embarrassed woman; 2 a worried couple; 3 two men looking at a broken car; 4 a man repairing the car; 5 a teacher correcting exercise books; 6 a student writing at a desk; 7 a man arriving at a station; 8 a man greeting a woman at the station.",
+    "width": 512,
+    "height": 640,
+    "steps": 4,
+    "seconds": 62.92,
+    "peak_mlx_gb": 5.162,
+    "input_sha256": "d2714a0fa8a132a32abdd053e957fdf90098e3f39e32af9c43e61526a580e6f9",
+    "output_sha256": "218e4d8d36b17bb9a88c40b0f1d5612328001394cf55c0ab04f6b2bcb28c6aae",
+    "slots": [
+      "l142-pictures"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/142-restored-photograph-panels.png",
+        "sha256": "d2714a0fa8a132a32abdd053e957fdf90098e3f39e32af9c43e61526a580e6f9"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      640
+    ],
+    "output_size": [
+      512,
+      640
+    ],
+    "source_atlas_sha256": "d2714a0fa8a132a32abdd053e957fdf90098e3f39e32af9c43e61526a580e6f9",
+    "color_guide_sha256": "218e4d8d36b17bb9a88c40b0f1d5612328001394cf55c0ab04f6b2bcb28c6aae",
+    "region_overrides": [
+      [
+        36,
+        410,
+        "#f4c7ad"
+      ]
+    ]
+  },
+  "review_notes": "Reviewed eight complete scenes after replacing faded PDF linework with normalized original photograph: embarrassment, worried couple, car/repair, books/correction, station arrival/greeting. All people/props visible; corrected child facial color.",
+  "published_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c"
+}
