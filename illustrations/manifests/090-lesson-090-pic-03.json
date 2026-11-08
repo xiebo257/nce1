@@ -1,0 +1,78 @@
+{
+  "slot": "lesson-090-pic-03",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Panel 3: a man asks 'Has he gone yet?'; a thought bubble shows clocks and a boy walking out of a door with a bag.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/090-lesson-090-pic-03-clean.png",
+  "lesson": 90,
+  "seed": 90019,
+  "width": 640,
+  "height": 320,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "79f1f0b39ed30ab543557c9d51703d76608f1d221ecffcf98d77ef329b3de1ff",
+  "fingerprint": "cec22848d9e7c3c7d994d9bb0f99e3aeec64bcdcc2e9721247414c85c140aa8c",
+  "sha256": "8c60947cf92d0cc4eda9467717a8dbd7a06a088035c594f41a304590c6339713",
+  "status": "visually-reviewed",
+  "seconds": 10.8425,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 90901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 4 textbook picture tiles in their EXACT 2-column, 2-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 512,
+    "height": 384,
+    "steps": 4,
+    "seconds": 43.37,
+    "peak_mlx_gb": 5.146,
+    "input_sha256": "797894ef93879d1e161e8177f77842a6911cb56500942bac6a08478b33b7acce",
+    "output_sha256": "af1be5d91a90112a23a8df3598f15e2e91b12832f6b2269587fb6eb06485dc4b",
+    "slots": [
+      "lesson-090-pic-01",
+      "lesson-090-pic-02",
+      "lesson-090-pic-03",
+      "lesson-090-pic-04"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/090-lesson-090-pic-01-clean.png",
+        "sha256": "829bd005f200edff0d442aa716a0eec1739e72b1a73e061f4171e42ae57da486"
+      },
+      {
+        "path": "illustrations/references/source/090-lesson-090-pic-02-clean.png",
+        "sha256": "1e9f499bd58649ac74929cc68baaa610fd615b09d6a5621c1e4dbf0cfc9d2577"
+      },
+      {
+        "path": "illustrations/references/source/090-lesson-090-pic-03-clean.png",
+        "sha256": "79f1f0b39ed30ab543557c9d51703d76608f1d221ecffcf98d77ef329b3de1ff"
+      },
+      {
+        "path": "illustrations/references/source/090-lesson-090-pic-04-clean.png",
+        "sha256": "05ec98010434c914c57382bb4d1230546c11bfa8bad21f22d9b42cc49be69705"
+      }
+    ],
+    "saved_output_recovery": "Adopted actual newly generated colored_1.png from MFLUX non-overwrite naming."
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      192,
+      256,
+      384
+    ],
+    "output_size": [
+      256,
+      192
+    ],
+    "source_atlas_sha256": "797894ef93879d1e161e8177f77842a6911cb56500942bac6a08478b33b7acce",
+    "color_guide_sha256": "af1be5d91a90112a23a8df3598f15e2e91b12832f6b2269587fb6eb06485dc4b",
+    "region_overrides": []
+  },
+  "review_notes": "Reviewed four complete duration panels, including 1997/1998 calendars, clock pairs and date 2/1. Original people, order and time indicators retained.",
+  "published_sha256": "4d39481151ed5874b4258ac494ca06c35e8a15ad4e3d28bdec52e6685d307c73"
+}

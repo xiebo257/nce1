@@ -36,9 +36,9 @@
       "description": "Panel 1: a woman asks a man 'Have you read this book yet?'; he thinks back to reading it in 1996 while she shows a photo dated 1997.",
       "characters": [],
       "source": "../img/lesson-090-01-text.jpg",
-      "src": "assets/lesson-090/pic-01.jpg",
-      "width": 734,
-      "height": 375,
+      "src": "assets/lesson-090/lesson-090-pic-01-color.webp",
+      "width": 256,
+      "height": 192,
       "illustration_source_reference": "illustrations/references/source/090-lesson-090-pic-01-clean.png",
       "illustration_width": 640,
       "illustration_height": 320,
@@ -56,6 +56,14 @@
           833,
           1179
         ]
+      },
+      "origin": "local-model",
+      "caption": "Have you ... yet?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 90017,
+        "manifest": "illustrations/manifests/090-lesson-090-pic-01.json"
       }
     },
     "lesson-090-pic-02": {
@@ -64,9 +72,9 @@
       "description": "Panel 2: two people ask 'Have you done your homework yet?'; a thought bubble shows clocks and a girl writing at a desk.",
       "characters": [],
       "source": "../img/lesson-090-01-text.jpg",
-      "src": "assets/lesson-090/pic-02.jpg",
-      "width": 735,
-      "height": 375,
+      "src": "assets/lesson-090/lesson-090-pic-02-color.webp",
+      "width": 256,
+      "height": 192,
       "illustration_source_reference": "illustrations/references/source/090-lesson-090-pic-02-clean.png",
       "illustration_width": 640,
       "illustration_height": 320,
@@ -84,6 +92,14 @@
           833,
           1179
         ]
+      },
+      "origin": "local-model",
+      "caption": "Have you ... yet?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 90018,
+        "manifest": "illustrations/manifests/090-lesson-090-pic-02.json"
       }
     },
     "lesson-090-pic-03": {
@@ -92,9 +108,9 @@
       "description": "Panel 3: a man asks 'Has he gone yet?'; a thought bubble shows clocks and a boy walking out of a door with a bag.",
       "characters": [],
       "source": "../img/lesson-090-01-text.jpg",
-      "src": "assets/lesson-090/pic-03.jpg",
-      "width": 734,
-      "height": 375,
+      "src": "assets/lesson-090/lesson-090-pic-03-color.webp",
+      "width": 256,
+      "height": 192,
       "illustration_source_reference": "illustrations/references/source/090-lesson-090-pic-03-clean.png",
       "illustration_width": 640,
       "illustration_height": 320,
@@ -112,6 +128,14 @@
           833,
           1179
         ]
+      },
+      "origin": "local-model",
+      "caption": "Have you ... yet?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 90019,
+        "manifest": "illustrations/manifests/090-lesson-090-pic-03.json"
       }
     },
     "lesson-090-pic-04": {
@@ -120,9 +144,9 @@
       "description": "Panel 4: two people ask 'Has she spoken to him yet?'; a thought bubble shows a woman speaking to a boy with date markers JAN 1 and JAN 2.",
       "characters": [],
       "source": "../img/lesson-090-01-text.jpg",
-      "src": "assets/lesson-090/pic-04.jpg",
-      "width": 735,
-      "height": 375,
+      "src": "assets/lesson-090/lesson-090-pic-04-color.webp",
+      "width": 256,
+      "height": 192,
       "illustration_source_reference": "illustrations/references/source/090-lesson-090-pic-04-clean.png",
       "illustration_width": 640,
       "illustration_height": 320,
@@ -140,6 +164,14 @@
           833,
           1179
         ]
+      },
+      "origin": "local-model",
+      "caption": "Have you ... yet?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 90020,
+        "manifest": "illustrations/manifests/090-lesson-090-pic-04.json"
       }
     }
   },
