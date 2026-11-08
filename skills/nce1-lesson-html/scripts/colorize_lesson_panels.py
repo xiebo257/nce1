@@ -32,7 +32,7 @@ def main():
         jobs=[j for j in lesson_jobs(repo,n,768,512) if j.get('source_reference') and not j.get('exact_diagram')]
         if not jobs:continue
         data=json.loads((repo/f'lessons/lesson-{n:03}.json').read_text())
-        atlas_recipe='shared-atlas-v2:'+data.get('illustration_palette','')
+        atlas_recipe='shared-atlas-v3:'+data.get('illustration_palette','')
         specs=[specification(repo,j) for j in jobs]
         cached=True
         for j,s in zip(jobs,specs):
@@ -59,19 +59,15 @@ def main():
                 source.paste(tile,(i%cols*cw+(cw-tile.width)//2,i//cols*ch+(ch-tile.height)//2))
         directory=repo/f'illustrations/work/atlases/{n:03}';directory.mkdir(parents=True,exist_ok=True)
         source_path=directory/'source.png';source.save(source_path)
-        prompt=(f'Colorize this exact textbook cartoon sheet in place. There are {len(jobs)} input tiles in {cols} columns and {rows} rows. '
-                'Keep the grid positions, panel borders, every face, hairstyle, pose, object, count and spatial relation EXACTLY unchanged. '
-                'Repeated characters must have the same hair color, skin tone and clothing colors in every panel. '
-                'Use natural skin tones, cheerful full-color clothing, realistic object colors, and pure white background. '
-                'Remove gray paper texture and faint reverse-page bleed-through. Preserve all visible letters, numerals and clock hands. '
-                'Do not draw extra objects, people, labels or captions. Do not move, resize, combine, omit or rearrange any tile. '
-                'Color only the existing drawing, preserving the original black outlines. '
-                'Remove cropped text fragments OUTSIDE picture borders, keeping only the drawings. '
-                'Keep complete map labels and symbols INSIDE the picture unchanged.')
-        data=json.loads((repo/f'lessons/lesson-{n:03}.json').read_text())
+        prompt=(f'Colorize these {len(jobs)} textbook picture tiles in their EXACT {cols}-column, {rows}-row positions. '
+                'Preserve all faces, poses, objects, counts, panel borders and line art. '
+                'Natural skin and vivid clothing colors, pure white background. '
+                'Remove gray paper and cropped text fragments outside picture borders. '
+                'Keep complete map labels, numerals and symbols inside the drawings unchanged. '
+                'No extra people, objects or panels. Do not rearrange tiles.')
         if len(jobs)==1:prompt=jobs[0]['prompt']
         if data.get('illustration_palette'):
-            prompt += ' Mandatory recurring character colors: '+data['illustration_palette']
+            prompt = data['illustration_palette']+' '+prompt
         if model is None:
             model=Flux2KleinEdit(model_config=ModelConfig.flux2_klein_4b(),model_path=str(MODEL_PATH),quantize=4)
         print('COLORIZING_LESSON',n,len(jobs),width,height,flush=True)
