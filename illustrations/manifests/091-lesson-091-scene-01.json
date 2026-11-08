@@ -1,0 +1,40 @@
+{
+  "slot": "lesson-091-scene-01",
+  "prompt": "Catherine, Jenny and Linda stand together on a residential pavement outside their neighbour Ian's house, talking with fond, slightly sad expressions about his imminent move. Quiet brick houses and a garden gate behind them. Exactly 3 people appear.  Appearance: catherine: Woman about 45, auburn hair under a cream hat, green coat. jenny: Woman about 40, short dark bob, pale blue jacket. linda: Woman about 40, short blond curls, burgundy cardigan. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "catherine",
+    "jenny",
+    "linda"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 91,
+  "seed": 91017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "672781b39327bf5eac6f8fc9bfa464c7df9e98fbb059ff7c78654a0f45f8cef2",
+  "sha256": "0a6ecd2de73b1d2aa9b094ca512b25f0cc47261027b7843aadaaa81e7001e973",
+  "seconds": 36.87,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the white sign with its invented lettering on the brick wall at the far left. Replace that small area with matching brickwork. Preserve all three women, faces, clothes, poses, garden and residential street.",
+        "seed": 910111,
+        "input_sha256": "4534b6f8634020f1f85ec12936df996b2dd96eb5cb9ccebb37cf5a06cc48ea1d",
+        "output_sha256": "0a6ecd2de73b1d2aa9b094ca512b25f0cc47261027b7843aadaaa81e7001e973",
+        "seconds": 79.79
+      }
+    ]
+  },
+  "review_notes": "Three women speaking outside a suburban house; distinct hat/green coat, blue jacket and burgundy cardigan. Invented sign removed, brick wall restored; faces and poses preserved.",
+  "published_sha256": "592546275ed5ecbed4d182bf2c79224784a3eae6d4acfcad103dd517281041a2"
+}

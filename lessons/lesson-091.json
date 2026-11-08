@@ -51,7 +51,7 @@
   "images": {
     "lesson-091-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Three women (Catherine, Jenny, and Linda) stand outside a house with a 'FOR SALE' sign in the window, talking about Ian who is moving out.",
       "characters": [
         "catherine",
@@ -59,11 +59,22 @@
         "linda"
       ],
       "source": "../img/lesson-091-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Catherine, Jenny and Linda stand together on a residential pavement outside their neighbour Ian's house, talking with fond, slightly sad expressions about his imminent move. Quiet brick houses and a garden gate behind them.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-091/lesson-091-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Poor Ian!",
+      "alt": "Catherine, Jenny and Linda stand together on a residential pavement outside their neighbour Ian's house, talking with fond, slightly sad expressions about his imminent move.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 91017,
+        "manifest": "illustrations/manifests/091-lesson-091-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "sections": {
