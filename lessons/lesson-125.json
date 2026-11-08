@@ -207,18 +207,28 @@
   "images": {
     "l125-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Five numbered panels: 1 Susan calling to Peter from the window; 2 Peter watering the garden; 3 Susan looking at Peter through the window; 4 Susan and Peter at the table with tea; 5 Susan and Peter having tea together.",
       "source": "img/lesson-125-01-text.jpg (textbook p.253)",
       "characters": [
         "susan",
         "peter"
       ],
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Susan and Peter sit at a kitchen table having tea, smiling with relief. Through a large window behind them, rain waters the garden and a garden hose lies unused on the ground. Two teacups and teapot in foreground.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-125/l125-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Tea for two 两个人一起喝茶",
+      "alt": "Susan and Peter sit at a kitchen table having tea, smiling with relief.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 125017,
+        "manifest": "illustrations/manifests/125-l125-scene.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",

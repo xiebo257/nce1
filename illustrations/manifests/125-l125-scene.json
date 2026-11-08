@@ -1,0 +1,27 @@
+{
+  "slot": "l125-scene",
+  "prompt": "Susan and Peter sit at a kitchen table having tea, smiling with relief. Through a large window behind them, rain waters the garden and a garden hose lies unused on the ground. Two teacups and teapot in foreground. Exactly 2 people appear.  Appearance: susan: Woman about 35, shoulder-length brown hair, cream blouse, blue cardigan. peter: Man about 37, short dark hair, rolled-sleeve pale blue shirt, charcoal trousers. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "susan",
+    "peter"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 125,
+  "seed": 125017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "1f49fd46640e32f86a028ba2acdfcefc8172096bbb2c0559e6bd6b91db715c65",
+  "sha256": "d139e8e454aff310740bb42314efff80931dfcfa36be7270f25bfac6f5402c9e",
+  "seconds": 40.6,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed Susan and Peter having tea at kitchen table, teapot/two cups and rain on garden window. Two adults, relaxed expressions and coherent props.",
+  "published_sha256": "f6c259fad67956629f88fc180708ef617c8f1ba2e7678e10d4def1aa34fbdcc3"
+}
