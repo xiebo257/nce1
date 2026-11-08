@@ -217,6 +217,10 @@ class Lesson(base.Lesson):
   if 'lesson-notes' in cls:
    self.section='notes'
    for i,e in enumerate(art.xpath('.//span[@class="small-label"]'),1):
+    sid=f'lesson-note-{i}'
+    if f'{self.n:03}/{sid}' in OVERRIDES:
+     for s in OVERRIDES[f'{self.n:03}/{sid}']:self.add(source=sid,**s)
+     continue
     t=re.sub(r'^\d+\s*[·.]?\s*','',normalize(e.text_content()))
     if t and not re.search(r'[/\u4e00-\u9fff_]|\.{2,}|…',t):self.add(t,source=f'lesson-note-{i}',pause=1)
    return

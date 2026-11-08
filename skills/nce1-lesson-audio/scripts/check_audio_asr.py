@@ -29,6 +29,9 @@ def norm(t):
  t=t.replace('airhostess','air hostess').replace('icecream','ice cream').replace('ice-cream','ice cream')
  t=t.replace('stomachache','stomach ache').replace('seatbelt','seat belt')
  for uk,us in [('labour','labor'),('programme','program'),('licence','license'),('instalment','installment')]:t=t.replace(uk,us)
+ # The same spoken possessive may be transcribed without its apostrophe.
+ t=re.sub(r"(?<=\w)'(?=s\b)",'',t)
+ t=re.sub(r'\bli\b','lee',t)
  return re.findall(r"[a-z]+(?:'[a-z]+)?",t)
 def diff(e,t):
  t=align_digit_sequences(e,t)
