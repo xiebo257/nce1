@@ -729,9 +729,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Twelve numbered pictures in a 4x3 grid, each group of three showing: 1 a person saying 'I'm tired'; 2 a question mark bubble 'What did he say?'; 3 the same person with a speech bubble showing reported speech. Four groups illustrate: tired (past simple), reading (past continuous), dinner (past simple), homework (past perfect).",
-      "src": "assets/lesson-134/pictures-grid.jpg",
-      "width": 1637,
-      "height": 1800,
+      "src": "assets/lesson-134/l134-pictures-color.webp",
+      "width": 768,
+      "height": 640,
       "source": "img/lesson-134-01-text.jpg (textbook p.271)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/134-complete-panels.png",
@@ -820,6 +820,14 @@
             979
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "He said (that) he… He told me (that) he…",
+      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 134017,
+        "manifest": "illustrations/manifests/134-l134-pictures.json"
       }
     }
   },
