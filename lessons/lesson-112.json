@@ -228,9 +228,9 @@
       "description": "Grid of 18 pictures (a-r) in groups: a-f showing as...as comparisons (sweet, tall, short, old, blunt, sharp), g-l showing not as...as comparisons (clean, fat, smart, light, new, expensive), and m-r showing examples of difficult/more/most and interesting/less/least.",
       "source": "img/lesson-112-01-text.jpg (textbook p.227)",
       "characters": [],
-      "src": "assets/lesson-112/items-grid.jpg",
-      "width": 1553,
-      "height": 2400,
+      "src": "assets/lesson-112/l112-items-grid-color.webp",
+      "width": 768,
+      "height": 960,
       "illustration_source_reference": "illustrations/references/source/112-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 960,
@@ -353,6 +353,14 @@
             930
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "How do they compare? 比一比",
+      "alt": "Faithfully colorize this EXACT 18-panel cartoon grid, with 3 columns and 6 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 112017,
+        "manifest": "illustrations/manifests/112-l112-items-grid.json"
       }
     }
   },

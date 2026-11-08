@@ -1,0 +1,78 @@
+{
+  "slot": "l112-items-grid",
+  "prompt": "Faithfully colorize this EXACT 18-panel cartoon grid, with 3 columns and 6 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 18 pictures (a-r) in groups: a-f showing as...as comparisons (sweet, tall, short, old, blunt, sharp), g-l showing not as...as comparisons (clean, fat, smart, light, new, expensive), and m-r showing examples of difficult/more/most and interesting/less/least.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/112-complete-panels.png",
+  "lesson": 112,
+  "seed": 112017,
+  "width": 768,
+  "height": 960,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "687216961942e9e46b8e419057bd7faf606a8f477a7bcf92424a4687e3d85fcc",
+  "fingerprint": "fd24c78e4fdb2d01ed1350be0240db920e4613558295bc0035cddab8fbe42b34",
+  "sha256": "c2cc0a57bac637a9ed382783875822abd100dcf1a437da9ab6a7ae0ca78986ba",
+  "status": "visually-reviewed",
+  "seconds": 147.97,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 112901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 18-panel cartoon grid, with 3 columns and 6 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 18 pictures (a-r) in groups: a-f showing as...as comparisons (sweet, tall, short, old, blunt, sharp), g-l showing not as...as comparisons (clean, fat, smart, light, new, expensive), and m-r showing examples of difficult/more/most and interesting/less/least.",
+    "width": 768,
+    "height": 960,
+    "steps": 4,
+    "seconds": 147.97,
+    "peak_mlx_gb": 5.957,
+    "input_sha256": "687216961942e9e46b8e419057bd7faf606a8f477a7bcf92424a4687e3d85fcc",
+    "output_sha256": "76edc90fa8f2fad5fe6c5d090314c9ba21692c44c5c612c9aabb478f967bab4a",
+    "slots": [
+      "l112-items-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/112-complete-panels.png",
+        "sha256": "687216961942e9e46b8e419057bd7faf606a8f477a7bcf92424a4687e3d85fcc"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      768,
+      960
+    ],
+    "output_size": [
+      768,
+      960
+    ],
+    "source_atlas_sha256": "687216961942e9e46b8e419057bd7faf606a8f477a7bcf92424a4687e3d85fcc",
+    "color_guide_sha256": "76edc90fa8f2fad5fe6c5d090314c9ba21692c44c5c612c9aabb478f967bab4a",
+    "region_overrides": [],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          572,
+          257,
+          656,
+          286
+        ],
+        "selection": "green",
+        "color": [
+          166,
+          189,
+          198
+        ]
+      }
+    ]
+  },
+  "review_notes": "Reviewed all 18 panels: apples, height/age, pencils/knives, cars/people, suitcases/scales, handbags, refrigerators, test difficulty and reading interest. Source outlines retain comparative sizes and exact scale pointers. Corrected green knife blade to steel gray.",
+  "published_sha256": "6491701d69f53f012d46dd02c19ff663ffc57cae651393b72adaf30024da3ab8"
+}
