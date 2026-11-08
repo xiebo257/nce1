@@ -99,6 +99,8 @@
 | 093 | Our new neighbour | [1:49](093-1-lesson.wav) | [2:11](093-2-practice.wav) | [3:13](093-3-gramar.wav) | [脚本](scripts/093/README.md) |
 | 094 | When did you/will you go to ...? | [3:02](094-1-lesson.wav) | [2:27](094-2-practice.wav) | [3:00](094-3-gramar.wav) | [脚本](scripts/094/README.md) |
 | 095 | Tickets, please. | [2:23](095-1-lesson.wav) | [1:43](095-2-practice.wav) | [4:05](095-3-gramar.wav) | [脚本](scripts/095/README.md) |
+| 098 | Whose is it? Whose are they? | [3:18](098-1-lesson.wav) | [1:31](098-2-practice.wav) | [4:01](098-3-gramar.wav) | [脚本](scripts/098/README.md) |
+| 099 | Ow! | [2:29](099-1-lesson.wav) | [1:32](099-2-practice.wav) | [5:11](099-3-gramar.wav) | [脚本](scripts/099/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
 | 117 | Tommy's breakfast 汤米的早餐 | [1:47](117-1-lesson.wav) | [2:14](117-2-practice.wav) | [5:38](117-3-gramar.wav) | [脚本](scripts/117/README.md) |
 | 126 | Have to and do not need to 不得不和不必要 | [2:50](126-1-lesson.wav) | [2:39](126-2-practice.wav) | [2:37](126-3-gramar.wav) | [脚本](scripts/126/README.md) |

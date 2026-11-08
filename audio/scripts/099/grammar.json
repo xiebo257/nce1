@@ -1,0 +1,609 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-099.html",
+  "source_items": 28,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 99. Grammar practice.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "grammar",
+      "generation_seed": 19981330,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he says , he feels sleepy.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-1",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 2098469826,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says that he feels sleepy.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-1",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 666210278,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "she says , she feels ill.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-2",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1134706342,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says that she feels ill.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-2",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 23830109,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he thinks , he needs a haircut.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-3",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1080401194,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He thinks that he needs a haircut.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-3",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1675052272,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm sure , it's going to snow tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-4",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1496824918,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm sure that it's going to snow tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-4",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 177796059,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the doctor says , you must stay in bed for three days.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-5",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1754776245,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The doctor says that you must stay in bed for three days.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-5",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 311988597,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I'm sorry , he's got a bad cold.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-6",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 66044938,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I'm sorry that he's got a bad cold.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-6",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 711936108,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he believes , he can repair the car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-7",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 668796605,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He believes that he can repair the car.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-7",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 560986579,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "she understands , I'm very tired and thirsty.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-8",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 474578282,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She understands that I'm very tired and thirsty.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-8",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1386093948,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he says , he usually gets up at seven.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-9",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1630604667,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He says that he usually gets up at seven.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-9",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 2130056310,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I know , Mr. Smith has just sold his house.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-i-10",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1921231639,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I know that Mr. Smith has just sold his house.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-i-10",
+      "section": "I. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1858776006,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with you?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-1",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 2126355990,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I feel cold. I'm afraid that I've got a temperature.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-1",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 538805615,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with him?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-2",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 1788482856,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He fell downstairs. He thinks that he's hurt his left leg.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-2",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 449870629,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with them?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-3",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 763289491,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They've got mumps. They're afraid that they can't go to school next week.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-3",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 402472078,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with you?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-4",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 2126355990,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I've got a headache. I believe that I've got flu.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-4",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 1257055084,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with his car?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-5",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 1358255755,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "answer",
+      "text": "He had a car crash yesterday. He knows that he must take it to a garage.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-5",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 1111244846,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with your face?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-6",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 598420018,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I shaved this morning and cut myself. I think that I must be careful next time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-6",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 438726188,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with her?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-7",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 1075656293,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She has a toothache. She thinks that she must see the dentist.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-7",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 1576142478,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What's the matter with you?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-ii-8",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 2126355990,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I fell off my bike and hurt my back. I think that I need an X-ray.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-ii-8",
+      "section": "II. Answer the questions, using the cues given. 根据所给提示回答问题。",
+      "generation_seed": 2119810435,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the words or sentence. Make the new sentence, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 168658125,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "she , say , she , be very happy.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-1",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1841706798,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She says that she is very happy.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-1",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1645582692,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the children , say , they , already finish , their homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-2",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1599943702,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "answer",
+      "text": "The children say that they have already finished their homework.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-2",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1088670426,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "he , believe , they , arrive , in an hour's time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-3",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1001933303,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "answer",
+      "text": "He believes that they will arrive in an hour's time.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-3",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 828654914,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I , be afraid , it , rain tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-4",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 2068698474,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am afraid that it will rain tomorrow.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-4",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 705248472,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the doctor , be sure , he , have got measles.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-5",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 176040155,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The doctor is sure that he has got measles.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-5",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1459540434,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the mother , know , her baby , want , some milk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-6",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 165182061,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "answer",
+      "text": "The mother knows that her baby wants some milk.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-6",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 306982830,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "the teacher , think , students , be studying hard.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-7",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1061803004,
+      "generation_temperature": 0.45
+    },
+    {
+      "role": "answer",
+      "text": "The teacher thinks that the students are studying hard.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-7",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 530971087,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "I , be sorry , I , be late today.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-8",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 683543728,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "I am sorry that I am late today.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-8",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1364527392,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "we , understand , you , need , plenty of money.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-9",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 872738763,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We understand that you need plenty of money.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-9",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1123460498,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "John , say , he , can drive.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "grammar-iii-10",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 1089074478,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "John says that he can drive.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "grammar-iii-10",
+      "section": "III. Make sentences according to the example. 仿照例句造句。",
+      "generation_seed": 607830010,
+      "generation_temperature": 0.65
+    }
+  ]
+}
