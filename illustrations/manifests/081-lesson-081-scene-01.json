@@ -1,0 +1,28 @@
+{
+  "slot": "lesson-081-scene-01",
+  "prompt": "Tom and Sam sit in separate living-room armchairs with small glasses of whisky. Carol stands at the open kitchen doorway holding a serving dish of roast beef and potatoes, giving them an amused, exasperated look. Exactly 3 people appear.  Appearance: sam: Man about 35, short dark hair, navy jacket, pale blue shirt. carol: Woman about 33, short blond curls, light blue floral dress. tom: Man about 35, short dark hair and a neat moustache, cream patterned shirt, dark trousers. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "sam",
+    "carol",
+    "tom"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 81,
+  "seed": 81017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "a3c25484360832ad6aa88830b6e3498be9e6e58291d19cdb7983c7182f1ff976",
+  "sha256": "8acd803707b16788cae311bd2d7da2ec6ea0b3280a137a5a989b8717eeaf04e0",
+  "seconds": 46.24,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Three-person living-room scene reviewed: Sam navy jacket and Tom moustache patterned shirt sit separately; Carol floral dress holds roast dinner in kitchen doorway. Three distinct people and relevant meal props.",
+  "published_sha256": "57c252dbea4914a25cb1220cde7b2b4621261f88b01ed12d389591e40320e21a"
+}

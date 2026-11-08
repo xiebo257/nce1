@@ -690,7 +690,7 @@
   "images": {
     "lesson-081-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Carol talks to Sam at the door; Tom is upstairs in the bath; later Tom and Sam sit in armchairs with a glass of whisky; Carol cooks in the kitchen while Tom and Sam watch.",
       "characters": [
         "sam",
@@ -698,11 +698,22 @@
         "tom"
       ],
       "source": "../img/lesson-081-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Tom and Sam sit in separate living-room armchairs with small glasses of whisky. Carol stands at the open kitchen doorway holding a serving dish of roast beef and potatoes, giving them an amused, exasperated look.",
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-081/lesson-081-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Roast beef and potatoes",
+      "alt": "Tom and Sam sit in separate living-room armchairs with small glasses of whisky.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 81017,
+        "manifest": "illustrations/manifests/081-lesson-081-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
