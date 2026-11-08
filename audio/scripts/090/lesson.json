@@ -1,0 +1,551 @@
+{
+  "seed": 42,
+  "roles_file": "roles.json",
+  "source": "html/lesson-090.html",
+  "source_items": 22,
+  "notes": "Completed HTML answer keys. Supplemental vocabulary examples use modern everyday contexts. Open answers are models, not personal facts.",
+  "segments": [
+    {
+      "role": "narrator",
+      "text": "Lesson 90.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 0.8,
+      "source_item": "section-introduction",
+      "section": "lesson",
+      "generation_seed": 993144083,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Look at the pictures. Listen to the cues and practice the model sentences.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1782157705,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you read this book yet? When did you read it?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-1",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1828796883,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have. I read it last year.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-1",
+      "section": "Listen and answer the questions",
+      "generation_seed": 339166538,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Have you done your homework yet? When did you do it?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-2",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1424996034,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I have. I did it half an hour ago.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-2",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1032394697,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has he gone yet? When did he go?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-3",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1218924293,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, he has. He went an hour ago.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-3",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1527884005,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Has she spoken to him yet? When did she speak to him?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "lesson-listening-4",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1025291134,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, she has. She spoke to him yesterday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "lesson-listening-4",
+      "section": "Listen and answer the questions",
+      "generation_seed": 1301290436,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to the cues. Practice the conversation, then check.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1175172247,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "The sun set at twenty past seven.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-1",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 2103119216,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did the sun set at twenty past seven?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "written-a-1",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 791699880,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The sun didn't set at twenty past seven.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-1",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1847846047,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "He ate his lunch at one o'clock.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-2",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 230588500,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did he eat his lunch at one o'clock?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "written-a-2",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 214190702,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He didn't eat his lunch at one o'clock.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-2",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1424062576,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "They did their homework last night.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-3",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 26248834,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did they do their homework last night?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "written-a-3",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 338137497,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They didn't do their homework last night.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-3",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1943499732,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "He came by car this morning.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-4",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1192926814,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did he come by car this morning?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "written-a-4",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 174491496,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He didn't come by car this morning.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-4",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 2097361471,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "The sun rose at half past five.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-5",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1858330141,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did the sun rise at half past five?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "written-a-5",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 1936167920,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "The sun didn't rise at half past five.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-5",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 645015000,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "We swam across the river yesterday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.7,
+      "source_item": "written-a-6",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 515314874,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you swim across the river yesterday?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.4,
+      "source_item": "written-a-6",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 545619815,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "We didn't swim across the river yesterday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-a-6",
+      "section": "Written exercises A — Write questions and answers",
+      "generation_seed": 235508348,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "narrator",
+      "text": "Listen to each prompt. Pause to try it yourself, then check the model answer.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "section-introduction",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 2076804079,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you do your homework last night?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-1a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 501853008,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I did my homework last night.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-1a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1942889418,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What about Tom?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-1b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 175659902,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He hasn't done his homework yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-1b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 536786311,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did Mrs. Jones go to the butcher's this morning?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-2a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1232209624,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, she went to the butcher's this morning.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-2a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 404675390,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What about Mrs. Williams?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-2b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1805638206,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She hasn't gone to the butcher's yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-2b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 975678050,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you speak to him yesterday?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-3a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 358818160,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I spoke to him yesterday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-3a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 2013567711,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What about Susan?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-3b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 342252694,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "She hasn't spoken to him yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-3b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 2000786739,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did George swim across the river an hour ago?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-4a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1788679887,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, he swam across the river an hour ago.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-4a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 538316966,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What about Sam?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-4b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1959903602,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He hasn't swum across the river yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-4b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 421613998,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did you see that film yesterday?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-5a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 909788432,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, I saw that film yesterday.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-5a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1143634406,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What about Sam and Penny?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-5b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 48683890,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "They haven't seen that film yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-5b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 338762737,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "Did Tim take off his shoes a minute ago?",
+      "instructions": "Ask a genuine question with a gentle natural rise. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-6a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1484291412,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "Yes, he took off his shoes a minute ago.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-6a",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1967064960,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "prompt",
+      "text": "What about Frank?",
+      "instructions": "Ask a neutral information question with a gentle falling finish. ",
+      "pause_after": 1.7,
+      "source_item": "written-b-6b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 404230842,
+      "generation_temperature": 0.65
+    },
+    {
+      "role": "answer",
+      "text": "He hasn't taken off his shoes yet.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.2,
+      "source_item": "written-b-6b",
+      "section": "Written exercises B — Answer the questions",
+      "generation_seed": 1853093991,
+      "generation_temperature": 0.65
+    }
+  ],
+  "vocabulary_words": [],
+  "recovered_vocabulary": {}
+}
