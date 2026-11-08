@@ -934,7 +934,7 @@
   "images": {
     "l127-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Two couples seated at a restaurant table; the woman on the left (Karen Marsh) is speaking to the man beside her (Conrad Reeves), while Kate and Liz observe them from the opposite table.",
       "source": "img/lesson-127-01-text.jpg (textbook p.257)",
       "characters": [
@@ -943,11 +943,22 @@
         "karen-marsh",
         "conrad-reeves"
       ],
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "In a restaurant, Kate and Liz sit at a foreground table, glancing toward actress Karen Marsh and actor Conrad Reeves at a separate table in the background. Exactly four main adults, two separate tables, relaxed elegant setting.",
       "illustration_person_count": 4,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-127/l127-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "A famous actress 著名的女演员",
+      "alt": "In a restaurant, Kate and Liz sit at a foreground table, glancing toward actress Karen Marsh and actor Conrad Reeves at a separate table in the background.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 127017,
+        "manifest": "illustrations/manifests/127-l127-scene.json"
+      },
+      "layout": "above"
     }
   },
   "grammar_source_audit": {

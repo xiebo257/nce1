@@ -1,0 +1,41 @@
+{
+  "slot": "l127-scene",
+  "prompt": "In a restaurant, Kate and Liz sit at a foreground table, glancing toward actress Karen Marsh and actor Conrad Reeves at a separate table in the background. Exactly four main adults, two separate tables, relaxed elegant setting. Exactly 4 people appear.  Appearance: kate: Woman about 30, straight dark bob, pale blue blouse. liz: Woman about 29, blond wavy shoulder-length hair, cream blouse, green cardigan. karen-marsh: Woman about 40, dark waved hair, elegant navy dress. conrad-reeves: Man about 45, neatly combed gray hair, charcoal suit. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "kate",
+    "liz",
+    "karen-marsh",
+    "conrad-reeves"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 127,
+  "seed": 127017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "245d4f1f592d58c2c216dd8cd9f068d9e280403af8e6358cc791ce4d5e710871",
+  "sha256": "f6e013449e6e612c03f51668832e25ff1ad58e203761c3cf0963064879ed8fee",
+  "seconds": 43.42,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the gray-haired man seated at the RIGHT side of the foreground table entirely. Keep only the two women at the foreground table and the woman and man at the background table. Exactly FOUR people total. Preserve remaining faces, clothes, restaurant and two tables. Fill removed man area naturally with an empty restaurant chair and room.",
+        "seed": 1270112,
+        "input_sha256": "3b66c9da8352ed2ba995e7d42adf31397e2ecbe0470eb2e1154c0ffe5ed46fbf",
+        "output_sha256": "f6e013449e6e612c03f51668832e25ff1ad58e203761c3cf0963064879ed8fee",
+        "seconds": 77.45
+      }
+    ]
+  },
+  "review_notes": "Removed extra foreground man. Four main adults remain at two separate tables: Kate and Liz in foreground; Karen and Conrad at background table. Faces and table separation checked.",
+  "published_sha256": "7335e04e8d5b4de03677fd6d54b6e32c90fd385888aae13c1c2447eabdf8d9f9"
+}
