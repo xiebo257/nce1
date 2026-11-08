@@ -1,0 +1,26 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 4 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. mr-sawyer: Father about 40, round face, short dark hair, rectangular glasses, brown brimmed hat, tan coat over pale blue shirt, navy trousers. 2. sawyer-boy: Schoolboy about 9, short straight sandy hair, navy school blazer, white shirt, gray shorts. 3. sawyer-girl: Schoolgirl about 7, shoulder-length sandy hair, navy school cardigan, white blouse, gray skirt. 4. mrs-sawyer: Mother about 38, round face, short curly blond hair, blue patterned dress. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl",
+    "mrs-sawyer"
+  ],
+  "reference": null,
+  "lesson": 55,
+  "seed": 55017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "c141e980dc661911dd539edc9d047097b2a33089d866470ba8238748f72d2355",
+  "sha256": "bc0f699dd4586238267272dda853c3c516097d11c6349135050b9267f0f12f70",
+  "seconds": 36.95,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all eight final scenes. Four family members retain recognizable faces, hair and clothing. Rejected extra figures and duplicate Mrs/Mr Sawyer candidates. Scene 2 is cropped to father, son and daughter, excluding a duplicated background child; scene 4 is cropped without distortion to remove an inaccurate clock. Tea guests have distinct red/gray hair and burgundy/green clothing. Final school return has two children and night scene has the four family members.",
+  "published_sha256": "6fa879109384588d0f3c9a4b24923a20a6dd06e29aedf5510037d6b3be1223e9"
+}

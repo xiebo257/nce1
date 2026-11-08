@@ -688,16 +688,26 @@
   "images": {
     "scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The Sawyer family's house at number 87 King Street, with its front door and windows.",
       "characters": [],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
-      "illustration_scene": "A modest two-storey British family house with a garden gate, brick walls and welcoming front door. The only text is the small house number 87 next to the door. Warm morning light."
+      "illustration_scene": "A modest two-storey British family house with a garden gate, brick walls and welcoming front door. The only text is the small house number 87 next to the door. Warm morning light.",
+      "src": "assets/lesson-055/scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "A modest two-storey British family house with a garden gate, brick walls and welcoming front door.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55018,
+        "manifest": "illustrations/manifests/055-scene-01.json"
+      }
     },
     "scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "In the morning Mr. Sawyer takes the two children to school as he leaves for work.",
       "characters": [
         "mr-sawyer",
@@ -705,74 +715,145 @@
         "sawyer-girl"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
-      "illustration_scene": "In the morning Mr. Sawyer takes the two children to school as he leaves for work.",
-      "illustration_person_count": 3
+      "illustration_scene": "Exactly three people beside a family car outside their house in the morning: Mr Sawyer holds open the rear passenger door while his ONE schoolboy son and ONE schoolgirl daughter get ready to climb in. All three faces clearly visible. The father wears his brown hat, glasses and tan coat; the boy wears gray shorts and the girl wears a gray skirt with her navy cardigan.",
+      "illustration_person_count": 3,
+      "illustration_reference_crop": "portrait",
+      "illustration_seed_offset": 111,
+      "illustration_prompt_version": 2,
+      "src": "assets/lesson-055/scene-02-color.webp",
+      "width": 535,
+      "height": 380,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "Exactly three people beside a family car outside their house in the morning: Mr Sawyer holds open the rear passenger door while his ONE schoolboy son and ONE schoolgirl daughter get ready to climb in.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55130,
+        "manifest": "illustrations/manifests/055-scene-02.json"
+      }
     },
     "scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Sawyer stays at home and sweeps while doing the housework.",
       "characters": [
         "mrs-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "Mrs. Sawyer stays at home and sweeps while doing the housework.",
-      "illustration_person_count": 1
+      "illustration_person_count": 1,
+      "src": "assets/lesson-055/scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "Mrs Sawyer stays at home and sweeps while doing the housework.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55020,
+        "manifest": "illustrations/manifests/055-scene-03.json"
+      }
     },
     "scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Sawyer eats lunch at the table at noon, with a clock visible nearby.",
       "characters": [
         "mrs-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
-      "illustration_scene": "Mrs. Sawyer eats lunch at the table at noon, with a clock visible nearby.",
-      "illustration_person_count": 1
+      "illustration_scene": "Mrs Sawyer sits ALONE at her kitchen table eating lunch at noon. A single place setting with a plate of food and one cup. Quiet kitchen, empty chairs, a wall clock behind her. There is only one woman in the picture.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-055/scene-04-color.webp",
+      "width": 768,
+      "height": 406,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "Mrs Sawyer sits ALONE at her kitchen table eating lunch at noon.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55132,
+        "manifest": "illustrations/manifests/055-scene-04.json"
+      }
     },
     "scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "In the afternoon Mrs. Sawyer sits with two friends and they drink tea together.",
       "characters": [
         "mrs-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
-      "illustration_scene": "In the afternoon Mrs. Sawyer sits with two friends and they drink tea together.",
-      "illustration_person_count": 3
+      "illustration_scene": "Mrs Sawyer drinks tea at a table with TWO visually different adult female friends: one friend has long red hair and a burgundy blouse, the other has short gray hair and a green cardigan. Mrs Sawyer is the only woman with short blond curls and a blue floral dress. Three distinct women, three teacups, friendly afternoon conversation.",
+      "illustration_person_count": 3,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-055/scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "Mrs Sawyer drinks tea at a table with TWO visually different adult female friends: one friend has long red hair and a burgundy blouse, the other has short gray hair and a green cardigan.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55133,
+        "manifest": "illustrations/manifests/055-scene-05.json"
+      }
     },
     "scene-06": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The two Sawyer children return home from school early in the evening.",
       "characters": [
         "sawyer-boy",
         "sawyer-girl"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "The two Sawyer children return home from school early in the evening.",
-      "illustration_person_count": 2
+      "illustration_person_count": 2,
+      "src": "assets/lesson-055/scene-06-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "The two Sawyer children return home from school early in the evening.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55023,
+        "manifest": "illustrations/manifests/055-scene-06.json"
+      }
     },
     "scene-07": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mr. Sawyer arrives home late from work in his car outside the family house.",
       "characters": [
         "mr-sawyer"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
-      "illustration_scene": "Mr. Sawyer arrives home late from work in his car outside the family house.",
-      "illustration_person_count": 1
+      "illustration_scene": "Mr Sawyer arrives home ALONE from work late in the afternoon. He stands beside his parked car holding its open driver door, outside the family brick house. Only one man: brown hat, glasses, tan coat, pale blue shirt and navy trousers. The passenger seats are empty.",
+      "illustration_person_count": 1,
+      "illustration_prompt_version": 2,
+      "illustration_reference_crop": "portrait",
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-055/scene-07-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "Mr Sawyer arrives home ALONE from work late in the afternoon.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55135,
+        "manifest": "illustrations/manifests/055-scene-07.json"
+      }
     },
     "scene-08": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "At night the children do homework before bed; Mr. Sawyer reads a newspaper while he and Mrs. Sawyer sometimes watch television.",
       "characters": [
         "mr-sawyer",
@@ -781,9 +862,19 @@
         "sawyer-girl"
       ],
       "source": "../img/lesson-055-01-text.jpg",
-      "reason": "Odd lesson: story scene illustration deferred.",
       "illustration_scene": "A cozy family living room at night. The Sawyer boy and girl do homework together at a small table. Mr Sawyer reads a newspaper in an armchair and Mrs Sawyer watches television nearby. Exactly four people, same established faces and clothing.",
-      "illustration_person_count": 4
+      "illustration_person_count": 4,
+      "src": "assets/lesson-055/scene-08-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The Sawyer family",
+      "alt": "A cozy family living room at night.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 55025,
+        "manifest": "illustrations/manifests/055-scene-08.json"
+      }
     }
   },
   "verification": {
@@ -835,5 +926,6 @@
       ]
     }
   },
-  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "illustration_reference": "illustrations/references/055-cast.webp"
 }

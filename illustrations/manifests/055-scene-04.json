@@ -1,0 +1,47 @@
+{
+  "slot": "scene-04",
+  "prompt": "Mrs Sawyer sits ALONE at her kitchen table eating lunch at noon. A single place setting with a plate of food and one cup. Quiet kitchen, empty chairs, a wall clock behind her. There is only one woman in the picture. Only 1 person appears, alone. Image 1 is the appearance reference for mrs-sawyer. Keep their same faces, hairstyles and clothing. Appearance: mrs-sawyer: Mother about 38, round face, short curly blond hair, blue patterned dress. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mrs-sawyer"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-sawyer"
+  ],
+  "cast_layout": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl",
+    "mrs-sawyer"
+  ],
+  "lesson": 55,
+  "seed": 55132,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "bc0f699dd4586238267272dda853c3c516097d11c6349135050b9267f0f12f70",
+  "fingerprint": "ea22ffacda227fec1ef68fa5328aed88743a253465bcef0423d49a12ac20aa80",
+  "sha256": "ddcfef7ba584401cce12e3b831becb82a7544a023c0ab73e8312ed39df3202c5",
+  "seconds": 50.57,
+  "peak_mlx_gb": 4.996,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "crop": [
+      0,
+      106,
+      768,
+      512
+    ],
+    "output_size": [
+      768,
+      406
+    ],
+    "source_sha256": "7ca0059f570505d40cd30c002fd8bc81a9cda9d501b340c320f12bcf1bf7b50d",
+    "reason": "Remove an inaccurate decorative clock; preserve the single-person lunch scene without distortion."
+  },
+  "review_notes": "Reviewed cast and all eight final scenes. Four family members retain recognizable faces, hair and clothing. Rejected extra figures and duplicate Mrs/Mr Sawyer candidates. Scene 2 is cropped to father, son and daughter, excluding a duplicated background child; scene 4 is cropped without distortion to remove an inaccurate clock. Tea guests have distinct red/gray hair and burgundy/green clothing. Final school return has two children and night scene has the four family members.",
+  "published_sha256": "0d628aa896254cd44c2a4f7a8a5932bbd75a0eda4e3f4bead5a97c7bf1bd0cbe"
+}

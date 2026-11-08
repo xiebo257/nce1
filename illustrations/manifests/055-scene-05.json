@@ -1,0 +1,34 @@
+{
+  "slot": "scene-05",
+  "prompt": "Mrs Sawyer drinks tea at a table with TWO visually different adult female friends: one friend has long red hair and a burgundy blouse, the other has short gray hair and a green cardigan. Mrs Sawyer is the only woman with short blond curls and a blue floral dress. Three distinct women, three teacups, friendly afternoon conversation. Exactly 3 people appear. Image 1 is the appearance reference for mrs-sawyer. Keep their same faces, hairstyles and clothing. Appearance: mrs-sawyer: Mother about 38, round face, short curly blond hair, blue patterned dress. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mrs-sawyer"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-sawyer"
+  ],
+  "cast_layout": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl",
+    "mrs-sawyer"
+  ],
+  "reference_crop": "portrait",
+  "lesson": 55,
+  "seed": 55133,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "bc0f699dd4586238267272dda853c3c516097d11c6349135050b9267f0f12f70",
+  "fingerprint": "efb6c9cb7f5ddabd222b129e13a98971740878df58bf63b6b9b054a632f94cd2",
+  "sha256": "437abf1302da9bcc1a7d2062727c3f27f3d4b731b457c46190e26afd60e56855",
+  "seconds": 45.49,
+  "peak_mlx_gb": 5.118,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all eight final scenes. Four family members retain recognizable faces, hair and clothing. Rejected extra figures and duplicate Mrs/Mr Sawyer candidates. Scene 2 is cropped to father, son and daughter, excluding a duplicated background child; scene 4 is cropped without distortion to remove an inaccurate clock. Tea guests have distinct red/gray hair and burgundy/green clothing. Final school return has two children and night scene has the four family members.",
+  "published_sha256": "d7272d57811a556a0a756306a9c9aa985c5acfd9b3e87d2bdf4466df81046f98"
+}

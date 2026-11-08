@@ -1,0 +1,35 @@
+{
+  "slot": "scene-06",
+  "prompt": "Exactly 2 people appear in the entire image. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is sawyer-boy, reference 2 is sawyer-girl). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: The two Sawyer children return home from school early in the evening. Characters in this scene: sawyer-boy: Schoolboy about 9, short straight sandy hair, navy school blazer, white shirt, gray shorts. sawyer-girl: Schoolgirl about 7, shoulder-length sandy hair, navy school cardigan, white blouse, gray skirt. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "sawyer-boy",
+    "sawyer-girl"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "sawyer-boy",
+    "sawyer-girl"
+  ],
+  "cast_layout": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl",
+    "mrs-sawyer"
+  ],
+  "lesson": 55,
+  "seed": 55023,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "bc0f699dd4586238267272dda853c3c516097d11c6349135050b9267f0f12f70",
+  "fingerprint": "81c75ae61e0be3479c54dd588c271c70ba6c96ebbf3e5e5502aeae0e56a6e84e",
+  "sha256": "00f388e82d58cee4900a4fc43c1312ba3e1c42056766f16ecda60c759147c37b",
+  "seconds": 51.61,
+  "peak_mlx_gb": 5.164,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all eight final scenes. Four family members retain recognizable faces, hair and clothing. Rejected extra figures and duplicate Mrs/Mr Sawyer candidates. Scene 2 is cropped to father, son and daughter, excluding a duplicated background child; scene 4 is cropped without distortion to remove an inaccurate clock. Tea guests have distinct red/gray hair and burgundy/green clothing. Final school return has two children and night scene has the four family members.",
+  "published_sha256": "0111f5dff2e10c94ca7df2076374309484d01295cec7dca035692ea8f54dd352"
+}

@@ -1,0 +1,52 @@
+{
+  "slot": "scene-02",
+  "prompt": "Exactly three people beside a family car outside their house in the morning: Mr Sawyer holds open the rear passenger door while his ONE schoolboy son and ONE schoolgirl daughter get ready to climb in. All three faces clearly visible. The father wears his brown hat, glasses and tan coat; the boy wears gray shorts and the girl wears a gray skirt with her navy cardigan. Exactly 3 people appear. Image 1 is the appearance reference for mr-sawyer. Image 2 is the appearance reference for sawyer-boy. Image 3 is the appearance reference for sawyer-girl. Keep their same faces, hairstyles and clothing. Appearance: mr-sawyer: Father about 40, round face, short dark hair, rectangular glasses, brown brimmed hat, tan coat over pale blue shirt, navy trousers. sawyer-boy: Schoolboy about 9, short straight sandy hair, navy school blazer, white shirt, gray shorts. sawyer-girl: Schoolgirl about 7, shoulder-length sandy hair, navy school cardigan, white blouse, gray skirt. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "cast": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl"
+  ],
+  "cast_layout": [
+    "mr-sawyer",
+    "sawyer-boy",
+    "sawyer-girl",
+    "mrs-sawyer"
+  ],
+  "reference_crop": "portrait",
+  "lesson": 55,
+  "seed": 55130,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "bc0f699dd4586238267272dda853c3c516097d11c6349135050b9267f0f12f70",
+  "fingerprint": "423c29bdfc9bf93310a7256d9961650ba2f0d7edee5279d5ee3f3fa3fd530644",
+  "sha256": "8e5a25cb0b40105af81257fc88ce24d1e3a2348207da140df1984c6a5c050973",
+  "seconds": 43.87,
+  "peak_mlx_gb": 5.119,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "crop": [
+      0,
+      0,
+      535,
+      380
+    ],
+    "output_size": [
+      535,
+      380
+    ],
+    "source_sha256": "3e4dd506c6a76a7a2e149ddb2d25f84c6b5b5482f829011cb70801322fe5156b",
+    "reason": "Frame the father and two children; remove the duplicate background daughter on the far right."
+  },
+  "review_notes": "Reviewed cast and all eight final scenes. Four family members retain recognizable faces, hair and clothing. Rejected extra figures and duplicate Mrs/Mr Sawyer candidates. Scene 2 is cropped to father, son and daughter, excluding a duplicated background child; scene 4 is cropped without distortion to remove an inaccurate clock. Tea guests have distinct red/gray hair and burgundy/green clothing. Final school return has two children and night scene has the four family members.",
+  "published_sha256": "50cb1f8c6b75fa51c9f58387448bd7b2a811fea758b3a4b61f05985e576b263f"
+}
