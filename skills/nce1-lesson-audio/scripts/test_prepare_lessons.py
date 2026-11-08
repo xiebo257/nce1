@@ -20,6 +20,10 @@ class CompilerRegression(unittest.TestCase):
  def test_printed_item_codes_are_not_spoken(self):
   lesson=Lesson(113);lesson.add('1e. David will go.')
   self.assertEqual(lesson.s[-1]['text'],'David will go.')
+  lesson.add('2. b. Have they got a book?')
+  self.assertEqual(lesson.s[-1]['text'],'Have they got a book?')
+  lesson.add('1. finish my homework.')
+  self.assertEqual(lesson.s[-1]['text'],'finish my homework.')
   lesson.add('c. Have they got a book?')
   self.assertEqual(lesson.s[-1]['text'],'Have they got a book?')
  def test_phone_asr_spelling_preserves_every_digit(self):

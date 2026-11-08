@@ -64,7 +64,7 @@ class Lesson(base.Lesson):
    used.add(speaker)
    CAST[label]=speaker
  def add(self,text,role='narrator',pause=.8,source=None,section=None,extra='',**meta):
-  text=re.sub(r'^(?:\d+[.]?[a-z][.]?|[a-z][.])\s+(?=[A-Z])','',text)
+  text=re.sub(r'^(?:\d{1,2}\.\s+(?:[a-z]\.\s+)?|(?:\d+[.]?[a-z][.]?|[a-z][.])\s+)(?=[A-Za-z])','',text)
   if self.n==119:text=re.sub(r'^[a-j] (?=(?:After|Before)\b)','',text)
   text=text.replace('×','times').replace('÷','divided by').replace('=','equals')
   # Leading-zero identifiers are digit sequences, never cardinal numbers.
