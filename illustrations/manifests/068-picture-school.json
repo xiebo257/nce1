@@ -1,0 +1,107 @@
+{
+  "slot": "picture-school",
+  "prompt": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Three children in caps walking past a school gate with a 'SCHOOL' sign. Caption: 'Monday, February 2nd / school'.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/068-picture-school-clean.png",
+  "lesson": 68,
+  "seed": 68018,
+  "width": 640,
+  "height": 400,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "25e67cb47d602b7d79b99952f204311b27e22c0afb86c9b795cdb2b75a7f8152",
+  "fingerprint": "ba686e4571234375df96870d85b96aa1a3b6c1af0ffddcc077cce00aa8a615ad",
+  "sha256": "d423b696fcefba015cf58ef1f3309d2ac4883f351281cf802899a7de5c3be266",
+  "status": "visually-reviewed",
+  "seconds": 17.954,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 68901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 10 textbook picture tiles in their EXACT 4-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1280,
+    "height": 672,
+    "steps": 4,
+    "seconds": 179.54,
+    "peak_mlx_gb": 6.628,
+    "input_sha256": "b1f4a5da18f564563afd822bbeb109ca41718c6eb944267a040d1f9e5c6b6852",
+    "output_sha256": "bb1324caedf89f713d71543317202321f59495ad96aa03a0cb8b01b4f1255200",
+    "slots": [
+      "picture-church",
+      "picture-school",
+      "picture-office",
+      "picture-butcher",
+      "picture-hairdresser",
+      "picture-baker",
+      "picture-dairy",
+      "picture-home",
+      "picture-grocer",
+      "picture-greengrocer"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/068-picture-church-clean.png",
+        "sha256": "3b72c350caf648c9c5d7e5d604c109737866c14afe352bd9c7452c5870c5d5b9"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-school-clean.png",
+        "sha256": "25e67cb47d602b7d79b99952f204311b27e22c0afb86c9b795cdb2b75a7f8152"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-office-clean.png",
+        "sha256": "fac3dbc8d449a86b68848e590c34ccde226644f069edef8a09d31770d6393031"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-butcher-clean.png",
+        "sha256": "017027144d6192d53b37c7d01ee85f5d79a4d996a60d781239ec138de735dc4e"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-hairdresser-clean.png",
+        "sha256": "f069b3d405b746b350cd2938e098585eebb9179d50097ede3cf6c5e7b142bb0d"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-baker-clean.png",
+        "sha256": "adbdaf030cd69e11bc8fd1f020b2c3cc20aa5b53e5d5da4228625108ebb5e2a4"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-dairy-clean.png",
+        "sha256": "c74eb6e8ec99425b5df1351061ab8e4e9e10078042a51c4702d0925e152f8417"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-home-clean.png",
+        "sha256": "a2a2c593b15f6022511fa6e63cde5b053ae513024d2fe13861bd5d4dba0d7d80"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-grocer-clean.png",
+        "sha256": "6f8f87367dc6b5064e816145e1800e61f3240099b6148454b4cb2613071dd09b"
+      },
+      {
+        "path": "illustrations/references/source/068-picture-greengrocer-clean.png",
+        "sha256": "462a9f1117b30a84cdd08106cfa3ecd9a16f5bcafb2274b8dfa876bab667aa3e"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      320,
+      0,
+      640,
+      224
+    ],
+    "output_size": [
+      320,
+      224
+    ],
+    "source_atlas_sha256": "b1f4a5da18f564563afd822bbeb109ca41718c6eb944267a040d1f9e5c6b6852",
+    "color_guide_sha256": "bb1324caedf89f713d71543317202321f59495ad96aa03a0cb8b01b4f1255200",
+    "region_overrides": []
+  },
+  "review_notes": "Ten complete location pictures checked: church, school, office, butcher, hairdresser, baker, dairy, home, grocer, greengrocer. Source linework preserves people and shop cues; restored mother face color in home panel. No cut-off bottom row.",
+  "published_sha256": "848778306cb41f5431db2f81508ef8f118c3a72ac6773f17675483bc77dd0673"
+}

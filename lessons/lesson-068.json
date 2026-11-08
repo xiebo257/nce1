@@ -293,15 +293,15 @@
       "status": "ready",
       "description": "A church interior with arched windows; a priest in a vestment stands at the altar, and two children holding hands walk past. Caption: 'Sunday, January 1st / church'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-church.jpg",
-      "width": 501,
-      "height": 312,
+      "src": "assets/lesson-068/picture-church-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-church-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -319,6 +319,13 @@
           247,
           590
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68017,
+        "manifest": "illustrations/manifests/068-picture-church.json"
       }
     },
     "picture-school": {
@@ -326,15 +333,15 @@
       "status": "ready",
       "description": "Three children in caps walking past a school gate with a 'SCHOOL' sign. Caption: 'Monday, February 2nd / school'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-school.jpg",
-      "width": 501,
-      "height": 312,
+      "src": "assets/lesson-068/picture-school-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-school-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -352,6 +359,13 @@
           466,
           590
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68018,
+        "manifest": "illustrations/manifests/068-picture-school.json"
       }
     },
     "picture-office": {
@@ -359,15 +373,15 @@
       "status": "ready",
       "description": "A woman with long hair sits at a desk typing on an old computer; a bald man sits at another desk. Caption: 'Tuesday, March 3rd / the office'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-office.jpg",
-      "width": 501,
-      "height": 312,
+      "src": "assets/lesson-068/picture-office-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-office-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -385,6 +399,13 @@
           684,
           589
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68019,
+        "manifest": "illustrations/manifests/068-picture-office.json"
       }
     },
     "picture-butcher": {
@@ -392,15 +413,15 @@
       "status": "ready",
       "description": "A butcher in a white coat and cap stands behind a counter of cuts of meat; two customers hold baskets. Caption: 'Wednesday, April 4th / the butcher's'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-butcher.jpg",
-      "width": 501,
-      "height": 313,
+      "src": "assets/lesson-068/picture-butcher-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-butcher-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -418,6 +439,13 @@
           249,
           744
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68020,
+        "manifest": "illustrations/manifests/068-picture-butcher.json"
       }
     },
     "picture-hairdresser": {
@@ -425,15 +453,15 @@
       "status": "ready",
       "description": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair. Caption: 'Thursday, May 5th / the hairdresser's'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-hairdresser.jpg",
-      "width": 501,
-      "height": 312,
+      "src": "assets/lesson-068/picture-hairdresser-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-hairdresser-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -451,6 +479,13 @@
           467,
           744
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68021,
+        "manifest": "illustrations/manifests/068-picture-hairdresser.json"
       }
     },
     "picture-baker": {
@@ -458,15 +493,15 @@
       "status": "ready",
       "description": "A baker stands behind a counter of loaves and pastries; a customer points at the goods. Caption: 'Friday, June 6th / the baker's'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-baker.jpg",
-      "width": 501,
-      "height": 326,
+      "src": "assets/lesson-068/picture-baker-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-baker-clean.png",
       "illustration_width": 640,
       "illustration_height": 416,
@@ -484,6 +519,13 @@
           686,
           744
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68022,
+        "manifest": "illustrations/manifests/068-picture-baker.json"
       }
     },
     "picture-dairy": {
@@ -491,15 +533,15 @@
       "status": "ready",
       "description": "A shop with bottles of milk and cream on shelves; two customers stand at the counter. Caption: 'Saturday, July 7th / the dairy'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-dairy.jpg",
-      "width": 501,
-      "height": 225,
+      "src": "assets/lesson-068/picture-dairy-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-dairy-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -517,6 +559,13 @@
           250,
           897
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68023,
+        "manifest": "illustrations/manifests/068-picture-dairy.json"
       }
     },
     "picture-home": {
@@ -524,15 +573,15 @@
       "status": "ready",
       "description": "A man reads a newspaper in an armchair; a woman and a child sit on the floor with toys. Caption: 'Sunday, August 8th / home'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-home.jpg",
-      "width": 501,
-      "height": 225,
+      "src": "assets/lesson-068/picture-home-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-home-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -550,6 +599,13 @@
           468,
           897
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68024,
+        "manifest": "illustrations/manifests/068-picture-home.json"
       }
     },
     "picture-grocer": {
@@ -557,15 +613,15 @@
       "status": "ready",
       "description": "A shop with shelves of sugar, tea, jam and bacon; a shopkeeper with a moustache stands behind the counter facing a customer. Caption: 'Monday, September 9th / the grocer's'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-grocer.jpg",
-      "width": 501,
-      "height": 225,
+      "src": "assets/lesson-068/picture-grocer-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-grocer-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -583,6 +639,13 @@
           687,
           897
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68025,
+        "manifest": "illustrations/manifests/068-picture-grocer.json"
       }
     },
     "picture-greengrocer": {
@@ -590,15 +653,15 @@
       "status": "ready",
       "description": "A fruit-and-vegetable stall with crates of produce; two customers stand at the counter. Caption: 'Tuesday, October 10th / the greengrocer's'.",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-greengrocer.jpg",
-      "width": 501,
-      "height": 225,
+      "src": "assets/lesson-068/picture-greengrocer-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/068-picture-greengrocer-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -616,6 +679,13 @@
           469,
           1051
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 68026,
+        "manifest": "illustrations/manifests/068-picture-greengrocer.json"
       }
     }
   },
