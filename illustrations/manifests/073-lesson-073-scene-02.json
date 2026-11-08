@@ -1,0 +1,35 @@
+{
+  "slot": "lesson-073-scene-02",
+  "prompt": "Mrs Mills approaches the German tourist waiting beside a bus-stop pole. He turns toward her attentively. Two people on a London pavement, plain brick wall behind them, shop and road-name signs outside the frame. Exactly 2 people appear. Image 1 is the appearance reference for mrs-mills. Image 2 is the appearance reference for german-tourist. Keep their same faces, hairstyles and clothing. Appearance: mrs-mills: Woman about 50, softly curled auburn bob, small navy hat, camel coat, burgundy scarf, brown handbag. german-tourist: Man about 40, short sandy hair, small neat moustache, gray jacket, pale blue shirt, small dark-green phrasebook. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "cast_layout": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 73,
+  "seed": 73019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "fd1fc37c916ce3f2059cee16cf5c98bb33bcfe2eccb770dcfb56651892421d12",
+  "fingerprint": "1ce94131c631339ed68ad8eae4899a93330f56a6b80c31ab73fdd1c6c96c2f25",
+  "sha256": "d348ad65edb247e97d938bc5e3f0494cf5171ab2eb19792b66a74e164e5486fa",
+  "seconds": 46.83,
+  "peak_mlx_gb": 5.257,
+  "status": "visually-reviewed",
+  "review_notes": "Nine scenes compared with two-person cast: Mrs Mills retains navy hat, camel coat and burgundy scarf; tourist retains moustache and gray suit. Floating book removed from scene 5; phrasebook reading in scene 8 is outdoors at bus stop. Book appears only when held naturally.",
+  "published_sha256": "0030a1a983bf9f7b52eeff29d8e4aff8d147e46e853397e660eb53a318210f17"
+}

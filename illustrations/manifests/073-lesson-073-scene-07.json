@@ -1,0 +1,33 @@
+{
+  "slot": "lesson-073-scene-07",
+  "prompt": "A close portrait of Mrs Mills alone, her expression changing to friendly realization, with a small understanding smile. Same navy hat, auburn hair, camel coat and burgundy scarf. Soft London street background. Only 1 person appears, alone. Image 1 is the appearance reference for mrs-mills. Keep their same faces, hairstyles and clothing. Appearance: mrs-mills: Woman about 50, softly curled auburn bob, small navy hat, camel coat, burgundy scarf, brown handbag. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mrs-mills"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-mills"
+  ],
+  "cast_layout": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 73,
+  "seed": 73024,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "fd1fc37c916ce3f2059cee16cf5c98bb33bcfe2eccb770dcfb56651892421d12",
+  "fingerprint": "ee57474d31eda5a9cb46d9a0ffa712ac617bdf4901b417d28d8cd6ff5ba13a0c",
+  "sha256": "553e87a6f4cc932bb8757d548c32f1b85ed4e16466ba75f035f3e5c522c0803b",
+  "seconds": 53.28,
+  "peak_mlx_gb": 5.188,
+  "status": "visually-reviewed",
+  "review_notes": "Nine scenes compared with two-person cast: Mrs Mills retains navy hat, camel coat and burgundy scarf; tourist retains moustache and gray suit. Floating book removed from scene 5; phrasebook reading in scene 8 is outdoors at bus stop. Book appears only when held naturally.",
+  "published_sha256": "c0609321e60bd1802c6cd4c59807ba403774f88e90d7d58516f3bf4791ac30b3"
+}

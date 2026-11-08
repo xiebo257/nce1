@@ -1,0 +1,45 @@
+{
+  "slot": "lesson-073-scene-08",
+  "prompt": "The German tourist alone studies an OPEN small green pocket phrasebook held close in both hands. The page faces him and the camera sees its green cover. He reads carefully with a concentrated expression; same sandy hair, moustache and gray jacket. Only 1 person appears, alone. Image 1 is the appearance reference for german-tourist. Keep their same faces, hairstyles and clothing. Appearance: german-tourist: Man about 40, short sandy hair, small neat moustache, gray jacket, pale blue shirt, small dark-green phrasebook. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "german-tourist"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "german-tourist"
+  ],
+  "cast_layout": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 73,
+  "seed": 73025,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "fd1fc37c916ce3f2059cee16cf5c98bb33bcfe2eccb770dcfb56651892421d12",
+  "fingerprint": "c9f66d11ab044e2781a71da802dc0ff4714a5bded2bd44e33c223a3cee43b857",
+  "sha256": "76db542471971ba0381fabd5c21a4876e0175c053cec82cd70f1e43a8103dbec",
+  "seconds": 54.17,
+  "peak_mlx_gb": 5.188,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Change only the background: this man is outdoors on a London pavement beside a bus stop, with soft-focus brick houses and daylight behind him. Preserve exactly his face, moustache, gray jacket, pale blue shirt, hands holding the open green phrasebook and his reading pose. No indoor wall or furniture.",
+        "seed": 730811,
+        "input_sha256": "75bf4bd5b3a0a52655612e22f2efa7e0da513132226e9a386b1c2acdb2e99987",
+        "output_sha256": "76db542471971ba0381fabd5c21a4876e0175c053cec82cd70f1e43a8103dbec",
+        "seconds": 79.8
+      }
+    ]
+  },
+  "review_notes": "Nine scenes compared with two-person cast: Mrs Mills retains navy hat, camel coat and burgundy scarf; tourist retains moustache and gray suit. Floating book removed from scene 5; phrasebook reading in scene 8 is outdoors at bus stop. Book appears only when held naturally.",
+  "published_sha256": "126267236d4cd6a15993770ea955982e6f666bc09cde20e6e02aadad0fde4e01"
+}

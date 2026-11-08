@@ -1518,135 +1518,225 @@
   "images": {
     "lesson-073-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Mills is walking along a street in London; she suddenly has an idea.",
       "characters": [
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs Mills walks alone along a quiet London residential street, looking thoughtfully ahead. Brick houses, plain garden walls and a red bus in the distance establish the setting without readable signs.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "Mrs Mills walks alone along a quiet London residential street, looking thoughtfully ahead.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73018,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-01.json"
+      }
     },
     "lesson-073-scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Mills sees a man waiting at the bus stop and stops him.",
       "characters": [
         "mrs-mills",
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs Mills approaches the German tourist waiting beside a bus-stop pole. He turns toward her attentively. Two people on a London pavement, plain brick wall behind them, shop and road-name signs outside the frame.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "Mrs Mills approaches the German tourist waiting beside a bus-stop pole.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73019,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-02.json"
+      }
     },
     "lesson-073-scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Mills asks the man if this is a long way to King Street.",
       "characters": [
         "mrs-mills",
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs Mills gestures politely down the street while asking the waiting tourist for directions. He looks at her with a friendly but uncertain expression. Two people by the same bus stop, natural daylight.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "Mrs Mills gestures politely down the street while asking the waiting tourist for directions.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73020,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-03.json"
+      }
     },
     "lesson-073-scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The man smiles pleasantly at Mrs. Mills without answering her question.",
       "characters": [
         "german-tourist",
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The German tourist smiles pleasantly at Mrs Mills, who waits for a response. A close two-person view, same clothes and hair, quiet London pavement behind them.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "The German tourist smiles pleasantly at Mrs Mills, who waits for a response.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73021,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-04.json"
+      }
     },
     "lesson-073-scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Mills apologises and asks the man if he is English.",
       "characters": [
         "mrs-mills",
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs Mills raises one hand apologetically near her chest and looks enquiringly at the tourist. He listens politely. Two people at the same bus stop, natural facial expressions.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "Mrs Mills raises one hand apologetically near her chest and looks enquiringly at the tourist.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73022,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-05.json"
+      }
     },
     "lesson-073-scene-06": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The man tells Mrs. Mills that he is German, not English.",
       "characters": [
         "german-tourist",
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The German tourist gestures gently toward himself while Mrs Mills listens and begins to understand. He wears his same gray jacket; her camel coat, burgundy scarf and navy hat remain unchanged.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-06-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "The German tourist gestures gently toward himself while Mrs Mills listens and begins to understand.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73023,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-06.json"
+      }
     },
     "lesson-073-scene-07": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Mills realises why the man could not understand her and says, 'Oh, that's it!'",
       "characters": [
         "mrs-mills"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "A close portrait of Mrs Mills alone, her expression changing to friendly realization, with a small understanding smile. Same navy hat, auburn hair, camel coat and burgundy scarf. Soft London street background.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-07-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "A close portrait of Mrs Mills alone, her expression changing to friendly realization, with a small understanding smile.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73024,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-07.json"
+      }
     },
     "lesson-073-scene-08": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The man takes a small phrasebook out of his pocket and reads it slowly: 'I do not speak English.'",
       "characters": [
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The German tourist alone studies an OPEN small green pocket phrasebook held close in both hands. The page faces him and the camera sees its green cover. He reads carefully with a concentrated expression; same sandy hair, moustache and gray jacket.",
       "illustration_person_count": 1,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-08-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "The German tourist alone studies an OPEN small green pocket phrasebook held close in both hands.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73025,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-08.json"
+      }
     },
     "lesson-073-scene-09": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Mrs. Mills apologises to the man and says goodbye.",
       "characters": [
         "mrs-mills",
         "german-tourist"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Mrs Mills and the German tourist smile politely and say goodbye with small hand gestures. He holds the closed green phrasebook at his side. The same two people stand beside the London bus stop, no written dialogue.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-073/lesson-073-scene-09-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Did you lose your way?",
+      "alt": "Mrs Mills and the German tourist smile politely and say goodbye with small hand gestures.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 73026,
+        "manifest": "illustrations/manifests/073-lesson-073-scene-09.json"
+      }
     }
   },
   "grammar_source_audit": {
@@ -1662,5 +1752,6 @@
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
   "illustration_cast_layout": "portrait-strip",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_reference": "illustrations/references/073-cast.webp"
 }

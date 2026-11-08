@@ -1,0 +1,35 @@
+{
+  "slot": "lesson-073-scene-06",
+  "prompt": "The German tourist gestures gently toward himself while Mrs Mills listens and begins to understand. He wears his same gray jacket; her camel coat, burgundy scarf and navy hat remain unchanged. Exactly 2 people appear. Image 1 is the appearance reference for german-tourist. Image 2 is the appearance reference for mrs-mills. Keep their same faces, hairstyles and clothing. Appearance: german-tourist: Man about 40, short sandy hair, small neat moustache, gray jacket, pale blue shirt, small dark-green phrasebook. mrs-mills: Woman about 50, softly curled auburn bob, small navy hat, camel coat, burgundy scarf, brown handbag. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "german-tourist",
+    "mrs-mills"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "german-tourist",
+    "mrs-mills"
+  ],
+  "cast_layout": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 73,
+  "seed": 73023,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "fd1fc37c916ce3f2059cee16cf5c98bb33bcfe2eccb770dcfb56651892421d12",
+  "fingerprint": "a37f00472a23f91a368f455314fcd77ee69e59a74b2e67a4b19118ac351814c8",
+  "sha256": "32b7557a5fb613373e658092a98c40f127d206666f054243510c33f36ccebfd4",
+  "seconds": 64.11,
+  "peak_mlx_gb": 5.257,
+  "status": "visually-reviewed",
+  "review_notes": "Nine scenes compared with two-person cast: Mrs Mills retains navy hat, camel coat and burgundy scarf; tourist retains moustache and gray suit. Floating book removed from scene 5; phrasebook reading in scene 8 is outdoors at bus stop. Book appears only when held naturally.",
+  "published_sha256": "587e06787c0c92cfb69f1ea3c04bd7d844c6a2b337f72ab63860152b2e88f3c4"
+}

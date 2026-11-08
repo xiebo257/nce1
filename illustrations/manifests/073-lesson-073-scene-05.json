@@ -1,0 +1,47 @@
+{
+  "slot": "lesson-073-scene-05",
+  "prompt": "Mrs Mills raises one hand apologetically near her chest and looks enquiringly at the tourist. He listens politely. Two people at the same bus stop, natural facial expressions. Exactly 2 people appear. Image 1 is the appearance reference for mrs-mills. Image 2 is the appearance reference for german-tourist. Keep their same faces, hairstyles and clothing. Appearance: mrs-mills: Woman about 50, softly curled auburn bob, small navy hat, camel coat, burgundy scarf, brown handbag. german-tourist: Man about 40, short sandy hair, small neat moustache, gray jacket, pale blue shirt, small dark-green phrasebook. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "cast_layout": [
+    "mrs-mills",
+    "german-tourist"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 73,
+  "seed": 73022,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "fd1fc37c916ce3f2059cee16cf5c98bb33bcfe2eccb770dcfb56651892421d12",
+  "fingerprint": "10e137d636148a7cd2192dc197f06c836f50a70291237de05f8e7de9b2fd281c",
+  "sha256": "6ee56f903b5f77365221f16f5619850ce89403af6d0881cde29c7e3d485d797c",
+  "seconds": 66.35,
+  "peak_mlx_gb": 5.257,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the floating green book from the chest of the man. Leave his gray jacket natural and empty. Preserve the man, moustache, woman, navy hat, camel coat, burgundy scarf, hands, street background and all other details.",
+        "seed": 730511,
+        "input_sha256": "45fd91a0af93d3bffb0fa2c6ebe7865dbe8fe8175297a24a8ee1197f90f33ac9",
+        "output_sha256": "6ee56f903b5f77365221f16f5619850ce89403af6d0881cde29c7e3d485d797c",
+        "seconds": 88.39
+      }
+    ]
+  },
+  "review_notes": "Nine scenes compared with two-person cast: Mrs Mills retains navy hat, camel coat and burgundy scarf; tourist retains moustache and gray suit. Floating book removed from scene 5; phrasebook reading in scene 8 is outdoors at bus stop. Book appears only when held naturally.",
+  "published_sha256": "0419a8c0bb3e72539d72ceac61d143e0b30f88a12e863961cd37c7777464a183"
+}
