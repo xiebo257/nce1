@@ -301,12 +301,23 @@
       "generation_temperature": 0.65
     },
     {
+      "role": "narrator",
+      "text": "These are model completions. Try your own sentence first, then listen.",
+      "instructions": "Use a relaxed natural falling finish for statements. ",
+      "pause_after": 1.4,
+      "source_item": "grammar-model-context",
+      "section": "Grammar II: Complete the sentences, using your own words",
+      "generation_seed": 580863844,
+      "generation_temperature": 0.65
+    },
+    {
       "role": "answer",
       "text": "While I was having my breakfast this morning, the telephone rang.",
       "instructions": "Use a relaxed natural falling finish for statements. ",
       "pause_after": 1.5,
       "source_item": "l118-gii1",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 1702603671,
       "generation_temperature": 0.65
     },
@@ -317,6 +328,7 @@
       "pause_after": 1.5,
       "source_item": "l118-gii2",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 794065703,
       "generation_temperature": 0.65
     },
@@ -327,6 +339,7 @@
       "pause_after": 1.5,
       "source_item": "l118-gii3",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 1276542102,
       "generation_temperature": 0.65
     },
@@ -337,6 +350,7 @@
       "pause_after": 1.5,
       "source_item": "l118-gii4",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 206753153,
       "generation_temperature": 0.65
     },
@@ -347,6 +361,7 @@
       "pause_after": 1.5,
       "source_item": "l118-gii5",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 1689301584,
       "generation_temperature": 0.65
     },
@@ -357,6 +372,7 @@
       "pause_after": 1.5,
       "source_item": "l118-gii6",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 1700882882,
       "generation_temperature": 0.65
     },
@@ -367,57 +383,63 @@
       "pause_after": 1.5,
       "source_item": "l118-gii7",
       "section": "Grammar II: Complete the sentences, using your own words",
+      "supplemental": true,
       "generation_seed": 1682008529,
       "generation_temperature": 0.65
     },
     {
       "role": "answer",
-      "text": "While I was watching television last night, the lights went out.",
+      "text": "I heard a loud noise when I was lying in bed last night.",
       "instructions": "Use a relaxed natural falling finish for statements. ",
       "pause_after": 1.5,
       "source_item": "l118-gii8",
       "section": "Grammar II: Complete the sentences, using your own words",
-      "generation_seed": 1509381387,
+      "supplemental": true,
+      "generation_seed": 1956430990,
       "generation_temperature": 0.65
     },
     {
       "role": "answer",
-      "text": "I was reading in the library when someone turned on the stereo.",
+      "text": "We were walking home when it started to rain.",
       "instructions": "Use a relaxed natural falling finish for statements. ",
       "pause_after": 1.5,
       "source_item": "l118-gii9",
       "section": "Grammar II: Complete the sentences, using your own words",
-      "generation_seed": 1704108587,
+      "supplemental": true,
+      "generation_seed": 345684568,
       "generation_temperature": 0.65
     },
     {
       "role": "answer",
-      "text": "While I was cooking the dinner, the children were playing outside.",
+      "text": "My friend hurt his ankle while we were playing football.",
       "instructions": "Use a relaxed natural falling finish for statements. ",
       "pause_after": 1.5,
       "source_item": "l118-gii10",
       "section": "Grammar II: Complete the sentences, using your own words",
-      "generation_seed": 1742956530,
+      "supplemental": true,
+      "generation_seed": 503300901,
       "generation_temperature": 0.65
     },
     {
       "role": "answer",
-      "text": "Just as I was going to sleep, I heard a loud noise from the road.",
+      "text": "The telephone rang when I was doing my homework at home.",
       "instructions": "Use a relaxed natural falling finish for statements. ",
       "pause_after": 1.5,
       "source_item": "l118-gii11",
       "section": "Grammar II: Complete the sentences, using your own words",
-      "generation_seed": 301854406,
+      "supplemental": true,
+      "generation_seed": 388499705,
       "generation_temperature": 0.65
     },
     {
       "role": "answer",
-      "text": "While I was walking home yesterday, a dog followed me for a few minutes.",
+      "text": "The lights went out while I was watching television with my friends.",
       "instructions": "Use a relaxed natural falling finish for statements. ",
       "pause_after": 1.5,
       "source_item": "l118-gii12",
       "section": "Grammar II: Complete the sentences, using your own words",
-      "generation_seed": 1293355344,
+      "supplemental": true,
+      "generation_seed": 1522674922,
       "generation_temperature": 0.65
     }
   ]

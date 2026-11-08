@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [119-1-lesson.wav](../../119-1-lesson.wav) | 147.1 | 32 | 1 |
 | [119-2-practice.wav](../../119-2-practice.wav) | 153.6 | 41 | 22 |
-| [119-3-gramar.wav](../../119-3-gramar.wav) | 275.7 | 62 | 38 |
+| [119-3-gramar.wav](../../119-3-gramar.wav) | 351.4 | 78 | 38 |
 
 词汇：story, happen, thief, enter, dark, torch, voice, parrot
 
