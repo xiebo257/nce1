@@ -500,7 +500,7 @@
   "images": {
     "lesson-080-color-panels": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly.",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/080-lesson-panels.png",
@@ -521,7 +521,18 @@
         ]
       },
       "illustration_scene": "Faithfully colorize this exact textbook illustration. Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
-      "source": "img/lesson-080-01-text.jpg"
+      "source": "img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/lesson-080-color-panels-color.webp",
+      "width": 784,
+      "height": 1024,
+      "origin": "local-model",
+      "caption": "I must go to the ...",
+      "alt": "Faithfully colorize this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 80017,
+        "manifest": "illustrations/manifests/080-lesson-080-color-panels.json"
+      }
     }
   },
   "illustration_style": "Full-color textbook cartoon."

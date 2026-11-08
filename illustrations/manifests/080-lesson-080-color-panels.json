@@ -1,0 +1,164 @@
+{
+  "slot": "lesson-080-color-panels",
+  "prompt": "Faithfully colorize this exact textbook illustration. Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/080-lesson-panels.png",
+  "lesson": 80,
+  "seed": 80017,
+  "width": 784,
+  "height": 1024,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "5c7eff4019dbb7d442b6667afa3d5b1850557645474b766a3c6e9760d0c0d0f2",
+  "fingerprint": "ff99444bc1e007e5f2474119e8579480a8d32d808666319cf3aa671c9f52f54e",
+  "sha256": "3ee49e03279ffc355a390a290ecd307fe89ba51e3ce9718978b8cf51e1d0d3ff",
+  "status": "visually-reviewed",
+  "seconds": 156.13,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 80901,
+    "prompt": "Faithfully colorize this exact textbook illustration. Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+    "width": 784,
+    "height": 1024,
+    "steps": 4,
+    "seconds": 156.13,
+    "peak_mlx_gb": 6.32,
+    "input_sha256": "b1682d87d2546a9f030e8ad8734b541c2f0f4875a86c7977a78c7e5b752ba188",
+    "output_sha256": "0ba13d96bd9be875a18eb22548f278ea28afd578d16a56fce2f9004b129ad1bd",
+    "slots": [
+      "lesson-080-color-panels"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/080-lesson-panels.png",
+        "sha256": "5c7eff4019dbb7d442b6667afa3d5b1850557645474b766a3c6e9760d0c0d0f2"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      784,
+      1024
+    ],
+    "output_size": [
+      784,
+      1024
+    ],
+    "source_atlas_sha256": "b1682d87d2546a9f030e8ad8734b541c2f0f4875a86c7977a78c7e5b752ba188",
+    "color_guide_sha256": "0ba13d96bd9be875a18eb22548f278ea28afd578d16a56fce2f9004b129ad1bd",
+    "region_overrides": [],
+    "food_hue_corrections": [
+      [
+        [
+          15,
+          90,
+          112,
+          155
+        ],
+        0.12,
+        0.5
+      ],
+      [
+        [
+          145,
+          87,
+          246,
+          152
+        ],
+        0.11,
+        0.2
+      ],
+      [
+        [
+          15,
+          310,
+          120,
+          360
+        ],
+        0.24,
+        0.42
+      ],
+      [
+        [
+          145,
+          306,
+          246,
+          365
+        ],
+        0.08,
+        0.65
+      ],
+      [
+        [
+          280,
+          315,
+          384,
+          374
+        ],
+        0.14,
+        0.62
+      ],
+      [
+        [
+          412,
+          320,
+          516,
+          380
+        ],
+        0.29,
+        0.5
+      ],
+      [
+        [
+          544,
+          332,
+          647,
+          388
+        ],
+        0.29,
+        0.5
+      ],
+      [
+        [
+          675,
+          337,
+          780,
+          403
+        ],
+        0.29,
+        0.45
+      ],
+      [
+        [
+          15,
+          512,
+          119,
+          570
+        ],
+        0.04,
+        0.3
+      ],
+      [
+        [
+          144,
+          520,
+          247,
+          575
+        ],
+        0.04,
+        0.3
+      ]
+    ]
+  },
+  "review_notes": "Complete six shop groups and27 item pictures retained with original source labels. Corrected cheese/egg, fruit, vegetable and meat hues to natural colors. Grocer, greengrocer, butcher, newsagent, baker and chemist groups all present; no bottom crops missing.",
+  "published_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5"
+}
