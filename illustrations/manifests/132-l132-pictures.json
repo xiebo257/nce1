@@ -1,0 +1,78 @@
+{
+  "slot": "l132-pictures",
+  "prompt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Six numbered pictures in a 3x2 grid, each showing two people with thought-bubbles and a question mark: 1 where Harry is (a man at a desk); 2 where he will go (a cinema sign); 3 why he is late (a man on the phone); 4 what he is doing (a man reading); 5 why he was late (a man reading at a desk); 6 what he was doing (a man reading).",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/132-complete-panels.png",
+  "lesson": 132,
+  "seed": 132017,
+  "width": 512,
+  "height": 480,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "6b09a356c2d8e94b2aa6aa4af6b7419ce2b88d21ee275d548964f48983c1e2c6",
+  "fingerprint": "37f77c714af398ad91daa914eb998efe4a8447af301e58bb38303e5a8ecc89fa",
+  "sha256": "80dce6e84fe9ea1d1835461241e33d1155c482718d672fefd50c863778a0eabe",
+  "status": "visually-reviewed",
+  "seconds": 50.26,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 132901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Six numbered pictures in a 3x2 grid, each showing two people with thought-bubbles and a question mark: 1 where Harry is (a man at a desk); 2 where he will go (a cinema sign); 3 why he is late (a man on the phone); 4 what he is doing (a man reading); 5 why he was late (a man reading at a desk); 6 what he was doing (a man reading).",
+    "width": 512,
+    "height": 480,
+    "steps": 4,
+    "seconds": 50.26,
+    "peak_mlx_gb": 5.094,
+    "input_sha256": "6b09a356c2d8e94b2aa6aa4af6b7419ce2b88d21ee275d548964f48983c1e2c6",
+    "output_sha256": "a49e3119182cb12829c8a8820f26654282c7632191f861e19854c98eff0379d1",
+    "slots": [
+      "l132-pictures"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/132-complete-panels.png",
+        "sha256": "6b09a356c2d8e94b2aa6aa4af6b7419ce2b88d21ee275d548964f48983c1e2c6"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      480
+    ],
+    "output_size": [
+      512,
+      480
+    ],
+    "source_atlas_sha256": "6b09a356c2d8e94b2aa6aa4af6b7419ce2b88d21ee275d548964f48983c1e2c6",
+    "color_guide_sha256": "a49e3119182cb12829c8a8820f26654282c7632191f861e19854c98eff0379d1",
+    "region_overrides": [],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          0,
+          0,
+          512,
+          480
+        ],
+        "selection": "green",
+        "color": [
+          83,
+          155,
+          202
+        ]
+      }
+    ]
+  },
+  "review_notes": "Reviewed six complete uncertainty scenes with original question/thought bubbles, Harry, cinema, phone and reading. Normalized green clothing patches to blue to keep recurring people consistent.",
+  "published_sha256": "972d4f4e75e5daf19ab435b2c0aa1407b375758eb955caf1dfa9e6034cc34756"
+}

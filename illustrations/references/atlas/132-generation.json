@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 132901,
+  "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Six numbered pictures in a 3x2 grid, each showing two people with thought-bubbles and a question mark: 1 where Harry is (a man at a desk); 2 where he will go (a cinema sign); 3 why he is late (a man on the phone); 4 what he is doing (a man reading); 5 why he was late (a man reading at a desk); 6 what he was doing (a man reading).",
+  "width": 512,
+  "height": 480,
+  "steps": 4,
+  "seconds": 50.26,
+  "peak_mlx_gb": 5.094,
+  "input_sha256": "6b09a356c2d8e94b2aa6aa4af6b7419ce2b88d21ee275d548964f48983c1e2c6",
+  "output_sha256": "a49e3119182cb12829c8a8820f26654282c7632191f861e19854c98eff0379d1",
+  "slots": [
+    "l132-pictures"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/132-complete-panels.png",
+      "sha256": "6b09a356c2d8e94b2aa6aa4af6b7419ce2b88d21ee275d548964f48983c1e2c6"
+    }
+  ]
+}

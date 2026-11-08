@@ -200,9 +200,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Six numbered pictures in a 3x2 grid, each showing two people with thought-bubbles and a question mark: 1 where Harry is (a man at a desk); 2 where he will go (a cinema sign); 3 why he is late (a man on the phone); 4 what he is doing (a man reading); 5 why he was late (a man reading at a desk); 6 what he was doing (a man reading).",
-      "src": "assets/lesson-132/pictures-grid.jpg",
-      "width": 1641,
-      "height": 1800,
+      "src": "assets/lesson-132/l132-pictures-color.webp",
+      "width": 512,
+      "height": 480,
       "source": "img/lesson-132-01-text.jpg (textbook p.267)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/132-complete-panels.png",
@@ -255,6 +255,14 @@
             816
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "He may be... He may have been... 他可能是…… 他可能已经……",
+      "alt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 132017,
+        "manifest": "illustrations/manifests/132-l132-pictures.json"
       }
     }
   },
