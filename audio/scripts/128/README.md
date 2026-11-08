@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [128-1-lesson.wav](../../128-1-lesson.wav) | 399.5 | 77 | 35 |
 | [128-2-practice.wav](../../128-2-practice.wav) | 154.5 | 31 | 14 |
-| [128-3-gramar.wav](../../128-3-gramar.wav) | 214.1 | 37 | 20 |
+| [128-3-gramar.wav](../../128-3-gramar.wav) | 216.2 | 37 | 20 |
 
 词汇：dentist, probably
 

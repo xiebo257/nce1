@@ -6,7 +6,7 @@
 | --- | ---: | ---: | ---: |
 | [127-1-lesson.wav](../../127-1-lesson.wav) | 145.3 | 27 | 1 |
 | [127-2-practice.wav](../../127-2-practice.wav) | 135.9 | 34 | 20 |
-| [127-3-gramar.wav](../../127-3-gramar.wav) | 346.1 | 92 | 44 |
+| [127-3-gramar.wav](../../127-3-gramar.wav) | 345.3 | 92 | 44 |
 
 词汇：famous, actress, at least, actor, read
 
