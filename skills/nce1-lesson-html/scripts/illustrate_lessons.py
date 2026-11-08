@@ -40,7 +40,7 @@ def lesson_jobs(repo, number, width, height):
     used = list(dict.fromkeys(c for key in slots for c in data['images'][key].get('characters', [])))
     # Anonymous crowds are not identity references.
     used = [c for c in used if c not in {'crowd', 'passengers', 'thieves'}]
-    reference = len(slots) > 1 and bool(used)
+    reference = len(slots) > 1 and bool(used) and not all(data['images'][k].get('illustration_source_reference') for k in slots)
     jobs = []
     if reference:
         descriptions = ' '.join(f'{i+1}. {c}: {cast[c]["illustration_appearance"]}' for i, c in enumerate(used))
@@ -88,6 +88,11 @@ def lesson_jobs(repo, number, width, height):
             jobs[-1]['reference_layout'] = data['illustration_cast_layout']
         if scene.get('illustration_reference_crop'):
             jobs[-1]['reference_crop'] = scene['illustration_reference_crop']
+        if scene.get('illustration_source_reference'):
+            jobs[-1].update(reference=None, source_reference=scene['illustration_source_reference'])
+            jobs[-1]['prompt'] = scene['illustration_scene']
+            if scene.get('illustration_exact_diagram'):
+                jobs[-1]['exact_diagram'] = True
     for index, job in enumerate(jobs):
         size = data['images'].get(job['slot'], {})
         job.update(lesson=number, seed=number * 1000 + index + 17 + (data['images'][job['slot']].get('illustration_seed_offset', 0) if job['slot']!='cast' else 0), width=width, height=height,
@@ -106,6 +111,8 @@ def candidate_paths(repo, job):
 
 def specification(repo, job):
     spec = dict(job)
+    if job.get('source_reference'):
+        spec['source_reference_sha256'] = digest(repo / job['source_reference'])
     if job['reference']:
         ref = repo / f'illustrations/work/candidates/{job["lesson"]:03}/cast.png'
         spec['reference_sha256'] = digest(ref)
@@ -139,7 +146,21 @@ def generate(args, repo, jobs):
             if approved.get('sha256') != spec['reference_sha256']:
                 print('REFERENCE_REVIEW_REQUIRED', job['lesson'], image_path.parent / 'cast.png', flush=True)
                 return
-        wanted_class = Flux2KleinEdit if job['reference'] else Flux2Klein
+        if job.get('exact_diagram'):
+            from PIL import Image, ImageOps
+            image_path.parent.mkdir(parents=True, exist_ok=True)
+            with Image.open(repo / job['source_reference']) as source:
+                gray = ImageOps.autocontrast(source.convert('L'))
+                colored = ImageOps.colorize(gray, black='#174b63', white='#fff4d7')
+                output = ImageOps.pad(colored, (job['width'], job['height']), color='#fff4d7')
+                output.save(image_path)
+            spec.update(sha256=digest(image_path), seconds=0, status='candidate',
+                        model=None, method='exact-source-diagram-colorization')
+            write_json(metadata_path, spec)
+            print('DIAGRAM_CANDIDATE', job['lesson'], job['slot'], flush=True)
+            count += 1
+            continue
+        wanted_class = Flux2KleinEdit if job['reference'] or job.get('source_reference') else Flux2Klein
         if model_class is not wanted_class:
             import gc
             del model
@@ -153,6 +174,8 @@ def generate(args, repo, jobs):
         print('GENERATING', job['lesson'], job['slot'], flush=True)
         image_path.parent.mkdir(parents=True, exist_ok=True)
         refs = None
+        if job.get('source_reference'):
+            refs = [repo / job['source_reference']]
         if job['reference']:
             from PIL import Image
             refs = []
@@ -239,9 +262,9 @@ def publish(args, repo, jobs):
                 slot = data['images'][job['slot']]
                 slot.update(status='ready', src=relative.removeprefix('html/'),
                             width=recorded.get('postprocess', {}).get('output_size', [job['width'], job['height']])[0],
-                            height=recorded.get('postprocess', {}).get('output_size', [job['width'], job['height']])[1], origin='local-model',
+                            height=recorded.get('postprocess', {}).get('output_size', [job['width'], job['height']])[1], origin='local-diagram' if job.get('exact_diagram') else 'local-model',
                             caption=data['title'], alt=slot['illustration_scene'].replace('Mrs. ', 'Mrs ').replace('Mr. ', 'Mr ').split('. ')[0].rstrip('.') + '.',
-                            generation={'model':MODEL_ID, 'seed':job['seed'],
+                            generation={'model':None if job.get('exact_diagram') else MODEL_ID, 'seed':job['seed'],
                                         'manifest':f'illustrations/manifests/{number:03}-{job["slot"]}.json'})
                 block = next(b for b in data['sections']['lesson'] if b.get('image') == job['slot'])
                 if len(block.get('lines', [])) > 8 or len(block.get('text', '')) > 700:

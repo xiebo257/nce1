@@ -29,7 +29,32 @@
     }
   ],
   "characters": {},
-  "images": {},
+  "images": {
+    "lesson-092-color-panels": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Sixteen action pictures in four columns and four rows, in the original order. Preserve all sixteen panels, people and objects exactly.",
+      "characters": [],
+      "illustration_source_reference": "illustrations/references/source/092-lesson-panels.png",
+      "illustration_width": 1024,
+      "illustration_height": 992,
+      "layout": "above",
+      "illustration_source_crop": {
+        "file": "img/lesson-092-01-text.jpg",
+        "box": [
+          65,
+          375,
+          994,
+          1280
+        ],
+        "coordinate_space": [
+          1012,
+          1400
+        ]
+      },
+      "illustration_scene": "Faithfully colorize this exact textbook illustration. Sixteen action pictures in four columns and four rows, in the original order. Preserve all sixteen panels, people and objects exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels."
+    }
+  },
   "sections": {
     "lesson": [
       {
@@ -51,7 +76,8 @@
         "type": "text",
         "source": "../img/lesson-092-01-text.jpg",
         "text": "1st: rain\n2nd: snow\n3rd: leave\n4th: get up\n5th: arrive\n6th: finish work\n7th: have a holiday\n8th: drive home\n9th: have a haircut\n10th: telephone me\n11th: have a shave\n12th: pack his bags\n13th: sweep the floor\n14th: paint this room\n15th: repair my car\n16th: make an appointment",
-        "translation": "Sixteen small pictures, each showing a different activity for the 'When will ...?' exercise."
+        "translation": "Sixteen small pictures, each showing a different activity for the 'When will ...?' exercise.",
+        "image": "lesson-092-color-panels"
       },
       {
         "id": "written-a",
@@ -521,5 +547,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Full-color textbook cartoon."
 }

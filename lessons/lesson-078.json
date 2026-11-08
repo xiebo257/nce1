@@ -20,7 +20,8 @@
         "type": "text",
         "source": "../img/lesson-078-01-text.jpg",
         "text": "Clock practice: Read each clock and write the time. 读钟面，写出时间。\n\nRow 1: 6:00 / 9:00 / 3:30 / 5:45 / 1:30 / 2:15\nRow 2: 4:30 / 7:15 / 9:20 / 10:50 / 3:10 / 11:55",
-        "translation": "Read each clock face and write the corresponding time."
+        "translation": "Read each clock face and write the corresponding time.",
+        "image": "lesson-078-color-panels"
       },
       {
         "id": "written-a",
@@ -515,5 +516,31 @@
     }
   ],
   "characters": {},
-  "images": {}
+  "images": {
+    "lesson-078-color-panels": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Twelve analogue clocks in two rows. Preserve every number and both hands exactly; only add teal clock rims and cream faces.",
+      "characters": [],
+      "illustration_source_reference": "illustrations/references/source/078-lesson-panels.png",
+      "illustration_width": 1024,
+      "illustration_height": 368,
+      "layout": "above",
+      "illustration_source_crop": {
+        "file": "img/lesson-078-01-text.jpg",
+        "box": [
+          145,
+          20,
+          1082,
+          350
+        ],
+        "coordinate_space": [
+          1100,
+          664
+        ]
+      },
+      "illustration_scene": "Faithfully colorize this exact textbook illustration. Twelve analogue clocks in two rows. Preserve every number and both hands exactly; only add teal clock rims and cream faces. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels."
+    }
+  },
+  "illustration_style": "Full-color textbook cartoon."
 }

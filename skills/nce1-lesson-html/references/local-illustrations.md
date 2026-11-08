@@ -189,3 +189,14 @@ scene's character references (for example the sick child before his parents).
 
 Published cast references include the original `NNN-cast-source.png` as well as
 the display WebP, so the exact model-conditioning pixels and file hash are kept.
+
+## Preserve picture-based teaching cues
+
+Even lessons may use `illustration_source_reference` to colorize a verified source
+crop with the local edit model. Preserve the crop in `illustrations/references/source/`,
+record source coordinates, and include its SHA256 in the generation specification.
+Inspect all panels: a source crop may omit the bottom row. Rebuild it from the
+complete scan before generating. Model colorization still requires visual review.
+For exact clock diagrams, `illustration_exact_diagram` preserves every original
+hand and numeral using deterministic ink/background colorization; record origin
+`local-diagram` and no model attribution. Do not describe these as model generated.

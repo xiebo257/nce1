@@ -29,7 +29,32 @@
     }
   ],
   "characters": {},
-  "images": {},
+  "images": {
+    "lesson-094-color-panels": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city.",
+      "characters": [],
+      "illustration_source_reference": "illustrations/references/source/094-lesson-panels.png",
+      "illustration_width": 1024,
+      "illustration_height": 784,
+      "layout": "above",
+      "illustration_source_crop": {
+        "file": "img/lesson-094-01-text.jpg",
+        "box": [
+          52,
+          472,
+          947,
+          1150
+        ],
+        "coordinate_space": [
+          949,
+          1400
+        ]
+      },
+      "illustration_scene": "Faithfully colorize this exact textbook illustration. Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels."
+    }
+  },
   "sections": {
     "lesson": [
       {
@@ -51,7 +76,8 @@
         "type": "text",
         "source": "../img/lesson-094-01-text.jpg",
         "text": "1. Athens\n2. Beijing\n3. Berlin\n4. Bombay\n5. Geneva\n6. London\n7. Madrid\n8. Moscow\n9. New York\n10. Paris\n11. Rome\n12. Seoul\n13. Stockholm\n14. Sydney\n15. Tokyo",
-        "translation": "Fifteen small pictures, each showing a different world city."
+        "translation": "Fifteen small pictures, each showing a different world city.",
+        "image": "lesson-094-color-panels"
       },
       {
         "id": "lesson-vocabulary",
@@ -522,5 +548,6 @@
         ]
       }
     ]
-  }
+  },
+  "illustration_style": "Full-color textbook cartoon."
 }

@@ -13,7 +13,8 @@
         "type": "text",
         "source": "../img/lesson-080-01-text.jpg",
         "text": "Listen and answer the questions. 听录音并回答问题。\n\nGROCER'S to get some GROCERIES:\ncheese (120) / eggs (121) / butter (122) / honey (123) / jam (124) / biscuits (125)\n\nGREENGROCER'S to get some FRUIT and VEGETABLES:\npears (226) / oranges (227) / bananas (228) / beans (229) / peas (230) / cabbages (231)\n\nBUTCHER'S to get some MEAT:\nlamb (332) / beef (333) / steak (334) / mince (335) / chicken (336)\n\nNEWSAGENT'S to get some STATIONERY:\nglue (437) / envelopes (438) / writing paper (439) / newspapers (440) / magazines (441)\n\nBAKER'S to get some:\nbread (543) / cakes (544)\n\nCHEMIST'S to get some:\naspirins (545) / medicine (546)",
-        "translation": "Match each numbered item with the shop where it is sold."
+        "translation": "Match each numbered item with the shop where it is sold.",
+        "image": "lesson-080-color-panels"
       },
       {
         "id": "lesson-listening",
@@ -496,5 +497,31 @@
     }
   ],
   "characters": {},
-  "images": {}
+  "images": {
+    "lesson-080-color-panels": {
+      "kind": "scene",
+      "status": "pending",
+      "description": "Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly.",
+      "characters": [],
+      "illustration_source_reference": "illustrations/references/source/080-lesson-panels.png",
+      "illustration_width": 784,
+      "illustration_height": 1024,
+      "layout": "above",
+      "illustration_source_crop": {
+        "file": "img/lesson-080-01-text.jpg",
+        "box": [
+          40,
+          222,
+          813,
+          1232
+        ],
+        "coordinate_space": [
+          842,
+          1400
+        ]
+      },
+      "illustration_scene": "Faithfully colorize this exact textbook illustration. Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels."
+    }
+  },
+  "illustration_style": "Full-color textbook cartoon."
 }

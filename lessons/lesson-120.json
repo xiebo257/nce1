@@ -250,13 +250,73 @@
       "status": "ready",
       "description": "Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
       "source": "img/lesson-120-01-text.jpg (textbook p.243)",
-      "characters": ["lady", "gentleman"],
+      "characters": [],
       "origin": "textbook-crop",
-      "source_size": [1458, 2500],
-      "crop": [0, 350, 1458, 1500],
+      "source_size": [
+        1458,
+        2500
+      ],
+      "crop": [
+        0,
+        350,
+        1458,
+        1500
+      ],
       "src": "assets/lesson-120/pictures-grid.jpg",
       "width": 1458,
-      "height": 1150
+      "height": 1150,
+      "illustration_source_reference": "illustrations/references/source/120-complete-panels.png",
+      "illustration_width": 512,
+      "illustration_height": 480,
+      "illustration_scene": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
+      "layout": "above",
+      "illustration_source_crop": {
+        "file": "pdf/新概念英语1 英语初阶.pdf",
+        "page": 247,
+        "coordinate_space": [
+          833,
+          1179
+        ],
+        "boxes": [
+          [
+            62,
+            183,
+            238,
+            298
+          ],
+          [
+            416,
+            181,
+            609,
+            297
+          ],
+          [
+            63,
+            345,
+            272,
+            457
+          ],
+          [
+            417,
+            344,
+            594,
+            459
+          ],
+          [
+            418,
+            507,
+            594,
+            619
+          ],
+          [
+            64,
+            508,
+            283,
+            620
+          ]
+        ]
+      }
     }
-  }
+  },
+  "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects."
 }
