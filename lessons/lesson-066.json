@@ -268,15 +268,15 @@
       "status": "ready",
       "description": "Two women talking, one with curly hair and one with straight blonde hair; caption: 'Enjoy yourself! I always enjoy myself.'",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-13th.jpg",
-      "width": 570,
-      "height": 290,
+      "src": "assets/lesson-066/picture-13th-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/066-picture-13th-clean.png",
       "illustration_width": 640,
       "illustration_height": 320,
@@ -294,6 +294,13 @@
           243,
           853
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 66017,
+        "manifest": "illustrations/manifests/066-picture-13th.json"
       }
     },
     "picture-14th": {
@@ -301,15 +308,15 @@
       "status": "ready",
       "description": "A woman with curly hair and a man in a suit, both enjoying themselves; caption: 'We're enjoying ourselves. They're enjoying themselves.'",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-14th.jpg",
-      "width": 570,
-      "height": 300,
+      "src": "assets/lesson-066/picture-14th-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/066-picture-14th-clean.png",
       "illustration_width": 640,
       "illustration_height": 336,
@@ -327,6 +334,13 @@
           598,
           853
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 66018,
+        "manifest": "illustrations/manifests/066-picture-14th.json"
       }
     },
     "picture-15th": {
@@ -334,15 +348,15 @@
       "status": "ready",
       "description": "A man with spiky hair at an amusement park ride; caption: 'He's enjoying himself.'",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-15th.jpg",
-      "width": 570,
-      "height": 300,
+      "src": "assets/lesson-066/picture-15th-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/066-picture-15th-clean.png",
       "illustration_width": 640,
       "illustration_height": 336,
@@ -360,6 +374,13 @@
           244,
           1025
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 66019,
+        "manifest": "illustrations/manifests/066-picture-15th.json"
       }
     },
     "picture-16th": {
@@ -367,15 +388,15 @@
       "status": "ready",
       "description": "A woman with a hat at an amusement park ride; caption: 'She's enjoying herself.'",
       "characters": [],
-      "origin": "textbook-crop",
+      "origin": "local-model",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-16th.jpg",
-      "width": 570,
-      "height": 300,
+      "src": "assets/lesson-066/picture-16th-color.webp",
+      "width": 320,
+      "height": 224,
       "illustration_source_reference": "illustrations/references/source/066-picture-16th-clean.png",
       "illustration_width": 640,
       "illustration_height": 336,
@@ -393,6 +414,13 @@
           599,
           1024
         ]
+      },
+      "caption": "What's the time?",
+      "alt": "Colorize and clean this exact textbook illustration.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 66020,
+        "manifest": "illustrations/manifests/066-picture-16th.json"
       }
     }
   },
