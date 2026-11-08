@@ -6,8 +6,12 @@
 | --- | ---: | ---: | ---: |
 | [075-1-lesson.wav](../../075-1-lesson.wav) | 125.6 | 30 | 1 |
 | [075-2-practice.wav](../../075-2-practice.wav) | 103.2 | 22 | 32 |
-| [075-3-gramar.wav](../../075-3-gramar.wav) | 355.0 | 93 | 50 |
+| [075-3-gramar.wav](../../075-3-gramar.wav) | 361.3 | 95 | 50 |
 
 词汇：ago, buy, pair, fashion, uncomfortable, wear
+
+源文补正记录：
+
+- Reviewed batch speech script.
 
 角色见 [roles.json](roles.json)。音频使用本地 Qwen3-TTS；已检查脚本覆盖、WAV 解码、片段与文件一致性。语音识别用于辅助内容检查，不证明口音、连读和语调自然；实际听感请试听。
