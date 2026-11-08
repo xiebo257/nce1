@@ -42,7 +42,7 @@ def main():
             if old.get('fingerprint')!=s['fingerprint'] or old.get('sha256')!=digest(img) or old.get('atlas_recipe')!=atlas_recipe:cached=False;break
         if cached:print('CACHED_LESSON',n,flush=True);continue
         cols=min(4,math.ceil(math.sqrt(len(jobs))))
-        cw,ch=((256,192) if len(jobs)>15 else (320,224)) if len(jobs)>1 else (jobs[0]['width'],jobs[0]['height'])
+        cw,ch=(256,192) if len(jobs)>1 else (jobs[0]['width'],jobs[0]['height'])
         if len(jobs)>1:
             aspects=[]
             for j in jobs:

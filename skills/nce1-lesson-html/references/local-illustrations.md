@@ -231,3 +231,14 @@ a shifted crop can still truncate a figure or reorder adjacent panels. Match
 new images to the actual Lesson text; where old text disagrees with a scan,
 verify the specific fact before changing it. Do not silently replace a lesson's
 exercise content merely to fit a source illustration.
+
+When a model changes a teaching action (for example turning sleeping children
+into doctors), `preserve_panel_lineart.py --lesson N` can transfer model colors
+into the source drawing's closed regions. It retains the source geometry, count,
+clock hands and labels, and records the model color guide and source hashes.
+Inspect the result: open outlines can merge face and hair regions; a color guide
+can also give food the wrong hue. Use targeted region/color corrections only
+after seeing the defect. Keep the untouched model sheet for provenance and
+publish the final corrected candidates. This is model-assisted source
+colorization, not a wholly model-redrawn scene. `--region SLOT:X:Y:COLOR`
+selects a source region by a point in the split tile. A point on ink is rejected.
