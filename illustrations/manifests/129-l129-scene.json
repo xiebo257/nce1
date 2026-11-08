@@ -1,0 +1,28 @@
+{
+  "slot": "l129-scene",
+  "prompt": "A car is stopped safely at the roadside. A uniformed policeman stands beside the open driver window while Gary hands him his driving licence. Ann sits in the passenger seat looking knowingly at Gary. A circular speed-limit sign marked only 40 is visible behind. British road setting. Exactly 3 people appear.  Appearance: Gary: Man about 38, short dark hair, gray jacket, cream shirt. Ann: Woman about 35, shoulder-length brown hair, pale blue blouse. Policeman: Man about 40, navy police uniform and peaked cap. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "Gary",
+    "Ann",
+    "Policeman"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 129,
+  "seed": 129017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "fe0175b3c78e6d38edf15a0b9715fa05eaacb96af01313a28af01e505607785e",
+  "sha256": "a1bc57e829ae5bdc19716d4d99d9670cad8f26cb505d555c155724bdba8c6f03",
+  "seconds": 43.01,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "review_notes": "Three people: Gary at driver window handing licence to policeman, Ann in passenger seat; speed sign reads 40.",
+  "published_sha256": "5069907f11aca51c4513af92a634dd47704ef4df520ccb5ddf049b4b4184175b"
+}
