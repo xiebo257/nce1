@@ -152,3 +152,7 @@
 [多角色试听](examples/voices.md) · [生成 skill](../skills/nce1-lesson-audio/SKILL.md)
 
 中间片段、缓存与检查报告位于忽略提交的 `work/`。语音识别检查文字内容，无法验证实际口音与语调自然程度。
+
+已完成全套 144 课、432 个 WAV 的集合检查，总时长约 22 小时 41 分钟。详见 [验证汇总](validation.json)。
+
+[Grammar 原书覆盖审计](../reports/grammar-source-audit.md)：按 144→1 检查全部课程后，修复 22 课的源内容及对应 grammar 录音；lesson/practice 录音沿用已核验版本。源内容覆盖、ASR 内容核验与实际听感分别记录。

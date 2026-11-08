@@ -2,8 +2,8 @@
   "summary": {
     "lessons": 144,
     "files": 432,
-    "seconds": 80841.48,
-    "bytes": 3880410048
+    "seconds": 81637.46,
+    "bytes": 3918617088
   },
   "checked_start": 26,
   "method": "Local Qwen3-TTS; source review; grouped and individual Whisper checks; bounded regeneration; WAV and script integrity checks.",
@@ -2043,21 +2043,15 @@
         },
         {
           "file": "065-3-gramar.wav",
-          "seconds": 247.98,
-          "bytes": 11903084,
-          "sha256": "f1e082e80196fb65215208d459bc564e4d42d15a86ff5e8cd0c970a38fc52c28",
-          "segments": 47,
-          "retained_asr_differences": [
-            {
-              "segment": 29,
-              "text": "they, play basketball, four, afternoon.",
-              "heard": "They play basketball four after noon."
-            }
-          ]
+          "seconds": 260.3,
+          "bytes": 12494444,
+          "sha256": "af2f16a11e97e59b81c15e9a6620b25f25c0be65b215df31103aa57a40734a8b",
+          "segments": 49,
+          "retained_asr_differences": []
         }
       ],
       "review_notes": [
-        "064 clean after repairing in/and substitution. 065 residuals: hear/here is an exact homophone; Mum transcribed Mom is consistent with the requested American delivery, with a vocabulary note explicitly contrasting British mum and American mom. Source text is preserved. These spelling/regional differences do not omit exercise content; ASR alone cannot establish exact vowel realization."
+        "All four residuals are in unchanged lesson audio: American Mom for printed British Mum, and hear/here homophones. The newly restored grammar item has no remaining ASR difference. Source text is retained. This is content review, not subjective listening certification."
       ]
     },
     {
@@ -2234,10 +2228,10 @@
         },
         {
           "file": "069-3-gramar.wav",
-          "seconds": 214.82,
-          "bytes": 10311404,
-          "sha256": "365f3374701e3818505036470b2f08a295649259ff136fa9f617251cf6ed1bab",
-          "segments": 47,
+          "seconds": 251.02,
+          "bytes": 12049004,
+          "sha256": "fd5110405c26f7d88778f4e38beb66290af918ab95c880b827a41b8b7c3da7a2",
+          "segments": 67,
           "retained_asr_differences": []
         }
       ],
@@ -2371,32 +2365,14 @@
         },
         {
           "file": "073-3-gramar.wav",
-          "seconds": 484.6,
-          "bytes": 23260844,
-          "sha256": "14d800d4a966f5bcbd7dd0c4151eca4cd63ec39ed4414345e72bc1502307c8ac",
-          "segments": 118,
-          "retained_asr_differences": [
-            {
-              "segment": 14,
-              "text": "The past tense of see is saw.",
-              "heard": "The past tense of C is saw."
-            },
-            {
-              "segment": 18,
-              "text": "ate.",
-              "heard": "8."
-            },
-            {
-              "segment": 19,
-              "text": "The verb is meet.",
-              "heard": "The verb is meat."
-            }
-          ]
+          "seconds": 522.16,
+          "bytes": 25063724,
+          "sha256": "ebc51420581b0a8cacf373b9ccfacaf93a98b6b193cc75cfb9ea7cc55611a729",
+          "segments": 119,
+          "retained_asr_differences": []
         }
       ],
-      "review_notes": [
-        "Parenthesized-verb exercise restored to full completed sentences and malformed cue strings rewritten. Remaining transcripts are exact homophones: see/C, ate/eight (8), meet/meat. All other latest 072-073 content checks pass."
-      ]
+      "review_notes": []
     },
     {
       "lesson": 74,
@@ -2468,10 +2444,10 @@
         },
         {
           "file": "075-3-gramar.wav",
-          "seconds": 354.98,
-          "bytes": 17039084,
-          "sha256": "b634292de711da2a409405583033bc50926764edbcf8c7e5ef69ca16939a1e21",
-          "segments": 93,
+          "seconds": 361.3,
+          "bytes": 17342444,
+          "sha256": "30843a61ad8a1790b81c7eede69e25f5c932044f8aac9abc015cb66a1d4e7866",
+          "segments": 95,
           "retained_asr_differences": [
             {
               "segment": 3,
@@ -2497,7 +2473,7 @@
         }
       ],
       "review_notes": [
-        "Remaining differences match explicitly reviewed spelling/homophone equivalences or American mom for source mum. Exact source text is retained. This is not subjective accent validation."
+        "All four residuals are homophones in preserved verb drills: wear/where, wore/war, know/no and knew/new. The printed living-room conversation opening has been restored and has no remaining ASR difference. This is content review, not subjective listening certification."
       ]
     },
     {
@@ -2551,22 +2527,11 @@
         },
         {
           "file": "077-3-gramar.wav",
-          "seconds": 287.04,
-          "bytes": 13777964,
-          "sha256": "262666a3c8fba91770b9be771ec5d7bfa2cf3cbeff6ba0e13fc51989b1fd93ab",
-          "segments": 74,
-          "retained_asr_differences": [
-            {
-              "segment": 69,
-              "text": "go to the greengrocer's , cook a meal.",
-              "heard": "Go to the greengrocers. Cook a meal."
-            },
-            {
-              "segment": 70,
-              "text": "I must go to the greengrocer's. I want to cook a meal.",
-              "heard": "I must go to the greengrocers. I want to cook a meal."
-            }
-          ]
+          "seconds": 323.0,
+          "bytes": 15504044,
+          "sha256": "bd5c64edee9f5108684811588268dacbc513e8d8a45e2f27ddf04fa3de75bd47",
+          "segments": 86,
+          "retained_asr_differences": []
         }
       ],
       "review_notes": []
@@ -2840,10 +2805,10 @@
         },
         {
           "file": "085-3-gramar.wav",
-          "seconds": 208.86,
-          "bytes": 10025324,
-          "sha256": "8a4bebb4153c0073f0743fd4271667bf730824d363b5092e9336e649cc50fcda",
-          "segments": 49,
+          "seconds": 256.7,
+          "bytes": 12321644,
+          "sha256": "d7fb9460ac6b1fc59307a80bfc060dbb91d4324df6add1218acc5f67999bf82a",
+          "segments": 67,
           "retained_asr_differences": []
         }
       ],
@@ -3491,9 +3456,9 @@
         },
         {
           "file": "102-3-gramar.wav",
-          "seconds": 158.75,
-          "bytes": 7620044,
-          "sha256": "1b6223b207e494f6848553628e927221b453bdb59e5088fa8932e499560c5d63",
+          "seconds": 168.07,
+          "bytes": 8067404,
+          "sha256": "b0a156214be7d53cbf5edb4a1a247c4ae4e92dbfd9ca2f7a604da5febfcf660c",
           "segments": 41,
           "retained_asr_differences": [
             {
@@ -3769,15 +3734,21 @@
         },
         {
           "file": "110-3-gramar.wav",
-          "seconds": 245.32,
-          "bytes": 11775404,
-          "sha256": "6a0dec75e0a4eeb09575afeff402749af25676941452900cc29d3d8096b825fd",
-          "segments": 47,
-          "retained_asr_differences": []
+          "seconds": 328.22,
+          "bytes": 15754604,
+          "sha256": "dbe29a04667c2b38e95ffc4212fbeccc1a942cec92bde3b29f25080a4fd42c76",
+          "segments": 57,
+          "retained_asr_differences": [
+            {
+              "segment": 12,
+              "text": "Jane has sixty dollars. Mary has a hundred and fifty. Ann has a hundred.",
+              "heard": "Jane has $60, Mary has $150, Anne has $100."
+            }
+          ]
         }
       ],
       "review_notes": [
-        "Final residuals are stationery/stationary homophones and the exact spoken currency amount one million pounds for source £1 million. The currency normalizer incorrectly places pounds before million; the recognized amount is correct. Missing initial The in lesson110 was repaired and rechecked."
+        "Reviewed three residuals: stationery/stationary and Ann/Anne are homophones. The currency transcript uses dollar symbols and digits; all three table values match exactly (Jane 60, Mary 150, Ann 100). All comparative and superlative answers are present. This is content review, not subjective listening certification."
       ]
     },
     {
@@ -3960,20 +3931,27 @@
         },
         {
           "file": "115-3-gramar.wav",
-          "seconds": 401.42,
-          "bytes": 19268204,
-          "sha256": "e2d399049d7bbfd8a84d5c0c84ace757fb9d4e0054c0012c99cd8385c24857ce",
+          "seconds": 391.44,
+          "bytes": 18789164,
+          "sha256": "50c7a8abc554a5a742fa89975ee7c427330c5edcc7522982c79ad5afe8d4f7e4",
           "segments": 91,
           "retained_asr_differences": [
             {
               "segment": 50,
               "text": "Nobody is lazy in the class. Everybody is hard-working.",
               "heard": "Nobody is lazy in the class. Everybody is hardworking."
+            },
+            {
+              "segment": 85,
+              "text": "What're you doing now? You're looking for something, aren't you?",
+              "heard": "What are you doing now? You're looking for something, aren't you?"
             }
           ]
         }
       ],
-      "review_notes": []
+      "review_notes": [
+        "The only residual expands What're to What are. These are equivalent contracted/full forms of the same question; the complete eight-blank dialogue is present. No missing question or answer remains in the content check. This is not subjective listening certification."
+      ]
     },
     {
       "lesson": 116,
@@ -4056,10 +4034,10 @@
         },
         {
           "file": "118-3-gramar.wav",
-          "seconds": 223.68,
-          "bytes": 10736684,
-          "sha256": "9ab15a6f52fdbdd0deff2ab60caf276984bbb6cd5b87cbb425a680b51ad73986",
-          "segments": 35,
+          "seconds": 223.88,
+          "bytes": 10746284,
+          "sha256": "ecff9d29a087c13b6d298e1c41a656a68cb5286059dacf8058d9591c92360b39",
+          "segments": 36,
           "retained_asr_differences": []
         }
       ],
@@ -4086,10 +4064,10 @@
         },
         {
           "file": "119-3-gramar.wav",
-          "seconds": 275.72,
-          "bytes": 13234604,
-          "sha256": "629e3b5c167c638f41a4a0e163a5254da53ac02b89584815f62dafbeaf295ade",
-          "segments": 62,
+          "seconds": 351.38,
+          "bytes": 16866284,
+          "sha256": "7a2b518f57a3d8594e2791a217925c0a87a868692a5460d95e764da8899ec8ad",
+          "segments": 78,
           "retained_asr_differences": []
         }
       ],
@@ -4353,16 +4331,14 @@
         },
         {
           "file": "127-3-gramar.wav",
-          "seconds": 346.08,
-          "bytes": 16611884,
-          "sha256": "d2742ad4844514c7894d23a200f6d0b10cb875ae9107394896a787001d4b003d",
+          "seconds": 345.28,
+          "bytes": 16573484,
+          "sha256": "4f2aefc79b9aa127ae76a4daea77f978a215241687489649cf170236dfe17338",
           "segments": 92,
           "retained_asr_differences": []
         }
       ],
-      "review_notes": [
-        "Added Chinese currency context for yuan; latest 127 reports and prior 126 reports have zero residual differences."
-      ]
+      "review_notes": []
     },
     {
       "lesson": 128,
@@ -4385,9 +4361,9 @@
         },
         {
           "file": "128-3-gramar.wav",
-          "seconds": 214.08,
-          "bytes": 10275884,
-          "sha256": "985d1b683223eb6af63f24089256329069b9a39dc61ad4b7a876e7d79b196c29",
+          "seconds": 216.24,
+          "bytes": 10379564,
+          "sha256": "f14dca6419d2a8749279a2cb6831f5cbcf36ac97ac3d2ea36ed49c2872c49555",
           "segments": 37,
           "retained_asr_differences": []
         }
@@ -4535,10 +4511,10 @@
         },
         {
           "file": "133-3-gramar.wav",
-          "seconds": 189.2,
-          "bytes": 9081644,
-          "sha256": "5cd6022166db9e68d6207bef112ca905fcedf6b8367e65dd3c85c40917cad926",
-          "segments": 43,
+          "seconds": 303.12,
+          "bytes": 14549804,
+          "sha256": "c5d28dec03c754ed762ae80954e2d9c6190da5bfe1a86064076d5eb70f23407a",
+          "segments": 68,
           "retained_asr_differences": []
         }
       ],
@@ -4565,16 +4541,14 @@
         },
         {
           "file": "134-3-gramar.wav",
-          "seconds": 261.92,
-          "bytes": 12572204,
-          "sha256": "cd5791d1abfd3d5e7667b292e2597ab30bc9159b9102c17c093970ce7d66b8f8",
-          "segments": 56,
+          "seconds": 197.12,
+          "bytes": 9461804,
+          "sha256": "3ffea9c24936d0fb4fd4c559973070741481de889e2e90cfc1981b4d39960212",
+          "segments": 35,
           "retained_asr_differences": []
         }
       ],
-      "review_notes": [
-        "134 present-perfect auxiliary restored explicitly as I have finished my homework; latest 134 checks have zero residual differences. 135 retains two round/around variants in travel round the world, a standard equivalent phrasing in American speech, with reported-speech tense intact. This is an accepted natural wording variant, not a claim of exact transcript identity."
-      ]
+      "review_notes": []
     },
     {
       "lesson": 135,
@@ -4597,27 +4571,14 @@
         },
         {
           "file": "135-3-gramar.wav",
-          "seconds": 211.72,
-          "bytes": 10162604,
-          "sha256": "dacac7e7de3784eca56081ccf4e95f693933afbdeaef4139a6cc5c1c3d115447",
-          "segments": 56,
-          "retained_asr_differences": [
-            {
-              "segment": 13,
-              "text": "I'm going to travel round the world.",
-              "heard": "I'm going to travel around the world."
-            },
-            {
-              "segment": 14,
-              "text": "She told her friend she was going to travel round the world.",
-              "heard": "She told her friend she was going to travel around the world."
-            }
-          ]
+          "seconds": 304.96,
+          "bytes": 14638124,
+          "sha256": "f2145c93cb28f4246d73a4cd035bb3842971b90032c33ed7bd163fa87c1373e4",
+          "segments": 68,
+          "retained_asr_differences": []
         }
       ],
-      "review_notes": [
-        "134 present-perfect auxiliary restored explicitly as I have finished my homework; latest 134 checks have zero residual differences. 135 retains two round/around variants in travel round the world, a standard equivalent phrasing in American speech, with reported-speech tense intact. This is an accepted natural wording variant, not a claim of exact transcript identity."
-      ]
+      "review_notes": []
     },
     {
       "lesson": 136,
@@ -4640,15 +4601,15 @@
         },
         {
           "file": "136-3-gramar.wav",
-          "seconds": 218.56,
-          "bytes": 10490924,
-          "sha256": "4c8af2f12d4fd091f8e31115d7499eed15e3a4d871acbe45a8b30bef489a3706",
-          "segments": 45,
+          "seconds": 171.76,
+          "bytes": 8244524,
+          "sha256": "52aa650bba81eaa99511cd5d8b2e2382c1f25393573a165c378466d0b26f692b",
+          "segments": 35,
           "retained_asr_differences": []
         }
       ],
       "review_notes": [
-        "137 completed conversation uses stable Brian/Julie voices, omits the duplicate isolated article, and places the final question before its answer while retaining source coverage. Remaining round/around is a natural equivalent American wording; won/one and sell/cell are exact homophones. All other current checks pass."
+        "Reviewed all four residuals in unchanged lesson/practice audio: round/around the world is a natural spoken variant; won/one and sell/cell are homophones. The original reviewed lesson/practice scripts and WAVs are unchanged. Repaired grammar has no remaining ASR differences. This is content review, not subjective listening certification."
       ]
     },
     {
@@ -4694,15 +4655,15 @@
         },
         {
           "file": "137-3-gramar.wav",
-          "seconds": 156.4,
-          "bytes": 7507244,
-          "sha256": "8de43c72ee64f7a2e0a603003070f8edf3b52d5ca2667eb2b8d8d96468c6cb71",
-          "segments": 31,
+          "seconds": 264.08,
+          "bytes": 12675884,
+          "sha256": "e2a590b091e026dabc6f28ba9c02f552e1186106f58089cb5421d29287783aca",
+          "segments": 52,
           "retained_asr_differences": []
         }
       ],
       "review_notes": [
-        "137 completed conversation uses stable Brian/Julie voices, omits the duplicate isolated article, and places the final question before its answer while retaining source coverage. Remaining round/around is a natural equivalent American wording; won/one and sell/cell are exact homophones. All other current checks pass."
+        "Reviewed all four residuals in unchanged lesson/practice audio: round/around the world is a natural spoken variant; won/one and sell/cell are homophones. The original reviewed lesson/practice scripts and WAVs are unchanged. Repaired grammar has no remaining ASR differences. This is content review, not subjective listening certification."
       ]
     },
     {
@@ -4764,16 +4725,14 @@
         },
         {
           "file": "139-3-gramar.wav",
-          "seconds": 179.16,
-          "bytes": 8599724,
-          "sha256": "d6c597480c37c6d5f9d91f3540528ac84d9581a18feacbeb7ef6e53c98ad2bce",
-          "segments": 39,
+          "seconds": 352.0,
+          "bytes": 16896044,
+          "sha256": "78ea1534198b264ff99a6afc4bb89bf955ef6e03a2227ef846f6ad45726d0bdb",
+          "segments": 94,
           "retained_asr_differences": []
         }
       ],
-      "review_notes": [
-        "138 currency pronunciation and conditional cue sentences repaired; latest grammar check has no residuals. USA/U.S.A. is orthographic. 139 full scan-verified mistaken-identity dialogue, reading question and answer are restored with Graham/John voices; all latest 139 checks pass."
-      ]
+      "review_notes": []
     },
     {
       "lesson": 140,
@@ -4796,10 +4755,10 @@
         },
         {
           "file": "140-3-gramar.wav",
-          "seconds": 233.6,
-          "bytes": 11212844,
-          "sha256": "35eca42f3a0520f9e07d92dbe1b039a6f0da5c26f3e4878bb22757dde6551dc2",
-          "segments": 54,
+          "seconds": 256.72,
+          "bytes": 12322604,
+          "sha256": "829fef25ef96ba3fb8fea14f739c0a275c29da4c9dda24a3d0704d95fb9cb32f",
+          "segments": 69,
           "retained_asr_differences": []
         }
       ],
@@ -4856,26 +4815,15 @@
         },
         {
           "file": "142-3-gramar.wav",
-          "seconds": 336.38,
-          "bytes": 16146284,
-          "sha256": "ced13f1f3a04a250589e94a8f4f41e930fe64b238d1062c88c659071bc2e1bd4",
-          "segments": 65,
-          "retained_asr_differences": [
-            {
-              "segment": 38,
-              "text": "Use the job, do, and soon.",
-              "heard": "Use the job. Due and soon."
-            },
-            {
-              "segment": 50,
-              "text": "two new films, show, in the city, next month.",
-              "heard": "to new films, show, in the city, next month."
-            }
-          ]
+          "seconds": 189.5,
+          "bytes": 9096044,
+          "sha256": "1316089c9053441c7014a1ec854a0dd91eb233645ae740b5aff83fccbf913413",
+          "segments": 34,
+          "retained_asr_differences": []
         }
       ],
       "review_notes": [
-        "Final opened passive-voice sentence and she sentence re-rendered and passed fresh ASR. Remaining differences are US tyre/tire spelling, piece/peace and two/to homophones, and do/due homophones under American yod-dropping. Exact cue words and correct answers are retained. This is content recognition review, not subjective listening validation."
+        "Reviewed all three residuals: tyre/tires are American/British spelling variants; isolated piece/peace is a homophone, and the following piece of cake is correctly recognized. No grammar residuals remain. This is content review, not subjective listening certification."
       ]
     },
     {
@@ -4915,15 +4863,15 @@
         },
         {
           "file": "143-3-gramar.wav",
-          "seconds": 103.56,
-          "bytes": 4970924,
-          "sha256": "2e45ef60fd89f96c13a197073b39c44d0ff5986b9a86a3b95e41dd93b48dc85d",
-          "segments": 22,
+          "seconds": 311.56,
+          "bytes": 14954924,
+          "sha256": "60a9b0d3cd20707d21881f6729faf62a8254020f9dfc46245839f86bd34478d9",
+          "segments": 62,
           "retained_asr_differences": []
         }
       ],
       "review_notes": [
-        "Final opened passive-voice sentence and she sentence re-rendered and passed fresh ASR. Remaining differences are US tyre/tire spelling, piece/peace and two/to homophones, and do/due homophones under American yod-dropping. Exact cue words and correct answers are retained. This is content recognition review, not subjective listening validation."
+        "Reviewed all three residuals: tyre/tires are American/British spelling variants; isolated piece/peace is a homophone, and the following piece of cake is correctly recognized. No grammar residuals remain. This is content review, not subjective listening certification."
       ]
     },
     {

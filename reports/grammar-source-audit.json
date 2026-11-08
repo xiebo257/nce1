@@ -48,7 +48,7 @@
       "html_grammar_sha256_before": "0d4e17f70a056cfca5375297a386d72f0cc9c6d769fb2e630ca41192c49424f1",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_sections",
       "finding": "缺少原书 II（10题）和 III（6题），包括两道例题；部分内容错放在142课。",
       "source_repair": {
@@ -78,7 +78,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "800e6c404d871811d7c76bb2acb6c7a818024f7bb4319793b38605975039465d"
+      "html_grammar_sha256_after": "800e6c404d871811d7c76bb2acb6c7a818024f7bb4319793b38605975039465d",
+      "audio_repair": {
+        "file": "audio/143-3-gramar.wav",
+        "batch": "142-143",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "Reviewed all three residuals: tyre/tires are American/British spelling variants; isolated piece/peace is a homophone, and the following piece of cake is correctly recognized. No grammar residuals remain. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 142,
@@ -88,7 +95,7 @@
       "html_grammar_sha256_before": "80709ea74a71ec805ea219378ee1217b47924a71d438d287a1bb32b4ec177dd5",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_lesson",
       "finding": "多出的 Grammar III 属于143课，混合两个题组且漏最后一题。",
       "source_repair": {
@@ -111,7 +118,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "62c0790ed4a33b40051351414c8c47f1a3da49c6a83f36d40af9cb39f406b439"
+      "html_grammar_sha256_after": "62c0790ed4a33b40051351414c8c47f1a3da49c6a83f36d40af9cb39f406b439",
+      "audio_repair": {
+        "file": "audio/142-3-gramar.wav",
+        "batch": "142-143",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "Reviewed all three residuals: tyre/tires are American/British spelling variants; isolated piece/peace is a homophone, and the following piece of cake is correctly recognized. No grammar residuals remain. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 141,
@@ -131,12 +145,12 @@
       "html_grammar_sha256_before": "ed5579e636983bd560f097bff8df6e2b6385f7adefeeda5d5ba78a60c4ffac38",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_content",
       "finding": "原书 I为18题、II为10题；网页三组内容与原书不对应，须重建。",
       "source_repair": {
         "canonical": "lessons/lesson-140.json",
-        "sha256": "c8bff832e8ea47fea24f78b54294219a30c3434eaaf494d61294ac7fae4f6c7d",
+        "sha256": "274647c730edc72a266cebad62ed73b8d18f35468ac66ca575a98b1fd4548877",
         "groups": [
           {
             "id": "l140-grammar-i",
@@ -154,7 +168,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "6924604524f25fbd4f23217919f02b34e5e1e1ab58f7f1af7b4bdf66bfc5206d"
+      "html_grammar_sha256_after": "6acb680aa0350c2c586847cc47095758e754a916a264cbedbd6f91c79c480b3a",
+      "audio_repair": {
+        "file": "audio/140-3-gramar.wav",
+        "batch": "139-140",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 139,
@@ -164,7 +184,7 @@
       "html_grammar_sha256_before": "5fa0b89aa7e9c26c53417b8123ec237c1c323f0e7f7ccfff9bd23073fbd91e33",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_content",
       "finding": "原书三组间接问句各15题；网页替换成了转述和条件句练习，须重建。",
       "source_repair": {
@@ -194,7 +214,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "27b470cb69a62e7bbafdb51353e1e2e1ba66474df7eff8650d3f84ed33801a53"
+      "html_grammar_sha256_after": "27b470cb69a62e7bbafdb51353e1e2e1ba66474df7eff8650d3f84ed33801a53",
+      "audio_repair": {
+        "file": "audio/139-3-gramar.wav",
+        "batch": "139-140",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 138,
@@ -214,7 +240,7 @@
       "html_grammar_sha256_before": "62a0685d7a9cbfa6208378ab42e53b6112f397b3cc7c0210f1d881c6f0630d06",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_section",
       "finding": "缺少原书 III 的10题条件句合并练习。",
       "source_repair": {
@@ -244,7 +270,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "775585543706b2136bc8ff3aa85aba79d5a729b70c4b54980e1d3dfdd52dca1b"
+      "html_grammar_sha256_after": "775585543706b2136bc8ff3aa85aba79d5a729b70c4b54980e1d3dfdd52dca1b",
+      "audio_repair": {
+        "file": "audio/137-3-gramar.wav",
+        "batch": "136-137",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "Reviewed all four residuals in unchanged lesson/practice audio: round/around the world is a natural spoken variant; won/one and sell/cell are homophones. The original reviewed lesson/practice scripts and WAVs are unchanged. Repaired grammar has no remaining ASR differences. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 136,
@@ -254,7 +287,7 @@
       "html_grammar_sha256_before": "0e18e59d4be8fe6cba5d347ac921c9a4d32047f2706b2253d07fbf65e714d232",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_lesson",
       "finding": "多出的 III 是137课的部分答案，缺原题提示；本课应只有 I、II 各8题。",
       "source_repair": {
@@ -277,7 +310,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "9ce18457f29b2ae661873acb3d45089ded0c7ec740d6b222983d6a6e450d1e0b"
+      "html_grammar_sha256_after": "9ce18457f29b2ae661873acb3d45089ded0c7ec740d6b222983d6a6e450d1e0b",
+      "audio_repair": {
+        "file": "audio/136-3-gramar.wav",
+        "batch": "136-137",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "Reviewed all four residuals in unchanged lesson/practice audio: round/around the world is a natural spoken variant; won/one and sell/cell are homophones. The original reviewed lesson/practice scripts and WAVs are unchanged. Repaired grammar has no remaining ASR differences. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 135,
@@ -287,7 +327,7 @@
       "html_grammar_sha256_before": "87b48dc58a2864ce19d930536985247fc4f54173500462118227c7c837c5a966",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_content",
       "finding": "原书三组10、10、12题；网页内容不对应，须重建。",
       "source_repair": {
@@ -317,7 +357,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "cf0730ea9f90ef529edd346f665dd77e2b0e533ddeaff69314b6af38b59aa3ae"
+      "html_grammar_sha256_after": "cf0730ea9f90ef529edd346f665dd77e2b0e533ddeaff69314b6af38b59aa3ae",
+      "audio_repair": {
+        "file": "audio/135-3-gramar.wav",
+        "batch": "133-135",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 134,
@@ -327,7 +373,7 @@
       "html_grammar_sha256_before": "f334c3584fc0adacc70996c5a2d10cfd49bd47aae18978437703612196231b58",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_content",
       "finding": "本课原书只有两组各8题；网页 I、II 不对应，III 属于133课。",
       "source_repair": {
@@ -350,7 +396,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "db90370f5e4ff9427069a1b52fc01daf889995cb7e17c36304df169c758f92d6"
+      "html_grammar_sha256_after": "db90370f5e4ff9427069a1b52fc01daf889995cb7e17c36304df169c758f92d6",
+      "audio_repair": {
+        "file": "audio/134-3-gramar.wav",
+        "batch": "133-135",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 133,
@@ -360,7 +412,7 @@
       "html_grammar_sha256_before": "215da10b80d568fe53932a6244f6288dfa36da9e76d61fc0ec1f19eff74bf5a8",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_section",
       "finding": "缺少 III 的12题间接引语还原直接引语练习（含2例题）。",
       "source_repair": {
@@ -390,7 +442,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "43b2bdc15b409310a47eb4164261537610590a53310ba32e627711ff3dc5efe7"
+      "html_grammar_sha256_after": "43b2bdc15b409310a47eb4164261537610590a53310ba32e627711ff3dc5efe7",
+      "audio_repair": {
+        "file": "audio/133-3-gramar.wav",
+        "batch": "133-135",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 132,
@@ -440,7 +498,7 @@
       "html_grammar_sha256_before": "16b8af90d8af3dfbbc14931b4d1a70582f2587d5c2a1b6bcfc0ea26116cef4b0",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "changed_prompt",
       "finding": "II.9 将“该国最热月份”改成“现在月份”，II.10 缩短题干。",
       "source_repair": {
@@ -463,7 +521,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "42633ca897023765059e79e299197129ff914d7d6941d033d6126b8c3adc28ab"
+      "html_grammar_sha256_after": "42633ca897023765059e79e299197129ff914d7d6941d033d6126b8c3adc28ab",
+      "audio_repair": {
+        "file": "audio/128-3-gramar.wav",
+        "batch": "127-128",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 127,
@@ -473,7 +537,7 @@
       "html_grammar_sha256_before": "b69f3551facfba4ce588b919145e51dc43b502720effa02433afa81af2af6f56",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "changed_prompt",
       "finding": "III 多个原题被简写或替换；第9题把 I have to 改成 You must，改变主语和练习提示。",
       "source_repair": {
@@ -503,7 +567,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "531c6ca1e675ce571c78b54b1988764ccd136fd77de37830a55ee6932c8f5e5e"
+      "html_grammar_sha256_after": "531c6ca1e675ce571c78b54b1988764ccd136fd77de37830a55ee6932c8f5e5e",
+      "audio_repair": {
+        "file": "audio/127-3-gramar.wav",
+        "batch": "127-128",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 126,
@@ -583,7 +653,7 @@
       "html_grammar_sha256_before": "4cf0a993328f00315a5ba9ffa2d9676f828f482a9779e535fa24ecc64fba9c69",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_context",
       "finding": "II 缺 Jimmy 从7:00至11:40的完整日记表，题目依赖的事件顺序不可见。",
       "source_repair": {
@@ -613,7 +683,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "ec5efcfa7cfa8a186895ac6f22f5e0b71c4d1e978316036744eacaf10fe25851"
+      "html_grammar_sha256_after": "ec5efcfa7cfa8a186895ac6f22f5e0b71c4d1e978316036744eacaf10fe25851",
+      "audio_repair": {
+        "file": "audio/119-3-gramar.wav",
+        "batch": "118-119",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 118,
@@ -623,7 +699,7 @@
       "html_grammar_sha256_before": "761377ef00f7cfe25350dbaadd9cfb208ce2f2e9289f2d19258bb31d08d4d741",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "changed_prompt",
       "finding": "II.8–12 被替换成其他句子；恢复原书待补全的从句。",
       "source_repair": {
@@ -646,7 +722,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "dc6c29815e90b3c610ab44ff19335e21e76b7e77bc274da9421c8af91851811f"
+      "html_grammar_sha256_after": "dc6c29815e90b3c610ab44ff19335e21e76b7e77bc274da9421c8af91851811f",
+      "audio_repair": {
+        "file": "audio/118-3-gramar.wav",
+        "batch": "118-119",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 117,
@@ -676,7 +758,7 @@
       "html_grammar_sha256_before": "122363bbbfcde4ab9c33b8359b276c3728f0450d7eb166e2290b4387e473f4a6",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "incomplete_dialogue",
       "finding": "III 缺固定问句，部分多空句分拆错误，重复/截断末段，需按完整对话恢复。",
       "source_repair": {
@@ -706,7 +788,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "99adecf793ad31600ae9f27b5292706179e9201f11ebfc90c6d7cffb4423b0a3"
+      "html_grammar_sha256_after": "99adecf793ad31600ae9f27b5292706179e9201f11ebfc90c6d7cffb4423b0a3",
+      "audio_repair": {
+        "file": "audio/115-3-gramar.wav",
+        "batch": "115-115",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "The only residual expands What're to What are. These are equivalent contracted/full forms of the same question; the complete eight-blank dialogue is present. No missing question or answer remains in the content check. This is not subjective listening certification."
+      }
     },
     {
       "lesson": 114,
@@ -756,7 +845,7 @@
       "html_grammar_sha256_before": "b53df6ef7e1e50285ff5117ef616c02fd6ddc5f8e732b10a02d3cd883a9e667a",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "incomplete_answers",
       "finding": "I 缺最高级答案且改变例题模式；II 多道问题和答案与成绩表原题错位。",
       "source_repair": {
@@ -779,7 +868,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "237890b0bb5dc2b96441266f1d5fea458f8bb9addbbba2ccf8e1e7754144d156"
+      "html_grammar_sha256_after": "237890b0bb5dc2b96441266f1d5fea458f8bb9addbbba2ccf8e1e7754144d156",
+      "audio_repair": {
+        "file": "audio/110-3-gramar.wav",
+        "batch": "110-110",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "Reviewed three residuals: stationery/stationary and Ann/Anne are homophones. The currency transcript uses dollar symbols and digits; all three table values match exactly (Jane 60, Mary 150, Ann 100). All comparative and superlative answers are present. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 109,
@@ -859,7 +955,7 @@
       "html_grammar_sha256_before": "00f7d03ec243588ddde2117e92616409c0597dbcbcf9d591bab0b777a089109c",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "truncated_prompts",
       "finding": "I 的10题均截掉选项后的句子内容，产生不完整的题干和录音答案。",
       "source_repair": {
@@ -889,7 +985,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "760b6e85ae393c06321939d56d48454e1a2b349934b9b034b40c6018c9d470f5"
+      "html_grammar_sha256_after": "760b6e85ae393c06321939d56d48454e1a2b349934b9b034b40c6018c9d470f5",
+      "audio_repair": {
+        "file": "audio/102-3-gramar.wav",
+        "batch": "102-102",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 101,
@@ -1059,7 +1161,7 @@
       "html_grammar_sha256_before": "c172a8bae28b21e1a3f3b360cb20ccafdb22830161c90008ee7207e7ac977f17",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_dialogue_context",
       "finding": "III.1 缺印刷的肯定答句、时间答句，问答对话不完整。",
       "source_repair": {
@@ -1089,7 +1191,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "676c82e6ffe9502a07f834cdf2ad7c84882b8db50c6c0ead0902a1d06fa3f484"
+      "html_grammar_sha256_after": "676c82e6ffe9502a07f834cdf2ad7c84882b8db50c6c0ead0902a1d06fa3f484",
+      "audio_repair": {
+        "file": "audio/085-3-gramar.wav",
+        "batch": "085-085",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 84,
@@ -1169,7 +1277,7 @@
       "html_grammar_sha256_before": "efd3e6e918ed8f9cd57168429c3a9e90f79948106d5338dfd3d181bfb2690fe4",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "changed_exercise",
       "finding": "II 将要求“按给定句子提出三问再回答”改成只回答现成问题，缺原给定句子。",
       "source_repair": {
@@ -1199,7 +1307,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "80ba9b14f7c503e3a0ec5b4345eda0e9399e2885375b8b77cc1612670d3d9ff2"
+      "html_grammar_sha256_after": "80ba9b14f7c503e3a0ec5b4345eda0e9399e2885375b8b77cc1612670d3d9ff2",
+      "audio_repair": {
+        "file": "audio/077-3-gramar.wav",
+        "batch": "077-077",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 76,
@@ -1219,7 +1333,7 @@
       "html_grammar_sha256_before": "866c1ff67c9417aeb4447efb0f1df9c94d29ac745e6738d18664be7fec5c5e90",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_dialogue_context",
       "finding": "III 漏固定开场 What was the living room like? / It looked large and comfortable.，完整对话需补回。",
       "source_repair": {
@@ -1256,7 +1370,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "54e9ec858e25f84b237d150ecc4c112417112c4d7281d35cd1889ad3cd9dcdc1"
+      "html_grammar_sha256_after": "54e9ec858e25f84b237d150ecc4c112417112c4d7281d35cd1889ad3cd9dcdc1",
+      "audio_repair": {
+        "file": "audio/075-3-gramar.wav",
+        "batch": "075-075",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "All four residuals are homophones in preserved verb drills: wear/where, wore/war, know/no and knew/new. The printed living-room conversation opening has been restored and has no remaining ASR difference. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 74,
@@ -1276,7 +1397,7 @@
       "html_grammar_sha256_before": "a016798367f577645465f16678ccc2cd6544c475e7fd3e73652cfb93bf28b7f2",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "wrong_content",
       "finding": "II野餐短文被改写；III和IV替换成其他练习，需按原书恢复15空、18题及12题。",
       "source_repair": {
@@ -1313,7 +1434,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "c8e532dd6dea704686d8d34b956df1449ee838f2a8c4f9db780510663108c82f"
+      "html_grammar_sha256_after": "c8e532dd6dea704686d8d34b956df1449ee838f2a8c4f9db780510663108c82f",
+      "audio_repair": {
+        "file": "audio/073-3-gramar.wav",
+        "batch": "073-073",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 72,
@@ -1353,7 +1480,7 @@
       "html_grammar_sha256_before": "0b87e4f80c7f5090be72ad5c7e18c694f167eb0aa87c9ebb5e50c54a6b6cb4db",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_items",
       "finding": "II 漏7、8两组对话，例题1还漏后续时间问答。",
       "source_repair": {
@@ -1383,7 +1510,13 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "345411766b1526e634c698dfad148886a5061852f302005927368889d4b28657"
+      "html_grammar_sha256_after": "345411766b1526e634c698dfad148886a5061852f302005927368889d4b28657",
+      "audio_repair": {
+        "file": "audio/069-3-gramar.wav",
+        "batch": "069-069",
+        "published": true,
+        "asr_checked": true
+      }
     },
     {
       "lesson": 68,
@@ -1424,7 +1557,7 @@
       "html_grammar_sha256_before": "a40b88541e4aefd76a1e948bf3b0c05285960e04c31030a6783eed83553b9c1f",
       "result": "repair_required",
       "method": "OCR-assisted source/HTML coverage comparison; numbering, continuation and suspicious-content review. Not an exhaustive certification of every answer or a listening review.",
-      "repair_status": "source_fixed_audio_pending",
+      "repair_status": "complete",
       "issue_type": "missing_item",
       "finding": "II 漏第8题 he/go to work/twenty to eight/morning。",
       "source_repair": {
@@ -1454,7 +1587,14 @@
           }
         ]
       },
-      "html_grammar_sha256_after": "4d590c3b188e5ce561bb860bbe486078038acd48f648ec6a19cb07b9a2fc09c3"
+      "html_grammar_sha256_after": "4d590c3b188e5ce561bb860bbe486078038acd48f648ec6a19cb07b9a2fc09c3",
+      "audio_repair": {
+        "file": "audio/065-3-gramar.wav",
+        "batch": "065-065",
+        "published": true,
+        "asr_checked": true,
+        "review_note": "All four residuals are in unchanged lesson audio: American Mom for printed British Mum, and hear/here homophones. The newly restored grammar item has no remaining ASR difference. Source text is retained. This is content review, not subjective listening certification."
+      }
     },
     {
       "lesson": 64,
@@ -2100,8 +2240,23 @@
   ],
   "repair_summary": {
     "source_fixed": 22,
-    "audio_published": 0,
-    "complete": false,
-    "verification": "Canonical HTML rendering check; compiler regression suite; per-batch source-item coverage, WAV decoding and segment consistency; grouped and individual ASR with residual review."
+    "audio_published": 22,
+    "complete": true,
+    "verification": "Canonical HTML rendering check; compiler regression suite; per-batch source-item coverage, WAV decoding and segment consistency; grouped and individual ASR with residual review.",
+    "changed_grammar_wavs": 22,
+    "final_audio_collection": {
+      "lessons": 144,
+      "files": 432,
+      "seconds": 81637.46,
+      "bytes": 3918617088
+    },
+    "pronunciation_adaptations": [
+      {
+        "lesson": 140,
+        "source": "Mount Qomolangma",
+        "spoken": "Mount Everest",
+        "reason": "Use the common English name for the same mountain after unstable synthesis; source question and key retained in HTML with explanatory note."
+      }
+    ]
   }
 }
