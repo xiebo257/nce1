@@ -45,18 +45,29 @@
   "images": {
     "lesson-099-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Andy slipping and falling downstairs, Lucy helping him try to stand up, Lucy phoning Dr. Carter, and the doctor coming to see Andy.",
       "characters": [
         "andy",
         "lucy"
       ],
       "source": "../img/lesson-099-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Andy sits on the floor at the foot of the stairs, carefully supporting his sore lower back after a fall. Lucy kneels beside him, offering a steadying hand and looking concerned. Domestic hallway, no visible injury.",
       "illustration_person_count": 2,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-099/lesson-099-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Ow!",
+      "alt": "Andy sits on the floor at the foot of the stairs, carefully supporting his sore lower back after a fall.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 99017,
+        "manifest": "illustrations/manifests/099-lesson-099-scene-01.json"
+      },
+      "layout": "above"
     }
   },
   "sections": {
