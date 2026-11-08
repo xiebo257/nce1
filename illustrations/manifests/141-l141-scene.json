@@ -1,0 +1,48 @@
+{
+  "slot": "l141-scene",
+  "prompt": "Inside a train compartment, four-year-old Sally in her mustard cardigan sits beside her mother on the LEFT bench near the window. On the OPPOSITE bench, a middle-aged lady in a bright BLUE COAT and large decorative navy hat holds an open powder compact and gently applies face powder. Sally watches curiously; mother looks embarrassed. Three people, visibly facing across the space between the seats. Exactly 3 people appear.  Appearance: mother: Woman about 32, dark curly bob, pale green dress. sally: Four-year-old girl with dark wavy hair in two small pigtails, mustard cardigan, cream dress. lady: Woman about 50, gray-brown curls, bright blue coat, very large decorative navy hat, dark handbag, small powder compact. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "mother",
+    "sally",
+    "lady"
+  ],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "reference_crop": "portrait",
+  "lesson": 141,
+  "seed": 141017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "fingerprint": "f52cc1ad45459bc57dbbcbca2089bdf25c4a7bbeeb62c55e098e8b830dd7d1be",
+  "sha256": "770b92cc4becb9335482281cf2f4d0f12b46bba924a9175d30cd6cc759cdea26",
+  "seconds": 41.55,
+  "peak_mlx_gb": 5.079,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "The woman in the blue coat now holds a small round open powder compact with a mirror, and gently touches a powder puff to her cheek with the other hand. Remove the rectangular device. Preserve all three people, faces, clothing, large hat, handbag, seating and train compartment.",
+        "seed": 1410112,
+        "input_sha256": "bd05292b4d7972d2dfc2202050c9a7faa75dcf4d2d97710beb23b5a2505aad97",
+        "output_sha256": "19fd9eb92a1e14197931f12a7d0ea3496769d15841bad9ad5f1ec34afa44e748",
+        "seconds": 79.73
+      },
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Remove the white circular object on the little girl cheek at the LEFT. Restore her natural face and skin with nothing touching her cheek. Keep the older woman at right holding powder puff at her own face, blue coat and hat, mother, seats and train unchanged.",
+        "seed": 1410113,
+        "input_sha256": "19fd9eb92a1e14197931f12a7d0ea3496769d15841bad9ad5f1ec34afa44e748",
+        "output_sha256": "770b92cc4becb9335482281cf2f4d0f12b46bba924a9175d30cd6cc759cdea26",
+        "seconds": 79.58
+      }
+    ]
+  },
+  "review_notes": "Three people in train compartment: Sally and mother on one bench, blue-coated lady in large navy hat opposite. Lady uses compact and powder applicator. Removed erroneous white circle from child cheek; girl face clear.",
+  "published_sha256": "7db6f290cabf5e1acd9ba0ce7884bd92efeed1bc1abec945912d5b450bf662be"
+}

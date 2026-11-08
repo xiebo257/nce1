@@ -310,10 +310,9 @@
   "images": {
     "l141-scene": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Sally sitting near a train window, looking out at the scenery, with a pretty lady in a blue dress and fashionable hat sitting next to her",
       "source": "img/lesson-141-01-text.jpg (textbook p.285)",
-      "reason": "No suitable crop available for the story scene",
       "illustration_scene": "Inside a train compartment, four-year-old Sally in her mustard cardigan sits beside her mother on the LEFT bench near the window. On the OPPOSITE bench, a middle-aged lady in a bright BLUE COAT and large decorative navy hat holds an open powder compact and gently applies face powder. Sally watches curiously; mother looks embarrassed. Three people, visibly facing across the space between the seats.",
       "characters": [
         "mother",
@@ -322,7 +321,19 @@
       ],
       "illustration_person_count": 3,
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait"
+      "illustration_reference_crop": "portrait",
+      "src": "assets/lesson-141/l141-scene-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "Sally's first train ride",
+      "alt": "Inside a train compartment, four-year-old Sally in her mustard cardigan sits beside her mother on the LEFT bench near the window.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 141017,
+        "manifest": "illustrations/manifests/141-l141-scene.json"
+      },
+      "layout": "above"
     }
   },
   "illustration_source_corrections": {
