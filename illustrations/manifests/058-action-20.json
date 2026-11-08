@@ -1,0 +1,114 @@
+{
+  "slot": "action-20",
+  "prompt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background. Preserve every face, pose, person count, action and object. Remove gray paper and bleed-through, keep readable text and all clock hands unchanged. The same person reclining and reading a book.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/058-action-20.png",
+  "lesson": 58,
+  "seed": 58036,
+  "width": 512,
+  "height": 320,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "079453c2acd7aaf3b2744da1d670b583aed4bbd32f794be46ca1124e5e0389a8",
+  "fingerprint": "f5cc44cc78c84f05b6fc12fdf732ac93b5dc0661f9621487aba6ad59441d3395",
+  "sha256": "b9ae807bec5f00e143966ce4dbba2507fe4eb9540b72b07631c6812b4000c0b3",
+  "status": "visually-reviewed",
+  "seconds": 18.171,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 58901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Colorize these 10 textbook picture tiles in their EXACT 4-column, 3-row positions. Preserve all faces, poses, objects, counts, panel borders and line art. Natural skin and vivid clothing colors, pure white background. Remove gray paper and cropped text fragments outside picture borders. Keep complete map labels, numerals and symbols inside the drawings unchanged. No extra people, objects or panels. Do not rearrange tiles.",
+    "width": 1280,
+    "height": 672,
+    "steps": 4,
+    "seconds": 181.71,
+    "peak_mlx_gb": 6.628,
+    "input_sha256": "35dc3e7b9ce24866b81731b5c4843cc049fb53b68a296a01ebb7da73e842a949",
+    "output_sha256": "d94754026c28ffa126bc035655bc826a1c023343ca39a5db23347edb81aa74ec",
+    "slots": [
+      "action-13",
+      "action-14",
+      "action-15",
+      "action-16",
+      "action-17",
+      "action-18",
+      "action-19",
+      "action-20",
+      "action-21",
+      "action-22"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/058-action-13.png",
+        "sha256": "c8a671fc6fa8f7b92358364c53efa30ed072fc91aa6e485e9b789a67284fe8d7"
+      },
+      {
+        "path": "illustrations/references/source/058-action-14.png",
+        "sha256": "e45c6321c4d0e83735647d65902faedccc3bbfb81bd5d6c7fcedee50f396b461"
+      },
+      {
+        "path": "illustrations/references/source/058-action-15.png",
+        "sha256": "a388675171ce180474fbaebda5dfa3ce30fb008f5c5a5a2723d05e4196147f36"
+      },
+      {
+        "path": "illustrations/references/source/058-action-16.png",
+        "sha256": "87a5fa342cc4f94b0ae99f0f14e747cee2ad6fbc6a4dbe9e6705184d4141f3f6"
+      },
+      {
+        "path": "illustrations/references/source/058-action-17.png",
+        "sha256": "7cc1dd585d284598824f76b2d2f655315907d86ba23913e9135a87735a2dc509"
+      },
+      {
+        "path": "illustrations/references/source/058-action-18.png",
+        "sha256": "684436aa6ce55bd0e363a1243fdd0cfdd1e44df2e56893228bee8145624e35ea"
+      },
+      {
+        "path": "illustrations/references/source/058-action-19.png",
+        "sha256": "2d80649d0f7509556f92e83f7e8aba2247695d988e5cc37a8339117e9f059153"
+      },
+      {
+        "path": "illustrations/references/source/058-action-20.png",
+        "sha256": "079453c2acd7aaf3b2744da1d670b583aed4bbd32f794be46ca1124e5e0389a8"
+      },
+      {
+        "path": "illustrations/references/source/058-action-21.png",
+        "sha256": "48560ae4bc62203de2d55002211002b3a6d9562a852ebf8bbe6e4a3453203df8"
+      },
+      {
+        "path": "illustrations/references/source/058-action-22.png",
+        "sha256": "f6edc2749e1ac98e8f8e8afbd8437a04722dd0ce15de7f08b81f27b2fd0c325d"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      960,
+      224,
+      1280,
+      448
+    ],
+    "output_size": [
+      320,
+      185
+    ],
+    "source_atlas_sha256": "35dc3e7b9ce24866b81731b5c4843cc049fb53b68a296a01ebb7da73e842a949",
+    "color_guide_sha256": "d94754026c28ffa126bc035655bc826a1c023343ca39a5db23347edb81aa74ec",
+    "region_overrides": [],
+    "crop": [
+      0,
+      0,
+      320,
+      185
+    ],
+    "reason": "Remove incomplete captions below source picture frames."
+  },
+  "review_notes": "Twelve exact hour clocks preserved by deterministic teal/cream colorization; ten daily-routine source panels retain clock hands, two children, appliances and family groups. Model-guided color transfer preserves shaving, drinks, school/play, housework/reading, TV/radio contrasts. Trimmed stray caption fragments.",
+  "published_sha256": "f78560b368249b40543a2cdadb33e027953ad20022ec0ca34535635b1678a219"
+}
