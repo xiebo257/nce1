@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 94901,
+  "prompt": "Faithfully colorize this exact textbook illustration. Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+  "width": 1024,
+  "height": 784,
+  "steps": 4,
+  "seconds": 159.87,
+  "peak_mlx_gb": 6.32,
+  "input_sha256": "5ee7e061502f73619aed95d1f5409c37e9096163991f1e80389c8a782504805d",
+  "output_sha256": "15a7115a9e0d7c74f1b0013f8d67c1c526ad8cf64d038c4e7987280ac5cc3ce0",
+  "slots": [
+    "lesson-094-color-panels"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/094-lesson-panels.png",
+      "sha256": "b3f9d642edb569d1fe73be34c0baf50397513cf6e7167b221c733863fd16a9b6"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slot": "lesson-094-color-panels",
+  "prompt": "Faithfully colorize this exact textbook illustration. Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/094-lesson-panels.png",
+  "lesson": 94,
+  "seed": 94017,
+  "width": 1024,
+  "height": 784,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "b3f9d642edb569d1fe73be34c0baf50397513cf6e7167b221c733863fd16a9b6",
+  "fingerprint": "0846dd9c0557ff2b7dfb02c054939b879dfa4e9976164479f91cb760ca824a9f",
+  "sha256": "377e2f01dbdad3e3939c37650f3a5d43cc5ce4fac57722d02a79f682a37ea4dc",
+  "status": "visually-reviewed",
+  "seconds": 159.87,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 94901,
+    "prompt": "Faithfully colorize this exact textbook illustration. Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
+    "width": 1024,
+    "height": 784,
+    "steps": 4,
+    "seconds": 159.87,
+    "peak_mlx_gb": 6.32,
+    "input_sha256": "5ee7e061502f73619aed95d1f5409c37e9096163991f1e80389c8a782504805d",
+    "output_sha256": "15a7115a9e0d7c74f1b0013f8d67c1c526ad8cf64d038c4e7987280ac5cc3ce0",
+    "slots": [
+      "lesson-094-color-panels"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/094-lesson-panels.png",
+        "sha256": "b3f9d642edb569d1fe73be34c0baf50397513cf6e7167b221c733863fd16a9b6"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      1024,
+      784
+    ],
+    "output_size": [
+      1024,
+      784
+    ],
+    "source_atlas_sha256": "5ee7e061502f73619aed95d1f5409c37e9096163991f1e80389c8a782504805d",
+    "color_guide_sha256": "15a7115a9e0d7c74f1b0013f8d67c1c526ad8cf64d038c4e7987280ac5cc3ce0",
+    "region_overrides": []
+  },
+  "review_notes": "Checked all 15 city pictures in order with readable original names, including Seoul 12 and Tokyo 15; retained source geometry with model-guided colors.",
+  "published_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61"
+}
