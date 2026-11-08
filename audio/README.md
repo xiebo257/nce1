@@ -73,6 +73,8 @@
 | 067 | The weekend | [2:55](067-1-lesson.wav) | [2:32](067-2-practice.wav) | [4:22](067-3-gramar.wav) | [脚本](scripts/067/README.md) |
 | 068 | What's the time? | [2:01](068-1-lesson.wav) | [2:12](068-2-practice.wav) | [2:06](068-3-gramar.wav) | [脚本](scripts/068/README.md) |
 | 069 | The car race | [2:16](069-1-lesson.wav) | [3:05](069-2-practice.wav) | [3:35](069-3-gramar.wav) | [脚本](scripts/069/README.md) |
+| 070 | When were they there? | [2:35](070-1-lesson.wav) | [1:39](070-2-practice.wav) | [3:30](070-3-gramar.wav) | [脚本](scripts/070/README.md) |
+| 071 | He's awful! | [2:14](071-1-lesson.wav) | [2:19](071-2-practice.wav) | [6:00](071-3-gramar.wav) | [脚本](scripts/071/README.md) |
 | 076 | When did you ...? | [2:44](076-1-lesson.wav) | [1:30](076-2-practice.wav) | [3:04](076-3-gramar.wav) | [脚本](scripts/076/README.md) |
 | 077 | Terrible toothache | [1:33](077-1-lesson.wav) | [1:39](077-2-practice.wav) | [4:47](077-3-gramar.wav) | [脚本](scripts/077/README.md) |
 | 116 | Every, no, any and some 每一、无、若干和一些 | [0:34](116-1-lesson.wav) | [5:57](116-2-practice.wav) | [5:16](116-3-gramar.wav) | [脚本](scripts/116/README.md) |
