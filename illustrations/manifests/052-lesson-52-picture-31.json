@@ -1,0 +1,124 @@
+{
+  "slot": "lesson-52-picture-31",
+  "prompt": "Faithfully colorize this exact textbook cartoon. Preserve the original number of people, their faces, poses, clothing shapes, objects, and placement. Use natural skin colors, distinct colorful clothes, a clean warm white background. Remove gray paper texture and faint reverse-page bleed-through. Preserve existing country outlines and labels exactly when present. No extra text or objects. A rectangular textbook illustration for the 31st prompt showing one person with long hair standing alone.",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/052-lesson-52-picture-31.png",
+  "lesson": 52,
+  "seed": 52028,
+  "width": 512,
+  "height": 320,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "fab7d7a8396112729f2c6770f1004e4f68d4bcf73ba60cab1d97a4bbf5bccd4c",
+  "fingerprint": "8ac17d5d8d9a268b81f9297dea82fadb5e28113a09945047318e3f63d18b4f94",
+  "sha256": "0f015a49bfad955be7a8abf7eb7df1349e69d015878cdc91d932b8d43d6b7fb3",
+  "status": "visually-reviewed",
+  "seconds": 11.801666666666668,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 52901,
+    "prompt": "Colorize this exact textbook cartoon sheet in place. There are 12 input tiles in 4 columns and 3 rows. Keep the grid positions, panel borders, every face, hairstyle, pose, object, count and spatial relation EXACTLY unchanged. Repeated characters must have the same hair color, skin tone and clothing colors in every panel. Use natural skin tones, cheerful full-color clothing, realistic object colors, and pure white background. Remove gray paper texture and faint reverse-page bleed-through. Preserve all visible letters, numerals and clock hands. Do not draw extra objects, people, labels or captions. Do not move, resize, combine, omit or rearrange any tile. Color only the existing drawing, preserving the original black outlines. Remove cropped text fragments OUTSIDE picture borders, keeping only the drawings. Keep complete map labels and symbols INSIDE the picture unchanged. Mandatory recurring character colors: The same little boy with short CURLY hair points to people in seven panels. In EVERY appearance give this boy BROWN curly hair, a BLUE shirt, NAVY shorts and RED shoes. His hair and clothes never change color. Do not apply this rule to the other adults or girls.",
+    "width": 1280,
+    "height": 672,
+    "steps": 4,
+    "seconds": 141.62,
+    "peak_mlx_gb": 6.104,
+    "input_sha256": "fac8a7a2797c56e1c1dae1f7f2496a77b67bc717735f35d600b26b7dd415326f",
+    "output_sha256": "10e118aab1f6bcf78944a595bf0ffe43bf1caedf189cd54037d04dd5cc25eb48",
+    "slots": [
+      "lesson-52-picture-20",
+      "lesson-52-picture-21",
+      "lesson-52-picture-22",
+      "lesson-52-picture-23",
+      "lesson-52-picture-24",
+      "lesson-52-picture-25",
+      "lesson-52-picture-26",
+      "lesson-52-picture-27",
+      "lesson-52-picture-28",
+      "lesson-52-picture-29",
+      "lesson-52-picture-30",
+      "lesson-52-picture-31"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-20.png",
+        "sha256": "58f6dae24d25137acbb54c5fb447d54d835923cd018bf7b0c018a6135ad8f8c5"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-21.png",
+        "sha256": "d03210958127145fe30896601d167855c2f98e8e5d2af3e1b982d1985fb70c78"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-22.png",
+        "sha256": "d83096845d90c95da738223f3948774ad4888a740f52f0f24b87119ea7375885"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-23.png",
+        "sha256": "ce2b320beb3fba48e727f84c2d1fb640e2d4d9d6cf9f5f4758e3e99a458ecd63"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-24.png",
+        "sha256": "a99b434e6dee6a51d36087fe9ccdb89b629dfaae798a9b9627b472c6c8d2b2c5"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-25.png",
+        "sha256": "2c1133676dcfb2320de987b14e1d8a4068e17bcd2f1100a0cec4382caa95a8db"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-26.png",
+        "sha256": "b0c127ea677f7c1955c014650da47ecc2a2074ed2d9009f9f602df1bfab04ac1"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-27.png",
+        "sha256": "30d9299c8d7281d425555213e2875338a44fb424165b1a2bbb332c9b41de338e"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-28.png",
+        "sha256": "fe063ede82cadc4d16f713804eb59cee2ee3ff46d2cbaa6cdbf538c09cf3eef1"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-29.png",
+        "sha256": "2022c46c29bf0af43a60e0fb9398e8f9562cf72d5f234f077d2119d01224c768"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-30.png",
+        "sha256": "0bb0a1fbdc86a48a8bc6400555971df8558227e59bc69127016f62697d154015"
+      },
+      {
+        "path": "illustrations/references/source/052-lesson-52-picture-31.png",
+        "sha256": "fab7d7a8396112729f2c6770f1004e4f68d4bcf73ba60cab1d97a4bbf5bccd4c"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v2:The same little boy with short CURLY hair points to people in seven panels. In EVERY appearance give this boy BROWN curly hair, a BLUE shirt, NAVY shorts and RED shoes. His hair and clothes never change color. Do not apply this rule to the other adults or girls.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      960,
+      448,
+      1280,
+      672
+    ],
+    "output_size": [
+      320,
+      192
+    ],
+    "source_atlas_sha256": "fac8a7a2797c56e1c1dae1f7f2496a77b67bc717735f35d600b26b7dd415326f",
+    "color_guide_sha256": "10e118aab1f6bcf78944a595bf0ffe43bf1caedf189cd54037d04dd5cc25eb48",
+    "region_overrides": [],
+    "crop": [
+      0,
+      0,
+      320,
+      192
+    ],
+    "reason": "Remove incomplete captions below source picture frames."
+  },
+  "review_notes": "Twelve source nationality scenes retained. Used model colors with original source outlines to preserve identities and counts. Repeated curly-haired narrator keeps blue top and dark hair, with red footwear. Trimmed clipped captions and filled missing face color. Source cartoon costumes are illustrative textbook artwork.",
+  "published_sha256": "b75c199ec92dd342fa386095db70056d7c3dce65d2a8b38bbe37e917b227de49"
+}
