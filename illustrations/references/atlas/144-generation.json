@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "seed": 144901,
+  "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing present-perfect-passive and future-passive pairs: 1 a man pointing at a broken car (Hasn't anyone repaired this car yet?); 2 a man and woman with the repaired car (It has already been repaired!); 3 two people beside a stack of exercise books (Hasn't anyone corrected these exercise books yet?); 4 two students and a teacher (They have already been corrected!); 5 a masked thief by a door (Hasn't anyone caught the thief yet?); 6 a policeman with a baton (He hasn't been caught yet. He will be caught soon!); 7 two masked thieves (Hasn't anyone caught the thieves yet?); 8 two policemen (They haven't been caught yet. They will be caught soon!).",
+  "width": 512,
+  "height": 640,
+  "steps": 4,
+  "seconds": 65.65,
+  "peak_mlx_gb": 5.26,
+  "input_sha256": "771a3c4be6bd380ad4a9b062a36cb2eab0d73b7854db13b0954be72b11f5c273",
+  "output_sha256": "cf9ad5a9fc7cf6af2f0037376fcdc6ecb87be649bc96811c02ffeb3fd5653f24",
+  "slots": [
+    "l144-pictures"
+  ],
+  "inputs": [
+    {
+      "path": "illustrations/references/source/144-restored-photograph-panels.png",
+      "sha256": "771a3c4be6bd380ad4a9b062a36cb2eab0d73b7854db13b0954be72b11f5c273"
+    }
+  ]
+}

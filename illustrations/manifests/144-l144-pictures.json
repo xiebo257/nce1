@@ -1,0 +1,151 @@
+{
+  "slot": "l144-pictures",
+  "prompt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing present-perfect-passive and future-passive pairs: 1 a man pointing at a broken car (Hasn't anyone repaired this car yet?); 2 a man and woman with the repaired car (It has already been repaired!); 3 two people beside a stack of exercise books (Hasn't anyone corrected these exercise books yet?); 4 two students and a teacher (They have already been corrected!); 5 a masked thief by a door (Hasn't anyone caught the thief yet?); 6 a policeman with a baton (He hasn't been caught yet. He will be caught soon!); 7 two masked thieves (Hasn't anyone caught the thieves yet?); 8 two policemen (They haven't been caught yet. They will be caught soon!).",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/144-restored-photograph-panels.png",
+  "lesson": 144,
+  "seed": 144017,
+  "width": 512,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "771a3c4be6bd380ad4a9b062a36cb2eab0d73b7854db13b0954be72b11f5c273",
+  "fingerprint": "bfe17d44d7a984ec0e5db2b61c32e8ef829a247b48b8c8856aef36d5a4b8fbfa",
+  "sha256": "0f9698f9e4facc3343b107d7dbdbb5e4884941996945daaf181ac809770d0a57",
+  "status": "visually-reviewed",
+  "seconds": 65.65,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 144901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing present-perfect-passive and future-passive pairs: 1 a man pointing at a broken car (Hasn't anyone repaired this car yet?); 2 a man and woman with the repaired car (It has already been repaired!); 3 two people beside a stack of exercise books (Hasn't anyone corrected these exercise books yet?); 4 two students and a teacher (They have already been corrected!); 5 a masked thief by a door (Hasn't anyone caught the thief yet?); 6 a policeman with a baton (He hasn't been caught yet. He will be caught soon!); 7 two masked thieves (Hasn't anyone caught the thieves yet?); 8 two policemen (They haven't been caught yet. They will be caught soon!).",
+    "width": 512,
+    "height": 640,
+    "steps": 4,
+    "seconds": 65.65,
+    "peak_mlx_gb": 5.26,
+    "input_sha256": "771a3c4be6bd380ad4a9b062a36cb2eab0d73b7854db13b0954be72b11f5c273",
+    "output_sha256": "cf9ad5a9fc7cf6af2f0037376fcdc6ecb87be649bc96811c02ffeb3fd5653f24",
+    "slots": [
+      "l144-pictures"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/144-restored-photograph-panels.png",
+        "sha256": "771a3c4be6bd380ad4a9b062a36cb2eab0d73b7854db13b0954be72b11f5c273"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      512,
+      640
+    ],
+    "output_size": [
+      512,
+      640
+    ],
+    "source_atlas_sha256": "771a3c4be6bd380ad4a9b062a36cb2eab0d73b7854db13b0954be72b11f5c273",
+    "color_guide_sha256": "cf9ad5a9fc7cf6af2f0037376fcdc6ecb87be649bc96811c02ffeb3fd5653f24",
+    "region_overrides": [
+      [
+        359,
+        549,
+        "#f4c7ad"
+      ],
+      [
+        450,
+        550,
+        "#f4c7ad"
+      ],
+      [
+        353,
+        245,
+        "#f4c7ad"
+      ],
+      [
+        32,
+        220,
+        "#d3b574"
+      ],
+      [
+        290,
+        216,
+        "#d3b574"
+      ],
+      [
+        360,
+        400,
+        "#f4c7ad"
+      ]
+    ],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          86,
+          384,
+          147,
+          431
+        ],
+        "selection": "blue",
+        "color": [
+          244,
+          199,
+          173
+        ]
+      },
+      {
+        "box": [
+          337,
+          260,
+          377,
+          284
+        ],
+        "selection": "green",
+        "color": [
+          95,
+          142,
+          179
+        ]
+      },
+      {
+        "box": [
+          86,
+          384,
+          147,
+          431
+        ],
+        "selection": "blue",
+        "color": [
+          244,
+          199,
+          173
+        ]
+      },
+      {
+        "box": [
+          337,
+          260,
+          377,
+          284
+        ],
+        "selection": "green",
+        "color": [
+          95,
+          142,
+          179
+        ]
+      }
+    ]
+  },
+  "review_notes": "Reviewed all eight complete passive pairs after rectifying original photographed frames: car repaired, books corrected, one thief/policeman, two thieves/policemen. Counts and actions preserved; corrected blue/gray skin and matched repeated girls hair/clothing.",
+  "published_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d"
+}

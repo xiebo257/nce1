@@ -220,9 +220,9 @@
       "kind": "scene",
       "status": "ready",
       "description": "Eight numbered pictures in a 2x4 grid showing present-perfect-passive and future-passive pairs: 1 a man pointing at a broken car (Hasn't anyone repaired this car yet?); 2 a man and woman with the repaired car (It has already been repaired!); 3 two people beside a stack of exercise books (Hasn't anyone corrected these exercise books yet?); 4 two students and a teacher (They have already been corrected!); 5 a masked thief by a door (Hasn't anyone caught the thief yet?); 6 a policeman with a baton (He hasn't been caught yet. He will be caught soon!); 7 two masked thieves (Hasn't anyone caught the thieves yet?); 8 two policemen (They haven't been caught yet. They will be caught soon!).",
-      "src": "assets/lesson-144/pictures-grid.jpg",
-      "width": 1696,
-      "height": 1800,
+      "src": "assets/lesson-144/l144-pictures-color.webp",
+      "width": 512,
+      "height": 640,
       "source": "img/lesson-144-01-text.jpg (textbook p.291)",
       "characters": [],
       "illustration_source_reference": "illustrations/references/source/144-restored-photograph-panels.png",
@@ -383,7 +383,15 @@
         ],
         "normalization": "Rectify each printed frame, estimate paper and threshold 165; replaces faded PDF panels."
       },
-      "layout": "above"
+      "layout": "above",
+      "origin": "local-model",
+      "caption": "He hasn't been served yet. He will be served soon.",
+      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 144017,
+        "manifest": "illustrations/manifests/144-l144-pictures.json"
+      }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
