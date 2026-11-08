@@ -1,0 +1,32 @@
+{
+  "slot": "cast",
+  "prompt": "A horizontal character reference sheet with exactly 5 equal-width vertical panels in ONE row. Each panel contains ONE separate head-and-shoulders portrait on a plain warm gray background. Exactly one face per panel, fully visible and centered. Thin vertical dividers separate the portraits. Left to right: 1. narrator: Man about 35, short brown hair, clean-shaven, navy sweater over white collared shirt, gray trousers. 2. wife: Woman about 35, shoulder-length auburn hair, mustard cardigan, cream blouse. 3. julie: Woman about 30, short blond hair, pale blue cardigan. 4. jack: Man about 32, short dark curly hair, red casual jacket. 5. billy-stewart: Adult race driver in a white racing suit and red helmet. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Portraits only, no scene or props.",
+  "cast": [
+    "narrator",
+    "wife",
+    "julie",
+    "jack",
+    "billy-stewart"
+  ],
+  "reference": null,
+  "lesson": 69,
+  "seed": 69017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "39de234a66326867bfa46755b50bbb69833bf0f3f3d66e4c23f42ad18fad821f",
+  "sha256": "f60e68eb9fff9534ed4af8e273ad8f8e51798ea33f11f691276e6ca58f6348cf",
+  "seconds": 36.85,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "reference_source": "illustrations/references/069-cast-source.png",
+  "reference_review": {
+    "sha256": "f60e68eb9fff9534ed4af8e273ad8f8e51798ea33f11f691276e6ca58f6348cf",
+    "review_notes": "Five separate portraits checked left to right: narrator navy sweater, wife mustard cardigan, Julie pale blue, Jack red shirt, Billy white racing suit and red helmet. Faces and panel positions distinct."
+  },
+  "review_notes": "Five scenes inspected: crowded race venue; four distinct friends matching cast; cars racing; driver seated inside red car 15 after edit; same husband and wife driving home. Race labels are decorative, car number 15 is correct.",
+  "published_sha256": "a0279a4a1195e53b4c2dc3bfb01c08d1be20cfe79bfe831f5c0a4c6a6e8c92c5"
+}

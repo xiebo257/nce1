@@ -1,0 +1,42 @@
+{
+  "slot": "lesson-069-scene-02",
+  "prompt": "A packed grandstand of spectators behind a barrier, with a race car passing on the track below.  Image 1 is the appearance reference for narrator. Image 2 is the appearance reference for wife. Image 3 is the appearance reference for julie. Image 4 is the appearance reference for jack. Keep their same faces, hairstyles and clothing. Appearance: narrator: Man about 35, short brown hair, clean-shaven, navy sweater over white collared shirt, gray trousers. wife: Woman about 35, shoulder-length auburn hair, mustard cardigan, cream blouse. julie: Woman about 30, short blond hair, pale blue cardigan. jack: Man about 32, short dark curly hair, red casual jacket. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "narrator",
+    "wife",
+    "julie",
+    "jack"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "narrator",
+    "wife",
+    "julie",
+    "jack"
+  ],
+  "cast_layout": [
+    "narrator",
+    "wife",
+    "julie",
+    "jack",
+    "billy-stewart"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 69,
+  "seed": 69019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "f60e68eb9fff9534ed4af8e273ad8f8e51798ea33f11f691276e6ca58f6348cf",
+  "fingerprint": "feb6ba1a00dec72ee267f5be730a1e0eb69fd5c6738ad822056785f72c54f936",
+  "sha256": "4e29071505718e4492b122fb27e5c84592a68674bdce0d9fb15e760195c30b5a",
+  "seconds": 37.66,
+  "peak_mlx_gb": 5.066,
+  "status": "visually-reviewed",
+  "review_notes": "Five scenes inspected: crowded race venue; four distinct friends matching cast; cars racing; driver seated inside red car 15 after edit; same husband and wife driving home. Race labels are decorative, car number 15 is correct.",
+  "published_sha256": "28ae15bcba12bd2f085332be361417030a39f68df32db700ebc7f506b8d765cb"
+}

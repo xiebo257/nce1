@@ -902,20 +902,30 @@
   "images": {
     "lesson-069-scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "A wide view of a race track curving past the grandstand, with crowds of spectators and the town in the background.",
       "characters": [
         "crowd"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "A wide view of a race track curving past the grandstand, with crowds of spectators and the town in the background.",
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-069/lesson-069-scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The car race",
+      "alt": "A wide view of a race track curving past the grandstand, with crowds of spectators and the town in the background.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 69018,
+        "manifest": "illustrations/manifests/069-lesson-069-scene-01.json"
+      }
     },
     "lesson-069-scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "A packed grandstand of spectators behind a barrier, with a race car passing on the track below.",
       "characters": [
         "narrator",
@@ -924,48 +934,88 @@
         "jack"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "A packed grandstand of spectators behind a barrier, with a race car passing on the track below.",
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-069/lesson-069-scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The car race",
+      "alt": "A packed grandstand of spectators behind a barrier, with a race car passing on the track below.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 69019,
+        "manifest": "illustrations/manifests/069-lesson-069-scene-02.json"
+      }
     },
     "lesson-069-scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "A starter holding a checkered flag waves a line of race cars away from the starting grid.",
       "characters": [],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Race cars accelerate away from the starting line while spectators watch from behind a barrier. Wide view of a safe motor-racing circuit, cars all travelling in the same direction.",
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-069/lesson-069-scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The car race",
+      "alt": "Race cars accelerate away from the starting line while spectators watch from behind a barrier.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 69020,
+        "manifest": "illustrations/manifests/069-lesson-069-scene-03.json"
+      }
     },
     "lesson-069-scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Billy Stewart's car number fifteen leads a pack of cars through the finish, with a flagman and crowd behind.",
       "characters": [
         "billy-stewart"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "Billy Stewart drives a racing car prominently marked 15, leading the race past a checkered finish flag. He wears a red helmet. Low trackside view with spectators behind barriers; the only lettering is 15 on the car.",
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-069/lesson-069-scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The car race",
+      "alt": "Billy Stewart drives a racing car prominently marked 15, leading the race past a checkered finish flag.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 69021,
+        "manifest": "illustrations/manifests/069-lesson-069-scene-04.json"
+      }
     },
     "lesson-069-scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The narrator drives a car along a road while his wife points and shouts at him from the passenger seat.",
       "characters": [
         "narrator",
         "wife"
       ],
       "source": "../pdf/新概念英语1 英语初阶.pdf#page=137",
-      "reason": "Odd lesson: text first; illustration deferred.",
       "illustration_scene": "The narrator drives a car along a road while his wife points and shouts at him from the passenger seat.",
       "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel"
+      "illustration_reference_crop": "panel",
+      "src": "assets/lesson-069/lesson-069-scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The car race",
+      "alt": "The narrator drives a car along a road while his wife points and shouts at him from the passenger seat.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 69022,
+        "manifest": "illustrations/manifests/069-lesson-069-scene-05.json"
+      }
     }
   },
   "grammar_source_audit": {
@@ -981,5 +1031,6 @@
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
   "illustration_cast_layout": "portrait-strip",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_reference": "illustrations/references/069-cast.webp"
 }

@@ -1,0 +1,48 @@
+{
+  "slot": "lesson-069-scene-04",
+  "prompt": "Billy Stewart drives a racing car prominently marked 15, leading the race past a checkered finish flag. He wears a red helmet. Low trackside view with spectators behind barriers; the only lettering is 15 on the car.  Image 1 is the appearance reference for billy-stewart. Keep their same faces, hairstyles and clothing. Appearance: billy-stewart: Adult race driver in a white racing suit and red helmet. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "billy-stewart"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "billy-stewart"
+  ],
+  "cast_layout": [
+    "narrator",
+    "wife",
+    "julie",
+    "jack",
+    "billy-stewart"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 69,
+  "seed": 69021,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "f60e68eb9fff9534ed4af8e273ad8f8e51798ea33f11f691276e6ca58f6348cf",
+  "fingerprint": "85a8742f92f7961d559af51dfcb7c5842054d6d8771c757e08055087861b8ec1",
+  "sha256": "b391f47c9d6a49ac64f349d71f7f9a0d4de6c80cfc1c9665f1bef29cbad835aa",
+  "seconds": 31.23,
+  "peak_mlx_gb": 5.017,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "model_edits": [
+      {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "instruction": "Change the racing driver so he is seated normally INSIDE the race car cockpit, low behind the windshield. Only his red helmet and upper shoulders are visible above the cockpit. His hands hold the steering wheel inside the car. Preserve the car number 15, red car body, racing track, finish flag and background. Remove invented sponsor lettering, leaving only number 15. No person standing on or outside the moving car.",
+        "seed": 690411,
+        "input_sha256": "a1320885942c4781aed2c903ea64c842b20183f5fe6509b8fa0500ebf52f8274",
+        "output_sha256": "b391f47c9d6a49ac64f349d71f7f9a0d4de6c80cfc1c9665f1bef29cbad835aa",
+        "seconds": 50.73
+      }
+    ]
+  },
+  "review_notes": "Five scenes inspected: crowded race venue; four distinct friends matching cast; cars racing; driver seated inside red car 15 after edit; same husband and wife driving home. Race labels are decorative, car number 15 is correct.",
+  "published_sha256": "ca2d82dbc5ec779d4016a0909d999ee72e2d389dbd65f8051c4bdc9445d1de26"
+}

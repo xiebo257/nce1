@@ -1,0 +1,38 @@
+{
+  "slot": "lesson-069-scene-05",
+  "prompt": "The narrator drives a car along a road while his wife points and shouts at him from the passenger seat.  Image 1 is the appearance reference for narrator. Image 2 is the appearance reference for wife. Keep their same faces, hairstyles and clothing. Appearance: narrator: Man about 35, short brown hair, clean-shaven, navy sweater over white collared shirt, gray trousers. wife: Woman about 35, shoulder-length auburn hair, mustard cardigan, cream blouse. Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "cast": [
+    "narrator",
+    "wife"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "narrator",
+    "wife"
+  ],
+  "cast_layout": [
+    "narrator",
+    "wife",
+    "julie",
+    "jack",
+    "billy-stewart"
+  ],
+  "reference_layout": "portrait-strip",
+  "reference_crop": "panel",
+  "lesson": 69,
+  "seed": 69022,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "f60e68eb9fff9534ed4af8e273ad8f8e51798ea33f11f691276e6ca58f6348cf",
+  "fingerprint": "ec7b8d675f01fd52790b4752e6e8d6e54999053596e4a8f03a3ca95cbe602f34",
+  "sha256": "bac9f7104c1f5c0acd63094af1b54f4a9504bc78a6f4e9fc2be14af62b7c901f",
+  "seconds": 35.6,
+  "peak_mlx_gb": 5.104,
+  "status": "visually-reviewed",
+  "review_notes": "Five scenes inspected: crowded race venue; four distinct friends matching cast; cars racing; driver seated inside red car 15 after edit; same husband and wife driving home. Race labels are decorative, car number 15 is correct.",
+  "published_sha256": "dbd900f7e2c13c77406dfea0c613ca03157f0458428d954c3cedab3efc953368"
+}
