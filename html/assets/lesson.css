@@ -1360,3 +1360,13 @@ body {
   flex-shrink: 0;
   white-space: nowrap;
 }
+
+/* Long passages keep the scene above the text instead of beside a tall column. */
+.illustrated-question.illustration-above {
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+.illustration-above > .question-illustration {
+  width: min(100%, 768px);
+  justify-self: center;
+}

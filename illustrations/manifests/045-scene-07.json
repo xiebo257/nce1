@@ -1,0 +1,32 @@
+{
+  "slot": "scene-07",
+  "prompt": "Exactly 1 people appear in the entire image. Full-color hand-drawn storybook illustration, clean thin dark ink outlines, softly shaded flat colors. Match the drawing style of the character reference. Natural human proportions, warm cream and teal palette, simple illustrated facial features. Use the supplied individual character references for identities ONLY (reference 1 is pamela). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: A medium close-up of Pamela ALONE at her office desk. She is the only person in the entire picture, with one face and one body. She holds one sheet of paper covered with illegible handwritten scribbles and studies it with a puzzled expression. A typewriter sits beside her. Quiet empty office behind her. Characters in this scene: pamela: Woman about 27, shoulder-length straight dark brown hair, cream blouse, teal cardigan, dark skirt. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "pamela"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "pamela"
+  ],
+  "cast_layout": [
+    "boss",
+    "bob",
+    "pamela"
+  ],
+  "lesson": 45,
+  "seed": 45246,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6bea44dba1eb8586f2db9b8a1f32f12afb4752f5bc91298bc5c85fdb6af3f8e8",
+  "fingerprint": "07cd8037aec2d291edc31501fef4ca77f4c2ab54dde611923f8968de7a8124ab",
+  "sha256": "b860570b31bb00c483e4be6539aa3aa153f025da8ba05cad2a8bf9b5ea1953b3",
+  "seconds": 34.49,
+  "peak_mlx_gb": 5.048,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven scenes visually. Boss has gray temples, glasses, navy suit and burgundy tie; Bob has chestnut hair and light blue shirt; Pamela has dark shoulder-length hair and cream blouse with teal cardigan. Rejected a female Bob, duplicate Pamela and a speech bubble. Final scene 6 uses a closer crop to exclude an inconsistent lower garment; scene 7 was redrawn to match the ink illustration style. Letter handoff and puzzled reading match the dialogue. A small anonymous office worker remains in the background of scene 1.",
+  "published_sha256": "31984c3b48d3ce52c660f6135a2ec3d9131f493c51c0d3dc64e090c5d1b10490"
+}

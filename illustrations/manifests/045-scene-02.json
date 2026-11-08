@@ -1,0 +1,34 @@
+{
+  "slot": "scene-02",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is boss, reference 2 is bob). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Bob tells the boss that Pamela is in her office next door. Characters in this scene: boss: Man about 50, short dark hair with gray temples, rectangular glasses, navy suit, white shirt, burgundy tie. bob: Man about 27, short chestnut hair, clean-shaven, light blue collared shirt, charcoal trousers. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "boss",
+    "bob"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "boss",
+    "bob"
+  ],
+  "cast_layout": [
+    "boss",
+    "bob",
+    "pamela"
+  ],
+  "lesson": 45,
+  "seed": 45019,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6bea44dba1eb8586f2db9b8a1f32f12afb4752f5bc91298bc5c85fdb6af3f8e8",
+  "fingerprint": "d23bfb108c581c70a0842129aaf87195f75f2a8900934c397530d0c65343bb18",
+  "sha256": "2a228c121ae652454cf00e40e87d2ed7c32764d86000afe9c9f3f00126fc2427",
+  "seconds": 45.0,
+  "peak_mlx_gb": 5.26,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven scenes visually. Boss has gray temples, glasses, navy suit and burgundy tie; Bob has chestnut hair and light blue shirt; Pamela has dark shoulder-length hair and cream blouse with teal cardigan. Rejected a female Bob, duplicate Pamela and a speech bubble. Final scene 6 uses a closer crop to exclude an inconsistent lower garment; scene 7 was redrawn to match the ink illustration style. Letter handoff and puzzled reading match the dialogue. A small anonymous office worker remains in the background of scene 1.",
+  "published_sha256": "0767df5dcb1d8d3fa7df107f8fe416e681a25a12c96cf94f1f9f27357a1d521a"
+}

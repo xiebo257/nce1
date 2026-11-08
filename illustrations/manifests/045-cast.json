@@ -1,0 +1,25 @@
+{
+  "slot": "cast",
+  "prompt": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. A cast reference portrait for a language textbook story. Exactly 3 distinct people standing side by side, waist-up, all faces clearly visible, neutral warm gray studio background. From left to right: 1. boss: Man about 50, short dark hair with gray temples, rectangular glasses, navy suit, white shirt, burgundy tie. 2. bob: Man about 27, short chestnut hair, clean-shaven, light blue collared shirt, charcoal trousers. 3. pamela: Woman about 27, shoulder-length straight dark brown hair, cream blouse, teal cardigan, dark skirt. Natural relaxed poses, distinct silhouettes, consistent realistic anatomy. No lettering, names, numbers or panels printed in the image.",
+  "cast": [
+    "boss",
+    "bob",
+    "pamela"
+  ],
+  "reference": null,
+  "lesson": 45,
+  "seed": 45017,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1",
+  "fingerprint": "bec746231b68d80fa42e1cb0367a05f866c6c50dae8c2d0528b678eb9edd40a6",
+  "sha256": "6bea44dba1eb8586f2db9b8a1f32f12afb4752f5bc91298bc5c85fdb6af3f8e8",
+  "seconds": 29.56,
+  "peak_mlx_gb": 4.981,
+  "status": "visually-reviewed",
+  "review_notes": "Reviewed cast and all seven scenes visually. Boss has gray temples, glasses, navy suit and burgundy tie; Bob has chestnut hair and light blue shirt; Pamela has dark shoulder-length hair and cream blouse with teal cardigan. Rejected a female Bob, duplicate Pamela and a speech bubble. Final scene 6 uses a closer crop to exclude an inconsistent lower garment; scene 7 was redrawn to match the ink illustration style. Letter handoff and puzzled reading match the dialogue. A small anonymous office worker remains in the background of scene 1.",
+  "published_sha256": "810fa8b0562da6ae876afc1bf2989413958f7779d3eebd3c42bea8d54bc1ca58"
+}

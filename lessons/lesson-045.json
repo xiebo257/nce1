@@ -28,86 +28,161 @@
   "images": {
     "scene-01": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The boss calls Bob to his desk for a moment.",
       "characters": [
         "boss",
         "bob"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "The boss calls Bob to his desk for a moment."
+      "illustration_scene": "The boss calls Bob to his desk for a moment.",
+      "src": "assets/lesson-045/scene-01-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "The boss calls Bob to his desk for a moment.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45018,
+        "manifest": "illustrations/manifests/045-scene-01.json"
+      }
     },
     "scene-02": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Bob tells the boss that Pamela is in her office next door.",
       "characters": [
         "boss",
         "bob"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "Bob tells the boss that Pamela is in her office next door."
+      "illustration_scene": "Bob tells the boss that Pamela is in her office next door.",
+      "src": "assets/lesson-045/scene-02-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "Bob tells the boss that Pamela is in her office next door.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45019,
+        "manifest": "illustrations/manifests/045-scene-02.json"
+      }
     },
     "scene-03": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "The boss gives Bob a handwritten letter and asks him to have Pamela type it.",
       "characters": [
         "boss",
         "bob"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "The boss gives Bob a handwritten letter and asks him to have Pamela type it."
+      "illustration_scene": "The boss gives Bob a handwritten letter and asks him to have Pamela type it.",
+      "src": "assets/lesson-045/scene-03-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "The boss gives Bob a handwritten letter and asks him to have Pamela type it.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45020,
+        "manifest": "illustrations/manifests/045-scene-03.json"
+      }
     },
     "scene-04": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "In Pamela’s office, Bob asks Pamela to type the boss’s letter and she agrees.",
       "characters": [
         "bob",
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "In Pamela’s office, Bob asks Pamela to type the boss’s letter and she agrees."
+      "illustration_scene": "In Pamela’s office, Bob asks Pamela to type the boss’s letter and she agrees.",
+      "src": "assets/lesson-045/scene-04-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "In Pamela’s office, Bob asks Pamela to type the boss’s letter and she agrees.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45021,
+        "manifest": "illustrations/manifests/045-scene-04.json"
+      }
     },
     "scene-05": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Bob hands Pamela the handwritten letter; she thanks him.",
       "characters": [
         "bob",
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "Bob hands Pamela the handwritten letter; she thanks him."
+      "illustration_scene": "Bob hands Pamela the handwritten letter; she thanks him.",
+      "src": "assets/lesson-045/scene-05-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "Bob hands Pamela the handwritten letter; she thanks him.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45022,
+        "manifest": "illustrations/manifests/045-scene-05.json"
+      }
     },
     "scene-06": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Pamela looks puzzled at the letter and calls Bob back, saying she cannot type it.",
       "characters": [
         "bob",
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "Pamela looks puzzled at the letter and calls Bob back, saying she cannot type it."
+      "illustration_scene": "Exactly two people in an office: Pamela holds the handwritten letter and frowns at its illegible scribbles. Bob, a young man, turns back toward her with a concerned expression. A quiet natural moment shown through facial expressions and body language, uninterrupted office background.",
+      "illustration_person_count": 2,
+      "illustration_seed_offset": 111,
+      "src": "assets/lesson-045/scene-06-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "Exactly two people in an office: Pamela holds the handwritten letter and frowns at its illegible scribbles.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45134,
+        "manifest": "illustrations/manifests/045-scene-06.json"
+      }
     },
     "scene-07": {
       "kind": "scene",
-      "status": "pending",
+      "status": "ready",
       "description": "Pamela studies a handwritten letter covered in illegible scribbles; the boss’s handwriting is terrible.",
       "characters": [
         "pamela"
       ],
       "source": "../img/lesson-045-01-text.jpg",
-      "reason": "Odd lesson: text first; illustration deferred.",
-      "illustration_scene": "Pamela studies a handwritten letter covered in illegible scribbles; the boss’s handwriting is terrible."
+      "illustration_scene": "A medium close-up of Pamela ALONE at her office desk. She is the only person in the entire picture, with one face and one body. She holds one sheet of paper covered with illegible handwritten scribbles and studies it with a puzzled expression. A typewriter sits beside her. Quiet empty office behind her.",
+      "illustration_person_count": 1,
+      "illustration_seed_offset": 222,
+      "illustration_style": "Full-color hand-drawn storybook illustration, clean thin dark ink outlines, softly shaded flat colors. Match the drawing style of the character reference. Natural human proportions, warm cream and teal palette, simple illustrated facial features.",
+      "src": "assets/lesson-045/scene-07-color.webp",
+      "width": 768,
+      "height": 512,
+      "origin": "local-model",
+      "caption": "The boss’s letter",
+      "alt": "A medium close-up of Pamela ALONE at her office desk.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 45246,
+        "manifest": "illustrations/manifests/045-scene-07.json"
+      }
     }
   },
   "sections": {
@@ -830,5 +905,6 @@
     }
   ],
   "expected_answers": 54,
-  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks."
+  "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
+  "illustration_reference": "illustrations/references/045-cast.webp"
 }

@@ -54,18 +54,23 @@ def lesson_jobs(repo, number, width, height):
         people = scene.get('characters', [])
         descriptions = ' '.join(f'{c}: {cast[c]["illustration_appearance"]}' for c in people)
         use_reference = reference and any(c in used for c in people)
-        condition = ('Use the supplied cast reference for identities ONLY. Preserve the exact faces, hair, '
+        reference_people = [c for c in people if c in used]
+        reference_labels = ', '.join(f'reference {i+1} is {c}' for i,c in enumerate(reference_people))
+        condition = (f'Use the supplied individual character references for identities ONLY ({reference_labels}). Preserve the exact faces, hair, '
                      'ages and clothing colors of the named people. Create a NEW scene with a new pose '
                      'and background. Include only the characters named below, not the entire reference cast. ') if use_reference else ''
-        prompt = (f'{style} {condition}Scene: {scene["illustration_scene"]} '
+        count_hint = f"Exactly {scene['illustration_person_count']} people appear in the entire image. " if scene.get('illustration_person_count') else ''
+        prompt = (f'{count_hint}{scene.get("illustration_style", style)} {condition}Scene: {scene["illustration_scene"]} '
                   f'Characters in this scene: {descriptions or "No recurring characters."} '
                   'Readable composition, expressive natural interaction, plausible hands and props. '
                   'One continuous scene unless the scene explicitly requests two telephone locations. '
                   'No speech bubbles, captions, watermark or extra panels.')
-        jobs.append(dict(slot=key, prompt=prompt, cast=people, reference='cast' if use_reference else None))
+        jobs.append(dict(slot=key, prompt=prompt, cast=people, reference='cast' if use_reference else None,
+                         reference_people=reference_people if use_reference else [],
+                         cast_layout=used if use_reference else []))
     for index, job in enumerate(jobs):
-        job.update(lesson=number, seed=number * 1000 + index + 17, width=width, height=height,
-                   steps=4, guidance=1.0, model=MODEL_ID, recipe=RECIPE)
+        job.update(lesson=number, seed=number * 1000 + index + 17 + (data['images'][job['slot']].get('illustration_seed_offset', 0) if job['slot']!='cast' else 0), width=width, height=height,
+                   steps=4, guidance=1.0, model=MODEL_ID, recipe=RECIPE if job['slot']=='cast' else RECIPE+'-individual-refs')
     return jobs
 
 
@@ -116,7 +121,19 @@ def generate(args, repo, jobs):
             print('MODEL_LOADED seconds', round(time.monotonic() - start, 2), flush=True)
         print('GENERATING', job['lesson'], job['slot'], flush=True)
         image_path.parent.mkdir(parents=True, exist_ok=True)
-        refs = [image_path.parent / 'cast.png'] if job['reference'] else None
+        refs = None
+        if job['reference']:
+            from PIL import Image
+            refs = []
+            with Image.open(image_path.parent / 'cast.png') as cast_image:
+                for index, character in enumerate(job['reference_people']):
+                    position = job['cast_layout'].index(character)
+                    columns = len(job['cast_layout'])
+                    bounds = (round(cast_image.width*position/columns), 0,
+                              round(cast_image.width*(position+1)/columns), cast_image.height)
+                    target = image_path.parent / f'{job["slot"]}-ref-{index+1}.webp'
+                    cast_image.crop(bounds).save(target, 'WEBP', lossless=True)
+                    refs.append(target)
         start = time.monotonic()
         mx.reset_peak_memory()
         result = model.generate_image(seed=job['seed'], prompt=job['prompt'],
@@ -173,9 +190,12 @@ def publish(args, repo, jobs):
                 slot = data['images'][job['slot']]
                 slot.update(status='ready', src=relative.removeprefix('html/'),
                             width=job['width'], height=job['height'], origin='local-model',
-                            caption=data['title'], alt=slot['illustration_scene'].split('. ')[0].rstrip('.') + '.',
+                            caption=data['title'], alt=slot['illustration_scene'].replace('Mrs. ', 'Mrs ').replace('Mr. ', 'Mr ').split('. ')[0].rstrip('.') + '.',
                             generation={'model':MODEL_ID, 'seed':job['seed'],
                                         'manifest':f'illustrations/manifests/{number:03}-{job["slot"]}.json'})
+                block = next(b for b in data['sections']['lesson'] if b.get('image') == job['slot'])
+                if len(block.get('lines', [])) > 8 or len(block.get('text', '')) > 700:
+                    slot['layout'] = 'above'
                 slot.pop('reason', None)
         write_json(path, data)
         print('PUBLISHED', number, len(current) - int(current[0]['slot']=='cast'), 'lesson images')
@@ -191,6 +211,7 @@ def main():
     parser.add_argument('--height', type=int, default=512)
     parser.add_argument('--model-path', type=Path, default=MODEL_PATH)
     parser.add_argument('--limit', type=int)
+    parser.add_argument('--slot', help='Generate one scene slot plus its cast reference')
     parser.add_argument('--review-notes')
     args = parser.parse_args()
     if args.start > args.end or args.start < 45 or args.end > 143:
@@ -198,6 +219,10 @@ def main():
     repo = args.repo.resolve()
     jobs = [job for n in range(args.start, args.end+1) if n % 2
             for job in lesson_jobs(repo, n, args.width, args.height)]
+    if args.slot:
+        if args.action == 'publish':
+            parser.error('Publish a complete reviewed lesson, not an isolated slot')
+        jobs = [j for j in jobs if j['slot'] in {'cast', args.slot}]
     if args.action == 'plan':
         print(json.dumps(jobs, ensure_ascii=False, indent=2))
     elif args.action == 'generate':

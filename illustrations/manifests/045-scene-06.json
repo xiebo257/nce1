@@ -1,0 +1,47 @@
+{
+  "slot": "scene-06",
+  "prompt": "Exactly 2 people appear in the entire image. Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks. Use the supplied individual character references for identities ONLY (reference 1 is bob, reference 2 is pamela). Preserve the exact faces, hair, ages and clothing colors of the named people. Create a NEW scene with a new pose and background. Include only the characters named below, not the entire reference cast. Scene: Exactly two people in an office: Pamela holds the handwritten letter and frowns at its illegible scribbles. Bob, a young man, turns back toward her with a concerned expression. A quiet natural moment shown through facial expressions and body language, uninterrupted office background. Characters in this scene: bob: Man about 27, short chestnut hair, clean-shaven, light blue collared shirt, charcoal trousers. pamela: Woman about 27, shoulder-length straight dark brown hair, cream blouse, teal cardigan, dark skirt. Readable composition, expressive natural interaction, plausible hands and props. One continuous scene unless the scene explicitly requests two telephone locations. No speech bubbles, captions, watermark or extra panels.",
+  "cast": [
+    "bob",
+    "pamela"
+  ],
+  "reference": "cast",
+  "reference_people": [
+    "bob",
+    "pamela"
+  ],
+  "cast_layout": [
+    "boss",
+    "bob",
+    "pamela"
+  ],
+  "lesson": 45,
+  "seed": 45134,
+  "width": 768,
+  "height": 512,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "reference_sha256": "6bea44dba1eb8586f2db9b8a1f32f12afb4752f5bc91298bc5c85fdb6af3f8e8",
+  "fingerprint": "440f659102796901d93a779509db34fa7cfa58db9d42119a13f280a160808d53",
+  "sha256": "9d814cd8f017da2fe342d40d6797c65352489d1eeb389c9a441cae8e170961ec",
+  "seconds": 65.77,
+  "peak_mlx_gb": 5.162,
+  "status": "visually-reviewed",
+  "postprocess": {
+    "crop": [
+      96,
+      0,
+      672,
+      384
+    ],
+    "resize": [
+      768,
+      512
+    ],
+    "reason": "Closer framing on the letter and expressions; excludes inconsistent lower garment in original candidate."
+  },
+  "review_notes": "Reviewed cast and all seven scenes visually. Boss has gray temples, glasses, navy suit and burgundy tie; Bob has chestnut hair and light blue shirt; Pamela has dark shoulder-length hair and cream blouse with teal cardigan. Rejected a female Bob, duplicate Pamela and a speech bubble. Final scene 6 uses a closer crop to exclude an inconsistent lower garment; scene 7 was redrawn to match the ink illustration style. Letter handoff and puzzled reading match the dialogue. A small anonymous office worker remains in the background of scene 1.",
+  "published_sha256": "e09f6fa98fc8ca9e8197e019be0a123150c69a64276c36498a95a07695d6d618"
+}

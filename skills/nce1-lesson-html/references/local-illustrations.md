@@ -70,7 +70,12 @@ For each lesson:
 `illustrate_lessons.py plan` produces the queue without loading the model.
 Multiple scenes use a cast reference image, conditioned through
 `Flux2KleinEdit.image_paths`. The same seed alone does not preserve identity.
-Scenes without recurring people do not need reference conditioning. Single
+The cast sheet is cropped into individual reference images for only the people
+appearing in that scene, in the recorded left-to-right cast order. Inspect that
+the cast sheet actually follows this order and that crops contain the correct
+faces. Passing the entire cast into a two-person scene can substitute an absent
+character, as the first Lesson 45 trial demonstrated. Scenes without recurring
+people do not need reference conditioning. Single
 image lessons use the fixed character descriptions directly.
 
 ## Generate, inspect, publish
