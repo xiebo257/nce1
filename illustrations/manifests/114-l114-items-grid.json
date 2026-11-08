@@ -1,0 +1,78 @@
+{
+  "slot": "l114-items-grid",
+  "prompt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 12 pictures (o-z) in groups of three: o-q chocolate (Have you got any? / I haven't got any. I've got no chocolate. I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
+  "cast": [],
+  "reference": null,
+  "reference_people": [],
+  "cast_layout": [],
+  "source_reference": "illustrations/references/source/114-complete-panels.png",
+  "lesson": 114,
+  "seed": 114017,
+  "width": 768,
+  "height": 640,
+  "steps": 4,
+  "guidance": 1.0,
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "recipe": "flux2-klein-4b-reference-v1-individual-refs",
+  "source_reference_sha256": "c5e8d24b5949e4dbf5238f7d29657eea2c7fbe952394bfe93dce1da8be6e366e",
+  "fingerprint": "3ca6b9a1bc279d3c95e42289d15dd8c04d869cfdcd687108041b05e0f8a23965",
+  "sha256": "46353ac04a82d190353abc112aa3ee517290496febd38864278ee2b421b98f6e",
+  "status": "visually-reviewed",
+  "seconds": 97.85,
+  "atlas_generation": {
+    "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+    "seed": 114901,
+    "prompt": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles. Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 12 pictures (o-z) in groups of three: o-q chocolate (Have you got any? / I haven't got any. I've got no chocolate. I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
+    "width": 768,
+    "height": 640,
+    "steps": 4,
+    "seconds": 97.85,
+    "peak_mlx_gb": 5.527,
+    "input_sha256": "1f4018101c3237d7764cb503a24518a3f941265cd769abf2d04f376064ef8dad",
+    "output_sha256": "580c87c21a23b7a325271efe47a1bd86ff218551ee73b53dfcee9866b91bcc97",
+    "slots": [
+      "l114-items-grid"
+    ],
+    "inputs": [
+      {
+        "path": "illustrations/references/source/114-complete-panels.png",
+        "sha256": "c5e8d24b5949e4dbf5238f7d29657eea2c7fbe952394bfe93dce1da8be6e366e"
+      }
+    ]
+  },
+  "atlas_recipe": "shared-atlas-v3:Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "postprocess": {
+    "method": "model-color-transfer-preserving-source-lineart-v2",
+    "crop_box": [
+      0,
+      0,
+      768,
+      640
+    ],
+    "output_size": [
+      768,
+      640
+    ],
+    "source_atlas_sha256": "1f4018101c3237d7764cb503a24518a3f941265cd769abf2d04f376064ef8dad",
+    "color_guide_sha256": "580c87c21a23b7a325271efe47a1bd86ff218551ee73b53dfcee9866b91bcc97",
+    "region_overrides": [],
+    "reviewed_color_repairs": [
+      {
+        "box": [
+          580,
+          265,
+          689,
+          297
+        ],
+        "selection": "green",
+        "color": [
+          77,
+          148,
+          195
+        ]
+      }
+    ]
+  },
+  "review_notes": "Checked all 12 panels including previously missing bottom row: no chocolate, no envelopes, cake and cookies. Kept empty/full possessions and thought-bubble objects intact; normalized repeated mans clothing to blue.",
+  "published_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc"
+}

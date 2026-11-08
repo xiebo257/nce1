@@ -250,9 +250,9 @@
       "description": "Grid of 12 pictures (o-z) in groups of three: o-q chocolate (Have you got any? / I haven't got any. I've got no chocolate. I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
       "source": "img/lesson-114-01-text.jpg (textbook p.231)",
       "characters": [],
-      "src": "assets/lesson-114/items-grid.jpg",
-      "width": 1772,
-      "height": 2400,
+      "src": "assets/lesson-114/l114-items-grid-color.webp",
+      "width": 768,
+      "height": 640,
       "illustration_source_reference": "illustrations/references/source/114-complete-panels.png",
       "illustration_width": 768,
       "illustration_height": 640,
@@ -339,6 +339,14 @@
             949
           ]
         ]
+      },
+      "origin": "local-model",
+      "caption": "I've got none. 我没有。",
+      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "seed": 114017,
+        "manifest": "illustrations/manifests/114-l114-items-grid.json"
       }
     }
   },
