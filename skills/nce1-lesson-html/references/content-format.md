@@ -75,3 +75,10 @@ For source crops record `origin: textbook-crop`, `source_size: [width,height]`, 
 `--check` checks schema invariants, question totals, local links/assets, IDs, labels, JS hooks and byte-for-byte agreement with generated HTML without writing. It cannot prove the transcription is faithful: visually check source coverage before marking verified. Future supported block types may be added as needed without changing existing question IDs.
 
 After appending another range, `sync_navigation.py` connects it to the previous page. Re-rendering an earlier range computes navigation from all currently available HTML pages. Missing next lessons remain disabled; lesson 144 has no next-lesson link.
+
+Photo-layout additions: `table` blocks contain `caption`, nonempty `headers`, and
+`rows` of equal column length. Plain text and newlines in cells are escaped like
+other prose. `source_label` records printed picture numbers, `source_group`
+records related pairs/triplets, and `cue_heading` records a shared source cue.
+`source_status` is an optional visible note for cropped/unverified source text.
+Ready images may set numeric `display_width` to avoid over-enlarging small crops.

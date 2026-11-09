@@ -11,17 +11,110 @@
       {
         "id": "lesson-intro",
         "type": "text",
-        "source": "textbook",
-        "text": "Lesson 108: How do they compare? 比一比",
-        "translation": "第108课：比一比",
-        "image": "items-grid"
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "A",
+        "text": "Sophie is tall.",
+        "source_group": 1
       },
       {
-        "id": "lesson-items",
+        "id": "lesson-photo-panel-02",
         "type": "text",
-        "source": "textbook",
-        "text": "Listen and answer the questions. Look at the pictures and describe them using comparative and superlative adjectives.",
-        "translation": "听录音并回答问题。看图并用比较级和最高级形容词描述它们。"
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "B",
+        "text": "Paul is taller than Sophie.",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "C",
+        "text": "Hans is the tallest student in our class.",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "D",
+        "text": "It is hot today.",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "E",
+        "text": "It was hotter yesterday.",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "F",
+        "text": "The day before yesterday was the hottest day in the year.",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "G",
+        "text": "There was a large crowd at the race last year.",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "H",
+        "text": "This year the crowd is larger.",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "I",
+        "text": "It is the largest crowd I have ever seen.",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "J",
+        "text": "The brown suitcase is heavy.",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "K",
+        "text": "The blue suitcase is heavier than the brown one.",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-108-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "L",
+        "text": "The green suitcase is the heaviest of them all.",
+        "source_group": 4
       },
       {
         "id": "lesson-listening",
@@ -510,112 +603,313 @@
   "sources": [],
   "characters": {},
   "images": {
-    "items-grid": {
-      "kind": "scene",
-      "description": "12 pictures in 4 groups showing comparative and superlative forms: height (Sophie/Paul/Hans), heat at the beach (D-F), crowds at a race (G-I), and suitcase weight (J-L)",
-      "source": "img/lesson-108-01-text.jpg",
-      "characters": [],
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "src": "assets/lesson-108/items-grid-color.webp",
-      "width": 768,
-      "height": 640,
-      "illustration_source_reference": "illustrations/references/source/108-complete-panels.png",
-      "illustration_width": 768,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 12 pictures in 4 groups showing comparative and superlative forms: height (Sophie/Paul/Hans), heat at the beach (D-F), crowds at a race (G-I), and suitcase weight (J-L) The last row suitcases are brown, blue and green from left to right.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 223,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            69,
-            217,
-            255,
-            303
-          ],
-          [
-            325,
-            217,
-            511,
-            303
-          ],
-          [
-            580,
-            217,
-            766,
-            303
-          ],
-          [
-            69,
-            383,
-            255,
-            469
-          ],
-          [
-            325,
-            383,
-            511,
-            469
-          ],
-          [
-            580,
-            383,
-            766,
-            469
-          ],
-          [
-            69,
-            578,
-            255,
-            664
-          ],
-          [
-            325,
-            578,
-            511,
-            664
-          ],
-          [
-            580,
-            578,
-            766,
-            664
-          ],
-          [
-            69,
-            771,
-            255,
-            857
-          ],
-          [
-            325,
-            771,
-            511,
-            857
-          ],
-          [
-            580,
-            771,
-            766,
-            857
-          ]
+      "description": "Sophie is tall.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture A · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "A",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
       },
-      "origin": "local-model",
-      "caption": "How do they compare?",
-      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 108017,
-        "manifest": "illustrations/manifests/108-items-grid.json"
-      }
+      "display_width": 256
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Paul is taller than Sophie.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture B · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "B",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Hans is the tallest student in our class.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture C · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "C",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It is hot today.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture D · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "D",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It was hotter yesterday.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture E · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "E",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "The day before yesterday was the hottest day in the year.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture F · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "F",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "There was a large crowd at the race last year.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture G · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "G",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "This year the crowd is larger.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture H · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "H",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It is the largest crowd I have ever seen.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture I · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "I",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "The brown suitcase is heavy.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-10.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture J · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "J",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "The blue suitcase is heavier than the brown one.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-11.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture K · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "K",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "The green suitcase is the heaviest of them all.",
+      "source": "../img/lesson-108-01-text.jpg",
+      "src": "assets/lesson-108/photo-panel-12.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture L · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-108-01-text.jpg",
+        "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+        "label": "L",
+        "reused_asset": "html/assets/lesson-108/items-grid-color.webp",
+        "reused_sha256": "fe5ecf13bea8cc593c61f6067adf4726cb54b5e1fd7c7a30c6b8934b521768ee",
+        "crop": [
+          512,
+          480,
+          768,
+          640
+        ]
+      },
+      "display_width": 256
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-108-01-text.jpg",
+    "sha256": "6cf2143ab91f2cb914f7ea401856b60afebddd531319a6a994dad20e2552d4a8",
+    "scope": "Lesson picture/text layout"
+  }
 }

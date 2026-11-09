@@ -9,19 +9,154 @@
   "sections": {
     "lesson": [
       {
-        "id": "lesson-intro",
         "type": "text",
-        "source": "textbook",
-        "text": "Lesson 104: Too, very, enough",
-        "translation": "第104课：太、非常、足够",
-        "image": "items-grid"
+        "id": "lesson-source-examples",
+        "text": "I could answer the questions.\nThey were very easy.\nI couldn't answer the questions.\nThey were too difficult.\nThe questions were easy enough for me to answer.\nThe questions were too difficult for me to answer.",
+        "source": "../img/lesson-104-01-text.jpg"
       },
       {
-        "id": "lesson-items",
+        "id": "lesson-intro",
         "type": "text",
-        "source": "textbook",
-        "text": "Listen and answer the questions. Use 'too', 'very', or 'enough' to describe what the people in the pictures say, think, and feel.",
-        "translation": "听录音并回答问题。用'too'、'very'或'enough'描述图中人们说、想和感受。"
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "A",
+        "text": "answer all the questions\neasy",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "B",
+        "text": "answer all the questions\ndifficult",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "C",
+        "text": "answer all the questions\nclever",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "D",
+        "text": "answer all the questions\nstupid",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "E",
+        "text": "buy the car\ncheap",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "F",
+        "text": "buy the car\nexpensive",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "G",
+        "text": "eat the cakes\nfresh",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "H",
+        "text": "eat the cakes\nstale",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "I",
+        "text": "hear the stereo\nloud",
+        "source_group": 5
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "J",
+        "text": "hear the stereo\nlow",
+        "source_group": 5
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "K",
+        "text": "climb the wall\nlow",
+        "source_group": 6
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "L",
+        "text": "climb the wall\nhigh",
+        "source_group": 6
+      },
+      {
+        "id": "lesson-photo-panel-13",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-13",
+        "source_label": "M",
+        "text": "eat the pear\nsoft",
+        "source_group": 7
+      },
+      {
+        "id": "lesson-photo-panel-14",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-14",
+        "source_label": "N",
+        "text": "eat the pear\nhard",
+        "source_group": 7
+      },
+      {
+        "id": "lesson-photo-panel-15",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-15",
+        "source_label": "O",
+        "text": "eat the orange\nsweet",
+        "source_group": 8
+      },
+      {
+        "id": "lesson-photo-panel-16",
+        "type": "text",
+        "source": "../img/lesson-104-01-text.jpg",
+        "image": "photo-panel-16",
+        "source_label": "P",
+        "text": "eat the orange\nsour",
+        "source_group": 8
       },
       {
         "id": "lesson-listening",
@@ -682,136 +817,413 @@
   "sources": [],
   "characters": {},
   "images": {
-    "items-grid": {
-      "kind": "scene",
-      "description": "16 pictures showing people in various situations (answering questions, buying cars, eating cakes, hearing stereos, climbing walls, eating fruit) with a speech bubble showing example sentences using 'too', 'very', and 'enough'",
-      "source": "img/lesson-104-01-text.jpg",
-      "characters": [],
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "src": "assets/lesson-104/items-grid-color.webp",
-      "width": 1024,
-      "height": 640,
-      "illustration_source_reference": "illustrations/references/source/104-complete-panels.png",
-      "illustration_width": 1024,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 16 pictures showing people in various situations (answering questions, buying cars, eating cakes, hearing stereos, climbing walls, eating fruit) with a speech bubble showing example sentences using 'too', 'very', and 'enough'",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 215,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            71,
-            400,
-            204,
-            480
-          ],
-          [
-            255,
-            400,
-            387,
-            479
-          ],
-          [
-            439,
-            399,
-            571,
-            479
-          ],
-          [
-            622,
-            399,
-            756,
-            478
-          ],
-          [
-            72,
-            563,
-            205,
-            642
-          ],
-          [
-            256,
-            569,
-            388,
-            642
-          ],
-          [
-            440,
-            561,
-            572,
-            641
-          ],
-          [
-            624,
-            561,
-            757,
-            641
-          ],
-          [
-            73,
-            725,
-            206,
-            805
-          ],
-          [
-            258,
-            725,
-            390,
-            804
-          ],
-          [
-            441,
-            724,
-            573,
-            804
-          ],
-          [
-            625,
-            723,
-            758,
-            803
-          ],
-          [
-            75,
-            888,
-            207,
-            968
-          ],
-          [
-            259,
-            887,
-            391,
-            967
-          ],
-          [
-            443,
-            886,
-            574,
-            967
-          ],
-          [
-            626,
-            886,
-            759,
-            966
-          ]
+      "description": "answer all the questions\neasy",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture A · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "A",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
       },
-      "origin": "local-model",
-      "caption": "Too, very, enough",
-      "alt": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 104017,
-        "manifest": "illustrations/manifests/104-items-grid.json"
-      }
+      "display_width": 256
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "answer all the questions\ndifficult",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture B · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "B",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "answer all the questions\nclever",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture C · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "C",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "answer all the questions\nstupid",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture D · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "D",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          768,
+          0,
+          1024,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "buy the car\ncheap",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture E · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "E",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "buy the car\nexpensive",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture F · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "F",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eat the cakes\nfresh",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture G · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "G",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eat the cakes\nstale",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture H · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "H",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          768,
+          160,
+          1024,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "hear the stereo\nloud",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture I · Group 5",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "I",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "hear the stereo\nlow",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-10.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture J · Group 5",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "J",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "climb the wall\nlow",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-11.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture K · Group 6",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "K",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "climb the wall\nhigh",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-12.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture L · Group 6",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "L",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          768,
+          320,
+          1024,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eat the pear\nsoft",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-13.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture M · Group 7",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "M",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eat the pear\nhard",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-14.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture N · Group 7",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "N",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eat the orange\nsweet",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-15.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture O · Group 8",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "O",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          512,
+          480,
+          768,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-16": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eat the orange\nsour",
+      "source": "../img/lesson-104-01-text.jpg",
+      "src": "assets/lesson-104/photo-panel-16.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture P · Group 8",
+      "photo_verification": {
+        "photo": "img/lesson-104-01-text.jpg",
+        "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+        "label": "P",
+        "reused_asset": "html/assets/lesson-104/items-grid-color.webp",
+        "reused_sha256": "2c3413a74edb8259c3f26e3d19e88b1c4288745cf9d317a924f8ee626d262a2c",
+        "crop": [
+          768,
+          480,
+          1024,
+          640
+        ]
+      },
+      "display_width": 256
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-104-01-text.jpg",
+    "sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
+    "scope": "Lesson picture/text layout"
+  }
 }

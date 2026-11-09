@@ -30,78 +30,685 @@
   ],
   "characters": {},
   "images": {
-    "lesson-096-clocks-01": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "src": "assets/lesson-096/lesson-096-clocks-01-color.webp",
-      "width": 1024,
-      "height": 256,
-      "description": "Twelve analogue clocks numbered 1st to 12th, each showing a different time of day.",
+      "description": "What's the exact time?",
       "source": "../img/lesson-096-01-text.jpg",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/096-lesson-096-clocks-01.png",
-      "illustration_width": 1024,
-      "illustration_height": 256,
-      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Twelve analogue clocks numbered 1st to 12th, each showing a different time of day.",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "viewer_page": 199,
-        "box": [
-          65,
-          193,
-          643,
-          312
-        ],
-        "coordinate_space": [
-          833,
-          1179
+      "src": "assets/lesson-096/photo-panel-01.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "1",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          0,
+          0,
+          171,
+          128
         ]
       },
-      "illustration_exact_diagram": true,
-      "origin": "local-diagram",
-      "caption": "What's the exact time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
-      "generation": {
-        "model": null,
-        "seed": 96017,
-        "manifest": "illustrations/manifests/096-lesson-096-clocks-01.json"
-      }
+      "display_width": 256
     },
-    "lesson-096-cities-01": {
-      "kind": "scene",
+    "photo-panel-02": {
+      "kind": "item",
       "status": "ready",
-      "src": "assets/lesson-096/lesson-096-cities-01-color.webp",
-      "width": 1024,
-      "height": 576,
-      "description": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Seoul, Stockholm, Sydney, and Tokyo.",
+      "description": "What's the exact time?",
       "source": "../img/lesson-096-01-text.jpg",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/096-lesson-096-cities-01.png",
-      "illustration_width": 1024,
-      "illustration_height": 576,
-      "illustration_scene": "Colorize this exact fifteen-panel city illustration. Preserve all fifteen panels, landmarks, numbering and city names including Seoul as 12 and Tokyo as 15. Add natural colors to the existing ink drawings, keep white background and all text unchanged. No new objects or panels.",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "viewer_page": 199,
-        "box": [
-          64,
-          570,
-          762,
-          965
-        ],
-        "coordinate_space": [
-          833,
-          1179
+      "src": "assets/lesson-096/photo-panel-02.webp",
+      "width": 170,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "2",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          171,
+          0,
+          341,
+          128
         ]
       },
-      "origin": "local-model",
-      "caption": "What's the exact time?",
-      "alt": "Colorize this exact fifteen-panel city illustration.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 96018,
-        "manifest": "illustrations/manifests/096-lesson-096-cities-01.json"
-      }
+      "display_width": 256
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-03.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "3",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          341,
+          0,
+          512,
+          128
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-04.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "4",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          512,
+          0,
+          683,
+          128
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-05.webp",
+      "width": 170,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "5",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          683,
+          0,
+          853,
+          128
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-06.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "6",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          853,
+          0,
+          1024,
+          128
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-07.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "7",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          0,
+          128,
+          171,
+          256
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-08.webp",
+      "width": 170,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "8",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          171,
+          128,
+          341,
+          256
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-09.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "9",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          341,
+          128,
+          512,
+          256
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-10.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "10",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          512,
+          128,
+          683,
+          256
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-11.webp",
+      "width": 170,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "11",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          683,
+          128,
+          853,
+          256
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's the exact time?",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-12.webp",
+      "width": 171,
+      "height": 128,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "12",
+        "reused_asset": "html/assets/lesson-096/lesson-096-clocks-01-color.webp",
+        "reused_sha256": "e21d252c427b158d7d460214fb51ed8ae73225c51b79b205d5139403dbacf25e",
+        "crop": [
+          853,
+          128,
+          1024,
+          256
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Athens",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-13.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "1",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          0,
+          0,
+          205,
+          192
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Beijing",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-14.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "2",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          205,
+          0,
+          410,
+          192
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Berlin",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-15.webp",
+      "width": 204,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "3",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          410,
+          0,
+          614,
+          192
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-16": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Bombay",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-16.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "4",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          614,
+          0,
+          819,
+          192
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-17": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Geneva",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-17.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "5",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          819,
+          0,
+          1024,
+          192
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-18": {
+      "kind": "item",
+      "status": "ready",
+      "description": "London",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-18.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "6",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          0,
+          192,
+          205,
+          384
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-19": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Madrid",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-19.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "7",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          205,
+          192,
+          410,
+          384
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-20": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Moscow",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-20.webp",
+      "width": 204,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "8",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          410,
+          192,
+          614,
+          384
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-21": {
+      "kind": "item",
+      "status": "ready",
+      "description": "New York",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-21.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "9",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          614,
+          192,
+          819,
+          384
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-22": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Paris",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-22.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "10",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          819,
+          192,
+          1024,
+          384
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-23": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Rome",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-23.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "11",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          0,
+          384,
+          205,
+          576
+        ],
+        "limitation": "caption cropped; retained city name from lesson 94"
+      },
+      "display_width": 256
+    },
+    "photo-panel-24": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Seoul",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-24.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "12",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          205,
+          384,
+          410,
+          576
+        ],
+        "limitation": "caption cropped; retained city name from lesson 94"
+      },
+      "display_width": 256
+    },
+    "photo-panel-25": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Stockholm",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-25.webp",
+      "width": 204,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 13",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "13",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          410,
+          384,
+          614,
+          576
+        ],
+        "limitation": "caption cropped; retained city name from lesson 94"
+      },
+      "display_width": 256
+    },
+    "photo-panel-26": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Sydney",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-26.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 14",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "14",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          614,
+          384,
+          819,
+          576
+        ],
+        "limitation": "caption cropped; retained city name from lesson 94"
+      },
+      "display_width": 256
+    },
+    "photo-panel-27": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Tokyo",
+      "source": "../img/lesson-096-01-text.jpg",
+      "src": "assets/lesson-096/photo-panel-27.webp",
+      "width": 205,
+      "height": 192,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 15",
+      "photo_verification": {
+        "photo": "img/lesson-096-01-text.jpg",
+        "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+        "label": "15",
+        "reused_asset": "html/assets/lesson-096/lesson-096-cities-01-color.webp",
+        "reused_sha256": "0f8724fcb500d7c9122aaa91a414566dd15d58780d1651a1b9e2f2b9a5585e05",
+        "crop": [
+          819,
+          384,
+          1024,
+          576
+        ],
+        "limitation": "caption cropped; retained city name from lesson 94"
+      },
+      "display_width": 256
     }
   },
   "sections": {
@@ -117,28 +724,258 @@
         "id": "lesson-clocks",
         "type": "text",
         "source": "../img/lesson-096-01-text.jpg",
-        "image": "lesson-096-clocks-01",
-        "text": "Twelve clocks showing different times of day. Read each clock and say the exact time.",
-        "translation": "十二个显示不同时间的钟。读出每个钟的准确时间。"
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "10",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "11",
+        "text": "What's the exact time?"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "12",
+        "text": "What's the exact time?"
       },
       {
         "id": "lesson-time-phrases",
-        "type": "notes",
+        "type": "table",
         "source": "../img/lesson-096-01-text.jpg",
-        "items": [
-          {
-            "title": "Time phrases with AGO and IN ...'S TIME",
-            "text": "a minute / two minutes AGO · an hour / two hours AGO · a day / two days AGO · a week / two weeks AGO · a month / two months AGO · a year / two years AGO\n\nIN: a minute's / two minutes' TIME · an hour's / two hours' TIME · a day's / two days' TIME · a week's / two weeks' TIME · a month's / two months' TIME · a year's / two years' TIME"
-          }
+        "caption": "AGO / IN … TIME",
+        "headers": [
+          "Past",
+          "Future"
+        ],
+        "rows": [
+          [
+            "a minute/two minutes ago",
+            "in a minute’s/two minutes’ time"
+          ],
+          [
+            "an hour/two hours ago",
+            "in an hour’s/two hours’ time"
+          ],
+          [
+            "a day/two days ago",
+            "in a day’s/two days’ time"
+          ],
+          [
+            "a week/two weeks ago",
+            "in a week’s/two weeks’ time"
+          ],
+          [
+            "a month/two months ago",
+            "in a month’s/two months’ time"
+          ],
+          [
+            "a year/two years ago",
+            "in a year’s/two years’ time"
+          ]
         ]
       },
       {
-        "id": "lesson-cities",
+        "id": "lesson-photo-panel-13",
         "type": "text",
         "source": "../img/lesson-096-01-text.jpg",
-        "image": "lesson-096-cities-01",
-        "text": "Fifteen cities: Athens, Beijing, Berlin, Bombay, Geneva, London, Madrid, Moscow, New York, Paris, Rome, Seoul, Stockholm, Sydney, and Tokyo.",
-        "translation": "十五个城市：雅典、北京、柏林、孟买、日内瓦、伦敦、马德里、莫斯科、纽约、巴黎、罗马、首尔、斯德哥尔摩、悉尼和东京。"
+        "image": "photo-panel-13",
+        "source_label": "1",
+        "text": "Athens"
+      },
+      {
+        "id": "lesson-photo-panel-14",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-14",
+        "source_label": "2",
+        "text": "Beijing"
+      },
+      {
+        "id": "lesson-photo-panel-15",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-15",
+        "source_label": "3",
+        "text": "Berlin"
+      },
+      {
+        "id": "lesson-photo-panel-16",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-16",
+        "source_label": "4",
+        "text": "Bombay"
+      },
+      {
+        "id": "lesson-photo-panel-17",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-17",
+        "source_label": "5",
+        "text": "Geneva"
+      },
+      {
+        "id": "lesson-photo-panel-18",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-18",
+        "source_label": "6",
+        "text": "London"
+      },
+      {
+        "id": "lesson-photo-panel-19",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-19",
+        "source_label": "7",
+        "text": "Madrid"
+      },
+      {
+        "id": "lesson-photo-panel-20",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-20",
+        "source_label": "8",
+        "text": "Moscow"
+      },
+      {
+        "id": "lesson-photo-panel-21",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-21",
+        "source_label": "9",
+        "text": "New York"
+      },
+      {
+        "id": "lesson-photo-panel-22",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-22",
+        "source_label": "10",
+        "text": "Paris"
+      },
+      {
+        "id": "lesson-photo-panel-23",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-23",
+        "source_label": "11",
+        "text": "Rome",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
+      },
+      {
+        "id": "lesson-photo-panel-24",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-24",
+        "source_label": "12",
+        "text": "Seoul",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
+      },
+      {
+        "id": "lesson-photo-panel-25",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-25",
+        "source_label": "13",
+        "text": "Stockholm",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
+      },
+      {
+        "id": "lesson-photo-panel-26",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-26",
+        "source_label": "14",
+        "text": "Sydney",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
+      },
+      {
+        "id": "lesson-photo-panel-27",
+        "type": "text",
+        "source": "../img/lesson-096-01-text.jpg",
+        "image": "photo-panel-27",
+        "source_label": "15",
+        "text": "Tokyo",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
       },
       {
         "id": "lesson-written-a",
@@ -527,5 +1364,11 @@
       }
     ]
   },
-  "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects."
+  "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-096-01-text.jpg",
+    "sha256": "62de69d2399c3a37f4e1b9b7625067ee0ee690ee99c0687e4798afcf7806f5e4",
+    "scope": "Lesson picture/text layout"
+  }
 }

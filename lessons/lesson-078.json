@@ -12,16 +12,109 @@
         "id": "lesson-intro",
         "type": "text",
         "source": "../img/lesson-078-01-text.jpg",
-        "text": "Lesson 78 — When did you ...? 你什么时候……？\n\nAT: 6 o'clock / 9 a.m. / 3.30 p.m. / 5.45 / half past one\n\nON: Sunday / Monday / Tuesday / Wednesday / Thursday / Friday / Saturday\n\nIN: January / February / March / April / May / June / July / August / September / October / November / December",
-        "translation": "Time phrase reference: at + times, on + days, in + months."
+        "text": "Listen and answer the questions.\nAT: Read each clock."
       },
       {
         "id": "lesson-clocks",
         "type": "text",
         "source": "../img/lesson-078-01-text.jpg",
-        "text": "Clock practice: Read each clock and write the time. 读钟面，写出时间。\n\nRow 1: 1:00 / 2:05 / 3:10 / 4:15 / 5:20 / 6:25\nRow 2: 7:30 / 8:35 / 9:40 / 10:45 / 11:50 / 12:55",
-        "translation": "Read each clock face and write the corresponding time.",
-        "image": "lesson-078-color-panels"
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "1:00"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "2:05"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "3:10"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "4:15"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "5:20"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "6:25"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "7:30"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "8:35"
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "9:40"
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "10",
+        "text": "10:45"
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "11",
+        "text": "11:50"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-078-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "12",
+        "text": "12:55"
+      },
+      {
+        "type": "text",
+        "id": "lesson-prepositions",
+        "text": "ON: Sunday / Monday / Tuesday / Wednesday / Thursday / Friday / Saturday\n\nIN: January / February / March / April / May / June\nJuly / August / September / October / November / December",
+        "source": "../img/lesson-078-01-text.jpg"
       },
       {
         "id": "written-a",
@@ -517,44 +610,312 @@
   ],
   "characters": {},
   "images": {
-    "lesson-078-color-panels": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Twelve analogue clocks in two rows. Preserve every number and both hands exactly; only add teal clock rims and cream faces.",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/078-lesson-078-color-panels.png",
-      "illustration_width": 1024,
-      "illustration_height": 320,
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "viewer_page": 163,
-        "box": [
-          124,
-          190,
-          773,
-          392
-        ],
-        "coordinate_space": [
-          833,
-          1179
+      "description": "1:00",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-01.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "1",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          0,
+          0,
+          171,
+          160
         ]
       },
-      "illustration_scene": "Faithfully colorize this exact textbook illustration. Twelve analogue clocks in two rows. Preserve every number and both hands exactly; only add teal clock rims and cream faces. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
-      "illustration_exact_diagram": true,
-      "src": "assets/lesson-078/lesson-078-color-panels-color.webp",
-      "width": 1024,
-      "height": 320,
-      "origin": "local-diagram",
-      "caption": "When did you ...?",
-      "alt": "Faithfully colorize this exact textbook illustration.",
-      "generation": {
-        "model": null,
-        "seed": 78017,
-        "manifest": "illustrations/manifests/078-lesson-078-color-panels.json"
+      "display_width": 256
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "2:05",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-02.webp",
+      "width": 170,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "2",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          171,
+          0,
+          341,
+          160
+        ]
       },
-      "source": "pdf/新概念英语1 英语初阶.pdf#page=163"
+      "display_width": 256
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "3:10",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-03.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "3",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          341,
+          0,
+          512,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "4:15",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-04.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "4",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          512,
+          0,
+          683,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "5:20",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-05.webp",
+      "width": 170,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "5",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          683,
+          0,
+          853,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "6:25",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-06.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "6",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          853,
+          0,
+          1024,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "7:30",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-07.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "7",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          0,
+          160,
+          171,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "8:35",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-08.webp",
+      "width": 170,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "8",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          171,
+          160,
+          341,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "9:40",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-09.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "9",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          341,
+          160,
+          512,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "10:45",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-10.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "10",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          512,
+          160,
+          683,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "11:50",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-11.webp",
+      "width": 170,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "11",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          683,
+          160,
+          853,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "12:55",
+      "source": "../img/lesson-078-01-text.jpg",
+      "src": "assets/lesson-078/photo-panel-12.webp",
+      "width": 171,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12",
+      "photo_verification": {
+        "photo": "img/lesson-078-01-text.jpg",
+        "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+        "label": "12",
+        "reused_asset": "html/assets/lesson-078/lesson-078-color-panels-color.webp",
+        "reused_sha256": "497f164208241f8d903c987306ad16b7822b5536fbe7c4a82695e0da56cee79a",
+        "crop": [
+          853,
+          160,
+          1024,
+          320
+        ]
+      },
+      "display_width": 256
     }
   },
-  "illustration_style": "Full-color textbook cartoon."
+  "illustration_style": "Full-color textbook cartoon.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-078-01-text.jpg",
+    "sha256": "fc0cda62bf813da9bb9aff95e62e4f48ae23f49305ac47ac5e336d3d8b0c2d1c",
+    "scope": "Lesson picture/text layout"
+  }
 }

@@ -9,12 +9,244 @@
   "sections": {
     "lesson": [
       {
+        "id": "lesson-photo-introduction",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "text": "Listen and answer the questions."
+      },
+      {
         "id": "lesson-intro",
         "type": "text",
         "source": "../img/lesson-080-01-text.jpg",
-        "text": "Listen and answer the questions. 听录音并回答问题。\n\nGROCER'S to get some GROCERIES:\ncheese (120) / eggs (121) / butter (122) / honey (123) / jam (124) / biscuits (125)\n\nGREENGROCER'S to get some FRUIT and VEGETABLES:\npears (226) / oranges (227) / bananas (228) / beans (229) / peas (230) / cabbages (231)\n\nBUTCHER'S to get some MEAT:\nlamb (332) / beef (333) / steak (334) / mince (335) / chicken (336)\n\nNEWSAGENT'S to get some STATIONERY:\nglue (437) / envelopes (438) / writing paper (439) / newspapers (440) / magazines (441)\n\nBAKER'S to get some:\nbread (543) / cakes (544)\n\nCHEMIST'S to get some:\naspirins (545) / medicine (546)",
-        "translation": "Match each numbered item with the shop where it is sold.",
-        "image": "lesson-080-color-panels"
+        "image": "photo-panel-01",
+        "source_label": "120",
+        "text": "cheese",
+        "cue_heading": "GROCER'S to get some GROCERIES"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "121",
+        "text": "eggs",
+        "cue_heading": "GROCER'S to get some GROCERIES"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "122",
+        "text": "butter",
+        "cue_heading": "GROCER'S to get some GROCERIES"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "123",
+        "text": "honey",
+        "cue_heading": "GROCER'S to get some GROCERIES"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "124",
+        "text": "jam",
+        "cue_heading": "GROCER'S to get some GROCERIES"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "125",
+        "text": "biscuits",
+        "cue_heading": "GROCER'S to get some GROCERIES"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "226",
+        "text": "pears",
+        "cue_heading": "GREENGROCER'S to get some FRUIT and VEGETABLES"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "227",
+        "text": "oranges",
+        "cue_heading": "GREENGROCER'S to get some FRUIT and VEGETABLES"
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "228",
+        "text": "bananas",
+        "cue_heading": "GREENGROCER'S to get some FRUIT and VEGETABLES"
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "229",
+        "text": "beans",
+        "cue_heading": "GREENGROCER'S to get some FRUIT and VEGETABLES"
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "230",
+        "text": "peas",
+        "cue_heading": "GREENGROCER'S to get some FRUIT and VEGETABLES"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "231",
+        "text": "cabbages",
+        "cue_heading": "GREENGROCER'S to get some FRUIT and VEGETABLES"
+      },
+      {
+        "id": "lesson-photo-panel-13",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-13",
+        "source_label": "332",
+        "text": "lamb",
+        "cue_heading": "BUTCHER'S to get some MEAT"
+      },
+      {
+        "id": "lesson-photo-panel-14",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-14",
+        "source_label": "333",
+        "text": "beef",
+        "cue_heading": "BUTCHER'S to get some MEAT"
+      },
+      {
+        "id": "lesson-photo-panel-15",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-15",
+        "source_label": "334",
+        "text": "steak",
+        "cue_heading": "BUTCHER'S to get some MEAT"
+      },
+      {
+        "id": "lesson-photo-panel-16",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-16",
+        "source_label": "335",
+        "text": "mince",
+        "cue_heading": "BUTCHER'S to get some MEAT"
+      },
+      {
+        "id": "lesson-photo-panel-17",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-17",
+        "source_label": "336",
+        "text": "chicken",
+        "cue_heading": "BUTCHER'S to get some MEAT"
+      },
+      {
+        "id": "lesson-photo-panel-18",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-18",
+        "source_label": "437",
+        "text": "glue",
+        "cue_heading": "NEWSAGENT'S to get some STATIONERY"
+      },
+      {
+        "id": "lesson-photo-panel-19",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-19",
+        "source_label": "438",
+        "text": "envelopes",
+        "cue_heading": "NEWSAGENT'S to get some STATIONERY"
+      },
+      {
+        "id": "lesson-photo-panel-20",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-20",
+        "source_label": "439",
+        "text": "writing paper",
+        "cue_heading": "NEWSAGENT'S to get some STATIONERY"
+      },
+      {
+        "id": "lesson-photo-panel-21",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-21",
+        "source_label": "440",
+        "text": "newspapers",
+        "cue_heading": "NEWSAGENT'S to get some STATIONERY"
+      },
+      {
+        "id": "lesson-photo-panel-22",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-22",
+        "source_label": "441",
+        "text": "magazines",
+        "cue_heading": "NEWSAGENT'S to get some STATIONERY"
+      },
+      {
+        "id": "lesson-photo-panel-23",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-23",
+        "source_label": "543",
+        "text": "bread",
+        "cue_heading": "BAKER'S to get some"
+      },
+      {
+        "id": "lesson-photo-panel-24",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-24",
+        "source_label": "544",
+        "text": "cakes",
+        "cue_heading": "BAKER'S to get some"
+      },
+      {
+        "id": "lesson-photo-panel-25",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-25",
+        "source_label": "545",
+        "text": "aspirins",
+        "cue_heading": "CHEMIST'S to get some"
+      },
+      {
+        "id": "lesson-photo-panel-26",
+        "type": "text",
+        "source": "../img/lesson-080-01-text.jpg",
+        "image": "photo-panel-26",
+        "source_label": "546",
+        "text": "medicine",
+        "cue_heading": "CHEMIST'S to get some"
       },
       {
         "id": "lesson-listening",
@@ -498,42 +730,662 @@
   ],
   "characters": {},
   "images": {
-    "lesson-080-color-panels": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly.",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/080-lesson-panels.png",
-      "illustration_width": 784,
-      "illustration_height": 1024,
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "img/lesson-080-01-text.jpg",
-        "box": [
-          40,
-          222,
-          813,
-          1232
-        ],
-        "coordinate_space": [
-          842,
-          1400
+      "description": "cheese",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-01.webp",
+      "width": 111,
+      "height": 69,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 120",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "120",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          8,
+          86,
+          119,
+          155
         ]
-      },
-      "illustration_scene": "Faithfully colorize this exact textbook illustration. Six shop groups of groceries, fruit and vegetables, meat, stationery, bread and cakes, and medicine. Preserve ALL objects, group headings and labels exactly. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
-      "source": "img/lesson-080-01-text.jpg",
-      "src": "assets/lesson-080/lesson-080-color-panels-color.webp",
-      "width": 784,
-      "height": 1024,
-      "origin": "local-model",
-      "caption": "I must go to the ...",
-      "alt": "Faithfully colorize this exact textbook illustration.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 80017,
-        "manifest": "illustrations/manifests/080-lesson-080-color-panels.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "eggs",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-02.webp",
+      "width": 108,
+      "height": 66,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 121",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "121",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          142,
+          90,
+          250,
+          156
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "butter",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-03.webp",
+      "width": 108,
+      "height": 73,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 122",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "122",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          278,
+          86,
+          386,
+          159
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "honey",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-04.webp",
+      "width": 113,
+      "height": 79,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 123",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "123",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          416,
+          91,
+          529,
+          170
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "jam",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-05.webp",
+      "width": 118,
+      "height": 76,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 124",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "124",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          548,
+          98,
+          666,
+          174
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "biscuits",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-06.webp",
+      "width": 92,
+      "height": 58,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 125",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "125",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          686,
+          125,
+          778,
+          183
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "pears",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-07.webp",
+      "width": 108,
+      "height": 66,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 226",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "226",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          10,
+          303,
+          118,
+          369
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "oranges",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-08.webp",
+      "width": 109,
+      "height": 69,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 227",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "227",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          142,
+          308,
+          251,
+          377
+        ]
+      }
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "bananas",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-09.webp",
+      "width": 108,
+      "height": 68,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 228",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "228",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          279,
+          314,
+          387,
+          382
+        ]
+      }
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "beans",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-10.webp",
+      "width": 109,
+      "height": 78,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 229",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "229",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          410,
+          315,
+          519,
+          393
+        ]
+      }
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "peas",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-11.webp",
+      "width": 112,
+      "height": 72,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 230",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "230",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          544,
+          328,
+          656,
+          400
+        ]
+      }
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "cabbages",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-12.webp",
+      "width": 104,
+      "height": 69,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 231",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "231",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          675,
+          337,
+          779,
+          406
+        ]
+      }
+    },
+    "photo-panel-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "lamb",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-13.webp",
+      "width": 112,
+      "height": 65,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 332",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "332",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          9,
+          513,
+          121,
+          578
+        ]
+      }
+    },
+    "photo-panel-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "beef",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-14.webp",
+      "width": 105,
+      "height": 64,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 333",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "333",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          139,
+          522,
+          244,
+          586
+        ]
+      }
+    },
+    "photo-panel-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "steak",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-15.webp",
+      "width": 106,
+      "height": 66,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 334",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "334",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          271,
+          531,
+          377,
+          597
+        ]
+      }
+    },
+    "photo-panel-16": {
+      "kind": "item",
+      "status": "ready",
+      "description": "mince",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-16.webp",
+      "width": 88,
+      "height": 63,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 335",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "335",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          402,
+          534,
+          490,
+          597
+        ]
+      }
+    },
+    "photo-panel-17": {
+      "kind": "item",
+      "status": "ready",
+      "description": "chicken",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-17.webp",
+      "width": 99,
+      "height": 62,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 336",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "336",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          533,
+          541,
+          632,
+          603
+        ]
+      }
+    },
+    "photo-panel-18": {
+      "kind": "item",
+      "status": "ready",
+      "description": "glue",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-18.webp",
+      "width": 116,
+      "height": 67,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 437",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "437",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          6,
+          716,
+          122,
+          783
+        ]
+      }
+    },
+    "photo-panel-19": {
+      "kind": "item",
+      "status": "ready",
+      "description": "envelopes",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-19.webp",
+      "width": 104,
+      "height": 65,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 438",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "438",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          138,
+          722,
+          242,
+          787
+        ]
+      }
+    },
+    "photo-panel-20": {
+      "kind": "item",
+      "status": "ready",
+      "description": "writing paper",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-20.webp",
+      "width": 101,
+      "height": 63,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 439",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "439",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          268,
+          728,
+          369,
+          791
+        ]
+      }
+    },
+    "photo-panel-21": {
+      "kind": "item",
+      "status": "ready",
+      "description": "newspapers",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-21.webp",
+      "width": 110,
+      "height": 68,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 440",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "440",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          397,
+          731,
+          507,
+          799
+        ]
+      }
+    },
+    "photo-panel-22": {
+      "kind": "item",
+      "status": "ready",
+      "description": "magazines",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-22.webp",
+      "width": 108,
+      "height": 65,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 441",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "441",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          525,
+          739,
+          633,
+          804
+        ]
+      }
+    },
+    "photo-panel-23": {
+      "kind": "item",
+      "status": "ready",
+      "description": "bread",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-23.webp",
+      "width": 116,
+      "height": 61,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 543",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "543",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          4,
+          918,
+          120,
+          979
+        ]
+      }
+    },
+    "photo-panel-24": {
+      "kind": "item",
+      "status": "ready",
+      "description": "cakes",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-24.webp",
+      "width": 100,
+      "height": 65,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 544",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "544",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          137,
+          919,
+          237,
+          984
+        ]
+      }
+    },
+    "photo-panel-25": {
+      "kind": "item",
+      "status": "ready",
+      "description": "aspirins",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-25.webp",
+      "width": 79,
+      "height": 66,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 545",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "545",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          265,
+          923,
+          344,
+          989
+        ]
+      }
+    },
+    "photo-panel-26": {
+      "kind": "item",
+      "status": "ready",
+      "description": "medicine",
+      "source": "../img/lesson-080-01-text.jpg",
+      "src": "assets/lesson-080/photo-panel-26.webp",
+      "width": 66,
+      "height": 66,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 546",
+      "photo_verification": {
+        "photo": "img/lesson-080-01-text.jpg",
+        "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+        "label": "546",
+        "reused_asset": "html/assets/lesson-080/lesson-080-color-panels-color.webp",
+        "reused_sha256": "13fd394f7117cf3682dc147604085837fa0fc7861de20ba3e52e6bd915ce8fd5",
+        "crop": [
+          392,
+          928,
+          458,
+          994
+        ]
       }
     }
   },
-  "illustration_style": "Full-color textbook cartoon."
+  "illustration_style": "Full-color textbook cartoon.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-080-01-text.jpg",
+    "sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
+    "scope": "Lesson picture/text layout"
+  }
 }

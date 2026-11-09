@@ -10,83 +10,67 @@
     "lesson": [
       {
         "id": "lesson-scene-01",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-41st",
-        "lines": [
-          {"number": 1, "speaker": "41st", "text": "She has a headache.", "translation": "她头痛。"},
-          {"number": 2, "speaker": "", "text": "So she must take an aspirin.", "translation": "所以她必须吃一片阿司匹林。"}
-        ]
+        "text": "She has a headache.\nSo she must take an aspirin.",
+        "translation": "她头痛。\n所以她必须吃一片阿司匹林。"
       },
       {
         "id": "lesson-scene-02",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-52nd",
-        "lines": [
-          {"number": 3, "speaker": "52nd", "text": "George has an earache.", "translation": "乔治耳痛。"},
-          {"number": 4, "speaker": "", "text": "So he must see a doctor.", "translation": "所以他必须去看医生。"}
-        ]
+        "text": "George has an earache.\nSo he must see a doctor.",
+        "translation": "乔治耳痛。\n所以他必须去看医生。"
       },
       {
         "id": "lesson-scene-03",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-63rd",
-        "lines": [
-          {"number": 5, "speaker": "63rd", "text": "He has a toothache.", "translation": "他牙痛。"},
-          {"number": 6, "speaker": "", "text": "So he must see a dentist.", "translation": "所以他必须去看牙医。"}
-        ]
+        "text": "He has a toothache.\nSo he must see a dentist.",
+        "translation": "他牙痛。\n所以他必须去看牙医。"
       },
       {
         "id": "lesson-scene-04",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-74th",
-        "lines": [
-          {"number": 7, "speaker": "74th", "text": "Jane has a stomach ache.", "translation": "简胃痛。"},
-          {"number": 8, "speaker": "", "text": "So she must take some medicine.", "translation": "所以她必须吃些药。"}
-        ]
+        "text": "Jane has a stomach ache.\nSo she must take some medicine.",
+        "translation": "简胃痛。\n所以她必须吃些药。"
       },
       {
         "id": "lesson-scene-05",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-85th",
-        "lines": [
-          {"number": 9, "speaker": "85th", "text": "Sam has a temperature.", "translation": "萨姆发烧。"},
-          {"number": 10, "speaker": "", "text": "So he must go to bed.", "translation": "所以他必须上床睡觉。"}
-        ]
+        "text": "Sam has a temperature.\nSo he must go to bed.",
+        "translation": "萨姆发烧。\n所以他必须上床睡觉。"
       },
       {
         "id": "lesson-scene-06",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-96th",
-        "lines": [
-          {"number": 11, "speaker": "96th", "text": "Dave has flu.", "translation": "戴夫得了流感。"},
-          {"number": 12, "speaker": "", "text": "So he must stay in bed.", "translation": "所以他必须卧床。"}
-        ]
+        "text": "Dave has flu.\nSo he must stay in bed.",
+        "translation": "戴夫得了流感。\n所以他必须卧床。"
       },
       {
         "id": "lesson-scene-07",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-107th",
-        "lines": [
-          {"number": 13, "speaker": "107th", "text": "Jimmy has measles.", "translation": "吉米得了麻疹。"},
-          {"number": 14, "speaker": "", "text": "So we must call the doctor.", "translation": "所以我们必须请医生。"}
-        ]
+        "text": "Jimmy has measles.\nSo we must call the doctor.",
+        "translation": "吉米得了麻疹。\n所以我们必须请医生。"
       },
       {
         "id": "lesson-scene-08",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=127",
+        "type": "text",
+        "source": "../img/lesson-062-01-text.jpg",
         "image": "item-118th",
-        "lines": [
-          {"number": 15, "speaker": "118th", "text": "Susan has mumps.", "translation": "苏珊得了腮腺炎。"},
-          {"number": 16, "speaker": "", "text": "So we must call the doctor.", "translation": "所以我们必须请医生。"}
-        ]
+        "text": "Susan has mumps.\nSo we must call the doctor.",
+        "translation": "苏珊得了腮腺炎。\n所以我们必须请医生。"
       },
       {
         "id": "lesson-intro",
@@ -107,17 +91,72 @@
         "type": "vocabulary",
         "source": "../pdf/新概念英语1 英语初阶.pdf#page=128",
         "items": [
-          {"word": "headache", "ipa": "/ˈhedeɪk/", "pos": "n.", "meaning": "头痛"},
-          {"word": "aspirin", "ipa": "/ˈæspərɪn/", "pos": "n.", "meaning": "阿司匹林"},
-          {"word": "earache", "ipa": "/ˈɪəreɪk/", "pos": "n.", "meaning": "耳痛"},
-          {"word": "toothache", "ipa": "/ˈtuːθeɪk/", "pos": "n.", "meaning": "牙痛"},
-          {"word": "dentist", "ipa": "/ˈdentɪst/", "pos": "n.", "meaning": "牙医"},
-          {"word": "stomach ache", "ipa": "/ˈstʌmək-eɪk/", "pos": "n.", "meaning": "胃痛"},
-          {"word": "medicine", "ipa": "/ˈmedɪsn/", "pos": "n.", "meaning": "药"},
-          {"word": "temperature", "ipa": "/ˈtemprətʃə/", "pos": "n.", "meaning": "温度"},
-          {"word": "flu", "ipa": "/fluː/", "pos": "n.", "meaning": "流行性感冒"},
-          {"word": "measles", "ipa": "/ˈmiːzəlz/", "pos": "n.", "meaning": "麻疹"},
-          {"word": "mumps", "ipa": "/mʌmps/", "pos": "n.", "meaning": "腮腺炎"}
+          {
+            "word": "headache",
+            "ipa": "/ˈhedeɪk/",
+            "pos": "n.",
+            "meaning": "头痛"
+          },
+          {
+            "word": "aspirin",
+            "ipa": "/ˈæspərɪn/",
+            "pos": "n.",
+            "meaning": "阿司匹林"
+          },
+          {
+            "word": "earache",
+            "ipa": "/ˈɪəreɪk/",
+            "pos": "n.",
+            "meaning": "耳痛"
+          },
+          {
+            "word": "toothache",
+            "ipa": "/ˈtuːθeɪk/",
+            "pos": "n.",
+            "meaning": "牙痛"
+          },
+          {
+            "word": "dentist",
+            "ipa": "/ˈdentɪst/",
+            "pos": "n.",
+            "meaning": "牙医"
+          },
+          {
+            "word": "stomach ache",
+            "ipa": "/ˈstʌmək-eɪk/",
+            "pos": "n.",
+            "meaning": "胃痛"
+          },
+          {
+            "word": "medicine",
+            "ipa": "/ˈmedɪsn/",
+            "pos": "n.",
+            "meaning": "药"
+          },
+          {
+            "word": "temperature",
+            "ipa": "/ˈtemprətʃə/",
+            "pos": "n.",
+            "meaning": "温度"
+          },
+          {
+            "word": "flu",
+            "ipa": "/fluː/",
+            "pos": "n.",
+            "meaning": "流行性感冒"
+          },
+          {
+            "word": "measles",
+            "ipa": "/ˈmiːzəlz/",
+            "pos": "n.",
+            "meaning": "麻疹"
+          },
+          {
+            "word": "mumps",
+            "ipa": "/mʌmps/",
+            "pos": "n.",
+            "meaning": "腮腺炎"
+          }
         ]
       },
       {
@@ -125,8 +164,14 @@
         "type": "notes",
         "source": "../pdf/新概念英语1 英语初阶.pdf#page=128",
         "items": [
-          {"title": "take an aspirin", "text": "相当于 have an aspirin，服(吃)一片阿司匹林。"},
-          {"title": "have a temperature", "text": "发烧。"}
+          {
+            "title": "take an aspirin",
+            "text": "相当于 have an aspirin，服(吃)一片阿司匹林。"
+          },
+          {
+            "title": "have a temperature",
+            "text": "发烧。"
+          }
         ]
       }
     ],
@@ -550,5 +595,11 @@
     }
   },
   "illustration_style": "Faithful full-color educational cartoon.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-062-01-text.jpg",
+    "sha256": "d09b4582cd0f0a2597654f181690fdab2198b1968d530fb4b4ed0c41b24771a9",
+    "scope": "Lesson picture/text layout"
+  }
 }

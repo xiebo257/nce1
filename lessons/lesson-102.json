@@ -9,19 +9,184 @@
   "sections": {
     "lesson": [
       {
-        "id": "lesson-intro",
-        "type": "text",
-        "source": "textbook",
-        "text": "Lesson 102: He says he ... She says she ... They say they ...",
-        "translation": "第102课：他/她/他们说他/她/他们……",
-        "image": "items-grid"
+        "id": "lesson-sentence-table",
+        "type": "table",
+        "source": "../img/lesson-102-01-text.jpg",
+        "caption": "Build a sentence · 按列组合",
+        "headers": [
+          "Subject",
+          "Reporting verb",
+          "Link",
+          "Clause"
+        ],
+        "rows": [
+          [
+            "He",
+            "says\nthinks\nbelieves\nknows\nhopes\nis afraid\nis sorry\nis sure",
+            "he",
+            "is …\nfeels …\nhas (got) …\nneeds …\nwants …\ncan …\nmust …\nwill …"
+          ]
+        ]
       },
       {
-        "id": "lesson-items",
+        "id": "lesson-intro",
         "type": "text",
-        "source": "textbook",
-        "text": "Listen and answer the questions. Use the words in the box to describe what the people in the pictures say, think, believe, know, hope, fear, and need.",
-        "translation": "听录音并回答问题。用方框中的词描述图中人们说、想、相信、知道、希望、害怕和需要什么。"
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "tired",
+        "cue_heading": "is/are · feel(s)",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "thirsty",
+        "cue_heading": "is/are · feel(s)",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "cold",
+        "cue_heading": "is/are · feel(s)",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "ill",
+        "cue_heading": "is/are · feel(s)",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "a cold",
+        "cue_heading": "has/have (got)",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "a headache",
+        "cue_heading": "has/have (got)",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "an earache",
+        "cue_heading": "has/have (got)",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "a toothache",
+        "cue_heading": "has/have (got)",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "a haircut",
+        "cue_heading": "need(s) · want(s)",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "10",
+        "text": "a licence",
+        "cue_heading": "need(s) · want(s)",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "11",
+        "text": "an X-ray",
+        "cue_heading": "need(s) · want(s)",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "12",
+        "text": "some money",
+        "cue_heading": "need(s) · want(s)",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-13",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-13",
+        "source_label": "13",
+        "text": "wait",
+        "cue_heading": "can · must · will",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-14",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-14",
+        "source_label": "14",
+        "text": "catch",
+        "cue_heading": "can · must · will",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-15",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-15",
+        "source_label": "15",
+        "text": "repair",
+        "cue_heading": "can · must · will",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-16",
+        "type": "text",
+        "source": "../img/lesson-102-01-text.jpg",
+        "image": "photo-panel-16",
+        "source_label": "16",
+        "text": "sell",
+        "cue_heading": "can · must · will",
+        "source_group": 4
       },
       {
         "id": "lesson-listening",
@@ -681,134 +846,405 @@
   "sources": [],
   "characters": {},
   "images": {
-    "items-grid": {
-      "kind": "scene",
-      "description": "16 pictures showing people in various situations (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell) with a word box of reporting verbs and modal verbs",
-      "source": "img/lesson-102-01-text.jpg",
-      "characters": [],
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "src": "assets/lesson-102/items-grid-color.webp",
-      "width": 1024,
-      "height": 640,
-      "illustration_source_reference": "illustrations/references/source/102-complete-panels.png",
-      "illustration_width": 1024,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. 16 pictures showing people in various situations (tired, thirsty, cold, ill, a cold, a headache, an earache, a toothache, a haircut, a licence, an X-ray, some money, wait, catch, repair, sell) with a word box of reporting verbs and modal verbs",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 211,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            223,
-            464,
-            321,
-            534
-          ],
-          [
-            363,
-            462,
-            460,
-            533
-          ],
-          [
-            505,
-            461,
-            603,
-            532
-          ],
-          [
-            647,
-            460,
-            744,
-            531
-          ],
-          [
-            224,
-            610,
-            322,
-            681
-          ],
-          [
-            365,
-            608,
-            462,
-            679
-          ],
-          [
-            507,
-            607,
-            605,
-            678
-          ],
-          [
-            649,
-            606,
-            746,
-            677
-          ],
-          [
-            226,
-            752,
-            324,
-            824
-          ],
-          [
-            367,
-            750,
-            463,
-            822
-          ],
-          [
-            508,
-            749,
-            606,
-            821
-          ],
-          [
-            651,
-            748,
-            748,
-            820
-          ],
-          [
-            228,
-            903,
-            326,
-            974
-          ],
-          [
-            368,
-            901,
-            465,
-            972
-          ],
-          [
-            510,
-            900,
-            608,
-            971
-          ],
-          [
-            652,
-            899,
-            750,
-            970
-          ]
+      "description": "tired",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1 · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "1",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
       },
-      "origin": "local-model",
-      "caption": "He says he ... She says she ... They say they ...",
-      "alt": "Faithfully colorize this EXACT 16-panel cartoon grid, with 4 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 102017,
-        "manifest": "illustrations/manifests/102-items-grid.json"
-      }
+      "display_width": 256
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "thirsty",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2 · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "2",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "cold",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3 · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "3",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "ill",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4 · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "4",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          768,
+          0,
+          1024,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "a cold",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5 · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "5",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "a headache",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6 · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "6",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "an earache",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7 · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "7",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "a toothache",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8 · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "8",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          768,
+          160,
+          1024,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "a haircut",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9 · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "9",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "a licence",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-10.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10 · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "10",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "an X-ray",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-11.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11 · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "11",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "some money",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-12.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12 · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "12",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          768,
+          320,
+          1024,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "wait",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-13.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 13 · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "13",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "catch",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-14.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 14 · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "14",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "repair",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-15.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 15 · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "15",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          512,
+          480,
+          768,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-16": {
+      "kind": "item",
+      "status": "ready",
+      "description": "sell",
+      "source": "../img/lesson-102-01-text.jpg",
+      "src": "assets/lesson-102/photo-panel-16.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 16 · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-102-01-text.jpg",
+        "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+        "label": "16",
+        "reused_asset": "html/assets/lesson-102/items-grid-color.webp",
+        "reused_sha256": "4d5a167291ede80a30360949797aaf057038c4c23f9726e718ed564180253870",
+        "crop": [
+          768,
+          480,
+          1024,
+          640
+        ]
+      },
+      "display_width": 256
     }
   },
   "grammar_source_audit": {
@@ -823,5 +1259,11 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-102-01-text.jpg",
+    "sha256": "4520a72b3187200ff3767a7ef68d96dbc36307bd62a0d41328d69edd6872c104",
+    "scope": "Lesson picture/text layout"
+  }
 }

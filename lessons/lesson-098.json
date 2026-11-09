@@ -30,110 +30,305 @@
   ],
   "characters": {},
   "images": {
-    "lesson-098-items": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "A grid of 12 numbered items: 1 keys, 2 envelope, 3 clothes (trousers, dress, coat), 4 passport, 5 tickets, 6 pocket watch, 7 flowers, 8 boat, 9 phrase book, 10 tools (saw, hammer), 11 car, 12 pens.",
-      "characters": [],
+      "description": "keys",
       "source": "../img/lesson-098-01-text.jpg",
-      "src": "assets/lesson-098/lesson-098-items-color.webp",
-      "width": 768,
-      "height": 640,
-      "illustration_source_reference": "illustrations/references/source/098-complete-panels.png",
-      "illustration_width": 768,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. A grid of 12 numbered items: 1 keys, 2 envelope, 3 clothes (trousers, dress, coat), 4 passport, 5 tickets, 6 pocket watch, 7 flowers, 8 boat, 9 phrase book, 10 tools (saw, hammer), 11 car, 12 pens.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 203,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            69,
-            485,
-            262,
-            593
-          ],
-          [
-            322,
-            485,
-            515,
-            593
-          ],
-          [
-            571,
-            485,
-            764,
-            593
-          ],
-          [
-            69,
-            636,
-            262,
-            744
-          ],
-          [
-            322,
-            636,
-            515,
-            744
-          ],
-          [
-            571,
-            636,
-            764,
-            744
-          ],
-          [
-            69,
-            792,
-            262,
-            900
-          ],
-          [
-            322,
-            792,
-            515,
-            900
-          ],
-          [
-            571,
-            792,
-            764,
-            900
-          ],
-          [
-            69,
-            940,
-            262,
-            1048
-          ],
-          [
-            322,
-            940,
-            515,
-            1048
-          ],
-          [
-            571,
-            940,
-            764,
-            1048
-          ]
+      "src": "assets/lesson-098/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "1",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
       },
-      "origin": "local-model",
-      "caption": "Whose is it? Whose are they?",
-      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 98017,
-        "manifest": "illustrations/manifests/098-lesson-098-items.json"
-      }
+      "display_width": 256
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "envelope",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "2",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "clothes",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "3",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "passport",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "4",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "tickets",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "5",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "wristwatch",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "6",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "flowers",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "7",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "boat",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "8",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "phrasebook",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "9",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "hammers",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-10.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "10",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "car",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-11.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "11",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "pens",
+      "source": "../img/lesson-098-01-text.jpg",
+      "src": "assets/lesson-098/photo-panel-12.webp",
+      "width": 256,
+      "height": 160,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12",
+      "photo_verification": {
+        "photo": "img/lesson-098-01-text.jpg",
+        "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+        "label": "12",
+        "reused_asset": "html/assets/lesson-098/lesson-098-items-color.webp",
+        "reused_sha256": "e2cdd1cf49fd9043a09920f14dada70e0cd4a431703bcfdc72c97f8e109ad41e",
+        "crop": [
+          512,
+          480,
+          768,
+          640
+        ]
+      },
+      "display_width": 256
     }
   },
   "sections": {
@@ -149,9 +344,97 @@
         "id": "lesson-items",
         "type": "text",
         "source": "../img/lesson-098-01-text.jpg",
-        "text": "1 keys  2 envelope  3 clothes  4 passport  5 tickets  6 pocket watch\n7 flowers  8 boat  9 phrase book  10 tools  11 car  12 pens",
-        "translation": "1 钥匙  2 信封  3 衣服  4 护照  5 票  6 怀表  7 花  8 船  9 短语书  10 工具  11 汽车  12 钢笔",
-        "image": "lesson-098-items"
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "keys"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "envelope"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "clothes"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "passport"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "tickets"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "wristwatch"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "flowers"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "boat"
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "phrasebook"
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "10",
+        "text": "hammers"
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "11",
+        "text": "car"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-098-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "12",
+        "text": "pens"
       },
       {
         "id": "lesson-listening",
@@ -701,5 +984,11 @@
     ]
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-098-01-text.jpg",
+    "sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
+    "scope": "Lesson picture/text layout"
+  }
 }

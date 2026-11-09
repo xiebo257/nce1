@@ -17,55 +17,267 @@
       },
       {
         "id": "lesson-time-table",
-        "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
-        "text": "TODAY: this morning, this afternoon, this evening, tonight\nYESTERDAY: yesterday morning, yesterday afternoon, yesterday evening, last night\nTHE DAY BEFORE YESTERDAY: the day before yesterday in the morning, the day before yesterday in the afternoon, the day before yesterday in the evening, the night before last",
-        "translation": "今天：今天上午、今天下午、今天晚上、今晚\n昨天：昨天上午、昨天下午、昨天晚上、昨夜\n前天：前天上午、前天下午、前天晚上、前天夜里"
+        "type": "table",
+        "source": "../img/lesson-072-01-text.jpg",
+        "caption": "When did you …?",
+        "headers": [
+          "TODAY",
+          "YESTERDAY",
+          "THE DAY BEFORE YESTERDAY"
+        ],
+        "rows": [
+          [
+            "this morning",
+            "yesterday morning",
+            "the day before yesterday in the morning"
+          ],
+          [
+            "this afternoon",
+            "yesterday afternoon",
+            "the day before yesterday in the afternoon"
+          ],
+          [
+            "this evening",
+            "yesterday evening",
+            "the day before yesterday in the evening"
+          ],
+          [
+            "tonight",
+            "last night",
+            "the night before last"
+          ]
+        ]
       },
       {
         "id": "lesson-verbs-row1",
         "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
-        "image": "lesson-072-verbs-row1",
-        "text": "1st: aired  2nd: cleaned  3rd: opened  4th: sharpened  5th: turned on",
-        "translation": "第1幅：通风  第2幅：打扫  第3幅：打开  第4幅：削尖  第5幅：打开（电器）"
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1st",
+        "text": "aired",
+        "cue_heading": ""
       },
       {
-        "id": "lesson-verbs-row2",
+        "id": "lesson-photo-panel-02",
         "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
-        "image": "lesson-072-verbs-row2",
-        "text": "6th: listened  7th: boiled  8th: arrived  9th: played  10th: stayed",
-        "translation": "第6幅：听  第7幅：煮  第8幅：到达  第9幅：玩耍  第10幅：待着"
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2nd",
+        "text": "cleaned",
+        "cue_heading": ""
       },
       {
-        "id": "lesson-verbs-row3",
+        "id": "lesson-photo-panel-03",
         "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
-        "image": "lesson-072-verbs-row3",
-        "text": "11th: shaved  12th: climbed  13th: telephoned  14th: called  15th: emptied",
-        "translation": "第11幅：刮胡子  第12幅：攀爬  第13幅：打电话  第14幅：叫（人）  第15幅：倒空"
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3rd",
+        "text": "opened",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4th",
+        "text": "sharpened",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5th",
+        "text": "turned on",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6th",
+        "text": "listened",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7th",
+        "text": "boiled",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8th",
+        "text": "arrived",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9th",
+        "text": "played",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "10th",
+        "text": "stayed",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "11th",
+        "text": "shaved",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "12th",
+        "text": "climbed",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-13",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-13",
+        "source_label": "13th",
+        "text": "telephoned",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-14",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-14",
+        "source_label": "14th",
+        "text": "called",
+        "cue_heading": ""
+      },
+      {
+        "id": "lesson-photo-panel-15",
+        "type": "text",
+        "source": "../img/lesson-072-01-text.jpg",
+        "image": "photo-panel-15",
+        "source_label": "15th",
+        "text": "emptied",
+        "cue_heading": ""
       },
       {
         "id": "lesson-vocabulary",
         "type": "vocabulary",
         "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
         "items": [
-          {"word": "air", "ipa": "/eə/", "pos": "v.", "meaning": "给……通风"},
-          {"word": "clean", "ipa": "/kliːn/", "pos": "v.", "meaning": "打扫, 弄干净"},
-          {"word": "open", "ipa": "/ˈəʊpən/", "pos": "v.", "meaning": "打开"},
-          {"word": "sharpen", "ipa": "/ˈʃɑːpn/", "pos": "v.", "meaning": "削尖, 磨快"},
-          {"word": "turn on", "ipa": "/tɜːn ɒn/", "pos": "phr. v.", "meaning": "打开（电器）"},
-          {"word": "listen", "ipa": "/ˈlɪsən/", "pos": "v.", "meaning": "听"},
-          {"word": "boil", "ipa": "/bɔɪl/", "pos": "v.", "meaning": "煮沸, 烧开水"},
-          {"word": "arrive", "ipa": "/əˈraɪv/", "pos": "v.", "meaning": "到达"},
-          {"word": "play", "ipa": "/pleɪ/", "pos": "v.", "meaning": "玩, 做（游戏）"},
-          {"word": "stay", "ipa": "/steɪ/", "pos": "v.", "meaning": "停留, 待"},
-          {"word": "shave", "ipa": "/ʃeɪv/", "pos": "v.", "meaning": "刮（胡子）"},
-          {"word": "climb", "ipa": "/klaɪm/", "pos": "v.", "meaning": "攀爬, 爬"},
-          {"word": "telephone", "ipa": "/ˈtelɪfəʊn/", "pos": "v.", "meaning": "打电话给"},
-          {"word": "call", "ipa": "/kɔːl/", "pos": "v.", "meaning": "叫, 唤"},
-          {"word": "empty", "ipa": "/ˈempti/", "pos": "v.", "meaning": "倒空, 清空"}
+          {
+            "word": "air",
+            "ipa": "/eə/",
+            "pos": "v.",
+            "meaning": "给……通风"
+          },
+          {
+            "word": "clean",
+            "ipa": "/kliːn/",
+            "pos": "v.",
+            "meaning": "打扫, 弄干净"
+          },
+          {
+            "word": "open",
+            "ipa": "/ˈəʊpən/",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "sharpen",
+            "ipa": "/ˈʃɑːpn/",
+            "pos": "v.",
+            "meaning": "削尖, 磨快"
+          },
+          {
+            "word": "turn on",
+            "ipa": "/tɜːn ɒn/",
+            "pos": "phr. v.",
+            "meaning": "打开（电器）"
+          },
+          {
+            "word": "listen",
+            "ipa": "/ˈlɪsən/",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "boil",
+            "ipa": "/bɔɪl/",
+            "pos": "v.",
+            "meaning": "煮沸, 烧开水"
+          },
+          {
+            "word": "arrive",
+            "ipa": "/əˈraɪv/",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "play",
+            "ipa": "/pleɪ/",
+            "pos": "v.",
+            "meaning": "玩, 做（游戏）"
+          },
+          {
+            "word": "stay",
+            "ipa": "/steɪ/",
+            "pos": "v.",
+            "meaning": "停留, 待"
+          },
+          {
+            "word": "shave",
+            "ipa": "/ʃeɪv/",
+            "pos": "v.",
+            "meaning": "刮（胡子）"
+          },
+          {
+            "word": "climb",
+            "ipa": "/klaɪm/",
+            "pos": "v.",
+            "meaning": "攀爬, 爬"
+          },
+          {
+            "word": "telephone",
+            "ipa": "/ˈtelɪfəʊn/",
+            "pos": "v.",
+            "meaning": "打电话给"
+          },
+          {
+            "word": "call",
+            "ipa": "/kɔːl/",
+            "pos": "v.",
+            "meaning": "叫, 唤"
+          },
+          {
+            "word": "empty",
+            "ipa": "/ˈempti/",
+            "pos": "v.",
+            "meaning": "倒空, 清空"
+          }
         ]
       },
       {
@@ -73,8 +285,14 @@
         "type": "notes",
         "source": "../pdf/新概念英语1 英语初阶.pdf#page=143",
         "items": [
-          {"title": "一般过去时的时间短语", "text": "本课的时间短语分为三组：今天（TODAY）：this morning, this afternoon, this evening, tonight；昨天（YESTERDAY）：yesterday morning, yesterday afternoon, yesterday evening, last night；前天（THE DAY BEFORE YESTERDAY）：the day before yesterday in the morning/afternoon/evening, the night before last。"},
-          {"title": "规则动词的一般过去时", "text": "规则动词的过去式一般是在动词原形后加 ed，如 clean/cleaned, arrive/arrived, listen/listened, play/played, stay/stayed。以不发音的 e 结尾的动词只加 d，如 open/opened, turn/turned。以辅音字母加 y 结尾的动词变 y 为 i 再加 ed，如 carry/carried。"}
+          {
+            "title": "一般过去时的时间短语",
+            "text": "本课的时间短语分为三组：今天（TODAY）：this morning, this afternoon, this evening, tonight；昨天（YESTERDAY）：yesterday morning, yesterday afternoon, yesterday evening, last night；前天（THE DAY BEFORE YESTERDAY）：the day before yesterday in the morning/afternoon/evening, the night before last。"
+          },
+          {
+            "title": "规则动词的一般过去时",
+            "text": "规则动词的过去式一般是在动词原形后加 ed，如 clean/cleaned, arrive/arrived, listen/listened, play/played, stay/stayed。以不发音的 e 结尾的动词只加 d，如 open/opened, turn/turned。以辅音字母加 y 结尾的动词变 y 为 i 再加 ed，如 carry/carried。"
+          }
         ]
       },
       {
@@ -88,11 +306,43 @@
         "answer_kind": "suggested",
         "context": "Item 1 is a printed example and is not editable. The remaining items follow the same pattern (present continuous → simple past).",
         "questions": [
-          {"id": "lesson-written-a-0", "number": "Example", "prompt": "She is airing the room now. She ______ it yesterday.", "answer": "aired", "rows": 1, "example": true, "answer_kind": "source-example"},
-          {"id": "lesson-written-a-1", "number": "1", "prompt": "It is raining now. It ______ yesterday.", "answer": "rained", "rows": 1},
-          {"id": "lesson-written-a-2", "number": "2", "prompt": "It is snowing now. It ______ yesterday.", "answer": "snowed", "rows": 1},
-          {"id": "lesson-written-a-3", "number": "3", "prompt": "He is boiling some eggs. He ______ some yesterday.", "answer": "boiled", "rows": 1},
-          {"id": "lesson-written-a-4", "number": "4", "prompt": "We are enjoying our lunch. We ______ it yesterday, too.", "answer": "enjoyed", "rows": 1}
+          {
+            "id": "lesson-written-a-0",
+            "number": "Example",
+            "prompt": "She is airing the room now. She ______ it yesterday.",
+            "answer": "aired",
+            "rows": 1,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-a-1",
+            "number": "1",
+            "prompt": "It is raining now. It ______ yesterday.",
+            "answer": "rained",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-2",
+            "number": "2",
+            "prompt": "It is snowing now. It ______ yesterday.",
+            "answer": "snowed",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-3",
+            "number": "3",
+            "prompt": "He is boiling some eggs. He ______ some yesterday.",
+            "answer": "boiled",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-4",
+            "number": "4",
+            "prompt": "We are enjoying our lunch. We ______ it yesterday, too.",
+            "answer": "enjoyed",
+            "rows": 1
+          }
         ]
       },
       {
@@ -106,17 +356,85 @@
         "answer_kind": "suggested",
         "context": "The printed example (she/air the room/yesterday → What did she do yesterday? She aired the room yesterday.) is not editable. Items 1–10 follow the same pattern.",
         "questions": [
-          {"id": "lesson-written-b-0", "number": "Example", "prompt": "she/air the room/yesterday", "answer": "What did she do yesterday?\nShe aired the room yesterday.", "rows": 2, "example": true, "answer_kind": "source-example"},
-          {"id": "lesson-written-b-1", "number": "1", "prompt": "they/clean their shoes/yesterday", "answer": "What did they do yesterday?\nThey cleaned their shoes yesterday.", "rows": 2},
-          {"id": "lesson-written-b-2", "number": "2", "prompt": "he/open the box/last night", "answer": "What did he do last night?\nHe opened the box last night.", "rows": 2},
-          {"id": "lesson-written-b-3", "number": "3", "prompt": "they/sharpen their pencils/this morning", "answer": "What did they do this morning?\nThey sharpened their pencils this morning.", "rows": 2},
-          {"id": "lesson-written-b-4", "number": "4", "prompt": "she/turn on the television/this evening", "answer": "What did she do this evening?\nShe turned on the television this evening.", "rows": 2},
-          {"id": "lesson-written-b-5", "number": "5", "prompt": "she/listen to the radio/last night", "answer": "What did she do last night?\nShe listened to the radio last night.", "rows": 2},
-          {"id": "lesson-written-b-6", "number": "6", "prompt": "she/boil an egg/yesterday morning", "answer": "What did she do yesterday morning?\nShe boiled an egg yesterday morning.", "rows": 2},
-          {"id": "lesson-written-b-7", "number": "7", "prompt": "they/play a game/yesterday afternoon", "answer": "What did they do yesterday afternoon?\nThey played a game yesterday afternoon.", "rows": 2},
-          {"id": "lesson-written-b-8", "number": "8", "prompt": "he/stay in bed/the day before yesterday/in the morning", "answer": "What did he do the day before yesterday in the morning?\nHe stayed in bed the day before yesterday in the morning.", "rows": 2},
-          {"id": "lesson-written-b-9", "number": "9", "prompt": "she/telephone her husband/yesterday evening", "answer": "What did she do yesterday evening?\nShe telephoned her husband yesterday evening.", "rows": 2},
-          {"id": "lesson-written-b-10", "number": "10", "prompt": "she/call the doctor/the night before last", "answer": "What did she do the night before last?\nShe called the doctor the night before last.", "rows": 2}
+          {
+            "id": "lesson-written-b-0",
+            "number": "Example",
+            "prompt": "she/air the room/yesterday",
+            "answer": "What did she do yesterday?\nShe aired the room yesterday.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-b-1",
+            "number": "1",
+            "prompt": "they/clean their shoes/yesterday",
+            "answer": "What did they do yesterday?\nThey cleaned their shoes yesterday.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-2",
+            "number": "2",
+            "prompt": "he/open the box/last night",
+            "answer": "What did he do last night?\nHe opened the box last night.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-3",
+            "number": "3",
+            "prompt": "they/sharpen their pencils/this morning",
+            "answer": "What did they do this morning?\nThey sharpened their pencils this morning.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-4",
+            "number": "4",
+            "prompt": "she/turn on the television/this evening",
+            "answer": "What did she do this evening?\nShe turned on the television this evening.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-5",
+            "number": "5",
+            "prompt": "she/listen to the radio/last night",
+            "answer": "What did she do last night?\nShe listened to the radio last night.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-6",
+            "number": "6",
+            "prompt": "she/boil an egg/yesterday morning",
+            "answer": "What did she do yesterday morning?\nShe boiled an egg yesterday morning.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-7",
+            "number": "7",
+            "prompt": "they/play a game/yesterday afternoon",
+            "answer": "What did they do yesterday afternoon?\nThey played a game yesterday afternoon.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-8",
+            "number": "8",
+            "prompt": "he/stay in bed/the day before yesterday/in the morning",
+            "answer": "What did he do the day before yesterday in the morning?\nHe stayed in bed the day before yesterday in the morning.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-9",
+            "number": "9",
+            "prompt": "she/telephone her husband/yesterday evening",
+            "answer": "What did she do yesterday evening?\nShe telephoned her husband yesterday evening.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-10",
+            "number": "10",
+            "prompt": "she/call the doctor/the night before last",
+            "answer": "What did she do the night before last?\nShe called the doctor the night before last.",
+            "rows": 2
+          }
         ]
       }
     ],
@@ -216,130 +534,388 @@
   ],
   "characters": {},
   "images": {
-    "lesson-072-verbs-row1": {
+    "photo-panel-01": {
       "kind": "item",
       "status": "ready",
-      "description": "Five past-tense verb illustrations in a row: 1st aired (woman opening a window), 2nd cleaned (two boys cleaning shoes), 3rd opened (man opening a box), 4th sharpened (boy sharpening a pencil), 5th turned on (woman turning on a television).",
-      "characters": [],
-      "origin": "local-model",
+      "description": "aired",
       "source": "../img/lesson-072-01-text.jpg",
-      "source_size": [
-        1557,
-        2500
-      ],
-      "src": "assets/lesson-072/lesson-072-verbs-row1-color.webp",
-      "width": 609,
-      "height": 254,
-      "illustration_source_reference": "illustrations/references/source/072-lesson-072-verbs-row1-clean.png",
-      "illustration_width": 640,
-      "illustration_height": 256,
-      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Five past-tense verb illustrations in a row: 1st aired (woman opening a window), 2nd cleaned (two boys cleaning shoes), 3rd opened (man opening a box), 4th sharpened (boy sharpening a pencil), 5th turned on (woman turning on a television).",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "viewer_page": 147,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "box": [
-          63,
-          476,
-          741,
-          559
+      "src": "assets/lesson-072/photo-panel-01.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1st",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "1st",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row1-color.webp",
+        "reused_sha256": "f37e302134f1a87aabaf5e53951a445f8ead2d7287941d669c65f9541c82f718",
+        "crop": [
+          0,
+          0,
+          203,
+          127
         ]
       },
-      "layout": "above",
-      "caption": "When did you ...?",
-      "alt": "Colorize and clean this exact textbook illustration.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 72017,
-        "manifest": "illustrations/manifests/072-lesson-072-verbs-row1.json"
-      }
+      "display_width": 256
     },
-    "lesson-072-verbs-row2": {
+    "photo-panel-02": {
       "kind": "item",
       "status": "ready",
-      "description": "Five past-tense verb illustrations in a row: 6th listened (girl listening to a radio), 7th boiled (woman boiling eggs), 8th arrived (woman arriving in a car), 9th played (two children playing with a ball), 10th stayed (child staying in bed).",
-      "characters": [],
-      "origin": "local-model",
+      "description": "cleaned",
       "source": "../img/lesson-072-01-text.jpg",
-      "source_size": [
-        1557,
-        2500
-      ],
-      "src": "assets/lesson-072/lesson-072-verbs-row2-color.webp",
-      "width": 609,
-      "height": 252,
-      "illustration_source_reference": "illustrations/references/source/072-lesson-072-verbs-row2-clean.png",
-      "illustration_width": 640,
-      "illustration_height": 256,
-      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Five past-tense verb illustrations in a row: 6th listened (girl listening to a radio), 7th boiled (woman boiling eggs), 8th arrived (woman arriving in a car), 9th played (two children playing with a ball), 10th stayed (child staying in bed).",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "viewer_page": 147,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "box": [
-          65,
-          657,
-          743,
-          740
+      "src": "assets/lesson-072/photo-panel-02.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2nd",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "2nd",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row1-color.webp",
+        "reused_sha256": "f37e302134f1a87aabaf5e53951a445f8ead2d7287941d669c65f9541c82f718",
+        "crop": [
+          203,
+          0,
+          406,
+          127
         ]
       },
-      "layout": "above",
-      "caption": "When did you ...?",
-      "alt": "Colorize and clean this exact textbook illustration.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 72018,
-        "manifest": "illustrations/manifests/072-lesson-072-verbs-row2.json"
-      }
+      "display_width": 256
     },
-    "lesson-072-verbs-row3": {
+    "photo-panel-03": {
       "kind": "item",
       "status": "ready",
-      "description": "Five past-tense verb illustrations in a row: 11th shaved (man shaving his face), 12th climbed (boy climbing a tree), 13th telephoned (woman on the telephone), 14th called (woman calling a man at the door), 15th emptied (woman emptying a waste basket).",
-      "characters": [],
-      "origin": "local-model",
+      "description": "opened",
       "source": "../img/lesson-072-01-text.jpg",
-      "source_size": [
-        1557,
-        2500
-      ],
-      "src": "assets/lesson-072/lesson-072-verbs-row3-color.webp",
-      "width": 609,
-      "height": 254,
-      "illustration_source_reference": "illustrations/references/source/072-lesson-072-verbs-row3-clean.png",
-      "illustration_width": 640,
-      "illustration_height": 256,
-      "illustration_scene": "Colorize and clean this exact textbook illustration. Preserve every person, face shape, hairstyle, pose, object, panel, sequence, count and spatial relationship. Use cheerful natural full colors: skin tones, distinct colored clothes, brown wooden furniture, appropriate object colors. Keep the same person in the same clothing colors across panels. Remove gray paper texture and reverse-page bleed-through, leaving clean white background. Keep all existing readable text and clock hands unchanged. Do not invent extra people, objects, panels or captions. Five past-tense verb illustrations in a row: 11th shaved (man shaving his face), 12th climbed (boy climbing a tree), 13th telephoned (woman on the telephone), 14th called (woman calling a man at the door), 15th emptied (woman emptying a waste basket).",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "viewer_page": 147,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "box": [
-          67,
-          836,
-          745,
-          920
+      "src": "assets/lesson-072/photo-panel-03.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3rd",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "3rd",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row1-color.webp",
+        "reused_sha256": "f37e302134f1a87aabaf5e53951a445f8ead2d7287941d669c65f9541c82f718",
+        "crop": [
+          406,
+          0,
+          609,
+          127
         ]
       },
-      "layout": "above",
-      "caption": "When did you ...?",
-      "alt": "Colorize and clean this exact textbook illustration.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 72019,
-        "manifest": "illustrations/manifests/072-lesson-072-verbs-row3.json"
-      }
+      "display_width": 256
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "sharpened",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-04.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "4th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row1-color.webp",
+        "reused_sha256": "f37e302134f1a87aabaf5e53951a445f8ead2d7287941d669c65f9541c82f718",
+        "crop": [
+          0,
+          127,
+          203,
+          254
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "turned on",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-05.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "5th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row1-color.webp",
+        "reused_sha256": "f37e302134f1a87aabaf5e53951a445f8ead2d7287941d669c65f9541c82f718",
+        "crop": [
+          203,
+          127,
+          406,
+          254
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "listened",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-06.webp",
+      "width": 203,
+      "height": 126,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "6th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row2-color.webp",
+        "reused_sha256": "54b730fba4b8675a59301a06a7f2f9807b9c86c042cd31a1c637fff81fd21a13",
+        "crop": [
+          0,
+          0,
+          203,
+          126
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "boiled",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-07.webp",
+      "width": 203,
+      "height": 126,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "7th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row2-color.webp",
+        "reused_sha256": "54b730fba4b8675a59301a06a7f2f9807b9c86c042cd31a1c637fff81fd21a13",
+        "crop": [
+          203,
+          0,
+          406,
+          126
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "arrived",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-08.webp",
+      "width": 203,
+      "height": 126,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "8th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row2-color.webp",
+        "reused_sha256": "54b730fba4b8675a59301a06a7f2f9807b9c86c042cd31a1c637fff81fd21a13",
+        "crop": [
+          406,
+          0,
+          609,
+          126
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "played",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-09.webp",
+      "width": 203,
+      "height": 126,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "9th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row2-color.webp",
+        "reused_sha256": "54b730fba4b8675a59301a06a7f2f9807b9c86c042cd31a1c637fff81fd21a13",
+        "crop": [
+          0,
+          126,
+          203,
+          252
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "stayed",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-10.webp",
+      "width": 203,
+      "height": 126,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "10th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row2-color.webp",
+        "reused_sha256": "54b730fba4b8675a59301a06a7f2f9807b9c86c042cd31a1c637fff81fd21a13",
+        "crop": [
+          203,
+          126,
+          406,
+          252
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "shaved",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-11.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "11th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row3-color.webp",
+        "reused_sha256": "64565fcca3dd1e7f3ac63655c5f2c9a07a1c9236584a51bdb4b53fa4ca9ceb3b",
+        "crop": [
+          0,
+          0,
+          203,
+          127
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "climbed",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-12.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "12th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row3-color.webp",
+        "reused_sha256": "64565fcca3dd1e7f3ac63655c5f2c9a07a1c9236584a51bdb4b53fa4ca9ceb3b",
+        "crop": [
+          203,
+          0,
+          406,
+          127
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "telephoned",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-13.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 13th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "13th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row3-color.webp",
+        "reused_sha256": "64565fcca3dd1e7f3ac63655c5f2c9a07a1c9236584a51bdb4b53fa4ca9ceb3b",
+        "crop": [
+          406,
+          0,
+          609,
+          127
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "called",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-14.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 14th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "14th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row3-color.webp",
+        "reused_sha256": "64565fcca3dd1e7f3ac63655c5f2c9a07a1c9236584a51bdb4b53fa4ca9ceb3b",
+        "crop": [
+          0,
+          127,
+          203,
+          254
+        ]
+      },
+      "display_width": 256
+    },
+    "photo-panel-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "emptied",
+      "source": "../img/lesson-072-01-text.jpg",
+      "src": "assets/lesson-072/photo-panel-15.webp",
+      "width": 203,
+      "height": 127,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 15th",
+      "photo_verification": {
+        "photo": "img/lesson-072-01-text.jpg",
+        "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+        "label": "15th",
+        "reused_asset": "html/assets/lesson-072/lesson-072-verbs-row3-color.webp",
+        "reused_sha256": "64565fcca3dd1e7f3ac63655c5f2c9a07a1c9236584a51bdb4b53fa4ca9ceb3b",
+        "crop": [
+          203,
+          127,
+          406,
+          254
+        ]
+      },
+      "display_width": 256
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-072-01-text.jpg",
+    "sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
+    "scope": "Lesson picture/text layout"
+  }
 }

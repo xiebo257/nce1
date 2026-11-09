@@ -18,9 +18,86 @@
       {
         "id": "lesson-clocks",
         "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=135",
-        "text": "1st 1 o'clock\n2nd 1 o'clock\n3rd 1 o'clock\n4th 1:15\n5th 1:30\n6th 1:45\n7th 1:30\n8th 1:35\n9th 1:40\n10th 1:45\n11th 1:50\n12th 1:55",
-        "translation": "第1幅 1点\n第2幅 1点\n第3幅 1点\n第4幅 1点15分\n第5幅 1点30分\n第6幅 1点45分\n第7幅 1点30分\n第8幅 1点35分\n第9幅 1点40分\n第10幅 1点45分\n第11幅 1点50分\n第12幅 1点55分"
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:00",
+        "image": "photo-clock-01"
+      },
+      {
+        "id": "lesson-clock-02",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:05",
+        "image": "photo-clock-02"
+      },
+      {
+        "id": "lesson-clock-03",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:10",
+        "image": "photo-clock-03"
+      },
+      {
+        "id": "lesson-clock-04",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:15",
+        "image": "photo-clock-04"
+      },
+      {
+        "id": "lesson-clock-05",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:20",
+        "image": "photo-clock-05"
+      },
+      {
+        "id": "lesson-clock-06",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:25",
+        "image": "photo-clock-06"
+      },
+      {
+        "id": "lesson-clock-07",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:30",
+        "image": "photo-clock-07"
+      },
+      {
+        "id": "lesson-clock-08",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:35",
+        "image": "photo-clock-08"
+      },
+      {
+        "id": "lesson-clock-09",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:40",
+        "image": "photo-clock-09"
+      },
+      {
+        "id": "lesson-clock-10",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:45",
+        "image": "photo-clock-10"
+      },
+      {
+        "id": "lesson-clock-11",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:50",
+        "image": "photo-clock-11"
+      },
+      {
+        "id": "lesson-clock-12",
+        "type": "text",
+        "source": "../img/lesson-068-01-text.jpg",
+        "text": "1:55",
+        "image": "photo-clock-12"
       },
       {
         "id": "lesson-place-church",
@@ -107,10 +184,30 @@
         "type": "vocabulary",
         "source": "../pdf/新概念英语1 英语初阶.pdf#page=136",
         "items": [
-          {"word": "church", "ipa": "/tʃɜːtʃ/", "pos": "n.", "meaning": "教堂"},
-          {"word": "dairy", "ipa": "/ˈdeəri/", "pos": "n.", "meaning": "乳品店"},
-          {"word": "baker", "ipa": "/ˈbeɪkə/", "pos": "n.", "meaning": "面包师傅"},
-          {"word": "grocer", "ipa": "/ˈɡrəʊsə/", "pos": "n.", "meaning": "食品杂货商"}
+          {
+            "word": "church",
+            "ipa": "/tʃɜːtʃ/",
+            "pos": "n.",
+            "meaning": "教堂"
+          },
+          {
+            "word": "dairy",
+            "ipa": "/ˈdeəri/",
+            "pos": "n.",
+            "meaning": "乳品店"
+          },
+          {
+            "word": "baker",
+            "ipa": "/ˈbeɪkə/",
+            "pos": "n.",
+            "meaning": "面包师傅"
+          },
+          {
+            "word": "grocer",
+            "ipa": "/ˈɡrəʊsə/",
+            "pos": "n.",
+            "meaning": "食品杂货商"
+          }
         ]
       },
       {
@@ -124,13 +221,55 @@
         "answer_kind": "suggested",
         "context": "No official key is supplied; answers are constructed from standard English usage (the + place names that take the definite article) and labelled suggested. Blank for 'the' is filled with 'the', blank with no article is filled with '—'.",
         "questions": [
-          {"id": "lesson-written-a-1", "number": "1", "prompt": "I was at ______ church on Sunday.", "answer": "—", "rows": 1},
-          {"id": "lesson-written-a-2", "number": "2", "prompt": "I was at ______ office on Monday.", "answer": "the", "rows": 1},
-          {"id": "lesson-written-a-3", "number": "3", "prompt": "My son was at ______ school on Tuesday.", "answer": "—", "rows": 1},
-          {"id": "lesson-written-a-4", "number": "4", "prompt": "My wife was at ______ butcher's on Wednesday.", "answer": "the", "rows": 1},
-          {"id": "lesson-written-a-5", "number": "5", "prompt": "She was at ______ grocer's on Thursday.", "answer": "the", "rows": 1},
-          {"id": "lesson-written-a-6", "number": "6", "prompt": "My daughter was in ______ country on Friday.", "answer": "the", "rows": 1},
-          {"id": "lesson-written-a-7", "number": "7", "prompt": "I was at ______ home on Saturday.", "answer": "—", "rows": 1}
+          {
+            "id": "lesson-written-a-1",
+            "number": "1",
+            "prompt": "I was at ______ church on Sunday.",
+            "answer": "—",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-2",
+            "number": "2",
+            "prompt": "I was at ______ office on Monday.",
+            "answer": "the",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-3",
+            "number": "3",
+            "prompt": "My son was at ______ school on Tuesday.",
+            "answer": "—",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-4",
+            "number": "4",
+            "prompt": "My wife was at ______ butcher's on Wednesday.",
+            "answer": "the",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-5",
+            "number": "5",
+            "prompt": "She was at ______ grocer's on Thursday.",
+            "answer": "the",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-6",
+            "number": "6",
+            "prompt": "My daughter was in ______ country on Friday.",
+            "answer": "the",
+            "rows": 1
+          },
+          {
+            "id": "lesson-written-a-7",
+            "number": "7",
+            "prompt": "I was at ______ home on Saturday.",
+            "answer": "—",
+            "rows": 1
+          }
         ]
       },
       {
@@ -144,13 +283,57 @@
         "answer_kind": "suggested",
         "context": "The printed example (he/church/Sunday → When was he at church? He was at church on Sunday.) is not editable. Items 1-6 follow the same pattern; the question and answer are each one field. No official key is supplied; answers are constructed from the printed example and labelled suggested.",
         "questions": [
-          {"id": "lesson-written-b-0", "number": "Example", "prompt": "he/church/Sunday", "answer": "When was he at church? He was at church on Sunday.", "rows": 2, "example": true, "answer_kind": "source-example"},
-          {"id": "lesson-written-b-1", "number": "1", "prompt": "Tom/the hairdresser's/Thursday", "answer": "When was Tom at the hairdresser's?\nHe was at the hairdresser's on Thursday.", "rows": 2},
-          {"id": "lesson-written-b-2", "number": "2", "prompt": "Mrs. Jones/the butcher's/Wednesday", "answer": "When was Mrs. Jones at the butcher's?\nShe was at the butcher's on Wednesday.", "rows": 2},
-          {"id": "lesson-written-b-3", "number": "3", "prompt": "he/home/Sunday", "answer": "When was he at home?\nHe was at home on Sunday.", "rows": 2},
-          {"id": "lesson-written-b-4", "number": "4", "prompt": "Penny/the baker's/Friday", "answer": "When was Penny at the baker's?\nShe was at the baker's on Friday.", "rows": 2},
-          {"id": "lesson-written-b-5", "number": "5", "prompt": "Mrs. Williams/the grocer's/Monday", "answer": "When was Mrs. Williams at the grocer's?\nShe was at the grocer's on Monday.", "rows": 2},
-          {"id": "lesson-written-b-6", "number": "6", "prompt": "Nicola/the office/Tuesday", "answer": "When was Nicola at the office?\nShe was at the office on Tuesday.", "rows": 2}
+          {
+            "id": "lesson-written-b-0",
+            "number": "Example",
+            "prompt": "he/church/Sunday",
+            "answer": "When was he at church? He was at church on Sunday.",
+            "rows": 2,
+            "example": true,
+            "answer_kind": "source-example"
+          },
+          {
+            "id": "lesson-written-b-1",
+            "number": "1",
+            "prompt": "Tom/the hairdresser's/Thursday",
+            "answer": "When was Tom at the hairdresser's?\nHe was at the hairdresser's on Thursday.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-2",
+            "number": "2",
+            "prompt": "Mrs. Jones/the butcher's/Wednesday",
+            "answer": "When was Mrs. Jones at the butcher's?\nShe was at the butcher's on Wednesday.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-3",
+            "number": "3",
+            "prompt": "he/home/Sunday",
+            "answer": "When was he at home?\nHe was at home on Sunday.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-4",
+            "number": "4",
+            "prompt": "Penny/the baker's/Friday",
+            "answer": "When was Penny at the baker's?\nShe was at the baker's on Friday.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-5",
+            "number": "5",
+            "prompt": "Mrs. Williams/the grocer's/Monday",
+            "answer": "When was Mrs. Williams at the grocer's?\nShe was at the grocer's on Monday.",
+            "rows": 2
+          },
+          {
+            "id": "lesson-written-b-6",
+            "number": "6",
+            "prompt": "Nicola/the office/Tuesday",
+            "answer": "When was Nicola at the office?\nShe was at the office on Tuesday.",
+            "rows": 2
+          }
         ]
       }
     ],
@@ -687,8 +870,218 @@
         "seed": 68026,
         "manifest": "illustrations/manifests/068-picture-greengrocer.json"
       }
+    },
+    "photo-clock-01": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 1: 1:00",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-01.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "1 · 1:00",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:00"
+      },
+      "display_width": 240
+    },
+    "photo-clock-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 2: 1:05",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-02.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "2 · 1:05",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:05"
+      },
+      "display_width": 240
+    },
+    "photo-clock-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 3: 1:10",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-03.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "3 · 1:10",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:10"
+      },
+      "display_width": 240
+    },
+    "photo-clock-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 4: 1:15",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-04.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "4 · 1:15",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:15"
+      },
+      "display_width": 240
+    },
+    "photo-clock-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 5: 1:20",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-05.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "5 · 1:20",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:20"
+      },
+      "display_width": 240
+    },
+    "photo-clock-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 6: 1:25",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-06.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "6 · 1:25",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:25"
+      },
+      "display_width": 240
+    },
+    "photo-clock-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 7: 1:30",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-07.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "7 · 1:30",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:30"
+      },
+      "display_width": 240
+    },
+    "photo-clock-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 8: 1:35",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-08.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "8 · 1:35",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:35"
+      },
+      "display_width": 240
+    },
+    "photo-clock-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 9: 1:40",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-09.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "9 · 1:40",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:40"
+      },
+      "display_width": 240
+    },
+    "photo-clock-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 10: 1:45",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-10.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "10 · 1:45",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:45"
+      },
+      "display_width": 240
+    },
+    "photo-clock-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 11: 1:50",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-11.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "11 · 1:50",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:50"
+      },
+      "display_width": 240
+    },
+    "photo-clock-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Clock 12: 1:55",
+      "source": "../img/lesson-068-01-text.jpg",
+      "src": "assets/lesson-068/photo-clock-12.webp",
+      "width": 240,
+      "height": 240,
+      "caption": "12 · 1:55",
+      "origin": "exact-clock-diagram",
+      "photo_verification": {
+        "photo": "img/lesson-068-01-text.jpg",
+        "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+        "time": "1:55"
+      },
+      "display_width": 240
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-068-01-text.jpg",
+    "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
+    "scope": "Lesson picture/text layout"
+  }
 }

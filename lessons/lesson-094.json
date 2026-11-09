@@ -30,40 +30,379 @@
   ],
   "characters": {},
   "images": {
-    "lesson-094-color-panels": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city.",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/094-lesson-panels.png",
-      "illustration_width": 1024,
-      "illustration_height": 784,
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "img/lesson-094-01-text.jpg",
-        "box": [
-          52,
-          472,
-          947,
-          1150
-        ],
-        "coordinate_space": [
-          949,
-          1400
+      "description": "Athens",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-01.webp",
+      "width": 160,
+      "height": 137,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "1",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          11,
+          40,
+          171,
+          177
         ]
-      },
-      "illustration_scene": "Faithfully colorize this exact textbook illustration. Fifteen city pictures in five columns and three rows. Preserve all fifteen landmarks and city captions exactly; do not add or remove a city. Natural skin tones, colorful clothing and objects. Clean white background with no gray paper, shadows or reverse-page bleed-through. Keep existing text legible and unchanged. Do not add extra objects, captions or panels.",
-      "source": "img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/lesson-094-color-panels-color.webp",
-      "width": 1024,
-      "height": 784,
-      "origin": "local-model",
-      "caption": "When did you/will you go to ...?",
-      "alt": "Faithfully colorize this exact textbook illustration.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 94017,
-        "manifest": "illustrations/manifests/094-lesson-094-color-panels.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Beijing",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-02.webp",
+      "width": 161,
+      "height": 137,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "2",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          224,
+          45,
+          385,
+          182
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Berlin",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-03.webp",
+      "width": 168,
+      "height": 141,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "3",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          439,
+          47,
+          607,
+          188
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Bombay",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-04.webp",
+      "width": 170,
+      "height": 144,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "4",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          663,
+          53,
+          833,
+          197
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Geneva",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-05.webp",
+      "width": 138,
+      "height": 152,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "5",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          886,
+          65,
+          1024,
+          217
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "London",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-06.webp",
+      "width": 160,
+      "height": 138,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "6",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          13,
+          297,
+          173,
+          435
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Madrid",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-07.webp",
+      "width": 161,
+      "height": 139,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "7",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          225,
+          305,
+          386,
+          444
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Moscow",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-08.webp",
+      "width": 166,
+      "height": 142,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "8",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          439,
+          312,
+          605,
+          454
+        ]
+      }
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "New York",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-09.webp",
+      "width": 171,
+      "height": 146,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "9",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          660,
+          320,
+          831,
+          466
+        ]
+      }
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Paris",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-10.webp",
+      "width": 140,
+      "height": 142,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 10",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "10",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          884,
+          332,
+          1024,
+          474
+        ]
+      }
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Rome",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-11.webp",
+      "width": 159,
+      "height": 139,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 11",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "11",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          13,
+          553,
+          172,
+          692
+        ]
+      }
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Seoul",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-12.webp",
+      "width": 161,
+      "height": 143,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 12",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "12",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          224,
+          563,
+          385,
+          706
+        ]
+      }
+    },
+    "photo-panel-13": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Stockholm",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-13.webp",
+      "width": 166,
+      "height": 145,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 13",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "13",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          438,
+          575,
+          604,
+          720
+        ]
+      }
+    },
+    "photo-panel-14": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Sydney",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-14.webp",
+      "width": 170,
+      "height": 145,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 14",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "14",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          659,
+          587,
+          829,
+          732
+        ]
+      }
+    },
+    "photo-panel-15": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Tokyo",
+      "source": "../img/lesson-094-01-text.jpg",
+      "src": "assets/lesson-094/photo-panel-15.webp",
+      "width": 142,
+      "height": 138,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 15",
+      "photo_verification": {
+        "photo": "img/lesson-094-01-text.jpg",
+        "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+        "label": "15",
+        "reused_asset": "html/assets/lesson-094/lesson-094-color-panels-color.webp",
+        "reused_sha256": "aa309bc6bc3dd6b00eb3e93b5f7bcac6bd5e13cfc337f3053ef8f3f20f5d5d61",
+        "crop": [
+          882,
+          596,
+          1024,
+          734
+        ]
       }
     }
   },
@@ -78,18 +417,155 @@
       },
       {
         "id": "lesson-table",
-        "type": "text",
+        "type": "table",
         "source": "../img/lesson-094-01-text.jpg",
-        "text": "last week | this week | next week | the week after next\nlast month | this month | next month | the month after next\nlast year | this year | next year | the year after next",
-        "translation": "Time-reference table for last/this/next week, month, and year."
+        "caption": "Time expressions",
+        "headers": [
+          "Last",
+          "This",
+          "Next",
+          "After next"
+        ],
+        "rows": [
+          [
+            "last week",
+            "this week",
+            "next week",
+            "the week after next"
+          ],
+          [
+            "last month",
+            "this month",
+            "next month",
+            "the month after next"
+          ],
+          [
+            "last year",
+            "this year",
+            "next year",
+            "the year after next"
+          ]
+        ]
       },
       {
         "id": "lesson-pictures",
         "type": "text",
         "source": "../img/lesson-094-01-text.jpg",
-        "text": "1. Athens\n2. Beijing\n3. Berlin\n4. Bombay\n5. Geneva\n6. London\n7. Madrid\n8. Moscow\n9. New York\n10. Paris\n11. Rome\n12. Seoul\n13. Stockholm\n14. Sydney\n15. Tokyo",
-        "translation": "Fifteen small pictures, each showing a different world city.",
-        "image": "lesson-094-color-panels"
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Athens"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "Beijing"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "Berlin"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "Bombay"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "Geneva"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "London"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "Madrid"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "Moscow"
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "New York"
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "10",
+        "text": "Paris"
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "11",
+        "text": "Rome"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "12",
+        "text": "Seoul"
+      },
+      {
+        "id": "lesson-photo-panel-13",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-13",
+        "source_label": "13",
+        "text": "Stockholm"
+      },
+      {
+        "id": "lesson-photo-panel-14",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-14",
+        "source_label": "14",
+        "text": "Sydney"
+      },
+      {
+        "id": "lesson-photo-panel-15",
+        "type": "text",
+        "source": "../img/lesson-094-01-text.jpg",
+        "image": "photo-panel-15",
+        "source_label": "15",
+        "text": "Tokyo"
       },
       {
         "id": "lesson-vocabulary",
@@ -561,5 +1037,11 @@
       }
     ]
   },
-  "illustration_style": "Full-color textbook cartoon."
+  "illustration_style": "Full-color textbook cartoon.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-094-01-text.jpg",
+    "sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
+    "scope": "Lesson picture/text layout"
+  }
 }

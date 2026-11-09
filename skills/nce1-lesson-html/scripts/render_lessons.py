@@ -101,6 +101,17 @@ def render(root, d, available):
             for line in b['lines']:
                 content += f'<li><span class="line-number">{esc(line["number"])}</span><div><p class="small-label">{esc(line["speaker"])}</p><p class="spoken">{prose(line["text"])}</p><p class="translation" lang="zh-CN">{prose(line["translation"])}</p></div></li>'
             content += '</ol>'
+        elif kind == 'table':
+            headers, rows = b['headers'], b['rows']
+            if not headers or not rows or any(len(row) != len(headers) for row in rows):
+                raise ValueError(f'Invalid table columns: {b["id"]}')
+            content = '<div class="lesson-table-scroll" tabindex="0"><table class="lesson-source-table">'
+            content += f'<caption>{esc(b["caption"])}</caption><thead><tr>'
+            content += ''.join(f'<th scope="col">{prose(cell)}</th>' for cell in headers)
+            content += '</tr></thead><tbody>'
+            for row in rows:
+                content += '<tr>' + ''.join(f'<td>{prose(cell)}</td>' for cell in row) + '</tr>'
+            content += '</tbody></table></div>'
         elif kind == 'vocabulary':
             content = '<article class="vocabulary-block"><h3>New words &amp; expressions <span lang="zh-CN">生词和短语</span></h3><dl class="vocabulary">'
             for word in b['items']:
@@ -133,12 +144,17 @@ def render(root, d, available):
         else:
             raise ValueError(f'Unsupported block type: {kind}')
         slot = b.get('image')
+        if b.get('cue_heading'):
+            content = '<div>' + f'<p class="small-label">{prose(b["cue_heading"])}</p>' + content + '</div>'
+        if b.get('source_status'):
+            content = '<div>' + content + f'<p class="source-limitation" lang="zh-CN">{esc(b["source_status"])}</p></div>'
         if slot:
             if slot in used_images: raise ValueError(f'Duplicate slot: {slot}')
             used_images.add(slot)
             im = images[slot]
             if im['status'] == 'ready':
-                figure = f'<figure class="question-illustration"><img src="{esc(im["src"])}" alt="{esc(im.get("alt", im["description"]))}" width="{im["width"]}" height="{im["height"]}" loading="lazy" /><figcaption>{esc(im.get("caption", slot))}</figcaption></figure>'
+                sizing = f' style="max-width:{max(1, int(im["display_width"]))}px"' if im.get('display_width') else ''
+                figure = f'<figure class="question-illustration"><img src="{esc(im["src"])}" alt="{esc(im.get("alt", im["description"]))}" width="{im["width"]}" height="{im["height"]}"{sizing} loading="lazy" /><figcaption>{esc(im.get("caption", slot))}</figcaption></figure>'
                 content = f'<div class="illustrated-question{" dialogue-scene" if kind == "dialogue" else ""}{" illustration-above" if im.get("layout") == "above" else ""}" data-image-slot="{esc(slot)}">{figure}{content}</div>'
             else:
                 content = f'<div data-image-slot="{esc(slot)}">{content}</div>'
