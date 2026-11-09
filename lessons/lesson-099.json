@@ -32,42 +32,156 @@
     "andy": {
       "description": "A man who has slipped and fallen downstairs and hurt his back.",
       "name": "andy",
-      "illustration_appearance": "Man about 35, short dark hair, pale blue shirt, gray trousers, seated carefully after a fall.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-099-01-text.jpg"
     },
     "lucy": {
       "description": "A woman who helps Andy and phones Dr. Carter.",
       "name": "lucy",
-      "illustration_appearance": "Woman about 33, short auburn hair, cream blouse, green cardigan.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-099-01-text.jpg"
     }
   },
   "images": {
-    "lesson-099-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Andy slipping and falling downstairs, Lucy helping him try to stand up, Lucy phoning Dr. Carter, and the doctor coming to see Andy.",
-      "characters": [
-        "andy",
-        "lucy"
-      ],
+      "description": "Ow!",
       "source": "../img/lesson-099-01-text.jpg",
-      "illustration_scene": "Andy sits on the floor at the foot of the stairs, carefully supporting his sore lower back after a fall. Lucy kneels beside him, offering a steadying hand and looking concerned. Domestic hallway, no visible injury.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-099/lesson-099-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Ow!",
-      "alt": "Andy sits on the floor at the foot of the stairs, carefully supporting his sore lower back after a fall.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 99017,
-        "manifest": "illustrations/manifests/099-lesson-099-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-099/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "2dcbf7d79b2f758d53530df2f715c2eb00458e1ad765e22b8db8748b87c30912"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What's the matter, Andy? I slipped and fell downstairs.",
+      "source": "../img/lesson-099-01-text.jpg",
+      "src": "assets/lesson-099/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "bd3dd74665f0d97efc18a1f15c6e7085507d3a411f36ecb3180a3c13ce181413"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Have you hurt yourself? Yes, I have. I think that I've hurt my back.",
+      "source": "../img/lesson-099-01-text.jpg",
+      "src": "assets/lesson-099/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "0b291bbd83c0c955ed3cb9c169b41c7a82279fd8dcfe4fc0a823506e59b81d41"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Try and stand up. Can you stand up? Here. Let me help you.",
+      "source": "../img/lesson-099-01-text.jpg",
+      "src": "assets/lesson-099/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "4645e41e868fcb43b858d49f7a23c91b90f927aedc0886c859e273e09eb2efcd"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I'm sorry, Lucy. I'm afraid that I can't get up.",
+      "source": "../img/lesson-099-01-text.jpg",
+      "src": "assets/lesson-099/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "1e60ddba690442bd8786fcc679432a7d0140d0159e8a10c559dfc731cd0723b9"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I think that the doctor had better see you. I'll phone Dr. Carter.",
+      "source": "../img/lesson-099-01-text.jpg",
+      "src": "assets/lesson-099/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "19e47715c9774e3e1c6e5494ce33f1655814203c91f23b36ac0d45f0bc6a71ed"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+      "source": "../img/lesson-099-01-text.jpg",
+      "src": "assets/lesson-099/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-099-01-text.jpg",
+        "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/099/generation.json",
+        "review_record": "illustrations/photo-repairs/099/review.json",
+        "asset_sha256": "0ca4413aead84a70c6bc281ec616d513f79b7b4338fa81ca0612d59a81492362"
+      }
     }
   },
   "sections": {
@@ -83,14 +197,24 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-099-01-text.jpg",
-        "image": "lesson-099-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
             "speaker": "ANDY",
             "text": "Ow!",
             "translation": "安迪：啊哟！"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-099-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 2,
             "speaker": "LUCY",
@@ -102,7 +226,16 @@
             "speaker": "ANDY",
             "text": "I slipped and fell downstairs.",
             "translation": "安迪：我滑了一跤，从楼梯上摔下来了。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-099-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 4,
             "speaker": "LUCY",
@@ -112,31 +245,67 @@
           {
             "number": 5,
             "speaker": "ANDY",
-            "text": "Yes, I have.\nI think that I've hurt my back.",
+            "text": "Yes, I have. I think that I've hurt my back.",
             "translation": "安迪：是啊，摔伤了。我想我把背摔坏了。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-099-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 6,
             "speaker": "LUCY",
-            "text": "Try and stand up.\nCan you stand up?\nHere.\nLet me help you.",
+            "text": "Try and stand up. Can you stand up? Here. Let me help you.",
             "translation": "露西：试试站起来。你能站起来吗？来，让我帮你。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-099-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 7,
             "speaker": "ANDY",
-            "text": "I'm sorry, Lucy.\nI'm afraid that I can't get up.",
+            "text": "I'm sorry, Lucy. I'm afraid that I can't get up.",
             "translation": "安迪：对不起，露西。恐怕我站不起来。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-099-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 8,
             "speaker": "LUCY",
-            "text": "I think that the doctor had better see you.\nI'll phone Dr. Carter.",
+            "text": "I think that the doctor had better see you. I'll phone Dr. Carter.",
             "translation": "露西：我想最好请医生来给你看一下。我去给卡特医生打电话。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "dialogue",
+        "source": "../img/lesson-099-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "lines": [
           {
             "number": 9,
             "speaker": "LUCY",
-            "text": "The doctor says that he will come at once.\nI'm sure that you need an X-ray, Andy.",
+            "text": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
             "translation": "露西：医生说他马上就来。安迪，我看你需要做一次 X 光透视。"
           }
         ]
@@ -676,5 +845,12 @@
     ]
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-099-01-text.jpg",
+    "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
+    "scope": "Lesson picture/text layout"
+  }
 }

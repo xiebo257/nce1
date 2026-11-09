@@ -1,0 +1,239 @@
+{
+  "lesson": 81,
+  "source": "img/lesson-081-01-text.jpg",
+  "source_sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+  "rotation": 0,
+  "coordinate_space": [
+    900,
+    1352
+  ],
+  "tiles": [
+    {
+      "label": 1,
+      "region": [
+        648,
+        194,
+        900,
+        347
+      ],
+      "quad_on_page": [
+        [
+          649,
+          197
+        ],
+        [
+          899,
+          211
+        ],
+        [
+          899,
+          348
+        ],
+        [
+          647,
+          338
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/081/01.png"
+    },
+    {
+      "label": 2,
+      "region": [
+        644,
+        364,
+        900,
+        512
+      ],
+      "quad_on_page": [
+        [
+          647,
+          366
+        ],
+        [
+          899,
+          374
+        ],
+        [
+          899,
+          511
+        ],
+        [
+          644,
+          506
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/081/02.png"
+    },
+    {
+      "label": 3,
+      "region": [
+        641,
+        531,
+        900,
+        668
+      ],
+      "quad_on_page": [
+        [
+          644,
+          533
+        ],
+        [
+          899,
+          538
+        ],
+        [
+          899,
+          674
+        ],
+        [
+          640,
+          671
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/081/03.png"
+    },
+    {
+      "label": 4,
+      "region": [
+        635,
+        698,
+        900,
+        838
+      ],
+      "quad_on_page": [
+        [
+          640,
+          698
+        ],
+        [
+          899,
+          701
+        ],
+        [
+          899,
+          837
+        ],
+        [
+          637,
+          832
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/081/04.png"
+    },
+    {
+      "label": 5,
+      "region": [
+        634,
+        856,
+        900,
+        1003
+      ],
+      "quad_on_page": [
+        [
+          637,
+          858
+        ],
+        [
+          899,
+          864
+        ],
+        [
+          899,
+          1001
+        ],
+        [
+          634,
+          989
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/081/05.png"
+    },
+    {
+      "label": 6,
+      "region": [
+        631,
+        1014,
+        900,
+        1164
+      ],
+      "quad_on_page": [
+        [
+          633,
+          1014
+        ],
+        [
+          899,
+          1028
+        ],
+        [
+          899,
+          1163
+        ],
+        [
+          631,
+          1141
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/081/06.png"
+    }
+  ],
+  "cols": 3,
+  "cell": [
+    320,
+    192
+  ],
+  "source_atlas_sha256": "d451d92c8661875194b465561dcf0272c96c13e5938b89254421ee5ad8f4a12a",
+  "model": "FLUX.2-Klein-4B-4bit",
+  "prompt": "Colorize these 6 textbook cartoon pictures in exactly the same 3-column layout. Preserve every face, pose, object, number, word and panel. Use warm natural skin, vivid but soft clothing colors and white backgrounds. The same recurring person must have identical hair color and clothing colors in every panel. Keep black hair black; light-haired women have golden blonde hair. Keep all original black lines, do not redraw, add, remove or rearrange anything. Color only the existing drawings; leave empty cells white.",
+  "seed": 81926,
+  "steps": 4,
+  "seconds": 46.73,
+  "output_sha256": "15b8a53615b77ed1a448f18dde99a5671022ca4d33ea2d26fb4ceebb8899e748",
+  "preserved_sha256": "56fcda29d220b54b90f8191ea280853d1bafbcb28c10d010d578a112109d9f84",
+  "status": "candidate-needs-visual-review",
+  "color_refinement": {
+    "palette": {
+      "skin": "#f3c9a8",
+      "cloth": "#9dc8ce",
+      "hair": "#ead38b",
+      "paper": "#ffffff"
+    },
+    "regions": {
+      "1": [
+        [
+          102,
+          72,
+          "paper"
+        ]
+      ],
+      "2": [
+        [
+          290,
+          81,
+          "paper"
+        ]
+      ],
+      "4": [
+        [
+          80,
+          100,
+          "paper"
+        ]
+      ],
+      "5": [
+        [
+          125,
+          77,
+          "paper"
+        ]
+      ],
+      "6": [
+        [
+          75,
+          70,
+          "paper"
+        ]
+      ]
+    }
+  }
+}

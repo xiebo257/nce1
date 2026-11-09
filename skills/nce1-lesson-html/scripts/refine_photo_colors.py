@@ -25,7 +25,7 @@ def main():
    rgb=tile.astype(int);colored=(rgb.max(2)-rgb.min(2)>15)&(rgb.max(2)>80)
    warm=colored&(rgb[:,:,0]>rgb[:,:,2]+10)&(rgb[:,:,0]>=rgb[:,:,1])
    tile[warm]=ImageColor.getrgb(PALETTE['skin']);tile[colored&~warm]=ImageColor.getrgb(PALETTE['cloth'])
-   gray=cv2.cvtColor(a,cv2.COLOR_RGB2GRAY);ink=(gray<150).astype('uint8');closed=cv2.morphologyEx(ink,cv2.MORPH_CLOSE,np.ones((5,5),np.uint8));count,labels,stats,_=cv2.connectedComponentsWithStats(1-closed,connectivity=4)
+   gray=cv2.cvtColor(a,cv2.COLOR_RGB2GRAY);ink=(gray<150).astype('uint8');closed=cv2.morphologyEx(ink,cv2.MORPH_CLOSE,np.ones((3,3),np.uint8));count,labels,stats,_=cv2.connectedComponentsWithStats(1-closed,connectivity=4)
    for px,py,name in config.get(str(n),{}).get(str(i+1),[]):
     label=labels[py,px]
     if label==0:
@@ -37,7 +37,7 @@ def main():
      if not choices:raise ValueError((n,i+1,px,py,'no fill region'))
      label=min(choices)[1]
     rx,ry,rw,rh,area=stats[label]
-    if area>cw*ch*.4:raise ValueError((n,i+1,px,py,'background region'))
+    if area>cw*ch*.4 and name!='paper':raise ValueError((n,i+1,px,py,'background region'))
     tile[(labels==label)&(gray>=150)]=ImageColor.getrgb(PALETTE.get(name,name))
    tile[gray<90]=0
    Image.fromarray(tile).save(directory/f'candidate-{i+1:02}.png');result[y:y+ch,x:x+cw]=tile

@@ -70,6 +70,11 @@ def main():
             work=root/f'illustrations/work/photo-audit/panels/{n:03}'
             if reviews.get(str(n),{}).get('sha256')!=digest(work/'preserved.png'):
                 raise ValueError(f'Lesson {n}: final color atlas has not been visually approved')
+            for character in data.get('characters',{}).values():
+                character.pop('illustration_appearance',None)
+                character['illustration_note']='Appearance follows the photographed source drawings; use the same source character in every scene.'
+                character['photo_reference']=source
+            data['illustration_palette']='Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.'
             archive=root/f'illustrations/photo-repairs/{n:03}';archive.mkdir(parents=True,exist_ok=True)
             for filename in ['source.png','source.json','generation.json']:
                 shutil.copy2(work/filename,archive/filename)
@@ -96,7 +101,7 @@ def main():
             metadata={'kind':'scene' if n%2 else 'item','status':'ready','description':text,
                       'source':source,'src':str(dest.relative_to(root/'html')),'width':img.width,'height':img.height,
                       'display_width':320 if n%2 else 256,'origin':'photo-verified-color-panel','caption':f'Picture {panel["label"]}',
-                      'photo_verification':{'photo':recipe['source'],'sha256':digest(photo),'label':panel['label'],**extra}}
+                      'photo_verification':{'photo':recipe['source'],'sha256':digest(photo),'label':panel['label'],'asset_sha256':digest(dest),**extra}}
             if panel.get('source_group'):metadata['caption']+=f' · Group {panel["source_group"]}'
             data['images'][slot]=metadata
             block={'id':image_blocks[0]['id'] if i==0 else f'lesson-photo-panel-{i+1:02}',
@@ -118,6 +123,31 @@ def main():
             else:replaced.append(block)
         blocks=replaced;data['sections']['lesson']=blocks
         for slot in old_slots:del data['images'][slot]
+        if recipe.get('merge_dialogue'):
+            for b in blocks:
+                if b['type'] != 'dialogue': continue
+                merged=[]
+                for line in b['lines']:
+                    if merged and merged[-1]['speaker']==line['speaker']:
+                        for key in ['text','translation']:merged[-1][key]+=' '+line[key]
+                    else:merged.append(copy.deepcopy(line))
+                for i,line in enumerate(merged):line['number']=i+1
+                b['lines']=merged;b['source']=source
+        if recipe.get('dialogue_lines'):
+            b=next(b for b in blocks if b['type']=='dialogue')
+            b['lines']=recipe['dialogue_lines'];b['source']=source
+        if recipe.get('question_text'):
+            b=next(b for b in blocks if b['type']=='text' and 'question' in b['id'])
+            b.update(text=recipe['question_text'],translation=recipe['question_translation'],source=source)
+            blocks.remove(b);blocks.insert(1,b)
+        if recipe.get('contrast_pairs'):
+            action_blocks=[b for b in blocks if b.get('image','').startswith('action-')]
+            for i,b in enumerate(action_blocks):
+                b['source_group']=i//2+1
+                data['images'][b['image']]['caption']+=f' · Pair {i//2+1}'
+        if recipe.get('source_limitation'):
+            blocks.append({'id':'lesson-photo-source-note','type':'text','source':source,
+                           'text':recipe['source_limitation']})
         if recipe.get('intro_text'):
             intro=next(b for b in blocks if 'intro' in b['id']);intro['text']=recipe['intro_text'];intro.pop('translation',None)
         if recipe.get('fix_cue_speakers'):
@@ -131,7 +161,7 @@ def main():
                 data['images'][slot]={'kind':'item','status':'ready','description':f'Clock {i+1}: {time}',
                    'source':source,'src':str(dest.relative_to(root/'html')),'width':240,'height':240,
                    'display_width':240,'caption':f'{i+1} · {time}','origin':'exact-clock-diagram',
-                   'photo_verification':{'photo':recipe['source'],'sha256':digest(photo),'time':time}}
+                   'photo_verification':{'photo':recipe['source'],'sha256':digest(photo),'time':time,'asset_sha256':digest(dest)}}
                 clockblocks.append({'id':'lesson-clocks' if i==0 else f'lesson-clock-{i+1:02}','type':'text','source':source,'text':time,'image':slot})
             index=next(i for i,b in enumerate(blocks) if b['id']=='lesson-clocks');blocks[index:index+1]=clockblocks
         for entry in recipe.get('tables',[]):
@@ -153,6 +183,10 @@ def main():
                 elif b['id']=='lesson-listening-answer':
                     b.update(source=source,instruction='Listen then answer this question.',translation='根据课文回答问题。',context='Mrs. Mills asks a German tourist for directions.')
                     b['questions'][0].update(prompt='Why did the man need a phrasebook?',answer='Because he did not speak English.')
+                elif b['id']=='lesson-notes':
+                    b['source']='../img/lesson-073-02-text.jpg'
+                    b['items']=[{'title':'…, and she lost her way.','text':'句中的 and 意为“所以”，表示结果。'},
+                                {'title':'she said to herself','text':'她心中暗想。'}]
                 elif b['id']=='lesson-reference-translation':
                     b.update(source=source,text='参考译文\n'+'\n'.join(p['translation'] for p in recipe['panels']))
         if recipe.get('replace_listening'):

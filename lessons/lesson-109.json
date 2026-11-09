@@ -11,8 +11,9 @@
       {
         "id": "lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook",
-        "image": "scene",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -25,7 +26,16 @@
             "speaker": "Jane",
             "text": "That's a good idea, Charlotte.",
             "translation": "这是个好主意，夏洛特。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 3,
             "speaker": "Charlotte",
@@ -37,7 +47,16 @@
             "speaker": "Jane",
             "text": "Just a little, please.",
             "translation": "请稍加一点。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 5,
             "speaker": "Charlotte",
@@ -49,7 +68,16 @@
             "speaker": "Jane",
             "text": "No, less than that. One and a half teaspoonfuls, please. That's enough for me.",
             "translation": "不，再少一些。请放一勺半。那对我已足够了。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 7,
             "speaker": "Jane",
@@ -67,7 +95,16 @@
             "speaker": "Jane",
             "text": "Yes, please.",
             "translation": "好的，请再来一点。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 10,
             "speaker": "Jane",
@@ -79,7 +116,16 @@
             "speaker": "Charlotte",
             "text": "Of course. I think there are a few in that box.",
             "translation": "当然可以。我想那个盒子里有一些。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 12,
             "speaker": "Jane",
@@ -97,7 +143,16 @@
             "speaker": "Jane",
             "text": "It doesn't matter.",
             "translation": "没关系。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "dialogue",
+        "source": "../img/lesson-109-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "lines": [
           {
             "number": 15,
             "speaker": "Charlotte",
@@ -656,44 +711,165 @@
     "charlotte": {
       "name": "Charlotte",
       "description": "A friend who makes coffee for Jane",
-      "illustration_appearance": "Woman about 35, dark bob haircut, pale blue blouse, mustard skirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-109-01-text.jpg"
     },
     "jane": {
       "name": "Jane",
       "description": "A friend who drinks coffee and wants a cigarette",
-      "illustration_appearance": "Woman about 33, short blond curls, burgundy blouse, navy skirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-109-01-text.jpg"
     }
   },
   "images": {
-    "scene": {
+    "photo-panel-01": {
       "kind": "scene",
-      "description": "Seven panels showing Charlotte making coffee for Jane, discussing milk and sugar, and Jane asking for a cigarette but the box is empty, so Charlotte offers a biscuit instead",
-      "source": "img/lesson-109-01-text.jpg",
-      "characters": [
-        "charlotte",
-        "jane"
-      ],
       "status": "ready",
-      "illustration_scene": "At a coffee table with two cups and a small milk jug, Charlotte offers Jane a plate of biscuits. Jane smiles and reaches for one. An empty plain cigarette box sits unobtrusively on the table; nobody is smoking.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-109/scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "A good idea",
-      "alt": "At a coffee table with two cups and a small milk jug, Charlotte offers Jane a plate of biscuits.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 109017,
-        "manifest": "illustrations/manifests/109-scene.json"
-      },
-      "layout": "above"
+      "description": "Shall I make some coffee, Jane? That's a good idea, Charlotte.",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "96702100b4942f9ad28a192d3e2977d9de356c9a1c5a427de819d0b1e2d33089"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "It's ready. Do you want any milk? Just a little, please.",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "7129492b2f036a6f6b44a69cc8d00890f55852a585519f05bc5713ed19ec21a2"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What about some sugar? Two teaspoonfuls? No, less than that. One and a half teaspoonfuls, please. That's enough for me.",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "cf8b2af5bdadffce629f52ab179fad245990225fc9446366896f46c1669ecc6c"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "That was very nice. Would you like some more? Yes, please.",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "3e0be0923aea6235ed030b9af61733377757fc9a397c41b4c8bd9ae7cd9d57b5"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I'd like a cigarette, too. May I have one? Of course. I think there are a few in that box.",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "480099cc1a04f5d9c87fe83a759de4670e6fa4bc81953f30a18e5075789def64"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I'm afraid it's empty. What a pity! It doesn't matter.",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "01ec8453b4a0a70db590a1d38b2d29393e1d4f64cf8ea225a926527c3f72a45c"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Have a biscuit instead. Eat more and smoke less! That's very good advice!",
+      "source": "../img/lesson-109-01-text.jpg",
+      "src": "assets/lesson-109/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-109-01-text.jpg",
+        "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/109/generation.json",
+        "review_record": "illustrations/photo-repairs/109/review.json",
+        "asset_sha256": "23c294c0e9be1f288dcd2da561d36775b45cafb9f54f6f6bd5be272405f6af8e"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-109-01-text.jpg",
+    "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
+    "scope": "Lesson picture/text layout"
+  }
 }

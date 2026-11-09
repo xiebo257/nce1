@@ -19,20 +19,30 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-081-01-text.jpg",
-        "image": "lesson-081-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
             "speaker": "SAM",
-            "text": "Hi, Carol!\nWhere's Tom?",
+            "text": "Hi, Carol! Where's Tom?",
             "translation": "萨姆：你好，卡罗尔！汤姆在哪儿？"
           },
           {
             "number": 2,
             "speaker": "CAROL",
-            "text": "He's upstairs.\nHe's having a bath.",
+            "text": "He's upstairs. He's having a bath.",
             "translation": "卡罗尔：他在楼上。他正在洗澡。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-081-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 3,
             "speaker": "CAROL",
@@ -56,11 +66,20 @@
             "speaker": "TOM",
             "text": "I'm nearly ready.",
             "translation": "汤姆：我马上就好。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-081-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 7,
             "speaker": "TOM",
-            "text": "Hello, Sam.\nHave a cigarette.",
+            "text": "Hello, Sam. Have a cigarette.",
             "translation": "汤姆：你好，萨姆。请抽烟。"
           },
           {
@@ -80,7 +99,16 @@
             "speaker": "SAM",
             "text": "OK. Thanks.",
             "translation": "萨姆：好的，谢谢。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-081-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 11,
             "speaker": "TOM",
@@ -90,13 +118,22 @@
           {
             "number": 12,
             "speaker": "CAROL",
-            "text": "It's nearly ready.\nWe can have dinner at seven o'clock.",
+            "text": "It's nearly ready. We can have dinner at seven o'clock.",
             "translation": "卡罗尔：马上就好。7点钟我们可以吃饭。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-081-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 13,
             "speaker": "TOM",
-            "text": "Sam and I had lunch together today.\nWe went to a restaurant.",
+            "text": "Sam and I had lunch together today. We went to a restaurant.",
             "translation": "汤姆：我和萨姆今天一起吃的午饭。我们去了一家饭店。"
           },
           {
@@ -108,9 +145,18 @@
           {
             "number": 15,
             "speaker": "TOM",
-            "text": "We had roast beef\nand potatoes.",
+            "text": "We had roast beef and potatoes.",
             "translation": "汤姆：我们吃的是烤牛肉和土豆。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-081-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 16,
             "speaker": "CAROL",
@@ -126,7 +172,7 @@
           {
             "number": 18,
             "speaker": "CAROL",
-            "text": "Well, you're going to have\nroast beef and potatoes again tonight!",
+            "text": "Well, you're going to have roast beef and potatoes again tonight!",
             "translation": "卡罗尔：唉，今晚你们又要吃烤牛肉和土豆了！"
           }
         ]
@@ -671,51 +717,151 @@
     "sam": {
       "description": "A man with dark hair, wearing a jacket.",
       "name": "sam",
-      "illustration_appearance": "Man about 35, short dark hair, navy jacket, pale blue shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-081-01-text.jpg"
     },
     "carol": {
       "description": "A woman with light hair, wearing a floral dress.",
       "name": "carol",
-      "illustration_appearance": "Woman about 33, short blond curls, light blue floral dress.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-081-01-text.jpg"
     },
     "tom": {
       "description": "A man with dark hair and a moustache, wearing a patterned shirt.",
       "name": "tom",
-      "illustration_appearance": "Man about 35, short dark hair and a neat moustache, cream patterned shirt, dark trousers.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-081-01-text.jpg"
     }
   },
   "images": {
-    "lesson-081-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Carol talks to Sam at the door; Tom is upstairs in the bath; later Tom and Sam sit in armchairs with a glass of whisky; Carol cooks in the kitchen while Tom and Sam watch.",
-      "characters": [
-        "sam",
-        "carol",
-        "tom"
-      ],
+      "description": "Hi, Carol! Where's Tom? He's upstairs. He's having a bath.",
       "source": "../img/lesson-081-01-text.jpg",
-      "illustration_scene": "Tom and Sam sit in separate living-room armchairs with small glasses of whisky. Carol stands at the open kitchen doorway holding a serving dish of roast beef and potatoes, giving them an amused, exasperated look.",
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-081/lesson-081-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Roast beef and potatoes",
-      "alt": "Tom and Sam sit in separate living-room armchairs with small glasses of whisky.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 81017,
-        "manifest": "illustrations/manifests/081-lesson-081-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-081/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-081-01-text.jpg",
+        "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/081/generation.json",
+        "review_record": "illustrations/photo-repairs/081/review.json",
+        "asset_sha256": "32ebf20db9e283751c1011102fb828effc3dac7a29deb33e9a28e5add62e2578"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Tom! Yes? Sam's here. I'm nearly ready.",
+      "source": "../img/lesson-081-01-text.jpg",
+      "src": "assets/lesson-081/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-081-01-text.jpg",
+        "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/081/generation.json",
+        "review_record": "illustrations/photo-repairs/081/review.json",
+        "asset_sha256": "b97eeed6a3c73aed65af88218881cebf8bc65b1e7b61d0d7c571741b452740f1"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Hello, Sam. Have a cigarette. No, thanks, Tom. Have a glass of whisky then. OK. Thanks.",
+      "source": "../img/lesson-081-01-text.jpg",
+      "src": "assets/lesson-081/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-081-01-text.jpg",
+        "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/081/generation.json",
+        "review_record": "illustrations/photo-repairs/081/review.json",
+        "asset_sha256": "e3fbef079df4a2d2d2d841bdbcb4dc0db848d457b135f179d6d331405bd33cc7"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Is dinner ready, Carol? It's nearly ready. We can have dinner at seven o'clock.",
+      "source": "../img/lesson-081-01-text.jpg",
+      "src": "assets/lesson-081/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-081-01-text.jpg",
+        "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/081/generation.json",
+        "review_record": "illustrations/photo-repairs/081/review.json",
+        "asset_sha256": "400f28c4a119c35df9792a37dba6d9bf6aa4e7a24914bd54268c3df666c29e1f"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Sam and I had lunch together today. We went to a restaurant. What did you have? We had roast beef and potatoes.",
+      "source": "../img/lesson-081-01-text.jpg",
+      "src": "assets/lesson-081/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-081-01-text.jpg",
+        "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/081/generation.json",
+        "review_record": "illustrations/photo-repairs/081/review.json",
+        "asset_sha256": "2f7b36b1fbdc7467b28c3f4c472350b730a3e941fe536ea29abc8d64eae159bf"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Oh! What's the matter, Carol? Well, you're going to have roast beef and potatoes again tonight!",
+      "source": "../img/lesson-081-01-text.jpg",
+      "src": "assets/lesson-081/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-081-01-text.jpg",
+        "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/081/generation.json",
+        "review_record": "illustrations/photo-repairs/081/review.json",
+        "asset_sha256": "5109327c332f86ba84ae945b648119a7af92df8ab7731f21dea9555175617e4b"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-081-01-text.jpg",
+    "sha256": "466ad34ccfdd65ee1e795a1756c2251cfb41ef9154495e95124d8c8317447307",
+    "scope": "Lesson picture/text layout"
+  }
 }

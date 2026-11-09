@@ -19,12 +19,13 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-089-01-text.jpg",
-        "image": "lesson-089-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
             "speaker": "NIGEL",
-            "text": "Good afternoon.\nI believe that\nthis house is for sale.",
+            "text": "Good afternoon. I believe that this house is for sale.",
             "translation": "奈杰尔：下午好。我想这房子是要出售的吧！"
           },
           {
@@ -42,9 +43,18 @@
           {
             "number": 4,
             "speaker": "IAN",
-            "text": "Yes, of course.\nCome in.",
+            "text": "Yes, of course. Come in.",
             "translation": "伊恩：可以，当然可以。请进。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-089-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 5,
             "speaker": "NIGEL",
@@ -60,7 +70,7 @@
           {
             "number": 7,
             "speaker": "NIGEL",
-            "text": "Twenty years!\nThat's a long time.",
+            "text": "Twenty years! That's a long time.",
             "translation": "奈杰尔：20年！这个时间可不短。"
           },
           {
@@ -78,7 +88,7 @@
           {
             "number": 10,
             "speaker": "IAN",
-            "text": "Because I've just retired.\nI want to buy\na small house in the country.",
+            "text": "Because I've just retired. I want to buy a small house in the country.",
             "translation": "伊恩：因为我刚退休。我想在乡下买幢小房子。"
           },
           {
@@ -108,13 +118,13 @@
           {
             "number": 15,
             "speaker": "NIGEL",
-            "text": "Well, I like the house,\nbut I can't decide yet.\nMy wife must see it first.",
+            "text": "Well, I like the house, but I can't decide yet. My wife must see it first.",
             "translation": "奈杰尔：啊，我喜欢这房子，但我还不能决定。我妻子必须先来看一看。"
           },
           {
             "number": 16,
             "speaker": "IAN",
-            "text": "Women always have\nthe last word.",
+            "text": "Women always have the last word.",
             "translation": "伊恩：女人总是最后说了算的。"
           }
         ]
@@ -723,44 +733,65 @@
     "nigel": {
       "description": "A man wearing a hat, visiting the house for sale.",
       "name": "nigel",
-      "illustration_appearance": "Man about 40, short brown hair, gray brimmed hat, navy jacket, white shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-089-01-text.jpg"
     },
     "ian": {
       "description": "An older man with grey hair, the owner of the house.",
       "name": "ian",
-      "illustration_appearance": "Man about 60, short gray hair, tan cardigan, cream shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-089-01-text.jpg"
     }
   },
   "images": {
-    "lesson-089-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Nigel stands outside a house with a 'FOR SALE' sign in the window; Ian opens the door. A second panel shows Nigel and Ian inside the house talking.",
-      "characters": [
-        "nigel",
-        "ian"
-      ],
+      "description": "Good afternoon. I believe that this house is for sale. That's right. May I have a look at it, please? Yes, of course. Come in.",
       "source": "../img/lesson-089-01-text.jpg",
-      "illustration_scene": "Ian welcomes prospective buyer Nigel through the front door of a comfortable modest British house, gesturing into the hall. Nigel looks around thoughtfully. A small unlettered estate-agent board outside suggests the house is for sale.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-089/lesson-089-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "For sale",
-      "alt": "Ian welcomes prospective buyer Nigel through the front door of a comfortable modest British house, gesturing into the hall.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 89017,
-        "manifest": "illustrations/manifests/089-lesson-089-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-089/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-089-01-text.jpg",
+        "sha256": "ffd877ec7d3605c03828820687c8fe8b9f3fd1a3ce22809788c1abb227d29d8c",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/089/generation.json",
+        "review_record": "illustrations/photo-repairs/089/review.json",
+        "asset_sha256": "5a4863e82381f76bb4dcd458d19166031f5da2c5c5d55fa48f9ed37fc0366ad8"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "How long have you lived here? I've lived here for twenty years. Twenty years! That's a long time. Yes, I've been here since 1976. Then why do you want to sell it? Because I've just retired. I want to buy a small house in the country. How much does this house cost? £68,500. That's a lot of money! It's worth every penny of it. Well, I like the house, but I can't decide yet. My wife must see it first. Women always have the last word.",
+      "source": "../img/lesson-089-01-text.jpg",
+      "src": "assets/lesson-089/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-089-01-text.jpg",
+        "sha256": "ffd877ec7d3605c03828820687c8fe8b9f3fd1a3ce22809788c1abb227d29d8c",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/089/generation.json",
+        "review_record": "illustrations/photo-repairs/089/review.json",
+        "asset_sha256": "d63e4c59d54b049fb011cfe566fcd8a11f8af813ded3a17ff3a0b3c455a9bb11"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-089-01-text.jpg",
+    "sha256": "ffd877ec7d3605c03828820687c8fe8b9f3fd1a3ce22809788c1abb227d29d8c",
+    "scope": "Lesson picture/text layout"
+  }
 }

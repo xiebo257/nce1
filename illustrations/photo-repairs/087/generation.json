@@ -1,0 +1,91 @@
+{
+  "lesson": 87,
+  "source": "img/lesson-087-01-text.jpg",
+  "source_sha256": "26d6d2caa84d7480ba9ce329eabe6a83f972c2eb5f20a85444bcc551637eec69",
+  "rotation": 0,
+  "coordinate_space": [
+    900,
+    1345
+  ],
+  "tiles": [
+    {
+      "label": 1,
+      "region": [
+        654,
+        263,
+        895,
+        428
+      ],
+      "quad_on_page": [
+        [
+          655,
+          264
+        ],
+        [
+          893,
+          287
+        ],
+        [
+          892,
+          427
+        ],
+        [
+          654,
+          412
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/087/01.png"
+    },
+    {
+      "label": 2,
+      "region": [
+        647,
+        721,
+        891,
+        876
+      ],
+      "quad_on_page": [
+        [
+          649,
+          726
+        ],
+        [
+          890,
+          721
+        ],
+        [
+          888,
+          862
+        ],
+        [
+          647,
+          874
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/087/02.png"
+    }
+  ],
+  "cols": 2,
+  "cell": [
+    320,
+    192
+  ],
+  "source_atlas_sha256": "ff4686617dbdf19925e3e9a7e072c0e194744d5829443eb7e48b3b5386386f47",
+  "model": "FLUX.2-Klein-4B-4bit",
+  "prompt": "Colorize these 2 textbook cartoon pictures in exactly the same 2-column layout. Preserve every face, pose, object, number, word and panel. Use warm natural skin, vivid but soft clothing colors and white backgrounds. The same recurring person must have identical hair color and clothing colors in every panel. Keep black hair black; light-haired women have golden blonde hair. Keep all original black lines, do not redraw, add, remove or rearrange anything. Color only the existing drawings; leave empty cells white.",
+  "seed": 87926,
+  "steps": 4,
+  "seconds": 19.94,
+  "output_sha256": "a5ff29e97b09ff28e5ca7442cc1651db9f1b23c05b7e36a0f4b138caab19ead9",
+  "preserved_sha256": "0a8b8ac2eaea4e8d00d06382dc4e0b5dfae92a41b6ceb5b595ec69ec779e0dd1",
+  "status": "candidate-needs-visual-review",
+  "color_refinement": {
+    "palette": {
+      "skin": "#f3c9a8",
+      "cloth": "#9dc8ce",
+      "hair": "#ead38b",
+      "paper": "#ffffff"
+    },
+    "regions": {}
+  }
+}

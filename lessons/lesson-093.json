@@ -32,33 +32,169 @@
     "nigel": {
       "description": "A middle-aged man in a pilot's uniform with a cap, the family's new next-door neighbour.",
       "name": "nigel",
-      "illustration_appearance": "Man about 40, short brown hair, navy airline pilot uniform, gold sleeve stripes and pilot cap.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-093-01-text.jpg"
     }
   },
   "images": {
-    "lesson-093-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Nigel, a pilot in uniform and cap, stands beside an aeroplane. The scene includes illustrations of New York, Tokyo, Madrid (Spain), and London, showing his travel destinations.",
-      "characters": [
-        "nigel"
-      ],
+      "description": "Nigel is our new next-door neighbour. He's a pilot.",
       "source": "../img/lesson-093-01-text.jpg",
-      "illustration_scene": "Nigel, the experienced airline pilot, stands near a passenger aircraft on an airport apron holding a small flight bag. Clear daylight, airport terminal in the distance. One location, no travel montage.",
-      "illustration_person_count": 1,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-093/lesson-093-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Our new neighbour",
-      "alt": "Nigel, the experienced airline pilot, stands near a passenger aircraft on an airport apron holding a small flight bag.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 93017,
-        "manifest": "illustrations/manifests/093-lesson-093-scene-01.json"
+      "src": "assets/lesson-093/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "5332ae4fbde01b3b962ef15cd5557bb19f50db1a16dd8b827ed760fb32b06fc0"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "He was in the R.A.F.",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "b3c3b63424f7d2a739d7a09a9a8e9495acae378057c1db42bae7c969644c7415"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "He will fly to New York next month.",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "f36ac9545ad13dd039bff752a078438fe9cceaf59a898c14c1c7a9716956bf2f"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "The month after next he'll fly to Tokyo.",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "5d3c94e9b57427ad0b284215c744774664e3c9c186f0fb293a1f73b354af7007"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "At the moment, he's in Madrid. He flew to Spain a week ago.",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "bc51932adb34d33be3f726ff6a0d1cf60e9d7dd2f6ca28686d014fa218c76258"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "He'll return to London the week after next.",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "a5d05dc6691e39ecb53124c8acc60198f8424e5083fb97c62bd2d3fdaa13b5e9"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "He's only forty-one years old, and he has already been to nearly every country in the world.",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "ca9a92df4fd5202f6107a468f603254ac0a616678cbef2ad1c5e423ed2424650"
+      }
+    },
+    "photo-panel-08": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Nigel is a very lucky man. But his wife isn't very lucky. She usually stays at home!",
+      "source": "../img/lesson-093-01-text.jpg",
+      "src": "assets/lesson-093/photo-panel-08.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-093-01-text.jpg",
+        "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+        "label": "8",
+        "generation_record": "illustrations/photo-repairs/093/generation.json",
+        "review_record": "illustrations/photo-repairs/093/review.json",
+        "asset_sha256": "512c4bcdae859d6de934aa96b7d07246241cb285f6e456db2f6cc9c49ddb276f"
       }
     }
   },
@@ -75,9 +211,73 @@
         "id": "lesson-text",
         "type": "text",
         "source": "../img/lesson-093-01-text.jpg",
-        "image": "lesson-093-scene-01",
-        "text": "Nigel is our new next-door neighbour.\nHe's a pilot.\n\nHe was in the R.A.F.\n\nHe will fly to New York next month.\n\nThe month after next he'll fly to Tokyo.\n\nAt the moment, he's in Madrid.\nHe flew to Spain a week ago.\n\nHe'll return to London\nthe week after next.\n\nHe's only forty-one years old,\nand he has already been\nto nearly every country in the world.\n\nNigel is a very lucky man.\nBut his wife isn't very lucky.\nShe usually stays at home!",
-        "translation": "奈杰尔是我们新搬来的隔壁邻居。他是个飞行员。\n他曾在皇家空军任职。\n下个月他将飞往纽约。\n再下个月他将飞往东京。\n现在他在马德里。他是一星期以前飞到西班牙的。\n再下个星期他将返回伦敦。\n他只有41岁，但他却去过世界上几乎每一个国家。\n奈杰尔是个很幸运的人。但他的妻子运气不好。她总是呆在家里！"
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Nigel is our new next-door neighbour. He's a pilot.",
+        "translation": "奈杰尔是我们新搬来的隔壁邻居。他是个飞行员。"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "He was in the R.A.F.",
+        "translation": "他曾在皇家空军任职。"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "He will fly to New York next month.",
+        "translation": "下个月他将飞往纽约。"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "The month after next he'll fly to Tokyo.",
+        "translation": "再下个月他将飞往东京。"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "At the moment, he's in Madrid. He flew to Spain a week ago.",
+        "translation": "现在他在马德里。他是一星期以前飞到西班牙的。"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "He'll return to London the week after next.",
+        "translation": "再下个星期他将返回伦敦。"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "He's only forty-one years old, and he has already been to nearly every country in the world.",
+        "translation": "他只有41岁，但他却去过世界上几乎每一个国家。"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-093-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "Nigel is a very lucky man. But his wife isn't very lucky. She usually stays at home!",
+        "translation": "奈杰尔是个很幸运的人。但他的妻子运气不好。她总是呆在家里！"
       },
       {
         "id": "lesson-listening",
@@ -480,5 +680,12 @@
     ]
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-093-01-text.jpg",
+    "sha256": "b2c1a4a12c3a44e6fc72353413d62f99fc91e06a4525c442b7865c431e7d919f",
+    "scope": "Lesson picture/text layout"
+  }
 }

@@ -32,55 +32,168 @@
     "george": {
       "description": "A man with dark hair, one of the two travellers.",
       "name": "george",
-      "illustration_appearance": "Man about 35, short dark hair, gray jacket, white shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-095-01-text.jpg"
     },
     "ken": {
       "description": "A man with curly blond hair, George's travelling companion.",
       "name": "ken",
-      "illustration_appearance": "Man about 35, curly blond hair, tan jacket, blue shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-095-01-text.jpg"
     },
     "attendant": {
       "description": "The ticket clerk at the station.",
       "name": "attendant",
-      "illustration_appearance": "Male railway ticket clerk about 45, navy uniform.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-095-01-text.jpg"
     },
     "porter": {
       "description": "A station porter in a cap, who checks tickets.",
       "name": "porter",
-      "illustration_appearance": "Male station porter about 50, navy uniform and peaked cap.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-095-01-text.jpg"
     }
   },
   "images": {
-    "lesson-095-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "George and Ken at a railway station: buying tickets from the attendant, asking about the platform, having a drink in a bar next door to the station, and being stopped by the porter who tells them they have missed the train.",
-      "characters": [
-        "george",
-        "ken",
-        "porter"
-      ],
+      "description": "Two return tickets to London, please. What time will the next train leave? At nineteen minutes past eight.",
       "source": "../img/lesson-095-01-text.jpg",
-      "illustration_scene": "On a railway platform, George and Ken hold tickets and look dismayed as the uniformed porter explains they have missed their train. A departing passenger train is distant in the background. No readable clocks or timetable.",
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-095/lesson-095-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Tickets, please.",
-      "alt": "On a railway platform, George and Ken hold tickets and look dismayed as the uniformed porter explains they have missed their train.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 95017,
-        "manifest": "illustrations/manifests/095-lesson-095-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-095/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "6dff17c12df7ca7a8f1a2c0cf77eb9a9ae35b50806b8a89bda57cc0f80d63e10"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Which platform? Platform Two. Over the bridge.",
+      "source": "../img/lesson-095-01-text.jpg",
+      "src": "assets/lesson-095/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "32c3d9cfb1130e6511f1bd66ec9480cc2c3df540eb6382af85d30df0ca2f62fc"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What time will the next train leave? At eight nineteen. We've got plenty of time.",
+      "source": "../img/lesson-095-01-text.jpg",
+      "src": "assets/lesson-095/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "8b78550f12978e4e22ab30d0a4cb82669c9fb42e86369cd39fd811cd80440510"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "It's only three minutes to eight. Let's go and have a drink. There's a bar next door to the station.",
+      "source": "../img/lesson-095-01-text.jpg",
+      "src": "assets/lesson-095/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "8448bd081d07288f23dd21eb433906a200dedd3d45617629c45e4efba0dd1ffc"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "We had better go back to the station now, Ken.",
+      "source": "../img/lesson-095-01-text.jpg",
+      "src": "assets/lesson-095/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "55c5da7f2bca63ae8097eb85ba8105f4e76585f533628a5b2b0a06ad0e3fdecd"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Tickets, please. We want to catch the eight nineteen to London. You've just missed it!",
+      "source": "../img/lesson-095-01-text.jpg",
+      "src": "assets/lesson-095/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "7901ae2e51dae07bc124819abd7aba83d9caf0277113f06fd61a56c5c71480d2"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What! It's only eight fifteen. I'm sorry, sir. That clock's ten minutes slow. When's the next train? In five hours' time!",
+      "source": "../img/lesson-095-01-text.jpg",
+      "src": "assets/lesson-095/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-095-01-text.jpg",
+        "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/095/generation.json",
+        "review_record": "illustrations/photo-repairs/095/review.json",
+        "asset_sha256": "c8ae9c43521e99ac9af5df23fdf7163c67f91e591658de4cf3907a925f516ff6"
+      }
     }
   },
   "sections": {
@@ -96,12 +209,13 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-095-01-text.jpg",
-        "image": "lesson-095-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
             "speaker": "GEORGE",
-            "text": "Two return tickets to London, please.\nWhat time will the next train leave?",
+            "text": "Two return tickets to London, please. What time will the next train leave?",
             "translation": "乔治：买两张到伦敦的往返票。下一班火车什么时候开？"
           },
           {
@@ -109,7 +223,16 @@
             "speaker": "ATTENDANT",
             "text": "At nineteen minutes past eight.",
             "translation": "售票员：8点19分。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-095-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 3,
             "speaker": "GEORGE",
@@ -119,9 +242,18 @@
           {
             "number": 4,
             "speaker": "ATTENDANT",
-            "text": "Platform Two.\nOver the bridge.",
+            "text": "Platform Two. Over the bridge.",
             "translation": "售票员：2号站台。过天桥。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-095-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 5,
             "speaker": "KEN",
@@ -139,7 +271,16 @@
             "speaker": "KEN",
             "text": "We've got plenty of time.",
             "translation": "肯：我们的时间还很充裕。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-095-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 8,
             "speaker": "GEORGE",
@@ -149,15 +290,33 @@
           {
             "number": 9,
             "speaker": "KEN",
-            "text": "Let's go and have a drink.\nThere's a bar\nnext door to the station.",
+            "text": "Let's go and have a drink. There's a bar next door to the station.",
             "translation": "肯：让我们去喝点东西吧，车站旁有一个酒吧。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-095-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 10,
             "speaker": "GEORGE",
-            "text": "We had better\ngo back to the station now, Ken.",
+            "text": "We had better go back to the station now, Ken.",
             "translation": "乔治：肯，我们现在最好回到车站去。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-095-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 11,
             "speaker": "PORTER",
@@ -167,7 +326,7 @@
           {
             "number": 12,
             "speaker": "GEORGE",
-            "text": "We want to catch\nthe eight nineteen to London.",
+            "text": "We want to catch the eight nineteen to London.",
             "translation": "乔治：我们要乘8点19分的车去伦敦。"
           },
           {
@@ -175,7 +334,16 @@
             "speaker": "PORTER",
             "text": "You've just missed it!",
             "translation": "乘务员：你们刚好错过了那班车。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "dialogue",
+        "source": "../img/lesson-095-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "lines": [
           {
             "number": 14,
             "speaker": "GEORGE",
@@ -185,13 +353,13 @@
           {
             "number": 15,
             "speaker": "PORTER",
-            "text": "It's only eight fifteen.\nI'm sorry, sir.",
+            "text": "It's only eight fifteen. I'm sorry, sir.",
             "translation": "乘务员：现在只有8点15分。对不起，先生。"
           },
           {
             "number": 16,
             "speaker": "GEORGE",
-            "text": "That clock's ten minutes slow.\nWhen's the next train?",
+            "text": "That clock's ten minutes slow. When's the next train?",
             "translation": "乔治：那个钟慢了10分钟。下一班车是什么时候？"
           },
           {
@@ -786,5 +954,12 @@
     ]
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-095-01-text.jpg",
+    "sha256": "9249fb1f917e40fda24d6c0e8639069784fbd9ed4d3a3b99fd4a395c94035a09",
+    "scope": "Lesson picture/text layout"
+  }
 }

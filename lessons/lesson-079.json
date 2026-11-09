@@ -19,7 +19,8 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-079-01-text.jpg",
-        "image": "lesson-079-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -32,7 +33,16 @@
             "speaker": "CAROL",
             "text": "I'm making a shopping list, Tom.",
             "translation": "卡罗尔：我在写购物单，汤姆。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-079-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 3,
             "speaker": "TOM",
@@ -44,13 +54,31 @@
             "speaker": "CAROL",
             "text": "We need a lot of things this week.",
             "translation": "卡罗尔：这星期我们需要很多东西。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-079-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 5,
             "speaker": "CAROL",
-            "text": "I must go to the grocer's.\nWe haven't got much tea or coffee,\nand we haven't got any sugar or jam.",
+            "text": "I must go to the grocer's. We haven't got much tea or coffee, and we haven't got any sugar or jam.",
             "translation": "卡罗尔：我得去一下食品店。我们的茶叶和咖啡不多了，糖和果酱也没有了。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-079-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 6,
             "speaker": "TOM",
@@ -60,15 +88,33 @@
           {
             "number": 7,
             "speaker": "CAROL",
-            "text": "I must go to the greengrocer's.\nWe haven't got many tomatoes,\nbut we've got a lot of potatoes.",
+            "text": "I must go to the greengrocer's. We haven't got many tomatoes, but we've got a lot of potatoes.",
             "translation": "卡罗尔：我还得到蔬菜水果店去一下。我们的番茄不多了，但土豆还有不少。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-079-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 8,
             "speaker": "CAROL",
-            "text": "I must go to the butcher's, too.\nWe need some meat.\nWe haven't got any meat at all.",
+            "text": "I must go to the butcher's, too. We need some meat. We haven't got any meat at all.",
             "translation": "卡罗尔：我还要到肉店去一下。我们需要些肉。我们一点肉也没有了。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-079-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 9,
             "speaker": "TOM",
@@ -78,9 +124,18 @@
           {
             "number": 10,
             "speaker": "CAROL",
-            "text": "No, we haven't.\nAnd I'm not going to get any!",
+            "text": "No, we haven't. And I'm not going to get any!",
             "translation": "卡罗尔：没有了。不过，我不打算去买！"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "dialogue",
+        "source": "../img/lesson-079-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "lines": [
           {
             "number": 11,
             "speaker": "TOM",
@@ -693,44 +748,165 @@
     "tom": {
       "description": "A man with dark hair, wearing a patterned jacket.",
       "name": "tom",
-      "illustration_appearance": "Man about 35, short dark hair, brown checked jacket, pale blue shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-079-01-text.jpg"
     },
     "carol": {
       "description": "A woman with light hair, wearing a floral dress and carrying a shopping basket.",
       "name": "carol",
-      "illustration_appearance": "Woman about 33, short blond curls, light blue floral dress, wicker shopping basket.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-079-01-text.jpg"
     }
   },
   "images": {
-    "lesson-079-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Tom talks to Carol while she sits at a desk writing her shopping list; the page also shows small panels of the grocer's, greengrocer's, butcher's and beer shelf.",
-      "characters": [
-        "tom",
-        "carol"
-      ],
+      "description": "What are you doing, Carol? I'm making a shopping list, Tom.",
       "source": "../img/lesson-079-01-text.jpg",
-      "illustration_scene": "At their kitchen table, Carol writes a shopping list in an open notebook while Tom stands beside her discussing the groceries. A near-empty jam jar and a few potatoes sit on the counter. One domestic scene.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-079/lesson-079-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Carol's shopping list",
-      "alt": "At their kitchen table, Carol writes a shopping list in an open notebook while Tom stands beside her discussing the groceries.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 79017,
-        "manifest": "illustrations/manifests/079-lesson-079-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-079/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "62791aed222acc76dff35b20f7b4a6b4f258178e7aa46b3aaa4bab31bb725a3d"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What do we need? We need a lot of things this week.",
+      "source": "../img/lesson-079-01-text.jpg",
+      "src": "assets/lesson-079/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "5996433a204c90f64f4e1d0304a29114c46f9d69b2bbe7cef5efe3ca7b491a2c"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I must go to the grocer's. We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+      "source": "../img/lesson-079-01-text.jpg",
+      "src": "assets/lesson-079/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "3747f6daf684fe6156a30b468b580084dc9a4983729ba5cb63c8c9c577c31640"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What about vegetables? I must go to the greengrocer's. We haven't got many tomatoes, but we've got a lot of potatoes.",
+      "source": "../img/lesson-079-01-text.jpg",
+      "src": "assets/lesson-079/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "970452682ed924c524e7449e108e4adc9997b9628dc12823b597c4cb7657425c"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I must go to the butcher's, too. We need some meat. We haven't got any meat at all.",
+      "source": "../img/lesson-079-01-text.jpg",
+      "src": "assets/lesson-079/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "c7e8a1eee3916aa823bbcc8de79903b3da52fbe8225d05cc69cfba1898a4ce1d"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Have we got any beer and wine? No, we haven't. And I'm not going to get any!",
+      "source": "../img/lesson-079-01-text.jpg",
+      "src": "assets/lesson-079/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "db31652bc93d641e956467ecec62bad68892f280d3bb2a548b661832e2957dbb"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I hope that you've got some money. I haven't got much. Well, I haven't got much either!",
+      "source": "../img/lesson-079-01-text.jpg",
+      "src": "assets/lesson-079/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-079-01-text.jpg",
+        "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/079/generation.json",
+        "review_record": "illustrations/photo-repairs/079/review.json",
+        "asset_sha256": "956fe4f81f338bda0449e64cb2467b43fcea576fbc09d04163c4502a92998f92"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-079-01-text.jpg",
+    "sha256": "e8fd205138b0c7672e37bbb1b59976745c59c499173bfa88113687d35ca5a39f",
+    "scope": "Lesson picture/text layout"
+  }
 }

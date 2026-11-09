@@ -19,26 +19,45 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-083-01-text.jpg",
-        "image": "lesson-083-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
             "speaker": "CAROL",
-            "text": "Hello, Sam.\nCome in.",
+            "text": "Hello, Sam. Come in.",
             "translation": "卡罗尔：你好，萨姆。进来吧。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-083-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 2,
             "speaker": "TOM",
-            "text": "Hi, Sam.\nWe're having lunch.\nDo you want to have lunch with us?",
+            "text": "Hi, Sam. We're having lunch. Do you want to have lunch with us?",
             "translation": "汤姆：你好，萨姆。我们正在吃午饭。你跟我们一起吃午饭好吗？"
           },
           {
             "number": 3,
             "speaker": "SAM",
-            "text": "No, thank you, Tom.\nI've already had lunch.\nI had lunch at half past twelve.",
+            "text": "No, thank you, Tom. I've already had lunch. I had lunch at half past twelve.",
             "translation": "萨姆：不，汤姆，谢谢。我已经吃过午饭了。我在12点半吃的。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-083-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 4,
             "speaker": "CAROL",
@@ -48,21 +67,48 @@
           {
             "number": 5,
             "speaker": "SAM",
-            "text": "I've just had a cup, thank you.\nI had one after my lunch.",
+            "text": "I've just had a cup, thank you. I had one after my lunch.",
             "translation": "萨姆：我刚喝了一杯，谢谢。我是在饭后喝的。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-083-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 6,
             "speaker": "TOM",
-            "text": "Let's go into the living room, Carol.\nWe can have our coffee there.",
+            "text": "Let's go into the living room, Carol. We can have our coffee there.",
             "translation": "汤姆：我们到客厅里去吧，卡罗尔。我们可以那里喝咖啡。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-083-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 7,
             "speaker": "CAROL",
-            "text": "Excuse the mess, Sam.\nThis room's very untidy.\nWe're packing our suitcases.\nWe're going to leave tomorrow.\nTom and I are going to have a holiday.",
+            "text": "Excuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.",
             "translation": "卡罗尔：屋子很乱，请原谅，萨姆。房间里乱七八糟。我们正在收拾行李箱。明天我们就要走了。我和汤姆准备去度假。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-083-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 8,
             "speaker": "SAM",
@@ -72,13 +118,13 @@
           {
             "number": 9,
             "speaker": "TOM",
-            "text": "When are you going to\nhave a holiday, Sam?",
+            "text": "When are you going to have a holiday, Sam?",
             "translation": "汤姆：萨姆，你准备什么时候去度假？"
           },
           {
             "number": 10,
             "speaker": "SAM",
-            "text": "I don't know.\nI've already had my holiday this year.",
+            "text": "I don't know. I've already had my holiday this year.",
             "translation": "萨姆：我不知道。今年我巳度过假了。"
           },
           {
@@ -584,51 +630,151 @@
     "carol": {
       "description": "A woman with light hair, wearing a floral dress.",
       "name": "carol",
-      "illustration_appearance": "Woman about 33, short blond curls, light blue floral dress.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-083-01-text.jpg"
     },
     "tom": {
       "description": "A man with dark hair, wearing a jacket.",
       "name": "tom",
-      "illustration_appearance": "Man about 35, short dark hair, tan jacket, cream shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-083-01-text.jpg"
     },
     "sam": {
       "description": "A man with dark hair and a moustache, wearing a patterned shirt.",
       "name": "sam",
-      "illustration_appearance": "Man about 35, short dark hair and a neat moustache, pale blue patterned shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-083-01-text.jpg"
     }
   },
   "images": {
-    "lesson-083-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Carol and Sam meet at the door; Tom offers Sam lunch and coffee; the three sit in the living room while Carol and Tom pack their suitcases for a holiday; Sam sits alone on the sofa looking disappointed.",
-      "characters": [
-        "carol",
-        "tom",
-        "sam"
-      ],
+      "description": "Hello, Sam. Come in.",
       "source": "../img/lesson-083-01-text.jpg",
-      "illustration_scene": "An untidy living room with two open suitcases and folded holiday clothes. Carol and Tom pack while their visitor Sam sits on the sofa listening, slightly disappointed that his own holiday was spent at home.",
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-083/lesson-083-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Going on holiday",
-      "alt": "An untidy living room with two open suitcases and folded holiday clothes.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 83017,
-        "manifest": "illustrations/manifests/083-lesson-083-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-083/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-083-01-text.jpg",
+        "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/083/generation.json",
+        "review_record": "illustrations/photo-repairs/083/review.json",
+        "asset_sha256": "947ecf06fbc68f41f96f1e8602ba6dd99820eccfade1337e1bcf1f9c88fb2a72"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Hi, Sam. We're having lunch. Do you want to have lunch with us? No, thank you, Tom. I've already had lunch. I had lunch at half past twelve.",
+      "source": "../img/lesson-083-01-text.jpg",
+      "src": "assets/lesson-083/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-083-01-text.jpg",
+        "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/083/generation.json",
+        "review_record": "illustrations/photo-repairs/083/review.json",
+        "asset_sha256": "a1a976bac6343f9c1ea3edc33375515102e0ba051eb3f2cc62691d7db22b4db4"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Have a cup of coffee then. I've just had a cup, thank you. I had one after my lunch.",
+      "source": "../img/lesson-083-01-text.jpg",
+      "src": "assets/lesson-083/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-083-01-text.jpg",
+        "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/083/generation.json",
+        "review_record": "illustrations/photo-repairs/083/review.json",
+        "asset_sha256": "b8dbf0fe1bced2d1bb4d941d0853db88df729867cc8914f11517d46c660d203e"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Let's go into the living room, Carol. We can have our coffee there.",
+      "source": "../img/lesson-083-01-text.jpg",
+      "src": "assets/lesson-083/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-083-01-text.jpg",
+        "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/083/generation.json",
+        "review_record": "illustrations/photo-repairs/083/review.json",
+        "asset_sha256": "25f861db816e9035afbfb53b903c2be3f4e739597768c43e1d39334e5586ce79"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Excuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.",
+      "source": "../img/lesson-083-01-text.jpg",
+      "src": "assets/lesson-083/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-083-01-text.jpg",
+        "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/083/generation.json",
+        "review_record": "illustrations/photo-repairs/083/review.json",
+        "asset_sha256": "e29c75e3199b40c719f774c03cceb215c3a0554167bed7ff1681d90184f27b03"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Aren't you lucky! When are you going to have a holiday, Sam? I don't know. I've already had my holiday this year. Where did you go? I stayed at home!",
+      "source": "../img/lesson-083-01-text.jpg",
+      "src": "assets/lesson-083/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-083-01-text.jpg",
+        "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/083/generation.json",
+        "review_record": "illustrations/photo-repairs/083/review.json",
+        "asset_sha256": "6dbc8afb351bf05c718e7d43d34a79d86e421b082e8886f55adc5ab42ce3c87c"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-083-01-text.jpg",
+    "sha256": "9426e46e6ee3b1ec5e4b914a0f6403ad82195c572eefdfda36b0f139e58fea04",
+    "scope": "Lesson picture/text layout"
+  }
 }

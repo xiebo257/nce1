@@ -3,7 +3,7 @@
   "status": "verified",
   "title": "Did you lose your way?",
   "translation": "你迷路了吗？",
-  "description": "A bilingual lesson in which Mrs. Mills loses her way in London, suddenly has an idea, and stops a German tourist at the bus stop. The tourist smiles pleasantly but cannot understand her, and reads the phrase 'I do not speak English' from his phrasebook. Mrs. Mills is sorry and says goodbye. Includes a fill-in text with 21 blanks, sentence-making with adverbs, and grammar on irregular past-tense verbs, completing a passage, 'Do/Does ... ever ...?' questions and short answers, and 'didn't ... but ... did' contrast sentences. 课文讲述米尔斯夫人在伦敦迷了路，忽然想出一个主意，在汽车站拦住一位德国游客问路。游客友好地微笑着，但听不懂她的话，于是从短语手册里念出\"I do not speak English\"。米尔斯夫人很抱歉，道了别。配合教材21空填空短文、副词造句练习，以及不规则动词过去式、短文填空、\"Do/Does ... ever ...?\"问句和简略回答、\"didn't ... but ... did\"对比句的语法练习。",
+  "description": "Mrs. Mills loses her way in London and asks a German tourist for directions. 米尔斯夫人在伦敦迷路，向一位德国游客问路。",
   "answer_note": "Lesson listening question answer is a suggested model answer based on the dialogue. Practice A (fill-in text) answers are taken from the supplied Lesson 73 key (img/key-072-075.jpg). Practice B (join the pairs) item 1 is a printed example; items 2-8 are taken from the supplied Lesson 73 key (img/key-072-075.jpg). Grammar I (irregular past tense) answers are taken from the supplied Lesson 73 grammar key (PDF viewer pages 504-505). Grammar II (complete the passage) answers are taken from the supplied Lesson 73 grammar key (PDF viewer page 504). Grammar III (Do/Does ... ever ...?) item 1.a and item 2.a are printed examples; the remaining items are taken from the supplied Lesson 73 grammar key (PDF viewer pages 504-505). Grammar IV (didn't ... but ... did) item 1 is a printed example; items 2-12 are taken from the supplied Lesson 73 grammar key (PDF viewer pages 504-505). No external sources were used. Grammar source audit: see reports/grammar-source-audit.json; source section order, complete prompts and answers restored.",
   "expected_answers": 90,
   "sections": {
@@ -11,152 +11,80 @@
       {
         "id": "lesson-intro",
         "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "text": "Listen then answer this question.\nWhy did the man smile?\n听录音，然后回答问题。那人为什么微笑？",
-        "translation": "Listen then answer this question. Why did the man smile?"
+        "source": "../img/lesson-073-01-text.jpg",
+        "text": "Listen then answer this question.\nWhy did the man need a phrasebook?",
+        "translation": "听录音，然后回答问题。为什么这位男士需要一本常用语手册？"
       },
       {
         "id": "lesson-scene-01",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-01",
-        "lines": [
-          {
-            "number": 1,
-            "speaker": "NARRATOR",
-            "text": "Mrs. Mills was walking along a street in London,\nsuddenly she had an idea.",
-            "translation": "米尔斯夫人在伦敦沿一条街走着，忽然她有了个主意。"
-          }
-        ]
+        "type": "text",
+        "source": "../img/lesson-073-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.",
+        "translation": "上星期米尔斯夫人去了伦敦。她对伦敦不很熟悉，因此迷了路。"
       },
       {
-        "id": "lesson-scene-02",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-02",
-        "lines": [
-          {
-            "number": 2,
-            "speaker": "NARRATOR",
-            "text": "She saw a man at the bus stop,\nand she stopped him.",
-            "translation": "她看见一个男人在汽车站，她就拦住了他。"
-          }
-        ]
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-073-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself.",
+        "translation": "突然，她在公共汽车站附近看见一个男人。“我可以向他问路，”她想。"
       },
       {
-        "id": "lesson-scene-03",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-03",
-        "lines": [
-          {
-            "number": 3,
-            "speaker": "MRS. MILLS",
-            "text": "Is this a long way to King Street?",
-            "translation": "米尔斯夫人：到金街还要走很远吗？"
-          }
-        ]
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-073-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "'Excuse me,' she said. 'Can you tell me the way to King Street, please?'",
+        "translation": "“对不起，”她说，“您能告诉我到国王街怎么走吗？”"
       },
       {
-        "id": "lesson-scene-04",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-04",
-        "lines": [
-          {
-            "number": 4,
-            "speaker": "MAN",
-            "text": "The man smiled pleasantly.",
-            "translation": "那人友好地微笑着。"
-          }
-        ]
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-073-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.",
+        "translation": "那人友好地笑了笑。他不懂英语！他讲德语。他是个旅游者。"
       },
       {
-        "id": "lesson-scene-05",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-05",
-        "lines": [
-          {
-            "number": 5,
-            "speaker": "MRS. MILLS",
-            "text": "I'm sorry, but I don't understand you.\nAre you English?",
-            "translation": "米尔斯夫人：很抱歉，我不明白你的意思。你是英国人吗？"
-          }
-        ]
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-073-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "Then he put his hand into his pocket, and took out a phrasebook.",
+        "translation": "然后他把手伸进衣袋，拿出了一本常用语手册。"
       },
       {
-        "id": "lesson-scene-06",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-06",
-        "lines": [
-          {
-            "number": 6,
-            "speaker": "MAN",
-            "text": "No, I'm German.",
-            "translation": "那人：不是，我是德国人。"
-          }
-        ]
-      },
-      {
-        "id": "lesson-scene-07",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-        "image": "lesson-073-scene-07",
-        "lines": [
-          {
-            "number": 7,
-            "speaker": "MRS. MILLS",
-            "text": "Oh, that's it!",
-            "translation": "米尔斯夫人：噢，原来如此！"
-          }
-        ]
-      },
-      {
-        "id": "lesson-scene-08",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-        "image": "lesson-073-scene-08",
-        "lines": [
-          {
-            "number": 8,
-            "speaker": "MAN",
-            "text": "He took a small book out of his pocket\nand read it slowly:\n'I do not speak English.'",
-            "translation": "那人从衣袋里拿出一本小书，慢慢地念着：\"我不懂英语。\""
-          }
-        ]
-      },
-      {
-        "id": "lesson-scene-09",
-        "type": "dialogue",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-        "image": "lesson-073-scene-09",
-        "lines": [
-          {
-            "number": 9,
-            "speaker": "MRS. MILLS",
-            "text": "I'm sorry, I thought you were English.\nGoodbye.",
-            "translation": "米尔斯夫人：对不起，我原以为你是英国人。再见。"
-          }
-        ]
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-073-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+        "translation": "他翻开书找到一条短语，慢慢地念着：“很抱歉，”他说，“我不会讲英语。”"
       },
       {
         "id": "lesson-listening-answer",
         "type": "exercise",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
+        "source": "../img/lesson-073-01-text.jpg",
         "title": "Before-listening question",
-        "instruction": "Listen then answer this question. Why did the man smile? 听录音，然后回答问题。那人为什么微笑？",
-        "translation": "Answer the question according to the dialogue. 根据对话回答问题。",
+        "instruction": "Listen then answer this question.",
+        "translation": "根据课文回答问题。",
         "expected_items": 1,
         "answer_kind": "suggested",
-        "context": "The man smiled because he was German and could not understand what Mrs. Mills was asking.",
+        "context": "Mrs. Mills asks a German tourist for directions.",
         "questions": [
           {
             "id": "lesson-listening-answer-1",
             "number": "1",
-            "prompt": "Why did the man smile?",
-            "answer": "He smiled because he was German and did not understand what she was asking.",
+            "prompt": "Why did the man need a phrasebook?",
+            "answer": "Because he did not speak English.",
             "rows": 1
           }
         ]
@@ -237,23 +165,23 @@
       {
         "id": "lesson-notes",
         "type": "notes",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
+        "source": "../img/lesson-073-02-text.jpg",
         "items": [
           {
-            "title": "I'm sorry, but I don't understand you.",
-            "text": "很抱歉，我不明白你的意思。这里的 and 连词表示\"所以\"，相当于 so。例如：I was tired, and I went to bed early.（我累了，所以我很早就上床睡觉了。）"
+            "title": "…, and she lost her way.",
+            "text": "句中的 and 意为“所以”，表示结果。"
           },
           {
-            "title": "said to herself",
-            "text": "她自言自语地说。to oneself 表示\"对某人自己\"。例如：He said to himself, 'I'll never do that again!'（他自言自语地说：\"我再也不那样做了！\"）"
+            "title": "she said to herself",
+            "text": "她心中暗想。"
           }
         ]
       },
       {
         "id": "lesson-reference-translation",
         "type": "text",
-        "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-        "text": "参考译文\n米尔斯夫人在伦敦沿一条街走着，忽然她有了个主意。\n她看见一个男人在汽车站，她就拦住了他。\n米尔斯夫人：到金街还要走很远吗？\n那人友好地微笑着。\n米尔斯夫人：很抱歉，我不明白你的意思。你是英国人吗？\n那人：不是，我是德国人。\n米尔斯夫人：噢，原来如此！\n那人从衣袋里拿出一本小书，慢慢地念着：\"我不懂英语。\"\n米尔斯夫人：对不起，我原以为你是英国人。再见。",
+        "source": "../img/lesson-073-01-text.jpg",
+        "text": "参考译文\n上星期米尔斯夫人去了伦敦。她对伦敦不很熟悉，因此迷了路。\n突然，她在公共汽车站附近看见一个男人。“我可以向他问路，”她想。\n“对不起，”她说，“您能告诉我到国王街怎么走吗？”\n那人友好地笑了笑。他不懂英语！他讲德语。他是个旅游者。\n然后他把手伸进衣袋，拿出了一本常用语手册。\n他翻开书找到一条短语，慢慢地念着：“很抱歉，”他说，“我不会讲英语。”",
         "translation": "Full Chinese reference translation of the lesson dialogue."
       }
     ],
@@ -1505,237 +1433,135 @@
     "mrs-mills": {
       "description": "A woman who loses her way in London and asks a tourist for the way to King Street.",
       "name": "mrs mills",
-      "illustration_appearance": "Woman about 50, softly curled auburn bob, small navy hat, camel coat, burgundy scarf, brown handbag.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-073-01-text.jpg"
     },
     "german-tourist": {
       "description": "A German tourist at the bus stop who smiles pleasantly but does not speak English.",
       "name": "german tourist",
-      "illustration_appearance": "Man about 40, short sandy hair, small neat moustache, gray jacket, pale blue shirt, small dark-green phrasebook.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-073-01-text.jpg"
     }
   },
   "images": {
-    "lesson-073-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Mrs. Mills is walking along a street in London; she suddenly has an idea.",
-      "characters": [
-        "mrs-mills"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "Mrs Mills walks alone along a quiet London residential street, looking thoughtfully ahead. Brick houses, plain garden walls and a red bus in the distance establish the setting without readable signs.",
-      "illustration_person_count": 1,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "Mrs Mills walks alone along a quiet London residential street, looking thoughtfully ahead.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73018,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-01.json"
+      "description": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.",
+      "source": "../img/lesson-073-01-text.jpg",
+      "src": "assets/lesson-073/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-073-01-text.jpg",
+        "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/073/generation.json",
+        "review_record": "illustrations/photo-repairs/073/review.json",
+        "asset_sha256": "738b1d3ab6d55784feae1187f027eea4040d1e76d305f033e46c1ec109836b67"
       }
     },
-    "lesson-073-scene-02": {
+    "photo-panel-02": {
       "kind": "scene",
       "status": "ready",
-      "description": "Mrs. Mills sees a man waiting at the bus stop and stops him.",
-      "characters": [
-        "mrs-mills",
-        "german-tourist"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "Mrs Mills approaches the German tourist waiting beside a bus-stop pole. He turns toward her attentively. Two people on a London pavement, plain brick wall behind them, shop and road-name signs outside the frame.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-02-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "Mrs Mills approaches the German tourist waiting beside a bus-stop pole.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73019,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-02.json"
+      "description": "Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself.",
+      "source": "../img/lesson-073-01-text.jpg",
+      "src": "assets/lesson-073/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-073-01-text.jpg",
+        "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/073/generation.json",
+        "review_record": "illustrations/photo-repairs/073/review.json",
+        "asset_sha256": "814f9fb2215a499bb259fe40230a2b417c6b9f2b539d6339f168402d46b65f3e"
       }
     },
-    "lesson-073-scene-03": {
+    "photo-panel-03": {
       "kind": "scene",
       "status": "ready",
-      "description": "Mrs. Mills asks the man if this is a long way to King Street.",
-      "characters": [
-        "mrs-mills",
-        "german-tourist"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "Mrs Mills gestures politely down the street while asking the waiting tourist for directions. He looks at her with a friendly but uncertain expression. Two people by the same bus stop, natural daylight.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-03-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "Mrs Mills gestures politely down the street while asking the waiting tourist for directions.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73020,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-03.json"
+      "description": "'Excuse me,' she said. 'Can you tell me the way to King Street, please?'",
+      "source": "../img/lesson-073-01-text.jpg",
+      "src": "assets/lesson-073/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-073-01-text.jpg",
+        "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/073/generation.json",
+        "review_record": "illustrations/photo-repairs/073/review.json",
+        "asset_sha256": "57b2aaaa292736bb631a3c7fc30619dc43338485b80e91d2793eef19df1b6278"
       }
     },
-    "lesson-073-scene-04": {
+    "photo-panel-04": {
       "kind": "scene",
       "status": "ready",
-      "description": "The man smiles pleasantly at Mrs. Mills without answering her question.",
-      "characters": [
-        "german-tourist",
-        "mrs-mills"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "The German tourist smiles pleasantly at Mrs Mills, who waits for a response. A close two-person view, same clothes and hair, quiet London pavement behind them.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-04-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "The German tourist smiles pleasantly at Mrs Mills, who waits for a response.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73021,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-04.json"
+      "description": "The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.",
+      "source": "../img/lesson-073-01-text.jpg",
+      "src": "assets/lesson-073/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-073-01-text.jpg",
+        "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/073/generation.json",
+        "review_record": "illustrations/photo-repairs/073/review.json",
+        "asset_sha256": "444dc85394b0350153a5a38b5ef6e38229f9eb32f90c3600ca6839260251af71"
       }
     },
-    "lesson-073-scene-05": {
+    "photo-panel-05": {
       "kind": "scene",
       "status": "ready",
-      "description": "Mrs. Mills apologises and asks the man if he is English.",
-      "characters": [
-        "mrs-mills",
-        "german-tourist"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "Mrs Mills raises one hand apologetically near her chest and looks enquiringly at the tourist. He listens politely. Two people at the same bus stop, natural facial expressions.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-05-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "Mrs Mills raises one hand apologetically near her chest and looks enquiringly at the tourist.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73022,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-05.json"
+      "description": "Then he put his hand into his pocket, and took out a phrasebook.",
+      "source": "../img/lesson-073-01-text.jpg",
+      "src": "assets/lesson-073/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-073-01-text.jpg",
+        "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/073/generation.json",
+        "review_record": "illustrations/photo-repairs/073/review.json",
+        "asset_sha256": "f50a9d6972bbe2e154f829059507aa586bdaaeda1a6c33ffbaa5215fcf188e22"
       }
     },
-    "lesson-073-scene-06": {
+    "photo-panel-06": {
       "kind": "scene",
       "status": "ready",
-      "description": "The man tells Mrs. Mills that he is German, not English.",
-      "characters": [
-        "german-tourist",
-        "mrs-mills"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "The German tourist gestures gently toward himself while Mrs Mills listens and begins to understand. He wears his same gray jacket; her camel coat, burgundy scarf and navy hat remain unchanged.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-06-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "The German tourist gestures gently toward himself while Mrs Mills listens and begins to understand.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73023,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-06.json"
-      }
-    },
-    "lesson-073-scene-07": {
-      "kind": "scene",
-      "status": "ready",
-      "description": "Mrs. Mills realises why the man could not understand her and says, 'Oh, that's it!'",
-      "characters": [
-        "mrs-mills"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=149",
-      "illustration_scene": "A close portrait of Mrs Mills alone, her expression changing to friendly realization, with a small understanding smile. Same navy hat, auburn hair, camel coat and burgundy scarf. Soft London street background.",
-      "illustration_person_count": 1,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-07-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "A close portrait of Mrs Mills alone, her expression changing to friendly realization, with a small understanding smile.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73024,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-07.json"
-      }
-    },
-    "lesson-073-scene-08": {
-      "kind": "scene",
-      "status": "ready",
-      "description": "The man takes a small phrasebook out of his pocket and reads it slowly: 'I do not speak English.'",
-      "characters": [
-        "german-tourist"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-      "illustration_scene": "The German tourist alone studies an OPEN small green pocket phrasebook held close in both hands. The page faces him and the camera sees its green cover. He reads carefully with a concentrated expression; same sandy hair, moustache and gray jacket.",
-      "illustration_person_count": 1,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-08-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "The German tourist alone studies an OPEN small green pocket phrasebook held close in both hands.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73025,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-08.json"
-      }
-    },
-    "lesson-073-scene-09": {
-      "kind": "scene",
-      "status": "ready",
-      "description": "Mrs. Mills apologises to the man and says goodbye.",
-      "characters": [
-        "mrs-mills",
-        "german-tourist"
-      ],
-      "source": "../pdf/新概念英语1 英语初阶.pdf#page=150",
-      "illustration_scene": "Mrs Mills and the German tourist smile politely and say goodbye with small hand gestures. He holds the closed green phrasebook at his side. The same two people stand beside the London bus stop, no written dialogue.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "panel",
-      "src": "assets/lesson-073/lesson-073-scene-09-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Did you lose your way?",
-      "alt": "Mrs Mills and the German tourist smile politely and say goodbye with small hand gestures.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 73026,
-        "manifest": "illustrations/manifests/073-lesson-073-scene-09.json"
+      "description": "He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+      "source": "../img/lesson-073-01-text.jpg",
+      "src": "assets/lesson-073/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-073-01-text.jpg",
+        "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/073/generation.json",
+        "review_record": "illustrations/photo-repairs/073/review.json",
+        "asset_sha256": "55f05d6aac95511daa7a84f7c34d8e9fb69e7c977efd19eaf690d550b0b18ce7"
       }
     }
   },
@@ -1753,5 +1579,12 @@
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
   "illustration_cast_layout": "portrait-strip",
   "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
-  "illustration_reference": "illustrations/references/073-cast.webp"
+  "illustration_reference": "illustrations/references/073-cast.webp",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-073-01-text.jpg",
+    "sha256": "4007f32101b62be3a127a7a103174fc30436f8db9b629c106cc342759cce1a75",
+    "scope": "Lesson picture/text layout"
+  }
 }

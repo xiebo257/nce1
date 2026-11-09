@@ -11,8 +11,9 @@
       {
         "id": "lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook",
-        "image": "scene",
+        "source": "../img/lesson-105-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -31,7 +32,16 @@
             "speaker": "The Boss",
             "text": "Yes, I do. I want her to come to my office. Tell her to come at once.",
             "translation": "是的，我想。我要她到办公室来。叫她马上来。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-105-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 4,
             "speaker": "Sandra",
@@ -49,7 +59,16 @@
             "speaker": "Sandra",
             "text": "I-N-T-E-L-L-I-G-E-N-T.",
             "translation": "I-N-T-E-L-L-I-G-E-N-T。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-105-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 7,
             "speaker": "The Boss",
@@ -61,7 +80,16 @@
             "speaker": "Sandra",
             "text": "Yes, I'll do that. I'm sorry about that.",
             "translation": "是的，我会的。对此我很抱歉。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-105-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 9,
             "speaker": "The Boss",
@@ -605,50 +633,111 @@
     "the_boss": {
       "name": "The Boss",
       "description": "Sandra's boss who finds her letter full of mistakes",
-      "illustration_appearance": "Man about 50, short dark hair, rectangular glasses, navy suit, white shirt, burgundy tie.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-105-01-text.jpg"
     },
     "bob": {
       "name": "Bob",
       "description": "An office worker who answers the phone",
-      "illustration_appearance": "Man about 27, short chestnut hair, light blue shirt, charcoal trousers.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-105-01-text.jpg"
     },
     "sandra": {
       "name": "Sandra",
       "description": "A typist whose letter is full of mistakes",
-      "illustration_appearance": "Woman about 27, straight dark bob, cream blouse, teal skirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-105-01-text.jpg"
     }
   },
   "images": {
-    "scene": {
+    "photo-panel-01": {
       "kind": "scene",
-      "description": "Four panels showing: 1) The Boss asking Bob for Sandra, 2) Sandra entering the Boss's office, 3) The Boss showing Sandra her letter with mistakes, 4) The Boss giving Sandra a dictionary",
-      "source": "img/lesson-105-01-text.jpg",
-      "characters": [
-        "the_boss",
-        "sandra"
-      ],
       "status": "ready",
-      "illustration_scene": "In the boss's office, the boss hands Sandra a small thick dictionary across his desk. A typed letter with red correction marks lies beside it. Sandra looks apologetic but attentive. Typewriter visible behind her, no legible text.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-105/scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Full of mistakes",
-      "alt": "In the boss's office, the boss hands Sandra a small thick dictionary across his desk.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 105017,
-        "manifest": "illustrations/manifests/105-scene.json"
-      },
-      "layout": "above"
+      "description": "Where's Sandra, Bob? I want her. Do you want to speak to her? Yes, I do. I want her to come to my office. Tell her to come at once.",
+      "source": "../img/lesson-105-01-text.jpg",
+      "src": "assets/lesson-105/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-105-01-text.jpg",
+        "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/105/generation.json",
+        "review_record": "illustrations/photo-repairs/105/review.json",
+        "asset_sha256": "ce0b6b337498ea674b6440a4202e0152394b4d3def5c44fca4c46851cfe639e1"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Did you want to see me? Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me? I-N-T-E-L-L-I-G-E-N-T.",
+      "source": "../img/lesson-105-01-text.jpg",
+      "src": "assets/lesson-105/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-105-01-text.jpg",
+        "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/105/generation.json",
+        "review_record": "illustrations/photo-repairs/105/review.json",
+        "asset_sha256": "205cb801e789011fa17a45cf9054bacc2ccfe352fc14a5a3ad18af187de42f40"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again. Yes, I'll do that. I'm sorry about that.",
+      "source": "../img/lesson-105-01-text.jpg",
+      "src": "assets/lesson-105/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-105-01-text.jpg",
+        "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/105/generation.json",
+        "review_record": "illustrations/photo-repairs/105/review.json",
+        "asset_sha256": "3b39a9deff40b4917989501e14b341abf984d86ea2b503da7ab851da6f91ee41"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "And here's a little present for you. What is it? It's a dictionary. I hope it'll help you.",
+      "source": "../img/lesson-105-01-text.jpg",
+      "src": "assets/lesson-105/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-105-01-text.jpg",
+        "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/105/generation.json",
+        "review_record": "illustrations/photo-repairs/105/review.json",
+        "asset_sha256": "18356d8762da53410c8dcd1630d46f24f75ba7314e0482e1d0a5b064a7d6f7bd"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-105-01-text.jpg",
+    "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
+    "scope": "Lesson picture/text layout"
+  }
 }

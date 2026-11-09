@@ -4537,7 +4537,8 @@
           "cue_heading": "IN (months)"
         }
       ],
-      "image_mode": "multiple-grids"
+      "image_mode": "multiple-grids",
+      "source_limitation": "照片下缘还有 IN 栏目的开头，但后续内容未拍全；本页仅恢复照片可见的三组共18幅图。"
     },
     "72": {
       "source": "img/lesson-072-01-text.jpg",
@@ -5498,6 +5499,353 @@
           "replace": "lesson-time-phrases"
         }
       ]
+    },
+    "103": {
+      "source": "img/lesson-103-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "merge_dialogue": true
+    },
+    "131": {
+      "source": "img/lesson-131-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "merge_dialogue": true
+    },
+    "137": {
+      "source": "img/lesson-137-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "dialogue_lines": [
+        {
+          "number": 1,
+          "speaker": "Julie",
+          "text": "Are you doing the football pools, Brian?",
+          "translation": "你在下足球赛的赌注吗，布赖恩？"
+        },
+        {
+          "number": 2,
+          "speaker": "Brian",
+          "text": "Yes, I've nearly finished, Julie. I'm sure we'll win something this week.",
+          "translation": "是的，朱莉。我这就做完了。我肯定这星期我们会赢一点的。"
+        },
+        {
+          "number": 3,
+          "speaker": "Julie",
+          "text": "You always say that, but we never win anything! What will you do if you win a lot of money?",
+          "translation": "你总是这样说，但我们从来没赢过！如果你赢了很多钱，你打算干什么？"
+        },
+        {
+          "number": 4,
+          "speaker": "Brian",
+          "text": "If I win a lot of money I'll buy you a mink coat.",
+          "translation": "如果我赢了很多钱，我就给你买件貂皮大衣。"
+        },
+        {
+          "number": 5,
+          "speaker": "Julie",
+          "text": "I don't want a mink coat! I want to see the world.",
+          "translation": "我不要貂皮大衣！我要去看看世界。"
+        },
+        {
+          "number": 6,
+          "speaker": "Brian",
+          "text": "All right. If we win a lot of money we'll travel round the world and we'll stay at the best hotels. Then we'll return home and buy a big house in the country. We'll have a beautiful garden and …",
+          "translation": "好吧。如果我们赢了很多钱，我们就周游世界，住最好的旅馆。然后我们回到家乡，在乡下买幢大房子。我们会有一个漂亮的花园，而且……"
+        },
+        {
+          "number": 7,
+          "speaker": "Julie",
+          "text": "But if we spend all that money we'll be poor again. What'll we do then?",
+          "translation": "但如果我们把钱都花光了，我们又会变穷。到那时我们怎么办呢？"
+        },
+        {
+          "number": 8,
+          "speaker": "Brian",
+          "text": "If we spend all the money we'll try and win the football pools again.",
+          "translation": "如果我们把钱都花光了，我们就设法再在足球彩票上赢一次。"
+        },
+        {
+          "number": 9,
+          "speaker": "Julie",
+          "text": "It's a pleasant dream but everything depends on 'if'!",
+          "translation": "这是个美好的梦，但一切都取决于“如果”！"
+        }
+      ],
+      "question_text": "What would Julie like to do, if she had the money?",
+      "question_translation": "如果朱莉有那笔钱，她想做什么呢？"
+    },
+    "76": {
+      "source": "img/lesson-076-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "tables": [
+        {
+          "replace": null,
+          "block": {
+            "id": "lesson-time-periods",
+            "type": "table",
+            "source": "../img/lesson-076-01-text.jpg",
+            "caption": "When did you …?",
+            "headers": [
+              "This",
+              "Last",
+              "Before last"
+            ],
+            "rows": [
+              [
+                "this week",
+                "last week",
+                "the week before last"
+              ],
+              [
+                "this month",
+                "last month",
+                "the month before last"
+              ],
+              [
+                "this year",
+                "last year",
+                "the year before last"
+              ]
+            ]
+          }
+        },
+        {
+          "replace": null,
+          "block": {
+            "id": "lesson-time-ago",
+            "type": "table",
+            "source": "../img/lesson-076-01-text.jpg",
+            "caption": "AGO",
+            "headers": [
+              "One",
+              "More than one"
+            ],
+            "rows": [
+              [
+                "a minute ago",
+                "two minutes ago"
+              ],
+              [
+                "an hour ago",
+                "five hours ago"
+              ],
+              [
+                "a day ago",
+                "three days ago"
+              ],
+              [
+                "a week ago",
+                "two weeks ago"
+              ],
+              [
+                "a month ago",
+                "four months ago"
+              ],
+              [
+                "a year ago",
+                "six years ago"
+              ]
+            ]
+          }
+        }
+      ],
+      "intro_text": "Listen and answer the questions."
+    },
+    "88": {
+      "source": "img/lesson-088-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "tables": [
+        {
+          "replace": "lesson-verbs",
+          "block": {
+            "id": "lesson-verbs",
+            "type": "table",
+            "source": "../img/lesson-088-01-text.jpg",
+            "caption": "Study these verbs · 不规则动词",
+            "headers": [
+              "Base form",
+              "Past",
+              "Past participle"
+            ],
+            "rows": [
+              [
+                "buy",
+                "bought",
+                "bought"
+              ],
+              [
+                "find",
+                "found",
+                "found"
+              ],
+              [
+                "get",
+                "got",
+                "got"
+              ],
+              [
+                "have",
+                "had",
+                "had"
+              ],
+              [
+                "hear",
+                "heard",
+                "heard"
+              ],
+              [
+                "leave",
+                "left",
+                "left"
+              ],
+              [
+                "lose",
+                "lost",
+                "lost"
+              ],
+              [
+                "make",
+                "made",
+                "made"
+              ],
+              [
+                "meet",
+                "met",
+                "met"
+              ],
+              [
+                "send",
+                "sent",
+                "sent"
+              ],
+              [
+                "sweep",
+                "swept",
+                "swept"
+              ],
+              [
+                "tell",
+                "told",
+                "told"
+              ]
+            ]
+          }
+        }
+      ],
+      "source_limitation": "照片在不规则动词表底部裁切；这里保留可辨识的12个动词，无法据此确认下方是否还有内容。"
+    },
+    "90": {
+      "source": "img/lesson-090-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "tables": [
+        {
+          "replace": "lesson-verbs",
+          "block": {
+            "id": "lesson-verbs",
+            "type": "table",
+            "source": "../img/lesson-090-01-text.jpg",
+            "caption": "Study these verbs · 不规则动词",
+            "headers": [
+              "Base form",
+              "Past",
+              "Past participle"
+            ],
+            "rows": [
+              [
+                "cut",
+                "cut",
+                "cut"
+              ],
+              [
+                "put",
+                "put",
+                "put"
+              ],
+              [
+                "read",
+                "read",
+                "read"
+              ],
+              [
+                "set",
+                "set",
+                "set"
+              ],
+              [
+                "shut",
+                "shut",
+                "shut"
+              ],
+              [
+                "do",
+                "did",
+                "done"
+              ],
+              [
+                "come",
+                "came",
+                "come"
+              ],
+              [
+                "give",
+                "gave",
+                "given"
+              ],
+              [
+                "swim",
+                "swam",
+                "swum"
+              ],
+              [
+                "take",
+                "took",
+                "taken"
+              ],
+              [
+                "eat",
+                "ate",
+                "eaten"
+              ],
+              [
+                "go",
+                "went",
+                "gone"
+              ],
+              [
+                "rise",
+                "rose",
+                "risen"
+              ],
+              [
+                "see",
+                "saw",
+                "seen"
+              ],
+              [
+                "speak",
+                "spoke",
+                "spoken"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "58": {
+      "source": "img/lesson-058-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "contrast_pairs": true
+    },
+    "56": {
+      "source": "img/lesson-056-01-text.jpg",
+      "image_mode": "retain",
+      "panels": [],
+      "source_limitation": "照片下缘裁切，末行图注未完全显示；保留现有提示，缺失部分未按原书核验。"
     }
   }
 }

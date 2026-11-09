@@ -19,7 +19,8 @@
         "id": "lesson-scene-01",
         "type": "dialogue",
         "source": "../img/lesson-087-01-text.jpg",
-        "image": "lesson-087-scene-01",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -30,7 +31,7 @@
           {
             "number": 2,
             "speaker": "ATTENDANT",
-            "text": "I don't know, sir.\nWhat's the number\nof your car?",
+            "text": "I don't know, sir. What's the number of your car?",
             "translation": "服务员：我不知道，先生。您的汽车牌号是多少？"
           },
           {
@@ -66,9 +67,18 @@
           {
             "number": 8,
             "speaker": "ATTENDANT",
-            "text": "No, they're still working on it.\nLet's go into the garage\nand have a look at it.",
+            "text": "No, they're still working on it. Let's go into the garage and have a look at it.",
             "translation": "服务员：没有，他们还在修呢。我们到车库去看一下吧。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-087-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 9,
             "speaker": "ATTENDANT",
@@ -90,13 +100,13 @@
           {
             "number": 12,
             "speaker": "MR. WOOD",
-            "text": "That's right.\nI drove it into a lamp-post.\nCan your mechanics repair it?",
+            "text": "That's right. I drove it into a lamp-post. Can your mechanics repair it?",
             "translation": "伍德先生：是啊。我把汽车撞在路灯柱上了。你们的机械师能修好吗？"
           },
           {
             "number": 13,
             "speaker": "ATTENDANT",
-            "text": "Well,\nthey're trying to repair it, sir.\nBut to tell you the truth,\nyou need a new car!",
+            "text": "Well, they're trying to repair it, sir. But to tell you the truth, you need a new car!",
             "translation": "服务员：啊，他们正设法修呢，先生。不过说实在的，您需要一辆新车了！"
           }
         ]
@@ -792,44 +802,65 @@
     "mr-wood": {
       "description": "A man with dark hair and a hat, wearing a jacket.",
       "name": "mr wood",
-      "illustration_appearance": "Man about 45, dark hair under a brown brimmed hat, tan jacket, white shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-087-01-text.jpg"
     },
     "attendant": {
       "description": "A woman with curly hair, wearing a patterned dress.",
       "name": "attendant",
-      "illustration_appearance": "Woman about 35, short dark curls, muted blue patterned dress.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-087-01-text.jpg"
     }
   },
   "images": {
-    "lesson-087-scene-01": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Mr. Wood and the attendant stand at the garage counter; later they look at the crashed car in the garage, which has hit a lamp-post.",
-      "characters": [
-        "mr-wood",
-        "attendant"
-      ],
+      "description": "Is my car ready yet? I don't know, sir. What's the number of your car? It's LFZ 312 G. When did you bring it to us? I brought it here three days ago. Ah yes, I remember now. Have your mechanics finished yet? No, they're still working on it. Let's go into the garage and have a look at it.",
       "source": "../img/lesson-087-01-text.jpg",
-      "illustration_scene": "Inside a repair garage, Mr Wood and a garage attendant look at his badly crumpled car, its bonnet bent and front bumper crushed. The attendant gestures apologetically toward the damaged car. The collision happened earlier; show a stationary car under repair.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-087/lesson-087-scene-01-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "A car crash",
-      "alt": "Inside a repair garage, Mr Wood and a garage attendant look at his badly crumpled car, its bonnet bent and front bumper crushed.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 87017,
-        "manifest": "illustrations/manifests/087-lesson-087-scene-01.json"
-      },
-      "layout": "above"
+      "src": "assets/lesson-087/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-087-01-text.jpg",
+        "sha256": "26d6d2caa84d7480ba9ce329eabe6a83f972c2eb5f20a85444bcc551637eec69",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/087/generation.json",
+        "review_record": "illustrations/photo-repairs/087/review.json",
+        "asset_sha256": "f453be75434d09d49a2b4d6ce14a470d87a3a608ac7ff1766d132afd4e1a34ce"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Isn't that your car? Well, it was my car. Didn't you have a crash? That's right. I drove it into a lamp-post. Can your mechanics repair it? Well, they're trying to repair it, sir. But to tell you the truth, you need a new car!",
+      "source": "../img/lesson-087-01-text.jpg",
+      "src": "assets/lesson-087/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-087-01-text.jpg",
+        "sha256": "26d6d2caa84d7480ba9ce329eabe6a83f972c2eb5f20a85444bcc551637eec69",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/087/generation.json",
+        "review_record": "illustrations/photo-repairs/087/review.json",
+        "asset_sha256": "12686b986597c288943ad4c0e9ae42ce9c1691dabddc82d044ee60cdb3c8f5df"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-087-01-text.jpg",
+    "sha256": "26d6d2caa84d7480ba9ce329eabe6a83f972c2eb5f20a85444bcc551637eec69",
+    "scope": "Lesson picture/text layout"
+  }
 }
