@@ -258,10 +258,91 @@
       },
       {
         "id": "lesson-verbs",
-        "type": "text",
+        "type": "table",
         "source": "../img/lesson-090-01-text.jpg",
-        "text": "Study these verbs.\n记住以下不规则动词的过去式和过去分词。\n\ncut — cut — cut\nput — put — put\nread — read — read\nset — set — set\nshut — shut — shut\ndo — did — done\ncome — came — come\ngive — gave — given\nswim — swam — swum\ntake — took — taken\neat — ate — eaten\ngo — went — gone\nrise — rose — risen\nsee — saw — seen\nspeak — spoke — spoken",
-        "translation": "Irregular verbs with their past and past-participle forms."
+        "caption": "Study these verbs · 不规则动词",
+        "headers": [
+          "Base form",
+          "Past",
+          "Past participle"
+        ],
+        "rows": [
+          [
+            "cut",
+            "cut",
+            "cut"
+          ],
+          [
+            "put",
+            "put",
+            "put"
+          ],
+          [
+            "read",
+            "read",
+            "read"
+          ],
+          [
+            "set",
+            "set",
+            "set"
+          ],
+          [
+            "shut",
+            "shut",
+            "shut"
+          ],
+          [
+            "do",
+            "did",
+            "done"
+          ],
+          [
+            "come",
+            "came",
+            "come"
+          ],
+          [
+            "give",
+            "gave",
+            "given"
+          ],
+          [
+            "swim",
+            "swam",
+            "swum"
+          ],
+          [
+            "take",
+            "took",
+            "taken"
+          ],
+          [
+            "eat",
+            "ate",
+            "eaten"
+          ],
+          [
+            "go",
+            "went",
+            "gone"
+          ],
+          [
+            "rise",
+            "rose",
+            "risen"
+          ],
+          [
+            "see",
+            "saw",
+            "seen"
+          ],
+          [
+            "speak",
+            "spoke",
+            "spoken"
+          ]
+        ]
       },
       {
         "id": "written-a",
@@ -703,5 +784,11 @@
     ]
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-090-01-text.jpg",
+    "sha256": "1ca2505f968375cf54d6475c6134ebd0aca158d9c1c56a5c928504320abbdb69",
+    "scope": "Lesson picture/text layout"
+  }
 }

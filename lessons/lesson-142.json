@@ -12,16 +12,80 @@
         "id": "l142-lesson-intro",
         "type": "text",
         "source": "textbook-p287",
-        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l142-lesson-pictures",
         "type": "text",
-        "source": "textbook-p287",
-        "image": "l142-pictures",
-        "text": "1. She is embarrassed. 她很尴尬。 2. They are worried. 他们很担心。 3. Does anyone ever repair this car? 有人修理过这辆车吗？ 4. Someone repairs it regularly. It is repaired regularly. 有人经常修理它。它被经常修理。 5. Does anyone ever correct these exercise books? 有人批改过这些练习本吗？ 6. Someone corrects them regularly. They are corrected regularly. 有人经常批改它们。它们被经常批改。 7. Did anyone meet him at the station this morning? 今天上午有人在车站接他吗？ 8. Someone met him at the station this morning. He was met at the station this morning. 今天上午有人在车站接了他。他今天上午在车站被接了。",
-        "translation": "1. 她很尴尬。 2. 他们很担心。 3. 有人修理过这辆车吗？ 4. 有人经常修理它。它被经常修理。 5. 有人批改过这些练习本吗？ 6. 有人经常批改它们。它们被经常批改。 7. 今天上午有人在车站接他吗？ 8. 今天上午有人在车站接了他。他今天上午在车站被接了。"
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "She is embarrassed.",
+        "translation": "她很尴尬。"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "They are worried.",
+        "translation": "他们很担心。"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "Does anyone ever repair this car?",
+        "translation": "有人修理过这辆车吗？"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "Someone repairs it regularly. It is repaired regularly.",
+        "translation": "有人经常修理它。它被经常修理。"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "Does anyone ever correct these exercise books?",
+        "translation": "有人批改过这些练习本吗？"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "Someone corrects them regularly. They are corrected regularly.",
+        "translation": "有人经常批改它们。它们被经常批改。"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "Did anyone meet him at the station this morning?",
+        "translation": "今天上午有人在车站接他吗？"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-142-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "Someone met him at the station this morning. He was met at the station this morning.",
+        "translation": "今天上午有人在车站接了他。他今天上午在车站被接了。"
       },
       {
         "id": "l142-lesson-listening",
@@ -630,85 +694,212 @@
     "Sally": "four-year-old daughter (from Lesson 141)"
   },
   "images": {
-    "l142-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Eight numbered pictures in a 2x4 grid showing active and passive pairs: 1 a embarrassed woman; 2 a worried couple; 3 two men looking at a broken car; 4 a man repairing the car; 5 a teacher correcting exercise books; 6 a student writing at a desk; 7 a man arriving at a station; 8 a man greeting a woman at the station.",
-      "src": "assets/lesson-142/l142-pictures-color.webp",
-      "width": 512,
-      "height": 640,
-      "source": "img/lesson-142-01-text.jpg (textbook p.287)",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/142-restored-photograph-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing active and passive pairs: 1 a embarrassed woman; 2 a worried couple; 3 two men looking at a broken car; 4 a man repairing the car; 5 a teacher correcting exercise books; 6 a student writing at a desk; 7 a man arriving at a station; 8 a man greeting a woman at the station.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "img/lesson-142-01-text.jpg",
-        "coordinate_space": [
-          1620,
-          2500
-        ],
-        "boxes": [
-          [
-            122,
-            639,
-            532,
-            862
-          ],
-          [
-            968,
-            640,
-            1374,
-            867
-          ],
-          [
-            122,
-            1054,
-            525,
-            1274
-          ],
-          [
-            959,
-            1056,
-            1364,
-            1277
-          ],
-          [
-            118,
-            1523,
-            516,
-            1738
-          ],
-          [
-            949,
-            1529,
-            1354,
-            1749
-          ],
-          [
-            111,
-            1988,
-            506,
-            2200
-          ],
-          [
-            937,
-            2001,
-            1345,
-            2222
-          ]
-        ],
-        "normalization": "Morphological paper estimate then threshold 165; original photo replaces faded left-column PDF panels."
-      },
-      "origin": "local-model",
-      "caption": "Someone invited Sally to a party.",
-      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 142017,
-        "manifest": "illustrations/manifests/142-l142-pictures.json"
+      "description": "She is embarrassed.",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "1",
+        "asset_sha256": "18b236af782b4a895652cc5f23c29574f25f183cf29329a7de7599e14b4a34aa",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          0,
+          0,
+          256,
+          160
+        ]
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "They are worried.",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "2",
+        "asset_sha256": "398faa5d7554a2a16ead8cf2899b0c7f454364f981031beaa6555a759ea0a923",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Does anyone ever repair this car?",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "3",
+        "asset_sha256": "983a1ffa540df68ec77106e69479edde93931d0b680369244a47eabad72cc64b",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Someone repairs it regularly. It is repaired regularly.",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "4",
+        "asset_sha256": "c76c2783235003d06c91d175c21497b106e498d816a8d9dbe66aacdbde780873",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Does anyone ever correct these exercise books?",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "5",
+        "asset_sha256": "22be7d0e5852466157977dfd871a0c06a5624c1c84a7e277fc80d88a8a856ed9",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Someone corrects them regularly. They are corrected regularly.",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "6",
+        "asset_sha256": "e084fd5a368f242f15a6fc00830344f5413852bc894ee602b414eab646e8a790",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Did anyone meet him at the station this morning?",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "7",
+        "asset_sha256": "47e813dea8aaff4b95c777464dc6536450bd3b9fcee4aaa32b2b8c9960f2e4c8",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Someone met him at the station this morning. He was met at the station this morning.",
+      "source": "../img/lesson-142-01-text.jpg",
+      "src": "assets/lesson-142/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-142-01-text.jpg",
+        "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+        "label": "8",
+        "asset_sha256": "5a1e9850cfc1ee65c6d7a2f0847fd4c694643cf778cde5907dc86a01d83357d3",
+        "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
+        "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
       }
     }
   },
@@ -724,5 +915,11 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-142-01-text.jpg",
+    "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
+    "scope": "Lesson picture/text layout"
+  }
 }

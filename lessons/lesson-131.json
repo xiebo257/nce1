@@ -18,27 +18,57 @@
       {
         "id": "l131-lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook-p265",
+        "source": "../img/lesson-131-01-text.jpg",
         "image": "l131-scene",
         "lines": [
-          {"number": 1, "speaker": "MARTIN", "text": "Where are you going to spend your holidays this year, Gary?", "translation": "加里，今年你们打算去哪里度假？"},
-          {"number": 2, "speaker": "GARY", "text": "We may go abroad. I'm not sure.", "translation": "我们可能到国外去，但我不敢肯定。"},
-          {"number": 3, "speaker": "GARY", "text": "My wife wants to go to Egypt.", "translation": "我妻子想到埃及去。"},
-          {"number": 4, "speaker": "GARY", "text": "I'd like to go there, too.", "translation": "我也想去那儿。"},
-          {"number": 5, "speaker": "GARY", "text": "We can't make up our minds.", "translation": "我们还拿不定主意。"},
-          {"number": 6, "speaker": "MARTIN", "text": "Will you travel by sea or by air?", "translation": "你们乘船去，还是乘飞机去？"},
-          {"number": 7, "speaker": "GARY", "text": "We may travel by sea.", "translation": "我们可能乘船去。"},
-          {"number": 8, "speaker": "MARTIN", "text": "It's cheaper, isn't it?", "translation": "这更便宜些，是吗？"},
-          {"number": 9, "speaker": "GARY", "text": "It may be cheaper, but it takes a long time.", "translation": "可能是便宜些，但花的时间长。"},
-          {"number": 10, "speaker": "MARTIN", "text": "I'm sure you'll enjoy yourselves.", "translation": "我肯定你们一定会玩得很痛快。"},
-          {"number": 11, "speaker": "GARY", "text": "Don't be so sure.", "translation": "别那么肯定。"},
-          {"number": 12, "speaker": "GARY", "text": "We might not go anywhere.", "translation": "我们可能哪里也去不成。"},
-          {"number": 13, "speaker": "GARY", "text": "My wife always worries too much.", "translation": "我妻子总是担心这担心那的。"},
-          {"number": 14, "speaker": "GARY", "text": "Who's going to look after the dog?", "translation": "谁来照看狗啦，"},
-          {"number": 15, "speaker": "GARY", "text": "Who's going to look after the house?", "translation": "谁来看管房子啦，"},
-          {"number": 16, "speaker": "GARY", "text": "Who's going to look after the garden?", "translation": "谁来照料花园啦，"},
-          {"number": 17, "speaker": "GARY", "text": "We have this problem every year.", "translation": "我们每年都碰到这类问题。"},
-          {"number": 18, "speaker": "GARY", "text": "In the end, we stay at home and look after everything!", "translation": "末了，我们呆在家里来照看一切。"}
+          {
+            "number": 1,
+            "speaker": "MARTIN",
+            "text": "Where are you going to spend your holidays this year, Gary?",
+            "translation": "加里，今年你们打算去哪里度假？"
+          },
+          {
+            "number": 2,
+            "speaker": "GARY",
+            "text": "We may go abroad. I'm not sure. My wife wants to go to Egypt. I'd like to go there, too. We can't make up our minds.",
+            "translation": "我们可能到国外去，但我不敢肯定。 我妻子想到埃及去。 我也想去那儿。 我们还拿不定主意。"
+          },
+          {
+            "number": 3,
+            "speaker": "MARTIN",
+            "text": "Will you travel by sea or by air?",
+            "translation": "你们乘船去，还是乘飞机去？"
+          },
+          {
+            "number": 4,
+            "speaker": "GARY",
+            "text": "We may travel by sea.",
+            "translation": "我们可能乘船去。"
+          },
+          {
+            "number": 5,
+            "speaker": "MARTIN",
+            "text": "It's cheaper, isn't it?",
+            "translation": "这更便宜些，是吗？"
+          },
+          {
+            "number": 6,
+            "speaker": "GARY",
+            "text": "It may be cheaper, but it takes a long time.",
+            "translation": "可能是便宜些，但花的时间长。"
+          },
+          {
+            "number": 7,
+            "speaker": "MARTIN",
+            "text": "I'm sure you'll enjoy yourselves.",
+            "translation": "我肯定你们一定会玩得很痛快。"
+          },
+          {
+            "number": 8,
+            "speaker": "GARY",
+            "text": "Don't be so sure. We might not go anywhere. My wife always worries too much. Who's going to look after the dog? Who's going to look after the house? Who's going to look after the garden? We have this problem every year. In the end, we stay at home and look after everything!",
+            "translation": "别那么肯定。 我们可能哪里也去不成。 我妻子总是担心这担心那的。 谁来照看狗啦， 谁来看管房子啦， 谁来照料花园啦， 我们每年都碰到这类问题。 末了，我们呆在家里来照看一切。"
+          }
         ]
       },
       {
@@ -46,9 +76,24 @@
         "type": "vocabulary",
         "source": "textbook-p266",
         "items": [
-          {"word": "Egypt", "ipa": "/'i:dʒɪpt/", "pos": "n.", "meaning": "埃及"},
-          {"word": "abroad", "ipa": "/ə'brɔːd/", "pos": "adv.", "meaning": "国外"},
-          {"word": "worry", "ipa": "/'wʌri/", "pos": "v.", "meaning": "担忧"}
+          {
+            "word": "Egypt",
+            "ipa": "/'i:dʒɪpt/",
+            "pos": "n.",
+            "meaning": "埃及"
+          },
+          {
+            "word": "abroad",
+            "ipa": "/ə'brɔːd/",
+            "pos": "adv.",
+            "meaning": "国外"
+          },
+          {
+            "word": "worry",
+            "ipa": "/'wʌri/",
+            "pos": "v.",
+            "meaning": "担忧"
+          }
         ]
       },
       {
@@ -56,12 +101,30 @@
         "type": "notes",
         "source": "textbook-p266",
         "items": [
-          {"title": "1. We may go abroad.", "text": "在英文中用 may 来表示可能发生的事，在 may 后面加动词原形。请注意 may 表示的是一种可能性，这与第 127 课所讲的表示有根据的推论是有区别的。"},
-          {"title": "2. make up our minds.", "text": "打定主意。"},
-          {"title": "3. Don't be so sure.", "text": "别那么肯定。在祈使句中，be 动词的否定形式要用 don't be，这种结构常常用于劝告。"},
-          {"title": "4. We might not go anywhere.", "text": "我们可能哪里也去不成。might 可以用来表示一种可能性，但它表示的「肯定」程度还不如 may。和 may 一样，might 所表示的是现在或将来的可能性。"},
-          {"title": "5. look after.", "text": "照看。"},
-          {"title": "6. in the end.", "text": "最后。"}
+          {
+            "title": "1. We may go abroad.",
+            "text": "在英文中用 may 来表示可能发生的事，在 may 后面加动词原形。请注意 may 表示的是一种可能性，这与第 127 课所讲的表示有根据的推论是有区别的。"
+          },
+          {
+            "title": "2. make up our minds.",
+            "text": "打定主意。"
+          },
+          {
+            "title": "3. Don't be so sure.",
+            "text": "别那么肯定。在祈使句中，be 动词的否定形式要用 don't be，这种结构常常用于劝告。"
+          },
+          {
+            "title": "4. We might not go anywhere.",
+            "text": "我们可能哪里也去不成。might 可以用来表示一种可能性，但它表示的「肯定」程度还不如 may。和 may 一样，might 所表示的是现在或将来的可能性。"
+          },
+          {
+            "title": "5. look after.",
+            "text": "照看。"
+          },
+          {
+            "title": "6. in the end.",
+            "text": "最后。"
+          }
         ]
       }
     ],
@@ -228,5 +291,11 @@
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-131-01-text.jpg",
+    "sha256": "b56a723d6b328d36512c7ab723c26ffb503718c9c85d178975ffcc92085d2c1a",
+    "scope": "Lesson picture/text layout"
+  }
 }

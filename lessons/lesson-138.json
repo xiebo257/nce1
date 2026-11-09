@@ -3,200 +3,246 @@
  "status": "verified",
  "title": "If...",
  "translation": "如果……",
- "description": "A picture lesson on conditional sentences with 'if'. Six pictures show different scenarios: if it rains tomorrow (stay home / go to the seaside), if you are ill next week (see a doctor / ask a friend), if you can't make up your mind (retire / travel to England). The lesson introduces written exercises A (answer questions about the Lesson 137 dialogue), B (write 'if' sentences like the example), and C (answer questions with 'if' clauses). The workbook drills 'if' sentence completion and open-ended 'About you' writing; the grammar workbook completes 'if' dialogue items, writes 'if' sentences about the future, and chooses the correct 'if' words.",
- "answer_note": "The listening captions are model answers (suggested). Textbook written exercises A (answer questions about the Lesson 137 dialogue), B (write 'if' sentences), and C (answer with 'if' clauses) are model answers (suggested). Workbook A (complete 'if' sentences) is from the workbook answer key (source-key, img/key-135-141.jpg p.217); Workbook B ('About you') has no printed key, so the answers are model answers (suggested). Grammar I (complete 'if' dialogue), II (write 'if' sentences), and III (choose the correct words) are from the grammar workbook answer key (source-key, pdf p.577).",
+ "description": "6 source pictures with individually matched captions. 根据教材照片恢复逐图正文。",
+ "answer_note": "Lesson picture captions are transcribed from the textbook photograph. Listening practice answers are supplementary. Independent Practice and Grammar answer provenance is recorded in their exercise groups.",
  "expected_answers": 44,
  "sections": {
   "lesson": [
-   {
-    "id": "l138-lesson-intro",
-    "type": "text",
-    "source": "textbook-p279",
-    "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
-    "translation": "听录音并回答问题。"
-   },
-   {
-    "id": "l138-lesson-pictures",
-    "type": "text",
-    "source": "textbook-p279",
-    "image": "l138-pictures",
-    "text": "1. If it rains tomorrow, she'll stay at home. / If it rains tomorrow, she may stay at home.\n2. If it's nice at the weekend, he'll go to the seaside. / If it's nice at the weekend, he may go to the seaside.\n3. If you are ill next week, you'll see a doctor. / If you are ill next week, you may see a doctor.\n4. If you can't make up your mind, she'll ask a friend. / If you can't make up your mind, she may ask a friend.\n5. If you don't get the job, he'll retire. / If you don't get the job, he may retire.\n6. If you win a lot of money, you'll travel to England. / If you win a lot of money, you may travel to England.",
-    "translation": "1. 如果明天下雨，她将待在家里。/ 如果明天下雨，她可能待在家里。 2. 如果周末天气好，他将去海边。/ 如果周末天气好，他可能去海边。 3. 如果你下周生病了，你将去看医生。/ 如果你下周生病了，你可能去看医生。 4. 如果你拿不定主意，她将问一个朋友。/ 如果你拿不定主意，她可能问一个朋友。 5. 如果你得不到那份工作，他将退休。/ 如果你得不到那份工作，他可能退休。 6. 如果你赢了大笔钱，你将去英国旅行。/ 如果你赢了大笔钱，你可能去英国旅行。"
-   },
-   {
-    "id": "l138-lesson-listening",
-    "type": "exercise",
-    "source": "textbook-p279",
-    "title": "Listen and answer the questions",
-    "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
-    "translation": "听录音并回答问题。",
-    "expected_items": 6,
-    "answer_kind": "suggested",
-    "context": "One question per picture (6 pictures); the answer is the 'if' sentence shown in the picture captions.",
-    "questions": [
-     {
-      "id": "l138-lq1",
-      "number": 1,
-      "prompt": "Picture 1: What will she do if it rains tomorrow?",
-      "answer": "If it rains tomorrow, she'll stay at home."
-     },
-     {
-      "id": "l138-lq2",
-      "number": 2,
-      "prompt": "Picture 2: What will he do if it's nice at the weekend?",
-      "answer": "If it's nice at the weekend, he'll go to the seaside."
-     },
-     {
-      "id": "l138-lq3",
-      "number": 3,
-      "prompt": "Picture 3: What will you do if you are ill next week?",
-      "answer": "If you are ill next week, you'll see a doctor."
-     },
-     {
-      "id": "l138-lq4",
-      "number": 4,
-      "prompt": "Picture 4: What will she do if you can't make up your mind?",
-      "answer": "If you can't make up your mind, she'll ask a friend."
-     },
-     {
-      "id": "l138-lq5",
-      "number": 5,
-      "prompt": "Picture 5: What will he do if you don't get the job?",
-      "answer": "If you don't get the job, he'll retire."
-     },
-     {
-      "id": "l138-lq6",
-      "number": 6,
-      "prompt": "Picture 6: What will you do if you win a lot of money?",
-      "answer": "If you win a lot of money, you'll travel to England."
-     }
-    ]
-   },
-   {
-    "id": "l138-written-a",
-    "type": "exercise",
-    "source": "textbook-p280",
-    "title": "Written A: Answer the questions (about Lesson 137)",
-    "instruction": "Read the dialogue in Lesson 137 again. Then answer these questions. 重读第 137 课的对话，然后回答以下问题。",
-    "translation": "重读第 137 课的对话，然后回答以下问题。",
-    "expected_items": 4,
-    "answer_kind": "suggested",
-    "context": "4 comprehension questions about the Lesson 137 dialogue (Brian and Julie).",
-    "questions": [
-     {
-      "id": "l138-wa1",
-      "number": 1,
-      "prompt": "What has Brian nearly finished?",
-      "answer": "He has nearly finished the football pools."
-     },
-     {
-      "id": "l138-wa2",
-      "number": 2,
-      "prompt": "What will Brian do if he wins a lot of money?",
-      "answer": "If he wins a lot of money, he'll buy Julie a mink coat."
-     },
-     {
-      "id": "l138-wa3",
-      "number": 3,
-      "prompt": "What does Julie want to do?",
-      "answer": "She wants to see the world."
-     },
-     {
-      "id": "l138-wa4",
-      "number": 4,
-      "prompt": "What will they do if they spend all the money?",
-      "answer": "If they spend all the money, they'll try and win the football pools again."
-     }
-    ]
-   },
-   {
-    "id": "l138-written-b",
-    "type": "exercise",
-    "source": "textbook-p280",
-    "title": "Written B: Write sentences like the example",
-    "instruction": "Write sentences like the example. 按照例句写句子。",
-    "translation": "按照例句写句子。",
-    "expected_items": 5,
-    "answer_kind": "suggested",
-    "context": "5 'if' sentence items; item 1 (If it rains tomorrow, she'll stay (or she may stay) at home.) is the printed example.",
-    "questions": [
-     {
-      "id": "l138-wb1",
-      "number": 1,
-      "example": true,
-      "prompt": "If it rains tomorrow, she'll stay (or she may stay) at home.",
-      "answer": "If it rains tomorrow, she'll stay at home."
-     },
-     {
-      "id": "l138-wb2",
-      "number": 2,
-      "prompt": "If it's nice at the weekend, he'll go to the seaside.",
-      "answer": "If it's nice at the weekend, he'll go to the seaside."
-     },
-     {
-      "id": "l138-wb3",
-      "number": 3,
-      "prompt": "If you are ill next week, you'll see a doctor.",
-      "answer": "If you are ill next week, you'll see a doctor."
-     },
-     {
-      "id": "l138-wb4",
-      "number": 4,
-      "prompt": "If you can't make up your mind, she'll ask a friend.",
-      "answer": "If you can't make up your mind, she'll ask a friend."
-     },
-     {
-      "id": "l138-wb5",
-      "number": 5,
-      "prompt": "If you don't get the job, he'll retire.",
-      "answer": "If you don't get the job, he'll retire."
-     }
-    ]
-   },
-   {
-    "id": "l138-written-c",
-    "type": "exercise",
-    "source": "textbook-p280",
-    "title": "Written C: Answer the questions",
-    "instruction": "Answer the questions. 回答以下问题。",
-    "translation": "回答以下问题。",
-    "expected_items": 5,
-    "answer_kind": "suggested",
-    "context": "5 'if' question items.",
-    "questions": [
-     {
-      "id": "l138-wc1",
-      "number": 1,
-      "prompt": "What will you do if it rains tomorrow?",
-      "answer": "If it rains tomorrow, I'll stay at home."
-     },
-     {
-      "id": "l138-wc2",
-      "number": 2,
-      "prompt": "What will you do if you are ill next week?",
-      "answer": "If I am ill next week, I'll see a doctor."
-     },
-     {
-      "id": "l138-wc3",
-      "number": 3,
-      "prompt": "What will you do if you can't make up your mind?",
-      "answer": "If I can't make up my mind, I'll ask a friend."
-     },
-     {
-      "id": "l138-wc4",
-      "number": 4,
-      "prompt": "What will you do if you don't get the job?",
-      "answer": "If I don't get the job, I'll retire."
-     },
-     {
-      "id": "l138-wc5",
-      "number": 5,
-      "prompt": "What will you do if you win a lot of money?",
-      "answer": "If I win a lot of money, I'll travel to England."
-     }
-    ]
-   }
-  ],
+      {
+        "id": "l138-lesson-intro",
+        "type": "text",
+        "source": "textbook-p279",
+        "text": "Listen and answer the questions.",
+        "translation": "听录音并回答问题。"
+      },
+      {
+        "id": "l138-lesson-pictures",
+        "type": "text",
+        "source": "../img/lesson-138-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "If you break this window, you'll have to pay for it!",
+        "translation": "如果你打破这扇窗户，就得赔偿！"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-138-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "If you don't hurry, we'll miss the train.",
+        "translation": "如果你不快点，我们就赶不上火车了。"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-138-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "If he falls, he'll hurt himself.",
+        "translation": "如果他摔下来，会受伤的。"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-138-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "If it rains tomorrow, we won't go to the seaside.",
+        "translation": "如果明天下雨，我们就不去海边。"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-138-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "If you feel better, you can get up.",
+        "translation": "如果你感觉好些，就可以起床了。"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-138-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "If he sells that car, he can buy a new one.",
+        "translation": "如果他卖掉那辆车，就能买一辆新的。"
+      },
+      {
+        "id": "l138-lesson-listening",
+        "type": "exercise",
+        "source": "../img/lesson-138-01-text.jpg",
+        "title": "Listen and answer the questions",
+        "instruction": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "translation": "听录音并回答问题。",
+        "expected_items": 6,
+        "answer_kind": "suggested",
+        "context": "Supplementary practice based on the photographed captions. 依据照片正文补充的练习。",
+        "questions": [
+          {
+            "id": "l138-photo-listen-1",
+            "number": 1,
+            "prompt": "Picture 1: Say the sentence(s).",
+            "answer": "If you break this window, you'll have to pay for it!"
+          },
+          {
+            "id": "l138-photo-listen-2",
+            "number": 2,
+            "prompt": "Picture 2: Say the sentence(s).",
+            "answer": "If you don't hurry, we'll miss the train."
+          },
+          {
+            "id": "l138-photo-listen-3",
+            "number": 3,
+            "prompt": "Picture 3: Say the sentence(s).",
+            "answer": "If he falls, he'll hurt himself."
+          },
+          {
+            "id": "l138-photo-listen-4",
+            "number": 4,
+            "prompt": "Picture 4: Say the sentence(s).",
+            "answer": "If it rains tomorrow, we won't go to the seaside."
+          },
+          {
+            "id": "l138-photo-listen-5",
+            "number": 5,
+            "prompt": "Picture 5: Say the sentence(s).",
+            "answer": "If you feel better, you can get up."
+          },
+          {
+            "id": "l138-photo-listen-6",
+            "number": 6,
+            "prompt": "Picture 6: Say the sentence(s).",
+            "answer": "If he sells that car, he can buy a new one."
+          }
+        ]
+      },
+      {
+        "id": "l138-written-a",
+        "type": "exercise",
+        "source": "textbook-p280",
+        "title": "Written A: Answer the questions (about Lesson 137)",
+        "instruction": "Read the dialogue in Lesson 137 again. Then answer these questions. 重读第 137 课的对话，然后回答以下问题。",
+        "translation": "重读第 137 课的对话，然后回答以下问题。",
+        "expected_items": 4,
+        "answer_kind": "suggested",
+        "context": "4 comprehension questions about the Lesson 137 dialogue (Brian and Julie).",
+        "questions": [
+          {
+            "id": "l138-wa1",
+            "number": 1,
+            "prompt": "What has Brian nearly finished?",
+            "answer": "He has nearly finished the football pools."
+          },
+          {
+            "id": "l138-wa2",
+            "number": 2,
+            "prompt": "What will Brian do if he wins a lot of money?",
+            "answer": "If he wins a lot of money, he'll buy Julie a mink coat."
+          },
+          {
+            "id": "l138-wa3",
+            "number": 3,
+            "prompt": "What does Julie want to do?",
+            "answer": "She wants to see the world."
+          },
+          {
+            "id": "l138-wa4",
+            "number": 4,
+            "prompt": "What will they do if they spend all the money?",
+            "answer": "If they spend all the money, they'll try and win the football pools again."
+          }
+        ]
+      },
+      {
+        "id": "l138-written-b",
+        "type": "exercise",
+        "source": "textbook-p280",
+        "title": "Written B: Write sentences like the example",
+        "instruction": "Write sentences like the example. 按照例句写句子。",
+        "translation": "按照例句写句子。",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "5 'if' sentence items; item 1 (If it rains tomorrow, she'll stay (or she may stay) at home.) is the printed example.",
+        "questions": [
+          {
+            "id": "l138-wb1",
+            "number": 1,
+            "example": true,
+            "prompt": "If it rains tomorrow, she'll stay (or she may stay) at home.",
+            "answer": "If it rains tomorrow, she'll stay at home."
+          },
+          {
+            "id": "l138-wb2",
+            "number": 2,
+            "prompt": "If it's nice at the weekend, he'll go to the seaside.",
+            "answer": "If it's nice at the weekend, he'll go to the seaside."
+          },
+          {
+            "id": "l138-wb3",
+            "number": 3,
+            "prompt": "If you are ill next week, you'll see a doctor.",
+            "answer": "If you are ill next week, you'll see a doctor."
+          },
+          {
+            "id": "l138-wb4",
+            "number": 4,
+            "prompt": "If you can't make up your mind, she'll ask a friend.",
+            "answer": "If you can't make up your mind, she'll ask a friend."
+          },
+          {
+            "id": "l138-wb5",
+            "number": 5,
+            "prompt": "If you don't get the job, he'll retire.",
+            "answer": "If you don't get the job, he'll retire."
+          }
+        ]
+      },
+      {
+        "id": "l138-written-c",
+        "type": "exercise",
+        "source": "textbook-p280",
+        "title": "Written C: Answer the questions",
+        "instruction": "Answer the questions. 回答以下问题。",
+        "translation": "回答以下问题。",
+        "expected_items": 5,
+        "answer_kind": "suggested",
+        "context": "5 'if' question items.",
+        "questions": [
+          {
+            "id": "l138-wc1",
+            "number": 1,
+            "prompt": "What will you do if it rains tomorrow?",
+            "answer": "If it rains tomorrow, I'll stay at home."
+          },
+          {
+            "id": "l138-wc2",
+            "number": 2,
+            "prompt": "What will you do if you are ill next week?",
+            "answer": "If I am ill next week, I'll see a doctor."
+          },
+          {
+            "id": "l138-wc3",
+            "number": 3,
+            "prompt": "What will you do if you can't make up your mind?",
+            "answer": "If I can't make up my mind, I'll ask a friend."
+          },
+          {
+            "id": "l138-wc4",
+            "number": 4,
+            "prompt": "What will you do if you don't get the job?",
+            "answer": "If I don't get the job, I'll retire."
+          },
+          {
+            "id": "l138-wc5",
+            "number": 5,
+            "prompt": "What will you do if you win a lot of money?",
+            "answer": "If I win a lot of money, I'll travel to England."
+          }
+        ]
+      }
+    ],
   "practice": [
    {
     "id": "l138-practice-a",
@@ -476,29 +522,133 @@
  ],
  "characters": {},
  "images": {
-    "l138-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Six numbered pictures in a 2x3 grid, each showing a person with a thought-bubble and an 'if' scenario: 1 rain (stay home / go to seaside); 2 nice weather (go to seaside); 3 illness (see a doctor / ask a friend); 4 can't make up mind (ask a friend / retire); 5 don't get job (retire / travel to England); 6 win money (travel to England).",
-      "src": "assets/lesson-138/l138-pictures-color.webp",
-      "width": 768,
-      "height": 960,
-      "source": "img/lesson-138-01-text.jpg (textbook p.279)",
-      "characters": [],
-      "illustration_width": 768,
-      "illustration_height": 960,
-      "illustration_scene": "A clean full-color educational illustration with exactly SIX separate panels in two columns and three rows. Top left: a woman stays indoors looking at rain outside her window. Top right: a man relaxes at a sunny seaside beach. Middle left: a patient talks to a doctor in a clinic. Middle right: a woman discusses a decision with a female friend. Bottom left: an older man rests at home after retirement. Bottom right: travelers with suitcases admire Big Ben in London. Each panel is a separate everyday situation. No captions, numbers or speech bubbles.",
-      "illustration_prompt_version": 2,
-      "layout": "above",
-      "origin": "local-model",
-      "caption": "If...",
-      "alt": "A clean full-color educational illustration with exactly SIX separate panels in two columns and three rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 138017,
-        "manifest": "illustrations/manifests/138-l138-pictures.json"
+      "description": "If you break this window, you'll have to pay for it!",
+      "source": "../img/lesson-138-01-text.jpg",
+      "src": "assets/lesson-138/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-138-01-text.jpg",
+        "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+        "label": "1",
+        "asset_sha256": "919fb3856af8862b82c67b7d83a86c03b5bdbc802a3cca689f27bbae546ed34b",
+        "generation_record": "illustrations/photo-repairs/138/generation.json",
+        "review_record": "illustrations/photo-repairs/138/review.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "If you don't hurry, we'll miss the train.",
+      "source": "../img/lesson-138-01-text.jpg",
+      "src": "assets/lesson-138/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-138-01-text.jpg",
+        "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+        "label": "2",
+        "asset_sha256": "d6376b624cb5a64ef26a834ccf23bdc87d313bbe8f25b2415de1a10ac61ac94f",
+        "generation_record": "illustrations/photo-repairs/138/generation.json",
+        "review_record": "illustrations/photo-repairs/138/review.json"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "If he falls, he'll hurt himself.",
+      "source": "../img/lesson-138-01-text.jpg",
+      "src": "assets/lesson-138/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-138-01-text.jpg",
+        "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+        "label": "3",
+        "asset_sha256": "8f9a589557383ae515beef118b10b528cfab804eff5764813fd26d829a475589",
+        "generation_record": "illustrations/photo-repairs/138/generation.json",
+        "review_record": "illustrations/photo-repairs/138/review.json"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "If it rains tomorrow, we won't go to the seaside.",
+      "source": "../img/lesson-138-01-text.jpg",
+      "src": "assets/lesson-138/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-138-01-text.jpg",
+        "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+        "label": "4",
+        "asset_sha256": "b44c9b3466e0d365f4d3a8572c462b18b9f16a609cd31b6adec38ca01a3be618",
+        "generation_record": "illustrations/photo-repairs/138/generation.json",
+        "review_record": "illustrations/photo-repairs/138/review.json"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "If you feel better, you can get up.",
+      "source": "../img/lesson-138-01-text.jpg",
+      "src": "assets/lesson-138/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-138-01-text.jpg",
+        "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+        "label": "5",
+        "asset_sha256": "e1956bc712d9e6129a3424af4140d62bb2bc3d99f6ab58f0ac960a410586f2bb",
+        "generation_record": "illustrations/photo-repairs/138/generation.json",
+        "review_record": "illustrations/photo-repairs/138/review.json"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "If he sells that car, he can buy a new one.",
+      "source": "../img/lesson-138-01-text.jpg",
+      "src": "assets/lesson-138/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-138-01-text.jpg",
+        "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+        "label": "6",
+        "asset_sha256": "b196f4bf28bd0bdabc7f0e84ae0960462488b4aecba0c795a3513be4812cd9bd",
+        "generation_record": "illustrations/photo-repairs/138/generation.json",
+        "review_record": "illustrations/photo-repairs/138/review.json"
       }
     }
   },
-  "illustration_style": "Warm full-color educational illustration, clear distinct panels, natural faces and anatomy."
+  "illustration_style": "Warm full-color educational illustration, clear distinct panels, natural faces and anatomy.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-138-01-text.jpg",
+    "sha256": "efc095367cdddd20e30777de678c8af79b72558a80aa95d138e48d0b37d56a6c",
+    "scope": "Lesson picture/text layout"
+  }
 }

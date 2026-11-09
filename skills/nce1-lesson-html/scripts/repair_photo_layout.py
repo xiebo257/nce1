@@ -150,6 +150,7 @@ def main():
                            'text':recipe['source_limitation']})
         if recipe.get('intro_text'):
             intro=next(b for b in blocks if 'intro' in b['id']);intro['text']=recipe['intro_text'];intro.pop('translation',None)
+            if recipe.get('intro_translation'):intro['translation']=recipe['intro_translation']
         if recipe.get('fix_cue_speakers'):
             for b in blocks:
                 if b['type']=='dialogue' and b.get('image'):

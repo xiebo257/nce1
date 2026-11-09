@@ -1,0 +1,287 @@
+{
+  "lesson": 140,
+  "source": "img/lesson-140-01-text.jpg",
+  "source_sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
+  "rotation": 0,
+  "coordinate_space": [
+    900,
+    1326
+  ],
+  "tiles": [
+    {
+      "label": 1,
+      "region": [
+        57,
+        312,
+        282,
+        429
+      ],
+      "quad_on_page": [
+        [
+          62,
+          313
+        ],
+        [
+          281,
+          312
+        ],
+        [
+          276,
+          425
+        ],
+        [
+          57,
+          427
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/01.png"
+    },
+    {
+      "label": 2,
+      "region": [
+        367,
+        305,
+        591,
+        425
+      ],
+      "quad_on_page": [
+        [
+          373,
+          310
+        ],
+        [
+          590,
+          305
+        ],
+        [
+          585,
+          418
+        ],
+        [
+          367,
+          423
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/02.png"
+    },
+    {
+      "label": 3,
+      "region": [
+        679,
+        301,
+        897,
+        419
+      ],
+      "quad_on_page": [
+        [
+          684,
+          303
+        ],
+        [
+          895,
+          305
+        ],
+        [
+          893,
+          417
+        ],
+        [
+          680,
+          416
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/03.png"
+    },
+    {
+      "label": 4,
+      "region": [
+        40,
+        630,
+        267,
+        750
+      ],
+      "quad_on_page": [
+        [
+          46,
+          634
+        ],
+        [
+          266,
+          631
+        ],
+        [
+          259,
+          745
+        ],
+        [
+          40,
+          748
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/04.png"
+    },
+    {
+      "label": 5,
+      "region": [
+        352,
+        624,
+        577,
+        744
+      ],
+      "quad_on_page": [
+        [
+          358,
+          628
+        ],
+        [
+          576,
+          624
+        ],
+        [
+          570,
+          740
+        ],
+        [
+          352,
+          743
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/05.png"
+    },
+    {
+      "label": 6,
+      "region": [
+        665,
+        623,
+        884,
+        744
+      ],
+      "quad_on_page": [
+        [
+          671,
+          623
+        ],
+        [
+          883,
+          624
+        ],
+        [
+          879,
+          738
+        ],
+        [
+          667,
+          743
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/06.png"
+    },
+    {
+      "label": 7,
+      "region": [
+        22,
+        954,
+        249,
+        1075
+      ],
+      "quad_on_page": [
+        [
+          29,
+          957
+        ],
+        [
+          248,
+          955
+        ],
+        [
+          242,
+          1072
+        ],
+        [
+          22,
+          1074
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/07.png"
+    },
+    {
+      "label": 8,
+      "region": [
+        335,
+        951,
+        564,
+        1073
+      ],
+      "quad_on_page": [
+        [
+          342,
+          953
+        ],
+        [
+          563,
+          951
+        ],
+        [
+          558,
+          1070
+        ],
+        [
+          335,
+          1071
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/08.png"
+    },
+    {
+      "label": 9,
+      "region": [
+        647,
+        946,
+        872,
+        1069
+      ],
+      "quad_on_page": [
+        [
+          658,
+          950
+        ],
+        [
+          871,
+          947
+        ],
+        [
+          866,
+          1062
+        ],
+        [
+          654,
+          1068
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/140/09.png"
+    }
+  ],
+  "cols": 3,
+  "cell": [
+    320,
+    192
+  ],
+  "source_atlas_sha256": "3ae904df0cba7ff436061aa748970901f2521a1971d8acca47389eba8b68b252",
+  "model": "FLUX.2-Klein-4B-4bit",
+  "prompt": "Colorize these 9 textbook cartoon pictures in exactly the same 3-column layout. Preserve every face, pose, object, number, word and panel. Use warm natural skin, vivid but soft clothing colors and white backgrounds. The same recurring person must have identical hair color and clothing colors in every panel. Keep black hair black; light-haired women have golden blonde hair. Keep all original black lines, do not redraw, add, remove or rearrange anything. Color only the existing drawings; leave empty cells white.",
+  "seed": 140926,
+  "steps": 4,
+  "seconds": 95.64,
+  "output_sha256": "598408055c689de8b51a27a4875375c33aa75a416fbdfdfc4e870915f1312978",
+  "preserved_sha256": "26ca358b654290f96ee4dbfa5814ec1332358ed54c8421565b96aa11478e91cf",
+  "status": "candidate-needs-visual-review",
+  "color_refinement": {
+    "palette": {
+      "skin": "#f3c9a8",
+      "cloth": "#9dc8ce",
+      "hair": "#ead38b",
+      "paper": "#ffffff"
+    },
+    "regions": {}
+  }
+}

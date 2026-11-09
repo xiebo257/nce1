@@ -97,70 +97,80 @@
         "type": "text",
         "text": "13th: He usually shaves at seven o’clock every day.\nPicture cue: Man shaving beside a clock showing seven.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-13"
+        "image": "action-13",
+        "source_group": 1
       },
       {
         "id": "lesson-cue-14",
         "type": "text",
         "text": "14th: but today, he ...\nPicture cue: The same man shaving beside a clock showing eight.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-14"
+        "image": "action-14",
+        "source_group": 1
       },
       {
         "id": "lesson-cue-15",
         "type": "text",
         "text": "15th: She usually drinks tea in the morning.\nPicture cue: Woman drinking tea beside a teapot.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-15"
+        "image": "action-15",
+        "source_group": 2
       },
       {
         "id": "lesson-cue-16",
         "type": "text",
         "text": "16th: but this morning, she ...\nPicture cue: The same woman drinking coffee beside a coffee pot.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-16"
+        "image": "action-16",
+        "source_group": 2
       },
       {
         "id": "lesson-cue-17",
         "type": "text",
         "text": "17th: They usually play in the garden in the afternoon.\nPicture cue: Two children playing in the garden.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-17"
+        "image": "action-17",
+        "source_group": 3
       },
       {
         "id": "lesson-cue-18",
         "type": "text",
         "text": "18th: but this afternoon, they ...\nPicture cue: The same two children swimming in water.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-18"
+        "image": "action-18",
+        "source_group": 3
       },
       {
         "id": "lesson-cue-19",
         "type": "text",
         "text": "19th: I usually cook a meal in the evening.\nPicture cue: A person cooking a meal at a stove.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-19"
+        "image": "action-19",
+        "source_group": 4
       },
       {
         "id": "lesson-cue-20",
         "type": "text",
         "text": "20th: but this evening, I ...\nPicture cue: The same person reclining and reading a book.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-20"
+        "image": "action-20",
+        "source_group": 4
       },
       {
         "id": "lesson-cue-21",
         "type": "text",
         "text": "21st: We usually watch television at night.\nPicture cue: A family watching television together.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-21"
+        "image": "action-21",
+        "source_group": 5
       },
       {
         "id": "lesson-cue-22",
         "type": "text",
         "text": "22nd: but tonight, we ...\nPicture cue: The same family listening to a stereo.",
         "source": "../img/lesson-058-01-text.jpg",
-        "image": "action-22"
+        "image": "action-22",
+        "source_group": 5
       },
       {
         "id": "lesson-clocks",
@@ -1240,7 +1250,7 @@
       "width": 320,
       "height": 190,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 1",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1275,7 +1285,7 @@
       "width": 320,
       "height": 192,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 1",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1310,7 +1320,7 @@
       "width": 320,
       "height": 190,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 2",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1345,7 +1355,7 @@
       "width": 320,
       "height": 192,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 2",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1380,7 +1390,7 @@
       "width": 320,
       "height": 181,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 3",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1415,7 +1425,7 @@
       "width": 320,
       "height": 180,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 3",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1450,7 +1460,7 @@
       "width": 320,
       "height": 186,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 4",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1485,7 +1495,7 @@
       "width": 320,
       "height": 185,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 4",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1520,7 +1530,7 @@
       "width": 320,
       "height": 182,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 5",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1555,7 +1565,7 @@
       "width": 320,
       "height": 175,
       "origin": "local-model",
-      "caption": "What's the time?",
+      "caption": "What's the time? · Pair 5",
       "alt": "Colorize this exact cartoon with natural skin, colorful clothing, appropriate objects and a clean warm white background.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
@@ -1627,5 +1637,11 @@
     }
   },
   "illustration_style": "Faithful full-color educational cartoon.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-058-01-text.jpg",
+    "sha256": "0cda6ff26fdab03c0fe315893e4f33bd6ad343ea71a4d1020f91ed91109654a3",
+    "scope": "Lesson picture/text layout"
+  }
 }

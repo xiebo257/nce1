@@ -264,6 +264,12 @@
             "rows": 2
           }
         ]
+      },
+      {
+        "id": "lesson-photo-source-note",
+        "type": "text",
+        "source": "../img/lesson-056-01-text.jpg",
+        "text": "照片下缘裁切，末行图注未完全显示；保留现有提示，缺失部分未按原书核验。"
       }
     ],
     "practice": [
@@ -984,5 +990,11 @@
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-056-01-text.jpg",
+    "sha256": "315d816624c17434e3aa565cfe9c91a53f7810dd90fa6efba2cedf174895f68a",
+    "scope": "Lesson picture/text layout"
+  }
 }

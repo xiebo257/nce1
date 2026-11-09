@@ -11,7 +11,7 @@
       {
         "id": "lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook",
+        "source": "../img/lesson-103-01-text.jpg",
         "image": "scene",
         "lines": [
           {
@@ -23,122 +23,50 @@
           {
             "number": 2,
             "speaker": "Richard",
-            "text": "Not too bad.",
-            "translation": "不算太坏。"
+            "text": "Not too bad. I think I passed in English and Mathematics. The questions were very easy. How about you, Gary?",
+            "translation": "不算太坏。 我想我的英语和数学及格了。 题目很容易。 加里，你怎么样？"
           },
           {
             "number": 3,
-            "speaker": "Richard",
-            "text": "I think I passed in English and Mathematics.",
-            "translation": "我想我的英语和数学及格了。"
+            "speaker": "Gary",
+            "text": "The English and Maths papers weren't easy enough for me. I hope I haven't failed.",
+            "translation": "英语和数学试题对我来说不那么容易。 我希望别不及格。"
           },
           {
             "number": 4,
             "speaker": "Richard",
-            "text": "The questions were very easy.",
-            "translation": "题目很容易。"
+            "text": "I think I failed the French paper. I could answer sixteen of the questions. They were very easy. But I couldn't answer the rest. They were too difficult for me.",
+            "translation": "我想我的法语及不了格。 我能回答其中的16道题。 这些题很容易。 但我回答不出其余的题。 那些题对我来说太难了。"
           },
           {
             "number": 5,
-            "speaker": "Richard",
-            "text": "How about you, Gary?",
-            "translation": "加里，你怎么样？"
-          },
-          {
-            "number": 6,
-            "speaker": "Gary",
-            "text": "The English and Maths papers weren't easy enough for me.",
-            "translation": "英语和数学试题对我来说不那么容易。"
-          },
-          {
-            "number": 7,
-            "speaker": "Gary",
-            "text": "I hope I haven't failed.",
-            "translation": "我希望别不及格。"
-          },
-          {
-            "number": 8,
-            "speaker": "Richard",
-            "text": "I think I failed the French paper.",
-            "translation": "我想我的法语及不了格。"
-          },
-          {
-            "number": 9,
-            "speaker": "Richard",
-            "text": "I could answer sixteen of the questions.",
-            "translation": "我能回答其中的16道题。"
-          },
-          {
-            "number": 10,
-            "speaker": "Richard",
-            "text": "They were very easy.",
-            "translation": "这些题很容易。"
-          },
-          {
-            "number": 11,
-            "speaker": "Richard",
-            "text": "But I couldn't answer the rest.",
-            "translation": "但我回答不出其余的题。"
-          },
-          {
-            "number": 12,
-            "speaker": "Richard",
-            "text": "They were too difficult for me.",
-            "translation": "那些题对我来说太难了。"
-          },
-          {
-            "number": 13,
             "speaker": "Gary",
             "text": "French tests are awful, aren't they?",
             "translation": "法语考试太可怕了，你说呢？"
           },
           {
-            "number": 14,
+            "number": 6,
             "speaker": "Richard",
-            "text": "I hate them.",
-            "translation": "我讨厌法语考试。"
+            "text": "I hate them. I'm sure I've got a low mark.",
+            "translation": "我讨厌法语考试。 我的成绩肯定很低。"
           },
           {
-            "number": 15,
-            "speaker": "Richard",
-            "text": "I'm sure I've got a low mark.",
-            "translation": "我的成绩肯定很低。"
-          },
-          {
-            "number": 16,
+            "number": 7,
             "speaker": "Gary",
-            "text": "Oh, cheer up!",
-            "translation": "啊，别灰心！"
+            "text": "Oh, cheer up! Perhaps we didn't do too badly. The guy next to me wrote his name at the top of the paper.",
+            "translation": "啊，别灰心！ 或许我们考得还不太糟。 坐在我旁边的那个人只在试卷顶端写了自己的名字。"
           },
           {
-            "number": 17,
-            "speaker": "Gary",
-            "text": "Perhaps we didn't do too badly.",
-            "translation": "或许我们考得还不太糟。"
-          },
-          {
-            "number": 18,
-            "speaker": "Gary",
-            "text": "The guy next to me wrote his name at the top of the paper.",
-            "translation": "坐在我旁边的那个人只在试卷顶端写了自己的名字。"
-          },
-          {
-            "number": 19,
+            "number": 8,
             "speaker": "Richard",
             "text": "Yes?",
             "translation": "是吗？"
           },
           {
-            "number": 20,
+            "number": 9,
             "speaker": "Gary",
-            "text": "Then he sat there and looked at it for three hours!",
-            "translation": "然后他就坐在那里，对着考卷看了3个小时！"
-          },
-          {
-            "number": 21,
-            "speaker": "Gary",
-            "text": "He didn't write a word!",
-            "translation": "他一个字也没写！"
+            "text": "Then he sat there and looked at it for three hours! He didn't write a word!",
+            "translation": "然后他就坐在那里，对着考卷看了3个小时！ 他一个字也没写！"
           }
         ]
       },
@@ -862,5 +790,11 @@
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-103-01-text.jpg",
+    "sha256": "2962cda3c1e8cdf0504fef3f9da0b446b155ae2e6ea2db4c606bb42bc4b8108f",
+    "scope": "Lesson picture/text layout"
+  }
 }

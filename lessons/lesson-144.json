@@ -12,16 +12,80 @@
         "id": "l144-lesson-intro",
         "type": "text",
         "source": "textbook-p291",
-        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l144-lesson-pictures",
         "type": "text",
-        "source": "textbook-p291",
-        "image": "l144-pictures",
-        "text": "1. Hasn't anyone repaired this car yet? 有人修理过这辆车吗？ 2. It has already been repaired! 它已经被修理过了！ 3. Hasn't anyone corrected these exercise books yet? 有人批改过这些练习本吗？ 4. They have already been corrected! 它们已经被批改过了！ 5. Hasn't anyone caught the thief yet? 有人抓到小偷了吗？ 6. He hasn't been caught yet. He will be caught soon! 他还没被抓到。他很快会被抓到的！ 7. Hasn't anyone caught the thieves yet? 有人抓到那些小偷了吗？ 8. They haven't been caught yet. They will be caught soon! 他们还没被抓到。他们很快会被抓到的！",
-        "translation": "1. 有人修理过这辆车吗？ 2. 它已经被修理过了！ 3. 有人批改过这些练习本吗？ 4. 它们已经被批改过了！ 5. 有人抓到小偷了吗？ 6. 他还没被抓到。他很快会被抓到的！ 7. 有人抓到那些小偷了吗？ 8. 他们还没被抓到。他们很快会被抓到的！"
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Hasn't anyone repaired this car yet?",
+        "translation": "有人修理过这辆车吗？"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "It has already been repaired!",
+        "translation": "它已经被修理过了！"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "Hasn't anyone corrected these exercise books yet?",
+        "translation": "有人批改过这些练习本吗？"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "They have already been corrected!",
+        "translation": "它们已经被批改过了！"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "Hasn't anyone caught the thief yet?",
+        "translation": "有人抓到小偷了吗？"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "He hasn't been caught yet. He will be caught soon!",
+        "translation": "他还没被抓到。他很快会被抓到的！"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "Hasn't anyone caught the thieves yet?",
+        "translation": "有人抓到那些小偷了吗？"
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-144-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "They haven't been caught yet. They will be caught soon!",
+        "translation": "他们还没被抓到。他们很快会被抓到的！"
       },
       {
         "id": "l144-lesson-listening",
@@ -34,14 +98,54 @@
         "answer_kind": "suggested",
         "context": "One question per picture (8 pictures); the answer is the passive sentence shown in the picture captions.",
         "questions": [
-          {"id": "l144-lq1", "number": 1, "prompt": "Picture 1: Hasn't anyone repaired this car yet?", "answer": "No. It hasn't been repaired yet. / It has already been repaired."},
-          {"id": "l144-lq2", "number": 2, "prompt": "Picture 2: Has the car been repaired?", "answer": "Yes. It has already been repaired."},
-          {"id": "l144-lq3", "number": 3, "prompt": "Picture 3: Hasn't anyone corrected these exercise books yet?", "answer": "No. They haven't been corrected yet. / They have already been corrected."},
-          {"id": "l144-lq4", "number": 4, "prompt": "Picture 4: Have the exercise books been corrected?", "answer": "Yes. They have already been corrected."},
-          {"id": "l144-lq5", "number": 5, "prompt": "Picture 5: Hasn't anyone caught the thief yet?", "answer": "No. He hasn't been caught yet. He will be caught soon."},
-          {"id": "l144-lq6", "number": 6, "prompt": "Picture 6: Has the thief been caught?", "answer": "No. He hasn't been caught yet. He will be caught soon."},
-          {"id": "l144-lq7", "number": 7, "prompt": "Picture 7: Hasn't anyone caught the thieves yet?", "answer": "No. They haven't been caught yet. They will be caught soon."},
-          {"id": "l144-lq8", "number": 8, "prompt": "Picture 8: Have the thieves been caught?", "answer": "No. They haven't been caught yet. They will be caught soon."}
+          {
+            "id": "l144-lq1",
+            "number": 1,
+            "prompt": "Picture 1: Hasn't anyone repaired this car yet?",
+            "answer": "No. It hasn't been repaired yet. / It has already been repaired."
+          },
+          {
+            "id": "l144-lq2",
+            "number": 2,
+            "prompt": "Picture 2: Has the car been repaired?",
+            "answer": "Yes. It has already been repaired."
+          },
+          {
+            "id": "l144-lq3",
+            "number": 3,
+            "prompt": "Picture 3: Hasn't anyone corrected these exercise books yet?",
+            "answer": "No. They haven't been corrected yet. / They have already been corrected."
+          },
+          {
+            "id": "l144-lq4",
+            "number": 4,
+            "prompt": "Picture 4: Have the exercise books been corrected?",
+            "answer": "Yes. They have already been corrected."
+          },
+          {
+            "id": "l144-lq5",
+            "number": 5,
+            "prompt": "Picture 5: Hasn't anyone caught the thief yet?",
+            "answer": "No. He hasn't been caught yet. He will be caught soon."
+          },
+          {
+            "id": "l144-lq6",
+            "number": 6,
+            "prompt": "Picture 6: Has the thief been caught?",
+            "answer": "No. He hasn't been caught yet. He will be caught soon."
+          },
+          {
+            "id": "l144-lq7",
+            "number": 7,
+            "prompt": "Picture 7: Hasn't anyone caught the thieves yet?",
+            "answer": "No. They haven't been caught yet. They will be caught soon."
+          },
+          {
+            "id": "l144-lq8",
+            "number": 8,
+            "prompt": "Picture 8: Have the thieves been caught?",
+            "answer": "No. They haven't been caught yet. They will be caught soon."
+          }
         ]
       },
       {
@@ -55,14 +159,54 @@
         "answer_kind": "suggested",
         "context": "8 comprehension questions about the Lesson 143 story (A walk through the woods).",
         "questions": [
-          {"id": "l144-wa1", "number": 1, "prompt": "Where does the writer live?", "answer": "He lives in a very old town."},
-          {"id": "l144-wa2", "number": 2, "prompt": "Why do visitors often come from the city?", "answer": "They come to see the town and to walk through the woods."},
-          {"id": "l144-wa3", "number": 3, "prompt": "What have visitors been asked to do?", "answer": "They have been asked to keep the woods clean and tidy."},
-          {"id": "l144-wa4", "number": 4, "prompt": "Where have litter baskets been placed?", "answer": "They have been placed under the trees."},
-          {"id": "l144-wa5", "number": 5, "prompt": "Where did the writer go last Wednesday?", "answer": "He went for a walk in the woods."},
-          {"id": "l144-wa6", "number": 6, "prompt": "He saw a lot of rubbish, didn't he?", "answer": "Yes, he did."},
-          {"id": "l144-wa7", "number": 7, "prompt": "What did he see among the rubbish?", "answer": "He saw seven old cars and three old refrigerators."},
-          {"id": "l144-wa8", "number": 8, "prompt": "What did the sign say?", "answer": "It said, 'Anyone who leaves litter in these woods will be prosecuted!'"}
+          {
+            "id": "l144-wa1",
+            "number": 1,
+            "prompt": "Where does the writer live?",
+            "answer": "He lives in a very old town."
+          },
+          {
+            "id": "l144-wa2",
+            "number": 2,
+            "prompt": "Why do visitors often come from the city?",
+            "answer": "They come to see the town and to walk through the woods."
+          },
+          {
+            "id": "l144-wa3",
+            "number": 3,
+            "prompt": "What have visitors been asked to do?",
+            "answer": "They have been asked to keep the woods clean and tidy."
+          },
+          {
+            "id": "l144-wa4",
+            "number": 4,
+            "prompt": "Where have litter baskets been placed?",
+            "answer": "They have been placed under the trees."
+          },
+          {
+            "id": "l144-wa5",
+            "number": 5,
+            "prompt": "Where did the writer go last Wednesday?",
+            "answer": "He went for a walk in the woods."
+          },
+          {
+            "id": "l144-wa6",
+            "number": 6,
+            "prompt": "He saw a lot of rubbish, didn't he?",
+            "answer": "Yes, he did."
+          },
+          {
+            "id": "l144-wa7",
+            "number": 7,
+            "prompt": "What did he see among the rubbish?",
+            "answer": "He saw seven old cars and three old refrigerators."
+          },
+          {
+            "id": "l144-wa8",
+            "number": 8,
+            "prompt": "What did the sign say?",
+            "answer": "It said, 'Anyone who leaves litter in these woods will be prosecuted!'"
+          }
         ]
       },
       {
@@ -76,18 +220,80 @@
         "answer_kind": "suggested",
         "context": "2 printed examples (Hasn't anyone opened the window yet? → Someone has opened it. It has already been opened. / Hasn't anyone opened the windows yet? → Someone has opened them. They have already been opened.) + 10 practice items.",
         "questions": [
-          {"id": "l144-wb1", "number": 1, "example": true, "prompt": "Hasn't anyone opened the window yet?", "answer": "Someone has opened it. It has already been opened."},
-          {"id": "l144-wb2", "number": 2, "example": true, "prompt": "Hasn't anyone opened the windows yet?", "answer": "Someone has opened them. They have already been opened."},
-          {"id": "l144-wb3", "number": 3, "prompt": "Hasn't anyone aired this room yet?", "answer": "Someone has aired it. It has already been aired."},
-          {"id": "l144-wb4", "number": 4, "prompt": "Hasn't anyone cleaned these rooms yet?", "answer": "Someone has cleaned them. They have already been cleaned."},
-          {"id": "l144-wb5", "number": 5, "prompt": "Hasn't anyone emptied this basket yet?", "answer": "Someone has emptied it. It has already been emptied."},
-          {"id": "l144-wb6", "number": 6, "prompt": "Hasn't anyone sharpened this knife yet?", "answer": "Someone has sharpened it. It has already been sharpened."},
-          {"id": "l144-wb7", "number": 7, "prompt": "Hasn't anyone turned on the taps yet?", "answer": "Someone has turned them on. They have already been turned on."},
-          {"id": "l144-wb8", "number": 8, "prompt": "Hasn't anyone bought these models yet?", "answer": "Someone has bought them. They have already been bought."},
-          {"id": "l144-wb9", "number": 9, "prompt": "Hasn't anyone swept the floor yet?", "answer": "Someone has swept it. It has already been swept."},
-          {"id": "l144-wb10", "number": 10, "prompt": "Hasn't anyone taken them to school yet?", "answer": "Someone has taken them. They have already been taken to school."},
-          {"id": "l144-wb11", "number": 11, "prompt": "Hasn't anyone invited them yet?", "answer": "Someone has invited them. They have already been invited."},
-          {"id": "l144-wb12", "number": 12, "prompt": "Hasn't anyone told them yet?", "answer": "Someone has told them. They have already been told."}
+          {
+            "id": "l144-wb1",
+            "number": 1,
+            "example": true,
+            "prompt": "Hasn't anyone opened the window yet?",
+            "answer": "Someone has opened it. It has already been opened."
+          },
+          {
+            "id": "l144-wb2",
+            "number": 2,
+            "example": true,
+            "prompt": "Hasn't anyone opened the windows yet?",
+            "answer": "Someone has opened them. They have already been opened."
+          },
+          {
+            "id": "l144-wb3",
+            "number": 3,
+            "prompt": "Hasn't anyone aired this room yet?",
+            "answer": "Someone has aired it. It has already been aired."
+          },
+          {
+            "id": "l144-wb4",
+            "number": 4,
+            "prompt": "Hasn't anyone cleaned these rooms yet?",
+            "answer": "Someone has cleaned them. They have already been cleaned."
+          },
+          {
+            "id": "l144-wb5",
+            "number": 5,
+            "prompt": "Hasn't anyone emptied this basket yet?",
+            "answer": "Someone has emptied it. It has already been emptied."
+          },
+          {
+            "id": "l144-wb6",
+            "number": 6,
+            "prompt": "Hasn't anyone sharpened this knife yet?",
+            "answer": "Someone has sharpened it. It has already been sharpened."
+          },
+          {
+            "id": "l144-wb7",
+            "number": 7,
+            "prompt": "Hasn't anyone turned on the taps yet?",
+            "answer": "Someone has turned them on. They have already been turned on."
+          },
+          {
+            "id": "l144-wb8",
+            "number": 8,
+            "prompt": "Hasn't anyone bought these models yet?",
+            "answer": "Someone has bought them. They have already been bought."
+          },
+          {
+            "id": "l144-wb9",
+            "number": 9,
+            "prompt": "Hasn't anyone swept the floor yet?",
+            "answer": "Someone has swept it. It has already been swept."
+          },
+          {
+            "id": "l144-wb10",
+            "number": 10,
+            "prompt": "Hasn't anyone taken them to school yet?",
+            "answer": "Someone has taken them. They have already been taken to school."
+          },
+          {
+            "id": "l144-wb11",
+            "number": 11,
+            "prompt": "Hasn't anyone invited them yet?",
+            "answer": "Someone has invited them. They have already been invited."
+          },
+          {
+            "id": "l144-wb12",
+            "number": 12,
+            "prompt": "Hasn't anyone told them yet?",
+            "answer": "Someone has told them. They have already been told."
+          }
         ]
       },
       {
@@ -101,18 +307,80 @@
         "answer_kind": "suggested",
         "context": "2 printed examples (Hasn't anyone opened the window yet? → It hasn't been opened yet. It will be opened tomorrow. / Hasn't anyone opened the windows yet? → They haven't been opened yet. They will be opened tomorrow.) + 10 practice items.",
         "questions": [
-          {"id": "l144-wc1", "number": 1, "example": true, "prompt": "Hasn't anyone opened the window yet?", "answer": "It hasn't been opened yet. It will be opened tomorrow."},
-          {"id": "l144-wc2", "number": 2, "example": true, "prompt": "Hasn't anyone opened the windows yet?", "answer": "They haven't been opened yet. They will be opened tomorrow."},
-          {"id": "l144-wc3", "number": 3, "prompt": "Hasn't anyone aired this room yet?", "answer": "It hasn't been aired yet. It will be aired tomorrow."},
-          {"id": "l144-wc4", "number": 4, "prompt": "Hasn't anyone cleaned these rooms yet?", "answer": "They haven't been cleaned yet. They will be cleaned tomorrow."},
-          {"id": "l144-wc5", "number": 5, "prompt": "Hasn't anyone emptied this basket yet?", "answer": "It hasn't been emptied yet. It will be emptied tomorrow."},
-          {"id": "l144-wc6", "number": 6, "prompt": "Hasn't anyone sharpened this knife yet?", "answer": "It hasn't been sharpened yet. It will be sharpened tomorrow."},
-          {"id": "l144-wc7", "number": 7, "prompt": "Hasn't anyone turned on the taps yet?", "answer": "They haven't been turned on yet. They will be turned on tomorrow."},
-          {"id": "l144-wc8", "number": 8, "prompt": "Hasn't anyone watered these flowers yet?", "answer": "They haven't been watered yet. They will be watered tomorrow."},
-          {"id": "l144-wc9", "number": 9, "prompt": "Hasn't anyone repaired this car yet?", "answer": "It hasn't been repaired yet. It will be repaired tomorrow."},
-          {"id": "l144-wc10", "number": 10, "prompt": "Hasn't anyone dusted the cupboard yet?", "answer": "It hasn't been dusted yet. It will be dusted tomorrow."},
-          {"id": "l144-wc11", "number": 11, "prompt": "Hasn't anyone corrected these exercise books yet?", "answer": "They haven't been corrected yet. They will be corrected tomorrow."},
-          {"id": "l144-wc12", "number": 12, "prompt": "Hasn't anyone shut the window yet?", "answer": "It hasn't been shut yet. It will be shut tomorrow."}
+          {
+            "id": "l144-wc1",
+            "number": 1,
+            "example": true,
+            "prompt": "Hasn't anyone opened the window yet?",
+            "answer": "It hasn't been opened yet. It will be opened tomorrow."
+          },
+          {
+            "id": "l144-wc2",
+            "number": 2,
+            "example": true,
+            "prompt": "Hasn't anyone opened the windows yet?",
+            "answer": "They haven't been opened yet. They will be opened tomorrow."
+          },
+          {
+            "id": "l144-wc3",
+            "number": 3,
+            "prompt": "Hasn't anyone aired this room yet?",
+            "answer": "It hasn't been aired yet. It will be aired tomorrow."
+          },
+          {
+            "id": "l144-wc4",
+            "number": 4,
+            "prompt": "Hasn't anyone cleaned these rooms yet?",
+            "answer": "They haven't been cleaned yet. They will be cleaned tomorrow."
+          },
+          {
+            "id": "l144-wc5",
+            "number": 5,
+            "prompt": "Hasn't anyone emptied this basket yet?",
+            "answer": "It hasn't been emptied yet. It will be emptied tomorrow."
+          },
+          {
+            "id": "l144-wc6",
+            "number": 6,
+            "prompt": "Hasn't anyone sharpened this knife yet?",
+            "answer": "It hasn't been sharpened yet. It will be sharpened tomorrow."
+          },
+          {
+            "id": "l144-wc7",
+            "number": 7,
+            "prompt": "Hasn't anyone turned on the taps yet?",
+            "answer": "They haven't been turned on yet. They will be turned on tomorrow."
+          },
+          {
+            "id": "l144-wc8",
+            "number": 8,
+            "prompt": "Hasn't anyone watered these flowers yet?",
+            "answer": "They haven't been watered yet. They will be watered tomorrow."
+          },
+          {
+            "id": "l144-wc9",
+            "number": 9,
+            "prompt": "Hasn't anyone repaired this car yet?",
+            "answer": "It hasn't been repaired yet. It will be repaired tomorrow."
+          },
+          {
+            "id": "l144-wc10",
+            "number": 10,
+            "prompt": "Hasn't anyone dusted the cupboard yet?",
+            "answer": "It hasn't been dusted yet. It will be dusted tomorrow."
+          },
+          {
+            "id": "l144-wc11",
+            "number": 11,
+            "prompt": "Hasn't anyone corrected these exercise books yet?",
+            "answer": "They haven't been corrected yet. They will be corrected tomorrow."
+          },
+          {
+            "id": "l144-wc12",
+            "number": 12,
+            "prompt": "Hasn't anyone shut the window yet?",
+            "answer": "It hasn't been shut yet. It will be shut tomorrow."
+          }
         ]
       }
     ],
@@ -216,184 +484,221 @@
   ],
   "characters": {},
   "images": {
-    "l144-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Eight numbered pictures in a 2x4 grid showing present-perfect-passive and future-passive pairs: 1 a man pointing at a broken car (Hasn't anyone repaired this car yet?); 2 a man and woman with the repaired car (It has already been repaired!); 3 two people beside a stack of exercise books (Hasn't anyone corrected these exercise books yet?); 4 two students and a teacher (They have already been corrected!); 5 a masked thief by a door (Hasn't anyone caught the thief yet?); 6 a policeman with a baton (He hasn't been caught yet. He will be caught soon!); 7 two masked thieves (Hasn't anyone caught the thieves yet?); 8 two policemen (They haven't been caught yet. They will be caught soon!).",
-      "src": "assets/lesson-144/l144-pictures-color.webp",
-      "width": 512,
-      "height": 640,
-      "source": "img/lesson-144-01-text.jpg (textbook p.291)",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/144-restored-photograph-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 2x4 grid showing present-perfect-passive and future-passive pairs: 1 a man pointing at a broken car (Hasn't anyone repaired this car yet?); 2 a man and woman with the repaired car (It has already been repaired!); 3 two people beside a stack of exercise books (Hasn't anyone corrected these exercise books yet?); 4 two students and a teacher (They have already been corrected!); 5 a masked thief by a door (Hasn't anyone caught the thief yet?); 6 a policeman with a baton (He hasn't been caught yet. He will be caught soon!); 7 two masked thieves (Hasn't anyone caught the thieves yet?); 8 two policemen (They haven't been caught yet. They will be caught soon!).",
-      "illustration_source_crop": {
-        "file": "img/lesson-144-01-text.jpg",
-        "coordinate_space": [
-          1696,
-          2500
-        ],
-        "quadrilaterals": [
-          [
-            [
-              143,
-              570
-            ],
-            [
-              553,
-              585
-            ],
-            [
-              552,
-              811
-            ],
-            [
-              143,
-              801
-            ]
-          ],
-          [
-            [
-              996,
-              568
-            ],
-            [
-              1413,
-              516
-            ],
-            [
-              1406,
-              743
-            ],
-            [
-              992,
-              785
-            ]
-          ],
-          [
-            [
-              143,
-              1026
-            ],
-            [
-              548,
-              1027
-            ],
-            [
-              546,
-              1245
-            ],
-            [
-              143,
-              1250
-            ]
-          ],
-          [
-            [
-              984,
-              1007
-            ],
-            [
-              1398,
-              966
-            ],
-            [
-              1392,
-              1191
-            ],
-            [
-              980,
-              1230
-            ]
-          ],
-          [
-            [
-              141,
-              1531
-            ],
-            [
-              542,
-              1517
-            ],
-            [
-              536,
-              1729
-            ],
-            [
-              141,
-              1747
-            ]
-          ],
-          [
-            [
-              973,
-              1495
-            ],
-            [
-              1383,
-              1471
-            ],
-            [
-              1378,
-              1691
-            ],
-            [
-              970,
-              1710
-            ]
-          ],
-          [
-            [
-              141,
-              2021
-            ],
-            [
-              534,
-              1996
-            ],
-            [
-              529,
-              2204
-            ],
-            [
-              138,
-              2232
-            ]
-          ],
-          [
-            [
-              962,
-              1980
-            ],
-            [
-              1370,
-              1971
-            ],
-            [
-              1366,
-              2182
-            ],
-            [
-              958,
-              2194
-            ]
-          ]
-        ],
-        "normalization": "Rectify each printed frame, estimate paper and threshold 165; replaces faded PDF panels."
-      },
-      "layout": "above",
-      "origin": "local-model",
-      "caption": "He hasn't been served yet. He will be served soon.",
-      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 144017,
-        "manifest": "illustrations/manifests/144-l144-pictures.json"
+      "description": "Hasn't anyone repaired this car yet?",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "1",
+        "asset_sha256": "7d8a8d542ffb5a7d89ac52051f8f8f3ab03d14dd5d8a9f1cbed3548ca6386bed",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          0,
+          0,
+          256,
+          160
+        ]
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It has already been repaired!",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "2",
+        "asset_sha256": "a722a1f44ba685ffcc7b2e42347a1e0d83ddd07dc37296cbce394d4320d6e8c0",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Hasn't anyone corrected these exercise books yet?",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "3",
+        "asset_sha256": "936af34fd5dc114f7ce9fd804b369cbf8cb9b4a5bba74de25eca803bef9b7a58",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "They have already been corrected!",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "4",
+        "asset_sha256": "47e0123277662195f2dc256b7ded07d997887cf31091b929131f62b8fb2edcce",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Hasn't anyone caught the thief yet?",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "5",
+        "asset_sha256": "263f3b44cd7d7483cdd36fa504aeb2513100c02b28fad258043b95b628936fda",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He hasn't been caught yet. He will be caught soon!",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "6",
+        "asset_sha256": "8b649daf637c086c1e6d9614343dcbd138ac901a3304cf8eaad17b10396f803e",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Hasn't anyone caught the thieves yet?",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "7",
+        "asset_sha256": "66a79024348f8f1abd7d912a23346b83db9749269b2ed96939fab0eef9345bae",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "They haven't been caught yet. They will be caught soon!",
+      "source": "../img/lesson-144-01-text.jpg",
+      "src": "assets/lesson-144/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-144-01-text.jpg",
+        "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+        "label": "8",
+        "asset_sha256": "795f584f1897901a87cb4b43627b77a90d22f702278710f691dd4389765f68c3",
+        "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
+        "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-144-01-text.jpg",
+    "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
+    "scope": "Lesson picture/text layout"
+  }
 }

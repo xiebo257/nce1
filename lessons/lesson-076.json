@@ -12,8 +12,7 @@
         "id": "lesson-intro",
         "type": "text",
         "source": "../img/lesson-076-01-text.jpg",
-        "text": "Listen and answer the questions.\n听录音并回答问题。\n\nTime phrase reference:\nthis week / last week / the week before last\nthis month / last month / the month before last\nthis year / last year / the year before last\n\na minute ago / two minutes ago\nan hour ago / five hours ago\na day ago / three days ago\na week ago / two weeks ago\na month ago / four months ago\na year ago / six years ago",
-        "translation": "Listen and answer the questions. 听录音并回答问题。Time phrase table: this/last/before-last week/month/year and a minute/hour/day/week/month/year ago."
+        "text": "Listen and answer the questions."
       },
       {
         "id": "lesson-listening",
@@ -32,6 +31,70 @@
             "answer": "I watched television and read a book.",
             "rows": 2
           }
+        ]
+      },
+      {
+        "id": "lesson-time-periods",
+        "type": "table",
+        "source": "../img/lesson-076-01-text.jpg",
+        "caption": "When did you …?",
+        "headers": [
+          "This",
+          "Last",
+          "Before last"
+        ],
+        "rows": [
+          [
+            "this week",
+            "last week",
+            "the week before last"
+          ],
+          [
+            "this month",
+            "last month",
+            "the month before last"
+          ],
+          [
+            "this year",
+            "last year",
+            "the year before last"
+          ]
+        ]
+      },
+      {
+        "id": "lesson-time-ago",
+        "type": "table",
+        "source": "../img/lesson-076-01-text.jpg",
+        "caption": "AGO",
+        "headers": [
+          "One",
+          "More than one"
+        ],
+        "rows": [
+          [
+            "a minute ago",
+            "two minutes ago"
+          ],
+          [
+            "an hour ago",
+            "five hours ago"
+          ],
+          [
+            "a day ago",
+            "three days ago"
+          ],
+          [
+            "a week ago",
+            "two weeks ago"
+          ],
+          [
+            "a month ago",
+            "four months ago"
+          ],
+          [
+            "a year ago",
+            "six years ago"
+          ]
         ]
       },
       {
@@ -1302,5 +1365,11 @@
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-076-01-text.jpg",
+    "sha256": "3deec68c87ff6c7e77510977f44fad7fb1df96c3152463ad72f18e8b7a13fd19",
+    "scope": "Lesson picture/text layout"
+  }
 }

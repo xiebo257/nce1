@@ -18,8 +18,9 @@
       {
         "id": "l133-lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook-p269",
-        "image": "l133-scene",
+        "source": "../img/lesson-133-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -42,80 +43,23 @@
           {
             "number": 4,
             "speaker": "MISS MARSH",
-            "text": "No, I'm not.",
-            "translation": "不，我不准备拍了。"
-          },
-          {
-            "number": 5,
-            "speaker": "MISS MARSH",
-            "text": "I'm going to retire.",
-            "translation": "我准备退休了。"
-          },
-          {
-            "number": 6,
-            "speaker": "MISS MARSH",
-            "text": "I feel very tired.",
-            "translation": "我感觉累得很。"
-          },
-          {
-            "number": 7,
-            "speaker": "MISS MARSH",
-            "text": "I don't want to make another film for a long time.",
-            "translation": "我早就不想再拍片子了。"
-          },
+            "text": "No, I'm not. I'm going to retire. I feel very tired. I don't want to make another film for a long time.",
+            "translation": "不，我不准备拍了。 我准备退休了。 我感觉累得很。 我早就不想再拍片子了。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-133-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 8,
             "speaker": "KATE",
-            "text": "Let's buy a newspaper, Liz.",
-            "translation": "我们买份报纸吧，莉兹。"
-          },
-          {
-            "number": 9,
-            "speaker": "KATE",
-            "text": "Listen to this!",
-            "translation": "你听这段："
-          },
-          {
-            "number": 10,
-            "speaker": "KATE",
-            "text": "'Karen Marsh: Sensational News! By our reporter, Alan Jones.",
-            "translation": "「卡伦·马什：爆炸性新闻！由本报记者艾伦·琼斯报导。"
-          },
-          {
-            "number": 11,
-            "speaker": "KATE",
-            "text": "Karen Marsh arrived at London Airport today.",
-            "translation": "卡伦·马什今天到达伦敦机场。"
-          },
-          {
-            "number": 12,
-            "speaker": "KATE",
-            "text": "She was wearing a blue dress and a mink coat.",
-            "translation": "她穿着一身蓝色的套装和一件貂皮大衣。"
-          },
-          {
-            "number": 13,
-            "speaker": "KATE",
-            "text": "She told me she had just made a new film.",
-            "translation": "她告诉我她刚拍完一部新片子。"
-          },
-          {
-            "number": 14,
-            "speaker": "KATE",
-            "text": "She said she was not going to make another.",
-            "translation": "她说不准备再拍电影了。"
-          },
-          {
-            "number": 15,
-            "speaker": "KATE",
-            "text": "She said she was going to retire.",
-            "translation": "她说她准备退休。"
-          },
-          {
-            "number": 16,
-            "speaker": "KATE",
-            "text": "She told reporters she felt very tired and didn't want to make another film for a long time.'",
-            "translation": "她告诉记者她感到很疲劳，早就不想再拍电影了。」"
+            "text": "Let's buy a newspaper, Liz. Listen to this! 'Karen Marsh: Sensational News! By our reporter, Alan Jones. Karen Marsh arrived at London Airport today. She was wearing a blue dress and a mink coat. She told me she had just made a new film. She said she was not going to make another. She said she was going to retire. She told reporters she felt very tired and didn't want to make another film for a long time.'",
+            "translation": "我们买份报纸吧，莉兹。 你听这段： 「卡伦·马什：爆炸性新闻！由本报记者艾伦·琼斯报导。 卡伦·马什今天到达伦敦机场。 她穿着一身蓝色的套装和一件貂皮大衣。 她告诉我她刚拍完一部新片子。 她说不准备再拍电影了。 她说她准备退休。 她告诉记者她感到很疲劳，早就不想再拍电影了。」"
           },
           {
             "number": 17,
@@ -970,54 +914,68 @@
     "Reporter": {
       "description": "采访卡伦·马什的记者（艾伦·琼斯）",
       "name": "Reporter",
-      "illustration_appearance": "Male reporter about 35, short brown hair, gray suit, notebook.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-133-01-text.jpg"
     },
     "Miss Marsh (Karen Marsh)": {
       "description": "刚拍完一部新电影、准备退休的女演员",
       "name": "Miss Marsh (Karen Marsh)",
-      "illustration_appearance": "Actress about 40, elegant dark waved hair, blue dress, brown fur-look coat as stated in the text.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-133-01-text.jpg"
     },
     "Kate": {
       "description": "买报纸给莉兹看的女子",
       "name": "Kate",
-      "illustration_appearance": "Woman about 30, straight dark bob, pale blue blouse.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-133-01-text.jpg"
     },
     "Liz": {
       "description": "读到爆炸性新闻的女子",
       "name": "Liz",
-      "illustration_appearance": "Woman about 29, blond shoulder-length waves, green cardigan.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-133-01-text.jpg"
     }
   },
   "images": {
-    "l133-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Two small illustration panels beside the dialogue: 1 a reporter interviewing a film star (Karen Marsh) in front of an airplane at the airport; 2 two women (Kate and Liz) reading a newspaper that reads 'KAREN MARSH SENSATIONAL NEWS'.",
-      "source": "img/lesson-133-01-text.jpg (textbook p.269)",
-      "illustration_scene": "At an airport, a reporter with a notebook interviews Karen Marsh. She wears a BLUE dress and brown fur-look coat, and appears tired after making a film. A passenger aircraft is visible through large terminal windows.",
-      "characters": [
-        "Reporter",
-        "Miss Marsh (Karen Marsh)"
-      ],
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-133/l133-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Sensational news! 爆炸性新闻！",
-      "alt": "At an airport, a reporter with a notebook interviews Karen Marsh.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 133017,
-        "manifest": "illustrations/manifests/133-l133-scene.json"
-      },
-      "layout": "above"
+      "description": "Have you just made a new film, Miss Marsh? Yes, I have. Are you going to make another? No, I'm not. I'm going to retire. I feel very tired. I don't want to make another film for a long time.",
+      "source": "../img/lesson-133-01-text.jpg",
+      "src": "assets/lesson-133/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-133-01-text.jpg",
+        "sha256": "019ac9b4c773104d1bc28ff35693b4e91a9dbc71028a1a8f5850267fc154fb04",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/133/generation.json",
+        "review_record": "illustrations/photo-repairs/133/review.json",
+        "asset_sha256": "802f861ee70d211fd0c0b102dd14fac79621869c621fdfd4582a5a12557fada7"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Let's buy a newspaper, Liz. Listen to this! 'Karen Marsh: Sensational News! By our reporter, Alan Jones. Karen Marsh arrived at London Airport today. She was wearing a blue dress and a mink coat. She told me she had just made a new film. She said she was not going to make another. She said she was going to retire. She told reporters she felt very tired and didn't want to make another film for a long time.' I wonder why!",
+      "source": "../img/lesson-133-01-text.jpg",
+      "src": "assets/lesson-133/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-133-01-text.jpg",
+        "sha256": "019ac9b4c773104d1bc28ff35693b4e91a9dbc71028a1a8f5850267fc154fb04",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/133/generation.json",
+        "review_record": "illustrations/photo-repairs/133/review.json",
+        "asset_sha256": "20603df4973e443adfb75081cda4cc477e8043fb48010910ba044c175d293d15"
+      }
     }
   },
   "grammar_source_audit": {
@@ -1032,5 +990,12 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-133-01-text.jpg",
+    "sha256": "019ac9b4c773104d1bc28ff35693b4e91a9dbc71028a1a8f5850267fc154fb04",
+    "scope": "Lesson picture/text layout"
+  }
 }

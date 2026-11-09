@@ -19,7 +19,8 @@
         "id": "l135-lesson-story",
         "type": "dialogue",
         "source": "../img/lesson-135-01-text.jpg",
-        "image": "l135-scene",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -32,7 +33,16 @@
             "speaker": "Miss Marsh",
             "text": "I may. I can't make up my mind. I will have to ask my future husband. He won't let me make another film.",
             "translation": "有可能。我拿不定主意。我得问问我的未婚夫。他不会让我再拍电影了。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-135-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 3,
             "speaker": "Reporter",
@@ -44,31 +54,31 @@
             "speaker": "Miss Marsh",
             "text": "Yes. Let me introduce him to you. His name is Carlos. We're going to get married next week.",
             "translation": "是的。让我把他介绍给您。他叫卡洛斯。我们打算下星期结婚。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-135-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 5,
             "speaker": "Kate",
-            "text": "Look, Liz! Here's another report about Karen Marsh. Listen. Karen Marsh: The latest.",
-            "translation": "瞧，莉兹！这里又有一篇关于卡伦·马什的报道。听着：卡伦·马什——最新消息。"
-          },
-          {
-            "number": 6,
-            "speaker": "Kate",
-            "text": "At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind.",
-            "translation": "今天在伦敦的旅馆里，马什小姐告诉记者她可能要退休。她说她拿不定主意。"
-          },
-          {
-            "number": 7,
-            "speaker": "Kate",
-            "text": "She said she would have to ask her future husband. She said her future husband would not let her make another film.",
-            "translation": "她说她得问问她的未婚夫。她说她的未婚夫不会再让她拍电影了。"
-          },
-          {
-            "number": 8,
-            "speaker": "Kate",
-            "text": "Then she introduced us to Carlos and told us they would get married next week.",
-            "translation": "随后她向我们介绍了卡洛斯，并告诉我们他们下星期要结婚。"
-          },
+            "text": "Look, Liz! Here's another report about Karen Marsh. Listen. Karen Marsh: The latest. At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind. She said she would have to ask her future husband. She said her future husband would not let her make another film. Then she introduced us to Carlos and told us they would get married next week.",
+            "translation": "瞧，莉兹！这里又有一篇关于卡伦·马什的报道。听着：卡伦·马什——最新消息。 今天在伦敦的旅馆里，马什小姐告诉记者她可能要退休。她说她拿不定主意。 她说她得问问她的未婚夫。她说她的未婚夫不会再让她拍电影了。 随后她向我们介绍了卡洛斯，并告诉我们他们下星期要结婚。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-135-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 9,
             "speaker": "Liz",
@@ -914,61 +924,114 @@
     "reporter": {
       "description": "A male reporter interviewing Karen Marsh.",
       "name": "reporter",
-      "illustration_appearance": "Male reporter about 35, short brown hair, gray suit, notebook.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-135-01-text.jpg"
     },
     "karen-marsh": {
       "description": "Karen Marsh, the actress considering retirement.",
       "name": "karen marsh",
-      "illustration_appearance": "Actress about 40, dark waved hair, elegant blue dress, brown fur-look coat.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-135-01-text.jpg"
     },
     "carlos": {
       "description": "Carlos, Karen Marsh’s future husband; she introduces him to the reporter.",
       "name": "carlos",
-      "illustration_appearance": "Man about 45, short dark wavy hair, neat moustache, charcoal suit, white shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-135-01-text.jpg"
     },
     "kate": {
       "description": "Kate, a woman reading the newspaper report to Liz.",
       "name": "kate",
-      "illustration_appearance": "Woman about 30, dark bob, pale blue blouse.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-135-01-text.jpg"
     },
     "liz": {
       "description": "Liz, a woman listening to Kate.",
       "name": "liz",
-      "illustration_appearance": "Woman about 29, blond shoulder-length waves, green cardigan.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-135-01-text.jpg"
     }
   },
   "images": {
-    "l135-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Karen Marsh arriving at her London hotel, being interviewed by reporters about her retirement plans",
-      "source": "img/lesson-135-01-text.jpg (textbook p.273)",
-      "illustration_scene": "In a London hotel lobby, Karen Marsh introduces her future husband Carlos to a reporter holding a notebook. Karen gestures toward Carlos, who stands close beside her and smiles. Three distinct adults, upholstered seats and warm hotel lighting.",
-      "characters": [
-        "karen-marsh",
-        "carlos",
-        "reporter"
-      ],
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-135/l135-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "The latest report",
-      "alt": "In a London hotel lobby, Karen Marsh introduces her future husband Carlos to a reporter holding a notebook.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 135017,
-        "manifest": "illustrations/manifests/135-l135-scene.json"
-      },
-      "layout": "above"
+      "description": "Are you really going to retire, Miss Marsh? I may. I can't make up my mind. I will have to ask my future husband. He won't let me make another film.",
+      "source": "../img/lesson-135-01-text.jpg",
+      "src": "assets/lesson-135/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-135-01-text.jpg",
+        "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/135/generation.json",
+        "review_record": "illustrations/photo-repairs/135/review.json",
+        "asset_sha256": "fccee20acb5478c32b072461f8bcd125e2a074c79a9609edfab45abfd1f8f736"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Your future husband, Miss Marsh? Yes. Let me introduce him to you. His name is Carlos. We're going to get married next week.",
+      "source": "../img/lesson-135-01-text.jpg",
+      "src": "assets/lesson-135/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-135-01-text.jpg",
+        "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/135/generation.json",
+        "review_record": "illustrations/photo-repairs/135/review.json",
+        "asset_sha256": "d5ff64e9e3be2822bf72e0ec36fe459fa3793c4749b2f08e90604a94ed7800e0"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Look, Liz! Here's another report about Karen Marsh. Listen. Karen Marsh: The latest. At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind. She said she would have to ask her future husband. She said her future husband would not let her make another film. Then she introduced us to Carlos and told us they would get married next week.",
+      "source": "../img/lesson-135-01-text.jpg",
+      "src": "assets/lesson-135/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-135-01-text.jpg",
+        "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/135/generation.json",
+        "review_record": "illustrations/photo-repairs/135/review.json",
+        "asset_sha256": "f0f5336971c80e5b2697e1d20c97678f6ebb608f6961229684a6f5de7768fa35"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "That's sensational news, isn't it, Kate? It certainly is. He'll be her sixth husband!",
+      "source": "../img/lesson-135-01-text.jpg",
+      "src": "assets/lesson-135/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-135-01-text.jpg",
+        "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/135/generation.json",
+        "review_record": "illustrations/photo-repairs/135/review.json",
+        "asset_sha256": "1756c410d0dbad1d14525b45750a43c9b0f066898ccb412d275aebd3f9917bec"
+      }
     }
   },
   "grammar_source_audit": {
@@ -987,5 +1050,12 @@
     "evidence": "Visually checked source scan and existing independently verified audio passage overrides. Corrected story/roles before creating illustrations; practice and grammar untouched."
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-135-01-text.jpg",
+    "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
+    "scope": "Lesson picture/text layout"
+  }
 }

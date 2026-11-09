@@ -12,65 +12,77 @@
         "id": "l137-lesson-intro",
         "type": "text",
         "source": "textbook-p277",
-        "text": "Listen to the tape and then answer the question that follows. 听录音，然后回答所接下来的问题。",
-        "translation": "听录音，然后回答所接下来的问题。"
-      },
-      {
-        "id": "l137-lesson-dialogue",
-        "type": "dialogue",
-        "source": "textbook-p277",
-        "image": "l137-scene",
-        "lines": [
-          {
-            "number": 1,
-            "speaker": "Brian",
-            "text": "I've nearly finished the football pools, Julie. I'm sure we'll win something this week.",
-            "translation": "我差不多已填好足球彩票，朱莉。我肯定我们这星期会中的。"
-          },
-          {
-            "number": 2,
-            "speaker": "Julie",
-            "text": "We never win anything, but what will you do if you win a lot of money?",
-            "translation": "我们从来未中过奖，但如果你中了一大笔钱，你将干什么？"
-          },
-          {
-            "number": 3,
-            "speaker": "Brian",
-            "text": "If I win a lot of money, I'll buy you a mink coat.",
-            "translation": "如果我中了大笔钱，我就给你买一件貂皮大衣。"
-          },
-          {
-            "number": 4,
-            "speaker": "Julie",
-            "text": "I don't want a mink coat! I want to see the world.",
-            "translation": "我不想要貂皮大衣！我想看看这个世界。"
-          },
-          {
-            "number": 5,
-            "speaker": "Brian",
-            "text": "All right. If we win a lot of money, we'll travel round the world and we'll stay at the best hotels. Then we'll return home and buy a big house in the country.",
-            "translation": "好吧。如果我们中了大笔钱，我们将环游世界并住最好的旅馆。然后我们回来，在乡下买幢大房子。"
-          },
-          {
-            "number": 6,
-            "speaker": "Julie",
-            "text": "But if we spend all that money, we'll be poor again. And what will we do then?",
-            "translation": "但如果我们把钱花光了，我们又将变成穷人。那时我们将怎么办呢？"
-          },
-          {
-            "number": 7,
-            "speaker": "Brian",
-            "text": "If we spend all the money, we'll try and win the football pools again!",
-            "translation": "如果花光所有的钱，我们再来一次足球彩票！"
-          }
-        ]
+        "text": "Listen then answer this question.",
+        "translation": "听录音，然后回答问题。"
       },
       {
         "id": "l137-lesson-question",
         "type": "text",
-        "source": "textbook-p277",
-        "text": "Question: 问题。Who always wins the football pools? 谁总是中足球彩票奖？",
-        "translation": "问题：谁总是中足球彩票奖？"
+        "source": "../img/lesson-137-01-text.jpg",
+        "text": "What would Julie like to do, if she had the money?",
+        "translation": "如果朱莉有那笔钱，她想做什么呢？"
+      },
+      {
+        "id": "l137-lesson-dialogue",
+        "type": "dialogue",
+        "source": "../img/lesson-137-01-text.jpg",
+        "image": "l137-scene",
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "Julie",
+            "text": "Are you doing the football pools, Brian?",
+            "translation": "你在下足球赛的赌注吗，布赖恩？"
+          },
+          {
+            "number": 2,
+            "speaker": "Brian",
+            "text": "Yes, I've nearly finished, Julie. I'm sure we'll win something this week.",
+            "translation": "是的，朱莉。我这就做完了。我肯定这星期我们会赢一点的。"
+          },
+          {
+            "number": 3,
+            "speaker": "Julie",
+            "text": "You always say that, but we never win anything! What will you do if you win a lot of money?",
+            "translation": "你总是这样说，但我们从来没赢过！如果你赢了很多钱，你打算干什么？"
+          },
+          {
+            "number": 4,
+            "speaker": "Brian",
+            "text": "If I win a lot of money I'll buy you a mink coat.",
+            "translation": "如果我赢了很多钱，我就给你买件貂皮大衣。"
+          },
+          {
+            "number": 5,
+            "speaker": "Julie",
+            "text": "I don't want a mink coat! I want to see the world.",
+            "translation": "我不要貂皮大衣！我要去看看世界。"
+          },
+          {
+            "number": 6,
+            "speaker": "Brian",
+            "text": "All right. If we win a lot of money we'll travel round the world and we'll stay at the best hotels. Then we'll return home and buy a big house in the country. We'll have a beautiful garden and …",
+            "translation": "好吧。如果我们赢了很多钱，我们就周游世界，住最好的旅馆。然后我们回到家乡，在乡下买幢大房子。我们会有一个漂亮的花园，而且……"
+          },
+          {
+            "number": 7,
+            "speaker": "Julie",
+            "text": "But if we spend all that money we'll be poor again. What'll we do then?",
+            "translation": "但如果我们把钱都花光了，我们又会变穷。到那时我们怎么办呢？"
+          },
+          {
+            "number": 8,
+            "speaker": "Brian",
+            "text": "If we spend all the money we'll try and win the football pools again.",
+            "translation": "如果我们把钱都花光了，我们就设法再在足球彩票上赢一次。"
+          },
+          {
+            "number": 9,
+            "speaker": "Julie",
+            "text": "It's a pleasant dream but everything depends on 'if'!",
+            "translation": "这是个美好的梦，但一切都取决于“如果”！"
+          }
+        ]
       },
       {
         "id": "l137-lesson-vocab",
@@ -746,5 +758,11 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-137-01-text.jpg",
+    "sha256": "910a1ab0924ae5fadaa81ac2075477ffe5f1641f3d97965803a4ff76c6ec7273",
+    "scope": "Lesson picture/text layout"
+  }
 }

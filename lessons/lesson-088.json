@@ -89,10 +89,76 @@
       },
       {
         "id": "lesson-verbs",
-        "type": "text",
+        "type": "table",
         "source": "../img/lesson-088-01-text.jpg",
-        "text": "Study these verbs.\n记住以下不规则动词的过去式和过去分词。\n\nbuy — bought — bought\nfind — found — found\nget — got — got\nhave — had — had\nhear — heard — heard\nleave — left — left\nlose — lost — lost\nmake — made — made\nmeet — met — met\nsend — sent — sent\nsweep — swept — swept\ntell — told — told",
-        "translation": "Irregular verbs with their past and past-participle forms."
+        "caption": "Study these verbs · 不规则动词",
+        "headers": [
+          "Base form",
+          "Past",
+          "Past participle"
+        ],
+        "rows": [
+          [
+            "buy",
+            "bought",
+            "bought"
+          ],
+          [
+            "find",
+            "found",
+            "found"
+          ],
+          [
+            "get",
+            "got",
+            "got"
+          ],
+          [
+            "have",
+            "had",
+            "had"
+          ],
+          [
+            "hear",
+            "heard",
+            "heard"
+          ],
+          [
+            "leave",
+            "left",
+            "left"
+          ],
+          [
+            "lose",
+            "lost",
+            "lost"
+          ],
+          [
+            "make",
+            "made",
+            "made"
+          ],
+          [
+            "meet",
+            "met",
+            "met"
+          ],
+          [
+            "send",
+            "sent",
+            "sent"
+          ],
+          [
+            "sweep",
+            "swept",
+            "swept"
+          ],
+          [
+            "tell",
+            "told",
+            "told"
+          ]
+        ]
       },
       {
         "id": "written-a",
@@ -231,6 +297,12 @@
             "rows": 4
           }
         ]
+      },
+      {
+        "id": "lesson-photo-source-note",
+        "type": "text",
+        "source": "../img/lesson-088-01-text.jpg",
+        "text": "照片在不规则动词表底部裁切；这里保留可辨识的12个动词，无法据此确认下方是否还有内容。"
       }
     ],
     "practice": [
@@ -682,5 +754,11 @@
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-088-01-text.jpg",
+    "sha256": "06861469aa87c09732d0c798dbf97c05cd7c02e4b3640392c94679a61419ef02",
+    "scope": "Lesson picture/text layout"
+  }
 }
