@@ -12,16 +12,62 @@
         "id": "l126-lesson-intro",
         "type": "text",
         "source": "textbook-p255",
-        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l126-lesson-pictures",
         "type": "text",
-        "source": "textbook-p255",
-        "image": "l126-pictures",
-        "text": "1. Do you have to go now? / Yes, I have to leave immediately.\n2. Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.\n3. Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.\n4. Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!\n5. Do you have to water the garden? / No, I don't need to water it now. It's going to rain.\n6. Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
-        "translation": "1. 你现在必须走了吗？/ 是的，我必须立刻离开。\n2. 你明天早上必须早起吗？/ 是的，我不得不六点钟起床。\n3. 你不得不打的了吗？/ 恐怕是的，我坐不上公共汽车。\n4. 你的朋友还没到吗？你等了多久了？/ 我不得不等了两个小时了！\n5. 你不得不浇花园吗？/ 不，我现在不必浇，天要下雨了。\n6. 我们不得不走到车站吗？/ 不，我们不必，我们可以坐公共汽车。"
+        "source": "../img/lesson-126-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Do you have to go now? / Yes, I have to leave immediately.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-126-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-126-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-126-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-126-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-126-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
+        "translation": ""
       },
       {
         "id": "l126-lesson-listening",
@@ -34,12 +80,42 @@
         "answer_kind": "suggested",
         "context": "One question per picture (6 pictures); the answer is the spoken reply from the picture captions.",
         "questions": [
-          {"id": "l126-lq1", "number": 1, "prompt": "Do you have to go now? (Picture 1)", "answer": "Yes, I have to leave immediately."},
-          {"id": "l126-lq2", "number": 2, "prompt": "Do you have to get up early tomorrow morning? (Picture 2)", "answer": "Yes, I'll have to get up at six o'clock."},
-          {"id": "l126-lq3", "number": 3, "prompt": "Did you have to take a taxi? (Picture 3)", "answer": "I'm afraid I had to. I couldn't get a bus."},
-          {"id": "l126-lq4", "number": 4, "prompt": "Hasn't your friend arrived yet? How long have you had to wait? (Picture 4)", "answer": "I've had to wait for two hours!"},
-          {"id": "l126-lq5", "number": 5, "prompt": "Do you have to water the garden? (Picture 5)", "answer": "No, I don't need to water it now. It's going to rain."},
-          {"id": "l126-lq6", "number": 6, "prompt": "Do we have to walk to the station? (Picture 6)", "answer": "No, we don't need to. We can catch a bus."}
+          {
+            "id": "l126-lq1",
+            "number": 1,
+            "prompt": "Do you have to go now? (Picture 1)",
+            "answer": "Yes, I have to leave immediately."
+          },
+          {
+            "id": "l126-lq2",
+            "number": 2,
+            "prompt": "Do you have to get up early tomorrow morning? (Picture 2)",
+            "answer": "Yes, I'll have to get up at six o'clock."
+          },
+          {
+            "id": "l126-lq3",
+            "number": 3,
+            "prompt": "Did you have to take a taxi? (Picture 3)",
+            "answer": "I'm afraid I had to. I couldn't get a bus."
+          },
+          {
+            "id": "l126-lq4",
+            "number": 4,
+            "prompt": "Hasn't your friend arrived yet? How long have you had to wait? (Picture 4)",
+            "answer": "I've had to wait for two hours!"
+          },
+          {
+            "id": "l126-lq5",
+            "number": 5,
+            "prompt": "Do you have to water the garden? (Picture 5)",
+            "answer": "No, I don't need to water it now. It's going to rain."
+          },
+          {
+            "id": "l126-lq6",
+            "number": 6,
+            "prompt": "Do we have to walk to the station? (Picture 6)",
+            "answer": "No, we don't need to. We can catch a bus."
+          }
         ]
       },
       {
@@ -47,7 +123,12 @@
         "type": "vocabulary",
         "source": "textbook-p256",
         "items": [
-          {"word": "immediately", "ipa": "/'ɪmɪdiətli/", "pos": "adv.", "meaning": "立即地"}
+          {
+            "word": "immediately",
+            "ipa": "/'ɪmɪdiətli/",
+            "pos": "adv.",
+            "meaning": "立即地"
+          }
         ]
       },
       {
@@ -61,10 +142,30 @@
         "answer_kind": "suggested",
         "context": "4 items; 2 examples printed on the page (You have to leave early. → Do you have to leave early? / You don't have to leave early. She must leave early. → Must she leave early? / She needn't leave early.).",
         "questions": [
-          {"id": "l126-wa1", "number": 1, "prompt": "She has to decide immediately.", "answer": "Does she have to decide immediately? / She doesn't have to decide immediately."},
-          {"id": "l126-wa2", "number": 2, "prompt": "She must decide immediately.", "answer": "Must she decide immediately? / She needn't decide immediately."},
-          {"id": "l126-wa3", "number": 3, "prompt": "We have to take a taxi.", "answer": "Do we have to take a taxi? / We don't have to take a taxi."},
-          {"id": "l126-wa4", "number": 4, "prompt": "We must take a taxi.", "answer": "Must we take a taxi? / We needn't take a taxi."}
+          {
+            "id": "l126-wa1",
+            "number": 1,
+            "prompt": "She has to decide immediately.",
+            "answer": "Does she have to decide immediately? / She doesn't have to decide immediately."
+          },
+          {
+            "id": "l126-wa2",
+            "number": 2,
+            "prompt": "She must decide immediately.",
+            "answer": "Must she decide immediately? / She needn't decide immediately."
+          },
+          {
+            "id": "l126-wa3",
+            "number": 3,
+            "prompt": "We have to take a taxi.",
+            "answer": "Do we have to take a taxi? / We don't have to take a taxi."
+          },
+          {
+            "id": "l126-wa4",
+            "number": 4,
+            "prompt": "We must take a taxi.",
+            "answer": "Must we take a taxi? / We needn't take a taxi."
+          }
         ]
       },
       {
@@ -78,10 +179,30 @@
         "answer_kind": "suggested",
         "context": "4 answer items; 1 example printed on the page (I must go now. What about you? → I have to go, too.).",
         "questions": [
-          {"id": "l126-wb1", "number": 1, "prompt": "I must telephone him. What about you?", "answer": "I have to telephone him, too."},
-          {"id": "l126-wb2", "number": 2, "prompt": "I must wait for him. What about Mary?", "answer": "Mary has to wait for him, too."},
-          {"id": "l126-wb3", "number": 3, "prompt": "I must meet her. What about Jim?", "answer": "Jim has to meet her, too."},
-          {"id": "l126-wb4", "number": 4, "prompt": "I must travel by ship. What about Tom and Mary?", "answer": "They have to travel by ship, too."}
+          {
+            "id": "l126-wb1",
+            "number": 1,
+            "prompt": "I must telephone him. What about you?",
+            "answer": "I have to telephone him, too."
+          },
+          {
+            "id": "l126-wb2",
+            "number": 2,
+            "prompt": "I must wait for him. What about Mary?",
+            "answer": "Mary has to wait for him, too."
+          },
+          {
+            "id": "l126-wb3",
+            "number": 3,
+            "prompt": "I must meet her. What about Jim?",
+            "answer": "Jim has to meet her, too."
+          },
+          {
+            "id": "l126-wb4",
+            "number": 4,
+            "prompt": "I must travel by ship. What about Tom and Mary?",
+            "answer": "They have to travel by ship, too."
+          }
         ]
       },
       {
@@ -95,10 +216,30 @@
         "answer_kind": "suggested",
         "context": "4 question items; 1 example printed on the page (I must go now. → Do you really have to go now?).",
         "questions": [
-          {"id": "l126-wc1", "number": 1, "prompt": "I must telephone him.", "answer": "Do you really have to telephone him?"},
-          {"id": "l126-wc2", "number": 2, "prompt": "Mary must wait for him.", "answer": "Does Mary really have to wait for him?"},
-          {"id": "l126-wc3", "number": 3, "prompt": "Jim must meet her.", "answer": "Does Jim really have to meet her?"},
-          {"id": "l126-wc4", "number": 4, "prompt": "Tom and Mary must travel by ship.", "answer": "Do Tom and Mary really have to travel by ship?"}
+          {
+            "id": "l126-wc1",
+            "number": 1,
+            "prompt": "I must telephone him.",
+            "answer": "Do you really have to telephone him?"
+          },
+          {
+            "id": "l126-wc2",
+            "number": 2,
+            "prompt": "Mary must wait for him.",
+            "answer": "Does Mary really have to wait for him?"
+          },
+          {
+            "id": "l126-wc3",
+            "number": 3,
+            "prompt": "Jim must meet her.",
+            "answer": "Does Jim really have to meet her?"
+          },
+          {
+            "id": "l126-wc4",
+            "number": 4,
+            "prompt": "Tom and Mary must travel by ship.",
+            "answer": "Do Tom and Mary really have to travel by ship?"
+          }
         ]
       }
     ],
@@ -203,76 +344,169 @@
   ],
   "characters": {},
   "images": {
-    "l126-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Six numbered pictures in a 3x2 grid: 1 two people at a door in the rain; 2 a man and woman by an alarm clock; 3 a man in a taxi at a bus stop; 4 two men talking on the street; 5 two people by a garden before rain; 6 two people walking past a bus stop.",
-      "src": "assets/lesson-126/l126-pictures-color.webp",
-      "width": 512,
-      "height": 480,
-      "source": "img/lesson-126-01-text.jpg (textbook p.255)",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/126-complete-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 480,
-      "illustration_scene": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Six numbered pictures in a 3x2 grid: 1 two people at a door in the rain; 2 a man and woman by an alarm clock; 3 a man in a taxi at a bus stop; 4 two men talking on the street; 5 two people by a garden before rain; 6 two people walking past a bus stop.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 259,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            74,
-            214,
-            254,
-            307
-          ],
-          [
-            427,
-            212,
-            607,
-            306
-          ],
-          [
-            75,
-            465,
-            256,
-            558
-          ],
-          [
-            429,
-            463,
-            609,
-            557
-          ],
-          [
-            77,
-            690,
-            258,
-            784
-          ],
-          [
-            431,
-            688,
-            611,
-            783
-          ]
+      "description": "Do you have to go now? / Yes, I have to leave immediately.",
+      "source": "../img/lesson-126-01-text.jpg",
+      "src": "assets/lesson-126/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-126-01-text.jpg",
+        "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+        "label": "1",
+        "asset_sha256": "523cfd0b98434a3e51a822233579a05769a0dc3fa5c25651dfb3207e7b718bc8",
+        "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
+        "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "origin": "local-model",
-      "caption": "Have to and do not need to 不得不和不必要",
-      "alt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 126017,
-        "manifest": "illustrations/manifests/126-l126-pictures.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.",
+      "source": "../img/lesson-126-01-text.jpg",
+      "src": "assets/lesson-126/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-126-01-text.jpg",
+        "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+        "label": "2",
+        "asset_sha256": "8053470ac6c0075cd1f2bda765244c360a4631aa21e6c36615f168d301d2bbeb",
+        "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
+        "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.",
+      "source": "../img/lesson-126-01-text.jpg",
+      "src": "assets/lesson-126/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-126-01-text.jpg",
+        "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+        "label": "3",
+        "asset_sha256": "5464a1dc871f64db53cc69faad21ecee69b712da40d675459d570bf5f42c7434",
+        "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
+        "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!",
+      "source": "../img/lesson-126-01-text.jpg",
+      "src": "assets/lesson-126/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-126-01-text.jpg",
+        "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+        "label": "4",
+        "asset_sha256": "331d80a4db4b35adfd27c39e3b7276365dd14deec610e48cc2171c70c207ed58",
+        "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
+        "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
+      "source": "../img/lesson-126-01-text.jpg",
+      "src": "assets/lesson-126/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-126-01-text.jpg",
+        "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+        "label": "5",
+        "asset_sha256": "ab4fdb4e6a4b7c9a5aecb16e67e5d47cc6590253b88577f7d7eaad5f5bed3c25",
+        "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
+        "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
+      "source": "../img/lesson-126-01-text.jpg",
+      "src": "assets/lesson-126/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-126-01-text.jpg",
+        "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+        "label": "6",
+        "asset_sha256": "e890e86ec1a352a520dc6c9e936f56506a930019d1b768d640c471927515fd2e",
+        "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
+        "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-126-01-text.jpg",
+    "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
+    "scope": "Lesson picture/text layout"
+  }
 }

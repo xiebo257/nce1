@@ -18,23 +18,139 @@
       {
         "id": "l129-lesson-dialogue",
         "type": "dialogue",
-        "source": "textbook-p261",
-        "image": "l129-scene",
+        "source": "../img/lesson-129-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
-          {"number": 1, "speaker": "ANN", "text": "Look, Gary! That policeman's waving to you. He wants you to stop.", "translation": "瞧，加里！那个警察正朝你挥手呢。他要你停下来。"},
-          {"number": 2, "speaker": "POLICEMAN", "text": "Where do you think you are? On a race track? You must have been driving at seventy miles an hour.", "translation": "你认为你现在是在哪儿？在赛车道上吗？你刚才一定是以每小时70英里的速度开车。"},
-          {"number": 3, "speaker": "GARY", "text": "I can't have been.", "translation": "我不会开得那样快的。"},
-          {"number": 4, "speaker": "POLICEMAN", "text": "I was doing eighty when I overtook you.", "translation": "我是以每小时80英里的速度赶上你的。"},
-          {"number": 5, "speaker": "POLICEMAN", "text": "Didn't you see the speed limit?", "translation": "难道你没看见限速牌吗？"},
-          {"number": 6, "speaker": "GARY", "text": "I'm afraid I didn't, officer. I must have been dreaming.", "translation": "恐怕我没有看见，警官。我一定是思想开小差了。"},
-          {"number": 7, "speaker": "ANN", "text": "He wasn't dreaming, officer. I was telling him to drive slowly.", "translation": "警官，他思想没有开小差。我刚才正告诉他开慢点。"},
-          {"number": 8, "speaker": "GARY", "text": "That's why I didn't see the sign.", "translation": "所以我才没看见那牌子。"},
-          {"number": 9, "speaker": "POLICEMAN", "text": "Let me see your driving licence.", "translation": "让我看一看你的驾驶执照。"},
-          {"number": 10, "speaker": "POLICEMAN", "text": "I won't charge you this time. But you'd better not do it again!", "translation": "这次我就不罚你款了。但你最好不要开再这样快。"},
-          {"number": 11, "speaker": "GARY", "text": "Thank you. I'll certainly be more careful.", "translation": "谢谢您。我以后一定会多加注意。"},
-          {"number": 12, "speaker": "ANN", "text": "I told you to drive slowly, Gary.", "translation": "加里，我刚才叫你开慢点吧。"},
-          {"number": 13, "speaker": "GARY", "text": "You always tell me to drive slowly, darling.", "translation": "你总是叫我开慢点，亲爱的。"},
-          {"number": 14, "speaker": "ANN", "text": "Well, next time you'd better take my advice!", "translation": "好啦，下次你最好还是听从我的劝告吧！"}
+          {
+            "number": 1,
+            "speaker": "ANN",
+            "text": "Look, Gary! That policeman's waving to you. He wants you to stop.",
+            "translation": "瞧，加里！那个警察正朝你挥手呢。他要你停下来。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-129-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
+          {
+            "number": 2,
+            "speaker": "POLICEMAN",
+            "text": "Where do you think you are? On a race track? You must have been driving at seventy miles an hour.",
+            "translation": "你认为你现在是在哪儿？在赛车道上吗？你刚才一定是以每小时70英里的速度开车。"
+          },
+          {
+            "number": 3,
+            "speaker": "GARY",
+            "text": "I can't have been.",
+            "translation": "我不会开得那样快的。"
+          },
+          {
+            "number": 4,
+            "speaker": "POLICEMAN",
+            "text": "I was doing eighty when I overtook you.",
+            "translation": "我是以每小时80英里的速度赶上你的。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-129-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
+          {
+            "number": 5,
+            "speaker": "POLICEMAN",
+            "text": "Didn't you see the speed limit?",
+            "translation": "难道你没看见限速牌吗？"
+          },
+          {
+            "number": 6,
+            "speaker": "GARY",
+            "text": "I'm afraid I didn't, officer. I must have been dreaming.",
+            "translation": "恐怕我没有看见，警官。我一定是思想开小差了。"
+          },
+          {
+            "number": 7,
+            "speaker": "ANN",
+            "text": "He wasn't dreaming, officer. I was telling him to drive slowly.",
+            "translation": "警官，他思想没有开小差。我刚才正告诉他开慢点。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-129-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
+          {
+            "number": 8,
+            "speaker": "GARY",
+            "text": "That's why I didn't see the sign.",
+            "translation": "所以我才没看见那牌子。"
+          },
+          {
+            "number": 9,
+            "speaker": "POLICEMAN",
+            "text": "Let me see your driving licence.",
+            "translation": "让我看一看你的驾驶执照。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-129-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
+          {
+            "number": 10,
+            "speaker": "POLICEMAN",
+            "text": "I won't charge you this time. But you'd better not do it again!",
+            "translation": "这次我就不罚你款了。但你最好不要开再这样快。"
+          },
+          {
+            "number": 11,
+            "speaker": "GARY",
+            "text": "Thank you. I'll certainly be more careful.",
+            "translation": "谢谢您。我以后一定会多加注意。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-129-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
+          {
+            "number": 12,
+            "speaker": "ANN",
+            "text": "I told you to drive slowly, Gary.",
+            "translation": "加里，我刚才叫你开慢点吧。"
+          },
+          {
+            "number": 13,
+            "speaker": "GARY",
+            "text": "You always tell me to drive slowly, darling.",
+            "translation": "你总是叫我开慢点，亲爱的。"
+          },
+          {
+            "number": 14,
+            "speaker": "ANN",
+            "text": "Well, next time you'd better take my advice!",
+            "translation": "好啦，下次你最好还是听从我的劝告吧！"
+          }
         ]
       },
       {
@@ -42,16 +158,66 @@
         "type": "vocabulary",
         "source": "textbook-p262",
         "items": [
-          {"word": "wave", "ipa": "/weɪv/", "pos": "v.", "meaning": "招手"},
-          {"word": "track", "ipa": "/træk/", "pos": "n.", "meaning": "跑道"},
-          {"word": "mile", "ipa": "/maɪl/", "pos": "n.", "meaning": "英里"},
-          {"word": "overtake", "ipa": "/ˌəʊvə'teɪk/", "pos": "v.", "meaning": "从后面超越，超车 (overtook, overtaken)"},
-          {"word": "speed limit", "ipa": "/spiːd lɪmɪt/", "pos": "n.", "meaning": "限速"},
-          {"word": "dream", "ipa": "/driːm/", "pos": "v.", "meaning": "做梦，思想不集中"},
-          {"word": "sign", "ipa": "/saɪn/", "pos": "n.", "meaning": "标记，牌子"},
-          {"word": "driving licence", "ipa": "", "pos": "n.", "meaning": "驾驶执照"},
-          {"word": "charge", "ipa": "/tʃɑːdʒ/", "pos": "v.", "meaning": "罚款"},
-          {"word": "darling", "ipa": "/'dɑːlɪŋ/", "pos": "n.", "meaning": "亲爱的（用作表示称呼）"}
+          {
+            "word": "wave",
+            "ipa": "/weɪv/",
+            "pos": "v.",
+            "meaning": "招手"
+          },
+          {
+            "word": "track",
+            "ipa": "/træk/",
+            "pos": "n.",
+            "meaning": "跑道"
+          },
+          {
+            "word": "mile",
+            "ipa": "/maɪl/",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "overtake",
+            "ipa": "/ˌəʊvə'teɪk/",
+            "pos": "v.",
+            "meaning": "从后面超越，超车 (overtook, overtaken)"
+          },
+          {
+            "word": "speed limit",
+            "ipa": "/spiːd lɪmɪt/",
+            "pos": "n.",
+            "meaning": "限速"
+          },
+          {
+            "word": "dream",
+            "ipa": "/driːm/",
+            "pos": "v.",
+            "meaning": "做梦，思想不集中"
+          },
+          {
+            "word": "sign",
+            "ipa": "/saɪn/",
+            "pos": "n.",
+            "meaning": "标记，牌子"
+          },
+          {
+            "word": "driving licence",
+            "ipa": "",
+            "pos": "n.",
+            "meaning": "驾驶执照"
+          },
+          {
+            "word": "charge",
+            "ipa": "/tʃɑːdʒ/",
+            "pos": "v.",
+            "meaning": "罚款"
+          },
+          {
+            "word": "darling",
+            "ipa": "/'dɑːlɪŋ/",
+            "pos": "n.",
+            "meaning": "亲爱的（用作表示称呼）"
+          }
         ]
       },
       {
@@ -59,12 +225,30 @@
         "type": "notes",
         "source": "textbook-p262",
         "items": [
-          {"title": "1. Where do you think you are?", "text": "do you think 是用在特殊疑问句中的插入语，用来征询见解或表达看法。"},
-          {"title": "2. must have been driving", "text": "这种结构用来表示对过去正在进行的事情的推测。可译为「一定」或「准是」。"},
-          {"title": "3. at seventy miles an hour", "text": "每小时70英里的速度。"},
-          {"title": "4. I was doing eighty when I overtook you.", "text": "其中的动词 do 表示「以……速度行进」。"},
-          {"title": "5. But you'd better not do it again!", "text": "you'd better = you had better，后面加动词原形。had better 用于建议在将来某一具体场合采取动作，而不用於一般情况，比 should 语气更为强烈，常有威胁、告诫或催促的意味。"},
-          {"title": "6. you'd better take my advice!", "text": "你最好还是听从我的劝告。take one's advice 是「听从劝告」的意思。"}
+          {
+            "title": "1. Where do you think you are?",
+            "text": "do you think 是用在特殊疑问句中的插入语，用来征询见解或表达看法。"
+          },
+          {
+            "title": "2. must have been driving",
+            "text": "这种结构用来表示对过去正在进行的事情的推测。可译为「一定」或「准是」。"
+          },
+          {
+            "title": "3. at seventy miles an hour",
+            "text": "每小时70英里的速度。"
+          },
+          {
+            "title": "4. I was doing eighty when I overtook you.",
+            "text": "其中的动词 do 表示「以……速度行进」。"
+          },
+          {
+            "title": "5. But you'd better not do it again!",
+            "text": "you'd better = you had better，后面加动词原形。had better 用于建议在将来某一具体场合采取动作，而不用於一般情况，比 should 语气更为强烈，常有威胁、告诫或催促的意味。"
+          },
+          {
+            "title": "6. you'd better take my advice!",
+            "text": "你最好还是听从我的劝告。take one's advice 是「听从劝告」的意思。"
+          }
         ]
       }
     ],
@@ -205,51 +389,151 @@
     "Ann": {
       "description": "加里（Gary）的妻子，一直提醒丈夫开慢点",
       "name": "Ann",
-      "illustration_appearance": "Woman about 35, shoulder-length brown hair, pale blue blouse.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-129-01-text.jpg"
     },
     "Gary": {
       "description": "超速驾驶被警察拦下的男子",
       "name": "Gary",
-      "illustration_appearance": "Man about 38, short dark hair, gray jacket, cream shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-129-01-text.jpg"
     },
     "Policeman": {
       "description": "拦下加里的警察",
       "name": "Policeman",
-      "illustration_appearance": "Man about 40, navy police uniform and peaked cap.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-129-01-text.jpg"
     }
   },
   "images": {
-    "l129-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Six small illustration panels beside the dialogue: 1 a policeman waving a speeding car down near a 40 sign; 2 the policeman speaking to the driver; 3 the car stopped at the 40 sign; 4 a hand holding a driving licence; 5 the policeman warning the driver; 6 Ann in the passenger seat.",
-      "source": "img/lesson-129-01-text.jpg (textbook p.261)",
-      "illustration_scene": "A car is stopped safely at the roadside. A uniformed policeman stands beside the open driver window while Gary hands him his driving licence. Ann sits in the passenger seat looking knowingly at Gary. A circular speed-limit sign marked only 40 is visible behind. British road setting.",
-      "characters": [
-        "Gary",
-        "Ann",
-        "Policeman"
-      ],
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-129/l129-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Seventy miles an hour 时速70英里",
-      "alt": "A car is stopped safely at the roadside.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 129017,
-        "manifest": "illustrations/manifests/129-l129-scene.json"
-      },
-      "layout": "above"
+      "description": "Look, Gary! That policeman's waving to you. He wants you to stop.",
+      "source": "../img/lesson-129-01-text.jpg",
+      "src": "assets/lesson-129/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-129-01-text.jpg",
+        "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/129/generation.json",
+        "review_record": "illustrations/photo-repairs/129/review.json",
+        "asset_sha256": "b5a5d4b4971da1cb8497be7bc0c18942ccd1dcd0bf99d2d2ea7788695260ebc9"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Where do you think you are? On a race track? You must have been driving at seventy miles an hour. I can't have been. I was doing eighty when I overtook you.",
+      "source": "../img/lesson-129-01-text.jpg",
+      "src": "assets/lesson-129/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-129-01-text.jpg",
+        "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/129/generation.json",
+        "review_record": "illustrations/photo-repairs/129/review.json",
+        "asset_sha256": "a12bf7cdcf2656c3b9fd92280c4d3bb41e4b5bc84e7d178652d975b8a40b73da"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Didn't you see the speed limit? I'm afraid I didn't, officer. I must have been dreaming. He wasn't dreaming, officer. I was telling him to drive slowly.",
+      "source": "../img/lesson-129-01-text.jpg",
+      "src": "assets/lesson-129/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-129-01-text.jpg",
+        "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/129/generation.json",
+        "review_record": "illustrations/photo-repairs/129/review.json",
+        "asset_sha256": "ae3de41fcb472722fb0f2a581afc8234e93d2bad561f045f8ab4dedea3c1e37c"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "That's why I didn't see the sign. Let me see your driving licence.",
+      "source": "../img/lesson-129-01-text.jpg",
+      "src": "assets/lesson-129/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-129-01-text.jpg",
+        "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/129/generation.json",
+        "review_record": "illustrations/photo-repairs/129/review.json",
+        "asset_sha256": "260e219a31877ea200951d9d1499ed24b566398b4a360d152c96e98170722eee"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I won't charge you this time. But you'd better not do it again! Thank you. I'll certainly be more careful.",
+      "source": "../img/lesson-129-01-text.jpg",
+      "src": "assets/lesson-129/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-129-01-text.jpg",
+        "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/129/generation.json",
+        "review_record": "illustrations/photo-repairs/129/review.json",
+        "asset_sha256": "a8142422fd77397d534eb6414e2641fd4c70d43d7b0d3265f3843bd9540dab63"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I told you to drive slowly, Gary. You always tell me to drive slowly, darling. Well, next time you'd better take my advice!",
+      "source": "../img/lesson-129-01-text.jpg",
+      "src": "assets/lesson-129/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-129-01-text.jpg",
+        "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/129/generation.json",
+        "review_record": "illustrations/photo-repairs/129/review.json",
+        "asset_sha256": "06a94495ff8f2bd1d44439bccefcb13526b434da99261b4299d8c3a3a36bf9d0"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-129-01-text.jpg",
+    "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
+    "scope": "Lesson picture/text layout"
+  }
 }

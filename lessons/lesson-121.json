@@ -17,11 +17,135 @@
       },
       {
         "id": "l121-lesson-text",
-        "type": "text",
-        "source": "textbook-p245",
-        "image": "l121-scene",
-        "text": "CUSTOMER:  I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.\nMANAGER:   Who served you, sir?\nCUSTOMER:  The lady who is standing behind the counter.\nMANAGER:   Which books did you buy?\nCUSTOMER:  The books which are on the counter.\nMANAGER:   Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.\nCAROLINE:  I can't remember. The man who I served was wearing a hat.\nMANAGER:   Have you got a hat, sir?\nCUSTOMER:  Yes, I have.\nMANAGER:   Would you put it on, please?\nCUSTOMER:  All right.\nMANAGER:   Is this the man that you served, Caroline?\nCAROLINE:  Yes. I recognize him now.",
-        "translation": "顾客：半小时以前我买了两本很贵的词典，但是我忘了拿走。\n经理：是谁接待您的，先生？\n顾客：站在柜台后面的那位女士。\n经理：您买的是哪两本书？\n顾客：就是柜台上的那两本。\n经理：卡罗琳，半小时以前你接待过这位先生吗？他说他就是买这两本书的人。\n卡罗琳：我想不起来了。我接待的那个人戴着一顶帽子。\n经理：先生，您有一顶帽子吗？\n顾客：有。\n经理：请您戴上，好吗？\n顾客：好。\n经理：卡罗琳，这就是你接待过的那个人吗？\n卡罗琳：是的。我现在认出他了。"
+        "type": "dialogue",
+        "source": "../img/lesson-121-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "CUSTOMER",
+            "text": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+            "translation": "半小时以前我买了两本很贵的词典，但是我忘了拿走。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-121-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
+          {
+            "number": 2,
+            "speaker": "MANAGER",
+            "text": "Who served you, sir?",
+            "translation": "是谁接待您的，先生？"
+          },
+          {
+            "number": 3,
+            "speaker": "CUSTOMER",
+            "text": "The lady who is standing behind the counter.",
+            "translation": "站在柜台后面的那位女士。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-121-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
+          {
+            "number": 4,
+            "speaker": "MANAGER",
+            "text": "Which books did you buy?",
+            "translation": "您买的是哪两本书？"
+          },
+          {
+            "number": 5,
+            "speaker": "CUSTOMER",
+            "text": "The books which are on the counter.",
+            "translation": "就是柜台上的那两本。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-121-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
+          {
+            "number": 6,
+            "speaker": "MANAGER",
+            "text": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
+            "translation": "卡罗琳，半小时以前你接待过这位先生吗？他说他就是买这两本书的人。"
+          },
+          {
+            "number": 7,
+            "speaker": "CAROLINE",
+            "text": "I can't remember. The man who I served was wearing a hat.",
+            "translation": "我想不起来了。我接待的那个人戴着一顶帽子。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-121-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
+          {
+            "number": 8,
+            "speaker": "MANAGER",
+            "text": "Have you got a hat, sir?",
+            "translation": "先生，您有一顶帽子吗？"
+          },
+          {
+            "number": 9,
+            "speaker": "CUSTOMER",
+            "text": "Yes, I have.",
+            "translation": "有。"
+          },
+          {
+            "number": 10,
+            "speaker": "MANAGER",
+            "text": "Would you put it on, please?",
+            "translation": "请您戴上，好吗？"
+          },
+          {
+            "number": 11,
+            "speaker": "CUSTOMER",
+            "text": "All right.",
+            "translation": "好。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-121-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
+          {
+            "number": 12,
+            "speaker": "MANAGER",
+            "text": "Is this the man that you served, Caroline?",
+            "translation": "卡罗琳，这就是你接待过的那个人吗？"
+          },
+          {
+            "number": 13,
+            "speaker": "CAROLINE",
+            "text": "Yes. I recognize him now.",
+            "translation": "是的。我现在认出他了。"
+          }
+        ]
       },
       {
         "id": "l121-lesson-question",
@@ -34,7 +158,12 @@
         "answer_kind": "suggested",
         "context": "Comprehension question about why Caroline did not recognize the customer.",
         "questions": [
-          {"id": "l121-lq1", "number": 1, "prompt": "Why didn't Caroline recognize the customer straight away?", "answer": "Because the customer had taken his hat off, and the man she had served was wearing a hat."}
+          {
+            "id": "l121-lq1",
+            "number": 1,
+            "prompt": "Why didn't Caroline recognize the customer straight away?",
+            "answer": "Because the customer had taken his hat off, and the man she had served was wearing a hat."
+          }
         ]
       },
       {
@@ -42,12 +171,42 @@
         "type": "vocabulary",
         "source": "textbook-p246",
         "items": [
-          {"word": "customer", "ipa": "/'kʌstəmə/", "pos": "n.", "meaning": "顾客"},
-          {"word": "forget", "ipa": "/fə'get/ (forgot /fə'gɒt/, forgotten /fə'gɒtn/)", "pos": "v.", "meaning": "忘记"},
-          {"word": "manager", "ipa": "/'mænɪdʒə/", "pos": "n.", "meaning": "经理"},
-          {"word": "serve", "ipa": "/sɜːv/", "pos": "v.", "meaning": "照应，服务，接待"},
-          {"word": "counter", "ipa": "/'kaʊntə/", "pos": "n.", "meaning": "柜台"},
-          {"word": "recognize", "ipa": "/'rekəgnəɪz/", "pos": "v.", "meaning": "认出"}
+          {
+            "word": "customer",
+            "ipa": "/'kʌstəmə/",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "forget",
+            "ipa": "/fə'get/ (forgot /fə'gɒt/, forgotten /fə'gɒtn/)",
+            "pos": "v.",
+            "meaning": "忘记"
+          },
+          {
+            "word": "manager",
+            "ipa": "/'mænɪdʒə/",
+            "pos": "n.",
+            "meaning": "经理"
+          },
+          {
+            "word": "serve",
+            "ipa": "/sɜːv/",
+            "pos": "v.",
+            "meaning": "照应，服务，接待"
+          },
+          {
+            "word": "counter",
+            "ipa": "/'kaʊntə/",
+            "pos": "n.",
+            "meaning": "柜台"
+          },
+          {
+            "word": "recognize",
+            "ipa": "/'rekəgnəɪz/",
+            "pos": "v.",
+            "meaning": "认出"
+          }
         ]
       },
       {
@@ -55,9 +214,18 @@
         "type": "notes",
         "source": "textbook-p246",
         "items": [
-          {"title": "1. to take them with me", "text": "to take them with me 把它们带上。them 指“两本词典”。"},
-          {"title": "2. The lady who is standing behind the counter.", "text": "这是一个省略句，完整的句子是“The lady who is standing behind the counter served me.”其中 who is standing behind the counter 是一个以关系代词 who 引导的定语从句，用来修饰前面的名词 the lady。本课带有定语从句的复合句还有：The books which are on the counter; He says he's the man who bought these books; The man who I served was wearing a hat; Is this the man that you served 等。其中 which, who, whom, that 均为关系代词。"},
-          {"title": "3. The man who I served was wearing a hat.", "text": "这是另一个定语从句的例子。由于被修饰的名词 the man 在定语从句中是动词 served 的宾语，因此，关系代词应该用宾格 whom，但在口语中往往用主格 who。"}
+          {
+            "title": "1. to take them with me",
+            "text": "to take them with me 把它们带上。them 指“两本词典”。"
+          },
+          {
+            "title": "2. The lady who is standing behind the counter.",
+            "text": "这是一个省略句，完整的句子是“The lady who is standing behind the counter served me.”其中 who is standing behind the counter 是一个以关系代词 who 引导的定语从句，用来修饰前面的名词 the lady。本课带有定语从句的复合句还有：The books which are on the counter; He says he's the man who bought these books; The man who I served was wearing a hat; Is this the man that you served 等。其中 which, who, whom, that 均为关系代词。"
+          },
+          {
+            "title": "3. The man who I served was wearing a hat.",
+            "text": "这是另一个定语从句的例子。由于被修饰的名词 the man 在定语从句中是动词 served 的宾语，因此，关系代词应该用宾格 whom，但在口语中往往用主格 who。"
+          }
         ]
       }
     ],
@@ -201,50 +369,151 @@
     "customer": {
       "description": "The customer, a man with a hat, shown buying dictionaries and later putting his hat on.",
       "name": "customer",
-      "illustration_appearance": "Man about 45, short brown hair, a distinctive brown brimmed hat, dark gray coat.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-121-01-text.jpg"
     },
     "manager": {
       "description": "The bookshop manager, a man with glasses.",
       "name": "manager",
-      "illustration_appearance": "Man about 50, short graying hair, rectangular glasses, navy cardigan.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-121-01-text.jpg"
     },
     "caroline": {
       "description": "Caroline, the assistant standing behind the counter.",
       "name": "caroline",
-      "illustration_appearance": "Woman about 25, dark bob, teal blouse, navy skirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-121-01-text.jpg"
     }
   },
   "images": {
-    "l121-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Six numbered panels: 1 the customer talking to Caroline in the bookshop; 2 the manager asking Caroline about the customer; 3 Caroline pointing at the books on the counter; 4 the manager showing Caroline the customer's hat; 5 Caroline and the manager looking at the hat; 6 Caroline recognizing the customer who is now wearing his hat.",
-      "source": "img/lesson-121-01-text.jpg (textbook p.245)",
-      "characters": [
-        "customer",
-        "manager",
-        "caroline"
-      ],
-      "illustration_scene": "Inside a bookshop, the customer has just put on his brimmed hat. Caroline behind the counter smiles in recognition, and the manager gestures toward two thick dictionaries on the counter. Three distinct adults, shelves of books behind.",
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-121/l121-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "The man in a hat 戴帽子的男士",
-      "alt": "Inside a bookshop, the customer has just put on his brimmed hat.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 121017,
-        "manifest": "illustrations/manifests/121-l121-scene.json"
+      "description": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+      "source": "../img/lesson-121-01-text.jpg",
+      "src": "assets/lesson-121/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-121-01-text.jpg",
+        "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/121/generation.json",
+        "review_record": "illustrations/photo-repairs/121/review.json",
+        "asset_sha256": "65fb39e5dfb7e555c7005c39f19f7a134b4c15ac475eddf245c34cad1f3f57b9"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Who served you, sir? The lady who is standing behind the counter.",
+      "source": "../img/lesson-121-01-text.jpg",
+      "src": "assets/lesson-121/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-121-01-text.jpg",
+        "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/121/generation.json",
+        "review_record": "illustrations/photo-repairs/121/review.json",
+        "asset_sha256": "c5dce6287b4efbac2ff954d5641553440406347bd1907aea51cecb14de497b13"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Which books did you buy? The books which are on the counter.",
+      "source": "../img/lesson-121-01-text.jpg",
+      "src": "assets/lesson-121/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-121-01-text.jpg",
+        "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/121/generation.json",
+        "review_record": "illustrations/photo-repairs/121/review.json",
+        "asset_sha256": "44b6812d77d12b38c71afabcb57214358c5f8bac37d3721d04132db1488faf1b"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books. I can't remember. The man who I served was wearing a hat.",
+      "source": "../img/lesson-121-01-text.jpg",
+      "src": "assets/lesson-121/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-121-01-text.jpg",
+        "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/121/generation.json",
+        "review_record": "illustrations/photo-repairs/121/review.json",
+        "asset_sha256": "75ddb3c52a5ad9ec78307817b5a59c4539d024f9b67b1c1ff66ec943ce5c477f"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Have you got a hat, sir? Yes, I have. Would you put it on, please? All right.",
+      "source": "../img/lesson-121-01-text.jpg",
+      "src": "assets/lesson-121/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-121-01-text.jpg",
+        "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/121/generation.json",
+        "review_record": "illustrations/photo-repairs/121/review.json",
+        "asset_sha256": "cd95d230a1603078c01876911b7567a2ab9edc65ebe56285a469a5a3f36057ea"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Is this the man that you served, Caroline? Yes. I recognize him now.",
+      "source": "../img/lesson-121-01-text.jpg",
+      "src": "assets/lesson-121/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-121-01-text.jpg",
+        "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/121/generation.json",
+        "review_record": "illustrations/photo-repairs/121/review.json",
+        "asset_sha256": "187e8b1c23e1cbe46aafeb05e113764ce3774ef7ad0963f2c193d32e3030ed17"
       }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-121-01-text.jpg",
+    "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+    "scope": "Lesson picture/text layout"
+  }
 }

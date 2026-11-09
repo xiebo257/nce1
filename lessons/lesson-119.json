@@ -18,10 +18,65 @@
       {
         "id": "l119-lesson-text",
         "type": "text",
-        "source": "textbook-p241",
-        "image": "l119-scene",
-        "text": "Do you like stories?\nI want to tell you a true story.\nIt happened to a friend of mine a year ago.\n\nWhile my friend, George, was reading in bed,\ntwo thieves climbed into his kitchen.\n\nAfter they had entered the house,\nthey went into the dining room.\nIt was very dark,\nso they turned on a torch.\n\nSuddenly, they heard a voice behind them.\n'What's up? What's up?' someone called.\nThe thieves dropped the torch\nand ran away as quickly as they could.\n\nGeorge heard the noise\nand came downstairs quickly.\n\nHe turned on the light,\nbut he couldn't see anyone.\nThe thieves had already gone.\n\nBut George's parrot, Henry, was still there.\n'What's up, George?' he called.\n'Nothing, Henry,' George said and smiled.\n'Go back to sleep.'",
-        "translation": "你喜欢听故事吗？\n我要告诉你一个真实的故事。\n这是一年前发生在我的一个朋友身上的故事。\n\n当我的朋友乔治在床上看书时，\n两个小偷爬进了他的厨房。\n\n他们进到屋里后，\n走进了饭厅。\n饭厅里很暗，\n于是他们打开了手电筒。\n\n突然他们听到身后有声音。\n“什么事？什么事？”有人叫着。\n小偷扔下了手电筒，\n飞快地逃走了。\n\n乔治听到了响声，\n迅速地下楼。\n\n他打开灯，\n但不见一个人。\n小偷逃走了。\n\n但是乔治的鹦鹉亨利仍在那里。\n“什么事，乔治？”它叫着。\n“没事，亨利。”乔治笑着说，\n“接着睡觉吧。”"
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago.",
+        "translation": "你喜欢听故事吗？ 我要告诉你一个真实的故事。 这是一年前发生在我的一个朋友身上的故事。"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.",
+        "translation": "当我的朋友乔治在床上看书时， 两个小偷爬进了他的厨房。"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
+        "translation": "他们进到屋里后， 走进了饭厅。 饭厅里很暗， 于是他们打开了手电筒。"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could.",
+        "translation": "突然他们听到身后有声音。 “什么事？什么事？”有人叫着。 小偷扔下了手电筒， 飞快地逃走了。"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "George heard the noise and came downstairs quickly.",
+        "translation": "乔治听到了响声， 迅速地下楼。"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "He turned on the light, but he couldn't see anyone. The thieves had already gone.",
+        "translation": "他打开灯， 但不见一个人。 小偷逃走了。"
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-119-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "But George's parrot, Henry, was still there. 'What's up, George?' he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'",
+        "translation": "但是乔治的鹦鹉亨利仍在那里。 “什么事，乔治？”它叫着。 “没事，亨利。”乔治笑着说， “接着睡觉吧。”"
       },
       {
         "id": "l119-lesson-question",
@@ -687,48 +742,162 @@
     "george": {
       "description": "George, the author's friend, a young man with light hair, shown reading in bed and later standing in the dining room.",
       "name": "george",
-      "illustration_appearance": "Man about 30, short sandy hair, pale blue pajamas.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-119-01-text.jpg"
     },
     "thieves": {
       "description": "Two thieves wearing dark masks and striped shirts, shown climbing into the kitchen and holding a torch in the dining room.",
       "name": "thieves",
-      "illustration_appearance": "Two distinct adults wearing dark face masks; one in a gray striped shirt and the other in a brown striped shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-119-01-text.jpg"
     },
     "parrot": {
       "description": "Henry, George's parrot, shown in its cage.",
       "name": "parrot",
-      "illustration_appearance": "Henry, a bright green parrot with a yellow forehead, in a brass cage.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-119-01-text.jpg"
     }
   },
   "images": {
-    "l119-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Seven numbered panels: 1 a 'TRUE STORIES' book; 2 George reading in bed while two masked thieves climb into the kitchen; 3 the thieves in the dark dining room with a torch; 4 the thieves dropping the torch and running away; 5 George coming downstairs quickly; 6 George in the dining room with the light on, the thieves gone; 7 the parrot Henry in its cage while George smiles.",
-      "source": "img/lesson-119-01-text.jpg (textbook p.241)",
-      "characters": [
-        "george",
-        "parrot"
-      ],
-      "illustration_scene": "At night in the dining room with the light just switched on, George in pajamas smiles at his parrot Henry in its cage. A dropped torch lies on the floor and the room is otherwise empty. The thieves have already fled.",
-      "illustration_person_count": 1,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-119/l119-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "A true story 一个真实的故事",
-      "alt": "At night in the dining room with the light just switched on, George in pajamas smiles at his parrot Henry in its cage.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 119017,
-        "manifest": "illustrations/manifests/119-l119-scene.json"
-      },
-      "layout": "above"
+      "description": "Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago.",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "9340c4447db74186ead0c924451d92688ac1851c4f1b645d320baebb18976dea"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "efdca5c082b0603c931064a833a89123ce80b39a48dc2a1bf8d311d1f40414cf"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "6b365aa481eb104f3596d6052b114ecec0ee3c9a28b0d2c69a3434777a907feb"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could.",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "aa41a7cd589d3ffb3a34ffd3d6f0e0dad755d3ca55e5dab96258d4519ded9f57"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "George heard the noise and came downstairs quickly.",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "deff0dd2880e05e347448176c9909296daec32e916c07136398986714eb0661c"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "He turned on the light, but he couldn't see anyone. The thieves had already gone.",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "965de41ddf711d725ab28208b270eb2bf7b608f5e081d09d9068d715c0e70ebf"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "But George's parrot, Henry, was still there. 'What's up, George?' he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'",
+      "source": "../img/lesson-119-01-text.jpg",
+      "src": "assets/lesson-119/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-119-01-text.jpg",
+        "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/119/generation.json",
+        "review_record": "illustrations/photo-repairs/119/review.json",
+        "asset_sha256": "33329af263981cf893a9328c08368d8c0341aeaa0d5668e4e1407d7f68ffb5a9"
+      }
     }
   },
   "grammar_source_audit": {
@@ -743,5 +912,12 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-119-01-text.jpg",
+    "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+    "scope": "Lesson picture/text layout"
+  }
 }

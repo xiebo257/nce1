@@ -12,16 +12,58 @@
         "id": "l118-lesson-intro",
         "type": "text",
         "source": "textbook-p239",
-        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l118-lesson-pictures",
         "type": "text",
-        "source": "textbook-p239",
-        "image": "l118-pictures-grid",
-        "text": "Six pictures (m-r) illustrating past continuous + past simple in when/while/just as clauses. m: Someone knocked at the door when I was having breakfast. n: When I was leaving the house, the postman arrived. o: Just as I was opening the front door, the telephone rang. p: She slipped and hurt herself while she was getting off the bus. q: A man shaving in the mirror. r: A woman cooking the dinner while a man is standing in the rain outside.",
-        "translation": "六张图片（m-r）展示 when/while/just as 从句中过去进行时代替一般过去时的用法。m 我正吃早饭时，有人敲门。n 我正要出门时，邮递员到了。o 我刚要打开前门，电话就响了。p 她下公共汽车时滑倒了，伤了自己。q 一个男人在镜子里刮脸。r 一个女人在做晚饭，男人在外面的雨里站着。"
+        "source": "../img/lesson-118-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "m",
+        "text": "Someone knocked at the door when I was having breakfast."
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-118-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "n",
+        "text": "When I was leaving the house, the postman arrived."
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-118-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "o",
+        "text": "Just as I was opening the front door, the telephone rang."
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-118-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "p",
+        "text": "She slipped and hurt herself while she was getting off the bus."
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-118-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "q",
+        "text": "A man shaving in front of a mirror.",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-118-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "r",
+        "text": "A woman cooking; a man outside in the rain.",
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
       },
       {
         "id": "l118-lesson-listening",
@@ -791,83 +833,162 @@
     "gentleman": "A gentleman shown knocking at the door, delivering letters, shaving in the mirror and standing in the rain."
   },
   "images": {
-    "l118-pictures-grid": {
+    "photo-panel-01": {
       "kind": "item",
       "status": "ready",
-      "description": "Grid of 6 pictures (m-r): m knocking while having breakfast, n postman arriving while leaving, o opening the door as the telephone rang, p getting off the bus, q shaving, r cooking the dinner while her husband worked in the garden.",
-      "source": "img/lesson-118-01-text.jpg (textbook p.239)",
-      "characters": [],
-      "origin": "local-model",
-      "source_size": [
-        2500,
-        2147
-      ],
-      "crop": [
-        0,
-        601,
-        2500,
-        2147
-      ],
-      "src": "assets/lesson-118/l118-pictures-grid-color.webp",
-      "width": 512,
-      "height": 480,
-      "illustration_source_reference": "illustrations/references/source/118-complete-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 480,
-      "illustration_scene": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (m-r): m knocking while having breakfast, n postman arriving while leaving, o opening the door as the telephone rang, p getting off the bus, q shaving, r cooking the dinner while her husband worked in the garden.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 243,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            76,
-            202,
-            263,
-            296
-          ],
-          [
-            430,
-            202,
-            616,
-            296
-          ],
-          [
-            77,
-            381,
-            264,
-            476
-          ],
-          [
-            430,
-            381,
-            617,
-            475
-          ],
-          [
-            78,
-            560,
-            264,
-            654
-          ],
-          [
-            431,
-            559,
-            618,
-            654
-          ]
+      "description": "Someone knocked at the door when I was having breakfast.",
+      "source": "../img/lesson-118-01-text.jpg",
+      "src": "assets/lesson-118/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture m",
+      "photo_verification": {
+        "photo": "img/lesson-118-01-text.jpg",
+        "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+        "label": "m",
+        "asset_sha256": "18d29bbcd8ee3853ea5f38be227acb7e084a1cf3b75eb119c7689214660e83b6",
+        "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
+        "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "caption": "What were you doing? 你那时正在做什么？",
-      "alt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 118017,
-        "manifest": "illustrations/manifests/118-l118-pictures-grid.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "When I was leaving the house, the postman arrived.",
+      "source": "../img/lesson-118-01-text.jpg",
+      "src": "assets/lesson-118/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture n",
+      "photo_verification": {
+        "photo": "img/lesson-118-01-text.jpg",
+        "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+        "label": "n",
+        "asset_sha256": "0016ecca7e24d9543cf48e39fd34da595e8427f10df08564783a31711075aec7",
+        "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
+        "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Just as I was opening the front door, the telephone rang.",
+      "source": "../img/lesson-118-01-text.jpg",
+      "src": "assets/lesson-118/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture o",
+      "photo_verification": {
+        "photo": "img/lesson-118-01-text.jpg",
+        "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+        "label": "o",
+        "asset_sha256": "9424893ee63cfda96fcc48fd4169e1221e256e34383b881b3e412d52710e8ef1",
+        "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
+        "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She slipped and hurt herself while she was getting off the bus.",
+      "source": "../img/lesson-118-01-text.jpg",
+      "src": "assets/lesson-118/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture p",
+      "photo_verification": {
+        "photo": "img/lesson-118-01-text.jpg",
+        "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+        "label": "p",
+        "asset_sha256": "a6510228ce608a874e7a44dc6ad0859c92fb59c718c246adb2442d3f0c49588d",
+        "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
+        "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A man shaving in front of a mirror.",
+      "source": "../img/lesson-118-01-text.jpg",
+      "src": "assets/lesson-118/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture q",
+      "photo_verification": {
+        "photo": "img/lesson-118-01-text.jpg",
+        "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+        "label": "q",
+        "asset_sha256": "fc6ee96a36aeadf560f1937fe6ced7dc92fad546ca0f9e56f161412745464f84",
+        "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
+        "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ],
+        "limitation": "caption cropped in source photo; picture description only"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "A woman cooking; a man outside in the rain.",
+      "source": "../img/lesson-118-01-text.jpg",
+      "src": "assets/lesson-118/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture r",
+      "photo_verification": {
+        "photo": "img/lesson-118-01-text.jpg",
+        "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+        "label": "r",
+        "asset_sha256": "98e147b7a458ea825143a283f16084022f5a09c92dd6cb2dac4ebe369a334f0e",
+        "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
+        "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ],
+        "limitation": "caption cropped in source photo; picture description only"
       }
     }
   },
@@ -883,5 +1004,11 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-118-01-text.jpg",
+    "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
+    "scope": "Lesson picture/text layout"
+  }
 }

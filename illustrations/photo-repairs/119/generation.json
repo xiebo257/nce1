@@ -1,0 +1,231 @@
+{
+  "lesson": 119,
+  "source": "img/lesson-119-01-text.jpg",
+  "source_sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
+  "rotation": 0,
+  "coordinate_space": [
+    862,
+    1400
+  ],
+  "tiles": [
+    {
+      "label": 1,
+      "region": [
+        633,
+        260,
+        856,
+        419
+      ],
+      "quad_on_page": [
+        [
+          635,
+          261
+        ],
+        [
+          854,
+          284
+        ],
+        [
+          853,
+          418
+        ],
+        [
+          634,
+          398
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/01.png"
+    },
+    {
+      "label": 2,
+      "region": [
+        630,
+        421,
+        853,
+        572
+      ],
+      "quad_on_page": [
+        [
+          633,
+          421
+        ],
+        [
+          852,
+          439
+        ],
+        [
+          849,
+          571
+        ],
+        [
+          632,
+          558
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/02.png"
+    },
+    {
+      "label": 3,
+      "region": [
+        629,
+        580,
+        850,
+        724
+      ],
+      "quad_on_page": [
+        [
+          631,
+          580
+        ],
+        [
+          848,
+          592
+        ],
+        [
+          846,
+          723
+        ],
+        [
+          629,
+          715
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/03.png"
+    },
+    {
+      "label": 4,
+      "region": [
+        627,
+        738,
+        847,
+        876
+      ],
+      "quad_on_page": [
+        [
+          629,
+          738
+        ],
+        [
+          846,
+          745
+        ],
+        [
+          844,
+          875
+        ],
+        [
+          627,
+          872
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/04.png"
+    },
+    {
+      "label": 5,
+      "region": [
+        626,
+        893,
+        845,
+        1030
+      ],
+      "quad_on_page": [
+        [
+          627,
+          895
+        ],
+        [
+          844,
+          898
+        ],
+        [
+          841,
+          1026
+        ],
+        [
+          626,
+          1028
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/05.png"
+    },
+    {
+      "label": 6,
+      "region": [
+        625,
+        1047,
+        842,
+        1186
+      ],
+      "quad_on_page": [
+        [
+          626,
+          1051
+        ],
+        [
+          841,
+          1048
+        ],
+        [
+          839,
+          1175
+        ],
+        [
+          625,
+          1185
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/06.png"
+    },
+    {
+      "label": 7,
+      "region": [
+        623,
+        1196,
+        840,
+        1340
+      ],
+      "quad_on_page": [
+        [
+          625,
+          1207
+        ],
+        [
+          839,
+          1197
+        ],
+        [
+          836,
+          1323
+        ],
+        [
+          623,
+          1339
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/119/07.png"
+    }
+  ],
+  "cols": 3,
+  "cell": [
+    320,
+    192
+  ],
+  "source_atlas_sha256": "d293cb09e8810e45a2516a076fe4cb998f5323b2fc8455ca4ffdbedad4cf40d6",
+  "model": "FLUX.2-Klein-4B-4bit",
+  "prompt": "Colorize these 7 textbook cartoon pictures in exactly the same 3-column layout. Preserve every face, pose, object, number, word and panel. Use warm natural skin, vivid but soft clothing colors and white backgrounds. The same recurring person must have identical hair color and clothing colors in every panel. Keep black hair black; light-haired women have golden blonde hair. Keep all original black lines, do not redraw, add, remove or rearrange anything. Color only the existing drawings; leave empty cells white.",
+  "seed": 119926,
+  "steps": 4,
+  "seconds": 91.4,
+  "output_sha256": "328292b4e298eeaaace9ceabab7b225126eac92981fe0d0d4bd8d55dc2d84fd6",
+  "preserved_sha256": "4ac15042d0bf7513a0b32c59eb3f8be8bdae78b3f1913b3f755be08ff9d8be63",
+  "status": "candidate-needs-visual-review",
+  "color_refinement": {
+    "palette": {
+      "skin": "#f3c9a8",
+      "cloth": "#9dc8ce",
+      "hair": "#ead38b",
+      "paper": "#ffffff"
+    },
+    "regions": {}
+  }
+}

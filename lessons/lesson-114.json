@@ -12,16 +12,118 @@
         "id": "l114-lesson-intro",
         "type": "text",
         "source": "textbook-p231",
-        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l114-lesson-items",
         "type": "text",
-        "source": "textbook-p231",
-        "image": "l114-items-grid",
-        "text": "Twelve pictures (o-z) in groups of three: o-q chocolate/envelopes (Have you got any? / I haven't got any. I've got no... I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
-        "translation": "十二张图片（o-z）分三组：o-q 巧克力/信封（你有吗？/ 我没有。我没有……我一点也没有。/ 我也没有。我也一点没有。），r-t 信封（同），u-w 蛋糕（你有吗？/ 我有一些。/ 我也有。），x-z 饼干（同）。"
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "o",
+        "text": "Have you got any chocolate?",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "p",
+        "text": "I haven't got any. I've got no chocolate. I've got none.",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "q",
+        "text": "I haven't any either. Neither have I.",
+        "source_group": 1
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "r",
+        "text": "Have you got any envelopes?",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "s",
+        "text": "I haven't got any. I've got no envelopes. I've got none.",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "t",
+        "text": "I haven't any either. Neither have I.",
+        "source_group": 2
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "u",
+        "text": "Have you got any cake?",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "v",
+        "text": "I've got some.",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "w",
+        "text": "So have I.",
+        "source_group": 3
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "x",
+        "text": "Have you got any biscuits?",
+        "source_group": 4
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "y",
+        "text": "I've got some.",
+        "source_group": 4,
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-114-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "z",
+        "text": "So have I.",
+        "source_group": 4,
+        "source_status": "原照片下缘裁切：此处为图片说明或保留文字，未将缺失原句视为已核验。"
       },
       {
         "id": "l114-lesson-listening",
@@ -34,18 +136,78 @@
         "answer_kind": "suggested",
         "context": "The recording reads each caption.",
         "questions": [
-          {"id": "l114-listen-o", "number": 1, "prompt": "Picture o: Have you got any chocolate?", "answer": "Have you got any chocolate?"},
-          {"id": "l114-listen-p", "number": 2, "prompt": "Picture p: Answer about chocolate.", "answer": "I haven't got any. I've got no chocolate. I've got none."},
-          {"id": "l114-listen-q", "number": 3, "prompt": "Picture q: Answer about chocolate.", "answer": "I haven't any either. Neither have I."},
-          {"id": "l114-listen-r", "number": 4, "prompt": "Picture r: Have you got any envelopes?", "answer": "Have you got any envelopes?"},
-          {"id": "l114-listen-s", "number": 5, "prompt": "Picture s: Answer about envelopes.", "answer": "I haven't got any. I've got no envelopes. I've got none."},
-          {"id": "l114-listen-t", "number": 6, "prompt": "Picture t: Answer about envelopes.", "answer": "I haven't any either. Neither have I."},
-          {"id": "l114-listen-u", "number": 7, "prompt": "Picture u: Have you got any cake?", "answer": "Have you got any cake?"},
-          {"id": "l114-listen-v", "number": 8, "prompt": "Picture v: Answer about cake.", "answer": "I've got some."},
-          {"id": "l114-listen-w", "number": 9, "prompt": "Picture w: Answer about cake.", "answer": "So have I."},
-          {"id": "l114-listen-x", "number": 10, "prompt": "Picture x: Have you got any cookies?", "answer": "Have you got any cookies?"},
-          {"id": "l114-listen-y", "number": 11, "prompt": "Picture y: Answer about cookies.", "answer": "I've got some."},
-          {"id": "l114-listen-z", "number": 12, "prompt": "Picture z: Answer about cookies.", "answer": "So have I."}
+          {
+            "id": "l114-listen-o",
+            "number": 1,
+            "prompt": "Picture o: Have you got any chocolate?",
+            "answer": "Have you got any chocolate?"
+          },
+          {
+            "id": "l114-listen-p",
+            "number": 2,
+            "prompt": "Picture p: Answer about chocolate.",
+            "answer": "I haven't got any. I've got no chocolate. I've got none."
+          },
+          {
+            "id": "l114-listen-q",
+            "number": 3,
+            "prompt": "Picture q: Answer about chocolate.",
+            "answer": "I haven't any either. Neither have I."
+          },
+          {
+            "id": "l114-listen-r",
+            "number": 4,
+            "prompt": "Picture r: Have you got any envelopes?",
+            "answer": "Have you got any envelopes?"
+          },
+          {
+            "id": "l114-listen-s",
+            "number": 5,
+            "prompt": "Picture s: Answer about envelopes.",
+            "answer": "I haven't got any. I've got no envelopes. I've got none."
+          },
+          {
+            "id": "l114-listen-t",
+            "number": 6,
+            "prompt": "Picture t: Answer about envelopes.",
+            "answer": "I haven't any either. Neither have I."
+          },
+          {
+            "id": "l114-listen-u",
+            "number": 7,
+            "prompt": "Picture u: Have you got any cake?",
+            "answer": "Have you got any cake?"
+          },
+          {
+            "id": "l114-listen-v",
+            "number": 8,
+            "prompt": "Picture v: Answer about cake.",
+            "answer": "I've got some."
+          },
+          {
+            "id": "l114-listen-w",
+            "number": 9,
+            "prompt": "Picture w: Answer about cake.",
+            "answer": "So have I."
+          },
+          {
+            "id": "l114-listen-x",
+            "number": 10,
+            "prompt": "Picture x: Have you got any biscuits?",
+            "answer": "Have you got any biscuits?"
+          },
+          {
+            "id": "l114-listen-y",
+            "number": 11,
+            "prompt": "Picture y: Answer about biscuits.",
+            "answer": "I've got some."
+          },
+          {
+            "id": "l114-listen-z",
+            "number": 12,
+            "prompt": "Picture z: Answer about biscuits.",
+            "answer": "So have I."
+          }
         ]
       }
     ],
@@ -244,112 +406,327 @@
   "sources": [],
   "characters": {},
   "images": {
-    "l114-items-grid": {
+    "photo-panel-01": {
       "kind": "item",
       "status": "ready",
-      "description": "Grid of 12 pictures (o-z) in groups of three: o-q chocolate (Have you got any? / I haven't got any. I've got no chocolate. I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
-      "source": "img/lesson-114-01-text.jpg (textbook p.231)",
-      "characters": [],
-      "src": "assets/lesson-114/l114-items-grid-color.webp",
-      "width": 768,
-      "height": 640,
-      "illustration_source_reference": "illustrations/references/source/114-complete-panels.png",
-      "illustration_width": 768,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 12 pictures (o-z) in groups of three: o-q chocolate (Have you got any? / I haven't got any. I've got no chocolate. I've got none. / I haven't any either. Neither have I.), r-t envelopes (same pattern), u-w cake (Have you got any? / I've got some. / So have I.), x-z cookies (same pattern).",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 235,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            72,
-            215,
-            265,
-            313
-          ],
-          [
-            317,
-            215,
-            511,
-            313
-          ],
-          [
-            562,
-            214,
-            756,
-            311
-          ],
-          [
-            73,
-            437,
-            267,
-            535
-          ],
-          [
-            320,
-            436,
-            513,
-            535
-          ],
-          [
-            563,
-            435,
-            758,
-            533
-          ],
-          [
-            76,
-            660,
-            270,
-            756
-          ],
-          [
-            321,
-            658,
-            516,
-            756
-          ],
-          [
-            566,
-            657,
-            760,
-            754
-          ],
-          [
-            78,
-            855,
-            272,
-            953
-          ],
-          [
-            323,
-            854,
-            518,
-            951
-          ],
-          [
-            568,
-            852,
-            762,
-            949
-          ]
+      "description": "Have you got any chocolate?",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture o · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "o",
+        "asset_sha256": "c754af6b03edf0f7d20e591728a72562d21cc11948a36b9c8d47ed84fd71b8be",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "origin": "local-model",
-      "caption": "I've got none. 我没有。",
-      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 114017,
-        "manifest": "illustrations/manifests/114-l114-items-grid.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I haven't got any. I've got no chocolate. I've got none.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture p · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "p",
+        "asset_sha256": "e996a3015cb237de2c06923e329611be0f54e6a8813158a2fc05e3d08137da38",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I haven't any either. Neither have I.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture q · Group 1",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "q",
+        "asset_sha256": "8ed62b0676f147f2e230ef3ea4608f5317ba7e42450df6e606fd4dde3aca5d13",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Have you got any envelopes?",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture r · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "r",
+        "asset_sha256": "5f3bc824178ab85f28091fab5baeefcbc7badbe6d439c05e87efa75dd3863df6",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I haven't got any. I've got no envelopes. I've got none.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture s · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "s",
+        "asset_sha256": "df15630db09b6a4dd4619f72cbca1bf2f897a52a692679769aa99426a5b590a6",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I haven't any either. Neither have I.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture t · Group 2",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "t",
+        "asset_sha256": "740536380c97e3d4e91a6c832123865e0bba85760752cc30d949bda5fda68aa9",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Have you got any cake?",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture u · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "u",
+        "asset_sha256": "55c68a6273b099ee54443b7a9ff1c8612942903015c5183b19600a3609444fb2",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I've got some.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture v · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "v",
+        "asset_sha256": "7fc0c37f1325917139d30accb95c0d325e767061f9b314e0bfdd4463cf130f2c",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "So have I.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture w · Group 3",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "w",
+        "asset_sha256": "796e61fdf50e09e45028d82f2cbf3e7f1d2961f742e6c15e657f7cd422447fba",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
+      }
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Have you got any biscuits?",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-10.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture x · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "x",
+        "asset_sha256": "f58682c7e303c87cfd717510a228dfe51ca4053f11b2e33455273def474e336b",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      }
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I've got some.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-11.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture y · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "y",
+        "asset_sha256": "8cf07573d28dd6dae1cbaed9b5b7a607491130ebce9b3aa9d1fb5c3de97a2124",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ],
+        "limitation": "bottom caption cropped; retained existing unverified wording"
+      }
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "So have I.",
+      "source": "../img/lesson-114-01-text.jpg",
+      "src": "assets/lesson-114/photo-panel-12.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture z · Group 4",
+      "photo_verification": {
+        "photo": "img/lesson-114-01-text.jpg",
+        "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+        "label": "z",
+        "asset_sha256": "2e7166c1f5d26dac1c495d2da48ece0d3697f076292f7562489806323acd485d",
+        "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
+        "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
+        "crop": [
+          512,
+          480,
+          768,
+          640
+        ],
+        "limitation": "bottom caption cropped; retained existing unverified wording"
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-114-01-text.jpg",
+    "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
+    "scope": "Lesson picture/text layout"
+  }
 }

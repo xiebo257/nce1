@@ -17,11 +17,114 @@
       },
       {
         "id": "l125-lesson-text",
-        "type": "text",
-        "source": "textbook-p253",
-        "image": "l125-scene",
-        "text": "SUSAN:  Can't you come in and have tea now, Peter?\nPETER:  Not yet.\n        I must water the garden first.\n\nSUSAN:  Do you have to water it now?\nPETER:  I'm afraid I must.\n        Look at it!\n        It's terribly dry.\n\nSUSAN:  What a nuisance!\nPETER:  Last summer it was very dry, too.\n        Don't you remember?\n        I had to water it every day.\nSUSAN:  Well, I'll have tea by myself.\n\nSUSAN:  That was quick!\n        Have you finished already?\nPETER:  Yes.\n        Look out of the window.\n\nSUSAN:  It's raining!\n        That means you don't need to water the garden.\nPETER:  That was a pleasant surprise.\n        It means I can have tea, instead.",
-        "translation": "苏珊：彼得，你现在能进来喝茶吗？\n彼得：还不能。我得先给花园浇水。\n\n苏珊：你一定得现在浇吗？\n彼得：恐怕我得现在浇。你看看，干得厉害。\n\n苏珊：真讨厌！\n彼得：去年夏天也是干得很。你不记得了吗？我不得不每天浇水。\n苏珊：好吧，我一个人喝茶了。\n\n苏珊：好快啊！你已经浇完了？\n彼得：是的。你看看窗外。\n\n苏珊：下雨了！这就是说，你不必给花园浇水了。\n彼得：这是意想不到的好事。这意味着我反而可以喝茶了。"
+        "type": "dialogue",
+        "source": "../img/lesson-125-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "SUSAN",
+            "text": "Can't you come in and have tea now, Peter?",
+            "translation": "彼得，你现在能进来喝茶吗？"
+          },
+          {
+            "number": 2,
+            "speaker": "PETER",
+            "text": "Not yet. I must water the garden first.",
+            "translation": "还不能。我得先给花园浇水。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-125-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
+          {
+            "number": 3,
+            "speaker": "SUSAN",
+            "text": "Do you have to water it now?",
+            "translation": "你一定得现在浇吗？"
+          },
+          {
+            "number": 4,
+            "speaker": "PETER",
+            "text": "I'm afraid I must. Look at it! It's terribly dry.",
+            "translation": "恐怕我得现在浇。你看看，干得厉害。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-125-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
+          {
+            "number": 5,
+            "speaker": "SUSAN",
+            "text": "What a nuisance!",
+            "translation": "真讨厌！"
+          },
+          {
+            "number": 6,
+            "speaker": "PETER",
+            "text": "Last summer it was very dry, too. Don't you remember? I had to water it every day.",
+            "translation": "去年夏天也是干得很。你不记得了吗？我不得不每天浇水。"
+          },
+          {
+            "number": 7,
+            "speaker": "SUSAN",
+            "text": "Well, I'll have tea by myself.",
+            "translation": "好吧，我一个人喝茶了。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-125-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
+          {
+            "number": 8,
+            "speaker": "SUSAN",
+            "text": "That was quick! Have you finished already?",
+            "translation": "好快啊！你已经浇完了？"
+          },
+          {
+            "number": 9,
+            "speaker": "PETER",
+            "text": "Yes. Look out of the window.",
+            "translation": "是的。你看看窗外。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-125-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
+          {
+            "number": 10,
+            "speaker": "SUSAN",
+            "text": "It's raining! That means you don't need to water the garden.",
+            "translation": "下雨了！这就是说，你不必给花园浇水了。"
+          },
+          {
+            "number": 11,
+            "speaker": "PETER",
+            "text": "That was a pleasant surprise. It means I can have tea, instead.",
+            "translation": "这是意想不到的好事。这意味着我反而可以喝茶了。"
+          }
+        ]
       },
       {
         "id": "l125-lesson-question",
@@ -34,7 +137,12 @@
         "answer_kind": "suggested",
         "context": "Comprehension question about whether Susan has tea by herself.",
         "questions": [
-          {"id": "l125-lq1", "number": 1, "prompt": "Does Susan have tea by herself?", "answer": "No, she doesn't. Peter comes in and they have tea together."}
+          {
+            "id": "l125-lq1",
+            "number": 1,
+            "prompt": "Does Susan have tea by herself?",
+            "answer": "No, she doesn't. Peter comes in and they have tea together."
+          }
         ]
       },
       {
@@ -42,12 +150,42 @@
         "type": "vocabulary",
         "source": "textbook-p254",
         "items": [
-          {"word": "water", "ipa": "/'wɔːtə/", "pos": "v.", "meaning": "浇水"},
-          {"word": "terribly", "ipa": "/'terəbli/", "pos": "adv.", "meaning": "非常"},
-          {"word": "dry", "ipa": "/draɪ/", "pos": "adj.", "meaning": "干燥的，干的"},
-          {"word": "nuisance", "ipa": "/'njuːsəns/", "pos": "n.", "meaning": "讨厌的东西或人"},
-          {"word": "mean", "ipa": "/miːn/ (meant /ment/, meant)", "pos": "v.", "meaning": "意味着，意思是"},
-          {"word": "surprise", "ipa": "/sə'praɪz/", "pos": "n.", "meaning": "惊奇，意外的事"}
+          {
+            "word": "water",
+            "ipa": "/'wɔːtə/",
+            "pos": "v.",
+            "meaning": "浇水"
+          },
+          {
+            "word": "terribly",
+            "ipa": "/'terəbli/",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "dry",
+            "ipa": "/draɪ/",
+            "pos": "adj.",
+            "meaning": "干燥的，干的"
+          },
+          {
+            "word": "nuisance",
+            "ipa": "/'njuːsəns/",
+            "pos": "n.",
+            "meaning": "讨厌的东西或人"
+          },
+          {
+            "word": "mean",
+            "ipa": "/miːn/ (meant /ment/, meant)",
+            "pos": "v.",
+            "meaning": "意味着，意思是"
+          },
+          {
+            "word": "surprise",
+            "ipa": "/sə'praɪz/",
+            "pos": "n.",
+            "meaning": "惊奇，意外的事"
+          }
         ]
       },
       {
@@ -55,9 +193,18 @@
         "type": "notes",
         "source": "textbook-p254",
         "items": [
-          {"title": "1. have to (过去式 had to)", "text": "have to 不得不，必须。have to 强调客观需要多一些。must 则着重说明主观看法。"},
-          {"title": "2. What a nuisance!", "text": "真讨厌！"},
-          {"title": "3. by myself", "text": "我自己，独自。同样，我们可以说 by yourself, by himself, by herself, by itself, by ourselves, by yourselves, by themselves, by oneself。"}
+          {
+            "title": "1. have to (过去式 had to)",
+            "text": "have to 不得不，必须。have to 强调客观需要多一些。must 则着重说明主观看法。"
+          },
+          {
+            "title": "2. What a nuisance!",
+            "text": "真讨厌！"
+          },
+          {
+            "title": "3. by myself",
+            "text": "我自己，独自。同样，我们可以说 by yourself, by himself, by herself, by itself, by ourselves, by yourselves, by themselves, by oneself。"
+          }
         ]
       }
     ],
@@ -194,43 +341,125 @@
     "susan": {
       "description": "Susan, who invites Peter in for tea and notices it's raining.",
       "name": "susan",
-      "illustration_appearance": "Woman about 35, shoulder-length brown hair, cream blouse, blue cardigan.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-125-01-text.jpg"
     },
     "peter": {
       "description": "Peter, who must water the garden before having tea.",
       "name": "peter",
-      "illustration_appearance": "Man about 37, short dark hair, rolled-sleeve pale blue shirt, charcoal trousers.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-125-01-text.jpg"
     }
   },
   "images": {
-    "l125-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Five numbered panels: 1 Susan calling to Peter from the window; 2 Peter watering the garden; 3 Susan looking at Peter through the window; 4 Susan and Peter at the table with tea; 5 Susan and Peter having tea together.",
-      "source": "img/lesson-125-01-text.jpg (textbook p.253)",
-      "characters": [
-        "susan",
-        "peter"
-      ],
-      "illustration_scene": "Susan and Peter sit at a kitchen table having tea, smiling with relief. Through a large window behind them, rain waters the garden and a garden hose lies unused on the ground. Two teacups and teapot in foreground.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-125/l125-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Tea for two 两个人一起喝茶",
-      "alt": "Susan and Peter sit at a kitchen table having tea, smiling with relief.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 125017,
-        "manifest": "illustrations/manifests/125-l125-scene.json"
+      "description": "Can't you come in and have tea now, Peter? Not yet. I must water the garden first.",
+      "source": "../img/lesson-125-01-text.jpg",
+      "src": "assets/lesson-125/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-125-01-text.jpg",
+        "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/125/generation.json",
+        "review_record": "illustrations/photo-repairs/125/review.json",
+        "asset_sha256": "e5a3b2face3c3e613092214683bc2b4130e88ec23b648e85c7e65764b780eb70"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Do you have to water it now? I'm afraid I must. Look at it! It's terribly dry.",
+      "source": "../img/lesson-125-01-text.jpg",
+      "src": "assets/lesson-125/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-125-01-text.jpg",
+        "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/125/generation.json",
+        "review_record": "illustrations/photo-repairs/125/review.json",
+        "asset_sha256": "4d07a36711b5220d127fc2174530966913612e7ef4245a78a53cddfa8138a370"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "What a nuisance! Last summer it was very dry, too. Don't you remember? I had to water it every day. Well, I'll have tea by myself.",
+      "source": "../img/lesson-125-01-text.jpg",
+      "src": "assets/lesson-125/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-125-01-text.jpg",
+        "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/125/generation.json",
+        "review_record": "illustrations/photo-repairs/125/review.json",
+        "asset_sha256": "81d5dcf314289b7c20bdda4183f3aa8486b2428e88c5b9da8c31cdad16995e1e"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "That was quick! Have you finished already? Yes. Look out of the window.",
+      "source": "../img/lesson-125-01-text.jpg",
+      "src": "assets/lesson-125/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-125-01-text.jpg",
+        "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/125/generation.json",
+        "review_record": "illustrations/photo-repairs/125/review.json",
+        "asset_sha256": "3f159d1b9d5b6aff4000ad09ed6a9cb774b85905cc944e94abf290e15335e5ee"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "It's raining! That means you don't need to water the garden. That was a pleasant surprise. It means I can have tea, instead.",
+      "source": "../img/lesson-125-01-text.jpg",
+      "src": "assets/lesson-125/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-125-01-text.jpg",
+        "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/125/generation.json",
+        "review_record": "illustrations/photo-repairs/125/review.json",
+        "asset_sha256": "02539dc35d090a63575dc8c59462f6279211b6b85f2a0afe4fe5e5f6fd61b01d"
       }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-125-01-text.jpg",
+    "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
+    "scope": "Lesson picture/text layout"
+  }
 }

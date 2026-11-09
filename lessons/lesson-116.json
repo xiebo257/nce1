@@ -12,23 +12,142 @@
         "id": "l116-lesson-intro",
         "type": "text",
         "source": "textbook-p235",
-        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l116-lesson-words",
-        "type": "text",
-        "source": "textbook-p235",
-        "text": "Word box: Every / Everyone / Everybody / Everything / Everywhere | None / No one / Nobody / Nothing / Nowhere | Any / Anyone / Anybody / Anything / Anywhere | Some / Someone / Somebody / Something / Somewhere",
-        "translation": "单词表：每一（everyone/everybody/everything/everywhere）| 无（no one/nobody/nothing/nowhere）| 若干（anyone/anybody/anything/anywhere）| 一些（someone/somebody/something/somewhere）"
+        "type": "table",
+        "source": "../img/lesson-116-01-text.jpg",
+        "caption": "Word box",
+        "headers": [
+          "Every",
+          "None",
+          "Any",
+          "Some"
+        ],
+        "rows": [
+          [
+            "Everyone",
+            "No one",
+            "Anyone",
+            "Someone"
+          ],
+          [
+            "Everybody",
+            "Nobody",
+            "Anybody",
+            "Somebody"
+          ],
+          [
+            "Everything",
+            "Nothing",
+            "Anything",
+            "Something"
+          ],
+          [
+            "Everywhere",
+            "Nowhere",
+            "Anywhere",
+            "Somewhere"
+          ]
+        ]
       },
       {
         "id": "l116-lesson-items",
         "type": "text",
-        "source": "textbook-p235",
-        "image": "l116-items-grid",
-        "text": "Twelve pictures (a-l): a Everyone is asleep. Everybody is asleep. b Everything is untidy. c I looked for my pen everywhere. d Is there anyone at home? Is there anybody at home? e Is there anything in that box? f I couldn't find my pen anywhere. g There's no one at home. There's nobody at home. h There's nothing in this box. i Where did you go yesterday? Nowhere. I stayed at home. j There's someone in the garden. There's somebody in the garden. k There's something under that chair! l My glasses must be somewhere! You're wearing them!",
-        "translation": "十二张图片（a-l）：a 大家都睡着了。b 什么东西都乱七八糟。c 我在到处找我的钢笔。d 家里有人吗？e 那个盒子里有什么吗？f 我到处找不到我的钢笔。g 家里没有一个人。h 这个盒子里什么都没有。i 你昨天去哪儿了？哪儿也没去。我待在家里。j 园子里有人。k 那把椅子下面有什么东西！l 我的眼镜一定在什么地方！你正戴着呢！"
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "a",
+        "text": "Everyone is asleep. Everybody is asleep."
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "b",
+        "text": "Everything is untidy."
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "c",
+        "text": "I looked for my pen everywhere."
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "d",
+        "text": "Is there anyone at home? Is there anybody at home?"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "e",
+        "text": "Is there anything in that box?"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "f",
+        "text": "I couldn't find my pen anywhere."
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "g",
+        "text": "There's no one at home. There's nobody at home."
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "h",
+        "text": "There's nothing in this box."
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "i",
+        "text": "Where did you go yesterday? Nowhere. I stayed at home."
+      },
+      {
+        "id": "lesson-photo-panel-10",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-10",
+        "source_label": "j",
+        "text": "There's someone in the garden. There's somebody in the garden."
+      },
+      {
+        "id": "lesson-photo-panel-11",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-11",
+        "source_label": "k",
+        "text": "There's something under that chair!"
+      },
+      {
+        "id": "lesson-photo-panel-12",
+        "type": "text",
+        "source": "../img/lesson-116-01-text.jpg",
+        "image": "photo-panel-12",
+        "source_label": "l",
+        "text": "My glasses must be somewhere! You're wearing them!"
       },
       {
         "id": "l116-lesson-listening",
@@ -41,18 +160,78 @@
         "answer_kind": "suggested",
         "context": "The recording reads each caption.",
         "questions": [
-          {"id": "l116-listen-a", "number": 1, "prompt": "Picture a: Everyone is asleep.", "answer": "Everyone is asleep. Everybody is asleep."},
-          {"id": "l116-listen-b", "number": 2, "prompt": "Picture b: Everything is untidy.", "answer": "Everything is untidy."},
-          {"id": "l116-listen-c", "number": 3, "prompt": "Picture c: Looking for a pen.", "answer": "I looked for my pen everywhere."},
-          {"id": "l116-listen-d", "number": 4, "prompt": "Picture d: At the door.", "answer": "Is there anyone at home? Is there anybody at home?"},
-          {"id": "l116-listen-e", "number": 5, "prompt": "Picture e: The box.", "answer": "Is there anything in that box?"},
-          {"id": "l116-listen-f", "number": 6, "prompt": "Picture f: Lost pen.", "answer": "I couldn't find my pen anywhere."},
-          {"id": "l116-listen-g", "number": 7, "prompt": "Picture g: Looking through the window.", "answer": "There's no one at home. There's nobody at home."},
-          {"id": "l116-listen-h", "number": 8, "prompt": "Picture h: The empty box.", "answer": "There's nothing in this box."},
-          {"id": "l116-listen-i", "number": 9, "prompt": "Picture i: Watching television.", "answer": "Where did you go yesterday? Nowhere. I stayed at home."},
-          {"id": "l116-listen-j", "number": 10, "prompt": "Picture j: In the garden.", "answer": "There's someone in the garden. There's somebody in the garden."},
-          {"id": "l116-listen-k", "number": 11, "prompt": "Picture k: Under the chair.", "answer": "There's something under that chair!"},
-          {"id": "l116-listen-l", "number": 12, "prompt": "Picture l: The glasses.", "answer": "My glasses must be somewhere! You're wearing them!"}
+          {
+            "id": "l116-listen-a",
+            "number": 1,
+            "prompt": "Picture a: Everyone is asleep.",
+            "answer": "Everyone is asleep. Everybody is asleep."
+          },
+          {
+            "id": "l116-listen-b",
+            "number": 2,
+            "prompt": "Picture b: Everything is untidy.",
+            "answer": "Everything is untidy."
+          },
+          {
+            "id": "l116-listen-c",
+            "number": 3,
+            "prompt": "Picture c: Looking for a pen.",
+            "answer": "I looked for my pen everywhere."
+          },
+          {
+            "id": "l116-listen-d",
+            "number": 4,
+            "prompt": "Picture d: At the door.",
+            "answer": "Is there anyone at home? Is there anybody at home?"
+          },
+          {
+            "id": "l116-listen-e",
+            "number": 5,
+            "prompt": "Picture e: The box.",
+            "answer": "Is there anything in that box?"
+          },
+          {
+            "id": "l116-listen-f",
+            "number": 6,
+            "prompt": "Picture f: Lost pen.",
+            "answer": "I couldn't find my pen anywhere."
+          },
+          {
+            "id": "l116-listen-g",
+            "number": 7,
+            "prompt": "Picture g: Looking through the window.",
+            "answer": "There's no one at home. There's nobody at home."
+          },
+          {
+            "id": "l116-listen-h",
+            "number": 8,
+            "prompt": "Picture h: The empty box.",
+            "answer": "There's nothing in this box."
+          },
+          {
+            "id": "l116-listen-i",
+            "number": 9,
+            "prompt": "Picture i: Watching television.",
+            "answer": "Where did you go yesterday? Nowhere. I stayed at home."
+          },
+          {
+            "id": "l116-listen-j",
+            "number": 10,
+            "prompt": "Picture j: In the garden.",
+            "answer": "There's someone in the garden. There's somebody in the garden."
+          },
+          {
+            "id": "l116-listen-k",
+            "number": 11,
+            "prompt": "Picture k: Under the chair.",
+            "answer": "There's something under that chair!"
+          },
+          {
+            "id": "l116-listen-l",
+            "number": 12,
+            "prompt": "Picture l: The glasses.",
+            "answer": "My glasses must be somewhere! You're wearing them!"
+          }
         ]
       }
     ],
@@ -271,122 +450,325 @@
     "gentleman": "A gentleman with receding hair, wearing a jacket and trousers."
   },
   "images": {
-    "l116-items-grid": {
+    "photo-panel-01": {
       "kind": "item",
       "status": "ready",
-      "description": "Grid of 12 pictures (a-l): a everyone asleep, b everything untidy, c looking for pen everywhere, d anyone/anybody at home, e anything in the box, f couldn't find pen anywhere, g no one/nobody at home, h nothing in the box, i went nowhere/stayed at home, j someone/somebody in the garden, k something under the chair, l glasses must be somewhere.",
-      "source": "img/lesson-116-01-text.jpg (textbook p.235)",
-      "characters": [],
-      "origin": "local-model",
-      "source_size": [
-        2500,
-        1492
-      ],
-      "crop": [
-        1452,
-        40,
-        2460,
-        1800
-      ],
-      "src": "assets/lesson-116/l116-items-grid-color.webp",
-      "width": 768,
-      "height": 640,
-      "illustration_source_reference": "illustrations/references/source/116-complete-panels.png",
-      "illustration_width": 768,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 12 pictures (a-l): a everyone asleep, b everything untidy, c looking for pen everywhere, d anyone/anybody at home, e anything in the box, f couldn't find pen anywhere, g no one/nobody at home, h nothing in the box, i went nowhere/stayed at home, j someone/somebody in the garden, k something under the chair, l glasses must be somewhere.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 239,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            74,
-            340,
-            254,
-            418
-          ],
-          [
-            328,
-            339,
-            507,
-            435
-          ],
-          [
-            581,
-            339,
-            760,
-            417
-          ],
-          [
-            75,
-            499,
-            255,
-            577
-          ],
-          [
-            328,
-            499,
-            508,
-            577
-          ],
-          [
-            581,
-            499,
-            761,
-            577
-          ],
-          [
-            76,
-            674,
-            256,
-            763
-          ],
-          [
-            329,
-            684,
-            508,
-            762
-          ],
-          [
-            582,
-            684,
-            762,
-            762
-          ],
-          [
-            76,
-            882,
-            257,
-            974
-          ],
-          [
-            330,
-            895,
-            509,
-            988
-          ],
-          [
-            583,
-            895,
-            763,
-            972
-          ]
+      "description": "Everyone is asleep. Everybody is asleep.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture a",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "a",
+        "asset_sha256": "1a5f9f152cf2e49a9149c37a83589db2792b624e87c10509d36cc6cecf3a006a",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "caption": "Every, no, any and some 每一、无、若干和一些",
-      "alt": "Faithfully colorize this EXACT 12-panel cartoon grid, with 3 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 116017,
-        "manifest": "illustrations/manifests/116-l116-items-grid.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Everything is untidy.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture b",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "b",
+        "asset_sha256": "b119181feeaf7bf9a76459680b61930fd54bfebe9e851ef27736bf254db15338",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I looked for my pen everywhere.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture c",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "c",
+        "asset_sha256": "f24fd256ec352619b2882ccee2fd9fe85423ea2d976c774d7268b72bfc29c2ef",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Is there anyone at home? Is there anybody at home?",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture d",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "d",
+        "asset_sha256": "cb591a8570f4c841db8246b629d7a597d1971f2c54341fd598ee072293c24651",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Is there anything in that box?",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture e",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "e",
+        "asset_sha256": "2c6693879f1da11013cf0ec8cebdc8057462795e4a51d822cba9317ce1c13a1a",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I couldn't find my pen anywhere.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture f",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "f",
+        "asset_sha256": "0413fb8c415026abeb73151d4ae9b505c661ae4b9c8e8f75abc1fc92a82e330a",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "There's no one at home. There's nobody at home.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture g",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "g",
+        "asset_sha256": "31df1cd9be3be531743bab615702668c36c2a880692c7fd901891889b266650b",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "There's nothing in this box.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture h",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "h",
+        "asset_sha256": "e09a5e80c42f4b5a8a394eaa3b8f732ae48a95a4abea9bc78160ecb502c562d3",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Where did you go yesterday? Nowhere. I stayed at home.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture i",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "i",
+        "asset_sha256": "dc9b412dd515207d84f696296b1685084198c5bb0625e53f0b039e5fbb89e9d5",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
+      }
+    },
+    "photo-panel-10": {
+      "kind": "item",
+      "status": "ready",
+      "description": "There's someone in the garden. There's somebody in the garden.",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-10.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture j",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "j",
+        "asset_sha256": "aa719c18963ec8286867ec17a7210218ba9cad301183928d3c01fcda1f37b4ac",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      }
+    },
+    "photo-panel-11": {
+      "kind": "item",
+      "status": "ready",
+      "description": "There's something under that chair!",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-11.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture k",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "k",
+        "asset_sha256": "9cb2182509305f3cdc81ba707f7c7fcbea2735eb38113eb1683fd03f0676c5a9",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
+      }
+    },
+    "photo-panel-12": {
+      "kind": "item",
+      "status": "ready",
+      "description": "My glasses must be somewhere! You're wearing them!",
+      "source": "../img/lesson-116-01-text.jpg",
+      "src": "assets/lesson-116/photo-panel-12.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture l",
+      "photo_verification": {
+        "photo": "img/lesson-116-01-text.jpg",
+        "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+        "label": "l",
+        "asset_sha256": "0268bbff57d9cac1b5fc60d1cde0852ed43138cad6fe7a1a86b5da16bcc5ae55",
+        "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
+        "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
+        "crop": [
+          512,
+          480,
+          768,
+          640
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-116-01-text.jpg",
+    "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
+    "scope": "Lesson picture/text layout"
+  }
 }

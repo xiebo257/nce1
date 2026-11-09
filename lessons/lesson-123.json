@@ -17,11 +17,159 @@
       },
       {
         "id": "l123-lesson-text",
-        "type": "text",
-        "source": "textbook-p249",
-        "image": "l123-scene",
-        "text": "MIKE:   Look, Scott.\n         This is a photograph I took during my trip to Australia.\nSCOTT:  Let me see it, Mike.\n\nSCOTT:  This is a good photograph.\n         Who are these people?\nMIKE:   They're people I met during the trip.\n\nMIKE:   That's the ship we travelled on.\nSCOTT:  What a beautiful ship!\n\nSCOTT:  Who's this?\nMIKE:   That's the man I told you about. Remember?\nSCOTT:  Ah yes.\n         The one who offered you a job in Australia.\nMIKE:   That's right.\n\nSCOTT:  Who's this?\nMIKE:   Guess!\nSCOTT:  It's not you, is it?\nMIKE:   That's right.\n\nMIKE:   I grew a beard during the trip, but I shaved it off when I came home.\nSCOTT:  Why did you shave it off?\nMIKE:   My wife didn't like it!",
-        "translation": "迈克：看，斯科特。这是我到澳大利亚旅行时拍的一张照片。\n斯科特：让我看看，迈克。\n\n斯科特：这是一张很好的照片。这些是谁？\n迈克：他们是我旅行时认识的人。\n\n迈克：这是我们乘的那条船。\n斯科特：多么漂亮的船啊！\n\n斯科特：这是谁？\n迈克：这就是我跟你说的那个人。记得吗？\n斯科特：啊，记得。就是在澳大利亚给你找工作的那个人。\n迈克：对。\n\n斯科特：这是谁？\n迈克：你猜！\n斯科特：这不是你，是吗？\n迈克：不，是我。\n\n迈克：我在旅行时留了胡子，但我回到家时把它刮掉了。\n斯科特：你为什么把它刮掉？\n迈克：我妻子不喜欢它！"
+        "type": "dialogue",
+        "source": "../img/lesson-123-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "lines": [
+          {
+            "number": 1,
+            "speaker": "MIKE",
+            "text": "Look, Scott. This is a photograph I took during my trip to Australia.",
+            "translation": "看，斯科特。这是我到澳大利亚旅行时拍的一张照片。"
+          },
+          {
+            "number": 2,
+            "speaker": "SCOTT",
+            "text": "Let me see it, Mike.",
+            "translation": "让我看看，迈克。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-123-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
+          {
+            "number": 3,
+            "speaker": "SCOTT",
+            "text": "This is a good photograph. Who are these people?",
+            "translation": "这是一张很好的照片。这些是谁？"
+          },
+          {
+            "number": 4,
+            "speaker": "MIKE",
+            "text": "They're people I met during the trip.",
+            "translation": "他们是我旅行时认识的人。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-123-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
+          {
+            "number": 5,
+            "speaker": "MIKE",
+            "text": "That's the ship we travelled on.",
+            "translation": "这是我们乘的那条船。"
+          },
+          {
+            "number": 6,
+            "speaker": "SCOTT",
+            "text": "What a beautiful ship!",
+            "translation": "多么漂亮的船啊！"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-123-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
+          {
+            "number": 7,
+            "speaker": "SCOTT",
+            "text": "Who's this?",
+            "translation": "这是谁？"
+          },
+          {
+            "number": 8,
+            "speaker": "MIKE",
+            "text": "That's the man I told you about. Remember?",
+            "translation": "这就是我跟你说的那个人。记得吗？"
+          },
+          {
+            "number": 9,
+            "speaker": "SCOTT",
+            "text": "Ah yes. The one who offered you a job in Australia.",
+            "translation": "啊，记得。就是在澳大利亚给你找工作的那个人。"
+          },
+          {
+            "number": 10,
+            "speaker": "MIKE",
+            "text": "That's right.",
+            "translation": "对。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-123-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
+          {
+            "number": 11,
+            "speaker": "SCOTT",
+            "text": "Who's this?",
+            "translation": "这是谁？"
+          },
+          {
+            "number": 12,
+            "speaker": "MIKE",
+            "text": "Guess!",
+            "translation": "你猜！"
+          },
+          {
+            "number": 13,
+            "speaker": "SCOTT",
+            "text": "It's not you, is it?",
+            "translation": "这不是你，是吗？"
+          },
+          {
+            "number": 14,
+            "speaker": "MIKE",
+            "text": "That's right.",
+            "translation": "不，是我。"
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-123-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
+          {
+            "number": 15,
+            "speaker": "MIKE",
+            "text": "I grew a beard during the trip, but I shaved it off when I came home.",
+            "translation": "我在旅行时留了胡子，但我回到家时把它刮掉了。"
+          },
+          {
+            "number": 16,
+            "speaker": "SCOTT",
+            "text": "Why did you shave it off?",
+            "translation": "你为什么把它刮掉？"
+          },
+          {
+            "number": 17,
+            "speaker": "MIKE",
+            "text": "My wife didn't like it!",
+            "translation": "我妻子不喜欢它！"
+          }
+        ]
       },
       {
         "id": "l123-lesson-question",
@@ -34,7 +182,12 @@
         "answer_kind": "suggested",
         "context": "Comprehension question about who the man with the beard is in the photograph.",
         "questions": [
-          {"id": "l123-lq1", "number": 1, "prompt": "Who is the man with the beard?", "answer": "It's Mike. He grew a beard during the trip but shaved it off when he came home because his wife didn't like it."}
+          {
+            "id": "l123-lq1",
+            "number": 1,
+            "prompt": "Who is the man with the beard?",
+            "answer": "It's Mike. He grew a beard during the trip but shaved it off when he came home because his wife didn't like it."
+          }
         ]
       },
       {
@@ -42,14 +195,54 @@
         "type": "vocabulary",
         "source": "textbook-p250",
         "items": [
-          {"word": "during", "ipa": "/'djʊərɪŋ/", "pos": "prep.", "meaning": "在……期间"},
-          {"word": "trip", "ipa": "/trɪp/", "pos": "n.", "meaning": "旅行"},
-          {"word": "travel", "ipa": "/'trævəl/", "pos": "v.", "meaning": "旅行"},
-          {"word": "offer", "ipa": "/'ɒfə/", "pos": "v.", "meaning": "提供"},
-          {"word": "job", "ipa": "/dʒɒb/", "pos": "n.", "meaning": "工作"},
-          {"word": "guess", "ipa": "/ges/", "pos": "v.", "meaning": "猜"},
-          {"word": "grow", "ipa": "/grəʊ/ (grew /gruː/, grown /grəʊn/)", "pos": "v.", "meaning": "长，让……生长"},
-          {"word": "beard", "ipa": "/bɪəd/", "pos": "n.", "meaning": "（下巴上的）胡子，络腮胡子"}
+          {
+            "word": "during",
+            "ipa": "/'djʊərɪŋ/",
+            "pos": "prep.",
+            "meaning": "在……期间"
+          },
+          {
+            "word": "trip",
+            "ipa": "/trɪp/",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "travel",
+            "ipa": "/'trævəl/",
+            "pos": "v.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "offer",
+            "ipa": "/'ɒfə/",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "job",
+            "ipa": "/dʒɒb/",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "guess",
+            "ipa": "/ges/",
+            "pos": "v.",
+            "meaning": "猜"
+          },
+          {
+            "word": "grow",
+            "ipa": "/grəʊ/ (grew /gruː/, grown /grəʊn/)",
+            "pos": "v.",
+            "meaning": "长，让……生长"
+          },
+          {
+            "word": "beard",
+            "ipa": "/bɪəd/",
+            "pos": "n.",
+            "meaning": "（下巴上的）胡子，络腮胡子"
+          }
         ]
       },
       {
@@ -57,8 +250,14 @@
         "type": "notes",
         "source": "textbook-p250",
         "items": [
-          {"title": "1. This is a photograph I took ...", "text": "这句话中的 I took during my trip to Australia 是一个定语从句，用来修饰 a photograph。由于所修饰的名词在从句中作动词 took 的宾语，因此，引导从句的关系代词 that 往往省略。"},
-          {"title": "2. They're people I met during the trip.", "text": "与注 1 的情况相同，关系代词 whom 往往省略。"}
+          {
+            "title": "1. This is a photograph I took ...",
+            "text": "这句话中的 I took during my trip to Australia 是一个定语从句，用来修饰 a photograph。由于所修饰的名词在从句中作动词 took 的宾语，因此，引导从句的关系代词 that 往往省略。"
+          },
+          {
+            "title": "2. They're people I met during the trip.",
+            "text": "与注 1 的情况相同，关系代词 whom 往往省略。"
+          }
         ]
       }
     ],
@@ -169,43 +368,145 @@
     "mike": {
       "description": "Mike, the man who took the photograph during his trip to Australia and grew a beard.",
       "name": "mike",
-      "illustration_appearance": "Man about 35, short brown hair, clean-shaven in the current conversation, pale blue shirt; the same man has a dark full beard in the photograph.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-123-01-text.jpg"
     },
     "scott": {
       "description": "Scott, Mike's friend who is looking at the photograph.",
       "name": "scott",
-      "illustration_appearance": "Man about 35, short blond hair, navy sweater over cream shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-123-01-text.jpg"
     }
   },
   "images": {
-    "l123-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Six numbered panels: 1 Mike showing Scott the photograph; 2 the people in the photograph; 3 the ship they travelled on; 4 the man who offered him a job in Australia; 5 Mike himself with the beard; 6 Mike explaining that his wife didn't like the beard.",
-      "source": "img/lesson-123-01-text.jpg (textbook p.249)",
-      "characters": [
-        "mike",
-        "scott"
-      ],
-      "illustration_scene": "In a sitting room, clean-shaven Mike shows Scott a printed holiday photograph, both studying it with amused interest. The small photograph depicts a bearded man on a ship deck; Mike himself is clean-shaven now. One natural scene, no collage.",
-      "illustration_person_count": 2,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-123/l123-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "A trip to Australia 澳大利亚之行",
-      "alt": "In a sitting room, clean-shaven Mike shows Scott a printed holiday photograph, both studying it with amused interest.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 123017,
-        "manifest": "illustrations/manifests/123-l123-scene.json"
+      "description": "Look, Scott. This is a photograph I took during my trip to Australia. Let me see it, Mike.",
+      "source": "../img/lesson-123-01-text.jpg",
+      "src": "assets/lesson-123/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-123-01-text.jpg",
+        "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/123/generation.json",
+        "review_record": "illustrations/photo-repairs/123/review.json",
+        "asset_sha256": "f27f3a379ff8fed46405e9b2633253d33b7be3b43bd084071a2b55c28b22a847"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "This is a good photograph. Who are these people? They're people I met during the trip.",
+      "source": "../img/lesson-123-01-text.jpg",
+      "src": "assets/lesson-123/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-123-01-text.jpg",
+        "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/123/generation.json",
+        "review_record": "illustrations/photo-repairs/123/review.json",
+        "asset_sha256": "f520d35c8290fddc70b992e4ddf791cfb096340bab9d5cdba5e049dcb68c5a0b"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "That's the ship we travelled on. What a beautiful ship!",
+      "source": "../img/lesson-123-01-text.jpg",
+      "src": "assets/lesson-123/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-123-01-text.jpg",
+        "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/123/generation.json",
+        "review_record": "illustrations/photo-repairs/123/review.json",
+        "asset_sha256": "8eb6e25c9954b8d20e503927f355958aaa8313430edd2dcfabe12344074ea480"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Who's this? That's the man I told you about. Remember? Ah yes. The one who offered you a job in Australia. That's right.",
+      "source": "../img/lesson-123-01-text.jpg",
+      "src": "assets/lesson-123/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-123-01-text.jpg",
+        "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/123/generation.json",
+        "review_record": "illustrations/photo-repairs/123/review.json",
+        "asset_sha256": "85d6ac15ff67f77f9737443f890e1ca28b73843a93a7a66aab3f511fc3b66838"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Who's this? Guess! It's not you, is it? That's right.",
+      "source": "../img/lesson-123-01-text.jpg",
+      "src": "assets/lesson-123/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-123-01-text.jpg",
+        "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/123/generation.json",
+        "review_record": "illustrations/photo-repairs/123/review.json",
+        "asset_sha256": "42e41de82783505b9d3a94f026c0c54299da874025f20537db21aa8c1c63cc11"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "I grew a beard during the trip, but I shaved it off when I came home. Why did you shave it off? My wife didn't like it!",
+      "source": "../img/lesson-123-01-text.jpg",
+      "src": "assets/lesson-123/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-123-01-text.jpg",
+        "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/123/generation.json",
+        "review_record": "illustrations/photo-repairs/123/review.json",
+        "asset_sha256": "2f048d58b9b507230de7d88e4dbd3d6dcf21ac780556b67c952083abb4c3aee4"
       }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-123-01-text.jpg",
+    "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
+    "scope": "Lesson picture/text layout"
+  }
 }

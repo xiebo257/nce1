@@ -12,16 +12,56 @@
         "id": "l120-lesson-intro",
         "type": "text",
         "source": "textbook-p243",
-        "text": "Listen and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l120-lesson-pictures",
         "type": "text",
-        "source": "textbook-p243",
-        "image": "l120-pictures-grid",
-        "text": "Six pictures (s-x) illustrating the past perfect with 'already', 'after' and 'before'. s: I asked the price of the car, but they had already sold it. t: I ran to the platform quickly, but the train had already left. u: He gave us our exercise books after he had corrected them. v: She went on holiday after she had taken the examination. w: She had finished the housework before she went out. x: We had had dinner before they arrived.",
-        "translation": "六张图片（s-x）展示过去完成时与 already、after、before 的用法。s 我问了那辆车的价钱，但他们已经把它卖了。t 我迅速跑到月台，但火车已经开走了。u 他批改完作业后把练习本发给了我们。v 她考完试后去度假了。w 她出门前已经把家务做完了。x 他们到来之前我们已经吃过晚饭了。"
+        "source": "../img/lesson-120-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "s",
+        "text": "I asked the price of the car, but they had already sold it."
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-120-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "t",
+        "text": "I ran to the platform quickly, but the train had already left."
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-120-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "u",
+        "text": "He gave us our exercise books after he had corrected them."
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-120-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "v",
+        "text": "She went on holiday after she had taken the examination."
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-120-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "w",
+        "text": "She had finished the housework before she went out."
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-120-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "x",
+        "text": "We had had dinner before they arrived."
       },
       {
         "id": "l120-lesson-listening",
@@ -34,12 +74,42 @@
         "answer_kind": "suggested",
         "context": "The recording reads each caption; the answer is the caption sentence itself.",
         "questions": [
-          {"id": "l120-listen-s", "number": 1, "prompt": "Picture s: the sold car.", "answer": "I asked the price of the car, but they had already sold it."},
-          {"id": "l120-listen-t", "number": 2, "prompt": "Picture t: the train leaving the platform.", "answer": "I ran to the platform quickly, but the train had already left."},
-          {"id": "l120-listen-u", "number": 3, "prompt": "Picture u: the teacher giving out exercise books.", "answer": "He gave us our exercise books after he had corrected them."},
-          {"id": "l120-listen-v", "number": 4, "prompt": "Picture v: going on holiday after the examination.", "answer": "She went on holiday after she had taken the examination."},
-          {"id": "l120-listen-w", "number": 5, "prompt": "Picture w: finishing the housework before going out.", "answer": "She had finished the housework before she went out."},
-          {"id": "l120-listen-x", "number": 6, "prompt": "Picture x: having dinner before they arrived.", "answer": "We had had dinner before they arrived."}
+          {
+            "id": "l120-listen-s",
+            "number": 1,
+            "prompt": "Picture s: the sold car.",
+            "answer": "I asked the price of the car, but they had already sold it."
+          },
+          {
+            "id": "l120-listen-t",
+            "number": 2,
+            "prompt": "Picture t: the train leaving the platform.",
+            "answer": "I ran to the platform quickly, but the train had already left."
+          },
+          {
+            "id": "l120-listen-u",
+            "number": 3,
+            "prompt": "Picture u: the teacher giving out exercise books.",
+            "answer": "He gave us our exercise books after he had corrected them."
+          },
+          {
+            "id": "l120-listen-v",
+            "number": 4,
+            "prompt": "Picture v: going on holiday after the examination.",
+            "answer": "She went on holiday after she had taken the examination."
+          },
+          {
+            "id": "l120-listen-w",
+            "number": 5,
+            "prompt": "Picture w: finishing the housework before going out.",
+            "answer": "She had finished the housework before she went out."
+          },
+          {
+            "id": "l120-listen-x",
+            "number": 6,
+            "prompt": "Picture x: having dinner before they arrived.",
+            "answer": "We had had dinner before they arrived."
+          }
         ]
       }
     ],
@@ -245,86 +315,169 @@
     "gentleman": "A gentleman shown selling the car, giving out exercise books, and standing on the platform."
   },
   "images": {
-    "l120-pictures-grid": {
+    "photo-panel-01": {
       "kind": "item",
       "status": "ready",
-      "description": "Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
-      "source": "img/lesson-120-01-text.jpg (textbook p.243)",
-      "characters": [],
-      "origin": "local-model",
-      "source_size": [
-        1458,
-        2500
-      ],
-      "crop": [
-        0,
-        350,
-        1458,
-        1500
-      ],
-      "src": "assets/lesson-120/l120-pictures-grid-color.webp",
-      "width": 512,
-      "height": 480,
-      "illustration_source_reference": "illustrations/references/source/120-complete-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 480,
-      "illustration_scene": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 6 pictures (s-x): s the sold car, t the train leaving the platform, u the teacher giving out exercise books, v going on holiday after the examination, w finishing the housework before going out, x having dinner before they arrived.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 247,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            61,
-            191,
-            239,
-            281
-          ],
-          [
-            416,
-            191,
-            594,
-            281
-          ],
-          [
-            62,
-            354,
-            240,
-            444
-          ],
-          [
-            417,
-            352,
-            595,
-            443
-          ],
-          [
-            64,
-            515,
-            241,
-            607
-          ],
-          [
-            418,
-            515,
-            596,
-            607
-          ]
+      "description": "I asked the price of the car, but they had already sold it.",
+      "source": "../img/lesson-120-01-text.jpg",
+      "src": "assets/lesson-120/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture s",
+      "photo_verification": {
+        "photo": "img/lesson-120-01-text.jpg",
+        "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+        "label": "s",
+        "asset_sha256": "43894eade97b0c8be9f5cf405a2863cd14d33fdba9a6166d83259ecedc0c6598",
+        "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
+        "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "caption": "It had already happened. 事情已经发生了。",
-      "alt": "Faithfully colorize this EXACT 6-panel cartoon grid, with 2 columns and 3 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 120017,
-        "manifest": "illustrations/manifests/120-l120-pictures-grid.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I ran to the platform quickly, but the train had already left.",
+      "source": "../img/lesson-120-01-text.jpg",
+      "src": "assets/lesson-120/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture t",
+      "photo_verification": {
+        "photo": "img/lesson-120-01-text.jpg",
+        "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+        "label": "t",
+        "asset_sha256": "ce2041a62c9b4bc7c8ea6dbd5c218d3b69f92429438e14ac4c3dba06f7ea3962",
+        "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
+        "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He gave us our exercise books after he had corrected them.",
+      "source": "../img/lesson-120-01-text.jpg",
+      "src": "assets/lesson-120/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture u",
+      "photo_verification": {
+        "photo": "img/lesson-120-01-text.jpg",
+        "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+        "label": "u",
+        "asset_sha256": "9ccc071ecde33f1ddc91bb7149b59fc3de3a975f3d3ee7882a8fa10f60c4e165",
+        "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
+        "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She went on holiday after she had taken the examination.",
+      "source": "../img/lesson-120-01-text.jpg",
+      "src": "assets/lesson-120/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture v",
+      "photo_verification": {
+        "photo": "img/lesson-120-01-text.jpg",
+        "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+        "label": "v",
+        "asset_sha256": "a525c71544fd8b00ae9515ebb9321320b880913090d2af76181793565c60400c",
+        "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
+        "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She had finished the housework before she went out.",
+      "source": "../img/lesson-120-01-text.jpg",
+      "src": "assets/lesson-120/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture w",
+      "photo_verification": {
+        "photo": "img/lesson-120-01-text.jpg",
+        "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+        "label": "w",
+        "asset_sha256": "b019ebbe9dee18fca39349c4dcb5c7a5472e9f15f41822e3c60a6fd81df19187",
+        "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
+        "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "We had had dinner before they arrived.",
+      "source": "../img/lesson-120-01-text.jpg",
+      "src": "assets/lesson-120/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture x",
+      "photo_verification": {
+        "photo": "img/lesson-120-01-text.jpg",
+        "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+        "label": "x",
+        "asset_sha256": "af546e1db2fb06abd9ef06e9d796cb96c963f70ffc13ead142ea270b5a783142",
+        "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
+        "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-120-01-text.jpg",
+    "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
+    "scope": "Lesson picture/text layout"
+  }
 }

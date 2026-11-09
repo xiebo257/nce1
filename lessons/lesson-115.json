@@ -12,7 +12,8 @@
         "id": "l115-dialogue",
         "type": "dialogue",
         "source": "../img/lesson-115-01-text.jpg",
-        "image": "l115-scene",
+        "image": "photo-panel-01",
+        "source_label": "1",
         "lines": [
           {
             "number": 1,
@@ -25,13 +26,31 @@
             "speaker": "Jim",
             "text": "I'll knock again, Helen. Everything's very quiet. I'm sure there's no one at home.",
             "translation": "海伦，我再敲一次。毫无动静。我肯定家里没有人。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "dialogue",
+        "source": "../img/lesson-115-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "lines": [
           {
             "number": 3,
             "speaker": "Helen",
             "text": "But that's impossible. Carol and Tom invited us to lunch. Look through the window.",
             "translation": "但那不可能。卡罗尔和汤姆请我们来吃午饭。透过窗户看看。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "dialogue",
+        "source": "../img/lesson-115-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "lines": [
           {
             "number": 4,
             "speaker": "Helen",
@@ -43,7 +62,16 @@
             "speaker": "Jim",
             "text": "Nothing at all.",
             "translation": "什么也看不见。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "dialogue",
+        "source": "../img/lesson-115-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "lines": [
           {
             "number": 6,
             "speaker": "Helen",
@@ -55,7 +83,16 @@
             "speaker": "Jim",
             "text": "Look! Everyone's in the garden.",
             "translation": "瞧！大家都在花园里。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "dialogue",
+        "source": "../img/lesson-115-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "lines": [
           {
             "number": 8,
             "speaker": "Carol",
@@ -67,11 +104,20 @@
             "speaker": "Tom",
             "text": "Everybody wants to have lunch in the garden. It's nice and warm out here.",
             "translation": "大家都想在花园里吃午饭。外面暖和又舒适。"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "dialogue",
+        "source": "../img/lesson-115-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "lines": [
           {
             "number": 10,
             "speaker": "Carol",
-            "text": "Come and have something to drink, Jim.",
+            "text": "Come and have something to drink.",
             "translation": "来喝点什么吧，吉姆。"
           },
           {
@@ -91,7 +137,16 @@
             "speaker": "Jim",
             "text": "Lemonade!",
             "translation": "柠檬水！"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "dialogue",
+        "source": "../img/lesson-115-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "lines": [
           {
             "number": 14,
             "speaker": "Tom",
@@ -713,56 +768,168 @@
     "helen": {
       "description": "Helen 海伦",
       "name": "helen",
-      "illustration_appearance": "Woman about 33, dark bob, pale blue jacket, navy skirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-115-01-text.jpg"
     },
     "jim": {
       "description": "Jim 吉姆",
       "name": "jim",
-      "illustration_appearance": "Man about 35, short dark hair, tan jacket, cream shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-115-01-text.jpg"
     },
     "carol": {
       "description": "Carol 卡罗尔",
       "name": "carol",
-      "illustration_appearance": "Woman about 33, short blond curls, light blue floral dress.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-115-01-text.jpg"
     },
     "tom": {
       "description": "Tom 汤姆",
       "name": "tom",
-      "illustration_appearance": "Man about 35, neatly side-parted brown hair, navy cardigan, white shirt.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-115-01-text.jpg"
     }
   },
   "images": {
-    "l115-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Seven panels: Jim knocking at the door, Jim and Helen talking at the front door, Jim looking through the window, Jim and Helen at the back door, everyone in the garden, Carol offering Jim something to drink, and Jim drinking lemonade/beer.",
-      "source": "img/lesson-115-01-text.jpg (textbook p.233)",
-      "characters": [
-        "helen",
-        "jim",
-        "carol",
-        "tom"
-      ],
-      "illustration_scene": "In a sunny back garden set for lunch, Carol welcomes Helen and Jim while Tom offers Jim a glass of beer with a joking smile. Four adults around a garden table, a jug of lemonade and glasses, cheerful relaxed atmosphere.",
-      "illustration_person_count": 4,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-115/l115-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Knock, knock! 敲敲门！",
-      "alt": "In a sunny back garden set for lunch, Carol welcomes Helen and Jim while Tom offers Jim a glass of beer with a joking smile.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 115017,
-        "manifest": "illustrations/manifests/115-l115-scene.json"
-      },
-      "layout": "above"
+      "description": "Isn't there anyone at home? I'll knock again, Helen. Everything's very quiet. I'm sure there's no one at home.",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "1",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "8b72f5948da69a6b21515473ecd89d1bf0da275bb5d8fa003d4a35b6873646c7"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "But that's impossible. Carol and Tom invited us to lunch. Look through the window.",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "2",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "4b4d19e2bece782defe9968d31ca8835510c954a659d05fe533def83c07ea0bc"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Can you see anything? Nothing at all.",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "3",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "c7f7e91a4115a7a7ea7723b17b6c231986bd567734474327273a1510b97cc817"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Let's try the back door. Look! Everyone's in the garden.",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "4",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "09747667efc6eb4e8d04a241964c0c9d3a19d0a6ca32a651481574b537d77776"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Hello, Helen. Hello, Jim. Everybody wants to have lunch in the garden. It's nice and warm out here.",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "5",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "0a4cda04d0d2ec83ac4a8acc9bd76cbc5673cb5829ae1b7857651e771569d4c8"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Come and have something to drink. Thanks, Carol. May I have a glass of beer, please? Beer? There's none left. You can have some lemonade. Lemonade!",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "6",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "f89a2d661ccf43cff5835b2e15ca37084084681703359667723d48b1c7be75b7"
+      }
+    },
+    "photo-panel-07": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Don't believe her, Jim. She's only joking. Have some beer!",
+      "source": "../img/lesson-115-01-text.jpg",
+      "src": "assets/lesson-115/photo-panel-07.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-115-01-text.jpg",
+        "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+        "label": "7",
+        "generation_record": "illustrations/photo-repairs/115/generation.json",
+        "review_record": "illustrations/photo-repairs/115/review.json",
+        "asset_sha256": "f92d70f2dec18f47223ed3782fb6ec66910b86b955dac95eb21b68143ef42ac5"
+      }
     }
   },
   "grammar_source_audit": {
@@ -781,5 +948,12 @@
     "evidence": "Visually checked source scan and existing independently verified audio passage overrides. Corrected story/roles before creating illustrations; practice and grammar untouched."
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-115-01-text.jpg",
+    "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
+    "scope": "Lesson picture/text layout"
+  }
 }

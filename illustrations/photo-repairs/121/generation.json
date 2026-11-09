@@ -1,0 +1,203 @@
+{
+  "lesson": 121,
+  "source": "img/lesson-121-01-text.jpg",
+  "source_sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
+  "rotation": 0,
+  "coordinate_space": [
+    900,
+    1398
+  ],
+  "tiles": [
+    {
+      "label": 1,
+      "region": [
+        659,
+        245,
+        900,
+        396
+      ],
+      "quad_on_page": [
+        [
+          663,
+          245
+        ],
+        [
+          899,
+          258
+        ],
+        [
+          899,
+          394
+        ],
+        [
+          659,
+          385
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/121/01.png"
+    },
+    {
+      "label": 2,
+      "region": [
+        653,
+        429,
+        900,
+        576
+      ],
+      "quad_on_page": [
+        [
+          658,
+          429
+        ],
+        [
+          899,
+          438
+        ],
+        [
+          894,
+          575
+        ],
+        [
+          654,
+          571
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/121/02.png"
+    },
+    {
+      "label": 3,
+      "region": [
+        646,
+        615,
+        894,
+        759
+      ],
+      "quad_on_page": [
+        [
+          652,
+          616
+        ],
+        [
+          893,
+          619
+        ],
+        [
+          890,
+          757
+        ],
+        [
+          647,
+          758
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/121/03.png"
+    },
+    {
+      "label": 4,
+      "region": [
+        643,
+        802,
+        890,
+        952
+      ],
+      "quad_on_page": [
+        [
+          647,
+          804
+        ],
+        [
+          889,
+          803
+        ],
+        [
+          885,
+          943
+        ],
+        [
+          643,
+          951
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/121/04.png"
+    },
+    {
+      "label": 5,
+      "region": [
+        637,
+        988,
+        885,
+        1148
+      ],
+      "quad_on_page": [
+        [
+          642,
+          998
+        ],
+        [
+          884,
+          988
+        ],
+        [
+          881,
+          1130
+        ],
+        [
+          637,
+          1146
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/121/05.png"
+    },
+    {
+      "label": 6,
+      "region": [
+        632,
+        1176,
+        881,
+        1347
+      ],
+      "quad_on_page": [
+        [
+          636,
+          1195
+        ],
+        [
+          880,
+          1176
+        ],
+        [
+          875,
+          1319
+        ],
+        [
+          632,
+          1345
+        ]
+      ],
+      "file": "illustrations/work/photo-audit/panels/121/06.png"
+    }
+  ],
+  "cols": 3,
+  "cell": [
+    320,
+    192
+  ],
+  "source_atlas_sha256": "4bb9ad5863797c0073b32015ff5b30af4946620311c30c99af72b9fce568c434",
+  "model": "FLUX.2-Klein-4B-4bit",
+  "prompt": "Colorize these 6 textbook cartoon pictures in exactly the same 3-column layout. Preserve every face, pose, object, number, word and panel. Use warm natural skin, vivid but soft clothing colors and white backgrounds. The same recurring person must have identical hair color and clothing colors in every panel. Keep black hair black; light-haired women have golden blonde hair. Keep all original black lines, do not redraw, add, remove or rearrange anything. Color only the existing drawings; leave empty cells white.",
+  "seed": 121926,
+  "steps": 4,
+  "seconds": 62.7,
+  "output_sha256": "50138dcada44c1ea7e36ac65083bcbf21651a51182fbf6acc3afbf909f70865c",
+  "preserved_sha256": "c52c750a0aa59643e5e9268bf320e3b3b49a9e2babf7802747c45a75ff833303",
+  "status": "candidate-needs-visual-review",
+  "color_refinement": {
+    "palette": {
+      "skin": "#f3c9a8",
+      "cloth": "#9dc8ce",
+      "hair": "#ead38b",
+      "paper": "#ffffff"
+    },
+    "regions": {}
+  }
+}

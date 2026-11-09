@@ -12,16 +12,80 @@
         "id": "l130-lesson-intro",
         "type": "text",
         "source": "textbook-p263",
-        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l130-lesson-pictures",
         "type": "text",
-        "source": "textbook-p263",
-        "image": "l130-pictures",
-        "text": "1. He can't have been ill. He must have been tired.\n2. It can't have been my new hat. It must have been my old one.\n3. She can't have been Danish. She must have been Swedish.\n4. He can't have been a dentist. He must have been a doctor.\n5. She can't have been forty. She must have been fifty.\n6. It can't have been the 20th. It must have been the 21st.\n7. He can't have been the youngest. He must have been the oldest.\n8. He can't have been reading. He must have been sleeping.",
-        "translation": "1. 他那时不可能生病了。他那时肯定是累了。\n2. 那不可能是我的新帽子。那肯定是我旧的那顶。\n3. 她那时不可能是丹麦人。她那时肯定是瑞典人。\n4. 他那时不可能是牙医。他那时肯定是医生。\n5. 她那时不可能四十岁。她那时肯定五十岁了。\n6. 那不可能是二十号。那肯定是二十一号。\n7. 他那时不可能是最小的。他那时肯定是最老的。\n8. 他那时不可能在阅读。他那时肯定在睡觉。"
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "He can't have been ill. He must have been tired.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "It can't have been my new hat. It must have been my old one.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "She can't have been Danish. She must have been Swedish.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "He can't have been a dentist. He must have been a doctor.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "She can't have been forty. She must have been fifty.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "It can't have been the 20th. It must have been the 21st.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "He can't have been the youngest. He must have been the oldest.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-130-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "He can't have been reading. He must have been sleeping.",
+        "translation": ""
       },
       {
         "id": "l130-lesson-listening",
@@ -34,14 +98,54 @@
         "answer_kind": "suggested",
         "context": "One question per picture (8 pictures); the answer is the spoken past deduction from the picture captions.",
         "questions": [
-          {"id": "l130-lq1", "number": 1, "prompt": "What was wrong with him? (Picture 1)", "answer": "He can't have been ill. He must have been tired."},
-          {"id": "l130-lq2", "number": 2, "prompt": "Whose hat was it? (Picture 2)", "answer": "It can't have been my new hat. It must have been my old one."},
-          {"id": "l130-lq3", "number": 3, "prompt": "Where was she from? (Picture 3)", "answer": "She can't have been Danish. She must have been Swedish."},
-          {"id": "l130-lq4", "number": 4, "prompt": "What was his job? (Picture 4)", "answer": "He can't have been a dentist. He must have been a doctor."},
-          {"id": "l130-lq5", "number": 5, "prompt": "How old was she? (Picture 5)", "answer": "She can't have been forty. She must have been fifty."},
-          {"id": "l130-lq6", "number": 6, "prompt": "What was the date? (Picture 6)", "answer": "It can't have been the 20th. It must have been the 21st."},
-          {"id": "l130-lq7", "number": 7, "prompt": "Where did he come in the family? (Picture 7)", "answer": "He can't have been the youngest. He must have been the oldest."},
-          {"id": "l130-lq8", "number": 8, "prompt": "What was he doing? (Picture 8)", "answer": "He can't have been reading. He must have been sleeping."}
+          {
+            "id": "l130-lq1",
+            "number": 1,
+            "prompt": "What was wrong with him? (Picture 1)",
+            "answer": "He can't have been ill. He must have been tired."
+          },
+          {
+            "id": "l130-lq2",
+            "number": 2,
+            "prompt": "Whose hat was it? (Picture 2)",
+            "answer": "It can't have been my new hat. It must have been my old one."
+          },
+          {
+            "id": "l130-lq3",
+            "number": 3,
+            "prompt": "Where was she from? (Picture 3)",
+            "answer": "She can't have been Danish. She must have been Swedish."
+          },
+          {
+            "id": "l130-lq4",
+            "number": 4,
+            "prompt": "What was his job? (Picture 4)",
+            "answer": "He can't have been a dentist. He must have been a doctor."
+          },
+          {
+            "id": "l130-lq5",
+            "number": 5,
+            "prompt": "How old was she? (Picture 5)",
+            "answer": "She can't have been forty. She must have been fifty."
+          },
+          {
+            "id": "l130-lq6",
+            "number": 6,
+            "prompt": "What was the date? (Picture 6)",
+            "answer": "It can't have been the 20th. It must have been the 21st."
+          },
+          {
+            "id": "l130-lq7",
+            "number": 7,
+            "prompt": "Where did he come in the family? (Picture 7)",
+            "answer": "He can't have been the youngest. He must have been the oldest."
+          },
+          {
+            "id": "l130-lq8",
+            "number": 8,
+            "prompt": "What was he doing? (Picture 8)",
+            "answer": "He can't have been reading. He must have been sleeping."
+          }
         ]
       },
       {
@@ -49,7 +153,12 @@
         "type": "vocabulary",
         "source": "textbook-p263",
         "items": [
-          {"word": "dentist", "ipa": "/'dentist/", "pos": "n.", "meaning": "牙医"}
+          {
+            "word": "dentist",
+            "ipa": "/'dentist/",
+            "pos": "n.",
+            "meaning": "牙医"
+          }
         ]
       },
       {
@@ -63,12 +172,42 @@
         "answer_kind": "suggested",
         "context": "6 fill-in items; 1 example printed on the page (He is very tired because he had to get up early this morning. → He didn't get up early this morning. He must have been tired.).",
         "questions": [
-          {"id": "l130-wa1", "number": 1, "prompt": "He didn't come to work yesterday. He ___ ill.", "answer": "must have been"},
-          {"id": "l130-wa2", "number": 2, "prompt": "He didn't come to the office this morning. He ___ stay at home.", "answer": "must have been"},
-          {"id": "l130-wa3", "number": 3, "prompt": "I don't think she was Austrian. She ___ German.", "answer": "must have been"},
-          {"id": "l130-wa4", "number": 4, "prompt": "I lost my pen so I ___ buy a new one.", "answer": "had to"},
-          {"id": "l130-wa5", "number": 5, "prompt": "He forgot his case so he ___ return home.", "answer": "had to"},
-          {"id": "l130-wa6", "number": 6, "prompt": "She didn't hear the phone. She ___ sleeping.", "answer": "must have been"}
+          {
+            "id": "l130-wa1",
+            "number": 1,
+            "prompt": "He didn't come to work yesterday. He ___ ill.",
+            "answer": "must have been"
+          },
+          {
+            "id": "l130-wa2",
+            "number": 2,
+            "prompt": "He didn't come to the office this morning. He ___ stay at home.",
+            "answer": "must have been"
+          },
+          {
+            "id": "l130-wa3",
+            "number": 3,
+            "prompt": "I don't think she was Austrian. She ___ German.",
+            "answer": "must have been"
+          },
+          {
+            "id": "l130-wa4",
+            "number": 4,
+            "prompt": "I lost my pen so I ___ buy a new one.",
+            "answer": "had to"
+          },
+          {
+            "id": "l130-wa5",
+            "number": 5,
+            "prompt": "He forgot his case so he ___ return home.",
+            "answer": "had to"
+          },
+          {
+            "id": "l130-wa6",
+            "number": 6,
+            "prompt": "She didn't hear the phone. She ___ sleeping.",
+            "answer": "must have been"
+          }
         ]
       },
       {
@@ -82,26 +221,126 @@
         "answer_kind": "suggested",
         "context": "20 rewrite items; 1 example printed on the page (I think she was Danish. (Swedish) → I don't think she was. She can't have been Danish. She must have been Swedish.).",
         "questions": [
-          {"id": "l130-wb1", "number": 1, "prompt": "I think they were Canadian. (Australian)", "answer": "I don't think they were. They can't have been Canadian. They must have been Australian."},
-          {"id": "l130-wb2", "number": 2, "prompt": "I think she was Finnish. (Russian)", "answer": "I don't think she was. She can't have been Finnish. She must have been Russian."},
-          {"id": "l130-wb3", "number": 3, "prompt": "I think they were Japanese. (Chinese)", "answer": "I don't think they were. They can't have been Japanese. They must have been Chinese."},
-          {"id": "l130-wb4", "number": 4, "prompt": "I think they were butchers. (bakers)", "answer": "I don't think they were. They can't have been butchers. They must have been bakers."},
-          {"id": "l130-wb5", "number": 5, "prompt": "I think she was a dentist. (doctor)", "answer": "I don't think she was. She can't have been a dentist. She must have been a doctor."},
-          {"id": "l130-wb6", "number": 6, "prompt": "I think he was a sales rep. (the boss)", "answer": "I don't think he was. He can't have been a sales rep. He must have been the boss."},
-          {"id": "l130-wb7", "number": 7, "prompt": "I think she was seventeen. (twenty-one)", "answer": "I don't think she was. She can't have been seventeen. She must have been twenty-one."},
-          {"id": "l130-wb8", "number": 8, "prompt": "I think they were five. (seven)", "answer": "I don't think they were. They can't have been five. They must have been seven."},
-          {"id": "l130-wb9", "number": 9, "prompt": "I think he was seventy-six. (over eighty)", "answer": "I don't think he was. He can't have been seventy-six. He must have been over eighty."},
-          {"id": "l130-wb10", "number": 10, "prompt": "I think she was fifty-five. (under fifty)", "answer": "I don't think she was. She can't have been fifty-five. She must have been under fifty."},
-          {"id": "l130-wb11", "number": 11, "prompt": "I think it was the 17th yesterday. (16th)", "answer": "I don't think it was. It can't have been the 17th yesterday. It must have been the 16th."},
-          {"id": "l130-wb12", "number": 12, "prompt": "I think it was Tuesday yesterday. (Wednesday)", "answer": "I don't think it was. It can't have been Tuesday yesterday. It must have been Wednesday."},
-          {"id": "l130-wb13", "number": 13, "prompt": "I think it was the 19th yesterday. (20th)", "answer": "I don't think it was. It can't have been the 19th yesterday. It must have been the 20th."},
-          {"id": "l130-wb14", "number": 14, "prompt": "I think it was cheap. (expensive)", "answer": "I don't think it was. It can't have been cheap. It must have been expensive."},
-          {"id": "l130-wb15", "number": 15, "prompt": "I think it was easy. (difficult)", "answer": "I don't think it was. It can't have been easy. It must have been difficult."},
-          {"id": "l130-wb16", "number": 16, "prompt": "I think she was old. (young)", "answer": "I don't think she was. She can't have been old. She must have been young."},
-          {"id": "l130-wb17", "number": 17, "prompt": "I think he was ill. (tired)", "answer": "I don't think he was. He can't have been ill. He must have been tired."},
-          {"id": "l130-wb18", "number": 18, "prompt": "I think they were listening to the radio. (watching television)", "answer": "I don't think they were. They can't have been listening to the radio. They must have been watching television."},
-          {"id": "l130-wb19", "number": 19, "prompt": "I think she was retiring. (looking for a new job)", "answer": "I don't think she was. She can't have been retiring. She must have been looking for a new job."},
-          {"id": "l130-wb20", "number": 20, "prompt": "I think they were sitting. (standing)", "answer": "I don't think they were. They can't have been sitting. They must have been standing."}
+          {
+            "id": "l130-wb1",
+            "number": 1,
+            "prompt": "I think they were Canadian. (Australian)",
+            "answer": "I don't think they were. They can't have been Canadian. They must have been Australian."
+          },
+          {
+            "id": "l130-wb2",
+            "number": 2,
+            "prompt": "I think she was Finnish. (Russian)",
+            "answer": "I don't think she was. She can't have been Finnish. She must have been Russian."
+          },
+          {
+            "id": "l130-wb3",
+            "number": 3,
+            "prompt": "I think they were Japanese. (Chinese)",
+            "answer": "I don't think they were. They can't have been Japanese. They must have been Chinese."
+          },
+          {
+            "id": "l130-wb4",
+            "number": 4,
+            "prompt": "I think they were butchers. (bakers)",
+            "answer": "I don't think they were. They can't have been butchers. They must have been bakers."
+          },
+          {
+            "id": "l130-wb5",
+            "number": 5,
+            "prompt": "I think she was a dentist. (doctor)",
+            "answer": "I don't think she was. She can't have been a dentist. She must have been a doctor."
+          },
+          {
+            "id": "l130-wb6",
+            "number": 6,
+            "prompt": "I think he was a sales rep. (the boss)",
+            "answer": "I don't think he was. He can't have been a sales rep. He must have been the boss."
+          },
+          {
+            "id": "l130-wb7",
+            "number": 7,
+            "prompt": "I think she was seventeen. (twenty-one)",
+            "answer": "I don't think she was. She can't have been seventeen. She must have been twenty-one."
+          },
+          {
+            "id": "l130-wb8",
+            "number": 8,
+            "prompt": "I think they were five. (seven)",
+            "answer": "I don't think they were. They can't have been five. They must have been seven."
+          },
+          {
+            "id": "l130-wb9",
+            "number": 9,
+            "prompt": "I think he was seventy-six. (over eighty)",
+            "answer": "I don't think he was. He can't have been seventy-six. He must have been over eighty."
+          },
+          {
+            "id": "l130-wb10",
+            "number": 10,
+            "prompt": "I think she was fifty-five. (under fifty)",
+            "answer": "I don't think she was. She can't have been fifty-five. She must have been under fifty."
+          },
+          {
+            "id": "l130-wb11",
+            "number": 11,
+            "prompt": "I think it was the 17th yesterday. (16th)",
+            "answer": "I don't think it was. It can't have been the 17th yesterday. It must have been the 16th."
+          },
+          {
+            "id": "l130-wb12",
+            "number": 12,
+            "prompt": "I think it was Tuesday yesterday. (Wednesday)",
+            "answer": "I don't think it was. It can't have been Tuesday yesterday. It must have been Wednesday."
+          },
+          {
+            "id": "l130-wb13",
+            "number": 13,
+            "prompt": "I think it was the 19th yesterday. (20th)",
+            "answer": "I don't think it was. It can't have been the 19th yesterday. It must have been the 20th."
+          },
+          {
+            "id": "l130-wb14",
+            "number": 14,
+            "prompt": "I think it was cheap. (expensive)",
+            "answer": "I don't think it was. It can't have been cheap. It must have been expensive."
+          },
+          {
+            "id": "l130-wb15",
+            "number": 15,
+            "prompt": "I think it was easy. (difficult)",
+            "answer": "I don't think it was. It can't have been easy. It must have been difficult."
+          },
+          {
+            "id": "l130-wb16",
+            "number": 16,
+            "prompt": "I think she was old. (young)",
+            "answer": "I don't think she was. She can't have been old. She must have been young."
+          },
+          {
+            "id": "l130-wb17",
+            "number": 17,
+            "prompt": "I think he was ill. (tired)",
+            "answer": "I don't think he was. He can't have been ill. He must have been tired."
+          },
+          {
+            "id": "l130-wb18",
+            "number": 18,
+            "prompt": "I think they were listening to the radio. (watching television)",
+            "answer": "I don't think they were. They can't have been listening to the radio. They must have been watching television."
+          },
+          {
+            "id": "l130-wb19",
+            "number": 19,
+            "prompt": "I think she was retiring. (looking for a new job)",
+            "answer": "I don't think she was. She can't have been retiring. She must have been looking for a new job."
+          },
+          {
+            "id": "l130-wb20",
+            "number": 20,
+            "prompt": "I think they were sitting. (standing)",
+            "answer": "I don't think they were. They can't have been sitting. They must have been standing."
+          }
         ]
       }
     ],
@@ -213,88 +452,221 @@
   ],
   "characters": {},
   "images": {
-    "l130-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
-      "src": "assets/lesson-130/l130-pictures-color.webp",
-      "width": 512,
-      "height": 640,
-      "source": "img/lesson-130-01-text.jpg (textbook p.263)",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/130-complete-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 267,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            69,
-            243,
-            254,
-            342
-          ],
-          [
-            423,
-            243,
-            608,
-            342
-          ],
-          [
-            69,
-            439,
-            254,
-            537
-          ],
-          [
-            423,
-            439,
-            608,
-            537
-          ],
-          [
-            69,
-            635,
-            254,
-            733
-          ],
-          [
-            423,
-            635,
-            608,
-            733
-          ],
-          [
-            69,
-            832,
-            254,
-            930
-          ],
-          [
-            423,
-            832,
-            608,
-            930
-          ]
+      "description": "He can't have been ill. He must have been tired.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "1",
+        "asset_sha256": "2d396e91d7dde579b2c57e0868d941c20b71c74aa4fe4cf57490857dd8b5df7d",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "origin": "local-model",
-      "caption": "He can't have been... He must have been... 他那时不可能…… 他那时肯定是……",
-      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 130017,
-        "manifest": "illustrations/manifests/130-l130-pictures.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It can't have been my new hat. It must have been my old one.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "2",
+        "asset_sha256": "6089f6b8be1aa4a4d0e422c49218022736420bab7e396d0ab1c1fabf78e73201",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She can't have been Danish. She must have been Swedish.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "3",
+        "asset_sha256": "151e9f6d099b8a860dd5d303b5fce65e32a5d8419a6a4607b0d33ba1161f4b18",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He can't have been a dentist. He must have been a doctor.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "4",
+        "asset_sha256": "10af8c1ff1abbfe68357ad63fbfe43dcb00419a622be44c6668101079c566414",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She can't have been forty. She must have been fifty.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "5",
+        "asset_sha256": "0959187719c83f9aa661a8fc08d648586afb759b6685c0f7f1a39292e0eb88cd",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It can't have been the 20th. It must have been the 21st.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "6",
+        "asset_sha256": "db4ed5d6af8ab55cec398ab70491a7973f05c9087c1afea0dc51334ebd493efe",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He can't have been the youngest. He must have been the oldest.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "7",
+        "asset_sha256": "0ae1c31ae8d9bae81cb11149ce9408076c08f38f06fb1d7ccd8c5a08f2a8fd2f",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He can't have been reading. He must have been sleeping.",
+      "source": "../img/lesson-130-01-text.jpg",
+      "src": "assets/lesson-130/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-130-01-text.jpg",
+        "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+        "label": "8",
+        "asset_sha256": "55da4ac83ff9ffdb30b5e8ba6f146292f25fec9612cc924976541fc4982f7dec",
+        "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
+        "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-130-01-text.jpg",
+    "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
+    "scope": "Lesson picture/text layout"
+  }
 }

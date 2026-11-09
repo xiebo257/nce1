@@ -12,16 +12,89 @@
         "id": "l124-lesson-intro",
         "type": "text",
         "source": "textbook-p251",
-        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l124-lesson-pictures",
         "type": "text",
-        "source": "textbook-p251",
-        "image": "l124-pictures",
-        "text": "1. Who served you? / The man standing behind the counter.\n2. Who served you? / The woman standing behind the counter.\n3. Who is making all that noise? / The men repairing the road.\n4. I served him yesterday. / He is the man I served yesterday.\n5. I served her yesterday. / She is the woman I served yesterday.\n6. I saw them yesterday. / They are the men I saw yesterday.\n7. What's this? / This is the book I bought yesterday.\n8. What are these? / These are the books I bought yesterday.\n9. What's this? / This is the kitten I found in the garden.",
-        "translation": "1. 是谁接待您的？/ 站在柜台后面的那位男士。\n2. 是谁接待您的？/ 站在柜台后面的那位女士。\n3. 是谁在发出那么大的响声？/ 修路的那些人。\n4. 我昨天接待了他。/ 他是我昨天接待的那位男士。\n5. 我昨天接待了她。/ 她是我昨天接待的那位女士。\n6. 我昨天见到了他们。/ 他们是我昨天见到的那些人。\n7. 这是什么？/ 这是我昨天买的那本书。\n8. 这些是什么？/ 这些是我昨天买的那些书。\n9. 这是什么？/ 这是我在花园里发现的那只小猫。"
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Who served you? / The man standing behind the counter.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "Who served you? / The woman standing behind the counter.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "Who is making all that noise? / The men repairing the road.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "I served him yesterday. / He is the man I served yesterday.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "I served her yesterday. / She is the woman I served yesterday.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "I saw them yesterday. / They are the men I saw yesterday.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "What's this? / This is the book I bought yesterday.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "What are these? / These are the books I bought yesterday.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-124-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "What's this? / This is the kitten I found in the garden.",
+        "translation": ""
       },
       {
         "id": "l124-lesson-listening",
@@ -34,15 +107,60 @@
         "answer_kind": "suggested",
         "context": "One question per picture (9 pictures).",
         "questions": [
-          {"id": "l124-lq1", "number": 1, "prompt": "Who served you? (Picture 1)", "answer": "The man standing behind the counter."},
-          {"id": "l124-lq2", "number": 2, "prompt": "Who served you? (Picture 2)", "answer": "The woman standing behind the counter."},
-          {"id": "l124-lq3", "number": 3, "prompt": "Who is making all that noise? (Picture 3)", "answer": "The men repairing the road."},
-          {"id": "l124-lq4", "number": 4, "prompt": "Who is the man you served yesterday? (Picture 4)", "answer": "He is the man I served yesterday."},
-          {"id": "l124-lq5", "number": 5, "prompt": "Who is the woman you served yesterday? (Picture 5)", "answer": "She is the woman I served yesterday."},
-          {"id": "l124-lq6", "number": 6, "prompt": "Who are the men you saw yesterday? (Picture 6)", "answer": "They are the men I saw yesterday."},
-          {"id": "l124-lq7", "number": 7, "prompt": "What's this? (Picture 7)", "answer": "This is the book I bought yesterday."},
-          {"id": "l124-lq8", "number": 8, "prompt": "What are these? (Picture 8)", "answer": "These are the books I bought yesterday."},
-          {"id": "l124-lq9", "number": 9, "prompt": "What's this? (Picture 9)", "answer": "This is the kitten I found in the garden."}
+          {
+            "id": "l124-lq1",
+            "number": 1,
+            "prompt": "Who served you? (Picture 1)",
+            "answer": "The man standing behind the counter."
+          },
+          {
+            "id": "l124-lq2",
+            "number": 2,
+            "prompt": "Who served you? (Picture 2)",
+            "answer": "The woman standing behind the counter."
+          },
+          {
+            "id": "l124-lq3",
+            "number": 3,
+            "prompt": "Who is making all that noise? (Picture 3)",
+            "answer": "The men repairing the road."
+          },
+          {
+            "id": "l124-lq4",
+            "number": 4,
+            "prompt": "Who is the man you served yesterday? (Picture 4)",
+            "answer": "He is the man I served yesterday."
+          },
+          {
+            "id": "l124-lq5",
+            "number": 5,
+            "prompt": "Who is the woman you served yesterday? (Picture 5)",
+            "answer": "She is the woman I served yesterday."
+          },
+          {
+            "id": "l124-lq6",
+            "number": 6,
+            "prompt": "Who are the men you saw yesterday? (Picture 6)",
+            "answer": "They are the men I saw yesterday."
+          },
+          {
+            "id": "l124-lq7",
+            "number": 7,
+            "prompt": "What's this? (Picture 7)",
+            "answer": "This is the book I bought yesterday."
+          },
+          {
+            "id": "l124-lq8",
+            "number": 8,
+            "prompt": "What are these? (Picture 8)",
+            "answer": "These are the books I bought yesterday."
+          },
+          {
+            "id": "l124-lq9",
+            "number": 9,
+            "prompt": "What's this? (Picture 9)",
+            "answer": "This is the kitten I found in the garden."
+          }
         ]
       },
       {
@@ -50,7 +168,12 @@
         "type": "vocabulary",
         "source": "textbook-p252",
         "items": [
-          {"word": "kitten", "ipa": "/'kɪtn/", "pos": "n.", "meaning": "小猫"}
+          {
+            "word": "kitten",
+            "ipa": "/'kɪtn/",
+            "pos": "n.",
+            "meaning": "小猫"
+          }
         ]
       },
       {
@@ -64,12 +187,42 @@
         "answer_kind": "suggested",
         "context": "6 rewrite items forming relative clauses with the pronoun omitted; 3 examples printed on the page.",
         "questions": [
-          {"id": "l124-wa1", "number": 1, "prompt": "She is the woman. I drove her to London.", "answer": "She is the woman I drove to London."},
-          {"id": "l124-wa2", "number": 2, "prompt": "That's the film. I saw it.", "answer": "That's the film I saw."},
-          {"id": "l124-wa3", "number": 3, "prompt": "That's the man. I spoke to him.", "answer": "That's the man I spoke to."},
-          {"id": "l124-wa4", "number": 4, "prompt": "They are the thieves. The police caught them.", "answer": "They are the thieves the police caught."},
-          {"id": "l124-wa5", "number": 5, "prompt": "These are the letters. I typed them.", "answer": "These are the letters I typed."},
-          {"id": "l124-wa6", "number": 6, "prompt": "These are the people. You asked me about them.", "answer": "These are the people you asked me about."}
+          {
+            "id": "l124-wa1",
+            "number": 1,
+            "prompt": "She is the woman. I drove her to London.",
+            "answer": "She is the woman I drove to London."
+          },
+          {
+            "id": "l124-wa2",
+            "number": 2,
+            "prompt": "That's the film. I saw it.",
+            "answer": "That's the film I saw."
+          },
+          {
+            "id": "l124-wa3",
+            "number": 3,
+            "prompt": "That's the man. I spoke to him.",
+            "answer": "That's the man I spoke to."
+          },
+          {
+            "id": "l124-wa4",
+            "number": 4,
+            "prompt": "They are the thieves. The police caught them.",
+            "answer": "They are the thieves the police caught."
+          },
+          {
+            "id": "l124-wa5",
+            "number": 5,
+            "prompt": "These are the letters. I typed them.",
+            "answer": "These are the letters I typed."
+          },
+          {
+            "id": "l124-wa6",
+            "number": 6,
+            "prompt": "These are the people. You asked me about them.",
+            "answer": "These are the people you asked me about."
+          }
         ]
       },
       {
@@ -83,12 +236,42 @@
         "answer_kind": "suggested",
         "context": "6 question-and-answer items; 1 example printed on the page.",
         "questions": [
-          {"id": "l124-wb1", "number": 1, "prompt": "I saw that man yesterday.", "answer": "Which man? That man? / Yes, that's the man I saw yesterday."},
-          {"id": "l124-wb2", "number": 2, "prompt": "I repaired that car yesterday.", "answer": "Which car? That car? / Yes, that's the car I repaired yesterday."},
-          {"id": "l124-wb3", "number": 3, "prompt": "I drove that woman to London yesterday.", "answer": "Which woman? That woman? / Yes, that's the woman I drove to London yesterday."},
-          {"id": "l124-wb4", "number": 4, "prompt": "I bought that umbrella yesterday.", "answer": "Which umbrella? That umbrella? / Yes, that's the umbrella I bought yesterday."},
-          {"id": "l124-wb5", "number": 5, "prompt": "I took that medicine yesterday.", "answer": "Which medicine? That medicine? / Yes, that's the medicine I took yesterday."},
-          {"id": "l124-wb6", "number": 6, "prompt": "I invited that man to my house yesterday.", "answer": "Which man? That man? / Yes, that's the man I invited to my house yesterday."}
+          {
+            "id": "l124-wb1",
+            "number": 1,
+            "prompt": "I saw that man yesterday.",
+            "answer": "Which man? That man? / Yes, that's the man I saw yesterday."
+          },
+          {
+            "id": "l124-wb2",
+            "number": 2,
+            "prompt": "I repaired that car yesterday.",
+            "answer": "Which car? That car? / Yes, that's the car I repaired yesterday."
+          },
+          {
+            "id": "l124-wb3",
+            "number": 3,
+            "prompt": "I drove that woman to London yesterday.",
+            "answer": "Which woman? That woman? / Yes, that's the woman I drove to London yesterday."
+          },
+          {
+            "id": "l124-wb4",
+            "number": 4,
+            "prompt": "I bought that umbrella yesterday.",
+            "answer": "Which umbrella? That umbrella? / Yes, that's the umbrella I bought yesterday."
+          },
+          {
+            "id": "l124-wb5",
+            "number": 5,
+            "prompt": "I took that medicine yesterday.",
+            "answer": "Which medicine? That medicine? / Yes, that's the medicine I took yesterday."
+          },
+          {
+            "id": "l124-wb6",
+            "number": 6,
+            "prompt": "I invited that man to my house yesterday.",
+            "answer": "Which man? That man? / Yes, that's the man I invited to my house yesterday."
+          }
         ]
       },
       {
@@ -102,12 +285,42 @@
         "answer_kind": "suggested",
         "context": "6 rewrite items forming relative clauses; 1 example printed on the page.",
         "questions": [
-          {"id": "l124-wc1", "number": 1, "prompt": "This is the village. I wrote to you about it.", "answer": "That's right. This is the village you wrote to me about."},
-          {"id": "l124-wc2", "number": 2, "prompt": "He is the person. I have heard about him.", "answer": "That's right. He is the person you have heard about."},
-          {"id": "l124-wc3", "number": 3, "prompt": "This is the test. I spoke to you about it.", "answer": "That's right. This is the test you spoke to me about."},
-          {"id": "l124-wc4", "number": 4, "prompt": "She is the woman. I read about her.", "answer": "That's right. She is the woman you read about."},
-          {"id": "l124-wc5", "number": 5, "prompt": "This is something new. I haven't thought about it.", "answer": "That's right. This is something new you haven't thought about."},
-          {"id": "l124-wc6", "number": 6, "prompt": "This is something. I must decide about it.", "answer": "That's right. This is something you must decide about."}
+          {
+            "id": "l124-wc1",
+            "number": 1,
+            "prompt": "This is the village. I wrote to you about it.",
+            "answer": "That's right. This is the village you wrote to me about."
+          },
+          {
+            "id": "l124-wc2",
+            "number": 2,
+            "prompt": "He is the person. I have heard about him.",
+            "answer": "That's right. He is the person you have heard about."
+          },
+          {
+            "id": "l124-wc3",
+            "number": 3,
+            "prompt": "This is the test. I spoke to you about it.",
+            "answer": "That's right. This is the test you spoke to me about."
+          },
+          {
+            "id": "l124-wc4",
+            "number": 4,
+            "prompt": "She is the woman. I read about her.",
+            "answer": "That's right. She is the woman you read about."
+          },
+          {
+            "id": "l124-wc5",
+            "number": 5,
+            "prompt": "This is something new. I haven't thought about it.",
+            "answer": "That's right. This is something new you haven't thought about."
+          },
+          {
+            "id": "l124-wc6",
+            "number": 6,
+            "prompt": "This is something. I must decide about it.",
+            "answer": "That's right. This is something you must decide about."
+          }
         ]
       }
     ],
@@ -222,94 +435,247 @@
     "kitten": "The kitten found in the garden (Picture 9)."
   },
   "images": {
-    "l124-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
-      "src": "assets/lesson-124/l124-pictures-color.webp",
-      "width": 768,
-      "height": 480,
-      "source": "img/lesson-124-01-text.jpg (textbook p.251)",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/124-complete-panels.png",
-      "illustration_width": 768,
-      "illustration_height": 480,
-      "illustration_scene": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Nine numbered pictures in a 3x3 grid showing relative clause examples: 1 man behind counter; 2 woman behind counter; 3 men repairing road; 4 serving a man; 5 serving a woman; 6 seeing men; 7 book; 8 books; 9 kitten in garden.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 255,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            73,
-            219,
-            246,
-            294
-          ],
-          [
-            326,
-            219,
-            500,
-            294
-          ],
-          [
-            580,
-            219,
-            753,
-            294
-          ],
-          [
-            74,
-            451,
-            247,
-            526
-          ],
-          [
-            328,
-            451,
-            501,
-            526
-          ],
-          [
-            580,
-            451,
-            754,
-            526
-          ],
-          [
-            582,
-            682,
-            756,
-            758
-          ],
-          [
-            75,
-            684,
-            249,
-            759
-          ],
-          [
-            329,
-            683,
-            502,
-            758
-          ]
+      "description": "Who served you? / The man standing behind the counter.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "1",
+        "asset_sha256": "951eb58139eec162530a961d7c082b2169e4426f02d2a2dd8da9ad5e8b0c2ec7",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "origin": "local-model",
-      "caption": "(Who) / (whom), (which) and (that) 关系代词",
-      "alt": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 124017,
-        "manifest": "illustrations/manifests/124-l124-pictures.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Who served you? / The woman standing behind the counter.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "2",
+        "asset_sha256": "2f8557f0ad2230da764d3a35be1c81e575e70fe30f3934544277ed983625c37b",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Who is making all that noise? / The men repairing the road.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "3",
+        "asset_sha256": "eec5038f9a60b6e33565ee40a4cb6373e596cde7bcc5ba00559c6b898624411d",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I served him yesterday. / He is the man I served yesterday.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "4",
+        "asset_sha256": "be07e986c27a0f19fde6379ab90a4616c2c2f812cd997849ed667404f33cd074",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I served her yesterday. / She is the woman I served yesterday.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "5",
+        "asset_sha256": "d40c8cb2a7021b69893e3608d6f9ac845a5d835947634353206767c976ba0c90",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I saw them yesterday. / They are the men I saw yesterday.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "6",
+        "asset_sha256": "616e922436518d131050e4d315639c84326777213c29826cd4377fcb64891d3f",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's this? / This is the book I bought yesterday.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "7",
+        "asset_sha256": "dac9187b0add6e8dee6baa150db1bd53cead0eca891f6478cabbe22ce5f4e9bf",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What are these? / These are the books I bought yesterday.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "8",
+        "asset_sha256": "7df574a7cae29c5c8a368df837f786281e07d8d00709745a159f6f53fff2884e",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "What's this? / This is the kitten I found in the garden.",
+      "source": "../img/lesson-124-01-text.jpg",
+      "src": "assets/lesson-124/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-124-01-text.jpg",
+        "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+        "label": "9",
+        "asset_sha256": "0c718420844f287415345aace46ee917622a2c1c2817797ef09ddd628146660e",
+        "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
+        "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-124-01-text.jpg",
+    "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
+    "scope": "Lesson picture/text layout"
+  }
 }

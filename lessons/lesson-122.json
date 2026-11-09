@@ -12,16 +12,80 @@
         "id": "l122-lesson-intro",
         "type": "text",
         "source": "textbook-p247",
-        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l122-lesson-pictures",
         "type": "text",
-        "source": "textbook-p247",
-        "image": "l122-pictures-grid",
-        "text": "Nine pictures (1-9): 1 Who served you? The man who/that is standing behind the counter. 2 Who served you? The woman who/that is standing behind the counter. 3 Who is making all that noise? The men who/that are repairing the road. 4 I served him yesterday. He is the man who(m)/that I served yesterday. 5 I served her yesterday. She is the woman who(m)/that I served yesterday. 6 I saw them yesterday. They are the men who(m)/that I saw yesterday. 7 Which book did you buy? The book which/that is on the counter. 8 Which books did you buy? The books which/that are on the counter. 9 Which dog is yours? The dog which/that is carrying that basket.",
-        "translation": "九张图片（1-9）：1 谁接待了您？站在柜台后面的那位男士。2 谁接待了您？站在柜台后面的那位女士。3 是谁弄出这么大的响声？那些正在修路的男士们。4 我昨天接待了他。他就是我昨天接待的那位男士。5 我昨天接待了她。她就是我昨天接待的那位女士。6 我昨天见到了他们。他们就是我昨天见到的那些男士。7 您买了哪本书？就是柜台上的那本书。8 您买了哪几本书？就是柜台上的那几本书。9 哪条狗是您的？就是叼着那只篮子的那条狗。"
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "Who served you? The man who/that is standing behind the counter."
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "Who served you? The woman who/that is standing behind the counter."
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "Who is making all that noise? The men who/that are repairing the road."
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "I served him yesterday. He is the man who(m)/that I served yesterday."
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "I served her yesterday. She is the woman who(m)/that I served yesterday."
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "I saw them yesterday. They are the men who(m)/that I saw yesterday."
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "Which book did you buy? The book which/that is on the counter."
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "Which books did you buy? The books which/that are on the counter."
+      },
+      {
+        "id": "lesson-photo-panel-09",
+        "type": "text",
+        "source": "../img/lesson-122-01-text.jpg",
+        "image": "photo-panel-09",
+        "source_label": "9",
+        "text": "Which dog is yours? The dog which/that is carrying that basket."
       },
       {
         "id": "l122-lesson-listening",
@@ -34,15 +98,60 @@
         "answer_kind": "suggested",
         "context": "The recording reads each caption.",
         "questions": [
-          {"id": "l122-listen-1", "number": 1, "prompt": "Picture 1: Who served you?", "answer": "The man who/that is standing behind the counter."},
-          {"id": "l122-listen-2", "number": 2, "prompt": "Picture 2: Who served you?", "answer": "The woman who/that is standing behind the counter."},
-          {"id": "l122-listen-3", "number": 3, "prompt": "Picture 3: Who is making all that noise?", "answer": "The men who/that are repairing the road."},
-          {"id": "l122-listen-4", "number": 4, "prompt": "Picture 4: I served him yesterday.", "answer": "He is the man who(m)/that I served yesterday."},
-          {"id": "l122-listen-5", "number": 5, "prompt": "Picture 5: I served her yesterday.", "answer": "She is the woman who(m)/that I served yesterday."},
-          {"id": "l122-listen-6", "number": 6, "prompt": "Picture 6: I saw them yesterday.", "answer": "They are the men who(m)/that I saw yesterday."},
-          {"id": "l122-listen-7", "number": 7, "prompt": "Picture 7: Which book did you buy?", "answer": "The book which/that is on the counter."},
-          {"id": "l122-listen-8", "number": 8, "prompt": "Picture 8: Which books did you buy?", "answer": "The books which/that are on the counter."},
-          {"id": "l122-listen-9", "number": 9, "prompt": "Picture 9: Which dog is yours?", "answer": "The dog which/that is carrying that basket."}
+          {
+            "id": "l122-listen-1",
+            "number": 1,
+            "prompt": "Picture 1: Who served you?",
+            "answer": "The man who/that is standing behind the counter."
+          },
+          {
+            "id": "l122-listen-2",
+            "number": 2,
+            "prompt": "Picture 2: Who served you?",
+            "answer": "The woman who/that is standing behind the counter."
+          },
+          {
+            "id": "l122-listen-3",
+            "number": 3,
+            "prompt": "Picture 3: Who is making all that noise?",
+            "answer": "The men who/that are repairing the road."
+          },
+          {
+            "id": "l122-listen-4",
+            "number": 4,
+            "prompt": "Picture 4: I served him yesterday.",
+            "answer": "He is the man who(m)/that I served yesterday."
+          },
+          {
+            "id": "l122-listen-5",
+            "number": 5,
+            "prompt": "Picture 5: I served her yesterday.",
+            "answer": "She is the woman who(m)/that I served yesterday."
+          },
+          {
+            "id": "l122-listen-6",
+            "number": 6,
+            "prompt": "Picture 6: I saw them yesterday.",
+            "answer": "They are the men who(m)/that I saw yesterday."
+          },
+          {
+            "id": "l122-listen-7",
+            "number": 7,
+            "prompt": "Picture 7: Which book did you buy?",
+            "answer": "The book which/that is on the counter."
+          },
+          {
+            "id": "l122-listen-8",
+            "number": 8,
+            "prompt": "Picture 8: Which books did you buy?",
+            "answer": "The books which/that are on the counter."
+          },
+          {
+            "id": "l122-listen-9",
+            "number": 9,
+            "prompt": "Picture 9: Which dog is yours?",
+            "answer": "The dog which/that is carrying that basket."
+          }
         ]
       }
     ],
@@ -220,104 +329,247 @@
     "dog": "A dog carrying a basket."
   },
   "images": {
-    "l122-pictures-grid": {
+    "photo-panel-01": {
       "kind": "item",
       "status": "ready",
-      "description": "Grid of 9 pictures: 1 man behind counter, 2 woman behind counter, 3 men repairing road, 4 man in shop, 5 woman in clothes shop, 6 men on road, 7 book on counter, 8 books on counter, 9 dog with basket.",
-      "source": "img/lesson-122-01-text.jpg (textbook p.247)",
-      "characters": [],
-      "origin": "local-model",
-      "source_size": [
-        1581,
-        2500
-      ],
-      "crop": [
-        50,
-        300,
-        1541,
-        2350
-      ],
-      "src": "assets/lesson-122/l122-pictures-grid-color.webp",
-      "width": 768,
-      "height": 480,
-      "illustration_source_reference": "illustrations/references/source/122-complete-panels.png",
-      "illustration_width": 768,
-      "illustration_height": 480,
-      "illustration_scene": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Grid of 9 pictures: 1 man behind counter, 2 woman behind counter, 3 men repairing road, 4 man in shop, 5 woman in clothes shop, 6 men on road, 7 book on counter, 8 books on counter, 9 dog with basket.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 251,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            67,
-            209,
-            241,
-            285
-          ],
-          [
-            322,
-            210,
-            495,
-            285
-          ],
-          [
-            575,
-            209,
-            749,
-            285
-          ],
-          [
-            68,
-            433,
-            242,
-            509
-          ],
-          [
-            322,
-            433,
-            496,
-            509
-          ],
-          [
-            575,
-            433,
-            750,
-            509
-          ],
-          [
-            69,
-            683,
-            243,
-            760
-          ],
-          [
-            323,
-            683,
-            497,
-            759
-          ],
-          [
-            576,
-            683,
-            750,
-            759
-          ]
+      "description": "Who served you? The man who/that is standing behind the counter.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "1",
+        "asset_sha256": "be5e35017b7b0269784f0477dddb44ba3df094b65630b013b9296e936af725c5",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "caption": "Who (whom), which and that 关系代词",
-      "alt": "Faithfully colorize this EXACT 9-panel cartoon grid, with 3 columns and 3 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 122017,
-        "manifest": "illustrations/manifests/122-l122-pictures-grid.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Who served you? The woman who/that is standing behind the counter.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "2",
+        "asset_sha256": "fc7fc5984f00c5dcee9b22c4ad1a6c26716f825003e1c368248683ca38972032",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Who is making all that noise? The men who/that are repairing the road.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "3",
+        "asset_sha256": "df27cdf853009d5846d22e03583e27f4dabe338ca6a130c6e85902cce44c2241",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          512,
+          0,
+          768,
+          160
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I served him yesterday. He is the man who(m)/that I served yesterday.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "4",
+        "asset_sha256": "fa39c82df580abcb4e8f1be1f738a9bd7bbf10f655851581dd5281f807335bf0",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I served her yesterday. She is the woman who(m)/that I served yesterday.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "5",
+        "asset_sha256": "f9197ec6269a7c0c9323b44f0711a6a9cd84a703b6045710432eb1a775b209a7",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "I saw them yesterday. They are the men who(m)/that I saw yesterday.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "6",
+        "asset_sha256": "4c24bebc6972b320f70c4d8ab3249749d9d9f2d19d9acec9b07340f999766b90",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          512,
+          160,
+          768,
+          320
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Which book did you buy? The book which/that is on the counter.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "7",
+        "asset_sha256": "ee195da381795b1b5e1f73d7e3940518600384ee46cda5731a85fe17618bcf04",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Which books did you buy? The books which/that are on the counter.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "8",
+        "asset_sha256": "246e49d4e39beef893db3253e4e1cabd18f4f49b4f3e1efc045e2ace6cb0fb47",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-09": {
+      "kind": "item",
+      "status": "ready",
+      "description": "Which dog is yours? The dog which/that is carrying that basket.",
+      "source": "../img/lesson-122-01-text.jpg",
+      "src": "assets/lesson-122/photo-panel-09.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 9",
+      "photo_verification": {
+        "photo": "img/lesson-122-01-text.jpg",
+        "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+        "label": "9",
+        "asset_sha256": "5aee657a0abd9a4232f2eb629c509e8bf167e44f5860cbcfa87e37073e364f36",
+        "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
+        "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
+        "crop": [
+          512,
+          320,
+          768,
+          480
+        ]
       }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-122-01-text.jpg",
+    "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
+    "scope": "Lesson picture/text layout"
+  }
 }

@@ -12,16 +12,62 @@
         "id": "l117-lesson-intro",
         "type": "text",
         "source": "textbook-p237",
-        "text": "Listen then answer this question. 听录音，然后回答问题。",
-        "translation": "听录音，然后回答问题。"
+        "text": "Listen then answer this question.\nWhat does she mean by 'change' in the last sentence?",
+        "translation": "听录音，然后回答问题。最后一句话中的“change”是什么意思？"
       },
       {
         "id": "l117-lesson-text",
         "type": "text",
-        "source": "textbook-p237",
-        "image": "l117-scene",
-        "text": "What does she mean by 'change' in the last sentence?\n\nWhen my husband was going into the dining room this morning, he dropped some coins on the floor.\nThere were coins everywhere.\nWe looked for them,\nbut we could not find them all.\n\nWhile we were having breakfast, our little boy, Tommy, found two small coins on the floor.\nHe put them both into his mouth.\nWe both tried to get the coins, but it was too late.\nTommy had already swallowed them!\n\nLater that morning, when I was doing the housework, my husband phoned me from the office.\n'How's Tommy?' he asked.\n'I don't know,' I answered.\n'Tommy's been to the toilet three times this morning, but I haven't had any change yet!' (Suggested answer / 参考答案)",
-        "translation": "最后一句话中的“change”是什么意思？（零钱）\n\n今天早上我丈夫走进饭厅时，把一些硬币掉在了地上。\n到处都是硬币。\n我们虽然找了，但没能把它们全部找到。\n\n正当我们吃早饭时，我们的小儿子汤米在地上找到了两枚小硬币。\n他把这两枚硬币全都放进了嘴里。我们俩都试图把硬币弄出来，但太迟了。汤米已经把硬币咽了下去！\n\n那天上午的晚些时候，当我正做家务时，我丈夫从办公室打来电话。\n“汤米怎么样？”他问。\n“我不知道。”我回答说。\n“今天上午汤米去了3次厕所了，但我还没看到硬币！”"
+        "source": "../img/lesson-117-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+        "translation": "今天早上我丈夫走进饭厅时，把一些硬币掉在了地上。"
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-117-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "There were coins everywhere. We looked for them, but we could not find them all.",
+        "translation": "到处都是硬币。我们找了，但没能全部找到。"
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-117-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+        "translation": "正当我们吃早饭时，我们的小儿子汤米在地上找到了两枚小硬币。"
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-117-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them!",
+        "translation": "他把这两枚硬币全放进了嘴里。我们俩都想把硬币拿出来，但太迟了。汤米已经把它们咽下去了！"
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-117-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
+        "translation": "那天上午晚些时候，我正做家务时，我丈夫从办公室打来电话。"
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-117-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "'How's Tommy?' he asked. 'I don't know,' I answered. 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+        "translation": "“汤米怎么样？”他问。“我不知道，”我回答，“今天上午汤米去了三次厕所了，但我还没看到零钱！”"
       },
       {
         "id": "l117-lesson-question",
@@ -34,7 +80,12 @@
         "answer_kind": "suggested",
         "context": "Comprehension question about the final line.",
         "questions": [
-          {"id": "l117-lq1", "number": 1, "prompt": "What does she mean by 'change' in the last sentence?", "answer": "She means small coins. 'Change' here refers to the coins Tommy swallowed."}
+          {
+            "id": "l117-lq1",
+            "number": 1,
+            "prompt": "What does she mean by 'change' in the last sentence?",
+            "answer": "She means small coins. 'Change' here refers to the coins Tommy swallowed."
+          }
         ]
       }
     ],
@@ -171,51 +222,151 @@
     "husband": {
       "description": "The husband/father, a man with dark hair and a moustache, wearing a shirt and jacket.",
       "name": "husband",
-      "illustration_appearance": "Father about 35, short dark hair and a neat moustache, pale blue shirt, brown jacket.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-117-01-text.jpg"
     },
     "wife": {
       "description": "The wife/mother, a woman with curly hair and a polka-dot dress.",
       "name": "wife",
-      "illustration_appearance": "Mother about 33, short dark curls, cream dress with small blue polka dots.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-117-01-text.jpg"
     },
     "tommy": {
       "description": "Tommy, the little boy with short blond hair.",
       "name": "tommy",
-      "illustration_appearance": "Little boy about 3, short blond hair, mustard sweater and navy shorts.",
-      "illustration_note": "Visual design for consistent lesson artwork; ages and added clothing colors are illustrative."
+      "illustration_note": "Appearance follows the photographed source drawings; use the same source character in every scene.",
+      "photo_reference": "../img/lesson-117-01-text.jpg"
     }
   },
   "images": {
-    "l117-scene": {
+    "photo-panel-01": {
       "kind": "scene",
       "status": "ready",
-      "description": "Six numbered panels: 1 the husband dropping coins on the dining room floor; 2 coins scattered all over the floor; 3 Tommy finding two small coins on the floor while the family has breakfast; 4 the husband and wife trying to get the coins out of Tommy's mouth; 5 Tommy having swallowed them; 6 the husband phoning from the office asking about Tommy.",
-      "source": "img/lesson-117-01-text.jpg (textbook p.237)",
-      "characters": [
-        "husband",
-        "wife",
-        "tommy"
-      ],
-      "illustration_scene": "At a family breakfast table, the father crouches to gather scattered coins from the dining-room floor. The mother watches their small son Tommy, who has noticed two coins near his chair. Show the moment before he puts anything in his mouth; no objects in mouths.",
-      "illustration_person_count": 3,
-      "illustration_prompt_version": 2,
-      "illustration_reference_crop": "portrait",
-      "src": "assets/lesson-117/l117-scene-color.webp",
-      "width": 768,
-      "height": 512,
-      "origin": "local-model",
-      "caption": "Tommy's breakfast 汤米的早餐",
-      "alt": "At a family breakfast table, the father crouches to gather scattered coins from the dining-room floor.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 117017,
-        "manifest": "illustrations/manifests/117-l117-scene.json"
-      },
-      "layout": "above"
+      "description": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+      "source": "../img/lesson-117-01-text.jpg",
+      "src": "assets/lesson-117/photo-panel-01.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-117-01-text.jpg",
+        "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+        "label": "1",
+        "asset_sha256": "61ccbb235fcc71e5974eb41fd0bd76ffee870a8fbc2ea8a2a6709781dd9e9a4c",
+        "generation_record": "illustrations/photo-repairs/117/generation.json",
+        "review_record": "illustrations/photo-repairs/117/review.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "There were coins everywhere. We looked for them, but we could not find them all.",
+      "source": "../img/lesson-117-01-text.jpg",
+      "src": "assets/lesson-117/photo-panel-02.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-117-01-text.jpg",
+        "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+        "label": "2",
+        "asset_sha256": "69203c3f6a8841ee9a5c3c3bc26dc75321aab277f4279ccd49ca110754ffb484",
+        "generation_record": "illustrations/photo-repairs/117/generation.json",
+        "review_record": "illustrations/photo-repairs/117/review.json"
+      }
+    },
+    "photo-panel-03": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+      "source": "../img/lesson-117-01-text.jpg",
+      "src": "assets/lesson-117/photo-panel-03.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-117-01-text.jpg",
+        "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+        "label": "3",
+        "asset_sha256": "44358383e6affad3f8cd13f1d9caaa52610745c20ef7f2876f3e20330b8b17a3",
+        "generation_record": "illustrations/photo-repairs/117/generation.json",
+        "review_record": "illustrations/photo-repairs/117/review.json"
+      }
+    },
+    "photo-panel-04": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them!",
+      "source": "../img/lesson-117-01-text.jpg",
+      "src": "assets/lesson-117/photo-panel-04.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-117-01-text.jpg",
+        "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+        "label": "4",
+        "asset_sha256": "796594d6cbc1cb4a65705b8b1784bcf654384c2d4304ea7a9d572e0b4210e306",
+        "generation_record": "illustrations/photo-repairs/117/generation.json",
+        "review_record": "illustrations/photo-repairs/117/review.json"
+      }
+    },
+    "photo-panel-05": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
+      "source": "../img/lesson-117-01-text.jpg",
+      "src": "assets/lesson-117/photo-panel-05.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-117-01-text.jpg",
+        "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+        "label": "5",
+        "asset_sha256": "6c2f80c11965da6020b0375855213c57b48045f02b88a52c67b6e1fa07772715",
+        "generation_record": "illustrations/photo-repairs/117/generation.json",
+        "review_record": "illustrations/photo-repairs/117/review.json"
+      }
+    },
+    "photo-panel-06": {
+      "kind": "scene",
+      "status": "ready",
+      "description": "'How's Tommy?' he asked. 'I don't know,' I answered. 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+      "source": "../img/lesson-117-01-text.jpg",
+      "src": "assets/lesson-117/photo-panel-06.webp",
+      "width": 320,
+      "height": 192,
+      "display_width": 320,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-117-01-text.jpg",
+        "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+        "label": "6",
+        "asset_sha256": "efbfaac011a0a0679b4cf44ef675a31d382c2f158a9a51aa6d54299818e22cbe",
+        "generation_record": "illustrations/photo-repairs/117/generation.json",
+        "review_record": "illustrations/photo-repairs/117/review.json"
+      }
     }
   },
   "illustration_style": "Warm realistic color editorial illustration, lifelike faces and proportions, softly textured finish, natural daylight, clear readable staging, matching the existing color lesson scenes. No captions, speech bubbles, logos or watermarks.",
-  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors."
+  "illustration_scene_style": "Warm full-color editorial photograph, lifelike natural faces and proportions, soft natural light, candid everyday storytelling, realistic surroundings and clear composition. Preserve the supplied character identities and clothing colors.",
+  "illustration_palette": "Source black ink, warm peach skin and pale teal accents; reviewed source regions override model color drift.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-117-01-text.jpg",
+    "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
+    "scope": "Lesson picture/text layout"
+  }
 }

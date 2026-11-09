@@ -12,16 +12,80 @@
         "id": "l128-lesson-intro",
         "type": "text",
         "source": "textbook-p259",
-        "text": "Listen to the tape and answer the questions. 听录音并回答问题。",
+        "text": "Listen and answer the questions.",
         "translation": "听录音并回答问题。"
       },
       {
         "id": "l128-lesson-pictures",
         "type": "text",
-        "source": "textbook-p259",
-        "image": "l128-pictures",
-        "text": "1. He can't be ill. He must be tired.\n2. It can't be my new hat. It must be my old one.\n3. She can't be Danish. She must be Swedish.\n4. He can't be a dentist. He must be a doctor.\n5. She can't be forty. She must be fifty.\n6. It can't be the 20th. It must be the 21st.\n7. He can't be the youngest. He must be the oldest.\n8. He can't be reading. He must be sleeping.",
-        "translation": "1. 他不可能生病了。他肯定是累了。\n2. 那不可能是我的新帽子。那肯定是我的旧帽子。\n3. 她不可能丹麦人。她肯定是瑞典人。\n4. 他不可能牙医。他肯定是医生。\n5. 她不可能四十岁。她肯定五十岁了。\n6. 那不可能是二十号。那肯定是二十一号。\n7. 他不可能是最小的。他肯定是最老的。\n8. 他不可能在阅读。他肯定在睡觉。"
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-01",
+        "source_label": "1",
+        "text": "He can't be ill. He must be tired.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-02",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-02",
+        "source_label": "2",
+        "text": "It can't be my new hat. It must be my old one.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-03",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-03",
+        "source_label": "3",
+        "text": "She can't be Danish. She must be Swedish.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-04",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-04",
+        "source_label": "4",
+        "text": "He can't be a dentist. He must be a doctor.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-05",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-05",
+        "source_label": "5",
+        "text": "She can't be forty. She must be fifty.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-06",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-06",
+        "source_label": "6",
+        "text": "It can't be the 20th. It must be the 21st.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-07",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-07",
+        "source_label": "7",
+        "text": "He can't be the youngest. He must be the oldest.",
+        "translation": ""
+      },
+      {
+        "id": "lesson-photo-panel-08",
+        "type": "text",
+        "source": "../img/lesson-128-01-text.jpg",
+        "image": "photo-panel-08",
+        "source_label": "8",
+        "text": "He can't be reading. He must be sleeping.",
+        "translation": ""
       },
       {
         "id": "l128-lesson-listening",
@@ -589,85 +653,212 @@
   ],
   "characters": {},
   "images": {
-    "l128-pictures": {
-      "kind": "scene",
+    "photo-panel-01": {
+      "kind": "item",
       "status": "ready",
-      "description": "Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
-      "src": "assets/lesson-128/l128-pictures-color.webp",
-      "width": 512,
-      "height": 640,
-      "source": "img/lesson-128-01-text.jpg (textbook p.259)",
-      "characters": [],
-      "illustration_source_reference": "illustrations/references/source/128-complete-panels.png",
-      "illustration_width": 512,
-      "illustration_height": 640,
-      "illustration_scene": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows. Keep all panels in the original order. Preserve every person, face, pose, object, number, clock hand and comparison. Consistent clothing colors for repeated people across panels. Natural skin tones, colorful clothes and objects, pure white background. Do not add or remove anything. Keep existing labels unchanged. No new words or captions. Eight numbered pictures in a 4x2 grid: 1 a man asleep in a chair with two women looking at him; 2 a woman holding a hat; 3 three people talking; 4 a man with a medical bag; 5 three women; 6 a woman pointing at an April calendar; 7 a family group with a man and children; 8 a man asleep with two women.",
-      "layout": "above",
-      "illustration_source_crop": {
-        "file": "pdf/新概念英语1 英语初阶.pdf",
-        "page": 263,
-        "coordinate_space": [
-          833,
-          1179
-        ],
-        "boxes": [
-          [
-            77,
-            253,
-            257,
-            345
-          ],
-          [
-            431,
-            253,
-            611,
-            346
-          ],
-          [
-            78,
-            448,
-            258,
-            541
-          ],
-          [
-            432,
-            448,
-            611,
-            541
-          ],
-          [
-            79,
-            644,
-            259,
-            737
-          ],
-          [
-            433,
-            644,
-            612,
-            738
-          ],
-          [
-            80,
-            840,
-            259,
-            932
-          ],
-          [
-            433,
-            840,
-            613,
-            932
-          ]
+      "description": "He can't be ill. He must be tired.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-01.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 1",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "1",
+        "asset_sha256": "e61a954b95e6dcc5881530d09db800a76522775d6d723cf975429c4c18521a9d",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          0,
+          0,
+          256,
+          160
         ]
-      },
-      "origin": "local-model",
-      "caption": "He can't be... He must be... 他不可能…… 他肯定是……",
-      "alt": "Faithfully colorize this EXACT 8-panel cartoon grid, with 2 columns and 4 rows.",
-      "generation": {
-        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 128017,
-        "manifest": "illustrations/manifests/128-l128-pictures.json"
+      }
+    },
+    "photo-panel-02": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It can't be my new hat. It must be my old one.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-02.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 2",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "2",
+        "asset_sha256": "d3f2bf8b43962897ba27b5b32f7423225dd28153edb5db62f08e5ab69156a8f8",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          256,
+          0,
+          512,
+          160
+        ]
+      }
+    },
+    "photo-panel-03": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She can't be Danish. She must be Swedish.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-03.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 3",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "3",
+        "asset_sha256": "cfb356ced60d1e6ba290f97a69dc5d20bbb5070299f851acd4a259f1b8b0bc07",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          0,
+          160,
+          256,
+          320
+        ]
+      }
+    },
+    "photo-panel-04": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He can't be a dentist. He must be a doctor.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-04.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 4",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "4",
+        "asset_sha256": "ba14ef44a0e42cba53f55e19c2b3a61f1a6a2ba3e61954a7afd8d8f4f0fb6d04",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          256,
+          160,
+          512,
+          320
+        ]
+      }
+    },
+    "photo-panel-05": {
+      "kind": "item",
+      "status": "ready",
+      "description": "She can't be forty. She must be fifty.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-05.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 5",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "5",
+        "asset_sha256": "848da1c950e5969b5cea1297d2e370a60799b732b66f22130076b3f357bdfc90",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          0,
+          320,
+          256,
+          480
+        ]
+      }
+    },
+    "photo-panel-06": {
+      "kind": "item",
+      "status": "ready",
+      "description": "It can't be the 20th. It must be the 21st.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-06.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 6",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "6",
+        "asset_sha256": "03393db80c7e890aa89d4c8b53cd3cbe81f1afde72d2fba2dce09b8e62b7e473",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          256,
+          320,
+          512,
+          480
+        ]
+      }
+    },
+    "photo-panel-07": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He can't be the youngest. He must be the oldest.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-07.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 7",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "7",
+        "asset_sha256": "2d5799b667a9704f6d153fe51c1515ca063262ad86fb96a295530b3151f0dd5a",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          0,
+          480,
+          256,
+          640
+        ]
+      }
+    },
+    "photo-panel-08": {
+      "kind": "item",
+      "status": "ready",
+      "description": "He can't be reading. He must be sleeping.",
+      "source": "../img/lesson-128-01-text.jpg",
+      "src": "assets/lesson-128/photo-panel-08.webp",
+      "width": 256,
+      "height": 160,
+      "display_width": 256,
+      "origin": "photo-verified-color-panel",
+      "caption": "Picture 8",
+      "photo_verification": {
+        "photo": "img/lesson-128-01-text.jpg",
+        "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+        "label": "8",
+        "asset_sha256": "32b4eec11ae3464e5c2dc223cbb7772b38efff013a830c7047b6941878b8611c",
+        "reused_asset": "html/assets/lesson-128/l128-pictures-color.webp",
+        "reused_sha256": "07ca7c5f20c69d9621013cd216b261be4009016ab9ee7c8ba94b3d545e2c195c",
+        "crop": [
+          256,
+          480,
+          512,
+          640
+        ]
       }
     }
   },
@@ -683,5 +874,11 @@
     "note": "Grammar restored from source exercise pages and answer key after whole-book coverage audit."
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",
-  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles."
+  "illustration_palette": "Recurring male characters wear blue tops and navy trousers or shorts; recurring female characters wear green tops or dresses. Use the SAME hair color and clothing colors for each repeated face in every panel. Keep white medical coats and distinctive uniforms appropriate to their roles.",
+  "photo_layout_review": {
+    "report": "reports/photo-layout-audit/visual-findings.json",
+    "source": "img/lesson-128-01-text.jpg",
+    "sha256": "649df74c65534a7dafa16fd1fe58ba868ca2128f7c170a6ed40b54aa76b018f0",
+    "scope": "Lesson picture/text layout"
+  }
 }
