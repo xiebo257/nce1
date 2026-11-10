@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the television on the left into a tabletop stereo radio with two round speakers. Keep the four family members on the right EXACTLY unchanged: identical faces, hairstyles, blue clothes, positions and person count. Preserve the white background and crisp colorful cartoon style. No new people or text.",
+  "seed": 581120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-22",
+      "path": "illustrations/redraw-inputs/058-action-22-identity-reference.png",
+      "sha256": "4c65884ca8185ed6702b567afad0fbcabcdf1554753b3be72c97f5c98f8ed177"
+    }
+  ],
+  "fingerprint": "d86d08869b376cb4fb44e688a2fbe2ad8a443c7d11b4321ecad64694082099e5",
+  "sha256": "f298ec2b4d094ede5fa9255891822557dfc6cf78836e2b9151701255b7eff042",
+  "reference_sha256": "c0d80d76e970f9558621809e70dfe4798666a0729f497bc2f2c2a6a892d7332b",
+  "seconds": 23.86,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

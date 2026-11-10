@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A family watching television together.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 581119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-21",
+      "path": "html/assets/lesson-058/action-21-color.webp",
+      "sha256": "6a21a385395a9644162aacbaf7c0aeb7e75beaedbff546c469ef5ad2011ab3dc"
+    }
+  ],
+  "fingerprint": "6a95720851be5fcb9bd988340acf0550644ece28155a3d8f5f00c87645d56133",
+  "sha256": "4c65884ca8185ed6702b567afad0fbcabcdf1554753b3be72c97f5c98f8ed177",
+  "reference_sha256": "c7b691a034a392c4be4fdd217b647579cb3a8bb467fdf8a9a9c87e9de285616d",
+  "seconds": 31.07,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

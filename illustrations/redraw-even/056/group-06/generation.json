@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Two children are shown in separate beds.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-22",
+      "path": "html/assets/lesson-056/lesson-picture-22-color.webp",
+      "sha256": "ac7ae60225ad7ba6979207f40e90aab0302ec61781a26b78d89c0dbecbe21e40"
+    }
+  ],
+  "fingerprint": "907388be0f10b754a5caa658257061404f9018e5a282f58e4e880af4a96cb876",
+  "sha256": "6e97def29a8ac9eafffecc9599f80b2b42cfd2f601c67f8fcab486933667edad",
+  "reference_sha256": "c59c3e822527e077d1475d7df050202ba9940bba44996dccf78f8598b4c80861",
+  "seconds": 30.11,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

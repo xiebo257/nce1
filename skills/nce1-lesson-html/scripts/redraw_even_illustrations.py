@@ -118,6 +118,8 @@ def specification(number, lesson, index, items):
             'No grid, no multiple copies, no captions. '
             + item.get('extra_instruction', '')
         )
+        if item.get('edit_instruction'):
+            prompt = item['edit_instruction']
     return {'model': MODEL, 'prompt': prompt, 'seed': number * 10000 + 1110 + index,
             'steps': 4, 'guidance': 1.0, 'width': cols * CELL[0], 'height': rows * CELL[1],
             'cell': list(CELL), 'columns': cols,
@@ -132,9 +134,10 @@ def generate(numbers, selected_groups):
     from mflux.models.flux2.variants import Flux2KleinEdit
     model = None
     mx.set_cache_limit(256 * 1024**2)
-    queue = read(REPORT / 'plan.json')['lessons']
-    for number in numbers:
-        lesson = queue[str(number)]
+    pending = list(numbers)
+    while pending:
+        number = pending.pop(0)
+        lesson = read(REPORT / 'plan.json')['lessons'][str(number)]
         for index, items in enumerate(groups(lesson), 1):
             if selected_groups and index not in selected_groups:
                 continue
@@ -179,6 +182,11 @@ def generate(numbers, selected_groups):
             print('CANDIDATE', number, index, flush=True)
             del result
             mx.clear_cache(); gc.collect()
+        priority_path = WORK / 'priority.json'
+        if priority_path.exists():
+            priorities = read(priority_path)
+            write(priority_path, [])
+            pending = list(dict.fromkeys(priorities + pending))
 
 
 def review(number, notes):
@@ -191,6 +199,8 @@ def review(number, notes):
         assert record['sha256'] == digest(directory / 'redrawn.png')
         records[str(index)] = {'sheet_sha256': record['sha256'],
                                'tiles': {x['slot']: digest(directory / f'{x["slot"]}.png') for x in items}}
+        if (directory / 'candidate-edits.json').exists():
+            records[str(index)]['edits_sha256'] = digest(directory / 'candidate-edits.json')
     others = {}
     for item in lesson['items']:
         if item['mode'] == 'exact-clock':
@@ -247,6 +257,29 @@ def diagrams(numbers):
         print('DIAGRAMS', number)
 
 
+def contact(numbers):
+    queue = read(REPORT / 'plan.json')['lessons']
+    for number in numbers:
+        lesson = queue[str(number)]; pictures = []
+        for index, group in enumerate(groups(lesson), 1):
+            for item in group:
+                path = WORK / f'{number:03}/group-{index:02}/{item["slot"]}.png'
+                if path.exists():
+                    pictures.append((item, path))
+        for start in range(0, len(pictures), 12):
+            batch = pictures[start:start+12]
+            sheet = Image.new('RGB', (1536, 350 * math.ceil(len(batch)/3)), 'white')
+            draw = ImageDraw.Draw(sheet)
+            for index, (item, path) in enumerate(batch):
+                x = index % 3 * 512; y = index // 3 * 350
+                draw.text((x+4, y+4), item['slot'], fill='black')
+                with Image.open(path) as im:
+                    sheet.paste(ImageOps.contain(im, CELL), (x, y+25))
+            path = WORK / f'{number:03}/contact-{start//12+1:02}.jpg'
+            sheet.save(path, quality=95)
+            print(path)
+
+
 def replace_images_field(raw, images):
     # Preserve all unrelated JSON formatting, including compact answer rows.
     decoder = json.JSONDecoder()
@@ -281,6 +314,10 @@ def publish(number):
         archive = Path(f'illustrations/redraw-even/{number:03}/group-{index:02}')
         archive.mkdir(parents=True, exist_ok=True)
         (archive / 'reference.png').write_bytes((directory / 'reference.png').read_bytes())
+        edits = directory / 'candidate-edits.json'
+        if edits.exists():
+            assert digest(edits) == approval['groups'][str(index)]['edits_sha256']
+            record['postprocess'] = read(edits)
         write(archive / 'generation.json', dict(record, review=f'reports/even-illustration-redraw/reviews/{number:03}.json'))
         for item in items:
             slot = item['slot']; candidate = directory / f'{slot}.png'
@@ -335,7 +372,7 @@ def publish(number):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['plan', 'generate', 'diagrams', 'review', 'publish'])
+    parser.add_argument('command', choices=['plan', 'generate', 'diagrams', 'contact', 'review', 'publish'])
     parser.add_argument('--lessons', nargs='+', type=int)
     parser.add_argument('--groups', nargs='+', type=int)
     parser.add_argument('--notes')
@@ -349,6 +386,8 @@ def main():
         generate(numbers, args.groups)
     elif args.command == 'diagrams':
         diagrams(numbers)
+    elif args.command == 'contact':
+        contact(numbers)
     elif args.command == 'review':
         if not args.notes:
             parser.error('Concrete visual inspection notes are required')

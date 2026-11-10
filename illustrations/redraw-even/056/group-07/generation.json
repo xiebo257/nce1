@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman washes dishes by hand.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-23",
+      "path": "html/assets/lesson-056/lesson-picture-23-color.webp",
+      "sha256": "7ccb1e9bbec1364f21dec6fd43dc827b1fc54c557063128fdb1749a12aa9fe18"
+    }
+  ],
+  "fingerprint": "d27cc4846490f7aa1cc5ff293e32f4e8c47228b5e3c082afa8ce5012a8e33b68",
+  "sha256": "bd173578e2941a6e186f34e23ade808e914377ca6cae971aba31cdeaa7421aa7",
+  "reference_sha256": "3f518c5d98f473ac75cf31cacd9c9981ae9b7ef149d8aa1e9a4af11954563b2b",
+  "seconds": 30.45,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

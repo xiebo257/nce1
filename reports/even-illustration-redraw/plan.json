@@ -1160,8 +1160,8 @@
         },
         {
           "slot": "lesson-picture-02",
-          "reference": "html/assets/lesson-056/lesson-picture-02-color.webp",
-          "reference_sha256": "751f3bcdfa59d531b349ae568d935a99a81fb53979a0c34e4220377a15039c86",
+          "reference": "illustrations/redraw-inputs/056-bed-sheet.png",
+          "reference_sha256": "5b00be56b713e90e27af2720fb5d3f0bc01eda4bb27f770daebba4d0202408b0",
           "source_photo": "img/lesson-056-01-text.jpg",
           "source_photo_sha256": "315d816624c17434e3aa565cfe9c91a53f7810dd90fa6efba2cedf174895f68a",
           "previous": {
@@ -1198,7 +1198,13 @@
           },
           "cue": "A person makes the bed.",
           "text": "2nd: makes. Picture cue: a person makes the bed.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "redraw_cue": "One woman in a blue top and black skirt making a bed. She holds a flowing WHITE COTTON BEDSHEET with both hands and spreads it over the bed. White cloth, not a limb",
+          "reference_preparation": {
+            "original": "html/assets/lesson-056/lesson-picture-02-color.webp",
+            "sha256": "751f3bcdfa59d531b349ae568d935a99a81fb53979a0c34e4220377a15039c86",
+            "change": "Whiten the incorrectly skin-colored fabric region in the prior colorized reference before model redraw; source photograph remains unchanged."
+          }
         },
         {
           "slot": "lesson-picture-03",
@@ -1492,12 +1498,13 @@
           },
           "cue": "A cat drinks from a dish.",
           "text": "31st: drinks. Picture cue: a cat drinks from a dish.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "redraw_cue": "One orange tabby cat lapping white milk from a shallow blue bowl. Clearly visible smooth white liquid in the bowl, no solid food. The cat bends its head to drink"
         },
         {
           "slot": "lesson-picture-32",
-          "reference": "html/assets/lesson-056/lesson-picture-32-color.webp",
-          "reference_sha256": "9cde30c17e2137ff7be11e6356c06a13503ab3e7fcb2e07eb6691696f14063dd",
+          "reference": "illustrations/redraw-inputs/056-family-identity-reference.png",
+          "reference_sha256": "237bc502ccfdef39596390ca7c95d3b14379a340695c07d7dd6d7727da7bba8f",
           "source_photo": "img/lesson-056-01-text.jpg",
           "source_photo_sha256": "315d816624c17434e3aa565cfe9c91a53f7810dd90fa6efba2cedf174895f68a",
           "previous": {
@@ -1534,7 +1541,14 @@
           },
           "cue": "A family watches television.",
           "text": "32nd: watch. Picture cue: a family watches television.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "redraw_cue": "Remove the small BLOND CHILD seated in the middle. Keep the father, mother, black-haired child on the left in blue, and black-haired child on the right in green. Final picture contains ONLY FOUR people: the two parents and the two black-haired children. Preserve all other details",
+          "reference_preparation": {
+            "original": "illustrations/work/redraw-even/056/group-04/redrawn.png",
+            "sha256": "237bc502ccfdef39596390ca7c95d3b14379a340695c07d7dd6d7727da7bba8f",
+            "change": "Use the inspected four-person family listening scene to preserve the same family; change only radio to television."
+          },
+          "edit_instruction": "Change ONLY the stereo radio at the left into a television set with a visible screen. Keep the four people on the right exactly unchanged, with the same faces, hair, clothes, skin colors and positions. Preserve the whole family, the furniture and the white background. No new people or objects."
         },
         {
           "slot": "lesson-picture-33",
@@ -2340,8 +2354,8 @@
         },
         {
           "slot": "action-16",
-          "reference": "html/assets/lesson-058/action-16-color.webp",
-          "reference_sha256": "1ae76788448adbecc92518b553c20a686e941bf14314bb7b2d29afcecc9023d3",
+          "reference": "illustrations/redraw-inputs/058-action-16-identity-reference.png",
+          "reference_sha256": "ab3efe15bc72f2b86d7c745bd3dff588acc3e2fb180362a2d30adbb9f9532915",
           "source_photo": "img/lesson-058-01-text.jpg",
           "source_photo_sha256": "0cda6ff26fdab03c0fe315893e4f33bd6ad343ea71a4d1020f91ed91109654a3",
           "previous": {
@@ -2381,7 +2395,13 @@
           },
           "cue": "The same woman drinking coffee beside a coffee pot.",
           "text": "16th: but this morning, she ...\nPicture cue: The same woman drinking coffee beside a coffee pot.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "original": "html/assets/lesson-058/action-16-color.webp",
+            "sha256": "1ae76788448adbecc92518b553c20a686e941bf14314bb7b2d29afcecc9023d3",
+            "change": "Use inspected companion scene as identity-preserving edit reference; change only the teaching object."
+          },
+          "edit_instruction": "Change ONLY the blue rounded teapot on the left into a tall silver COFFEE POT with a narrow long spout, brown top and visible steam. Keep the woman on the right exactly unchanged: same face, brown curly hair, yellow clothing, pose and cup. Preserve composition, style and white background. No text."
         },
         {
           "slot": "action-17",
@@ -2430,8 +2450,8 @@
         },
         {
           "slot": "action-18",
-          "reference": "html/assets/lesson-058/action-18-color.webp",
-          "reference_sha256": "2a092c11e5b075f09f1020943aa415507f730296d5c257c70461f3c8ee60f113",
+          "reference": "illustrations/redraw-inputs/058-children-identity-reference.png",
+          "reference_sha256": "8624f34d672f695a63a3eca5b2c040da768ff3dcf500e9283b2bc17572e1fec1",
           "source_photo": "img/lesson-058-01-text.jpg",
           "source_photo_sha256": "0cda6ff26fdab03c0fe315893e4f33bd6ad343ea71a4d1020f91ed91109654a3",
           "previous": {
@@ -2471,7 +2491,13 @@
           },
           "cue": "The same two children swimming in water.",
           "text": "18th: but this afternoon, they ...\nPicture cue: The same two children swimming in water.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "original": "html/assets/lesson-058/action-18-color.webp",
+            "sha256": "2a092c11e5b075f09f1020943aa415507f730296d5c257c70461f3c8ee60f113",
+            "change": "Use the inspected two children playing scene as the identity reference for swimming."
+          },
+          "edit_instruction": "Show these same TWO children swimming in blue pool water instead of playing in the garden. Preserve their exact faces and hair: boy on the left with golden-brown short hair, girl on the right with brown hair tied back. Show their heads and shoulders above the water, arms swimming. White outer background, clean full-color cartoon. No extra people or animals."
         },
         {
           "slot": "action-19",
@@ -2610,8 +2636,8 @@
         },
         {
           "slot": "action-22",
-          "reference": "html/assets/lesson-058/action-22-color.webp",
-          "reference_sha256": "4d1b9ad43ec587640d18d695646f26d4d96fcfc84eda0f283ee495118edce855",
+          "reference": "illustrations/redraw-inputs/058-action-22-identity-reference.png",
+          "reference_sha256": "4c65884ca8185ed6702b567afad0fbcabcdf1554753b3be72c97f5c98f8ed177",
           "source_photo": "img/lesson-058-01-text.jpg",
           "source_photo_sha256": "0cda6ff26fdab03c0fe315893e4f33bd6ad343ea71a4d1020f91ed91109654a3",
           "previous": {
@@ -2651,10 +2677,62 @@
           },
           "cue": "The same family listening to a stereo.",
           "text": "22nd: but tonight, we ...\nPicture cue: The same family listening to a stereo.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "original": "html/assets/lesson-058/action-22-color.webp",
+            "sha256": "4d1b9ad43ec587640d18d695646f26d4d96fcfc84eda0f283ee495118edce855",
+            "change": "Use inspected companion scene as identity-preserving edit reference; change only the teaching object."
+          },
+          "edit_instruction": "Change ONLY the television on the left into a tabletop stereo radio with two round speakers. Keep the four family members on the right EXACTLY unchanged: identical faces, hairstyles, blue clothes, positions and person count. Preserve the white background and crisp colorful cartoon style. No new people or text."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "action-13": {
+          "copy_scene_from": "action-13",
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "clock_time": "7:00",
+              "asset": "illustrations/work/redraw-even/058/diagrams/item-07.png",
+              "clear_box": [
+                367,
+                91,
+                499,
+                258
+              ],
+              "placement": [
+                368,
+                109,
+                130,
+                130
+              ]
+            }
+          ]
+        },
+        "action-14": {
+          "copy_scene_from": "action-13",
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "clock_time": "8:00",
+              "asset": "illustrations/work/redraw-even/058/diagrams/item-08.png",
+              "clear_box": [
+                367,
+                91,
+                499,
+                258
+              ],
+              "placement": [
+                368,
+                109,
+                130,
+                130
+              ]
+            }
+          ]
+        }
+      }
     },
     "60": {
       "sections_sha256": "dfc4c61a47ce33a4169f42e3e7effb8225fedc471dcc991a5fea8c5289ef05f7",
@@ -3369,7 +3447,8 @@
           },
           "cue": "15th eggs: Three or four eggs together.",
           "text": "15th: eggs.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. Exactly three smooth pale beige chicken eggs, slightly pointed oval shells. No leaves or stems. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-16",
@@ -3414,7 +3493,8 @@
           },
           "cue": "16th jam: Two jars labelled JAM.",
           "text": "16th: jam.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. Two glass jars filled with red strawberry jam, labelled JAM. Only jam inside the jars. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-17",
@@ -3504,7 +3584,8 @@
           },
           "cue": "18th bread: A loaf of sliced bread.",
           "text": "18th: bread.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. A loaf of ordinary sliced bread. Brown crust and cream bread inside. No faces or characters. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-19",
@@ -3549,7 +3630,8 @@
           },
           "cue": "19th biscuits: A packet of biscuits.",
           "text": "19th: biscuits.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. An open package of plain biscuits, with a few rectangular biscuits visible. Use an unlettered blank wrapper, no text. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-20",
@@ -3954,7 +4036,8 @@
           },
           "cue": "28th peaches: Three peaches.",
           "text": "28th: peaches.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. Three whole ripe peaches with soft orange-pink skin and small green leaves. No holes, exposed stones, or brown patches. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-29",
@@ -3999,7 +4082,8 @@
           },
           "cue": "29th steak: A piece of steak.",
           "text": "29th: steak.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. One cut of raw red beef steak with a pale fatty edge. No packaging or extra objects. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-30",
@@ -4044,7 +4128,8 @@
           },
           "cue": "30th mince: A pile of mince.",
           "text": "30th: mince.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. A mound of fresh raw minced beef, small pink-red ground meat strands. No vegetables, beans or faces. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-31",
@@ -4089,7 +4174,8 @@
           },
           "cue": "31st chicken: A whole chicken.",
           "text": "31st: chicken.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. One whole plucked raw chicken for cooking, pale pink skin, wings and drumsticks folded. Food, not a living bird. No feathers, head or text. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-32",
@@ -4134,7 +4220,8 @@
           },
           "cue": "32nd whisky: Two bottles of whisky.",
           "text": "32nd: whisky.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one clean full-color educational food illustration. Two glass bottles of amber whisky, red caps, labelled WHISKY. No portraits on the bottles. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts."
         },
         {
           "slot": "item-33",
@@ -4224,7 +4311,8 @@
           },
           "cue": "34th wine: Two bottles of wine.",
           "text": "34th: wine.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational object illustration. Two ordinary glass bottles of red wine with plain corks or bottle caps, labelled WINE. No faces or decorative portraits. Sharp clean outlines, natural colors, white background. Inanimate objects only. No anthropomorphic faces, eyes, mouths or characters."
         },
         {
           "slot": "item-35",
@@ -4269,7 +4357,8 @@
           },
           "cue": "35th tobacco: A box of tobacco.",
           "text": "35th: tobacco.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational object illustration. Two simple rectangular tobacco tins with loose brown shredded tobacco leaves beside them. Plain unlettered tins, no writing or logos. Sharp clean outlines, natural colors, white background. Inanimate objects only. No anthropomorphic faces, eyes, mouths or characters."
         },
         {
           "slot": "item-36",
@@ -4314,7 +4403,8 @@
           },
           "cue": "36th soap: Two bars of soap.",
           "text": "36th: soap.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational object illustration. Two smooth pastel pink and pale yellow rectangular bars of bath soap with rounded corners. Plain unlettered soap, not food or cake. No icing, crumbs or wrappers. Sharp clean outlines, natural colors, white background. Inanimate objects only. No anthropomorphic faces, eyes, mouths or characters."
         }
       ],
       "group_size": 1
@@ -9408,7 +9498,8 @@
           },
           "cue": "cheese",
           "text": "cheese",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of cheese. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-02",
@@ -9444,7 +9535,8 @@
           },
           "cue": "eggs",
           "text": "eggs",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of eggs. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-03",
@@ -9480,7 +9572,8 @@
           },
           "cue": "butter",
           "text": "butter",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of butter. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-04",
@@ -9516,7 +9609,8 @@
           },
           "cue": "honey",
           "text": "honey",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of honey. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-05",
@@ -9552,7 +9646,8 @@
           },
           "cue": "jam",
           "text": "jam",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of jam. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-06",
@@ -9588,7 +9683,8 @@
           },
           "cue": "biscuits",
           "text": "biscuits",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of biscuits. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-07",
@@ -9624,7 +9720,8 @@
           },
           "cue": "pears",
           "text": "pears",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of pears. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-08",
@@ -9660,7 +9757,8 @@
           },
           "cue": "oranges",
           "text": "oranges",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of oranges. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-09",
@@ -9696,7 +9794,8 @@
           },
           "cue": "bananas",
           "text": "bananas",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of bananas. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-10",
@@ -9732,7 +9831,8 @@
           },
           "cue": "beans",
           "text": "beans",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of beans. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-11",
@@ -9768,7 +9868,8 @@
           },
           "cue": "peas",
           "text": "peas",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of peas. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-12",
@@ -9804,7 +9905,8 @@
           },
           "cue": "cabbages",
           "text": "cabbages",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of cabbages. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-13",
@@ -9840,7 +9942,8 @@
           },
           "cue": "lamb",
           "text": "lamb",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of lamb. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-14",
@@ -9876,7 +9979,8 @@
           },
           "cue": "beef",
           "text": "beef",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of beef. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-15",
@@ -9912,7 +10016,8 @@
           },
           "cue": "steak",
           "text": "steak",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of steak. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-16",
@@ -9948,7 +10053,8 @@
           },
           "cue": "mince",
           "text": "mince",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "A mound of fresh raw minced beef with recognizable fine pink-red ground meat strands, matching the reference layout. Crisp colorful educational illustration, white background. No vegetables, beans, faces, people or text."
         },
         {
           "slot": "photo-panel-17",
@@ -9984,7 +10090,8 @@
           },
           "cue": "chicken",
           "text": "chicken",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "One whole plucked raw chicken for cooking, pale pink skin, folded wings and drumsticks. Crisp full-color educational food illustration, white background. No living bird, head, feathers, text, people or anthropomorphic face."
         },
         {
           "slot": "photo-panel-18",
@@ -10020,7 +10127,8 @@
           },
           "cue": "glue",
           "text": "glue",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of glue. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-19",
@@ -10056,7 +10164,8 @@
           },
           "cue": "envelopes",
           "text": "envelopes",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of envelopes. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-20",
@@ -10092,7 +10201,8 @@
           },
           "cue": "writing paper",
           "text": "writing paper",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of writing paper. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-21",
@@ -10128,7 +10238,8 @@
           },
           "cue": "newspapers",
           "text": "newspapers",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of newspapers. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-22",
@@ -10164,7 +10275,8 @@
           },
           "cue": "magazines",
           "text": "magazines",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of magazines. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-23",
@@ -10200,7 +10312,8 @@
           },
           "cue": "bread",
           "text": "bread",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of bread. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-24",
@@ -10236,7 +10349,8 @@
           },
           "cue": "cakes",
           "text": "cakes",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of cakes. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-25",
@@ -10272,7 +10386,8 @@
           },
           "cue": "aspirins",
           "text": "aspirins",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of aspirins. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-26",
@@ -10308,7 +10423,8 @@
           },
           "cue": "medicine",
           "text": "medicine",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of medicine. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         }
       ],
       "group_size": 1
@@ -10972,7 +11088,8 @@
           },
           "cue": "A bowl of mixed fruit: grapes, bananas, an orange and an apple.",
           "text": "1,000 — fruit",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bowl of mixed fruit: grapes, bananas, an orange and an apple.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-2000",
@@ -11022,7 +11139,8 @@
           },
           "cue": "A glass dish filled with bananas.",
           "text": "2,000 — bananas",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A glass dish filled with bananas.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-3000",
@@ -11072,7 +11190,8 @@
           },
           "cue": "A bowl of oranges.",
           "text": "3,000 — oranges",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bowl of oranges.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-4000",
@@ -11122,7 +11241,8 @@
           },
           "cue": "A wooden bowl of peaches.",
           "text": "4,000 — peaches",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A wooden bowl of peaches.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-5000",
@@ -11172,7 +11292,8 @@
           },
           "cue": "A bowl of apples.",
           "text": "5,000 — apples",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bowl of apples.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-6000",
@@ -11222,7 +11343,8 @@
           },
           "cue": "Bowls of vegetables with steam rising.",
           "text": "6,000 — vegetables",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of Bowls of vegetables with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-7000",
@@ -11272,7 +11394,8 @@
           },
           "cue": "A salad bowl of lettuce with a spoon.",
           "text": "7,000 — lettuce",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A salad bowl of lettuce with a spoon.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-8000",
@@ -11322,7 +11445,8 @@
           },
           "cue": "A steaming dish of cabbage.",
           "text": "8,000 — cabbage",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A steaming dish of cabbage.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-9000",
@@ -11372,7 +11496,8 @@
           },
           "cue": "A steaming dish of peas.",
           "text": "9,000 — peas",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A steaming dish of peas.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-10000",
@@ -11422,7 +11547,8 @@
           },
           "cue": "A steaming pot of beans.",
           "text": "10,000 — beans",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A steaming pot of beans.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-11000",
@@ -11472,7 +11598,8 @@
           },
           "cue": "A plate of pieces of meat with steam rising.",
           "text": "11,000 — meat",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A plate of pieces of meat with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-12000",
@@ -11522,7 +11649,8 @@
           },
           "cue": "A joint of roast beef on a plate with steam rising.",
           "text": "12,000 — beef",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A joint of roast beef on a plate with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-13000",
@@ -11572,7 +11700,8 @@
           },
           "cue": "A roast leg of lamb on a plate with steam rising.",
           "text": "13,000 — lamb",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A roast leg of lamb on a plate with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-14000",
@@ -11622,7 +11751,8 @@
           },
           "cue": "A plate of steaks with steam rising.",
           "text": "14,000 — steak",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A plate of steaks with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-15000",
@@ -11672,7 +11802,8 @@
           },
           "cue": "A roast chicken on a plate with steam rising.",
           "text": "15,000 — chicken",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A roast chicken on a plate with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-16000",
@@ -11722,7 +11853,8 @@
           },
           "cue": "A glass and a bottle of milk.",
           "text": "16,000 — milk",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A glass and a bottle of milk.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-17000",
@@ -11772,7 +11904,8 @@
           },
           "cue": "A teapot and a cup of tea.",
           "text": "17,000 — tea",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A teapot and a cup of tea.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-18000",
@@ -11822,7 +11955,8 @@
           },
           "cue": "A coffee pot and a cup of coffee.",
           "text": "18,000 — coffee",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A coffee pot and a cup of coffee.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-19000",
@@ -11872,7 +12006,8 @@
           },
           "cue": "A bottle of wine and a glass of wine.",
           "text": "19,000 — wine",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bottle of wine and a glass of wine.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "lesson-084-pic-20000",
@@ -11922,7 +12057,8 @@
           },
           "cue": "A glass and a bottle of beer.",
           "text": "20,000 — beer",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A glass and a bottle of beer.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         }
       ],
       "group_size": 1
@@ -15219,7 +15355,8 @@
           },
           "cue": "keys",
           "text": "keys",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of keys. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-02",
@@ -15255,7 +15392,8 @@
           },
           "cue": "envelope",
           "text": "envelope",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of envelope. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-03",
@@ -15291,7 +15429,8 @@
           },
           "cue": "clothes",
           "text": "clothes",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of clothes. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-04",
@@ -15327,7 +15466,8 @@
           },
           "cue": "passport",
           "text": "passport",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of passport. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-05",
@@ -15363,7 +15503,8 @@
           },
           "cue": "tickets",
           "text": "tickets",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of tickets. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-06",
@@ -15399,7 +15540,8 @@
           },
           "cue": "wristwatch",
           "text": "wristwatch",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of wristwatch. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-07",
@@ -15435,7 +15577,8 @@
           },
           "cue": "flowers",
           "text": "flowers",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of flowers. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-08",
@@ -15471,7 +15614,8 @@
           },
           "cue": "boat",
           "text": "boat",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of boat. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-09",
@@ -15507,7 +15651,8 @@
           },
           "cue": "phrasebook",
           "text": "phrasebook",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of phrasebook. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-10",
@@ -15543,7 +15688,8 @@
           },
           "cue": "hammers",
           "text": "hammers",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of hammers. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-11",
@@ -15579,7 +15725,8 @@
           },
           "cue": "car",
           "text": "car",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of car. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         },
         {
           "slot": "photo-panel-12",
@@ -15615,7 +15762,8 @@
           },
           "cue": "pens",
           "text": "pens",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of pens. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         }
       ],
       "group_size": 1

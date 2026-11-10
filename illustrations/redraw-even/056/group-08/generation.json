@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Two people each type at a typewriter.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-24",
+      "path": "html/assets/lesson-056/lesson-picture-24-color.webp",
+      "sha256": "fda9261fa9e91f5983da9a3a81376b317eb64b5fd15cbd704c40c1b2ef102428"
+    }
+  ],
+  "fingerprint": "c41f60003911a50e5e29a8e28e0b129e7135503cbdf3476b38a67c66fadcf833",
+  "sha256": "06483005bb57994cebc8b6df5f6147a8ff74aac255eb27484528ff9d10abdf37",
+  "reference_sha256": "739a1e7f3746312dcd39d8d6d853dc16d6e2820ad1fb3e9ba3d83ed7ce2a5529",
+  "seconds": 32.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

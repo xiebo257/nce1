@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A person cleans a blackboard.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-21",
+      "path": "html/assets/lesson-056/lesson-picture-21-color.webp",
+      "sha256": "69597e5f531de4107d87a36dd384f4b2961adcf96d2b707f3189456281801b34"
+    }
+  ],
+  "fingerprint": "56ab51c73ddd2123ba854cbec0c623037e7d4212169c18453725bbf9d4461b22",
+  "sha256": "61a52869aa3459061495c402e07b85e55f4e06e122c8a0cf1021410feb406084",
+  "reference_sha256": "58d843b2dfae9d3f37fed5eb4efd4251376d17cc2d222afda225e14f66bb60eb",
+  "seconds": 29.83,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

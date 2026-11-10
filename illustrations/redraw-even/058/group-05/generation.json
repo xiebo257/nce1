@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Two children playing in the garden.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 581115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-17",
+      "path": "html/assets/lesson-058/action-17-color.webp",
+      "sha256": "aedf7755f0b566a2e00fa6374a3d60f0795ade183af82e5e0e5be52f5aeb829b"
+    }
+  ],
+  "fingerprint": "4705de8c2245b32b6eae0d7b6ef4df57635b01870a3b8b259e8f6aa58de7df1b",
+  "sha256": "8624f34d672f695a63a3eca5b2c040da768ff3dcf500e9283b2bc17572e1fec1",
+  "reference_sha256": "c31e5e4705b689b1f0f3477d9d07537b98b6783457868da2c749d10d830f6866",
+  "seconds": 33.17,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

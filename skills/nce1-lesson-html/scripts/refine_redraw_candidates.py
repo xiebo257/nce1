@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+"""Apply reviewed, recorded exact-diagram overlays to model redraw candidates."""
+import argparse
+from pathlib import Path
+from PIL import Image, ImageDraw
+from redraw_even_illustrations import REPORT, WORK, digest, groups, read, write
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--lessons', type=int, nargs='+', required=True)
+    args = parser.parse_args()
+    plan = read(REPORT / 'plan.json')['lessons']
+    for number in args.lessons:
+        lesson = plan[str(number)]
+        locations = {item['slot']: WORK / f'{number:03}/group-{index:02}'
+                     for index, group in enumerate(groups(lesson), 1) for item in group}
+        for slot, recipe in lesson.get('candidate_edits', {}).items():
+            directory = locations[slot]
+            source = locations[recipe.get('copy_scene_from', slot)] / 'redrawn.png'
+            with Image.open(source) as original:
+                image = original.convert('RGB')
+            record = {'source': str(source), 'source_sha256': digest(source), 'operations': []}
+            for operation in recipe['operations']:
+                if operation['type'] != 'exact-diagram-overlay':
+                    raise ValueError('Unknown refinement: ' + operation['type'])
+                draw = ImageDraw.Draw(image)
+                draw.rectangle(operation['clear_box'], fill='white')
+                with Image.open(operation['asset']) as overlay:
+                    x, y, width, height = operation['placement']
+                    image.paste(overlay.convert('RGB').resize((width, height), Image.Resampling.LANCZOS), (x, y))
+                record['operations'].append(dict(operation, sha256=digest(operation['asset'])))
+            target = directory / f'{slot}.png'
+            image.save(target)
+            record['output_sha256'] = digest(target)
+            write(directory / 'candidate-edits.json', record)
+            print('REFINED_REQUIRES_REVIEW', number, slot)
+
+
+if __name__ == '__main__':
+    main()

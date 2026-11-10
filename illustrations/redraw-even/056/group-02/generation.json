@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. One woman in a blue top and black skirt making a bed. She holds a flowing WHITE COTTON BEDSHEET with both hands and spreads it over the bed. White cloth, not a limb. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-02",
+      "path": "illustrations/redraw-inputs/056-bed-sheet.png",
+      "sha256": "5b00be56b713e90e27af2720fb5d3f0bc01eda4bb27f770daebba4d0202408b0"
+    }
+  ],
+  "fingerprint": "4b55faf894252b840ed00968039dce8ae2b2bb69d42ec5c2cde86d5ab447ab80",
+  "sha256": "b9f776410674d9cdc944c5914ddaada49ce72104698e0a80fb63b37ea862db22",
+  "reference_sha256": "837ac0080e539cdb785fd6b78689e3a4cb518bb3249a2cf38b7b6f30ac673f4d",
+  "seconds": 28.97,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

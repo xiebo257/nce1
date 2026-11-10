@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Show these same TWO children swimming in blue pool water instead of playing in the garden. Preserve their exact faces and hair: boy on the left with golden-brown short hair, girl on the right with brown hair tied back. Show their heads and shoulders above the water, arms swimming. White outer background, clean full-color cartoon. No extra people or animals.",
+  "seed": 581116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-18",
+      "path": "illustrations/redraw-inputs/058-children-identity-reference.png",
+      "sha256": "8624f34d672f695a63a3eca5b2c040da768ff3dcf500e9283b2bc17572e1fec1"
+    }
+  ],
+  "fingerprint": "824f7c247adbb3a1c79899e17e8c174862a0b2426a7dadb3aae7c615d356c54e",
+  "sha256": "a816fee58d7e07f15c67470e89daea5ccb5806cb646d50c3a02794e6de9dcf95",
+  "reference_sha256": "68502b700e1b2cc4df206550ec1f313351997594114321c08db3786011a3ba9c",
+  "seconds": 29.25,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

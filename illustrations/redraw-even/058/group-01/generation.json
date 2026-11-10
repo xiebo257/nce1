@@ -1,0 +1,52 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Man shaving beside a clock showing seven.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 581111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-13",
+      "path": "html/assets/lesson-058/action-13-color.webp",
+      "sha256": "026b35dbfcd60d8ad06a406a7ee74e58197080643d8fc5ad700ec0a957a18b0a"
+    }
+  ],
+  "fingerprint": "773beaa65106a65cfd7eff21c1ca301d2dd0eb525d680f1d986f5a3a81501cb5",
+  "sha256": "2dc9fd6fc2b770bf46af0077d64906fa12c03dc325266501ea8eda5978afdfb1",
+  "reference_sha256": "ef6c5f2c31f0807992c5db4d52b965181e72521d067efbeea79cfaf71f7de702",
+  "seconds": 31.99,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/058/group-01/redrawn.png",
+    "source_sha256": "2dc9fd6fc2b770bf46af0077d64906fa12c03dc325266501ea8eda5978afdfb1",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "clock_time": "7:00",
+        "asset": "illustrations/work/redraw-even/058/diagrams/item-07.png",
+        "clear_box": [
+          367,
+          91,
+          499,
+          258
+        ],
+        "placement": [
+          368,
+          109,
+          130,
+          130
+        ],
+        "sha256": "a3e88bc5bedaf1d140c032de144dc161fccd2f274f9d49e699c1cff3511f2f6a"
+      }
+    ],
+    "output_sha256": "bf7647ed767c5a1083dc92df3b061d449535a5a6e498e60c8ff355b582c6c50b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

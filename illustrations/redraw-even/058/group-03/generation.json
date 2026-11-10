@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Woman drinking tea beside a teapot.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 581113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-15",
+      "path": "html/assets/lesson-058/action-15-color.webp",
+      "sha256": "372740db00a15a817831bc2ab1a8826a6f6bb74625660930cb3648af444b6edc"
+    }
+  ],
+  "fingerprint": "dcd4e610fc42252d2029bf0f999b2234ac51c155935ea85037cb2581ec829ee4",
+  "sha256": "ab3efe15bc72f2b86d7c745bd3dff588acc3e2fb180362a2d30adbb9f9532915",
+  "reference_sha256": "0d3f7f3e5cf4cfbc8f74151bedfa96693c0c87b5dae8ffc2f085b53d5da61ec8",
+  "seconds": 33.25,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

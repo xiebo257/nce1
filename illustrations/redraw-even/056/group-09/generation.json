@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. One orange tabby cat lapping white milk from a shallow blue bowl. Clearly visible smooth white liquid in the bowl, no solid food. The cat bends its head to drink. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-31",
+      "path": "html/assets/lesson-056/lesson-picture-31-color.webp",
+      "sha256": "1bcf92d900fbf00f0b4ecfa39fa0dca2f84822a05b9d3bbb3748d4029c7dd882"
+    }
+  ],
+  "fingerprint": "1751bce3e8aaa47354aac0e9fd8b24f7c3995d33a22cce15c155486b107c5327",
+  "sha256": "6838b5ca3896b88104f996f1ab3c6b8d88ec52ed9dc0fcb89302b38eb91562b2",
+  "reference_sha256": "5a87ac439da0d010fa1f42e5c5a420c5025b35dde4e9db764409dd3a0b213c38",
+  "seconds": 28.7,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

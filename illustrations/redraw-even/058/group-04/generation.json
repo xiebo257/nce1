@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the blue rounded teapot on the left into a tall silver COFFEE POT with a narrow long spout, brown top and visible steam. Keep the woman on the right exactly unchanged: same face, brown curly hair, yellow clothing, pose and cup. Preserve composition, style and white background. No text.",
+  "seed": 581114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-16",
+      "path": "illustrations/redraw-inputs/058-action-16-identity-reference.png",
+      "sha256": "ab3efe15bc72f2b86d7c745bd3dff588acc3e2fb180362a2d30adbb9f9532915"
+    }
+  ],
+  "fingerprint": "dcc1eea40b69a546d3f392a13681c4d9ea3e259d2adb5f2141d94aaa90ad0943",
+  "sha256": "2406645377fb7e6e7d7bf0cc90d550ba0eaee081b075d03d811788194641996f",
+  "reference_sha256": "2c04d974bead1e526f59c1e0ffac616c87f665a08f1fe3df91005023355dc636",
+  "seconds": 23.34,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

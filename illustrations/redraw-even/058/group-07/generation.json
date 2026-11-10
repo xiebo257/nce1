@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A person cooking a meal at a stove.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 581117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "action-19",
+      "path": "html/assets/lesson-058/action-19-color.webp",
+      "sha256": "9cda575f714dae6516f66b705bbb56e83d7bcd28d129a0248c299240dedc56c2"
+    }
+  ],
+  "fingerprint": "08f3f2e0496ab9b19bfd4e7deb43ed5e7c42c85ca3334fd9dcb1d0c22cc5bb54",
+  "sha256": "a79123420390ca57135e2b4cef76876cf3f7b0ef70b65735509950b968257995",
+  "reference_sha256": "18a2ca4a82271f9ceaea16de9ab00c1b92ebe2ebbbe561535b436ed92e351b38",
+  "seconds": 31.45,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/058.json"
+}

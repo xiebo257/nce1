@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A person eats at a table beside a clock.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-33",
+      "path": "html/assets/lesson-056/lesson-picture-33-color.webp",
+      "sha256": "1633cec7bd466dfcb08a33e841a132556c2a295f9c09d93d8495bf87ab01b2d0"
+    }
+  ],
+  "fingerprint": "78eb7051ac6612351b015b47c259db9d32e282017b80074eaee267d894042c01",
+  "sha256": "95be83be11964f6537030fdfaef74089b0b29848bb8d728e86dbd7d7c533f4b1",
+  "reference_sha256": "36b9234b547e35d14400046d6d595fce6a371c46c09d40d313b7c8d46a5efe8d",
+  "seconds": 31.03,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

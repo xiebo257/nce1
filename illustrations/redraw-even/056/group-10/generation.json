@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the stereo radio at the left into a television set with a visible screen. Keep the four people on the right exactly unchanged, with the same faces, hair, clothes, skin colors and positions. Preserve the whole family, the furniture and the white background. No new people or objects.",
+  "seed": 561120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-32",
+      "path": "illustrations/redraw-inputs/056-family-identity-reference.png",
+      "sha256": "237bc502ccfdef39596390ca7c95d3b14379a340695c07d7dd6d7727da7bba8f"
+    }
+  ],
+  "fingerprint": "59a88e7a58572c06d292bde46c4a13d571d27eee2c2ee4655a4e9373f02a1172",
+  "sha256": "2ac81820d45b3a299670f146618a98b9d279447f9a5872dacde754df5cc4cf24",
+  "reference_sha256": "550c698ad22e5805f10b4b140e5f68cd1fbeee5cc747dc1a57896af658ecff16",
+  "seconds": 28.95,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

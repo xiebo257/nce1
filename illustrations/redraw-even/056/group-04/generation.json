@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A family sits together listening to a radio or stereo.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-04",
+      "path": "html/assets/lesson-056/lesson-picture-04-color.webp",
+      "sha256": "cb1f037592ef9c216e546d2eada6cbaebd6105a05fb81e0c6251f147823d049e"
+    }
+  ],
+  "fingerprint": "e93a124b4dada9e984896a22d4363696714dbea610413d093d5438c492120d7c",
+  "sha256": "237bc502ccfdef39596390ca7c95d3b14379a340695c07d7dd6d7727da7bba8f",
+  "reference_sha256": "08544c0884a50d31e07e89032e7a3352f0af5392ee678dcc0c0b7c22bfc44e2e",
+  "seconds": 29.74,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}

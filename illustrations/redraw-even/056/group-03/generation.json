@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A person shaves.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 561113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-picture-03",
+      "path": "html/assets/lesson-056/lesson-picture-03-color.webp",
+      "sha256": "3ad36b2baf14873023a0275674cfafbefd7d21727184229d9da1458ceb69c8fa"
+    }
+  ],
+  "fingerprint": "74d2a365efbf52ca5dbd0ebd4fa175bbe279eba6323caa7ea9d27b019e00585e",
+  "sha256": "35ba68fc81d9d3922a41ca8baab42dd37160ba81c2d8b19d88a94a1e78e05188",
+  "reference_sha256": "8b636b7dbd70f77916f15d1f8ba0e2c660d6f70e15e2f2d0fdcf195bf08c26af",
+  "seconds": 31.4,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/056.json"
+}
