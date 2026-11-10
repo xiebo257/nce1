@@ -10865,8 +10865,8 @@
         },
         {
           "slot": "photo-panel-13",
-          "reference": "html/assets/lesson-080/photo-panel-13.webp",
-          "reference_sha256": "cbe9937a764e41d565814986745dbd0b05846ede859e42dd9b049ee2373a8c4c",
+          "reference": "illustrations/redraw-inputs/080-food-13-correction.png",
+          "reference_sha256": "e180a7c54e85d08b64a14289b5bd84c2a1ca45c2f5568a32b77002db63f63c3e",
           "source_photo": "img/lesson-080-01-text.jpg",
           "source_photo_sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
           "previous": {
@@ -10898,7 +10898,7 @@
           "cue": "lamb",
           "text": "lamb",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of lamb. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Keep this single lamb leg food illustration and its shape. Color the meat rich pink-red with thin creamy white fat; make the circular cut end show red muscle around the central white bone. The outside is smooth meat, NOT wool or fur. White background, no lettering."
         },
         {
           "slot": "photo-panel-14",
@@ -11023,8 +11023,8 @@
         },
         {
           "slot": "photo-panel-17",
-          "reference": "html/assets/lesson-080/photo-panel-17.webp",
-          "reference_sha256": "4ff0d849fb0ca7cdacc0dcd4e6f7a297d5eab3c600cc4ff0347e74f14f65b617",
+          "reference": "illustrations/redraw-inputs/080-food-17-correction.png",
+          "reference_sha256": "968700b61a4791f0d55b21068c6d07a75522f77e576540eb9222d6f1660483c7",
           "source_photo": "img/lesson-080-01-text.jpg",
           "source_photo_sha256": "a8a641b14576bcbfff33e66cfc0800e632e3eab4537ad2186635928c30f2f037",
           "previous": {
@@ -11056,7 +11056,7 @@
           "cue": "chicken",
           "text": "chicken",
           "mode": "model-redraw",
-          "edit_instruction": "One whole plucked raw chicken for cooking, pale pink skin, folded wings and drumsticks. Crisp full-color educational food illustration, white background. No living bird, head, feathers, text, people or anthropomorphic face."
+          "edit_instruction": "Remove the black eye completely and remove any face or head from this chicken. This is a headless plucked chicken carcass for cooking, pale pink skin, two drumsticks and folded wings. Replace the eye area with plain pink skin. White background, no text."
         },
         {
           "slot": "photo-panel-18",
@@ -11241,7 +11241,7 @@
           "cue": "magazines",
           "text": "magazines",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of magazines. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this reference as one open COLOR magazine, two facing pages with colorful photos of landscapes and food and short decorative article lines. Preserve the page layout and open magazine shape. Blank clean heading areas, no words or random lettering. Crisp clean outlined educational color illustration, white background, no faces or people."
         },
         {
           "slot": "photo-panel-23",
@@ -11397,7 +11397,140 @@
           "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of medicine. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-08": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    90,
+                    287
+                  ],
+                  [
+                    440,
+                    287
+                  ],
+                  [
+                    440,
+                    313
+                  ],
+                  [
+                    90,
+                    313
+                  ]
+                ]
+              ],
+              "fill": "white"
+            }
+          ]
+        },
+        "photo-panel-18": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                68,
+                150,
+                211,
+                211
+              ],
+              "text": "GLUE",
+              "font_size": 37,
+              "background": "#c1eef0",
+              "color": "black"
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                291,
+                166,
+                440,
+                225
+              ],
+              "text": "GLUE",
+              "font_size": 36,
+              "background": "#ffe5e2",
+              "color": "black"
+            }
+          ]
+        },
+        "photo-panel-19": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    174,
+                    83
+                  ],
+                  [
+                    217,
+                    70
+                  ],
+                  [
+                    372,
+                    148
+                  ],
+                  [
+                    331,
+                    168
+                  ]
+                ]
+              ],
+              "fill": "#fff1be"
+            }
+          ]
+        },
+        "photo-panel-20": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    153,
+                    129
+                  ],
+                  [
+                    320,
+                    129
+                  ],
+                  [
+                    320,
+                    177
+                  ],
+                  [
+                    153,
+                    177
+                  ]
+                ]
+              ],
+              "fill": "white"
+            }
+          ]
+        },
+        "photo-panel-26": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                151,
+                160,
+                358,
+                201
+              ],
+              "text": "MEDICINE",
+              "font_size": 35,
+              "background": "#fffcdf",
+              "color": "black"
+            }
+          ]
+        }
+      }
     },
     "82": {
       "sections_sha256": "f78537b9adeb9a408db9fcf41b297157356e9d147758086b9a14c4e6eb7909f6",
@@ -11464,8 +11597,8 @@
         },
         {
           "slot": "lesson-082-pic-870",
-          "reference": "html/assets/lesson-082/lesson-082-pic-870-color.webp",
-          "reference_sha256": "7be7ab9eba75149e72bf34eba8b1ccfb3f5e26eae0490c63b19fc2d2e3fecdb0",
+          "reference": "illustrations/redraw-inputs/082-photo-02.png",
+          "reference_sha256": "480bb332131f2aee7bf6d6b36b56f371793598422ccab24395f056de28694a02",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11519,7 +11652,22 @@
           "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
           "required_overlays": [
             "1:00 clock"
-          ]
+          ],
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              615,
+              568,
+              967,
+              829
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. Two adult men seated at a table eating lunch: left man short swept black hair and blue shirt; right man short side-parted light brown hair and light gray shirt. Plates of lunch, exactly two men. One small blank clock circle above between them. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+          "verified_description": "Two men eat lunch at a table with a clock showing one o’clock."
         },
         {
           "slot": "lesson-082-pic-980",
@@ -11641,8 +11789,8 @@
         },
         {
           "slot": "lesson-082-pic-1020",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1020-color.webp",
-          "reference_sha256": "e2bf54de8510f720ff031c42efc8c3d05d7cdcf1c1353ca70dd03df224c6333c",
+          "reference": "illustrations/redraw-inputs/082-photo-05.png",
+          "reference_sha256": "2fc63928818c11b3b6fd31014a6310c48fb2df4318974871c0019de66bab2591",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11687,12 +11835,26 @@
           },
           "cue": "A man and a woman share a bottle of wine and a meal at a table.",
           "text": "1,020 — a meal",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              154,
+              1119,
+              511,
+              1362
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. The same adult couple having a meal at a restaurant table: man short swept black hair and blue shirt on left; woman straight blonde shoulder-length hair and green blouse on right. Two plates of food, one green wine bottle with a blank label and two wine glasses. Exactly two people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1030",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1030-color.webp",
-          "reference_sha256": "1c72120046af45bc14e0a3e330802aed3257f83623556e716e28edbf816d2b49",
+          "reference": "illustrations/redraw-inputs/082-photo-06.png",
+          "reference_sha256": "3cec036ea04f0584cbeacc1516b36373ba73863ca54d85c363bcd82445281430",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11737,12 +11899,26 @@
           },
           "cue": "A man swims in the sea with his arms outstretched.",
           "text": "1,030 — a swim",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              613,
+              1122,
+              956,
+              1358
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. One adult man with short black hair swimming in water, facing left. Show exactly two arms doing a swimming stroke: one arm reaches forward left, one arm bent back behind him; two legs stretch behind him to right with feet breaking the water. Bare torso, dark blue swimming trunks. No third arm or extra person. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1040",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1040-color.webp",
-          "reference_sha256": "0d616bb3a2d02a80042f982acd0b8f9b996ddcbce0baa4b7313a041b4151a9fd",
+          "reference": "illustrations/redraw-inputs/082-photo-07.png",
+          "reference_sha256": "be4bd88662b195149158648f9fc8cc0f7205fb20588c4686d3d1ed18d9cc530b",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11787,12 +11963,26 @@
           },
           "cue": "A man takes a bath in a tub with soap bubbles around him.",
           "text": "1,040 — a bath",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              1113,
+              1122,
+              1421,
+              1364
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. One adult man with short black hair taking a bath, shoulder and head above a white bathtub filled with soap bubbles. A bath brush in one hand, other arm on tub rim, exactly two arms. Green soap bottle. No other people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1050",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1050-color.webp",
-          "reference_sha256": "d6e62774cb6e7a83c87dda7932ca1fa154ea263c5b3add40baa03a17affafb38",
+          "reference": "illustrations/redraw-inputs/082-photo-08.png",
+          "reference_sha256": "6cbc39b9d3e232447897c3ce15106787f0037f1dbca865bb14bbc6b2bf95dc4c",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11837,12 +12027,26 @@
           },
           "cue": "A hairdresser gives a man a haircut in front of a mirror.",
           "text": "1,050 — a haircut",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              1491,
+              1125,
+              1852,
+              1383
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. A barber in a white shirt and dark trousers stands behind a seated adult male customer with short black hair, cutting his hair with scissors and a comb. Customer wears a blue barber cape, seated on a salon chair, feet on floor. Exactly two adult men with normal proportions; barber has two arms and two legs. No extra limbs. No border. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1060",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1060-color.webp",
-          "reference_sha256": "87e109f57aca4f7d88ffe2e74cea2d9f10dc7b27b8d106451f8a4d1eaaaa3f57",
+          "reference": "illustrations/redraw-inputs/082-photo-09.png",
+          "reference_sha256": "eb2eb62ae4389c1aa953d3595e3857806e2fd35be0612e7eba54832d1ed3281c",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11887,12 +12091,26 @@
           },
           "cue": "A teacher gives a lesson to two students sitting at desks.",
           "text": "1,060 — a lesson",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              150,
+              1656,
+              496,
+              1889
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. A male teacher in a dark blue jacket stands at left teaching two male students seated behind separate desks at right. Teacher black hair, first student black hair and green shirt, second blond hair and orange shirt. Exactly three men. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1070",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1070-color.webp",
-          "reference_sha256": "88bcfc571ae421381034de3e073bcf51fc566dd82bf8dcadc24d11904a495662",
+          "reference": "illustrations/redraw-inputs/082-photo-10.png",
+          "reference_sha256": "26093fd6149f04e8411cbad7961335db42bcc12a3ec020dea8164d19155fe59e",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11937,12 +12155,26 @@
           },
           "cue": "A group of people dance at a party.",
           "text": "1,070 — a party",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              611,
+              1657,
+              947,
+              1911
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. Four adults at a party: blonde woman green blouse at left; black-haired man blue shirt next to her; man in gray shirt at right, and another adult behind them. They smile, talk and hold small glasses. Exactly four people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1080",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1080-color.webp",
-          "reference_sha256": "33442b8a0c1f740420744cb82205a789f4bf15de579761ff45aa62ce841bf11f",
+          "reference": "illustrations/redraw-inputs/082-photo-11.png",
+          "reference_sha256": "badc6cb625c5ef15006c55c2e68294d14aa2b4eec4c599861e06e6ec3817ff3f",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -11987,12 +12219,26 @@
           },
           "cue": "A man and a woman sunbathe under an umbrella on a beach.",
           "text": "1,080 — a holiday",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              1052,
+              1660,
+              1395,
+              1911
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. The same couple relaxing on a beach under a striped parasol: blonde woman in green swimsuit at left and black-haired man in blue swimming trunks at right, both wearing sunglasses and reclining on the sand. Exactly two people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         },
         {
           "slot": "lesson-082-pic-1090",
-          "reference": "html/assets/lesson-082/lesson-082-pic-1090-color.webp",
-          "reference_sha256": "ad0801ac3289bb81e9915f31f95ecd9c5d9afc482106d0d2bf3f2f7107ad906a",
+          "reference": "illustrations/redraw-inputs/082-photo-12.png",
+          "reference_sha256": "48167e5641a281a25d41982585b45bf52e63e91a43d6e8b5b21e7b28ccd8c74d",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -12037,10 +12283,116 @@
           },
           "cue": "A man and a woman have a good time, laughing and celebrating together.",
           "text": "1,090 — a good time",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "direct_photo_crop": {
+            "source": "img/lesson-082-01-text.jpg",
+            "box": [
+              1498,
+              1661,
+              1841,
+              1910
+            ],
+            "source_size": [
+              1888,
+              2500
+            ]
+          },
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. The same couple having a good time roller-skating together: blonde woman in green blouse and skirt at left, black-haired man blue shirt and navy trousers at right. Each wears two roller skates and has exactly two arms and two legs. Exactly two people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "inset_clocks": [
+        "8:45",
+        "1:00",
+        "4:00",
+        "7:00"
+      ],
+      "candidate_edits": {
+        "lesson-082-pic-760": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/082/diagrams/inset-8-45.png",
+              "clear_box": [
+                68,
+                59,
+                152,
+                142
+              ],
+              "placement": [
+                68,
+                59,
+                84,
+                84
+              ],
+              "clock_time": "8:45"
+            }
+          ]
+        },
+        "lesson-082-pic-980": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/082/diagrams/inset-4-00.png",
+              "clear_box": [
+                165,
+                33,
+                264,
+                130
+              ],
+              "placement": [
+                165,
+                33,
+                99,
+                99
+              ],
+              "clock_time": "4:00"
+            }
+          ]
+        },
+        "lesson-082-pic-1010": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/082/diagrams/inset-7-00.png",
+              "clear_box": [
+                68,
+                59,
+                158,
+                153
+              ],
+              "placement": [
+                68,
+                59,
+                94,
+                94
+              ],
+              "clock_time": "7:00"
+            }
+          ]
+        },
+        "lesson-082-pic-870": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/082/diagrams/inset-1-00.png",
+              "clear_box": [
+                206,
+                16,
+                309,
+                119
+              ],
+              "placement": [
+                206,
+                16,
+                103,
+                103
+              ],
+              "clock_time": "1:00"
+            }
+          ]
+        }
+      }
     },
     "84": {
       "sections_sha256": "e8ace4b1fd43f49279430fe0c6795af56a62288e929049705c07bafcefa8280f",
@@ -14024,7 +14376,14 @@
           ]
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "inset_clocks": [
+        "3:00",
+        "2:50",
+        "7:30",
+        "5:00",
+        "4:00"
+      ]
     },
     "90": {
       "sections_sha256": "694ca6d8e530b1ef131a18ef6ea1859842dd509af50f3cfe91b5fb2dcc4ac9f5",
@@ -14271,7 +14630,13 @@
           ]
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "inset_clocks": [
+        "8:30",
+        "8:00",
+        "3:00",
+        "2:00"
+      ]
     },
     "92": {
       "sections_sha256": "662d3383090efbf37cbd8d0797ad27e067137c0fa7e29426b1e3eb0f98cb717f",
@@ -14423,7 +14788,15 @@
           "cue": "get up",
           "text": "get up",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One boy in bed asleep, a round alarm clock on a bedside table and rising sun visible through the window. One boy only. Clock face blank for exact overlay if needed. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One boy in bed asleep, a round alarm clock on a bedside table and rising sun visible through the window. One boy only. Clock face blank for exact overlay if needed. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "required_overlays": [
+            "10:55 clock"
+          ],
+          "clock_verification": {
+            "time": "10:55",
+            "source": "img/lesson-092-01-text.jpg",
+            "method": "Enlarged original photo: longer hand points to 11, shorter hand lies between 10 and 11."
+          }
         },
         {
           "slot": "photo-panel-05",
@@ -14876,7 +15249,10 @@
           "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One customer in blue standing at a reception counter talking to one seated clerk in green about an appointment. Exactly two people, one desk telephone. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "inset_clocks": [
+        "10:55"
+      ]
     },
     "94": {
       "sections_sha256": "ca11eb0ac3fcdcd9d8f71e9bd2546606107d51367882f9c1a7d5b53a61871642",
@@ -16647,7 +17023,10 @@
           "cue": "passport",
           "text": "passport",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of passport. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw a crisp colorful illustration of one closed navy blue passport booklet with a simple gold heraldic emblem and blank cover label. Match the reference book angle and shape, white background. No people or faces. No letters or words; label will be typeset exactly later.",
+          "required_overlays": [
+            "PASSPORT"
+          ]
         },
         {
           "slot": "photo-panel-05",
@@ -16832,7 +17211,10 @@
           "cue": "phrasebook",
           "text": "phrasebook",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of phrasebook. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw a crisp colorful illustration of one closed red pocket phrasebook with a large blank cream rectangular label on its cover. Match the reference book angle and shape, white background. No people or faces. No letters or words; label will be typeset exactly later.",
+          "required_overlays": [
+            "PHRASE BOOK"
+          ]
         },
         {
           "slot": "photo-panel-10",
@@ -18385,7 +18767,8 @@
           },
           "cue": "answer all the questions\neasy",
           "text": "answer all the questions\neasy",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. A curly blond boy in a green shirt happily writing answers to an easy test at his desk, with two other students seated behind him. Exactly three students. Keep the same curly blond protagonist as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-02",
@@ -18421,7 +18804,8 @@
           },
           "cue": "answer all the questions\ndifficult",
           "text": "answer all the questions\ndifficult",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly blond boy in a green shirt struggling with a difficult test, frowning with one hand on his forehead and the other on the desk. Two students behind him. Exactly three students. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-03",
@@ -18457,7 +18841,8 @@
           },
           "cue": "answer all the questions\nclever",
           "text": "answer all the questions\nclever",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One black-haired boy wearing round glasses and a blue shirt happily writing answers at a school desk. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-04",
@@ -18493,7 +18878,8 @@
           },
           "cue": "answer all the questions\nstupid",
           "text": "answer all the questions\nstupid",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short spiky brown hair and an orange shirt struggling with a test at a desk, confused expression, one hand resting on his cheek and the other holding a pencil. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-05",
@@ -18613,7 +18999,8 @@
           },
           "cue": "eat the cakes\nfresh",
           "text": "eat the cakes\nfresh",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two children smiling beside a plate of three fresh steaming cupcakes: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, the same pair as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-08",
@@ -18649,7 +19036,8 @@
           },
           "cue": "eat the cakes\nstale",
           "text": "eat the cakes\nstale",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same two children trying to bite hard stale cakes with unhappy strained expressions: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, each holds a cake. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-09",
@@ -18685,7 +19073,8 @@
           },
           "cue": "hear the stereo\nloud",
           "text": "hear the stereo\nloud",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two older adults sitting on a sofa listening happily to a loudly playing radio on a stand at left: curly gray-haired woman in green and balding man in blue. Short sound rays around the radio. Exactly two adults. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-10",
@@ -18721,7 +19110,8 @@
           },
           "cue": "hear the stereo\nlow",
           "text": "hear the stereo\nlow",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly gray-haired woman in green and balding man in blue lean forward from a sofa cupping their ears to hear a very quiet radio on a stand at left. Exactly two adults, two arms each. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-11",
@@ -18757,7 +19147,8 @@
           },
           "cue": "climb the wall\nlow",
           "text": "climb the wall\nlow",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short black hair and a blue shirt easily climbing across a LOW stone wall, both hands on its top and one leg crossing over. The wall reaches only his waist. One boy, normal two arms and legs. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-12",
@@ -18793,7 +19184,8 @@
           },
           "cue": "climb the wall\nhigh",
           "text": "climb the wall\nhigh",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same black-haired boy in a blue shirt stands at the foot of a HIGH brick wall, looking up worriedly. Wall extends far above his head. One boy only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-13",
@@ -18829,7 +19221,8 @@
           },
           "cue": "eat the pear\nsoft",
           "text": "eat the pear\nsoft",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One woman with brown hair tied in a low bun, green blouse, smiling and holding a soft yellow-green pear with a bite taken out. Clear pear shape with narrow top and round base. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-14",
@@ -18865,7 +19258,8 @@
           },
           "cue": "eat the pear\nhard",
           "text": "eat the pear\nhard",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse tries unsuccessfully to bite a hard yellow-green pear, strained expression. One woman only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-15",
@@ -18901,7 +19295,8 @@
           },
           "cue": "eat the orange\nsweet",
           "text": "eat the orange\nsweet",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse happily eating a peeled sweet orange segment, peeled orange in other hand. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-16",
@@ -18937,7 +19332,8 @@
           },
           "cue": "eat the orange\nsour",
           "text": "eat the orange\nsour",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse grimaces after tasting a SOUR orange, pursed mouth and squinting eyes, holding orange segment and peeled orange. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         }
       ],
       "group_size": 1
@@ -20181,7 +20577,8 @@
           "cue": "Have you got any chocolate?\nI haven't got much.",
           "text": "Have you got any chocolate?\nI haven't got much.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two boys facing each other, black-haired boy in blue at left holds several chocolate squares, straight blond-haired boy in orange at right holds a SMALL amount of chocolate. Exactly two boys. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-02",
@@ -20218,7 +20615,8 @@
           "cue": "I've got more than you have.",
           "text": "I've got more than you have.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same black-haired boy in blue at left shows two large chocolate bars; the same straight blond-haired boy in orange at right holds a smaller chocolate piece and looks at them. Make the left quantity clearly greater. Two boys only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-03",
@@ -20255,7 +20653,8 @@
           "cue": "I've got the most.",
           "text": "I've got the most.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three boys comparing chocolate: curly blond boy in green at left holds a large stack of chocolate bars, black-haired boy in blue in middle holds two bars, straight blond-haired boy in orange at right has one small piece. Left boy clearly has the most. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-04",
@@ -20292,7 +20691,8 @@
           "cue": "Have you got any chocolate?\nI've got very little.",
           "text": "Have you got any chocolate?\nI've got very little.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two boys comparing chocolate: curly blond boy in green at left holds a tiny piece, black-haired boy in blue at right holds a larger bar. Exactly two boys. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-05",
@@ -20329,7 +20729,8 @@
           "cue": "I've got less than you have.",
           "text": "I've got less than you have.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly blond boy in green at left displays a tiny chocolate piece on his open hand; the same black-haired boy in blue at right holds a much larger bar. Left boy has less. Two boys only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-06",
@@ -20366,7 +20767,8 @@
           "cue": "I've got the least.",
           "text": "I've got the least.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three boys comparing chocolate: straight blond boy in orange at left holds the tiniest piece, curly blond boy in green in middle holds a small piece, black-haired boy in blue at right holds a larger bar. Left boy has the least. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-07",
@@ -20403,7 +20805,8 @@
           "cue": "Have you made any mistakes?\nI haven't made many.",
           "text": "Have you made any mistakes?\nI haven't made many.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two girls comparing school exercise books: blonde girl with bobbed hair in blue at left holds an open book with a few cross marks on the page; ponytailed brown-haired girl in green at right looks at it. Exactly two girls. Cross marks are error symbols, not words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-08",
@@ -20440,7 +20843,8 @@
           "cue": "I've made more than you have.",
           "text": "I've made more than you have.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same blonde girl with bobbed hair in blue at left and ponytailed brown-haired girl in green at right each hold an open exercise book. Left book has many more red cross marks than right book. Exactly two girls. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-09",
@@ -20477,7 +20881,8 @@
           "cue": "I've made the most.",
           "text": "I've made the most.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three girls showing open school exercise books: curly blond girl in orange at left has very many red cross marks; blonde bob-haired girl in blue in middle has fewer; brown-haired ponytailed girl in green at right has very few. Left girl has most mistakes. Cross symbols only, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-10",
@@ -20514,7 +20919,8 @@
           "cue": "Have you made any mistakes?\nI've made very few.",
           "text": "Have you made any mistakes?\nI've made very few.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two boys comparing exercise books: curly blond boy in blue at left shows an open book with a few red cross marks; straight brown-haired boy in green at right holds a closed blue book. Exactly two boys, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-11",
@@ -20551,7 +20957,8 @@
           "cue": "I've made fewer than you have.",
           "text": "I've made fewer than you have.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same two boys holding open exercise books: curly blond boy in blue at left has only a few red crosses, straight brown-haired boy in green at right has many more. Exactly two boys, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-12",
@@ -20588,7 +20995,8 @@
           "cue": "I've made the fewest.",
           "text": "I've made the fewest.",
           "mode": "model-redraw",
-          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable.",
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three boys showing open exercise books: blond boy in orange at left has just one red cross; curly blond boy in blue in middle has three red crosses; straight brown-haired boy in green at right has six red crosses. Left boy has fewest mistakes. Exactly three boys, cross symbols only, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
         },
         {
           "slot": "photo-panel-13",
@@ -23803,7 +24211,10 @@
           ]
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "inset_clocks": [
+        "6:00"
+      ]
     },
     "128": {
       "sections_sha256": "56cede6f52b6109b79b56f9bddd7eb5a9c96df80f170a5ad9a3608c97e0fd00d",
@@ -25448,7 +25859,10 @@
           "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One woman with a rounded black bob and green blouse speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "inset_clocks": [
+        "6:00"
+      ]
     },
     "138": {
       "sections_sha256": "32e370fe9b67ab28418203aa7d1acf3adeb7574eb4e9316cffe6c0a58698cb98",

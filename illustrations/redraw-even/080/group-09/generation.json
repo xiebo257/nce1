@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of newspapers. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-21",
+      "path": "html/assets/lesson-080/photo-panel-21.webp",
+      "sha256": "b2414d4a5274446c8355919bbab634340c4ab28ef530564014c4e2dba7832ac2"
+    }
+  ],
+  "fingerprint": "0bfa263d3a93af2f52f8263c8b26643b4d7494a80a6869fc32085563b38858e5",
+  "sha256": "862f48fa3202bb931734006c9aab6981322196b0b4eabea5065df1e962ad3ac3",
+  "reference_sha256": "699c2094a5ac373ca131b28fa9e6def92abe0dd7c0ce21a6d8880004e81aded3",
+  "seconds": 50.95,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

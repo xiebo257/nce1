@@ -1,0 +1,58 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of oranges. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-080/photo-panel-08.webp",
+      "sha256": "d11072daba467d7428fb7c2bc84c6326b21ec10e18493afcf640c87a6ea323fd"
+    }
+  ],
+  "fingerprint": "f536c6a5b898c5a2871c353fc52e37dcd28fa94642de99687b609af819dff1d8",
+  "sha256": "492745c60f7504e031b011df24849dc883b880d7c283ba7ed7b07e12e76a669b",
+  "reference_sha256": "9d2e5c649d16848c944fa219555bd41df3f04a84f32de592dfa8b9d780fe6c72",
+  "seconds": 50.38,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/080/group-02/redrawn.png",
+    "source_sha256": "492745c60f7504e031b011df24849dc883b880d7c283ba7ed7b07e12e76a669b",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              90,
+              287
+            ],
+            [
+              440,
+              287
+            ],
+            [
+              440,
+              313
+            ],
+            [
+              90,
+              313
+            ]
+          ]
+        ],
+        "fill": "white"
+      }
+    ],
+    "output_sha256": "b2e095c9e7445a2eac359b0051820ef0bc4dd3830126949fdcd16da65a398f13"
+  },
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

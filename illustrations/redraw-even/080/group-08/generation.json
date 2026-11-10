@@ -1,0 +1,58 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of writing paper. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-20",
+      "path": "html/assets/lesson-080/photo-panel-20.webp",
+      "sha256": "075b8872f7ddb7e8169c06e370eabedf603ee9e15b1a11adfc77668882aee2a7"
+    }
+  ],
+  "fingerprint": "1e704c55c278e1504ae4c444dba7563a73938d8d9a7ccf8a86548efb7dd214a7",
+  "sha256": "f1959a06965d5c18d6be04d8aa65baa31e5cbba55423480fe75305196868aea5",
+  "reference_sha256": "38b5457a7caabd7cd818f2b8b3b276db65b4dc2c4301854cfb7fa21549f1166b",
+  "seconds": 49.47,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/080/group-08/redrawn.png",
+    "source_sha256": "f1959a06965d5c18d6be04d8aa65baa31e5cbba55423480fe75305196868aea5",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              153,
+              129
+            ],
+            [
+              320,
+              129
+            ],
+            [
+              320,
+              177
+            ],
+            [
+              153,
+              177
+            ]
+          ]
+        ],
+        "fill": "white"
+      }
+    ],
+    "output_sha256": "f3dc8df3b75eef32ec2255ea339b571a1f0509ca2f3e7fbbb71d10d4b988b073"
+  },
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

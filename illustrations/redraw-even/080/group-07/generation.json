@@ -1,0 +1,58 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of envelopes. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-19",
+      "path": "html/assets/lesson-080/photo-panel-19.webp",
+      "sha256": "ed6ab69aec45842d5ac0820767645d4a30962ef2e3cf2d0970ef86425ca923f1"
+    }
+  ],
+  "fingerprint": "7711d2cbd553758428cdcf244eef8de1b7e6ea37603d5c1dfafa4fa0a27041b5",
+  "sha256": "5a4151c125e7fc52797295c775f4650d369b3ea34f3d13ae43d9c004ab319473",
+  "reference_sha256": "bc785c33f36def1731675fed10968ee431020744a843be8151abd12efbb94045",
+  "seconds": 50.45,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/080/group-07/redrawn.png",
+    "source_sha256": "5a4151c125e7fc52797295c775f4650d369b3ea34f3d13ae43d9c004ab319473",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              174,
+              83
+            ],
+            [
+              217,
+              70
+            ],
+            [
+              372,
+              148
+            ],
+            [
+              331,
+              168
+            ]
+          ]
+        ],
+        "fill": "#fff1be"
+      }
+    ],
+    "output_sha256": "d8eed2c1204f0dc1f8b37d49e5bf2b5ba55e521b067dbaaa4d255b776e2d0135"
+  },
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

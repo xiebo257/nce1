@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Remove the black eye completely and remove any face or head from this chicken. This is a headless plucked chicken carcass for cooking, pale pink skin, two drumsticks and folded wings. Replace the eye area with plain pink skin. White background, no text.",
+  "seed": 801115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-17",
+      "path": "illustrations/redraw-inputs/080-food-17-correction.png",
+      "sha256": "968700b61a4791f0d55b21068c6d07a75522f77e576540eb9222d6f1660483c7"
+    }
+  ],
+  "fingerprint": "ea8d54532cdeb7f67f4767f04a188d3678932522263ff1535b764101ea82f64d",
+  "sha256": "7092f6fb44ceb768b51a74cb4bf44d397f978c84f717d095c69ca9c28048492f",
+  "reference_sha256": "8fdd80fc4f2aef9096d3621f5517713555924aaa0956cc79c5796ac5e7cb95f1",
+  "seconds": 52.52,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

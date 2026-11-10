@@ -1,0 +1,60 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of glue. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-18",
+      "path": "html/assets/lesson-080/photo-panel-18.webp",
+      "sha256": "c9f0133bff6a7157fd06b752b46b527069ba80ae6826cf07ebf7265a64458e05"
+    }
+  ],
+  "fingerprint": "a7e0012247879afc64068ce2420529ef1534b3b8dc7f703f4188a4e9029d6fd8",
+  "sha256": "1e8310639db318f5d96a3604c30dd4523fdc21b490350c6768a9e68e92ee9553",
+  "reference_sha256": "a6c9942ed730f2d7258c3c12a04f37c2ce66855b1cb37c26117866aa2862e56f",
+  "seconds": 50.17,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/080/group-06/redrawn.png",
+    "source_sha256": "1e8310639db318f5d96a3604c30dd4523fdc21b490350c6768a9e68e92ee9553",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          68,
+          150,
+          211,
+          211
+        ],
+        "text": "GLUE",
+        "font_size": 37,
+        "background": "#c1eef0",
+        "color": "black"
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          291,
+          166,
+          440,
+          225
+        ],
+        "text": "GLUE",
+        "font_size": 36,
+        "background": "#ffe5e2",
+        "color": "black"
+      }
+    ],
+    "output_sha256": "5c19973cfb8b16f1cd7f54629fc298cdc85666fb730fb5c18327db3067757aa9"
+  },
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

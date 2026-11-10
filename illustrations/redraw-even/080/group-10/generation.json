@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one open COLOR magazine, two facing pages with colorful photos of landscapes and food and short decorative article lines. Preserve the page layout and open magazine shape. Blank clean heading areas, no words or random lettering. Crisp clean outlined educational color illustration, white background, no faces or people.",
+  "seed": 801120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-22",
+      "path": "html/assets/lesson-080/photo-panel-22.webp",
+      "sha256": "d62fd6b3d5ee8ebcd2d9991aa03a41ab599e615eb1662f52e801daef4ed99f3a"
+    }
+  ],
+  "fingerprint": "7931d583e4f7000d90cf22973b29ecd71d2db8b986e00ad45b7e15380ba80f6c",
+  "sha256": "f1123332c15591199dfa4dc95d054043e8badac66876e72954162691c8cff83e",
+  "reference_sha256": "07b92f841843308e3481d5e4bdb2e128fb8d00e09dc43858b8f99851be2ea7ff",
+  "seconds": 50.57,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

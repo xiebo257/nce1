@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of beef. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "html/assets/lesson-080/photo-panel-14.webp",
+      "sha256": "a09e1071d80a8483c8b54430611bec50cd038ca12e4d22fa2dae8f2e7df03708"
+    }
+  ],
+  "fingerprint": "f63326c0c7466e6921583878e10a0b44a0360c8a8163b7eed56fd8ebd67e9c36",
+  "sha256": "106b8effcc2eedef4b52a755777875ba49724a983e2f4a4b8a75f93bb29f3bce",
+  "reference_sha256": "9cf9bda64d350da84de91f9868bab2e23a332b65d4c3cc2813dd768881512dd1",
+  "seconds": 49.89,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

@@ -233,36 +233,43 @@ def reuse_path(item):
     raise ValueError(f'Reuse source has not been redrawn: {number} {slot}')
 
 
+def clock_diagram(clock_time, path):
+    """Render a verified time for a standalone clock or an inset."""
+    hour, minute = map(int, clock_time.split(':'))
+    size = 1024; c = size / 2; radius = 440
+    im = Image.new('RGB', (size, size), 'white'); draw = ImageDraw.Draw(im)
+    draw.ellipse((c-radius, c-radius, c+radius, c+radius), fill='#fff9e7', outline='#27647a', width=24)
+    font = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', 72)
+    for tick in range(60):
+        angle = tick * math.pi / 30 - math.pi / 2
+        a = radius - 32; b = a - (32 if tick % 5 == 0 else 12)
+        draw.line((c+math.cos(angle)*a, c+math.sin(angle)*a,
+                   c+math.cos(angle)*b, c+math.sin(angle)*b), fill='#435c64', width=6)
+    for value in range(1, 13):
+        angle = value * math.pi / 6 - math.pi / 2; r = radius - 118
+        draw.text((c+math.cos(angle)*r, c+math.sin(angle)*r), str(value), font=font, fill='#203d4b', anchor='mm')
+    for angle, length, width in [((hour % 12 + minute/60)*math.pi/6, 205, 24),
+                                 (minute*math.pi/30, 310, 16)]:
+        angle -= math.pi/2
+        draw.line((c, c, c+math.cos(angle)*length, c+math.sin(angle)*length), fill='#174d62', width=width)
+    draw.ellipse((c-20, c-20, c+20, c+20), fill='#174d62')
+    path.parent.mkdir(parents=True, exist_ok=True)
+    im.resize((512, 512), Image.Resampling.LANCZOS).save(path)
+
+
 def diagrams(numbers):
-    """Rasterize verified clock readings at 2x their CSS display size."""
+    """Rasterize verified standalone and inset clock readings."""
     queue = read(REPORT / 'plan.json')['lessons']
     for number in numbers:
-        for item in queue[str(number)]['items']:
+        lesson = queue[str(number)]
+        for item in lesson['items']:
             if item['mode'] != 'exact-clock':
                 continue
             if not item.get('clock_time'):
                 raise ValueError(f'Clock requires photo verification: {number} {item["slot"]}')
-            hour, minute = map(int, item['clock_time'].split(':'))
-            size = 1024; c = size / 2; radius = 440
-            im = Image.new('RGB', (size, size), 'white'); draw = ImageDraw.Draw(im)
-            draw.ellipse((c-radius, c-radius, c+radius, c+radius), fill='#fff9e7', outline='#27647a', width=24)
-            font = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', 72)
-            for tick in range(60):
-                angle = tick * math.pi / 30 - math.pi / 2
-                a = radius - 32; b = a - (32 if tick % 5 == 0 else 12)
-                draw.line((c+math.cos(angle)*a, c+math.sin(angle)*a,
-                           c+math.cos(angle)*b, c+math.sin(angle)*b), fill='#435c64', width=6)
-            for value in range(1, 13):
-                angle = value * math.pi / 6 - math.pi / 2; r = radius - 118
-                draw.text((c+math.cos(angle)*r, c+math.sin(angle)*r), str(value), font=font, fill='#203d4b', anchor='mm')
-            for angle, length, width in [((hour % 12 + minute/60)*math.pi/6, 205, 24),
-                                         (minute*math.pi/30, 310, 16)]:
-                angle -= math.pi/2
-                draw.line((c, c, c+math.cos(angle)*length, c+math.sin(angle)*length), fill='#174d62', width=width)
-            draw.ellipse((c-20, c-20, c+20, c+20), fill='#174d62')
-            path = WORK / f'{number:03}/diagrams/{item["slot"]}.png'
-            path.parent.mkdir(parents=True, exist_ok=True)
-            im.resize((512, 512), Image.Resampling.LANCZOS).save(path)
+            clock_diagram(item['clock_time'], WORK / f'{number:03}/diagrams/{item["slot"]}.png')
+        for clock_time in lesson.get('inset_clocks', []):
+            clock_diagram(clock_time, WORK / f'{number:03}/diagrams/inset-{clock_time.replace(":", "-")}.png')
         print('DIAGRAMS', number)
 
 

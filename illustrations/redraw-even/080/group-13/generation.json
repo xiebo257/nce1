@@ -1,0 +1,47 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of medicine. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-26",
+      "path": "html/assets/lesson-080/photo-panel-26.webp",
+      "sha256": "7e4ad497666a850c432715d72e4760965edeaa549104940f90f984f34db25a64"
+    }
+  ],
+  "fingerprint": "887ebe48e346d7426adb4b385c50b2f91220e0f88acd2bb3c1032ea695f1624d",
+  "sha256": "375b59b7d6aebdea502455348ffdac18fbf617de18b71c5ae7bb274941b1d19e",
+  "reference_sha256": "29c8558c8cdcccecda2b9fe8b78efa69c786ac39981c8107032ba44a17b0ea2b",
+  "seconds": 50.94,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/080/group-13/redrawn.png",
+    "source_sha256": "375b59b7d6aebdea502455348ffdac18fbf617de18b71c5ae7bb274941b1d19e",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          151,
+          160,
+          358,
+          201
+        ],
+        "text": "MEDICINE",
+        "font_size": 35,
+        "background": "#fffcdf",
+        "color": "black"
+      }
+    ],
+    "output_sha256": "85caf9b0a20bf8c3bc2b794f4df56053ecaca1a2adde9ae0b65a911745871059"
+  },
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

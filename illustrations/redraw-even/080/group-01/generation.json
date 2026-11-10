@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of pears. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-080/photo-panel-07.webp",
+      "sha256": "33a857b108736e408e61a1d7f70baefa2c7c0c0ea29b74fb96d2dc8fdbe3e52e"
+    }
+  ],
+  "fingerprint": "a5ae404afd805a4b98884c473fc4c40ec897249b026b09b52d19cda06c56548a",
+  "sha256": "eae3070f8fd21cf36be695cae32dbba9045785f77d74e86e4d5d3cbb2eedbe27",
+  "reference_sha256": "0cbb60994383f59f0d6663e91da0bea9210dfe81d7711ab6d2760f6d3651e523",
+  "seconds": 50.24,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

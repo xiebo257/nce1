@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of aspirins. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-25",
+      "path": "html/assets/lesson-080/photo-panel-25.webp",
+      "sha256": "0803cf17cb39b78e781c6c9145b112b28c0fe756c283bf2c4598fa36fcdc989e"
+    }
+  ],
+  "fingerprint": "21cf518847fd37a8c288d0f2a99e6aabb6be96f62ff45ec671e7b4a353a9a7bc",
+  "sha256": "e944f444b2e007bfee162b4c1fdabb125fd9f52587848970217408157d56816c",
+  "reference_sha256": "e3d217a8c846155ce6a24d8a112e2d3dd6944d5b7e2302badd046a01add7de6e",
+  "seconds": 51.58,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

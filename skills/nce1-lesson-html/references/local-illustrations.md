@@ -301,3 +301,22 @@ Exact instructional clocks use the `diagrams` command with photograph-verified
 times. If a photographed reading is ambiguous, keep that uncertainty explicit;
 do not have a diffusion model invent a cleaner-looking time. Verify both source
 coverage and browser pixel sizing before claiming a batch is complete.
+
+If a tiny previous atlas tile already has distorted anatomy, replace its model
+reference with a direct crop of the original photograph and record the crop.
+Inspect every regenerated person for extra hands and duplicate heads. A removal
+edit can leave a skin-colored blob after removing fingers; check the complete
+silhouette, and record any small background cleanup as a refinement operation.
+Use blank sign/clock placeholders during generation when precise labels matter,
+then add exact lettering or verified clock diagrams. Mark these slots with
+`required_overlays` so review cannot approve an unfinished placeholder. Inset
+times are listed under `inset_clocks` and rendered by the same `diagrams` command.
+Reapply refinements whenever the underlying model candidate changes.
+
+Reuse only after looking at the actual source pictures. In Lesson 140, the middle
+listener holds a book; her otherwise similar empty-handed portrait is not an
+equivalent replacement. Exact comparison cues include object count, empty/full,
+scale needle direction, and which person is tallest. Describe these explicitly
+before generation and inspect them together afterward. Record discrepancies
+between a printed sentence and an original clock rather than silently claiming
+both agree.

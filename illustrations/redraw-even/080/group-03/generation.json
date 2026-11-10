@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Keep this single lamb leg food illustration and its shape. Color the meat rich pink-red with thin creamy white fat; make the circular cut end show red muscle around the central white bone. The outside is smooth meat, NOT wool or fur. White background, no lettering.",
+  "seed": 801113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "illustrations/redraw-inputs/080-food-13-correction.png",
+      "sha256": "e180a7c54e85d08b64a14289b5bd84c2a1ca45c2f5568a32b77002db63f63c3e"
+    }
+  ],
+  "fingerprint": "5dd845f4a9a355e77113fe7313591e542c30dce8a3fdb03badc9b99197764396",
+  "sha256": "8215059be0af60683bde7d2e6feb620e943188f02be556a1c783f3c522baaf10",
+  "reference_sha256": "11289ef10a8439222b10bca4e2ba02f91b1e48055ea64aac7af174bcb505cd17",
+  "seconds": 60.14,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}

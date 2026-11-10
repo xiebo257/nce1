@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of cakes. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 801121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-24",
+      "path": "html/assets/lesson-080/photo-panel-24.webp",
+      "sha256": "db3629d3a412b63d2492092cabecc6978f8705790eed331444f18411990d632a"
+    }
+  ],
+  "fingerprint": "95953cabf8796d8ffeb92a79976ee42e9c3705cc74d15f976366d23517c4b412",
+  "sha256": "6a6c5378adb5f2181a377fa59fedd4d7d2caeab2e28f028fb1bba5a8b25cc95b",
+  "reference_sha256": "ada1f497baffa3e0994d37d6957f7db76980e9c4896a2c460a7bcda1cafa0569",
+  "seconds": 49.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/080.json"
+}
