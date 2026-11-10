@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon. One woman with a short black bob and a blue dress boiling water in an open saucepan on a stove. She holds a small pan lid above the pot; a simple wisp of steam rises from the water. Exactly two normal arms. No faces in the steam, no food falling, no extra limbs. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border.",
+  "seed": 721117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "illustrations/redraw-inputs/072-photo-07.png",
+      "sha256": "3361881762e8c631d536e8e39a5802e65bb7b85320874d299d30549309baacb2"
+    }
+  ],
+  "fingerprint": "1382341316c52124be2b13a9b1f5ec8577ebe3054eb6ff7670b1f2a0357d5c16",
+  "sha256": "677061d44df181634ba68efba1415b046ce4956ff842154e8960ed26d0563a63",
+  "reference_sha256": "6a8feead7f5f5ba76312a9b6cb9defcf1679f82ae0c8d5dbc3654b7bfa15535b",
+  "seconds": 52.46,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

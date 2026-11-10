@@ -22,6 +22,12 @@ def main():
                 image = original.convert('RGB')
             record = {'source': str(source), 'source_sha256': digest(source), 'operations': []}
             for operation in recipe['operations']:
+                if operation['type'] == 'fit-content':
+                    resized = image.resize(tuple(operation['size']), Image.Resampling.LANCZOS)
+                    image = Image.new('RGB', image.size, operation.get('background', 'white'))
+                    image.paste(resized, tuple(operation['position']))
+                    record['operations'].append(operation)
+                    continue
                 if operation['type'] == 'text-overlay':
                     draw = ImageDraw.Draw(image)
                     box = operation['box']

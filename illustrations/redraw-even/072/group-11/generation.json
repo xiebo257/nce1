@@ -1,0 +1,78 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Remove the disembodied extra hand floating behind the mans right ear on the right side of the image. Replace that extra hand with plain white background. Keep his TWO actual arms and hands in front: the left hand holds the razor, the right hand touches his chin. Preserve his face, ears, blue shirt and shaving foam. Exactly two hands total.",
+  "seed": 721121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "illustrations/redraw-inputs/072-shaving-correction.png",
+      "sha256": "08be71be402d6328f4a6537307688d9142076bb64975020e8cbce433ac75f488"
+    }
+  ],
+  "fingerprint": "de58a964c8148c58479046bbceffc52b854c941d5dc13caff378cb31068fe22f",
+  "sha256": "ee7ba10451635d09bc7c667ecb989dc539493ad46e11714490e6663b80da32cc",
+  "reference_sha256": "45afdc7563463f181fd32f8c55e136a1468f53e077a0432ed3ff749f5e2f1718",
+  "seconds": 49.92,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/072/group-11/redrawn.png",
+    "source_sha256": "ee7ba10451635d09bc7c667ecb989dc539493ad46e11714490e6663b80da32cc",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "white",
+        "polygons": [
+          [
+            [
+              316,
+              123
+            ],
+            [
+              375,
+              123
+            ],
+            [
+              375,
+              182
+            ],
+            [
+              346,
+              182
+            ],
+            [
+              321,
+              169
+            ],
+            [
+              308,
+              164
+            ],
+            [
+              309,
+              156
+            ],
+            [
+              313,
+              144
+            ],
+            [
+              316,
+              133
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "02170e188f008c1d2cf49c5be55d3e1add6c7dae724c3c6d85e62d8d7aea29f0"
+  },
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

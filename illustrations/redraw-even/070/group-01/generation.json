@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a stationery shop window displaying notebooks and pens. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "illustrations/redraw-inputs/070-photo-01.png",
+      "sha256": "9b2d5ccbcd66ae28f0256ef852f39b83afd8b813a4f18fc02a0280b64ded2f44"
+    }
+  ],
+  "fingerprint": "0749d60a73f3c29cec5718035b323c60bc96411c2b6f200d46cd482096768632",
+  "sha256": "f35dfbf4125efe8cc5e79cc1b91019bf3d3cee99507c3a39d4e8e3dd0a6e1126",
+  "reference_sha256": "305767ff205074261fe5dc0cfbde7b14c912c6ef64fff7d33a0f9bdc13b5481d",
+  "seconds": 28.96,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-01/redrawn.png",
+    "source_sha256": "f35dfbf4125efe8cc5e79cc1b91019bf3d3cee99507c3a39d4e8e3dd0a6e1126",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "STATIONER",
+        "box": [
+          78,
+          21,
+          425,
+          64
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "d0118ad8f29b474c64f54f57bd3b8bd0740d2a88aaa507dd0c95b9b67d2d194c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two children in blue school uniform walking past a school building and gate. A rectangular blank sign above the school entrance. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/070-photo-08.png",
+      "sha256": "05c8ce1dbe63e4189507cbb4944085cb583caf77455d2a9c15c0844603b437c9"
+    }
+  ],
+  "fingerprint": "cec552018ed06e6b844f9df6ecef4cd230cfe09681927f070cf1b9b6db0ab38c",
+  "sha256": "7207230a253211dc0e7d0468ba0c42ddc6c9f0dfb09581e6b12f794935d5fa7f",
+  "reference_sha256": "0e71a41497d228ad049e6200af70c0f983cda492aaa6b44efc9b58fdde8e0d2c",
+  "seconds": 47.87,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-08/redrawn.png",
+    "source_sha256": "7207230a253211dc0e7d0468ba0c42ddc6c9f0dfb09581e6b12f794935d5fa7f",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "SCHOOL",
+        "box": [
+          201,
+          14,
+          365,
+          78
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "71db3064713f8b20c94f2fc1b7575eeaefcf49257423ecf5f3ada4311389e0d9"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

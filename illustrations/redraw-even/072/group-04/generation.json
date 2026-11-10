@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw exactly two boys standing side by side sharpening pencils with tiny handheld metal pencil sharpeners. Each boy has exactly two arms: one hand grips ONE pencil and the other grips ONE small sharpener around the pencil tip. A few wood shavings falling below. Brown curly-haired boy wears blue shirt; straight brown-haired boy wears orange shirt. No desk, paper, pens or writing. Sharp full-color cartoon on white background.",
+  "seed": 721114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/072-action-04-correction.png",
+      "sha256": "f6e229b463cc2a71335722a4b877914745bce8e093e5ae5bcc6e3ba79b70c1a1"
+    }
+  ],
+  "fingerprint": "9ac4366f3111c0f797acb68fc178f072a8acd6bdf0dd3f9839465e07f24c4e0a",
+  "sha256": "d17f060b41e778d88cc8085901120c96bf47879a3d35ad8ba6e6beed6180630f",
+  "reference_sha256": "8683577b916d9718270a75ded987f397e5f7d60a0dfb4eafa942ef73d4dbe4b3",
+  "seconds": 51.49,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

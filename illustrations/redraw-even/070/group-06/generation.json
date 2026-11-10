@@ -1,0 +1,85 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a dairy shop window displaying milk bottles. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/070-photo-06.png",
+      "sha256": "1d21c3aeae14428706c03188f165b1dce37875856b183a1c2a3281f13fecb02c"
+    }
+  ],
+  "fingerprint": "9ac41eb8c2c75ab29a4eedc331dc7d521300a330a0269ee0bad21f9f7c694d6c",
+  "sha256": "ab7006e6a9609ab11c8c550ced6b00bc9d264850ed39aaed9c9a3f0fe0fa56b5",
+  "reference_sha256": "5010a11a4fa2a96d9cbefc620c34e59fdd2a82e85f12e45510b1a3aa52ba6e03",
+  "seconds": 22.87,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-06/redrawn.png",
+    "source_sha256": "ab7006e6a9609ab11c8c550ced6b00bc9d264850ed39aaed9c9a3f0fe0fa56b5",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "DAIRY",
+        "box": [
+          126,
+          23,
+          393,
+          68
+        ],
+        "font_size": 25
+      },
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              139,
+              98
+            ],
+            [
+              253,
+              98
+            ],
+            [
+              253,
+              127
+            ],
+            [
+              224,
+              127
+            ],
+            [
+              216,
+              119
+            ],
+            [
+              185,
+              115
+            ],
+            [
+              162,
+              119
+            ],
+            [
+              139,
+              127
+            ]
+          ]
+        ],
+        "fill": "#a2e6f8"
+      }
+    ],
+    "output_sha256": "e0e67cb85e8bf5d58d885270b7696006ccd8ff839d72e44212c41bc8ce783190"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw only this photographed map silhouette of Finland as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill.",
+  "seed": 701127,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-18",
+      "path": "illustrations/redraw-inputs/070-photo-18.png",
+      "sha256": "594b712ac38ed8fc84409d0aacfd020182102451f86efb61ab14ea2c9618fbda"
+    }
+  ],
+  "fingerprint": "512b0b839124c73242ff0d6dec219f3fa6a50c351b1e6eb83fd40b3564225ee1",
+  "sha256": "49fc108c3735b00f79724cad1671765e43ba281ef7b3208d915b6276e5c7c295",
+  "reference_sha256": "7facc62eb5ec978a43c873d372c320550b522d09db22c6552fd95860ca0b973f",
+  "seconds": 48.85,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-17/redrawn.png",
+    "source_sha256": "49fc108c3735b00f79724cad1671765e43ba281ef7b3208d915b6276e5c7c295",
+    "operations": [
+      {
+        "type": "fit-content",
+        "size": [
+          460,
+          287
+        ],
+        "position": [
+          26,
+          0
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "text": "Finland",
+        "box": [
+          130,
+          289,
+          382,
+          318
+        ],
+        "font_size": 22
+      }
+    ],
+    "output_sha256": "e850ab02ed3b8c1ccd809832912d1100a4873ca997fe2cc1ffac08729ad590db"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

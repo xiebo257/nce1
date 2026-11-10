@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Remove the small girl in pink COMPLETELY, including her head, body, hands and feet. Replace her entire area with the empty white wall and floor. Keep ONLY the adult woman in blue opening the window, preserving her face, black curly hair, two arms, dress, curtains and window. One person total.",
+  "seed": 721111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "illustrations/redraw-inputs/072-action-01-correction.png",
+      "sha256": "751b407990281c4b9df91202a2d8f452187d1c5ba05eb195c5f51fce356882d5"
+    }
+  ],
+  "fingerprint": "43a21624683938aac89616bdb16683d514f35285db94c5c413fcc43f51748ff6",
+  "sha256": "54c2665d0cb47832124712b63b11045b67ed7db681cf86c11506cfeb7b1ca97d",
+  "reference_sha256": "ea681e7ea1f67f06e5454518c270888f517ec972882a0455083034647683b047",
+  "seconds": 50.77,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

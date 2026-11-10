@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. telephoned. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 721123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "html/assets/lesson-072/photo-panel-13.webp",
+      "sha256": "75731e091b4c4e4a9836a08cb0149f13e7fb119c210d83b1b6f0016d0def24cb"
+    }
+  ],
+  "fingerprint": "8320cc53a68091636c61e8bdf56befdc308e34183b9df2553b3cc8bc21f504d6",
+  "sha256": "b923934cd44a0daece25ed13913d0c6ba526173818718dee6ea6715088173276",
+  "reference_sha256": "9ac1dc08de85321871a9f715b757062555db706253d5f9749b1f6913f089b347",
+  "seconds": 30.29,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

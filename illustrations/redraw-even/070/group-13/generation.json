@@ -1,0 +1,80 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a simple map silhouette of Austria, one SINGLE CONNECTED landlocked shape, elongated west to east, narrow western neck widening into a broader eastern region. Use the reference outline but fill over the printed AUSTRIA lettering to make continuous solid teal land. Austria has no islands: join the western lobe to the eastern landmass with a narrow continuous strip. Sharp dark outline, plain white background, no people, faces, text, holes or disconnected pieces.",
+  "seed": 701123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "illustrations/redraw-inputs/070-photo-14.png",
+      "sha256": "0ed3542f6571f7159f2a7d2109ec50af549e5756aa2030ee297694f1f71d907c"
+    }
+  ],
+  "fingerprint": "3f667d6504cd704f45e772ecdf304c753b57725c7f83663f36465930e7cae0b6",
+  "sha256": "dcf1e445cfcf887041bbb83269c55821ab895ed2f2bcb498e4744acb9d9f4b45",
+  "reference_sha256": "a471f6cd86d9fe898d8140d042d2acb23e2cf1f5704849921077894fa7eb25e5",
+  "seconds": 50.94,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-13/redrawn.png",
+    "source_sha256": "dcf1e445cfcf887041bbb83269c55821ab895ed2f2bcb498e4744acb9d9f4b45",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "#008a86",
+        "polygons": [
+          [
+            [
+              168,
+              141
+            ],
+            [
+              187,
+              138
+            ],
+            [
+              187,
+              174
+            ],
+            [
+              168,
+              176
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "fit-content",
+        "size": [
+          460,
+          287
+        ],
+        "position": [
+          26,
+          0
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "text": "Austria",
+        "box": [
+          130,
+          289,
+          382,
+          318
+        ],
+        "font_size": 22
+      }
+    ],
+    "output_sha256": "536274c990dcad8191ceee4f92a697c97038b75f2f4323b9eba802eeb4f66782"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

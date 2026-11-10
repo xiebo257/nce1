@@ -465,10 +465,10 @@
       "status": "ready",
       "description": "Monday — the stationer's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-01.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -482,19 +482,25 @@
           169,
           98
         ],
-        "asset_sha256": "d5a176675c6fb1ffd765838ae84cc56fd9bd5aa6c12140a97ae0f24dfea1609a"
+        "asset_sha256": "374de7e225a2247a1177e3c7a10deeb7d2c8a1b64bec44ca0e9d189eae293eb8",
+        "redraw_manifest": "illustrations/redraw-even/070/group-01/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Monday — the stationer's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-01/generation.json"
+      }
     },
     "photo-panel-02": {
       "kind": "item",
       "status": "ready",
       "description": "Tuesday — the greengrocer's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-02.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -508,19 +514,25 @@
           338,
           98
         ],
-        "asset_sha256": "403c74389f2c16cb349b07cb1b93f5b0a4803591783340a39389078675147261"
+        "asset_sha256": "9dd8066fa3bc814b5c8dd23b2fb524b62f5ece1468e91f165f279ac083b8c58f",
+        "redraw_manifest": "illustrations/redraw-even/070/group-02/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Tuesday — the greengrocer's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-02/generation.json"
+      }
     },
     "photo-panel-03": {
       "kind": "item",
       "status": "ready",
       "description": "Wednesday — the hairdresser's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-03.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -534,19 +546,25 @@
           507,
           98
         ],
-        "asset_sha256": "7788271934c24d454f07856bcff228d3c3c723682352aba7e3e5f8306c6f7a44"
+        "asset_sha256": "28450b3bdceaa3950a9a195a93055d894ae190787c0ee4c5d79a5d3102b75658",
+        "redraw_manifest": "illustrations/redraw-even/070/group-03/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Wednesday — the hairdresser's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-03/generation.json"
+      }
     },
     "photo-panel-04": {
       "kind": "item",
       "status": "ready",
       "description": "Thursday — the butcher's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-04.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -560,19 +578,25 @@
           169,
           196
         ],
-        "asset_sha256": "2f47f93fc2e3e1b03a8a30a37eee8552d3c32318807d0a489571fcc8107a8483"
+        "asset_sha256": "80b88ff0d1ba0d1a09255e615e0e5748519de23d240e8f35067251c67643ea41",
+        "redraw_manifest": "illustrations/redraw-even/070/group-04/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Thursday — the butcher's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-04/generation.json"
+      }
     },
     "photo-panel-05": {
       "kind": "item",
       "status": "ready",
       "description": "Friday — the grocer's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-05.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -586,19 +610,25 @@
           338,
           196
         ],
-        "asset_sha256": "7ad1ee8f261697cf03c496530964e49698ecb553d83f21c39557e17b28831837"
+        "asset_sha256": "b1de49a62f1a3bdd4a0e8a7d8510511ed25dab367312952f0b16bb789f1234fa",
+        "redraw_manifest": "illustrations/redraw-even/070/group-05/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Friday — the grocer's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-05/generation.json"
+      }
     },
     "photo-panel-06": {
       "kind": "item",
       "status": "ready",
       "description": "Saturday — the dairy",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-06.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -612,19 +642,25 @@
           507,
           196
         ],
-        "asset_sha256": "23bd309f9a704527d1ce014cc70eea53482ccbf44339bd557e639703ecd7a03f"
+        "asset_sha256": "986e44bf241f3762d9d4018041939af2f9c498fc0c62289ba9bc3aa7e8928a5c",
+        "redraw_manifest": "illustrations/redraw-even/070/group-06/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Saturday — the dairy",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-06/generation.json"
+      }
     },
     "photo-panel-07": {
       "kind": "item",
       "status": "ready",
       "description": "Jan. 21st — church",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-07.webp",
-      "width": 169,
-      "height": 100,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -638,19 +674,25 @@
           169,
           100
         ],
-        "asset_sha256": "27335842558e5b88f635db8f4c9fd3f1e33ae75faff686b915ae22c377b53fad"
+        "asset_sha256": "ac7d657f7e5044f95226f73aa76a78c7f7478ab8ce38c6d0c0a76f03e6130d4b",
+        "redraw_manifest": "illustrations/redraw-even/070/group-07/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Jan. 21st — church",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-07/generation.json"
+      }
     },
     "photo-panel-08": {
       "kind": "item",
       "status": "ready",
       "description": "Feb. 22nd — school",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-08.webp",
-      "width": 169,
-      "height": 100,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -664,19 +706,25 @@
           338,
           100
         ],
-        "asset_sha256": "1f8dc947779f96831f265e7d6c6c864bd05e42392639f965bb5b0858f845e24e"
+        "asset_sha256": "1190fb9b0ed213a6c9526564d992f913e3c63cfe15f8e6ff727bcb4d91a4ba71",
+        "redraw_manifest": "illustrations/redraw-even/070/group-08/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Feb. 22nd — school",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-08/generation.json"
+      }
     },
     "photo-panel-09": {
       "kind": "item",
       "status": "ready",
       "description": "March 23rd — the office",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-09.webp",
-      "width": 169,
-      "height": 100,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 9",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -690,19 +738,25 @@
           507,
           100
         ],
-        "asset_sha256": "7f5db3a2ba41c1c15ac6f1ea60b69db5684867d7bae9df59a4e1dc38c79e9b98"
+        "asset_sha256": "2643477246088b7444992274ca609403ba141257ab64847dac6929204e2aa18c",
+        "redraw_manifest": "illustrations/redraw-even/070/group-09/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "March 23rd — the office",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-09/generation.json"
+      }
     },
     "photo-panel-10": {
       "kind": "item",
       "status": "ready",
       "description": "April 24th — the baker's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-10.webp",
-      "width": 169,
-      "height": 100,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 10",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -716,19 +770,25 @@
           169,
           200
         ],
-        "asset_sha256": "750cdfacefe12b8e9f1ff1281d6d57b3611cf4235f73aba268c3b6b5400a7012"
+        "asset_sha256": "d0dfb3db3b8eb91f2bc6abd07c919b9433ab2ed696db41bfaa3f709dc6730ac7",
+        "redraw_manifest": "illustrations/redraw-even/070/group-10/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "April 24th — the baker's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-10/generation.json"
+      }
     },
     "photo-panel-11": {
       "kind": "item",
       "status": "ready",
       "description": "May 25th — home",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-11.webp",
-      "width": 169,
-      "height": 100,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 11",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -742,19 +802,25 @@
           338,
           200
         ],
-        "asset_sha256": "0a461fc4041fb3d72be633138ed4bdb3e4d279f6922ebc4264ebee9645884094"
+        "asset_sha256": "fdb5b392ff98e7edde3a15d07b124ecb13ae1e56d670833849b670ac0d28e05b",
+        "redraw_manifest": "illustrations/redraw-even/070/group-11/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "May 25th — home",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-11/generation.json"
+      }
     },
     "photo-panel-12": {
       "kind": "item",
       "status": "ready",
       "description": "June 26th — the butcher's",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-12.webp",
-      "width": 169,
-      "height": 100,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 12",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -768,19 +834,29 @@
           507,
           200
         ],
-        "asset_sha256": "437423c84958f53f3fc5db91848c180e7ff6fa8e2113913ee6a7336c697c5a9c"
+        "asset_sha256": "80b88ff0d1ba0d1a09255e615e0e5748519de23d240e8f35067251c67643ea41"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "June 26th — the butcher's",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 70,
+          "slot": "photo-panel-04"
+        }
+      }
     },
     "photo-panel-13": {
       "kind": "item",
       "status": "ready",
       "description": "July — Australia",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-13.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-13-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 13",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -794,19 +870,25 @@
           169,
           98
         ],
-        "asset_sha256": "419ff9c14eb2b1c5b257ecfe7300cd2f154b343ba30399c116151c1a5a585f23"
+        "asset_sha256": "34d06451901a099493f64752c3225bc08e11b994e05d82703cd306ac3578a4ed",
+        "redraw_manifest": "illustrations/redraw-even/070/group-12/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "July — Australia",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-12/generation.json"
+      }
     },
     "photo-panel-14": {
       "kind": "item",
       "status": "ready",
       "description": "August — Austria",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-14.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-14-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 14",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -820,19 +902,25 @@
           338,
           98
         ],
-        "asset_sha256": "8749e7524a19231294d52986484cac5f057ad57748e80e30f92440dba24b43f4"
+        "asset_sha256": "c0ef2caac2a90949153d9c386716673c50704d9b9bdfe5421e835fd7eec8501b",
+        "redraw_manifest": "illustrations/redraw-even/070/group-13/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "August — Austria",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-13/generation.json"
+      }
     },
     "photo-panel-15": {
       "kind": "item",
       "status": "ready",
       "description": "September — Canada",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-15.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-15-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 15",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -846,19 +934,25 @@
           507,
           98
         ],
-        "asset_sha256": "d416222f5862104bdbc4b3643b0cad56db60ebca08f929de0d45f7237ec3880d"
+        "asset_sha256": "d08554216f642452b7e2b4f123a7d4bba214bb16d8254ff8e2fab0ba4362364d",
+        "redraw_manifest": "illustrations/redraw-even/070/group-14/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "September — Canada",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-14/generation.json"
+      }
     },
     "photo-panel-16": {
       "kind": "item",
       "status": "ready",
       "description": "October — China",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-16.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-16-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 16",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -872,19 +966,25 @@
           169,
           196
         ],
-        "asset_sha256": "2345d689c2fb8b582cb71e3b374a252987f90c97179f4b52651afa2e87092e5b"
+        "asset_sha256": "a8f8c04867014d6378cad89988e911721e27dd0b807e25fa9183de51e181524e",
+        "redraw_manifest": "illustrations/redraw-even/070/group-15/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "October — China",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-15/generation.json"
+      }
     },
     "photo-panel-17": {
       "kind": "item",
       "status": "ready",
       "description": "November — Denmark",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-17.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-17-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 17",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -898,19 +998,25 @@
           338,
           196
         ],
-        "asset_sha256": "b65c9447f37d1d6629cbdc9dc849d6f6cead389c1259aa5864e3c9914a44c051"
+        "asset_sha256": "bfc8281c6bad30739559110e907558dfd8f099e11efbf3f99657b70b4a905094",
+        "redraw_manifest": "illustrations/redraw-even/070/group-16/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "November — Denmark",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-16/generation.json"
+      }
     },
     "photo-panel-18": {
       "kind": "item",
       "status": "ready",
       "description": "December — Finland",
       "source": "../img/lesson-070-01-text.jpg",
-      "src": "assets/lesson-070/photo-panel-18.webp",
-      "width": 169,
-      "height": 98,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-070/photo-panel-18-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 18",
       "photo_verification": {
         "photo": "img/lesson-070-01-text.jpg",
@@ -924,9 +1030,15 @@
           507,
           196
         ],
-        "asset_sha256": "00f865dff1a352feac6268e0ff6ca3e5c3d55708b48ff54ca40873a867832e53"
+        "asset_sha256": "c552c58fa5ca75d514d18e66474e57c5ab796184b6243170fed228144e4e151f",
+        "redraw_manifest": "illustrations/redraw-even/070/group-17/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "December — Finland",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/070/group-17/generation.json"
+      }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",

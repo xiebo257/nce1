@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon. One curly brown-haired boy in a blue striped shirt and brown shorts climbing a tree trunk. His two arms hold the trunk and his two legs grip it. Exactly one boy, two arms, two legs. No disembodied hands or other people. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border.",
+  "seed": 721122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "illustrations/redraw-inputs/072-photo-12.png",
+      "sha256": "da2867a4c517dd307e9a6078287d513dce505cab929043517f949c8599ad2df6"
+    }
+  ],
+  "fingerprint": "5e5fbd09783bdfb79de36675e493792e632f9ebeb85d36ba1421a07bcad4218b",
+  "sha256": "0925bc9ffef011b59a733d2edb0a48c358b2cde422d1714307485389997e8e72",
+  "reference_sha256": "5840bfc646e07501dfdc00253829bccd76284d0e06f21404fc16968485bf849e",
+  "seconds": 49.98,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

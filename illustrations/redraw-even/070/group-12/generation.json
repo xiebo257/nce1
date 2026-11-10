@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw only this photographed map silhouette of Australia as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill.",
+  "seed": 701122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "illustrations/redraw-inputs/070-photo-13.png",
+      "sha256": "f92e82c706a9997f8e8122e07c4c8684b8b7a22541c784864f27c56dd4f0772e"
+    }
+  ],
+  "fingerprint": "6780a28b52cd26b76e30fe1aba4c6939f8cbf2c85f1a8f5efc3c1aa17c9cd78c",
+  "sha256": "284d9ce3abb34d36687c35ee7ad100dc418a55a141d69d9ede97fe7f3c92d8cd",
+  "reference_sha256": "15ee48510c30e8ad15cb1e35d44a6943711cb79f845735b6a102b302f1d51437",
+  "seconds": 47.65,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-12/redrawn.png",
+    "source_sha256": "284d9ce3abb34d36687c35ee7ad100dc418a55a141d69d9ede97fe7f3c92d8cd",
+    "operations": [
+      {
+        "type": "fit-content",
+        "size": [
+          460,
+          287
+        ],
+        "position": [
+          26,
+          0
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "text": "Australia",
+        "box": [
+          130,
+          289,
+          382,
+          318
+        ],
+        "font_size": 22
+      }
+    ],
+    "output_sha256": "b8e18532bd16c3f771558ceb6b8e370d6a3426a347093848501bdff7f03fa787"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

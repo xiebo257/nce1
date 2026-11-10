@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon. One woman with curly dark brown hair, green blouse and blue skirt emptying a small wicker wastepaper basket into a larger metal trash bin. A few crumpled papers fall into the bin. Exactly one woman, two arms, two legs. No second face or person inside the bin. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border.",
+  "seed": 721125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "illustrations/redraw-inputs/072-photo-15.png",
+      "sha256": "690f936960ad019144708e1d26bcbc3bc2a6b203be9410bd2b7c04b65703d173"
+    }
+  ],
+  "fingerprint": "3823285a220a4653a5073aa2192498d2f9cde36374428f56d3d8d57b93e8daad",
+  "sha256": "7e365056603bc4c8647149778bd51fe8749621f28d4dcaf2e836409d449fd070",
+  "reference_sha256": "c7062e85f37f1e15247f5c17ac2afc36be68316c56460de47da1d48aebc58c4b",
+  "seconds": 50.56,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

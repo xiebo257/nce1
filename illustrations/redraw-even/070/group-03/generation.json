@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a hairdressers salon storefront, with a scissors symbol in the window. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "illustrations/redraw-inputs/070-photo-03.png",
+      "sha256": "653d66ffbd79afded111fc201a9c7557dc5a390a2ca313051f0c7a9db78d5f9f"
+    }
+  ],
+  "fingerprint": "9d5870a4cafed791a697139ea0dbc9ef1a64c83448ce5b470d93f527f9ed80c1",
+  "sha256": "cfde08a129276c3bc7cdc3cf7593f0b3edbcf10a2c87b9fd183fa585b64a0bf9",
+  "reference_sha256": "220937d83ec576b405cbb56b97de8bac032f28b8318a031dbdaa4cc42ca18b11",
+  "seconds": 23.86,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-03/redrawn.png",
+    "source_sha256": "cfde08a129276c3bc7cdc3cf7593f0b3edbcf10a2c87b9fd183fa585b64a0bf9",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "HAIRDRESSER",
+        "box": [
+          85,
+          27,
+          430,
+          77
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "54aa7ec2f09a829a7277907ce11e2e8692f5512aa8e2a7b0bdced68b27c386df"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

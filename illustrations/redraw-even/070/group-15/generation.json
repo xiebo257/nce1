@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw only this photographed map silhouette of China as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill.",
+  "seed": 701125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "illustrations/redraw-inputs/070-photo-16.png",
+      "sha256": "05076160dfb084d519211d1145ad3946488ed069f67139d5a333b93febe03884"
+    }
+  ],
+  "fingerprint": "b3900624915bc77a042b2f5a53c64433ca70454e9534bb4310255ad9e7a61075",
+  "sha256": "90501a82c1b5d4ea6ba569193b98abe8ed3cb82a3887162c8a85e375e844cfac",
+  "reference_sha256": "e1d19f4dcfeaf041eb06fb41625c426af2cf16a51e3e999b79496123bcee582f",
+  "seconds": 47.29,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-15/redrawn.png",
+    "source_sha256": "90501a82c1b5d4ea6ba569193b98abe8ed3cb82a3887162c8a85e375e844cfac",
+    "operations": [
+      {
+        "type": "fit-content",
+        "size": [
+          460,
+          287
+        ],
+        "position": [
+          26,
+          0
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "text": "China",
+        "box": [
+          130,
+          289,
+          382,
+          318
+        ],
+        "font_size": 22
+      }
+    ],
+    "output_sha256": "ec9f174e5beed8024814a0f250d0f7ccec3998b7dd03cdc646486b6ced2dfeb1"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

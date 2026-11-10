@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a bakers shop window displaying loaves of bread. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "illustrations/redraw-inputs/070-photo-10.png",
+      "sha256": "89ca4394a1487c607b3643b92036045d606d7a364ad3dd0031f134fdb7ae4447"
+    }
+  ],
+  "fingerprint": "2029e432082e509f3abf10e31eb69f5d496c0a70179ac35e6e9f01f13503b7c9",
+  "sha256": "9487dbb0981034e35634a3eecf9077b0ba2d3ed596239025b4c541d76221237c",
+  "reference_sha256": "2a63fb9a77b378ae27158e87a9e742f2d17b41b223731beb3f94e6f0712d8f8b",
+  "seconds": 48.59,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-10/redrawn.png",
+    "source_sha256": "9487dbb0981034e35634a3eecf9077b0ba2d3ed596239025b4c541d76221237c",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "BAKER",
+        "box": [
+          118,
+          14,
+          387,
+          52
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "aeec5f7f573ca9bfff721bc95cf810dc81cd063205adbdcee6a53c15f9c28360"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

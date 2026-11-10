@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. played. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 721119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-072/photo-panel-09.webp",
+      "sha256": "fde22e65800d7c4ce659cf292addbf2daf011825339ddf3c936ca0883f2fca73"
+    }
+  ],
+  "fingerprint": "b064d0d862c02ddecde932e9d0ba5c04c97194a07a8138eadf31bd3fe5a298b2",
+  "sha256": "9049f2f980e824b95359f9b8da3b5bc3f04162ab43782278210cbdd6e8129578",
+  "reference_sha256": "8c00cb4446e252e1234f61325fd2f94e35564e6fb4bbf6400d15540e521cb761",
+  "seconds": 30.86,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

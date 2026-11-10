@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. At home: a bald man in a blue shirt and a curly-haired woman in a green outfit sit comfortably in two armchairs, talking. Exactly two adults, no gloves or sunglasses. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "illustrations/redraw-inputs/070-photo-11.png",
+      "sha256": "b6e7adac505033b17e56d1981e81d039b812c17267b48a08137f59317e7dc914"
+    }
+  ],
+  "fingerprint": "77508a57dfc76f04193ba82af342ac2204088659605edd46c89d7b04184f5f0a",
+  "sha256": "46727a2a54584b0f6ac192da2aa5b73489fb67d6d01ae073e9c854d814e63edf",
+  "reference_sha256": "3917d19d0c0995e85d2ee6b8dd69def7ded90a1e48d2f9971432f8483bcfe337",
+  "seconds": 47.94,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

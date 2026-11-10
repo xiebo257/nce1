@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw only this photographed map silhouette of Denmark as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill.",
+  "seed": 701126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-17",
+      "path": "illustrations/redraw-inputs/070-photo-17.png",
+      "sha256": "b74ffa728eee1131ea0e8f0f214c05215978821e44c23c41a64156d168ccc6f1"
+    }
+  ],
+  "fingerprint": "232f308e5002e5695cd91a85d995cb4b758abb318a697031040687df3c07f774",
+  "sha256": "9162430d2da2e5d7705273e952941389941381d36e1b6e88286569d9d935bc98",
+  "reference_sha256": "0f2ae117317370e55cc051bb8eeacdb0cadfe5e1684caf795f07e0cfea9db7df",
+  "seconds": 47.55,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-16/redrawn.png",
+    "source_sha256": "9162430d2da2e5d7705273e952941389941381d36e1b6e88286569d9d935bc98",
+    "operations": [
+      {
+        "type": "fit-content",
+        "size": [
+          460,
+          287
+        ],
+        "position": [
+          26,
+          0
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "text": "Denmark",
+        "box": [
+          130,
+          289,
+          382,
+          318
+        ],
+        "font_size": 22
+      }
+    ],
+    "output_sha256": "cab8c9e8bc44fa08fa932b9d8ba8448aef21a3f4664086d5e1c4ddfd30d5cff4"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a greengrocers shop window displaying fresh fruit and vegetables. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/070-photo-02.png",
+      "sha256": "d69e8b0bb4c7615f5363150a0197be678c2de9ee74f747d1c1078049b54053af"
+    }
+  ],
+  "fingerprint": "f913199c738ca927dfa189d7d1a792b355863d90e763663154f784a349db82e5",
+  "sha256": "79dda4a2529b8b965b07b33058c8437c12f7f62c58d3aa1bb795391ac450a673",
+  "reference_sha256": "c97ec1eb9010d787453d10bb54fb740a72bd30773ed1a7e970de593c4ee078cd",
+  "seconds": 24.25,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-02/redrawn.png",
+    "source_sha256": "79dda4a2529b8b965b07b33058c8437c12f7f62c58d3aa1bb795391ac450a673",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "GREENGROCER",
+        "box": [
+          67,
+          17,
+          446,
+          61
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "c73e809945ab64d6183b0c2172b39c5482c3d91cf50235bbf347002c5c43db3c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon. Two boys in blue and orange shirts cleaning their black shoes with small handheld bristle brushes. Each boy holds one shoe and one brush. Ordinary shoes and brushes, no keyboards or machines. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border.",
+  "seed": 721112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/072-photo-02.png",
+      "sha256": "11f2c0351f1a7a7820e29daba4cb0ce6b63310c5c83d52dc2d480b180a68ab60"
+    }
+  ],
+  "fingerprint": "e87e3da9101323875ee577180559e390f0bfadf9fc4b66b111dfb35702aa7a07",
+  "sha256": "ec5b1c3861484072f141ffba1b6e88d7d16b2074ab5de8d81e78b67147324864",
+  "reference_sha256": "68cde810066de265ef44ff6bf6f33ddc3d55a50c3fbfdf76d918ba6a588f36b3",
+  "seconds": 65.72,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

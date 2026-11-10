@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Correct the woman so she has exactly TWO arms and TWO hands, both hands resting on the chair armrests. Remove the third raised arm and hand near her shoulder completely. Preserve her face, braid, blue blouse, gray skirt, chair and radio. One seated woman listening to a radio.",
+  "seed": 721116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/072-action-06-correction.png",
+      "sha256": "97d171d97317c4d446883b00b6e242d20f803e7ecd4bb1efc2435eca21d408b2"
+    }
+  ],
+  "fingerprint": "55531d2f6b00b1b865c97e662661aa02b30ad6d271a46fa5a32fbc05e017ce90",
+  "sha256": "3ec6ff84d68190e43de77e0a3611314478fdf70e88e7632e6a7283802ef9c9b5",
+  "reference_sha256": "c43fdcacda417b12133b9aa3b259a503c0d7fd8be2bb82e56e44bd58b8d10c9b",
+  "seconds": 50.29,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/072.json"
+}

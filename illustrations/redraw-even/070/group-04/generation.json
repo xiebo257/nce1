@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a butchers shop window displaying cuts of meat. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/070-photo-04.png",
+      "sha256": "d863dcda43bfdcf3416d6ebe28204cfd3ed1e4a9ec87da2d5935eaf032d22d3b"
+    }
+  ],
+  "fingerprint": "bcd6f05e7f9cb34bf1e160c4ac5107b116a0dab330bd6b35ca6526c86f599fb4",
+  "sha256": "50f133c64f8e9312afc7b8a0cc5e2a60bd955dafd625e198b4269f0522fd45df",
+  "reference_sha256": "9a197f7278f6eef73cb7d8ae97b1153c17ae6b80b9402b798255cf085bbfaa06",
+  "seconds": 48.34,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-04/redrawn.png",
+    "source_sha256": "50f133c64f8e9312afc7b8a0cc5e2a60bd955dafd625e198b4269f0522fd45df",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "BUTCHER",
+        "box": [
+          80,
+          14,
+          440,
+          65
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "79de7e5ea9ec083b3bb3e2bbcd3a1d6416cc3d07f967a45f77335d8fbfc96001"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

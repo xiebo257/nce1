@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a grocery shop window displaying jars, boxes, eggs and food. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/070-photo-05.png",
+      "sha256": "dbb6c5a738bd6230e3fafa6fd09601d82a46ae420ecbae0b63857dc885b77104"
+    }
+  ],
+  "fingerprint": "b5c1ed2c07e76075254f36f05466bd62498f1b7638f26e5ebd332f375663031a",
+  "sha256": "acb1c1c86d8ac923bf82a27c3b69ea9c274375bb7b26acd128fc551022766cf5",
+  "reference_sha256": "c4cf2d2a389eff7d0646a1ed3852e65745637ab42abba8f90f0b098001aacfa1",
+  "seconds": 25.8,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-05/redrawn.png",
+    "source_sha256": "acb1c1c86d8ac923bf82a27c3b69ea9c274375bb7b26acd128fc551022766cf5",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "text": "GROCER",
+        "box": [
+          116,
+          39,
+          415,
+          66
+        ],
+        "font_size": 25
+      }
+    ],
+    "output_sha256": "25d04e908f346e2fdc635892869534aa92d66704aa22ce998690cbcd3cbbd0f5"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

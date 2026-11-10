@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE crisp full-color educational cartoon matching this photographed scene. A church exterior with stone walls, pointed roof, arched windows and a large doorway. Exactly two small visitors stand at the bottom right. No extra faces or people at the bottom edge. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+  "seed": 701117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "illustrations/redraw-inputs/070-photo-07.png",
+      "sha256": "3c0bc8771cbf440f5c8cd072b480aa2e1b0eff1bb72b0f81b2adb1785b7a5073"
+    }
+  ],
+  "fingerprint": "943bd4093f4530a43e846e465e70b89728a8fc2b8dd6925e415511af7959db37",
+  "sha256": "c14410386270bb708d6ba5c8eda61f1b7acab50fa0c245440013f043a2d5feaf",
+  "reference_sha256": "8f34bfc063bd5a444c059b889bb7cf0c9046e72b868009ad44381c2efe686e0b",
+  "seconds": 26.4,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}

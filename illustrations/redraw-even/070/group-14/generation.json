@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw only this photographed map silhouette of Canada as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill.",
+  "seed": 701124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "illustrations/redraw-inputs/070-photo-15.png",
+      "sha256": "abcf410b3f3a300f4c11d8781c88dc7a61bdaba73b63ddd2019ee55c82914877"
+    }
+  ],
+  "fingerprint": "b35c9cd1e5c448700d7c40a12549be0c7082308646e8ee06ce8a447c620b1db9",
+  "sha256": "89fff7f253370c24e76609ee1444805cbc37df6bad5073e350a76859472dd809",
+  "reference_sha256": "fe60198cb01a2048d047b7a491199f0372178c5f66a42805a849c299a81af32f",
+  "seconds": 48.02,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/070/group-14/redrawn.png",
+    "source_sha256": "89fff7f253370c24e76609ee1444805cbc37df6bad5073e350a76859472dd809",
+    "operations": [
+      {
+        "type": "fit-content",
+        "size": [
+          460,
+          287
+        ],
+        "position": [
+          26,
+          0
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "text": "Canada",
+        "box": [
+          130,
+          289,
+          382,
+          318
+        ],
+        "font_size": 22
+      }
+    ],
+    "output_sha256": "a8835a850ef48d3f18d3c5293edbefd745c270b04ad3e2a2693a47d5075f3ecb"
+  },
+  "review": "reports/even-illustration-redraw/reviews/070.json"
+}
