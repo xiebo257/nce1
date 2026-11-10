@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. Two people waiting outside an airport, aircraft tail and windsock visible behind them. Large rectangular blank airport sign. Exactly two people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/092-photo-05.png",
+      "sha256": "99430fe6b532733bea31a04ffe6c81553e7a1fab49add8f148ec53386665b819"
+    }
+  ],
+  "fingerprint": "cf81b4a38a843086d47234a601e40351a92c468c78825c39b92d62f04b4ce037",
+  "sha256": "5e44ffeca19e83b0564d2e72d4e6a5b7178512bba4db0cf8e36386fd4a94d745",
+  "reference_sha256": "2dcccfa537d64d5de99d2c1d59ad899dc2cb1b317ec49a24d7bdd80809b41f44",
+  "seconds": 48.11,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/092/group-05/redrawn.png",
+    "source_sha256": "5e44ffeca19e83b0564d2e72d4e6a5b7178512bba4db0cf8e36386fd4a94d745",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          301,
+          70,
+          470,
+          148
+        ],
+        "text": "AIRPORT",
+        "font_size": 31
+      }
+    ],
+    "output_sha256": "d895f3419e42414aa404b241f84f41a31e15e9cbd9feacdb099b1dc08989f093"
+  },
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

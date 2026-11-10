@@ -16010,8 +16010,8 @@
         },
         {
           "slot": "photo-panel-12",
-          "reference": "illustrations/redraw-inputs/092-packing-correction.png",
-          "reference_sha256": "0d94a3696a27006eb24378e46e04dee178629dbf18ac4795be4fa510c6fdcec6",
+          "reference": "illustrations/redraw-inputs/092-headless-body-correction.png",
+          "reference_sha256": "67445616a7ffbd3ae3ece89a8e2e13ee7b243e6100fb7cee5b9595c17360e3b0",
           "source_photo": "img/lesson-092-01-text.jpg",
           "source_photo_sha256": "da1a524de880c8cd5e2c8c1956e185e9efe337d1f08e0b9916315816c54d719e",
           "previous": {
@@ -16043,7 +16043,7 @@
           "cue": "pack his bags",
           "text": "pack his bags",
           "mode": "model-redraw",
-          "edit_instruction": "REMOVE the middle man wearing the GREEN SHIRT, including his whole head, body, both arms and both legs. Keep EXACTLY TWO PEOPLE: the woman in pink and purple on the far left, and the brown-haired man in a BROWN SHIRT on the right packing clothes into the open suitcase. The remaining man should hold a piece of clothing over the suitcase, not shake hands. Keep the woman, suitcase, shoes and clothes. No person in the middle; white background. Crisp full-color cartoon, no words.",
+          "edit_instruction": "Erase the entire HEADLESS FIGURE in the MIDDLE: remove ALL of its green shirt, both arms, blue trousers, both legs and brown shoes. Replace that whole middle figure with plain WHITE BACKGROUND, leaving an empty white gap between the woman on the left and the suitcase. Keep the woman in pink/purple on left completely unchanged. Keep the man in brown on right packing the suitcase completely unchanged, with only HIS two hands visible. Exactly two complete people remain, and no spare clothing shaped like a body in the middle. No added text.",
           "direct_photo_crop": {
             "source": "img/lesson-092-01-text.jpg",
             "box": [
@@ -16143,7 +16143,7 @@
           "cue": "paint this room",
           "text": "paint this room",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two people looking at the damaged walls of a room that needs painting. Exactly two people, empty floor, no extra faces on walls. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "edit_instruction": "Two adults standing side by side looking at a room with cracked peeling paint on the walls. The man on the left has short curly brown hair, blue shirt and navy trousers. The woman next to him has straight brown hair and a green blouse. Both are in THREE-QUARTER PROFILE FACING RIGHT, with clearly drawn visible eyes, noses and mouths. The woman points at a damaged patch on the wall. Exactly two people with normal faces, two arms each. Clear full-color cartoon, no text or captions.",
           "direct_photo_crop": {
             "source": "img/lesson-092-01-text.jpg",
             "box": [
@@ -16193,7 +16193,7 @@
           "cue": "repair my car",
           "text": "repair my car",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One customer in a brown hat at left watches two mechanics repairing the open engine of a car at right. Exactly three people, one car. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "edit_instruction": "One customer wearing a brown bowler hat at left watches TWO male mechanics repairing an open car engine at right. Exactly THREE men total. Show all three men WAIST-UP ONLY. The mechanics stand BEHIND the car engine bay; their lower bodies and legs are hidden by the car. Each mechanic has only TWO ARMS, hands working on the engine. One mechanic has dark hair and blue overalls, the other light brown hair and gray overalls. Customer in brown hat is visible from chest up at left. Clear detailed faces, crisp full-color educational cartoon, no captions, no extra hands or faces.",
           "direct_photo_crop": {
             "source": "img/lesson-092-01-text.jpg",
             "box": [
@@ -16447,8 +16447,8 @@
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-094/photo-panel-04.webp",
-          "reference_sha256": "7afcd04bf95f9a3c6861ef230daa5fb662f9d09a5f5868dd1bf30abd3a331866",
+          "reference": "illustrations/redraw-inputs/094-photo-04.png",
+          "reference_sha256": "9c23577eee1b9f5604df31bbc72f74faffc24b989609c4ea82e6a90d4e859d0c",
           "source_photo": "img/lesson-094-01-text.jpg",
           "source_photo_sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
           "previous": {
@@ -16480,7 +16480,20 @@
           "cue": "Bombay",
           "text": "Bombay",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp colored educational cartoon. One seated snake charmer wearing a turban playing a wind instrument beside one cobra rising from a basket. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering."
+          "edit_instruction": "Redraw this original photographed illustration as one crisp full-color educational cartoon. One turban-wearing snake charmer seated cross-legged plays a plain BROWN WOODEN GOURD WIND INSTRUMENT. The instrument is an inanimate wooden pipe with a round gourd, no eyes or face. Exactly ONE cobra rises from a wicker basket at right; it has one small snake head, a raised hood and a long slender body. One human and one snake, no other animals. Preserve the source layout, smooth precise outlines, white margins, no captions or lettering.",
+          "direct_photo_crop": {
+            "source": "img/lesson-094-01-text.jpg",
+            "box": [
+              1136,
+              934,
+              1388,
+              1140
+            ],
+            "source_size": [
+              1695,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-05",
@@ -16595,8 +16608,8 @@
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-094/photo-panel-08.webp",
-          "reference_sha256": "dc5f57c9164fdbe9f6130ad16a25a79965519535ae52d982de18d85108060f89",
+          "reference": "illustrations/redraw-inputs/094-five-trees-correction.png",
+          "reference_sha256": "db7a8f8b2e3e42bacb3ccc77ccf7e95512ed5987565741391c1ae595b3985a17",
           "source_photo": "img/lesson-094-01-text.jpg",
           "source_photo_sha256": "cd656612716c1b286010dffb889f9109c4d4a464a3aa25927d655d5826af087f",
           "previous": {
@@ -16628,7 +16641,22 @@
           "cue": "Moscow",
           "text": "Moscow",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp colored educational cartoon. Colorful onion-domed cathedral in Moscow with exactly three small dancers in front. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering."
+          "edit_instruction": "This image has FIVE trees, but it needs exactly FOUR. Remove the SMALL tree near the RIGHT, the one squeezed BETWEEN the middle tree and the big far-right tree. Remove that small tree's whole canopy, trunk, roots and shadow. Restore the cathedral wall and white ground behind it. Keep the four larger trees: far left, left of center, center, far right. Keep the cathedral and five onion domes unchanged. Exactly FOUR complete trees total, no people, no text.",
+          "direct_photo_crop": {
+            "source": "img/lesson-094-01-text.jpg",
+            "box": [
+              784,
+              1331,
+              1031,
+              1540
+            ],
+            "source_size": [
+              1695,
+              2500
+            ]
+          },
+          "verified_description": "An onion-domed cathedral in Moscow with four small trees in the foreground.",
+          "source_recheck": "Enlarged original photo: four foreground shapes have leafy canopies, trunks and ground roots. They are trees, not dancers. Corrects the earlier interpretation."
         },
         {
           "slot": "photo-panel-09",
@@ -16890,7 +16918,109 @@
           "edit_instruction": "Redraw this reference as one crisp colored educational cartoon. A Japanese shopping street with lanterns, traditional roof details and a small delivery truck in Tokyo. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-15": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    354,
+                    95
+                  ],
+                  [
+                    379,
+                    95
+                  ],
+                  [
+                    379,
+                    143
+                  ],
+                  [
+                    353,
+                    147
+                  ]
+                ]
+              ],
+              "fill": "#f0f9b9"
+            },
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    329,
+                    118
+                  ],
+                  [
+                    337,
+                    118
+                  ],
+                  [
+                    337,
+                    167
+                  ],
+                  [
+                    330,
+                    167
+                  ]
+                ]
+              ],
+              "fill": "#fff9f2"
+            },
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    378,
+                    58
+                  ],
+                  [
+                    396,
+                    58
+                  ],
+                  [
+                    396,
+                    87
+                  ],
+                  [
+                    378,
+                    87
+                  ]
+                ]
+              ],
+              "fill": "#f66853"
+            },
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    357,
+                    88
+                  ],
+                  [
+                    373,
+                    88
+                  ],
+                  [
+                    373,
+                    95
+                  ],
+                  [
+                    357,
+                    95
+                  ]
+                ]
+              ],
+              "fill": "#f0f9b9"
+            }
+          ]
+        }
+      }
     },
     "96": {
       "sections_sha256": "629b5759943b7577c8ce0535c8b56f8ef7080470c1004c7c8b97ceac08494dba",

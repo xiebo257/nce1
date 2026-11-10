@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde woman in green standing in an untidy room with litter on the floor, preparing to sweep. Exactly one woman. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "illustrations/redraw-inputs/092-photo-13.png",
+      "sha256": "36499dd6c99900cae57d3d90b4de2aed0e3fd40fba33eb258d33f19056ed59fa"
+    }
+  ],
+  "fingerprint": "6a07a4e808c5cb418df6bbfbaa663913cd4f33bbb80c0da5f426f7151b94c799",
+  "sha256": "6c165767ee18abbc2682c0975d7d056a5abf84b666987dc45b93c7c23c66d0e7",
+  "reference_sha256": "75655074cb91ac998ba9948bd0ee715f5a5d3978c6be2c68fec3630d7a4d3573",
+  "seconds": 47.59,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

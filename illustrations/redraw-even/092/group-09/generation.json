@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One young man with very long untidy dark hair needing a haircut, portrait, no other people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "illustrations/redraw-inputs/092-photo-09.png",
+      "sha256": "646c927f8e2597e841f880ad8d20013ea104f4f1ac16276b552ec8e679bbfd2d"
+    }
+  ],
+  "fingerprint": "8245404b47eacbc7b767f2a18c99f084b8cd1e67079a50dd64f58758305f02ab",
+  "sha256": "2d1eea6e23e4d327a9611836ab641775cbb1985047e95b302d9e8d4ed61a5bba",
+  "reference_sha256": "d9521d691669ad114adcdd8220fd4d68d99a495aa94611d1a2ba27c1e4ccb013",
+  "seconds": 47.98,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

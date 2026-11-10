@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw exactly TWO depictions, with clear separation. In the FOREGROUND at RIGHT is ONE brown-haired MAN wearing a green shirt seated on a chair, looking at a telephone on a small table at left. In a THOUGHT BUBBLE ABOVE THE TELEPHONE at upper LEFT is only the HEAD AND SHOULDERS of ONE WOMAN with straight black bob hair and blue blouse. The woman must be completely inside the thought bubble; she is not sitting in the room. Exactly one foreground man, one bubble woman, one telephone. Sharp full-color educational cartoon, white background, no letters or captions.",
+  "seed": 921120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "illustrations/redraw-inputs/092-photo-10.png",
+      "sha256": "b97f46049d38965bd4f1e414a8359fe6ad53ae40cfb43a0909b63b328601dbbe"
+    }
+  ],
+  "fingerprint": "97c70e8e6c9528ca40f780135aedd4af77008c9e119d8495929414d843a13f6c",
+  "sha256": "6c25c6478aefb95b4b49d7a58ff55f0d961c8fb363e6e8a417db5e7f6e2d1c44",
+  "reference_sha256": "2ea37f4572ca083b40fdcd7bfe9fdad1235914adc0aa25ec9fb575acfe51a7a8",
+  "seconds": 47.83,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

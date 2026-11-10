@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "One customer wearing a brown bowler hat at left watches TWO male mechanics repairing an open car engine at right. Exactly THREE men total. Show all three men WAIST-UP ONLY. The mechanics stand BEHIND the car engine bay; their lower bodies and legs are hidden by the car. Each mechanic has only TWO ARMS, hands working on the engine. One mechanic has dark hair and blue overalls, the other light brown hair and gray overalls. Customer in brown hat is visible from chest up at left. Clear detailed faces, crisp full-color educational cartoon, no captions, no extra hands or faces.",
+  "seed": 921125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "illustrations/redraw-inputs/092-photo-15.png",
+      "sha256": "06ee1adaa802012ffec3cc8559c5e358bfca2aa920d10e85134eec8eaf8b59a6"
+    }
+  ],
+  "fingerprint": "9c5c27191d956d62bf8f033fe42b6a785c43d9c215ee34b5db857e699d8dd134",
+  "sha256": "ce0dbfcc1c7a1bc6991260ccf661a84e787e02a2d830e2032144eee927ca503b",
+  "reference_sha256": "fa951a0e34430582e6f37b27764d8581000b068551cc5c749ed88d79b87d5243",
+  "seconds": 56.96,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

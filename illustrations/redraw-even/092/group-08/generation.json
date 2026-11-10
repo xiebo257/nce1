@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. Three people having a picnic beside a parked car, preparing to drive home. A blonde woman, balding man and child. Exactly three people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/092-photo-08.png",
+      "sha256": "9130b6db5694572386fc0f21b09cbe09531ab802f28a1fd24f7029a7fa1a0ece"
+    }
+  ],
+  "fingerprint": "1e759eb42d1bfed401a739280bbf2dabedf035d6f5a4f30b44507b0deccaf9ba",
+  "sha256": "6186aac32691ca84c2f62a5867e607af9f248733a76285b91d24190da686c015",
+  "reference_sha256": "dec8f42b4357766d8c141db2891c37c0977f78062deccd967d19284223c80184",
+  "seconds": 46.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. Two people bundled in winter coats outside looking up at heavy gray snow clouds and a few snowflakes. Keep two people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/092-photo-02.png",
+      "sha256": "8a81a88d070de812b380e9b970d812704f3127e3078bc1c164eccb8cf5bbbf6f"
+    }
+  ],
+  "fingerprint": "68819663a79ba24e08af681c3f74ca5eb1a7d1344e27102cf96c02df4ecdc798",
+  "sha256": "e64474323e7f4990a20515f8aa4d3cf4c03cd0f7244d042f73201bd864896634",
+  "reference_sha256": "32866ccefef13e09b0b6e8e140e474bc0474707362f74a9ca28a2be5c23d6281",
+  "seconds": 50.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw ONE bald office worker in a blue shirt seated at a desk, finishing paperwork. He has exactly TWO HANDS: his right hand holds a pen writing on one sheet, his left hand rests flat on the same sheet. A tall stack of documents stands at left, one telephone on the desk at right. Two arms attached naturally to his shoulders. No other hands, fingers or people. Clean colorful cartoon, white background, no text.",
+  "seed": 921116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/092-photo-06.png",
+      "sha256": "89f40110182eccdc32efbb806b9549e60daa7c1bc1206c72dc5e83b769449859"
+    }
+  ],
+  "fingerprint": "471f726c1bd14407ce804307af9d7aaad86336fd91b757e7b8f37c6edeaed30b",
+  "sha256": "686248f00bfbacf8fd75a32c90c4942e05518a139b58a45de4ad2abe30caa63a",
+  "reference_sha256": "0c1d871995db4a5333291f2499ffebedc40933381b0a9f533dad4355811b8b79",
+  "seconds": 47.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

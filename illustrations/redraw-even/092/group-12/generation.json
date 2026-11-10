@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Erase the entire HEADLESS FIGURE in the MIDDLE: remove ALL of its green shirt, both arms, blue trousers, both legs and brown shoes. Replace that whole middle figure with plain WHITE BACKGROUND, leaving an empty white gap between the woman on the left and the suitcase. Keep the woman in pink/purple on left completely unchanged. Keep the man in brown on right packing the suitcase completely unchanged, with only HIS two hands visible. Exactly two complete people remain, and no spare clothing shaped like a body in the middle. No added text.",
+  "seed": 921122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "illustrations/redraw-inputs/092-headless-body-correction.png",
+      "sha256": "67445616a7ffbd3ae3ece89a8e2e13ee7b243e6100fb7cee5b9595c17360e3b0"
+    }
+  ],
+  "fingerprint": "45de3882735c6f71983464dc835f80f4c2f84941a4238b7fcc6bf4b178d9b556",
+  "sha256": "76e74b24838c0b0a5242fea5d225508c143c35929ef0e067f8f6a6ca828757e3",
+  "reference_sha256": "6cb80bff899036591547bcd1d696124dbd956f3c3f1370dd88c2cc11e7133e2d",
+  "seconds": 55.92,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

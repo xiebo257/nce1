@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man with visible dark stubble on his chin, needing a shave. Single portrait, no razor yet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "illustrations/redraw-inputs/092-photo-11.png",
+      "sha256": "784ab68d0b4e143f15cbae2dec459eb6efbd62f5dc73f62ef4f66e726afada2f"
+    }
+  ],
+  "fingerprint": "c6ce24dcadb4812c7949fc6a1784ef223601523b9f396833703666d9031ca25b",
+  "sha256": "f61a7bcbaa1641795dd5ef33a319489b36aa6e6c9846562dc05bd2763e954543",
+  "reference_sha256": "74d0ee2ce4e4ca401793b64f587e0bc3bdeadd6a7b169e8a4eb24120348370b5",
+  "seconds": 46.96,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

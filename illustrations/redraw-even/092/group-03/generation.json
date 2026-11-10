@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One woman with straight black bob in blue stands beside a curly-haired man seated in a green armchair, discussing when he will leave. Exactly two people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "illustrations/redraw-inputs/092-photo-03.png",
+      "sha256": "e87db297e5d6f0f3c13c3e3196b2bd7b6847d24f5b874c51d4fcd21996d58c54"
+    }
+  ],
+  "fingerprint": "4b75ae770a1bdb9b35a87531ae70eefc5e294fbd092da9e4685a90bb6f1defc8",
+  "sha256": "4a46ba8772de7faf7f4d1e2b97ffb58c9e12776c3e4ba50c7ad0b938afed451d",
+  "reference_sha256": "0bb8c615a40c1a035095ac16def02a953c813ab0e75e9e0c3ce98da9369b33ad",
+  "seconds": 47.34,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

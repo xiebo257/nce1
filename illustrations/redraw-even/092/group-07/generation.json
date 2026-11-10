@@ -1,0 +1,57 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. Two women looking at a travel agency window displaying a sunny holiday poster. Rectangular blank sign above. Exactly two women. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "illustrations/redraw-inputs/092-photo-07.png",
+      "sha256": "02e53ca9b37aebe4ff3f16dffde81de6b4ee6825cbfbd3a1e8f825ab88e3459c"
+    }
+  ],
+  "fingerprint": "4326ac9abf6ca06146e2a193731abed81d8fb55e856a5a430f449beafe29ccb8",
+  "sha256": "54a61f5942f15e9514cd25b2c814034eed57bdf536695ba56efc383614fec94f",
+  "reference_sha256": "68069158b62592cc749217130c6ed8a3d32ee6174a0af22440bc508b12782aac",
+  "seconds": 47.96,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/092/group-07/redrawn.png",
+    "source_sha256": "54a61f5942f15e9514cd25b2c814034eed57bdf536695ba56efc383614fec94f",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          120,
+          20,
+          405,
+          62
+        ],
+        "text": "TRAVEL AGENT",
+        "font_size": 31
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          399,
+          105,
+          482,
+          138
+        ],
+        "text": "SUN\nSPAIN",
+        "font_size": 14,
+        "background": "#c9efff"
+      }
+    ],
+    "output_sha256": "928255a2ccd178793956ad6f4325845e9736561c067f51367fdb84a8f08d4200"
+  },
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

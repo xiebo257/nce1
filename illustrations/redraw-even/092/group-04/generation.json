@@ -1,0 +1,53 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One boy in bed asleep, a round alarm clock on a bedside table and rising sun visible through the window. One boy only. Clock face blank for exact overlay if needed. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/092-photo-04.png",
+      "sha256": "e77442c3919f47c0d3a3d040a0046a5bd2d8577d21b2c343d22c2078038ae303"
+    }
+  ],
+  "fingerprint": "4806b86dcebcff6fbd9fec38fd72617bbce685a10bf4894d1083e621df6858d4",
+  "sha256": "0f9e0f9f4d7b54b89bdc2af80a0f574da049a3783e29bde2e3ac5491cd954e29",
+  "reference_sha256": "9bac484ae147a94ee247379464bb7b625689b69387a5e3ee3a07f00686e118d1",
+  "seconds": 47.43,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/092/group-04/redrawn.png",
+    "source_sha256": "0f9e0f9f4d7b54b89bdc2af80a0f574da049a3783e29bde2e3ac5491cd954e29",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/092/diagrams/inset-10-55.png",
+        "clear_box": [
+          248,
+          115,
+          325,
+          192
+        ],
+        "placement": [
+          248,
+          115,
+          77,
+          77
+        ],
+        "clock_time": "10:55",
+        "shape": "ellipse",
+        "sha256": "a2ed44a130fe4bd056d61a462eadec8d0c77eced10ef593583829174d9e5521f"
+      }
+    ],
+    "output_sha256": "f6c69c1d5c87e71a2fca1844a9285ad0d5416324ed214ef88e1b7e967a0364e8"
+  },
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One customer in blue standing at a reception counter talking to one seated clerk in green about an appointment. Exactly two people, one desk telephone. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 921126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "illustrations/redraw-inputs/092-photo-16.png",
+      "sha256": "fe92789dcb39e96e5699e3d450915aeea7177a8b4894d3d4f9a7a5802c9acfa8"
+    }
+  ],
+  "fingerprint": "2d226ea678ba5d5c071ded06c9d0d4be310a40e98bb72610a792725c1c5faa8e",
+  "sha256": "ccaecb8d0cd0fb270730674249b452c1423aa9ca195d46fbe293d05789eabaf0",
+  "reference_sha256": "f0738ec2f8c31e39663e5917d57e542c225c8a99d180639edf79aa853bdf024f",
+  "seconds": 47.55,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}

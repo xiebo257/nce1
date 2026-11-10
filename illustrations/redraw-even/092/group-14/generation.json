@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Two adults standing side by side looking at a room with cracked peeling paint on the walls. The man on the left has short curly brown hair, blue shirt and navy trousers. The woman next to him has straight brown hair and a green blouse. Both are in THREE-QUARTER PROFILE FACING RIGHT, with clearly drawn visible eyes, noses and mouths. The woman points at a damaged patch on the wall. Exactly two people with normal faces, two arms each. Clear full-color cartoon, no text or captions.",
+  "seed": 921124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "illustrations/redraw-inputs/092-photo-14.png",
+      "sha256": "91c93d30b94d57f475993f9ffa093a57a26a04a1c477f3a01b3a9c4b09795043"
+    }
+  ],
+  "fingerprint": "ef6387a34a5ad34e4118145b94a3d25f9f7d1d515817beab175d58cac69c473a",
+  "sha256": "96edc1037e4f38570efa663ebb5e1d2ff56d6024182f9f617f545cefcabf8ef9",
+  "reference_sha256": "b385319f897baee83004aa68dc4fc9817db0bb19666997d6302050526a8cc85e",
+  "seconds": 57.37,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/092.json"
+}
