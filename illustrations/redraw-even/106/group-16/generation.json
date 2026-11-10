@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw the original photo as a clear colorful cartoon. One black-bob-haired WOMAN on the LEFT holds ONE large kitchen knife upright in her right hand, her other hand is empty. One small brown-haired BOY on the RIGHT holds both EMPTY hands up and warns her not to cut herself. Exactly ONE knife, held ONLY by the woman. The boy holds nothing. Exactly two people, no injuries, two arms each, white background, no text.",
+  "seed": 1061126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "illustrations/redraw-inputs/106-photo-16.png",
+      "sha256": "17b1407376efdad7f452822f99c95086a1be4f8a79f3927f704882b2b52da74b"
+    }
+  ],
+  "fingerprint": "9035cffc4c4a5c47357198f6adb7215e69b620662d34f5057d8c7b8b3f73483a",
+  "sha256": "a487b6b350549dcbf0524a6fe431bdf3f4e6a4c2597fd5ca479c647fac82e129",
+  "reference_sha256": "2862cb719491f490edf85184f870f4d117d3f2db15c63ace215dc561de95de8a",
+  "seconds": 59.12,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

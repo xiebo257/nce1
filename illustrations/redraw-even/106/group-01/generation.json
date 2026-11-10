@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A woman in a blue dress points to a large suitcase, asking a male porter in a dark uniform to carry it. Exactly two people. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "illustrations/redraw-inputs/106-photo-01.png",
+      "sha256": "eccd570b607d212e6ce046f5b0250241d7a448cc49f5de4666754769824974bf"
+    }
+  ],
+  "fingerprint": "c8fe9a500e204f7a1f3fcf178c6702d65a029cec2afcba7456e66631b7be67ae",
+  "sha256": "3b0bcaa26c4ad8af9ed263f5756dd4f1707f65eb22fea59639fad46218b4f496",
+  "reference_sha256": "bdad956a533cae198bc9079d510a8bcea3c99159c0b0140189fa09507533362a",
+  "seconds": 55.85,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

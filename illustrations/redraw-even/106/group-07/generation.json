@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a crisp colorful cartoon matching the original photo: a curly brown-haired mother on the left points her EMPTY index finger toward her young daughter on the right, telling her to finish her drink. The daughter holds ONE glass of orange juice. Exactly ONE glass in the entire image, held only by the child. Mother holds no glass, no cup, no object. Exactly two people, two arms each, white background, no text.",
+  "seed": 1061117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "illustrations/redraw-inputs/106-photo-07.png",
+      "sha256": "68cfc3b89f4059e7dfa986b45773a5c54c259faef5b5a72670bea6e04e517105"
+    }
+  ],
+  "fingerprint": "8f906bb5badac1bbb39f2699d0c55bfca7f83cbdcac4648826066382827d07fe",
+  "sha256": "f4fefecd5b641cf5fbd8bdef646951429974be161fde902187da8d481f14c573",
+  "reference_sha256": "f996c25d07896d05a1b5c4d92306458f5ad5969f5ca1ac2ae3f89baf0f08a3cd",
+  "seconds": 62.74,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

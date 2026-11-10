@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A woman on the left warns a boy carrying a large vase on a staircase not to break it. Exactly two people, one intact vase. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "illustrations/redraw-inputs/106-photo-13.png",
+      "sha256": "39e889be52f2fe9d4bf717f12fc5889996e1089f5baa81a2059fb719bd1c238a"
+    }
+  ],
+  "fingerprint": "096b00ceae5bc29b83d5e172ad18cdfd75bcee581489c63e2ea45279092fa714",
+  "sha256": "6a0a1de35a47580c548072c59cc403e6b97866c5ea1e014e7085daa98d462c7e",
+  "reference_sha256": "011076e5037284a9b5c1505a24c48030dc8a4f5ed64d38d47495ce26338244c4",
+  "seconds": 57.95,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

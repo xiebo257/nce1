@@ -1,0 +1,69 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A curly-haired woman gives a banknote to a girl with long straight hair, warning her not to lose it. Exactly two people, one banknote with a blank face for exact text later. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "illustrations/redraw-inputs/106-photo-15.png",
+      "sha256": "057917f14483c3e66f84ccea97af1d6707fd9b9b54dfd45cfb2d05a5cca263c9"
+    }
+  ],
+  "fingerprint": "68ea9ddd9398affc7bd4a18f853534577b30267fa70efa3f878fa03613ecc58c",
+  "sha256": "651f2033e8706acae6c6fb0025221007ab8d0233fef7ec539560c40db20927c1",
+  "reference_sha256": "25c1b04e550f4e0d634addf89fd96fc794ddff5f25a7ca1eaf40bb1ca6ec70b1",
+  "seconds": 58.42,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/106/group-15/redrawn.png",
+    "source_sha256": "651f2033e8706acae6c6fb0025221007ab8d0233fef7ec539560c40db20927c1",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              192,
+              29
+            ],
+            [
+              282,
+              29
+            ],
+            [
+              282,
+              119
+            ],
+            [
+              187,
+              113
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          211,
+          151,
+          261,
+          181
+        ],
+        "text": "£10",
+        "font_size": 23,
+        "background": null
+      }
+    ],
+    "output_sha256": "63a22abd42977bff22a4dd8161538c01f56786f2b0628a2e42d19ab2e4131fd6"
+  },
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

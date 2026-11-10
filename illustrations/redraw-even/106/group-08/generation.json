@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A man gives a small framed photograph to a woman with straight blonde hair. Exactly two people, one photograph. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/106-photo-08.png",
+      "sha256": "2ac9c554fd91af91c9c40d3039370f7275ae0dbdb9ded5f458009edd95ef1185"
+    }
+  ],
+  "fingerprint": "106badc9da87596fbdf7b6e525e7259f4239ae718022302dc36482dc5bb5c8ea",
+  "sha256": "8991afbc59330fc51d47a571d2b41b03ba8bf214ff8cb51205e558719e0ef6da",
+  "reference_sha256": "e9ebfd65fb64531298432be29ac929de552bec4a1f06dfeb684b1022b4b300bd",
+  "seconds": 56.24,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

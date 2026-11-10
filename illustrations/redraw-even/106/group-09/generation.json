@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A mother stands below a tree and warns her boy climbing the trunk to be careful. Exactly two people. The boy grips the trunk with two arms and two legs. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "illustrations/redraw-inputs/106-photo-09.png",
+      "sha256": "bd5f7182696247a8a643582103858f49c4ef31be43eef0cab76e3108cd481643"
+    }
+  ],
+  "fingerprint": "c97a3898bed3b6f987928406180be0b021a1697e926916fa323300e44178684b",
+  "sha256": "2cbd6673556a60bf53c8328568001ac359eaf6ac8295792d63f8f1109b178dab",
+  "reference_sha256": "c3789e29167eaf77f8ffa01b9f7597fbd86060e987947acf290050cdd1fc61fc",
+  "seconds": 57.85,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

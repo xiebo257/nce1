@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A woman with a black bob offers a small cake on a plate to one blonde woman. Exactly two women, one cake. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/106-photo-06.png",
+      "sha256": "95ee893ea82295353879b95a4d939a1c39664f39fe249bf4ac656624e3892ff3"
+    }
+  ],
+  "fingerprint": "e6ebc0be28726f2b75f90d7fe83fb78443ff09a6d428426f0c389525fa0ba0f2",
+  "sha256": "c63f998fea7d19abd60db3e52447ea8286f4e7b22415c5274a5f6c44cea94fa9",
+  "reference_sha256": "302da37d662e71a88c05fcc722a72c403b0f053f1d88f130ade675c1d0e80485",
+  "seconds": 57.96,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

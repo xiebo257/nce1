@@ -21276,8 +21276,8 @@
         },
         {
           "slot": "photo-panel-05",
-          "reference": "illustrations/redraw-inputs/106-photo-05.png",
-          "reference_sha256": "8812ceb9f3c7b04db89b5549c3be203b4a81ab039f40db237402dd246186da6c",
+          "reference": "illustrations/redraw-inputs/106-traffic-driver-repair.png",
+          "reference_sha256": "46ae21f1e19d124f2be35be87f5ff1bba51bb3d4a444fe8ed09390efd427f932",
           "source_photo": "img/lesson-106-01-text.jpg",
           "source_photo_sha256": "18db3673afdd5b5dda178f3405d0f1ab40d3ec2520b72ce40239d4df62ac7bd9",
           "previous": {
@@ -21318,7 +21318,7 @@
               1232
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A policeman standing on the left asks the driver of the front car to move it; one passenger sits beside the driver. Two more drivers in two cars wait behind. All drivers seated INSIDE their cars. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Repair the two rear car drivers in this cartoon. In the GREEN car at rear left, complete the existing blank oval head as ONE smiling male driver with brown hair, eyes, nose and mouth, blue shirt behind steering wheel. In the ORANGE car at rear right, add ONE male driver with brown hair, eyes, nose and mouth and blue shirt behind the steering wheel. Each rear car has only one occupant. Keep the policeman and the TWO front yellow-car occupants unchanged. Exactly five people total. Preserve all cars and empty passenger seats."
         },
         {
           "slot": "photo-panel-06",
@@ -21410,7 +21410,7 @@
               1232
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A curly-haired mother tells her small daughter holding a drinking glass to finish her drink. Exactly two people, one glass. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw a crisp colorful cartoon matching the original photo: a curly brown-haired mother on the left points her EMPTY index finger toward her young daughter on the right, telling her to finish her drink. The daughter holds ONE glass of orange juice. Exactly ONE glass in the entire image, held only by the child. Mother holds no glass, no cup, no object. Exactly two people, two arms each, white background, no text."
         },
         {
           "slot": "photo-panel-08",
@@ -21827,10 +21827,183 @@
               2216
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A woman with a black bob watches a small boy holding a kitchen knife, warning him not to cut himself. Exactly two people, one knife; no injury. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Redraw the original photo as a clear colorful cartoon. One black-bob-haired WOMAN on the LEFT holds ONE large kitchen knife upright in her right hand, her other hand is empty. One small brown-haired BOY on the RIGHT holds both EMPTY hands up and warns her not to cut herself. Exactly ONE knife, held ONLY by the woman. The boy holds nothing. Exactly two people, no injuries, two arms each, white background, no text.",
+          "verified_description": "A woman holds a kitchen knife while a small boy warns her not to cut herself.",
+          "source_recheck": "Original photo crop shows the woman holding the single knife; the boy has empty hands. Corrected earlier prompt that reversed the holder."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-04": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                157,
+                17,
+                353,
+                56
+              ],
+              "text": "LOST PROPERTY",
+              "font_size": 23,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-14": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    136,
+                    9
+                  ],
+                  [
+                    193,
+                    9
+                  ],
+                  [
+                    193,
+                    46
+                  ],
+                  [
+                    181,
+                    57
+                  ],
+                  [
+                    147,
+                    66
+                  ],
+                  [
+                    133,
+                    59
+                  ]
+                ],
+                [
+                  [
+                    156,
+                    63
+                  ],
+                  [
+                    173,
+                    63
+                  ],
+                  [
+                    173,
+                    77
+                  ],
+                  [
+                    156,
+                    77
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "photo-panel-15": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    192,
+                    29
+                  ],
+                  [
+                    282,
+                    29
+                  ],
+                  [
+                    282,
+                    119
+                  ],
+                  [
+                    187,
+                    113
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                211,
+                151,
+                261,
+                181
+              ],
+              "text": "£10",
+              "font_size": 23,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-05": {
+          "source_asset": "illustrations/redraw-inputs/106-traffic-five-people.png",
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "fill": "#60ba04",
+              "polygons": [
+                [
+                  [
+                    273,
+                    49
+                  ],
+                  [
+                    304,
+                    51
+                  ],
+                  [
+                    314,
+                    88
+                  ],
+                  [
+                    263,
+                    89
+                  ],
+                  [
+                    265,
+                    64
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "erase-polygons",
+              "fill": "#7eaf9c",
+              "polygons": [
+                [
+                  [
+                    409,
+                    54
+                  ],
+                  [
+                    443,
+                    56
+                  ],
+                  [
+                    450,
+                    97
+                  ],
+                  [
+                    398,
+                    94
+                  ],
+                  [
+                    400,
+                    66
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      }
     },
     "108": {
       "sections_sha256": "dd25a8a4854811717134f4071c3b47b513f15c0633794c6fcf721ab725ab8a14",
@@ -21945,7 +22118,7 @@
           "cue": "Hans is the tallest student in our class.",
           "text": "Hans is the tallest student in our class.",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. Exactly four students on the SAME ground line from left to right: Sophie with straight blonde shoulder-length hair and blue blouse/dark skirt; Paul with short black hair and blue shirt/dark trousers, taller than Sophie; Hans with short blonde hair and blue shirt/brown shorts, tallest of all; a shorter black-haired girl in blue at far right. Preserve the height comparison and recurring identities. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
+          "edit_instruction": "Draw exactly FOUR students standing on one common ground line, clear full-color cartoon. Left to right: Sophie, a short blonde girl with shoulder-length bob, blue blouse and navy skirt; Paul, a MEDIUM-height black-haired boy in blue shirt and black trousers; Hans, a VERY TALL blonde boy in blue shirt and brown shorts; a short black-haired girl in blue. HANS the BLONDE boy is the TALLEST, his head is a full head higher than Paul. Paul is taller than Sophie but clearly SHORTER than Hans. All shoes on same baseline. Preserve people identities and clean outlines, white background, no text."
         },
         {
           "slot": "photo-panel-04",

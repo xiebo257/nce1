@@ -1,0 +1,90 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Repair the two rear car drivers in this cartoon. In the GREEN car at rear left, complete the existing blank oval head as ONE smiling male driver with brown hair, eyes, nose and mouth, blue shirt behind steering wheel. In the ORANGE car at rear right, add ONE male driver with brown hair, eyes, nose and mouth and blue shirt behind the steering wheel. Each rear car has only one occupant. Keep the policeman and the TWO front yellow-car occupants unchanged. Exactly five people total. Preserve all cars and empty passenger seats.",
+  "seed": 1061115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/106-traffic-driver-repair.png",
+      "sha256": "46ae21f1e19d124f2be35be87f5ff1bba51bb3d4a444fe8ed09390efd427f932"
+    }
+  ],
+  "fingerprint": "0c9b428474aaa8cef0bcb8671c6ad5692c512d37d3f4c9d01cb837c31194b74b",
+  "sha256": "50861344bb5af9fce8ca20606499a92ea53cf5496146cacf3699ddf35148c315",
+  "reference_sha256": "3c66f2652c18e4c62f5bfa0bc3b3f6bc7638cb8d2c50481692f548bea447d384",
+  "seconds": 57.76,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/redraw-inputs/106-traffic-five-people.png",
+    "source_sha256": "571fd1598e646e169612c35f7c12ad2b1055b4ce9a2ceaf65b8089451a1f6d07",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "#60ba04",
+        "polygons": [
+          [
+            [
+              273,
+              49
+            ],
+            [
+              304,
+              51
+            ],
+            [
+              314,
+              88
+            ],
+            [
+              263,
+              89
+            ],
+            [
+              265,
+              64
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "erase-polygons",
+        "fill": "#7eaf9c",
+        "polygons": [
+          [
+            [
+              409,
+              54
+            ],
+            [
+              443,
+              56
+            ],
+            [
+              450,
+              97
+            ],
+            [
+              398,
+              94
+            ],
+            [
+              400,
+              66
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "ef4658ebd11b5970989d1ce281d1d29af8863cf85b0f31d5c4db3682b0b2e9d8"
+  },
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

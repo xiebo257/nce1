@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A woman warns a man as his foot approaches a banana peel on the ground. Exactly two people, one banana peel, each person has two legs. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "illustrations/redraw-inputs/106-photo-10.png",
+      "sha256": "e5e11dc84bfca78f995e6d9ad1ccd3646be15af0efd8ec3a1723118cc058180e"
+    }
+  ],
+  "fingerprint": "d7464cb59be84d9a836fd07a9a4c1059a159729769463e34bf040f8539f6e218",
+  "sha256": "40235a6c227d985a9e23f49db542fcd3e96bf09838cbeee205b5a867a5cb3c56",
+  "reference_sha256": "a16c16ed35ed28c4513882572412d471e245d7460124f503cd1b841c58ea3e09",
+  "seconds": 56.72,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

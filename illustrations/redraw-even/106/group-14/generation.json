@@ -1,0 +1,83 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A woman and a balding man stand beside a car; the woman warns the man not to drive it. Exactly two people outside one car. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "illustrations/redraw-inputs/106-photo-14.png",
+      "sha256": "d9f42bb4864ff31e22093d18e42af228ded0260b474447244cd4aa8c7680866c"
+    }
+  ],
+  "fingerprint": "590303942b7a425380b8b4c98636b7ca4b9c6ce498d99a905f4e1174a1f55c18",
+  "sha256": "e0a68c20f0cc85bfb44a51a28220fca604df579f7768d4dbbcfa8f5feed934f6",
+  "reference_sha256": "277d73f1da0df9788d617ed4967f53567c2f81135c463e08a1c3002a6aae12b6",
+  "seconds": 56.58,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/106/group-14/redrawn.png",
+    "source_sha256": "e0a68c20f0cc85bfb44a51a28220fca604df579f7768d4dbbcfa8f5feed934f6",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              136,
+              9
+            ],
+            [
+              193,
+              9
+            ],
+            [
+              193,
+              46
+            ],
+            [
+              181,
+              57
+            ],
+            [
+              147,
+              66
+            ],
+            [
+              133,
+              59
+            ]
+          ],
+          [
+            [
+              156,
+              63
+            ],
+            [
+              173,
+              63
+            ],
+            [
+              173,
+              77
+            ],
+            [
+              156,
+              77
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "bc2d586d7b48216a937c7ec4004db35130c028dddcfc0667d26182409f51d26c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

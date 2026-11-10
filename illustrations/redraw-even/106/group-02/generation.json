@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A male teacher in a black academic gown and square cap holds an exercise book and talks to a curly-haired child in blue. Exactly two people. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/106-photo-02.png",
+      "sha256": "a45b1488ad3ec4bdf6539bc5f9a7da8947b43caca0a4ec5c7c34a91a9254a2ad"
+    }
+  ],
+  "fingerprint": "0651bf4d71d48cd233db3a852062c76c09ac84d733b8c52c290e497f843cd950",
+  "sha256": "5723951249764671640ded24358510b522747df0e27c29d62fc8aa54303a9124",
+  "reference_sha256": "bae74b1377259af0d6c2c57283218dbd3c900e2e3e3d220bcc41a1ae3e10aec2",
+  "seconds": 57.82,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

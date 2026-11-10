@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A woman warns two young people running toward a train at a station not to miss it. Exactly three people in front of the train. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "illustrations/redraw-inputs/106-photo-12.png",
+      "sha256": "ed6c80618aef8554fee83d5f0386c2090aa13c747694a27a88a2f44fc901a0f7"
+    }
+  ],
+  "fingerprint": "612287d24708ae5eecd8e756bc3ec68cfa82d8f722b84b10543fd7616d13916d",
+  "sha256": "331e81923ce4092a13ac4e576405fa973e4e3a5340a3d27f812bcad96b596755",
+  "reference_sha256": "b25c42d9484193d5f1f92b3cc179af6c7c47445406c36ff31e9bf623f5befe7a",
+  "seconds": 59.88,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}

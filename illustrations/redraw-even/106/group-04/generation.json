@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. A customer at a lost property counter describes an item to one clerk behind the counter. Two people total; shelves of umbrellas and small lost items behind the clerk. Blank rectangular sign above. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1061114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/106-photo-04.png",
+      "sha256": "67479fc4153422eeb48f617f869d73856b0096198eb27aa2f53e52f1f07eb18f"
+    }
+  ],
+  "fingerprint": "e3bedca558772315c9df6c19cbf9fb8f573ffb10f044939b83e662a09509a57e",
+  "sha256": "0ce3e80429da22386a519204f52bda0936048d531508a11f9cff42954b8eaa5a",
+  "reference_sha256": "e8e101e1fbfc898e343a482a97b20f28b2061cbf25ccfa4eea44db3310d4b6bf",
+  "seconds": 56.23,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/106/group-04/redrawn.png",
+    "source_sha256": "0ce3e80429da22386a519204f52bda0936048d531508a11f9cff42954b8eaa5a",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          157,
+          17,
+          353,
+          56
+        ],
+        "text": "LOST PROPERTY",
+        "font_size": 23,
+        "background": null
+      }
+    ],
+    "output_sha256": "d183ff09d5fa664cec1630f145930b9f10166cf73f9c4fd55531b3949b1b454a"
+  },
+  "review": "reports/even-illustration-redraw/reviews/106.json"
+}
