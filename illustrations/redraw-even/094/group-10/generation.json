@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. The Eiffel Tower in Paris with a few small clouds. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-094/photo-panel-10.webp",
+      "sha256": "bdd9c540acfd5f084f10f16492dee6a7624905ca81064910fecca4c89ea20bb9"
+    }
+  ],
+  "fingerprint": "41683c46e01178527b8043e457a1d87bca58ac4c85b75a6ff407ebc7dbe91c5f",
+  "sha256": "d566c47725562ca2cfe59eab87515be90a1550bdd8ccfe5159fb8a30647e7e55",
+  "reference_sha256": "6733fddd3b11c3fbcd20461e10001bec47cd6179fef9d03be14e0e50255afa40",
+  "seconds": 56.87,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

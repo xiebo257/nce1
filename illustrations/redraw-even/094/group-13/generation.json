@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. Stockholm City Hall with a tall square tower. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "html/assets/lesson-094/photo-panel-13.webp",
+      "sha256": "320063c491674bc1ee2e332d7d9a810108ec903c7050311b44db2e8ac1be1e15"
+    }
+  ],
+  "fingerprint": "ecf5c6e0a092370ef3f6a33e68a7c0f17da4164de590971614b79d8b23f5efaf",
+  "sha256": "bcfa4f3fe28b493488dbf2671504be07ac3ffa602b99c66bc824bf283bfcfa6e",
+  "reference_sha256": "7d26311f4f9b020a1fe1c0f8d57337d930092d8b87238213d06c87a7c78d2e9f",
+  "seconds": 63.12,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

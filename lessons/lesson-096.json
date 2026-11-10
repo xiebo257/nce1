@@ -347,10 +347,10 @@
       "status": "ready",
       "description": "Athens",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-13.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-13-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -364,19 +364,29 @@
           205,
           192
         ],
-        "asset_sha256": "f1af4f88752a995c2cec316d903c29f7e2aecc2387571f11b900bbb1be534d87"
+        "asset_sha256": "5cdef37ca173c07c08670f2b86bfa4f718795a7bd71bd33a8611142c7fbc93ac"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Athens",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-01"
+        }
+      }
     },
     "photo-panel-14": {
       "kind": "item",
       "status": "ready",
       "description": "Beijing",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-14.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-14-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -390,19 +400,29 @@
           410,
           192
         ],
-        "asset_sha256": "93c05adf4b80cb46350d512c458d08f8d7a92e7b78aef767be8618ba7587a05d"
+        "asset_sha256": "dd21e2f439d971191c1832aa447e86738fb7f384fe6201c733a63c12ab93d582"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Beijing",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-02"
+        }
+      }
     },
     "photo-panel-15": {
       "kind": "item",
       "status": "ready",
       "description": "Berlin",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-15.webp",
-      "width": 204,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-15-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -416,19 +436,29 @@
           614,
           192
         ],
-        "asset_sha256": "9d06eb5cf97174c2dc067c244e00bc88fe525934ce437e3656f18b0e77309519"
+        "asset_sha256": "98bd09ec4b210896cc7bc77835a320bce89e51b437d1fc120dade6836df353ef"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Berlin",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-03"
+        }
+      }
     },
     "photo-panel-16": {
       "kind": "item",
       "status": "ready",
       "description": "Bombay",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-16.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-16-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -442,19 +472,29 @@
           819,
           192
         ],
-        "asset_sha256": "fe5b4f89fd7c89cd6c014eb36f6a70147ce008c9974da9d00aa0e5aa41c38ae9"
+        "asset_sha256": "bb8aeb0c32d9f4fcbb3ce32ddccc8e449dc57741ac22dc4f8a0989fb8e0a6663"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Bombay",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-04"
+        }
+      }
     },
     "photo-panel-17": {
       "kind": "item",
       "status": "ready",
       "description": "Geneva",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-17.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-17-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -468,19 +508,29 @@
           1024,
           192
         ],
-        "asset_sha256": "a99fc73a344425b5c9fea63f65d1d588d4503d97c15b70be7fe3f25e8904109e"
+        "asset_sha256": "27cb697d2947693b3c4c4434e8f2cf550def4859a97ff1a2205665db47f62d5c"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Geneva",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-05"
+        }
+      }
     },
     "photo-panel-18": {
       "kind": "item",
       "status": "ready",
       "description": "London",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-18.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-18-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -494,19 +544,29 @@
           205,
           384
         ],
-        "asset_sha256": "d60822701ab7517d41ffd862c755a2eace8be0139d1aad3a04dae985c7820e09"
+        "asset_sha256": "f62511db08ff2ff3d597d925674b4201a5fd71189c513725c936983b25abc25a"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "London",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-06"
+        }
+      }
     },
     "photo-panel-19": {
       "kind": "item",
       "status": "ready",
       "description": "Madrid",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-19.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-19-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -520,19 +580,29 @@
           410,
           384
         ],
-        "asset_sha256": "ca6970c23e7f437b71653f6a15e7012da87a036652ee528b04ec67c96582be05"
+        "asset_sha256": "ed4b015476233632950e3eb82f0cafb175216083f51345e9883fb344e1f71552"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Madrid",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-07"
+        }
+      }
     },
     "photo-panel-20": {
       "kind": "item",
       "status": "ready",
       "description": "Moscow",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-20.webp",
-      "width": 204,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-20-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -546,19 +616,29 @@
           614,
           384
         ],
-        "asset_sha256": "f9d5484a7cbd5483490643a6bbca5ddab456ef73803838d72a414022fc0e1beb"
+        "asset_sha256": "d5e896a43832677e54faaf2e205d591f1969b29ac1ac3ef41c8611a29777b86f"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Moscow",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-08"
+        }
+      }
     },
     "photo-panel-21": {
       "kind": "item",
       "status": "ready",
       "description": "New York",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-21.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-21-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 9",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -572,19 +652,29 @@
           819,
           384
         ],
-        "asset_sha256": "c44ff05d9b518825401cf00cd292abdb5d778b0e9ee81a6fa71af0affd4509be"
+        "asset_sha256": "df5ae832bd390ac1207b9d2d2c3b714e393ad88be8ec4e74c34ab17893966512"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "New York",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-09"
+        }
+      }
     },
     "photo-panel-22": {
       "kind": "item",
       "status": "ready",
       "description": "Paris",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-22.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-22-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 10",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -598,19 +688,29 @@
           1024,
           384
         ],
-        "asset_sha256": "29b5a3393e0ebddcfbb9f7259b97dfad143b2729f98f51e3e6703858146315ff"
+        "asset_sha256": "93ec9eb02f93ab7b18e474082ca0d91408cc29d9d186a56dbc1c0795c230efb1"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Paris",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-10"
+        }
+      }
     },
     "photo-panel-23": {
       "kind": "item",
       "status": "ready",
       "description": "Rome",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-23.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-23-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 11",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -625,19 +725,29 @@
           576
         ],
         "limitation": "caption cropped; retained city name from lesson 94",
-        "asset_sha256": "2153397b728a181120b20ad085f562a7b333bff1364a934ea3ee9ed374a6597d"
+        "asset_sha256": "2817a52b9e9572b52962f7171691f4a841d54556142a0590dcc6a1cec110de32"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Rome",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-11"
+        }
+      }
     },
     "photo-panel-24": {
       "kind": "item",
       "status": "ready",
       "description": "Seoul",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-24.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-24-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 12",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -652,19 +762,29 @@
           576
         ],
         "limitation": "caption cropped; retained city name from lesson 94",
-        "asset_sha256": "7cebd1e37666fd7d2e82cb9c56eb84ae58bb90d375ff1823f20d09c77bc96011"
+        "asset_sha256": "906af9f00bcc1da41113c56abcbda3bda6b1b02f1f69697ec4d13102a730356d"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Seoul",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-12"
+        }
+      }
     },
     "photo-panel-25": {
       "kind": "item",
       "status": "ready",
       "description": "Stockholm",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-25.webp",
-      "width": 204,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-25-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 13",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -679,19 +799,29 @@
           576
         ],
         "limitation": "caption cropped; retained city name from lesson 94",
-        "asset_sha256": "a6c8d4a72ca97cf5242baa7cc4ae3046fadfa3234d1c20a6bee61f9557c20a89"
+        "asset_sha256": "8a1c1edb3a92011296838d8570a5116bd43fbec794ffbff8eae262540c13d193"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Stockholm",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-13"
+        }
+      }
     },
     "photo-panel-26": {
       "kind": "item",
       "status": "ready",
       "description": "Sydney",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-26.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-26-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 14",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -706,19 +836,29 @@
           576
         ],
         "limitation": "caption cropped; retained city name from lesson 94",
-        "asset_sha256": "9ce4965ecad8363329fbc7bec38c78e209f635b41b7c642a8355ae60045421fc"
+        "asset_sha256": "d031f840565bb26f6bfe358186d431fa84a9a0bcd7d42d611e65086dba4805fb"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Sydney",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-14"
+        }
+      }
     },
     "photo-panel-27": {
       "kind": "item",
       "status": "ready",
       "description": "Tokyo",
       "source": "../img/lesson-096-01-text.jpg",
-      "src": "assets/lesson-096/photo-panel-27.webp",
-      "width": 205,
-      "height": 192,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-096/photo-panel-27-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 15",
       "photo_verification": {
         "photo": "img/lesson-096-01-text.jpg",
@@ -733,9 +873,19 @@
           576
         ],
         "limitation": "caption cropped; retained city name from lesson 94",
-        "asset_sha256": "9585e4e8fdb78cee44bbd7ed7a9ecc45046b54ac39bc7328708349e609572ccd"
+        "asset_sha256": "fd96b0810ab94afe5102f8f90b43506f9751a594473a3c23c05781c5af3f2b9a"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Tokyo",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 94,
+          "slot": "photo-panel-15"
+        }
+      }
     }
   },
   "sections": {

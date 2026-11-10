@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. Ancient Greek temple ruins with stone columns in Athens. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-094/photo-panel-01.webp",
+      "sha256": "9f25053d98280c6a87101aab72c28f8e9d32d8a2a83558c6838462e9568cea8a"
+    }
+  ],
+  "fingerprint": "4bd76216096d9dbe3b21b673bd638ec69641cff0c607a2014ed2b8dd4a1492bc",
+  "sha256": "6c828fca1058a11e5713b3a9627accfbaa8dd9a65237feadcfee477e6c548fcb",
+  "reference_sha256": "a258f467cb692abae24bfc124cbf4429d362f0e3e3d6976ff8e3eeb1e3b77636",
+  "seconds": 47.17,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

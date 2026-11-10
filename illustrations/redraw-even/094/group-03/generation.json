@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. The damaged historic church tower and modern neighboring tower in Berlin. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-094/photo-panel-03.webp",
+      "sha256": "1f284e758707d09ba50ba2740425def5acf25f4b1eb69dca855663e6377613f9"
+    }
+  ],
+  "fingerprint": "0eb263c7ec464540b975b7b309dd6786976a2db4a2569e90d53db98f2953d7b4",
+  "sha256": "0c53e45b5a112553af2b4fd2a0f4571ed7a8eee68c696dca8ec55a1028931596",
+  "reference_sha256": "3a7a1b9e268e98e3487f7ea00bb11c54a99da10c65fa9fca673490145007af0e",
+  "seconds": 47.46,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

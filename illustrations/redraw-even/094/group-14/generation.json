@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. Sydney Opera House in front of the Harbour Bridge, blue water below. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "html/assets/lesson-094/photo-panel-14.webp",
+      "sha256": "b21c4951c66ad3f4d6ec647725ea7a94a91ea088c595afee129bc13b6360acc0"
+    }
+  ],
+  "fingerprint": "9a310b6b7b6df9268f51762f22af85a26accf46a4a5cfaa18346a5bbf5713810",
+  "sha256": "ca39f09b1c12c3cbdd17ad477a82949815bc885f46f5b73f6d5fbb463c41bd63",
+  "reference_sha256": "142790235cb2c20b927a8f4c75406f8060c81923d85d5987266946acab5d6f6e",
+  "seconds": 56.46,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

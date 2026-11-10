@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "This image has FIVE trees, but it needs exactly FOUR. Remove the SMALL tree near the RIGHT, the one squeezed BETWEEN the middle tree and the big far-right tree. Remove that small tree's whole canopy, trunk, roots and shadow. Restore the cathedral wall and white ground behind it. Keep the four larger trees: far left, left of center, center, far right. Keep the cathedral and five onion domes unchanged. Exactly FOUR complete trees total, no people, no text.",
+  "seed": 941118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/094-five-trees-correction.png",
+      "sha256": "db7a8f8b2e3e42bacb3ccc77ccf7e95512ed5987565741391c1ae595b3985a17"
+    }
+  ],
+  "fingerprint": "a09a9772cd703b1827544cf3d531b81d1775771acfbe3c74c58eccce56f12c5f",
+  "sha256": "70e3f89d224e2be1dcc927fef8085a8b43ed3a5500cb4c9945c3a0bb67eade85",
+  "reference_sha256": "41cccc80c025d15a193564fbb9ff2e31d425db541edc4a517ebb54368cd7b955",
+  "seconds": 61.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

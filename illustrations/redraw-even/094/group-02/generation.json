@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. The traditional Chinese imperial gate in Beijing, red walls and layered golden tile roof. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-094/photo-panel-02.webp",
+      "sha256": "511458ed3b028f9fdefc7616a2c68a9720ad8b017b498e7f2ffdf5fba5655da5"
+    }
+  ],
+  "fingerprint": "40c000864604af900c198e346067c65d573a154d0d599a0739a93ccdbab7e914",
+  "sha256": "33031906cc207c1623106b75cb7315a8bcbf5b20130f9dc6e038fbdfa238b271",
+  "reference_sha256": "6667aba3b55a8316893a3947ab959955444713341430483496a0925d07286142",
+  "seconds": 48.25,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

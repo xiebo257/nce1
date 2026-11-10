@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. Tall New York skyscrapers. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-094/photo-panel-09.webp",
+      "sha256": "a1facd6d8916c711b8a291f67b834cfe07c524bda05506661211049691e57e2a"
+    }
+  ],
+  "fingerprint": "400e263efede2eae665a041ec549ecf84f184da0067cb875cd78fafedab308da",
+  "sha256": "41d30e04bc1acd9591cf6d2ea2fa9c2778906febc17145be2a879ee83fd31a83",
+  "reference_sha256": "0832be08beab1135bbed8f3a78e6577e468eaa5c32e3b2e51f96201007e7138d",
+  "seconds": 53.18,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

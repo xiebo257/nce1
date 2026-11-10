@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photographed illustration as one crisp full-color educational cartoon. One turban-wearing snake charmer seated cross-legged plays a plain BROWN WOODEN GOURD WIND INSTRUMENT. The instrument is an inanimate wooden pipe with a round gourd, no eyes or face. Exactly ONE cobra rises from a wicker basket at right; it has one small snake head, a raised hood and a long slender body. One human and one snake, no other animals. Preserve the source layout, smooth precise outlines, white margins, no captions or lettering.",
+  "seed": 941114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/094-photo-04.png",
+      "sha256": "9c23577eee1b9f5604df31bbc72f74faffc24b989609c4ea82e6a90d4e859d0c"
+    }
+  ],
+  "fingerprint": "d9468595779416859d03c92aafa1708a970b190fec2486c6776b35ea1d027ca1",
+  "sha256": "1a4c45e3f3ad47d40c9abec2c83509f685bb76a90dbc870a74c125fa74215180",
+  "reference_sha256": "a02a08eeee75965efe53a90fad822648a4a2a42c690081002885401dec2eba6d",
+  "seconds": 57.0,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

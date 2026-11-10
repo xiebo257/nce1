@@ -18168,7 +18168,7 @@
           "cue": "envelope",
           "text": "envelope",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One plain paper envelope with a triangular flap. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "edit_instruction": "One pale CREAM paper envelope with a triangular flap, matching the reference arrangement. Use STRONG DARK CLEAN OUTLINES around the outer envelope edges and all flap folds, clearly visible against a white background. Warm cream fill and subtle shading. One envelope only, crisp colorful educational illustration, no letters, people or faces.",
           "direct_photo_crop": {
             "source": "img/lesson-098-01-text.jpg",
             "box": [
@@ -18371,7 +18371,7 @@
           "cue": "wristwatch",
           "text": "wristwatch",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One wristwatch with a round analog face and a brown leather strap. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "edit_instruction": "One wristwatch with a round silver case and a brown leather strap matching this reference. A clean WHITE MINIMALIST DIAL with exactly twelve simple black hour index strokes, NO NUMBERS and NO LETTERS. Two thin black watch hands pointing toward the upper left and upper right in a standard ten-past-ten display. No eyes or faces. Crisp full-color educational object illustration, white background.",
           "direct_photo_crop": {
             "source": "img/lesson-098-01-text.jpg",
             "box": [
@@ -18384,7 +18384,8 @@
               1600,
               2500
             ]
-          }
+          },
+          "dial_note": "This ownership lesson uses the watch as an object, not as a time-reading exercise. Original hands point upper-left/right but relative lengths are ambiguous. The redraw uses a conventional illustrative 10:10 dial with index marks; no claim that the source specifies that exact time."
         },
         {
           "slot": "photo-panel-07",
@@ -18690,7 +18691,42 @@
           }
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-04": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                181,
+                184,
+                319,
+                225
+              ],
+              "text": "PASSPORT",
+              "font_size": 24,
+              "background": null,
+              "color": "#e5b500"
+            }
+          ]
+        },
+        "photo-panel-09": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                204,
+                108,
+                305,
+                160
+              ],
+              "text": "PHRASE\nBOOK",
+              "font_size": 22,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "100": {
       "sections_sha256": "8bf432640c4fb1ae64b4bb5975d02d4816ca90f85506596f4ea1a40414cc6b5c",

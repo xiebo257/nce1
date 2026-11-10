@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. One matador holding a cape beside one bull in a bullring in Madrid. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering.",
+  "seed": 941117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-094/photo-panel-07.webp",
+      "sha256": "bba37929015387b1604c7da743f4728a22f67f055e07f08a37fb1da97a14d917"
+    }
+  ],
+  "fingerprint": "2b503c9c30bb44702b8aa57e4d9924c244de2fdd93178e042035f2383b0de161",
+  "sha256": "ae7fd3fb9d657ca2c8e2043f8fd668b6210d910c21a10bcd9e3db47eb12e6946",
+  "reference_sha256": "3825966946ab36d5faeb99e3bc4af8c071eda040887fbfcfb24b7b704b3c42e4",
+  "seconds": 48.76,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

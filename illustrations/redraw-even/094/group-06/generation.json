@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. Big Ben clock tower in London, a few small clouds. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-094/photo-panel-06.webp",
+      "sha256": "e738cbc774df6c2263dd8cf3707add71c039ea22a7cc0da7fc2ebf4b483230c5"
+    }
+  ],
+  "fingerprint": "90e7178230df6d481ed18a94d5ca2e37257d4ed8193f7c555b6873248e3a1702",
+  "sha256": "da218209ee969c466192dbf4b2932b42772620669514e99113fd9aa2f8153706",
+  "reference_sha256": "5d85222728906aa0f89d8300a4efe27333fecb0aeb848c86a5ec4748631274ef",
+  "seconds": 49.14,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

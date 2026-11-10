@@ -33,7 +33,8 @@ def main():
                     before = image.copy() if operation.get('preserve_polygons') else None
                     draw = ImageDraw.Draw(image)
                     box = operation['box']
-                    draw.rectangle(box, fill=operation.get('background', 'white'))
+                    if operation.get('background', 'white') is not None:
+                        draw.rectangle(box, fill=operation.get('background', 'white'))
                     font = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', operation['font_size'])
                     draw.text(((box[0]+box[2])/2, (box[1]+box[3])/2), operation['text'],
                               font=font, fill=operation.get('color', 'black'), anchor='mm')

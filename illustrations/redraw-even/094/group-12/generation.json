@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. A traditional Korean city gate with two tiled roof tiers and a stone arch in Seoul. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "html/assets/lesson-094/photo-panel-12.webp",
+      "sha256": "3f5bd62048f284ddd4fd60d9ef5331038276b00521e208e9f8e357f22b6e7dca"
+    }
+  ],
+  "fingerprint": "a8e378a65f91bc8326fb9c4b0870f94cb8156968eba4316414c436f37eb86305",
+  "sha256": "cdaa54c92b67691b87a0bbf5e20bf9cd134a2082f3e899d79f02063ccb3d3510",
+  "reference_sha256": "cfecb5a35da1140b351b5010a7357dfafad7ad22721b2d0d26792fbcb7cc3a8a",
+  "seconds": 57.75,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

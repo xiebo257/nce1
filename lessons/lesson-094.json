@@ -35,11 +35,11 @@
       "status": "ready",
       "description": "Athens",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-01.webp",
-      "width": 160,
-      "height": 137,
+      "src": "assets/lesson-094/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -53,7 +53,13 @@
           171,
           177
         ],
-        "asset_sha256": "9f25053d98280c6a87101aab72c28f8e9d32d8a2a83558c6838462e9568cea8a"
+        "asset_sha256": "5cdef37ca173c07c08670f2b86bfa4f718795a7bd71bd33a8611142c7fbc93ac",
+        "redraw_manifest": "illustrations/redraw-even/094/group-01/generation.json"
+      },
+      "alt": "Athens",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -61,11 +67,11 @@
       "status": "ready",
       "description": "Beijing",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-02.webp",
-      "width": 161,
-      "height": 137,
+      "src": "assets/lesson-094/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -79,7 +85,13 @@
           385,
           182
         ],
-        "asset_sha256": "511458ed3b028f9fdefc7616a2c68a9720ad8b017b498e7f2ffdf5fba5655da5"
+        "asset_sha256": "dd21e2f439d971191c1832aa447e86738fb7f384fe6201c733a63c12ab93d582",
+        "redraw_manifest": "illustrations/redraw-even/094/group-02/generation.json"
+      },
+      "alt": "Beijing",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -87,11 +99,11 @@
       "status": "ready",
       "description": "Berlin",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-03.webp",
-      "width": 168,
-      "height": 141,
+      "src": "assets/lesson-094/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -105,7 +117,13 @@
           607,
           188
         ],
-        "asset_sha256": "1f284e758707d09ba50ba2740425def5acf25f4b1eb69dca855663e6377613f9"
+        "asset_sha256": "98bd09ec4b210896cc7bc77835a320bce89e51b437d1fc120dade6836df353ef",
+        "redraw_manifest": "illustrations/redraw-even/094/group-03/generation.json"
+      },
+      "alt": "Berlin",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -113,11 +131,11 @@
       "status": "ready",
       "description": "Bombay",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-04.webp",
-      "width": 170,
-      "height": 144,
+      "src": "assets/lesson-094/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -131,7 +149,13 @@
           833,
           197
         ],
-        "asset_sha256": "7afcd04bf95f9a3c6861ef230daa5fb662f9d09a5f5868dd1bf30abd3a331866"
+        "asset_sha256": "bb8aeb0c32d9f4fcbb3ce32ddccc8e449dc57741ac22dc4f8a0989fb8e0a6663",
+        "redraw_manifest": "illustrations/redraw-even/094/group-04/generation.json"
+      },
+      "alt": "Bombay",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -139,11 +163,11 @@
       "status": "ready",
       "description": "Geneva",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-05.webp",
-      "width": 138,
-      "height": 152,
+      "src": "assets/lesson-094/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -157,7 +181,13 @@
           1024,
           217
         ],
-        "asset_sha256": "983ea8cf2182f5d76f01ba1c1370354e359ebb77ec7c2e16a1401ffb98238b7a"
+        "asset_sha256": "27cb697d2947693b3c4c4434e8f2cf550def4859a97ff1a2205665db47f62d5c",
+        "redraw_manifest": "illustrations/redraw-even/094/group-05/generation.json"
+      },
+      "alt": "Geneva",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -165,11 +195,11 @@
       "status": "ready",
       "description": "London",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-06.webp",
-      "width": 160,
-      "height": 138,
+      "src": "assets/lesson-094/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -183,7 +213,13 @@
           173,
           435
         ],
-        "asset_sha256": "e738cbc774df6c2263dd8cf3707add71c039ea22a7cc0da7fc2ebf4b483230c5"
+        "asset_sha256": "f62511db08ff2ff3d597d925674b4201a5fd71189c513725c936983b25abc25a",
+        "redraw_manifest": "illustrations/redraw-even/094/group-06/generation.json"
+      },
+      "alt": "London",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -191,11 +227,11 @@
       "status": "ready",
       "description": "Madrid",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-07.webp",
-      "width": 161,
-      "height": 139,
+      "src": "assets/lesson-094/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -209,19 +245,25 @@
           386,
           444
         ],
-        "asset_sha256": "bba37929015387b1604c7da743f4728a22f67f055e07f08a37fb1da97a14d917"
+        "asset_sha256": "ed4b015476233632950e3eb82f0cafb175216083f51345e9883fb344e1f71552",
+        "redraw_manifest": "illustrations/redraw-even/094/group-07/generation.json"
+      },
+      "alt": "Madrid",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-07/generation.json"
       }
     },
     "photo-panel-08": {
       "kind": "item",
       "status": "ready",
-      "description": "Moscow",
+      "description": "An onion-domed cathedral in Moscow with four small trees in the foreground.",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-08.webp",
-      "width": 166,
-      "height": 142,
+      "src": "assets/lesson-094/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -235,7 +277,13 @@
           605,
           454
         ],
-        "asset_sha256": "dc5f57c9164fdbe9f6130ad16a25a79965519535ae52d982de18d85108060f89"
+        "asset_sha256": "d5e896a43832677e54faaf2e205d591f1969b29ac1ac3ef41c8611a29777b86f",
+        "redraw_manifest": "illustrations/redraw-even/094/group-08/generation.json"
+      },
+      "alt": "An onion-domed cathedral in Moscow with four small trees in the foreground.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-08/generation.json"
       }
     },
     "photo-panel-09": {
@@ -243,11 +291,11 @@
       "status": "ready",
       "description": "New York",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-09.webp",
-      "width": 171,
-      "height": 146,
+      "src": "assets/lesson-094/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 9",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -261,7 +309,13 @@
           831,
           466
         ],
-        "asset_sha256": "a1facd6d8916c711b8a291f67b834cfe07c524bda05506661211049691e57e2a"
+        "asset_sha256": "df5ae832bd390ac1207b9d2d2c3b714e393ad88be8ec4e74c34ab17893966512",
+        "redraw_manifest": "illustrations/redraw-even/094/group-09/generation.json"
+      },
+      "alt": "New York",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-09/generation.json"
       }
     },
     "photo-panel-10": {
@@ -269,11 +323,11 @@
       "status": "ready",
       "description": "Paris",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-10.webp",
-      "width": 140,
-      "height": 142,
+      "src": "assets/lesson-094/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 10",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -287,7 +341,13 @@
           1024,
           474
         ],
-        "asset_sha256": "bdd9c540acfd5f084f10f16492dee6a7624905ca81064910fecca4c89ea20bb9"
+        "asset_sha256": "93ec9eb02f93ab7b18e474082ca0d91408cc29d9d186a56dbc1c0795c230efb1",
+        "redraw_manifest": "illustrations/redraw-even/094/group-10/generation.json"
+      },
+      "alt": "Paris",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-10/generation.json"
       }
     },
     "photo-panel-11": {
@@ -295,11 +355,11 @@
       "status": "ready",
       "description": "Rome",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-11.webp",
-      "width": 159,
-      "height": 139,
+      "src": "assets/lesson-094/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 11",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -313,7 +373,13 @@
           172,
           692
         ],
-        "asset_sha256": "eb70cf0df7ae3c73a5bff8a8d1a3dc919621ef8f451611306926e6b4cc69e508"
+        "asset_sha256": "2817a52b9e9572b52962f7171691f4a841d54556142a0590dcc6a1cec110de32",
+        "redraw_manifest": "illustrations/redraw-even/094/group-11/generation.json"
+      },
+      "alt": "Rome",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-11/generation.json"
       }
     },
     "photo-panel-12": {
@@ -321,11 +387,11 @@
       "status": "ready",
       "description": "Seoul",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-12.webp",
-      "width": 161,
-      "height": 143,
+      "src": "assets/lesson-094/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 12",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -339,7 +405,13 @@
           385,
           706
         ],
-        "asset_sha256": "3f5bd62048f284ddd4fd60d9ef5331038276b00521e208e9f8e357f22b6e7dca"
+        "asset_sha256": "906af9f00bcc1da41113c56abcbda3bda6b1b02f1f69697ec4d13102a730356d",
+        "redraw_manifest": "illustrations/redraw-even/094/group-12/generation.json"
+      },
+      "alt": "Seoul",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-12/generation.json"
       }
     },
     "photo-panel-13": {
@@ -347,11 +419,11 @@
       "status": "ready",
       "description": "Stockholm",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-13.webp",
-      "width": 166,
-      "height": 145,
+      "src": "assets/lesson-094/photo-panel-13-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 13",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -365,7 +437,13 @@
           604,
           720
         ],
-        "asset_sha256": "320063c491674bc1ee2e332d7d9a810108ec903c7050311b44db2e8ac1be1e15"
+        "asset_sha256": "8a1c1edb3a92011296838d8570a5116bd43fbec794ffbff8eae262540c13d193",
+        "redraw_manifest": "illustrations/redraw-even/094/group-13/generation.json"
+      },
+      "alt": "Stockholm",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-13/generation.json"
       }
     },
     "photo-panel-14": {
@@ -373,11 +451,11 @@
       "status": "ready",
       "description": "Sydney",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-14.webp",
-      "width": 170,
-      "height": 145,
+      "src": "assets/lesson-094/photo-panel-14-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 14",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -391,7 +469,13 @@
           829,
           732
         ],
-        "asset_sha256": "b21c4951c66ad3f4d6ec647725ea7a94a91ea088c595afee129bc13b6360acc0"
+        "asset_sha256": "d031f840565bb26f6bfe358186d431fa84a9a0bcd7d42d611e65086dba4805fb",
+        "redraw_manifest": "illustrations/redraw-even/094/group-14/generation.json"
+      },
+      "alt": "Sydney",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-14/generation.json"
       }
     },
     "photo-panel-15": {
@@ -399,11 +483,11 @@
       "status": "ready",
       "description": "Tokyo",
       "source": "../img/lesson-094-01-text.jpg",
-      "src": "assets/lesson-094/photo-panel-15.webp",
-      "width": 142,
-      "height": 138,
+      "src": "assets/lesson-094/photo-panel-15-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 15",
       "photo_verification": {
         "photo": "img/lesson-094-01-text.jpg",
@@ -417,7 +501,13 @@
           1024,
           734
         ],
-        "asset_sha256": "a6d45f2155a6d481f4aeb3d2e0bf894885829ae8f521966fc020aa20c0ee716c"
+        "asset_sha256": "fd96b0810ab94afe5102f8f90b43506f9751a594473a3c23c05781c5af3f2b9a",
+        "redraw_manifest": "illustrations/redraw-even/094/group-15/generation.json"
+      },
+      "alt": "Tokyo",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/094/group-15/generation.json"
       }
     }
   },

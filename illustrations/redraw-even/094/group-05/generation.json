@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. A modern rectangular international organization building with a globe sculpture in front in Geneva. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-094/photo-panel-05.webp",
+      "sha256": "983ea8cf2182f5d76f01ba1c1370354e359ebb77ec7c2e16a1401ffb98238b7a"
+    }
+  ],
+  "fingerprint": "2565adc30a6005d1ffc36eb6b47b3e78a82d42b14be340adb44eab879a75b0e8",
+  "sha256": "271b7d602c558ce09c657eee7a35086550a864c2d75039c8c51da37567faf64f",
+  "reference_sha256": "55a41c3e617837836c3165fb162428e389dc19060a950d599b63255cc6d1e12a",
+  "seconds": 50.16,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}

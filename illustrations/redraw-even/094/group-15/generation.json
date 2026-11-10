@@ -1,0 +1,130 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp colored educational cartoon. A Japanese shopping street with lanterns, traditional roof details and a small delivery truck in Tokyo. Preserve the recognizable photographed composition. Smooth clean outlines, solid natural colors, complete subjects with white margins. No captions or invented lettering. Buildings and scenery only, no people, faces or anthropomorphic objects.",
+  "seed": 941125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "html/assets/lesson-094/photo-panel-15.webp",
+      "sha256": "a6d45f2155a6d481f4aeb3d2e0bf894885829ae8f521966fc020aa20c0ee716c"
+    }
+  ],
+  "fingerprint": "57ecc36a85036964d5ac14d3ceab1e2d0eba7011d08a7fa93f9d04e889668ff8",
+  "sha256": "7411845df0a879d3a0abd5406474cc30a46f529bee35e9efd0cf6e8481271216",
+  "reference_sha256": "c6a5eb548d27e2bc7afbb1d5bb8d0b968b3f93968455bd382dfa0947fd014397",
+  "seconds": 58.36,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/094/group-15/redrawn.png",
+    "source_sha256": "7411845df0a879d3a0abd5406474cc30a46f529bee35e9efd0cf6e8481271216",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              354,
+              95
+            ],
+            [
+              379,
+              95
+            ],
+            [
+              379,
+              143
+            ],
+            [
+              353,
+              147
+            ]
+          ]
+        ],
+        "fill": "#f0f9b9"
+      },
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              329,
+              118
+            ],
+            [
+              337,
+              118
+            ],
+            [
+              337,
+              167
+            ],
+            [
+              330,
+              167
+            ]
+          ]
+        ],
+        "fill": "#fff9f2"
+      },
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              378,
+              58
+            ],
+            [
+              396,
+              58
+            ],
+            [
+              396,
+              87
+            ],
+            [
+              378,
+              87
+            ]
+          ]
+        ],
+        "fill": "#f66853"
+      },
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              357,
+              88
+            ],
+            [
+              373,
+              88
+            ],
+            [
+              373,
+              95
+            ],
+            [
+              357,
+              95
+            ]
+          ]
+        ],
+        "fill": "#f0f9b9"
+      }
+    ],
+    "output_sha256": "59f15867ef06a0de4fbb67e5e3ecf434cc07d53d47195f418c353a5ba20e2076"
+  },
+  "review": "reports/even-illustration-redraw/reviews/094.json"
+}
