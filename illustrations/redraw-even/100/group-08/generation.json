@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw the photographed scene as a clear full-color cartoon: two children suffering from TOOTHACHE, swollen red cheeks, unhappy expressions. Each wears a traditional white jaw bandage that passes UNDER THE CHIN and UP BOTH SIDES OF THE FACE with a bow tied on TOP of the head. Foreheads and hair remain exposed. This is a vertical bandage supporting the jaw, NOT a horizontal forehead headband. Exactly two children, clean outlines, white background, no text.",
+  "seed": 1001118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/100-photo-08.png",
+      "sha256": "4aebae18ca7090220ffc370d0857c81b4124773930245178f6e94b9f754cf93d"
+    }
+  ],
+  "fingerprint": "cf11ceddade2a0932566f7e847f8a88c9d9b00fb16abaf5ad839e970c79e9160",
+  "sha256": "4c8524279443795a93278449c31068722dcfabac043db3daf94badeb9dca868b",
+  "reference_sha256": "5381e4509ccf4fcaa971f26fbb324370473a1390f541012b0a34d8750586c95d",
+  "seconds": 56.79,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

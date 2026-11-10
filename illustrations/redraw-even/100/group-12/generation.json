@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw exactly two poor men asking for money, holding empty caps in front of their waists. Left man has curly brown hair and a beard; right man has short brown hair and a moustache. Orange shirts and blue trousers. EACH man has exactly TWO arms and TWO hands, both hands together holding his single cap. All four hands visibly touch caps. No dangling arm or extra hand at either side of the body. Simple full-body colorful textbook cartoon, white background, crisp dark outlines.",
+  "seed": 1001122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "illustrations/redraw-inputs/100-photo-12.png",
+      "sha256": "2e0ec7dc68d767ee728c7cd5fbbf0a7578ce62e1ce1e98e8324e287096e055cd"
+    }
+  ],
+  "fingerprint": "926acc34b36add85bde9af16a5695946f4a8c2df00c60a95eb4451611012344d",
+  "sha256": "ca804fb5036373cebc14a90f5f327a52988174c200e5f170a6f07b41f8c39569",
+  "reference_sha256": "65a070749829be1e1801341b2112ccdeb93568e3d059b74c5ed3402b4135e139",
+  "seconds": 57.79,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

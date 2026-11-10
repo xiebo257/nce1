@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One tired black-haired woman yawning at a desk, one hand covers her mouth, the other supports her cheek. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "illustrations/redraw-inputs/100-photo-01.png",
+      "sha256": "12b2422745b61f038c5df7489547e496e2ec314bb5434907b05466773e8e793d"
+    }
+  ],
+  "fingerprint": "205ee3229fcbe499d307cba4221fcef1ff6483a1dd8577dd80d15bc6e30decd5",
+  "sha256": "dc77052f34d88c3706e3fa4de8a3c818678092722f1fdd8c2261d7a2ccd4c400",
+  "reference_sha256": "7ae0ec77386fc13c9303c8276f5ec92c508466687bd1b2a38d0e2d52f512c991",
+  "seconds": 56.36,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

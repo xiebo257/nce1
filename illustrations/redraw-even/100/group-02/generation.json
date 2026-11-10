@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp colorful textbook cartoon on white: exactly two thirsty boys, brown short hair and blue shirts, each drinking water from his own glass. Each boy has exactly TWO arms: one bent arm lifts a clear glass to his lips, the other arm rests down at his side. Two boys, two glasses, four arms total. Natural simple anatomy, clean outlines. No extra limbs behind bodies. Match the photographed two-person arrangement.",
+  "seed": 1001112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/100-photo-02.png",
+      "sha256": "a7fca1a74547986bd9ed071565b7f28641ad00b139356bcde1149edfbf76402f"
+    }
+  ],
+  "fingerprint": "56a5f90a5731a58a6104db06a909571ea1fc1ca34e14982f3328612823fa93ee",
+  "sha256": "654cc944096c678f90ffc38cba63e7fbf930bc76bd521477e33f9485e5b22667",
+  "reference_sha256": "443241aa90bc584c02cec518eb02bb3262a931d340eac3a7fa8642a1786ba39f",
+  "seconds": 58.46,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One inexperienced driver sitting INSIDE a small car that has bumped into a bent street lamp. The car front touches the lamp post, driver looks worried. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "illustrations/redraw-inputs/100-photo-10.png",
+      "sha256": "6cf07b4fcaf21dcacc0443fdf564ab3bb582c429d4b0cbb9b9cca639108d94fb"
+    }
+  ],
+  "fingerprint": "8cbe810b2c97b9de45ce01677cfd24ee47324978aba6cbfe6babdfa4a862de99",
+  "sha256": "9093b56551d8f10e2808f503aaf707e8f8470ab213546bfd7b4b1d244e230041",
+  "reference_sha256": "3084c40b555256a7e173c194d5fcabd89465f568b016e1b0362d0addd4dffd6f",
+  "seconds": 56.29,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

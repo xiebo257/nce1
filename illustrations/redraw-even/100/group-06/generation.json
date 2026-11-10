@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One curly blonde woman with a headache pressing one hand to her forehead. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/100-photo-06.png",
+      "sha256": "3a273f8f670028d2bc6c60684b7117bbcc50f746808a075bedeba4a5d80f69ba"
+    }
+  ],
+  "fingerprint": "828d119ee0521aa11323e826f9d06677f868d9f03a4abb7f6a0d12cb7d3acb9a",
+  "sha256": "3780783f96364dfbadc922e2224046fe4239720f60cd625b75364510f401d353",
+  "reference_sha256": "221673168e1a2b88de7259cae417082fab65d940ba7995c18c890be62cbad438",
+  "seconds": 58.1,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

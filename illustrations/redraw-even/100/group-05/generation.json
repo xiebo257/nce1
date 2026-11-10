@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp colorful textbook cartoon on white: one brown-haired man with a cold, in blue shirt, holding a white handkerchief flat AGAINST HIS NOSE with one normal hand. Mouth CLOSED below the handkerchief. Sneezing into the cloth, eyes closed, eyebrows raised. The cloth covers the nose externally and never enters the mouth. Clean smooth outlines, two arms only. No text.",
+  "seed": 1001115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/100-photo-05.png",
+      "sha256": "7df09280dab785c5fde265ddb86b54d88d4068a44430d1e018b8b735a38bac7f"
+    }
+  ],
+  "fingerprint": "94d7d755bf2b2b24c8c2be68aec9e32bdbe50c4f815fd08f7e7fa3f8fc25535d",
+  "sha256": "f0b959e3fb7744a5599f4b76574c59a285878b5cf51b5274d2277c4083624ea0",
+  "reference_sha256": "c8a45ca5cf3f08fda8ccd54d48f4999e933445809ac309a27f40edd86aef9edd",
+  "seconds": 59.15,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

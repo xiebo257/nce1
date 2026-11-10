@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One boy whose very long untidy hair sticks out around his head, needing a haircut. Blue shirt, two arms at his sides. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "illustrations/redraw-inputs/100-photo-09.png",
+      "sha256": "e911e39a01aa4cb273116849e9adcd92bce404730b22c10f88c6a2e8111a3285"
+    }
+  ],
+  "fingerprint": "4d7a820903c139e9f0dc27a832d9ae325908b093295bc629b85bb230a00cfbf4",
+  "sha256": "795cd18b1c56a894ac2501872109ba89da8e0cb7ebcd77b6b3783e0998bd337d",
+  "reference_sha256": "f705fe6b3e4afd5a019ae5712f7df13981a6dc4962aa693876a5683d286878ed",
+  "seconds": 58.58,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

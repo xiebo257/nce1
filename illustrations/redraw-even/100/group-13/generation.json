@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One curly blonde woman waiting at a bus stop. Round bus stop sign with a blank white center. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "illustrations/redraw-inputs/100-photo-13.png",
+      "sha256": "20b9a38dfe82150da373319a4758bc1bbedabc367e10438d8cd09faf3bf4989b"
+    }
+  ],
+  "fingerprint": "c791db33baa82b81300afaf45d83a977f2c551cf002d4005a5f6d10a82971ebb",
+  "sha256": "5b1b963b51768c1ed7c6346c67d48261ab38d55d9b11b829e8ec020c3a014802",
+  "reference_sha256": "eaeaf072a43949a4ef991537d817d0a041a5500e1030981638d41666783ce437",
+  "seconds": 57.37,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/100/group-13/redrawn.png",
+    "source_sha256": "5b1b963b51768c1ed7c6346c67d48261ab38d55d9b11b829e8ec020c3a014802",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          281,
+          79,
+          360,
+          143
+        ],
+        "text": "BUS\nSTOP",
+        "font_size": 22,
+        "background": null
+      }
+    ],
+    "output_sha256": "c5068baa873426aa23745c348d273217276a54ffa8a82fdba4c50e77d533b9df"
+  },
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

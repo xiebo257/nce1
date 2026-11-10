@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One sick child in bed under a blue blanket, head on pillow, only head and hands above the blanket. No extra faces on the blanket. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/100-photo-04.png",
+      "sha256": "d00202a3f7eadfdf2d84e1c31f850800302abe3429ae6ff584cbf14c4774e794"
+    }
+  ],
+  "fingerprint": "5917c177ac20008434b96351fa93726151e34f2e6532e529c4b9bf16365d2759",
+  "sha256": "34445e353356e26b6af207438b9418a99cd173f02003bdeea17258921bb053a2",
+  "reference_sha256": "4c82fd22bb92ec219941ea272f977a0a39cb0749a1530598af8d4b89552aa35b",
+  "seconds": 55.8,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

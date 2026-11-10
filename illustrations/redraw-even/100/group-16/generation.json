@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One man standing in front of a house with a rectangular blank sale sign on a post. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "illustrations/redraw-inputs/100-photo-16.png",
+      "sha256": "8469dcad048606119d02f60774b5bd93290e9b7324309d12df200e32969f2a42"
+    }
+  ],
+  "fingerprint": "edb1760427ef14fd571c3b49a77aa0ba437e6ff97d6b744a071cfa83a2669aae",
+  "sha256": "0680d84afec01d32e1aeecd52120353186b04c1c4650c2bb28cb56dd9af80a9e",
+  "reference_sha256": "54867ba014ceb8f61c4dd47ba1e107b5c9fd2cd6d551504d032a8e7a428f1f0b",
+  "seconds": 57.29,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/100/group-16/redrawn.png",
+    "source_sha256": "0680d84afec01d32e1aeecd52120353186b04c1c4650c2bb28cb56dd9af80a9e",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          312,
+          106,
+          394,
+          166
+        ],
+        "text": "FOR\nSALE",
+        "font_size": 24,
+        "background": null
+      }
+    ],
+    "output_sha256": "f44c42d4d8188a1a90277836a57278ddb9b4c0973efefead3ff56e669afe052b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

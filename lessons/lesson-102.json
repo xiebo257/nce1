@@ -851,10 +851,10 @@
       "status": "ready",
       "description": "tired",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 1 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -868,19 +868,29 @@
           256,
           160
         ],
-        "asset_sha256": "f534ffcc810f0683248327a0e2e003ae4a1546bc5afc4f4ef6d2e88512ac60a6"
+        "asset_sha256": "ff262937cdf661eb208c7d4e6b148772306dfea2fb50b30180369f747ccd62f2"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "tired",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-01"
+        }
+      }
     },
     "photo-panel-02": {
       "kind": "item",
       "status": "ready",
       "description": "thirsty",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 2 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -894,19 +904,29 @@
           512,
           160
         ],
-        "asset_sha256": "5d0c401a4c8b2998832bdbb2392fc11811dc09c8203646cf5c2a54efba2ee49c"
+        "asset_sha256": "d0bfe7211cfb4ec6a4825531a8580920e76497c66cb3df22726565d31ee9b1ca"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "thirsty",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-02"
+        }
+      }
     },
     "photo-panel-03": {
       "kind": "item",
       "status": "ready",
       "description": "cold",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 3 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -920,19 +940,29 @@
           768,
           160
         ],
-        "asset_sha256": "0bf57ca9274ff0c2a8bc179dde37f3834527f86bb95601c7fdb4db89ee3af257"
+        "asset_sha256": "77733d6747b2930c01d249408a33120919116e7c1e5ae6ae21ba6a7fda3a071d"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "cold",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-03"
+        }
+      }
     },
     "photo-panel-04": {
       "kind": "item",
       "status": "ready",
       "description": "ill",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 4 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -946,19 +976,29 @@
           1024,
           160
         ],
-        "asset_sha256": "e13a9a4fda8f57893cec1cff21e64ef5bb5350db88d32ce5230d4cd039a294df"
+        "asset_sha256": "3614d257b9327f6a1453136fed132b107120d6bff392b23f45533033ac2874b3"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "ill",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-04"
+        }
+      }
     },
     "photo-panel-05": {
       "kind": "item",
       "status": "ready",
       "description": "a cold",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 5 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -972,19 +1012,29 @@
           256,
           320
         ],
-        "asset_sha256": "47b0dc83030776d3699aba7ba721ce44c4eceea406da607dbebd22798a81e30b"
+        "asset_sha256": "186f96f9c63a9b9c5d17ba1d95432e7b8a9e37026d4bce39cfaa8fb026c25b76"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "a cold",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-05"
+        }
+      }
     },
     "photo-panel-06": {
       "kind": "item",
       "status": "ready",
       "description": "a headache",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 6 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -998,19 +1048,29 @@
           512,
           320
         ],
-        "asset_sha256": "8c0c4d8df778616141f6ac96edfa7383c4ee33226886fe2534097d2ff1d22941"
+        "asset_sha256": "394bed393220acf3d140fec50dc35387203df681abee6c761869949dcd968705"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "a headache",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-06"
+        }
+      }
     },
     "photo-panel-07": {
       "kind": "item",
       "status": "ready",
       "description": "an earache",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 7 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1024,19 +1084,29 @@
           768,
           320
         ],
-        "asset_sha256": "bbbb903c676e8ee9f9708cc4aa413dfdd9e5fac7d0a4f364e992e6b718288c4e"
+        "asset_sha256": "70fab230f69071544e8a290710ce9a94fa25bf7d2013b7c6ddcb1b96e2fa4f89"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "an earache",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-07"
+        }
+      }
     },
     "photo-panel-08": {
       "kind": "item",
       "status": "ready",
       "description": "a toothache",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 8 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1050,19 +1120,29 @@
           1024,
           320
         ],
-        "asset_sha256": "e1350ddaa6a3df9adb0381b26978552bd13cb5b7abe82ef1eb19f14fd3d15585"
+        "asset_sha256": "67714130500dc271975eea694e26c5acaec577271a1a06d84e2f486ece80cb88"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "a toothache",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-08"
+        }
+      }
     },
     "photo-panel-09": {
       "kind": "item",
       "status": "ready",
       "description": "a haircut",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 9 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1076,19 +1156,29 @@
           256,
           480
         ],
-        "asset_sha256": "b8a8137800a72df4482d6555e3671c3682f0995934c3d9861e84f96fcd347fe1"
+        "asset_sha256": "bddf70c91c24e2f14c3f5aefc3108cfaec3d0e682861c4f9d77884e83ab3de13"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "a haircut",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-09"
+        }
+      }
     },
     "photo-panel-10": {
       "kind": "item",
       "status": "ready",
       "description": "a licence",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-10.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 10 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1102,19 +1192,29 @@
           512,
           480
         ],
-        "asset_sha256": "74ae538d5facc59c9d88a37a42f8c1c974c94291024b83642665ac7626071a5e"
+        "asset_sha256": "f9dba0fab5f7efa33dbdfa75ff84dc9b0221906fefb60b641a0e6a02ad88cb33"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "a licence",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-10"
+        }
+      }
     },
     "photo-panel-11": {
       "kind": "item",
       "status": "ready",
       "description": "an X-ray",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-11.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 11 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1128,19 +1228,29 @@
           768,
           480
         ],
-        "asset_sha256": "4c13b5f768eedebc23dac86fc995b996c0b6b5b894bed33788b41be1c28cb902"
+        "asset_sha256": "5268a591c13653cd55adee09a5032512c3cb8d44a2b7ff23c0efac5eeb9ac454"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "an X-ray",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-11"
+        }
+      }
     },
     "photo-panel-12": {
       "kind": "item",
       "status": "ready",
       "description": "some money",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-12.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 12 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1154,19 +1264,29 @@
           1024,
           480
         ],
-        "asset_sha256": "666074b32c8a33e93023e9abcd04b80fbc81238eb7e28bc5d4af8ea78c01c275"
+        "asset_sha256": "104489a0d9c5d4c93c4043d4cde82aa49e00026753612f16c4b12a74072ecc7c"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "some money",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-12"
+        }
+      }
     },
     "photo-panel-13": {
       "kind": "item",
       "status": "ready",
       "description": "wait",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-13.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-13-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 13 · Group 4",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1180,19 +1300,29 @@
           256,
           640
         ],
-        "asset_sha256": "104b0526ad75fc176b5a2eb629985578702b32d5c42bc0b02abbe2a0818e01a4"
+        "asset_sha256": "64aa7c98a4f948ed841ef4e6bc330e3d53d905c4069ad625208569d69fa4eaa3"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "wait",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-13"
+        }
+      }
     },
     "photo-panel-14": {
       "kind": "item",
       "status": "ready",
       "description": "catch",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-14.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-14-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 14 · Group 4",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1206,19 +1336,29 @@
           512,
           640
         ],
-        "asset_sha256": "5826b9e2c0bc90873f37e96094852967abe3df6d8af1f19f6306a693212f4832"
+        "asset_sha256": "c527b1c62c8513807215e0dc42d1b43088b9c335ae3b7fcb564516c94b3796da"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "catch",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-14"
+        }
+      }
     },
     "photo-panel-15": {
       "kind": "item",
       "status": "ready",
       "description": "repair",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-15.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-15-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 15 · Group 4",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1232,19 +1372,29 @@
           768,
           640
         ],
-        "asset_sha256": "ea9c70cb614443bad688803b17c7e076becef3e5e6a008db3428db76915cef11"
+        "asset_sha256": "8cceb6184d98824ac011c56578a02963a808996d4ffea613bd91be7623c95338"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "repair",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-15"
+        }
+      }
     },
     "photo-panel-16": {
       "kind": "item",
       "status": "ready",
       "description": "sell",
       "source": "../img/lesson-102-01-text.jpg",
-      "src": "assets/lesson-102/photo-panel-16.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-102/photo-panel-16-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture 16 · Group 4",
       "photo_verification": {
         "photo": "img/lesson-102-01-text.jpg",
@@ -1258,9 +1408,19 @@
           1024,
           640
         ],
-        "asset_sha256": "d5ecfb94f2599b96167938027cac0777879d9675675f036c1fbc55803f347237"
+        "asset_sha256": "ef23c20dcdada292ccfdc6a0f290bd6c7eb77c0be4e43e6b7c8a2bc8a67ba4d1"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "sell",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 100,
+          "slot": "photo-panel-16"
+        }
+      }
     }
   },
   "grammar_source_audit": {

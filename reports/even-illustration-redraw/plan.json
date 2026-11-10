@@ -19101,7 +19101,7 @@
               1666
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. Two people with toothache, each wearing a white cloth tied around the jaw and over the top of the head. Both look uncomfortable. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Redraw the photographed scene as a clear full-color cartoon: two children suffering from TOOTHACHE, swollen red cheeks, unhappy expressions. Each wears a traditional white jaw bandage that passes UNDER THE CHIN and UP BOTH SIDES OF THE FACE with a bow tied on TOP of the head. Foreheads and hair remain exposed. This is a vertical bandage supporting the jaw, NOT a horizontal forehead headband. Exactly two children, clean outlines, white background, no text."
         },
         {
           "slot": "photo-panel-09",
@@ -19285,7 +19285,7 @@
               2017
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. Two poor men with empty pockets, holding empty caps asking for some money. Exactly two men. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw exactly two poor men asking for money, holding empty caps in front of their waists. Left man has curly brown hair and a beard; right man has short brown hair and a moustache. Orange shirts and blue trousers. EACH man has exactly TWO arms and TWO hands, both hands together holding his single cap. All four hands visibly touch caps. No dangling arm or extra hand at either side of the body. Simple full-body colorful textbook cartoon, white background, crisp dark outlines."
         },
         {
           "slot": "photo-panel-13",
@@ -19380,7 +19380,7 @@
               2362
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One man in a brown hat running toward the open door of a departing bus, trying to catch it. Exactly one person outside the bus. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "One man in a brown hat and brown suit running to catch a departing bus, seen in side view. His LEFT arm reaches forward to the open bus door at waist height. His RIGHT arm stretches backward at waist height. Exactly TWO arms and TWO hands, both below his shoulders. No hand or limb above or behind his head. One leg forward and one back. Clear colorful cartoon, white background, one person only. Preserve the bus at left and running man at right."
         },
         {
           "slot": "photo-panel-15",
@@ -19492,6 +19492,38 @@
               ],
               "text": "BUS\nSTOP",
               "font_size": 23,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-13": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                281,
+                79,
+                360,
+                143
+              ],
+              "text": "BUS\nSTOP",
+              "font_size": 22,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-16": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                312,
+                106,
+                394,
+                166
+              ],
+              "text": "FOR\nSALE",
+              "font_size": 24,
               "background": null
             }
           ]

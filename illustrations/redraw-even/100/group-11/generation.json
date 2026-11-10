@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One bald patient standing at an X-ray machine, the rectangular chest X-ray shows normal ribs. No exposed skeleton outside the screen. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "illustrations/redraw-inputs/100-photo-11.png",
+      "sha256": "c9ffcd9ccfa23a16151bca8e145e775d51ffeeb956b25dceb55c489a1f4ba79a"
+    }
+  ],
+  "fingerprint": "5508545188837cef4db1cb0e72d3b1ea89c59269edfd20870c145658de959f10",
+  "sha256": "239f45f6faf73aac9675c013b043d21ddb856446968937ec996ea347f78e6680",
+  "reference_sha256": "3b07041c3104a0d21e57f4cdf77b0f1de89329bdd6af28e56540063a8018066c",
+  "seconds": 57.69,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

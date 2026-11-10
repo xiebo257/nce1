@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One mechanic working at the open hood of a small car. Toolbox on the ground, two normal hands, no extra people under the wheels. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "illustrations/redraw-inputs/100-photo-15.png",
+      "sha256": "479489ecdc5862ccb017e0a753f5475484275b41af06c05f092547a8051bb2c6"
+    }
+  ],
+  "fingerprint": "40477dee48dee23073af9633c0aeda8a2a3d41b2089b9937553735b7b14eb608",
+  "sha256": "4833d93d906115ea3e1b279b2a3c8672bcb76525ee4f7730b0ffebeda22857b0",
+  "reference_sha256": "d55dcad87bfee381d75cd9aed0d1427e4ff3ac504840235fa7084cdae8d55cfb",
+  "seconds": 58.22,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

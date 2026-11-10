@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "One man in a brown hat and brown suit running to catch a departing bus, seen in side view. His LEFT arm reaches forward to the open bus door at waist height. His RIGHT arm stretches backward at waist height. Exactly TWO arms and TWO hands, both below his shoulders. No hand or limb above or behind his head. One leg forward and one back. Clear colorful cartoon, white background, one person only. Preserve the bus at left and running man at right.",
+  "seed": 1001124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "illustrations/redraw-inputs/100-photo-14.png",
+      "sha256": "6cefa55446e0d7de86858cedee31291144ba742ab0af58e464334c1495ec3fd7"
+    }
+  ],
+  "fingerprint": "e1bb9d1ca8bf1969c88fe395fa44a47c388173260bc3e968f054caab18be04b1",
+  "sha256": "cf7464c4d17bcd59dfeeaa31e1f7486f57e27d85391cd0ddc118a5d1b61b3002",
+  "reference_sha256": "c055cd0856345f0e3709aeecf72ea056d9fbe102c040acddba465fe6348906e9",
+  "seconds": 57.03,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}

@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clean full-color educational cartoon of this photographed scene. One curly black-haired woman shivering in falling snow at a bus stop, arms folded to keep warm. Round sign with a blank white center. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+  "seed": 1001113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "illustrations/redraw-inputs/100-photo-03.png",
+      "sha256": "428f728c25aaa392a5b65dc49705209773a7df130e96d0451bbbae33d5bfbd82"
+    }
+  ],
+  "fingerprint": "f1396bc43027f28b58093ad7a311abf0d8a3e9c754a0c2241c5c215341c75036",
+  "sha256": "ed04d53f110ccb4448555cd7c7280cb9ec9ff997c3ee6f8fddd1d00def86bb17",
+  "reference_sha256": "ff70cbb11807d01ccc47a49451894f5f07cf809a7540fab7dd2e29867a21538e",
+  "seconds": 58.48,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/100/group-03/redrawn.png",
+    "source_sha256": "ed04d53f110ccb4448555cd7c7280cb9ec9ff997c3ee6f8fddd1d00def86bb17",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          325,
+          98,
+          417,
+          176
+        ],
+        "text": "BUS\nSTOP",
+        "font_size": 23,
+        "background": null
+      }
+    ],
+    "output_sha256": "7092bb4a4a4ad94fcca6566bcfff0931cbf49a3738c26f435d8d8d3043f7acb2"
+  },
+  "review": "reports/even-illustration-redraw/reviews/100.json"
+}
