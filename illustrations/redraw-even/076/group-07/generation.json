@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man types letters at a typewriter.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-115",
+      "path": "html/assets/lesson-076/lesson-076-pic-115-color.webp",
+      "sha256": "9fd6c362b72b2d30964c4c768d3ecab00b519474d6e1c0ec5a7044bbcbee9cd0"
+    }
+  ],
+  "fingerprint": "a3f6c7606fdd9ef50ee6b39fd64157007df6fd6341fd5e8714b2633a6eeb665f",
+  "sha256": "5586a8c385253300d75df325073e8cc9ef12441875b7fe5464e66361fe05ce0f",
+  "reference_sha256": "a5e04aaa0645935ee9d05213b1c15af7cec3edf77b564becb41f095b13e96fab",
+  "seconds": 51.13,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

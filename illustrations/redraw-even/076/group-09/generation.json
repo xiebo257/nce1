@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man talks to a salesman at a counter.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-117",
+      "path": "html/assets/lesson-076/lesson-076-pic-117-color.webp",
+      "sha256": "8564f18d876f35671ae5e76e6cfa9760c4fec74366e8f1661c44ce088d027b65"
+    }
+  ],
+  "fingerprint": "7adea07949dc3dbca30575fbf96786da0ad65ce937ca8e40a31af4fc43af0c58",
+  "sha256": "e2fc2f49fe5873b0b363417399e73ab06b05f832d0fbbbfe3a973d2266d04c0a",
+  "reference_sha256": "f47536f3ebfa6f4d3d9258512999f63f6acdf67f893153e3043dbc7ba79d6e81",
+  "seconds": 49.49,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

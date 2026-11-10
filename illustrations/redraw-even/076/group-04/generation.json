@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A boy washes his hands at a sink.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-112",
+      "path": "html/assets/lesson-076/lesson-076-pic-112-color.webp",
+      "sha256": "6540d5d8096aae74d74fa4cc0e356358e1cf3233d29ef2820d16e26e7b1bb7bd"
+    }
+  ],
+  "fingerprint": "b5f8a3a05aff4e4c838ed2a3258e6f35b3ba6430aeade754cf87f45a64a1c599",
+  "sha256": "fdc857a4571b117fc441e2a8a4b48fa83578e854f06e6265f9702934bd46d447",
+  "reference_sha256": "c27cec58f535c0f49a189f344759bea425b6339ca5a441eadf16d4af6ce7ca7b",
+  "seconds": 50.42,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

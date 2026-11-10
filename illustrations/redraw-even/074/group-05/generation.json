@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a clean full-color educational cartoon of this photographed scene. One old-fashioned yellow bus with a driver seated INSIDE the front cab and passengers INSIDE the windows, travelling slowly on a road. No people outside or attached to the hood. Normal bus wheels, normal windows, smooth colored cartoon style. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering.",
+  "seed": 741115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-105",
+      "path": "illustrations/redraw-inputs/074-photo-05.png",
+      "sha256": "02c0577e8e6cfc12278a4cf1441e5af4648fd114e618b07cfad39ab4c2be9390"
+    }
+  ],
+  "fingerprint": "46ece48c805dae798a48f0cd1fb50fe5a4efed2c18475a89bf2fdd4dee3b4292",
+  "sha256": "9c21dfd3814593b6261ea7d981e49f1d5568a5dd3a6a7962d31f94eaca38a457",
+  "reference_sha256": "e94d791323a24c3fb9ecf35854be5b72341a2581dbd852b529ae66f33128b59c",
+  "seconds": 55.24,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

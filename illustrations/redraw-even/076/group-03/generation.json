@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A boy walks across a park with trees.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-111",
+      "path": "html/assets/lesson-076/lesson-076-pic-111-color.webp",
+      "sha256": "88b0ec1ee9cd9a2a831c1b53b094aa8faf67a59f3df536ad83d440d1cbf7566f"
+    }
+  ],
+  "fingerprint": "d3ae8e39b4c3131442bacf9f047f0d1ff1be766c3296580f7ddb86ddedd69813",
+  "sha256": "9922d8c0ed7536fa2437658553d91862ae6bc0fceead1c74d92e6bd9eb9a1003",
+  "reference_sha256": "06505209fc302ae7c44268358a27cc92e35a3c61e17d2590681c3206788fcdee",
+  "seconds": 52.01,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

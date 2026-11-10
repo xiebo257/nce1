@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A cat jumps off a brick wall.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-110",
+      "path": "html/assets/lesson-076/lesson-076-pic-110-color.webp",
+      "sha256": "0b1797da3fa95cf61ea4f8e504126a2820478dce64214fb066d7b29316ebd925"
+    }
+  ],
+  "fingerprint": "ee08e241e8864d1dd1c3764a0c6173c2200bb3275d0ccbd7e5fca042c37cb598",
+  "sha256": "8c14409cd6d0c13360c5a52f4114f324951a8f8618be96c3127b5c6db87f8930",
+  "reference_sha256": "903b73e47e705cc682557001b7892b69c7c5f39f5efcea7b31bf43d4f323ba21",
+  "seconds": 52.84,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

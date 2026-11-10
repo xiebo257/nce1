@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A boy greets a girl who waves back.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-123",
+      "path": "html/assets/lesson-076/lesson-076-pic-123-color.webp",
+      "sha256": "2c75c7b46fdfe20d2dc0cfa0886068b4ff6be5ff509b30372042edac46397085"
+    }
+  ],
+  "fingerprint": "1cb7419d215963fec0feec56b0b55d3bae88e33de8cc5b86f4a7fb596030593a",
+  "sha256": "b3dd141ebb1e3a70a44bbe6df0e8f9be53ed514b71d72dd02a3b3619efc4cbbd",
+  "reference_sha256": "900d26eb5dd5c7d3cc8d2e230438938cae42d27b8ce935319ed434c93f1e977c",
+  "seconds": 49.23,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

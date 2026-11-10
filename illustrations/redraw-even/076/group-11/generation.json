@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman dusts a cupboard.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-119",
+      "path": "html/assets/lesson-076/lesson-076-pic-119-color.webp",
+      "sha256": "fc788d168e7418254d031c55462aeabc86aecf2a97343f21c4dfab2715d73ead"
+    }
+  ],
+  "fingerprint": "aece7d2d92abd8925bffc1509d501d7ffe585121557355199b2f3aaa6dc7842f",
+  "sha256": "0ee869b42be14812b330b60cf9d7ddd6e61632ae9b741cea0286cc2995e97390",
+  "reference_sha256": "fe66106d0067ffd4a5f1e5ee75c4c35934b2a19ce15bf279dcd908ad21494a37",
+  "seconds": 50.17,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

@@ -8808,7 +8808,8 @@
               612
             ]
           },
-          "edit_instruction": "Draw a clean full-color educational cartoon of this photographed scene. Two successive moments of the SAME boy with short black hair in a blue shirt: at left he picks up a small cake from a table of cakes; at right he eats the cake quickly with his hand at his mouth. Exactly two depictions of the boy, no extra heads behind the table. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering."
+          "edit_instruction": "Draw a clean full-color educational cartoon of this photographed scene. Two successive moments of the SAME boy with short black hair in a blue shirt: at left he picks up a small cake from a table of cakes; at right he eats the cake quickly with his hand at his mouth. Exactly two depictions of the boy, no extra heads behind the table. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering.",
+          "verified_description": "Two successive moments: a boy takes a cake from a table and eats it quickly."
         },
         {
           "slot": "lesson-074-pic-103",
@@ -8868,7 +8869,8 @@
               1122
             ]
           },
-          "edit_instruction": "Draw a clean full-color educational cartoon of this photographed scene. A thirsty boy in a blue shirt stands on the left, tilts his head back and drinks water directly from a clear glass held to his mouth. A dark-haired girl in a green dress stands on the right watching, having given him the water. Exactly two people. A small garden tap may appear at far left. No other cups, machines or robotic parts. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering."
+          "edit_instruction": "Draw a clean full-color educational cartoon of this photographed scene. A thirsty boy in a blue shirt stands on the left, tilts his head back and drinks water directly from a clear glass held to his mouth. A dark-haired girl in a green dress stands on the right watching, having given him the water. Exactly two people. A small garden tap may appear at far left. No other cups, machines or robotic parts. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering.",
+          "verified_description": "A boy drinks a glass of water thirstily while the girl who gave it to him stands nearby."
         },
         {
           "slot": "lesson-074-pic-104",
@@ -9088,7 +9090,8 @@
               2093
             ]
           },
-          "edit_instruction": "Create one crisp full-color cartoon based on the photographed action. Exactly four adults at a party: a dark-haired man in a blue striped shirt and a curly blonde woman in a black dress smiling together in front, with two other adults dancing behind them. No children, no extra heads or faces. Smooth lines, clear friendly faces, complete subjects, no lettering."
+          "edit_instruction": "Create one crisp full-color cartoon based on the photographed action. Exactly four adults at a party: a dark-haired man in a blue striped shirt and a curly blonde woman in a black dress smiling together in front, with two other adults dancing behind them. No children, no extra heads or faces. Smooth lines, clear friendly faces, complete subjects, no lettering.",
+          "verified_description": "Four adults enjoying a party, with a smiling couple in front and two dancers behind."
         },
         {
           "slot": "lesson-074-pic-108",
@@ -9505,7 +9508,8 @@
           },
           "cue": "A man types letters at a typewriter.",
           "text": "115 — typed those letters",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "verified_description": "A person typing letters at a desktop computer, viewed from the side."
         },
         {
           "slot": "lesson-076-pic-116",
@@ -11453,7 +11457,10 @@
             "source": "img/lesson-082-01-text.jpg",
             "method": "Enlarged original photographed clock; hour and minute hands read separately."
           },
-          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse."
+          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
+          "required_overlays": [
+            "8:45 clock"
+          ]
         },
         {
           "slot": "lesson-082-pic-870",
@@ -11509,7 +11516,10 @@
             "source": "img/lesson-082-01-text.jpg",
             "method": "Enlarged original photographed clock; hour and minute hands read separately."
           },
-          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse."
+          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
+          "required_overlays": [
+            "1:00 clock"
+          ]
         },
         {
           "slot": "lesson-082-pic-980",
@@ -11565,7 +11575,10 @@
             "source": "img/lesson-082-01-text.jpg",
             "method": "Enlarged original photographed clock; hour and minute hands read separately."
           },
-          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse."
+          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
+          "required_overlays": [
+            "4:00 clock"
+          ]
         },
         {
           "slot": "lesson-082-pic-1010",
@@ -11621,7 +11634,10 @@
             "source": "img/lesson-082-01-text.jpg",
             "method": "Enlarged original photographed clock; hour and minute hands read separately."
           },
-          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse."
+          "extra_instruction": "A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
+          "required_overlays": [
+            "7:00 clock"
+          ]
         },
         {
           "slot": "lesson-082-pic-1020",
@@ -13101,7 +13117,8 @@
           },
           "cue": "Panel 1: aired",
           "text": "aired",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in blue beside an open window airing a room; the window is clearly open and curtains move in the breeze. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-02",
@@ -13147,7 +13164,8 @@
           },
           "cue": "Panel 2: cleaned",
           "text": "cleaned",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two boys standing side by side, one short black-haired in blue and one curly blonde in green, showing their polished clean black shoes with small shine marks. No extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-03",
@@ -13193,7 +13211,8 @@
           },
           "cue": "Panel 3: opened",
           "text": "opened",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired man in blue beside an opened window with one hand on its frame. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-04",
@@ -13239,7 +13258,8 @@
           },
           "cue": "Panel 4: sharpened",
           "text": "sharpened",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired boy in blue holding a newly sharpened wooden pencil, a few pencil shavings below. No giant knife. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-05",
@@ -13285,7 +13305,8 @@
           },
           "cue": "Panel 5: turned on",
           "text": "turned on",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green switches on an old television; a small male presenter appears ONLY INSIDE the television screen. One woman in the room. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-06",
@@ -13331,7 +13352,8 @@
           },
           "cue": "Panel 6: listened to",
           "text": "listened to",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two older people sitting on a sofa listening to a radio on a small stand at left. One curly white-haired woman in green and one balding man in brown. Exactly two people, one radio. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-07",
@@ -13377,7 +13399,8 @@
           },
           "cue": "Panel 7: boiled",
           "text": "boiled",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green beside a stove with a saucepan of boiling water, visible steam. One woman, two normal arms. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-08",
@@ -13423,7 +13446,8 @@
           },
           "cue": "Panel 8: answered",
           "text": "answered",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue holding a telephone receiver to his ear, telephone base on a small table. One man, two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-09",
@@ -13469,7 +13493,8 @@
           },
           "cue": "Panel 9: emptied",
           "text": "emptied",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green emptying a small wastebasket into a larger metal bin, a few papers falling, no faces inside the bins. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-10",
@@ -13515,7 +13540,8 @@
           },
           "cue": "Panel 10: asked",
           "text": "asked",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One straight blonde-haired girl in green at a desk looking up to ask a question, one hand on desk and the other raised. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-11",
@@ -13561,7 +13587,8 @@
           },
           "cue": "Panel 11: typed",
           "text": "typed",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde woman in green seated at a desktop computer holding a typed sheet of paper, ordinary keyboard and monitor. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-12",
@@ -13607,7 +13634,8 @@
           },
           "cue": "Panel 12: washed",
           "text": "washed",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde girl in green beside a washbasin showing her freshly washed hands with a few drops of water. Two arms and two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-13",
@@ -13653,7 +13681,8 @@
           },
           "cue": "Panel 13: walked",
           "text": "walked",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue walking through a park beside trees and a fence. Two legs, no extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-14",
@@ -13699,7 +13728,8 @@
           },
           "cue": "Panel 14: painted",
           "text": "painted",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired man in blue kneels beside a freshly painted small bookcase holding a paintbrush. Paint tin nearby. No extra hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "lesson-086-pic-15",
@@ -13745,7 +13775,8 @@
           },
           "cue": "Panel 15: dusted",
           "text": "dusted",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-bob-haired woman in green stands beside a clean cupboard holding a dusting cloth. One woman, one cupboard. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         }
       ],
       "group_size": 1
@@ -13808,7 +13839,11 @@
             ],
             "source": "img/lesson-088-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "JAN 14",
+            "JAN 1"
+          ]
         },
         {
           "slot": "lesson-088-pic-02",
@@ -13864,7 +13899,11 @@
             ],
             "source": "img/lesson-088-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "3:00 clock",
+            "2:50 clock"
+          ]
         },
         {
           "slot": "lesson-088-pic-03",
@@ -13919,7 +13958,10 @@
             ],
             "source": "img/lesson-088-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "7:30 clock"
+          ]
         },
         {
           "slot": "lesson-088-pic-04",
@@ -13975,7 +14017,11 @@
             ],
             "source": "img/lesson-088-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "5:00 clock",
+            "4:00 clock"
+          ]
         }
       ],
       "group_size": 1
@@ -14038,7 +14084,11 @@
             ],
             "source": "img/lesson-090-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "1997",
+            "1996"
+          ]
         },
         {
           "slot": "lesson-090-pic-02",
@@ -14094,7 +14144,11 @@
             ],
             "source": "img/lesson-090-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "8:30 clock",
+            "8:00 clock"
+          ]
         },
         {
           "slot": "lesson-090-pic-03",
@@ -14150,7 +14204,11 @@
             ],
             "source": "img/lesson-090-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "3:00 clock",
+            "2:00 clock"
+          ]
         },
         {
           "slot": "lesson-090-pic-04",
@@ -14206,7 +14264,11 @@
             ],
             "source": "img/lesson-090-01-text.jpg",
             "method": "Visual original photograph check; retain original printed dates, including JAN 14/JAN 1."
-          }
+          },
+          "required_overlays": [
+            "2",
+            "1"
+          ]
         }
       ],
       "group_size": 1
@@ -14249,7 +14311,8 @@
           },
           "cue": "rain",
           "text": "rain",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two people standing outside looking up at dark rain clouds approaching overhead. Keep two people and clear weather cue. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-02",
@@ -14285,7 +14348,8 @@
           },
           "cue": "snow",
           "text": "snow",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two people bundled in winter coats outside looking up at heavy gray snow clouds and a few snowflakes. Keep two people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-03",
@@ -14321,7 +14385,8 @@
           },
           "cue": "leave",
           "text": "leave",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One woman with straight black bob in blue stands beside a curly-haired man seated in a green armchair, discussing when he will leave. Exactly two people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-04",
@@ -14357,7 +14422,8 @@
           },
           "cue": "get up",
           "text": "get up",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One boy in bed asleep, a round alarm clock on a bedside table and rising sun visible through the window. One boy only. Clock face blank for exact overlay if needed. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-05",
@@ -14393,7 +14459,11 @@
           },
           "cue": "arrive",
           "text": "arrive",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two people waiting outside an airport, aircraft tail and windsock visible behind them. Large rectangular blank airport sign. Exactly two people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "required_overlays": [
+            "AIRPORT"
+          ]
         },
         {
           "slot": "photo-panel-06",
@@ -14429,7 +14499,8 @@
           },
           "cue": "finish work",
           "text": "finish work",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One balding office worker in blue at a desk with a tall pile of papers, sweating as he works, a telephone on the desk. One person and two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-07",
@@ -14465,7 +14536,11 @@
           },
           "cue": "have a holiday",
           "text": "have a holiday",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two women looking at a travel agency window displaying a sunny holiday poster. Rectangular blank sign above. Exactly two women. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "required_overlays": [
+            "TRAVEL AGENT"
+          ]
         },
         {
           "slot": "photo-panel-08",
@@ -14501,7 +14576,8 @@
           },
           "cue": "drive home",
           "text": "drive home",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Three people having a picnic beside a parked car, preparing to drive home. A blonde woman, balding man and child. Exactly three people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-09",
@@ -14537,7 +14613,8 @@
           },
           "cue": "have a haircut",
           "text": "have a haircut",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One young man with very long untidy dark hair needing a haircut, portrait, no other people. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-10",
@@ -14573,7 +14650,8 @@
           },
           "cue": "telephone me",
           "text": "telephone me",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One brown-haired man in green beside a telephone; a thought bubble shows the black-bob-haired woman he plans to telephone. Exactly two depictions. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-11",
@@ -14609,7 +14687,8 @@
           },
           "cue": "have a shave",
           "text": "have a shave",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man with visible dark stubble on his chin, needing a shave. Single portrait, no razor yet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-12",
@@ -14645,7 +14724,8 @@
           },
           "cue": "pack his bags",
           "text": "pack his bags",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One man packing clothes into an open suitcase while one woman watches from the left. Exactly two people, one suitcase. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-13",
@@ -14681,7 +14761,8 @@
           },
           "cue": "sweep the floor",
           "text": "sweep the floor",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde woman in green standing in an untidy room with litter on the floor, preparing to sweep. Exactly one woman. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-14",
@@ -14717,7 +14798,8 @@
           },
           "cue": "paint this room",
           "text": "paint this room",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two people looking at the damaged walls of a room that needs painting. Exactly two people, empty floor, no extra faces on walls. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-15",
@@ -14753,7 +14835,8 @@
           },
           "cue": "repair my car",
           "text": "repair my car",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One customer in a brown hat at left watches two mechanics repairing the open engine of a car at right. Exactly three people, one car. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         },
         {
           "slot": "photo-panel-16",
@@ -14789,7 +14872,8 @@
           },
           "cue": "make an appointment",
           "text": "make an appointment",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One customer in blue standing at a reception counter talking to one seated clerk in green about an appointment. Exactly two people, one desk telephone. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
         }
       ],
       "group_size": 1
@@ -17004,7 +17088,10 @@
               1321
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One curly black-haired woman shivering in falling snow at a bus stop, arms folded to keep warm. Round sign with a blank white center. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One curly black-haired woman shivering in falling snow at a bus stop, arms folded to keep warm. Round sign with a blank white center. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+          "required_overlays": [
+            "BUS STOP"
+          ]
         },
         {
           "slot": "photo-panel-04",
@@ -17464,7 +17551,10 @@
               2362
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One curly blonde woman waiting at a bus stop. Round bus stop sign with a blank white center. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One curly blonde woman waiting at a bus stop. Round bus stop sign with a blank white center. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+          "required_overlays": [
+            "BUS STOP"
+          ]
         },
         {
           "slot": "photo-panel-14",
@@ -17602,7 +17692,10 @@
               2362
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One man standing in front of a house with a rectangular blank sale sign on a post. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One man standing in front of a house with a rectangular blank sale sign on a post. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+          "required_overlays": [
+            "FOR SALE"
+          ]
         }
       ],
       "group_size": 1
@@ -18439,7 +18532,10 @@
           "mode": "model-redraw",
           "redraw_cue": "A happy man in a blue jacket beside an inexpensive small older car. A rectangular blank price sign above the car roof.",
           "extra_instruction": "Leave price sign blank for exact typesetting. One man only, no extra people, no invented letters or numbers.",
-          "verified_price": "£150"
+          "verified_price": "£150",
+          "required_overlays": [
+            "£150"
+          ]
         },
         {
           "slot": "photo-panel-06",
@@ -18478,7 +18574,10 @@
           "mode": "model-redraw",
           "redraw_cue": "The same man with short brown hair and a blue jacket looking worried beside an expensive large black car. A rectangular blank price sign above the car roof.",
           "extra_instruction": "Leave price sign blank for exact typesetting. One man only, no extra people, no invented letters or numbers.",
-          "verified_price": "£8,000"
+          "verified_price": "£8,000",
+          "required_overlays": [
+            "£8,000"
+          ]
         },
         {
           "slot": "photo-panel-07",
@@ -19029,7 +19128,10 @@
               861
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A customer at a lost property counter describes an item to one clerk behind the counter. Two people total; shelves of umbrellas and small lost items behind the clerk. Blank rectangular sign above. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A customer at a lost property counter describes an item to one clerk behind the counter. Two people total; shelves of umbrellas and small lost items behind the clerk. Blank rectangular sign above. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+          "required_overlays": [
+            "LOST PROPERTY"
+          ]
         },
         {
           "slot": "photo-panel-05",
@@ -19535,7 +19637,10 @@
               2216
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A curly-haired woman gives a banknote to a girl with long straight hair, warning her not to lose it. Exactly two people, one banknote with a blank face for exact text later. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. A curly-haired woman gives a banknote to a girl with long straight hair, warning her not to lose it. Exactly two people, one banknote with a blank face for exact text later. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering.",
+          "required_overlays": [
+            "£10"
+          ]
         },
         {
           "slot": "photo-panel-16",
@@ -19624,7 +19729,8 @@
           },
           "cue": "Sophie is tall.",
           "text": "Sophie is tall.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. One schoolgirl Sophie with straight shoulder-length blonde hair, a blue blouse and dark blue skirt standing alone, full body. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-02",
@@ -19660,7 +19766,8 @@
           },
           "cue": "Paul is taller than Sophie.",
           "text": "Paul is taller than Sophie.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. Two students standing on the SAME ground line: Sophie, a girl with straight shoulder-length blonde hair, blue blouse and dark blue skirt on the left; Paul, a boy with short black hair, blue shirt and dark trousers on the right. Paul is clearly taller than Sophie. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-03",
@@ -19696,7 +19803,8 @@
           },
           "cue": "Hans is the tallest student in our class.",
           "text": "Hans is the tallest student in our class.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. Exactly four students on the SAME ground line from left to right: Sophie with straight blonde shoulder-length hair and blue blouse/dark skirt; Paul with short black hair and blue shirt/dark trousers, taller than Sophie; Hans with short blonde hair and blue shirt/brown shorts, tallest of all; a shorter black-haired girl in blue at far right. Preserve the height comparison and recurring identities. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-04",
@@ -19732,7 +19840,8 @@
           },
           "cue": "It is hot today.",
           "text": "It is hot today.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. A sunny beach with three people resting by the sea and a moderate-sized sun overhead. Plenty of empty sand. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-05",
@@ -19768,7 +19877,8 @@
           },
           "cue": "It was hotter yesterday.",
           "text": "It was hotter yesterday.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. The same sunny beach on a hotter day: a larger sun and about eight people relaxing and swimming. More occupied than the preceding beach scene. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-06",
@@ -19804,7 +19914,8 @@
           },
           "cue": "The day before yesterday was the hottest day in the year.",
           "text": "The day before yesterday was the hottest day in the year.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. The same beach on the hottest day: a very large bright sun and many people filling the beach and swimming in the sea. A crowded scene, much busier than the other two. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-07",
@@ -19840,7 +19951,8 @@
           },
           "cue": "There was a large crowd at the race last year.",
           "text": "There was a large crowd at the race last year.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. A motor race with two racing cars in front and one row of spectators behind a barrier. A large crowd, but clearly less dense than later pictures. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-08",
@@ -19876,7 +19988,8 @@
           },
           "cue": "This year the crowd is larger.",
           "text": "This year the crowd is larger.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. A motor race with one prominent racing car and two rows of spectators behind the barrier, clearly more crowded than the one-row scene. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-09",
@@ -19912,7 +20025,8 @@
           },
           "cue": "It is the largest crowd I have ever seen.",
           "text": "It is the largest crowd I have ever seen.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. A dense crowd filling the whole picture, many distinct small heads in multiple rows, largest crowd of the three. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-10",
@@ -19948,7 +20062,8 @@
           },
           "cue": "The brown suitcase is heavy.",
           "text": "The brown suitcase is heavy.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. One BROWN suitcase on the platform of an analog weighing scale. The dial at right has its single needle pointing upper LEFT. Inanimate objects only, no faces or people. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-11",
@@ -19984,7 +20099,8 @@
           },
           "cue": "The blue suitcase is heavier than the brown one.",
           "text": "The blue suitcase is heavier than the brown one.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. One BLUE suitcase on the platform of an analog weighing scale. The dial at right has its single needle pointing straight UP, showing more weight than the brown suitcase. Inanimate objects only, no faces or people. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         },
         {
           "slot": "photo-panel-12",
@@ -20020,7 +20136,8 @@
           },
           "cue": "The green suitcase is the heaviest of them all.",
           "text": "The green suitcase is the heaviest of them all.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon based on the reference. One GREEN suitcase on the platform of an analog weighing scale. The dial at right has its single needle pointing upper RIGHT, showing the heaviest case. Inanimate objects only, no faces or people. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text."
         }
       ],
       "group_size": 1
@@ -20063,7 +20180,8 @@
           },
           "cue": "Have you got any chocolate?\nI haven't got much.",
           "text": "Have you got any chocolate?\nI haven't got much.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-02",
@@ -20099,7 +20217,8 @@
           },
           "cue": "I've got more than you have.",
           "text": "I've got more than you have.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-03",
@@ -20135,7 +20254,8 @@
           },
           "cue": "I've got the most.",
           "text": "I've got the most.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-04",
@@ -20171,7 +20291,8 @@
           },
           "cue": "Have you got any chocolate?\nI've got very little.",
           "text": "Have you got any chocolate?\nI've got very little.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-05",
@@ -20207,7 +20328,8 @@
           },
           "cue": "I've got less than you have.",
           "text": "I've got less than you have.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-06",
@@ -20243,7 +20365,8 @@
           },
           "cue": "I've got the least.",
           "text": "I've got the least.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-07",
@@ -20279,7 +20402,8 @@
           },
           "cue": "Have you made any mistakes?\nI haven't made many.",
           "text": "Have you made any mistakes?\nI haven't made many.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-08",
@@ -20315,7 +20439,8 @@
           },
           "cue": "I've made more than you have.",
           "text": "I've made more than you have.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-09",
@@ -20351,7 +20476,8 @@
           },
           "cue": "I've made the most.",
           "text": "I've made the most.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-10",
@@ -20387,7 +20513,8 @@
           },
           "cue": "Have you made any mistakes?\nI've made very few.",
           "text": "Have you made any mistakes?\nI've made very few.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-11",
@@ -20423,7 +20550,8 @@
           },
           "cue": "I've made fewer than you have.",
           "text": "I've made fewer than you have.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-12",
@@ -20459,7 +20587,8 @@
           },
           "cue": "I've made the fewest.",
           "text": "I've made the fewest.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "extra_instruction": "Retain the EXACT people count, quantities of chocolate, or relative counts of correction crosses on their exercise books. Do not turn chocolate bars into books. No lettering except simple crosses on paper. Keep each recurring child recognizable."
         },
         {
           "slot": "photo-panel-13",
@@ -20495,7 +20624,8 @@
           },
           "cue": "You must see my new car.\nIt's very good.",
           "text": "You must see my new car.\nIt's very good.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw one a clean small blue compact car matching the reference vehicle shape. Inanimate vehicle only, no people, faces, eyes or mouths. Sharp full-color educational cartoon, white background, no letters, logos or captions."
         },
         {
           "slot": "photo-panel-14",
@@ -20531,7 +20661,8 @@
           },
           "cue": "This one's better.",
           "text": "This one's better.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw one a larger elegant dark green sedan matching the reference vehicle shape. Inanimate vehicle only, no people, faces, eyes or mouths. Sharp full-color educational cartoon, white background, no letters, logos or captions."
         },
         {
           "slot": "photo-panel-15",
@@ -20567,7 +20698,8 @@
           },
           "cue": "This one's the best I've ever seen.",
           "text": "This one's the best I've ever seen.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw one a polished luxury black vintage sedan with large chrome grille matching the reference vehicle shape. Inanimate vehicle only, no people, faces, eyes or mouths. Sharp full-color educational cartoon, white background, no letters, logos or captions."
         },
         {
           "slot": "photo-panel-16",
@@ -20603,7 +20735,11 @@
           },
           "cue": "You mustn't go to that restaurant.\nIt's very bad.",
           "text": "You mustn't go to that restaurant.\nIt's very bad.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this scene as one clear full-color educational cartoon. A modest restaurant storefront, two empty tables and chairs visible through arched windows, doorway at right. Keep the reference layout. Rectangular blank signboard above, no lettering. Buildings and furniture have no faces or limbs. No extra people, no captions.",
+          "required_overlays": [
+            "RESTAURANT"
+          ]
         },
         {
           "slot": "photo-panel-17",
@@ -20639,7 +20775,11 @@
           },
           "cue": "This one's worse.",
           "text": "This one's worse.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this scene as one clear full-color educational cartoon. A small shabby snack bar storefront, food display in the window, doorway at right. Keep the reference layout. Rectangular blank signboard above, no lettering. Buildings and furniture have no faces or limbs. No extra people, no captions.",
+          "required_overlays": [
+            "SNACK BAR"
+          ]
         },
         {
           "slot": "photo-panel-18",
@@ -20675,7 +20815,11 @@
           },
           "cue": "This one's the worst I've ever seen.",
           "text": "This one's the worst I've ever seen.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this scene as one clear full-color educational cartoon. A very shabby small cafe storefront with a cap-wearing man visible behind the window counter. Keep the reference layout. Rectangular blank signboard above, no lettering. Buildings and furniture have no faces or limbs. No extra people, no captions.",
+          "required_overlays": [
+            "FRED’S CAFE"
+          ]
         }
       ],
       "group_size": 1
@@ -21380,7 +21524,8 @@
           },
           "cue": "Have you got any chocolate?",
           "text": "Have you got any chocolate?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One small curly-haired boy in blue asking about chocolate, with a thought bubble containing exactly one chocolate bar. No actual chocolate in his hands. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -21416,7 +21561,8 @@
           },
           "cue": "I haven't got any. I've got no chocolate. I've got none.",
           "text": "I haven't got any. I've got no chocolate. I've got none.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly blonde woman in green showing empty hands and shrugging, she has no chocolate. No chocolate bars anywhere. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -21452,7 +21598,8 @@
           },
           "cue": "I haven't any either. Neither have I.",
           "text": "I haven't any either. Neither have I.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue spreading his empty hands, he has no chocolate. No chocolate bars anywhere. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -21488,7 +21635,8 @@
           },
           "cue": "Have you got any envelopes?",
           "text": "Have you got any envelopes?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One straight blonde-haired girl in blue asking about envelopes; a thought bubble contains a small stack of envelopes. Her actual hands are empty. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -21524,7 +21672,8 @@
           },
           "cue": "I haven't got any. I've got no envelopes. I've got none.",
           "text": "I haven't got any. I've got no envelopes. I've got none.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly black-haired woman in green showing empty hands and shaking her head, she has no envelopes. No envelopes anywhere. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -21560,7 +21709,8 @@
           },
           "cue": "I haven't any either. Neither have I.",
           "text": "I haven't any either. Neither have I.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue spreading empty hands and shaking his head, he has no envelopes. No envelopes anywhere. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -21596,7 +21746,8 @@
           },
           "cue": "Have you got any cake?",
           "text": "Have you got any cake?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly blonde mother in a green checked dress holding a plate with slices of cake and asking a question. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -21632,7 +21783,8 @@
           },
           "cue": "I've got some.",
           "text": "I've got some.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One boy with straight brown hair and blue shirt sitting at a table holding a slice of cake above his plate. A serving cake on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-09",
@@ -21668,7 +21820,8 @@
           },
           "cue": "So have I.",
           "text": "So have I.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One girl with brown pigtails and a green dress sitting at a table holding a slice of cake above her plate. A serving cake on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-10",
@@ -21704,7 +21857,8 @@
           },
           "cue": "Have you got any biscuits?",
           "text": "Have you got any biscuits?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME curly blonde mother in a green checked dress holding a plate with round biscuits and asking a question. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-11",
@@ -21741,7 +21895,8 @@
           },
           "cue": "I've got some.",
           "text": "I've got some.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME straight brown-haired boy in blue sitting at the same table holding a round biscuit above his plate. A plate of biscuits on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-12",
@@ -21778,7 +21933,8 @@
           },
           "cue": "So have I.",
           "text": "So have I.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME brown-pigtailed girl in green sitting at the same table holding a round biscuit above her plate. A plate of biscuits on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
       "group_size": 1
@@ -21821,7 +21977,8 @@
           },
           "cue": "Everyone is asleep. Everybody is asleep.",
           "text": "Everyone is asleep. Everybody is asleep.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. Two people in pyjamas standing sleepily in a doorway at night, both with eyes closed, next to a dark curtained window. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -21857,7 +22014,8 @@
           },
           "cue": "Everything is untidy.",
           "text": "Everything is untidy.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. An untidy empty living room: two armchairs, skewed wall pictures, books and cups scattered on floor, a flower vase by the window. No people or faces. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -21893,7 +22051,8 @@
           },
           "cue": "I looked for my pen everywhere.",
           "text": "I looked for my pen everywhere.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue kneeling on the floor and lifting a corner of a patterned rug looking for a pen. No pen found and no extra people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -21929,7 +22088,8 @@
           },
           "cue": "Is there anyone at home? Is there anybody at home?",
           "text": "Is there anyone at home? Is there anybody at home?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. Two children outside a house, one knocking on its closed front door while the other watches. One black-bob-haired girl and one short black-haired boy. Nobody visible inside. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -21965,7 +22125,8 @@
           },
           "cue": "Is there anything in that box?",
           "text": "Is there anything in that box?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A curly black-haired woman in green and a straight brown-haired man in blue stand on either side of a CLOSED rectangular box. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -22001,7 +22162,8 @@
           },
           "cue": "I couldn't find my pen anywhere.",
           "text": "I couldn't find my pen anywhere.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue standing with empty palms spread and a disappointed expression after failing to find his pen. No pen in his hands. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -22037,7 +22199,8 @@
           },
           "cue": "There's no one at home. There's nobody at home.",
           "text": "There's no one at home. There's nobody at home.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One short black-haired boy outside looking through an open window into an EMPTY house, no occupants inside. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -22073,7 +22236,8 @@
           },
           "cue": "There's nothing in this box.",
           "text": "There's nothing in this box.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. The same curly black-haired woman in green and straight brown-haired man in blue stand on either side of the same box, now OPEN and visibly EMPTY. No objects or faces in the box. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-09",
@@ -22109,7 +22273,8 @@
           },
           "cue": "Where did you go yesterday? Nowhere. I stayed at home.",
           "text": "Where did you go yesterday? Nowhere. I stayed at home.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A curly-haired woman in green and balding man in blue sit at home near a television, talking. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-10",
@@ -22145,7 +22310,8 @@
           },
           "cue": "There's someone in the garden. There's somebody in the garden.",
           "text": "There's someone in the garden. There's somebody in the garden.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. Two children with dark hair stand outside a garden looking toward one gardener near a tree inside the garden. Exactly three people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-11",
@@ -22181,7 +22347,8 @@
           },
           "cue": "There's something under that chair!",
           "text": "There's something under that chair!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A curly black-haired woman in green stands on a stool pointing toward a small mouse UNDER a wooden chair. Exactly one woman and one mouse. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-12",
@@ -22217,7 +22384,8 @@
           },
           "cue": "My glasses must be somewhere! You're wearing them!",
           "text": "My glasses must be somewhere! You're wearing them!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One older man in blue wearing his spectacles ON HIS FACE looks puzzled, while a small straight-haired girl in green points at the spectacles. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
       "group_size": 1
@@ -22260,7 +22428,8 @@
           },
           "cue": "Someone knocked at the door when I was having breakfast.",
           "text": "Someone knocked at the door when I was having breakfast.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly black-haired woman eats breakfast at a table inside on the left; on the right, outside the closed front door, a man in a brown hat holding a case knocks on the door. Clear wall separation, exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -22296,7 +22465,8 @@
           },
           "cue": "When I was leaving the house, the postman arrived.",
           "text": "When I was leaving the house, the postman arrived.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One man with brown hat and suitcase is leaving his house through the doorway at left, just as a uniformed postman with mailbag approaches from the right holding a letter. Exactly two men. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -22332,7 +22502,8 @@
           },
           "cue": "Just as I was opening the front door, the telephone rang.",
           "text": "Just as I was opening the front door, the telephone rang.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One man in a brown hat turns toward a ringing rotary telephone just inside the house while he opens the front door. Exactly one man, one telephone. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -22368,7 +22539,8 @@
           },
           "cue": "She slipped and hurt herself while she was getting off the bus.",
           "text": "She slipped and hurt herself while she was getting off the bus.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly-haired woman in a green dress slipping as she steps off a bus, sitting down on the pavement beside the open bus door. One woman, two arms and two legs. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -22405,7 +22577,8 @@
           },
           "cue": "A man shaving in front of a mirror.",
           "text": "A man shaving in front of a mirror.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man shaving his own cheek with a safety razor and white shaving lather. Exactly one man, two hands. Preserve the photographed single portrait. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -22442,7 +22615,8 @@
           },
           "cue": "A woman cooking; a man outside in the rain.",
           "text": "A woman cooking; a man outside in the rain.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A scene split diagonally as in the source: a curly black-haired woman in green cooking at a stove on the left; a man in a brown hat walking outside in rain on the right. Exactly two people, one per side. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
       "group_size": 1
@@ -22485,7 +22659,11 @@
           },
           "cue": "I asked the price of the car, but they had already sold it.",
           "text": "I asked the price of the car, but they had already sold it.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. Two men beside a car: a customer asks the dealer about its price, the dealer points to a rectangular blank sale-status sign on the roof. Exactly two men. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+          "required_overlays": [
+            "SOLD"
+          ]
         },
         {
           "slot": "photo-panel-02",
@@ -22521,7 +22699,11 @@
           },
           "cue": "I ran to the platform quickly, but the train had already left.",
           "text": "I ran to the platform quickly, but the train had already left.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One man running with a bag onto an EMPTY railway platform after the train has left. A blank square platform sign at right. No train. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+          "required_overlays": [
+            "2"
+          ]
         },
         {
           "slot": "photo-panel-03",
@@ -22557,7 +22739,8 @@
           },
           "cue": "He gave us our exercise books after he had corrected them.",
           "text": "He gave us our exercise books after he had corrected them.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One male teacher with square academic cap returns corrected exercise books to four pupils gathered in front of him. Exactly five people, books marked with simple ticks and crosses. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -22593,7 +22776,11 @@
           },
           "cue": "She went on holiday after she had taken the examination.",
           "text": "She went on holiday after she had taken the examination.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One blonde woman carrying luggage walking toward airport boarding after her exam. A blank directional sign points toward planes, a small plane in background. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+          "required_overlays": [
+            "PLANES"
+          ]
         },
         {
           "slot": "photo-panel-05",
@@ -22629,7 +22816,12 @@
           },
           "cue": "She had finished the housework before she went out.",
           "text": "She had finished the housework before she went out.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One black-haired woman in a green dress walking past butcher and grocer shop windows. Meat at left, grocery jars at right. Blank shop signboards, one person only. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+          "required_overlays": [
+            "BUTCHER",
+            "GROCER"
+          ]
         },
         {
           "slot": "photo-panel-06",
@@ -22665,7 +22857,8 @@
           },
           "cue": "We had had dinner before they arrived.",
           "text": "We had had dinner before they arrived.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A cleared dinner table with used plates at left; at right one curly-haired hostess greets exactly two arriving visitors in the doorway. Exactly three people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
       "group_size": 1
@@ -22708,7 +22901,8 @@
           },
           "cue": "Who served you? The man who/that is standing behind the counter.",
           "text": "Who served you? The man who/that is standing behind the counter.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A male customer points to the male clerk standing behind a shop counter. Two men total, shelves of goods behind the clerk. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -22744,7 +22938,8 @@
           },
           "cue": "Who served you? The woman who/that is standing behind the counter.",
           "text": "Who served you? The woman who/that is standing behind the counter.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A curly blonde female customer points to the black-bob-haired female clerk standing behind a shop counter. Two women total. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -22780,7 +22975,8 @@
           },
           "cue": "Who is making all that noise? The men who/that are repairing the road.",
           "text": "Who is making all that noise? The men who/that are repairing the road.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. One man leans out of a window on the left and points to two workmen with tools repairing the road on the right. Exactly three men. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -22816,7 +23012,8 @@
           },
           "cue": "I served him yesterday. He is the man who(m)/that I served yesterday.",
           "text": "I served him yesterday. He is the man who(m)/that I served yesterday.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A straight blonde-haired woman behind a clothing shop counter points to a male customer in a brown hat. Clothing racks behind. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -22852,7 +23049,8 @@
           },
           "cue": "I served her yesterday. She is the woman who(m)/that I served yesterday.",
           "text": "I served her yesterday. She is the woman who(m)/that I served yesterday.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A male clerk behind a clothing shop counter points to a curly-haired female customer. Clothing racks behind. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -22888,7 +23086,8 @@
           },
           "cue": "I saw them yesterday. They are the men who(m)/that I saw yesterday.",
           "text": "I saw them yesterday. They are the men who(m)/that I saw yesterday.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. One man leans out of a window on the left and points to two workmen on the road to the right. Exactly three men, same composition and identities as the road-repair scene. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -22924,7 +23123,8 @@
           },
           "cue": "Which book did you buy? The book which/that is on the counter.",
           "text": "Which book did you buy? The book which/that is on the counter.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A balding male bookseller in blue stands behind a counter at left; a straight brown-haired male customer in green at right points to exactly ONE book on the counter. Book shelves behind. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -22960,7 +23160,8 @@
           },
           "cue": "Which books did you buy? The books which/that are on the counter.",
           "text": "Which books did you buy? The books which/that are on the counter.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME balding male bookseller in blue behind the counter at left and the SAME straight brown-haired male customer in green at right, now pointing to a STACK of several books on the counter. Book shelves behind. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-09",
@@ -22996,7 +23197,8 @@
           },
           "cue": "Which dog is yours? The dog which/that is carrying that basket.",
           "text": "Which dog is yours? The dog which/that is carrying that basket.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. One man on the left points toward TWO dogs on the right. The rear plain tan dog carries nothing; the front shaggy brown dog carries a wicker basket by its handle in its mouth. Exactly one person and two dogs. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         }
       ],
       "group_size": 1
@@ -23359,7 +23561,8 @@
           },
           "cue": "What's this? / This is the kitten I found in the garden.",
           "text": "What's this? / This is the kitten I found in the garden.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw a crisp colored cartoon matching the reference: one curly black-haired woman in green holds exactly one small kitten in both hands, while one balding man in blue at right points to the kitten. Two adults and one kitten, no other people or animals. Natural hands, clean outlines, white background, no lettering."
         }
       ],
       "group_size": 1
@@ -23402,7 +23605,8 @@
           },
           "cue": "Do you have to go now? / Yes, I have to leave immediately.",
           "text": "Do you have to go now? / Yes, I have to leave immediately.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A man in a dark hat and blue coat carrying a small case leaves through the doorway; a woman in green stands beside him asking him something. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -23438,7 +23642,11 @@
           },
           "cue": "Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.",
           "text": "Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A balding man in blue holds a large alarm clock between himself and a short curly black-haired woman in green. Exactly two people, one clock. Clock face BLANK for precise time overlay. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+          "required_overlays": [
+            "6:00 clock"
+          ]
         },
         {
           "slot": "photo-panel-03",
@@ -23474,7 +23682,11 @@
           },
           "cue": "Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.",
           "text": "Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A man in a brown hat stands outside a house beside a black taxi; a curly-haired woman in green talks to him from the doorway. Exactly two people. Taxi roof sign blank. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+          "required_overlays": [
+            "TAXI"
+          ]
         },
         {
           "slot": "photo-panel-04",
@@ -23510,7 +23722,8 @@
           },
           "cue": "Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!",
           "text": "Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two men outside a building: a balding man in blue gestures toward his wristwatch while a short black-haired man in green looks impatient. Exactly two people, two ordinary hands each. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -23546,7 +23759,8 @@
           },
           "cue": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
           "text": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A blonde woman in green and a short brown-haired man in blue stand in a garden looking up at dark rain clouds. No watering in progress. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -23582,7 +23796,11 @@
           },
           "cue": "Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
           "text": "Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Three people walking toward a bus stop: a blonde woman in green and a dark-haired man in blue behind, with a balding man in brown pointing at an approaching bus. Round bus stop sign has blank white center. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+          "required_overlays": [
+            "BUS STOP"
+          ]
         }
       ],
       "group_size": 1
@@ -23625,7 +23843,8 @@
           },
           "cue": "He can't be ill. He must be tired.",
           "text": "He can't be ill. He must be tired.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two adults at left look toward a curly-haired man sleeping in an armchair at right. Exactly three people, sleeping man has eyes closed. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -23661,7 +23880,8 @@
           },
           "cue": "It can't be my new hat. It must be my old one.",
           "text": "It can't be my new hat. It must be my old one.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. One black-haired woman in green holds up an old wide-brimmed brown hat with a worn ribbon. Exactly one woman, one hat. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -23697,7 +23917,8 @@
           },
           "cue": "She can't be Danish. She must be Swedish.",
           "text": "She can't be Danish. She must be Swedish.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two men in blue and brown discuss a blonde woman in a green dress standing behind them. Exactly three people; no flags or invented nationality labels. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -23733,7 +23954,8 @@
           },
           "cue": "He can't be a dentist. He must be a doctor.",
           "text": "He can't be a dentist. He must be a doctor.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two women at left discuss one man wearing a dark hat and carrying a doctors bag as he walks away at right. Exactly three people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -23769,7 +23991,8 @@
           },
           "cue": "She can't be forty. She must be fifty.",
           "text": "She can't be forty. She must be fifty.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two women at left discuss an older blonde woman walking past on the right. Exactly three women, distinguish their hairstyles. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -23805,7 +24028,12 @@
           },
           "cue": "It can't be the 20th. It must be the 21st.",
           "text": "It can't be the 20th. It must be the 21st.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. One curly black-haired woman in green points at a rectangular wall calendar on her right. Calendar is BLANK for exact date overlay. Exactly one woman. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+          "required_overlays": [
+            "APRIL",
+            "21"
+          ]
         },
         {
           "slot": "photo-panel-07",
@@ -23841,7 +24069,8 @@
           },
           "cue": "He can't be the youngest. He must be the oldest.",
           "text": "He can't be the youngest. He must be the oldest.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two adults at left compare three children standing on the right, with the tallest oldest boy visibly taller than the other two children. Exactly five people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -23877,7 +24106,8 @@
           },
           "cue": "He can't be reading. He must be sleeping.",
           "text": "He can't be reading. He must be sleeping.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A woman and a child at left look toward a balding man sleeping in an armchair with an open book on his chest. Exactly three people; sleeping mans eyes closed. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         }
       ],
       "group_size": 1
@@ -24247,7 +24477,8 @@
           },
           "cue": "Where's Harry? He may be in his room. I'm not sure.",
           "text": "Where's Harry? He may be in his room. I'm not sure.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. Two men talking in foreground, one short black-haired man in blue at left and one balding man in green at right. A thought bubble above shows Harry, a straight blonde-haired man in a brown sweater, sitting alone in an armchair in his room. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -24283,7 +24514,11 @@
           },
           "cue": "Where will he go? He may go to the cinema. I'm not sure.",
           "text": "Where will he go? He may go to the cinema. I'm not sure.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME black-haired man in blue and balding man in green talking below. A thought bubble above shows Harry, straight blonde-haired man in brown sweater, outside a cinema entrance with a blank rectangular sign. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+          "required_overlays": [
+            "CINEMA"
+          ]
         },
         {
           "slot": "photo-panel-03",
@@ -24319,7 +24554,8 @@
           },
           "cue": "Why is he late? He may be busy. I'm not sure.",
           "text": "Why is he late? He may be busy. I'm not sure.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME black-haired man in blue checking his wristwatch at left and balding man in green at right. A thought bubble shows Harry, straight blonde-haired man in brown sweater, busy working at a desk with papers. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -24355,7 +24591,8 @@
           },
           "cue": "What is he doing? He may be reading. I'm not sure.",
           "text": "What is he doing? He may be reading. I'm not sure.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME black-haired man in blue and balding man in green talking below. A thought bubble shows Harry, straight blonde-haired man in brown sweater, reading an open book in an armchair. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -24391,7 +24628,12 @@
           },
           "cue": "Why was he late? He may have been busy. I'm not sure.",
           "text": "Why was he late? He may have been busy. I'm not sure.",
-          "mode": "model-redraw"
+          "mode": "reuse",
+          "reuse_from": {
+            "lesson": 132,
+            "slot": "photo-panel-03"
+          },
+          "reuse_review": "Original photograph repeats the same busy/reading thought-bubble drawing for present and past forms; only accompanying text changes."
         },
         {
           "slot": "photo-panel-06",
@@ -24427,7 +24669,12 @@
           },
           "cue": "What was he doing? He may have been reading. I'm not sure.",
           "text": "What was he doing? He may have been reading. I'm not sure.",
-          "mode": "model-redraw"
+          "mode": "reuse",
+          "reuse_from": {
+            "lesson": 132,
+            "slot": "photo-panel-04"
+          },
+          "reuse_review": "Original photograph repeats the same busy/reading thought-bubble drawing for present and past forms; only accompanying text changes."
         }
       ],
       "group_size": 1
@@ -24470,7 +24717,8 @@
           },
           "cue": "I'm tired.",
           "text": "I'm tired.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One balding man with curly dark side hair, a blue checked jacket and white shirt yawns tiredly with one hand near his mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -24506,7 +24754,8 @@
           },
           "cue": "What did he say? What did he tell you?",
           "text": "What did he say? What did he tell you?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One older woman with straight blonde hair in a low bun, a pearl necklace and lavender blouse holds one hand cupped near her ear, asking what was said. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -24542,7 +24791,8 @@
           },
           "cue": "He said (that) he was tired. He told me (that) he was tired.",
           "text": "He said (that) he was tired. He told me (that) he was tired.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One woman with a short black bob curled under at the ends, green blouse and white collar speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -24578,7 +24828,8 @@
           },
           "cue": "I'm reading.",
           "text": "I'm reading.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME short black-bob-haired woman in green reads an open book, exactly one woman. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -24654,7 +24905,8 @@
           },
           "cue": "She said (that) she was reading. She told me (that) she was reading.",
           "text": "She said (that) she was reading. She told me (that) she was reading.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME balding man with curly dark side hair and blue checked jacket speaks with one hand cupped beside his mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -24690,7 +24942,8 @@
           },
           "cue": "We want our dinner.",
           "text": "We want our dinner.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two hungry children seated at an empty dining table, a short black-haired boy in blue and straight blonde-haired girl in green, each holds ordinary knife and fork. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -24766,7 +25019,12 @@
           },
           "cue": "They said (that) they wanted their dinner. They told me (that) they wanted their dinner.",
           "text": "They said (that) they wanted their dinner. They told me (that) they wanted their dinner.",
-          "mode": "model-redraw"
+          "mode": "reuse",
+          "reuse_from": {
+            "lesson": 134,
+            "slot": "photo-panel-03"
+          },
+          "reuse_review": "Same reporting adult portrait; person, gesture and function match the original repeated portrait."
         },
         {
           "slot": "photo-panel-10",
@@ -24802,7 +25060,8 @@
           },
           "cue": "I've finished my homework.",
           "text": "I've finished my homework.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly blonde boy in blue sits at a desk with a completed exercise book, looking pleased. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-11",
@@ -24879,7 +25138,12 @@
           },
           "cue": "He said (that) he had finished his homework. He told me (that) he had finished his homework.",
           "text": "He said (that) he had finished his homework. He told me (that) he had finished his homework.",
-          "mode": "model-redraw"
+          "mode": "reuse",
+          "reuse_from": {
+            "lesson": 134,
+            "slot": "photo-panel-06"
+          },
+          "reuse_review": "Same reporting adult portrait; person, gesture and function match the original repeated portrait."
         }
       ],
       "group_size": 1
@@ -24916,7 +25180,8 @@
           },
           "cue": "I'll leave tomorrow.",
           "text": "I'll leave tomorrow.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One man with neatly side-parted brown hair and a blue shirt speaking, single head-and-shoulders portrait. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -24946,7 +25211,8 @@
           },
           "cue": "What did he say? What did he tell you?",
           "text": "What did he say? What did he tell you?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One older woman with straight blonde hair in a low bun, pearl necklace and lavender blouse cups one hand near her ear, asking what was said. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -24976,7 +25242,8 @@
           },
           "cue": "He said (that) he would leave tomorrow. He told me (that) he would leave tomorrow.",
           "text": "He said (that) he would leave tomorrow. He told me (that) he would leave tomorrow.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly black-haired woman in green speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -25006,7 +25273,8 @@
           },
           "cue": "I can't do this Maths problem.",
           "text": "I can't do this Maths problem.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One straight brown-haired boy in blue sits at a desk looking confused at a maths exercise book, pencil in one hand and other hand supporting his cheek. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -25070,7 +25338,8 @@
           },
           "cue": "He said (that) he couldn't do this Maths problem. He told me (that) he couldn't do this Maths problem.",
           "text": "He said (that) he couldn't do this Maths problem. He told me (that) he couldn't do this Maths problem.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One balding man with dark side hair and a blue striped jacket speaks with one hand cupped beside his mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -25100,7 +25369,18 @@
           },
           "cue": "I may return at six o'clock.",
           "text": "I may return at six o'clock.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One blonde girl with chin-length bob and green blouse points to a small round wall clock on her right, its face left BLANK for a precise time overlay. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+          "exact_overlay_verification": {
+            "clocks": [
+              "6:00"
+            ],
+            "source": "img/lesson-136-01-text.jpg",
+            "method": "Dialogue explicitly says six oclock. The original small pictorial hand appears to point toward nine; use the explicit dialogue time and record discrepancy."
+          },
+          "required_overlays": [
+            "6:00 clock"
+          ]
         },
         {
           "slot": "photo-panel-08",
@@ -25164,7 +25444,8 @@
           },
           "cue": "She said (that) she might return at six o'clock. She told me (that) she might return at six o'clock.",
           "text": "She said (that) she might return at six o'clock. She told me (that) she might return at six o'clock.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One woman with a rounded black bob and green blouse speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
       "group_size": 1
@@ -25201,7 +25482,8 @@
           },
           "cue": "If you break this window, you'll have to pay for it!",
           "text": "If you break this window, you'll have to pay for it!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One older blonde woman in green warns three children standing by a house window; the front boy holds a ball. Window is intact. Exactly four people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -25231,7 +25513,11 @@
           },
           "cue": "If you don't hurry, we'll miss the train.",
           "text": "If you don't hurry, we'll miss the train.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. At a railway station, a man in a brown hat looks at a bookstall while a curly black-haired woman in green urges him to hurry, a train behind them. Exactly two people. Bookstall sign blank. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+          "required_overlays": [
+            "BOOKS"
+          ]
         },
         {
           "slot": "photo-panel-03",
@@ -25261,7 +25547,8 @@
           },
           "cue": "If he falls, he'll hurt himself.",
           "text": "If he falls, he'll hurt himself.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One balding man in blue stands unsteadily on a stool reaching toward a ceiling fitting, while a black-haired woman in green and one curly-haired child watch anxiously. Exactly three people, one stool. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -25291,7 +25578,8 @@
           },
           "cue": "If it rains tomorrow, we won't go to the seaside.",
           "text": "If it rains tomorrow, we won't go to the seaside.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. A curly blonde woman and a straight blonde girl look out of a curtained window at dark rain clouds, exactly two people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -25321,7 +25609,8 @@
           },
           "cue": "If you feel better, you can get up.",
           "text": "If you feel better, you can get up.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One blonde woman in green talks to one curly-haired patient sitting up in bed under a blue blanket, exactly two people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -25351,7 +25640,8 @@
           },
           "cue": "If he sells that car, he can buy a new one.",
           "text": "If he sells that car, he can buy a new one.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two men stand beside an old open-top car, one points toward it while they discuss selling it. Exactly two people and one car. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
       "group_size": 1
@@ -25388,7 +25678,8 @@
           },
           "cue": "Are you tired?\nWhy are you tired?",
           "text": "Are you tired?\nWhy are you tired?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One middle-aged man with a short side-parted brown hairstyle, blue shirt and tie points to the right while asking a question. One person only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -25418,7 +25709,8 @@
           },
           "cue": "What does he want to know?\nWhat does he want to know?",
           "text": "What does he want to know?\nWhat does he want to know?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One older woman with straight blonde hair in a low bun, pearl necklace and lavender blouse cups one hand near her ear. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -25448,7 +25740,8 @@
           },
           "cue": "He wants to know if you are tired.\nHe wants to know why you are tired.",
           "text": "He wants to know if you are tired.\nHe wants to know why you are tired.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One woman with wavy blonde hair and a green blouse speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -25478,7 +25771,8 @@
           },
           "cue": "Are you reading?\nWhat are you reading?",
           "text": "Are you reading?\nWhat are you reading?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One younger man with short black hair and a blue shirt points to the right while asking a question. One person only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -25508,11 +25802,9 @@
           },
           "cue": "What does he want to know?\nWhat does he want to know?",
           "text": "What does he want to know?\nWhat does he want to know?",
-          "mode": "reuse",
-          "reuse_from": {
-            "lesson": 140,
-            "slot": "photo-panel-02"
-          }
+          "mode": "model-redraw",
+          "reuse_rejection": "Original photograph has an open book in picture 5; cannot reuse empty-handed listener picture 2.",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME older woman with straight blonde hair in a low bun, pearl necklace and lavender blouse, now holding an OPEN BOOK in one hand while cupping her other hand near her ear. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -25542,7 +25834,8 @@
           },
           "cue": "He wants to know if you are reading.\nHe wants to know what you are reading.",
           "text": "He wants to know if you are reading.\nHe wants to know what you are reading.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME wavy blonde-haired woman in green speaks with one hand beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -25572,7 +25865,8 @@
           },
           "cue": "Does Tom always do his homework?\nWhen does Tom do his homework?",
           "text": "Does Tom always do his homework?\nWhen does Tom do his homework?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. A balding man with curly dark side hair in blue points toward a boy at a desk doing his homework. Exactly two people, boy has straight brown hair and a green shirt. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -25636,7 +25930,8 @@
           },
           "cue": "He wants to know if Tom always does his homework.\nHe wants to know when Tom does his homework.",
           "text": "He wants to know if Tom always does his homework.\nHe wants to know when Tom does his homework.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One short black-bob-haired woman in green speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
       "group_size": 1
@@ -25679,7 +25974,8 @@
           },
           "cue": "She is embarrassed.",
           "text": "She is embarrassed.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly black-haired woman with green blouse looks embarrassed, her cheeks visibly blushing pink, not spotted or bruised. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -25715,7 +26011,8 @@
           },
           "cue": "They are worried.",
           "text": "They are worried.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two worried adults: a blonde woman in green and a balding man in blue, anxious eyebrows and expressions. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -25751,7 +26048,8 @@
           },
           "cue": "Does anyone ever repair this car?",
           "text": "Does anyone ever repair this car?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two men, one in a brown hat and one with short black hair, stand beside an old blue car with closed hood and discuss its repair. Exactly two men. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -25787,7 +26085,8 @@
           },
           "cue": "Someone repairs it regularly. It is repaired regularly.",
           "text": "Someone repairs it regularly. It is repaired regularly.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly brown-haired mechanic in blue overalls works under the OPEN hood of an old blue car. Exactly one mechanic, two ordinary arms. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -25823,7 +26122,8 @@
           },
           "cue": "Does anyone ever correct these exercise books?",
           "text": "Does anyone ever correct these exercise books?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two children, short black-haired boy in blue and blonde girl in green, point to a tall stack of exercise books on a classroom desk. Exactly two children. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -25859,7 +26159,8 @@
           },
           "cue": "Someone corrects them regularly. They are corrected regularly.",
           "text": "Someone corrects them regularly. They are corrected regularly.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One short black-haired male teacher in blue seated at a desk correcting an exercise book with a red pen, stacks of books on both sides. One person, two hands. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -25895,7 +26196,8 @@
           },
           "cue": "Did anyone meet him at the station this morning?",
           "text": "Did anyone meet him at the station this morning?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One brown-haired man in a brown hat and blue coat carrying a suitcase steps off a train onto a platform. Exactly one person. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -25931,7 +26233,8 @@
           },
           "cue": "Someone met him at the station this morning. He was met at the station this morning.",
           "text": "Someone met him at the station this morning. He was met at the station this morning.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME brown-haired man in a brown hat and blue coat carrying his suitcase stands by the same train while one curly black-haired woman in green warmly greets him. Exactly two people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
       "group_size": 1
@@ -25974,7 +26277,8 @@
           },
           "cue": "Hasn't anyone repaired this car yet?",
           "text": "Hasn't anyone repaired this car yet?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One middle-aged man in a brown bowler hat and blue coat points toward a small blue car with closed hood. Exactly one man, one car. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-02",
@@ -26010,7 +26314,8 @@
           },
           "cue": "It has already been repaired!",
           "text": "It has already been repaired!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME bowler-hatted man in blue listens to one curly brown-haired mechanic in gray overalls, who smiles and spreads his hands to explain the repair is done. Exactly two men. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-03",
@@ -26046,7 +26351,8 @@
           },
           "cue": "Hasn't anyone corrected these exercise books yet?",
           "text": "Hasn't anyone corrected these exercise books yet?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two schoolchildren, a curly blonde boy in blue and a curly black-haired girl in green, point toward two stacks of exercise books on a table. Exactly two children. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-04",
@@ -26082,7 +26388,8 @@
           },
           "cue": "They have already been corrected!",
           "text": "They have already been corrected!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME curly blonde boy in blue and curly black-haired girl in green listen to one female teacher in a black academic gown and square cap. Exactly three people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-05",
@@ -26118,7 +26425,8 @@
           },
           "cue": "Hasn't anyone caught the thief yet?",
           "text": "Hasn't anyone caught the thief yet?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly ONE cartoon burglar wearing a checked cap and dark eye mask, carrying a sack, sneaking away through an open doorway. One burglar only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-06",
@@ -26154,7 +26462,8 @@
           },
           "cue": "He hasn't been caught yet. He will be caught soon!",
           "text": "He hasn't been caught yet. He will be caught soon!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly ONE uniformed policeman in a blue helmet holding a wooden baton beside a doorway, preparing to pursue the burglar. No thief in this picture. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-07",
@@ -26190,7 +26499,8 @@
           },
           "cue": "Hasn't anyone caught the thieves yet?",
           "text": "Hasn't anyone caught the thieves yet?",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly TWO cartoon burglars wearing checked caps and dark eye masks, each carrying a sack, sneaking away through an open doorway. Two burglars only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         },
         {
           "slot": "photo-panel-08",
@@ -26226,7 +26536,8 @@
           },
           "cue": "They haven't been caught yet. They will be caught soon!",
           "text": "They haven't been caught yet. They will be caught soon!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly TWO uniformed policemen in blue helmets carrying wooden batons beside a doorway, preparing to pursue the burglars. Two policemen only, no thieves in this picture. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
       "group_size": 1

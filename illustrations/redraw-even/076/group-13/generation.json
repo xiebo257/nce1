@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Two people wait at a bus stop.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-121",
+      "path": "html/assets/lesson-076/lesson-076-pic-121-color.webp",
+      "sha256": "c4a69436577b15f3574d2624cd1d8aa8b60b88d399b3317e9342c7a8d1e73f37"
+    }
+  ],
+  "fingerprint": "07e3d002bde39dfa2b06fa69b4370cd8e7f193e4e8323295be7f4ec971fae714",
+  "sha256": "4c68d946bdbd42912e31d420df1ddf63f1d3420c39db5dfce21695093b10ab71",
+  "reference_sha256": "6be4c89ad8bc73a5587ab3a3ead3ef9e30ca3c126c6eea5f0c6f9d8cafc6abbc",
+  "seconds": 50.52,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a clean full-color educational cartoon of this photographed scene. A thirsty boy in a blue shirt stands on the left, tilts his head back and drinks water directly from a clear glass held to his mouth. A dark-haired girl in a green dress stands on the right watching, having given him the water. Exactly two people. A small garden tap may appear at far left. No other cups, machines or robotic parts. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering.",
+  "seed": 741113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-103",
+      "path": "illustrations/redraw-inputs/074-photo-03.png",
+      "sha256": "c98bb3c338509b64fa9a9012827eb04541bba0fb6a9c0487fe8542180771a8ca"
+    }
+  ],
+  "fingerprint": "802c6b347631ec5610ad1b106e3009f31349732bca6884e8797b11aa709e8626",
+  "sha256": "b1f308a6b28c0c1a1f190bb29b8e320735c9d3eeb7a3f95f9453eef139175032",
+  "reference_sha256": "10de1d55fa2776b4c764e6e5f349f81e38f4884f14ea96b8adae21e362daeb55",
+  "seconds": 51.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

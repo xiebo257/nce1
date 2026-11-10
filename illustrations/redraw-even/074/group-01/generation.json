@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A bald man with a cross-shaped bandage on his face shaves hurriedly in front of a hand mirror; band-aids cover his arms.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 741111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-101",
+      "path": "html/assets/lesson-074/lesson-074-pic-101-color.webp",
+      "sha256": "409d86973c6b9d63309995cf2fd67775410a20ec646f5705fa5bee5e8949d929"
+    }
+  ],
+  "fingerprint": "b16a97c47965853e3628c9993abff39caad444b556042d0fb93304135c55a813",
+  "sha256": "1552d4d1690f5a4e4d57781c6c9755b810e75b86f7092ea0541ae91c4ad9436f",
+  "reference_sha256": "668243c157f415ef2a35dca17d778b2aca89e169d45ba0d1b177d1700e34217e",
+  "seconds": 47.28,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

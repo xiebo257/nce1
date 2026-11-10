@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A boy looks at a car in a show room and wants one like that.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-122",
+      "path": "html/assets/lesson-076/lesson-076-pic-122-color.webp",
+      "sha256": "10d30fddd0ddd7a2214b155d1640369e020e6e3b995084440d20efe4cb4f490c"
+    }
+  ],
+  "fingerprint": "21119078c8aa180c1bddd216ab6203e802e10a7536771f1510867cbf9d25a5c9",
+  "sha256": "a73ab0b4ee35d0706f0e3f3d0d60647ff72f2af56242e9973bcc494a7b56a0bd",
+  "reference_sha256": "f1d6ad0a35eb048ede3cf17d01687d15db67691c11ed1b993b57de0a698bf4dc",
+  "seconds": 49.7,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

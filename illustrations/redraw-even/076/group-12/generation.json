@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man paints a bookcase with a brush.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-120",
+      "path": "html/assets/lesson-076/lesson-076-pic-120-color.webp",
+      "sha256": "351425a4245b096a679cefc3cc880a3ef202e27eb905e34b54c3d43d6cfaff83"
+    }
+  ],
+  "fingerprint": "0131881ce63fe2c688914c85e74a04f0ba0a55010bb78830c44f28496a16e0cc",
+  "sha256": "d0a080ff21da566eedfb1711d86c7d63e88e66e3203fc509f200c12a6170b6f2",
+  "reference_sha256": "9906745e67fbdfb6fcc55675ee8de1687444808e617623c45403af15884a62d6",
+  "seconds": 49.8,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

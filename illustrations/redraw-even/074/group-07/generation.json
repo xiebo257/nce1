@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color cartoon based on the photographed action. Exactly four adults at a party: a dark-haired man in a blue striped shirt and a curly blonde woman in a black dress smiling together in front, with two other adults dancing behind them. No children, no extra heads or faces. Smooth lines, clear friendly faces, complete subjects, no lettering.",
+  "seed": 741117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-107",
+      "path": "illustrations/redraw-inputs/074-photo-07.png",
+      "sha256": "f525585b02d565ae00c45a7bd7c70b1eb0dc6098b286d114e17ce62bbd808756"
+    }
+  ],
+  "fingerprint": "d1cbf036c036fad1269a42e97d72261003e4ab47a0b686eedae06a106f01af3a",
+  "sha256": "a3727b57068144f7094b4aaa8d32f4aa45eca04331d11ca8c41ff8aabe01b71e",
+  "reference_sha256": "e700c51a7819292c0f68113db7390a97de478a7a9b9a8668e9ba159efc448e1f",
+  "seconds": 52.66,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

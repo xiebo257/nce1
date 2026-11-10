@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man looks at a framed photograph.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-109",
+      "path": "html/assets/lesson-076/lesson-076-pic-109-color.webp",
+      "sha256": "230c0b155766cb855c361f4013466c9f2873915ef7271146b33f1d467d066c33"
+    }
+  ],
+  "fingerprint": "a2c416956926857170ae3e1d26c5700920033ae414a927ae6b1c67ddae0619a8",
+  "sha256": "f6a6590442131b8e9709702d380f9ba8b24a78ae9ccf3b247c7b35eee92c5194",
+  "reference_sha256": "887895bf2b68f4d4014f7186051e5d2c2735ff30899db68161b907b1c5e652d3",
+  "seconds": 50.2,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

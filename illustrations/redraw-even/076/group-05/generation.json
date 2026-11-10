@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man works at a desk in an office with filing cabinets.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-113",
+      "path": "html/assets/lesson-076/lesson-076-pic-113-color.webp",
+      "sha256": "dbe428e40f1a7060ebfe01d443f8cf48cf3c3660d228e4a2df9fd39d31d32380"
+    }
+  ],
+  "fingerprint": "f382f4563e0fed1daadb6ce989b412aaf7160270cbcb9b71380ffc8101fcb80e",
+  "sha256": "d28b4a4dcdd99fbe6af140e3d8be51767a50b4e388b653fa30fba0e6d8ebf9f0",
+  "reference_sha256": "8ebd712f9dc18300e13d6cde555d48c6fbae11ee2d07b73a5a142162e94584a6",
+  "seconds": 50.59,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

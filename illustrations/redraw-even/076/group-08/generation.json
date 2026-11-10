@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man and a woman watch television.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-116",
+      "path": "html/assets/lesson-076/lesson-076-pic-116-color.webp",
+      "sha256": "d2db673c3aa9b4f40ee31796aa5f567fa26ee9dcd382d85aed88cb02f32a362b"
+    }
+  ],
+  "fingerprint": "8b04342fa41d663670154f04fdbe8e72ef85d63bb9a5b523676c38cad507fbc8",
+  "sha256": "9adfafea8cb43dfe5c04f00d0228025aad70e834044b86aa642b516fc12d7d52",
+  "reference_sha256": "a16953a48221897d52600d3604cb76ce26956cdce8fe05308c7e39255628cfe6",
+  "seconds": 49.77,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

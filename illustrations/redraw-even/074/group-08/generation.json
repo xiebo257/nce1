@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color cartoon based on the photographed action. Exactly one cleanly drawn adult man swimming freestyle in blue water. Short curly brown hair, clean-shaven face, two normal arms: one arm extends forward at water level and the other bends for the stroke. His body is partly submerged; a small splash behind his feet. Natural human anatomy, no merged arms, no giant shoulders, no beard. Smooth lines, clear friendly faces, complete subjects, no lettering.",
+  "seed": 741118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-108",
+      "path": "illustrations/redraw-inputs/074-photo-08.png",
+      "sha256": "8d0108a3b22f5c0d2ca5acf60c3c3bfe1a4748c78cb46ef686a3a5ea178bb71b"
+    }
+  ],
+  "fingerprint": "caec98452cf6863a778b1d226df7b9e3c42412c5710f8fde8aa06945e9b0c4da",
+  "sha256": "844be63e9cffdc470a731b8c6585af62b2b9ba4e41315329e85a7be69837f165",
+  "reference_sha256": "a6f2d38ba2482950bb0a016de1969ed844383b1266d8bb141bb3da31d13702c8",
+  "seconds": 51.76,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

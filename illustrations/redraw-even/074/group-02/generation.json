@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a clean full-color educational cartoon of this photographed scene. Two successive moments of the SAME boy with short black hair in a blue shirt: at left he picks up a small cake from a table of cakes; at right he eats the cake quickly with his hand at his mouth. Exactly two depictions of the boy, no extra heads behind the table. Clean natural cartoon anatomy, crisp smooth outlines, white background, no lettering.",
+  "seed": 741112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-102",
+      "path": "illustrations/redraw-inputs/074-photo-02.png",
+      "sha256": "44a392228c2c6c360eac52de5ada84add67da61b5a8e26fb6743e3c8f525d67f"
+    }
+  ],
+  "fingerprint": "a5ee11bca58ebba33402cf23c7ba50b13814ff7b8754d0008f671215098652a9",
+  "sha256": "7a5e5b20b11f181c89bb3d3f38921c5958217577edb41842b03df6efbc449b61",
+  "reference_sha256": "f481f539c19dc6aa822b6d4d4f97cebaa72c0df5afbe3240f7c091912d1c615c",
+  "seconds": 51.83,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

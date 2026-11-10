@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man and a woman meet in the street and greet each other warmly.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 741114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-074-pic-104",
+      "path": "html/assets/lesson-074/lesson-074-pic-104-color.webp",
+      "sha256": "965a70ef42d77f500299e8b0457a06f36f3f452995365f6dff731b87b7f5fe6c"
+    }
+  ],
+  "fingerprint": "64810e8b0d960993ee391cded5489cff46fc540a05f42e51c71a5ba7255c831e",
+  "sha256": "a0ee091494bc6e3b0d9a3cc2dcda8e6cced57e3d49cf5baac491a31b43dc3bda",
+  "reference_sha256": "d8a0759a35937d37087a2a0bcdbd896ef9410279b0929da5814a006b787b61ef",
+  "seconds": 49.95,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/074.json"
+}

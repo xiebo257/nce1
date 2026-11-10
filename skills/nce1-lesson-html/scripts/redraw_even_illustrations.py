@@ -195,6 +195,11 @@ def review(number, notes):
     for index, items in enumerate(groups(lesson), 1):
         directory = WORK / f'{number:03}' / f'group-{index:02}'
         record = read(directory / 'generation.json')
+        for item in items:
+            if item.get('required_overlays'):
+                assert lesson.get('candidate_edits', {}).get(item['slot'], {}).get('operations'), (
+                    f"Complete exact overlays before review: {number} {item['slot']} {item['required_overlays']}")
+                assert (directory / 'candidate-edits.json').exists(), 'Apply required overlays before review'
         assert record['fingerprint'] == fingerprint(specification(number, lesson, index, items))
         assert record['sha256'] == digest(directory / 'redrawn.png')
         records[str(index)] = {'sheet_sha256': record['sha256'],

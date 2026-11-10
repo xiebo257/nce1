@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A girl thanks her father, who holds flowers.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-118",
+      "path": "html/assets/lesson-076/lesson-076-pic-118-color.webp",
+      "sha256": "d25f7782a08bef3ad13ee04719070b01ea6bdc36003671b7d97affa027d24414"
+    }
+  ],
+  "fingerprint": "d1d50015d157cf20f34013a8ed7ad8c34aa94903f7f80e5b3a483fd76a81fcde",
+  "sha256": "6fd3f2a1f63910da4e497c42afb3eb46995bc2066230864ce56765ccfaf57577",
+  "reference_sha256": "2ebc6459d8fa83f7b8fde9a2b5862035c213240802b02253064016aff242ea65",
+  "seconds": 49.48,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}

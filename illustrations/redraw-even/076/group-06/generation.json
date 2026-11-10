@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A girl asks a question, raising her hand.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 761116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-076-pic-114",
+      "path": "html/assets/lesson-076/lesson-076-pic-114-color.webp",
+      "sha256": "beae0087f43b8761269d0c72b2886ee8a53f0602384b15430976974da37bb42f"
+    }
+  ],
+  "fingerprint": "8467d7fbbe368529de01cf861f504b651b4305f19020c81bc3b680c37ac63620",
+  "sha256": "53a17e5fba65a15585c9bbf57c9ef0023a35d636b7a082f02a79a3063eb03d88",
+  "reference_sha256": "4d337851f55e95eb877cd2df5bd1686b87a7c1c05d08159559b4df9a94b4b065",
+  "seconds": 49.91,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/076.json"
+}
