@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. The same couple relaxing on a beach under a striped parasol: blonde woman in green swimsuit at left and black-haired man in blue swimming trunks at right, both wearing sunglasses and reclining on the sand. Exactly two people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1080",
+      "path": "illustrations/redraw-inputs/082-photo-11.png",
+      "sha256": "badc6cb625c5ef15006c55c2e68294d14aa2b4eec4c599861e06e6ec3817ff3f"
+    }
+  ],
+  "fingerprint": "82bf5832446fc8831705e3802e525d99c1ff739c857f15940e8fdb348dea9988",
+  "sha256": "158414805e4046ea750aba34c78ef35fd2223f34fef3029f558c79fafaf727b5",
+  "reference_sha256": "51f4150b7e461c43bd35f44d304ae7e31198e4d54b8a82fee008bcacbc227612",
+  "seconds": 50.07,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

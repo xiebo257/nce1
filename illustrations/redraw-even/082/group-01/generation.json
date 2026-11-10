@@ -1,0 +1,52 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man and a woman eat breakfast at a table with a clock behind them.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
+  "seed": 821111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-760",
+      "path": "html/assets/lesson-082/lesson-082-pic-760-color.webp",
+      "sha256": "279689be2f9b212328ea2f795adb0b617d8cced906af2f4d93814ea2346ff52f"
+    }
+  ],
+  "fingerprint": "871187e60e096c37529bc15e3a9f0af22c694b54288dacd5c38227aaacb3b95e",
+  "sha256": "3fe33a225a2e4595bd869cec59ef9e202f8e5679826d6df03f38cce9a6edbdda",
+  "reference_sha256": "da19bcd0a1e538ec46cb9e1009b00f1e78a755f5095b498658778c28bef22ca0",
+  "seconds": 49.46,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/082/group-01/redrawn.png",
+    "source_sha256": "3fe33a225a2e4595bd869cec59ef9e202f8e5679826d6df03f38cce9a6edbdda",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/082/diagrams/inset-8-45.png",
+        "clear_box": [
+          68,
+          59,
+          152,
+          142
+        ],
+        "placement": [
+          68,
+          59,
+          84,
+          84
+        ],
+        "clock_time": "8:45",
+        "sha256": "0d66ad7239b6e26efee1d61dd70ab693e0d2a1de9d5e9267f6b4fea28b507b53"
+      }
+    ],
+    "output_sha256": "fb8e4ddcc2f8c4f13ffb1ee714671fcb460204bd6536810742d16c455cc3efe1"
+  },
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. One adult man with short black hair swimming in water, facing left. Show exactly two arms doing a swimming stroke: one arm reaches forward left, one arm bent back behind him; two legs stretch behind him to right with feet breaking the water. Bare torso, dark blue swimming trunks. No third arm or extra person. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1030",
+      "path": "illustrations/redraw-inputs/082-photo-06.png",
+      "sha256": "3cec036ea04f0584cbeacc1516b36373ba73863ca54d85c363bcd82445281430"
+    }
+  ],
+  "fingerprint": "43b2f75fed5c3dc22325ac978e8b0a3e6ae0482ba7d8852933453112fe38be04",
+  "sha256": "dc8e18e885d7d86bf508bd9c4334397e1946748cdbebfd328a79a0e017fcd709",
+  "reference_sha256": "65bd7e712857cb5ab6efe91f036aea5bff3d7fd670897cb404594772c9ff0ddc",
+  "seconds": 52.15,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

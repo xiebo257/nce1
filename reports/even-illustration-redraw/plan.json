@@ -12109,8 +12109,8 @@
         },
         {
           "slot": "lesson-082-pic-1070",
-          "reference": "illustrations/redraw-inputs/082-photo-10.png",
-          "reference_sha256": "26093fd6149f04e8411cbad7961335db42bcc12a3ec020dea8164d19155fe59e",
+          "reference": "illustrations/redraw-inputs/082-party-hands-correction.png",
+          "reference_sha256": "d47c92b368924fd8182303a04e598398cad166148e53149b81b68475b67153cb",
           "source_photo": "img/lesson-082-01-text.jpg",
           "source_photo_sha256": "9936fddfbfad0afe8f5ae9c96c4d0dff95c793ee6a8652cf1594179f2b34f448",
           "previous": {
@@ -12169,7 +12169,7 @@
               2500
             ]
           },
-          "edit_instruction": "Draw one crisp full-color educational cartoon based on this original photo crop. Four adults at a party: blonde woman green blouse at left; black-haired man blue shirt next to her; man in gray shirt at right, and another adult behind them. They smile, talk and hold small glasses. Exactly four people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters."
+          "edit_instruction": "Edit only the two DARK BROWN HANDS of the man wearing a BLUE SHIRT in the middle left. Recolor BOTH his hands and exposed wrists to the SAME PALE PEACH skin color as his face. Keep the glasses that he holds. His face, both hands and wrists must all have matching pale peach skin. Keep the other three people, faces, clothes, poses, glasses, background and artwork completely unchanged."
         },
         {
           "slot": "lesson-082-pic-1080",
@@ -12391,6 +12391,30 @@
               "clock_time": "1:00"
             }
           ]
+        },
+        "lesson-082-pic-1070": {
+          "source_asset": "illustrations/redraw-inputs/082-party-hands-correction.png",
+          "reason": "Use the earlier model candidate without unintended glasses; correct hand and forearm skin colors locally after the follow-up model edit failed.",
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                145,
+                160,
+                280,
+                234
+              ],
+              "hue_range": [
+                0,
+                30
+              ],
+              "to_hue": 20,
+              "min_saturation": 90,
+              "min_value": 70,
+              "saturation_delta": -85,
+              "value_delta": 55
+            }
+          ]
         }
       }
     },
@@ -12502,8 +12526,8 @@
         },
         {
           "slot": "lesson-084-pic-3000",
-          "reference": "html/assets/lesson-084/lesson-084-pic-3000-color.webp",
-          "reference_sha256": "0feea45b4281c553fb9b0e0657b288d5c64e79719692ae396aae0c7a78bd1f07",
+          "reference": "illustrations/redraw-inputs/084-photo-03.png",
+          "reference_sha256": "354a70b7ce7c1e88abc8a6df07655f020c66276aae30e3c00fe3c917b56aa597",
           "source_photo": "img/lesson-084-01-text.jpg",
           "source_photo_sha256": "27ee4f511a904e28eb2a75afeb1064ea1ecd009743517fd8926c21ec5ad9e47b",
           "previous": {
@@ -12549,12 +12573,25 @@
           "cue": "A bowl of oranges.",
           "text": "3,000 — oranges",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bowl of oranges.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp colorful educational illustration. Exactly SIX oranges stacked in a brown fruit bowl, three toward the back and three toward the front. Orange-colored oranges, round fruit with small green stars on top. Match the original photographed bowl arrangement. White background, clear outlines, subtle shading, no text or captions, no faces or people.",
+          "direct_photo_crop": {
+            "source": "img/lesson-084-01-text.jpg",
+            "box": [
+              729,
+              453,
+              979,
+              618
+            ],
+            "source_size": [
+              1606,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-084-pic-4000",
-          "reference": "html/assets/lesson-084/lesson-084-pic-4000-color.webp",
-          "reference_sha256": "1c577cd81b3aa19d4aa47af7df5096ac3905619d660a157dfef28df62f97ff8d",
+          "reference": "illustrations/redraw-inputs/084-photo-04.png",
+          "reference_sha256": "633d5444279e257acbc96040278f1e76974d6fb8bf1774be98015560bcc864c0",
           "source_photo": "img/lesson-084-01-text.jpg",
           "source_photo_sha256": "27ee4f511a904e28eb2a75afeb1064ea1ecd009743517fd8926c21ec5ad9e47b",
           "previous": {
@@ -12600,7 +12637,20 @@
           "cue": "A wooden bowl of peaches.",
           "text": "4,000 — peaches",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A wooden bowl of peaches.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp colorful educational illustration. Exactly FIVE peaches in a wooden bowl, three toward back and two at front. Peaches have warm yellow and pink blush skin, a visible curved crease down the side and a heart-shaped cleft at the top. These are peaches, not apples; no long brown apple stems. Match the original photographed bowl arrangement. White background, clear outlines, subtle shading, no text or captions, no faces or people.",
+          "direct_photo_crop": {
+            "source": "img/lesson-084-01-text.jpg",
+            "box": [
+              1039,
+              449,
+              1298,
+              618
+            ],
+            "source_size": [
+              1606,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-084-pic-5000",
@@ -12651,7 +12701,7 @@
           "cue": "A bowl of apples.",
           "text": "5,000 — apples",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bowl of apples.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. Exactly FIVE red and yellow apples in a fruit bowl, three apples in the back row and two in front. Clear apple stems and round shapes. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-6000",
@@ -12702,7 +12752,7 @@
           "cue": "Bowls of vegetables with steam rising.",
           "text": "6,000 — vegetables",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of Bowls of vegetables with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. Exactly two bowls of cooked GREEN vegetables: back bowl filled with round GREEN PEAS, front bowl with long GREEN BEANS. Wisps of steam rising above both bowls. No tomatoes or red food. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-7000",
@@ -12753,7 +12803,8 @@
           "cue": "A salad bowl of lettuce with a spoon.",
           "text": "7,000 — lettuce",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A salad bowl of lettuce with a spoon.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A salad bowl of lettuce with a spoon.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+          "verified_description": "A bowl of lettuce with salad serving utensils."
         },
         {
           "slot": "lesson-084-pic-8000",
@@ -12804,7 +12855,7 @@
           "cue": "A steaming dish of cabbage.",
           "text": "8,000 — cabbage",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A steaming dish of cabbage.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. One bowl of chopped cooked GREEN CABBAGE, a few wisps of steam rising. Recognizable folded leafy cabbage pieces, not peas or beans. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-9000",
@@ -12855,7 +12906,7 @@
           "cue": "A steaming dish of peas.",
           "text": "9,000 — peas",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A steaming dish of peas.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. One bowl full of round cooked GREEN PEAS with a few wisps of steam. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-10000",
@@ -12906,7 +12957,7 @@
           "cue": "A steaming pot of beans.",
           "text": "10,000 — beans",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A steaming pot of beans.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. One pot filled with long cooked GREEN BEANS, a few wisps of steam. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-11000",
@@ -12957,7 +13008,7 @@
           "cue": "A plate of pieces of meat with steam rising.",
           "text": "11,000 — meat",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A plate of pieces of meat with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. One oval plate with exactly THREE cooked brown pieces of meat, visible steam rising above them. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-12000",
@@ -13012,8 +13063,8 @@
         },
         {
           "slot": "lesson-084-pic-13000",
-          "reference": "html/assets/lesson-084/lesson-084-pic-13000-color.webp",
-          "reference_sha256": "46b867598ab83602882183b6ae90d68d7f1f1649773afa9cafb58d1be016c5f1",
+          "reference": "html/assets/lesson-080/photo-panel-13-redrawn.webp",
+          "reference_sha256": "3536c5d8e0c4f8b2d8b6f3eeec9ff1b080a72c0d238ce8c248d4905482327571",
           "source_photo": "img/lesson-084-01-text.jpg",
           "source_photo_sha256": "27ee4f511a904e28eb2a75afeb1064ea1ecd009743517fd8926c21ec5ad9e47b",
           "previous": {
@@ -13059,7 +13110,7 @@
           "cue": "A roast leg of lamb on a plate with steam rising.",
           "text": "13,000 — lamb",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A roast leg of lamb on a plate with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Transform this raw food illustration into one cooked roast leg of lamb with a golden-brown smooth exterior, browned meat cross section around a white bone and thin creamy fat. Place it on one oval white serving plate with three wisps of steam rising above. Preserve the recognizable shape of the food. Sharp colorful educational cartoon, white background, no lettering, no faces, no fur."
         },
         {
           "slot": "lesson-084-pic-14000",
@@ -13110,12 +13161,12 @@
           "cue": "A plate of steaks with steam rising.",
           "text": "14,000 — steak",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A plate of steaks with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. One oval plate with exactly THREE cooked beef STEAKS, two toward the front and one behind, visible steam rising above them. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
         },
         {
           "slot": "lesson-084-pic-15000",
-          "reference": "html/assets/lesson-084/lesson-084-pic-15000-color.webp",
-          "reference_sha256": "4ebedcfd2611586cc45157d48f03d5606bc69cedcf4441fe82fff685d93dad10",
+          "reference": "html/assets/lesson-080/photo-panel-17-redrawn.webp",
+          "reference_sha256": "65c7292f6afdd070df62745a13d7976f34340e7f35f32ac39f9329d9f54a9875",
           "source_photo": "img/lesson-084-01-text.jpg",
           "source_photo_sha256": "27ee4f511a904e28eb2a75afeb1064ea1ecd009743517fd8926c21ec5ad9e47b",
           "previous": {
@@ -13161,7 +13212,7 @@
           "cue": "A roast chicken on a plate with steam rising.",
           "text": "15,000 — chicken",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A roast chicken on a plate with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Transform this raw food illustration into one headless plucked ROAST CHICKEN with golden-brown skin, two drumsticks and folded wings, no eye or face. Place it on one oval white serving plate with three wisps of steam rising above. Preserve the recognizable shape of the food. Sharp colorful educational cartoon, white background, no lettering, no faces, no fur."
         },
         {
           "slot": "lesson-084-pic-16000",

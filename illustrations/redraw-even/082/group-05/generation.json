@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. The same adult couple having a meal at a restaurant table: man short swept black hair and blue shirt on left; woman straight blonde shoulder-length hair and green blouse on right. Two plates of food, one green wine bottle with a blank label and two wine glasses. Exactly two people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1020",
+      "path": "illustrations/redraw-inputs/082-photo-05.png",
+      "sha256": "2fc63928818c11b3b6fd31014a6310c48fb2df4318974871c0019de66bab2591"
+    }
+  ],
+  "fingerprint": "66b720ed8dea0957e31e4b8c7aa69844f4df03269afee5be5c7af531941596a9",
+  "sha256": "640ac771f568dcfe4931513290534a24e97df5c7742f380cca6ee12d16e238b9",
+  "reference_sha256": "d6c9551158685159c411d5889a09c8bddeac0a1665b2a5399d845d31b9deea20",
+  "seconds": 52.76,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

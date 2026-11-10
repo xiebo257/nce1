@@ -17,7 +17,8 @@ def main():
                      for index, group in enumerate(groups(lesson), 1) for item in group}
         for slot, recipe in lesson.get('candidate_edits', {}).items():
             directory = locations[slot]
-            source = locations[recipe.get('copy_scene_from', slot)] / 'redrawn.png'
+            source = (Path(recipe['source_asset']) if recipe.get('source_asset') else
+                      locations[recipe.get('copy_scene_from', slot)] / 'redrawn.png')
             with Image.open(source) as original:
                 image = original.convert('RGB')
             record = {'source': str(source), 'source_sha256': digest(source), 'operations': []}
@@ -40,7 +41,11 @@ def main():
                 if operation['type'] == 'hue-shift':
                     box = operation['box']; region = image.crop(box).convert('HSV')
                     pixels = list(region.getdata()); low, high = operation['hue_range']
-                    region.putdata([(operation['to_hue'], s, v) if low <= h <= high and s >= operation['min_saturation'] else (h, s, v)
+                    region.putdata([(operation['to_hue'],
+                                     max(0, min(255, s + operation.get('saturation_delta', 0))),
+                                     max(0, min(255, v + operation.get('value_delta', 0))))
+                                    if low <= h <= high and s >= operation['min_saturation']
+                                    and v >= operation.get('min_value', 0) else (h, s, v)
                                     for h, s, v in pixels])
                     image.paste(region.convert('RGB'), (box[0], box[1]))
                     record['operations'].append(operation)

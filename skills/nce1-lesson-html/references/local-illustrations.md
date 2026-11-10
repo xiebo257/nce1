@@ -320,3 +320,14 @@ scale needle direction, and which person is tallest. Describe these explicitly
 before generation and inspect them together afterward. Record discrepancies
 between a printed sentence and an original clock rather than silently claiming
 both agree.
+
+During long redraw batches, check the priority queue after each completed image
+and resume the interrupted lesson using fingerprints. This lets inspected fixes
+run promptly and reloads updated prompts without loading a second GPU model.
+For generic food references, state the exact visible count and ingredients before
+generation: "vegetables" alone changed green peas into tomatoes, and apples lost
+a fruit. Distinguish raw meat from cooked meat and specify headless poultry.
+If a local edit changes unrelated features (for example adding glasses while
+correcting hand color), retain the earlier correct model candidate. A recorded
+`source_asset` refinement may apply a narrowly bounded HSV adjustment to that
+candidate; inspect the whole result and track the source PNG and its hash.

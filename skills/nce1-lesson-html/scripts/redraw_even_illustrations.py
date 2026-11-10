@@ -182,6 +182,14 @@ def generate(numbers, selected_groups):
             print('CANDIDATE', number, index, flush=True)
             del result
             mx.clear_cache(); gc.collect()
+            # Let inspected corrections preempt a long lesson at a safe image boundary.
+            # Requeue this lesson so cached outputs are checked against the latest plan.
+            priority_path = WORK / 'priority.json'
+            if priority_path.exists() and read(priority_path):
+                priorities = read(priority_path)
+                write(priority_path, [])
+                pending = list(dict.fromkeys(priorities + [number] + pending))
+                break
         priority_path = WORK / 'priority.json'
         if priority_path.exists():
             priorities = read(priority_path)

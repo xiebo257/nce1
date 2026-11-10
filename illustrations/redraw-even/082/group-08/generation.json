@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. A barber in a white shirt and dark trousers stands behind a seated adult male customer with short black hair, cutting his hair with scissors and a comb. Customer wears a blue barber cape, seated on a salon chair, feet on floor. Exactly two adult men with normal proportions; barber has two arms and two legs. No extra limbs. No border. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1050",
+      "path": "illustrations/redraw-inputs/082-photo-08.png",
+      "sha256": "6cbc39b9d3e232447897c3ce15106787f0037f1dbca865bb14bbc6b2bf95dc4c"
+    }
+  ],
+  "fingerprint": "927a704f4b7c0613e82736f4715327af2ffed44e19ea4d64e6b500a9dd469dac",
+  "sha256": "2c60c564f9a0e963904060c713fd4a6a199066a77ac2613d6e5b439ab0c48c64",
+  "reference_sha256": "e78c2a000a7828e51c95e8e77547eff444915d49390a075f3b05bfa9c5dc1af4",
+  "seconds": 49.9,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

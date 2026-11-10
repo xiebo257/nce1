@@ -1,0 +1,52 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. Two adult men seated at a table eating lunch: left man short swept black hair and blue shirt; right man short side-parted light brown hair and light gray shirt. Plates of lunch, exactly two men. One small blank clock circle above between them. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-870",
+      "path": "illustrations/redraw-inputs/082-photo-02.png",
+      "sha256": "480bb332131f2aee7bf6d6b36b56f371793598422ccab24395f056de28694a02"
+    }
+  ],
+  "fingerprint": "6df94fee08df47eed06cef831836fbdd5ad2ff0828ad83413cb8cd6f6865c781",
+  "sha256": "3f92b84a892aa2f32d623e545e75c1310d59c5456665eebe677d1c1d57439ba0",
+  "reference_sha256": "5af47ca870d8338af7e93b94f6be8bc31a4908ebb168f17dd69376770d05508d",
+  "seconds": 50.72,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/082/group-02/redrawn.png",
+    "source_sha256": "3f92b84a892aa2f32d623e545e75c1310d59c5456665eebe677d1c1d57439ba0",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/082/diagrams/inset-1-00.png",
+        "clear_box": [
+          206,
+          16,
+          309,
+          119
+        ],
+        "placement": [
+          206,
+          16,
+          103,
+          103
+        ],
+        "clock_time": "1:00",
+        "sha256": "f78b35bba2d8eb39b12f2d922a510fe8df2cd5880b15f5c9560fbf8a424b8fed"
+      }
+    ],
+    "output_sha256": "556960add559aaebd7721dd2544e38dd0bf90febb420da38664531ae121c6be6"
+  },
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

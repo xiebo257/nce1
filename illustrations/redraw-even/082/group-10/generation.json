@@ -1,0 +1,52 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Edit only the two DARK BROWN HANDS of the man wearing a BLUE SHIRT in the middle left. Recolor BOTH his hands and exposed wrists to the SAME PALE PEACH skin color as his face. Keep the glasses that he holds. His face, both hands and wrists must all have matching pale peach skin. Keep the other three people, faces, clothes, poses, glasses, background and artwork completely unchanged.",
+  "seed": 821120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1070",
+      "path": "illustrations/redraw-inputs/082-party-hands-correction.png",
+      "sha256": "d47c92b368924fd8182303a04e598398cad166148e53149b81b68475b67153cb"
+    }
+  ],
+  "fingerprint": "898a6835040d3bae11f2bab5eebb11407205a25d45c11d49f918920dd3ff5b0b",
+  "sha256": "5ee0db4576c205dc79c2e76356718ff393d03772a8deba8e422974228c2dc2c3",
+  "reference_sha256": "b6f848157d8ff97a9ade81d9fde79eca8842c685c04c1da1f68a29b581f30bcb",
+  "seconds": 48.32,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/redraw-inputs/082-party-hands-correction.png",
+    "source_sha256": "d47c92b368924fd8182303a04e598398cad166148e53149b81b68475b67153cb",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          145,
+          160,
+          280,
+          234
+        ],
+        "hue_range": [
+          0,
+          30
+        ],
+        "to_hue": 20,
+        "min_saturation": 90,
+        "min_value": 70,
+        "saturation_delta": -85,
+        "value_delta": 55
+      }
+    ],
+    "output_sha256": "b87194aa5216fcdaf9aa78b995a13464b4e56093a48670c5d6f2ce922e2f1ae1"
+  },
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. A male teacher in a dark blue jacket stands at left teaching two male students seated behind separate desks at right. Teacher black hair, first student black hair and green shirt, second blond hair and orange shirt. Exactly three men. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1060",
+      "path": "illustrations/redraw-inputs/082-photo-09.png",
+      "sha256": "eb2eb62ae4389c1aa953d3595e3857806e2fd35be0612e7eba54832d1ed3281c"
+    }
+  ],
+  "fingerprint": "b7450a4d67c7c8ee331d6566df66c97933220e03aa2b11a5c425227a0b9d8bc1",
+  "sha256": "f62da4c5715f1f22c94db79c704d61e66e4aee4ba677a5f1bfda76e5c62e435e",
+  "reference_sha256": "5d3bc743d932996ce106d7005bd633ca4c208dc4d0e0f2f48d7ada49785304b3",
+  "seconds": 49.99,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

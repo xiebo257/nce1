@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. The same couple having a good time roller-skating together: blonde woman in green blouse and skirt at left, black-haired man blue shirt and navy trousers at right. Each wears two roller skates and has exactly two arms and two legs. Exactly two people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1090",
+      "path": "illustrations/redraw-inputs/082-photo-12.png",
+      "sha256": "48167e5641a281a25d41982585b45bf52e63e91a43d6e8b5b21e7b28ccd8c74d"
+    }
+  ],
+  "fingerprint": "37350370917a6f0fded8f57063a31802d0e2ce8ff5ebc434f0049442e7616fd1",
+  "sha256": "d96744280fc38ae3331fa68489c2ba1363d4997eaddffde8788241b547abf9a7",
+  "reference_sha256": "9d591d0414508359dfeecc8a1d36962cfd1d506e50f13ceea7e966b21a7e3558",
+  "seconds": 51.93,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on this original photo crop. One adult man with short black hair taking a bath, shoulder and head above a white bathtub filled with soap bubbles. A bath brush in one hand, other arm on tub rim, exactly two arms. Green soap bottle. No other people. Smooth precise outlines, expressive faces, solid colors, white background. Complete figures. No captions or random letters.",
+  "seed": 821117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-1040",
+      "path": "illustrations/redraw-inputs/082-photo-07.png",
+      "sha256": "be4bd88662b195149158648f9fc8cc0f7205fb20588c4686d3d1ed18d9cc530b"
+    }
+  ],
+  "fingerprint": "89bff758d0252f316ea8f061968d741681b9561ce4d3055272c93d0d322ae1b2",
+  "sha256": "7c71c94ed49c8c4b14037b03b72f77cc933d7149bbf75075e28d61b3ca08305c",
+  "reference_sha256": "7c0c626c229330828124b6420d96153a7637ab44fee075f1b429771e907c132f",
+  "seconds": 50.43,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}

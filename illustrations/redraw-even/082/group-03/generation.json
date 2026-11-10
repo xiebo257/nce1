@@ -1,0 +1,52 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man and a woman have tea together at a table.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. A small blank round clock face in the upper left corner, with no hands or numbers, for an exact time overlay. Preserve the meal and the two diners. Man has short swept black hair and blue shirt; woman has straight blonde shoulder-length hair and green blouse.",
+  "seed": 821113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-082-pic-980",
+      "path": "html/assets/lesson-082/lesson-082-pic-980-color.webp",
+      "sha256": "6bfa2dc81b063d6cc6c771150827c04228d87ef5880d5bbeb5e6df84ea232a7b"
+    }
+  ],
+  "fingerprint": "0ba29fa6470c749705502bc5c1c2bc8ea0359b6672b428b2693bc232fcdcc1d8",
+  "sha256": "0995389bc07f063e2b1ea2eb1ed8edd8be986cc0031c328f2b8aa59c3e3b18b7",
+  "reference_sha256": "7d50283bf720f2bb8dcf82f307ca55c28a776a2f7951e3d155f74de23fb2f3c9",
+  "seconds": 49.35,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/082/group-03/redrawn.png",
+    "source_sha256": "0995389bc07f063e2b1ea2eb1ed8edd8be986cc0031c328f2b8aa59c3e3b18b7",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/082/diagrams/inset-4-00.png",
+        "clear_box": [
+          165,
+          33,
+          264,
+          130
+        ],
+        "placement": [
+          165,
+          33,
+          99,
+          99
+        ],
+        "clock_time": "4:00",
+        "sha256": "f94490371fb93cd0542cb0f4b309b40bc3aee4fe7fc653897a77c3100d3289e5"
+      }
+    ],
+    "output_sha256": "802fbef2639695c2d0c418bc1e12c16c3ddd64ade811592937a47b373399a396"
+  },
+  "review": "reports/even-illustration-redraw/reviews/082.json"
+}
