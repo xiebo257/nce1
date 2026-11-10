@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on the reference. One GREEN suitcase on the platform of an analog weighing scale. The dial at right has its single needle pointing upper RIGHT, showing the heaviest case. Inanimate objects only, no faces or people. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text.",
+  "seed": 1081122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "html/assets/lesson-108/photo-panel-12.webp",
+      "sha256": "3a8d0d45568eb9c9f4ae62f495602e96c660b96ce0b8be751917d26c426072b6"
+    }
+  ],
+  "fingerprint": "310dd1caca22db7cdea71e59a8571e8572fc3dd0cf5ac97314cae4da2f62f764",
+  "sha256": "33551e49142fb56785b6c9ede24f2fcb072f60c04a197fefcefa911b6d98985a",
+  "reference_sha256": "c2b50c368b7615d30cbcf7ddc4defcde56e1c3ba350b33d053cbd9814492a2c5",
+  "seconds": 57.44,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on the reference. A sunny beach with three people resting by the sea and a moderate-sized sun overhead. Plenty of empty sand. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text.",
+  "seed": 1081114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-108/photo-panel-04.webp",
+      "sha256": "ce2133714e13577b03da56e37105c2cdec6ebad56ee88e92ea955f94c272b76e"
+    }
+  ],
+  "fingerprint": "2721b7f745f95b9844fc3b1e85a06e2e6cd8af041bd3ec2348ba5bd90a108212",
+  "sha256": "734f6349a835ee1060f5f1cb23e35f3d74d6ba946e725fb5424d8020440b9ec6",
+  "reference_sha256": "e4759422d9b5bb9ad9523973f163ed2fa5d102e9e395a4137d94b84b5a6eda18",
+  "seconds": 58.49,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}

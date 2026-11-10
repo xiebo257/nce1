@@ -608,10 +608,10 @@
       "status": "ready",
       "description": "Sophie is tall.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture A · Group 1",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -625,19 +625,25 @@
           256,
           160
         ],
-        "asset_sha256": "ff823f90a665874e24468616b67b7602e74f2418f9ca303c349128f4f0daf59e"
+        "asset_sha256": "176fb69cbe36ae3b9eede56dc8dff88dbe3ab25cb1ca19ffe7ff4598d706d78a",
+        "redraw_manifest": "illustrations/redraw-even/108/group-01/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Sophie is tall.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-01/generation.json"
+      }
     },
     "photo-panel-02": {
       "kind": "item",
       "status": "ready",
       "description": "Paul is taller than Sophie.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture B · Group 1",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -651,19 +657,25 @@
           512,
           160
         ],
-        "asset_sha256": "469891381fcd1eaebaedcba753c5750b9b238974fb4be362a51d7c751a226fc3"
+        "asset_sha256": "36a512adfbe8b553dd4b0d0b618c16fab7eb77fe69b434d07b24ba3918b84c66",
+        "redraw_manifest": "illustrations/redraw-even/108/group-02/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Paul is taller than Sophie.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-02/generation.json"
+      }
     },
     "photo-panel-03": {
       "kind": "item",
       "status": "ready",
       "description": "Hans is the tallest student in our class.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture C · Group 1",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -677,19 +689,25 @@
           768,
           160
         ],
-        "asset_sha256": "c2bbf241d3b94772cdd50536f9512ceb3faaca32fb58435012c71b42c883fb3c"
+        "asset_sha256": "27c93486ca65dce1573270542fbeb82a5d0d3a8d0e8a1ec0af94998107003402",
+        "redraw_manifest": "illustrations/redraw-even/108/group-03/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "Hans is the tallest student in our class.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-03/generation.json"
+      }
     },
     "photo-panel-04": {
       "kind": "item",
       "status": "ready",
       "description": "It is hot today.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture D · Group 2",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -703,19 +721,25 @@
           256,
           320
         ],
-        "asset_sha256": "ce2133714e13577b03da56e37105c2cdec6ebad56ee88e92ea955f94c272b76e"
+        "asset_sha256": "4180e6cbc4e704658ecc19a5101e590f68fd8ce489408c5e798c340a4a522a36",
+        "redraw_manifest": "illustrations/redraw-even/108/group-04/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "It is hot today.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-04/generation.json"
+      }
     },
     "photo-panel-05": {
       "kind": "item",
       "status": "ready",
       "description": "It was hotter yesterday.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture E · Group 2",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -729,19 +753,25 @@
           512,
           320
         ],
-        "asset_sha256": "e13e6e1a6c63537f823326a8c2ced875b37016b65f2b1de72c800e9f66cac27c"
+        "asset_sha256": "0dcc27af2341cbdf08250fb30b7f66d2710711a4b8c28fb05828dc76fe1c32b4",
+        "redraw_manifest": "illustrations/redraw-even/108/group-05/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "It was hotter yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-05/generation.json"
+      }
     },
     "photo-panel-06": {
       "kind": "item",
       "status": "ready",
       "description": "The day before yesterday was the hottest day in the year.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture F · Group 2",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -755,19 +785,25 @@
           768,
           320
         ],
-        "asset_sha256": "303d48a82472eabc532b9dc9947be52d3fc7eff9896cc1d9b1cfb104612cf5d6"
+        "asset_sha256": "41b0338ed6d9ba58504f186fd1d33772cb768d958fedda8aa4d097f8ddd5b54a",
+        "redraw_manifest": "illustrations/redraw-even/108/group-06/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "The day before yesterday was the hottest day in the year.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-06/generation.json"
+      }
     },
     "photo-panel-07": {
       "kind": "item",
       "status": "ready",
       "description": "There was a large crowd at the race last year.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture G · Group 3",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -781,19 +817,25 @@
           256,
           480
         ],
-        "asset_sha256": "33527a02cc16f2abba7dfae643a18ddb151019119bc7538f277fc28a76457ee1"
+        "asset_sha256": "b7077146a1437e85ed628a8ba92def8f3e58ae50182fcf33255926374ef9964a",
+        "redraw_manifest": "illustrations/redraw-even/108/group-07/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "There was a large crowd at the race last year.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-07/generation.json"
+      }
     },
     "photo-panel-08": {
       "kind": "item",
       "status": "ready",
       "description": "This year the crowd is larger.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture H · Group 3",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -807,19 +849,25 @@
           512,
           480
         ],
-        "asset_sha256": "ee4050fd52369880d7e0589eee92fe31ff68bf549664fc16c4ecf43228b86412"
+        "asset_sha256": "787eb581560d81132fcf21834ed7970a6190fa681cdad788aed272cd9035c949",
+        "redraw_manifest": "illustrations/redraw-even/108/group-08/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "This year the crowd is larger.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-08/generation.json"
+      }
     },
     "photo-panel-09": {
       "kind": "item",
       "status": "ready",
       "description": "It is the largest crowd I have ever seen.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture I · Group 3",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -833,19 +881,25 @@
           768,
           480
         ],
-        "asset_sha256": "9013f50c558b4895aebc82c6554474a0642ce9e284b4b4d6cd64a2347ea385d1"
+        "asset_sha256": "9b0e5444d028f335a64a5f0807a39deba354908d891f0108e447964c56df8a48",
+        "redraw_manifest": "illustrations/redraw-even/108/group-09/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "It is the largest crowd I have ever seen.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-09/generation.json"
+      }
     },
     "photo-panel-10": {
       "kind": "item",
       "status": "ready",
       "description": "The brown suitcase is heavy.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-10.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture J · Group 4",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -859,19 +913,25 @@
           256,
           640
         ],
-        "asset_sha256": "a39545ef3e5aeb36ca2e6c0ae2b19a96798fdff2e58da8367bb4fc7cc850bfd0"
+        "asset_sha256": "2e3e3e3be78e6c02b4758e50ef70145ff6bdd236c3670489f019f3e0883512b4",
+        "redraw_manifest": "illustrations/redraw-even/108/group-10/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "The brown suitcase is heavy.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-10/generation.json"
+      }
     },
     "photo-panel-11": {
       "kind": "item",
       "status": "ready",
       "description": "The blue suitcase is heavier than the brown one.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-11.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture K · Group 4",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -885,19 +945,25 @@
           512,
           640
         ],
-        "asset_sha256": "75bad07796114c5efbbec5a8965629ca9d8c920354a8b3ca7a31d170b1e15033"
+        "asset_sha256": "2935a539cf9feccd1e4409254b30c545a13c3c422e830f3dbeeab027179a140f",
+        "redraw_manifest": "illustrations/redraw-even/108/group-11/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "The blue suitcase is heavier than the brown one.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-11/generation.json"
+      }
     },
     "photo-panel-12": {
       "kind": "item",
       "status": "ready",
       "description": "The green suitcase is the heaviest of them all.",
       "source": "../img/lesson-108-01-text.jpg",
-      "src": "assets/lesson-108/photo-panel-12.webp",
-      "width": 256,
-      "height": 160,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-108/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "origin": "local-model-redraw",
       "caption": "Picture L · Group 4",
       "photo_verification": {
         "photo": "img/lesson-108-01-text.jpg",
@@ -911,9 +977,15 @@
           768,
           640
         ],
-        "asset_sha256": "3a8d0d45568eb9c9f4ae62f495602e96c660b96ce0b8be751917d26c426072b6"
+        "asset_sha256": "379b53e11815d9036dc2a067da0d64b222b7d59d2c66040cc766ba09db9b945f",
+        "redraw_manifest": "illustrations/redraw-even/108/group-12/generation.json"
       },
-      "display_width": 256
+      "display_width": 256,
+      "alt": "The green suitcase is the heaviest of them all.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/108/group-12/generation.json"
+      }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",

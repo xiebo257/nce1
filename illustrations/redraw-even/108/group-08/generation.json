@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on the reference. A motor race with one prominent racing car and two rows of spectators behind the barrier, clearly more crowded than the one-row scene. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text.",
+  "seed": 1081118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-108/photo-panel-08.webp",
+      "sha256": "ee4050fd52369880d7e0589eee92fe31ff68bf549664fc16c4ecf43228b86412"
+    }
+  ],
+  "fingerprint": "e2c4088752682bf292ba67753d479bb867679141fe95f17c26addd06681e3256",
+  "sha256": "535656938fd4f40b3b6d62024c1b375113aefa7710b81f0c2585df3b767ef7d8",
+  "reference_sha256": "210b379f106379945888a2816cd2f78d820cdb4e2fecf8e8df1d7758719f5bd1",
+  "seconds": 56.82,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}

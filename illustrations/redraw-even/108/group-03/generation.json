@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw exactly FOUR students standing on one common ground line, clear full-color cartoon. Left to right: Sophie, a short blonde girl with shoulder-length bob, blue blouse and navy skirt; Paul, a MEDIUM-height black-haired boy in blue shirt and black trousers; Hans, a VERY TALL blonde boy in blue shirt and brown shorts; a short black-haired girl in blue. HANS the BLONDE boy is the TALLEST, his head is a full head higher than Paul. Paul is taller than Sophie but clearly SHORTER than Hans. All shoes on same baseline. Preserve people identities and clean outlines, white background, no text.",
+  "seed": 1081113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-108/photo-panel-03.webp",
+      "sha256": "c2bbf241d3b94772cdd50536f9512ceb3faaca32fb58435012c71b42c883fb3c"
+    }
+  ],
+  "fingerprint": "915c5d45e7643b0f93bdb2585c0bc54b489dbb4cd91ce9d60e1e84f52a36af0f",
+  "sha256": "11befd376aa2acb0f9565928c8850eee51e90aec31929dfad74c95556313faf6",
+  "reference_sha256": "26f6423ad40e326326e7bb3e4e8f316bfd6d8ac11e4db1d9cbcf1eaa45e245ac",
+  "seconds": 56.56,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}

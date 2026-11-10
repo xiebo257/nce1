@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on the reference. The same sunny beach on a hotter day: a larger sun and about eight people relaxing and swimming. More occupied than the preceding beach scene. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text.",
+  "seed": 1081115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-108/photo-panel-05.webp",
+      "sha256": "e13e6e1a6c63537f823326a8c2ced875b37016b65f2b1de72c800e9f66cac27c"
+    }
+  ],
+  "fingerprint": "b4328441086adaa57523a1df7bb1e30be0655fba234f3b476e706632b97a81f3",
+  "sha256": "e88dec2e009f2414b9cd6fd0fb0c587d51f576b30e4a2af10b738b5fd972af45",
+  "reference_sha256": "5b15b50885cbc3c7539306f034121299578390740b83c5369ea939bf88d4cda1",
+  "seconds": 56.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}

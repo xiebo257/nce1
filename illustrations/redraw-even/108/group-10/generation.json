@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on the reference. One BROWN suitcase on the platform of an analog weighing scale. The dial at right has its single needle pointing upper LEFT. Inanimate objects only, no faces or people. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text.",
+  "seed": 1081120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-108/photo-panel-10.webp",
+      "sha256": "a39545ef3e5aeb36ca2e6c0ae2b19a96798fdff2e58da8367bb4fc7cc850bfd0"
+    }
+  ],
+  "fingerprint": "87a687ead444d575e5eb32444c05b1e856bf8fc77ec5945a291ca481897c3d47",
+  "sha256": "c5da4a4513af4fa31876b32fbd629cbeab44a364386f33c9065579a4a9698f2b",
+  "reference_sha256": "3182570e31ea1afa8acb46a8b20038daaa8a818ff0b7984b4d78fd03a9ecff25",
+  "seconds": 59.03,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}

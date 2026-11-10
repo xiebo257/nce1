@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon based on the reference. A dense crowd filling the whole picture, many distinct small heads in multiple rows, largest crowd of the three. Preserve comparison cues. Clean outlines, solid colors, white margins, no captions or invented text.",
+  "seed": 1081119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-108/photo-panel-09.webp",
+      "sha256": "9013f50c558b4895aebc82c6554474a0642ce9e284b4b4d6cd64a2347ea385d1"
+    }
+  ],
+  "fingerprint": "02781d17f2118f399c808faff5e3380eb0f6380844ba14be1e520ebb431dbaa1",
+  "sha256": "82b79ac2250232cea2d7e9a39c4beab091d7732224026971f7a5a2347023e8c4",
+  "reference_sha256": "fda27dd8976dfc54aa45944ad0ac06866f9da53e307661e9c25e637724fe3097",
+  "seconds": 59.8,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/108.json"
+}
