@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. Three overlapping paper travel tickets with simple decorative lines, no readable words. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/098-photo-05.png",
+      "sha256": "b56ead61f973b86aa6a32c3775fe026323f18f17fd3a0cd03a4f332c01491ee5"
+    }
+  ],
+  "fingerprint": "c8a33322c812f27586eb532a19da3eb7e59b9b40e5545586cd81fd31bf0f6626",
+  "sha256": "9765c93c7d9eed302e6057303039da4ccb902499c14f65cc3289c3331c238ac9",
+  "reference_sha256": "ede1d446d223a911fa2cb45a29b9cc9f11a2d2dfd175a3b1ec3ceb474c882cb7",
+  "seconds": 57.17,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

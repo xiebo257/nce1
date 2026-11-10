@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "One wristwatch with a round silver case and a brown leather strap matching this reference. A clean WHITE MINIMALIST DIAL with exactly twelve simple black hour index strokes, NO NUMBERS and NO LETTERS. Two thin black watch hands pointing toward the upper left and upper right in a standard ten-past-ten display. No eyes or faces. Crisp full-color educational object illustration, white background.",
+  "seed": 981116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/098-photo-06.png",
+      "sha256": "9aa98e209a35ae2a133c46e9ce097bd22c7e121bb71af6824e5355122de35447"
+    }
+  ],
+  "fingerprint": "1d149716f21fdb4a4e87312ff0e941a86f36df39e8820d4ac358c5c7c3b82950",
+  "sha256": "ba795953e901fcbdee1c25dafcea313c3e3aa0cc8bdb59aa072691e90cb4851e",
+  "reference_sha256": "c7b8a2a2b8b00afb8c0bc2fd8f9e4833e8c0ab3ff49da1653fb78d4ed07c8ada",
+  "seconds": 59.3,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

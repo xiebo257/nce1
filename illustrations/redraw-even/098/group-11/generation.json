@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. One small vintage compact car, blue body and black tires. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "illustrations/redraw-inputs/098-photo-11.png",
+      "sha256": "ed63581be41ce8984952060e050c9d9aa5543bcf3e446a14d2791a0d932e3ea9"
+    }
+  ],
+  "fingerprint": "6ed72d80132306448512412cd35d1abfaae486ab5e88b9245e6dfe6552c74ac2",
+  "sha256": "38c4273cc1451072a853b020c3b2af14a46264258c3a913526e16b1736cb97a3",
+  "reference_sha256": "2cfb6d95e619eff6e3724920f6d48d38ae4ab682a733a7114116f5a94f598101",
+  "seconds": 57.13,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

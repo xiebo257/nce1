@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "One pale CREAM paper envelope with a triangular flap, matching the reference arrangement. Use STRONG DARK CLEAN OUTLINES around the outer envelope edges and all flap folds, clearly visible against a white background. Warm cream fill and subtle shading. One envelope only, crisp colorful educational illustration, no letters, people or faces.",
+  "seed": 981112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/098-photo-02.png",
+      "sha256": "57613878229678c68129556920898cfa519620bd761ef12fb74cd3aae3fe3545"
+    }
+  ],
+  "fingerprint": "552b518a9cf97e7975fbb7efe896afe7f1b1f2adeb762a33700e97c709dc9121",
+  "sha256": "f255270890c835a22f9167ce4822ed672529fc8d4d4b7756d2fe7369832d521c",
+  "reference_sha256": "7c8405bb27f7b06c7e8180711b3fb780942cf4adac08287069f55b4f6a5d440f",
+  "seconds": 56.98,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

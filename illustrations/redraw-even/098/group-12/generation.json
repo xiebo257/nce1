@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. Exactly TWO pens crossing diagonally: one fountain pen with a pointed nib and one thin ballpoint pen. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "illustrations/redraw-inputs/098-photo-12.png",
+      "sha256": "2b38d2ef760f3a9a0d72b8706f94260eb35bb0e648fdb1f5a86047504c3e5769"
+    }
+  ],
+  "fingerprint": "3d7c3f57d1ead65861c5abbe50db1759a0027980263e8739a3c64e9be3612e5c",
+  "sha256": "f816afc8241d73a3bad49c572887df0d1242082184bd43839cfa4541503bf235",
+  "reference_sha256": "d502dae0331a97e2735beaf5c498ffbd28b06872a24b46889efab088d423ead4",
+  "seconds": 58.7,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

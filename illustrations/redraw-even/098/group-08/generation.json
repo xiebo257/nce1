@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. One empty small wooden rowing boat floating in water. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/098-photo-08.png",
+      "sha256": "fb312d862ba8b571d667cc5ef8f38ffa363cd9c1ca013d4c0acd011e85b8eadf"
+    }
+  ],
+  "fingerprint": "bd338ec3424c6dbbaa66cff9b0642cc8eb42f61892d85cfa06e5f80733f22702",
+  "sha256": "c1d85ddde75f54945db8bb91a4d1ca8009cb0136ae304b67100d353920340d33",
+  "reference_sha256": "ac11b99964b2a73986b364e963bbbb977e2036673ff610b3ac8477a0798d2013",
+  "seconds": 59.67,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

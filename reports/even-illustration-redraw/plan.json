@@ -18822,7 +18822,7 @@
               1321
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. Two thirsty boys each drinking from his own clear glass of water, exactly two people and two glasses. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one crisp colorful textbook cartoon on white: exactly two thirsty boys, brown short hair and blue shirts, each drinking water from his own glass. Each boy has exactly TWO arms: one bent arm lifts a clear glass to his lips, the other arm rests down at his side. Two boys, two glasses, four arms total. Natural simple anatomy, clean outlines. No extra limbs behind bodies. Match the photographed two-person arrangement."
         },
         {
           "slot": "photo-panel-03",
@@ -18963,7 +18963,7 @@
               1666
             ]
           },
-          "edit_instruction": "Draw one clean full-color educational cartoon of this photographed scene. One short brown-haired man with a cold sneezing into a white handkerchief. Preserve the composition. Crisp smooth outlines, friendly natural cartoon anatomy, ordinary hands and objects, solid colors. White margins, no captions, speech text or invented lettering."
+          "edit_instruction": "Draw one crisp colorful textbook cartoon on white: one brown-haired man with a cold, in blue shirt, holding a white handkerchief flat AGAINST HIS NOSE with one normal hand. Mouth CLOSED below the handkerchief. Sneezing into the cloth, eyes closed, eyebrows raised. The cloth covers the nose externally and never enters the mouth. Clean smooth outlines, two arms only. No text."
         },
         {
           "slot": "photo-panel-06",
@@ -19478,7 +19478,25 @@
           ]
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-03": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                325,
+                98,
+                417,
+                176
+              ],
+              "text": "BUS\nSTOP",
+              "font_size": 23,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "102": {
       "sections_sha256": "47bc79f2246e530513ea0e18fba3a914a8b9e7ed3ecb6b130b757ad7258b971f",

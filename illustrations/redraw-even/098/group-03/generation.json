@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. Three items of clothing hanging on a rail: trousers at left, a patterned dress in the middle and a coat at right. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "illustrations/redraw-inputs/098-photo-03.png",
+      "sha256": "19def4f06177c634d6834657150a74419c4e13b85ccbe847ff50f54b5ab31327"
+    }
+  ],
+  "fingerprint": "66bebe8d6486f907bb950210f74bc502f18b9d3f611ff71a97cebccb3e9a263a",
+  "sha256": "ada17c4cbde0763fd2e5c414cc8d807959a47dae2b43d4ac8d3c4f2869346b26",
+  "reference_sha256": "cbd501aa4266d2ac7fee1007778b5f9192e2eee888de71174b3b591095aa26a8",
+  "seconds": 56.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

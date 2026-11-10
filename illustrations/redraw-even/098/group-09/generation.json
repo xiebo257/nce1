@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a crisp colorful illustration of one closed red pocket phrasebook with a large blank cream rectangular label on its cover. Match the reference book angle and shape, white background. No people or faces. No letters or words; label will be typeset exactly later.",
+  "seed": 981119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "illustrations/redraw-inputs/098-photo-09.png",
+      "sha256": "a362e3adbf1fe83830832cb816fbcf30fcc7d970afb6f7d826b4d1c99f58a835"
+    }
+  ],
+  "fingerprint": "b53a16606d839161814bf49f929762a98ab7b72d02464ce3866eb1d1b8f96b4d",
+  "sha256": "20602a1f58e0d05d838f0724dc299d99d6232f5437d49197644152d523c96187",
+  "reference_sha256": "873e331e51db8f91a02f64462b6f827b81a4e71c528e3a11c3d08ce9489d830e",
+  "seconds": 58.96,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/098/group-09/redrawn.png",
+    "source_sha256": "20602a1f58e0d05d838f0724dc299d99d6232f5437d49197644152d523c96187",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          204,
+          108,
+          305,
+          160
+        ],
+        "text": "PHRASE\nBOOK",
+        "font_size": 22,
+        "background": null
+      }
+    ],
+    "output_sha256": "aa94d0b7dcdbe92aff14c6eede102bd9c0eb9f33332ea56773c6f394e8688b8b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

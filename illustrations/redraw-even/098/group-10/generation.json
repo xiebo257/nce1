@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. Exactly TWO hammers: one horizontal at left and one upright at right. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "illustrations/redraw-inputs/098-photo-10.png",
+      "sha256": "9d2ea451c25ad689d510af6d039570e70411ac70b24943d9e147c856ff94262d"
+    }
+  ],
+  "fingerprint": "49af9451fdb287d3491fa20a2ec3546aa3f6ce30d741060b2b6a3d3d97ffa9b9",
+  "sha256": "3bdffcded4b3651706f21afd83b265dfd748f02edd09a5f0996184867e78b8c2",
+  "reference_sha256": "5c7c3ad7f5380e17e929131cc6032ca4c6a30893c38f0fa6acccab1d889b6ef6",
+  "seconds": 57.31,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

@@ -1,0 +1,47 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a crisp colorful illustration of one closed navy blue passport booklet with a simple gold heraldic emblem and blank cover label. Match the reference book angle and shape, white background. No people or faces. No letters or words; label will be typeset exactly later.",
+  "seed": 981114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/098-photo-04.png",
+      "sha256": "efd768c2563ba388bf8858a544bcede9751780b4c400401fdaa820189584911e"
+    }
+  ],
+  "fingerprint": "cee61d1e125bee71d2aca31fac4ae70f6ac838380445e6a6b62e9576c4b984c8",
+  "sha256": "c9857f33c5f6b6364b1211561e3f6f9e8376c17e838eea5fb384cef6294a1789",
+  "reference_sha256": "3578227bd8a7a9cdbc7b881e5595a36df6f541fc900521342c95dac1c2228191",
+  "seconds": 58.52,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/098/group-04/redrawn.png",
+    "source_sha256": "c9857f33c5f6b6364b1211561e3f6f9e8376c17e838eea5fb384cef6294a1789",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          181,
+          184,
+          319,
+          225
+        ],
+        "text": "PASSPORT",
+        "font_size": 24,
+        "background": null,
+        "color": "#e5b500"
+      }
+    ],
+    "output_sha256": "3abeac29e5bc3ae6fc642f8e07ccb2eae505f451a1e1704f3b6febe979c0d49e"
+  },
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

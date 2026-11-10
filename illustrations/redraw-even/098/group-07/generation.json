@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. One bouquet of colorful flowers tied together at the stems. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "illustrations/redraw-inputs/098-photo-07.png",
+      "sha256": "972f8a70db0c1b77359965b302e78e18b5c9ed007e41ce72274a9a5c0cea1e38"
+    }
+  ],
+  "fingerprint": "9275c1578bf4dcacea1d4089a7023a8f9a85de7ddef091b41a34c62d28421214",
+  "sha256": "78f358dcd7230a0dfceafbea8f650b902865624f26f7041170b5c685713977a0",
+  "reference_sha256": "9872d1dd5079affb7a0daa5a27a17b17a430370e86bbea5fbc6606859d032b63",
+  "seconds": 57.44,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}

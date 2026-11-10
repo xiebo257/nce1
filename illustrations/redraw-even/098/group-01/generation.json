@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this original photo crop as one crisp full-color educational object illustration. Four metal keys attached to one round keyring. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+  "seed": 981111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "illustrations/redraw-inputs/098-photo-01.png",
+      "sha256": "a4b4bee4e6217e24c3eb59912385c9b205453ad6a469d6c67c5b535d820761cd"
+    }
+  ],
+  "fingerprint": "13e02a5988dd364ebc81f6d564b5b6b027b5acc479b328f9a72b86e51398b91f",
+  "sha256": "befebd059fe573af154861f93b15ef2a7e71b194ca2a192e6734622d2f19e79c",
+  "reference_sha256": "ec3df5975cd9fd7650302e235897c85e98b353727358f04b27d4e406bd771aa3",
+  "seconds": 58.55,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/098.json"
+}
