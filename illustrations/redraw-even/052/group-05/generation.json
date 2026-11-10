@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 24th prompt showing three people, with the left person pointing toward two people on the right.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-24",
+      "path": "html/assets/lesson-052/lesson-52-picture-24-color.webp",
+      "sha256": "3d495ca0374eba38249404366da46a21ab38e4403dcc859a86ec0e56084a5b00"
+    }
+  ],
+  "fingerprint": "75f46523ef8776f83024adc67f15fe411b379eb9c5eb2a7c5b8c79355c10c6b9",
+  "sha256": "1ce0ad9a3daba53aa5a465e51bb2ac8e19f2220c44cca2292f4b78a87785ffa1",
+  "reference_sha256": "e0f603ecbc56aae37185e5db0fd555b60103bfacc74a6b02da5f8461954c7b43",
+  "seconds": 26.82,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

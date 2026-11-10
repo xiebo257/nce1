@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 28th prompt showing two bearded people in a snowy setting holding ski poles.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 521119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-28",
+      "path": "html/assets/lesson-052/lesson-52-picture-28-color.webp",
+      "sha256": "ce7049b774e47d9b46130c812aebee66b0d89907f06b78c916f257c80924fc5a"
+    }
+  ],
+  "fingerprint": "96385ccf0fdaefab7ed82127184356f02217ad4aaf4d8cb49f97fe68999e6976",
+  "sha256": "9ba208925c00ab54bca66f08cf3c283e4cfcf412d9bed797739992603107b55e",
+  "reference_sha256": "f8df21b6c1c2ddf7d49307d824c9902e3ce3584993805357a0199a5b74751ac7",
+  "seconds": 30.43,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

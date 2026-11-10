@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 25th prompt showing two people facing one another, with the left person pointing toward the right person.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-25",
+      "path": "html/assets/lesson-052/lesson-52-picture-25-color.webp",
+      "sha256": "ce6fc045c23b7707cbab143e043506e785d1ab4d7099926f0baff846e9a94c9e"
+    }
+  ],
+  "fingerprint": "3094398877b2c773810356053d245702f9706fd98668914020c797a1b0c87d14",
+  "sha256": "6eba79ca30394797ccce0e3decaab40daecf1cdf271494ef99522a177e738a7a",
+  "reference_sha256": "704c4d598736310b12a0bfc4ecdcc1aaf46d242e4d2ec0586b569eb44f2e0839",
+  "seconds": 29.89,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

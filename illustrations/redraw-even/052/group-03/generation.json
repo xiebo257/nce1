@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Exactly two people: the little curly-haired interviewer on the left points to a blonde Dutch woman on the right wearing a white traditional pointed bonnet, blue dress and yellow wooden clogs. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-22",
+      "path": "html/assets/lesson-052/lesson-52-picture-22-color.webp",
+      "sha256": "19b3e7982eccc89ccb70d12cd561da52a6f5901f06aebcb3ffe9d45921739a64"
+    }
+  ],
+  "fingerprint": "572abb72f4db34b40f3519dc129eeaeb78693a03788787a5f42cb5fa482eb2e1",
+  "sha256": "9a3b68dd4469a5000e3bdcc2683d188e74700de010255d3109d9f5ce7dda4a76",
+  "reference_sha256": "2e6ff459f42cc4e5fb77f64136c030afe67df01cfe203a4b07714e675e5e6f5c",
+  "seconds": 24.52,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

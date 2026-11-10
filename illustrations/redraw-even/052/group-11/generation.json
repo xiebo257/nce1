@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 30th prompt showing two people, with the person on the right raising one hand.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-30",
+      "path": "html/assets/lesson-052/lesson-52-picture-30-color.webp",
+      "sha256": "0915bb4eb41d27a5bb7fae74defcd310b0d1e28b2b52d7ddc84820b9e0d19971"
+    }
+  ],
+  "fingerprint": "1d6e06f13c4b0a8170a6e8ca156b65fa5334183b81092f2d08e05a6e0f609dc1",
+  "sha256": "32bb35cfc4039c10113e958a9584b1d4622a9d0ac3c111a39a114ac432d0fa18",
+  "reference_sha256": "11a01d8712d07fd9bf7b786df67bd8c8fde7e21db38622d8d7248350d2af8498",
+  "seconds": 29.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

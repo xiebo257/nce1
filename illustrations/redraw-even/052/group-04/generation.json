@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Exactly two adults: an English gentleman with black bowler hat and black suit, next to a blonde English lady in green holding a closed umbrella. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 521114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-23",
+      "path": "html/assets/lesson-052/lesson-52-picture-23-color.webp",
+      "sha256": "465bb2ebe99ca4c33695a2590f7305dba0f7e14ba50b9cba2214f7763e95a07c"
+    }
+  ],
+  "fingerprint": "0e66361c6b191ba3110132cb98e95c5512e9a9266ef41c1b30a1a3f2f083ce45",
+  "sha256": "7fe94020c9b1d16c48b55c3d19a0f954c3e38cdfe70f67b6dfc42d5665476ac8",
+  "reference_sha256": "a37987dd79d41fd75d1ffa9a42934e60b5edde5e3c0134456fff489a47368a0f",
+  "seconds": 25.15,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

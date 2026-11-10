@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 27th prompt showing three people; the two people on the right hold objects resembling flowers or food.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-27",
+      "path": "html/assets/lesson-052/lesson-52-picture-27-color.webp",
+      "sha256": "a111037a7ac191baaa9fcdf4f6162e41c3871a6d1a68adf7b22404585f5f771d"
+    }
+  ],
+  "fingerprint": "17e35413328c4283729dd3d2b560e195bd33616e18f536524021814365af01c6",
+  "sha256": "ac56dccdbdbec71390d5ffcb034f7bd94b289967eae840a388b30df120a60d08",
+  "reference_sha256": "f496ca9276cc3f93ba0d84d3f9e10aef5ce2e3523ecea47216a419dd992baab6",
+  "seconds": 30.14,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

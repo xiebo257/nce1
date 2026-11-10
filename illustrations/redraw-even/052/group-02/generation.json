@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Exactly two people: the little curly-haired interviewer on the left points to an adult Brazilian man on the right, wearing a gray suit and red tie. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-21",
+      "path": "html/assets/lesson-052/lesson-52-picture-21-color.webp",
+      "sha256": "c07adb78f3c5b166c3ca917e176dc65111f390a56a065fa2b633d72b2e59dfdc"
+    }
+  ],
+  "fingerprint": "0f6b611396ad850f4d8a99f9d1ed529c2e22eebe173d317df1d0578e3d4d01a3",
+  "sha256": "a63ab5ec01d9f7d4550135c7edb60723fe79e8ba522903bed177840e1dfaf9f8",
+  "reference_sha256": "e1b49b579e0279ea06f7a62fdac5f88b83b32fa18a7f9d4aacba9da6a288d349",
+  "seconds": 24.6,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

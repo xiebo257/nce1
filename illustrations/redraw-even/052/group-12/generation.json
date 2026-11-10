@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 31st prompt showing one person with long hair standing alone.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 521122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-31",
+      "path": "html/assets/lesson-052/lesson-52-picture-31-color.webp",
+      "sha256": "b75c199ec92dd342fa386095db70056d7c3dce65d2a8b38bbe37e917b227de49"
+    }
+  ],
+  "fingerprint": "54f040c1f6800925377d7fee9fbdebbfee8f397e4dce2caa82f98922e78e0cb4",
+  "sha256": "627a8799b3aaec313aecccd389375fbe6d072f1339cd97df435409767ee74ab9",
+  "reference_sha256": "3cffc8d707898e911c0181050d1ea02e0326ea6d9c8a24c14df67661abaed278",
+  "seconds": 29.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

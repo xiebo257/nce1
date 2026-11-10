@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A rectangular textbook illustration for the 26th prompt showing two people, with the left person pointing toward the right person; the person on the right wears a skirt and carries a pom-pom-like object.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. The small interviewer on the left has dark brown curly hair, a blue shirt, navy shorts and red shoes.",
+  "seed": 521117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-26",
+      "path": "html/assets/lesson-052/lesson-52-picture-26-color.webp",
+      "sha256": "cee08ae8e3c07c7e53891323b5495c589d23f7c887fdec5f3189526acb49a55b"
+    }
+  ],
+  "fingerprint": "96863e8dde6984224e3e5b8edf3cfc353ef24dfc6f8b8c9dfaf54d2361f2ed89",
+  "sha256": "006fa261db92d503979cac0d5f28c306bf233832b87e683822eabf2dce522b05",
+  "reference_sha256": "ebd3f121da83fd5da7cc0e3ef07a695e0dca23c3e9656d551dc2c9db219476ef",
+  "seconds": 29.25,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}

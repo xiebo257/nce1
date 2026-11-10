@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Exactly one American cowboy in a broad brimmed brown cowboy hat, olive green cowboy outfit, holding a cigar, matching reference pose. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 521111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-52-picture-20",
+      "path": "html/assets/lesson-052/lesson-52-picture-20-color.webp",
+      "sha256": "cd6ac5aade911c8c021b4441e672101f6116e4738ea9a6fc9a4ffc484aad44d9"
+    }
+  ],
+  "fingerprint": "af673dbaf3adf43440ec87c5f4893dcd10f4c0dc07170fc5f2198e3076adf03f",
+  "sha256": "350a2a9bc5b9e4e3c39da9a3e76afbdebbdfbf930f372a6a5f6d87c4f47aba0b",
+  "reference_sha256": "ca41a2b14a883f9f1111311715935ebd7de3234e67543412979b58f5a55629f2",
+  "seconds": 23.38,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/052.json"
+}
