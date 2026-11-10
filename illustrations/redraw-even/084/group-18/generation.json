@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A coffee pot and a cup of coffee.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841128,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-18000",
+      "path": "html/assets/lesson-084/lesson-084-pic-18000-color.webp",
+      "sha256": "575df299204a3094c3ba815f42c37ec42753877b5276698771a4cab161ae6009"
+    }
+  ],
+  "fingerprint": "1fa89ee5218658ccc4de01f6505b4408dca61b613d9ae9261867bbdce2a3e967",
+  "sha256": "ce09da027add32cb1086399a9fbe632de9927dba0660b9c686824dbfb164e0f0",
+  "reference_sha256": "0a8c2e7d2157862e2ac18d154c55b70cc98d5dfb8a31918e61de66a8fb1f406b",
+  "seconds": 47.12,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

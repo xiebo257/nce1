@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw exactly THREE pieces of cooked brown meat on one oval white plate in a triangular arrangement: one piece at top left, one piece at top right, one piece at bottom center. Three distinct pieces total. Wisps of steam above the meat. Sharp full-color educational cartoon, white background, no people, faces or text.",
+  "seed": 841121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-11000",
+      "path": "illustrations/redraw-inputs/084-photo-11.png",
+      "sha256": "8631d440ed36508aa7892c6d6a7f0972886841c08e25182e3e8f5aaab4fdd846"
+    }
+  ],
+  "fingerprint": "b27486f664b161d5c5a07245d6b2cbef83692c8186870dcc7a0fbb2252f7cf8d",
+  "sha256": "1b08b7164db50963b81cd24aae15c8ff630c08b78c05f3a2092b2e9f472022bf",
+  "reference_sha256": "3260b67f07dcf5e51f0838f53439a2d2ca9cf97bd2559c81ac94f77fbede08d3",
+  "seconds": 46.95,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

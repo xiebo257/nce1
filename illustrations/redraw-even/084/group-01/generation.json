@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A bowl of mixed fruit: grapes, bananas, an orange and an apple.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-1000",
+      "path": "html/assets/lesson-084/lesson-084-pic-1000-color.webp",
+      "sha256": "434d5a74a72ff15d6ba0087dd42af1afddab64b32ea64abb915a4b8157c0be5f"
+    }
+  ],
+  "fingerprint": "bcc7cddee6ca999b95f4b7a6bc5f7615188abd405a1b6860ff8e0bf84adf1c30",
+  "sha256": "8fd35b2e83ae38e5f5ed02da644ea1793ba72bb4e9bae6093a85d76aa244419f",
+  "reference_sha256": "6cc324225cc1637bc2775ac1f2eaaf627e5da96b4205dc795c06de5c0193dede",
+  "seconds": 50.16,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

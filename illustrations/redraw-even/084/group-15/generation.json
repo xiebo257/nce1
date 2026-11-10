@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Transform this raw food illustration into one headless plucked ROAST CHICKEN with golden-brown skin, two drumsticks and folded wings, no eye or face. Place it on one oval white serving plate with three wisps of steam rising above. Preserve the recognizable shape of the food. Sharp colorful educational cartoon, white background, no lettering, no faces, no fur.",
+  "seed": 841125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-15000",
+      "path": "html/assets/lesson-080/photo-panel-17-redrawn.webp",
+      "sha256": "65c7292f6afdd070df62745a13d7976f34340e7f35f32ac39f9329d9f54a9875"
+    }
+  ],
+  "fingerprint": "02aa6d1c61b53c999969daec2c8533cbd0699b3f00c8ccb22096c092be5cba97",
+  "sha256": "20472219e1b67e272cf3f6ea044797b8b081c496b22c44127c7d3f1e5257e451",
+  "reference_sha256": "b1a1c1ac7fda5e4b54a0f847271c1b4d2fb86e99b43a53b86c5681d7d94460da",
+  "seconds": 46.99,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

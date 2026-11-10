@@ -1,0 +1,80 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A teapot and a cup of tea.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841127,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-17000",
+      "path": "html/assets/lesson-084/lesson-084-pic-17000-color.webp",
+      "sha256": "c2340839128cfbb2f8ace420a430bac011c0c47e2d233260ce8d674ee4e80d91"
+    }
+  ],
+  "fingerprint": "a29304636a84054e3e485cfc31b6b0ab8849fce50e2c3b2d2487b33175ef2d1f",
+  "sha256": "583e6c780b4e2a9ea0644e7754fcdf46fcb5bd810527333ff70084a78b72465a",
+  "reference_sha256": "e8a4f56135ede0f58720b7ff51834ab5c3447d6baf6f4e7dcbf3c11ecf679b56",
+  "seconds": 48.6,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/084/group-17/redrawn.png",
+    "source_sha256": "583e6c780b4e2a9ea0644e7754fcdf46fcb5bd810527333ff70084a78b72465a",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              350,
+              234
+            ],
+            [
+              405,
+              234
+            ],
+            [
+              405,
+              258
+            ],
+            [
+              350,
+              258
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              402,
+              215
+            ],
+            [
+              438,
+              215
+            ],
+            [
+              438,
+              240
+            ],
+            [
+              402,
+              240
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "19275722b029b211e5037117ce67a7e6b3b29c88c5c1edb21a383a7e6b5bf092"
+  },
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Transform this raw food illustration into one cooked roast leg of lamb with a golden-brown smooth exterior, browned meat cross section around a white bone and thin creamy fat. Place it on one oval white serving plate with three wisps of steam rising above. Preserve the recognizable shape of the food. Sharp colorful educational cartoon, white background, no lettering, no faces, no fur.",
+  "seed": 841123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-13000",
+      "path": "html/assets/lesson-080/photo-panel-13-redrawn.webp",
+      "sha256": "3536c5d8e0c4f8b2d8b6f3eeec9ff1b080a72c0d238ce8c248d4905482327571"
+    }
+  ],
+  "fingerprint": "18aeb88086a6ec5911fb4c4c04beb8496873305b874a18c0276aebb3c775342a",
+  "sha256": "adca3bbbda2be2cfddfc7b69bb2304bedee68c81b61798770b5b070e26f09308",
+  "reference_sha256": "26be6e52a28caff79eaadfbdeef20f2a797f33a6727ac45254124856bfd29903",
+  "seconds": 49.08,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

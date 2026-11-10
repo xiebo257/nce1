@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration matching the source arrangement. One pot filled with long cooked GREEN BEANS, a few wisps of steam. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions.",
+  "seed": 841120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-10000",
+      "path": "html/assets/lesson-084/lesson-084-pic-10000-color.webp",
+      "sha256": "b3cb23186abd5e3656e3c870c8513814cfdfac734caeaefa649a88f51638eb40"
+    }
+  ],
+  "fingerprint": "15593f07820fb1ca022f95e14f1fe5f73311cf3702c9e382fa9b97a62e5a324d",
+  "sha256": "a92faa682f0e326b88d36df4cb29416ceb1350ce2573d15fc01093f374d04b57",
+  "reference_sha256": "3215094199fe3efd8c76d8a6c39c040e8eab7742b1a01ac1de0d4ddb2d77a5e5",
+  "seconds": 47.79,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

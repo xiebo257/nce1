@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A joint of roast beef on a plate with steam rising.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-12000",
+      "path": "html/assets/lesson-084/lesson-084-pic-12000-color.webp",
+      "sha256": "f8c56f692037caa9376d95b09dbd76c897255fed8e95bd3862b073006df2b115"
+    }
+  ],
+  "fingerprint": "d8988a8b21b88347c38627442a89159c9653fddbbe52113ab8f82c622cb32794",
+  "sha256": "7cc4dcd63884b08a363d522b3d0977620a134c5a7e0ffa0a44974334890f25fb",
+  "reference_sha256": "511217b9d28f5d32e6fe55aa613839b1495300380e402ed31f0c706b09cce5c7",
+  "seconds": 47.12,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

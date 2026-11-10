@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration matching the source arrangement. Exactly FIVE red and yellow apples in a fruit bowl, three apples in the back row and two in front. Clear apple stems and round shapes. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions.",
+  "seed": 841115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-5000",
+      "path": "html/assets/lesson-084/lesson-084-pic-5000-color.webp",
+      "sha256": "6965a854db2ba7edab9cdcabe8c2803acd44f8491b31a3923d853feb030a0966"
+    }
+  ],
+  "fingerprint": "2eaa95f40b8b21c29cf375e05d06c8aa92e667019945a34d2460d1003b2df521",
+  "sha256": "f08ec8bd06b731ad6e7ac519bece6be84aa120c60da3d2957619742b6ef1a83c",
+  "reference_sha256": "43bb4b7c08921a9e457a705256f91e80d234f4c24e0b2cfda29a430f52813dd9",
+  "seconds": 48.06,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

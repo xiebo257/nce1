@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A glass dish filled with bananas.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-2000",
+      "path": "html/assets/lesson-084/lesson-084-pic-2000-color.webp",
+      "sha256": "ebb62af7d8c523a21316bade672b62056550ea277ee0eb8c94c7091899d65a37"
+    }
+  ],
+  "fingerprint": "33fbd03176a5ecbb5eb082e0a6cdd1373485fd24da090f06ff9eefce5af6d50e",
+  "sha256": "944bed1592deaafe8799ac47732955e25a25a06cf101e45e64f4368fde5bb06e",
+  "reference_sha256": "029f85d7a371e893cb6d5b246ae20b47dad3e885a3da5d929d0fd6b55d02d6e9",
+  "seconds": 50.75,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

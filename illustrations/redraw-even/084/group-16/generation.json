@@ -1,0 +1,57 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A glass and a bottle of milk.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-16000",
+      "path": "html/assets/lesson-084/lesson-084-pic-16000-color.webp",
+      "sha256": "d2a0f4cef5bb2684dd0fc8bcda8d1b16f62812619a0e7b1f8378c8816a43855a"
+    }
+  ],
+  "fingerprint": "0b5c7816541f543bc1956cc7202576683e48842d919a5843691394c0dd2a0ecb",
+  "sha256": "668ec1cebdaffb27c5805e0358918a4d6dab099cc8190afce21fe73d8cedfa71",
+  "reference_sha256": "b059e3b9e514296fecb82752594821e00aa8c5c29410d06c30c59e812d5a8d0a",
+  "seconds": 47.02,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/084/group-16/redrawn.png",
+    "source_sha256": "668ec1cebdaffb27c5805e0358918a4d6dab099cc8190afce21fe73d8cedfa71",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              90,
+              272
+            ],
+            [
+              395,
+              272
+            ],
+            [
+              395,
+              309
+            ],
+            [
+              90,
+              309
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "b6b1dd02838923a8b82cab5720b0d1f4bb5e6ea87ff58472de743798491be2bf"
+  },
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

@@ -12961,8 +12961,8 @@
         },
         {
           "slot": "lesson-084-pic-11000",
-          "reference": "html/assets/lesson-084/lesson-084-pic-11000-color.webp",
-          "reference_sha256": "cf6f80bc335e19c532c601b5f2c39221302d80231e6ce67973513b27468df36d",
+          "reference": "illustrations/redraw-inputs/084-photo-11.png",
+          "reference_sha256": "8631d440ed36508aa7892c6d6a7f0972886841c08e25182e3e8f5aaab4fdd846",
           "source_photo": "img/lesson-084-01-text.jpg",
           "source_photo_sha256": "27ee4f511a904e28eb2a75afeb1064ea1ecd009743517fd8926c21ec5ad9e47b",
           "previous": {
@@ -13008,7 +13008,20 @@
           "cue": "A plate of pieces of meat with steam rising.",
           "text": "11,000 — meat",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational illustration matching the source arrangement. One oval plate with exactly THREE cooked brown pieces of meat, visible steam rising above them. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions."
+          "edit_instruction": "Draw exactly THREE pieces of cooked brown meat on one oval white plate in a triangular arrangement: one piece at top left, one piece at top right, one piece at bottom center. Three distinct pieces total. Wisps of steam above the meat. Sharp full-color educational cartoon, white background, no people, faces or text.",
+          "direct_photo_crop": {
+            "source": "img/lesson-084-01-text.jpg",
+            "box": [
+              127,
+              1200,
+              361,
+              1356
+            ],
+            "source_size": [
+              1606,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-084-pic-12000",
@@ -13416,7 +13429,10 @@
           "cue": "A bottle of wine and a glass of wine.",
           "text": "19,000 — wine",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bottle of wine and a glass of wine.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A bottle of wine and a glass of wine.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+          "required_overlays": [
+            "WINE"
+          ]
         },
         {
           "slot": "lesson-084-pic-20000",
@@ -13467,10 +13483,124 @@
           "cue": "A glass and a bottle of beer.",
           "text": "20,000 — beer",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A glass and a bottle of beer.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of A glass and a bottle of beer.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+          "required_overlays": [
+            "BEER"
+          ]
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "lesson-084-pic-16000": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    90,
+                    272
+                  ],
+                  [
+                    395,
+                    272
+                  ],
+                  [
+                    395,
+                    309
+                  ],
+                  [
+                    90,
+                    309
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "lesson-084-pic-17000": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    350,
+                    234
+                  ],
+                  [
+                    405,
+                    234
+                  ],
+                  [
+                    405,
+                    258
+                  ],
+                  [
+                    350,
+                    258
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    402,
+                    215
+                  ],
+                  [
+                    438,
+                    215
+                  ],
+                  [
+                    438,
+                    240
+                  ],
+                  [
+                    402,
+                    240
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "lesson-084-pic-19000": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                266,
+                174,
+                353,
+                232
+              ],
+              "text": "WINE",
+              "font_size": 29,
+              "background": "#f6dfb0"
+            }
+          ]
+        },
+        "lesson-084-pic-20000": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                279,
+                178,
+                368,
+                210
+              ],
+              "text": "BEER",
+              "font_size": 30,
+              "background": "#fff8cd"
+            }
+          ]
+        }
+      }
     },
     "86": {
       "sections_sha256": "2c3db6d27ebded4273e188c70ea429c6b46d0ade305ba5fbc7b668880c3cf046",
@@ -13478,8 +13608,8 @@
       "items": [
         {
           "slot": "lesson-086-pic-01",
-          "reference": "html/assets/lesson-086/lesson-086-pic-01-color.webp",
-          "reference_sha256": "d2d21447d1a0826e8e7e8b0d912586676ca332e3e9fda76c27f4554d73f75f86",
+          "reference": "illustrations/redraw-inputs/086-photo-01.png",
+          "reference_sha256": "e62451746e6fbff56837d0ee4592381a082327532caf8bddc6c80aa6d3f8d97d",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13521,12 +13651,25 @@
           "cue": "Panel 1: aired",
           "text": "aired",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in blue beside an open window airing a room; the window is clearly open and curtains move in the breeze. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp colorful educational cartoon. The main object is a WIDE OPEN CASEMENT WINDOW: one hinged glass sash swings inward into the room at a 60-degree angle, making a clearly visible empty rectangular opening to the blue sky outdoors. Show the angled open sash in perspective, NOT a closed flat window. One curly black-haired woman in a blue shirt pulls back a curtain beside the open window; the curtain billows in the breeze. One person only, normal two arms. Match reference composition, clean smooth outlines, white margins, no captions.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              125,
+              480,
+              353,
+              662
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-02",
-          "reference": "html/assets/lesson-086/lesson-086-pic-02-color.webp",
-          "reference_sha256": "da95c02f2921013976de0273f6f5ec03dba86537dfc525a21747560df65bce05",
+          "reference": "illustrations/redraw-inputs/086-photo-02.png",
+          "reference_sha256": "b628e4850dd0d45e6ca6161a3587e5e7b7e5c70f1f972fc9c76dccd931c075b7",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13568,12 +13711,25 @@
           "cue": "Panel 2: cleaned",
           "text": "cleaned",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two boys standing side by side, one short black-haired in blue and one curly blonde in green, showing their polished clean black shoes with small shine marks. No extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two boys standing side by side, one short black-haired in blue and one curly blonde in green, showing their polished clean black shoes with small shine marks. No extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              431,
+              481,
+              664,
+              662
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-03",
-          "reference": "html/assets/lesson-086/lesson-086-pic-03-color.webp",
-          "reference_sha256": "a95d53ff6638e6a2aa98785ab2c7e60c10b0db7731733d0741bea5af4c908fb4",
+          "reference": "illustrations/redraw-inputs/086-photo-03.png",
+          "reference_sha256": "dc1a517c2b2ceb8972873f06d23fea2e869f4dc1dcc74d3dcbd562a3393214a0",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13615,12 +13771,25 @@
           "cue": "Panel 3: opened",
           "text": "opened",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired man in blue beside an opened window with one hand on its frame. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp colorful educational cartoon. The main object is a WIDE OPEN CASEMENT WINDOW: one hinged glass sash swings inward into the room at a 60-degree angle, making a clearly visible empty rectangular opening to the blue sky outdoors. Show the angled open sash in perspective, NOT a closed flat window. One short black-haired man in a blue shirt stands beside the open window with one hand on its open sash handle. One person only, normal two arms. Match reference composition, clean smooth outlines, white margins, no captions.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              742,
+              481,
+              975,
+              662
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-04",
-          "reference": "html/assets/lesson-086/lesson-086-pic-04-color.webp",
-          "reference_sha256": "349127bcf8e5be195d1b352c0aeacdc441fa211437abf2587ff6d9ce6b88d4e8",
+          "reference": "illustrations/redraw-inputs/086-photo-04.png",
+          "reference_sha256": "fee1afdcc50bc99022a6919f45a248ed7026871aae405b2d7664581df8a00465",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13662,12 +13831,25 @@
           "cue": "Panel 4: sharpened",
           "text": "sharpened",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired boy in blue holding a newly sharpened wooden pencil, a few pencil shavings below. No giant knife. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired boy in blue holding a newly sharpened wooden pencil, a few pencil shavings below. No giant knife. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              1055,
+              486,
+              1287,
+              675
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-05",
-          "reference": "html/assets/lesson-086/lesson-086-pic-05-color.webp",
-          "reference_sha256": "75fa87aa95bb1037862dd45d3d5ac4b033035aeb0992e25411c7934fbe3abd08",
+          "reference": "illustrations/redraw-inputs/086-photo-05.png",
+          "reference_sha256": "68ecdad269d84bc45ca1b7d696b8d12ee22d3ec198b38df9e03ee5af771e8fe8",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13709,12 +13891,25 @@
           "cue": "Panel 5: turned on",
           "text": "turned on",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green switches on an old television; a small male presenter appears ONLY INSIDE the television screen. One woman in the room. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green switches on an old television; a small male presenter appears ONLY INSIDE the television screen. One woman in the room. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              1359,
+              509,
+              1556,
+              705
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-06",
-          "reference": "html/assets/lesson-086/lesson-086-pic-06-color.webp",
-          "reference_sha256": "923f333ee0e6b20926f119dae5dec4e05cf398e6cdd9e464b920022ee5aa8e69",
+          "reference": "illustrations/redraw-inputs/086-photo-06.png",
+          "reference_sha256": "3624677e2ef2c7c41d704152fcc86f87dd3f74924ed890a4aec2b6bd818203c3",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13756,12 +13951,25 @@
           "cue": "Panel 6: listened to",
           "text": "listened to",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two older people sitting on a sofa listening to a radio on a small stand at left. One curly white-haired woman in green and one balding man in brown. Exactly two people, one radio. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. Two older people sitting on a sofa listening to a radio on a small stand at left. One curly white-haired woman in green and one balding man in brown. Exactly two people, one radio. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              125,
+              853,
+              353,
+              1034
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-07",
-          "reference": "html/assets/lesson-086/lesson-086-pic-07-color.webp",
-          "reference_sha256": "5d782c12c841e2f1c05d6577061d508241bf7cbed870769af9f98e10e16de491",
+          "reference": "illustrations/redraw-inputs/086-photo-07.png",
+          "reference_sha256": "01705d6fa3850ada3d836d64b45477a622f9a4d9e65e36a22195038bc27c49b4",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13803,12 +14011,25 @@
           "cue": "Panel 7: boiled",
           "text": "boiled",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green beside a stove with a saucepan of boiling water, visible steam. One woman, two normal arms. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green beside a stove with a saucepan of boiling water, visible steam. One woman, two normal arms. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              431,
+              845,
+              661,
+              1034
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-08",
-          "reference": "html/assets/lesson-086/lesson-086-pic-08-color.webp",
-          "reference_sha256": "cd999db1d541e068ca58a5f0d6252770e8b50f06b732685fbec21cd8162ab065",
+          "reference": "illustrations/redraw-inputs/086-photo-08.png",
+          "reference_sha256": "99a7b66e67e0a9828d50cae68c23bb7883fe3f1746ceeccfcf41f3df3089c6a9",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13850,12 +14071,25 @@
           "cue": "Panel 8: answered",
           "text": "answered",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue holding a telephone receiver to his ear, telephone base on a small table. One man, two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue holding a telephone receiver to his ear, telephone base on a small table. One man, two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              744,
+              850,
+              975,
+              1038
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-09",
-          "reference": "html/assets/lesson-086/lesson-086-pic-09-color.webp",
-          "reference_sha256": "7fd21cefaae389589d7314b6b9367aee85516c0bc5a523f7b66f1453cea288ae",
+          "reference": "illustrations/redraw-inputs/086-photo-09.png",
+          "reference_sha256": "7cf1c775e737989f08558ed99b78871b68b79d9517465674aed28af5cbcc485c",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13897,12 +14131,25 @@
           "cue": "Panel 9: emptied",
           "text": "emptied",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green emptying a small wastebasket into a larger metal bin, a few papers falling, no faces inside the bins. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green emptying a small wastebasket into a larger metal bin, a few papers falling, no faces inside the bins. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              1053,
+              858,
+              1276,
+              1038
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-10",
-          "reference": "html/assets/lesson-086/lesson-086-pic-10-color.webp",
-          "reference_sha256": "b6138a97c193362785cc44ca994a3b008493e3920254735fc4813c0c5d9fec02",
+          "reference": "illustrations/redraw-inputs/086-photo-10.png",
+          "reference_sha256": "39051b97f6a54ca445beb29b006f6bff73badc01fe10311d205875d69a6bc0e1",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13944,12 +14191,25 @@
           "cue": "Panel 10: asked",
           "text": "asked",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One straight blonde-haired girl in green at a desk looking up to ask a question, one hand on desk and the other raised. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One straight blonde-haired girl in green at a desk looking up to ask a question, one hand on desk and the other raised. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              125,
+              1214,
+              353,
+              1384
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-11",
-          "reference": "html/assets/lesson-086/lesson-086-pic-11-color.webp",
-          "reference_sha256": "6d1db5e88bee426167170ebb6f62867ec1ad9bf367b322c978e4d7c1212b209d",
+          "reference": "illustrations/redraw-inputs/086-photo-11.png",
+          "reference_sha256": "f59bcbe098579b6aaca28521b8a15804fcf9ce05ef573c41cd60973838f440ae",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -13991,12 +14251,25 @@
           "cue": "Panel 11: typed",
           "text": "typed",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde woman in green seated at a desktop computer holding a typed sheet of paper, ordinary keyboard and monitor. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde woman in green seated at a desktop computer holding a typed sheet of paper, ordinary keyboard and monitor. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              431,
+              1219,
+              658,
+              1386
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-12",
-          "reference": "html/assets/lesson-086/lesson-086-pic-12-color.webp",
-          "reference_sha256": "0d9e1a2137dcca9590762eb5d955f1313c4b9686d24c340e5e3ec6502acab4f5",
+          "reference": "illustrations/redraw-inputs/086-photo-12.png",
+          "reference_sha256": "da34cea4e34bbb842d4fa95096c7e32ab58fb942087c0b7e7cf27812f7dbdb49",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -14038,12 +14311,25 @@
           "cue": "Panel 12: washed",
           "text": "washed",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde girl in green beside a washbasin showing her freshly washed hands with a few drops of water. Two arms and two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde girl in green beside a washbasin showing her freshly washed hands with a few drops of water. Two arms and two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              737,
+              1211,
+              972,
+              1389
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-13",
-          "reference": "html/assets/lesson-086/lesson-086-pic-13-color.webp",
-          "reference_sha256": "873f12c59a731ff20724a3ff513bac6db3c5f5b8cd348b8c2d62bb2dfa9ed33f",
+          "reference": "illustrations/redraw-inputs/086-photo-13.png",
+          "reference_sha256": "d339177f68cdce59d2b6d5a19eb6259ab6a4a12c605ff9f6103f2d89775a3b9e",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -14085,12 +14371,25 @@
           "cue": "Panel 13: walked",
           "text": "walked",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue walking through a park beside trees and a fence. Two legs, no extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue walking through a park beside trees and a fence. Two legs, no extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              1062,
+              1228,
+              1280,
+              1394
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-14",
-          "reference": "html/assets/lesson-086/lesson-086-pic-14-color.webp",
-          "reference_sha256": "14f416b88087f012e05106f78d2181f06d9bd18b8aba7bf6738fe25c34067160",
+          "reference": "illustrations/redraw-inputs/086-photo-14.png",
+          "reference_sha256": "994e8457d371351ac3c68827d726ef04ff4032d264c55a19142f847bc746e7e3",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -14132,12 +14431,25 @@
           "cue": "Panel 14: painted",
           "text": "painted",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired man in blue kneels beside a freshly painted small bookcase holding a paintbrush. Paint tin nearby. No extra hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired man in blue kneels beside a freshly painted small bookcase holding a paintbrush. Paint tin nearby. No extra hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              123,
+              1586,
+              348,
+              1759
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         },
         {
           "slot": "lesson-086-pic-15",
-          "reference": "html/assets/lesson-086/lesson-086-pic-15-color.webp",
-          "reference_sha256": "b9ae67482ef7594bc7e49581554bdb199ff97c37983e0615f0776ff77ce34688",
+          "reference": "illustrations/redraw-inputs/086-photo-15.png",
+          "reference_sha256": "cc961666c42b6bb0de870316dd2e6dafb09d0f2100971947af2297be29dc0fb5",
           "source_photo": "img/lesson-086-01-text.jpg",
           "source_photo_sha256": "a6dfc19f6ec8b8452569cacca1918160fe3d64fb6780928d7dd67c6a233f7c05",
           "previous": {
@@ -14179,7 +14491,20 @@
           "cue": "Panel 15: dusted",
           "text": "dusted",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-bob-haired woman in green stands beside a clean cupboard holding a dusting cloth. One woman, one cupboard. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters."
+          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-bob-haired woman in green stands beside a clean cupboard holding a dusting cloth. One woman, one cupboard. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "direct_photo_crop": {
+            "source": "img/lesson-086-01-text.jpg",
+            "box": [
+              431,
+              1592,
+              664,
+              1762
+            ],
+            "source_size": [
+              1642,
+              2500
+            ]
+          }
         }
       ],
       "group_size": 1
@@ -16930,8 +17255,8 @@
       "items": [
         {
           "slot": "photo-panel-01",
-          "reference": "html/assets/lesson-098/photo-panel-01.webp",
-          "reference_sha256": "ee0a4b0fbc880da2767081780637df43d358b340ed6df28583a0973924963f58",
+          "reference": "illustrations/redraw-inputs/098-photo-01.png",
+          "reference_sha256": "a4b4bee4e6217e24c3eb59912385c9b205453ad6a469d6c67c5b535d820761cd",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -16963,12 +17288,25 @@
           "cue": "keys",
           "text": "keys",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of keys. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. Four metal keys attached to one round keyring. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              117,
+              1153,
+              519,
+              1381
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-02",
-          "reference": "html/assets/lesson-098/photo-panel-02.webp",
-          "reference_sha256": "5621cd4e3ce2050b1725288bd03affdb8d99e0c3201601a5043c2b6d92c00500",
+          "reference": "illustrations/redraw-inputs/098-photo-02.png",
+          "reference_sha256": "57613878229678c68129556920898cfa519620bd761ef12fb74cd3aae3fe3545",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17000,12 +17338,25 @@
           "cue": "envelope",
           "text": "envelope",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of envelope. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One plain paper envelope with a triangular flap. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              658,
+              1155,
+              1062,
+              1384
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-03",
-          "reference": "html/assets/lesson-098/photo-panel-03.webp",
-          "reference_sha256": "ad1ba017b23feda7182da491115a60ba1b8534d37cf358d147e5a8a52d12b730",
+          "reference": "illustrations/redraw-inputs/098-photo-03.png",
+          "reference_sha256": "19def4f06177c634d6834657150a74419c4e13b85ccbe847ff50f54b5ab31327",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17037,12 +17388,25 @@
           "cue": "clothes",
           "text": "clothes",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of clothes. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. Three items of clothing hanging on a rail: trousers at left, a patterned dress in the middle and a coat at right. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              1188,
+              1166,
+              1562,
+              1397
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-098/photo-panel-04.webp",
-          "reference_sha256": "fad8bd514cc50d37a4c1c6789765ca3c8ead3bdc7a47ae5f7620682b79dcce68",
+          "reference": "illustrations/redraw-inputs/098-photo-04.png",
+          "reference_sha256": "efd768c2563ba388bf8858a544bcede9751780b4c400401fdaa820189584911e",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17077,12 +17441,25 @@
           "edit_instruction": "Draw a crisp colorful illustration of one closed navy blue passport booklet with a simple gold heraldic emblem and blank cover label. Match the reference book angle and shape, white background. No people or faces. No letters or words; label will be typeset exactly later.",
           "required_overlays": [
             "PASSPORT"
-          ]
+          ],
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              116,
+              1531,
+              516,
+              1756
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-05",
-          "reference": "html/assets/lesson-098/photo-panel-05.webp",
-          "reference_sha256": "e3030be34c31e8b8155ab8b7eedb9e34ca837be7a431d37952bcbf7ef632b7fd",
+          "reference": "illustrations/redraw-inputs/098-photo-05.png",
+          "reference_sha256": "b56ead61f973b86aa6a32c3775fe026323f18f17fd3a0cd03a4f332c01491ee5",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17114,12 +17491,25 @@
           "cue": "tickets",
           "text": "tickets",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of tickets. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. Three overlapping paper travel tickets with simple decorative lines, no readable words. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              653,
+              1528,
+              1056,
+              1762
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-06",
-          "reference": "html/assets/lesson-098/photo-panel-06.webp",
-          "reference_sha256": "5d756d2fcbcc58f7dbe4b84936f77afc23537ee92ee3f9485ae11a7cd086a8a7",
+          "reference": "illustrations/redraw-inputs/098-photo-06.png",
+          "reference_sha256": "9aa98e209a35ae2a133c46e9ce097bd22c7e121bb71af6824e5355122de35447",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17151,12 +17541,25 @@
           "cue": "wristwatch",
           "text": "wristwatch",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of wristwatch. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One wristwatch with a round analog face and a brown leather strap. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              1188,
+              1530,
+              1561,
+              1769
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-07",
-          "reference": "html/assets/lesson-098/photo-panel-07.webp",
-          "reference_sha256": "85367edd14a479c1a499332f231431c83cc2cbceac12f7916569cfb1cb0497a9",
+          "reference": "illustrations/redraw-inputs/098-photo-07.png",
+          "reference_sha256": "972f8a70db0c1b77359965b302e78e18b5c9ed007e41ce72274a9a5c0cea1e38",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17188,12 +17591,25 @@
           "cue": "flowers",
           "text": "flowers",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of flowers. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One bouquet of colorful flowers tied together at the stems. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              112,
+              1900,
+              516,
+              2134
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-098/photo-panel-08.webp",
-          "reference_sha256": "a77d0332f3fc8bdec9d0cce401b3113061b91ec853988557260f6f0a571330e2",
+          "reference": "illustrations/redraw-inputs/098-photo-08.png",
+          "reference_sha256": "fb312d862ba8b571d667cc5ef8f38ffa363cd9c1ca013d4c0acd011e85b8eadf",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17225,12 +17641,25 @@
           "cue": "boat",
           "text": "boat",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of boat. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One empty small wooden rowing boat floating in water. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              650,
+              1908,
+              1053,
+              2134
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-09",
-          "reference": "html/assets/lesson-098/photo-panel-09.webp",
-          "reference_sha256": "e34901ebb0e431e67b00e46d8271f575d5613b15ace7e44ac6f62f92324310b8",
+          "reference": "illustrations/redraw-inputs/098-photo-09.png",
+          "reference_sha256": "a362e3adbf1fe83830832cb816fbcf30fcc7d970afb6f7d826b4d1c99f58a835",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17265,12 +17694,25 @@
           "edit_instruction": "Draw a crisp colorful illustration of one closed red pocket phrasebook with a large blank cream rectangular label on its cover. Match the reference book angle and shape, white background. No people or faces. No letters or words; label will be typeset exactly later.",
           "required_overlays": [
             "PHRASE BOOK"
-          ]
+          ],
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              1186,
+              1902,
+              1562,
+              2144
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-10",
-          "reference": "html/assets/lesson-098/photo-panel-10.webp",
-          "reference_sha256": "a5d975272fc999bc0742ebe486fe1fe0fc5ba488dd922ddefb7a725eab9ce77b",
+          "reference": "illustrations/redraw-inputs/098-photo-10.png",
+          "reference_sha256": "9d2ea451c25ad689d510af6d039570e70411ac70b24943d9e147c856ff94262d",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17302,12 +17744,25 @@
           "cue": "hammers",
           "text": "hammers",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of hammers. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. Exactly TWO hammers: one horizontal at left and one upright at right. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              112,
+              2272,
+              512,
+              2484
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-11",
-          "reference": "html/assets/lesson-098/photo-panel-11.webp",
-          "reference_sha256": "10058b4916cc6b23f6ecaa883d8f0f445020b0272ef19b24b7ab861809a7ba8b",
+          "reference": "illustrations/redraw-inputs/098-photo-11.png",
+          "reference_sha256": "ed63581be41ce8984952060e050c9d9aa5543bcf3e446a14d2791a0d932e3ea9",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17339,12 +17794,25 @@
           "cue": "car",
           "text": "car",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of car. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. One small vintage compact car, blue body and black tires. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              650,
+              2272,
+              1048,
+              2492
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-12",
-          "reference": "html/assets/lesson-098/photo-panel-12.webp",
-          "reference_sha256": "580d057ef0ec4da9e8af4c942baf5becbfcd48331876b9cdfcfaab2dd9c5ae6c",
+          "reference": "illustrations/redraw-inputs/098-photo-12.png",
+          "reference_sha256": "2b38d2ef760f3a9a0d72b8706f94260eb35bb0e648fdb1f5a86047504c3e5769",
           "source_photo": "img/lesson-098-01-text.jpg",
           "source_photo_sha256": "7495f228b15665a0e41c75483a6cee9689baaa4365f4052e66732161d465fd89",
           "previous": {
@@ -17376,7 +17844,20 @@
           "cue": "pens",
           "text": "pens",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this reference as one crisp full-color educational illustration of pens. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text."
+          "edit_instruction": "Redraw this original photo crop as one crisp full-color educational object illustration. Exactly TWO pens crossing diagonally: one fountain pen with a pointed nib and one thin ballpoint pen. Preserve object shapes and arrangement, white background, complete objects with small margins. No people, faces, random letters, captions or borders.",
+          "direct_photo_crop": {
+            "source": "img/lesson-098-01-text.jpg",
+            "box": [
+              1184,
+              2281,
+              1559,
+              2495
+            ],
+            "source_size": [
+              1600,
+              2500
+            ]
+          }
         }
       ],
       "group_size": 1
@@ -18786,8 +19267,8 @@
       "items": [
         {
           "slot": "photo-panel-01",
-          "reference": "html/assets/lesson-104/photo-panel-01.webp",
-          "reference_sha256": "167d367974811fa92e3a201b3c333beaea3c95b23382b0a94225d554596352cd",
+          "reference": "illustrations/redraw-inputs/104-photo-01.png",
+          "reference_sha256": "bac113c3be9d9689cb1daec4b3e6b4eb0b2b3280cd9e39aff95d9a4d6842b357",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -18819,12 +19300,25 @@
           "cue": "answer all the questions\neasy",
           "text": "answer all the questions\neasy",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. A curly blond boy in a green shirt happily writing answers to an easy test at his desk, with two other students seated behind him. Exactly three students. Keep the same curly blond protagonist as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. A curly blond boy in a green shirt happily writing answers to an easy test at his desk, with two other students seated behind him. Exactly three students. Keep the same curly blond protagonist as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              115,
+              947,
+              375,
+              1117
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-02",
-          "reference": "html/assets/lesson-104/photo-panel-02.webp",
-          "reference_sha256": "018e4876d570e4402247719463dc2e81f053f8e52d376805ef335b8a26f13405",
+          "reference": "illustrations/redraw-inputs/104-photo-02.png",
+          "reference_sha256": "d4f376806ee1ac1e863786318f3d434856e03b797b38c0b58a0e4439e33abf00",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -18856,12 +19350,25 @@
           "cue": "answer all the questions\ndifficult",
           "text": "answer all the questions\ndifficult",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly blond boy in a green shirt struggling with a difficult test, frowning with one hand on his forehead and the other on the desk. Two students behind him. Exactly three students. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly blond boy in a green shirt struggling with a difficult test, frowning with one hand on his forehead and the other on the desk. Two students behind him. Exactly three students. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              478,
+              949,
+              743,
+              1114
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-03",
-          "reference": "html/assets/lesson-104/photo-panel-03.webp",
-          "reference_sha256": "8f6402d83acae72aae7f5f5bdb084e5409fb591e09c7f487108ced8401635688",
+          "reference": "illustrations/redraw-inputs/104-photo-03.png",
+          "reference_sha256": "dad193134b117bcf2423a439f0defc931949bbba4d0667bba9ef18b1564feefa",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -18893,12 +19400,25 @@
           "cue": "answer all the questions\nclever",
           "text": "answer all the questions\nclever",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One black-haired boy wearing round glasses and a blue shirt happily writing answers at a school desk. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One black-haired boy wearing round glasses and a blue shirt happily writing answers at a school desk. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              853,
+              943,
+              1127,
+              1117
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-104/photo-panel-04.webp",
-          "reference_sha256": "7083aac49201fc3c8e8bb6a6022fdb0a4f2dde14242544ea54219eac67cdc2ce",
+          "reference": "illustrations/redraw-inputs/104-photo-04.png",
+          "reference_sha256": "3ccfd092922e53491dac287e57affc1b638af8eff2548cb8400a650221d20c14",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -18930,12 +19450,25 @@
           "cue": "answer all the questions\nstupid",
           "text": "answer all the questions\nstupid",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short spiky brown hair and an orange shirt struggling with a test at a desk, confused expression, one hand resting on his cheek and the other holding a pencil. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short spiky brown hair and an orange shirt struggling with a test at a desk, confused expression, one hand resting on his cheek and the other holding a pencil. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              1238,
+              950,
+              1492,
+              1131
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-05",
-          "reference": "html/assets/lesson-104/photo-panel-05.webp",
-          "reference_sha256": "1bdef9c6ffaad742382434c069125afa4685154765b699a55034edd7c356105b",
+          "reference": "illustrations/redraw-inputs/104-photo-05.png",
+          "reference_sha256": "b66d118314a6414c0bdac62107f5acfb73a36231a115d1858c3b24cdff91d68d",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -18972,12 +19505,25 @@
           "verified_price": "£150",
           "required_overlays": [
             "£150"
-          ]
+          ],
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              117,
+              1329,
+              372,
+              1492
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-06",
-          "reference": "html/assets/lesson-104/photo-panel-06.webp",
-          "reference_sha256": "5f8b26c20dfa27910f40f822fd8afedd7ff4f001369261d2e411ac80d387faa5",
+          "reference": "illustrations/redraw-inputs/104-photo-06.png",
+          "reference_sha256": "52a9fe06b3b97b7c4c372db4bdd8be687ae4e8a71e2e620c77b69245b7d5da39",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19014,12 +19560,25 @@
           "verified_price": "£8,000",
           "required_overlays": [
             "£8,000"
-          ]
+          ],
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              475,
+              1332,
+              739,
+              1500
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-07",
-          "reference": "html/assets/lesson-104/photo-panel-07.webp",
-          "reference_sha256": "75491fa099093a8c645d318f5e0f0c705bf9743038e0e94a8b94313f0761e287",
+          "reference": "illustrations/redraw-inputs/104-photo-07.png",
+          "reference_sha256": "40782789b0ca17b6ed53bab520fe025e99133cba67c1b71a892808db136a7760",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19051,12 +19610,25 @@
           "cue": "eat the cakes\nfresh",
           "text": "eat the cakes\nfresh",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two children smiling beside a plate of three fresh steaming cupcakes: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, the same pair as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two children smiling beside a plate of three fresh steaming cupcakes: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, the same pair as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              852,
+              1333,
+              1120,
+              1508
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-104/photo-panel-08.webp",
-          "reference_sha256": "c9fbc81129734cd4e743032e1467c279b466b05d04b28709948efa1b5909f30b",
+          "reference": "illustrations/redraw-inputs/104-photo-08.png",
+          "reference_sha256": "bff6c95f9f3a6186ed3984ff4ffa670cc4efd20f7227f0181bd3eee9840dd312",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19088,12 +19660,25 @@
           "cue": "eat the cakes\nstale",
           "text": "eat the cakes\nstale",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same two children trying to bite hard stale cakes with unhappy strained expressions: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, each holds a cake. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same two children trying to bite hard stale cakes with unhappy strained expressions: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, each holds a cake. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              1232,
+              1339,
+              1488,
+              1508
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-09",
-          "reference": "html/assets/lesson-104/photo-panel-09.webp",
-          "reference_sha256": "68780ff4877f4c8a889f5aee322c4bf740713aff73cf2866864e0daf552b6f26",
+          "reference": "illustrations/redraw-inputs/104-photo-09.png",
+          "reference_sha256": "f45c455702f67683e85a5e653ddce19e23a16610d74751c1a7472a024cf74318",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19125,12 +19710,25 @@
           "cue": "hear the stereo\nloud",
           "text": "hear the stereo\nloud",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two older adults sitting on a sofa listening happily to a loudly playing radio on a stand at left: curly gray-haired woman in green and balding man in blue. Short sound rays around the radio. Exactly two adults. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two older adults sitting on a sofa listening happily to a loudly playing radio on a stand at left: curly gray-haired woman in green and balding man in blue. Short sound rays around the radio. Exactly two adults. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              117,
+              1703,
+              370,
+              1879
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-10",
-          "reference": "html/assets/lesson-104/photo-panel-10.webp",
-          "reference_sha256": "aad94fa2bf09906c5b6f46b007632db31d5c041b9b1c7a60fb671bf31834f0e7",
+          "reference": "illustrations/redraw-inputs/104-photo-10.png",
+          "reference_sha256": "f87048ea4cbad3b5b8c9fdf14741ddc924e7dd57c0c4e535872259a4cd4fb046",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19162,12 +19760,25 @@
           "cue": "hear the stereo\nlow",
           "text": "hear the stereo\nlow",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly gray-haired woman in green and balding man in blue lean forward from a sofa cupping their ears to hear a very quiet radio on a stand at left. Exactly two adults, two arms each. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly gray-haired woman in green and balding man in blue lean forward from a sofa cupping their ears to hear a very quiet radio on a stand at left. Exactly two adults, two arms each. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              477,
+              1710,
+              735,
+              1881
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-11",
-          "reference": "html/assets/lesson-104/photo-panel-11.webp",
-          "reference_sha256": "adcf6d957e24c470b10c55afa9d6af0e36571d8ff53695a6c6a71f67c5229f36",
+          "reference": "illustrations/redraw-inputs/104-photo-11.png",
+          "reference_sha256": "73e8cb1e700f7451f9d4f9b851ad9e91404ccee5ac34403fb6cda79cb7443e21",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19199,12 +19810,25 @@
           "cue": "climb the wall\nlow",
           "text": "climb the wall\nlow",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short black hair and a blue shirt easily climbing across a LOW stone wall, both hands on its top and one leg crossing over. The wall reaches only his waist. One boy, normal two arms and legs. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short black hair and a blue shirt easily climbing across a LOW stone wall, both hands on its top and one leg crossing over. The wall reaches only his waist. One boy, normal two arms and legs. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              842,
+              1717,
+              1117,
+              1889
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-12",
-          "reference": "html/assets/lesson-104/photo-panel-12.webp",
-          "reference_sha256": "de913b41f2360f3297721b6bf8c739b4a69ac2d46553df727f0b24ebddc8530e",
+          "reference": "illustrations/redraw-inputs/104-photo-12.png",
+          "reference_sha256": "18f7bcebfd583f9dc1ced53ca8bd9fe60cffbde53b2bb51a333f09d3d3be6337",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19236,12 +19860,25 @@
           "cue": "climb the wall\nhigh",
           "text": "climb the wall\nhigh",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same black-haired boy in a blue shirt stands at the foot of a HIGH brick wall, looking up worriedly. Wall extends far above his head. One boy only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same black-haired boy in a blue shirt stands at the foot of a HIGH brick wall, looking up worriedly. Wall extends far above his head. One boy only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              1221,
+              1722,
+              1487,
+              1893
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-13",
-          "reference": "html/assets/lesson-104/photo-panel-13.webp",
-          "reference_sha256": "06ff2b3ce42c0fa8ae8138a12bf19f8d0f703394a62873423a40764b244e8993",
+          "reference": "illustrations/redraw-inputs/104-photo-13.png",
+          "reference_sha256": "18e17b4938e96be8cb28a738eba0ebf9ed4f8d3645037c2de0fa2b998af3ee2b",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19273,12 +19910,25 @@
           "cue": "eat the pear\nsoft",
           "text": "eat the pear\nsoft",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One woman with brown hair tied in a low bun, green blouse, smiling and holding a soft yellow-green pear with a bite taken out. Clear pear shape with narrow top and round base. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. One woman with brown hair tied in a low bun, green blouse, smiling and holding a soft yellow-green pear with a bite taken out. Clear pear shape with narrow top and round base. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              111,
+              2071,
+              372,
+              2242
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-14",
-          "reference": "html/assets/lesson-104/photo-panel-14.webp",
-          "reference_sha256": "4b9e984a8318d822dc7d056b057beb857daede00d025b602366acb9cd6e154f5",
+          "reference": "illustrations/redraw-inputs/104-photo-14.png",
+          "reference_sha256": "bf17240f3d4d55fb1c44e6a5bf1ad021c8ce68ce3061c58b57722eaddb33d4e1",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19310,12 +19960,25 @@
           "cue": "eat the pear\nhard",
           "text": "eat the pear\nhard",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse tries unsuccessfully to bite a hard yellow-green pear, strained expression. One woman only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse tries unsuccessfully to bite a hard yellow-green pear, strained expression. One woman only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              475,
+              2078,
+              732,
+              2246
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-15",
-          "reference": "html/assets/lesson-104/photo-panel-15.webp",
-          "reference_sha256": "5a89229ee7ae9998200d3a4dc6b3652507a7b8c5a3e2ea6aa7e13c525aec4dae",
+          "reference": "illustrations/redraw-inputs/104-photo-15.png",
+          "reference_sha256": "ca924f6351a9742e294dc222c8637d9a0b016f88ed07dc215f5de5172dee730a",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19347,12 +20010,25 @@
           "cue": "eat the orange\nsweet",
           "text": "eat the orange\nsweet",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse happily eating a peeled sweet orange segment, peeled orange in other hand. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse happily eating a peeled sweet orange segment, peeled orange in other hand. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              835,
+              2106,
+              1107,
+              2258
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         },
         {
           "slot": "photo-panel-16",
-          "reference": "html/assets/lesson-104/photo-panel-16.webp",
-          "reference_sha256": "0886b86f2b546689fed810dcd2a049553c8c0f28ef856d9206c21e2a4771c626",
+          "reference": "illustrations/redraw-inputs/104-photo-16.png",
+          "reference_sha256": "908cb3d1f9af7357781e0e419cc69b418515a03b980dac421c6c1e365f2ec426",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -19384,7 +20060,20 @@
           "cue": "eat the orange\nsour",
           "text": "eat the orange\nsour",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse grimaces after tasting a SOUR orange, pursed mouth and squinting eyes, holding orange segment and peeled orange. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs."
+          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse grimaces after tasting a SOUR orange, pursed mouth and squinting eyes, holding orange segment and peeled orange. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "direct_photo_crop": {
+            "source": "img/lesson-104-01-text.jpg",
+            "box": [
+              1221,
+              2112,
+              1483,
+              2278
+            ],
+            "source_size": [
+              1534,
+              2500
+            ]
+          }
         }
       ],
       "group_size": 1

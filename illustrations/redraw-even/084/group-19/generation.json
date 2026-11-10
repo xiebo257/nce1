@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A bottle of wine and a glass of wine.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841129,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-19000",
+      "path": "html/assets/lesson-084/lesson-084-pic-19000-color.webp",
+      "sha256": "024f8cdaf53188b451a565f08013041917f44061642f292a62ad48efc14d0a9e"
+    }
+  ],
+  "fingerprint": "770d4a6983ca120d06f4dcf5141731b7081557cda899fac30d49952fa3ddbe02",
+  "sha256": "ecbf5e9b0302b265ff080e96eed007576ceee889265866bae2a5d2a3fee4dd27",
+  "reference_sha256": "cb31bfc7237dd740046e814dde94706620a72d5e695d77ca149a8c7805ca25a0",
+  "seconds": 47.37,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/084/group-19/redrawn.png",
+    "source_sha256": "ecbf5e9b0302b265ff080e96eed007576ceee889265866bae2a5d2a3fee4dd27",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          266,
+          174,
+          353,
+          232
+        ],
+        "text": "WINE",
+        "font_size": 29,
+        "background": "#f6dfb0"
+      }
+    ],
+    "output_sha256": "6a7b5b757fda89379dfb72c79d7414bfec4a559e644bd838660c22af0ebed334"
+  },
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

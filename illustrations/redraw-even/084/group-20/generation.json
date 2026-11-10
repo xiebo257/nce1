@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A glass and a bottle of beer.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841130,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-20000",
+      "path": "html/assets/lesson-084/lesson-084-pic-20000-color.webp",
+      "sha256": "f38f789ebed31bb8917137141f6bb357d2a7bfeb9fb7f174f36e8f97aabf8062"
+    }
+  ],
+  "fingerprint": "11add2b6fb4ea95ea6264f2f011052ff9bfbeefd09d4bda4dd26a26b081d991b",
+  "sha256": "e0f874583569b9bb417e6afca8d974caf77683c51b8730ff506aba0a9a9d4764",
+  "reference_sha256": "2ee6854e9223f91f7fe10faa21a20d757cd53a5606e2265ffe33b3b2e623e590",
+  "seconds": 47.94,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/084/group-20/redrawn.png",
+    "source_sha256": "e0f874583569b9bb417e6afca8d974caf77683c51b8730ff506aba0a9a9d4764",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          279,
+          178,
+          368,
+          210
+        ],
+        "text": "BEER",
+        "font_size": 30,
+        "background": "#fff8cd"
+      }
+    ],
+    "output_sha256": "a1cca1cb7063054a415e14e2fec36a35da41b66da360cc70fefd2b4fe6c233fb"
+  },
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration matching the source arrangement. Exactly two bowls of cooked GREEN vegetables: back bowl filled with round GREEN PEAS, front bowl with long GREEN BEANS. Wisps of steam rising above both bowls. No tomatoes or red food. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions.",
+  "seed": 841116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-6000",
+      "path": "html/assets/lesson-084/lesson-084-pic-6000-color.webp",
+      "sha256": "e36d22ee7b95bf5f93133455c51d595f6997e90fe6927aa285cac39ec4e542e7"
+    }
+  ],
+  "fingerprint": "61a553b3e7594632664f360f691d3914b4698912868a92b90da06c05eef29ef8",
+  "sha256": "f5b8193a8a930c5f45db71de9f6734d0462d443641e47a633cac863fca9aedf2",
+  "reference_sha256": "67c565a2bd06f62c5cba70428af7de810438fdaeff4d6888b2f2ec18dbf0fe48",
+  "seconds": 47.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

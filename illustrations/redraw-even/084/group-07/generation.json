@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational illustration of A salad bowl of lettuce with a spoon.. Preserve the object count and arrangement. Natural recognizable object shapes, smooth sharp outlines, solid colors, subtle shading, white background. Inanimate objects only: no cartoon faces, eyes, mouths or characters. Preserve existing short object labels, add no new text.",
+  "seed": 841117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-7000",
+      "path": "html/assets/lesson-084/lesson-084-pic-7000-color.webp",
+      "sha256": "edb34f9065680f7a6b98972132630cd571fbb6d05b0e40f6766b8ae03d6168ea"
+    }
+  ],
+  "fingerprint": "c628b159e49042de9e09645c313d999e483d28eda9de8676c2fb97654bc65da8",
+  "sha256": "7784332e61964566031d0c9611b2e5503d458f7855c5a5386bcbbff3e7e8f1c7",
+  "reference_sha256": "47f735b8b6d02ebde58bc2d9e70a030dc9526aa090869da8682fe7875ec72ef5",
+  "seconds": 47.77,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

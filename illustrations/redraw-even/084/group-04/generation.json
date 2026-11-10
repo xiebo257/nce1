@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp colorful educational illustration. Exactly FIVE peaches in a wooden bowl, three toward back and two at front. Peaches have warm yellow and pink blush skin, a visible curved crease down the side and a heart-shaped cleft at the top. These are peaches, not apples; no long brown apple stems. Match the original photographed bowl arrangement. White background, clear outlines, subtle shading, no text or captions, no faces or people.",
+  "seed": 841114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-4000",
+      "path": "illustrations/redraw-inputs/084-photo-04.png",
+      "sha256": "633d5444279e257acbc96040278f1e76974d6fb8bf1774be98015560bcc864c0"
+    }
+  ],
+  "fingerprint": "eb4fa9d4dd927b7b9ea7c9feaaddfc71dba53e52ddcbcd6ed5435566febcd062",
+  "sha256": "d86705fe896cc877a59f4835814ff8ccc680741c553217d4d2f07cd8c9834010",
+  "reference_sha256": "6c947eec432061160a61d9b003459e4f8e4192580a24b096a30d45a9b76482df",
+  "seconds": 49.18,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

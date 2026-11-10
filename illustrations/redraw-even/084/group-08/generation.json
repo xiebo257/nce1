@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration matching the source arrangement. One bowl of chopped cooked GREEN CABBAGE, a few wisps of steam rising. Recognizable folded leafy cabbage pieces, not peas or beans. Smooth clean outlines, recognizable food shapes, subtle shading, white background. Inanimate food only, no people, faces, eyes, text or captions.",
+  "seed": 841118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-8000",
+      "path": "html/assets/lesson-084/lesson-084-pic-8000-color.webp",
+      "sha256": "33c9835f687c5d95d76c8fb819e694675fa0e5a36bf51873b01ab281df66c5ad"
+    }
+  ],
+  "fingerprint": "660c527444a811a3ccbb0340db5d7ddf935427d506123b45faaec3886c55a458",
+  "sha256": "f7966d40a59aad7e2ad4d06487a72bd048f11dd8203cd3e2a69cea0fa616f7ba",
+  "reference_sha256": "66da6152a6f5722f7f3d5c0f2fd5ab7545387ce22058ee6a3b4d592ebde28f9f",
+  "seconds": 48.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}

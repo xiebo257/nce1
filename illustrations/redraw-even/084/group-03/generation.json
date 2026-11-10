@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp colorful educational illustration. Exactly SIX oranges stacked in a brown fruit bowl, three toward the back and three toward the front. Orange-colored oranges, round fruit with small green stars on top. Match the original photographed bowl arrangement. White background, clear outlines, subtle shading, no text or captions, no faces or people.",
+  "seed": 841113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-084-pic-3000",
+      "path": "illustrations/redraw-inputs/084-photo-03.png",
+      "sha256": "354a70b7ce7c1e88abc8a6df07655f020c66276aae30e3c00fe3c917b56aa597"
+    }
+  ],
+  "fingerprint": "160268d483370371be21ab0ce5b94562625a14c30002542e1dd3b32e9384a305",
+  "sha256": "a452cbf495e1e88bbe18e5d93faae0568196ba7767fb4f7ae880535634911a27",
+  "reference_sha256": "42cd8b537181cfe46a9c8ffdcc82592e69c53ff7e56fe50e9d5b70e1deddaf9b",
+  "seconds": 48.13,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/084.json"
+}
