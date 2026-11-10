@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A young girl named Susan lies ill in bed with visibly swollen puffy cheeks and jaw from mumps. A man and a woman stand beside the bed. Exactly three people. Preserve the reference composition. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-118th",
+      "path": "html/assets/lesson-062/item-118th-color.webp",
+      "sha256": "3ab64c116d95fd925003dc9045a7538541de5354586beef2416dc2813a1b5409"
+    }
+  ],
+  "fingerprint": "f04383ef9d11b289bb07a32646a1c160e96b163c7f57083915a46e59bac3f7c1",
+  "sha256": "6660703de6d9c4f58ae222d328c99ec4a8607a4ec79d7689733b6009c8ddfabb",
+  "reference_sha256": "18767232d75574c293700b30e3d50e4a4b7e15044aa76c62d7e22733ef3bfe2a",
+  "seconds": 31.2,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

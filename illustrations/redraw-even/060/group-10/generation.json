@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 22nd peas: Peas in a pod or a bowl of peas.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-22",
+      "path": "html/assets/lesson-060/item-22-color.webp",
+      "sha256": "f2e11197a0203a4bf4e81b5cb80d9f1e9f83d321e3ffa077a02aaefe266e4d53"
+    }
+  ],
+  "fingerprint": "03817dded06cd16a9e1d8c7c80afeb2da100e2d79f8f1b99e0f31f3e1e5f2fdb",
+  "sha256": "cef890404091f8e7e36d3de9d2984826718c956dba9689bb39a00b048333d077",
+  "reference_sha256": "5ae9bfd196a5873ac3579d1678ec33d48695cbd292b08c18997549791bcbb161",
+  "seconds": 26.84,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

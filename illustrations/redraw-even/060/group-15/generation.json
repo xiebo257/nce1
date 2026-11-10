@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 27th grapes: A bunch of grapes.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-27",
+      "path": "html/assets/lesson-060/item-27-color.webp",
+      "sha256": "59df063dcc00b83d7991cf5af913a7d5eec7158e5cda9231e1a3388a9ed23b44"
+    }
+  ],
+  "fingerprint": "8124fdd2a74768d97cd973eca0f37b29244f22bfa26dfbb8801fbc90102f3b99",
+  "sha256": "07899000334b18349345bd3b052df605fc29d6641fa6f5ee2df0151598cc185f",
+  "reference_sha256": "b007531b2ebe6be6c8f5f2ebdf01e344caeecd3a9cc45959b3436e4e63e4e105",
+  "seconds": 24.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

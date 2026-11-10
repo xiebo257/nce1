@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 14th butter: A rectangular butter dish or pack labelled BUTTER.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-14",
+      "path": "html/assets/lesson-060/item-14-color.webp",
+      "sha256": "92420460bb463b5b70e1b5805d50fd3712ee1f0f2bb65451f14dd0ac175d0c41"
+    }
+  ],
+  "fingerprint": "ffd539a0cb4666c71436fd9f3b8a1d4c9976eabc98f8e97453ae0511158407f9",
+  "sha256": "f893c319fc064a53561dc8823c902d72d3c0b7c3a16ff736dd159bb6dcdeb41e",
+  "reference_sha256": "ff1fef3ea1c8cd488f43fcf19d41b7f22f112ad2920684d2a62cd9c14421e7ea",
+  "seconds": 27.63,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

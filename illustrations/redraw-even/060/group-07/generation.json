@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. An open package of plain biscuits, with a few rectangular biscuits visible. Use an unlettered blank wrapper, no text. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-19",
+      "path": "html/assets/lesson-060/item-19-color.webp",
+      "sha256": "1a4edbaaa31202b47d0a6a03e36691ad9c9afa16af401388fec945cdfad7b856"
+    }
+  ],
+  "fingerprint": "0ac62a83ae18187e82885d5701027766edb7b1496750f10aa0b88cd19e7cf0f2",
+  "sha256": "e5accbcb65abaf32aae93ee54485587033fc4a1b86f251fca9ae569eadfb2d23",
+  "reference_sha256": "308d1e350354e64006ddf302e8e77d209337d1f2db97c0661391feb5eeba1630",
+  "seconds": 26.73,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

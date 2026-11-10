@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational object illustration. Two simple rectangular tobacco tins with loose brown shredded tobacco leaves beside them. Plain unlettered tins, no writing or logos. Sharp clean outlines, natural colors, white background. Inanimate objects only. No anthropomorphic faces, eyes, mouths or characters.",
+  "seed": 601133,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-35",
+      "path": "html/assets/lesson-060/item-35-color.webp",
+      "sha256": "e1558104d075a738f2a9a2294d0bb4fbb9753031d14965d700caa9e3427a6355"
+    }
+  ],
+  "fingerprint": "07aa6ad1bf99c8a7f09f413e151c421768921e7e468904c21ba6a8ac0073cbc4",
+  "sha256": "ee3a148b07852aa3a9c70d3c3309701d6d26d4001ecdbfeb91355c2157253ca8",
+  "reference_sha256": "5a80ed3ba153d4af281b408230c75ec87ef5c13da953ce7001f0222e8bea4808",
+  "seconds": 28.3,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

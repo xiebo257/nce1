@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. A loaf of ordinary sliced bread. Brown crust and cream bread inside. No faces or characters. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-18",
+      "path": "html/assets/lesson-060/item-18-color.webp",
+      "sha256": "db3d220c9cf9ca81b856a3a7c5c272d6c9fc9e1da7475f98a6fda4e946d64aa9"
+    }
+  ],
+  "fingerprint": "8d3a66fb713629986cf9b2c3abacdf21ac119bb83be257a85bea3f269b011800",
+  "sha256": "d670274c71c8be7db97ebd7b768b263b173085587b889f74a1804c1829894109",
+  "reference_sha256": "97e490ead516859d17f6e13647e7b1f289a2c034071e9c5ed4d9b04d081be4ec",
+  "seconds": 27.28,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

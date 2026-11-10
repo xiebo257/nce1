@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. One cut of raw red beef steak with a pale fatty edge. No packaging or extra objects. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601127,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-29",
+      "path": "html/assets/lesson-060/item-29-color.webp",
+      "sha256": "89011baaaf4aca0e88242c9972bfb7aea1c1d484dfa21c1015fa0a730ea7cae6"
+    }
+  ],
+  "fingerprint": "7433818ea0ea480b75a4caa840167dbd37bfaeed367e661e61bbb2414facd1fa",
+  "sha256": "6fa7ac29475e1ec0f04a294073590c840ac020f0469e1e77b7dcae3405e3d124",
+  "reference_sha256": "5d2e053ea809e1465c04dfd9f00ff9eb91b181fb54ace1409e743b7900c561d9",
+  "seconds": 27.01,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

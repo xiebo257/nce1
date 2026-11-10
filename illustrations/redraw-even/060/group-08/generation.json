@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 20th potatoes: A pile of potatoes.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-20",
+      "path": "html/assets/lesson-060/item-20-color.webp",
+      "sha256": "a6a6fafef9b03aa6a6c44d7a02e8ec9e3e373112c68537a9a1cbd59cd6360b4c"
+    }
+  ],
+  "fingerprint": "c981f694dd62fc56d075f92939f29108e497db8edcc83ef43d42ff705e45f1bc",
+  "sha256": "e3c2334bf941f2420bd3dad7999fa6f91afcbe99266e5936f54e70bfae8748da",
+  "reference_sha256": "0df8af3c153bcb25ae11bc2ab8ea87fd1b20505480952edca3f0d73345111459",
+  "seconds": 27.4,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

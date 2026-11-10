@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Dave lying ill in bed, visited by two people; he has flu.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-96th",
+      "path": "html/assets/lesson-062/item-96th-color.webp",
+      "sha256": "10a1c8f062e9b358cdac4c831c3a4b99af39cad76e25f5288667c936644143c2"
+    }
+  ],
+  "fingerprint": "623e4f8226e8fe060b01965af448c6fdbc68745b011052f20a80c7168344fdf0",
+  "sha256": "18299e797747421b4865255a46c0e514777c151362a9b210d419791c147a5b94",
+  "reference_sha256": "56a6be01ae7f75f30cca6d55c600ee0425b550d146d9b38ad8e9c31bb68af562",
+  "seconds": 27.85,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

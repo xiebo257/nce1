@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A young BOY named Jimmy with SHORT blond hair lies ill in bed with small red measles spots on his cheeks. One adult woman and one male doctor stand beside his bed. Exactly three people. White pillow behind the boy, no long hair or pigtails. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-107th",
+      "path": "html/assets/lesson-062/item-107th-color.webp",
+      "sha256": "48a36b530367250353d0a434ac362f41c41e8b197eaaf64d62d7869d8b4f81bc"
+    }
+  ],
+  "fingerprint": "6834ca0e6bc2f10a2c98237c63600ac33399492b03ca8fde1e8138e267298685",
+  "sha256": "033595ee59b1b83d1c601e1f3df6ff5c2117ec932c29d6c78be6241d935e79d8",
+  "reference_sha256": "d8816961320100b3c262fc01cd836b65d37fbd3928d2c7689ffc5bb8f78b7edb",
+  "seconds": 30.4,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A blond young male patient on the LEFT holds his sore cheek with one hand because he has toothache. A bald adult dentist on the RIGHT stands beside him, and an empty blue dental chair is farther right. Two separate ordinary faces, small normal teeth inside mouths. No objects connecting their mouths. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-63rd",
+      "path": "html/assets/lesson-062/item-63rd-color.webp",
+      "sha256": "52f780f2de53f75ba47d35e552c4434b0faa50d96d53372207c44f056e66a7ec"
+    }
+  ],
+  "fingerprint": "5b5021e0bd6d888f02b5a7b27c081b827ad23ba0c7d595473d73a57c5763b0f1",
+  "sha256": "2df51c31f575b444f87f7a696b05136738e9eb3bb626f025fc6c1719a58058d5",
+  "reference_sha256": "e398fd30d052f7c862aaedd1fbc9f7c021bcff44e783b15dd359b1b743107341",
+  "seconds": 29.65,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

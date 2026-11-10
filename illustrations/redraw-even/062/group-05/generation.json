@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Sam, a boy with a thermometer, next to a man with a glass; Sam has a temperature.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-85th",
+      "path": "html/assets/lesson-062/item-85th-color.webp",
+      "sha256": "2e1f2669201dacb8ab5824b60ad366bca4ce743223b3ed1c9555662c22f1a9f7"
+    }
+  ],
+  "fingerprint": "47f14f0d5cb22a39f0ce8a37441c83b99fbb0386b03e074c71968e5b709ebf0b",
+  "sha256": "09381b8afa55243b6f8b3683954f7236fddfce70e8a33820491da93f06be7a80",
+  "reference_sha256": "ecdfc00bde65c2831e9651239b4b17ea109d43d5ca7ae4a031c91d3d4a0a8fc6",
+  "seconds": 27.73,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

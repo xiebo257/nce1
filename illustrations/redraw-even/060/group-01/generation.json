@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 13th cheese: Two wedges of cheese with holes.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-13",
+      "path": "html/assets/lesson-060/item-13-color.webp",
+      "sha256": "a4d92677eab807ed9625fb48f305d333dd9820119a0062150c85edf1c3a48f29"
+    }
+  ],
+  "fingerprint": "7baed1e2ac761154e3363ad2671c17abfed59f8120173333b0ef40a97d46733d",
+  "sha256": "6ed2d029209a645461fb8e789c4727ee6fe1397660df52042f6a7bee2c44e552",
+  "reference_sha256": "df580dc720f8981a16f00da9b7a0286ae3ff94dc5fc8729e0cd255d8cd407c87",
+  "seconds": 28.48,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

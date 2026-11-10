@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational object illustration. Two smooth pastel pink and pale yellow rectangular bars of bath soap with rounded corners. Plain unlettered soap, not food or cake. No icing, crumbs or wrappers. Sharp clean outlines, natural colors, white background. Inanimate objects only. No anthropomorphic faces, eyes, mouths or characters.",
+  "seed": 601134,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-36",
+      "path": "html/assets/lesson-060/item-36-color.webp",
+      "sha256": "4019e5c883fc34104c001ca472c13c68668ffef68eb4fcc1bb631a5c69f23c54"
+    }
+  ],
+  "fingerprint": "44ff4149f0e2a03dc3ce18853167b7535ac58f4ee31805e0311642b535043ca2",
+  "sha256": "6cd6f05475b1addd5d6503021d14e3707190d0b4770df6a6325d3db6880ff14e",
+  "reference_sha256": "3cb1caa65e403a890a3ba36eff5ebe92e9cf1cf6502bd009517298d3addd05bc",
+  "seconds": 29.28,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

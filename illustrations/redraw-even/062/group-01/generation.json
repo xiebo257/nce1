@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman with her hand to her forehead beside a bottle labelled ASPIRINS; she has a headache.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-41st",
+      "path": "html/assets/lesson-062/item-41st-color.webp",
+      "sha256": "5317069c69c63b1c1c71f7ce2fd947de4c5a7eb9c039a97801bb8c5b4a66914a"
+    }
+  ],
+  "fingerprint": "42e34c5edca20bb6ac1a0926db4031cd4a6f2d1bfce19ba8f5d4747c0299d185",
+  "sha256": "0ecfa9f1bd69d0e4069cb5dd653ce2ad28e629c4e930c0a140021f364339916f",
+  "reference_sha256": "166f832cf722273e363de084ff6917ad2c1f7ff08e0cc9a8134d8236ded05262",
+  "seconds": 29.28,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

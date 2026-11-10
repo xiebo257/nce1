@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one crisp full-color educational object illustration. Two ordinary glass bottles of red wine with plain corks or bottle caps, labelled WINE. No faces or decorative portraits. Sharp clean outlines, natural colors, white background. Inanimate objects only. No anthropomorphic faces, eyes, mouths or characters.",
+  "seed": 601132,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-34",
+      "path": "html/assets/lesson-060/item-34-color.webp",
+      "sha256": "2824c40630535e88a2327b36dc303bc05b4a542d3d7c19a08c75d1647a8f31eb"
+    }
+  ],
+  "fingerprint": "156d7e2999d932661a0238edf2eff92870574a53d08ed09acd2ca35d679eabaf",
+  "sha256": "1a13e4b082db2928d9d0e3a5e51dec8d36a276858b3629ef142b3dee486b542d",
+  "reference_sha256": "3956c408e83975fa512e7f56e17a5f2fcbf2c2f9feedecd9f4ff01c029d8d321",
+  "seconds": 28.91,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. Exactly three smooth pale beige chicken eggs, slightly pointed oval shells. No leaves or stems. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-15",
+      "path": "html/assets/lesson-060/item-15-color.webp",
+      "sha256": "51d6ac98e645078bdcca23fa6c1bda69aa72c6ebcb4b21e6f567bf71f5b7ffff"
+    }
+  ],
+  "fingerprint": "765bedc7f3001ba8b2830c4373245bd565c37b61afc893f38fe9a8b82daa16d9",
+  "sha256": "35bbd313ff69baa03c0ca5276a4bd041e2d2e5dbc7028570392815c53673bdc4",
+  "reference_sha256": "c6f43321afa39ebaba477470d76000fdfe5297d9809f992d50a5e2724ba8c882",
+  "seconds": 28.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

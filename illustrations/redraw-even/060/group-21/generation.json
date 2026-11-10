@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 33rd beer: Two bottles of beer.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601131,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-33",
+      "path": "html/assets/lesson-060/item-33-color.webp",
+      "sha256": "61a798d7927ca6a436d7e2974e80dd95ba7dc3af6af95bada74104f10e332b14"
+    }
+  ],
+  "fingerprint": "2735025105b669ce1727ee92f3d9ee8e34fd0b344034a67ea9d4edde5174ce9d",
+  "sha256": "68a317a32b6e28432c187c0de520814b99ee21a3dc1fc98fb899a8d0470f8d9c",
+  "reference_sha256": "c78baf2b6933e49983ec89930f897282fee8a63acd7fb5f699a06d5352b08394",
+  "seconds": 27.23,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman holding a bottle of medicine for a young girl; Jane has a stomach ache.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-74th",
+      "path": "html/assets/lesson-062/item-74th-color.webp",
+      "sha256": "8866a76331225188d8fbd0ce3497257161c4e78295553adb8a31504ee90c2488"
+    }
+  ],
+  "fingerprint": "58f8000bfeb6a9871a0299c3be27da7276b775f5ca1e964a738eff408778fa01",
+  "sha256": "3e9a04a588f06d0607ad4557e791472a6642750ae44d60243a9767b0e8d806b4",
+  "reference_sha256": "f3dafc9a978bfc67778d51c578ee9ce94ae37ef6f278a12fa78aa3a80da54e33",
+  "seconds": 27.42,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

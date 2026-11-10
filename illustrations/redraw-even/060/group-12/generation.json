@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 24th cabbages: A pile of cabbages.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-24",
+      "path": "html/assets/lesson-060/item-24-color.webp",
+      "sha256": "5b3c72d7d9177ff9739f391a30a98b8edd638b85a71a30445c81973db3882366"
+    }
+  ],
+  "fingerprint": "952c88e182d801734c2a6eb3a8e16cc0fe185afb10927a25b5f7b03d3838ec5e",
+  "sha256": "ef2e88fbf2aca20a6012486d10e15ab7d86a030ad35d91d4f12fc66ccfaa8e12",
+  "reference_sha256": "2d5044ef72ecc45dc6daf1172958f498364232f5b765b10d16c76a225fb29f0b",
+  "seconds": 28.03,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

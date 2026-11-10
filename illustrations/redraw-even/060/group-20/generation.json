@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. Two glass bottles of amber whisky, red caps, labelled WHISKY. No portraits on the bottles. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601130,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-32",
+      "path": "html/assets/lesson-060/item-32-color.webp",
+      "sha256": "83ef3cb3c6e2cc31869082d7a6af81dbc09976106c86f9271fa54ec55f55948a"
+    }
+  ],
+  "fingerprint": "cd66fc81756bdf4ce136bec0c1e16496b77e0974cc8063f08675bdb77b27e5d8",
+  "sha256": "cec446fd3e18872e60364edc5b5dcca040e4055a1570cf0a6f3fcf8f3b05b4d7",
+  "reference_sha256": "7531886f6e420aaccebcbcf5bb5648e74e25bd221d24864edd63f45d92715787",
+  "seconds": 28.18,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

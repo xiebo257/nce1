@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 26th bananas: A bunch of bananas.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-26",
+      "path": "html/assets/lesson-060/item-26-color.webp",
+      "sha256": "7326ee03e5be5eae8107689ac3fc749e1c432680d3ce3a6abe10f9343c782f69"
+    }
+  ],
+  "fingerprint": "e393ad5588252924e0a315dd7b3f902c079097b2c5a5f6f00c8a24bed579d839",
+  "sha256": "5fe29eb2c79706bcd3757fcabccc7be59bf2430ef5a514f8f7e04a9e5593e8fd",
+  "reference_sha256": "7b42bc8aedb150b8b6129bac2277d95a2d1163b10fe309a306f210c3dd1355f6",
+  "seconds": 27.53,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

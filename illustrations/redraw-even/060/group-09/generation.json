@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 21st tomatoes: Three tomatoes.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-21",
+      "path": "html/assets/lesson-060/item-21-color.webp",
+      "sha256": "1a0c24cf558d55c938f4a74c9d9b067108da0685fb2f3c3b1465b72685e44207"
+    }
+  ],
+  "fingerprint": "e2af78e6c2e3d1808b8db9032fb444eb15315d0810f9faf58c4a90d97a8814df",
+  "sha256": "f4991eb1339145d29bd9c39c603cecf32fc521e3b701affde71753eb55197b5d",
+  "reference_sha256": "f240b89c3cfc48b79ebd111ba5f8c6ae027b4d0df4ed72a8bc0df730ff817983",
+  "seconds": 27.19,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

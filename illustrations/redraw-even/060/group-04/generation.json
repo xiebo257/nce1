@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. Two glass jars filled with red strawberry jam, labelled JAM. Only jam inside the jars. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-16",
+      "path": "html/assets/lesson-060/item-16-color.webp",
+      "sha256": "4c4a4cd52a660fa14d606ede7671b5df24f600791c5e8623ddcf55a7d38a16ed"
+    }
+  ],
+  "fingerprint": "4b18cc28dc258f4e50ae2a005953e5e64c7f54c85b25402720a04915c24857e9",
+  "sha256": "16d55ad26f74fa4ff8dbcbfaa3c1adbd1b587ab094ad933c86752c90d2d4364b",
+  "reference_sha256": "509f3c063b139ecd137b8468561aee3c72b9aeef8d2a146c318eaebc4f0f5127",
+  "seconds": 27.77,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

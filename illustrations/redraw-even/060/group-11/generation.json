@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 23rd beans: A pile of beans.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-23",
+      "path": "html/assets/lesson-060/item-23-color.webp",
+      "sha256": "68365d8be56b79d0dcc9309c320699bc896bee801a95911e37b21487eb9df817"
+    }
+  ],
+  "fingerprint": "82b72b71c71246546d080ea2e16a61f101afd9912884137529cc381ce1c4b90a",
+  "sha256": "2c97394507c608bc8a592425ac9528da7b9d0ba781d920cb433dcda2978c8c38",
+  "reference_sha256": "18df5b0e592e233671135f9f989c68091b9f7c72e5ba96c6ab1c01926e14c693",
+  "seconds": 28.08,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

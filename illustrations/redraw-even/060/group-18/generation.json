@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. A mound of fresh raw minced beef, small pink-red ground meat strands. No vegetables, beans or faces. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601128,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-30",
+      "path": "html/assets/lesson-060/item-30-color.webp",
+      "sha256": "102e7803f2c9567a61e12ac3fa3b9a6bcacace3be935585994494f9f27a87a84"
+    }
+  ],
+  "fingerprint": "5d03336d6f15eea275f49f07f2dcdee05e41ba22379579e214a599a437a4ab02",
+  "sha256": "ffcdb378f9ed8f7011a3bb2813f9dacd71298945d69c55137408a83a4f5a49a7",
+  "reference_sha256": "700b4c4b44bd52973f89dd620b507b852eaa4b70878c0d6ba0160d7328e49814",
+  "seconds": 27.6,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

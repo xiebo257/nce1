@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 17th honey: Two jars labelled HONEY.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-17",
+      "path": "html/assets/lesson-060/item-17-color.webp",
+      "sha256": "6b65b04c11cd73bf654bec4bb2d39ba6fc5b47728e6a216b5db1b4cd2fff52c4"
+    }
+  ],
+  "fingerprint": "7ae56a3249178da322d4fc4e1d15bec01724488e222cdf8a3e16acb569f6a439",
+  "sha256": "c30d6ef9b9f7ec29d7c96478e8ae52b461e59a30708de75ef317270f1bfd6840",
+  "reference_sha256": "82a1b9b80f20c206b7ef895234d15f90ac1cba3fd0eeef15884d0e2fccfad887",
+  "seconds": 27.43,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

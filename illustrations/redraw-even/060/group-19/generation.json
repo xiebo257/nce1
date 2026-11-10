@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. One whole plucked raw chicken for cooking, pale pink skin, wings and drumsticks folded. Food, not a living bird. No feathers, head or text. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601129,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-31",
+      "path": "html/assets/lesson-060/item-31-color.webp",
+      "sha256": "56a59f258ea2b7081e0bdf2df42b05b0a79b83c68142d4c87d37a3a6e6a3874b"
+    }
+  ],
+  "fingerprint": "49738dd041c68164b70682fe3c510740567b1e6b1c9ad280b444510fad314627",
+  "sha256": "f3daf4973012a75876d3caf5c41ea5ab64bed44b1e5fb38a5f751f369a457ebc",
+  "reference_sha256": "fc76ded3d5833d806ddc94855c1b0a8c370b089c78ba8ce9674d733d71f014fd",
+  "seconds": 28.01,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

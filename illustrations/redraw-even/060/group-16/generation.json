@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as one clean full-color educational food illustration. Three whole ripe peaches with soft orange-pink skin and small green leaves. No holes, exposed stones, or brown patches. Sharp outlines, natural colors, white background. Inanimate food and containers only. No anthropomorphic faces, eyes, mouths or human body parts.",
+  "seed": 601126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-28",
+      "path": "html/assets/lesson-060/item-28-color.webp",
+      "sha256": "f89788249a8b3336bdfd483a0c6ddee7e49929ac680b75e75e8d798fc1b6fda1"
+    }
+  ],
+  "fingerprint": "553a76d061a7b55b2a0977814afa84fd58ef47bd27f633ec852e47165dd4b307",
+  "sha256": "e80d2512fa3de8b847a627afa4f72dacc50f872e8d4355373d9f0b373c059a60",
+  "reference_sha256": "57df0906a5469d06265a27c1e41e0f26e44037a073d82d611605feb0fb9290e3",
+  "seconds": 27.11,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

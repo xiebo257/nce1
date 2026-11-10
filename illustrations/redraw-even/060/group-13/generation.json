@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. 25th lettuces: A pile of lettuces.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 601123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-25",
+      "path": "html/assets/lesson-060/item-25-color.webp",
+      "sha256": "4e0e71cec9c61d86cc46df60737c7d9be06c9bc4f5e05d49e35d5798b3f7e4ba"
+    }
+  ],
+  "fingerprint": "c303e52708bdf916c6a13e362f2ea7ce416212ab30cbf4adc8acc34e4b44e4fb",
+  "sha256": "85509bb570c2d3fcc92150e525190e77ab9c1f21ae143dc15705e8a0556c7d73",
+  "reference_sha256": "f62867e7830be027819a55cb7898169d2bac2a5794cc0bac391141bef2e6911b",
+  "seconds": 27.37,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/060.json"
+}

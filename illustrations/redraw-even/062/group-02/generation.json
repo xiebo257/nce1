@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. George with his hand to his ear; he has an earache.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 621112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "item-52nd",
+      "path": "html/assets/lesson-062/item-52nd-color.webp",
+      "sha256": "0dfc469cb11af6c733ebe2cf47bb6e123f4215c53f549c8924c203edece5ae42"
+    }
+  ],
+  "fingerprint": "440ac53cfb5203e6ccbe9e157bc2a465d5716f4c1a7efe22497f890076615240",
+  "sha256": "b145852fd19954ed55d2aa491361337479b94ba0c5fbb0278c33b1751df6e52a",
+  "reference_sha256": "bfc5fd73bdc74a5de4751484b14494973e45972c814baf802b0634f9036c6448",
+  "seconds": 28.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/062.json"
+}

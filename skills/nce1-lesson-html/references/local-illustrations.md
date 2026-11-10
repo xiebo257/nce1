@@ -273,6 +273,18 @@ only people and objects in that picture. A generic reference to clocks, thought
 bubbles or a cast member absent from the scene caused unwanted objects and
 duplicate panels. Preserve hair/clothing with scene-specific constraints and
 visually compare repeated people. A shared seed does not ensure identity.
+For pure object pictures, omit generic face/person instructions altogether:
+they caused faces on bread and bottles in the Lesson 60 trial. Describe raw
+chicken as food rather than merely "a chicken", and verify labels instead of
+accepting plausible-looking lettering.
+
+For a before/after pair with the same people, an inspected clean first scene
+can be the edit reference for the second. Change only the relevant object or
+action, retaining the cast; independently redrawing both old source tiles can
+change hair and clothes. If an edit must remove a person, verify the entire
+body disappeared: one local trial removed only the head. Correct small clock
+insets with photograph-verified diagram overlays, recording the operation via
+`refine_redraw_candidates.py`, rather than trusting diffusion-generated hands.
 
 `redraw_even_illustrations.py` maintains the 52–144 even-lesson redraw queue in
 `reports/even-illustration-redraw/plan.json`. The plan records the original image
