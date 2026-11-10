@@ -14,7 +14,7 @@ def main():
     parser.add_argument('--complete', action='store_true', help='Fail if any planned picture is unpublished')
     args = parser.parse_args()
     plan = read(REPORT / 'plan.json')
-    results = []; errors = []; pending = []
+    results = []; errors = []; pending = []; retained = []
     for number, lesson in plan['lessons'].items():
         number = int(number)
         path = Path(f'lessons/lesson-{number:03}.json')
@@ -34,6 +34,11 @@ def main():
             slot = item['slot']
             if digest(item['source_photo']) != item['source_photo_sha256']:
                 errors.append(f'{number}: original photograph changed')
+            if item['mode'] == 'retain-original':
+                if data['images'][slot] != item['previous'] or digest(item['reference']) != item['reference_sha256']:
+                    errors.append(f'{number}: retained source image changed: {slot}')
+                retained.append({'lesson': number, 'slot': slot, 'reason': item['reason']})
+                continue
             if slot not in published:
                 pending.append({'lesson': number, 'slot': slot, 'mode': item['mode']})
                 continue
@@ -62,9 +67,10 @@ def main():
                 errors.append('Out-of-scope lesson changed: ' + path)
     report = {'baseline': plan['baseline'], 'planned_lessons': len(plan['lessons']),
               'published_images': len(results), 'pending_images': len(pending),
+              'retained_images': len(retained), 'retained': retained,
               'errors': errors, 'assets': results, 'pending': pending}
     write(REPORT / 'verification.json', report)
-    print(json.dumps({k: v for k, v in report.items() if k not in ('assets', 'pending')}, indent=2))
+    print(json.dumps({k: v for k, v in report.items() if k not in ('assets', 'pending', 'retained')}, indent=2))
     if errors or (args.complete and pending):
         raise SystemExit(1)
 

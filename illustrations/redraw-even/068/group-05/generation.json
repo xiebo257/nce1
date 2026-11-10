@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "One clean full-color cartoon of a hairdresser cutting a customers hair. Exactly TWO people: an adult male barber STANDS on the left holding a comb and scissors; an adult woman SITS UPRIGHT on a salon chair on the right, wearing a blue salon cape. Her brown hair reaches her shoulders. Show the chair clearly under the customer. Normal human bodies and hands. Match the reference colors and cheerful cartoon style, white background, no text.",
+  "seed": 681115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-hairdresser",
+      "path": "html/assets/lesson-068/picture-hairdresser-color.webp",
+      "sha256": "658be3df1e4371853306594eba61810eacd89a5c84fdfef1a30343768c2e75b9"
+    }
+  ],
+  "fingerprint": "2d63dd2114765f1547d481a6ccfaac92b1087b43f1686d970c2254f70de75563",
+  "sha256": "914c374dc67ad891ca3640c992924163217d0f522f9ad63d1654c06129e67205",
+  "reference_sha256": "2ffa5f614e5dc3ba5d84504a33cf881b3493e1c27cf633765fe3ec979487c721",
+  "seconds": 33.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

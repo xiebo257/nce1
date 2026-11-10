@@ -2,7 +2,7 @@
 """Apply reviewed, recorded exact-diagram overlays to model redraw candidates."""
 import argparse
 from pathlib import Path
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 from redraw_even_illustrations import REPORT, WORK, digest, groups, read, write
 
 
@@ -22,6 +22,29 @@ def main():
                 image = original.convert('RGB')
             record = {'source': str(source), 'source_sha256': digest(source), 'operations': []}
             for operation in recipe['operations']:
+                if operation['type'] == 'text-overlay':
+                    draw = ImageDraw.Draw(image)
+                    box = operation['box']
+                    draw.rectangle(box, fill=operation.get('background', 'white'))
+                    font = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', operation['font_size'])
+                    draw.text(((box[0]+box[2])/2, (box[1]+box[3])/2), operation['text'],
+                              font=font, fill=operation.get('color', 'black'), anchor='mm')
+                    record['operations'].append(operation)
+                    continue
+                if operation['type'] == 'hue-shift':
+                    box = operation['box']; region = image.crop(box).convert('HSV')
+                    pixels = list(region.getdata()); low, high = operation['hue_range']
+                    region.putdata([(operation['to_hue'], s, v) if low <= h <= high and s >= operation['min_saturation'] else (h, s, v)
+                                    for h, s, v in pixels])
+                    image.paste(region.convert('RGB'), (box[0], box[1]))
+                    record['operations'].append(operation)
+                    continue
+                if operation['type'] == 'erase-polygons':
+                    draw = ImageDraw.Draw(image)
+                    for polygon in operation['polygons']:
+                        draw.polygon([tuple(p) for p in polygon], fill=operation.get('fill', 'white'))
+                    record['operations'].append(operation)
+                    continue
                 if operation['type'] != 'exact-diagram-overlay':
                     raise ValueError('Unknown refinement: ' + operation['type'])
                 draw = ImageDraw.Draw(image)

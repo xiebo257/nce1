@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Two children in caps making a noisy racket. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-665",
+      "path": "html/assets/lesson-064/picture-665-color.webp",
+      "sha256": "33f63c964aecd1da6ba68d2add13a24b5c26e1e77817e3949664d3521ad15fec"
+    }
+  ],
+  "fingerprint": "1f0fb6254dce9b21fb168559a3b8d1421052246bddeae50c8eb017ec3206b51e",
+  "sha256": "d9f83a03dfea9c19bf1a1c77aaf3b00f9903dff02fe467ad2bbbec577104a5a6",
+  "reference_sha256": "f644b0d228a87362a03f6abf8a55aabff74ba163cf77770c3dd5d3c3d099603d",
+  "seconds": 32.47,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

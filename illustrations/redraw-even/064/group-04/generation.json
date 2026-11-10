@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman holding a box of matches away from a boy. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-443",
+      "path": "html/assets/lesson-064/picture-443-color.webp",
+      "sha256": "b6714630d49900c67f95ff5d8d356f1c5c3b043d14b51f28413a996d6f2a585e"
+    }
+  ],
+  "fingerprint": "c03c1ebd3ddd08885ca2808eb23094c8e82048995ab4edbf2f10548be644aeef",
+  "sha256": "62ab35fb5cd439003feb31688de3114193bd4926b7fbe029bc6a8bb7b66b9c38",
+  "reference_sha256": "591705359c83632f4f56b65bbe6e13da70d2a88e154755c98ac672bfe9a32cda",
+  "seconds": 31.84,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A shop with bottles of milk and cream on shelves; two customers stand at the counter. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-dairy",
+      "path": "html/assets/lesson-068/picture-dairy-color.webp",
+      "sha256": "bce684d130aca39fd1f8fb420215544cd0c2435159ebb85e1aa4fed0df835b1c"
+    }
+  ],
+  "fingerprint": "b0827e7e822d0ee002382b3092e5b0351306b81dab11f8453eb90022811a0b24",
+  "sha256": "acdc64a5084da71971d6ad2ffa878be87a3e982221488313a5ad720ee8b8f6ff",
+  "reference_sha256": "ec53cdb483ca2a9ac04477daead206d1120251e4cec355e9e39f626102a088d4",
+  "seconds": 35.37,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

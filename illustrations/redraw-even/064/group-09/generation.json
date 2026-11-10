@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman stopping a boy from breaking a vase. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-998",
+      "path": "html/assets/lesson-064/picture-998-color.webp",
+      "sha256": "aaff84d9bb919dced78bce336664aee9ac594278150d42c1ac5ec723f69512d8"
+    }
+  ],
+  "fingerprint": "476032c3ba6734825720d86a6439248d9f966ef5c537a836f80db83ccba85d5f",
+  "sha256": "15633ad091fe6ba23a45bd5fb69e362ec31419d61ef5a9137383b996999fe989",
+  "reference_sha256": "0a7cfb0deb0a5938dac3ab6a21a443c92d5df63741d213284a6699d9bc09d011",
+  "seconds": 30.13,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

@@ -4547,7 +4547,8 @@
           "cue": "A man holding his tooth in a dentist's chair; he has a toothache.",
           "text": "He has a toothache.\nSo he must see a dentist.",
           "mode": "model-redraw",
-          "redraw_cue": "A blond young male patient on the LEFT holds his sore cheek with one hand because he has toothache. A bald adult dentist on the RIGHT stands beside him, and an empty blue dental chair is farther right. Two separate ordinary faces, small normal teeth inside mouths. No objects connecting their mouths"
+          "redraw_cue": "A blond young male patient on the LEFT holds his sore cheek with one hand because he has toothache. A bald adult dentist on the RIGHT stands beside him, and an empty blue dental chair is farther right. Two separate ordinary faces, small normal teeth inside mouths. No objects connecting their mouths",
+          "verified_description": "A blond patient holds his sore cheek beside a dentist and an empty dental chair."
         },
         {
           "slot": "item-74th",
@@ -4836,8 +4837,8 @@
         },
         {
           "slot": "picture-221",
-          "reference": "html/assets/lesson-064/picture-221-color.webp",
-          "reference_sha256": "596648b8e6ce3fb7eaf59ff6b4d0e0df3a997cd5e9dbdd84b7cca545dde9d86a",
+          "reference": "illustrations/redraw-inputs/064-medicine-identity-reference.png",
+          "reference_sha256": "6b7afe5ccf3f78756e94ad1b92dbd0f5c911df04d2fc528ff56ea65061e39c83",
           "source_photo": "img/lesson-064-01-text.jpg",
           "source_photo_sha256": "f6a41be7e9d5e53b352296f40ab5e87ed339482ac655835f72c88cbb91af5cfa",
           "previous": {
@@ -4883,7 +4884,14 @@
           "cue": "A doctor holding a medicine bottle towards Jimmy lying in bed; caption: '... take this medicine!'",
           "text": "Don't take this medicine! You mustn't take this medicine!",
           "mode": "model-redraw",
-          "redraw_cue": "A doctor holding a medicine bottle towards Jimmy lying in bed"
+          "redraw_cue": "A doctor holding a medicine bottle towards Jimmy lying in bed",
+          "reference_preparation": {
+            "original": "html/assets/lesson-064/picture-221-color.webp",
+            "sha256": "596648b8e6ce3fb7eaf59ff6b4d0e0df3a997cd5e9dbdd84b7cca545dde9d86a",
+            "change": "Photograph shows only Jimmy and the same woman, no third doctor. Edit the inspected first picture to change only medicine bottle."
+          },
+          "edit_instruction": "Change ONLY the aspirin bottle at the left into a brown medicine bottle labelled MEDICINE. Keep the boy lying in bed and the woman beside him exactly unchanged: same two people, faces, hair, clothes, gestures and bed. No doctor or additional person.",
+          "verified_description": "Jimmy lies in bed beside a medicine bottle while the same woman speaks to him."
         },
         {
           "slot": "picture-332",
@@ -5142,8 +5150,8 @@
         },
         {
           "slot": "picture-887",
-          "reference": "html/assets/lesson-064/picture-887-color.webp",
-          "reference_sha256": "27f83145829cee990bdc7dcddbc36a756658d0726c1769f2628e7db954e9b0b4",
+          "reference": "illustrations/redraw-inputs/064-train-window-photo.png",
+          "reference_sha256": "dd3c32ae9cb7c6374214de3959dd4387e0710449e23ffd40d283b155b0c20b32",
           "source_photo": "img/lesson-064-01-text.jpg",
           "source_photo_sha256": "f6a41be7e9d5e53b352296f40ab5e87ed339482ac655835f72c88cbb91af5cfa",
           "previous": {
@@ -5189,7 +5197,19 @@
           "cue": "A boy leaning out of a train window while a man holds his legs; caption: '... lean out of the window!'",
           "text": "Don't lean out of the window! You mustn't lean out of the window!",
           "mode": "model-redraw",
-          "redraw_cue": "A boy leaning out of a train window while a man holds his legs"
+          "redraw_cue": "Exactly THREE people: one adult passenger wearing a hat on the LEFT warns TWO children on the RIGHT who are leaning their upper bodies out through an open train window. The childrens legs remain inside the train below the windowsill. Preserve the photographed arrangement, make the train window and the leaning action clear.",
+          "reference_preparation": {
+            "photo": "img/lesson-064-01-text.jpg",
+            "sha256": "f6a41be7e9d5e53b352296f40ab5e87ed339482ac655835f72c88cbb91af5cfa",
+            "crop_box": [
+              675,
+              1482,
+              1110,
+              1722
+            ],
+            "change": "Use the photographed window scene. Enlarged photograph shows an adult passenger and two children leaning through the window; the prior description about a man holding legs was incorrect."
+          },
+          "verified_description": "An adult passenger warns two children leaning out of a train window."
         },
         {
           "slot": "picture-998",
@@ -5243,7 +5263,25 @@
           "redraw_cue": "A woman stopping a boy from breaking a vase"
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "picture-110": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                64,
+                193,
+                124,
+                219
+              ],
+              "text": "ASPIRINS",
+              "font_size": 10,
+              "reason": "Replace malformed model lettering with the exact photographed medicine label."
+            }
+          ]
+        }
+      }
     },
     "66": {
       "sections_sha256": "cf8f2c7234f5cfb19cc9466d2d9f993002e330d594a307b6498bdb293c5df759",
@@ -5599,8 +5637,8 @@
         },
         {
           "slot": "picture-13th",
-          "reference": "html/assets/lesson-066/picture-13th-color.webp",
-          "reference_sha256": "458df974afeee01f6a4a008e08bcba194ca079e01237093739228894fc73c97c",
+          "reference": "illustrations/redraw-inputs/066-speaking-women-reference.png",
+          "reference_sha256": "5ddc12d76c03f91aee9bfafd3d1eef5e9e9c1b2b230e9c7421cbff27911a45c3",
           "source_photo": "img/lesson-066-01-text.jpg",
           "source_photo_sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
           "previous": {
@@ -5646,7 +5684,13 @@
           "cue": "Two women talking, one with curly hair and one with straight blonde hair; caption: 'Enjoy yourself! I always enjoy myself.'",
           "text": "Enjoy yourself!\nI always enjoy myself.",
           "mode": "model-redraw",
-          "redraw_cue": "Two women talking, one with curly hair and one with straight blonde hair"
+          "redraw_cue": "Two women talking, one with curly hair and one with straight blonde hair",
+          "reference_preparation": {
+            "original": "html/assets/lesson-066/picture-13th-color.webp",
+            "sha256": "458df974afeee01f6a4a008e08bcba194ca079e01237093739228894fc73c97c",
+            "change": "Match recurring curly-haired woman clothing to the green dress in the next picture."
+          },
+          "edit_instruction": "Change ONLY the shirt of the curly brown-haired woman on the LEFT to green, matching her green outfit in the other scene. Keep the two women, faces, hairstyles, gestures and composition unchanged. The blonde woman on the right keeps her blue outfit. Clean white background."
         },
         {
           "slot": "picture-14th",
@@ -5802,7 +5846,87 @@
           "redraw_cue": "A woman with a hat at an amusement park ride"
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "picture-16th": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "reason": "Remove two hallucinated floating hands above the hat; retain the two actual outstretched arms.",
+              "polygons": [
+                [
+                  [
+                    158,
+                    65
+                  ],
+                  [
+                    209,
+                    65
+                  ],
+                  [
+                    209,
+                    91
+                  ],
+                  [
+                    191,
+                    99
+                  ],
+                  [
+                    169,
+                    104
+                  ],
+                  [
+                    158,
+                    100
+                  ]
+                ],
+                [
+                  [
+                    324,
+                    70
+                  ],
+                  [
+                    368,
+                    70
+                  ],
+                  [
+                    368,
+                    113
+                  ],
+                  [
+                    338,
+                    113
+                  ],
+                  [
+                    325,
+                    96
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "picture-13th": {
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                0,
+                0,
+                245,
+                320
+              ],
+              "hue_range": [
+                120,
+                190
+              ],
+              "to_hue": 85,
+              "min_saturation": 60,
+              "reason": "Match the recurring curly-haired womans visible blouse to her green outfit; retain hair, skin, black lines and the other womans blue clothes."
+            }
+          ]
+        }
+      }
     },
     "68": {
       "sections_sha256": "10c7797f0af06f69892c1917cd1a70757ce13dec07fadef340a5d07756408982",
@@ -6409,7 +6533,8 @@
           "cue": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair. Caption: 'Thursday, May 5th / the hairdresser's'.",
           "text": "Thursday, May 5th — the hairdresser's",
           "mode": "model-redraw",
-          "redraw_cue": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair"
+          "redraw_cue": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair",
+          "edit_instruction": "One clean full-color cartoon of a hairdresser cutting a customers hair. Exactly TWO people: an adult male barber STANDS on the left holding a comb and scissors; an adult woman SITS UPRIGHT on a salon chair on the right, wearing a blue salon cape. Her brown hair reaches her shoulders. Show the chair clearly under the customer. Normal human bodies and hands. Match the reference colors and cheerful cartoon style, white background, no text."
         },
         {
           "slot": "picture-baker",
@@ -6675,8 +6800,8 @@
       "items": [
         {
           "slot": "photo-panel-01",
-          "reference": "html/assets/lesson-070/photo-panel-01.webp",
-          "reference_sha256": "d5a176675c6fb1ffd765838ae84cc56fd9bd5aa6c12140a97ae0f24dfea1609a",
+          "reference": "illustrations/redraw-inputs/070-photo-01.png",
+          "reference_sha256": "9b2d5ccbcd66ae28f0256ef852f39b83afd8b813a4f18fc02a0280b64ded2f44",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6707,12 +6832,24 @@
           },
           "cue": "Monday — the stationer's",
           "text": "Monday — the stationer's",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              319,
+              776,
+              616,
+              986
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a stationery shop window displaying notebooks and pens. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-02",
-          "reference": "html/assets/lesson-070/photo-panel-02.webp",
-          "reference_sha256": "403c74389f2c16cb349b07cb1b93f5b0a4803591783340a39389078675147261",
+          "reference": "illustrations/redraw-inputs/070-photo-02.png",
+          "reference_sha256": "d69e8b0bb4c7615f5363150a0197be678c2de9ee74f747d1c1078049b54053af",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6743,12 +6880,24 @@
           },
           "cue": "Tuesday — the greengrocer's",
           "text": "Tuesday — the greengrocer's",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              699,
+              779,
+              1002,
+              988
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a greengrocers shop window displaying fresh fruit and vegetables. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-03",
-          "reference": "html/assets/lesson-070/photo-panel-03.webp",
-          "reference_sha256": "7788271934c24d454f07856bcff228d3c3c723682352aba7e3e5f8306c6f7a44",
+          "reference": "illustrations/redraw-inputs/070-photo-03.png",
+          "reference_sha256": "653d66ffbd79afded111fc201a9c7557dc5a390a2ca313051f0c7a9db78d5f9f",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6779,12 +6928,24 @@
           },
           "cue": "Wednesday — the hairdresser's",
           "text": "Wednesday — the hairdresser's",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1087,
+              785,
+              1384,
+              1006
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a hairdressers salon storefront, with a scissors symbol in the window. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-070/photo-panel-04.webp",
-          "reference_sha256": "2f47f93fc2e3e1b03a8a30a37eee8552d3c32318807d0a489571fcc8107a8483",
+          "reference": "illustrations/redraw-inputs/070-photo-04.png",
+          "reference_sha256": "d863dcda43bfdcf3416d6ebe28204cfd3ed1e4a9ec87da2d5935eaf032d22d3b",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6815,12 +6976,24 @@
           },
           "cue": "Thursday — the butcher's",
           "text": "Thursday — the butcher's",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1473,
+              798,
+              1768,
+              1025
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a butchers shop window displaying cuts of meat. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-05",
-          "reference": "html/assets/lesson-070/photo-panel-05.webp",
-          "reference_sha256": "7ad1ee8f261697cf03c496530964e49698ecb553d83f21c39557e17b28831837",
+          "reference": "illustrations/redraw-inputs/070-photo-05.png",
+          "reference_sha256": "dbb6c5a738bd6230e3fafa6fd09601d82a46ae420ecbae0b63857dc885b77104",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6851,12 +7024,24 @@
           },
           "cue": "Friday — the grocer's",
           "text": "Friday — the grocer's",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1853,
+              812,
+              2144,
+              1051
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a grocery shop window displaying jars, boxes, eggs and food. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-06",
-          "reference": "html/assets/lesson-070/photo-panel-06.webp",
-          "reference_sha256": "23bd309f9a704527d1ce014cc70eea53482ccbf44339bd557e639703ecd7a03f",
+          "reference": "illustrations/redraw-inputs/070-photo-06.png",
+          "reference_sha256": "1d21c3aeae14428706c03188f165b1dce37875856b183a1c2a3281f13fecb02c",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6887,12 +7072,24 @@
           },
           "cue": "Saturday — the dairy",
           "text": "Saturday — the dairy",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              2211,
+              842,
+              2439,
+              1082
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a dairy shop window displaying milk bottles. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-07",
-          "reference": "html/assets/lesson-070/photo-panel-07.webp",
-          "reference_sha256": "27335842558e5b88f635db8f4c9fd3f1e33ae75faff686b915ae22c377b53fad",
+          "reference": "illustrations/redraw-inputs/070-photo-07.png",
+          "reference_sha256": "3c0bc8771cbf440f5c8cd072b480aa2e1b0eff1bb72b0f81b2adb1785b7a5073",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6923,12 +7120,24 @@
           },
           "cue": "Jan. 21st — church",
           "text": "Jan. 21st — church",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              319,
+              1407,
+              616,
+              1616
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. A church exterior with stone walls, pointed roof, arched windows and a large doorway. Exactly two small visitors stand at the bottom right. No extra faces or people at the bottom edge. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-070/photo-panel-08.webp",
-          "reference_sha256": "1f8dc947779f96831f265e7d6c6c864bd05e42392639f965bb5b0858f845e24e",
+          "reference": "illustrations/redraw-inputs/070-photo-08.png",
+          "reference_sha256": "05c8ce1dbe63e4189507cbb4944085cb583caf77455d2a9c15c0844603b437c9",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6959,12 +7168,24 @@
           },
           "cue": "Feb. 22nd — school",
           "text": "Feb. 22nd — school",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              703,
+              1416,
+              998,
+              1623
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two children in blue school uniform walking past a school building and gate. A rectangular blank sign above the school entrance. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-09",
-          "reference": "html/assets/lesson-070/photo-panel-09.webp",
-          "reference_sha256": "7f5db3a2ba41c1c15ac6f1ea60b69db5684867d7bae9df59a4e1dc38c79e9b98",
+          "reference": "illustrations/redraw-inputs/070-photo-09.png",
+          "reference_sha256": "91727b0193eb4e8f3f895ca17e53571f830589154be29981c165c5926b7dba6d",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -6995,12 +7216,24 @@
           },
           "cue": "March 23rd — the office",
           "text": "March 23rd — the office",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1089,
+              1429,
+              1386,
+              1631
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. An office: one woman in a blue blouse sits at a desk on the left, one man in a gray business suit stands in the doorway on the right. Exactly two people. No floating legs or extra people. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-10",
-          "reference": "html/assets/lesson-070/photo-panel-10.webp",
-          "reference_sha256": "750cdfacefe12b8e9f1ff1281d6d57b3611cf4235f73aba268c3b6b5400a7012",
+          "reference": "illustrations/redraw-inputs/070-photo-10.png",
+          "reference_sha256": "89ca4394a1487c607b3643b92036045d606d7a364ad3dd0031f134fdb7ae4447",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7031,12 +7264,24 @@
           },
           "cue": "April 24th — the baker's",
           "text": "April 24th — the baker's",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1473,
+              1439,
+              1772,
+              1646
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past a bakers shop window displaying loaves of bread. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-11",
-          "reference": "html/assets/lesson-070/photo-panel-11.webp",
-          "reference_sha256": "0a461fc4041fb3d72be633138ed4bdb3e4d279f6922ebc4264ebee9645884094",
+          "reference": "illustrations/redraw-inputs/070-photo-11.png",
+          "reference_sha256": "b6e7adac505033b17e56d1981e81d039b812c17267b48a08137f59317e7dc914",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7067,12 +7312,24 @@
           },
           "cue": "May 25th — home",
           "text": "May 25th — home",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1851,
+              1456,
+              2142,
+              1671
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. At home: a bald man in a blue shirt and a curly-haired woman in a green outfit sit comfortably in two armchairs, talking. Exactly two adults, no gloves or sunglasses. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels."
         },
         {
           "slot": "photo-panel-12",
-          "reference": "html/assets/lesson-070/photo-panel-12.webp",
-          "reference_sha256": "437423c84958f53f3fc5db91848c180e7ff6fa8e2113913ee6a7336c697c5a9c",
+          "reference": "illustrations/redraw-inputs/070-photo-12.png",
+          "reference_sha256": "6c73975ff17db0d94434a6df1d6fbe1d0dc4f6ccce819969ccb2a7243e65d680",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7103,12 +7360,28 @@
           },
           "cue": "June 26th — the butcher's",
           "text": "June 26th — the butcher's",
-          "mode": "model-redraw"
+          "mode": "reuse",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              2186,
+              1483,
+              2439,
+              1701
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Draw ONE crisp full-color educational cartoon matching this photographed scene. Two women walking past the same butchers shop as the earlier picture, with meat in the window. A rectangular blank shop sign at the top. The two women have consistent appearances: one with straight black bob hair in a blue dress, the other with short curly brown hair in a green dress. Smooth sharp outlines, natural skin, solid colors. Keep all subjects fully visible. No dates, captions, random letters, speech balloons or extra people. Leave shop sign boards blank for typeset labels.",
+          "reuse_from": {
+            "lesson": 70,
+            "slot": "photo-panel-04"
+          }
         },
         {
           "slot": "photo-panel-13",
-          "reference": "html/assets/lesson-070/photo-panel-13.webp",
-          "reference_sha256": "419ff9c14eb2b1c5b257ecfe7300cd2f154b343ba30399c116151c1a5a585f23",
+          "reference": "illustrations/redraw-inputs/070-photo-13.png",
+          "reference_sha256": "f92e82c706a9997f8e8122e07c4c8684b8b7a22541c784864f27c56dd4f0772e",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7139,12 +7412,24 @@
           },
           "cue": "July — Australia",
           "text": "July — Australia",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              323,
+              2030,
+              620,
+              2245
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Redraw only this photographed map silhouette of Australia as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill."
         },
         {
           "slot": "photo-panel-14",
-          "reference": "html/assets/lesson-070/photo-panel-14.webp",
-          "reference_sha256": "8749e7524a19231294d52986484cac5f057ad57748e80e30f92440dba24b43f4",
+          "reference": "illustrations/redraw-inputs/070-photo-14.png",
+          "reference_sha256": "0ed3542f6571f7159f2a7d2109ec50af549e5756aa2030ee297694f1f71d907c",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7175,12 +7460,24 @@
           },
           "cue": "August — Austria",
           "text": "August — Austria",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              707,
+              2030,
+              1002,
+              2249
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Redraw only this photographed map silhouette of Austria as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill."
         },
         {
           "slot": "photo-panel-15",
-          "reference": "html/assets/lesson-070/photo-panel-15.webp",
-          "reference_sha256": "d416222f5862104bdbc4b3643b0cad56db60ebca08f929de0d45f7237ec3880d",
+          "reference": "illustrations/redraw-inputs/070-photo-15.png",
+          "reference_sha256": "abcf410b3f3a300f4c11d8781c88dc7a61bdaba73b63ddd2019ee55c82914877",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7211,12 +7508,24 @@
           },
           "cue": "September — Canada",
           "text": "September — Canada",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1091,
+              2038,
+              1388,
+              2256
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Redraw only this photographed map silhouette of Canada as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill."
         },
         {
           "slot": "photo-panel-16",
-          "reference": "html/assets/lesson-070/photo-panel-16.webp",
-          "reference_sha256": "2345d689c2fb8b582cb71e3b374a252987f90c97179f4b52651afa2e87092e5b",
+          "reference": "illustrations/redraw-inputs/070-photo-16.png",
+          "reference_sha256": "05076160dfb084d519211d1145ad3946488ed069f67139d5a333b93febe03884",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7247,12 +7556,24 @@
           },
           "cue": "October — China",
           "text": "October — China",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1475,
+              2040,
+              1772,
+              2262
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Redraw only this photographed map silhouette of China as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill."
         },
         {
           "slot": "photo-panel-17",
-          "reference": "html/assets/lesson-070/photo-panel-17.webp",
-          "reference_sha256": "b65c9447f37d1d6629cbdc9dc849d6f6cead389c1259aa5864e3c9914a44c051",
+          "reference": "illustrations/redraw-inputs/070-photo-17.png",
+          "reference_sha256": "b74ffa728eee1131ea0e8f0f214c05215978821e44c23c41a64156d168ccc6f1",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7283,12 +7604,24 @@
           },
           "cue": "November — Denmark",
           "text": "November — Denmark",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              1855,
+              2045,
+              2146,
+              2271
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Redraw only this photographed map silhouette of Denmark as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill."
         },
         {
           "slot": "photo-panel-18",
-          "reference": "html/assets/lesson-070/photo-panel-18.webp",
-          "reference_sha256": "00f865dff1a352feac6268e0ff6ca3e5c3d55708b48ff54ca40873a867832e53",
+          "reference": "illustrations/redraw-inputs/070-photo-18.png",
+          "reference_sha256": "594b712ac38ed8fc84409d0aacfd020182102451f86efb61ab14ea2c9618fbda",
           "source_photo": "img/lesson-070-01-text.jpg",
           "source_photo_sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
           "previous": {
@@ -7319,7 +7652,19 @@
           },
           "cue": "December — Finland",
           "text": "December — Finland",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-070-01-text.jpg",
+            "sha256": "47e7d5f3a5bc43f3e6711ac599259f233e5bce683561907f37c2ae2f75adc6de",
+            "crop_box": [
+              2186,
+              2060,
+              2439,
+              2294
+            ],
+            "change": "Replace distorted tiny color-atlas cutout with a direct photograph crop."
+          },
+          "edit_instruction": "Redraw only this photographed map silhouette of Finland as one clean flat colored map illustration on a pure white background. Preserve the recognizable country outline and islands. Inanimate map only. No people, faces, animals, objects, scenery, letters, labels or dates. Sharp clean dark outline, solid teal fill."
         }
       ],
       "group_size": 1
@@ -7330,8 +7675,8 @@
       "items": [
         {
           "slot": "photo-panel-01",
-          "reference": "html/assets/lesson-072/photo-panel-01.webp",
-          "reference_sha256": "1ac448af44dfc850fcbccaac4c4667e8effc1fd3424e61beccd7c94e00c9d684",
+          "reference": "illustrations/redraw-inputs/072-photo-01.png",
+          "reference_sha256": "35d69821797b5855bceba3a3b2d7086d28f691c0ba21f327309d924e408d5c09",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7362,12 +7707,23 @@
           },
           "cue": "aired",
           "text": "aired",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              106,
+              1069,
+              327,
+              1244
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. One adult woman with short curly black hair wearing a blue dress opens a window to air the room. The open window and curtains moving in the breeze are clearly visible. One woman, two natural arms, no extra limbs. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-02",
-          "reference": "html/assets/lesson-072/photo-panel-02.webp",
-          "reference_sha256": "34dd2cf5482c74621ce68beb3cabc4dde6bbac6a3435a3b0649154a35f48e566",
+          "reference": "illustrations/redraw-inputs/072-photo-02.png",
+          "reference_sha256": "11f2c0351f1a7a7820e29daba4cb0ce6b63310c5c83d52dc2d480b180a68ab60",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7398,7 +7754,18 @@
           },
           "cue": "cleaned",
           "text": "cleaned",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              400,
+              1083,
+              625,
+              1264
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. Two boys in blue and orange shirts cleaning their black shoes with small handheld bristle brushes. Each boy holds one shoe and one brush. Ordinary shoes and brushes, no keyboards or machines. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-03",
@@ -7438,8 +7805,8 @@
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-072/photo-panel-04.webp",
-          "reference_sha256": "e8709e93fd0d2f24f7903a6baf99fbaa5e337606d05b4fd44686020d88fcf2ed",
+          "reference": "illustrations/redraw-inputs/072-photo-04.png",
+          "reference_sha256": "8a25ce1002616d63f4b4ce98f99156cee19c7333637cade70ebd9deea8068f8d",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7470,7 +7837,18 @@
           },
           "cue": "sharpened",
           "text": "sharpened",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              988,
+              1116,
+              1208,
+              1288
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. Two boys sharpening wooden pencils with small pencil sharpeners over a desk, with a few pencil shavings. Show recognizable slim pencils in their hands, not knives, brushes or drills. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-05",
@@ -7510,8 +7888,8 @@
         },
         {
           "slot": "photo-panel-06",
-          "reference": "html/assets/lesson-072/photo-panel-06.webp",
-          "reference_sha256": "80dd8c4ad7ac31c437a9c330e6f3c4b128742425f8dda0e6ae3e50cacf2bf759",
+          "reference": "illustrations/redraw-inputs/072-photo-06.png",
+          "reference_sha256": "0d78b8955911774bc647560e625d5e13763b7330fe8f81b042ae67f6db666063",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7542,12 +7920,23 @@
           },
           "cue": "listened",
           "text": "listened",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              106,
+              1505,
+              327,
+              1678
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. One adult woman with brown hair in a braid, blue blouse and gray skirt sits in an armchair listening to a radio on a small table to her left. A rectangular radio with speaker grille and tuning dial. No camera, headphones or robot parts. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-07",
-          "reference": "html/assets/lesson-072/photo-panel-07.webp",
-          "reference_sha256": "b4acd0990685b10294b4c26a88e3bede69d4f94f1e8f6eb61e55c76df291e766",
+          "reference": "illustrations/redraw-inputs/072-photo-07.png",
+          "reference_sha256": "3361881762e8c631d536e8e39a5802e65bb7b85320874d299d30549309baacb2",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7578,7 +7967,18 @@
           },
           "cue": "boiled",
           "text": "boiled",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              402,
+              1517,
+              620,
+              1692
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. One woman with a short black bob and a blue dress boiling water in an open saucepan on a stove. She holds a small pan lid above the pot; a simple wisp of steam rises from the water. Exactly two normal arms. No faces in the steam, no food falling, no extra limbs. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-08",
@@ -7690,8 +8090,8 @@
         },
         {
           "slot": "photo-panel-11",
-          "reference": "html/assets/lesson-072/photo-panel-11.webp",
-          "reference_sha256": "6a2e1ad02317713c5142f09f9b94adbc2642b396fc3afac8a254dfbb55506845",
+          "reference": "illustrations/redraw-inputs/072-photo-11.png",
+          "reference_sha256": "4bc5221647ddceee92b5af028a6c52f1e9f726f0476364808ac1d58ba1b583b8",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7722,12 +8122,23 @@
           },
           "cue": "shaved",
           "text": "shaved",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              105,
+              1923,
+              322,
+              2091
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. One balding middle-aged man wearing a blue shirt shaving his own cheek with a small safety razor. White shaving lather on his cheeks, two normal arms and hands. No extra hands, no spare heads. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-12",
-          "reference": "html/assets/lesson-072/photo-panel-12.webp",
-          "reference_sha256": "42149d3a1af521eddec5b9f13a795493bb5d13ad76ecabaa89258f25d2749e7f",
+          "reference": "illustrations/redraw-inputs/072-photo-12.png",
+          "reference_sha256": "da2867a4c517dd307e9a6078287d513dce505cab929043517f949c8599ad2df6",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7758,7 +8169,18 @@
           },
           "cue": "climbed",
           "text": "climbed",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              398,
+              1936,
+              616,
+              2111
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. One curly brown-haired boy in a blue striped shirt and brown shorts climbing a tree trunk. His two arms hold the trunk and his two legs grip it. Exactly one boy, two arms, two legs. No disembodied hands or other people. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         },
         {
           "slot": "photo-panel-13",
@@ -7834,8 +8256,8 @@
         },
         {
           "slot": "photo-panel-15",
-          "reference": "html/assets/lesson-072/photo-panel-15.webp",
-          "reference_sha256": "5d1a715915f79842c08005682ea6a092d1b866513c1c0db0ba32abe58819d776",
+          "reference": "illustrations/redraw-inputs/072-photo-15.png",
+          "reference_sha256": "690f936960ad019144708e1d26bcbc3bc2a6b203be9410bd2b7c04b65703d173",
           "source_photo": "img/lesson-072-01-text.jpg",
           "source_photo_sha256": "d604ec9c51486987826e342bae59067f4a432c1c083497064d5896757da02eb8",
           "previous": {
@@ -7866,7 +8288,18 @@
           },
           "cue": "emptied",
           "text": "emptied",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "reference_preparation": {
+            "photo": "img/lesson-072-01-text.jpg",
+            "crop_box": [
+              1253,
+              1964,
+              1459,
+              2144
+            ],
+            "change": "Use original photograph instead of distorted atlas crop."
+          },
+          "edit_instruction": "Draw one clear full-color educational cartoon. One woman with curly dark brown hair, green blouse and blue skirt emptying a small wicker wastepaper basket into a larger metal trash bin. A few crumpled papers fall into the bin. Exactly one woman, two arms, two legs. No second face or person inside the bin. Use the photographed reference only for the action and composition. Clean smooth lines, friendly natural face proportions, colored clothing, white background. Complete subjects inside the image. No lettering or border."
         }
       ],
       "group_size": 1
@@ -14336,7 +14769,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-02",
@@ -14372,7 +14806,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-03",
@@ -14408,7 +14843,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-04",
@@ -14444,7 +14880,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-05",
@@ -14480,7 +14917,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-06",
@@ -14516,7 +14954,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-07",
@@ -14552,7 +14991,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-08",
@@ -14588,7 +15028,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-09",
@@ -14624,7 +15065,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-10",
@@ -14660,7 +15102,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-11",
@@ -14696,7 +15139,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-12",
@@ -14732,7 +15176,8 @@
           },
           "cue": "What's the exact time?",
           "text": "What's the exact time?",
-          "mode": "exact-clock"
+          "mode": "retain-original",
+          "reason": "Photographed minute marks are ambiguous at native resolution; retain exact original hand geometry rather than invent an instructional time. No diffusion redraw published for this clock."
         },
         {
           "slot": "photo-panel-13",

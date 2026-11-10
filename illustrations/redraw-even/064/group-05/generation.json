@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A librarian scolding a talking boy at the library desk. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-554",
+      "path": "html/assets/lesson-064/picture-554-color.webp",
+      "sha256": "47f5801946d6455f87a22ed40129e84dfe03f7f5c45a54ab86ad95fd93a6a46f"
+    }
+  ],
+  "fingerprint": "13d1a745a06395c1c2062bf976e7019b7c8ebab80b9e4dec3449e743714f43a2",
+  "sha256": "1c8bec9a78c6d6d28d39008e56a1c6d6a512cb83b54ea35d016fdbe2f818e156",
+  "reference_sha256": "b8c2accfceb7ebcb0060af23b00cbb40d53c62d5d1764e87d58d550944b25d75",
+  "seconds": 33.19,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

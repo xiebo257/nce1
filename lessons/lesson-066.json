@@ -543,15 +543,15 @@
       "status": "ready",
       "description": "Two women talking, one with curly hair and one with straight blonde hair; caption: 'Enjoy yourself! I always enjoy myself.'",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-13th-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-066/picture-13th-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/066-picture-13th-clean.png",
       "illustration_width": 640,
       "illustration_height": 320,
@@ -571,27 +571,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Two women talking, one with curly hair and one with straight blonde hair; caption: 'Enjoy yourself! I always enjoy myself.'",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 66017,
-        "manifest": "illustrations/manifests/066-picture-13th.json"
-      }
+        "manifest": "illustrations/redraw-even/066/group-01/generation.json"
+      },
+      "display_width": 256
     },
     "picture-14th": {
       "kind": "item",
       "status": "ready",
       "description": "A woman with curly hair and a man in a suit, both enjoying themselves; caption: 'We're enjoying ourselves. They're enjoying themselves.'",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-14th-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-066/picture-14th-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/066-picture-14th-clean.png",
       "illustration_width": 640,
       "illustration_height": 336,
@@ -611,27 +611,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A woman with curly hair and a man in a suit, both enjoying themselves; caption: 'We're enjoying ourselves. They're enjoying themselves.'",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 66018,
-        "manifest": "illustrations/manifests/066-picture-14th.json"
-      }
+        "manifest": "illustrations/redraw-even/066/group-02/generation.json"
+      },
+      "display_width": 256
     },
     "picture-15th": {
       "kind": "item",
       "status": "ready",
       "description": "A man with spiky hair at an amusement park ride; caption: 'He's enjoying himself.'",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-15th-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-066/picture-15th-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/066-picture-15th-clean.png",
       "illustration_width": 640,
       "illustration_height": 336,
@@ -651,27 +651,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A man with spiky hair at an amusement park ride; caption: 'He's enjoying himself.'",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 66019,
-        "manifest": "illustrations/manifests/066-picture-15th.json"
-      }
+        "manifest": "illustrations/redraw-even/066/group-03/generation.json"
+      },
+      "display_width": 256
     },
     "picture-16th": {
       "kind": "item",
       "status": "ready",
       "description": "A woman with a hat at an amusement park ride; caption: 'She's enjoying herself.'",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-066-01-text.jpg",
       "source_size": [
         1701,
         2500
       ],
-      "src": "assets/lesson-066/picture-16th-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-066/picture-16th-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/066-picture-16th-clean.png",
       "illustration_width": 640,
       "illustration_height": 336,
@@ -691,228 +691,300 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A woman with a hat at an amusement park ride; caption: 'She's enjoying herself.'",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 66020,
-        "manifest": "illustrations/manifests/066-picture-16th.json"
-      }
+        "manifest": "illustrations/redraw-even/066/group-04/generation.json"
+      },
+      "display_width": 256
     },
     "photo-clock-01": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 1: 1:00",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-01.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-01-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "1 · 1:00",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "1:00",
-        "asset_sha256": "cb35c88e12e5ae7e6bc15dad2bf0544dde1702c9117b48e840f75a2c71a61dc6"
+        "asset_sha256": "309c4b4dd013f43834fefeb5209c26bb1e63f8deb97938873cfa460cec32db29"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 1: 1:00",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-02": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 2: 1:15",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-02.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-02-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "2 · 1:15",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "1:15",
-        "asset_sha256": "d68b68f85c357bd7025b297dcfd2e92ef5dded5a902e4749dbf54edcee594030"
+        "asset_sha256": "d6ee9776fd5c6104f412f396a4f4fa7a47f6691070afe6d3bd1f376b985d9da4"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 2: 1:15",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-03": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 3: 1:30",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-03.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-03-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "3 · 1:30",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "1:30",
-        "asset_sha256": "9242cabce81f9cb85d3ba3796a9c58335e253e5921379b481297bd95116c8432"
+        "asset_sha256": "de5ca4d89a648d30c09e07951452dc2266e7ce8c4abd0038e2bde83d22888a43"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 3: 1:30",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-04": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 4: 1:45",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-04.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-04-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "4 · 1:45",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "1:45",
-        "asset_sha256": "7b048c3af2d9507bf7eb6d7c75c6c60037c52aee6f45bd1549546f6e067b30ea"
+        "asset_sha256": "20ca89db419a379532dad767cbb1e1b8dcf1276944c1ec207b1523526a1f1612"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 4: 1:45",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-05": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 5: 2:00",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-05.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-05-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "5 · 2:00",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "2:00",
-        "asset_sha256": "475ae58c445a1cb5149af5e018a1f8501139d2c2dfff38dd05f5e2b6a8a4bde4"
+        "asset_sha256": "e8afbc6fd17696fbfe345753eee9ce1e08f4a604b3cfb3f8084890de217681ca"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 5: 2:00",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-06": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 6: 2:15",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-06.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-06-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "6 · 2:15",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "2:15",
-        "asset_sha256": "d88771893c09e16f7027a1e1785cf1969135c2698a02f6ad3017b9779ac65e68"
+        "asset_sha256": "e0b8cb9d6bc1c088fabb9faef82fe3402ef2b4f388dca0fdf18f6218a7620e08"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 6: 2:15",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-07": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 7: 2:30",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-07.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-07-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "7 · 2:30",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "2:30",
-        "asset_sha256": "59254eb680eb3122f0f82252715086bd664ecd0640c3651305c7d3ea2ee43e0e"
+        "asset_sha256": "a5d8b290cf3e87fba96f905ccdcdb9a7670379cbac4ed4dee87fd8c9b0dbbd03"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 7: 2:30",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-08": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 8: 2:45",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-08.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-08-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "8 · 2:45",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "2:45",
-        "asset_sha256": "db3ba0fb462ffe6cca152e5b31d31144de310f2ea9270181db527931e646a488"
+        "asset_sha256": "e93d2eddc2aeaf3597040396c82f48f05133f06dd0335dd8aefbb026c5e4808f"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 8: 2:45",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-09": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 9: 3:00",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-09.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-09-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "9 · 3:00",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "3:00",
-        "asset_sha256": "d2e22d3433e8a0ce8102a634057febb9072572c838392690e23746121e781834"
+        "asset_sha256": "2f4c2ea9d35aef26eb3aecd8d770c855830b3ed6f29dfb0c27da0cb6a98c0a3b"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 9: 3:00",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-10": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 10: 3:15",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-10.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-10-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "10 · 3:15",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "3:15",
-        "asset_sha256": "784dc0998c95163725e19562221b7df69bee3aea9007857d20ec38bc512a2dc8"
+        "asset_sha256": "c92b2849beb4fdbcf85308b9dd213b0e46a22667d457b4d394b2d1969c34dc16"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 10: 3:15",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-11": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 11: 3:30",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-11.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-11-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "11 · 3:30",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "3:30",
-        "asset_sha256": "5942b0e901b3cded9736dd826c8794ae2fd27dfccf29c3e75b745ad1155daa53"
+        "asset_sha256": "a6e23a243c64cbb29c7f16a5f1173fa8e2e99d34c029e71bafb2942dd7e64e6a"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 11: 3:30",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-12": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 12: 3:45",
       "source": "../img/lesson-066-01-text.jpg",
-      "src": "assets/lesson-066/photo-clock-12.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-066/photo-clock-12-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "12 · 3:45",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-066-01-text.jpg",
         "sha256": "828c2123c3af3a7087e25e97a0c908c7fe0cc4293c0a3da991dfa52c9f12d8ae",
         "time": "3:45",
-        "asset_sha256": "1c85695689e91138d5f260b430afda75f26257a5fbb5a95505569ed80d869bc7"
+        "asset_sha256": "ca05eb0df317052f4424cbc7dbaee8d16135ca896255ec4e9add5b3215350cca"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 12: 3:45",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",

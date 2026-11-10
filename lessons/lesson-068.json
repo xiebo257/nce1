@@ -476,15 +476,15 @@
       "status": "ready",
       "description": "A church interior with arched windows; a priest in a vestment stands at the altar, and two children holding hands walk past. Caption: 'Sunday, January 1st / church'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-church-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-church-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-church-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -504,27 +504,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A church interior with arched windows; a priest in a vestment stands at the altar, and two children holding hands walk past. Caption: 'Sunday, January 1st / church'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68017,
-        "manifest": "illustrations/manifests/068-picture-church.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-01/generation.json"
+      },
+      "display_width": 256
     },
     "picture-school": {
       "kind": "item",
       "status": "ready",
       "description": "Three children in caps walking past a school gate with a 'SCHOOL' sign. Caption: 'Monday, February 2nd / school'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-school-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-school-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-school-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -544,27 +544,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Three children in caps walking past a school gate with a 'SCHOOL' sign. Caption: 'Monday, February 2nd / school'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68018,
-        "manifest": "illustrations/manifests/068-picture-school.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-02/generation.json"
+      },
+      "display_width": 256
     },
     "picture-office": {
       "kind": "item",
       "status": "ready",
       "description": "A woman with long hair sits at a desk typing on an old computer; a bald man sits at another desk. Caption: 'Tuesday, March 3rd / the office'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-office-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-office-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-office-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -584,27 +584,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A woman with long hair sits at a desk typing on an old computer; a bald man sits at another desk. Caption: 'Tuesday, March 3rd / the office'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68019,
-        "manifest": "illustrations/manifests/068-picture-office.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-03/generation.json"
+      },
+      "display_width": 256
     },
     "picture-butcher": {
       "kind": "item",
       "status": "ready",
       "description": "A butcher in a white coat and cap stands behind a counter of cuts of meat; two customers hold baskets. Caption: 'Wednesday, April 4th / the butcher's'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-butcher-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-butcher-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-butcher-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -624,27 +624,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A butcher in a white coat and cap stands behind a counter of cuts of meat; two customers hold baskets. Caption: 'Wednesday, April 4th / the butcher's'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68020,
-        "manifest": "illustrations/manifests/068-picture-butcher.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-04/generation.json"
+      },
+      "display_width": 256
     },
     "picture-hairdresser": {
       "kind": "item",
       "status": "ready",
       "description": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair. Caption: 'Thursday, May 5th / the hairdresser's'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-hairdresser-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-hairdresser-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-hairdresser-clean.png",
       "illustration_width": 640,
       "illustration_height": 400,
@@ -664,27 +664,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A hairdresser with a comb and scissors grooms a seated customer's long, wavy hair. Caption: 'Thursday, May 5th / the hairdresser's'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68021,
-        "manifest": "illustrations/manifests/068-picture-hairdresser.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-05/generation.json"
+      },
+      "display_width": 256
     },
     "picture-baker": {
       "kind": "item",
       "status": "ready",
       "description": "A baker stands behind a counter of loaves and pastries; a customer points at the goods. Caption: 'Friday, June 6th / the baker's'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-baker-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-baker-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-baker-clean.png",
       "illustration_width": 640,
       "illustration_height": 416,
@@ -704,27 +704,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A baker stands behind a counter of loaves and pastries; a customer points at the goods. Caption: 'Friday, June 6th / the baker's'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68022,
-        "manifest": "illustrations/manifests/068-picture-baker.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-06/generation.json"
+      },
+      "display_width": 256
     },
     "picture-dairy": {
       "kind": "item",
       "status": "ready",
       "description": "A shop with bottles of milk and cream on shelves; two customers stand at the counter. Caption: 'Saturday, July 7th / the dairy'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-dairy-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-dairy-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-dairy-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -744,27 +744,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A shop with bottles of milk and cream on shelves; two customers stand at the counter. Caption: 'Saturday, July 7th / the dairy'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68023,
-        "manifest": "illustrations/manifests/068-picture-dairy.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-07/generation.json"
+      },
+      "display_width": 256
     },
     "picture-home": {
       "kind": "item",
       "status": "ready",
       "description": "A man reads a newspaper in an armchair; a woman and a child sit on the floor with toys. Caption: 'Sunday, August 8th / home'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-home-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-home-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-home-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -784,27 +784,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A man reads a newspaper in an armchair; a woman and a child sit on the floor with toys. Caption: 'Sunday, August 8th / home'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68024,
-        "manifest": "illustrations/manifests/068-picture-home.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-08/generation.json"
+      },
+      "display_width": 256
     },
     "picture-grocer": {
       "kind": "item",
       "status": "ready",
       "description": "A shop with shelves of sugar, tea, jam and bacon; a shopkeeper with a moustache stands behind the counter facing a customer. Caption: 'Monday, September 9th / the grocer's'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-grocer-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-grocer-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-grocer-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -824,27 +824,27 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A shop with shelves of sugar, tea, jam and bacon; a shopkeeper with a moustache stands behind the counter facing a customer. Caption: 'Monday, September 9th / the grocer's'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68025,
-        "manifest": "illustrations/manifests/068-picture-grocer.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-09/generation.json"
+      },
+      "display_width": 256
     },
     "picture-greengrocer": {
       "kind": "item",
       "status": "ready",
       "description": "A fruit-and-vegetable stall with crates of produce; two customers stand at the counter. Caption: 'Tuesday, October 10th / the greengrocer's'.",
       "characters": [],
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "source": "../img/lesson-068-01-text.jpg",
       "source_size": [
         1503,
         2500
       ],
-      "src": "assets/lesson-068/picture-greengrocer-color.webp",
-      "width": 320,
-      "height": 224,
+      "src": "assets/lesson-068/picture-greengrocer-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/068-picture-greengrocer-clean.png",
       "illustration_width": 640,
       "illustration_height": 288,
@@ -864,228 +864,300 @@
         ]
       },
       "caption": "What's the time?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A fruit-and-vegetable stall with crates of produce; two customers stand at the counter. Caption: 'Tuesday, October 10th / the greengrocer's'.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 68026,
-        "manifest": "illustrations/manifests/068-picture-greengrocer.json"
-      }
+        "manifest": "illustrations/redraw-even/068/group-10/generation.json"
+      },
+      "display_width": 256
     },
     "photo-clock-01": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 1: 1:00",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-01.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-01-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "1 · 1:00",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:00",
-        "asset_sha256": "cb35c88e12e5ae7e6bc15dad2bf0544dde1702c9117b48e840f75a2c71a61dc6"
+        "asset_sha256": "309c4b4dd013f43834fefeb5209c26bb1e63f8deb97938873cfa460cec32db29"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 1: 1:00",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-02": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 2: 1:05",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-02.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-02-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "2 · 1:05",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:05",
-        "asset_sha256": "0f53d7a0b033c15cc6f3874e604a4a28236356fecf1e83f1fc33b6a122bf4e33"
+        "asset_sha256": "cee791901ef00d549602811a9c04916b2030cc022bc05d991102003f407b8405"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 2: 1:05",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-03": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 3: 1:10",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-03.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-03-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "3 · 1:10",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:10",
-        "asset_sha256": "c099376b7567fda178c81245a468f5694aa65a19ffc474592671583d31c6814d"
+        "asset_sha256": "aa66d4430505ac5792fc5ccdb83ac3ef6b6f8fe1e24db795ed9af5400b4966bb"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 3: 1:10",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-04": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 4: 1:15",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-04.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-04-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "4 · 1:15",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:15",
-        "asset_sha256": "d68b68f85c357bd7025b297dcfd2e92ef5dded5a902e4749dbf54edcee594030"
+        "asset_sha256": "d6ee9776fd5c6104f412f396a4f4fa7a47f6691070afe6d3bd1f376b985d9da4"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 4: 1:15",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-05": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 5: 1:20",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-05.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-05-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "5 · 1:20",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:20",
-        "asset_sha256": "431977edf34ee7ddbc8e9dc759959784f9d96e60a33e541a943fca829ffe2d31"
+        "asset_sha256": "28b932e3e43f512cc7b5d6096698739b64b599f275f6d7f2f8dfc265805ac310"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 5: 1:20",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-06": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 6: 1:25",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-06.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-06-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "6 · 1:25",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:25",
-        "asset_sha256": "003280a5697786e3e20e2b8f176b40ff03ac8735a970d56d3e6e5bcde9179a9f"
+        "asset_sha256": "dc94bee3fbe93d4a9df944fe929eb907783ee784d052209706bfb431d362fe7e"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 6: 1:25",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-07": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 7: 1:30",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-07.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-07-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "7 · 1:30",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:30",
-        "asset_sha256": "9242cabce81f9cb85d3ba3796a9c58335e253e5921379b481297bd95116c8432"
+        "asset_sha256": "de5ca4d89a648d30c09e07951452dc2266e7ce8c4abd0038e2bde83d22888a43"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 7: 1:30",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-08": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 8: 1:35",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-08.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-08-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "8 · 1:35",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:35",
-        "asset_sha256": "56800da2280789cd85fbe3037fdfd71dc30e24fb76a1d574c1a7498fd48365ce"
+        "asset_sha256": "98decf34fb7b0bb34cfd28ff9a4f656562d0633247763a27eaded541ac4e00f1"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 8: 1:35",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-09": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 9: 1:40",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-09.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-09-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "9 · 1:40",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:40",
-        "asset_sha256": "09fbd5e11b79399b04d63300440998428e75cf884a5811a0d57ca111b7aa64ea"
+        "asset_sha256": "17e230d86f82aa02b4908d2fb8d29f232e2da3c904053e447acb68a86bfaf046"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 9: 1:40",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-10": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 10: 1:45",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-10.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-10-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "10 · 1:45",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:45",
-        "asset_sha256": "7b048c3af2d9507bf7eb6d7c75c6c60037c52aee6f45bd1549546f6e067b30ea"
+        "asset_sha256": "20ca89db419a379532dad767cbb1e1b8dcf1276944c1ec207b1523526a1f1612"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 10: 1:45",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-11": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 11: 1:50",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-11.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-11-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "11 · 1:50",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:50",
-        "asset_sha256": "d72a1d1b9609a45bab832d0d2475a1519e813c49aa389348d684828e4e2ae9f0"
+        "asset_sha256": "fdaf9999be803de1b6b5d57c668e89698a642ab0329d75f6254b0b3a9c58d6a3"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 11: 1:50",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     },
     "photo-clock-12": {
       "kind": "item",
       "status": "ready",
       "description": "Clock 12: 1:55",
       "source": "../img/lesson-068-01-text.jpg",
-      "src": "assets/lesson-068/photo-clock-12.webp",
-      "width": 240,
-      "height": 240,
+      "src": "assets/lesson-068/photo-clock-12-redrawn.webp",
+      "width": 512,
+      "height": 512,
       "caption": "12 · 1:55",
       "origin": "exact-clock-diagram",
       "photo_verification": {
         "photo": "img/lesson-068-01-text.jpg",
         "sha256": "5010cbe43a21d99cd731401761302067fcc1fcfe5265c5c7383de00472adad86",
         "time": "1:55",
-        "asset_sha256": "87559d3a0009e823a135367695f5dabd16c9d20a58a614f6cf8819223b835266"
+        "asset_sha256": "803c9b779e02ccf75a73b4e8da179dc57da54418238ea2b8286a7ae845ecb268"
       },
-      "display_width": 240
+      "display_width": 256,
+      "alt": "Clock 12: 1:55",
+      "generation": {
+        "model": null,
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "exact-clock"
+      }
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",

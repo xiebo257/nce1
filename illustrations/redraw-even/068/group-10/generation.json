@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A fruit-and-vegetable stall with crates of produce; two customers stand at the counter. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-greengrocer",
+      "path": "html/assets/lesson-068/picture-greengrocer-color.webp",
+      "sha256": "e78e4da012abde899375aace60244146c46679041e25bace0dfbf77de1bcd343"
+    }
+  ],
+  "fingerprint": "5508d646610c45f5cbdafc1f5a36f0006dfa5f3b0028650c25414ce0f980cc22",
+  "sha256": "43bbd24bff73b791d09b9d6c441f243b3aaba0c27f9631763dfe17c682052dbc",
+  "reference_sha256": "96912b832272b9ac9d425744e71afe2184caf5ea041ab43f71cf402239903fff",
+  "seconds": 36.08,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

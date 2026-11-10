@@ -1,0 +1,50 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the shirt of the curly brown-haired woman on the LEFT to green, matching her green outfit in the other scene. Keep the two women, faces, hairstyles, gestures and composition unchanged. The blonde woman on the right keeps her blue outfit. Clean white background.",
+  "seed": 661111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-13th",
+      "path": "illustrations/redraw-inputs/066-speaking-women-reference.png",
+      "sha256": "5ddc12d76c03f91aee9bfafd3d1eef5e9e9c1b2b230e9c7421cbff27911a45c3"
+    }
+  ],
+  "fingerprint": "ec6f9bd927030c475d5f619bcce6341ecb4e3b5bf9abc73481764d4de96799aa",
+  "sha256": "013f626728e4ae7f6a48ee40aaea2e464911e1a5fe804c8bad2a347329b37c77",
+  "reference_sha256": "7929fc1a94cdb0e67cd123eb82ac2d54f6834ccf7b9bebfc278cb8813f80a4b4",
+  "seconds": 32.73,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/066/group-01/redrawn.png",
+    "source_sha256": "013f626728e4ae7f6a48ee40aaea2e464911e1a5fe804c8bad2a347329b37c77",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          0,
+          0,
+          245,
+          320
+        ],
+        "hue_range": [
+          120,
+          190
+        ],
+        "to_hue": 85,
+        "min_saturation": 60,
+        "reason": "Match the recurring curly-haired womans visible blouse to her green outfit; retain hair, skin, black lines and the other womans blue clothes."
+      }
+    ],
+    "output_sha256": "58fa216a5bc3110fd41805779f34472509b5a4fab8b874047a867c3fcc645666"
+  },
+  "review": "reports/even-illustration-redraw/reviews/066.json"
+}

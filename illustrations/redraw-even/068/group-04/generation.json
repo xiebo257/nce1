@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A butcher in a white coat and cap stands behind a counter of cuts of meat; two customers hold baskets. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-butcher",
+      "path": "html/assets/lesson-068/picture-butcher-color.webp",
+      "sha256": "fc571cabfb623e1624060b012c53d9f9e8c44c2e8ca998e84e906a5b67103147"
+    }
+  ],
+  "fingerprint": "b08169e00710ee69f6254697e6c6a806c691ef4ea6c61c34e0dafb45b2311dc0",
+  "sha256": "ab801809156034efcfeb693c7aebd8faf03be96535cad6430348db0bc5203493",
+  "reference_sha256": "da141b4ae3a4e205107b5fa0d95b51c7a182ee6a507b996ef5b52b355bbbf0b3",
+  "seconds": 34.5,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

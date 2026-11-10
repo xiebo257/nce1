@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A church interior with arched windows; a priest in a vestment stands at the altar, and two children holding hands walk past. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-church",
+      "path": "html/assets/lesson-068/picture-church-color.webp",
+      "sha256": "11cec65f691ca0aa9b473f58b9db952d7f7b93449f8271dfcbb12dd160c967d4"
+    }
+  ],
+  "fingerprint": "43d2b30319877427cdc5c5b7547fc83463004a19763f35f0935159791d2ce2a5",
+  "sha256": "cbd4415259fbe9c88f45cc8ed898e9b846e4df41bd7225de44bf3943e476c869",
+  "reference_sha256": "d67845f25ecd8168a8c669a7bcebdfb486a34797aef14612fbf7a643565e09a9",
+  "seconds": 33.55,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

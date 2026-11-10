@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman at a telephone telling a man to call the doctor. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-332",
+      "path": "html/assets/lesson-064/picture-332-color.webp",
+      "sha256": "3d0a346fe70667bf87803dba5979bdbc2a35174f59c91836708e50d2ddde7e87"
+    }
+  ],
+  "fingerprint": "ab582d2ac5597be6511165d1f5604c4a970b3aed4678b4b0996ca2f75d47cedd",
+  "sha256": "0164075b629fe632cdee50929c330f52d382baac0bae2c3f6b64b28496b52162",
+  "reference_sha256": "6a90320fdd7725a5e3ab450252a3ef53154d2c1d27342096c1c288a4996516d4",
+  "seconds": 32.54,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

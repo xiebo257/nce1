@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A baker stands behind a counter of loaves and pastries; a customer points at the goods. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-baker",
+      "path": "html/assets/lesson-068/picture-baker-color.webp",
+      "sha256": "9f792e3c92942398b35d7f4d30586a6f297078dacad37136108bbeba007af37e"
+    }
+  ],
+  "fingerprint": "7c04352dbc34a3647b9f7704da92ae7dbdfaeb94816da7490458f91f118f370e",
+  "sha256": "7862cd767e04e6e6523e6541d9d1cb128e659fbabad2b9bc3d33e4661bee22d5",
+  "reference_sha256": "2535ac246c1512f13790892844936487486ccebefb0ef4cf4f3093566deac6cd",
+  "seconds": 35.66,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

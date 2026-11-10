@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Exactly THREE people: one adult passenger wearing a hat on the LEFT warns TWO children on the RIGHT who are leaning their upper bodies out through an open train window. The childrens legs remain inside the train below the windowsill. Preserve the photographed arrangement, make the train window and the leaning action clear.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-887",
+      "path": "illustrations/redraw-inputs/064-train-window-photo.png",
+      "sha256": "dd3c32ae9cb7c6374214de3959dd4387e0710449e23ffd40d283b155b0c20b32"
+    }
+  ],
+  "fingerprint": "8d99b8e645ad6c5aaa6b2f7dbf9e14c0ab66692cc8d30319fd05c74bc8c76f6d",
+  "sha256": "37151bb3a35332038693ada7322f7e579ea0701ba949993110a6c585de80e494",
+  "reference_sha256": "25c0e0b85272bc1ee1822dcc3ef67972564ad91ba5d36a42f49247d2280b26c6",
+  "seconds": 33.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

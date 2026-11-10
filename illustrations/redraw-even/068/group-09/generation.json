@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A shop with shelves of sugar, tea, jam and bacon; a shopkeeper with a moustache stands behind the counter facing a customer. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-grocer",
+      "path": "html/assets/lesson-068/picture-grocer-color.webp",
+      "sha256": "3f91c795e97c2b1617c54f3a59100c6a8c2e5e53af1c8a6d7961faab7a143e3b"
+    }
+  ],
+  "fingerprint": "b5ebda740a0df69f7ee9096677a90be7692138d55139e0e5303c4ee115f71916",
+  "sha256": "742fd03f354f36cd123172b5c1a2f8fbc6af9ec36aadf8c2a20f044fef4cba46",
+  "reference_sha256": "fa2f4d17a1018c7b11c9fd540b1bffdece89a8cac8745326c6143a47c9c4f00f",
+  "seconds": 33.6,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

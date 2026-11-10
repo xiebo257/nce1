@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Three children in caps walking past a school gate with a 'SCHOOL' sign. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-school",
+      "path": "html/assets/lesson-068/picture-school-color.webp",
+      "sha256": "848778306cb41f5431db2f81508ef8f118c3a72ac6773f17675483bc77dd0673"
+    }
+  ],
+  "fingerprint": "9782cb77e5ecb0eea64425e09333e71fa1df1ddb65b3c30f40ceab49c17ab110",
+  "sha256": "3c2881a3e707c2f49ff9b32a367836db641ad794bb140d2818fc64e9a1b26a64",
+  "reference_sha256": "9cd6fa1892a6e40fa6c199deb8544c6816f56d0a361d6582692352e5f70cc24a",
+  "seconds": 32.38,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

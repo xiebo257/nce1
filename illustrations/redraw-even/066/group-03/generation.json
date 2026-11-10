@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man with spiky hair at an amusement park ride. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 661113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-15th",
+      "path": "html/assets/lesson-066/picture-15th-color.webp",
+      "sha256": "2f7bd8b9bdf8e9354894a08ffc4e5cfc123eba046f343d06a22879d90a6aaf6d"
+    }
+  ],
+  "fingerprint": "5dcffe3a98924cefa0dcf63163a4d5648a62d5e43be2a8eb7cbeb054cf68fc0b",
+  "sha256": "b6e9352f11caafcb39e353298b558792d1b15badfa35fad0a1b11ed61a0ce527",
+  "reference_sha256": "1359be1c07a834cc314931b194396f8cb1c63e2afb1da5ff4ffb1566fb3a3524",
+  "seconds": 30.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/066.json"
+}

@@ -200,6 +200,10 @@ def review(number, notes):
         records[str(index)] = {'sheet_sha256': record['sha256'],
                                'tiles': {x['slot']: digest(directory / f'{x["slot"]}.png') for x in items}}
         if (directory / 'candidate-edits.json').exists():
+            edits = read(directory / 'candidate-edits.json')
+            assert len(items) == 1, 'Refinement records currently apply to individual pictures'
+            assert edits['output_sha256'] == digest(directory / f'{items[0]["slot"]}.png'), 'Reapply stale refinements before review'
+            assert edits['source_sha256'] == digest(edits['source']), 'Refinement source changed'
             records[str(index)]['edits_sha256'] = digest(directory / 'candidate-edits.json')
     others = {}
     for item in lesson['items']:
@@ -318,6 +322,7 @@ def publish(number):
         if edits.exists():
             assert digest(edits) == approval['groups'][str(index)]['edits_sha256']
             record['postprocess'] = read(edits)
+            assert record['postprocess']['source_sha256'] == digest(record['postprocess']['source'])
         write(archive / 'generation.json', dict(record, review=f'reports/even-illustration-redraw/reviews/{number:03}.json'))
         for item in items:
             slot = item['slot']; candidate = directory / f'{slot}.png'
@@ -329,7 +334,9 @@ def publish(number):
             metadata = images[slot]
             metadata.update(src=str(target.relative_to('html')), width=width, height=height,
                             display_width=256, origin='local-model-redraw',
-                            alt=item['cue'], generation={'model': MODEL, 'manifest': str(archive / 'generation.json')})
+                            description=item.get('verified_description', item['cue']),
+                            alt=item.get('verified_description', item['cue']),
+                            generation={'model': MODEL, 'manifest': str(archive / 'generation.json')})
             if metadata.get('photo_verification'):
                 metadata['photo_verification']['asset_sha256'] = digest(target)
                 metadata['photo_verification']['redraw_manifest'] = str(archive / 'generation.json')

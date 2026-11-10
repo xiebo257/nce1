@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the aspirin bottle at the left into a brown medicine bottle labelled MEDICINE. Keep the boy lying in bed and the woman beside him exactly unchanged: same two people, faces, hair, clothes, gestures and bed. No doctor or additional person.",
+  "seed": 641112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-221",
+      "path": "illustrations/redraw-inputs/064-medicine-identity-reference.png",
+      "sha256": "6b7afe5ccf3f78756e94ad1b92dbd0f5c911df04d2fc528ff56ea65061e39c83"
+    }
+  ],
+  "fingerprint": "e3fcf877875a21c4224f45142fcb0a9ffe3faff6ad1fcd4345ec907c5060e6b2",
+  "sha256": "80a06ee0690dda82081f0a6c9a3180f23a007564ec1617045c6b96ef3921bd01",
+  "reference_sha256": "0862e8e0c28b708592d1d0f8d9ee9d497765172bb0f8522c36dd344e324b0927",
+  "seconds": 35.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}

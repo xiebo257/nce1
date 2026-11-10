@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A man reads a newspaper in an armchair; a woman and a child sit on the floor with toys. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-home",
+      "path": "html/assets/lesson-068/picture-home-color.webp",
+      "sha256": "fae2f098eb93aedd9f96a2b4feec8de05a1a04594deef49161ac6d5745d8f27e"
+    }
+  ],
+  "fingerprint": "db8c738f7e3a0a2eaf0f0d36e1467798972c5f9cbae3ce08f0ab671047491b95",
+  "sha256": "626489830b07e592dbf8030da562db05523b67614c6f54aa05338dcdb6f00d3a",
+  "reference_sha256": "e05e84cb797b181767b27e0f707e6ae9a17b804f29c3232fdbb592b610f5be96",
+  "seconds": 34.97,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

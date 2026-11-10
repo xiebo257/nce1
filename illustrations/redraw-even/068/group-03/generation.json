@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman with long hair sits at a desk typing on an old computer; a bald man sits at another desk. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 681113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-office",
+      "path": "html/assets/lesson-068/picture-office-color.webp",
+      "sha256": "d812dee009eebe15417a0b325821e244a8cc2152354ebaa6a7ff19fa6dc5f4b1"
+    }
+  ],
+  "fingerprint": "2f1e327e7cfc686c6fde37e10d73b328c5497fb66245edd436b3fc772ec1c281",
+  "sha256": "cd9ccfd5983dd7a32aded2e1c5989cadb33fa47810c9df7314bd07080c1ddf29",
+  "reference_sha256": "46ff3d1cfb8499853c57a13ae20a1ed18b2cc14d11a0f7a491872cf274145ab4",
+  "seconds": 32.93,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/068.json"
+}

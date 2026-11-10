@@ -1,0 +1,88 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A woman with a hat at an amusement park ride. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 661114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-16th",
+      "path": "html/assets/lesson-066/picture-16th-color.webp",
+      "sha256": "753f9b733f734c94ec934ac381ce03928ac8e046ee24d114eeed25b1b7be3ea0"
+    }
+  ],
+  "fingerprint": "064529c5113f6244f9e2aa4a15ef785be3cb26e3edab5ad1d51d62250f5cf41f",
+  "sha256": "46555d077612324ec9ae52f67abc8e804474f3e1697bb72615f14d93a3ee31de",
+  "reference_sha256": "80228420234f27b22f80b05d73302ac396f77269397abcd15ba4d024c56be63e",
+  "seconds": 33.33,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/066/group-04/redrawn.png",
+    "source_sha256": "46555d077612324ec9ae52f67abc8e804474f3e1697bb72615f14d93a3ee31de",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "reason": "Remove two hallucinated floating hands above the hat; retain the two actual outstretched arms.",
+        "polygons": [
+          [
+            [
+              158,
+              65
+            ],
+            [
+              209,
+              65
+            ],
+            [
+              209,
+              91
+            ],
+            [
+              191,
+              99
+            ],
+            [
+              169,
+              104
+            ],
+            [
+              158,
+              100
+            ]
+          ],
+          [
+            [
+              324,
+              70
+            ],
+            [
+              368,
+              70
+            ],
+            [
+              368,
+              113
+            ],
+            [
+              338,
+              113
+            ],
+            [
+              325,
+              96
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "c1e49684ab94a22f421941ced7c9c9c17a42859f26dfb3781ba907ac7684365c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/066.json"
+}

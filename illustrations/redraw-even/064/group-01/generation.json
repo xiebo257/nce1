@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Jimmy lying ill in bed beside a bottle labelled ASPIRINS. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 641111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "picture-110",
+      "path": "html/assets/lesson-064/picture-110-color.webp",
+      "sha256": "2efef34419199ea593e159538264967d647c0443a2c6c26b48573ef296b36c28"
+    }
+  ],
+  "fingerprint": "05ae6a6521b63ce7b9fdc497c9da759611c1202c7ac1f9c02008073c86517937",
+  "sha256": "6b7afe5ccf3f78756e94ad1b92dbd0f5c911df04d2fc528ff56ea65061e39c83",
+  "reference_sha256": "38236df3bdd7fdd22f2a58f2b3a511a9fb35af808ba23c987884f3eccd7ad309",
+  "seconds": 30.93,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/064/group-01/redrawn.png",
+    "source_sha256": "6b7afe5ccf3f78756e94ad1b92dbd0f5c911df04d2fc528ff56ea65061e39c83",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          64,
+          193,
+          124,
+          219
+        ],
+        "text": "ASPIRINS",
+        "font_size": 10,
+        "reason": "Replace malformed model lettering with the exact photographed medicine label."
+      }
+    ],
+    "output_sha256": "124f3f4d8f5e2ebeb0725b99f50ba5cc8e30405c234e1322809ac48cdad2d445"
+  },
+  "review": "reports/even-illustration-redraw/reviews/064.json"
+}
