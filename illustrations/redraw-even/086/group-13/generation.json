@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One short brown-haired man in blue walking through a park beside trees and a fence. Two legs, no extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-13",
+      "path": "illustrations/redraw-inputs/086-photo-13.png",
+      "sha256": "d339177f68cdce59d2b6d5a19eb6259ab6a4a12c605ff9f6103f2d89775a3b9e"
+    }
+  ],
+  "fingerprint": "b93078c631bee2ff31fe19a92d552734ecee4cfe739b9db76d4756e760b001ae",
+  "sha256": "0466de432a9f38d5b6cd437e04079d71ed5dab795aac55196c80400c2da8bd82",
+  "reference_sha256": "6ad1fd5aec07be28595f9222adec2461a07698ca669128d3530dfcfa00575d35",
+  "seconds": 47.81,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

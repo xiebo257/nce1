@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change only the woman into one young man with short black hair, blue shirt and navy trousers. His hand rests on the handle of this open window. Preserve the OPEN WINDOW geometry, rectangular tilted glass sash, white frame and pink curtains exactly as shown. One man only, two normal arms. Redraw as one clean sharp full-color educational cartoon, white background, no captions, no additional people, no bent or broken window frames.",
+  "seed": 861113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-03",
+      "path": "html/assets/lesson-072/photo-panel-01-redrawn.webp",
+      "sha256": "c45b98a217081bac8d180809949404ac71a2ae875616c800ba5ebd7d66cb5174"
+    }
+  ],
+  "fingerprint": "239e5eaf75e392c7c13530a1fa7f0890187c86fff9aaf1c2f7c167580db01079",
+  "sha256": "8a58d5d61c02b71b081c5df67e25e0ce43fb84414aad43765a7631912f3fb87d",
+  "reference_sha256": "c0f6f3585938795c4bacd1f87af6956360abf7d10e4182e93fe735b216f84de2",
+  "seconds": 47.43,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

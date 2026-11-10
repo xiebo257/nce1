@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. Two boys standing side by side, one short black-haired in blue and one curly blonde in green, showing their polished clean black shoes with small shine marks. No extra feet. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-02",
+      "path": "illustrations/redraw-inputs/086-photo-02.png",
+      "sha256": "b628e4850dd0d45e6ca6161a3587e5e7b7e5c70f1f972fc9c76dccd931c075b7"
+    }
+  ],
+  "fingerprint": "6691ba510d05297cedde9de40dd0c64528d7aa1f03a147a6951c8940d4026fb3",
+  "sha256": "61af360814b44d62dc60c7d349f074b6c1eb332b3683a16ef7d20c57746debaf",
+  "reference_sha256": "f8580293d1fa062689ecf4ba228438b314f1a83414e7f231cb3004485bea44dd",
+  "seconds": 48.71,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

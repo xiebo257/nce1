@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-bob-haired woman in green stands beside a clean cupboard holding a dusting cloth. One woman, one cupboard. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-15",
+      "path": "illustrations/redraw-inputs/086-photo-15.png",
+      "sha256": "cc961666c42b6bb0de870316dd2e6dafb09d0f2100971947af2297be29dc0fb5"
+    }
+  ],
+  "fingerprint": "f9e322b8c6da1f601c755c69915fadf1e5ac8b268ce74ec551094eab3b9d3717",
+  "sha256": "8efa1158fd9ed1c99ec6cb6a718693991877760b12194817de385d7e8444a2bf",
+  "reference_sha256": "0f56b817d8e464dbdd6b21b748727928bc9317ce66ec00adea7802dc680325cf",
+  "seconds": 48.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

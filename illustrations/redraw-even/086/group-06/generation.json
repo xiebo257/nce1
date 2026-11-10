@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. Two older people sitting on a sofa listening to a radio on a small stand at left. One curly white-haired woman in green and one balding man in brown. Exactly two people, one radio. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-06",
+      "path": "illustrations/redraw-inputs/086-photo-06.png",
+      "sha256": "3624677e2ef2c7c41d704152fcc86f87dd3f74924ed890a4aec2b6bd818203c3"
+    }
+  ],
+  "fingerprint": "89b44f517236b866a3417704d8364cc9cd6b89306be0510e0a6f9ef0efba947f",
+  "sha256": "6d61e52f9d038c4e6817e1dd3f82b5052fd7c40f1ff99f73a5b6e1cb276d1d10",
+  "reference_sha256": "94c5e3dc9d13e34e6f88d8248aa3b70bbb023865766584b3770b0827d7b2f8a6",
+  "seconds": 50.84,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

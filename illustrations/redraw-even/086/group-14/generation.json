@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One short black-haired man in blue kneels beside a freshly painted small bookcase holding a paintbrush. Paint tin nearby. No extra hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-14",
+      "path": "illustrations/redraw-inputs/086-photo-14.png",
+      "sha256": "994e8457d371351ac3c68827d726ef04ff4032d264c55a19142f847bc746e7e3"
+    }
+  ],
+  "fingerprint": "8782642821b994e054045a6ae68dd7e16e4c38555df9dae1e5bcf4ada8771a35",
+  "sha256": "497f4d892bd2a28ef4ca567af16e4e5f28ed82b41822f7c5d34fccd22a93be8b",
+  "reference_sha256": "f0d544fa090a0da5d15dfc2f19844f47d709e7ae35e66c3ad908d877769be24f",
+  "seconds": 47.19,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

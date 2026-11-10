@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One straight blonde-haired girl in green at a desk looking up to ask a question, one hand on desk and the other raised. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-10",
+      "path": "illustrations/redraw-inputs/086-photo-10.png",
+      "sha256": "39051b97f6a54ca445beb29b006f6bff73badc01fe10311d205875d69a6bc0e1"
+    }
+  ],
+  "fingerprint": "a989113b55b3da7567210092f9210f2542a9b5ae568fb2bf6fb46322913f66a6",
+  "sha256": "21ce2caa1573aceb154aab99b96cc8a6a13d35539c0dd1a120eeef00f618782a",
+  "reference_sha256": "3671e1f19b8448311b52d4cfb4f1a483b9286719e8a2890e8662922b1258d04b",
+  "seconds": 46.89,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

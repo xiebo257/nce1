@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green beside a stove with a saucepan of boiling water, visible steam. One woman, two normal arms. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-07",
+      "path": "illustrations/redraw-inputs/086-photo-07.png",
+      "sha256": "01705d6fa3850ada3d836d64b45477a622f9a4d9e65e36a22195038bc27c49b4"
+    }
+  ],
+  "fingerprint": "17e7508a6907b007ea0ce3f6b844ffbfbc2b37ec3a6b0aa27abda29423700f21",
+  "sha256": "00becc9090de5be0c447e851efa703ebe36a15019956976b20475306b765b88f",
+  "reference_sha256": "942bfe53de209011959654b355651fee30064ab346d07f1585bc46defd8b17cb",
+  "seconds": 48.64,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

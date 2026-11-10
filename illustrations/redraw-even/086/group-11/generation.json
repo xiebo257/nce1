@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde woman in green seated at a desktop computer holding a typed sheet of paper, ordinary keyboard and monitor. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-11",
+      "path": "illustrations/redraw-inputs/086-photo-11.png",
+      "sha256": "f59bcbe098579b6aaca28521b8a15804fcf9ce05ef573c41cd60973838f440ae"
+    }
+  ],
+  "fingerprint": "f46ee5c44b2fa5ec82b4ac8a60ad193278912ffe2accb3b3e45ad6e4a3d8194a",
+  "sha256": "23f20709c44c913b4ab0f5272904dc9c287d8b360f088775a2d33293697622aa",
+  "reference_sha256": "66dda62ef1599f1aaa25d77f225d5f614acd94055c43ace1805fa032066733b6",
+  "seconds": 47.04,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

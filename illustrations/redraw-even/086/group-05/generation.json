@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One curly black-haired woman in green switches on an old television; a small male presenter appears ONLY INSIDE the television screen. One woman in the room. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-05",
+      "path": "illustrations/redraw-inputs/086-photo-05.png",
+      "sha256": "68ecdad269d84bc45ca1b7d696b8d12ee22d3ec198b38df9e03ee5af771e8fe8"
+    }
+  ],
+  "fingerprint": "05f3ec6117b8a34aad8cedb6fbb25a7632cfd9850704890e777231e7c8ab4f47",
+  "sha256": "874a630124e9be44b4530cb7b3b5b9defa227de97eb1c94238cd1bdb3970a604",
+  "reference_sha256": "189a980d3605136bb7573de90879b9f498c8f12d005d8037335b6dc524b22cfb",
+  "seconds": 47.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

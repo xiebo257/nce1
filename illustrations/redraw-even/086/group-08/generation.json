@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this inspected clear reference as a crisp full-color cartoon. One man answering a telephone, one hand holds the receiver to his ear and the other supports the telephone base. Change his curly hair to short straight brown hair; keep his blue jacket, face, two hands and the phone exactly as shown. Preserve the correct human anatomy of this reference, no added limbs. White background, no captions.",
+  "seed": 861118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-08",
+      "path": "html/assets/lesson-072/photo-panel-13-redrawn.webp",
+      "sha256": "9bd74a52c003787e5c72c4c85ed59f4224922c4a77c986a05856216be84d8be9"
+    }
+  ],
+  "fingerprint": "4cd30fe38bf32d98846a82cb5bb3271a108fc1d57050a915fb4c71aaeeb74a7a",
+  "sha256": "179d35168873e4c8449703e8676417c75e4d9cf44a12d4581d54e2feaa411b83",
+  "reference_sha256": "ad7fa10e5e42fb8c7053174253d27e7bc1f39d3a98fc7d69dbb7a0566bf74a84",
+  "seconds": 47.53,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

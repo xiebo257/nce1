@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon from the photographed reference. One curly blonde girl in green beside a washbasin showing her freshly washed hands with a few drops of water. Two arms and two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+  "seed": 861122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-12",
+      "path": "illustrations/redraw-inputs/086-photo-12.png",
+      "sha256": "da34cea4e34bbb842d4fa95096c7e32ab58fb942087c0b7e7cf27812f7dbdb49"
+    }
+  ],
+  "fingerprint": "b71936c3e45c86af98e1dcf3e331738fd53449e9b32ee186aae081ba02caa719",
+  "sha256": "19d946740f9d7613557a8ab9cf109ef56af0753a22cf0ed153551d877c4a336a",
+  "reference_sha256": "31f6da88787cafa1c6d4e7d9fd4536300885d4bbefad90ee77c86ad1a2197dbe",
+  "seconds": 47.43,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}

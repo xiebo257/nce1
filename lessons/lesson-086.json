@@ -739,9 +739,9 @@
       "description": "Panel 1: aired",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-01-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-01-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -760,14 +760,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 1: aired",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86017,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-01.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-01/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-02": {
       "kind": "item",
@@ -775,9 +775,9 @@
       "description": "Panel 2: cleaned",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-02-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-02-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -796,14 +796,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 2: cleaned",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86018,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-02.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-02/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-03": {
       "kind": "item",
@@ -811,9 +811,9 @@
       "description": "Panel 3: opened",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-03-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-03-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -832,14 +832,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 3: opened",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86019,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-03.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-03/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-04": {
       "kind": "item",
@@ -847,9 +847,9 @@
       "description": "Panel 4: sharpened",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-04-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-04-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -868,14 +868,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 4: sharpened",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86020,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-04.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-04/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-05": {
       "kind": "item",
@@ -883,9 +883,9 @@
       "description": "Panel 5: turned on",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-05-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-05-clean.png",
       "illustration_width": 432,
       "illustration_height": 400,
@@ -904,14 +904,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 5: turned on",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86021,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-05.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-05/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-06": {
       "kind": "item",
@@ -919,9 +919,9 @@
       "description": "Panel 6: listened to",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-06-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-06-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -940,14 +940,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 6: listened to",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86022,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-06.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-06/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-07": {
       "kind": "item",
@@ -955,9 +955,9 @@
       "description": "Panel 7: boiled",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-07-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-07-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -976,24 +976,24 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 7: boiled",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86023,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-07.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-07/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-08": {
       "kind": "item",
       "status": "ready",
-      "description": "Panel 8: answered",
+      "description": "A man answering a telephone, holding the receiver at his ear and supporting the base with his other hand.",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-08-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-08-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -1012,24 +1012,24 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A man answering a telephone, holding the receiver at his ear and supporting the base with his other hand.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86024,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-08.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-08/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-09": {
       "kind": "item",
       "status": "ready",
-      "description": "Panel 9: emptied",
+      "description": "A woman emptying a small wastebasket into a large bin, using both hands to hold the basket.",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-09-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-09-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -1048,14 +1048,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "A woman emptying a small wastebasket into a large bin, using both hands to hold the basket.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86025,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-09.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-09/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-10": {
       "kind": "item",
@@ -1063,9 +1063,9 @@
       "description": "Panel 10: asked",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-10-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-10-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -1084,14 +1084,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 10: asked",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86026,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-10.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-10/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-11": {
       "kind": "item",
@@ -1099,9 +1099,9 @@
       "description": "Panel 11: typed",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-11-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-11-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -1120,14 +1120,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 11: typed",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86027,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-11.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-11/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-12": {
       "kind": "item",
@@ -1135,9 +1135,9 @@
       "description": "Panel 12: washed",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-12-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-12-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -1156,14 +1156,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 12: washed",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86028,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-12.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-12/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-13": {
       "kind": "item",
@@ -1171,9 +1171,9 @@
       "description": "Panel 13: walked",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-13-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-13-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-13-clean.png",
       "illustration_width": 464,
       "illustration_height": 400,
@@ -1192,14 +1192,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 13: walked",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86029,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-13.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-13/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-14": {
       "kind": "item",
@@ -1207,9 +1207,9 @@
       "description": "Panel 14: painted",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-14-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-14-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-14-clean.png",
       "illustration_width": 464,
       "illustration_height": 384,
@@ -1228,14 +1228,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 14: painted",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86030,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-14.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-14/generation.json"
+      },
+      "display_width": 256
     },
     "lesson-086-pic-15": {
       "kind": "item",
@@ -1243,9 +1243,9 @@
       "description": "Panel 15: dusted",
       "characters": [],
       "source": "../img/lesson-086-01-text.jpg",
-      "src": "assets/lesson-086/lesson-086-pic-15-color.webp",
-      "width": 256,
-      "height": 192,
+      "src": "assets/lesson-086/lesson-086-pic-15-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "illustration_source_reference": "illustrations/references/source/086-lesson-086-pic-15-clean.png",
       "illustration_width": 464,
       "illustration_height": 384,
@@ -1264,14 +1264,14 @@
           1179
         ]
       },
-      "origin": "local-model",
+      "origin": "local-model-redraw",
       "caption": "What have you done?",
-      "alt": "Colorize and clean this exact textbook illustration.",
+      "alt": "Panel 15: dusted",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "seed": 86031,
-        "manifest": "illustrations/manifests/086-lesson-086-pic-15.json"
-      }
+        "manifest": "illustrations/redraw-even/086/group-15/generation.json"
+      },
+      "display_width": 256
     }
   },
   "illustration_style": "Full-color educational cartoon illustration, clean warm white background, colorful clothes, natural skin tones and clear objects.",

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this inspected clear reference as a crisp full-color cartoon. One curly black-haired woman in green emptying a small wicker wastebasket into a large gray metal bin. Exactly two arms and two hands, BOTH gripping the basket as shown. Change brown hair to black; keep her pose and both hands exactly as shown. Preserve the correct human anatomy of this reference, no added limbs. White background, no captions.",
+  "seed": 861119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-086-pic-09",
+      "path": "html/assets/lesson-072/photo-panel-15-redrawn.webp",
+      "sha256": "747862a4cae8db54c6d6e23c95b4c7609124eade4f6347d9fd52687c2b85277a"
+    }
+  ],
+  "fingerprint": "b46453474ba237082c437b3c93be6da1d58b0c0435f7b256b98d192a6da94183",
+  "sha256": "25cae5acb4474ef8d4d3fbd7b53db93aafb9ad530239b59ea90cf93c196a44e9",
+  "reference_sha256": "8e9162bf562cdc95dc1c1c8b71e665036565205e2863736dccef417757ff0e6e",
+  "seconds": 46.94,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/086.json"
+}
