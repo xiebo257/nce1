@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: a man and a woman beside a map labelled CHINA.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-04",
+      "path": "html/assets/lesson-054/lesson-item-04-color.webp",
+      "sha256": "d53d03f723e6ec6ca22a03be656cfc0545f4b0a8001a1d5758ed63a05d97f6d5"
+    }
+  ],
+  "fingerprint": "efc53cd7f501bf8050c1c064e7f5476e072b81996e8b7bc3123b2caf4f10ea9e",
+  "sha256": "f94f8d6f8db5089a2a7e98110b6b78190fbfd1583276f1d72ade74be5c544e20",
+  "reference_sha256": "568ac54e6e9e45b79a741cdc5d21b98ef7a0b735fbe0a032ba676f400cfccca6",
+  "seconds": 27.16,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

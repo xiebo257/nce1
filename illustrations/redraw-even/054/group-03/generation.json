@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one man beside a map labelled CANADA.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-03",
+      "path": "html/assets/lesson-054/lesson-item-03-color.webp",
+      "sha256": "fd7d8a84fba5bb527d5e0075e8050e0f6cd19a6e30732c453850aa312ea5f058"
+    }
+  ],
+  "fingerprint": "0dafab898831bf7ae43e260df881a655e6f749d627d10370f75898316c82e75d",
+  "sha256": "ba1ff5cc0083315d8244fa4a49d1c9178bcceb8c6fdc9a5081e41803f67fbd3e",
+  "reference_sha256": "45ac0e08d014c1f62cdf1c93e9a1ec3ac974448b92d50367cb583d7b1b202397",
+  "seconds": 24.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

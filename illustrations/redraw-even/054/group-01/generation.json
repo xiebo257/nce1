@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one person beside a map labelled AUSTRALIA.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-01",
+      "path": "html/assets/lesson-054/lesson-item-01-color.webp",
+      "sha256": "7f648567194295fd89fc2a093915b3f04634b1ecaf3c73ed31113742cebc76af"
+    }
+  ],
+  "fingerprint": "5cf3f91cea873ee8755da6f943fa5950c658f861c3c7d5564238be2536d2fe38",
+  "sha256": "0a9cf14d86784c9511053d0504e8ab5d11bc67dd5ececb408f4cda21bada8dd0",
+  "reference_sha256": "1e726e3e385a96d9972a4b073f26516e3ef9792c6fae2da349677e8b0f1f6b2c",
+  "seconds": 23.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: two people beside a map labelled JAPAN.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-07",
+      "path": "html/assets/lesson-054/lesson-item-07-color.webp",
+      "sha256": "235844b88769dd1595e27737d8d1f70129b6021a9770fce520df5c06a995c787"
+    }
+  ],
+  "fingerprint": "7c05aff350f895242faa930986e8b3d47481005f1dfbc97bb54f7ebe2c55566d",
+  "sha256": "eb3b2b0dafe44b0900612a3f748da20c600383ff32855e136c4cc537cf045aa2",
+  "reference_sha256": "d38c038102067670f124afbc91e70367f8207fa0b890ccf78ac786bb5bc91402",
+  "seconds": 31.68,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

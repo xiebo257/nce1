@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one woman beside a map labelled TURKEY.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-12",
+      "path": "html/assets/lesson-054/lesson-item-12-color.webp",
+      "sha256": "aa68182fd0bdf4b4858638a913347d4cc14248abe541451f7e092c5d3225204b"
+    }
+  ],
+  "fingerprint": "0f76337cba4e702698bc9091061609c5a3828adcea4bdb9f61a989bfa1e90d48",
+  "sha256": "08d0af8b3cfd3bdd90405f2acc3d5531e567b9dfdf19d7434166a5f6b00f79bd",
+  "reference_sha256": "ea06aa8852c28d8374cb0390745394d5bb0eb63a6846074f26c086c82ca72c57",
+  "seconds": 30.76,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

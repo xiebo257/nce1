@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: two people beside a map labelled POLAND.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-10",
+      "path": "html/assets/lesson-054/lesson-item-10-color.webp",
+      "sha256": "392e39fb7af00fa94cbf4605b0c8028d9c022c8d81d42d65d6b49ec9d6a345a3"
+    }
+  ],
+  "fingerprint": "a79cc3e2b232ce8ee189f8009bb7bd75edba011f22345664eaa6161eb1b3e3cf",
+  "sha256": "158126b336d1fd5b531f4f7f0f9b7fc433f50d3ae05522cb6a10d33abf1e0ae6",
+  "reference_sha256": "54567ef7d910efb3aeef253ab63d50f6f03fc04dc5573aaee84b7f332f70993a",
+  "seconds": 31.08,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

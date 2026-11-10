@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one woman in traditional dress beside a map labelled THAILAND.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-11",
+      "path": "html/assets/lesson-054/lesson-item-11-color.webp",
+      "sha256": "66d9b41a3171d98926eb56cedb04fedb1b8099a6a24831293017cf12420c2a9e"
+    }
+  ],
+  "fingerprint": "379b8f2cf31d91473065888bf4bb3c0dbc2b61b8d2ce024934fc0bc3b307ebd7",
+  "sha256": "37bca3dcd5b7e0ebf11f9bd9cbe0af451c619506695f50c1d2e628ee4ba9e3bc",
+  "reference_sha256": "cc540cb0b14aebc891ecae0f93892b1d4e7039fb18747acf30bd9a290e38c1b9",
+  "seconds": 30.77,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

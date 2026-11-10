@@ -257,3 +257,35 @@ after seeing the defect. Keep the untouched model sheet for provenance and
 publish the final corrected candidates. This is model-assisted source
 colorization, not a wholly model-redrawn scene. `--region SLOT:X:Y:COLOR`
 selects a source region by a point in the split tile. A point on ink is rejected.
+
+## Redraw blurred published pictures
+
+When the user asks for clearer new artwork, source-ink color transfer retains
+the coarse scan edges and is insufficient. Inspect the native pixel dimensions:
+a 100–256px atlas tile becomes visibly blurred when enlarged in the page.
+Generate at least twice the intended CSS width (the current individual redraw
+workflow uses 512×320 output, displayed at 256px). Upsizing the old crop does not
+count as a newly generated high-resolution picture.
+
+The local 4B model followed single-picture redraw prompts more reliably than
+four-picture prompts in the Lesson 52 trial. Keep each prompt short and describe
+only people and objects in that picture. A generic reference to clocks, thought
+bubbles or a cast member absent from the scene caused unwanted objects and
+duplicate panels. Preserve hair/clothing with scene-specific constraints and
+visually compare repeated people. A shared seed does not ensure identity.
+
+`redraw_even_illustrations.py` maintains the 52–144 even-lesson redraw queue in
+`reports/even-illustration-redraw/plan.json`. The plan records the original image
+and photograph hashes. `generate --lessons ...` keeps one local model resident
+and resumes matching candidates; `review --lessons ... --notes ...` records an
+actual visual inspection against candidate hashes; `publish --lessons ...`
+replaces only the referenced image metadata and renders HTML. Review is an agent
+inspection step, not a user permission gate. Reusing artwork requires matching
+the teaching action, count and relevant props, not merely similar file hashes.
+Do not recreate an existing plan from already-redrawn outputs, and do not rerun
+the earlier baseline-based photo-layout repair over these new assets.
+
+Exact instructional clocks use the `diagrams` command with photograph-verified
+times. If a photographed reading is ambiguous, keep that uncertainty explicit;
+do not have a diffusion model invent a cleaner-looking time. Verify both source
+coverage and browser pixel sizing before claiming a batch is complete.

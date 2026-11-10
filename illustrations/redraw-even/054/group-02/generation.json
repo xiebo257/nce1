@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one man beside a map labelled AUSTRIA.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-02",
+      "path": "html/assets/lesson-054/lesson-item-02-color.webp",
+      "sha256": "7a08351d54a9cb4293ff4c5af893d594fa4190edf4c21bb9b243f7be1d7310da"
+    }
+  ],
+  "fingerprint": "3ca45e41225023afab5c71ddfd8ee8a603e6a196d95954ecb4f38b87e3284628",
+  "sha256": "e723f714437f1cd33765478f7de379b1db0f0b5fc1a0b6d042d62f2752bd3fd7",
+  "reference_sha256": "250ac9be0c8f4689f74b114eda5ab5a0513ae5e78a554937e04adc01f2378c91",
+  "seconds": 23.61,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

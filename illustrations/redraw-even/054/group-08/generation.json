@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one person beside a map labelled SOUTH KOREA.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-08",
+      "path": "html/assets/lesson-054/lesson-item-08-color.webp",
+      "sha256": "f2d4f116e8b164312681ee3eca28ffff9a93bb3974bfda5dca87ddcb2fc645b7"
+    }
+  ],
+  "fingerprint": "7cdfa96fbe018af8336cc96bc939b27074dc3a5ba7d22d12846dc573fd2cab06",
+  "sha256": "be6afa36d57b3809ad59181792996dc2a29dd87a2f10b4e80c7c7ea1627b4aeb",
+  "reference_sha256": "e6ecbcddd0effca775730d115e11608de9f29b775eb8613c34bcda8a89750a73",
+  "seconds": 30.17,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

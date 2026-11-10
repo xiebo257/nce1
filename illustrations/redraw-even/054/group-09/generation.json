@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: two people beside a map labelled NIGERIA.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-09",
+      "path": "html/assets/lesson-054/lesson-item-09-color.webp",
+      "sha256": "e763a25154d627ccd824b27358eef308773054a1d429fef1a49d673c1fd79272"
+    }
+  ],
+  "fingerprint": "f4dd2592c2ced0eefcbca057d33d7f74df7ed2ad691dbb977fbc82e09affcfcd",
+  "sha256": "58a16ff9a55a284792689855d03555d88be21f32139576d310f928d2d620c091",
+  "reference_sha256": "e5f7422d707c3a43c35101ad00a647abfea5d11c855fcd6c704e24b46c25c6ef",
+  "seconds": 30.4,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}

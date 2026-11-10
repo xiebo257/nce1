@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. Textbook illustration: one person holding a long object beside a map labelled FINLAND.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 541115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-item-05",
+      "path": "html/assets/lesson-054/lesson-item-05-color.webp",
+      "sha256": "ad27b9a5738fd5b9e94c9956645e7ed437978efc6126fa8bd2b0c45a6e80c415"
+    }
+  ],
+  "fingerprint": "63ed6549f88818c88879a2dd1f6661c61166743f03d0f883e3197e700a2f5f29",
+  "sha256": "a25e342d10438d7201835183113c2766764b706e27aee3bdfec2748d51253035",
+  "reference_sha256": "1c393f632913b6ff2036411d58cad165ce09f3335f9941a24fe3e61b84e4cb9a",
+  "seconds": 30.81,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/054.json"
+}
