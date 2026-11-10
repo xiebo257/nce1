@@ -1,0 +1,72 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching this photographed layout. Two men talking at left: one with straight short brown hair in blue, one balding in green. A thought bubble at right shows a boy with short black hair walking out through a door. Exactly three people. Two blank round clock faces at top, one outside and one inside the bubble. Keep recalled events inside a clearly outlined thought bubble. Smooth clean lines, natural human faces and hands. Blank clock/calendar placeholders only: exact dates and hands will be added separately. No speech text, letters, numbers or question marks.",
+  "seed": 901113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-090-pic-03",
+      "path": "illustrations/redraw-inputs/090-photo-03.png",
+      "sha256": "02688033339edbf0c704276a155c93d0989a98b0f1a12df5b9ea6ee6c7ada217"
+    }
+  ],
+  "fingerprint": "c88a18ddd374d523758b2828308ce4aa8e144ed67fab7479ccef2b677c558b26",
+  "sha256": "cc251c9e0ba8840c7dd98409a32476ccb6fe668decbf3bbf55fac4f0d21f8b7f",
+  "reference_sha256": "d0e4dbb4b6d0f04c5f132de911d4bd53064be400a58bf9498aa4ad146cbd1e23",
+  "seconds": 48.86,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/090/group-03/redrawn.png",
+    "source_sha256": "cc251c9e0ba8840c7dd98409a32476ccb6fe668decbf3bbf55fac4f0d21f8b7f",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/090/diagrams/inset-3-00.png",
+        "clear_box": [
+          80,
+          31,
+          190,
+          141
+        ],
+        "placement": [
+          85,
+          36,
+          100,
+          100
+        ],
+        "clock_time": "3:00",
+        "shape": "ellipse",
+        "sha256": "36e5f7ac9bde22094b3d31e03abad38e3500896ae191f274ff2ce97c9ae64015"
+      },
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/090/diagrams/inset-2-00.png",
+        "clear_box": [
+          283,
+          28,
+          370,
+          115
+        ],
+        "placement": [
+          283,
+          28,
+          87,
+          87
+        ],
+        "clock_time": "2:00",
+        "shape": "ellipse",
+        "sha256": "75ade1ce9249e4173555566debfbd32299ae7cceac12ed55cc6097b755b92cfb"
+      }
+    ],
+    "output_sha256": "265c1ccc8dfb34c90cb4e1d1a2cd0d2e32c88830e9b78f26c399cb797887b6a1"
+  },
+  "review": "reports/even-illustration-redraw/reviews/090.json"
+}

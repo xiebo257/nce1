@@ -1,0 +1,80 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Keep EXACTLY FOUR FIGURES in this illustration: foreground black-bob-haired woman in blue on the far left, bald man in green next to her; INSIDE the thought bubble keep the curly brown-haired woman in red on the left SHAKING HANDS with the man in green on the right. Do not delete the woman in red or the handshake. Only change the man on the right in the thought bubble: remove his curly brown top hair, leaving a completely bald smooth dome and short gray hair at sides, matching the foreground bald man. Keep all four people, their poses, the thought bubble and both calendars. Blank white calendar pages, no letters or numbers.",
+  "seed": 881111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-088-pic-01",
+      "path": "illustrations/redraw-inputs/088-bald-man-correction.png",
+      "sha256": "87389f06b12097d0e7721dde5595916b30650e97c0e90d3d71810fd2de655492"
+    }
+  ],
+  "fingerprint": "e0d080e4f9d8b6abb562f93214c6bb4e1dee54d96dcfa66e576492c3a367ae8f",
+  "sha256": "c740397c646ec9ebe67286dc74f6d593681f7fb8b2c1bc7a0c30497f83b690b4",
+  "reference_sha256": "e0d840368c9efb17731070b3f1f6c737962d218a73d7209c71e971fbf79c482e",
+  "seconds": 48.32,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/088/group-01/redrawn.png",
+    "source_sha256": "c740397c646ec9ebe67286dc74f6d593681f7fb8b2c1bc7a0c30497f83b690b4",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          108,
+          45,
+          205,
+          111
+        ],
+        "text": "JAN\n14",
+        "font_size": 24,
+        "preserve_polygons": [
+          [
+            [
+              108,
+              100
+            ],
+            [
+              116,
+              101
+            ],
+            [
+              134,
+              111
+            ],
+            [
+              137,
+              119
+            ],
+            [
+              108,
+              119
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          360,
+          46,
+          406,
+          81
+        ],
+        "text": "JAN\n1",
+        "font_size": 14
+      }
+    ],
+    "output_sha256": "6a454812f261793d2504f00cff40d4e97dd7555c53041c6952f06f34120ad742"
+  },
+  "review": "reports/even-illustration-redraw/reviews/088.json"
+}

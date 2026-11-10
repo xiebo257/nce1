@@ -14817,7 +14817,172 @@
         "7:30",
         "5:00",
         "4:00"
-      ]
+      ],
+      "candidate_edits": {
+        "lesson-088-pic-03": {
+          "operations": [
+            {
+              "type": "dark-region-recolor",
+              "box": [
+                219,
+                95,
+                257,
+                154
+              ],
+              "max_value": 60,
+              "color": "#899797"
+            },
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/088/diagrams/inset-7-30.png",
+              "clear_box": [
+                326,
+                21,
+                415,
+                110
+              ],
+              "placement": [
+                326,
+                21,
+                89,
+                89
+              ],
+              "clock_time": "7:30",
+              "shape": "ellipse"
+            }
+          ]
+        },
+        "lesson-088-pic-04": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/088/diagrams/inset-5-00.png",
+              "clear_box": [
+                89,
+                29,
+                202,
+                139
+              ],
+              "placement": [
+                89,
+                29,
+                113,
+                113
+              ],
+              "clock_time": "5:00",
+              "shape": "ellipse"
+            },
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/088/diagrams/inset-4-00.png",
+              "clear_box": [
+                249,
+                31,
+                348,
+                132
+              ],
+              "placement": [
+                249,
+                31,
+                101,
+                101
+              ],
+              "clock_time": "4:00",
+              "shape": "ellipse"
+            }
+          ]
+        },
+        "lesson-088-pic-01": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                108,
+                45,
+                205,
+                111
+              ],
+              "text": "JAN\n14",
+              "font_size": 24,
+              "preserve_polygons": [
+                [
+                  [
+                    108,
+                    100
+                  ],
+                  [
+                    116,
+                    101
+                  ],
+                  [
+                    134,
+                    111
+                  ],
+                  [
+                    137,
+                    119
+                  ],
+                  [
+                    108,
+                    119
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                360,
+                46,
+                406,
+                81
+              ],
+              "text": "JAN\n1",
+              "font_size": 14
+            }
+          ]
+        },
+        "lesson-088-pic-02": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/088/diagrams/inset-3-00.png",
+              "clear_box": [
+                34,
+                30,
+                104,
+                100
+              ],
+              "placement": [
+                34,
+                30,
+                70,
+                70
+              ],
+              "clock_time": "3:00",
+              "shape": "ellipse"
+            },
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/088/diagrams/inset-2-50.png",
+              "clear_box": [
+                260,
+                40,
+                330,
+                110
+              ],
+              "placement": [
+                260,
+                40,
+                70,
+                70
+              ],
+              "clock_time": "2:50",
+              "shape": "ellipse"
+            }
+          ]
+        }
+      }
     },
     "90": {
       "sections_sha256": "694ca6d8e530b1ef131a18ef6ea1859842dd509af50f3cfe91b5fb2dcc4ac9f5",
@@ -15122,7 +15287,158 @@
         "8:00",
         "3:00",
         "2:00"
-      ]
+      ],
+      "candidate_edits": {
+        "lesson-090-pic-01": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                104,
+                44,
+                211,
+                105
+              ],
+              "text": "1997",
+              "font_size": 30
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                315,
+                65,
+                364,
+                98
+              ],
+              "text": "1996",
+              "font_size": 19
+            }
+          ]
+        },
+        "lesson-090-pic-02": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/090/diagrams/inset-8-30.png",
+              "clear_box": [
+                151,
+                23,
+                264,
+                138
+              ],
+              "placement": [
+                156,
+                28,
+                104,
+                104
+              ],
+              "clock_time": "8:30",
+              "shape": "ellipse"
+            },
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/090/diagrams/inset-8-00.png",
+              "clear_box": [
+                289,
+                39,
+                377,
+                127
+              ],
+              "placement": [
+                289,
+                39,
+                88,
+                88
+              ],
+              "clock_time": "8:00",
+              "shape": "ellipse"
+            }
+          ]
+        },
+        "lesson-090-pic-03": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/090/diagrams/inset-3-00.png",
+              "clear_box": [
+                80,
+                31,
+                190,
+                141
+              ],
+              "placement": [
+                85,
+                36,
+                100,
+                100
+              ],
+              "clock_time": "3:00",
+              "shape": "ellipse"
+            },
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/090/diagrams/inset-2-00.png",
+              "clear_box": [
+                283,
+                28,
+                370,
+                115
+              ],
+              "placement": [
+                283,
+                28,
+                87,
+                87
+              ],
+              "clock_time": "2:00",
+              "shape": "ellipse"
+            }
+          ]
+        },
+        "lesson-090-pic-04": {
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                145,
+                114,
+                259,
+                227
+              ],
+              "hue_range": [
+                65,
+                120
+              ],
+              "to_hue": 18,
+              "min_saturation": 100,
+              "saturation_delta": -65,
+              "value_delta": -65
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                99,
+                55,
+                172,
+                114
+              ],
+              "text": "2",
+              "font_size": 38
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                398,
+                55,
+                461,
+                104
+              ],
+              "text": "1",
+              "font_size": 36
+            }
+          ]
+        }
+      }
     },
     "92": {
       "sections_sha256": "662d3383090efbf37cbd8d0797ad27e067137c0fa7e29426b1e3eb0f98cb717f",
@@ -15424,7 +15740,7 @@
           "cue": "finish work",
           "text": "finish work",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One balding office worker in blue at a desk with a tall pile of papers, sweating as he works, a telephone on the desk. One person and two hands. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "edit_instruction": "Draw ONE bald office worker in a blue shirt seated at a desk, finishing paperwork. He has exactly TWO HANDS: his right hand holds a pen writing on one sheet, his left hand rests flat on the same sheet. A tall stack of documents stands at left, one telephone on the desk at right. Two arms attached naturally to his shoulders. No other hands, fingers or people. Clean colorful cartoon, white background, no text.",
           "direct_photo_crop": {
             "source": "img/lesson-092-01-text.jpg",
             "box": [
@@ -15627,7 +15943,7 @@
           "cue": "telephone me",
           "text": "telephone me",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One brown-haired man in green beside a telephone; a thought bubble shows the black-bob-haired woman he plans to telephone. Exactly two depictions. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "edit_instruction": "Draw exactly TWO depictions, with clear separation. In the FOREGROUND at RIGHT is ONE brown-haired MAN wearing a green shirt seated on a chair, looking at a telephone on a small table at left. In a THOUGHT BUBBLE ABOVE THE TELEPHONE at upper LEFT is only the HEAD AND SHOULDERS of ONE WOMAN with straight black bob hair and blue blouse. The woman must be completely inside the thought bubble; she is not sitting in the room. Exactly one foreground man, one bubble woman, one telephone. Sharp full-color educational cartoon, white background, no letters or captions.",
           "direct_photo_crop": {
             "source": "img/lesson-092-01-text.jpg",
             "box": [
@@ -15694,8 +16010,8 @@
         },
         {
           "slot": "photo-panel-12",
-          "reference": "illustrations/redraw-inputs/092-photo-12.png",
-          "reference_sha256": "209b9221f2063adeae354f9abea3fbebc4700b73f176ab66848c78ed6faf604d",
+          "reference": "illustrations/redraw-inputs/092-packing-correction.png",
+          "reference_sha256": "0d94a3696a27006eb24378e46e04dee178629dbf18ac4795be4fa510c6fdcec6",
           "source_photo": "img/lesson-092-01-text.jpg",
           "source_photo_sha256": "da1a524de880c8cd5e2c8c1956e185e9efe337d1f08e0b9916315816c54d719e",
           "previous": {
@@ -15727,7 +16043,7 @@
           "cue": "pack his bags",
           "text": "pack his bags",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon from the photographed reference. One man packing clothes into an open suitcase while one woman watches from the left. Exactly two people, one suitcase. Preserve the action and arrangement. Smooth clear outlines, natural cartoon hands and faces, solid colors, white margins. No captions, random lettering or extra characters.",
+          "edit_instruction": "REMOVE the middle man wearing the GREEN SHIRT, including his whole head, body, both arms and both legs. Keep EXACTLY TWO PEOPLE: the woman in pink and purple on the far left, and the brown-haired man in a BROWN SHIRT on the right packing clothes into the open suitcase. The remaining man should hold a piece of clothing over the suitcase, not shake hands. Keep the woman, suitcase, shoes and clothes. No person in the middle; white background. Crisp full-color cartoon, no words.",
           "direct_photo_crop": {
             "source": "img/lesson-092-01-text.jpg",
             "box": [
@@ -15946,7 +16262,73 @@
       "group_size": 1,
       "inset_clocks": [
         "10:55"
-      ]
+      ],
+      "candidate_edits": {
+        "photo-panel-04": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/092/diagrams/inset-10-55.png",
+              "clear_box": [
+                248,
+                115,
+                325,
+                192
+              ],
+              "placement": [
+                248,
+                115,
+                77,
+                77
+              ],
+              "clock_time": "10:55",
+              "shape": "ellipse"
+            }
+          ]
+        },
+        "photo-panel-05": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                301,
+                70,
+                470,
+                148
+              ],
+              "text": "AIRPORT",
+              "font_size": 31
+            }
+          ]
+        },
+        "photo-panel-07": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                120,
+                20,
+                405,
+                62
+              ],
+              "text": "TRAVEL AGENT",
+              "font_size": 31
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                399,
+                105,
+                482,
+                138
+              ],
+              "text": "SUN\nSPAIN",
+              "font_size": 14,
+              "background": "#c9efff"
+            }
+          ]
+        }
+      }
     },
     "94": {
       "sections_sha256": "ca11eb0ac3fcdcd9d8f71e9bd2546606107d51367882f9c1a7d5b53a61871642",

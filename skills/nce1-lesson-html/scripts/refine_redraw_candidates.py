@@ -2,7 +2,7 @@
 """Apply reviewed, recorded exact-diagram overlays to model redraw candidates."""
 import argparse
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from redraw_even_illustrations import REPORT, WORK, digest, groups, read, write
 
 
@@ -30,12 +30,19 @@ def main():
                     record['operations'].append(operation)
                     continue
                 if operation['type'] == 'text-overlay':
+                    before = image.copy() if operation.get('preserve_polygons') else None
                     draw = ImageDraw.Draw(image)
                     box = operation['box']
                     draw.rectangle(box, fill=operation.get('background', 'white'))
                     font = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', operation['font_size'])
                     draw.text(((box[0]+box[2])/2, (box[1]+box[3])/2), operation['text'],
                               font=font, fill=operation.get('color', 'black'), anchor='mm')
+                    if before is not None:
+                        mask = Image.new('L', image.size)
+                        mask_draw = ImageDraw.Draw(mask)
+                        for polygon in operation['preserve_polygons']:
+                            mask_draw.polygon([tuple(p) for p in polygon], fill=255)
+                        image.paste(before, (0, 0), mask)
                     record['operations'].append(operation)
                     continue
                 if operation['type'] == 'hue-shift':
@@ -50,6 +57,17 @@ def main():
                     image.paste(region.convert('RGB'), (box[0], box[1]))
                     record['operations'].append(operation)
                     continue
+                if operation['type'] == 'dark-region-recolor':
+                    # Recolor the interior of a flat dark region, preserving its outline.
+                    box = operation['box']; region = image.crop(box)
+                    mask = Image.new('L', region.size)
+                    mask.putdata([255 if max(pixel) <= operation['max_value'] else 0
+                                  for pixel in region.getdata()])
+                    mask = mask.filter(ImageFilter.MinFilter(3))
+                    region.paste(operation['color'], (0, 0, *region.size), mask)
+                    image.paste(region, (box[0], box[1]))
+                    record['operations'].append(operation)
+                    continue
                 if operation['type'] == 'erase-polygons':
                     draw = ImageDraw.Draw(image)
                     for polygon in operation['polygons']:
@@ -59,10 +77,19 @@ def main():
                 if operation['type'] != 'exact-diagram-overlay':
                     raise ValueError('Unknown refinement: ' + operation['type'])
                 draw = ImageDraw.Draw(image)
-                draw.rectangle(operation['clear_box'], fill='white')
+                ellipse = operation.get('shape') == 'ellipse'
+                if ellipse:
+                    draw.ellipse(operation['clear_box'], fill='white')
+                else:
+                    draw.rectangle(operation['clear_box'], fill='white')
                 with Image.open(operation['asset']) as overlay:
                     x, y, width, height = operation['placement']
-                    image.paste(overlay.convert('RGB').resize((width, height), Image.Resampling.LANCZOS), (x, y))
+                    resized = overlay.convert('RGB').resize((width, height), Image.Resampling.LANCZOS)
+                    mask = None
+                    if ellipse:
+                        mask = Image.new('L', (width, height))
+                        ImageDraw.Draw(mask).ellipse((0, 0, width-1, height-1), fill=255)
+                    image.paste(resized, (x, y), mask)
                 record['operations'].append(dict(operation, sha256=digest(operation['asset'])))
             target = directory / f'{slot}.png'
             image.save(target)

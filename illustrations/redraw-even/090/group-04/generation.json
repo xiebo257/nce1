@@ -1,0 +1,73 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching this photographed layout. Two adults talking at left, one with straight dark hair in blue and one curly-haired in green. A blank calendar card above them. A thought bubble at right shows a curly blonde woman talking to a small brown-haired boy. Another blank calendar card in the bubble. Exactly four people. Keep recalled events inside a clearly outlined thought bubble. Smooth clean lines, natural human faces and hands. Blank clock/calendar placeholders only: exact dates and hands will be added separately. No speech text, letters, numbers or question marks.",
+  "seed": 901114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-090-pic-04",
+      "path": "illustrations/redraw-inputs/090-photo-04.png",
+      "sha256": "288e19e83e708273019b5d1d9e23b51c683f4dd7c200a1c8720618c0bb2639b1"
+    }
+  ],
+  "fingerprint": "c0c448e7060fa9d91c80ac5f942f3e3ac12cdec0c2b01a094afa8b4e36260ef4",
+  "sha256": "3551e05c7a0ec4efeb1eeba23107bacf6a8017c5b29ae2a2412eeaa023ed54d3",
+  "reference_sha256": "9f2a55a39171e469c81a8cf29e22509d2a411a8cfe4e4d9ae2fc26b3335c456a",
+  "seconds": 46.68,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/090/group-04/redrawn.png",
+    "source_sha256": "3551e05c7a0ec4efeb1eeba23107bacf6a8017c5b29ae2a2412eeaa023ed54d3",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          145,
+          114,
+          259,
+          227
+        ],
+        "hue_range": [
+          65,
+          120
+        ],
+        "to_hue": 18,
+        "min_saturation": 100,
+        "saturation_delta": -65,
+        "value_delta": -65
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          99,
+          55,
+          172,
+          114
+        ],
+        "text": "2",
+        "font_size": 38
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          398,
+          55,
+          461,
+          104
+        ],
+        "text": "1",
+        "font_size": 36
+      }
+    ],
+    "output_sha256": "9ace6e82368a467b25896fa12bfce496b139c4cd0e2f781a34d9cf4b21fdf004"
+  },
+  "review": "reports/even-illustration-redraw/reviews/090.json"
+}

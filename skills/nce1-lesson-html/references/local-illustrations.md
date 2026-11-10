@@ -331,3 +331,15 @@ If a local edit changes unrelated features (for example adding glasses while
 correcting hand color), retain the earlier correct model candidate. A recorded
 `source_asset` refinement may apply a narrowly bounded HSV adjustment to that
 candidate; inspect the whole result and track the source PNG and its hash.
+
+For inset clocks near faces or thought-bubble outlines, use circular clearing and
+compositing (`shape: ellipse`) and inspect the result at native size. A rectangular
+white overlay clipped a man's forehead and a pen in Lesson 88. Text overlays may
+preserve recorded foreground polygons when a calendar sits behind someone's hair.
+Flat hair-color corrections can recolor the interior of a bounded dark region
+while preserving a one-pixel outline. These are explicit recorded refinements,
+not substitutes for checking identities, people counts or actions.
+After an edit, re-count every person and limb. A hair edit removed a woman from a
+handshake, while hand-removal edits sometimes changed nothing. If a correction
+fails repeatedly, use an already inspected reference with the same teaching action
+and correct anatomy, and record any equivalent change in object placement.

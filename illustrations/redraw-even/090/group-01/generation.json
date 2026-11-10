@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching this photographed layout. A blonde woman in blue and a balding man in green talking at left. Above them a blank calendar card. A thought bubble at right shows THE SAME balding man sitting reading an open book, with a second blank calendar card. Exactly three depictions. Keep recalled events inside a clearly outlined thought bubble. Smooth clean lines, natural human faces and hands. Blank clock/calendar placeholders only: exact dates and hands will be added separately. No speech text, letters, numbers or question marks.",
+  "seed": 901111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-090-pic-01",
+      "path": "illustrations/redraw-inputs/090-photo-01.png",
+      "sha256": "64776249ddc0c5df5d1e2404f2e73578830ebcd025fe3b1366e7211209abd4c4"
+    }
+  ],
+  "fingerprint": "5fc244c3d1af3714a8a43486ca0f98882906fd152822a5f20031ff925e96c8fc",
+  "sha256": "e05ba868e66ac1a54879bf58e8f462b304d7a70a8463f5bd5ba7761d7cd0387a",
+  "reference_sha256": "a7f83a2704594f9306131351a01c249a017fbc518e559628b6a4af1bee2dfb15",
+  "seconds": 48.68,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/090/group-01/redrawn.png",
+    "source_sha256": "e05ba868e66ac1a54879bf58e8f462b304d7a70a8463f5bd5ba7761d7cd0387a",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          104,
+          44,
+          211,
+          105
+        ],
+        "text": "1997",
+        "font_size": 30
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          315,
+          65,
+          364,
+          98
+        ],
+        "text": "1996",
+        "font_size": 19
+      }
+    ],
+    "output_sha256": "792c17e98811adb9304a4107cc9f1279befe206e068f1926542d9863d6b8fe99"
+  },
+  "review": "reports/even-illustration-redraw/reviews/090.json"
+}

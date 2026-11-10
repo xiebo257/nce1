@@ -1,0 +1,64 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching this photographed layout. Two men talking in the foreground. One has short dark hair and a checked blue shirt; the other is balding and wears green. A thought bubble at right shows THE SAME balding man eating breakfast with his curly-haired wife at a table. Exactly four depictions. One blank round clock above the breakfast table. Keep recalled events inside a clearly outlined thought bubble. Smooth clean lines, natural human faces and hands. Blank clock/calendar placeholders only: exact dates and hands will be added separately. No speech text, letters, numbers or question marks.",
+  "seed": 881113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-088-pic-03",
+      "path": "illustrations/redraw-inputs/088-photo-03.png",
+      "sha256": "b08e1571ed7fd3f03353913186411b5067046e0d7eda800fdf636cc31fce6751"
+    }
+  ],
+  "fingerprint": "4f95ce707609e2692410095213c992ecdfea1f0f166663b276f60fff9bdd4925",
+  "sha256": "899cfe6f6ed60b3c062029ba4bf8c0348302e3d8daf8752c74d3aa331b607697",
+  "reference_sha256": "c3f50ec4113cec0879d2ab9dd0daea90822486fb0c230d8ce73c0f56d06d8bf5",
+  "seconds": 47.04,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/088/group-03/redrawn.png",
+    "source_sha256": "899cfe6f6ed60b3c062029ba4bf8c0348302e3d8daf8752c74d3aa331b607697",
+    "operations": [
+      {
+        "type": "dark-region-recolor",
+        "box": [
+          219,
+          95,
+          257,
+          154
+        ],
+        "max_value": 60,
+        "color": "#899797"
+      },
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/088/diagrams/inset-7-30.png",
+        "clear_box": [
+          326,
+          21,
+          415,
+          110
+        ],
+        "placement": [
+          326,
+          21,
+          89,
+          89
+        ],
+        "clock_time": "7:30",
+        "shape": "ellipse",
+        "sha256": "66e36439aabfd3d0f7b90613daf5d424a9d3f06720c32fcf78e63eb4d5f7a1a5"
+      }
+    ],
+    "output_sha256": "a94eeedd2f584dae899521b135a8e003984f102d3a661006bd36710fcd490b31"
+  },
+  "review": "reports/even-illustration-redraw/reviews/088.json"
+}

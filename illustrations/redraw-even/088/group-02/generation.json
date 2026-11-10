@@ -1,0 +1,72 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Remove the EXTRA man in the GRAY SUIT standing at the BACK inside the doorway, including his entire head and body. Keep only ONE boss inside the thought bubble: the bald man in BROWN SUIT walking out through the doorway. Outside the bubble keep the dark-haired man in blue and curly blonde woman in green unchanged. Exactly THREE people total: two outside and one inside the bubble. Keep just TWO round blank clock faces: one above the talking pair and one at upper left inside the thought bubble. Remove the extra middle clock outside the bubble. No numbers or letters.",
+  "seed": 881112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "lesson-088-pic-02",
+      "path": "illustrations/redraw-inputs/088-boss-correction.png",
+      "sha256": "d35491c5d3600e07e34b8d5f2dcd550ac40f2914a80761aeccaefcaf974b8d55"
+    }
+  ],
+  "fingerprint": "69a03267b6a8dc197c3b66e0d0be356557ade1db55baccd072a99bfea4cba95a",
+  "sha256": "6be3bd3d55a8658a65faa4f1293fe7e59482fe7e3f0e23f9f515e409eb545f09",
+  "reference_sha256": "983af9bd09454aaabb0614b2d6ad68eb765351522ea31d282a8d69b68b0e5198",
+  "seconds": 49.15,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/088/group-02/redrawn.png",
+    "source_sha256": "6be3bd3d55a8658a65faa4f1293fe7e59482fe7e3f0e23f9f515e409eb545f09",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/088/diagrams/inset-3-00.png",
+        "clear_box": [
+          34,
+          30,
+          104,
+          100
+        ],
+        "placement": [
+          34,
+          30,
+          70,
+          70
+        ],
+        "clock_time": "3:00",
+        "shape": "ellipse",
+        "sha256": "36e5f7ac9bde22094b3d31e03abad38e3500896ae191f274ff2ce97c9ae64015"
+      },
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/088/diagrams/inset-2-50.png",
+        "clear_box": [
+          260,
+          40,
+          330,
+          110
+        ],
+        "placement": [
+          260,
+          40,
+          70,
+          70
+        ],
+        "clock_time": "2:50",
+        "shape": "ellipse",
+        "sha256": "f82be6babf583320b109abea9f5d8cd23da78f0cc11d4c3b8bbce190b457fce0"
+      }
+    ],
+    "output_sha256": "29336171ed85fe29ae7307b925beb187a05aa8e46244ec66ac5564a301fd0031"
+  },
+  "review": "reports/even-illustration-redraw/reviews/088.json"
+}
