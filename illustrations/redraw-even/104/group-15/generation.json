@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Edit this cartoon. Change only her hairstyle to brown hair neatly gathered into ONE SMALL ROUND LOW BUN at the back of her neck, with no loose hair or ponytail. Keep the same face, green collared blouse, orange fruit, hands and facial expression. She holds a single small orange segment between her left thumb and forefinger at her smiling lips. Her right hand holds the peeled orange. Two normal hands, no floating food. Clean colorful textbook illustration, white background.",
+  "seed": 1041125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "illustrations/redraw-inputs/104-orange-15-correction.png",
+      "sha256": "8229b0351c150478d6ece48371a038b4114274c1820b5856a1cf5326237b4a3e"
+    }
+  ],
+  "fingerprint": "77c15e1b6d77d8c00034c3bb946d5edd705776caf9fa720a162ec466caa88ccc",
+  "sha256": "0e4b36834296f8dbd928b6d5b674b24db32d66a29e3b740ef99419183c78222c",
+  "reference_sha256": "96a7ec4a031a63b4f25743d8b154f51159f974f59b844d128652c8e0a6f742a5",
+  "seconds": 56.49,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

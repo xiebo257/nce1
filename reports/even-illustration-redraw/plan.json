@@ -20526,7 +20526,7 @@
           "cue": "eat the cakes\nfresh",
           "text": "eat the cakes\nfresh",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two children smiling beside a plate of three fresh steaming cupcakes: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, the same pair as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "edit_instruction": "A crisp colorful textbook cartoon of exactly two fair-skinned children behind a table, smiling at THREE fresh little cakes on ONE plate in the foreground. Curly blond boy in green shirt on left, short black-haired boy in blue on right. Both children have light peach skin. The plate contains exactly THREE separated cupcakes arranged side by side: left cake, middle cake, right cake, each clearly visible with its own wrapper. Three wisps of steam, one above each cake. No frosting, plain golden sponge cupcakes. Hands resting on table, clean outlines, white background, no text.",
           "direct_photo_crop": {
             "source": "img/lesson-104-01-text.jpg",
             "box": [
@@ -20643,8 +20643,8 @@
         },
         {
           "slot": "photo-panel-10",
-          "reference": "illustrations/redraw-inputs/104-photo-10.png",
-          "reference_sha256": "f87048ea4cbad3b5b8c9fdf14741ddc924e7dd57c0c4e535872259a4cd4fb046",
+          "reference": "illustrations/redraw-inputs/104-radio-removal.png",
+          "reference_sha256": "72fad3878c43b03c250d465cf346c59626cab30af7cfb53d89bbc2a2b0a8ae09",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -20676,7 +20676,7 @@
           "cue": "hear the stereo\nlow",
           "text": "hear the stereo\nlow",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly gray-haired woman in green and balding man in blue lean forward from a sofa cupping their ears to hear a very quiet radio on a stand at left. Exactly two adults, two arms each. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "edit_instruction": "Remove the extra gray-haired woman standing BEHIND THE RADIO ON THE LEFT completely, including her head, arms, torso and legs. Replace her with plain white background. Keep the oval gray radio, wooden pedestal table and its three brown legs unchanged. Keep ONLY the TWO people seated on the sofa on the right: gray-haired woman in green and bald man in blue, with their listening poses unchanged. Exactly two people total, both on sofa. No person behind the radio. Preserve colors and clean outlines.",
           "direct_photo_crop": {
             "source": "img/lesson-104-01-text.jpg",
             "box": [
@@ -20893,8 +20893,8 @@
         },
         {
           "slot": "photo-panel-15",
-          "reference": "illustrations/redraw-inputs/104-photo-15.png",
-          "reference_sha256": "ca924f6351a9742e294dc222c8637d9a0b016f88ed07dc215f5de5172dee730a",
+          "reference": "illustrations/redraw-inputs/104-orange-15-correction.png",
+          "reference_sha256": "8229b0351c150478d6ece48371a038b4114274c1820b5856a1cf5326237b4a3e",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -20926,7 +20926,7 @@
           "cue": "eat the orange\nsweet",
           "text": "eat the orange\nsweet",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse happily eating a peeled sweet orange segment, peeled orange in other hand. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "edit_instruction": "Edit this cartoon. Change only her hairstyle to brown hair neatly gathered into ONE SMALL ROUND LOW BUN at the back of her neck, with no loose hair or ponytail. Keep the same face, green collared blouse, orange fruit, hands and facial expression. She holds a single small orange segment between her left thumb and forefinger at her smiling lips. Her right hand holds the peeled orange. Two normal hands, no floating food. Clean colorful textbook illustration, white background.",
           "direct_photo_crop": {
             "source": "img/lesson-104-01-text.jpg",
             "box": [
@@ -20943,8 +20943,8 @@
         },
         {
           "slot": "photo-panel-16",
-          "reference": "illustrations/redraw-inputs/104-photo-16.png",
-          "reference_sha256": "908cb3d1f9af7357781e0e419cc69b418515a03b980dac421c6c1e365f2ec426",
+          "reference": "illustrations/redraw-inputs/104-orange-16-correction.png",
+          "reference_sha256": "9f43a9b6844e5deea296c741cf2e1652ad831479c90ad03fee2ab10a172640a6",
           "source_photo": "img/lesson-104-01-text.jpg",
           "source_photo_sha256": "69666aa769f522b3e92a5c3952c1b05365092acd871fb258d4f08807f6ffe8bb",
           "previous": {
@@ -20976,7 +20976,7 @@
           "cue": "eat the orange\nsour",
           "text": "eat the orange\nsour",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse grimaces after tasting a SOUR orange, pursed mouth and squinting eyes, holding orange segment and peeled orange. One woman, two hands. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+          "edit_instruction": "Edit this cartoon. Change only her hairstyle to brown hair neatly gathered into ONE SMALL ROUND LOW BUN at the back of her neck, with no loose hair or ponytail. Keep the same face, green collared blouse, orange fruit, hands and facial expression. Keep her sour grimace and the fruit unchanged. Clean colorful textbook illustration, white background.",
           "direct_photo_crop": {
             "source": "img/lesson-104-01-text.jpg",
             "box": [
@@ -20992,7 +20992,96 @@
           }
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-02": {
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                25,
+                89,
+                110,
+                140
+              ],
+              "hue_range": [
+                0,
+                12
+              ],
+              "to_hue": 131,
+              "min_saturation": 140,
+              "saturation_delta": -67,
+              "value_delta": -70
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                338,
+                89,
+                509,
+                153
+              ],
+              "hue_range": [
+                30,
+                50
+              ],
+              "to_hue": 5,
+              "min_saturation": 140,
+              "saturation_delta": -76,
+              "value_delta": -17
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                338,
+                89,
+                509,
+                153
+              ],
+              "hue_range": [
+                100,
+                145
+              ],
+              "to_hue": 5,
+              "min_saturation": 140,
+              "saturation_delta": -85,
+              "value_delta": 82
+            }
+          ]
+        },
+        "photo-panel-05": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                279,
+                53,
+                369,
+                91
+              ],
+              "text": "£150",
+              "font_size": 27,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-06": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                273,
+                52,
+                416,
+                91
+              ],
+              "text": "£8,000",
+              "font_size": 29,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "106": {
       "sections_sha256": "1a607c867514c7967359c7b03229d40fab38126f35098e048612af7300bab767",

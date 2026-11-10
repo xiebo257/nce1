@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. A happy man in a blue jacket beside an inexpensive small older car. A rectangular blank price sign above the car roof.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. Leave price sign blank for exact typesetting. One man only, no extra people, no invented letters or numbers.",
+  "seed": 1041115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/104-photo-05.png",
+      "sha256": "b66d118314a6414c0bdac62107f5acfb73a36231a115d1858c3b24cdff91d68d"
+    }
+  ],
+  "fingerprint": "ac425adf99e3f9f74681d350639a7c4f68a0bb87f9eefc31a16ba36344108084",
+  "sha256": "674a0d1f719cda2f0dda0b097e38f559635da7f7bfa486132585d927a85525a7",
+  "reference_sha256": "7811f332aa62b738e2e872589c2e18aca13527483b43023436cfae6846b29da6",
+  "seconds": 57.02,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/104/group-05/redrawn.png",
+    "source_sha256": "674a0d1f719cda2f0dda0b097e38f559635da7f7bfa486132585d927a85525a7",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          279,
+          53,
+          369,
+          91
+        ],
+        "text": "£150",
+        "font_size": 27,
+        "background": null
+      }
+    ],
+    "output_sha256": "fda4fd413cc6b1e07580a3820e84f17dca710a5ec7fb71bb89e78321070421b4"
+  },
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

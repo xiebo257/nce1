@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same two children trying to bite hard stale cakes with unhappy strained expressions: curly blond child in green on left and short black-haired child in blue on right. Exactly two children, each holds a cake. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/104-photo-08.png",
+      "sha256": "bff6c95f9f3a6186ed3984ff4ffa670cc4efd20f7227f0181bd3eee9840dd312"
+    }
+  ],
+  "fingerprint": "93fe77ae3ed8ac4d860f0dff5d45430a265f5edf8ba99307a83af8bfdad3dd73",
+  "sha256": "10929ab199294c27045a6c8e20313d0bb53a4dbbeed314fd79ad0e171560ecb8",
+  "reference_sha256": "f300780fdc30e8c2cff38a60b13f34a6ac6b5d17f5331e38171c3c1e0dcadc3b",
+  "seconds": 59.3,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

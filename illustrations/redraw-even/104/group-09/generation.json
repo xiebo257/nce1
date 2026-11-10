@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two older adults sitting on a sofa listening happily to a loudly playing radio on a stand at left: curly gray-haired woman in green and balding man in blue. Short sound rays around the radio. Exactly two adults. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "illustrations/redraw-inputs/104-photo-09.png",
+      "sha256": "f45c455702f67683e85a5e653ddce19e23a16610d74751c1a7472a024cf74318"
+    }
+  ],
+  "fingerprint": "3887608926961192aa25a1e8cc80955c675d791938472e4a732a504c798b57d3",
+  "sha256": "a3bc4d5d8d84e3f0f6b15ff898f138c62cf5c1d97ee235d4fb43ec14a112d3f0",
+  "reference_sha256": "4f2473289ee79e564c204e97cdba926d79d9edee6916a1076191ebcfc16ea572",
+  "seconds": 58.83,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

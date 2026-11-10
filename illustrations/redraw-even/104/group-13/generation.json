@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. One woman with brown hair tied in a low bun, green blouse, smiling and holding a soft yellow-green pear with a bite taken out. Clear pear shape with narrow top and round base. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "illustrations/redraw-inputs/104-photo-13.png",
+      "sha256": "18e17b4938e96be8cb28a738eba0ebf9ed4f8d3645037c2de0fa2b998af3ee2b"
+    }
+  ],
+  "fingerprint": "ac1b8addbadf930eadeaec40b8dc7fed2ca9980475e2e45afffbdafccc9505ff",
+  "sha256": "86e564ddaff2d5de5e1124390a062ffafb916411d9a6a082e0866e1c8c0dd533",
+  "reference_sha256": "8f22682bce6b8e5f851bdea557af14dad592e0eb00bf1e3b41ebd9c81156fdd7",
+  "seconds": 57.76,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

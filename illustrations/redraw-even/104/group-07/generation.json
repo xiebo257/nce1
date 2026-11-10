@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "A crisp colorful textbook cartoon of exactly two fair-skinned children behind a table, smiling at THREE fresh little cakes on ONE plate in the foreground. Curly blond boy in green shirt on left, short black-haired boy in blue on right. Both children have light peach skin. The plate contains exactly THREE separated cupcakes arranged side by side: left cake, middle cake, right cake, each clearly visible with its own wrapper. Three wisps of steam, one above each cake. No frosting, plain golden sponge cupcakes. Hands resting on table, clean outlines, white background, no text.",
+  "seed": 1041117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "illustrations/redraw-inputs/104-photo-07.png",
+      "sha256": "40782789b0ca17b6ed53bab520fe025e99133cba67c1b71a892808db136a7760"
+    }
+  ],
+  "fingerprint": "40523a4631672e0e915668872eda98f0b7cd2f0afd6c5347cb7a9b837ef97340",
+  "sha256": "0ec7b20a60ad10ed75bd9671fe22bee3a0756539e69f42be5fb5218f2b4e32eb",
+  "reference_sha256": "1ee5d0f5194839065a79cd46de50fab6b7b8c497eea597f9f02068bf03db19a0",
+  "seconds": 56.75,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Remove the extra gray-haired woman standing BEHIND THE RADIO ON THE LEFT completely, including her head, arms, torso and legs. Replace her with plain white background. Keep the oval gray radio, wooden pedestal table and its three brown legs unchanged. Keep ONLY the TWO people seated on the sofa on the right: gray-haired woman in green and bald man in blue, with their listening poses unchanged. Exactly two people total, both on sofa. No person behind the radio. Preserve colors and clean outlines.",
+  "seed": 1041120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "illustrations/redraw-inputs/104-radio-removal.png",
+      "sha256": "72fad3878c43b03c250d465cf346c59626cab30af7cfb53d89bbc2a2b0a8ae09"
+    }
+  ],
+  "fingerprint": "28f0be6442d7cababc72f8892c33d2d1baa20789a561c16f60135e54a2f4ee8b",
+  "sha256": "b61d96897ec4579663232bc11ffcd84492edaf27b481a2c4b33366cc34587665",
+  "reference_sha256": "b13876eec7dd9d883619c18070fa3a73770052aec5bf90352a768680f0cf25b8",
+  "seconds": 55.83,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

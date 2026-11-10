@@ -1,0 +1,85 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly blond boy in a green shirt struggling with a difficult test, frowning with one hand on his forehead and the other on the desk. Two students behind him. Exactly three students. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "illustrations/redraw-inputs/104-photo-02.png",
+      "sha256": "d4f376806ee1ac1e863786318f3d434856e03b797b38c0b58a0e4439e33abf00"
+    }
+  ],
+  "fingerprint": "13a76dd6064033e5162927f8c27692e35ce8c9d3c5f12860d4ea20f11fa63f77",
+  "sha256": "af1765e4e27a52f5a3c89237ec0efd29135541e1f7d4da58096057d0a5826dca",
+  "reference_sha256": "b068cf5dce0ed30beaf9e653f82eda138474f2849acf994ffc7fd59a8445be4b",
+  "seconds": 61.26,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/104/group-02/redrawn.png",
+    "source_sha256": "af1765e4e27a52f5a3c89237ec0efd29135541e1f7d4da58096057d0a5826dca",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          25,
+          89,
+          110,
+          140
+        ],
+        "hue_range": [
+          0,
+          12
+        ],
+        "to_hue": 131,
+        "min_saturation": 140,
+        "saturation_delta": -67,
+        "value_delta": -70
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          338,
+          89,
+          509,
+          153
+        ],
+        "hue_range": [
+          30,
+          50
+        ],
+        "to_hue": 5,
+        "min_saturation": 140,
+        "saturation_delta": -76,
+        "value_delta": -17
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          338,
+          89,
+          509,
+          153
+        ],
+        "hue_range": [
+          100,
+          145
+        ],
+        "to_hue": 5,
+        "min_saturation": 140,
+        "saturation_delta": -85,
+        "value_delta": 82
+      }
+    ],
+    "output_sha256": "578897f889530d618bcca8f396f44a3fe3b4ed5792f0f0fd10ef74e704408a96"
+  },
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

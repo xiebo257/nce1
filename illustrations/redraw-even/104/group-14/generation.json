@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same brown-haired woman in a green blouse tries unsuccessfully to bite a hard yellow-green pear, strained expression. One woman only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "illustrations/redraw-inputs/104-photo-14.png",
+      "sha256": "bf17240f3d4d55fb1c44e6a5bf1ad021c8ce68ce3061c58b57722eaddb33d4e1"
+    }
+  ],
+  "fingerprint": "608b9931e46e585ffee9494b18b74468dbc61ed4affd3ca019aa113cbcc91ac7",
+  "sha256": "220971f9dee17281fbaff7f934446f3f79e9e3901dea3df0789809888bd08e10",
+  "reference_sha256": "e6296da1e6285024332a23a8f180f7e0657ec9a67d8fd3209aad376ea08474d2",
+  "seconds": 48.6,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

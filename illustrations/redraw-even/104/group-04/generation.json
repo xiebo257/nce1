@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short spiky brown hair and an orange shirt struggling with a test at a desk, confused expression, one hand resting on his cheek and the other holding a pencil. One child only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/104-photo-04.png",
+      "sha256": "3ccfd092922e53491dac287e57affc1b638af8eff2548cb8400a650221d20c14"
+    }
+  ],
+  "fingerprint": "1cd5ada280288da57062e8ff7895c334d01e1849fc9bde1e4b7b19122fd03266",
+  "sha256": "0f3bb06110df5c0d41dfc982f3f8b7d9cceb32bcdfbe4e12378857984a43958b",
+  "reference_sha256": "8c0d7f78906829d44fbbfc9b74cb921207092f9c441b31a3f72e83fda792416f",
+  "seconds": 57.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

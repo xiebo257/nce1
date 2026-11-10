@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. The same man with short brown hair and a blue jacket looking worried beside an expensive large black car. A rectangular blank price sign above the car roof.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. Leave price sign blank for exact typesetting. One man only, no extra people, no invented letters or numbers.",
+  "seed": 1041116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/104-photo-06.png",
+      "sha256": "52a9fe06b3b97b7c4c372db4bdd8be687ae4e8a71e2e620c77b69245b7d5da39"
+    }
+  ],
+  "fingerprint": "53602de2d516522a2338070113ec0711bfc722ee748a13ee15f135f4f1d36de9",
+  "sha256": "89a2ff15e968dee182c188bb179f5d417c4b1fb94bd3090e9a4663a4455db2a2",
+  "reference_sha256": "c661c5d58004b1e1a85ba4be300c03bf4d5ec34a527cc0c119037d6708f7ff45",
+  "seconds": 59.19,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/104/group-06/redrawn.png",
+    "source_sha256": "89a2ff15e968dee182c188bb179f5d417c4b1fb94bd3090e9a4663a4455db2a2",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          273,
+          52,
+          416,
+          91
+        ],
+        "text": "£8,000",
+        "font_size": 29,
+        "background": null
+      }
+    ],
+    "output_sha256": "7cb4440ea42a75791919d55fbc145db2b6e52323e580fda30f7a85bf8b59191b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

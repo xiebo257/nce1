@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. One boy with short black hair and a blue shirt easily climbing across a LOW stone wall, both hands on its top and one leg crossing over. The wall reaches only his waist. One boy, normal two arms and legs. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "illustrations/redraw-inputs/104-photo-11.png",
+      "sha256": "73e8cb1e700f7451f9d4f9b851ad9e91404ccee5ac34403fb6cda79cb7443e21"
+    }
+  ],
+  "fingerprint": "442ade2f2c588d3e113b198faf47187a31b70246de52e20eef3f5298dee15382",
+  "sha256": "1fd5a0ddc70104f8123682db58d7c487db9c2134d21b9585c3ac6d00747a2959",
+  "reference_sha256": "ce881faa17b4d748638daf646be36598916211af3b13ed1b21d4d1402f27b7ea",
+  "seconds": 56.74,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

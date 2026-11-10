@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. A curly blond boy in a green shirt happily writing answers to an easy test at his desk, with two other students seated behind him. Exactly three students. Keep the same curly blond protagonist as the next picture. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1041111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "illustrations/redraw-inputs/104-photo-01.png",
+      "sha256": "bac113c3be9d9689cb1daec4b3e6b4eb0b2b3280cd9e39aff95d9a4d6842b357"
+    }
+  ],
+  "fingerprint": "669bd549380e4e5cf04474981b163f794ed230fa0c0873ac8014ade7fea62b81",
+  "sha256": "6de24d035057f3d6bbc3e846eb498b0223ccbf2bafe2ee92e7ef57580d551313",
+  "reference_sha256": "48bbaea2f9a8de6cd61e73b0a5dfeb691578219570c41227eaf4563d6708f4a9",
+  "seconds": 60.13,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}

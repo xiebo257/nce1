@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Edit this cartoon. Change only her hairstyle to brown hair neatly gathered into ONE SMALL ROUND LOW BUN at the back of her neck, with no loose hair or ponytail. Keep the same face, green collared blouse, orange fruit, hands and facial expression. Keep her sour grimace and the fruit unchanged. Clean colorful textbook illustration, white background.",
+  "seed": 1041126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "illustrations/redraw-inputs/104-orange-16-correction.png",
+      "sha256": "9f43a9b6844e5deea296c741cf2e1652ad831479c90ad03fee2ab10a172640a6"
+    }
+  ],
+  "fingerprint": "c1725f033823053fa481302f47b2ea78669a3a12a44e907574fe1df391c1b323",
+  "sha256": "d9d939faa2b35e4de90fabcbe78cbb7038f50954ea4f7e7c51816d3bebaa4660",
+  "reference_sha256": "12b572cd190cbdb33f0f0010855689072389e2148fd1ea43a05209a6e0820152",
+  "seconds": 57.8,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/104.json"
+}
