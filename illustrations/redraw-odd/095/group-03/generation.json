@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: What time will the next train leave? At eight nineteen. We've got plenty of time. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 957003,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-095/photo-panel-03.webp",
+      "sha256": "8b78550f12978e4e22ab30d0a4cb82669c9fb42e86369cd39fd811cd80440510"
+    }
+  ],
+  "fingerprint": "4dd58d6d93a4711a4293dfbb2601c3fc07253e96324511fada17516c52ef2f2f",
+  "sha256": "1d5cffb9709047635e9b3169fa889957a43e987c6552e771627afd470805f5b6",
+  "seconds": 23.4,
+  "status": "candidate-needs-visual-review"
+}

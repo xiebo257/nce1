@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: What's your name and address? David Hall, 83, Bridge Street. That's right. D. N. Hall, 83, Bridge Street. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 977005,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-097/photo-panel-05.webp",
+      "sha256": "89d8aeec84917c8fb7acc1bbeda859b0de6ad494f47078e6c005a06219410d88"
+    }
+  ],
+  "fingerprint": "75ffce833be7f6f85d9a308ca621c2aa7063844f6a79dd65861276be584c02db",
+  "sha256": "949d55170c7ae75f3146ae08e0f278acf86627c67a5df41a5bef54e9bba2205b",
+  "seconds": 23.38,
+  "status": "candidate-needs-visual-review"
+}

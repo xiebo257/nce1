@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: What about this one? This one's got a label. Let me see it. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 977004,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-097/photo-panel-04.webp",
+      "sha256": "5f77014f085637626612679bcbc64c4e720d97eaa943608aa699c2478aea6ffb"
+    }
+  ],
+  "fingerprint": "23eca7418ea804a6f85fca0f21599080dc008e7b7a3a0bc7b61e47f6f2487ad9",
+  "sha256": "586042f88f117c76bf2a5ba7a336b10fc67bba241696afdfdde3509583c5e825",
+  "seconds": 23.42,
+  "status": "candidate-needs-visual-review"
+}

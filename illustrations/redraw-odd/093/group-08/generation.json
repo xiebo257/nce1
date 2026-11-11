@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Nigel is a very lucky man. But his wife isn't very lucky. She usually stays at home! Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 937008,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-093/photo-panel-08.webp",
+      "sha256": "512c4bcdae859d6de934aa96b7d07246241cb285f6e456db2f6cc9c49ddb276f"
+    }
+  ],
+  "fingerprint": "bc4aec80fa2cb237d262b13ef767139f3325cd0ed2071a7313b56ee54825ea71",
+  "sha256": "ed71a5b6331c0d950c720de9d3b637109aaaaf1e75939c0417df66a034975f2d",
+  "seconds": 23.27,
+  "status": "candidate-needs-visual-review"
+}

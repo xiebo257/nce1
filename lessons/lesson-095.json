@@ -60,11 +60,11 @@
       "status": "ready",
       "description": "Two return tickets to London, please. What time will the next train leave? At nineteen minutes past eight.",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -72,7 +72,12 @@
         "label": "1",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "6dff17c12df7ca7a8f1a2c0cf77eb9a9ae35b50806b8a89bda57cc0f80d63e10"
+        "asset_sha256": "86f0c66b2c96046604cc2de2c0b2f6a15565a4ae5829bbd02b0ca109d72b7e7d"
+      },
+      "alt": "Two return tickets to London, please. What time will the next train leave? At nineteen minutes past eight.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -80,11 +85,11 @@
       "status": "ready",
       "description": "Which platform? Platform Two. Over the bridge.",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -92,7 +97,12 @@
         "label": "2",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "32c3d9cfb1130e6511f1bd66ec9480cc2c3df540eb6382af85d30df0ca2f62fc"
+        "asset_sha256": "aa8090484e6f50656047e3820206b980a95f33b8d1773f3d77553a1c6ad1e0a6"
+      },
+      "alt": "Which platform? Platform Two. Over the bridge.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -100,11 +110,11 @@
       "status": "ready",
       "description": "What time will the next train leave? At eight nineteen. We've got plenty of time.",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -112,7 +122,12 @@
         "label": "3",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "8b78550f12978e4e22ab30d0a4cb82669c9fb42e86369cd39fd811cd80440510"
+        "asset_sha256": "ccb9d5aee7b199c5b16e9f759fa443d10d9c412260ff1b4f277e1b62acdf0f2d"
+      },
+      "alt": "What time will the next train leave? At eight nineteen. We've got plenty of time.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -120,11 +135,11 @@
       "status": "ready",
       "description": "It's only three minutes to eight. Let's go and have a drink. There's a bar next door to the station.",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -132,7 +147,12 @@
         "label": "4",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "8448bd081d07288f23dd21eb433906a200dedd3d45617629c45e4efba0dd1ffc"
+        "asset_sha256": "f0b7014dea5fdb3bdcbca37e8751d5cf6e66d6c66425c481b99e262e1250611d"
+      },
+      "alt": "It's only three minutes to eight. Let's go and have a drink. There's a bar next door to the station.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -140,11 +160,11 @@
       "status": "ready",
       "description": "We had better go back to the station now, Ken.",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -152,7 +172,12 @@
         "label": "5",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "55c5da7f2bca63ae8097eb85ba8105f4e76585f533628a5b2b0a06ad0e3fdecd"
+        "asset_sha256": "a7632f9857c27c503864bc037522e910650591c09f2ff8d668886b1484d5a4d2"
+      },
+      "alt": "We had better go back to the station now, Ken.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -160,11 +185,11 @@
       "status": "ready",
       "description": "Tickets, please. We want to catch the eight nineteen to London. You've just missed it!",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -172,7 +197,12 @@
         "label": "6",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "7901ae2e51dae07bc124819abd7aba83d9caf0277113f06fd61a56c5c71480d2"
+        "asset_sha256": "9d945baa854bcf4c3745f8ea6967d7da0d21364d81b739205089c1ffc1956135"
+      },
+      "alt": "Tickets, please. We want to catch the eight nineteen to London. You've just missed it!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -180,11 +210,11 @@
       "status": "ready",
       "description": "What! It's only eight fifteen. I'm sorry, sir. That clock's ten minutes slow. When's the next train? In five hours' time!",
       "source": "../img/lesson-095-01-text.jpg",
-      "src": "assets/lesson-095/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-095/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-095-01-text.jpg",
@@ -192,7 +222,12 @@
         "label": "7",
         "generation_record": "illustrations/photo-repairs/095/generation.json",
         "review_record": "illustrations/photo-repairs/095/review.json",
-        "asset_sha256": "c8ae9c43521e99ac9af5df23fdf7163c67f91e591658de4cf3907a925f516ff6"
+        "asset_sha256": "4d155eba6069e5babbbc8b4a77a5632b0d20f77ffcc06b30fb3a3d48a77ce370"
+      },
+      "alt": "What! It's only eight fifteen. I'm sorry, sir. That clock's ten minutes slow. When's the next train? In five hours' time!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/095/group-07/generation.json"
       }
     }
   },

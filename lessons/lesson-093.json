@@ -42,11 +42,11 @@
       "status": "ready",
       "description": "Nigel is our new next-door neighbour. He's a pilot.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -54,7 +54,12 @@
         "label": "1",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "5332ae4fbde01b3b962ef15cd5557bb19f50db1a16dd8b827ed760fb32b06fc0"
+        "asset_sha256": "17ee4498c99db538a98c05c83530c075c8f23367e90cc44e655f70aa6ef2462c"
+      },
+      "alt": "Nigel is our new next-door neighbour. He's a pilot.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -62,11 +67,11 @@
       "status": "ready",
       "description": "He was in the R.A.F.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -74,7 +79,12 @@
         "label": "2",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "b3c3b63424f7d2a739d7a09a9a8e9495acae378057c1db42bae7c969644c7415"
+        "asset_sha256": "ff2ecd7fcce8f5659f16ef68529d82f3ec6aaf09afe524f9298aabdcc044c775"
+      },
+      "alt": "He was in the R.A.F.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -82,11 +92,11 @@
       "status": "ready",
       "description": "He will fly to New York next month.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -94,7 +104,12 @@
         "label": "3",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "f36ac9545ad13dd039bff752a078438fe9cceaf59a898c14c1c7a9716956bf2f"
+        "asset_sha256": "c80c00bfd61924ffb7f4155de2d3de2fc5dfebb961988979cac48b594b05ebc0"
+      },
+      "alt": "He will fly to New York next month.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -102,11 +117,11 @@
       "status": "ready",
       "description": "The month after next he'll fly to Tokyo.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -114,7 +129,12 @@
         "label": "4",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "5d3c94e9b57427ad0b284215c744774664e3c9c186f0fb293a1f73b354af7007"
+        "asset_sha256": "1a23f66f7d5c33e1043269798ef5cf082ce96e65f9bb1e04d5ae3e75441e8a32"
+      },
+      "alt": "The month after next he'll fly to Tokyo.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -122,11 +142,11 @@
       "status": "ready",
       "description": "At the moment, he's in Madrid. He flew to Spain a week ago.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -134,7 +154,12 @@
         "label": "5",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "bc51932adb34d33be3f726ff6a0d1cf60e9d7dd2f6ca28686d014fa218c76258"
+        "asset_sha256": "98b1750e455c1f6aa4f896c7086e9d541b5a857c0e9ed2eff8674e1e518b7a2c"
+      },
+      "alt": "At the moment, he's in Madrid. He flew to Spain a week ago.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -142,11 +167,11 @@
       "status": "ready",
       "description": "He'll return to London the week after next.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -154,7 +179,12 @@
         "label": "6",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "a5d05dc6691e39ecb53124c8acc60198f8424e5083fb97c62bd2d3fdaa13b5e9"
+        "asset_sha256": "45c793c1b2bc109a821a5fd035252be1df45528da841f27e93f5474ff694829b"
+      },
+      "alt": "He'll return to London the week after next.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -162,11 +192,11 @@
       "status": "ready",
       "description": "He's only forty-one years old, and he has already been to nearly every country in the world.",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -174,7 +204,12 @@
         "label": "7",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "ca9a92df4fd5202f6107a468f603254ac0a616678cbef2ad1c5e423ed2424650"
+        "asset_sha256": "8aa84f0d8034ec7f30c5bea51ca17647ac26b188e772b66dda538347bf72777d"
+      },
+      "alt": "He's only forty-one years old, and he has already been to nearly every country in the world.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -182,11 +217,11 @@
       "status": "ready",
       "description": "Nigel is a very lucky man. But his wife isn't very lucky. She usually stays at home!",
       "source": "../img/lesson-093-01-text.jpg",
-      "src": "assets/lesson-093/photo-panel-08.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-093/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-093-01-text.jpg",
@@ -194,7 +229,12 @@
         "label": "8",
         "generation_record": "illustrations/photo-repairs/093/generation.json",
         "review_record": "illustrations/photo-repairs/093/review.json",
-        "asset_sha256": "512c4bcdae859d6de934aa96b7d07246241cb285f6e456db2f6cc9c49ddb276f"
+        "asset_sha256": "787894030985ca677ce24a5b6369f0f428d25ac78b821294ed76cf08446c2c28"
+      },
+      "alt": "Nigel is a very lucky man. But his wife isn't very lucky. She usually stays at home!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/093/group-08/generation.json"
       }
     }
   },
