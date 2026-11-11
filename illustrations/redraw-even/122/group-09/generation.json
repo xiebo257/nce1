@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "A clear colorful cartoon: one man at far left points to exactly TWO dogs standing separately side by side. Dog at middle-left is a cream-colored short-haired dog with EMPTY mouth. Dog at right is a shaggy brown dog carrying ONE wicker basket by its handle in its mouth. Exactly TWO complete dogs, two heads and two tails, no overlapping third head. Both dogs fully visible with a small gap between them. One man, two dogs, one basket only. White background, clean outlines.",
+  "seed": 1221119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-122/photo-panel-09.webp",
+      "sha256": "5aee657a0abd9a4232f2eb629c509e8bf167e44f5860cbcfa87e37073e364f36"
+    }
+  ],
+  "fingerprint": "22df8fcdab4582653e326311b311d4a1cf317d91738ccdfd7b392e59644bd9e8",
+  "sha256": "6c37bb48fd1759e2b9c154ef569a22129f023d36c61018076fc09db5b0eebdfc",
+  "reference_sha256": "c9fa0f80f2999caab0ea1d4b7ec39516ed25f54eaac0b98158346b6fe0ca5c95",
+  "seconds": 25.23,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

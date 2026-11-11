@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. A scene split diagonally as in the source: a curly black-haired woman in green cooking at a stove on the left; a man in a brown hat walking outside in rain on the right. Exactly two people, one per side. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1181116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-118/photo-panel-06.webp",
+      "sha256": "98e147b7a458ea825143a283f16084022f5a09c92dd6cb2dac4ebe369a334f0e"
+    }
+  ],
+  "fingerprint": "40c1d6f1642b8d092f86a1ca12cb6a23ab05b9eb480174470a5c3f9b7288f05d",
+  "sha256": "d72a3d18f9050e851abbfae9255ad1ad9d10a7127ca7d22b29fa5c5205fa2984",
+  "reference_sha256": "9e5887b349fbc20b98f4500ff3d2afedb83765982a7ea4fbd508d646e99d666f",
+  "seconds": 49.99,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/118.json"
+}

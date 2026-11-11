@@ -440,17 +440,17 @@
       "status": "ready",
       "description": "Who served you? / The man standing behind the counter.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "1",
-        "asset_sha256": "951eb58139eec162530a961d7c082b2169e4426f02d2a2dd8da9ad5e8b0c2ec7",
+        "asset_sha256": "c2aa375fc8fe6952b49df2a7d875f027498fe33d8943bd58471f6c3cc4b908d9",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -459,6 +459,16 @@
           256,
           160
         ]
+      },
+      "alt": "Who served you? / The man standing behind the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-01"
+        }
       }
     },
     "photo-panel-02": {
@@ -466,17 +476,17 @@
       "status": "ready",
       "description": "Who served you? / The woman standing behind the counter.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "2",
-        "asset_sha256": "2f8557f0ad2230da764d3a35be1c81e575e70fe30f3934544277ed983625c37b",
+        "asset_sha256": "dea99df42258b227215b581edfdef37975cef2479d751dbe8dac819054bc16c7",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -485,6 +495,16 @@
           512,
           160
         ]
+      },
+      "alt": "Who served you? / The woman standing behind the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-03": {
@@ -492,17 +512,17 @@
       "status": "ready",
       "description": "Who is making all that noise? / The men repairing the road.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "3",
-        "asset_sha256": "eec5038f9a60b6e33565ee40a4cb6373e596cde7bcc5ba00559c6b898624411d",
+        "asset_sha256": "9481ca92724baa65f9cb57b9258ed08675e560411be6caeedc9929c5accce958",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -511,6 +531,16 @@
           768,
           160
         ]
+      },
+      "alt": "Who is making all that noise? / The men repairing the road.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-03"
+        }
       }
     },
     "photo-panel-04": {
@@ -518,17 +548,17 @@
       "status": "ready",
       "description": "I served him yesterday. / He is the man I served yesterday.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "4",
-        "asset_sha256": "be07e986c27a0f19fde6379ab90a4616c2c2f812cd997849ed667404f33cd074",
+        "asset_sha256": "96954bcbeb1dc008da7241ef27236712629e9cf002e9a54d561b0ec68059a0d5",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -537,6 +567,16 @@
           256,
           320
         ]
+      },
+      "alt": "I served him yesterday. / He is the man I served yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-04"
+        }
       }
     },
     "photo-panel-05": {
@@ -544,17 +584,17 @@
       "status": "ready",
       "description": "I served her yesterday. / She is the woman I served yesterday.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "5",
-        "asset_sha256": "d40c8cb2a7021b69893e3608d6f9ac845a5d835947634353206767c976ba0c90",
+        "asset_sha256": "b1591e6b605501f291a439bba59c533e146969ffc3f08b9aa71096e3c99e65e7",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -563,6 +603,16 @@
           512,
           320
         ]
+      },
+      "alt": "I served her yesterday. / She is the woman I served yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-05"
+        }
       }
     },
     "photo-panel-06": {
@@ -570,17 +620,17 @@
       "status": "ready",
       "description": "I saw them yesterday. / They are the men I saw yesterday.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "6",
-        "asset_sha256": "616e922436518d131050e4d315639c84326777213c29826cd4377fcb64891d3f",
+        "asset_sha256": "9481ca92724baa65f9cb57b9258ed08675e560411be6caeedc9929c5accce958",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -589,6 +639,16 @@
           768,
           320
         ]
+      },
+      "alt": "I saw them yesterday. / They are the men I saw yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-06"
+        }
       }
     },
     "photo-panel-07": {
@@ -596,17 +656,17 @@
       "status": "ready",
       "description": "What's this? / This is the book I bought yesterday.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "7",
-        "asset_sha256": "dac9187b0add6e8dee6baa150db1bd53cead0eca891f6478cabbe22ce5f4e9bf",
+        "asset_sha256": "3799d41f8a89529e81115652884d250dc6e7161c8d565e61a24032de021a7455",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -615,6 +675,16 @@
           256,
           480
         ]
+      },
+      "alt": "What's this? / This is the book I bought yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-07"
+        }
       }
     },
     "photo-panel-08": {
@@ -622,17 +692,17 @@
       "status": "ready",
       "description": "What are these? / These are the books I bought yesterday.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "8",
-        "asset_sha256": "7df574a7cae29c5c8a368df837f786281e07d8d00709745a159f6f53fff2884e",
+        "asset_sha256": "08af4b1413a272e06323ef5018050f27aa296ac386585d4f9f2ab9c6e774c136",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -641,6 +711,16 @@
           512,
           480
         ]
+      },
+      "alt": "What are these? / These are the books I bought yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 122,
+          "slot": "photo-panel-08"
+        }
       }
     },
     "photo-panel-09": {
@@ -648,17 +728,17 @@
       "status": "ready",
       "description": "What's this? / This is the kitten I found in the garden.",
       "source": "../img/lesson-124-01-text.jpg",
-      "src": "assets/lesson-124/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-124/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 9",
       "photo_verification": {
         "photo": "img/lesson-124-01-text.jpg",
         "sha256": "abde413a62230ed70e60328615370a4a81d45d421a01ee21a6ebd100201f4ec3",
         "label": "9",
-        "asset_sha256": "0c718420844f287415345aace46ee917622a2c1c2817797ef09ddd628146660e",
+        "asset_sha256": "7b83a92d6344bd0d7075d38ab09f5c394ea658803e9ffb4f5903fde7521e9b16",
         "reused_asset": "html/assets/lesson-124/l124-pictures-color.webp",
         "reused_sha256": "cb961b349f04ac7a70367bf2cd10def944aee23976fb6b0e9d675ee8c2fd9daf",
         "crop": [
@@ -666,7 +746,13 @@
           320,
           768,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/124/group-01/generation.json"
+      },
+      "alt": "What's this? / This is the kitten I found in the garden.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/124/group-01/generation.json"
       }
     }
   },

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly black-haired woman eats breakfast at a table inside on the left; on the right, outside the closed front door, a man in a brown hat holding a case knocks on the door. Clear wall separation, exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1181111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-118/photo-panel-01.webp",
+      "sha256": "18d29bbcd8ee3853ea5f38be227acb7e084a1cf3b75eb119c7689214660e83b6"
+    }
+  ],
+  "fingerprint": "2415ef9d4c15fdc413c227ad4e171b026e8efdb9b13e2cc2e0e1fe1d124c5fb4",
+  "sha256": "55fecc991a19df8093a2184068ceae3d80832c37896eba529e608624502582db",
+  "reference_sha256": "afd199828219a9572614049e4edc0735e7f8c121c92b7ea0bf88c50a5755fc3a",
+  "seconds": 51.46,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/118.json"
+}

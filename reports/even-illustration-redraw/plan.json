@@ -26325,12 +26325,12 @@
           "cue": "Just as I was opening the front door, the telephone rang.",
           "text": "Just as I was opening the front door, the telephone rang.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One man in a brown hat turns toward a ringing rotary telephone just inside the house while he opens the front door. Exactly one man, one telephone. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
+          "edit_instruction": "One man in a BROWN hat and BROWN jacket is opening his front door on the left and looks toward a RINGING black rotary telephone on a small table on the right. The receiver RESTS ON THE PHONE BASE; three short sound rays show ringing. The man touches the DOOR HANDLE, never the telephone or cord. Exactly one man, one telephone. Preserve simple photographed composition, full-color cartoon, clean outlines, no text."
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-118/photo-panel-04.webp",
-          "reference_sha256": "a6510228ce608a874e7a44dc6ad0859c92fb59c718c246adb2442d3f0c49588d",
+          "reference": "illustrations/redraw-inputs/118-bus-empty-draft.png",
+          "reference_sha256": "db4c5691e20bd9a35251ed08629ce1a952919f3f703d366c7e07820ebb63396b",
           "source_photo": "img/lesson-118-01-text.jpg",
           "source_photo_sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
           "previous": {
@@ -26362,7 +26362,7 @@
           "cue": "She slipped and hurt herself while she was getting off the bus.",
           "text": "She slipped and hurt herself while she was getting off the bus.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly-haired woman in a green dress slipping as she steps off a bus, sitting down on the pavement beside the open bus door. One woman, two arms and two legs. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
+          "edit_instruction": "Finish this repaired cartoon cleanly. Bus entrance and steps at left are EMPTY, with black interior and gray steps. Smooth the edited pavement patches below the entrance to match adjacent gray pavement. Keep the ONE curly brown-haired woman in green sitting on pavement at right exactly unchanged. No human body, arm, leg, shoe or face anywhere inside the bus or at its steps. One woman only. Preserve colors and composition, crisp outlines."
         },
         {
           "slot": "photo-panel-05",
@@ -26441,7 +26441,119 @@
           "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A scene split diagonally as in the source: a curly black-haired woman in green cooking at a stove on the left; a man in a brown hat walking outside in rain on the right. Exactly two people, one per side. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-04": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "fill": "white",
+              "polygons": [
+                [
+                  [
+                    344,
+                    123
+                  ],
+                  [
+                    449,
+                    123
+                  ],
+                  [
+                    449,
+                    217
+                  ],
+                  [
+                    344,
+                    217
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "erase-polygons",
+              "fill": "#909091",
+              "polygons": [
+                [
+                  [
+                    344,
+                    218
+                  ],
+                  [
+                    449,
+                    218
+                  ],
+                  [
+                    449,
+                    254
+                  ],
+                  [
+                    344,
+                    254
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "paste-foreground",
+              "asset": "illustrations/redraw-inputs/118-bus-removal.png",
+              "box": [
+                244,
+                75,
+                450,
+                261
+              ],
+              "position": [
+                244,
+                67
+              ],
+              "min_saturation": 25,
+              "max_dark": 65,
+              "keep_polygon": [
+                [
+                  70,
+                  0
+                ],
+                [
+                  206,
+                  0
+                ],
+                [
+                  206,
+                  186
+                ],
+                [
+                  0,
+                  186
+                ],
+                [
+                  0,
+                  145
+                ],
+                [
+                  39,
+                  122
+                ],
+                [
+                  39,
+                  100
+                ],
+                [
+                  32,
+                  100
+                ],
+                [
+                  32,
+                  55
+                ],
+                [
+                  70,
+                  55
+                ]
+              ]
+            }
+          ]
+        }
+      }
     },
     "120": {
       "sections_sha256": "b37b44a9ba04a505203d5d1972b34243cf4749b2fbd72f25ba024fb43e15f202",
@@ -26680,10 +26792,88 @@
           "cue": "We had had dinner before they arrived.",
           "text": "We had had dinner before they arrived.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. A cleared dinner table with used plates at left; at right one curly-haired hostess greets exactly two arriving visitors in the doorway. Exactly three people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
+          "edit_instruction": "Exactly THREE people at a doorway: ONE curly-haired hostess in a green dress on the left greets TWO male visitors at right, one older gray-haired man and one younger dark-haired man in blue shirts. No other people, no second woman, no spouse beside hostess. At far left a separate cleared dinner table with used plates shows dinner is already over. Three people total, two men and one woman. Clean colorful cartoon, natural hands, no captions."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-01": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                317,
+                80,
+                394,
+                108
+              ],
+              "text": "SOLD",
+              "font_size": 25,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-02": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                383,
+                77,
+                449,
+                128
+              ],
+              "text": "2",
+              "font_size": 48,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-04": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                319,
+                64,
+                438,
+                103
+              ],
+              "text": "PLANES",
+              "font_size": 25,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-05": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                55,
+                59,
+                181,
+                84
+              ],
+              "text": "BUTCHER",
+              "font_size": 23,
+              "background": null
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                316,
+                58,
+                471,
+                84
+              ],
+              "text": "GROCER",
+              "font_size": 25,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "122": {
       "sections_sha256": "c0cceb8b418f89d2867d529d223acd7d59dc5b04b35337f87721cb565c9bad9d",
@@ -26950,8 +27140,8 @@
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-122/photo-panel-08.webp",
-          "reference_sha256": "246e49d4e39beef893db3253e4e1cabd18f4f49b4f3e1efc045e2ace6cb0fb47",
+          "reference": "illustrations/redraw-inputs/122-bookshop-cast.png",
+          "reference_sha256": "6066d15f03ee351f3919eccac1ab05ba486686951de68f6f300f715f42093bac",
           "source_photo": "img/lesson-122-01-text.jpg",
           "source_photo_sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
           "previous": {
@@ -26983,7 +27173,7 @@
           "cue": "Which books did you buy? The books which/that are on the counter.",
           "text": "Which books did you buy? The books which/that are on the counter.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME balding male bookseller in blue behind the counter at left and the SAME straight brown-haired male customer in green at right, now pointing to a STACK of several books on the counter. Book shelves behind. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
+          "edit_instruction": "Change ONLY the single yellow book on this counter into a stack of THREE books, with distinct covers. Preserve exactly the same two men, their faces, hairstyles and clothing: balding older bookseller in blue at left, short brown-haired male customer in green at right pointing at the books. Keep bookshop shelves and counter. No woman, no long hair, no extra people. Crisp colorful textbook cartoon."
         },
         {
           "slot": "photo-panel-09",
@@ -27020,10 +27210,16 @@
           "cue": "Which dog is yours? The dog which/that is carrying that basket.",
           "text": "Which dog is yours? The dog which/that is carrying that basket.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. One man on the left points toward TWO dogs on the right. The rear plain tan dog carries nothing; the front shaggy brown dog carries a wicker basket by its handle in its mouth. Exactly one person and two dogs. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
+          "edit_instruction": "A clear colorful cartoon: one man at far left points to exactly TWO dogs standing separately side by side. Dog at middle-left is a cream-colored short-haired dog with EMPTY mouth. Dog at right is a shaggy brown dog carrying ONE wicker basket by its handle in its mouth. Exactly TWO complete dogs, two heads and two tails, no overlapping third head. Both dogs fully visible with a small gap between them. One man, two dogs, one basket only. White background, clean outlines."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-06": {
+          "copy_scene_from": "photo-panel-03",
+          "operations": []
+        }
+      }
     },
     "124": {
       "sections_sha256": "72b0103cd5dc18b2c372bb7f645eaf2202dd94f1bb58f4cf63e00667c68dfa72",

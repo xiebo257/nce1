@@ -2,7 +2,7 @@
 """Apply reviewed, recorded exact-diagram overlays to model redraw candidates."""
 import argparse
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
 from redraw_even_illustrations import REPORT, WORK, digest, groups, read, write
 
 
@@ -23,6 +23,22 @@ def main():
                 image = original.convert('RGB')
             record = {'source': str(source), 'source_sha256': digest(source), 'operations': []}
             for operation in recipe['operations']:
+                if operation['type'] == 'paste-foreground':
+                    with Image.open(operation['asset']) as asset:
+                        region = asset.convert('RGB').crop(tuple(operation['box']))
+                    # Explicitly selected cartoon foreground over plain white/gray backgrounds.
+                    hsv = list(region.convert('HSV').getdata())
+                    mask = Image.new('L', region.size)
+                    mask.putdata([255 if saturation >= operation['min_saturation']
+                                  or value <= operation['max_dark'] else 0
+                                  for _, saturation, value in hsv])
+                    if operation.get('keep_polygon'):
+                        clip = Image.new('L', region.size)
+                        ImageDraw.Draw(clip).polygon([tuple(p) for p in operation['keep_polygon']], fill=255)
+                        mask = ImageChops.multiply(mask, clip)
+                    image.paste(region, tuple(operation['position']), mask)
+                    record['operations'].append(dict(operation, sha256=digest(operation['asset'])))
+                    continue
                 if operation['type'] == 'copy-region':
                     # Reuse a reviewed object when a comparison requires identical examples.
                     region = image.crop(tuple(operation['box']))

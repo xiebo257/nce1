@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the single yellow book on this counter into a stack of THREE books, with distinct covers. Preserve exactly the same two men, their faces, hairstyles and clothing: balding older bookseller in blue at left, short brown-haired male customer in green at right pointing at the books. Keep bookshop shelves and counter. No woman, no long hair, no extra people. Crisp colorful textbook cartoon.",
+  "seed": 1221118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/122-bookshop-cast.png",
+      "sha256": "6066d15f03ee351f3919eccac1ab05ba486686951de68f6f300f715f42093bac"
+    }
+  ],
+  "fingerprint": "8810e8913814e712b86a67c19a384ca51b43faba13251b200f78c304711dc271",
+  "sha256": "da47b24798ecece6841c6e8f621a5f40722e16803d4e290afa2b708ff761eed0",
+  "reference_sha256": "dd86b84ad5e087355df25d8f748375ba02cb229ee3a61928ea65b4ee566140b0",
+  "seconds": 25.52,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

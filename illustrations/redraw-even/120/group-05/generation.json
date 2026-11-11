@@ -1,0 +1,58 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One black-haired woman in a green dress walking past butcher and grocer shop windows. Meat at left, grocery jars at right. Blank shop signboards, one person only. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1201115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-120/photo-panel-05.webp",
+      "sha256": "b019ebbe9dee18fca39349c4dcb5c7a5472e9f15f41822e3c60a6fd81df19187"
+    }
+  ],
+  "fingerprint": "24b69b6686b7a2a2adc23a814957093f3aed682c56d7e0fbccc0ca440f8af24d",
+  "sha256": "538dc55b452f462aae6ddc9d94ea7ff98e4a36d1aab41178b2a83586b3588108",
+  "reference_sha256": "e85b3dd463717a920afb09a058174c8513790f178d32e34f7afcb3ad7b0dfd7f",
+  "seconds": 36.34,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/120/group-05/redrawn.png",
+    "source_sha256": "538dc55b452f462aae6ddc9d94ea7ff98e4a36d1aab41178b2a83586b3588108",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          55,
+          59,
+          181,
+          84
+        ],
+        "text": "BUTCHER",
+        "font_size": 23,
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          316,
+          58,
+          471,
+          84
+        ],
+        "text": "GROCER",
+        "font_size": 25,
+        "background": null
+      }
+    ],
+    "output_sha256": "453bf7f8d36918dbc0d0957a32fb669c925a4aee5d0e3ee67d3c97860acdcb2c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/120.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A curly blonde female customer points to the black-bob-haired female clerk standing behind a shop counter. Two women total. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1221112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-122/photo-panel-02.webp",
+      "sha256": "fc7fc5984f00c5dcee9b22c4ad1a6c26716f825003e1c368248683ca38972032"
+    }
+  ],
+  "fingerprint": "2e462381383901fb9e7e414906879d239caf1a94e47002094c0053b0e66745a5",
+  "sha256": "bb90c65a2ce7f6814f10c78c04d98961a3214afdc5e1eea7c6fc314a956a71a0",
+  "reference_sha256": "12b7c96ecc6e686e6f570b2532be369e789f2067d82bd0d8ebde15d7ea3b4cec",
+  "seconds": 23.47,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

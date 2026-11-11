@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One male teacher with square academic cap returns corrected exercise books to four pupils gathered in front of him. Exactly five people, books marked with simple ticks and crosses. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1201113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-120/photo-panel-03.webp",
+      "sha256": "9ccc071ecde33f1ddc91bb7149b59fc3de3a975f3d3ee7882a8fa10f60c4e165"
+    }
+  ],
+  "fingerprint": "f8be84be98dca6963f27addcbef38d2a128c43b5b9259b46f0b362c260491a8b",
+  "sha256": "9c0efbe02f31dedbeaec6603eea2512ebe3d04d861fabfe3b8ab410116268dee",
+  "reference_sha256": "84042bdb8cc66a3474cc47c30cc505fd0e4d2d223a84cd4cd367048c2b6d5d72",
+  "seconds": 49.4,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/120.json"
+}

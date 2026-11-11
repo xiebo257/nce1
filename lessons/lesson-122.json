@@ -334,17 +334,17 @@
       "status": "ready",
       "description": "Who served you? The man who/that is standing behind the counter.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "1",
-        "asset_sha256": "be5e35017b7b0269784f0477dddb44ba3df094b65630b013b9296e936af725c5",
+        "asset_sha256": "c2aa375fc8fe6952b49df2a7d875f027498fe33d8943bd58471f6c3cc4b908d9",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -352,7 +352,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-01/generation.json"
+      },
+      "alt": "Who served you? The man who/that is standing behind the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -360,17 +366,17 @@
       "status": "ready",
       "description": "Who served you? The woman who/that is standing behind the counter.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "2",
-        "asset_sha256": "fc7fc5984f00c5dcee9b22c4ad1a6c26716f825003e1c368248683ca38972032",
+        "asset_sha256": "dea99df42258b227215b581edfdef37975cef2479d751dbe8dac819054bc16c7",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -378,7 +384,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-02/generation.json"
+      },
+      "alt": "Who served you? The woman who/that is standing behind the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -386,17 +398,17 @@
       "status": "ready",
       "description": "Who is making all that noise? The men who/that are repairing the road.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "3",
-        "asset_sha256": "df27cdf853009d5846d22e03583e27f4dabe338ca6a130c6e85902cce44c2241",
+        "asset_sha256": "9481ca92724baa65f9cb57b9258ed08675e560411be6caeedc9929c5accce958",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -404,7 +416,13 @@
           0,
           768,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-03/generation.json"
+      },
+      "alt": "Who is making all that noise? The men who/that are repairing the road.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -412,17 +430,17 @@
       "status": "ready",
       "description": "I served him yesterday. He is the man who(m)/that I served yesterday.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "4",
-        "asset_sha256": "fa39c82df580abcb4e8f1be1f738a9bd7bbf10f655851581dd5281f807335bf0",
+        "asset_sha256": "96954bcbeb1dc008da7241ef27236712629e9cf002e9a54d561b0ec68059a0d5",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -430,7 +448,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-04/generation.json"
+      },
+      "alt": "I served him yesterday. He is the man who(m)/that I served yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -438,17 +462,17 @@
       "status": "ready",
       "description": "I served her yesterday. She is the woman who(m)/that I served yesterday.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "5",
-        "asset_sha256": "f9197ec6269a7c0c9323b44f0711a6a9cd84a703b6045710432eb1a775b209a7",
+        "asset_sha256": "b1591e6b605501f291a439bba59c533e146969ffc3f08b9aa71096e3c99e65e7",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -456,7 +480,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-05/generation.json"
+      },
+      "alt": "I served her yesterday. She is the woman who(m)/that I served yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -464,17 +494,17 @@
       "status": "ready",
       "description": "I saw them yesterday. They are the men who(m)/that I saw yesterday.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "6",
-        "asset_sha256": "4c24bebc6972b320f70c4d8ab3249749d9d9f2d19d9acec9b07340f999766b90",
+        "asset_sha256": "9481ca92724baa65f9cb57b9258ed08675e560411be6caeedc9929c5accce958",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -482,7 +512,13 @@
           160,
           768,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-06/generation.json"
+      },
+      "alt": "I saw them yesterday. They are the men who(m)/that I saw yesterday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -490,17 +526,17 @@
       "status": "ready",
       "description": "Which book did you buy? The book which/that is on the counter.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "7",
-        "asset_sha256": "ee195da381795b1b5e1f73d7e3940518600384ee46cda5731a85fe17618bcf04",
+        "asset_sha256": "3799d41f8a89529e81115652884d250dc6e7161c8d565e61a24032de021a7455",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -508,7 +544,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-07/generation.json"
+      },
+      "alt": "Which book did you buy? The book which/that is on the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -516,17 +558,17 @@
       "status": "ready",
       "description": "Which books did you buy? The books which/that are on the counter.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "8",
-        "asset_sha256": "246e49d4e39beef893db3253e4e1cabd18f4f49b4f3e1efc045e2ace6cb0fb47",
+        "asset_sha256": "08af4b1413a272e06323ef5018050f27aa296ac386585d4f9f2ab9c6e774c136",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -534,7 +576,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-08/generation.json"
+      },
+      "alt": "Which books did you buy? The books which/that are on the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-08/generation.json"
       }
     },
     "photo-panel-09": {
@@ -542,17 +590,17 @@
       "status": "ready",
       "description": "Which dog is yours? The dog which/that is carrying that basket.",
       "source": "../img/lesson-122-01-text.jpg",
-      "src": "assets/lesson-122/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-122/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 9",
       "photo_verification": {
         "photo": "img/lesson-122-01-text.jpg",
         "sha256": "e4482d375435fb430b60adc1e65ff9720a10532a64afe5fdddbad8a554a21ca7",
         "label": "9",
-        "asset_sha256": "5aee657a0abd9a4232f2eb629c509e8bf167e44f5860cbcfa87e37073e364f36",
+        "asset_sha256": "32c70ef5ab4eea7e38294e859bd21c0c3a8ee0db84bbc261f466716b779c4fe8",
         "reused_asset": "html/assets/lesson-122/l122-pictures-grid-color.webp",
         "reused_sha256": "f7413312741b78277ea78e04dd326bbb76bc0f3fd6477d82d0ec6855e410aa97",
         "crop": [
@@ -560,7 +608,13 @@
           320,
           768,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/122/group-09/generation.json"
+      },
+      "alt": "Which dog is yours? The dog which/that is carrying that basket.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/122/group-09/generation.json"
       }
     }
   },

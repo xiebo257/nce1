@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "One man in a BROWN hat and BROWN jacket is opening his front door on the left and looks toward a RINGING black rotary telephone on a small table on the right. The receiver RESTS ON THE PHONE BASE; three short sound rays show ringing. The man touches the DOOR HANDLE, never the telephone or cord. Exactly one man, one telephone. Preserve simple photographed composition, full-color cartoon, clean outlines, no text.",
+  "seed": 1181113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-118/photo-panel-03.webp",
+      "sha256": "9424893ee63cfda96fcc48fd4169e1221e256e34383b881b3e412d52710e8ef1"
+    }
+  ],
+  "fingerprint": "bb79ef30b2efad1d81537357d4ea1e66fed6535a9bd951ed81946f56d282975d",
+  "sha256": "8b2b1ef75f5790648ec635eaaff5fbd6ead86cf0b1e8d5a0feeb1b4c199797e3",
+  "reference_sha256": "356f19894890914d79c4dfe1b05493b1827d6f8720de9049a3a5ea293475e923",
+  "seconds": 51.78,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/118.json"
+}

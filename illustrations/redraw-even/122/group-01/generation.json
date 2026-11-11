@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A male customer points to the male clerk standing behind a shop counter. Two men total, shelves of goods behind the clerk. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1221111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-122/photo-panel-01.webp",
+      "sha256": "be5e35017b7b0269784f0477dddb44ba3df094b65630b013b9296e936af725c5"
+    }
+  ],
+  "fingerprint": "dcb07d4cfd877d987351566f076f8fa269d96e117b2a85dceec153b84e82b5be",
+  "sha256": "70127e24a8d25b7652c34941fc4416d5627fefc63d203dd404c6500fa8534cc7",
+  "reference_sha256": "8bc2bbf8c851df6e0f1782f03bf0893c5110c81cac854e8ef07688d405949e5f",
+  "seconds": 23.34,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

@@ -320,17 +320,17 @@
       "status": "ready",
       "description": "I asked the price of the car, but they had already sold it.",
       "source": "../img/lesson-120-01-text.jpg",
-      "src": "assets/lesson-120/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-120/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture s",
       "photo_verification": {
         "photo": "img/lesson-120-01-text.jpg",
         "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
         "label": "s",
-        "asset_sha256": "43894eade97b0c8be9f5cf405a2863cd14d33fdba9a6166d83259ecedc0c6598",
+        "asset_sha256": "a40b955fd1b4b1e18c1ec1e44fbf90542548463861c3e028641d21acfe167213",
         "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
         "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
         "crop": [
@@ -338,7 +338,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/120/group-01/generation.json"
+      },
+      "alt": "I asked the price of the car, but they had already sold it.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/120/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -346,17 +352,17 @@
       "status": "ready",
       "description": "I ran to the platform quickly, but the train had already left.",
       "source": "../img/lesson-120-01-text.jpg",
-      "src": "assets/lesson-120/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-120/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture t",
       "photo_verification": {
         "photo": "img/lesson-120-01-text.jpg",
         "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
         "label": "t",
-        "asset_sha256": "ce2041a62c9b4bc7c8ea6dbd5c218d3b69f92429438e14ac4c3dba06f7ea3962",
+        "asset_sha256": "c048f98c86a7a273557d7099ef8245157c35818bf2773ca63e83993dbaee6038",
         "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
         "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
         "crop": [
@@ -364,7 +370,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/120/group-02/generation.json"
+      },
+      "alt": "I ran to the platform quickly, but the train had already left.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/120/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -372,17 +384,17 @@
       "status": "ready",
       "description": "He gave us our exercise books after he had corrected them.",
       "source": "../img/lesson-120-01-text.jpg",
-      "src": "assets/lesson-120/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-120/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture u",
       "photo_verification": {
         "photo": "img/lesson-120-01-text.jpg",
         "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
         "label": "u",
-        "asset_sha256": "9ccc071ecde33f1ddc91bb7149b59fc3de3a975f3d3ee7882a8fa10f60c4e165",
+        "asset_sha256": "403e7303fcaca34b79d11e0ad9a57d8a2386fa6bebe8066c1f3178888d379f57",
         "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
         "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
         "crop": [
@@ -390,7 +402,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/120/group-03/generation.json"
+      },
+      "alt": "He gave us our exercise books after he had corrected them.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/120/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -398,17 +416,17 @@
       "status": "ready",
       "description": "She went on holiday after she had taken the examination.",
       "source": "../img/lesson-120-01-text.jpg",
-      "src": "assets/lesson-120/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-120/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture v",
       "photo_verification": {
         "photo": "img/lesson-120-01-text.jpg",
         "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
         "label": "v",
-        "asset_sha256": "a525c71544fd8b00ae9515ebb9321320b880913090d2af76181793565c60400c",
+        "asset_sha256": "53991f5fb6492393abb01cd814aae3c77920158c2a02846269ab2d0925f351e1",
         "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
         "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
         "crop": [
@@ -416,7 +434,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/120/group-04/generation.json"
+      },
+      "alt": "She went on holiday after she had taken the examination.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/120/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -424,17 +448,17 @@
       "status": "ready",
       "description": "She had finished the housework before she went out.",
       "source": "../img/lesson-120-01-text.jpg",
-      "src": "assets/lesson-120/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-120/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture w",
       "photo_verification": {
         "photo": "img/lesson-120-01-text.jpg",
         "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
         "label": "w",
-        "asset_sha256": "b019ebbe9dee18fca39349c4dcb5c7a5472e9f15f41822e3c60a6fd81df19187",
+        "asset_sha256": "e0db1fa330ab9428ab25d86c113bafacbf07a6f591adcca790815f8319091129",
         "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
         "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
         "crop": [
@@ -442,7 +466,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/120/group-05/generation.json"
+      },
+      "alt": "She had finished the housework before she went out.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/120/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -450,17 +480,17 @@
       "status": "ready",
       "description": "We had had dinner before they arrived.",
       "source": "../img/lesson-120-01-text.jpg",
-      "src": "assets/lesson-120/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-120/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture x",
       "photo_verification": {
         "photo": "img/lesson-120-01-text.jpg",
         "sha256": "2cdea704ae988d6c7a7e68217c59915a30838d02b586d4072dcba8674d6a544e",
         "label": "x",
-        "asset_sha256": "af546e1db2fb06abd9ef06e9d796cb96c963f70ffc13ead142ea270b5a783142",
+        "asset_sha256": "4173e97c53fc7e2201bbbdd5dbbc98b84289678250b3eef4e857f9d613681acf",
         "reused_asset": "html/assets/lesson-120/l120-pictures-grid-color.webp",
         "reused_sha256": "ab937110d27f1714818ebcc20e230a7c0de77a07942d913c9e8820a6e541e0dd",
         "crop": [
@@ -468,7 +498,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/120/group-06/generation.json"
+      },
+      "alt": "We had had dinner before they arrived.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/120/group-06/generation.json"
       }
     }
   },

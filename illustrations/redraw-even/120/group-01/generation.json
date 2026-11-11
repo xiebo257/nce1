@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. Two men beside a car: a customer asks the dealer about its price, the dealer points to a rectangular blank sale-status sign on the roof. Exactly two men. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1201111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-120/photo-panel-01.webp",
+      "sha256": "43894eade97b0c8be9f5cf405a2863cd14d33fdba9a6166d83259ecedc0c6598"
+    }
+  ],
+  "fingerprint": "b92969c6c2278395a53eeabdb09eb6020826aa8fcc01f0a1aa6b20f758796219",
+  "sha256": "8fa293e7557a7d198f43835f50b77235e239159aecd0ba58043c08b71ad81adf",
+  "reference_sha256": "850ee567b6e222d14a4550292982e8eadcfea1b364a61243a720d499c2ae17cb",
+  "seconds": 51.31,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/120/group-01/redrawn.png",
+    "source_sha256": "8fa293e7557a7d198f43835f50b77235e239159aecd0ba58043c08b71ad81adf",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          317,
+          80,
+          394,
+          108
+        ],
+        "text": "SOLD",
+        "font_size": 25,
+        "background": null
+      }
+    ],
+    "output_sha256": "20bf441e2918269865c148b966899962ebef94d67de4103800b95b4c6d4036de"
+  },
+  "review": "reports/even-illustration-redraw/reviews/120.json"
+}

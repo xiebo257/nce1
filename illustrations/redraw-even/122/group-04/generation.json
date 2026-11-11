@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A straight blonde-haired woman behind a clothing shop counter points to a male customer in a brown hat. Clothing racks behind. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1221114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-122/photo-panel-04.webp",
+      "sha256": "fa39c82df580abcb4e8f1be1f738a9bd7bbf10f655851581dd5281f807335bf0"
+    }
+  ],
+  "fingerprint": "234b3b58d93d5851fb011ce489c8713ec4d58aafd0d8b9450cf59951b4faf801",
+  "sha256": "eb2472f34663ca719630344704c1257e76902606fabcbd82eb7ea2c6a99781f2",
+  "reference_sha256": "a552358a4be5d62f07b2a116fb17b18fc16b3bf54c828d652a47e92358910499",
+  "seconds": 23.9,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

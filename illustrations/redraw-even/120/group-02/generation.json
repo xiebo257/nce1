@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One man running with a bag onto an EMPTY railway platform after the train has left. A blank square platform sign at right. No train. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1201112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-120/photo-panel-02.webp",
+      "sha256": "ce2041a62c9b4bc7c8ea6dbd5c218d3b69f92429438e14ac4c3dba06f7ea3962"
+    }
+  ],
+  "fingerprint": "dcd759d5e14df90ed649f677314b052c75a8eee493c6e74b2b355f6e6f927345",
+  "sha256": "7961843c4620277702edec0039a86ccda0fc2fb7a816f5483f1d6fdf0050b634",
+  "reference_sha256": "043502110bbdb8dbd5d51f68e791ba596ced6cd11154d51937747bdad16aa519",
+  "seconds": 49.54,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/120/group-02/redrawn.png",
+    "source_sha256": "7961843c4620277702edec0039a86ccda0fc2fb7a816f5483f1d6fdf0050b634",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          383,
+          77,
+          449,
+          128
+        ],
+        "text": "2",
+        "font_size": 48,
+        "background": null
+      }
+    ],
+    "output_sha256": "532176e44e551d8a1a7b6680e465598a356b426e10ce9f1f34efb527e049c27b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/120.json"
+}

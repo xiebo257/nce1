@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man shaving his own cheek with a safety razor and white shaving lather. Exactly one man, two hands. Preserve the photographed single portrait. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1181115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-118/photo-panel-05.webp",
+      "sha256": "fc6ee96a36aeadf560f1937fe6ced7dc92fad546ca0f9e56f161412745464f84"
+    }
+  ],
+  "fingerprint": "f0706cc1b17662bf12897047a5166c3855d620b88d555920536758a893362fed",
+  "sha256": "de16a94c397a29e267b61cde17ade5aae0c4c159cd6f0bf69f1bee48f6447f2c",
+  "reference_sha256": "7c4b499bab837a37f580fcc94ee39e27eb82d379e34b93bb6f3f3171d14b4f81",
+  "seconds": 52.14,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/118.json"
+}

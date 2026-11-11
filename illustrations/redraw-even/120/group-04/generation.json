@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One blonde woman carrying luggage walking toward airport boarding after her exam. A blank directional sign points toward planes, a small plane in background. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1201114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-120/photo-panel-04.webp",
+      "sha256": "a525c71544fd8b00ae9515ebb9321320b880913090d2af76181793565c60400c"
+    }
+  ],
+  "fingerprint": "1c00be1f916e08dc074a5f58f41c0db1af6c6f47d43696610a6f9e1b67dd5335",
+  "sha256": "81b62ab9d69163d926b0801fcb1ee65adb698985394e64b8404d6586c9c4f138",
+  "reference_sha256": "970569335c9f19546485cee80dedb8af708a1aae00654a166ff46257300a06cd",
+  "seconds": 49.87,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/120/group-04/redrawn.png",
+    "source_sha256": "81b62ab9d69163d926b0801fcb1ee65adb698985394e64b8404d6586c9c4f138",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          319,
+          64,
+          438,
+          103
+        ],
+        "text": "PLANES",
+        "font_size": 25,
+        "background": null
+      }
+    ],
+    "output_sha256": "6489df4f9d5cbfff1d9dee41fc7f21c3c8e5cb0efcf98050cbce455cf933df57"
+  },
+  "review": "reports/even-illustration-redraw/reviews/120.json"
+}

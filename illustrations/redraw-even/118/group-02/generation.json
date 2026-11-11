@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One man with brown hat and suitcase is leaving his house through the doorway at left, just as a uniformed postman with mailbag approaches from the right holding a letter. Exactly two men. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1181112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-118/photo-panel-02.webp",
+      "sha256": "0016ecca7e24d9543cf48e39fd34da595e8427f10df08564783a31711075aec7"
+    }
+  ],
+  "fingerprint": "6006ad4aa6042aee376258b684499847f7dd3b88dc5e47feba6a850be6daa343",
+  "sha256": "5993591879c4647fbec4baebbc4930bcfe49b3c862b7a4c8c6c9e72377d09688",
+  "reference_sha256": "590172f877bd3d45e751ec4da1e47689b0d6d328cc4e63eb69a7b0b47b689b8f",
+  "seconds": 52.53,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/118.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A balding male bookseller in blue stands behind a counter at left; a straight brown-haired male customer in green at right points to exactly ONE book on the counter. Book shelves behind. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1221117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-122/photo-panel-07.webp",
+      "sha256": "ee195da381795b1b5e1f73d7e3940518600384ee46cda5731a85fe17618bcf04"
+    }
+  ],
+  "fingerprint": "044be9cdc06b3d5f566a9c34d3e70ad24a0508352e07f6082aec56e59eadcc96",
+  "sha256": "6066d15f03ee351f3919eccac1ab05ba486686951de68f6f300f715f42093bac",
+  "reference_sha256": "51eb71c779723a4488861f91833bedd1b1873dba5443b356483377f88c480e72",
+  "seconds": 24.64,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

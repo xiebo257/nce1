@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A male clerk behind a clothing shop counter points to a curly-haired female customer. Clothing racks behind. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1221115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-122/photo-panel-05.webp",
+      "sha256": "f9197ec6269a7c0c9323b44f0711a6a9cd84a703b6045710432eb1a775b209a7"
+    }
+  ],
+  "fingerprint": "d2679fd563baf8777ec5cd8aceade8595cccb3f53eaac782b805b62f6ab4a768",
+  "sha256": "3c25d05192ca6eef6e3aa28ec03410cab13f82fbbff4157bf6e74a911f969106",
+  "reference_sha256": "7195d0b9d34f1f8fb8b3fd3ac1589dbc7d99896c220262d40b4cc0f6056066aa",
+  "seconds": 24.37,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

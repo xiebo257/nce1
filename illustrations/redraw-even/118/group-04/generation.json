@@ -1,0 +1,141 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Finish this repaired cartoon cleanly. Bus entrance and steps at left are EMPTY, with black interior and gray steps. Smooth the edited pavement patches below the entrance to match adjacent gray pavement. Keep the ONE curly brown-haired woman in green sitting on pavement at right exactly unchanged. No human body, arm, leg, shoe or face anywhere inside the bus or at its steps. One woman only. Preserve colors and composition, crisp outlines.",
+  "seed": 1181114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/118-bus-empty-draft.png",
+      "sha256": "db4c5691e20bd9a35251ed08629ce1a952919f3f703d366c7e07820ebb63396b"
+    }
+  ],
+  "fingerprint": "ec51e1d005ab516077e2e5413812753fd3131aca34506b941dd4e338686cbac4",
+  "sha256": "c98af39da82114e9b3ff6f6795cceb1ea78b4dacddcabcde1df0dda64f6e5c56",
+  "reference_sha256": "f58e091e7a18ac7719e7f9aeb3b7cc19867b7e8dbd24c1ee9f1b5ac2d76a3af5",
+  "seconds": 25.47,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/118/group-04/redrawn.png",
+    "source_sha256": "c98af39da82114e9b3ff6f6795cceb1ea78b4dacddcabcde1df0dda64f6e5c56",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "white",
+        "polygons": [
+          [
+            [
+              344,
+              123
+            ],
+            [
+              449,
+              123
+            ],
+            [
+              449,
+              217
+            ],
+            [
+              344,
+              217
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "erase-polygons",
+        "fill": "#909091",
+        "polygons": [
+          [
+            [
+              344,
+              218
+            ],
+            [
+              449,
+              218
+            ],
+            [
+              449,
+              254
+            ],
+            [
+              344,
+              254
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "paste-foreground",
+        "asset": "illustrations/redraw-inputs/118-bus-removal.png",
+        "box": [
+          244,
+          75,
+          450,
+          261
+        ],
+        "position": [
+          244,
+          67
+        ],
+        "min_saturation": 25,
+        "max_dark": 65,
+        "keep_polygon": [
+          [
+            70,
+            0
+          ],
+          [
+            206,
+            0
+          ],
+          [
+            206,
+            186
+          ],
+          [
+            0,
+            186
+          ],
+          [
+            0,
+            145
+          ],
+          [
+            39,
+            122
+          ],
+          [
+            39,
+            100
+          ],
+          [
+            32,
+            100
+          ],
+          [
+            32,
+            55
+          ],
+          [
+            70,
+            55
+          ]
+        ],
+        "sha256": "5da0f3799fdecf8317592aa28d617de65cbd9bd7a8cf8e299048898620281493"
+      }
+    ],
+    "output_sha256": "a9764408846f4e7f152f03d50f888f5b9a07cd474b6a9c6c2817b9659714764b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/118.json"
+}

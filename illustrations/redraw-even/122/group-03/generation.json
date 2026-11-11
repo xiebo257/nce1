@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. One man leans out of a window on the left and points to two workmen with tools repairing the road on the right. Exactly three men. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1221113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-122/photo-panel-03.webp",
+      "sha256": "df27cdf853009d5846d22e03583e27f4dabe338ca6a130c6e85902cce44c2241"
+    }
+  ],
+  "fingerprint": "516b5863ca92b152397523ba3016aa93b6466c8bee0445b14908b77b74128ead",
+  "sha256": "fd78ce0f4adafcfb9871301f507772ac43434b663a527f6e676f85c5d0bc83ca",
+  "reference_sha256": "9e45a61200578d02a34c64d7c3bfc32e8fff571a7cb9e89455f0dbf269f950c8",
+  "seconds": 23.82,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/122.json"
+}

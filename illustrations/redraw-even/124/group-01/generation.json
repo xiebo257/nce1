@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw a crisp colored cartoon matching the reference: one curly black-haired woman in green holds exactly one small kitten in both hands, while one balding man in blue at right points to the kitten. Two adults and one kitten, no other people or animals. Natural hands, clean outlines, white background, no lettering.",
+  "seed": 1241111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-124/photo-panel-09.webp",
+      "sha256": "0c718420844f287415345aace46ee917622a2c1c2817797ef09ddd628146660e"
+    }
+  ],
+  "fingerprint": "70604b7baf18ff1d9877a5be477958f0235511b09f9c03757504e52def24f71d",
+  "sha256": "f25bf3c7a4974edcbb583bcd68a2420be38d6804e1dfaa5c88a6f832b52c1634",
+  "reference_sha256": "5c5f5baa294cc583bcd73626c64ac72dfe8669a4dd60ed45e2c9c151530958d5",
+  "seconds": 24.72,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/124.json"
+}

@@ -838,17 +838,17 @@
       "status": "ready",
       "description": "Someone knocked at the door when I was having breakfast.",
       "source": "../img/lesson-118-01-text.jpg",
-      "src": "assets/lesson-118/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-118/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture m",
       "photo_verification": {
         "photo": "img/lesson-118-01-text.jpg",
         "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
         "label": "m",
-        "asset_sha256": "18d29bbcd8ee3853ea5f38be227acb7e084a1cf3b75eb119c7689214660e83b6",
+        "asset_sha256": "4f7c8f9e4ba42680cb61f96be170b4ef09713b8f68fd2a86fb1b2f4fc0c8758f",
         "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
         "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
         "crop": [
@@ -856,7 +856,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/118/group-01/generation.json"
+      },
+      "alt": "Someone knocked at the door when I was having breakfast.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/118/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -864,17 +870,17 @@
       "status": "ready",
       "description": "When I was leaving the house, the postman arrived.",
       "source": "../img/lesson-118-01-text.jpg",
-      "src": "assets/lesson-118/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-118/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture n",
       "photo_verification": {
         "photo": "img/lesson-118-01-text.jpg",
         "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
         "label": "n",
-        "asset_sha256": "0016ecca7e24d9543cf48e39fd34da595e8427f10df08564783a31711075aec7",
+        "asset_sha256": "634e7dd5471e69315c357f7dc9b1ac838c8195c067d7882381d16783e14cf70a",
         "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
         "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
         "crop": [
@@ -882,7 +888,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/118/group-02/generation.json"
+      },
+      "alt": "When I was leaving the house, the postman arrived.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/118/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -890,17 +902,17 @@
       "status": "ready",
       "description": "Just as I was opening the front door, the telephone rang.",
       "source": "../img/lesson-118-01-text.jpg",
-      "src": "assets/lesson-118/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-118/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture o",
       "photo_verification": {
         "photo": "img/lesson-118-01-text.jpg",
         "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
         "label": "o",
-        "asset_sha256": "9424893ee63cfda96fcc48fd4169e1221e256e34383b881b3e412d52710e8ef1",
+        "asset_sha256": "5b78e3fddac56d0c11f31b69ccd57b3967d54a42321e8933da06385239a1afdf",
         "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
         "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
         "crop": [
@@ -908,7 +920,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/118/group-03/generation.json"
+      },
+      "alt": "Just as I was opening the front door, the telephone rang.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/118/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -916,17 +934,17 @@
       "status": "ready",
       "description": "She slipped and hurt herself while she was getting off the bus.",
       "source": "../img/lesson-118-01-text.jpg",
-      "src": "assets/lesson-118/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-118/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture p",
       "photo_verification": {
         "photo": "img/lesson-118-01-text.jpg",
         "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
         "label": "p",
-        "asset_sha256": "a6510228ce608a874e7a44dc6ad0859c92fb59c718c246adb2442d3f0c49588d",
+        "asset_sha256": "bb49d877f4f58e2479d141f1d42bb03df4806d28c11b26044d950e3b5f55724a",
         "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
         "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
         "crop": [
@@ -934,7 +952,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/118/group-04/generation.json"
+      },
+      "alt": "She slipped and hurt herself while she was getting off the bus.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/118/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -942,17 +966,17 @@
       "status": "ready",
       "description": "A man shaving in front of a mirror.",
       "source": "../img/lesson-118-01-text.jpg",
-      "src": "assets/lesson-118/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-118/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture q",
       "photo_verification": {
         "photo": "img/lesson-118-01-text.jpg",
         "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
         "label": "q",
-        "asset_sha256": "fc6ee96a36aeadf560f1937fe6ced7dc92fad546ca0f9e56f161412745464f84",
+        "asset_sha256": "d04a94303f62fad82bc7ae0ece5b7e837159a467f12a90a97b73096946da90f2",
         "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
         "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
         "crop": [
@@ -961,7 +985,13 @@
           256,
           480
         ],
-        "limitation": "caption cropped in source photo; picture description only"
+        "limitation": "caption cropped in source photo; picture description only",
+        "redraw_manifest": "illustrations/redraw-even/118/group-05/generation.json"
+      },
+      "alt": "A man shaving in front of a mirror.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/118/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -969,17 +999,17 @@
       "status": "ready",
       "description": "A woman cooking; a man outside in the rain.",
       "source": "../img/lesson-118-01-text.jpg",
-      "src": "assets/lesson-118/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-118/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture r",
       "photo_verification": {
         "photo": "img/lesson-118-01-text.jpg",
         "sha256": "a26e81d4eb60622e297a4f2a898632995d3a45ece63d7b1553dd4299a0775221",
         "label": "r",
-        "asset_sha256": "98e147b7a458ea825143a283f16084022f5a09c92dd6cb2dac4ebe369a334f0e",
+        "asset_sha256": "5414836937f6a28b201bafaddbad0418ca5883dcf88e05103fc9506e6805aaa3",
         "reused_asset": "html/assets/lesson-118/l118-pictures-grid-color.webp",
         "reused_sha256": "f04c78697e22cbd8a9b5ca6887d47f530ba97959eb5de2b7212886e2a3e9a6a3",
         "crop": [
@@ -988,7 +1018,13 @@
           512,
           480
         ],
-        "limitation": "caption cropped in source photo; picture description only"
+        "limitation": "caption cropped in source photo; picture description only",
+        "redraw_manifest": "illustrations/redraw-even/118/group-06/generation.json"
+      },
+      "alt": "A woman cooking; a man outside in the rain.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/118/group-06/generation.json"
       }
     }
   },
