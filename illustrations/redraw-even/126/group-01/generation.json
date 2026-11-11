@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A man in a dark hat and blue coat carrying a small case leaves through the doorway; a woman in green stands beside him asking him something. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1261111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-126/photo-panel-01.webp",
+      "sha256": "523cfd0b98434a3e51a822233579a05769a0dc3fa5c25651dfb3207e7b718bc8"
+    }
+  ],
+  "fingerprint": "be5530480eb29366e09c9406b59239746ddd783c4379433443d8a58deadccf4b",
+  "sha256": "5de13a5f613aeea0fd535d8c7af6a2758be03c014335d2b6753dfbbc6e22d923",
+  "reference_sha256": "e530a19cf461649f4ce5bf95860cfe5633c64410fabb5f59caff5971d32e5d1f",
+  "seconds": 24.85,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/126.json"
+}

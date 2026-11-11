@@ -99,6 +99,7 @@ def main():
                     continue
                 if operation['type'] != 'exact-diagram-overlay':
                     raise ValueError('Unknown refinement: ' + operation['type'])
+                before = image.copy() if operation.get('preserve_polygons') else None
                 draw = ImageDraw.Draw(image)
                 ellipse = operation.get('shape') == 'ellipse'
                 if ellipse:
@@ -113,6 +114,11 @@ def main():
                         mask = Image.new('L', (width, height))
                         ImageDraw.Draw(mask).ellipse((0, 0, width-1, height-1), fill=255)
                     image.paste(resized, (x, y), mask)
+                if before is not None:
+                    mask = Image.new('L', image.size)
+                    for polygon in operation['preserve_polygons']:
+                        ImageDraw.Draw(mask).polygon([tuple(p) for p in polygon], fill=255)
+                    image.paste(before, (0, 0), mask)
                 record['operations'].append(dict(operation, sha256=digest(operation['asset'])))
             target = directory / f'{slot}.png'
             image.save(target)

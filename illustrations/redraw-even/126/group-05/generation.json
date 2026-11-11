@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Remove ALL falling rain lines and diagonal rain streaks from this cartoon. Keep the dark storm clouds overhead and a clear blue sky beneath. It is ABOUT TO rain but no rain has fallen yet. Preserve the blonde woman in green, brown-haired man in blue, their faces, pointing pose, and garden exactly. Two people, no added objects.",
+  "seed": 1261115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/126-clouds-reference.png",
+      "sha256": "f9512c7ddacba3f40b8eef6bca398fa96bf34d8698d6fd05ba3d9e4067f58fb3"
+    }
+  ],
+  "fingerprint": "06120aad8ef1a33c717582ea5d52e5850665ceae966d196d50a685f0659deb49",
+  "sha256": "e1009c77af436e82d51d407becf3a0ce811ea77d85045c39b9e2c55eaa347241",
+  "reference_sha256": "301c1606947247732ea32c9ca9dcb79a380eb3bcc5cc0d07a4a75c7685ad44ae",
+  "seconds": 25.89,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/126.json"
+}

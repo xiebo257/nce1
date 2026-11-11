@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Two men outside a building: a balding man in blue gestures toward his wristwatch while a short black-haired man in green looks impatient. Exactly two people, two ordinary hands each. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1261114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-126/photo-panel-04.webp",
+      "sha256": "331d80a4db4b35adfd27c39e3b7276365dd14deec610e48cc2171c70c207ed58"
+    }
+  ],
+  "fingerprint": "55451b6d85f0d2439ca8bb5b487ccd4e13f0e869f63c4702680dadefedafe2c7",
+  "sha256": "777855f2825a276347f894a4030758a324a81c4abe5508f93e8e02e639ff8771",
+  "reference_sha256": "409b1f60bb815c07ecc7849534fb4e2e8db3cc9fc8d86f337a880c64e4dae219",
+  "seconds": 25.37,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/126.json"
+}

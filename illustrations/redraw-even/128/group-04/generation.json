@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Two women at left discuss one man wearing a dark hat and carrying a doctors bag as he walks away at right. Exactly three people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-128/photo-panel-04.webp",
+      "sha256": "ba14ef44a0e42cba53f55e19c2b3a61f1a6a2ba3e61954a7afd8d8f4f0fb6d04"
+    }
+  ],
+  "fingerprint": "3f11e0ff14e3ea3f99c5c11982f2b3170d5618982ad57f50a73046333219a6d9",
+  "sha256": "d9ee8490b5d509a5c2527bf7e29d44f976c5dc14c2502f1a9e7c6c341e1c7e51",
+  "reference_sha256": "b5c7752a3796a7d0f763821d168c704144fd2af39a5e6b14c0ac3f747a0b1167",
+  "seconds": 25.55,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

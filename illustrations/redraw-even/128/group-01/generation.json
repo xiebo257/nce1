@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Two adults at left look toward a curly-haired man sleeping in an armchair at right. Exactly three people, sleeping man has eyes closed. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-128/photo-panel-01.webp",
+      "sha256": "e61a954b95e6dcc5881530d09db800a76522775d6d723cf975429c4c18521a9d"
+    }
+  ],
+  "fingerprint": "786ce044492577a1ffa6ad8b563ec972eef4e96b10257a8f7d360cb02a75eaa4",
+  "sha256": "d5c6d455c96406f8b42dd23cf8bd7563a4d8c16d47ba42ba54ed4d40c9b39da9",
+  "reference_sha256": "f617036e2c07a9101c93bd71dc0804fa03c02c210e1b30db1c2955902acc32ba",
+  "seconds": 25.41,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

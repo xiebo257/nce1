@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Two women at left discuss an older blonde woman walking past on the right. Exactly three women, distinguish their hairstyles. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-128/photo-panel-05.webp",
+      "sha256": "848da1c950e5969b5cea1297d2e370a60799b732b66f22130076b3f357bdfc90"
+    }
+  ],
+  "fingerprint": "4537fdf21eff495e2fb11eb9608672e4395ba7cf6815ce112725492156a3f2c9",
+  "sha256": "cb9c090a3cdf47bad4f87bc77d2f5ac387ee90c76578950a46eb2072199b023f",
+  "reference_sha256": "75f72a878e7bb796599c9bb99591066d498c11d59263f936603e5f34cf1d478a",
+  "seconds": 25.54,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

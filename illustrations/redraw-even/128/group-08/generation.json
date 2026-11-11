@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A woman and a child at left look toward a balding man sleeping in an armchair with an open book on his chest. Exactly three people; sleeping mans eyes closed. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-128/photo-panel-08.webp",
+      "sha256": "32b4eec11ae3464e5c2dc223cbb7772b38efff013a830c7047b6941878b8611c"
+    }
+  ],
+  "fingerprint": "80fd7ca20d0a584b0a61cb2b1885ebf30969cfb14d80b6a9652dcfff71e16635",
+  "sha256": "fe9ca767e15c694ee8a57eac8608ac749b2663abc2b514a3e0167c004f0123f1",
+  "reference_sha256": "702abd9e58f8df42c43b4bd15037922deea9eaa5b22bc0eccf7bb7f26a696318",
+  "seconds": 25.66,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

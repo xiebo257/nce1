@@ -1,0 +1,103 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A balding man in blue holds a large alarm clock between himself and a short curly black-haired woman in green. Exactly two people, one clock. Clock face BLANK for precise time overlay. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1261112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-126/photo-panel-02.webp",
+      "sha256": "8053470ac6c0075cd1f2bda765244c360a4631aa21e6c36615f168d301d2bbeb"
+    }
+  ],
+  "fingerprint": "6be19b6a78c20eb53e2413c64da4f4a6ccca34dd926fb054391aeb4cb337ba50",
+  "sha256": "5b1121974f217496b1405a96bc53cfd4a125a2cfdbbc1d7936da249b5982fb48",
+  "reference_sha256": "23795661c4b32a13959e8e1dec520d9456aeb2a74541c954e34d93af1124bb71",
+  "seconds": 25.18,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/126/group-02/redrawn.png",
+    "source_sha256": "5b1121974f217496b1405a96bc53cfd4a125a2cfdbbc1d7936da249b5982fb48",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/126/diagrams/inset-6-00.png",
+        "clear_box": [
+          193,
+          135,
+          314,
+          252
+        ],
+        "placement": [
+          196,
+          138,
+          116,
+          114
+        ],
+        "shape": "ellipse",
+        "clock_time": "6:00",
+        "preserve_polygons": [
+          [
+            [
+              179,
+              204
+            ],
+            [
+              205,
+              208
+            ],
+            [
+              219,
+              216
+            ],
+            [
+              218,
+              235
+            ],
+            [
+              204,
+              250
+            ],
+            [
+              179,
+              247
+            ]
+          ],
+          [
+            [
+              305,
+              210
+            ],
+            [
+              326,
+              209
+            ],
+            [
+              327,
+              235
+            ],
+            [
+              306,
+              248
+            ],
+            [
+              297,
+              246
+            ]
+          ]
+        ],
+        "sha256": "65499e3a1a9e0c715d683302c660d64afeb62ef8390715967e03bffa9fa376c1"
+      }
+    ],
+    "output_sha256": "8abf51d0bdb48342b2060c2260cf84bef6154413885cff4721f5ae252a5b39be"
+  },
+  "review": "reports/even-illustration-redraw/reviews/126.json"
+}

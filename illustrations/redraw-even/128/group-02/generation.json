@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. One black-haired woman in green holds up an old wide-brimmed brown hat with a worn ribbon. Exactly one woman, one hat. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-128/photo-panel-02.webp",
+      "sha256": "d3f2bf8b43962897ba27b5b32f7423225dd28153edb5db62f08e5ab69156a8f8"
+    }
+  ],
+  "fingerprint": "7c0a263245483766ce86e7b57fe1ccede503bd775dbc401e46ed06a90cba13b7",
+  "sha256": "fdd6202a1bb3d875cbf79156c5b976efc743380d3855167bee17bcf5847e7055",
+  "reference_sha256": "5216c942d9bf0ee649a84b77834be5cda98848cb16dbf3e47379f71f1830f797",
+  "seconds": 25.71,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

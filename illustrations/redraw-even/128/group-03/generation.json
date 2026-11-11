@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Two men in blue and brown discuss a blonde woman in a green dress standing behind them. Exactly three people; no flags or invented nationality labels. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-128/photo-panel-03.webp",
+      "sha256": "cfb356ced60d1e6ba290f97a69dc5d20bbb5070299f851acd4a259f1b8b0bc07"
+    }
+  ],
+  "fingerprint": "61d5b2bad26ef19f9649b14534365de94328ca5a167810662ca2dd5a5a546c41",
+  "sha256": "c6d7b9ae96eabb4e9a22b8590b02221137d41d6e8257b671a22e35cf926ce902",
+  "reference_sha256": "2688b076bb740f9cadc8f48d682f7873da6ac391e5b5c134131e7178244d2a27",
+  "seconds": 25.55,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

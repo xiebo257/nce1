@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Two adults at left compare three children standing on the right, with the tallest oldest boy visibly taller than the other two children. Exactly five people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-128/photo-panel-07.webp",
+      "sha256": "2d5799b667a9704f6d153fe51c1515ca063262ad86fb96a295530b3151f0dd5a"
+    }
+  ],
+  "fingerprint": "218ec44e935858e723967e12fdb1717847589e07483be6f22527b772003c75bf",
+  "sha256": "738580d15f50be8860055236930de36bc35be2a0cdb737e94661d2194549bcae",
+  "reference_sha256": "9e70b762ca0f5e28aecfe8e49a62332b4a4a938e76f3c9b4375a0f11fe3fc065",
+  "seconds": 25.72,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

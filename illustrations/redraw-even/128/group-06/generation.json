@@ -1,0 +1,59 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. One curly black-haired woman in green points at a rectangular wall calendar on her right. Calendar is BLANK for exact date overlay. Exactly one woman. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1281116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-128/photo-panel-06.webp",
+      "sha256": "03393db80c7e890aa89d4c8b53cd3cbe81f1afde72d2fba2dce09b8e62b7e473"
+    }
+  ],
+  "fingerprint": "0bfef3f95117072497bbb653075d52c266aa8a91d2748a00d0af2c05275f72f9",
+  "sha256": "caee4b0e3ac5af002f65b8d03cfc059c4fe9472cc8e4209c5d1b8307f2a8260c",
+  "reference_sha256": "06543d08005ed4e8174838a523201ed680da80f11b4601ba990df50a6df5521d",
+  "seconds": 25.29,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/128/group-06/redrawn.png",
+    "source_sha256": "caee4b0e3ac5af002f65b8d03cfc059c4fe9472cc8e4209c5d1b8307f2a8260c",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          306,
+          83,
+          453,
+          105
+        ],
+        "text": "APRIL",
+        "font_size": 23,
+        "color": "white",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          357,
+          153,
+          446,
+          236
+        ],
+        "text": "21",
+        "font_size": 72,
+        "background": null
+      }
+    ],
+    "output_sha256": "bf16c99652b7b016c87f45104e331286acd454e4b2b23ea96c105816c43b645a"
+  },
+  "review": "reports/even-illustration-redraw/reviews/128.json"
+}

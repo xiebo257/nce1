@@ -27745,8 +27745,8 @@
         },
         {
           "slot": "photo-panel-05",
-          "reference": "html/assets/lesson-126/photo-panel-05.webp",
-          "reference_sha256": "ab4fdb4e6a4b7c9a5aecb16e67e5d47cc6590253b88577f7d7eaad5f5bed3c25",
+          "reference": "illustrations/redraw-inputs/126-clouds-reference.png",
+          "reference_sha256": "f9512c7ddacba3f40b8eef6bca398fa96bf34d8698d6fd05ba3d9e4067f58fb3",
           "source_photo": "img/lesson-126-01-text.jpg",
           "source_photo_sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
           "previous": {
@@ -27778,7 +27778,7 @@
           "cue": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
           "text": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A blonde woman in green and a short brown-haired man in blue stand in a garden looking up at dark rain clouds. No watering in progress. Exactly two people. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
+          "edit_instruction": "Remove ALL falling rain lines and diagonal rain streaks from this cartoon. Keep the dark storm clouds overhead and a clear blue sky beneath. It is ABOUT TO rain but no rain has fallen yet. Preserve the blonde woman in green, brown-haired man in blue, their faces, pointing pose, and garden exactly. Two people, no added objects."
         },
         {
           "slot": "photo-panel-06",
@@ -27824,7 +27824,113 @@
       "group_size": 1,
       "inset_clocks": [
         "6:00"
-      ]
+      ],
+      "candidate_edits": {
+        "photo-panel-02": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/126/diagrams/inset-6-00.png",
+              "clear_box": [
+                193,
+                135,
+                314,
+                252
+              ],
+              "placement": [
+                196,
+                138,
+                116,
+                114
+              ],
+              "shape": "ellipse",
+              "clock_time": "6:00",
+              "preserve_polygons": [
+                [
+                  [
+                    179,
+                    204
+                  ],
+                  [
+                    205,
+                    208
+                  ],
+                  [
+                    219,
+                    216
+                  ],
+                  [
+                    218,
+                    235
+                  ],
+                  [
+                    204,
+                    250
+                  ],
+                  [
+                    179,
+                    247
+                  ]
+                ],
+                [
+                  [
+                    305,
+                    210
+                  ],
+                  [
+                    326,
+                    209
+                  ],
+                  [
+                    327,
+                    235
+                  ],
+                  [
+                    306,
+                    248
+                  ],
+                  [
+                    297,
+                    246
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "photo-panel-03": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                384,
+                62,
+                460,
+                86
+              ],
+              "text": "TAXI",
+              "font_size": 23,
+              "background": null
+            }
+          ]
+        },
+        "photo-panel-06": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                411,
+                117,
+                471,
+                161
+              ],
+              "text": "BUS\nSTOP",
+              "font_size": 20,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "128": {
       "sections_sha256": "56cede6f52b6109b79b56f9bddd7eb5a9c96df80f170a5ad9a3608c97e0fd00d",
@@ -28131,7 +28237,38 @@
           "edit_instruction": "Redraw this photographed composition as one crisp full-color educational cartoon. A woman and a child at left look toward a balding man sleeping in an armchair with an open book on his chest. Exactly three people; sleeping mans eyes closed. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-06": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                306,
+                83,
+                453,
+                105
+              ],
+              "text": "APRIL",
+              "font_size": 23,
+              "color": "white",
+              "background": null
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                357,
+                153,
+                446,
+                236
+              ],
+              "text": "21",
+              "font_size": 72,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "130": {
       "sections_sha256": "8fe91b067bfc0869b1ee2830476046f48893fd44206744003fb4e11b625bc56f",

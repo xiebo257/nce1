@@ -349,17 +349,17 @@
       "status": "ready",
       "description": "Do you have to go now? / Yes, I have to leave immediately.",
       "source": "../img/lesson-126-01-text.jpg",
-      "src": "assets/lesson-126/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-126/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-126-01-text.jpg",
         "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
         "label": "1",
-        "asset_sha256": "523cfd0b98434a3e51a822233579a05769a0dc3fa5c25651dfb3207e7b718bc8",
+        "asset_sha256": "73aea0024485d4dc9c092fd14d73edd0f88c2324352285c6226a0c7533614b6c",
         "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
         "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
         "crop": [
@@ -367,7 +367,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/126/group-01/generation.json"
+      },
+      "alt": "Do you have to go now? / Yes, I have to leave immediately.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/126/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -375,17 +381,17 @@
       "status": "ready",
       "description": "Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.",
       "source": "../img/lesson-126-01-text.jpg",
-      "src": "assets/lesson-126/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-126/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-126-01-text.jpg",
         "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
         "label": "2",
-        "asset_sha256": "8053470ac6c0075cd1f2bda765244c360a4631aa21e6c36615f168d301d2bbeb",
+        "asset_sha256": "b956d245f74ee8534bdb1ced7d0ca15fa595e403e52370759c7a0e786fe0b844",
         "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
         "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
         "crop": [
@@ -393,7 +399,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/126/group-02/generation.json"
+      },
+      "alt": "Do you have to get up early tomorrow morning? / Yes, I'll have to get up at six o'clock.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/126/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -401,17 +413,17 @@
       "status": "ready",
       "description": "Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.",
       "source": "../img/lesson-126-01-text.jpg",
-      "src": "assets/lesson-126/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-126/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-126-01-text.jpg",
         "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
         "label": "3",
-        "asset_sha256": "5464a1dc871f64db53cc69faad21ecee69b712da40d675459d570bf5f42c7434",
+        "asset_sha256": "c4f84a9b946957f1413a5b5229a7b80ee6bd4cdb0b2a648bb11fc1ffa9dc0fca",
         "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
         "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
         "crop": [
@@ -419,7 +431,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/126/group-03/generation.json"
+      },
+      "alt": "Did you have to take a taxi? / I'm afraid I had to. I couldn't get a bus.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/126/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -427,17 +445,17 @@
       "status": "ready",
       "description": "Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!",
       "source": "../img/lesson-126-01-text.jpg",
-      "src": "assets/lesson-126/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-126/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-126-01-text.jpg",
         "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
         "label": "4",
-        "asset_sha256": "331d80a4db4b35adfd27c39e3b7276365dd14deec610e48cc2171c70c207ed58",
+        "asset_sha256": "6328f584ece3ad7173c0ee1af0ec55296323e0c603ae6648bdc84914ba4d9fcc",
         "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
         "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
         "crop": [
@@ -445,7 +463,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/126/group-04/generation.json"
+      },
+      "alt": "Hasn't your friend arrived yet? How long have you had to wait? / I've had to wait for two hours!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/126/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -453,17 +477,17 @@
       "status": "ready",
       "description": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
       "source": "../img/lesson-126-01-text.jpg",
-      "src": "assets/lesson-126/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-126/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-126-01-text.jpg",
         "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
         "label": "5",
-        "asset_sha256": "ab4fdb4e6a4b7c9a5aecb16e67e5d47cc6590253b88577f7d7eaad5f5bed3c25",
+        "asset_sha256": "35b4505b5bfdc1d621a54c4b61397c025ef3ab23d673adb8f3f669f129fcde28",
         "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
         "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
         "crop": [
@@ -471,7 +495,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/126/group-05/generation.json"
+      },
+      "alt": "Do you have to water the garden? / No, I don't need to water it now. It's going to rain.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/126/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -479,17 +509,17 @@
       "status": "ready",
       "description": "Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
       "source": "../img/lesson-126-01-text.jpg",
-      "src": "assets/lesson-126/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-126/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-126-01-text.jpg",
         "sha256": "d880aab020ab03cc055fe69973bb0d499ea8c8522245229b23e714fa8131b4ba",
         "label": "6",
-        "asset_sha256": "e890e86ec1a352a520dc6c9e936f56506a930019d1b768d640c471927515fd2e",
+        "asset_sha256": "966796494afc1db128901baf9eee31d291f38221fd91694a49e49671a0abf2db",
         "reused_asset": "html/assets/lesson-126/l126-pictures-color.webp",
         "reused_sha256": "9e150507366965dfa354387d3ac611db4704307a3d2fd778692162156472d9a8",
         "crop": [
@@ -497,7 +527,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/126/group-06/generation.json"
+      },
+      "alt": "Do we have to walk to the station? / No, we don't need to. We can catch a bus.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/126/group-06/generation.json"
       }
     }
   },

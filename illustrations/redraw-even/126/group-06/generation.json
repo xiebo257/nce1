@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. Three people walking toward a bus stop: a blonde woman in green and a dark-haired man in blue behind, with a balding man in brown pointing at an approaching bus. Round bus stop sign has blank white center. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1261116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-126/photo-panel-06.webp",
+      "sha256": "e890e86ec1a352a520dc6c9e936f56506a930019d1b768d640c471927515fd2e"
+    }
+  ],
+  "fingerprint": "bea4352b63d12ba246d208d3e639b2a7bab5c962372b87f2af19c1f0c8ff29c2",
+  "sha256": "4dfa589c8c400a5a722ce722e57ac3daa9a660945cea4692a824bff28312f612",
+  "reference_sha256": "8a7628c5934e649b4e9993bf2cf2a543032e584085fba9511f0a5a5329d938b9",
+  "seconds": 25.25,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/126/group-06/redrawn.png",
+    "source_sha256": "4dfa589c8c400a5a722ce722e57ac3daa9a660945cea4692a824bff28312f612",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          411,
+          117,
+          471,
+          161
+        ],
+        "text": "BUS\nSTOP",
+        "font_size": 20,
+        "background": null
+      }
+    ],
+    "output_sha256": "5497f020072d22b1490cb2cbda9e1982a8c81b892f17f3ff122be374d816599f"
+  },
+  "review": "reports/even-illustration-redraw/reviews/126.json"
+}

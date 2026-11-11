@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. A man in a brown hat stands outside a house beside a black taxi; a curly-haired woman in green talks to him from the doorway. Exactly two people. Taxi roof sign blank. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1261113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-126/photo-panel-03.webp",
+      "sha256": "5464a1dc871f64db53cc69faad21ecee69b712da40d675459d570bf5f42c7434"
+    }
+  ],
+  "fingerprint": "84977079e612cdb8232fac36b7119a122bd3fb34bae94425c38ca44f73b8abc0",
+  "sha256": "dbdc70792056b2308d2d0ba93efe99fdeacbdf4f6b3292eceb34843b068e7535",
+  "reference_sha256": "d015dec1b867824ad692ccc5afd8992e22422491156a792105b5e9908e6bb3aa",
+  "seconds": 25.13,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/126/group-03/redrawn.png",
+    "source_sha256": "dbdc70792056b2308d2d0ba93efe99fdeacbdf4f6b3292eceb34843b068e7535",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          384,
+          62,
+          460,
+          86
+        ],
+        "text": "TAXI",
+        "font_size": 23,
+        "background": null
+      }
+    ],
+    "output_sha256": "d5f59cb19d7d6b1941086d58806c21e7b1f3c0059ee70b6a9e679fb9866737bc"
+  },
+  "review": "reports/even-illustration-redraw/reviews/126.json"
+}

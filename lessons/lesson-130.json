@@ -457,17 +457,17 @@
       "status": "ready",
       "description": "He can't have been ill. He must have been tired.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "1",
-        "asset_sha256": "2d396e91d7dde579b2c57e0868d941c20b71c74aa4fe4cf57490857dd8b5df7d",
+        "asset_sha256": "fd6567e7ce0c6632915b495aae13f22853d50c719dedb1246a95d2bd11ba49e9",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -476,6 +476,16 @@
           256,
           160
         ]
+      },
+      "alt": "He can't have been ill. He must have been tired.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-01"
+        }
       }
     },
     "photo-panel-02": {
@@ -483,17 +493,17 @@
       "status": "ready",
       "description": "It can't have been my new hat. It must have been my old one.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "2",
-        "asset_sha256": "6089f6b8be1aa4a4d0e422c49218022736420bab7e396d0ab1c1fabf78e73201",
+        "asset_sha256": "e1d2e408742e71ed19292f642747d3b4b38f1fb4d89806047ce5e19f04aaee59",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -502,6 +512,16 @@
           512,
           160
         ]
+      },
+      "alt": "It can't have been my new hat. It must have been my old one.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-03": {
@@ -509,17 +529,17 @@
       "status": "ready",
       "description": "She can't have been Danish. She must have been Swedish.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "3",
-        "asset_sha256": "151e9f6d099b8a860dd5d303b5fce65e32a5d8419a6a4607b0d33ba1161f4b18",
+        "asset_sha256": "cc72a1ce4d57f8ded3a78737472ea299fa873ed6e46c78f2923f223504b68c1e",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -528,6 +548,16 @@
           256,
           320
         ]
+      },
+      "alt": "She can't have been Danish. She must have been Swedish.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-03"
+        }
       }
     },
     "photo-panel-04": {
@@ -535,17 +565,17 @@
       "status": "ready",
       "description": "He can't have been a dentist. He must have been a doctor.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "4",
-        "asset_sha256": "10af8c1ff1abbfe68357ad63fbfe43dcb00419a622be44c6668101079c566414",
+        "asset_sha256": "3ddbc4734864a6ed21a44fc80044eebf5aa194af26959849af71a10dedfab13c",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -554,6 +584,16 @@
           512,
           320
         ]
+      },
+      "alt": "He can't have been a dentist. He must have been a doctor.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-04"
+        }
       }
     },
     "photo-panel-05": {
@@ -561,17 +601,17 @@
       "status": "ready",
       "description": "She can't have been forty. She must have been fifty.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "5",
-        "asset_sha256": "0959187719c83f9aa661a8fc08d648586afb759b6685c0f7f1a39292e0eb88cd",
+        "asset_sha256": "fb9f859c9e8f354cff82eeea10b5fe24e9f2708aab7e8b4b6f64e510501db6aa",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -580,6 +620,16 @@
           256,
           480
         ]
+      },
+      "alt": "She can't have been forty. She must have been fifty.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-05"
+        }
       }
     },
     "photo-panel-06": {
@@ -587,17 +637,17 @@
       "status": "ready",
       "description": "It can't have been the 20th. It must have been the 21st.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "6",
-        "asset_sha256": "db4ed5d6af8ab55cec398ab70491a7973f05c9087c1afea0dc51334ebd493efe",
+        "asset_sha256": "aa3a2c8adb2013082199462c3c215bb68c1dc5b9dff2b908c0d711cc0ce52fa1",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -606,6 +656,16 @@
           512,
           480
         ]
+      },
+      "alt": "It can't have been the 20th. It must have been the 21st.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-06"
+        }
       }
     },
     "photo-panel-07": {
@@ -613,17 +673,17 @@
       "status": "ready",
       "description": "He can't have been the youngest. He must have been the oldest.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "7",
-        "asset_sha256": "0ae1c31ae8d9bae81cb11149ce9408076c08f38f06fb1d7ccd8c5a08f2a8fd2f",
+        "asset_sha256": "4a60def1a6440791f278b4a9995f7ace6b26fbb7e092b16a7418b7baffdb32a2",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -632,6 +692,16 @@
           256,
           640
         ]
+      },
+      "alt": "He can't have been the youngest. He must have been the oldest.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-07"
+        }
       }
     },
     "photo-panel-08": {
@@ -639,17 +709,17 @@
       "status": "ready",
       "description": "He can't have been reading. He must have been sleeping.",
       "source": "../img/lesson-130-01-text.jpg",
-      "src": "assets/lesson-130/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-130/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-130-01-text.jpg",
         "sha256": "5ea08ef70495f48746439e690d917370b51ab3ef7d0d301d4f747581c19d7139",
         "label": "8",
-        "asset_sha256": "55da4ac83ff9ffdb30b5e8ba6f146292f25fec9612cc924976541fc4982f7dec",
+        "asset_sha256": "b117cddef606d1f4496018c472ce2a4c9d97c8cc567af17ad0374dc5489011cd",
         "reused_asset": "html/assets/lesson-130/l130-pictures-color.webp",
         "reused_sha256": "88cf05df5d37585d39f3c65155ad3cd96bb059366856662a04b78b85f2fbda8f",
         "crop": [
@@ -658,6 +728,16 @@
           512,
           640
         ]
+      },
+      "alt": "He can't have been reading. He must have been sleeping.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 128,
+          "slot": "photo-panel-08"
+        }
       }
     }
   },
