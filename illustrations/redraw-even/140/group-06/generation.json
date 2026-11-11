@@ -1,0 +1,33 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME wavy blonde-haired woman in green speaks with one hand beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1401116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-140/photo-panel-06.webp",
+      "sha256": "cb03ea898c19dac2238b40f7642b0c04b2a0b43edfea972eebe3fbbe06dd4dd2"
+    }
+  ],
+  "fingerprint": "30245455eae85be577827e260c93441c2ac431c17978b79aba4accf6d9dd2939",
+  "sha256": "4a25709d56fdd54b592a9e69420c013d199ee193faa9f0bb763dbfef874416b6",
+  "reference_sha256": "8fe2209dbde4eca95eb5b45e57cd3cceae05eaea0d4adf79aef05dbc599e3460",
+  "seconds": 29.01,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/140/group-03/redrawn.png",
+    "source_sha256": "e90830df40dc9b77f2fe00b21e1dfb63dea43ba4d271f1072938edb46a38fa46",
+    "operations": [],
+    "output_sha256": "a21b975b9b56861d52c851b509936f1dc2d6ea0ece0ce53300ecd5c88836c65f"
+  },
+  "review": "reports/even-illustration-redraw/reviews/140.json"
+}

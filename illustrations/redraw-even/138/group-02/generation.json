@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. At a railway station, a man in a brown hat looks at a bookstall while a curly black-haired woman in green urges him to hurry, a train behind them. Exactly two people. Bookstall sign blank. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1381112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-138/photo-panel-02.webp",
+      "sha256": "d6376b624cb5a64ef26a834ccf23bdc87d313bbe8f25b2415de1a10ac61ac94f"
+    }
+  ],
+  "fingerprint": "4fba06a877016886a04d79ca6ba2eaefa222cce7d47558c6b861ea34233dc79f",
+  "sha256": "69cacec5f954eed62c42fb620f386a3b6877c02adf92e328f4d79a2003e8522e",
+  "reference_sha256": "18adbfe97769154bbb7103a20996f5d3ee0e139cebdef28e3e599fc3160310d2",
+  "seconds": 26.08,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/138/group-02/redrawn.png",
+    "source_sha256": "69cacec5f954eed62c42fb620f386a3b6877c02adf92e328f4d79a2003e8522e",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          36,
+          37,
+          149,
+          66
+        ],
+        "text": "BOOKS",
+        "font_size": 24,
+        "background": null
+      }
+    ],
+    "output_sha256": "5aea6c2063a6087dd460f687e8fd3818e87359b40993b4b6aefb03e35cb4102a"
+  },
+  "review": "reports/even-illustration-redraw/reviews/138.json"
+}

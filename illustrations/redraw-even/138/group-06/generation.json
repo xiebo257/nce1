@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. Two men stand beside an old open-top car, one points toward it while they discuss selling it. Exactly two people and one car. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1381116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-138/photo-panel-06.webp",
+      "sha256": "b196f4bf28bd0bdabc7f0e84ae0960462488b4aecba0c795a3513be4812cd9bd"
+    }
+  ],
+  "fingerprint": "4e40b2cd2eec3c2a2a3743b0ce2b6335ea05273fccbb08889c5fd04958e9f988",
+  "sha256": "b3d6471091a8c1dede787853ccbb9b9c3642781aaffe729da7f60f69473a3215",
+  "reference_sha256": "712d98f018e52a80cd63dd2914baedbad61e313d3fa20672aa648950a161b97b",
+  "seconds": 26.74,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/138.json"
+}

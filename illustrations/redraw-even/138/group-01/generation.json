@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One older blonde woman in green warns three children standing by a house window; the front boy holds a ball. Window is intact. Exactly four people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1381111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-138/photo-panel-01.webp",
+      "sha256": "919fb3856af8862b82c67b7d83a86c03b5bdbc802a3cca689f27bbae546ed34b"
+    }
+  ],
+  "fingerprint": "9811644226f6f1198603eda92e5fd40c97064cf405874d6a04c941966a28d1b1",
+  "sha256": "9ef644cf32274d99234f7e1bb019dbb72701b7aa857af2b7d17522375b5b87cf",
+  "reference_sha256": "c6b4b0df260012fc0564a37b11069bdcbaf594fc0c632273ad8f1ccc98d8b072",
+  "seconds": 25.98,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/138.json"
+}

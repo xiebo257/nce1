@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One blonde woman in green talks to one curly-haired patient sitting up in bed under a blue blanket, exactly two people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1381115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-138/photo-panel-05.webp",
+      "sha256": "e1956bc712d9e6129a3424af4140d62bb2bc3d99f6ab58f0ac960a410586f2bb"
+    }
+  ],
+  "fingerprint": "d688f7d0bdcc77d6d7b201c971bd4fe266de1fd3fd8074220ed9c545672009f4",
+  "sha256": "ee1c98b26952f6b70bcc7e68a3e15934489b4470ad404a6dcc4a5e2a00af8408",
+  "reference_sha256": "71a1b5cf1218f2211ab7c806043c1f79159d3d0294e80fcfc821ace610e6ffb7",
+  "seconds": 26.28,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/138.json"
+}

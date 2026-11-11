@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One balding man in blue stands unsteadily on a stool reaching toward a ceiling fitting, while a black-haired woman in green and one curly-haired child watch anxiously. Exactly three people, one stool. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1381113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-138/photo-panel-03.webp",
+      "sha256": "8f9a589557383ae515beef118b10b528cfab804eff5764813fd26d829a475589"
+    }
+  ],
+  "fingerprint": "71c5fa5cd48155595a320e09d1004e3b8a4da9d8b7ee181167573051f9b22875",
+  "sha256": "520c89a6f87f7b48c28feda628ff22e57fafabdf8525f0f32570cbf2f3bb5f6e",
+  "reference_sha256": "e6102205e04114b5728097d5bd6ec454f700417e942b10b171c08c644dfb72a8",
+  "seconds": 25.96,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/138.json"
+}

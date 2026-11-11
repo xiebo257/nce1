@@ -1049,19 +1049,25 @@
       "status": "ready",
       "description": "Are you tired?\nWhy are you tired?",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "1",
-        "asset_sha256": "5dd0af21d590728dc92ca50d369c55f010731cac7afb77ecff23a1fe6230ebe2",
+        "asset_sha256": "53106115a4a675b2ef8b32bc2b4cf5f7e3f78331cae86f80883e1574d43c4dae",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-01/generation.json"
+      },
+      "alt": "Are you tired?\nWhy are you tired?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -1069,19 +1075,25 @@
       "status": "ready",
       "description": "What does he want to know?\nWhat does he want to know?",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "2",
-        "asset_sha256": "9ba32f9cd9a96ee190dd70e3404f89ea210185d352027ef25dc0b23429369497",
+        "asset_sha256": "6f86ab1878b186343275ba4d84365097876ff3356cf67b793e346b3ea8f5dbf8",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-02/generation.json"
+      },
+      "alt": "What does he want to know?\nWhat does he want to know?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -1089,19 +1101,25 @@
       "status": "ready",
       "description": "He wants to know if you are tired.\nHe wants to know why you are tired.",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "3",
-        "asset_sha256": "242394da2316c605995f2e3c5cadabd4a4aca33f3cc94b17d62fef5598021923",
+        "asset_sha256": "972ce3ade915616235052e2b49e8b07a43380611058d88657b58459911fea442",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-03/generation.json"
+      },
+      "alt": "He wants to know if you are tired.\nHe wants to know why you are tired.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -1109,19 +1127,25 @@
       "status": "ready",
       "description": "Are you reading?\nWhat are you reading?",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "4",
-        "asset_sha256": "da80bdd341d7029ceb1ca29daa60cfd3e6b32e9413c0fc3bea60fc4774f6a30c",
+        "asset_sha256": "4c94d69b0a92e2aeb763a044266b3a88cf1229c3b332156c3e2f826c8e741300",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-04/generation.json"
+      },
+      "alt": "Are you reading?\nWhat are you reading?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -1129,19 +1153,25 @@
       "status": "ready",
       "description": "What does he want to know?\nWhat does he want to know?",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "5",
-        "asset_sha256": "f814b6a3166b7ba24bd9e05fbd7ba49bc14e174e20f6152f1eaca12649782e99",
+        "asset_sha256": "5d111e13e7879fd9a9b56bdf5fbd6b96ce0b407517bf17422913116991b4b7b9",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-05/generation.json"
+      },
+      "alt": "What does he want to know?\nWhat does he want to know?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -1149,19 +1179,25 @@
       "status": "ready",
       "description": "He wants to know if you are reading.\nHe wants to know what you are reading.",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "6",
-        "asset_sha256": "cb03ea898c19dac2238b40f7642b0c04b2a0b43edfea972eebe3fbbe06dd4dd2",
+        "asset_sha256": "972ce3ade915616235052e2b49e8b07a43380611058d88657b58459911fea442",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-06/generation.json"
+      },
+      "alt": "He wants to know if you are reading.\nHe wants to know what you are reading.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -1169,19 +1205,25 @@
       "status": "ready",
       "description": "Does Tom always do his homework?\nWhen does Tom do his homework?",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "7",
-        "asset_sha256": "6fb2bc9fb56b82d21174d58d7f012569b9ca5eec7d81b27879d45dd6d18a83df",
+        "asset_sha256": "ff95c18658b243f6973451cd6199bb10d33f1e6647c4f84ec3229beb2c9d5ba1",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-07/generation.json"
+      },
+      "alt": "Does Tom always do his homework?\nWhen does Tom do his homework?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -1189,19 +1231,29 @@
       "status": "ready",
       "description": "What does he want to know?\nWhat does he want to know?",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-08.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "8",
-        "asset_sha256": "7cd71d3b86afcdd65dc982c74002be3f98c51cb4a06868c11b80c605b279f439",
+        "asset_sha256": "6f86ab1878b186343275ba4d84365097876ff3356cf67b793e346b3ea8f5dbf8",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
         "review_record": "illustrations/photo-repairs/140/review.json"
+      },
+      "alt": "What does he want to know?\nWhat does he want to know?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 140,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-09": {
@@ -1209,19 +1261,25 @@
       "status": "ready",
       "description": "He wants to know if Tom always does his homework.\nHe wants to know when Tom does his homework.",
       "source": "../img/lesson-140-01-text.jpg",
-      "src": "assets/lesson-140/photo-panel-09.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-140/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 9 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-140-01-text.jpg",
         "sha256": "1d641ebf6e1b7d5b7c99819322a8ce18f6901c73707aad2d17252822dcf176a5",
         "label": "9",
-        "asset_sha256": "f699a8f4b08588633fe73ac52271f97ada0f7992faf726f5a3b2db45dbcae8e7",
+        "asset_sha256": "f5782291590214ac951a6fc99610c569acbb876700f50b455177acea040b3e3f",
         "generation_record": "illustrations/photo-repairs/140/generation.json",
-        "review_record": "illustrations/photo-repairs/140/review.json"
+        "review_record": "illustrations/photo-repairs/140/review.json",
+        "redraw_manifest": "illustrations/redraw-even/140/group-08/generation.json"
+      },
+      "alt": "He wants to know if Tom always does his homework.\nHe wants to know when Tom does his homework.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/140/group-08/generation.json"
       }
     }
   },

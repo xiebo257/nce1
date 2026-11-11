@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One younger man with short black hair and a blue shirt points to the right while asking a question. One person only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1401114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-140/photo-panel-04.webp",
+      "sha256": "da80bdd341d7029ceb1ca29daa60cfd3e6b32e9413c0fc3bea60fc4774f6a30c"
+    }
+  ],
+  "fingerprint": "0d405f003895b345cc11362e9d596af41d29813e9ce3d13388a15547394083e2",
+  "sha256": "5600012050c53d9fda17099eecbec390995b95fb71a2117925baea2028fe29b4",
+  "reference_sha256": "b702f7d3ca3eefcc0d025fb2973755b21a9403b97582f00e31f0d246a9c1670b",
+  "seconds": 28.23,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/140.json"
+}

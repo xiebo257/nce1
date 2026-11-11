@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME older woman with straight blonde hair in a low bun, pearl necklace and lavender blouse, now holding an OPEN BOOK in one hand while cupping her other hand near her ear. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1401115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-140/photo-panel-05.webp",
+      "sha256": "f814b6a3166b7ba24bd9e05fbd7ba49bc14e174e20f6152f1eaca12649782e99"
+    }
+  ],
+  "fingerprint": "4435ddc0c4ac672dfe9577f48e96339badb14ddc8f92079e6125ed160a670fe7",
+  "sha256": "2c49db60cd459abf3f6a2fd4bad076791a1d20b4b349c92064f97136919043bd",
+  "reference_sha256": "76fb9bf029cb2b375254b9a5c31b60a3f02c84f8300a20efc30c1958a783a459",
+  "seconds": 28.35,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/140.json"
+}

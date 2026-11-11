@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One middle-aged man with a short side-parted brown hairstyle, blue shirt and tie points to the right while asking a question. One person only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1401111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-140/photo-panel-01.webp",
+      "sha256": "5dd0af21d590728dc92ca50d369c55f010731cac7afb77ecff23a1fe6230ebe2"
+    }
+  ],
+  "fingerprint": "b13c40ccbd3533aae43de3afb9d5bb4ee352f1e19afb8ce3737cebd0d9dcc0b1",
+  "sha256": "e3848dd5ce8052ac7963e7087dc8abd227ae27fbf8757c8b0156699004fad46f",
+  "reference_sha256": "aedc707cdbfd7204e0c3fc400ae9c0808dc881a5974cff6633bd4f9e3dede751",
+  "seconds": 26.98,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/140.json"
+}
