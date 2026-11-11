@@ -30813,8 +30813,8 @@
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-144/photo-panel-08.webp",
-          "reference_sha256": "795f584f1897901a87cb4b43627b77a90d22f702278710f691dd4389765f68c3",
+          "reference": "illustrations/redraw-inputs/144-officers-anatomy.png",
+          "reference_sha256": "be8bef5064af9d9e17909d6455ceb68517a552668bb163e70ea8cc4473e6d973",
           "source_photo": "img/lesson-144-01-text.jpg",
           "source_photo_sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
           "previous": {
@@ -30846,7 +30846,8 @@
           "cue": "They haven't been caught yet. They will be caught soon!",
           "text": "They haven't been caught yet. They will be caught soon!",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly TWO uniformed policemen in blue helmets carrying wooden batons beside a doorway, preparing to pursue the burglars. Two policemen only, no thieves in this picture. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
+          "edit_instruction": "Keep exactly these TWO police officers running beside an open door. Correct their anatomy and simplify props: each man has exactly TWO ARMS and TWO HANDS, carries exactly ONE wooden baton in one hand, and his other hand is empty. The officer on the right has ONE baton only, held diagonally up to the right in one hand. Remove his duplicate crossed baton and duplicate third hand, leaving only two ordinary arms and hands. Preserve faces, blue helmets, blue police uniforms, two legs per person, crisp colorful cartoon, white background. No thieves, no extra people, no text.",
+          "source_recheck": "Two-person model retries introduced duplicate arms. Final image composes two copies of the visually checked single model officer, with one doorway and one baton per officer; recorded crop, resize and foreground-mask operations."
         }
       ],
       "group_size": 1,
@@ -30906,6 +30907,42 @@
               "min_value": 60,
               "saturation_delta": -23,
               "value_delta": -40
+            }
+          ]
+        },
+        "photo-panel-08": {
+          "source_asset": "illustrations/redraw-inputs/144-reviewed-single-officer.png",
+          "operations": [
+            {
+              "type": "fit-content",
+              "size": [
+                340,
+                213
+              ],
+              "position": [
+                0,
+                50
+              ]
+            },
+            {
+              "type": "paste-foreground",
+              "asset": "illustrations/redraw-inputs/144-reviewed-single-officer.png",
+              "box": [
+                155,
+                40,
+                485,
+                295
+              ],
+              "size": [
+                230,
+                178
+              ],
+              "position": [
+                270,
+                81
+              ],
+              "min_saturation": 30,
+              "max_dark": 110
             }
           ]
         }

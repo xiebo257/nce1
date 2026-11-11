@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly ONE uniformed policeman in a blue helmet holding a wooden baton beside a doorway, preparing to pursue the burglar. No thief in this picture. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1441116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-144/photo-panel-06.webp",
+      "sha256": "8b649daf637c086c1e6d9614343dcbd138ac901a3304cf8eaad17b10396f803e"
+    }
+  ],
+  "fingerprint": "a9c00dba8bc67629a3652bfaea8a4b652f82e11748fefe7584d9c91096d32eb8",
+  "sha256": "4d52ab51bb1bdac3941d5a72631e8b0e79ac9318c741562e064bec4fd7545b8b",
+  "reference_sha256": "b26a6e2bdef22531f9a04845b2a35522249f2087ee341ca73276e1dbd631ddf6",
+  "seconds": 32.1,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/144.json"
+}

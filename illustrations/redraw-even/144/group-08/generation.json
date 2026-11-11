@@ -1,0 +1,66 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Keep exactly these TWO police officers running beside an open door. Correct their anatomy and simplify props: each man has exactly TWO ARMS and TWO HANDS, carries exactly ONE wooden baton in one hand, and his other hand is empty. The officer on the right has ONE baton only, held diagonally up to the right in one hand. Remove his duplicate crossed baton and duplicate third hand, leaving only two ordinary arms and hands. Preserve faces, blue helmets, blue police uniforms, two legs per person, crisp colorful cartoon, white background. No thieves, no extra people, no text.",
+  "seed": 1441118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/144-officers-anatomy.png",
+      "sha256": "be8bef5064af9d9e17909d6455ceb68517a552668bb163e70ea8cc4473e6d973"
+    }
+  ],
+  "fingerprint": "ac262a2d486e01f885b642bfb8d1403dce30951b36c688dd01902ebab80c553b",
+  "sha256": "849f9bfd4d0dddb29411504430c1ac90e3112677176e91ece3dc8a9a07bb3fa6",
+  "reference_sha256": "576a7424b85434bfd6be529f144e0b6b88446994ffa7984b5f52cbe23e47b536",
+  "seconds": 23.45,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/redraw-inputs/144-reviewed-single-officer.png",
+    "source_sha256": "4d52ab51bb1bdac3941d5a72631e8b0e79ac9318c741562e064bec4fd7545b8b",
+    "operations": [
+      {
+        "type": "fit-content",
+        "size": [
+          340,
+          213
+        ],
+        "position": [
+          0,
+          50
+        ]
+      },
+      {
+        "type": "paste-foreground",
+        "asset": "illustrations/redraw-inputs/144-reviewed-single-officer.png",
+        "box": [
+          155,
+          40,
+          485,
+          295
+        ],
+        "size": [
+          230,
+          178
+        ],
+        "position": [
+          270,
+          81
+        ],
+        "min_saturation": 30,
+        "max_dark": 110,
+        "sha256": "4d52ab51bb1bdac3941d5a72631e8b0e79ac9318c741562e064bec4fd7545b8b"
+      }
+    ],
+    "output_sha256": "615ccb78042d0f6cbeac36631b4ad91c22fee80e3b58aae6e44e496274408654"
+  },
+  "review": "reports/even-illustration-redraw/reviews/144.json"
+}

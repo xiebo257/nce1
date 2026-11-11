@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Correct this single cartoon burglar to have EXACTLY TWO ARMS AND TWO HANDS. Preserve his face, checked cap, eye mask, striped shirt, sack and doorway. The left side hand holds the sack strap beside his chin. His ONLY other arm extends toward the door at right, with ONE hand beside the door. Remove the duplicate lower clenched fist at his right waist and its extra sleeve completely, replacing that small area with clean white background. Two arms total, two hands total, two legs. Keep pose and crisp cartoon style. No additional people or text.",
+  "seed": 1441115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "illustrations/redraw-inputs/144-burglar-anatomy.png",
+      "sha256": "a2ba5a13fe1a04deeb60f3c645dfc206b919ebe39a6bfd0a847936d13fd6f1d0"
+    }
+  ],
+  "fingerprint": "cd5efac2d161afdc30a0a7145c9cd7c4f9f18260106183fef1411d421de384e6",
+  "sha256": "686c5899e405387ab05b74c6f32842dc031816bdd5be4f6eff3de27e0484802c",
+  "reference_sha256": "f38bdce8c3ae0e5b4bffcb695a665a911d80c98a0b83bbbd6169329820a52b81",
+  "seconds": 31.62,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/144.json"
+}

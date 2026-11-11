@@ -489,17 +489,17 @@
       "status": "ready",
       "description": "Hasn't anyone repaired this car yet?",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "1",
-        "asset_sha256": "7d8a8d542ffb5a7d89ac52051f8f8f3ab03d14dd5d8a9f1cbed3548ca6386bed",
+        "asset_sha256": "2fe318a3ecb02c05bf97b30c3b541048f4adf936688bb551e842d48729526525",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -507,7 +507,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-01/generation.json"
+      },
+      "alt": "Hasn't anyone repaired this car yet?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -515,17 +521,17 @@
       "status": "ready",
       "description": "It has already been repaired!",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "2",
-        "asset_sha256": "a722a1f44ba685ffcc7b2e42347a1e0d83ddd07dc37296cbce394d4320d6e8c0",
+        "asset_sha256": "57b983136a7692359af10fa70a8e9507f43be8c77700685740436bb3a8610346",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -533,7 +539,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-02/generation.json"
+      },
+      "alt": "It has already been repaired!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -541,17 +553,17 @@
       "status": "ready",
       "description": "Hasn't anyone corrected these exercise books yet?",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "3",
-        "asset_sha256": "936af34fd5dc114f7ce9fd804b369cbf8cb9b4a5bba74de25eca803bef9b7a58",
+        "asset_sha256": "1fefec52752c309200e20a5c7fc9735e90c2a14d5fab1db9c56200073fea763d",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -559,7 +571,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-03/generation.json"
+      },
+      "alt": "Hasn't anyone corrected these exercise books yet?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -567,17 +585,17 @@
       "status": "ready",
       "description": "They have already been corrected!",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "4",
-        "asset_sha256": "47e0123277662195f2dc256b7ded07d997887cf31091b929131f62b8fb2edcce",
+        "asset_sha256": "0a71d6c652dc375a793293774178b53066417753b54099193a27a26ce6db0e44",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -585,7 +603,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-04/generation.json"
+      },
+      "alt": "They have already been corrected!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -593,17 +617,17 @@
       "status": "ready",
       "description": "Hasn't anyone caught the thief yet?",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "5",
-        "asset_sha256": "263f3b44cd7d7483cdd36fa504aeb2513100c02b28fad258043b95b628936fda",
+        "asset_sha256": "e78bbd39022235868d21fd3679adda2a81d274eab0d45745e1b84ecae8c068da",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -611,7 +635,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-05/generation.json"
+      },
+      "alt": "Hasn't anyone caught the thief yet?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -619,17 +649,17 @@
       "status": "ready",
       "description": "He hasn't been caught yet. He will be caught soon!",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "6",
-        "asset_sha256": "8b649daf637c086c1e6d9614343dcbd138ac901a3304cf8eaad17b10396f803e",
+        "asset_sha256": "e4cf01434fe91dc4c9fffd23e3cf77d0ae6a00e34a8c3156b1e3ac3019bf2a4e",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -637,7 +667,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-06/generation.json"
+      },
+      "alt": "He hasn't been caught yet. He will be caught soon!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -645,17 +681,17 @@
       "status": "ready",
       "description": "Hasn't anyone caught the thieves yet?",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "7",
-        "asset_sha256": "66a79024348f8f1abd7d912a23346b83db9749269b2ed96939fab0eef9345bae",
+        "asset_sha256": "c33b0979964ff4f575968fe7cdcd408170e78c96054d4e8cccde2bdb89f71aef",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -663,7 +699,13 @@
           480,
           256,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-07/generation.json"
+      },
+      "alt": "Hasn't anyone caught the thieves yet?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -671,17 +713,17 @@
       "status": "ready",
       "description": "They haven't been caught yet. They will be caught soon!",
       "source": "../img/lesson-144-01-text.jpg",
-      "src": "assets/lesson-144/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-144/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-144-01-text.jpg",
         "sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
         "label": "8",
-        "asset_sha256": "795f584f1897901a87cb4b43627b77a90d22f702278710f691dd4389765f68c3",
+        "asset_sha256": "bfb667f59bf211a4acbf490470002265cca4becf7392630e72d04a88ebd632d6",
         "reused_asset": "html/assets/lesson-144/l144-pictures-color.webp",
         "reused_sha256": "fc99d3fb2ddea70e4122dccd06a88e92b2ef48adc0fd52a1f80e98834ccaec3d",
         "crop": [
@@ -689,7 +731,13 @@
           480,
           512,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/144/group-08/generation.json"
+      },
+      "alt": "They haven't been caught yet. They will be caught soon!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/144/group-08/generation.json"
       }
     }
   },

@@ -26,6 +26,8 @@ def main():
                 if operation['type'] == 'paste-foreground':
                     with Image.open(operation['asset']) as asset:
                         region = asset.convert('RGB').crop(tuple(operation['box']))
+                    if operation.get('size'):
+                        region = region.resize(tuple(operation['size']), Image.Resampling.LANCZOS)
                     # Explicitly selected cartoon foreground over plain white/gray backgrounds.
                     hsv = list(region.convert('HSV').getdata())
                     mask = Image.new('L', region.size)

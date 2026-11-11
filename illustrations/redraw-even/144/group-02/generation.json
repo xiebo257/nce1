@@ -1,0 +1,88 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME bowler-hatted man in blue listens to one curly brown-haired mechanic in gray overalls, who smiles and spreads his hands to explain the repair is done. Exactly two men. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1441112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-144/photo-panel-02.webp",
+      "sha256": "a722a1f44ba685ffcc7b2e42347a1e0d83ddd07dc37296cbce394d4320d6e8c0"
+    }
+  ],
+  "fingerprint": "f2e7c69ec1c00dcf8efc211630f3f7176e41a8ed3945de0a2235fc54921f4a0e",
+  "sha256": "84c5bb9ad751146e107a98d5bccc640f257adb0a8bbde61c449cea8c31178bbc",
+  "reference_sha256": "d42ede6be021fc0ce6720174fc5d2a7a00d8727267e30b34be211025b7bdacd3",
+  "seconds": 29.84,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/144/group-02/redrawn.png",
+    "source_sha256": "84c5bb9ad751146e107a98d5bccc640f257adb0a8bbde61c449cea8c31178bbc",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          59,
+          31,
+          180,
+          103
+        ],
+        "hue_range": [
+          125,
+          175
+        ],
+        "to_hue": 16,
+        "min_saturation": 80,
+        "min_value": 45,
+        "saturation_delta": -18,
+        "value_delta": -8
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          62,
+          164,
+          199,
+          239
+        ],
+        "hue_range": [
+          125,
+          175
+        ],
+        "to_hue": 150,
+        "min_saturation": 80,
+        "min_value": 60,
+        "saturation_delta": 21,
+        "value_delta": -41
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          92,
+          238,
+          165,
+          268
+        ],
+        "hue_range": [
+          125,
+          175
+        ],
+        "to_hue": 16,
+        "min_saturation": 80,
+        "min_value": 60,
+        "saturation_delta": -23,
+        "value_delta": -40
+      }
+    ],
+    "output_sha256": "1e713fbd4415ba9127d81c00c86f619b5b847f6a83eb22c7aaea1bb34af4670c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/144.json"
+}

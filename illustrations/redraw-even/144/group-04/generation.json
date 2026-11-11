@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Preserve the exact two children from this reference: pale boy with tightly curly blond hair and blue long-sleeved collared shirt, and dark-brown-skinned girl with tightly curly black hair and green collared blouse with white collar. Same faces, same skin colors, same hair, same clothes. Remove the books, desk and furniture. Place both children at left listening to ONE adult female teacher at right, blonde teacher in a black academic gown and black square mortarboard cap. The children lower their arms and look toward the teacher. Exactly three people with ordinary anatomy, clear crisp cartoon lines and white background. No text.",
+  "seed": 1441114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/144-children-cast.png",
+      "sha256": "73f4578b329e8619ec11211100c77cc1c39509fee33b7b9a3bbb008c94e0fcfa"
+    }
+  ],
+  "fingerprint": "65a698b6d42fd2f53f62fdb2bd36cf9917ed2bfe487646e584048cd5e9478cc9",
+  "sha256": "801cf20cff1279a4a1309cc5bd5156c45b040a8100cc01720eb346386bdaaa85",
+  "reference_sha256": "e0fe448e958bb84c30bb9ace66a329448528d2934d53d14977f0c10b384e88de",
+  "seconds": 31.5,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/144.json"
+}

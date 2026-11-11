@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. Two schoolchildren, a curly blonde boy in blue and a curly black-haired girl in green, point toward two stacks of exercise books on a table. Exactly two children. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1441113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-144/photo-panel-03.webp",
+      "sha256": "936af34fd5dc114f7ce9fd804b369cbf8cb9b4a5bba74de25eca803bef9b7a58"
+    }
+  ],
+  "fingerprint": "a70392a9197d46004f8c1f40e92ac6b6ce0e22d3b1d0dc75874d3b1d5761d1ff",
+  "sha256": "73f4578b329e8619ec11211100c77cc1c39509fee33b7b9a3bbb008c94e0fcfa",
+  "reference_sha256": "ce21eb3384cbe0d6b207a7507e91923ec65d9e678d90a780cf02ff3418aa8fe2",
+  "seconds": 30.67,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/144.json"
+}
