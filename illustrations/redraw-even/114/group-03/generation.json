@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue spreading his empty hands, he has no chocolate. No chocolate bars anywhere. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-114/photo-panel-03.webp",
+      "sha256": "8ed62b0676f147f2e230ef3ea4608f5317ba7e42450df6e606fd4dde3aca5d13"
+    }
+  ],
+  "fingerprint": "576c2fd8b2a99f67317fa01aefb2fe72eb63386078a8e8e582a104bc41c3a232",
+  "sha256": "8bb572f93144f8d62f1546866b83b9626a8dcd30bea6981ae38c12519f3c87a5",
+  "reference_sha256": "d6ada29ee4dd7d7241e488d9969f95baaf84eccc42b87db3492396865dd2a66f",
+  "seconds": 52.82,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

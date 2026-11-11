@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME brown-pigtailed girl in green sitting at the same table holding a round biscuit above her plate. A plate of biscuits on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "html/assets/lesson-114/photo-panel-12.webp",
+      "sha256": "2e7166c1f5d26dac1c495d2da48ece0d3697f076292f7562489806323acd485d"
+    }
+  ],
+  "fingerprint": "39d2b7fcf13d198e7cdbe26d537b84d8a7e898b4b2b2e139f3e80ca89204afeb",
+  "sha256": "e9e80f060bb4edfc5667d643db61ba50e0c5533f283e2c16d19c6f28ed3b0904",
+  "reference_sha256": "df0c76482261ac81691379ca936fe6780ac08155e3b09ba2007ce1ac82f42b32",
+  "seconds": 50.34,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

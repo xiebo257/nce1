@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly blonde woman in green showing empty hands and shrugging, she has no chocolate. No chocolate bars anywhere. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-114/photo-panel-02.webp",
+      "sha256": "e996a3015cb237de2c06923e329611be0f54e6a8813158a2fc05e3d08137da38"
+    }
+  ],
+  "fingerprint": "c06ce8df25d8e3d0970627d8298e4c3d9f796325f79090e12869bff6c30e31e4",
+  "sha256": "9bbeb31fbf5e38d0d92d22e0784739b75b97c3975be13de3df1f7db67491fd17",
+  "reference_sha256": "cb525074011b879ef50849f27998a326580e236f1e49c2644c214d417b816211",
+  "seconds": 52.12,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

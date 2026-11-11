@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME straight brown-haired boy in blue sitting at the same table holding a round biscuit above his plate. A plate of biscuits on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "html/assets/lesson-114/photo-panel-11.webp",
+      "sha256": "8cf07573d28dd6dae1cbaed9b5b7a607491130ebce9b3aa9d1fb5c3de97a2124"
+    }
+  ],
+  "fingerprint": "b7f89737a6814910d464dc0bcb67ce004b4131015044f9fa8fd0954c6d2c1a69",
+  "sha256": "e54ce1a71f83a0f9aa3bc095273df3807e0ef98fc8f5d3956a84bd3f7bacf4b1",
+  "reference_sha256": "3b1a2d2b3be09b6388e7e78b86e6a1445e37bfd5fcd276d55c562fd3a94de4ab",
+  "seconds": 51.94,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One straight blonde-haired girl in blue asking about envelopes; a thought bubble contains a small stack of envelopes. Her actual hands are empty. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-114/photo-panel-04.webp",
+      "sha256": "5f3bc824178ab85f28091fab5baeefcbc7badbe6d439c05e87efa75dd3863df6"
+    }
+  ],
+  "fingerprint": "46f9c742f4ddc163639c73d1a6a556ac0cb2bd0d3f1ef351837a0baf3dfb6015",
+  "sha256": "d52804e9b55d4191862a66ff9a27e6a316aaac7661ee4ed020bb1c87f5296470",
+  "reference_sha256": "56e2081045c0e49089e14a2da9b78dc6b3a859bc76fc1d9a3465650926f5f595",
+  "seconds": 52.05,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

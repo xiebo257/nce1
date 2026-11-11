@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME curly blonde mother in a green checked dress holding a plate with round biscuits and asking a question. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-114/photo-panel-10.webp",
+      "sha256": "f58682c7e303c87cfd717510a228dfe51ca4053f11b2e33455273def474e336b"
+    }
+  ],
+  "fingerprint": "892470e3dd95e8a094afd047fd90d314ac8313e5d3724783dd87945215655ed8",
+  "sha256": "bfeddd9356325a872e226addb7da15fd7413ecdd801615d8fb577f928096b07b",
+  "reference_sha256": "c0e2eb75f4a50669f25c410dbd89e4329167324dd873de236f62cd575a9fd133",
+  "seconds": 52.22,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

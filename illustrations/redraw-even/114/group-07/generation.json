@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One curly blonde mother in a green checked dress holding a plate with slices of cake and asking a question. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-114/photo-panel-07.webp",
+      "sha256": "55c68a6273b099ee54443b7a9ff1c8612942903015c5183b19600a3609444fb2"
+    }
+  ],
+  "fingerprint": "260a8a8f06b03f95c853a3032ab3b1849b3153166ad424f37f7c5f950a6fa5e8",
+  "sha256": "5aa80a9cc2f5ba954b0529305993055ba1e1301b2702358ebfd5c3fe78308ab3",
+  "reference_sha256": "1d4e276966838a242ae0eb40fbb450f2a41f5bd61756cfdb386170a185d2f103",
+  "seconds": 50.46,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

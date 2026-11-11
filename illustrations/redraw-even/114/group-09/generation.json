@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Keep this exact girl with two short brown pigtails and green shirt, same face, pose and table. Change the food from biscuits to CAKE: replace the round biscuit in her raised hand with one slice of layered cake; replace the pile of biscuits on the right plate with a small round frosted cake with one slice missing; replace the biscuit on her small front plate with an empty plate. No biscuits remain. Preserve anatomy and all other details, crisp colorful textbook illustration.",
+  "seed": 1141119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "illustrations/redraw-inputs/114-girl-cast.png",
+      "sha256": "e9e80f060bb4edfc5667d643db61ba50e0c5533f283e2c16d19c6f28ed3b0904"
+    }
+  ],
+  "fingerprint": "84472ccc07a9eca44edf32ecaa9f68e1daaef79bf8f6a0b370ede2580acd3d5e",
+  "sha256": "14a0a62d2f993a07412970602ec4300700253a81046f39c84b674fb5dc3b439e",
+  "reference_sha256": "f42c1525ae39adcacbc537195f14402a53908a7b2a0869c2a25cd8efe2298473",
+  "seconds": 49.9,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

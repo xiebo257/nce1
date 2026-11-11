@@ -411,17 +411,17 @@
       "status": "ready",
       "description": "Have you got any chocolate?",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture o · Group 1",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "o",
-        "asset_sha256": "c754af6b03edf0f7d20e591728a72562d21cc11948a36b9c8d47ed84fd71b8be",
+        "asset_sha256": "888898a67c5b74ee56c386cf6becd8c440571f7633fb2678d01c23ca34a3531c",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -429,7 +429,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-01/generation.json"
+      },
+      "alt": "Have you got any chocolate?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -437,17 +443,17 @@
       "status": "ready",
       "description": "I haven't got any. I've got no chocolate. I've got none.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture p · Group 1",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "p",
-        "asset_sha256": "e996a3015cb237de2c06923e329611be0f54e6a8813158a2fc05e3d08137da38",
+        "asset_sha256": "80d06c306958168027d784477b67dee0f982859c072a10ab6567411c760e0a49",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -455,7 +461,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-02/generation.json"
+      },
+      "alt": "I haven't got any. I've got no chocolate. I've got none.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -463,17 +475,17 @@
       "status": "ready",
       "description": "I haven't any either. Neither have I.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture q · Group 1",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "q",
-        "asset_sha256": "8ed62b0676f147f2e230ef3ea4608f5317ba7e42450df6e606fd4dde3aca5d13",
+        "asset_sha256": "0379976428e0f77a781a648c56fff6a2c4e288a6081a7fb11c4f201171092f7c",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -481,7 +493,13 @@
           0,
           768,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-03/generation.json"
+      },
+      "alt": "I haven't any either. Neither have I.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -489,17 +507,17 @@
       "status": "ready",
       "description": "Have you got any envelopes?",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture r · Group 2",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "r",
-        "asset_sha256": "5f3bc824178ab85f28091fab5baeefcbc7badbe6d439c05e87efa75dd3863df6",
+        "asset_sha256": "642c037ed1375ca4a135ffa088f04531dfc8d8d35ab84ee060ebaa6db600592e",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -507,7 +525,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-04/generation.json"
+      },
+      "alt": "Have you got any envelopes?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -515,17 +539,17 @@
       "status": "ready",
       "description": "I haven't got any. I've got no envelopes. I've got none.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture s · Group 2",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "s",
-        "asset_sha256": "df15630db09b6a4dd4619f72cbca1bf2f897a52a692679769aa99426a5b590a6",
+        "asset_sha256": "e8bce6a7f03d441b2263cba7dcdeb69dfe5af7e9d61d43d5421ffef617890fdd",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -533,7 +557,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-05/generation.json"
+      },
+      "alt": "I haven't got any. I've got no envelopes. I've got none.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -541,17 +571,17 @@
       "status": "ready",
       "description": "I haven't any either. Neither have I.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture t · Group 2",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "t",
-        "asset_sha256": "740536380c97e3d4e91a6c832123865e0bba85760752cc30d949bda5fda68aa9",
+        "asset_sha256": "0379976428e0f77a781a648c56fff6a2c4e288a6081a7fb11c4f201171092f7c",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -559,7 +589,13 @@
           160,
           768,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-06/generation.json"
+      },
+      "alt": "I haven't any either. Neither have I.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -567,17 +603,17 @@
       "status": "ready",
       "description": "Have you got any cake?",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture u · Group 3",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "u",
-        "asset_sha256": "55c68a6273b099ee54443b7a9ff1c8612942903015c5183b19600a3609444fb2",
+        "asset_sha256": "41c018f85bea899b5d41e251079935145426af7bd1f04692c78e88511f278a39",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -585,7 +621,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-07/generation.json"
+      },
+      "alt": "Have you got any cake?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -593,17 +635,17 @@
       "status": "ready",
       "description": "I've got some.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture v · Group 3",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "v",
-        "asset_sha256": "7fc0c37f1325917139d30accb95c0d325e767061f9b314e0bfdd4463cf130f2c",
+        "asset_sha256": "e9d2286a531b4f4f5b3aa47edc520ef0dc2caf861f5f8de5d64f49ff3f988ca5",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -611,7 +653,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-08/generation.json"
+      },
+      "alt": "I've got some.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-08/generation.json"
       }
     },
     "photo-panel-09": {
@@ -619,17 +667,17 @@
       "status": "ready",
       "description": "So have I.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture w · Group 3",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "w",
-        "asset_sha256": "796e61fdf50e09e45028d82f2cbf3e7f1d2961f742e6c15e657f7cd422447fba",
+        "asset_sha256": "efc7fc36e33a61921e49cdf6d03ff047a2f278121bda85fd1640e757b98860e8",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -637,7 +685,13 @@
           320,
           768,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-09/generation.json"
+      },
+      "alt": "So have I.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-09/generation.json"
       }
     },
     "photo-panel-10": {
@@ -645,17 +699,17 @@
       "status": "ready",
       "description": "Have you got any biscuits?",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-10.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture x · Group 4",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "x",
-        "asset_sha256": "f58682c7e303c87cfd717510a228dfe51ca4053f11b2e33455273def474e336b",
+        "asset_sha256": "8d7031df1b90c8d61e1ac330d49230dc42a33d3d1be5dd7a5658a49d361f0ae3",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -663,7 +717,13 @@
           480,
           256,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/114/group-10/generation.json"
+      },
+      "alt": "Have you got any biscuits?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-10/generation.json"
       }
     },
     "photo-panel-11": {
@@ -671,17 +731,17 @@
       "status": "ready",
       "description": "I've got some.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-11.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture y · Group 4",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "y",
-        "asset_sha256": "8cf07573d28dd6dae1cbaed9b5b7a607491130ebce9b3aa9d1fb5c3de97a2124",
+        "asset_sha256": "47f7dd24cf238ff0bb06ab536b5abefc4ea08254a46e11b3ab00360dd0cc39b5",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -690,7 +750,13 @@
           512,
           640
         ],
-        "limitation": "bottom caption cropped; retained existing unverified wording"
+        "limitation": "bottom caption cropped; retained existing unverified wording",
+        "redraw_manifest": "illustrations/redraw-even/114/group-11/generation.json"
+      },
+      "alt": "I've got some.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-11/generation.json"
       }
     },
     "photo-panel-12": {
@@ -698,17 +764,17 @@
       "status": "ready",
       "description": "So have I.",
       "source": "../img/lesson-114-01-text.jpg",
-      "src": "assets/lesson-114/photo-panel-12.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-114/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture z · Group 4",
       "photo_verification": {
         "photo": "img/lesson-114-01-text.jpg",
         "sha256": "d95bfd208af144ac2182222131bfeab939b8e6491fe2f23b403cc8605f5a2a6b",
         "label": "z",
-        "asset_sha256": "2e7166c1f5d26dac1c495d2da48ece0d3697f076292f7562489806323acd485d",
+        "asset_sha256": "5fca06b8b7fff7016d5f5ceac6a5af0dc225e0e3df44959a46c872bb0ca844fa",
         "reused_asset": "html/assets/lesson-114/l114-items-grid-color.webp",
         "reused_sha256": "cc41a89fad59738ed3df3d515259a76d4f1366588e2bf31f1ced467951fc90dc",
         "crop": [
@@ -717,7 +783,13 @@
           768,
           640
         ],
-        "limitation": "bottom caption cropped; retained existing unverified wording"
+        "limitation": "bottom caption cropped; retained existing unverified wording",
+        "redraw_manifest": "illustrations/redraw-even/114/group-12/generation.json"
+      },
+      "alt": "So have I.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/114/group-12/generation.json"
       }
     }
   },

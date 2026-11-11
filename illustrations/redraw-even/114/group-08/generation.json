@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One boy with straight brown hair and blue shirt sitting at a table holding a slice of cake above his plate. A serving cake on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-114/photo-panel-08.webp",
+      "sha256": "7fc0c37f1325917139d30accb95c0d325e767061f9b314e0bfdd4463cf130f2c"
+    }
+  ],
+  "fingerprint": "6dd5a5c20f4dd40e29c00f026c28b22d501c7065fcfd26b5354289a5d855c57f",
+  "sha256": "542fdd0199f8a41f38c7651ad1f477bed09f4a8451d936741b4bdfba60dfe3a9",
+  "reference_sha256": "442d780a5c70f2abc4c506aeabaa22906679bf879ced49f96ba39e8f727c3115",
+  "seconds": 50.48,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}

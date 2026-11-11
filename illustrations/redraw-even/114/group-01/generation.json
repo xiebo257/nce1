@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One small curly-haired boy in blue asking about chocolate, with a thought bubble containing exactly one chocolate bar. No actual chocolate in his hands. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1141111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-114/photo-panel-01.webp",
+      "sha256": "c754af6b03edf0f7d20e591728a72562d21cc11948a36b9c8d47ed84fd71b8be"
+    }
+  ],
+  "fingerprint": "7c7ebc4633c27ac958c7e5863857df00e143d22ae54ebb6bbd3da746ba438766",
+  "sha256": "1373095b3bd48fa42f65f7caf8b5732b565f9021829bc595de71aadd7a996704",
+  "reference_sha256": "39d5617aef35cdc0d3e6ea094ea4a924205c671003a7838dd29d403f5293dfc0",
+  "seconds": 50.36,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/114.json"
+}
