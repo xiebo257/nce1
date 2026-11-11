@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One older man in blue wearing his spectacles ON HIS FACE looks puzzled, while a small straight-haired girl in green points at the spectacles. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "html/assets/lesson-116/photo-panel-12.webp",
+      "sha256": "0268bbff57d9cac1b5fc60d1cde0852ed43138cad6fe7a1a86b5da16bcc5ae55"
+    }
+  ],
+  "fingerprint": "b18c3ea72d7eb5e913b5ff328707a1a4ea007866048074b10db3439008a9ad8b",
+  "sha256": "bc34e80e9e26f82e791e6e8cf879cdebb68d8f4284fe56bd14b7741800c82670",
+  "reference_sha256": "f65425410ad1979d78635fe8ce33881d22d438a0c3294f785bdb1f6e1987ef53",
+  "seconds": 50.37,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

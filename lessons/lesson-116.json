@@ -455,17 +455,17 @@
       "status": "ready",
       "description": "Everyone is asleep. Everybody is asleep.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture a",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "a",
-        "asset_sha256": "1a5f9f152cf2e49a9149c37a83589db2792b624e87c10509d36cc6cecf3a006a",
+        "asset_sha256": "baa98a57af8b7bc5119579b2e0857dfbd0a295926b6c056ac92ebf7274aeff8c",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -473,7 +473,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-01/generation.json"
+      },
+      "alt": "Everyone is asleep. Everybody is asleep.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -481,17 +487,17 @@
       "status": "ready",
       "description": "Everything is untidy.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture b",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "b",
-        "asset_sha256": "b119181feeaf7bf9a76459680b61930fd54bfebe9e851ef27736bf254db15338",
+        "asset_sha256": "0aad837623ed4efa082b4a2cbfce59fe3c60e73652fe3e52aa5741761ffd15ea",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -499,7 +505,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-02/generation.json"
+      },
+      "alt": "Everything is untidy.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -507,17 +519,17 @@
       "status": "ready",
       "description": "I looked for my pen everywhere.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture c",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "c",
-        "asset_sha256": "f24fd256ec352619b2882ccee2fd9fe85423ea2d976c774d7268b72bfc29c2ef",
+        "asset_sha256": "75e9ae1bf689cdce597484926fa04feefd0453710cf1f9e04dd10b0418a8c586",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -525,7 +537,13 @@
           0,
           768,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-03/generation.json"
+      },
+      "alt": "I looked for my pen everywhere.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -533,17 +551,17 @@
       "status": "ready",
       "description": "Is there anyone at home? Is there anybody at home?",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture d",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "d",
-        "asset_sha256": "cb591a8570f4c841db8246b629d7a597d1971f2c54341fd598ee072293c24651",
+        "asset_sha256": "cb8338b0815d84ad5d5b740bfd62ff0d11a82dfae26e673e6c9e94126c4e995e",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -551,7 +569,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-04/generation.json"
+      },
+      "alt": "Is there anyone at home? Is there anybody at home?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -559,17 +583,17 @@
       "status": "ready",
       "description": "Is there anything in that box?",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture e",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "e",
-        "asset_sha256": "2c6693879f1da11013cf0ec8cebdc8057462795e4a51d822cba9317ce1c13a1a",
+        "asset_sha256": "ca610613609afc6ea6d8e4dbf88892095123ef579cf8bf9415b388812ac7cbe6",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -577,7 +601,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-05/generation.json"
+      },
+      "alt": "Is there anything in that box?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -585,17 +615,17 @@
       "status": "ready",
       "description": "I couldn't find my pen anywhere.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture f",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "f",
-        "asset_sha256": "0413fb8c415026abeb73151d4ae9b505c661ae4b9c8e8f75abc1fc92a82e330a",
+        "asset_sha256": "257386d4b18bf783699f53c3324177dbac7e78cdf9e881e6cddfd0a52812b7c7",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -603,7 +633,13 @@
           160,
           768,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-06/generation.json"
+      },
+      "alt": "I couldn't find my pen anywhere.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -611,17 +647,17 @@
       "status": "ready",
       "description": "There's no one at home. There's nobody at home.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture g",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "g",
-        "asset_sha256": "31df1cd9be3be531743bab615702668c36c2a880692c7fd901891889b266650b",
+        "asset_sha256": "33f47b52cb6c5dd0cfd4bf375a98ecefc3686bab7e637f80ecf77ce4e44d453c",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -629,7 +665,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-07/generation.json"
+      },
+      "alt": "There's no one at home. There's nobody at home.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -637,17 +679,17 @@
       "status": "ready",
       "description": "There's nothing in this box.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture h",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "h",
-        "asset_sha256": "e09a5e80c42f4b5a8a394eaa3b8f732ae48a95a4abea9bc78160ecb502c562d3",
+        "asset_sha256": "8ed735d5df58e328d4bfd10aa782eaec09162bf3177ab2176b9cd0ea3fd8f256",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -655,7 +697,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-08/generation.json"
+      },
+      "alt": "There's nothing in this box.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-08/generation.json"
       }
     },
     "photo-panel-09": {
@@ -663,17 +711,17 @@
       "status": "ready",
       "description": "Where did you go yesterday? Nowhere. I stayed at home.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture i",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "i",
-        "asset_sha256": "dc9b412dd515207d84f696296b1685084198c5bb0625e53f0b039e5fbb89e9d5",
+        "asset_sha256": "d5655732cd47af12e84ea5922c6fcaad890f403cb730ec320c68e44ec7bd17d6",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -681,7 +729,13 @@
           320,
           768,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-09/generation.json"
+      },
+      "alt": "Where did you go yesterday? Nowhere. I stayed at home.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-09/generation.json"
       }
     },
     "photo-panel-10": {
@@ -689,17 +743,17 @@
       "status": "ready",
       "description": "There's someone in the garden. There's somebody in the garden.",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-10.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture j",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "j",
-        "asset_sha256": "aa719c18963ec8286867ec17a7210218ba9cad301183928d3c01fcda1f37b4ac",
+        "asset_sha256": "16137708db63f833bd29a82522a09e7ed2e981d4a9ec9a556b19870e5f0ad821",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -707,7 +761,13 @@
           480,
           256,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-10/generation.json"
+      },
+      "alt": "There's someone in the garden. There's somebody in the garden.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-10/generation.json"
       }
     },
     "photo-panel-11": {
@@ -715,17 +775,17 @@
       "status": "ready",
       "description": "There's something under that chair!",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-11.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture k",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "k",
-        "asset_sha256": "9cb2182509305f3cdc81ba707f7c7fcbea2735eb38113eb1683fd03f0676c5a9",
+        "asset_sha256": "a3d8cc23ceac3d8795ca7af1390f1d946bf00afe93ee477220156fe953471ff7",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -733,7 +793,13 @@
           480,
           512,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-11/generation.json"
+      },
+      "alt": "There's something under that chair!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-11/generation.json"
       }
     },
     "photo-panel-12": {
@@ -741,17 +807,17 @@
       "status": "ready",
       "description": "My glasses must be somewhere! You're wearing them!",
       "source": "../img/lesson-116-01-text.jpg",
-      "src": "assets/lesson-116/photo-panel-12.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-116/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture l",
       "photo_verification": {
         "photo": "img/lesson-116-01-text.jpg",
         "sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
         "label": "l",
-        "asset_sha256": "0268bbff57d9cac1b5fc60d1cde0852ed43138cad6fe7a1a86b5da16bcc5ae55",
+        "asset_sha256": "55b6aacc93881e034495ede4986504bc9c0838c0ecc97daa22e3a8b02b9e836d",
         "reused_asset": "html/assets/lesson-116/l116-items-grid-color.webp",
         "reused_sha256": "860fb41948cf3452196ee72995d7c0c30e9231318e5637e373e4cbe6e2abccf5",
         "crop": [
@@ -759,7 +825,13 @@
           480,
           768,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/116/group-12/generation.json"
+      },
+      "alt": "My glasses must be somewhere! You're wearing them!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/116/group-12/generation.json"
       }
     }
   },

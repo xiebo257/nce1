@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. A curly-haired woman in green and balding man in blue sit at home near a television, talking. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-116/photo-panel-09.webp",
+      "sha256": "dc9b412dd515207d84f696296b1685084198c5bb0625e53f0b039e5fbb89e9d5"
+    }
+  ],
+  "fingerprint": "50d6b8e8254f1d143a67d43c3924564b11e644b43b293475c219de1d15a6ce53",
+  "sha256": "e043d480bf21186ec73a7d0dbf2346eadf9e49d706df69c44dcf910499c2236a",
+  "reference_sha256": "0ffda73396121379791fb5f7d3e113e54deaeb582906731064d8d1a6536261b4",
+  "seconds": 50.45,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

@@ -25958,8 +25958,8 @@
         },
         {
           "slot": "photo-panel-08",
-          "reference": "html/assets/lesson-116/photo-panel-08.webp",
-          "reference_sha256": "e09a5e80c42f4b5a8a394eaa3b8f732ae48a95a4abea9bc78160ecb502c562d3",
+          "reference": "illustrations/redraw-inputs/116-box-cast.png",
+          "reference_sha256": "2cf07139597bd056cc08bc30323b3d350e0b268fe557c021d7e6b2bb945180ba",
           "source_photo": "img/lesson-116-01-text.jpg",
           "source_photo_sha256": "c2f6f9fbdf4266232394a0e0bc232608e7f94f8ba15f2a4b91e16528a9eb53ff",
           "previous": {
@@ -25991,7 +25991,7 @@
           "cue": "There's nothing in this box.",
           "text": "There's nothing in this box.",
           "mode": "model-redraw",
-          "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. The same curly black-haired woman in green and straight brown-haired man in blue stand on either side of the same box, now OPEN and visibly EMPTY. No objects or faces in the box. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
+          "edit_instruction": "Change ONLY the closed gray box in the middle to the SAME GRAY BOX with its lid OPEN, showing a completely EMPTY interior. Preserve exactly the two people: woman at left with curly black hair, brown skin, green blouse and brown shoes; man at right with straight brown hair, fair skin, blue shirt and navy trousers. Keep their faces, skin colors, clothing and positions unchanged. No objects inside box. Crisp colorful cartoon on white."
         },
         {
           "slot": "photo-panel-09",
@@ -26142,7 +26142,75 @@
           "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. One older man in blue wearing his spectacles ON HIS FACE looks puzzled, while a small straight-haired girl in green points at the spectacles. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-10": {
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                40,
+                148,
+                126,
+                228
+              ],
+              "hue_range": [
+                0,
+                15
+              ],
+              "to_hue": 127,
+              "min_saturation": 115,
+              "saturation_delta": -40,
+              "value_delta": 5
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                127,
+                163,
+                211,
+                220
+              ],
+              "hue_range": [
+                130,
+                175
+              ],
+              "to_hue": 240,
+              "min_saturation": 100,
+              "saturation_delta": -40,
+              "value_delta": 20
+            }
+          ]
+        },
+        "photo-panel-11": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "fill": "#add99c",
+              "polygons": [
+                [
+                  [
+                    237,
+                    216
+                  ],
+                  [
+                    302,
+                    216
+                  ],
+                  [
+                    304,
+                    258
+                  ],
+                  [
+                    237,
+                    258
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      }
     },
     "118": {
       "sections_sha256": "d7494ca8facace0399b534ea1797b9f06b544c74e7b7a90e1e7c92500e703d2c",

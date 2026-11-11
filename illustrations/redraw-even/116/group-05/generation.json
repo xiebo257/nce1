@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. A curly black-haired woman in green and a straight brown-haired man in blue stand on either side of a CLOSED rectangular box. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-116/photo-panel-05.webp",
+      "sha256": "2c6693879f1da11013cf0ec8cebdc8057462795e4a51d822cba9317ce1c13a1a"
+    }
+  ],
+  "fingerprint": "eb1395a0edb1b13ae329c235e26e3637bf22fa655c684e8d861684c688c730f7",
+  "sha256": "2cf07139597bd056cc08bc30323b3d350e0b268fe557c021d7e6b2bb945180ba",
+  "reference_sha256": "67f99c2915fa8003df09e86d9e397c27757557f4579d630ef251ad16bdd1a910",
+  "seconds": 50.04,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

@@ -1,0 +1,58 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. A curly black-haired woman in green stands on a stool pointing toward a small mouse UNDER a wooden chair. Exactly one woman and one mouse. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "html/assets/lesson-116/photo-panel-11.webp",
+      "sha256": "9cb2182509305f3cdc81ba707f7c7fcbea2735eb38113eb1683fd03f0676c5a9"
+    }
+  ],
+  "fingerprint": "f8aac767db7cc4d68bbc1012a1b59e594b387655d9bc4a10b0c69113b60dafa9",
+  "sha256": "a860c0d02cba3b3051122fb0d26c8d0975a9d3a69e1865fc924a77b804e739f4",
+  "reference_sha256": "e1af8e466526e24da21d913f1de86ed438661a18e18fc5a24edff0266c8f3338",
+  "seconds": 50.8,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/116/group-11/redrawn.png",
+    "source_sha256": "a860c0d02cba3b3051122fb0d26c8d0975a9d3a69e1865fc924a77b804e739f4",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "#add99c",
+        "polygons": [
+          [
+            [
+              237,
+              216
+            ],
+            [
+              302,
+              216
+            ],
+            [
+              304,
+              258
+            ],
+            [
+              237,
+              258
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "93780a0f0abdb581d3be444115819fa08817a2394b4ce4374148e601f0f0cea3"
+  },
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

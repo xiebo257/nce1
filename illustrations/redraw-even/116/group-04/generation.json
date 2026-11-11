@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. Two children outside a house, one knocking on its closed front door while the other watches. One black-bob-haired girl and one short black-haired boy. Nobody visible inside. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-116/photo-panel-04.webp",
+      "sha256": "cb591a8570f4c841db8246b629d7a597d1971f2c54341fd598ee072293c24651"
+    }
+  ],
+  "fingerprint": "fe92a61dd3bdedfdc55dddb450a857f34be1941bb85c76450da53bf1d00fc0da",
+  "sha256": "01829d81f79b9e33009c3de59d4649cae079b2c1dbfa801d6ba975c425d47888",
+  "reference_sha256": "8ee15dc55a65817ec090dc5e8f3c751b69466f8dab81ed39089f63a63ae65443",
+  "seconds": 50.16,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

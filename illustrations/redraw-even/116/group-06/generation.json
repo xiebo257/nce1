@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue standing with empty palms spread and a disappointed expression after failing to find his pen. No pen in his hands. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-116/photo-panel-06.webp",
+      "sha256": "0413fb8c415026abeb73151d4ae9b505c661ae4b9c8e8f75abc1fc92a82e330a"
+    }
+  ],
+  "fingerprint": "f71d321554cf9a86b7c2fad6744494e7a9263b946c54006c76b8a8ccf42c78b7",
+  "sha256": "3a25ddf2d4d2c802d960a04c2f9f1fb472c8ab52be927fd24cd1bea3eff7219f",
+  "reference_sha256": "9f5c6da992f375e2c845c57c52a0d1615eaf1a2bed21004e225b1732c6050855",
+  "seconds": 51.58,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

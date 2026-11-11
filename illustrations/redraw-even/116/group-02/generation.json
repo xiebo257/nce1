@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. An untidy empty living room: two armchairs, skewed wall pictures, books and cups scattered on floor, a flower vase by the window. No people or faces. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-116/photo-panel-02.webp",
+      "sha256": "b119181feeaf7bf9a76459680b61930fd54bfebe9e851ef27736bf254db15338"
+    }
+  ],
+  "fingerprint": "df028e2947f1fd635c01699e5cd2a1af49c010d492d3d97e1153fe22a6ffd60c",
+  "sha256": "55bbd0f1eab339f2c63edf3dbfac8af59ac94e9a033a1babc4fb69650fad2317",
+  "reference_sha256": "8f6d236e7cf52c2ac46ae4ab2005e025d5b8717a989ad30e616f633b91501a8c",
+  "seconds": 51.33,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

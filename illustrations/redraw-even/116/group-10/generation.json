@@ -1,0 +1,68 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. Two children with dark hair stand outside a garden looking toward one gardener near a tree inside the garden. Exactly three people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-116/photo-panel-10.webp",
+      "sha256": "aa719c18963ec8286867ec17a7210218ba9cad301183928d3c01fcda1f37b4ac"
+    }
+  ],
+  "fingerprint": "96de2296f007050c38aa5a455a1cb021d97324f788425b93c6fb6e96e9707ab2",
+  "sha256": "b1761452e200fb8cafbca9eb5cb30c337754f9987b1f8a48a47a58e718ffb8fe",
+  "reference_sha256": "eab98d412be63793888845b0997c5476ce255bebf4784f82a268b78a21a63f02",
+  "seconds": 49.46,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/116/group-10/redrawn.png",
+    "source_sha256": "b1761452e200fb8cafbca9eb5cb30c337754f9987b1f8a48a47a58e718ffb8fe",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          40,
+          148,
+          126,
+          228
+        ],
+        "hue_range": [
+          0,
+          15
+        ],
+        "to_hue": 127,
+        "min_saturation": 115,
+        "saturation_delta": -40,
+        "value_delta": 5
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          127,
+          163,
+          211,
+          220
+        ],
+        "hue_range": [
+          130,
+          175
+        ],
+        "to_hue": 240,
+        "min_saturation": 100,
+        "saturation_delta": -40,
+        "value_delta": 20
+      }
+    ],
+    "output_sha256": "92ab7676bc0762254a8020bceff694257fd1da543457d172148912863af1dddc"
+  },
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

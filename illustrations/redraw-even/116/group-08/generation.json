@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the closed gray box in the middle to the SAME GRAY BOX with its lid OPEN, showing a completely EMPTY interior. Preserve exactly the two people: woman at left with curly black hair, brown skin, green blouse and brown shoes; man at right with straight brown hair, fair skin, blue shirt and navy trousers. Keep their faces, skin colors, clothing and positions unchanged. No objects inside box. Crisp colorful cartoon on white.",
+  "seed": 1161118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "illustrations/redraw-inputs/116-box-cast.png",
+      "sha256": "2cf07139597bd056cc08bc30323b3d350e0b268fe557c021d7e6b2bb945180ba"
+    }
+  ],
+  "fingerprint": "a4e51e727cc8ed5001f96d957cf7662262ae139890a95ec0e4c0330d7fd6f255",
+  "sha256": "d9a13e35ef9b866fc7c88626ef33633fa21e20c49c5be444ae53706a2fc423e0",
+  "reference_sha256": "ae412f3e07f08629f990454260a05529b19104446bf6ed0d1a6b42c78ce8c3b4",
+  "seconds": 50.59,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

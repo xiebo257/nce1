@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One short black-haired boy outside looking through an open window into an EMPTY house, no occupants inside. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-116/photo-panel-07.webp",
+      "sha256": "31df1cd9be3be531743bab615702668c36c2a880692c7fd901891889b266650b"
+    }
+  ],
+  "fingerprint": "da7bff604c510ee0bf01cb205dc5a1182a7acd5e3631beffc01b25b5b9d19765",
+  "sha256": "2f836f2e5636171ff46f050f9cde8e0e89e8462f2b7b01f97403da9821512ded",
+  "reference_sha256": "a26520081d5c04d62f99da77032d48ccfeb6512e2f2346475d4475995ca11f9d",
+  "seconds": 52.07,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

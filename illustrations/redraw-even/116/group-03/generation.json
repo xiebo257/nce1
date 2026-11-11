@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. One balding man in blue kneeling on the floor and lifting a corner of a patterned rug looking for a pen. No pen found and no extra people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-116/photo-panel-03.webp",
+      "sha256": "f24fd256ec352619b2882ccee2fd9fe85423ea2d976c774d7268b72bfc29c2ef"
+    }
+  ],
+  "fingerprint": "c1b333c66ab66a8d1f74922570f3b87b29eb99969d90d8ff9ddddd390b2e3540",
+  "sha256": "c08b756aa41e285ed7d01853f44beb605f55ba830486901345d029b060370e7c",
+  "reference_sha256": "1017999374a40e579ac516fca210835fb671f8afe3d5ee849994628e2d8bc69d",
+  "seconds": 49.54,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}

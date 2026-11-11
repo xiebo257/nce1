@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed scene as one crisp full-color educational cartoon. Two people in pyjamas standing sleepily in a doorway at night, both with eyes closed, next to a dark curtained window. Exactly two people. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people.",
+  "seed": 1161111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-116/photo-panel-01.webp",
+      "sha256": "1a5f9f152cf2e49a9149c37a83589db2792b624e87c10509d36cc6cecf3a006a"
+    }
+  ],
+  "fingerprint": "55280b56126ffdee86a383cb3630baa0adf351652ba639cbbe466c28b64e880a",
+  "sha256": "d6180ae823f3ef6c12a2d13e7c6712bb6220acc81a8582b9604093cadf7df4cb",
+  "reference_sha256": "63c9e80ec728f44c43e7f53f4acaf504d1289d4673768f843dbcbddc45532f0c",
+  "seconds": 51.49,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/116.json"
+}
