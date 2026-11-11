@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly black-haired woman with green blouse looks embarrassed, her cheeks visibly blushing pink, not spotted or bruised. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1421111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-142/photo-panel-01.webp",
+      "sha256": "18b236af782b4a895652cc5f23c29574f25f183cf29329a7de7599e14b4a34aa"
+    }
+  ],
+  "fingerprint": "e257de715ce79e52a633cb309713b62204c6412c3db84366b06a79d508239266",
+  "sha256": "6dc144a292e896ce5a768cd93a29606e652d4bfce95d61f93136f7bd2a7d1368",
+  "reference_sha256": "98550c572d13edddd20cf35010620dd56c60c4ef857327c3ccbc4e504b868afb",
+  "seconds": 28.52,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/142.json"
+}

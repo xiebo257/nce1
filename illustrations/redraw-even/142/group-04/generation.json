@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly brown-haired mechanic in blue overalls works under the OPEN hood of an old blue car. Exactly one mechanic, two ordinary arms. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1421114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-142/photo-panel-04.webp",
+      "sha256": "c76c2783235003d06c91d175c21497b106e498d816a8d9dbe66aacdbde780873"
+    }
+  ],
+  "fingerprint": "1de4b62fbac6ad55f9208d8f87cd3e710b290134f627914eab1c1fdcd6d41ae5",
+  "sha256": "24287e6da58e8ccfedc87c940199dd2360f95a7ebf59d8a1720dc17af60d536f",
+  "reference_sha256": "4a42a9bb84ffcbc53fc67daf8f3dce3c81b27d0ffb8605c1e24451a66db88f76",
+  "seconds": 30.99,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/142.json"
+}

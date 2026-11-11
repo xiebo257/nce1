@@ -699,17 +699,17 @@
       "status": "ready",
       "description": "She is embarrassed.",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "1",
-        "asset_sha256": "18b236af782b4a895652cc5f23c29574f25f183cf29329a7de7599e14b4a34aa",
+        "asset_sha256": "69b37e11fe0d710e4e5403102c6cecd6049aa789536264869b0be0b90a1e3a5d",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -717,7 +717,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-01/generation.json"
+      },
+      "alt": "She is embarrassed.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -725,17 +731,17 @@
       "status": "ready",
       "description": "They are worried.",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "2",
-        "asset_sha256": "398faa5d7554a2a16ead8cf2899b0c7f454364f981031beaa6555a759ea0a923",
+        "asset_sha256": "6bd740674613a2f4ac16155405dacfdcd9c14cdb3ee3405fafb2dc92ec5b3baa",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -743,7 +749,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-02/generation.json"
+      },
+      "alt": "They are worried.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -751,17 +763,17 @@
       "status": "ready",
       "description": "Does anyone ever repair this car?",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "3",
-        "asset_sha256": "983a1ffa540df68ec77106e69479edde93931d0b680369244a47eabad72cc64b",
+        "asset_sha256": "21722c90677a169ad503a001a85a410b840d99b9699ef187bfb0e9f39084a5a6",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -769,7 +781,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-03/generation.json"
+      },
+      "alt": "Does anyone ever repair this car?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -777,17 +795,17 @@
       "status": "ready",
       "description": "Someone repairs it regularly. It is repaired regularly.",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "4",
-        "asset_sha256": "c76c2783235003d06c91d175c21497b106e498d816a8d9dbe66aacdbde780873",
+        "asset_sha256": "9a2b1296d35ec73f1e43b13b507ac101d13a8f7f3696b983202bea904cd632f6",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -795,7 +813,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-04/generation.json"
+      },
+      "alt": "Someone repairs it regularly. It is repaired regularly.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -803,17 +827,17 @@
       "status": "ready",
       "description": "Does anyone ever correct these exercise books?",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "5",
-        "asset_sha256": "22be7d0e5852466157977dfd871a0c06a5624c1c84a7e277fc80d88a8a856ed9",
+        "asset_sha256": "266107dd396d7baa21747c4e1db60142d4fec1dec83f10fc79a73320cdf54acd",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -821,7 +845,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-05/generation.json"
+      },
+      "alt": "Does anyone ever correct these exercise books?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -829,17 +859,17 @@
       "status": "ready",
       "description": "Someone corrects them regularly. They are corrected regularly.",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "6",
-        "asset_sha256": "e084fd5a368f242f15a6fc00830344f5413852bc894ee602b414eab646e8a790",
+        "asset_sha256": "35e60dd0660bd3bec2f446c2630817ca422ff0e431a5a7dceb6272589d72887e",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -847,7 +877,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-06/generation.json"
+      },
+      "alt": "Someone corrects them regularly. They are corrected regularly.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -855,17 +891,17 @@
       "status": "ready",
       "description": "Did anyone meet him at the station this morning?",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "7",
-        "asset_sha256": "47e813dea8aaff4b95c777464dc6536450bd3b9fcee4aaa32b2b8c9960f2e4c8",
+        "asset_sha256": "35927f46c5db92799b1e413c1c109e278097968c5989339a55695af170e0f58d",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -873,7 +909,13 @@
           480,
           256,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-07/generation.json"
+      },
+      "alt": "Did anyone meet him at the station this morning?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -881,17 +923,17 @@
       "status": "ready",
       "description": "Someone met him at the station this morning. He was met at the station this morning.",
       "source": "../img/lesson-142-01-text.jpg",
-      "src": "assets/lesson-142/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-142/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-142-01-text.jpg",
         "sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
         "label": "8",
-        "asset_sha256": "5a1e9850cfc1ee65c6d7a2f0847fd4c694643cf778cde5907dc86a01d83357d3",
+        "asset_sha256": "dfef1d9ec3414d7ca14a0c5c19f1090a78ccbdd4ed2b572fbe6ba1b9b7233763",
         "reused_asset": "html/assets/lesson-142/l142-pictures-color.webp",
         "reused_sha256": "25655876309c07b3d89e0385b0c6f5bff32cd5a69a024633d78d67e96408971c",
         "crop": [
@@ -899,7 +941,13 @@
           480,
           512,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/142/group-08/generation.json"
+      },
+      "alt": "Someone met him at the station this morning. He was met at the station this morning.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/142/group-08/generation.json"
       }
     }
   },

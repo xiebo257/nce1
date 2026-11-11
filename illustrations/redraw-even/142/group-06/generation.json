@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One short black-haired male teacher in blue seated at a desk correcting an exercise book with a red pen, stacks of books on both sides. One person, two hands. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1421116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-142/photo-panel-06.webp",
+      "sha256": "e084fd5a368f242f15a6fc00830344f5413852bc894ee602b414eab646e8a790"
+    }
+  ],
+  "fingerprint": "efdb286f2535ff3257d2526adb595e92ccb02a4b2d95170233742f144c19f456",
+  "sha256": "c939c32d8958cedf61b0dc5348e893d311f4e355005abd055b10257fbd8bab62",
+  "reference_sha256": "ca6a4c6eb3a39313ce182a5359247d21134070fa9707c61a06130c2f6cca8eeb",
+  "seconds": 30.84,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/142.json"
+}

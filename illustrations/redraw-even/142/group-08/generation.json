@@ -1,0 +1,94 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME brown-haired man in a brown hat and blue coat carrying his suitcase stands by the same train while one curly black-haired woman in green warmly greets him. Exactly two people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1421118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-142/photo-panel-08.webp",
+      "sha256": "5a1e9850cfc1ee65c6d7a2f0847fd4c694643cf778cde5907dc86a01d83357d3"
+    }
+  ],
+  "fingerprint": "33fc9e5631039bc248d1ff93945351a18a210a0d5bcdb75b8c3490ae5da5a0d9",
+  "sha256": "39831a0c8065526753559dc9f4a12f5225748cd5d2681d29827dc388404cc942",
+  "reference_sha256": "d212732fd38e083ffbf4d1c59e51d4609e132fa474d3a777c12ef8d24714170e",
+  "seconds": 30.75,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/142/group-08/redrawn.png",
+    "source_sha256": "39831a0c8065526753559dc9f4a12f5225748cd5d2681d29827dc388404cc942",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              141,
+              181
+            ],
+            [
+              150,
+              181
+            ],
+            [
+              150,
+              197
+            ],
+            [
+              141,
+              197
+            ]
+          ]
+        ],
+        "fill": "#5bb31f"
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          254,
+          133,
+          360,
+          208
+        ],
+        "hue_range": [
+          130,
+          175
+        ],
+        "to_hue": 147,
+        "min_saturation": 80,
+        "min_value": 65,
+        "saturation_delta": 6,
+        "value_delta": 56
+      },
+      {
+        "type": "hue-shift",
+        "box": [
+          274,
+          207,
+          340,
+          243
+        ],
+        "hue_range": [
+          130,
+          175
+        ],
+        "to_hue": 22,
+        "min_saturation": 60,
+        "min_value": 65,
+        "saturation_delta": 40,
+        "value_delta": -53
+      }
+    ],
+    "output_sha256": "f981ed0c2741f8df4830f4ab647515e40776964b93f28cd4eb8bbe58a2a5f87a"
+  },
+  "review": "reports/even-illustration-redraw/reviews/142.json"
+}

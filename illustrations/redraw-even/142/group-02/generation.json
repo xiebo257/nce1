@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. Two worried adults: a blonde woman in green and a balding man in blue, anxious eyebrows and expressions. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1421112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-142/photo-panel-02.webp",
+      "sha256": "398faa5d7554a2a16ead8cf2899b0c7f454364f981031beaa6555a759ea0a923"
+    }
+  ],
+  "fingerprint": "ae73ebe5595d602d9ccf1dea69ad04a9397a49ec70a28b3bbcd85d1dd5113ed0",
+  "sha256": "6c28b4dcd5182b6f385435010d56c70619c4184e3d87e5b448f93f8a4b4b1440",
+  "reference_sha256": "95dc39892a11eaabebd0711cf43ddff484b626a8f159f427b9cf893f347c1ce2",
+  "seconds": 29.03,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/142.json"
+}

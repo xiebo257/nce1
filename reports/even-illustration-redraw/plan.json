@@ -30259,8 +30259,8 @@
         },
         {
           "slot": "photo-panel-03",
-          "reference": "html/assets/lesson-142/photo-panel-03.webp",
-          "reference_sha256": "983a1ffa540df68ec77106e69479edde93931d0b680369244a47eabad72cc64b",
+          "reference": "illustrations/redraw-inputs/142-car-closed.png",
+          "reference_sha256": "24e78c4f1a64eb6caaab1acbc41fa121ac34a8deefb785bc120a0deb28bb0e02",
           "source_photo": "img/lesson-142-01-text.jpg",
           "source_photo_sha256": "d4a2706708299b597b3435042508ce95a44e8e01db62f723d13985d1ef7dc350",
           "previous": {
@@ -30292,7 +30292,7 @@
           "cue": "Does anyone ever repair this car?",
           "text": "Does anyone ever repair this car?",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two men, one in a brown hat and one with short black hair, stand beside an old blue car with closed hood and discuss its repair. Exactly two men. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
+          "edit_instruction": "Keep these exact two men, their faces, clothes, positions and the same blue car. Repair ONLY the dark hole on the left side of the car bonnet: make the bonnet a continuous smooth solid blue CLOSED panel, symmetric on both sides of the vertical front grille. No dark opening in the bonnet. Keep both round headlights, bumper, wheels and windscreen. Crisp colored cartoon, white background. Exactly two people and one car."
         },
         {
           "slot": "photo-panel-04",
@@ -30480,7 +30480,73 @@
           "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME brown-haired man in a brown hat and blue coat carrying his suitcase stands by the same train while one curly black-haired woman in green warmly greets him. Exactly two people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-08": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    141,
+                    181
+                  ],
+                  [
+                    150,
+                    181
+                  ],
+                  [
+                    150,
+                    197
+                  ],
+                  [
+                    141,
+                    197
+                  ]
+                ]
+              ],
+              "fill": "#5bb31f"
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                254,
+                133,
+                360,
+                208
+              ],
+              "hue_range": [
+                130,
+                175
+              ],
+              "to_hue": 147,
+              "min_saturation": 80,
+              "min_value": 65,
+              "saturation_delta": 6,
+              "value_delta": 56
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                274,
+                207,
+                340,
+                243
+              ],
+              "hue_range": [
+                130,
+                175
+              ],
+              "to_hue": 22,
+              "min_saturation": 60,
+              "min_value": 65,
+              "saturation_delta": 40,
+              "value_delta": -53
+            }
+          ]
+        }
+      }
     },
     "144": {
       "sections_sha256": "e299f4389673619466e4b5e3b4aa9edb1db2c88da360d68f100b4ad02d231b2c",
@@ -30599,8 +30665,8 @@
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-144/photo-panel-04.webp",
-          "reference_sha256": "47e0123277662195f2dc256b7ded07d997887cf31091b929131f62b8fb2edcce",
+          "reference": "illustrations/redraw-inputs/144-children-cast.png",
+          "reference_sha256": "73f4578b329e8619ec11211100c77cc1c39509fee33b7b9a3bbb008c94e0fcfa",
           "source_photo": "img/lesson-144-01-text.jpg",
           "source_photo_sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
           "previous": {
@@ -30632,12 +30698,12 @@
           "cue": "They have already been corrected!",
           "text": "They have already been corrected!",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME curly blonde boy in blue and curly black-haired girl in green listen to one female teacher in a black academic gown and square cap. Exactly three people. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
+          "edit_instruction": "Preserve the exact two children from this reference: pale boy with tightly curly blond hair and blue long-sleeved collared shirt, and dark-brown-skinned girl with tightly curly black hair and green collared blouse with white collar. Same faces, same skin colors, same hair, same clothes. Remove the books, desk and furniture. Place both children at left listening to ONE adult female teacher at right, blonde teacher in a black academic gown and black square mortarboard cap. The children lower their arms and look toward the teacher. Exactly three people with ordinary anatomy, clear crisp cartoon lines and white background. No text."
         },
         {
           "slot": "photo-panel-05",
-          "reference": "html/assets/lesson-144/photo-panel-05.webp",
-          "reference_sha256": "263f3b44cd7d7483cdd36fa504aeb2513100c02b28fad258043b95b628936fda",
+          "reference": "illustrations/redraw-inputs/144-burglar-anatomy.png",
+          "reference_sha256": "a2ba5a13fe1a04deeb60f3c645dfc206b919ebe39a6bfd0a847936d13fd6f1d0",
           "source_photo": "img/lesson-144-01-text.jpg",
           "source_photo_sha256": "7927a009a84508d13a14dbd9731c6c3a29b1ac3e182021baf4f6e4415ca07b67",
           "previous": {
@@ -30669,7 +30735,7 @@
           "cue": "Hasn't anyone caught the thief yet?",
           "text": "Hasn't anyone caught the thief yet?",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly ONE cartoon burglar wearing a checked cap and dark eye mask, carrying a sack, sneaking away through an open doorway. One burglar only. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
+          "edit_instruction": "Correct this single cartoon burglar to have EXACTLY TWO ARMS AND TWO HANDS. Preserve his face, checked cap, eye mask, striped shirt, sack and doorway. The left side hand holds the sack strap beside his chin. His ONLY other arm extends toward the door at right, with ONE hand beside the door. Remove the duplicate lower clenched fist at his right waist and its extra sleeve completely, replacing that small area with clean white background. Two arms total, two hands total, two legs. Keep pose and crisp cartoon style. No additional people or text."
         },
         {
           "slot": "photo-panel-06",
@@ -30783,7 +30849,67 @@
           "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Exactly TWO uniformed policemen in blue helmets carrying wooden batons beside a doorway, preparing to pursue the burglars. Two policemen only, no thieves in this picture. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-02": {
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                59,
+                31,
+                180,
+                103
+              ],
+              "hue_range": [
+                125,
+                175
+              ],
+              "to_hue": 16,
+              "min_saturation": 80,
+              "min_value": 45,
+              "saturation_delta": -18,
+              "value_delta": -8
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                62,
+                164,
+                199,
+                239
+              ],
+              "hue_range": [
+                125,
+                175
+              ],
+              "to_hue": 150,
+              "min_saturation": 80,
+              "min_value": 60,
+              "saturation_delta": 21,
+              "value_delta": -41
+            },
+            {
+              "type": "hue-shift",
+              "box": [
+                92,
+                238,
+                165,
+                268
+              ],
+              "hue_range": [
+                125,
+                175
+              ],
+              "to_hue": 16,
+              "min_saturation": 80,
+              "min_value": 60,
+              "saturation_delta": -23,
+              "value_delta": -40
+            }
+          ]
+        }
+      }
     }
   }
 }

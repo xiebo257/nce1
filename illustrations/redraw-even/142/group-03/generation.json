@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Keep these exact two men, their faces, clothes, positions and the same blue car. Repair ONLY the dark hole on the left side of the car bonnet: make the bonnet a continuous smooth solid blue CLOSED panel, symmetric on both sides of the vertical front grille. No dark opening in the bonnet. Keep both round headlights, bumper, wheels and windscreen. Crisp colored cartoon, white background. Exactly two people and one car.",
+  "seed": 1421113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "illustrations/redraw-inputs/142-car-closed.png",
+      "sha256": "24e78c4f1a64eb6caaab1acbc41fa121ac34a8deefb785bc120a0deb28bb0e02"
+    }
+  ],
+  "fingerprint": "2f1020547e304950509ae58c8ae74ba5fa7ec8105053651bc99d8b6d916885c3",
+  "sha256": "5c61b072b64847c8e8ce4477f078e4e6fecc09fe3a9de314a1160d521f7c374c",
+  "reference_sha256": "6b8b9baeae38995d96b7f9938540fb78d34be5f9a688aa8dda5b9ac5a82a9e38",
+  "seconds": 31.04,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/142.json"
+}

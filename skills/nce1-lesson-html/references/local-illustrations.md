@@ -203,6 +203,37 @@ hand and numeral using deterministic ink/background colorization; record origin
 
 ## Batch source-panel colorization
 
+For a lesson with many small pictures, prefer **individual native-resolution
+redraws**, not one densely packed generated sheet. The earlier sheet workflow
+produced blurry split pictures in even lessons 52–144. Each displayed 256 px
+picture should have at least 512 px of native image width; enlarging a blurry
+crop does not restore detail. The sheet workflow below is a legacy option,
+not the default for these lessons.
+
+The reviewed redraw plan for 52–144 is
+`reports/even-illustration-redraw/plan.json`. Preserve its baseline, original
+photo hashes, prompt corrections and review history; do not recreate the plan
+or rerun the old photo-layout repair over published redraws. Resume selected
+lessons with `redraw_even_illustrations.py generate --lessons ...` in the local
+model environment. Use `contact`, inspect each image against its teaching cue,
+record `review --notes ...`, then `publish`. The generator reuses cached images
+only when prompt, settings and reference hashes match. Keep one GPU process.
+
+Use the actual source photo to resolve uncertain quantities, clock hands,
+objects and roles. Reuse an inspected scene when the source repeats the same
+pose; use that character's inspected portrait as a model reference for a new
+pose. A shared hair/color prompt alone does not ensure identity. Exact clock
+faces and short labels may use recorded deterministic overlays through
+`refine_redraw_candidates.py`; reapply and inspect them after regeneration.
+Record model edits, scene reuse and overlays accurately in provenance.
+
+Run `check_even_redraws.py --complete` after the full batch. It checks all
+planned slots, image hashes and dimensions, and compares non-image lesson
+content against the immutable baseline. Pair it with representative desktop
+and mobile browser checks. Retained original diagrams are counted separately
+from redrawn assets; the twelve original clock faces in Lesson 96 are retained
+to preserve their source hand positions.
+
 For even lessons with verified source references, `colorize_lesson_panels.py`
 combines one lesson's panels into a shared reference sheet, uses one local model
 pass, then splits candidates back into the original slots. It skips exact clock
