@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same black-haired boy in blue at left shows two large chocolate bars; the same straight blond-haired boy in orange at right holds a smaller chocolate piece and looks at them. Make the left quantity clearly greater. Two boys only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-110/photo-panel-02.webp",
+      "sha256": "33ed0acd6381ef196d4bb7da077bcfa7371c88298fd7263dfdf97777f68fd417"
+    }
+  ],
+  "fingerprint": "2b51069faf9f97cdd797ebc926acaa1f229c0d4ef21f2d89d1c331d3fef63f17",
+  "sha256": "394a86ce33e4f4f99c2bbcbecb50b80c048ab6216aefb983691f0cbd77413448",
+  "reference_sha256": "efc24d0dc3e858d5480148b0fee4ba185ffa1405c3240856287279dfb0b7217c",
+  "seconds": 56.2,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this scene as one clear full-color educational cartoon. A small shabby snack bar storefront, food display in the window, doorway at right. Keep the reference layout. Rectangular blank signboard above, no lettering. Buildings and furniture have no faces or limbs. No extra people, no captions.",
+  "seed": 1101127,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-17",
+      "path": "html/assets/lesson-110/photo-panel-17.webp",
+      "sha256": "968e6065b51690b0bc4c31733c37d8249396872bfcf2469b468a7aede1dc0d2d"
+    }
+  ],
+  "fingerprint": "85e3d65a3465b2ff91df2672a3f2b548ae7a7c7a3b7c9b8d3a747a3b8e397390",
+  "sha256": "26e5eb08d510268cd7526244176415e6a081dc0deed89816e8a9c84e83c80966",
+  "reference_sha256": "aab1bbe88ced3ec5e215a64b820f8a5dda6fa811906b53ca41a7b25a2d4d3cba",
+  "seconds": 56.15,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-17/redrawn.png",
+    "source_sha256": "26e5eb08d510268cd7526244176415e6a081dc0deed89816e8a9c84e83c80966",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          112,
+          40,
+          317,
+          74
+        ],
+        "text": "SNACK BAR",
+        "font_size": 26,
+        "background": null
+      }
+    ],
+    "output_sha256": "3208d7dfc2102bedf6cb6343e4796420a35d5e4cef8697652a4426d53c33ee91"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same curly blond boy in green at left displays a tiny chocolate piece on his open hand; the same black-haired boy in blue at right holds a much larger bar. Left boy has less. Two boys only. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-110/photo-panel-05.webp",
+      "sha256": "23372a009426f7650569f620f677825efba17c68fb2ba9c43478cd3dc401db1b"
+    }
+  ],
+  "fingerprint": "6c9620ac5ea6e37e1efc5880f84d1e288531b533430eabcc24c510d5ef7839fd",
+  "sha256": "a6685c9a63fb943d5a3b2d010d9161cb8c5482e55851f41b8195ce50f04b8955",
+  "reference_sha256": "73a836bc4906e5b6039ba7289824637956d8d1af710650c977d87466e1d84dad",
+  "seconds": 56.91,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

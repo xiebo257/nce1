@@ -1,0 +1,382 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three girls showing open school exercise books: curly blond girl in orange at left has very many red cross marks; blonde bob-haired girl in blue in middle has fewer; brown-haired ponytailed girl in green at right has very few. Left girl has most mistakes. Cross symbols only, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-110/photo-panel-09.webp",
+      "sha256": "e17a8e81a50048516392dad4144be537e0571787905d0e1884af96a4a4c6bf0c"
+    }
+  ],
+  "fingerprint": "646f919cf0c9a85898e05eb5330f3190d825b06b8240ff08d8c9a4ac60a98468",
+  "sha256": "ca1247f0108af709fb4acb2591b6adb539cd6674b09ee2e5c2da238ba4eeab98",
+  "reference_sha256": "8431a3a17c200d0c68e26537cdbd21d87de678a0f09ffb858347bde79f2fb242",
+  "seconds": 55.93,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-09/redrawn.png",
+    "source_sha256": "ca1247f0108af709fb4acb2591b6adb539cd6674b09ee2e5c2da238ba4eeab98",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "#fffef8",
+        "polygons": [
+          [
+            [
+              60,
+              197
+            ],
+            [
+              121,
+              202
+            ],
+            [
+              121,
+              262
+            ],
+            [
+              61,
+              253
+            ]
+          ],
+          [
+            [
+              124,
+              202
+            ],
+            [
+              183,
+              193
+            ],
+            [
+              183,
+              252
+            ],
+            [
+              124,
+              263
+            ]
+          ],
+          [
+            [
+              206,
+              192
+            ],
+            [
+              264,
+              203
+            ],
+            [
+              264,
+              261
+            ],
+            [
+              207,
+              251
+            ]
+          ],
+          [
+            [
+              267,
+              204
+            ],
+            [
+              316,
+              194
+            ],
+            [
+              316,
+              251
+            ],
+            [
+              267,
+              261
+            ]
+          ],
+          [
+            [
+              341,
+              197
+            ],
+            [
+              384,
+              212
+            ],
+            [
+              384,
+              262
+            ],
+            [
+              341,
+              250
+            ]
+          ],
+          [
+            [
+              388,
+              213
+            ],
+            [
+              439,
+              204
+            ],
+            [
+              439,
+              258
+            ],
+            [
+              388,
+              264
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          71,
+          204,
+          83,
+          218
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          71,
+          222,
+          83,
+          236
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          71,
+          240,
+          83,
+          254
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          95,
+          204,
+          107,
+          218
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          95,
+          222,
+          107,
+          236
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          95,
+          240,
+          107,
+          254
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          132,
+          204,
+          144,
+          218
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          132,
+          222,
+          144,
+          236
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          132,
+          240,
+          144,
+          254
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          159,
+          204,
+          171,
+          218
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          159,
+          222,
+          171,
+          236
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          159,
+          240,
+          171,
+          254
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          228,
+          208,
+          240,
+          222
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          228,
+          236,
+          240,
+          250
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          285,
+          208,
+          297,
+          222
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          285,
+          236,
+          297,
+          250
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          356,
+          225,
+          368,
+          239
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          404,
+          225,
+          416,
+          239
+        ],
+        "text": "×",
+        "font_size": 18,
+        "color": "#d8332f",
+        "background": null
+      }
+    ],
+    "output_sha256": "4ab1d8e3fafc638d8b3eabe7d459c1b3fe67cfd26fcea02b408dae0e2b19b809"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

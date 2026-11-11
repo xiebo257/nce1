@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this scene as one clear full-color educational cartoon. A modest restaurant storefront, two empty tables and chairs visible through arched windows, doorway at right. Keep the reference layout. Rectangular blank signboard above, no lettering. Buildings and furniture have no faces or limbs. No extra people, no captions.",
+  "seed": 1101126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "html/assets/lesson-110/photo-panel-16.webp",
+      "sha256": "dd23bfffd4c986b63bc7da59c3d9a9596554bcfe6ae9e6952ab8752552f58f9e"
+    }
+  ],
+  "fingerprint": "d3756805fdccf20afb2a40ccfdaebba08fd1aacef67ca1fef19399ea6495e7e6",
+  "sha256": "fa335fdf00ee830493a4ddf7c245393827f864424f1f3641b4a98684bd682b26",
+  "reference_sha256": "9f7b630277102e4db90024c285e313476cdde434fce798b89e3a95547095a8ac",
+  "seconds": 56.11,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-16/redrawn.png",
+    "source_sha256": "fa335fdf00ee830493a4ddf7c245393827f864424f1f3641b4a98684bd682b26",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          49,
+          30,
+          454,
+          76
+        ],
+        "text": "RESTAURANT",
+        "font_size": 35,
+        "background": null
+      }
+    ],
+    "output_sha256": "a139793779c871e93e898514b7187d127412981b7d2062e11264d88216147177"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three boys comparing chocolate: curly blond boy in green at left holds a large stack of chocolate bars, black-haired boy in blue in middle holds two bars, straight blond-haired boy in orange at right has one small piece. Left boy clearly has the most. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-110/photo-panel-03.webp",
+      "sha256": "ef14eee183d4fafcc6cd72f43ddf51c9bd55d7f5ba901b66d084420a2a972327"
+    }
+  ],
+  "fingerprint": "88292f51a6b1fff7220ef5a0cdf5ff0424dd43a750a9e95da09efba087cfad6d",
+  "sha256": "5a7fcb0347c78141078a040c6a99dbc326864e416f32fc933fa2d0add280033d",
+  "reference_sha256": "567ce957b89df92a2776c826c004e95755d1462055811c58bb770dfa1c3b915a",
+  "seconds": 57.89,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

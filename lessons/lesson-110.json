@@ -1022,17 +1022,17 @@
       "status": "ready",
       "description": "Have you got any chocolate?\nI haven't got much.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture I · Group 1",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "I",
-        "asset_sha256": "cab556fa7df2f9a5b621b3870e541dc64b15ee32a83345491d6689626e4593bd",
+        "asset_sha256": "b892414bb4c53f93dfbfbcbd154c514f4f0b78bd427e65bb43ee3aea6f0bd3df",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1040,7 +1040,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-01/generation.json"
+      },
+      "alt": "Have you got any chocolate?\nI haven't got much.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -1048,17 +1054,17 @@
       "status": "ready",
       "description": "I've got more than you have.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture J · Group 1",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "J",
-        "asset_sha256": "33ed0acd6381ef196d4bb7da077bcfa7371c88298fd7263dfdf97777f68fd417",
+        "asset_sha256": "c6ddceff0a329938767688d807d648759155631ee8cd3647cfb45c7764770144",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1066,7 +1072,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-02/generation.json"
+      },
+      "alt": "I've got more than you have.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -1074,17 +1086,17 @@
       "status": "ready",
       "description": "I've got the most.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture K · Group 1",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "K",
-        "asset_sha256": "ef14eee183d4fafcc6cd72f43ddf51c9bd55d7f5ba901b66d084420a2a972327",
+        "asset_sha256": "9e4b7a0bbe8899c1e74ab91fbc443ec5fc501f04d9c5e8d6238b3d3d784a559c",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1092,7 +1104,13 @@
           0,
           768,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-03/generation.json"
+      },
+      "alt": "I've got the most.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -1100,17 +1118,17 @@
       "status": "ready",
       "description": "Have you got any chocolate?\nI've got very little.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture L · Group 2",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "L",
-        "asset_sha256": "51f1c387aeacf197e177cc0e0b13502aa0af0f8c3ce5e95267aabafe7ca8d007",
+        "asset_sha256": "9386dd6b4c4032658b47cbfe61b02bd011559ae4388d3e56489d6ae5b8013a0f",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1118,7 +1136,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-04/generation.json"
+      },
+      "alt": "Have you got any chocolate?\nI've got very little.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -1126,17 +1150,17 @@
       "status": "ready",
       "description": "I've got less than you have.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture M · Group 2",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "M",
-        "asset_sha256": "23372a009426f7650569f620f677825efba17c68fb2ba9c43478cd3dc401db1b",
+        "asset_sha256": "786c0cab32432741635e8886c750474a77f308bb19a1fd835225d747b30cbfa9",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1144,7 +1168,13 @@
           160,
           512,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-05/generation.json"
+      },
+      "alt": "I've got less than you have.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -1152,17 +1182,17 @@
       "status": "ready",
       "description": "I've got the least.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture N · Group 2",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "N",
-        "asset_sha256": "93722c2359ca2db9d8735c4aea1278fe3dd1ca0bdd7ba694607eb9c95f11ca2e",
+        "asset_sha256": "9a4d1fccc52befba19af77ed5e0e11a69e0544e26e951d22eabdc4cb365c3997",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1170,7 +1200,13 @@
           160,
           768,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-06/generation.json"
+      },
+      "alt": "I've got the least.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -1178,17 +1214,17 @@
       "status": "ready",
       "description": "Have you made any mistakes?\nI haven't made many.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture O · Group 3",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "O",
-        "asset_sha256": "03d685cd1a183b1b8ec691cebaeb5a5aa096ac6563c01ddc245a5a6fe04774eb",
+        "asset_sha256": "bb568ba39e6adffc9539fc6c210c39404c6d01a209ff3c89debf915dbe31ad10",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1196,7 +1232,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-07/generation.json"
+      },
+      "alt": "Have you made any mistakes?\nI haven't made many.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-07/generation.json"
       }
     },
     "photo-panel-08": {
@@ -1204,17 +1246,17 @@
       "status": "ready",
       "description": "I've made more than you have.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture P · Group 3",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "P",
-        "asset_sha256": "955fa2c936c91923bb3dfc58761bf79cec7a18ac7208671387fb9be36576a2ba",
+        "asset_sha256": "c41eb953471f48fb7218c4b275a019af5bfc245a1e8c6c5973461433f92bbb59",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1222,7 +1264,13 @@
           320,
           512,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-08/generation.json"
+      },
+      "alt": "I've made more than you have.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-08/generation.json"
       }
     },
     "photo-panel-09": {
@@ -1230,17 +1278,17 @@
       "status": "ready",
       "description": "I've made the most.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture Q · Group 3",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "Q",
-        "asset_sha256": "e17a8e81a50048516392dad4144be537e0571787905d0e1884af96a4a4c6bf0c",
+        "asset_sha256": "b16a35a47d3e8f5d0ee41a87621486244ab5314826b551ea0e0e7ec9bd8770f8",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1248,7 +1296,13 @@
           320,
           768,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-09/generation.json"
+      },
+      "alt": "I've made the most.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-09/generation.json"
       }
     },
     "photo-panel-10": {
@@ -1256,17 +1310,17 @@
       "status": "ready",
       "description": "Have you made any mistakes?\nI've made very few.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-10.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture R · Group 4",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "R",
-        "asset_sha256": "5646bd56657567efa0032be1869a0d4c516eec18750d6d1c0d6701381390e961",
+        "asset_sha256": "cb2077d1d3481f81a7398733f60999ffd180e1cb2bd55204fd978bdb9007f4f6",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1274,7 +1328,13 @@
           480,
           256,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-10/generation.json"
+      },
+      "alt": "Have you made any mistakes?\nI've made very few.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-10/generation.json"
       }
     },
     "photo-panel-11": {
@@ -1282,17 +1342,17 @@
       "status": "ready",
       "description": "I've made fewer than you have.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-11.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture S · Group 4",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "S",
-        "asset_sha256": "a4907a7c2de304310af2f342ca25d3bc00c69b62a0dcf44c794d01285c8f6c1e",
+        "asset_sha256": "3cd574baf82868315720933d031ffc52eb1a65c25ef7b58d7fe7017f16fdc51a",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1300,7 +1360,13 @@
           480,
           512,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-11/generation.json"
+      },
+      "alt": "I've made fewer than you have.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-11/generation.json"
       }
     },
     "photo-panel-12": {
@@ -1308,17 +1374,17 @@
       "status": "ready",
       "description": "I've made the fewest.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-12.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture T · Group 4",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "T",
-        "asset_sha256": "10df8eba27a78b45e236e2b24e79450deb9a5085b3d6a83881b4fafcf787616a",
+        "asset_sha256": "34f241c89a243fb9681be3241d061ae425b0828b15313737fa20fba1bb4c5b6c",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1326,7 +1392,13 @@
           480,
           768,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-12/generation.json"
+      },
+      "alt": "I've made the fewest.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-12/generation.json"
       }
     },
     "photo-panel-13": {
@@ -1334,17 +1406,17 @@
       "status": "ready",
       "description": "You must see my new car.\nIt's very good.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-13.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-13-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture U · Group 5",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "U",
-        "asset_sha256": "3fdaed4e35e78e24a3d955b30a7ddc975ac0b255433df9bddf27d85629409626",
+        "asset_sha256": "6463ce86e710b86bf7300cb0ca6d74e5274c7d3ce3da0d73c5fe685e26edf9e6",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1352,7 +1424,13 @@
           640,
           256,
           800
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-13/generation.json"
+      },
+      "alt": "You must see my new car.\nIt's very good.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-13/generation.json"
       }
     },
     "photo-panel-14": {
@@ -1360,17 +1438,17 @@
       "status": "ready",
       "description": "This one's better.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-14.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-14-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture V · Group 5",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "V",
-        "asset_sha256": "dedf666c295e43d2c4ac181e896f23d4f2e841d886586c4a9fcbfbdfc2be8042",
+        "asset_sha256": "b180b5959b74fb51f5ebd6372f03ac2b98ba1c17296e89560284b6156da6cb77",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1378,7 +1456,13 @@
           640,
           512,
           800
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-14/generation.json"
+      },
+      "alt": "This one's better.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-14/generation.json"
       }
     },
     "photo-panel-15": {
@@ -1386,17 +1470,17 @@
       "status": "ready",
       "description": "This one's the best I've ever seen.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-15.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-15-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture W · Group 5",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "W",
-        "asset_sha256": "fbffae98bb6e139410ce349e825c93ff6efd319451eb62eceae1e1953fef7229",
+        "asset_sha256": "5fd455ca9d3f6b259c1bf27af9c30ae61080f6c7fc92d58ba07c9bf698a6ac1a",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1404,7 +1488,13 @@
           640,
           768,
           800
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-15/generation.json"
+      },
+      "alt": "This one's the best I've ever seen.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-15/generation.json"
       }
     },
     "photo-panel-16": {
@@ -1412,17 +1502,17 @@
       "status": "ready",
       "description": "You mustn't go to that restaurant.\nIt's very bad.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-16.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-16-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture X · Group 6",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "X",
-        "asset_sha256": "dd23bfffd4c986b63bc7da59c3d9a9596554bcfe6ae9e6952ab8752552f58f9e",
+        "asset_sha256": "b619e9b6f468a7afe21d14cca324ca99a5bc9600b0c886fdc46b32e0d78071ef",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1430,7 +1520,13 @@
           800,
           256,
           960
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-16/generation.json"
+      },
+      "alt": "You mustn't go to that restaurant.\nIt's very bad.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-16/generation.json"
       }
     },
     "photo-panel-17": {
@@ -1438,17 +1534,17 @@
       "status": "ready",
       "description": "This one's worse.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-17.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-17-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture Y · Group 6",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "Y",
-        "asset_sha256": "968e6065b51690b0bc4c31733c37d8249396872bfcf2469b468a7aede1dc0d2d",
+        "asset_sha256": "ddc48830fdcf8099274ab715545ffcbaffa2d8c5554d39a7a40876d0b652caae",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1456,7 +1552,13 @@
           800,
           512,
           960
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-17/generation.json"
+      },
+      "alt": "This one's worse.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-17/generation.json"
       }
     },
     "photo-panel-18": {
@@ -1464,17 +1566,17 @@
       "status": "ready",
       "description": "This one's the worst I've ever seen.",
       "source": "../img/lesson-110-01-text.jpg",
-      "src": "assets/lesson-110/photo-panel-18.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-110/photo-panel-18-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture Z · Group 6",
       "photo_verification": {
         "photo": "img/lesson-110-01-text.jpg",
         "sha256": "10b91ffb33d35a24b612117247ce0e212a946daf5d143f9c8369c9cf1bef5b61",
         "label": "Z",
-        "asset_sha256": "40f69e331e5b262eb8679f46fbdd0278f44c6625c23d558da5796f6f5d6eae97",
+        "asset_sha256": "0c55d56918fc1e08c2f112f367362a810fde40177627a7a5daf7e950975e0d88",
         "reused_asset": "html/assets/lesson-110/l110-items-grid-color.webp",
         "reused_sha256": "60f63a602a781eb7ed7e92388f70c2a1bfab6ee8d6dec91dc4a6b0deac5f9568",
         "crop": [
@@ -1482,7 +1584,13 @@
           800,
           768,
           960
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/110/group-18/generation.json"
+      },
+      "alt": "This one's the worst I've ever seen.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/110/group-18/generation.json"
       }
     }
   },

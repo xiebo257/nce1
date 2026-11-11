@@ -1,0 +1,46 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this scene as one clear full-color educational cartoon. A very shabby small cafe storefront with a cap-wearing man visible behind the window counter. Keep the reference layout. Rectangular blank signboard above, no lettering. Buildings and furniture have no faces or limbs. No extra people, no captions.",
+  "seed": 1101128,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-18",
+      "path": "html/assets/lesson-110/photo-panel-18.webp",
+      "sha256": "40f69e331e5b262eb8679f46fbdd0278f44c6625c23d558da5796f6f5d6eae97"
+    }
+  ],
+  "fingerprint": "34b20686c69a0702ebfcdc05bd2f7dadc5879fd6ecb6fee9172c1b96a8dfd0a3",
+  "sha256": "50e29f4c234358e60f1bc01df6ff0ef9c75f68591f1b8d543a615d75a8ae4160",
+  "reference_sha256": "cdf41f6b40f2a17be3ceda753c465ef2161cf73e081db58e3e67091b001a5a24",
+  "seconds": 57.99,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-18/redrawn.png",
+    "source_sha256": "50e29f4c234358e60f1bc01df6ff0ef9c75f68591f1b8d543a615d75a8ae4160",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          138,
+          39,
+          375,
+          79
+        ],
+        "text": "FRED’S CAFE",
+        "font_size": 30,
+        "background": null
+      }
+    ],
+    "output_sha256": "e594fac60bd0bb6cd45cb3bac7023f6806ba7c719449eb2be4c2998ce958b35a"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Change ONLY the hair of the LEFT child in the orange shirt: he is a BOY with SHORT STRAIGHT BLOND HAIR cut above his ears, not a girl with a shoulder-length bob. Keep all three faces, clothes, poses and chocolate amounts exactly unchanged. Left tiny chocolate, middle medium, right large. No other changes.",
+  "seed": 1101116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "illustrations/redraw-inputs/110-least-chocolate-cast.png",
+      "sha256": "795a024d58c4e1b512a65c061181f7d016cc41b0dc31372e77c36eaaf54d80f5"
+    }
+  ],
+  "fingerprint": "4b20b3f6c3a59b8db62307d76776fcafddc8d1c70011157909590e985ddfc88e",
+  "sha256": "6f21930e76075ac9a95ca110299fcdcc725e1200577b184ce2b5bc1f9446b564",
+  "reference_sha256": "3769e672f37315ef145c671acb76a8b712346f171fe919cda5bdadbb8fc03eaa",
+  "seconds": 57.36,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

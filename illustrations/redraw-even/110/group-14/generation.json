@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw one a larger elegant dark green sedan matching the reference vehicle shape. Inanimate vehicle only, no people, faces, eyes or mouths. Sharp full-color educational cartoon, white background, no letters, logos or captions.",
+  "seed": 1101124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "html/assets/lesson-110/photo-panel-14.webp",
+      "sha256": "dedf666c295e43d2c4ac181e896f23d4f2e841d886586c4a9fcbfbdfc2be8042"
+    }
+  ],
+  "fingerprint": "343c400af8c7a6c3bbb4e54a6ce7c2e9f074517e8abd6108364c54e3e8a9667d",
+  "sha256": "9e88fec43f110efd101f105d96b52294afbeb11909beb20e622a7e1ab7b03a31",
+  "reference_sha256": "cc60ba2f0db99c54be524caa26465ac8f581b695011b5be7184c0b4cac1e1fb5",
+  "seconds": 58.49,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

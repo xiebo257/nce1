@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw one a clean small blue compact car matching the reference vehicle shape. Inanimate vehicle only, no people, faces, eyes or mouths. Sharp full-color educational cartoon, white background, no letters, logos or captions.",
+  "seed": 1101123,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-13",
+      "path": "html/assets/lesson-110/photo-panel-13.webp",
+      "sha256": "3fdaed4e35e78e24a3d955b30a7ddc975ac0b255433df9bddf27d85629409626"
+    }
+  ],
+  "fingerprint": "c9ec9e996bcb65bb570ad80b6a5ad2da9ad74a0b9e72973bbde9aa4f1d7fb878",
+  "sha256": "f5d026b49c7cb316aa952169122ca3605043f6e723776b37b9d7bf469bf8115f",
+  "reference_sha256": "d55e5d736e413ab45bfef325aa56bcf1770f08083850eca2a9373e7f0be73e10",
+  "seconds": 58.13,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two girls comparing school exercise books: blonde girl with bobbed hair in blue at left holds an open book with a few cross marks on the page; ponytailed brown-haired girl in green at right looks at it. Exactly two girls. Cross marks are error symbols, not words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-110/photo-panel-07.webp",
+      "sha256": "03d685cd1a183b1b8ec691cebaeb5a5aa096ac6563c01ddc245a5a6fe04774eb"
+    }
+  ],
+  "fingerprint": "f766558b2aee0b35c234ba431e1d36cc2091546d0e317da1e35e4aa046459dd9",
+  "sha256": "5243b2113e6eee79ed9f61fa2be8915dfd1d5f88c86fe5020ae07bdda1227d5a",
+  "reference_sha256": "384c310e0f8f5d648e59f027970840b02e603ec3b56c7a05ea75cefe818f2cdf",
+  "seconds": 57.27,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

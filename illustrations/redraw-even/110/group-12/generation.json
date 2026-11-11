@@ -1,0 +1,295 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Three boys showing open exercise books: blond boy in orange at left has just one red cross; curly blond boy in blue in middle has three red crosses; straight brown-haired boy in green at right has six red crosses. Left boy has fewest mistakes. Exactly three boys, cross symbols only, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "html/assets/lesson-110/photo-panel-12.webp",
+      "sha256": "10df8eba27a78b45e236e2b24e79450deb9a5085b3d6a83881b4fafcf787616a"
+    }
+  ],
+  "fingerprint": "5c09c9909a7b5721995e2d811616420919a5b50be6111efc429e1bdcc789d970",
+  "sha256": "29aea61c3ce5e78953e101aa16af2ccc2fd802f87644e87f6bce0d52b1fbf813",
+  "reference_sha256": "133a7e8ffda01f0e62c47a05d45b9dc8c9746c5666cf7b4df66c46f3e6b7b7cb",
+  "seconds": 58.33,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-12/redrawn.png",
+    "source_sha256": "29aea61c3ce5e78953e101aa16af2ccc2fd802f87644e87f6bce0d52b1fbf813",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              56,
+              178
+            ],
+            [
+              98,
+              178
+            ],
+            [
+              98,
+              232
+            ],
+            [
+              56,
+              232
+            ]
+          ],
+          [
+            [
+              198,
+              158
+            ],
+            [
+              252,
+              170
+            ],
+            [
+              252,
+              235
+            ],
+            [
+              199,
+              226
+            ]
+          ],
+          [
+            [
+              260,
+              170
+            ],
+            [
+              310,
+              159
+            ],
+            [
+              310,
+              226
+            ],
+            [
+              260,
+              236
+            ]
+          ],
+          [
+            [
+              348,
+              168
+            ],
+            [
+              397,
+              179
+            ],
+            [
+              397,
+              239
+            ],
+            [
+              348,
+              232
+            ]
+          ],
+          [
+            [
+              404,
+              180
+            ],
+            [
+              456,
+              168
+            ],
+            [
+              456,
+              231
+            ],
+            [
+              404,
+              240
+            ]
+          ],
+          [
+            [
+              348,
+              160
+            ],
+            [
+              397,
+              170
+            ],
+            [
+              397,
+              180
+            ],
+            [
+              348,
+              176
+            ]
+          ],
+          [
+            [
+              404,
+              170
+            ],
+            [
+              456,
+              160
+            ],
+            [
+              456,
+              180
+            ],
+            [
+              404,
+              180
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          68,
+          195,
+          84,
+          211
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          212,
+          176,
+          228,
+          192
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          212,
+          206,
+          228,
+          222
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          277,
+          193,
+          293,
+          209
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          359,
+          176,
+          375,
+          192
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          359,
+          196,
+          375,
+          212
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          359,
+          216,
+          375,
+          232
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          420,
+          176,
+          436,
+          192
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          420,
+          196,
+          436,
+          212
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          420,
+          216,
+          436,
+          232
+        ],
+        "text": "×",
+        "font_size": 22,
+        "color": "#d8332f",
+        "background": null
+      }
+    ],
+    "output_sha256": "0166efed7467158890170c2ab9aae5d6c0e34d7a31349f961a56255c0de99e09"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

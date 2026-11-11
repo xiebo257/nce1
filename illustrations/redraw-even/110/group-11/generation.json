@@ -1,0 +1,203 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same two boys holding open exercise books: curly blond boy in blue at left has only a few red crosses, straight brown-haired boy in green at right has many more. Exactly two boys, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "html/assets/lesson-110/photo-panel-11.webp",
+      "sha256": "a4907a7c2de304310af2f342ca25d3bc00c69b62a0dcf44c794d01285c8f6c1e"
+    }
+  ],
+  "fingerprint": "5d9ce13a6658491f838c36d5e751bd01b19c4295753f5cc7d41787ed3991c147",
+  "sha256": "a7f30eb374ec514f521da478ee438dc11f80aa38a2f5270db221f66d6d8f66cc",
+  "reference_sha256": "0b854deb7d4756da42fc1933ab56a7f18f0946f03bdd0de49a731eb5e74f4148",
+  "seconds": 56.75,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-11/redrawn.png",
+    "source_sha256": "a7f30eb374ec514f521da478ee438dc11f80aa38a2f5270db221f66d6d8f66cc",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "white",
+        "polygons": [
+          [
+            [
+              289,
+              147
+            ],
+            [
+              366,
+              159
+            ],
+            [
+              366,
+              243
+            ],
+            [
+              288,
+              233
+            ]
+          ],
+          [
+            [
+              372,
+              159
+            ],
+            [
+              441,
+              145
+            ],
+            [
+              441,
+              234
+            ],
+            [
+              372,
+              244
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              441,
+              211
+            ],
+            [
+              447,
+              211
+            ],
+            [
+              447,
+              227
+            ],
+            [
+              441,
+              227
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          302,
+          172,
+          318,
+          188
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          302,
+          208,
+          318,
+          224
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          336,
+          172,
+          352,
+          188
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          336,
+          208,
+          352,
+          224
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          383,
+          172,
+          399,
+          188
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          383,
+          208,
+          399,
+          224
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          418,
+          172,
+          434,
+          188
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          418,
+          208,
+          434,
+          224
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      }
+    ],
+    "output_sha256": "e4094ababef9ebdeb2519a3ac5ce5050a702cfafc54c3949299c8e0d978ffab9"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

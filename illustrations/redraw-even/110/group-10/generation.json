@@ -1,0 +1,102 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two boys comparing exercise books: curly blond boy in blue at left shows an open book with a few red cross marks; straight brown-haired boy in green at right holds a closed blue book. Exactly two boys, no words. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-110/photo-panel-10.webp",
+      "sha256": "5646bd56657567efa0032be1869a0d4c516eec18750d6d1c0d6701381390e961"
+    }
+  ],
+  "fingerprint": "e5a877c26fa3463ee641218753900a5ec468502436e84dd2324fbcf7691dd25a",
+  "sha256": "7c215f5d28469d471a780e9e3f045cfb942415d95479a2d62f26c88d41036df3",
+  "reference_sha256": "763f34c761916a5d26e741a7337984fc2ffb15186c97bd2544b60f51348e1733",
+  "seconds": 55.43,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-10/redrawn.png",
+    "source_sha256": "7c215f5d28469d471a780e9e3f045cfb942415d95479a2d62f26c88d41036df3",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "white",
+        "polygons": [
+          [
+            [
+              117,
+              168
+            ],
+            [
+              170,
+              168
+            ],
+            [
+              170,
+              238
+            ],
+            [
+              117,
+              238
+            ]
+          ],
+          [
+            [
+              201,
+              156
+            ],
+            [
+              249,
+              156
+            ],
+            [
+              249,
+              223
+            ],
+            [
+              201,
+              223
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          136,
+          196,
+          152,
+          212
+        ],
+        "text": "×",
+        "font_size": 23,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          217,
+          182,
+          233,
+          198
+        ],
+        "text": "×",
+        "font_size": 23,
+        "color": "#d8332f",
+        "background": null
+      }
+    ],
+    "output_sha256": "1f1a1a71529978c7c48e04c36d902e788b1970280aea164871993a507eb409e2"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. Two boys facing each other, black-haired boy in blue at left holds several chocolate squares, straight blond-haired boy in orange at right holds a SMALL amount of chocolate. Exactly two boys. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-110/photo-panel-01.webp",
+      "sha256": "cab556fa7df2f9a5b621b3870e541dc64b15ee32a83345491d6689626e4593bd"
+    }
+  ],
+  "fingerprint": "fd7b26f9817d907402ecbb8a9ff7a26cf941984c956273803500c6f3e5fee854",
+  "sha256": "aedd605a02cf6468434872f0cffd715aded15b9c487f0ae63dacdb04b6f269ec",
+  "reference_sha256": "4e11b698891d6944cbc66a24ceb6287ee71fdebff408e6a24f42c9ea3c29a6f3",
+  "seconds": 57.51,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

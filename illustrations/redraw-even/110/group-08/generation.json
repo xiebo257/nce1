@@ -1,0 +1,320 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one clear full-color educational cartoon matching this photo-verified reference. The same blonde girl with bobbed hair in blue at left and ponytailed brown-haired girl in green at right each hold an open exercise book. Left book has many more red cross marks than right book. Exactly two girls. Preserve the comparative teaching cue and people count. Crisp smooth outlines, stable hair and clothing colors, white background, no captions, no extra people or limbs.",
+  "seed": 1101118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-110/photo-panel-08.webp",
+      "sha256": "955fa2c936c91923bb3dfc58761bf79cec7a18ac7208671387fb9be36576a2ba"
+    }
+  ],
+  "fingerprint": "940694c5adb1d946ea7b93440a23dd0088a38f0f4c3da551c9351fff3eceb930",
+  "sha256": "33a15d19025a14e2c4d068b287bcd2f7ac92b7b89e06bfc9c723213360462dfb",
+  "reference_sha256": "d28dfd5fb3b3ccee11fe02b2db6d773bc404176903cec1225fff55c6395d2be6",
+  "seconds": 57.09,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/110/group-08/redrawn.png",
+    "source_sha256": "33a15d19025a14e2c4d068b287bcd2f7ac92b7b89e06bfc9c723213360462dfb",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "#fffef8",
+        "polygons": [
+          [
+            [
+              77,
+              176
+            ],
+            [
+              150,
+              185
+            ],
+            [
+              150,
+              257
+            ],
+            [
+              77,
+              249
+            ]
+          ],
+          [
+            [
+              153,
+              185
+            ],
+            [
+              223,
+              173
+            ],
+            [
+              223,
+              247
+            ],
+            [
+              153,
+              258
+            ]
+          ],
+          [
+            [
+              286,
+              181
+            ],
+            [
+              349,
+              188
+            ],
+            [
+              349,
+              254
+            ],
+            [
+              286,
+              247
+            ]
+          ],
+          [
+            [
+              354,
+              189
+            ],
+            [
+              426,
+              182
+            ],
+            [
+              426,
+              247
+            ],
+            [
+              354,
+              255
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          84,
+          191,
+          96,
+          205
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          84,
+          209,
+          96,
+          223
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          84,
+          227,
+          96,
+          241
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          118,
+          191,
+          130,
+          205
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          118,
+          209,
+          130,
+          223
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          118,
+          227,
+          130,
+          241
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          157,
+          191,
+          169,
+          205
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          157,
+          209,
+          169,
+          223
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          157,
+          227,
+          169,
+          241
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          193,
+          191,
+          205,
+          205
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          193,
+          209,
+          205,
+          223
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          193,
+          227,
+          205,
+          241
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          306,
+          199,
+          318,
+          213
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          306,
+          227,
+          318,
+          241
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          379,
+          199,
+          391,
+          213
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          379,
+          227,
+          391,
+          241
+        ],
+        "text": "×",
+        "font_size": 20,
+        "color": "#d8332f",
+        "background": null
+      }
+    ],
+    "output_sha256": "8b214288df9da3acc9342ccbacd23aa0f03573b04489fccbb11f66b7790a9df2"
+  },
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw one a polished luxury black vintage sedan with large chrome grille matching the reference vehicle shape. Inanimate vehicle only, no people, faces, eyes or mouths. Sharp full-color educational cartoon, white background, no letters, logos or captions.",
+  "seed": 1101125,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-15",
+      "path": "html/assets/lesson-110/photo-panel-15.webp",
+      "sha256": "fbffae98bb6e139410ce349e825c93ff6efd319451eb62eceae1e1953fef7229"
+    }
+  ],
+  "fingerprint": "ddb593cae111dc42049ddd510c2eeb7d4c5f8860ff2e41b4d93e2866c1bd763c",
+  "sha256": "af52b9c1db32723684c4fd5e83162fd679eee72ff20e31f81c3d1216d3f82fe3",
+  "reference_sha256": "d15ae504de5eccfbd7a7e810fbd8160f34c2b572e1c95b9e3b93fe1c943cc776",
+  "seconds": 57.21,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/110.json"
+}
