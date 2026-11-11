@@ -796,19 +796,24 @@
       "status": "ready",
       "description": "Isn't there anyone at home? I'll knock again, Helen. Everything's very quiet. I'm sure there's no one at home.",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "8b72f5948da69a6b21515473ecd89d1bf0da275bb5d8fa003d4a35b6873646c7"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "e986c0e5546df49882261bb54766e4168fc30b01aecce570ffdf6717fbbaaa4b"
+      },
+      "alt": "Isn't there anyone at home? I'll knock again, Helen. Everything's very quiet. I'm sure there's no one at home.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -816,19 +821,24 @@
       "status": "ready",
       "description": "But that's impossible. Carol and Tom invited us to lunch. Look through the window.",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "4b4d19e2bece782defe9968d31ca8835510c954a659d05fe533def83c07ea0bc"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "488541ee93137993c3f8c98502b9cd1a8622f3a8f75461f299fd777b464d9a04"
+      },
+      "alt": "But that's impossible. Carol and Tom invited us to lunch. Look through the window.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -836,19 +846,24 @@
       "status": "ready",
       "description": "Can you see anything? Nothing at all.",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "c7f7e91a4115a7a7ea7723b17b6c231986bd567734474327273a1510b97cc817"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "b9513c702d991ca1dd1e9cdc23a7a4b460cc1fa579ba7bf8c19d3db3d4622d75"
+      },
+      "alt": "Can you see anything? Nothing at all.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -856,19 +871,24 @@
       "status": "ready",
       "description": "Let's try the back door. Look! Everyone's in the garden.",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "09747667efc6eb4e8d04a241964c0c9d3a19d0a6ca32a651481574b537d77776"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "16b1954aef2969f1f12555a22b428782c61391bef579da1450bf3752f5746b8e"
+      },
+      "alt": "Let's try the back door. Look! Everyone's in the garden.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -876,19 +896,24 @@
       "status": "ready",
       "description": "Hello, Helen. Hello, Jim. Everybody wants to have lunch in the garden. It's nice and warm out here.",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "0a4cda04d0d2ec83ac4a8acc9bd76cbc5673cb5829ae1b7857651e771569d4c8"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "2906bcac80cdf47e6ce36a08e90327f78ab947cbda2c72ab25d30e2143d97946"
+      },
+      "alt": "Hello, Helen. Hello, Jim. Everybody wants to have lunch in the garden. It's nice and warm out here.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -896,19 +921,24 @@
       "status": "ready",
       "description": "Come and have something to drink. Thanks, Carol. May I have a glass of beer, please? Beer? There's none left. You can have some lemonade. Lemonade!",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "f89a2d661ccf43cff5835b2e15ca37084084681703359667723d48b1c7be75b7"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "ac97692080e2c852d7bfa527d6a420d640ba376ab236eca44588ea576135c6ef"
+      },
+      "alt": "Come and have something to drink. Thanks, Carol. May I have a glass of beer, please? Beer? There's none left. You can have some lemonade. Lemonade!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -916,19 +946,24 @@
       "status": "ready",
       "description": "Don't believe her, Jim. She's only joking. Have some beer!",
       "source": "../img/lesson-115-01-text.jpg",
-      "src": "assets/lesson-115/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-115/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-115-01-text.jpg",
         "sha256": "8802f34fd6517b86c5fc53a76d91dc99ce9c1b2f591acaa738a95d5d2baf921c",
         "label": "7",
-        "generation_record": "illustrations/photo-repairs/115/generation.json",
-        "review_record": "illustrations/photo-repairs/115/review.json",
-        "asset_sha256": "f92d70f2dec18f47223ed3782fb6ec66910b86b955dac95eb21b68143ef42ac5"
+        "generation_record": "illustrations/redraw-odd/115/photo-panel-07/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/115.json",
+        "asset_sha256": "b950987854a25f598464e8ab9c406d2fec5eec9d1bb52fe40d614b4829ddc06c"
+      },
+      "alt": "Don't believe her, Jim. She's only joking. Have some beer!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/115/photo-panel-07/generation.json"
       }
     }
   },

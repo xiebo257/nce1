@@ -828,14 +828,14 @@
         "photo": "img/lesson-087-01-text.jpg",
         "sha256": "26d6d2caa84d7480ba9ce329eabe6a83f972c2eb5f20a85444bcc551637eec69",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/087/generation.json",
-        "review_record": "illustrations/photo-repairs/087/review.json",
-        "asset_sha256": "99f7c966fd3ac59b47a705850f6e6e30c6ec6124eb688c72ed1c64182ba2234f"
+        "generation_record": "illustrations/redraw-odd/087/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/087.json",
+        "asset_sha256": "f358a93a2c9fcdac49710911f93ff9ffd6234413a15b0da3044d7958dadc88c3"
       },
       "alt": "Is my car ready yet? I don't know, sir. What's the number of your car? It's LFZ 312 G. When did you bring it to us? I brought it here three days ago. Ah yes, I remember now. Have your mechanics finished yet? No, they're still working on it. Let's go into the garage and have a look at it.",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "manifest": "illustrations/redraw-odd/087/group-01/generation.json"
+        "manifest": "illustrations/redraw-odd/087/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -853,14 +853,14 @@
         "photo": "img/lesson-087-01-text.jpg",
         "sha256": "26d6d2caa84d7480ba9ce329eabe6a83f972c2eb5f20a85444bcc551637eec69",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/087/generation.json",
-        "review_record": "illustrations/photo-repairs/087/review.json",
-        "asset_sha256": "2215a780c5ff76009ca6e75f833eff843dca4191430eba4b0122231e66d470d6"
+        "generation_record": "illustrations/redraw-odd/087/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/087.json",
+        "asset_sha256": "3bf0b4aadb8373e85707024adf568d0b8cbc368fe12f2d629f163f5b3b6116c8"
       },
       "alt": "Isn't that your car? Well, it was my car. Didn't you have a crash? That's right. I drove it into a lamp-post. Can your mechanics repair it? Well, they're trying to repair it, sir. But to tell you the truth, you need a new car!",
       "generation": {
         "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-        "manifest": "illustrations/redraw-odd/087/group-02/generation.json"
+        "manifest": "illustrations/redraw-odd/087/photo-panel-02/generation.json"
       }
     }
   },

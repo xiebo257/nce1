@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: How long have you lived here? I've lived here for twenty years. Twenty years! That's a long time. Yes, I've been here since 1976. Then why do you want to sell it? Because I've just retired. I want to buy a small house in the country. How much does this house cost? £68,500. That's a lot of money! It's worth every penny of it. Well, I like the house, but I can't decide yet. My wife must see it first. Women always have the last word. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  The composition must contain EXACTLY ONE human being in the entire image: a middle-aged adult woman around 45–65 years old. Use a single-person composition with no other people in the foreground or background. Do not depict a child, teenager or second person. Scene: How long have you lived here? I've lived here for twenty years. Twenty years! That's a long time. Yes, I've been here since 1976. Then why do you want to sell it? Because I've just retired. I want to buy a small house in the country. How much does this house cost? £68,500. That's a lot of money! It's worth every penny of it. Well, I like the house, but I can't decide yet. My wife must see it first. Women always have the last word. Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 89: every recurring adult woman must be the same actor, a middle-aged woman with a dark auburn bob, warm medium skin and a navy jacket; every recurring adult man must be the same actor, a middle-aged man with short silver hair, light skin and a slate-blue jacket. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 897002,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-02",
-      "path": "html/assets/lesson-089/photo-panel-02.webp",
-      "sha256": "d63e4c59d54b049fb011cfe566fcd8a11f8af813ded3a17ff3a0b3c455a9bb11"
-    }
-  ],
-  "fingerprint": "51656485aec2d1c1727161d92d8444eff5c1a21a2b122f5327f73ac0214cc98f",
-  "sha256": "26fc2d543a482a2a092a04b6de69c250261140083a07d794c7e2a853046975eb",
-  "seconds": 23.17,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "47d5cc8d10eb54b73838fbdb37dfa2f538fe94a4520a7184be12d83d7d534d54",
+  "sha256": "383dea0cf47bba4f835ad50b55ac2a6d2c591404be7b77e8d36664baf121d0ff",
+  "seconds": 32.12,
   "status": "candidate-needs-visual-review"
 }

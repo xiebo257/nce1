@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Good afternoon. I believe that this house is for sale. That's right. May I have a look at it, please? Yes, of course. Come in. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: Good afternoon. I believe that this house is for sale. That's right. May I have a look at it, please? Yes, of course. Come in. Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 89: every recurring adult woman must be the same actor, a middle-aged woman with a dark auburn bob, warm medium skin and a navy jacket; every recurring adult man must be the same actor, a middle-aged man with short silver hair, light skin and a slate-blue jacket. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 897001,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-01",
-      "path": "html/assets/lesson-089/photo-panel-01.webp",
-      "sha256": "5a4863e82381f76bb4dcd458d19166031f5da2c5c5d55fa48f9ed37fc0366ad8"
-    }
-  ],
-  "fingerprint": "4822d0641ea9f53c21358e712f83901a75cac98522ebd0d00bbdf0994bd34564",
-  "sha256": "8fc337ca363c12bd6a450cfe29e8e071d0f63f0e595a9341234eaf0441de836d",
-  "seconds": 23.49,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "1b1acc8148d0d363a1e207cfd111a5905097fb007235f4179377f8127acd53af",
+  "sha256": "76be65ff5d51f1bfb5c3375298e09c81c577e43161347f957715b97a4c83fcfa",
+  "seconds": 20.73,
   "status": "candidate-needs-visual-review"
 }

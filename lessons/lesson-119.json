@@ -764,19 +764,24 @@
       "status": "ready",
       "description": "Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago.",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "9340c4447db74186ead0c924451d92688ac1851c4f1b645d320baebb18976dea"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "0b8c193237f8cfa2566e3e5f79351233c5ac4344ddbc8e7033b28124f528301d"
+      },
+      "alt": "Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -784,19 +789,24 @@
       "status": "ready",
       "description": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "efdca5c082b0603c931064a833a89123ce80b39a48dc2a1bf8d311d1f40414cf"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "49657eed07d7667ff0836a68345269fdd1d4638aaf3f411b17d70f267065009c"
+      },
+      "alt": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -804,19 +814,24 @@
       "status": "ready",
       "description": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "6b365aa481eb104f3596d6052b114ecec0ee3c9a28b0d2c69a3434777a907feb"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "60fdfdd17df80878b2b338e6a0544e38cce599aafb377afdb7a792d5e8c78f49"
+      },
+      "alt": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -824,19 +839,24 @@
       "status": "ready",
       "description": "Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could.",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "aa41a7cd589d3ffb3a34ffd3d6f0e0dad755d3ca55e5dab96258d4519ded9f57"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "08fe6283f6436939ba2bc5136574a97020922a5aa268c8e9ab4c8ffee99c4183"
+      },
+      "alt": "Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called. The thieves dropped the torch and ran away as quickly as they could.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -844,19 +864,24 @@
       "status": "ready",
       "description": "George heard the noise and came downstairs quickly.",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "deff0dd2880e05e347448176c9909296daec32e916c07136398986714eb0661c"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "d9af9fd4b4ea920f8260079b60a5f972921dc5f81956d958f568cf0cdf1b9fda"
+      },
+      "alt": "George heard the noise and came downstairs quickly.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -864,19 +889,24 @@
       "status": "ready",
       "description": "He turned on the light, but he couldn't see anyone. The thieves had already gone.",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "965de41ddf711d725ab28208b270eb2bf7b608f5e081d09d9068d715c0e70ebf"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "a1f25ec40598d0c7cd996c13182315b325c8e384ae3670977b1522802bd6ba3e"
+      },
+      "alt": "He turned on the light, but he couldn't see anyone. The thieves had already gone.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -884,19 +914,24 @@
       "status": "ready",
       "description": "But George's parrot, Henry, was still there. 'What's up, George?' he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'",
       "source": "../img/lesson-119-01-text.jpg",
-      "src": "assets/lesson-119/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-119/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-119-01-text.jpg",
         "sha256": "071658d97ecd401848dacf428d9f98033bdd6838e672f52d6a6cd8b2ea6f3ea3",
         "label": "7",
-        "generation_record": "illustrations/photo-repairs/119/generation.json",
-        "review_record": "illustrations/photo-repairs/119/review.json",
-        "asset_sha256": "33329af263981cf893a9328c08368d8c0341aeaa0d5668e4e1407d7f68ffb5a9"
+        "generation_record": "illustrations/redraw-odd/119/photo-panel-07/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/119.json",
+        "asset_sha256": "f43ea14c07dcf1d55eeb9bd64ca1eb2bdb84b8bed5b5bdde1e6e192755b15ae9"
+      },
+      "alt": "But George's parrot, Henry, was still there. 'What's up, George?' he called. 'Nothing, Henry,' George said and smiled. 'Go back to sleep.'",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/119/photo-panel-07/generation.json"
       }
     }
   },

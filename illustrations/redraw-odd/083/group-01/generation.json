@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Hello, Sam. Come in. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: Hello, Sam. Come in. Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 83: every recurring adult woman must be the same actor, a middle-aged woman with shoulder-length chestnut hair, light skin and a teal cardigan; every recurring adult man must be the same actor, a middle-aged man with short gray hair, light skin and an olive jacket. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 837001,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-01",
-      "path": "html/assets/lesson-083/photo-panel-01.webp",
-      "sha256": "947ecf06fbc68f41f96f1e8602ba6dd99820eccfade1337e1bcf1f9c88fb2a72"
-    }
-  ],
-  "fingerprint": "5e36e203a44e42abfa11652e926ab1ff97e9e3834dbf80dcf28bc726c797da1f",
-  "sha256": "34c67db7dbb77471d27ba15459175996a238cc2dd0675aa2c0fa90af8feff238",
-  "seconds": 23.49,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "f87ce1f89e6bed14a118cedd396552addcfd8c43816659e7d5a473a3c922bfd9",
+  "sha256": "76d3c076f1f45a7221bb075c65e6ead0a7459ef6813be1a0b771282b4eea4dc1",
+  "seconds": 20.1,
   "status": "candidate-needs-visual-review"
 }

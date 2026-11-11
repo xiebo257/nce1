@@ -18,7 +18,7 @@ def inventory(repo, start=45, end=144):
             exists = bool(src and (repo / 'html' / src).is_file())
             if slot.get('status') == 'ready' and not exists:
                 row['missing_files'].append(key)
-            if slot.get('origin') in {'local-model', 'local-diagram'} and slot.get('status') == 'ready' and exists:
+            if slot.get('origin') in {'local-model', 'local-model-redraw', 'local-diagram'} and slot.get('status') == 'ready' and exists:
                 row['published'] += 1
             elif slot.get('status') == 'ready' and exists:
                 row['old_crops'] += 1

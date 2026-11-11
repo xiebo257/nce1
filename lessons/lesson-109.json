@@ -727,19 +727,24 @@
       "status": "ready",
       "description": "Shall I make some coffee, Jane? That's a good idea, Charlotte.",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "96702100b4942f9ad28a192d3e2977d9de356c9a1c5a427de819d0b1e2d33089"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "755d7b727f4f1dc3e44e55b59db66fa50c5a62b33443aa73edcbe412d5bf8712"
+      },
+      "alt": "Shall I make some coffee, Jane? That's a good idea, Charlotte.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -747,19 +752,24 @@
       "status": "ready",
       "description": "It's ready. Do you want any milk? Just a little, please.",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "7129492b2f036a6f6b44a69cc8d00890f55852a585519f05bc5713ed19ec21a2"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "c087a902b2c508cca28b5d8b3206c5b1b3e74167e63ac5391ce4bcbb95c5cd9a"
+      },
+      "alt": "It's ready. Do you want any milk? Just a little, please.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -767,19 +777,24 @@
       "status": "ready",
       "description": "What about some sugar? Two teaspoonfuls? No, less than that. One and a half teaspoonfuls, please. That's enough for me.",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "cf8b2af5bdadffce629f52ab179fad245990225fc9446366896f46c1669ecc6c"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "d19629a93b1c6ba62930f74fa07c7f17d6d9df72a3f00ff167c9d5f7337c2061"
+      },
+      "alt": "What about some sugar? Two teaspoonfuls? No, less than that. One and a half teaspoonfuls, please. That's enough for me.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -787,19 +802,24 @@
       "status": "ready",
       "description": "That was very nice. Would you like some more? Yes, please.",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "3e0be0923aea6235ed030b9af61733377757fc9a397c41b4c8bd9ae7cd9d57b5"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "0e60d8a3af51e06368180f3e8fe9575628cfaaaae95a3b4e10126927e5c3b6b8"
+      },
+      "alt": "That was very nice. Would you like some more? Yes, please.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -807,19 +827,24 @@
       "status": "ready",
       "description": "I'd like a cigarette, too. May I have one? Of course. I think there are a few in that box.",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "480099cc1a04f5d9c87fe83a759de4670e6fa4bc81953f30a18e5075789def64"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "d2b2178b1f23e0993ba62db6d13c72c9e1896236883fb672bbeb74b9ae28c3d2"
+      },
+      "alt": "I'd like a cigarette, too. May I have one? Of course. I think there are a few in that box.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -827,19 +852,24 @@
       "status": "ready",
       "description": "I'm afraid it's empty. What a pity! It doesn't matter.",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "01ec8453b4a0a70db590a1d38b2d29393e1d4f64cf8ea225a926527c3f72a45c"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "2ed531064b9b9d181ae2b6baaf0b1e15d1e3097793260ba613a8409b44fc318f"
+      },
+      "alt": "I'm afraid it's empty. What a pity! It doesn't matter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -847,19 +877,24 @@
       "status": "ready",
       "description": "Have a biscuit instead. Eat more and smoke less! That's very good advice!",
       "source": "../img/lesson-109-01-text.jpg",
-      "src": "assets/lesson-109/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-109/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-109-01-text.jpg",
         "sha256": "c138fc3a9f9f92326d9c8c64bdeca329ef604c1bb72ce7a12c86b6cab9640d23",
         "label": "7",
-        "generation_record": "illustrations/photo-repairs/109/generation.json",
-        "review_record": "illustrations/photo-repairs/109/review.json",
-        "asset_sha256": "23c294c0e9be1f288dcd2da561d36775b45cafb9f54f6f6bd5be272405f6af8e"
+        "generation_record": "illustrations/redraw-odd/109/photo-panel-07/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/109.json",
+        "asset_sha256": "cdf38df831f01f6e97ada3c20d39f2a923158b5f223f70e1b83a201cb0075334"
+      },
+      "alt": "Have a biscuit instead. Eat more and smoke less! That's very good advice!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/109/photo-panel-07/generation.json"
       }
     }
   },

@@ -942,19 +942,24 @@
       "status": "ready",
       "description": "Have you just made a new film, Miss Marsh? Yes, I have. Are you going to make another? No, I'm not. I'm going to retire. I feel very tired. I don't want to make another film for a long time.",
       "source": "../img/lesson-133-01-text.jpg",
-      "src": "assets/lesson-133/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-133/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-133-01-text.jpg",
         "sha256": "019ac9b4c773104d1bc28ff35693b4e91a9dbc71028a1a8f5850267fc154fb04",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/133/generation.json",
-        "review_record": "illustrations/photo-repairs/133/review.json",
-        "asset_sha256": "802f861ee70d211fd0c0b102dd14fac79621869c621fdfd4582a5a12557fada7"
+        "generation_record": "illustrations/redraw-odd/133/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/133.json",
+        "asset_sha256": "244456bc69d3cdc9cc2c5ed4cffb626e1b75b7fc8bfd3cbaa33daeebb775cd4b"
+      },
+      "alt": "Have you just made a new film, Miss Marsh? Yes, I have. Are you going to make another? No, I'm not. I'm going to retire. I feel very tired. I don't want to make another film for a long time.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/133/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -962,19 +967,24 @@
       "status": "ready",
       "description": "Let's buy a newspaper, Liz. Listen to this! 'Karen Marsh: Sensational News! By our reporter, Alan Jones. Karen Marsh arrived at London Airport today. She was wearing a blue dress and a mink coat. She told me she had just made a new film. She said she was not going to make another. She said she was going to retire. She told reporters she felt very tired and didn't want to make another film for a long time.' I wonder why!",
       "source": "../img/lesson-133-01-text.jpg",
-      "src": "assets/lesson-133/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-133/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-133-01-text.jpg",
         "sha256": "019ac9b4c773104d1bc28ff35693b4e91a9dbc71028a1a8f5850267fc154fb04",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/133/generation.json",
-        "review_record": "illustrations/photo-repairs/133/review.json",
-        "asset_sha256": "20603df4973e443adfb75081cda4cc477e8043fb48010910ba044c175d293d15"
+        "generation_record": "illustrations/redraw-odd/133/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/133.json",
+        "asset_sha256": "f11bd9694d7ebb2b936dd7ac5ad81a087f5e770b4723abfb2c6ca40e9ad11584"
+      },
+      "alt": "Let's buy a newspaper, Liz. Listen to this! 'Karen Marsh: Sensational News! By our reporter, Alan Jones. Karen Marsh arrived at London Airport today. She was wearing a blue dress and a mink coat. She told me she had just made a new film. She said she was not going to make another. She said she was going to retire. She told reporters she felt very tired and didn't want to make another film for a long time.' I wonder why!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/133/photo-panel-02/generation.json"
       }
     }
   },

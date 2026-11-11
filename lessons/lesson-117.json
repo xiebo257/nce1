@@ -102,18 +102,78 @@
         "key_source": "img/key-112-117.jpg (Lesson 117 A, Complete text)",
         "context": "Workbook L117 A: complete the text; 25 missing words grouped into 12 sentence blanks (one answer field per blank).",
         "questions": [
-          {"id": "l117-pa1", "number": 1, "prompt": "___ my husband was ___ into the dining room this morning, he ___ some ___ on the floor.", "answer": "When; going; dropped; coins"},
-          {"id": "l117-pa2", "number": 2, "prompt": "There ___ coins ___.", "answer": "were; everywhere"},
-          {"id": "l117-pa3", "number": 3, "prompt": "We ___ for them, but we ___ not find ___ all.", "answer": "looked; could; them"},
-          {"id": "l117-pa4", "number": 4, "prompt": "___ we ___ having breakfast, our little ___, Tommy,", "answer": "While; were; boy"},
-          {"id": "l117-pa5", "number": 5, "prompt": "___ two small ___ on the ___.", "answer": "found; coins; floor"},
-          {"id": "l117-pa6", "number": 6, "prompt": "He ___ them both into his ___.", "answer": "put; mouth"},
-          {"id": "l117-pa7", "number": 7, "prompt": "We ___ tried to get the coins, ___ it was ___ late.", "answer": "both; but; too"},
-          {"id": "l117-pa8", "number": 8, "prompt": "Tommy had already ___ them!", "answer": "swallowed"},
-          {"id": "l117-pa9", "number": 9, "prompt": "Later that morning, ___ I was doing the ___, my husband ___ me from the ___.", "answer": "when; housework; phoned; office"},
-          {"id": "l117-pa10", "number": 10, "prompt": "'How's Tommy?' he ___.", "answer": "asked"},
-          {"id": "l117-pa11", "number": 11, "prompt": "'I don't ___,' I ___.", "answer": "know; answered"},
-          {"id": "l117-pa12", "number": 12, "prompt": "'Tommy's ___ to the ___ three ___ this morning, but I haven't ___ any ___ yet!'", "answer": "been; toilet; times; had; change"}
+          {
+            "id": "l117-pa1",
+            "number": 1,
+            "prompt": "___ my husband was ___ into the dining room this morning, he ___ some ___ on the floor.",
+            "answer": "When; going; dropped; coins"
+          },
+          {
+            "id": "l117-pa2",
+            "number": 2,
+            "prompt": "There ___ coins ___.",
+            "answer": "were; everywhere"
+          },
+          {
+            "id": "l117-pa3",
+            "number": 3,
+            "prompt": "We ___ for them, but we ___ not find ___ all.",
+            "answer": "looked; could; them"
+          },
+          {
+            "id": "l117-pa4",
+            "number": 4,
+            "prompt": "___ we ___ having breakfast, our little ___, Tommy,",
+            "answer": "While; were; boy"
+          },
+          {
+            "id": "l117-pa5",
+            "number": 5,
+            "prompt": "___ two small ___ on the ___.",
+            "answer": "found; coins; floor"
+          },
+          {
+            "id": "l117-pa6",
+            "number": 6,
+            "prompt": "He ___ them both into his ___.",
+            "answer": "put; mouth"
+          },
+          {
+            "id": "l117-pa7",
+            "number": 7,
+            "prompt": "We ___ tried to get the coins, ___ it was ___ late.",
+            "answer": "both; but; too"
+          },
+          {
+            "id": "l117-pa8",
+            "number": 8,
+            "prompt": "Tommy had already ___ them!",
+            "answer": "swallowed"
+          },
+          {
+            "id": "l117-pa9",
+            "number": 9,
+            "prompt": "Later that morning, ___ I was doing the ___, my husband ___ me from the ___.",
+            "answer": "when; housework; phoned; office"
+          },
+          {
+            "id": "l117-pa10",
+            "number": 10,
+            "prompt": "'How's Tommy?' he ___.",
+            "answer": "asked"
+          },
+          {
+            "id": "l117-pa11",
+            "number": 11,
+            "prompt": "'I don't ___,' I ___.",
+            "answer": "know; answered"
+          },
+          {
+            "id": "l117-pa12",
+            "number": 12,
+            "prompt": "'Tommy's ___ to the ___ three ___ this morning, but I haven't ___ any ___ yet!'",
+            "answer": "been; toilet; times; had; change"
+          }
         ]
       },
       {
@@ -128,12 +188,42 @@
         "key_source": "img/key-112-117.jpg (Lesson 117 B)",
         "context": "Workbook L117 B: identify rooms from their functions.",
         "questions": [
-          {"id": "l117-pb1", "number": 1, "prompt": "I sleep in this room: ___", "answer": "the bedroom"},
-          {"id": "l117-pb2", "number": 2, "prompt": "We read, sit and talk, and watch television or listen to the radio in this room: ___", "answer": "the living room"},
-          {"id": "l117-pb3", "number": 3, "prompt": "We wash, shower, have a bath, and clean our teeth in this room: ___", "answer": "the bathroom"},
-          {"id": "l117-pb4", "number": 4, "prompt": "We cook meals in this room: ___", "answer": "the kitchen"},
-          {"id": "l117-pb5", "number": 5, "prompt": "We eat our meals in this room: ___", "answer": "the dining room"},
-          {"id": "l117-pb6", "number": 6, "prompt": "We keep our small car and bicycles in here: ___", "answer": "the garage"}
+          {
+            "id": "l117-pb1",
+            "number": 1,
+            "prompt": "I sleep in this room: ___",
+            "answer": "the bedroom"
+          },
+          {
+            "id": "l117-pb2",
+            "number": 2,
+            "prompt": "We read, sit and talk, and watch television or listen to the radio in this room: ___",
+            "answer": "the living room"
+          },
+          {
+            "id": "l117-pb3",
+            "number": 3,
+            "prompt": "We wash, shower, have a bath, and clean our teeth in this room: ___",
+            "answer": "the bathroom"
+          },
+          {
+            "id": "l117-pb4",
+            "number": 4,
+            "prompt": "We cook meals in this room: ___",
+            "answer": "the kitchen"
+          },
+          {
+            "id": "l117-pb5",
+            "number": 5,
+            "prompt": "We eat our meals in this room: ___",
+            "answer": "the dining room"
+          },
+          {
+            "id": "l117-pb6",
+            "number": 6,
+            "prompt": "We keep our small car and bicycles in here: ___",
+            "answer": "the garage"
+          }
         ]
       }
     ],
@@ -150,16 +240,68 @@
         "key_source": "pdf p.552 (新概念英语语法练习1)",
         "context": "10 combine-with-while items; items 1 and 6 are printed examples.",
         "questions": [
-          {"id": "l117-gi1", "number": 1, "example": true, "prompt": "I was speaking to Mrs. Li yesterday. Her son started to cry.", "answer": "While I was speaking to Mrs. Li yesterday, her son started to cry."},
-          {"id": "l117-gi2", "number": 2, "prompt": "He was crossing the street two days ago. He slipped and fell down.", "answer": "While he was crossing the street two days ago, he slipped and fell down."},
-          {"id": "l117-gi3", "number": 3, "prompt": "I was having a bath last night. The telephone rang.", "answer": "While I was having a bath last night, the telephone rang."},
-          {"id": "l117-gi4", "number": 4, "prompt": "She was having dinner yesterday evening. Someone knocked at the door.", "answer": "While she was having dinner yesterday evening, someone knocked at the door."},
-          {"id": "l117-gi5", "number": 5, "prompt": "She was cutting the meat this morning. She cut her finger.", "answer": "While she was cutting the meat this morning, she cut her finger."},
-          {"id": "l117-gi6", "number": 6, "example": true, "prompt": "The child hurt himself. He was climbing a tree.", "answer": "The child hurt himself while he was climbing a tree."},
-          {"id": "l117-gi7", "number": 7, "prompt": "Someone came to see me. We were watching television last night.", "answer": "Someone came to see me while we were watching television last night."},
-          {"id": "l117-gi8", "number": 8, "prompt": "Tom fell asleep. He was sitting in his armchair.", "answer": "Tom fell asleep while he was sitting in his armchair."},
-          {"id": "l117-gi9", "number": 9, "prompt": "The policeman saw an accident. He was walking down the street.", "answer": "The policeman saw an accident while he was walking down the street."},
-          {"id": "l117-gi10", "number": 10, "prompt": "Someone turned on the stereo. We were reading in the library.", "answer": "Someone turned on the stereo while we were reading in the library."}
+          {
+            "id": "l117-gi1",
+            "number": 1,
+            "example": true,
+            "prompt": "I was speaking to Mrs. Li yesterday. Her son started to cry.",
+            "answer": "While I was speaking to Mrs. Li yesterday, her son started to cry."
+          },
+          {
+            "id": "l117-gi2",
+            "number": 2,
+            "prompt": "He was crossing the street two days ago. He slipped and fell down.",
+            "answer": "While he was crossing the street two days ago, he slipped and fell down."
+          },
+          {
+            "id": "l117-gi3",
+            "number": 3,
+            "prompt": "I was having a bath last night. The telephone rang.",
+            "answer": "While I was having a bath last night, the telephone rang."
+          },
+          {
+            "id": "l117-gi4",
+            "number": 4,
+            "prompt": "She was having dinner yesterday evening. Someone knocked at the door.",
+            "answer": "While she was having dinner yesterday evening, someone knocked at the door."
+          },
+          {
+            "id": "l117-gi5",
+            "number": 5,
+            "prompt": "She was cutting the meat this morning. She cut her finger.",
+            "answer": "While she was cutting the meat this morning, she cut her finger."
+          },
+          {
+            "id": "l117-gi6",
+            "number": 6,
+            "example": true,
+            "prompt": "The child hurt himself. He was climbing a tree.",
+            "answer": "The child hurt himself while he was climbing a tree."
+          },
+          {
+            "id": "l117-gi7",
+            "number": 7,
+            "prompt": "Someone came to see me. We were watching television last night.",
+            "answer": "Someone came to see me while we were watching television last night."
+          },
+          {
+            "id": "l117-gi8",
+            "number": 8,
+            "prompt": "Tom fell asleep. He was sitting in his armchair.",
+            "answer": "Tom fell asleep while he was sitting in his armchair."
+          },
+          {
+            "id": "l117-gi9",
+            "number": 9,
+            "prompt": "The policeman saw an accident. He was walking down the street.",
+            "answer": "The policeman saw an accident while he was walking down the street."
+          },
+          {
+            "id": "l117-gi10",
+            "number": 10,
+            "prompt": "Someone turned on the stereo. We were reading in the library.",
+            "answer": "Someone turned on the stereo while we were reading in the library."
+          }
         ]
       },
       {
@@ -174,16 +316,67 @@
         "key_source": "pdf p.552-553 (新概念英语语法练习1)",
         "context": "10 rewrite items; item 1 is the printed example.",
         "questions": [
-          {"id": "l117-gii1", "number": 1, "example": true, "prompt": "While I was speaking to Mrs. Li yesterday, her son started to cry.", "answer": "When I was speaking to Mrs. Li yesterday, her son started to cry."},
-          {"id": "l117-gii2", "number": 2, "prompt": "While he was crossing the street two days ago, he slipped and fell down.", "answer": "When he was crossing the street two days ago, he slipped and fell down."},
-          {"id": "l117-gii3", "number": 3, "prompt": "While I was having a bath last night, the telephone rang.", "answer": "When I was having a bath last night, the telephone rang."},
-          {"id": "l117-gii4", "number": 4, "prompt": "While she was having dinner yesterday evening, someone knocked at the door.", "answer": "When she was having dinner yesterday evening, someone knocked at the door."},
-          {"id": "l117-gii5", "number": 5, "prompt": "While she was cutting the meat this morning, she cut her finger.", "answer": "When she was cutting the meat this morning, she cut her finger."},
-          {"id": "l117-gii6", "number": 6, "prompt": "The child hurt himself while he was climbing a tree.", "answer": "The child hurt himself when he was climbing a tree."},
-          {"id": "l117-gii7", "number": 7, "prompt": "Someone came to see me while we were watching television last night.", "answer": "Someone came to see me when we were watching television last night."},
-          {"id": "l117-gii8", "number": 8, "prompt": "Tom fell asleep while he was sitting in his armchair.", "answer": "Tom fell asleep when he was sitting in his armchair."},
-          {"id": "l117-gii9", "number": 9, "prompt": "The policeman saw an accident while he was walking down the street.", "answer": "The policeman saw an accident when he was walking down the street."},
-          {"id": "l117-gii10", "number": 10, "prompt": "Someone turned on the stereo while we were reading in the library.", "answer": "Someone turned on the stereo when we were reading in the library."}
+          {
+            "id": "l117-gii1",
+            "number": 1,
+            "example": true,
+            "prompt": "While I was speaking to Mrs. Li yesterday, her son started to cry.",
+            "answer": "When I was speaking to Mrs. Li yesterday, her son started to cry."
+          },
+          {
+            "id": "l117-gii2",
+            "number": 2,
+            "prompt": "While he was crossing the street two days ago, he slipped and fell down.",
+            "answer": "When he was crossing the street two days ago, he slipped and fell down."
+          },
+          {
+            "id": "l117-gii3",
+            "number": 3,
+            "prompt": "While I was having a bath last night, the telephone rang.",
+            "answer": "When I was having a bath last night, the telephone rang."
+          },
+          {
+            "id": "l117-gii4",
+            "number": 4,
+            "prompt": "While she was having dinner yesterday evening, someone knocked at the door.",
+            "answer": "When she was having dinner yesterday evening, someone knocked at the door."
+          },
+          {
+            "id": "l117-gii5",
+            "number": 5,
+            "prompt": "While she was cutting the meat this morning, she cut her finger.",
+            "answer": "When she was cutting the meat this morning, she cut her finger."
+          },
+          {
+            "id": "l117-gii6",
+            "number": 6,
+            "prompt": "The child hurt himself while he was climbing a tree.",
+            "answer": "The child hurt himself when he was climbing a tree."
+          },
+          {
+            "id": "l117-gii7",
+            "number": 7,
+            "prompt": "Someone came to see me while we were watching television last night.",
+            "answer": "Someone came to see me when we were watching television last night."
+          },
+          {
+            "id": "l117-gii8",
+            "number": 8,
+            "prompt": "Tom fell asleep while he was sitting in his armchair.",
+            "answer": "Tom fell asleep when he was sitting in his armchair."
+          },
+          {
+            "id": "l117-gii9",
+            "number": 9,
+            "prompt": "The policeman saw an accident while he was walking down the street.",
+            "answer": "The policeman saw an accident when he was walking down the street."
+          },
+          {
+            "id": "l117-gii10",
+            "number": 10,
+            "prompt": "Someone turned on the stereo while we were reading in the library.",
+            "answer": "Someone turned on the stereo when we were reading in the library."
+          }
         ]
       },
       {
@@ -198,25 +391,84 @@
         "key_source": "pdf p.553 (新概念英语语法练习1)",
         "context": "8 make-sentences items; item 1 is the printed example.",
         "questions": [
-          {"id": "l117-giii1", "number": 1, "example": true, "prompt": "I / take off my coat / the telephone / ring", "answer": "Just as I was taking off my coat, the telephone rang."},
-          {"id": "l117-giii2", "number": 2, "prompt": "he / leave the office / his assistant / come in", "answer": "Just as he was leaving the office, his assistant came in."},
-          {"id": "l117-giii3", "number": 3, "prompt": "I / walk out of the building / it / begin to rain", "answer": "Just as I was walking out of the building, it began to rain."},
-          {"id": "l117-giii4", "number": 4, "prompt": "she / open the door / someone / come in", "answer": "Just as she was opening the door, someone came in."},
-          {"id": "l117-giii5", "number": 5, "prompt": "I / go to sleep / I / hear a loud noise from the road", "answer": "Just as I was going to sleep, I heard a loud noise from the road."},
-          {"id": "l117-giii6", "number": 6, "prompt": "we / go upstairs / they / come downstairs", "answer": "Just as we were going upstairs, they came downstairs."},
-          {"id": "l117-giii7", "number": 7, "prompt": "he / lean out of the window / something / drop on his head", "answer": "Just as he was leaning out of the window, something dropped on his head."},
-          {"id": "l117-giii8", "number": 8, "prompt": "he / light a cigarette / someone / come and tell him not to smoke", "answer": "Just as he was lighting a cigarette, someone came and told him not to smoke."}
+          {
+            "id": "l117-giii1",
+            "number": 1,
+            "example": true,
+            "prompt": "I / take off my coat / the telephone / ring",
+            "answer": "Just as I was taking off my coat, the telephone rang."
+          },
+          {
+            "id": "l117-giii2",
+            "number": 2,
+            "prompt": "he / leave the office / his assistant / come in",
+            "answer": "Just as he was leaving the office, his assistant came in."
+          },
+          {
+            "id": "l117-giii3",
+            "number": 3,
+            "prompt": "I / walk out of the building / it / begin to rain",
+            "answer": "Just as I was walking out of the building, it began to rain."
+          },
+          {
+            "id": "l117-giii4",
+            "number": 4,
+            "prompt": "she / open the door / someone / come in",
+            "answer": "Just as she was opening the door, someone came in."
+          },
+          {
+            "id": "l117-giii5",
+            "number": 5,
+            "prompt": "I / go to sleep / I / hear a loud noise from the road",
+            "answer": "Just as I was going to sleep, I heard a loud noise from the road."
+          },
+          {
+            "id": "l117-giii6",
+            "number": 6,
+            "prompt": "we / go upstairs / they / come downstairs",
+            "answer": "Just as we were going upstairs, they came downstairs."
+          },
+          {
+            "id": "l117-giii7",
+            "number": 7,
+            "prompt": "he / lean out of the window / something / drop on his head",
+            "answer": "Just as he was leaning out of the window, something dropped on his head."
+          },
+          {
+            "id": "l117-giii8",
+            "number": 8,
+            "prompt": "he / light a cigarette / someone / come and tell him not to smoke",
+            "answer": "Just as he was lighting a cigarette, someone came and told him not to smoke."
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.237 (Lesson 117 text)", "href": "../img/lesson-117-01-text.jpg"},
-    {"label": "Textbook p.238 (Lesson 117 notes)", "href": "../img/lesson-117-02-text.jpg"},
-    {"label": "Workbook Lesson 117 (practice page 162)", "href": "../img/lesson-117-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 112-117, p.213)", "href": "../img/key-112-117.jpg"},
-    {"label": "Grammar Workbook p.344-346 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=359"},
-    {"label": "Grammar Workbook p.552-553 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=552"}
+    {
+      "label": "Textbook p.237 (Lesson 117 text)",
+      "href": "../img/lesson-117-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.238 (Lesson 117 notes)",
+      "href": "../img/lesson-117-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 117 (practice page 162)",
+      "href": "../img/lesson-117-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 112-117, p.213)",
+      "href": "../img/key-112-117.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.344-346 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=359"
+    },
+    {
+      "label": "Grammar Workbook p.552-553 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=552"
+    }
   ],
   "characters": {
     "husband": {
@@ -244,19 +496,24 @@
       "status": "ready",
       "description": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
       "source": "../img/lesson-117-01-text.jpg",
-      "src": "assets/lesson-117/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-117/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-117-01-text.jpg",
         "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
         "label": "1",
-        "asset_sha256": "61ccbb235fcc71e5974eb41fd0bd76ffee870a8fbc2ea8a2a6709781dd9e9a4c",
-        "generation_record": "illustrations/photo-repairs/117/generation.json",
-        "review_record": "illustrations/photo-repairs/117/review.json"
+        "asset_sha256": "b2255f92a318e6b1e2877acae810085eab7bad8fcd32750c8070444c2897debb",
+        "generation_record": "illustrations/redraw-odd/117/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/117.json"
+      },
+      "alt": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/117/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -264,19 +521,24 @@
       "status": "ready",
       "description": "There were coins everywhere. We looked for them, but we could not find them all.",
       "source": "../img/lesson-117-01-text.jpg",
-      "src": "assets/lesson-117/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-117/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-117-01-text.jpg",
         "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
         "label": "2",
-        "asset_sha256": "69203c3f6a8841ee9a5c3c3bc26dc75321aab277f4279ccd49ca110754ffb484",
-        "generation_record": "illustrations/photo-repairs/117/generation.json",
-        "review_record": "illustrations/photo-repairs/117/review.json"
+        "asset_sha256": "e0a9b31b0c468506fce071e64c37eaf7b83df95f291308d7949cbc17bd391645",
+        "generation_record": "illustrations/redraw-odd/117/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/117.json"
+      },
+      "alt": "There were coins everywhere. We looked for them, but we could not find them all.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/117/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -284,19 +546,24 @@
       "status": "ready",
       "description": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
       "source": "../img/lesson-117-01-text.jpg",
-      "src": "assets/lesson-117/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-117/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-117-01-text.jpg",
         "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
         "label": "3",
-        "asset_sha256": "44358383e6affad3f8cd13f1d9caaa52610745c20ef7f2876f3e20330b8b17a3",
-        "generation_record": "illustrations/photo-repairs/117/generation.json",
-        "review_record": "illustrations/photo-repairs/117/review.json"
+        "asset_sha256": "9ddab06b3400f74f3e7659901d6017c1727c06594fec726b445f1026634935fa",
+        "generation_record": "illustrations/redraw-odd/117/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/117.json"
+      },
+      "alt": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/117/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -304,19 +571,24 @@
       "status": "ready",
       "description": "He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them!",
       "source": "../img/lesson-117-01-text.jpg",
-      "src": "assets/lesson-117/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-117/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-117-01-text.jpg",
         "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
         "label": "4",
-        "asset_sha256": "796594d6cbc1cb4a65705b8b1784bcf654384c2d4304ea7a9d572e0b4210e306",
-        "generation_record": "illustrations/photo-repairs/117/generation.json",
-        "review_record": "illustrations/photo-repairs/117/review.json"
+        "asset_sha256": "6aefb30c75fa623aa65a42de9b4ae84e2468e99f84c74fc662aaa8645326266b",
+        "generation_record": "illustrations/redraw-odd/117/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/117.json"
+      },
+      "alt": "He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/117/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -324,19 +596,24 @@
       "status": "ready",
       "description": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
       "source": "../img/lesson-117-01-text.jpg",
-      "src": "assets/lesson-117/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-117/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-117-01-text.jpg",
         "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
         "label": "5",
-        "asset_sha256": "6c2f80c11965da6020b0375855213c57b48045f02b88a52c67b6e1fa07772715",
-        "generation_record": "illustrations/photo-repairs/117/generation.json",
-        "review_record": "illustrations/photo-repairs/117/review.json"
+        "asset_sha256": "3ddc7f5280559834a6ce5f99e346c0f3a68c1dd20ffe3f73e64eba2269795128",
+        "generation_record": "illustrations/redraw-odd/117/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/117.json"
+      },
+      "alt": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/117/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -344,19 +621,24 @@
       "status": "ready",
       "description": "'How's Tommy?' he asked. 'I don't know,' I answered. 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
       "source": "../img/lesson-117-01-text.jpg",
-      "src": "assets/lesson-117/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-117/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-117-01-text.jpg",
         "sha256": "b6a5f228d01bbe37eaf24dcbfa9841168241ef0bb8645d7afd7c34fbddd5c0e0",
         "label": "6",
-        "asset_sha256": "efbfaac011a0a0679b4cf44ef675a31d382c2f158a9a51aa6d54299818e22cbe",
-        "generation_record": "illustrations/photo-repairs/117/generation.json",
-        "review_record": "illustrations/photo-repairs/117/review.json"
+        "asset_sha256": "7bcab4a7fd810f092f991c0ec4818c3304a644677cab0ed7643733c4d33f2113",
+        "generation_record": "illustrations/redraw-odd/117/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/117.json"
+      },
+      "alt": "'How's Tommy?' he asked. 'I don't know,' I answered. 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/117/photo-panel-06/generation.json"
       }
     }
   },

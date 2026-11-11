@@ -221,16 +221,66 @@
         "key_source": "img/key-123-129.jpg (Lesson 125 A, p.215)",
         "context": "Workbook L125 A: fill in the missing words in the Susan/Peter dialogue.",
         "questions": [
-          {"id": "l125-pa1", "number": 1, "prompt": "Susan: Can't you ___ in and have ___ now, Peter?", "answer": "come; tea"},
-          {"id": "l125-pa2", "number": 2, "prompt": "Peter: Not ___. I ___ water the garden first.", "answer": "yet; must"},
-          {"id": "l125-pa3", "number": 3, "prompt": "Susan: Do you ___ to ___ it now?", "answer": "have; water"},
-          {"id": "l125-pa4", "number": 4, "prompt": "Peter: I'm ___ I ___. Look at it! It's ___ ___.", "answer": "afraid; must; terribly; dry"},
-          {"id": "l125-pa5", "number": 5, "prompt": "Susan: What a ___!", "answer": "nuisance"},
-          {"id": "l125-pa6", "number": 6, "prompt": "Peter: Last summer it was very ___, too. Don't you ___? I ___ to water it ___ day.", "answer": "dry; remember; had; every"},
-          {"id": "l125-pa7", "number": 7, "prompt": "Susan: Well, I'll have tea by ___.", "answer": "myself"},
-          {"id": "l125-pa8", "number": 8, "prompt": "Susan: That was ___! Have you ___ already?", "answer": "quick; finished"},
-          {"id": "l125-pa9", "number": 9, "prompt": "Peter: Yes. Look ___ of the ___.", "answer": "out; window"},
-          {"id": "l125-pa10", "number": 10, "prompt": "Susan: It's ___! That ___ you don't ___ to water the ___.", "answer": "raining; means; need; garden"}
+          {
+            "id": "l125-pa1",
+            "number": 1,
+            "prompt": "Susan: Can't you ___ in and have ___ now, Peter?",
+            "answer": "come; tea"
+          },
+          {
+            "id": "l125-pa2",
+            "number": 2,
+            "prompt": "Peter: Not ___. I ___ water the garden first.",
+            "answer": "yet; must"
+          },
+          {
+            "id": "l125-pa3",
+            "number": 3,
+            "prompt": "Susan: Do you ___ to ___ it now?",
+            "answer": "have; water"
+          },
+          {
+            "id": "l125-pa4",
+            "number": 4,
+            "prompt": "Peter: I'm ___ I ___. Look at it! It's ___ ___.",
+            "answer": "afraid; must; terribly; dry"
+          },
+          {
+            "id": "l125-pa5",
+            "number": 5,
+            "prompt": "Susan: What a ___!",
+            "answer": "nuisance"
+          },
+          {
+            "id": "l125-pa6",
+            "number": 6,
+            "prompt": "Peter: Last summer it was very ___, too. Don't you ___? I ___ to water it ___ day.",
+            "answer": "dry; remember; had; every"
+          },
+          {
+            "id": "l125-pa7",
+            "number": 7,
+            "prompt": "Susan: Well, I'll have tea by ___.",
+            "answer": "myself"
+          },
+          {
+            "id": "l125-pa8",
+            "number": 8,
+            "prompt": "Susan: That was ___! Have you ___ already?",
+            "answer": "quick; finished"
+          },
+          {
+            "id": "l125-pa9",
+            "number": 9,
+            "prompt": "Peter: Yes. Look ___ of the ___.",
+            "answer": "out; window"
+          },
+          {
+            "id": "l125-pa10",
+            "number": 10,
+            "prompt": "Susan: It's ___! That ___ you don't ___ to water the ___.",
+            "answer": "raining; means; need; garden"
+          }
         ]
       },
       {
@@ -245,12 +295,42 @@
         "key_source": "img/key-123-129.jpg (Lesson 125 B, p.215)",
         "context": "Workbook L125 B: complete sentences with by myself/yourself/himself/etc.",
         "questions": [
-          {"id": "l125-pb1", "number": 1, "prompt": "No one can help, so I'll have to do the job ___.", "answer": "by myself"},
-          {"id": "l125-pb2", "number": 2, "prompt": "Susan, can you stay ___ for an hour?", "answer": "by yourself"},
-          {"id": "l125-pb3", "number": 3, "prompt": "I must go to the shops. You will have to stay ___, boys.", "answer": "by yourselves"},
-          {"id": "l125-pb4", "number": 4, "prompt": "His friend didn't want to see the film, so he went to the cinema ___.", "answer": "by himself"},
-          {"id": "l125-pb5", "number": 5, "prompt": "They always have tea ___ — just the two of them.", "answer": "by themselves"},
-          {"id": "l125-pb6", "number": 6, "prompt": "We live in the country so we spend a lot of time ___.", "answer": "by ourselves"}
+          {
+            "id": "l125-pb1",
+            "number": 1,
+            "prompt": "No one can help, so I'll have to do the job ___.",
+            "answer": "by myself"
+          },
+          {
+            "id": "l125-pb2",
+            "number": 2,
+            "prompt": "Susan, can you stay ___ for an hour?",
+            "answer": "by yourself"
+          },
+          {
+            "id": "l125-pb3",
+            "number": 3,
+            "prompt": "I must go to the shops. You will have to stay ___, boys.",
+            "answer": "by yourselves"
+          },
+          {
+            "id": "l125-pb4",
+            "number": 4,
+            "prompt": "His friend didn't want to see the film, so he went to the cinema ___.",
+            "answer": "by himself"
+          },
+          {
+            "id": "l125-pb5",
+            "number": 5,
+            "prompt": "They always have tea ___ — just the two of them.",
+            "answer": "by themselves"
+          },
+          {
+            "id": "l125-pb6",
+            "number": 6,
+            "prompt": "We live in the country so we spend a lot of time ___.",
+            "answer": "by ourselves"
+          }
         ]
       }
     ],
@@ -267,14 +347,55 @@
         "key_source": "pdf p.560 (新概念英语语法练习1)",
         "context": "8 answer items with 'have to ... and ... too'; item 1 is the printed example.",
         "questions": [
-          {"id": "l125-gi1", "number": 1, "example": true, "prompt": "Do you have to clean the blackboard today?", "answer": "Yes, I have to clean it today and I shall have to clean it tomorrow, too."},
-          {"id": "l125-gi2", "number": 2, "prompt": "Do you have to see the doctor today?", "answer": "Yes, I have to see him today and I shall have to see him tomorrow, too."},
-          {"id": "l125-gi3", "number": 3, "prompt": "Do I have to cook lunch today?", "answer": "Yes, you have to cook lunch today and you will have to cook lunch tomorrow, too."},
-          {"id": "l125-gi4", "number": 4, "prompt": "Does he have to serve in the shop today?", "answer": "Yes, he has to serve in the shop today and he will have to serve in the shop tomorrow, too."},
-          {"id": "l125-gi5", "number": 5, "prompt": "Do you have to see the dentist today?", "answer": "Yes, I have to see him today and I shall have to see him tomorrow, too."},
-          {"id": "l125-gi6", "number": 6, "prompt": "Does he have to wear that tie today?", "answer": "Yes, he has to wear it today and he will have to wear it tomorrow, too."},
-          {"id": "l125-gi7", "number": 7, "prompt": "Does she have to help her mother today?", "answer": "Yes, she has to help her today and she will have to help her tomorrow, too."},
-          {"id": "l125-gi8", "number": 8, "prompt": "Do you have to water the garden today?", "answer": "Yes, I have to water it today and I shall have to water it tomorrow, too."}
+          {
+            "id": "l125-gi1",
+            "number": 1,
+            "example": true,
+            "prompt": "Do you have to clean the blackboard today?",
+            "answer": "Yes, I have to clean it today and I shall have to clean it tomorrow, too."
+          },
+          {
+            "id": "l125-gi2",
+            "number": 2,
+            "prompt": "Do you have to see the doctor today?",
+            "answer": "Yes, I have to see him today and I shall have to see him tomorrow, too."
+          },
+          {
+            "id": "l125-gi3",
+            "number": 3,
+            "prompt": "Do I have to cook lunch today?",
+            "answer": "Yes, you have to cook lunch today and you will have to cook lunch tomorrow, too."
+          },
+          {
+            "id": "l125-gi4",
+            "number": 4,
+            "prompt": "Does he have to serve in the shop today?",
+            "answer": "Yes, he has to serve in the shop today and he will have to serve in the shop tomorrow, too."
+          },
+          {
+            "id": "l125-gi5",
+            "number": 5,
+            "prompt": "Do you have to see the dentist today?",
+            "answer": "Yes, I have to see him today and I shall have to see him tomorrow, too."
+          },
+          {
+            "id": "l125-gi6",
+            "number": 6,
+            "prompt": "Does he have to wear that tie today?",
+            "answer": "Yes, he has to wear it today and he will have to wear it tomorrow, too."
+          },
+          {
+            "id": "l125-gi7",
+            "number": 7,
+            "prompt": "Does she have to help her mother today?",
+            "answer": "Yes, she has to help her today and she will have to help her tomorrow, too."
+          },
+          {
+            "id": "l125-gi8",
+            "number": 8,
+            "prompt": "Do you have to water the garden today?",
+            "answer": "Yes, I have to water it today and I shall have to water it tomorrow, too."
+          }
         ]
       },
       {
@@ -289,18 +410,81 @@
         "key_source": "pdf p.560-561 (新概念英语语法练习1)",
         "context": "12 answer items (2 groups of 6); items 1a, 1b and 2a are the printed examples.",
         "questions": [
-          {"id": "l125-gii1", "number": 1, "example": true, "prompt": "1a. Do you have to take an examination today?", "answer": "No, I don't have to take one today, but I had to take one yesterday."},
-          {"id": "l125-gii2", "number": 2, "example": true, "prompt": "1b. Does she have to type any letters today?", "answer": "No, she doesn't have to type any today, but she had to type some yesterday."},
-          {"id": "l125-gii3", "number": 3, "prompt": "1c. Do I have to water the flowers today?", "answer": "No, you don't have to water them today, but you had to water them yesterday."},
-          {"id": "l125-gii4", "number": 4, "prompt": "1d. Do you have to clean your bike today?", "answer": "No, I don't have to clean it today, but I had to clean it yesterday."},
-          {"id": "l125-gii5", "number": 5, "prompt": "1e. Do we have to clean the windows today?", "answer": "No, you don't have to clean them today, but you had to clean them yesterday."},
-          {"id": "l125-gii6", "number": 6, "prompt": "1f. Does he have to buy some butter today?", "answer": "No, he doesn't have to buy any today, but he had to buy some yesterday."},
-          {"id": "l125-gii7", "number": 7, "example": true, "prompt": "2a. Do you have to go to school today?", "answer": "No, I don't, and I won't have to go to school tomorrow, either."},
-          {"id": "l125-gii8", "number": 8, "prompt": "2b. Do I have to go to bed early today?", "answer": "No, you don't, and you won't have to go to bed early tomorrow, either."},
-          {"id": "l125-gii9", "number": 9, "prompt": "2c. Do you have to do your homework today?", "answer": "No, I don't, and I won't have to do my homework tomorrow, either."},
-          {"id": "l125-gii10", "number": 10, "prompt": "2d. Does she have to wash any clothes today?", "answer": "No, she doesn't, and she won't have to wash any clothes tomorrow, either."},
-          {"id": "l125-gii11", "number": 11, "prompt": "2e. Do I have to do the shopping today?", "answer": "No, you don't, and you won't have to do the shopping tomorrow, either."},
-          {"id": "l125-gii12", "number": 12, "prompt": "2f. Do we have to hand in our papers today?", "answer": "No, you don't, and you won't have to hand in your papers tomorrow, either."}
+          {
+            "id": "l125-gii1",
+            "number": 1,
+            "example": true,
+            "prompt": "1a. Do you have to take an examination today?",
+            "answer": "No, I don't have to take one today, but I had to take one yesterday."
+          },
+          {
+            "id": "l125-gii2",
+            "number": 2,
+            "example": true,
+            "prompt": "1b. Does she have to type any letters today?",
+            "answer": "No, she doesn't have to type any today, but she had to type some yesterday."
+          },
+          {
+            "id": "l125-gii3",
+            "number": 3,
+            "prompt": "1c. Do I have to water the flowers today?",
+            "answer": "No, you don't have to water them today, but you had to water them yesterday."
+          },
+          {
+            "id": "l125-gii4",
+            "number": 4,
+            "prompt": "1d. Do you have to clean your bike today?",
+            "answer": "No, I don't have to clean it today, but I had to clean it yesterday."
+          },
+          {
+            "id": "l125-gii5",
+            "number": 5,
+            "prompt": "1e. Do we have to clean the windows today?",
+            "answer": "No, you don't have to clean them today, but you had to clean them yesterday."
+          },
+          {
+            "id": "l125-gii6",
+            "number": 6,
+            "prompt": "1f. Does he have to buy some butter today?",
+            "answer": "No, he doesn't have to buy any today, but he had to buy some yesterday."
+          },
+          {
+            "id": "l125-gii7",
+            "number": 7,
+            "example": true,
+            "prompt": "2a. Do you have to go to school today?",
+            "answer": "No, I don't, and I won't have to go to school tomorrow, either."
+          },
+          {
+            "id": "l125-gii8",
+            "number": 8,
+            "prompt": "2b. Do I have to go to bed early today?",
+            "answer": "No, you don't, and you won't have to go to bed early tomorrow, either."
+          },
+          {
+            "id": "l125-gii9",
+            "number": 9,
+            "prompt": "2c. Do you have to do your homework today?",
+            "answer": "No, I don't, and I won't have to do my homework tomorrow, either."
+          },
+          {
+            "id": "l125-gii10",
+            "number": 10,
+            "prompt": "2d. Does she have to wash any clothes today?",
+            "answer": "No, she doesn't, and she won't have to wash any clothes tomorrow, either."
+          },
+          {
+            "id": "l125-gii11",
+            "number": 11,
+            "prompt": "2e. Do I have to do the shopping today?",
+            "answer": "No, you don't, and you won't have to do the shopping tomorrow, either."
+          },
+          {
+            "id": "l125-gii12",
+            "number": 12,
+            "prompt": "2f. Do we have to hand in our papers today?",
+            "answer": "No, you don't, and you won't have to hand in your papers tomorrow, either."
+          }
         ]
       },
       {
@@ -315,27 +499,96 @@
         "key_source": "pdf p.561 (新概念英语语法练习1)",
         "context": "10 answer items with 'must ... but ... don't need to'; item 1 is the printed example.",
         "questions": [
-          {"id": "l125-giii1", "number": 1, "example": true, "prompt": "Do I have to wear shoes and socks?", "answer": "You must wear shoes but you don't need to wear socks."},
-          {"id": "l125-giii2", "number": 2, "prompt": "Do I have to wash my hands and face?", "answer": "You must wash your hands but you don't need to wash your face."},
-          {"id": "l125-giii3", "number": 3, "prompt": "Do we have to close the door and the windows?", "answer": "You must close the door but you don't need to close the windows."},
-          {"id": "l125-giii4", "number": 4, "prompt": "Does he have to wear a shirt and a tie?", "answer": "He must wear a shirt but he doesn't need to wear a tie."},
-          {"id": "l125-giii5", "number": 5, "prompt": "Do we have to go to school today and tomorrow?", "answer": "You must go to school today but you don't need to go tomorrow."},
-          {"id": "l125-giii6", "number": 6, "prompt": "Do we have to read the book and answer the questions?", "answer": "You must read the book but you don't need to answer the questions."},
-          {"id": "l125-giii7", "number": 7, "prompt": "Do I have to clean my teeth and wash my hair?", "answer": "You must clean your teeth but you don't need to wash your hair."},
-          {"id": "l125-giii8", "number": 8, "prompt": "Do you have to cook vegetables and fish for supper?", "answer": "I must cook vegetables for supper but I don't need to cook fish."},
-          {"id": "l125-giii9", "number": 9, "prompt": "Does she have to look after the baby and the cat?", "answer": "She must look after the baby but she doesn't need to look after the cat."},
-          {"id": "l125-giii10", "number": 10, "prompt": "Do I have to put on my coat and hat?", "answer": "You must put on your coat but you don't need to put on your hat."}
+          {
+            "id": "l125-giii1",
+            "number": 1,
+            "example": true,
+            "prompt": "Do I have to wear shoes and socks?",
+            "answer": "You must wear shoes but you don't need to wear socks."
+          },
+          {
+            "id": "l125-giii2",
+            "number": 2,
+            "prompt": "Do I have to wash my hands and face?",
+            "answer": "You must wash your hands but you don't need to wash your face."
+          },
+          {
+            "id": "l125-giii3",
+            "number": 3,
+            "prompt": "Do we have to close the door and the windows?",
+            "answer": "You must close the door but you don't need to close the windows."
+          },
+          {
+            "id": "l125-giii4",
+            "number": 4,
+            "prompt": "Does he have to wear a shirt and a tie?",
+            "answer": "He must wear a shirt but he doesn't need to wear a tie."
+          },
+          {
+            "id": "l125-giii5",
+            "number": 5,
+            "prompt": "Do we have to go to school today and tomorrow?",
+            "answer": "You must go to school today but you don't need to go tomorrow."
+          },
+          {
+            "id": "l125-giii6",
+            "number": 6,
+            "prompt": "Do we have to read the book and answer the questions?",
+            "answer": "You must read the book but you don't need to answer the questions."
+          },
+          {
+            "id": "l125-giii7",
+            "number": 7,
+            "prompt": "Do I have to clean my teeth and wash my hair?",
+            "answer": "You must clean your teeth but you don't need to wash your hair."
+          },
+          {
+            "id": "l125-giii8",
+            "number": 8,
+            "prompt": "Do you have to cook vegetables and fish for supper?",
+            "answer": "I must cook vegetables for supper but I don't need to cook fish."
+          },
+          {
+            "id": "l125-giii9",
+            "number": 9,
+            "prompt": "Does she have to look after the baby and the cat?",
+            "answer": "She must look after the baby but she doesn't need to look after the cat."
+          },
+          {
+            "id": "l125-giii10",
+            "number": 10,
+            "prompt": "Do I have to put on my coat and hat?",
+            "answer": "You must put on your coat but you don't need to put on your hat."
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.253 (Lesson 125 text)", "href": "../img/lesson-125-01-text.jpg"},
-    {"label": "Textbook p.254 (Lesson 125 new words & notes)", "href": "../img/lesson-125-02-text.jpg"},
-    {"label": "Workbook Lesson 125 (practice page)", "href": "../img/lesson-125-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
-    {"label": "Grammar Workbook p.366-368 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=366"},
-    {"label": "Grammar Workbook p.560-561 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=560"}
+    {
+      "label": "Textbook p.253 (Lesson 125 text)",
+      "href": "../img/lesson-125-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.254 (Lesson 125 new words & notes)",
+      "href": "../img/lesson-125-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 125 (practice page)",
+      "href": "../img/lesson-125-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 123-129, p.215)",
+      "href": "../img/key-123-129.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.366-368 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=366"
+    },
+    {
+      "label": "Grammar Workbook p.560-561 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=560"
+    }
   ],
   "characters": {
     "susan": {
@@ -357,19 +610,24 @@
       "status": "ready",
       "description": "Can't you come in and have tea now, Peter? Not yet. I must water the garden first.",
       "source": "../img/lesson-125-01-text.jpg",
-      "src": "assets/lesson-125/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-125/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-125-01-text.jpg",
         "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/125/generation.json",
-        "review_record": "illustrations/photo-repairs/125/review.json",
-        "asset_sha256": "e5a3b2face3c3e613092214683bc2b4130e88ec23b648e85c7e65764b780eb70"
+        "generation_record": "illustrations/redraw-odd/125/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/125.json",
+        "asset_sha256": "8836f94547ef259ddccf7936c4b8e44fc9512ac2c13ff27319e886fd08f662b7"
+      },
+      "alt": "Can't you come in and have tea now, Peter? Not yet. I must water the garden first.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/125/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -377,19 +635,24 @@
       "status": "ready",
       "description": "Do you have to water it now? I'm afraid I must. Look at it! It's terribly dry.",
       "source": "../img/lesson-125-01-text.jpg",
-      "src": "assets/lesson-125/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-125/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-125-01-text.jpg",
         "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/125/generation.json",
-        "review_record": "illustrations/photo-repairs/125/review.json",
-        "asset_sha256": "4d07a36711b5220d127fc2174530966913612e7ef4245a78a53cddfa8138a370"
+        "generation_record": "illustrations/redraw-odd/125/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/125.json",
+        "asset_sha256": "254ba61580a1494071e5f51136fef0e8051444198e3096ca17250961ba90f3a9"
+      },
+      "alt": "Do you have to water it now? I'm afraid I must. Look at it! It's terribly dry.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/125/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -397,19 +660,24 @@
       "status": "ready",
       "description": "What a nuisance! Last summer it was very dry, too. Don't you remember? I had to water it every day. Well, I'll have tea by myself.",
       "source": "../img/lesson-125-01-text.jpg",
-      "src": "assets/lesson-125/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-125/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-125-01-text.jpg",
         "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/125/generation.json",
-        "review_record": "illustrations/photo-repairs/125/review.json",
-        "asset_sha256": "81d5dcf314289b7c20bdda4183f3aa8486b2428e88c5b9da8c31cdad16995e1e"
+        "generation_record": "illustrations/redraw-odd/125/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/125.json",
+        "asset_sha256": "760cf16cabdd53a7fb480aae56aa989d26c2b125306da3dfc7e7c52599065012"
+      },
+      "alt": "What a nuisance! Last summer it was very dry, too. Don't you remember? I had to water it every day. Well, I'll have tea by myself.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/125/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -417,19 +685,24 @@
       "status": "ready",
       "description": "That was quick! Have you finished already? Yes. Look out of the window.",
       "source": "../img/lesson-125-01-text.jpg",
-      "src": "assets/lesson-125/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-125/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-125-01-text.jpg",
         "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/125/generation.json",
-        "review_record": "illustrations/photo-repairs/125/review.json",
-        "asset_sha256": "3f159d1b9d5b6aff4000ad09ed6a9cb774b85905cc944e94abf290e15335e5ee"
+        "generation_record": "illustrations/redraw-odd/125/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/125.json",
+        "asset_sha256": "4b31e8b6228558d28af1795b363e59bb6f08e28761c741f9291a47ca754e5c5c"
+      },
+      "alt": "That was quick! Have you finished already? Yes. Look out of the window.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/125/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -437,19 +710,24 @@
       "status": "ready",
       "description": "It's raining! That means you don't need to water the garden. That was a pleasant surprise. It means I can have tea, instead.",
       "source": "../img/lesson-125-01-text.jpg",
-      "src": "assets/lesson-125/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-125/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-125-01-text.jpg",
         "sha256": "adb150ad6968f2f612a8653a61c87a53edc58fbc2a0ce4dbf6766e6e8f73ade6",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/125/generation.json",
-        "review_record": "illustrations/photo-repairs/125/review.json",
-        "asset_sha256": "02539dc35d090a63575dc8c59462f6279211b6b85f2a0afe4fe5e5f6fd61b01d"
+        "generation_record": "illustrations/redraw-odd/125/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/125.json",
+        "asset_sha256": "3452a05f89ab102af4950dfabf34552f883d766f1e5ae28a617eaa7cdfab2251"
+      },
+      "alt": "It's raining! That means you don't need to water the garden. That was a pleasant surprise. It means I can have tea, instead.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/125/photo-panel-05/generation.json"
       }
     }
   },

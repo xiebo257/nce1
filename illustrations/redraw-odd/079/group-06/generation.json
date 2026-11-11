@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Have we got any beer and wine? No, we haven't. And I'm not going to get any! Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: Have we got any beer and wine? No, we haven't. And I'm not going to get any! Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Recurring cast for this lesson: Carol is a middle-aged adult woman, about 45 years old, with shoulder-length dark brown hair, a teal cardigan and a cream blouse. Tom is a middle-aged adult man, about 50 years old, with short gray hair and a blue polo shirt. Keep these faces, ages and clothing colors consistent whenever they appear, while following each scene description for who is present.",
   "seed": 797006,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-06",
-      "path": "html/assets/lesson-079/photo-panel-06.webp",
-      "sha256": "db31652bc93d641e956467ecec62bad68892f280d3bb2a548b661832e2957dbb"
-    }
-  ],
-  "fingerprint": "fc18f05791ea3a535cbc07fa9e001f23ed6c98fc1aacd328555b0a53d7d58b22",
-  "sha256": "ae901c0663c72ccb4e53392a581238b34285dab699e8d3aa689091a24462830d",
-  "seconds": 23.69,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "647953ed05742456bec19e0f04605860578bf0bf419c6ac4ade871656d6b3066",
+  "sha256": "04858550dd5c1ea1947ea31f4d99c47603d53eaee9386636cb2dbaac34cf1e4e",
+  "seconds": 16.12,
   "status": "candidate-needs-visual-review"
 }

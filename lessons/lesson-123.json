@@ -273,13 +273,48 @@
         "answer_kind": "suggested",
         "context": "Workbook L123 A: comprehension questions about the Mike/Scott dialogue. Items 1-2 are from the workbook answer key (img/key-118-123.jpg p.214), items 3-7 are model answers (suggested).",
         "questions": [
-          {"id": "l123-pa1", "number": 1, "prompt": "Mike shows Scott a photograph. Is it a photograph he took during his trip to New York?", "answer": "No, it's a photograph he took during his trip to Australia."},
-          {"id": "l123-pa2", "number": 2, "prompt": "Who are the people in the photograph?", "answer": "They are people he met during the trip."},
-          {"id": "l123-pa3", "number": 3, "prompt": "He shows him another photo. Which ship is it?", "answer": "It's the ship they travelled on."},
-          {"id": "l123-pa4", "number": 4, "prompt": "There's another photo of a man smoking a cigar. Who's he?", "answer": "He's the man who offered him a job in Australia."},
-          {"id": "l123-pa5", "number": 5, "prompt": "What did Mike grow during the trip?", "answer": "He grew a beard."},
-          {"id": "l123-pa6", "number": 6, "prompt": "What did he do with it when he came home?", "answer": "He shaved it off."},
-          {"id": "l123-pa7", "number": 7, "prompt": "Why did he shave it off?", "answer": "Because his wife didn't like it."}
+          {
+            "id": "l123-pa1",
+            "number": 1,
+            "prompt": "Mike shows Scott a photograph. Is it a photograph he took during his trip to New York?",
+            "answer": "No, it's a photograph he took during his trip to Australia."
+          },
+          {
+            "id": "l123-pa2",
+            "number": 2,
+            "prompt": "Who are the people in the photograph?",
+            "answer": "They are people he met during the trip."
+          },
+          {
+            "id": "l123-pa3",
+            "number": 3,
+            "prompt": "He shows him another photo. Which ship is it?",
+            "answer": "It's the ship they travelled on."
+          },
+          {
+            "id": "l123-pa4",
+            "number": 4,
+            "prompt": "There's another photo of a man smoking a cigar. Who's he?",
+            "answer": "He's the man who offered him a job in Australia."
+          },
+          {
+            "id": "l123-pa5",
+            "number": 5,
+            "prompt": "What did Mike grow during the trip?",
+            "answer": "He grew a beard."
+          },
+          {
+            "id": "l123-pa6",
+            "number": 6,
+            "prompt": "What did he do with it when he came home?",
+            "answer": "He shaved it off."
+          },
+          {
+            "id": "l123-pa7",
+            "number": 7,
+            "prompt": "Why did he shave it off?",
+            "answer": "Because his wife didn't like it."
+          }
         ]
       },
       {
@@ -294,13 +329,48 @@
         "key_source": "img/key-123-129.jpg (Lesson 123 B, p.215)",
         "context": "Workbook L123 B: choose and write in the correct word or words.",
         "questions": [
-          {"id": "l123-pb1", "number": 1, "prompt": "The man that I talked to ___ me a very good job. (said / offered)", "answer": "offered"},
-          {"id": "l123-pb2", "number": 2, "prompt": "Last month I went on a long ___ to America. (travel / trip)", "answer": "trip"},
-          {"id": "l123-pb3", "number": 3, "prompt": "My big brother always ___ a beard in winter. (grows / makes)", "answer": "grows"},
-          {"id": "l123-pb4", "number": 4, "prompt": "A shop assistant ___ behind the counter in a shop. (serves / serves on)", "answer": "serves"},
-          {"id": "l123-pb5", "number": 5, "prompt": "It was very dark so we ___ the torch. (got on / turned on)", "answer": "turned on"},
-          {"id": "l123-pb6", "number": 6, "prompt": "'You must remember,' the shop manager told the girls in the shop. 'The ___ is always right.' (customer / assistant)", "answer": "customer"},
-          {"id": "l123-pb7", "number": 7, "prompt": "'That was me in that photo — with a beard,' said Mike. 'Didn't you ___ me?' (remember / recognize)", "answer": "recognize"}
+          {
+            "id": "l123-pb1",
+            "number": 1,
+            "prompt": "The man that I talked to ___ me a very good job. (said / offered)",
+            "answer": "offered"
+          },
+          {
+            "id": "l123-pb2",
+            "number": 2,
+            "prompt": "Last month I went on a long ___ to America. (travel / trip)",
+            "answer": "trip"
+          },
+          {
+            "id": "l123-pb3",
+            "number": 3,
+            "prompt": "My big brother always ___ a beard in winter. (grows / makes)",
+            "answer": "grows"
+          },
+          {
+            "id": "l123-pb4",
+            "number": 4,
+            "prompt": "A shop assistant ___ behind the counter in a shop. (serves / serves on)",
+            "answer": "serves"
+          },
+          {
+            "id": "l123-pb5",
+            "number": 5,
+            "prompt": "It was very dark so we ___ the torch. (got on / turned on)",
+            "answer": "turned on"
+          },
+          {
+            "id": "l123-pb6",
+            "number": 6,
+            "prompt": "'You must remember,' the shop manager told the girls in the shop. 'The ___ is always right.' (customer / assistant)",
+            "answer": "customer"
+          },
+          {
+            "id": "l123-pb7",
+            "number": 7,
+            "prompt": "'That was me in that photo — with a beard,' said Mike. 'Didn't you ___ me?' (remember / recognize)",
+            "answer": "recognize"
+          }
         ]
       }
     ],
@@ -317,16 +387,67 @@
         "key_source": "pdf p.558-559 (新概念英语语法练习1)",
         "context": "10 combine items where the relative pronoun is omitted because it is the object in the relative clause; item 1 is the printed example.",
         "questions": [
-          {"id": "l123-gi1", "number": 1, "example": true, "prompt": "These are the boxes. We keep the papers in the boxes.", "answer": "These are the boxes we keep the papers in."},
-          {"id": "l123-gi2", "number": 2, "prompt": "The chair broke. He was sitting on the chair.", "answer": "The chair he was sitting on broke."},
-          {"id": "l123-gi3", "number": 3, "prompt": "Show me the book. You got the book from the library.", "answer": "Show me the book you got from the library."},
-          {"id": "l123-gi4", "number": 4, "prompt": "The books are on the top shelf. You were looking for the books.", "answer": "The books you were looking for are on the top shelf."},
-          {"id": "l123-gi5", "number": 5, "prompt": "The fruit is very fresh. I bought the fruit in that greengrocer's.", "answer": "The fruit I bought in that greengrocer's is fresh."},
-          {"id": "l123-gi6", "number": 6, "prompt": "The knife slipped and cut his hand. He was using the knife.", "answer": "The knife he was using slipped and cut his hand."},
-          {"id": "l123-gi7", "number": 7, "prompt": "The window was still open. The thief had climbed through the window.", "answer": "The window the thief had climbed through was still open."},
-          {"id": "l123-gi8", "number": 8, "prompt": "The furniture was very dusty. She was cleaning the furniture.", "answer": "The furniture she was cleaning was very dusty."},
-          {"id": "l123-gi9", "number": 9, "prompt": "The dress was green. She put on the dress.", "answer": "The dress she put on was green."},
-          {"id": "l123-gi10", "number": 10, "prompt": "The book was very interesting. He read the book last week.", "answer": "The book he read last week was very interesting."}
+          {
+            "id": "l123-gi1",
+            "number": 1,
+            "example": true,
+            "prompt": "These are the boxes. We keep the papers in the boxes.",
+            "answer": "These are the boxes we keep the papers in."
+          },
+          {
+            "id": "l123-gi2",
+            "number": 2,
+            "prompt": "The chair broke. He was sitting on the chair.",
+            "answer": "The chair he was sitting on broke."
+          },
+          {
+            "id": "l123-gi3",
+            "number": 3,
+            "prompt": "Show me the book. You got the book from the library.",
+            "answer": "Show me the book you got from the library."
+          },
+          {
+            "id": "l123-gi4",
+            "number": 4,
+            "prompt": "The books are on the top shelf. You were looking for the books.",
+            "answer": "The books you were looking for are on the top shelf."
+          },
+          {
+            "id": "l123-gi5",
+            "number": 5,
+            "prompt": "The fruit is very fresh. I bought the fruit in that greengrocer's.",
+            "answer": "The fruit I bought in that greengrocer's is fresh."
+          },
+          {
+            "id": "l123-gi6",
+            "number": 6,
+            "prompt": "The knife slipped and cut his hand. He was using the knife.",
+            "answer": "The knife he was using slipped and cut his hand."
+          },
+          {
+            "id": "l123-gi7",
+            "number": 7,
+            "prompt": "The window was still open. The thief had climbed through the window.",
+            "answer": "The window the thief had climbed through was still open."
+          },
+          {
+            "id": "l123-gi8",
+            "number": 8,
+            "prompt": "The furniture was very dusty. She was cleaning the furniture.",
+            "answer": "The furniture she was cleaning was very dusty."
+          },
+          {
+            "id": "l123-gi9",
+            "number": 9,
+            "prompt": "The dress was green. She put on the dress.",
+            "answer": "The dress she put on was green."
+          },
+          {
+            "id": "l123-gi10",
+            "number": 10,
+            "prompt": "The book was very interesting. He read the book last week.",
+            "answer": "The book he read last week was very interesting."
+          }
         ]
       },
       {
@@ -341,28 +462,101 @@
         "key_source": "pdf p.559 (新概念英语语法练习1)",
         "context": "10 combine items forming relative clauses with who/whom/which/that or omitted; items 1-2 are the printed examples.",
         "questions": [
-          {"id": "l123-gii1", "number": 1, "example": true, "prompt": "I know the policeman. He is speaking to John.", "answer": "I know the policeman who is speaking to John."},
-          {"id": "l123-gii2", "number": 2, "example": true, "prompt": "I greeted the girl. She goes to my school.", "answer": "The girl I greeted goes to my school."},
-          {"id": "l123-gii3", "number": 3, "prompt": "The tourists are from Japan. The tourists have already left.", "answer": "The tourists who are from Japan have already left."},
-          {"id": "l123-gii4", "number": 4, "prompt": "That is the lady. I saw her on television last night.", "answer": "That is the lady I saw on television last night."},
-          {"id": "l123-gii5", "number": 5, "prompt": "The man was very old. I helped the man.", "answer": "The man I helped was very old."},
-          {"id": "l123-gii6", "number": 6, "prompt": "The man is sitting in that car. The man is my boss.", "answer": "The man who is sitting in that car is my boss."},
-          {"id": "l123-gii7", "number": 7, "prompt": "The person knows my teacher. I met the person in Beijing.", "answer": "The person I met in Beijing knows my teacher."},
-          {"id": "l123-gii8", "number": 8, "prompt": "The man is coming towards us. You are looking for the man.", "answer": "The man you are looking for is coming towards us."},
-          {"id": "l123-gii9", "number": 9, "prompt": "The man came to thank you. You helped the man.", "answer": "The man you helped came to thank you."},
-          {"id": "l123-gii10", "number": 10, "prompt": "The man is going into that building. We want to see the man.", "answer": "The man we want to see is going into that building."}
+          {
+            "id": "l123-gii1",
+            "number": 1,
+            "example": true,
+            "prompt": "I know the policeman. He is speaking to John.",
+            "answer": "I know the policeman who is speaking to John."
+          },
+          {
+            "id": "l123-gii2",
+            "number": 2,
+            "example": true,
+            "prompt": "I greeted the girl. She goes to my school.",
+            "answer": "The girl I greeted goes to my school."
+          },
+          {
+            "id": "l123-gii3",
+            "number": 3,
+            "prompt": "The tourists are from Japan. The tourists have already left.",
+            "answer": "The tourists who are from Japan have already left."
+          },
+          {
+            "id": "l123-gii4",
+            "number": 4,
+            "prompt": "That is the lady. I saw her on television last night.",
+            "answer": "That is the lady I saw on television last night."
+          },
+          {
+            "id": "l123-gii5",
+            "number": 5,
+            "prompt": "The man was very old. I helped the man.",
+            "answer": "The man I helped was very old."
+          },
+          {
+            "id": "l123-gii6",
+            "number": 6,
+            "prompt": "The man is sitting in that car. The man is my boss.",
+            "answer": "The man who is sitting in that car is my boss."
+          },
+          {
+            "id": "l123-gii7",
+            "number": 7,
+            "prompt": "The person knows my teacher. I met the person in Beijing.",
+            "answer": "The person I met in Beijing knows my teacher."
+          },
+          {
+            "id": "l123-gii8",
+            "number": 8,
+            "prompt": "The man is coming towards us. You are looking for the man.",
+            "answer": "The man you are looking for is coming towards us."
+          },
+          {
+            "id": "l123-gii9",
+            "number": 9,
+            "prompt": "The man came to thank you. You helped the man.",
+            "answer": "The man you helped came to thank you."
+          },
+          {
+            "id": "l123-gii10",
+            "number": 10,
+            "prompt": "The man is going into that building. We want to see the man.",
+            "answer": "The man we want to see is going into that building."
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.249 (Lesson 123 text)", "href": "../img/lesson-123-01-text.jpg"},
-    {"label": "Textbook p.250 (Lesson 123 new words & notes)", "href": "../img/lesson-123-02-text.jpg"},
-    {"label": "Workbook Lesson 123 (practice page)", "href": "../img/lesson-123-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 118-123, p.214)", "href": "../img/key-118-123.jpg"},
-    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
-    {"label": "Grammar Workbook p.361-362 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=361"},
-    {"label": "Grammar Workbook p.558-559 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=558"}
+    {
+      "label": "Textbook p.249 (Lesson 123 text)",
+      "href": "../img/lesson-123-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.250 (Lesson 123 new words & notes)",
+      "href": "../img/lesson-123-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 123 (practice page)",
+      "href": "../img/lesson-123-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 118-123, p.214)",
+      "href": "../img/key-118-123.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 123-129, p.215)",
+      "href": "../img/key-123-129.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.361-362 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=361"
+    },
+    {
+      "label": "Grammar Workbook p.558-559 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=558"
+    }
   ],
   "characters": {
     "mike": {
@@ -384,19 +578,24 @@
       "status": "ready",
       "description": "Look, Scott. This is a photograph I took during my trip to Australia. Let me see it, Mike.",
       "source": "../img/lesson-123-01-text.jpg",
-      "src": "assets/lesson-123/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-123/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-123-01-text.jpg",
         "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/123/generation.json",
-        "review_record": "illustrations/photo-repairs/123/review.json",
-        "asset_sha256": "f27f3a379ff8fed46405e9b2633253d33b7be3b43bd084071a2b55c28b22a847"
+        "generation_record": "illustrations/redraw-odd/123/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/123.json",
+        "asset_sha256": "5cd7c03036ab02a48885541c633ae26cb7707254b1023af1cedf99055ec6d7a1"
+      },
+      "alt": "Look, Scott. This is a photograph I took during my trip to Australia. Let me see it, Mike.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/123/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -404,19 +603,24 @@
       "status": "ready",
       "description": "This is a good photograph. Who are these people? They're people I met during the trip.",
       "source": "../img/lesson-123-01-text.jpg",
-      "src": "assets/lesson-123/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-123/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-123-01-text.jpg",
         "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/123/generation.json",
-        "review_record": "illustrations/photo-repairs/123/review.json",
-        "asset_sha256": "f520d35c8290fddc70b992e4ddf791cfb096340bab9d5cdba5e049dcb68c5a0b"
+        "generation_record": "illustrations/redraw-odd/123/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/123.json",
+        "asset_sha256": "d941a8bd4bb83677de06d7a5eaeab356dc017f132eec0e40186bdb3bd4c93ae2"
+      },
+      "alt": "This is a good photograph. Who are these people? They're people I met during the trip.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/123/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -424,19 +628,24 @@
       "status": "ready",
       "description": "That's the ship we travelled on. What a beautiful ship!",
       "source": "../img/lesson-123-01-text.jpg",
-      "src": "assets/lesson-123/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-123/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-123-01-text.jpg",
         "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/123/generation.json",
-        "review_record": "illustrations/photo-repairs/123/review.json",
-        "asset_sha256": "8eb6e25c9954b8d20e503927f355958aaa8313430edd2dcfabe12344074ea480"
+        "generation_record": "illustrations/redraw-odd/123/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/123.json",
+        "asset_sha256": "45daa9a262309adb35862bb559efd2446cd7e1e284ebd9ae2f7d25665be04971"
+      },
+      "alt": "That's the ship we travelled on. What a beautiful ship!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/123/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -444,19 +653,24 @@
       "status": "ready",
       "description": "Who's this? That's the man I told you about. Remember? Ah yes. The one who offered you a job in Australia. That's right.",
       "source": "../img/lesson-123-01-text.jpg",
-      "src": "assets/lesson-123/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-123/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-123-01-text.jpg",
         "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/123/generation.json",
-        "review_record": "illustrations/photo-repairs/123/review.json",
-        "asset_sha256": "85d6ac15ff67f77f9737443f890e1ca28b73843a93a7a66aab3f511fc3b66838"
+        "generation_record": "illustrations/redraw-odd/123/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/123.json",
+        "asset_sha256": "5a2f152a9e282c2019062c076bd6cbb00cd0309f8a04ea041346a424328df6b7"
+      },
+      "alt": "Who's this? That's the man I told you about. Remember? Ah yes. The one who offered you a job in Australia. That's right.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/123/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -464,19 +678,24 @@
       "status": "ready",
       "description": "Who's this? Guess! It's not you, is it? That's right.",
       "source": "../img/lesson-123-01-text.jpg",
-      "src": "assets/lesson-123/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-123/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-123-01-text.jpg",
         "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/123/generation.json",
-        "review_record": "illustrations/photo-repairs/123/review.json",
-        "asset_sha256": "42e41de82783505b9d3a94f026c0c54299da874025f20537db21aa8c1c63cc11"
+        "generation_record": "illustrations/redraw-odd/123/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/123.json",
+        "asset_sha256": "74c51c5cab664d6dfe9b0d57efeb060a5ae695cf663a33b434ebe760a47b998d"
+      },
+      "alt": "Who's this? Guess! It's not you, is it? That's right.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/123/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -484,19 +703,24 @@
       "status": "ready",
       "description": "I grew a beard during the trip, but I shaved it off when I came home. Why did you shave it off? My wife didn't like it!",
       "source": "../img/lesson-123-01-text.jpg",
-      "src": "assets/lesson-123/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-123/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-123-01-text.jpg",
         "sha256": "213344e77747b6aee453a8f4b574695a57cd5373dfa82441826349928c2df1bb",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/123/generation.json",
-        "review_record": "illustrations/photo-repairs/123/review.json",
-        "asset_sha256": "2f048d58b9b507230de7d88e4dbd3d6dcf21ac780556b67c952083abb4c3aee4"
+        "generation_record": "illustrations/redraw-odd/123/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/123.json",
+        "asset_sha256": "bf77ba10b634ae425d34b201f2a19a86ba54a4da90fd963f0742a61333d6cccd"
+      },
+      "alt": "I grew a beard during the trip, but I shaved it off when I came home. Why did you shave it off? My wife didn't like it!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/123/photo-panel-06/generation.json"
       }
     }
   },

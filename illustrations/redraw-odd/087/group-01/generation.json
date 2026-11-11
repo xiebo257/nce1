@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Is my car ready yet? I don't know, sir. What's the number of your car? It's LFZ 312 G. When did you bring it to us? I brought it here three days ago. Ah yes, I remember now. Have your mechanics finished yet? No, they're still working on it. Let's go into the garage and have a look at it. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: Is my car ready yet? I don't know, sir. What's the number of your car? It's LFZ 312 G. When did you bring it to us? I brought it here three days ago. Ah yes, I remember now. Have your mechanics finished yet? No, they're still working on it. Let's go into the garage and have a look at it. Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 87: every recurring adult woman must be the same actor, a middle-aged woman with a blond bob, light skin and a forest-green coat; every recurring adult man must be the same actor, a middle-aged man with dark hair and a trimmed beard, light skin and a navy shirt. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 877001,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-01",
-      "path": "html/assets/lesson-087/photo-panel-01.webp",
-      "sha256": "f453be75434d09d49a2b4d6ce14a470d87a3a608ac7ff1766d132afd4e1a34ce"
-    }
-  ],
-  "fingerprint": "5303ebf8972917cea815b7340097d7960bf3b9071683006a2ecf41f054704355",
-  "sha256": "499be77763e92e04aa37fd4df35c56be9fe6c79124f5b0c648f7467d3f832065",
-  "seconds": 23.15,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "f4a72cbffc4432758fa70d7e47120635d043338d85db24b8bf86fa95fcb88e4a",
+  "sha256": "7c1c2a6c8038bed90fce37c9050181363667c259d8b0fbe943e5f560c88cb7a5",
+  "seconds": 21.13,
   "status": "candidate-needs-visual-review"
 }

@@ -242,16 +242,66 @@
         "key_source": "img/key-118-123.jpg (Lesson 121 A)",
         "context": "Workbook L121 A: fill in the missing lines of the bookshop dialogue.",
         "questions": [
-          {"id": "l121-pa1", "number": 1, "prompt": "Customer: I ___ two expensive dictionaries here half an hour ago, but I ___ to take them with me.", "answer": "bought; forgot"},
-          {"id": "l121-pa2", "number": 2, "prompt": "Manager: Who ___ you, sir?", "answer": "served"},
-          {"id": "l121-pa3", "number": 3, "prompt": "Customer: The lady who is standing behind the counter.", "answer": "The lady who is standing behind the counter."},
-          {"id": "l121-pa4", "number": 4, "prompt": "Manager: ___ books did you buy?", "answer": "Which"},
-          {"id": "l121-pa5", "number": 5, "prompt": "Customer: The books ___ are on the counter.", "answer": "which"},
-          {"id": "l121-pa6", "number": 6, "prompt": "Manager: Did you serve this gentleman half an hour ago, Caroline? He says he's the man ___ bought these books.", "answer": "who"},
-          {"id": "l121-pa7", "number": 7, "prompt": "Caroline: I can't remember. The man ___ I served was wearing a hat.", "answer": "who"},
-          {"id": "l121-pa8", "number": 8, "prompt": "Manager: ___ you got a hat, sir?", "answer": "Have"},
-          {"id": "l121-pa9", "number": 9, "prompt": "Manager: Now, Caroline, is this the man that you ___?", "answer": "served"},
-          {"id": "l121-pa10", "number": 10, "prompt": "Caroline: Yes. I ___ him now!", "answer": "recognize"}
+          {
+            "id": "l121-pa1",
+            "number": 1,
+            "prompt": "Customer: I ___ two expensive dictionaries here half an hour ago, but I ___ to take them with me.",
+            "answer": "bought; forgot"
+          },
+          {
+            "id": "l121-pa2",
+            "number": 2,
+            "prompt": "Manager: Who ___ you, sir?",
+            "answer": "served"
+          },
+          {
+            "id": "l121-pa3",
+            "number": 3,
+            "prompt": "Customer: The lady who is standing behind the counter.",
+            "answer": "The lady who is standing behind the counter."
+          },
+          {
+            "id": "l121-pa4",
+            "number": 4,
+            "prompt": "Manager: ___ books did you buy?",
+            "answer": "Which"
+          },
+          {
+            "id": "l121-pa5",
+            "number": 5,
+            "prompt": "Customer: The books ___ are on the counter.",
+            "answer": "which"
+          },
+          {
+            "id": "l121-pa6",
+            "number": 6,
+            "prompt": "Manager: Did you serve this gentleman half an hour ago, Caroline? He says he's the man ___ bought these books.",
+            "answer": "who"
+          },
+          {
+            "id": "l121-pa7",
+            "number": 7,
+            "prompt": "Caroline: I can't remember. The man ___ I served was wearing a hat.",
+            "answer": "who"
+          },
+          {
+            "id": "l121-pa8",
+            "number": 8,
+            "prompt": "Manager: ___ you got a hat, sir?",
+            "answer": "Have"
+          },
+          {
+            "id": "l121-pa9",
+            "number": 9,
+            "prompt": "Manager: Now, Caroline, is this the man that you ___?",
+            "answer": "served"
+          },
+          {
+            "id": "l121-pa10",
+            "number": 10,
+            "prompt": "Caroline: Yes. I ___ him now!",
+            "answer": "recognize"
+          }
         ]
       },
       {
@@ -265,16 +315,67 @@
         "answer_kind": "suggested",
         "context": "Workbook L121 B: complete the sentences using the words in brackets; items 2-5 are from the workbook answer key (img/key-118-123.jpg), items 6-10 are model answers.",
         "questions": [
-          {"id": "l121-pb1", "number": 1, "example": true, "prompt": "Who did you see? (that man)", "answer": "That man."},
-          {"id": "l121-pb2", "number": 2, "prompt": "Who did you see? (the man who served me)", "answer": "The man who served me."},
-          {"id": "l121-pb3", "number": 3, "prompt": "Who bought the dictionaries? (I)", "answer": "I bought the dictionaries."},
-          {"id": "l121-pb4", "number": 4, "prompt": "Who did she recognize? (him)", "answer": "She recognized him."},
-          {"id": "l121-pb5", "number": 5, "prompt": "What did she take? (the books)", "answer": "She took the books."},
-          {"id": "l121-pb6", "number": 6, "prompt": "Who did you want to speak to? (the girl who served me)", "answer": "I want to speak to the girl who served me."},
-          {"id": "l121-pb7", "number": 7, "prompt": "What did you do yesterday? (the exercises)", "answer": "We did the exercises which you can see on page 244."},
-          {"id": "l121-pb8", "number": 8, "prompt": "What are you going to buy? (the television)", "answer": "I'm going to buy the television which you can buy on instalments."},
-          {"id": "l121-pb9", "number": 9, "prompt": "Whom did you ring? (the doctor)", "answer": "We rang the doctor who/that lives on the corner of our street."},
-          {"id": "l121-pb10", "number": 10, "prompt": "What did you see? (the film)", "answer": "We saw the film which/that is on at the Roxy Cinema."}
+          {
+            "id": "l121-pb1",
+            "number": 1,
+            "example": true,
+            "prompt": "Who did you see? (that man)",
+            "answer": "That man."
+          },
+          {
+            "id": "l121-pb2",
+            "number": 2,
+            "prompt": "Who did you see? (the man who served me)",
+            "answer": "The man who served me."
+          },
+          {
+            "id": "l121-pb3",
+            "number": 3,
+            "prompt": "Who bought the dictionaries? (I)",
+            "answer": "I bought the dictionaries."
+          },
+          {
+            "id": "l121-pb4",
+            "number": 4,
+            "prompt": "Who did she recognize? (him)",
+            "answer": "She recognized him."
+          },
+          {
+            "id": "l121-pb5",
+            "number": 5,
+            "prompt": "What did she take? (the books)",
+            "answer": "She took the books."
+          },
+          {
+            "id": "l121-pb6",
+            "number": 6,
+            "prompt": "Who did you want to speak to? (the girl who served me)",
+            "answer": "I want to speak to the girl who served me."
+          },
+          {
+            "id": "l121-pb7",
+            "number": 7,
+            "prompt": "What did you do yesterday? (the exercises)",
+            "answer": "We did the exercises which you can see on page 244."
+          },
+          {
+            "id": "l121-pb8",
+            "number": 8,
+            "prompt": "What are you going to buy? (the television)",
+            "answer": "I'm going to buy the television which you can buy on instalments."
+          },
+          {
+            "id": "l121-pb9",
+            "number": 9,
+            "prompt": "Whom did you ring? (the doctor)",
+            "answer": "We rang the doctor who/that lives on the corner of our street."
+          },
+          {
+            "id": "l121-pb10",
+            "number": 10,
+            "prompt": "What did you see? (the film)",
+            "answer": "We saw the film which/that is on at the Roxy Cinema."
+          }
         ]
       }
     ],
@@ -291,14 +392,55 @@
         "key_source": "pdf p.556 (新概念英语语法练习1)",
         "context": "8 items defining professions with 'someone who/that + verb'; item 1 is the printed example.",
         "questions": [
-          {"id": "l121-gi1", "number": 1, "example": true, "prompt": "A teacher is ___ (teach).", "answer": "someone who/that teaches."},
-          {"id": "l121-gi2", "number": 2, "prompt": "A nurse is ___ (look after sick people).", "answer": "someone who/that looks after sick people."},
-          {"id": "l121-gi3", "number": 3, "prompt": "A tailor is ___ (make clothes).", "answer": "someone who/that makes clothes."},
-          {"id": "l121-gi4", "number": 4, "prompt": "A cook is ___ (cook food).", "answer": "someone who/that cooks food."},
-          {"id": "l121-gi5", "number": 5, "prompt": "A mechanic is ___ (repair machines).", "answer": "someone who/that repairs machines."},
-          {"id": "l121-gi6", "number": 6, "prompt": "A sailor is ___ (sail on a ship).", "answer": "someone who/that sails on a ship."},
-          {"id": "l121-gi7", "number": 7, "prompt": "A carpenter is ___ (make things with wood).", "answer": "someone who/that makes things with wood."},
-          {"id": "l121-gi8", "number": 8, "prompt": "A gardener is ___ (work in a garden).", "answer": "someone who/that works in a garden."}
+          {
+            "id": "l121-gi1",
+            "number": 1,
+            "example": true,
+            "prompt": "A teacher is ___ (teach).",
+            "answer": "someone who/that teaches."
+          },
+          {
+            "id": "l121-gi2",
+            "number": 2,
+            "prompt": "A nurse is ___ (look after sick people).",
+            "answer": "someone who/that looks after sick people."
+          },
+          {
+            "id": "l121-gi3",
+            "number": 3,
+            "prompt": "A tailor is ___ (make clothes).",
+            "answer": "someone who/that makes clothes."
+          },
+          {
+            "id": "l121-gi4",
+            "number": 4,
+            "prompt": "A cook is ___ (cook food).",
+            "answer": "someone who/that cooks food."
+          },
+          {
+            "id": "l121-gi5",
+            "number": 5,
+            "prompt": "A mechanic is ___ (repair machines).",
+            "answer": "someone who/that repairs machines."
+          },
+          {
+            "id": "l121-gi6",
+            "number": 6,
+            "prompt": "A sailor is ___ (sail on a ship).",
+            "answer": "someone who/that sails on a ship."
+          },
+          {
+            "id": "l121-gi7",
+            "number": 7,
+            "prompt": "A carpenter is ___ (make things with wood).",
+            "answer": "someone who/that makes things with wood."
+          },
+          {
+            "id": "l121-gi8",
+            "number": 8,
+            "prompt": "A gardener is ___ (work in a garden).",
+            "answer": "someone who/that works in a garden."
+          }
         ]
       },
       {
@@ -313,14 +455,55 @@
         "key_source": "pdf p.557 (新概念英语语法练习1)",
         "context": "8 rewrite items forming relative clauses with who/whom/which/that; item 1 is the printed example.",
         "questions": [
-          {"id": "l121-gii1", "number": 1, "example": true, "prompt": "I saw those men yesterday. (Those/the men)", "answer": "Those are the men who(m)/that I saw yesterday."},
-          {"id": "l121-gii2", "number": 2, "prompt": "She served me last week. (That/the assistant)", "answer": "That is the assistant who(m)/that served me last week."},
-          {"id": "l121-gii3", "number": 3, "prompt": "That mechanic repaired my car. (That/the mechanic)", "answer": "That is the mechanic who(m)/that repaired my car."},
-          {"id": "l121-gii4", "number": 4, "prompt": "We visited that house a month ago. (That/the house)", "answer": "That is the house that/which we visited a month ago."},
-          {"id": "l121-gii5", "number": 5, "prompt": "That dog chased our cat on Saturday. (That/the dog)", "answer": "That is the dog that/which chased our cat on Saturday."},
-          {"id": "l121-gii6", "number": 6, "prompt": "I bought these magazines yesterday. (These/magazines)", "answer": "These are the magazines which/that I bought yesterday."},
-          {"id": "l121-gii7", "number": 7, "prompt": "My father wants to buy that car. (That/the car)", "answer": "That is the car that/which my father wants to buy."},
-          {"id": "l121-gii8", "number": 8, "prompt": "The policeman caught that thief last night. (That/thief)", "answer": "That is the thief who(m)/that the policeman caught last night."}
+          {
+            "id": "l121-gii1",
+            "number": 1,
+            "example": true,
+            "prompt": "I saw those men yesterday. (Those/the men)",
+            "answer": "Those are the men who(m)/that I saw yesterday."
+          },
+          {
+            "id": "l121-gii2",
+            "number": 2,
+            "prompt": "She served me last week. (That/the assistant)",
+            "answer": "That is the assistant who(m)/that served me last week."
+          },
+          {
+            "id": "l121-gii3",
+            "number": 3,
+            "prompt": "That mechanic repaired my car. (That/the mechanic)",
+            "answer": "That is the mechanic who(m)/that repaired my car."
+          },
+          {
+            "id": "l121-gii4",
+            "number": 4,
+            "prompt": "We visited that house a month ago. (That/the house)",
+            "answer": "That is the house that/which we visited a month ago."
+          },
+          {
+            "id": "l121-gii5",
+            "number": 5,
+            "prompt": "That dog chased our cat on Saturday. (That/the dog)",
+            "answer": "That is the dog that/which chased our cat on Saturday."
+          },
+          {
+            "id": "l121-gii6",
+            "number": 6,
+            "prompt": "I bought these magazines yesterday. (These/magazines)",
+            "answer": "These are the magazines which/that I bought yesterday."
+          },
+          {
+            "id": "l121-gii7",
+            "number": 7,
+            "prompt": "My father wants to buy that car. (That/the car)",
+            "answer": "That is the car that/which my father wants to buy."
+          },
+          {
+            "id": "l121-gii8",
+            "number": 8,
+            "prompt": "The policeman caught that thief last night. (That/thief)",
+            "answer": "That is the thief who(m)/that the policeman caught last night."
+          }
         ]
       },
       {
@@ -335,35 +518,143 @@
         "key_source": "pdf p.557 (新概念英语语法练习1)",
         "context": "18 fill-in-the-blank items choosing the correct relative pronoun.",
         "questions": [
-          {"id": "l121-giii1", "number": 1, "prompt": "The man ___ is locking the door is Mr. Smith.", "answer": "who/that"},
-          {"id": "l121-giii2", "number": 2, "prompt": "The pencil ___ he was writing with was broken.", "answer": "which/that"},
-          {"id": "l121-giii3", "number": 3, "prompt": "The knife ___ you lent me is not very sharp.", "answer": "which/that"},
-          {"id": "l121-giii4", "number": 4, "prompt": "The girl ___ told me the news is not here now.", "answer": "who/that"},
-          {"id": "l121-giii5", "number": 5, "prompt": "I have lost the watch ___ my father gave me.", "answer": "which/that"},
-          {"id": "l121-giii6", "number": 6, "prompt": "The boy ___ is on the bike is Mike.", "answer": "who/that"},
-          {"id": "l121-giii7", "number": 7, "prompt": "The person ___ I was speaking to was my uncle.", "answer": "who(m)/that"},
-          {"id": "l121-giii8", "number": 8, "prompt": "The men ___ I met could not help me.", "answer": "who(m)/that"},
-          {"id": "l121-giii9", "number": 9, "prompt": "The bus ___ takes us to school often breaks down.", "answer": "which/that"},
-          {"id": "l121-giii10", "number": 10, "prompt": "The friends ___ she had come to the party with left just now.", "answer": "who(m)/that"},
-          {"id": "l121-giii11", "number": 11, "prompt": "The table ___ he was standing on has a broken leg.", "answer": "which/that"},
-          {"id": "l121-giii12", "number": 12, "prompt": "The man ___ I got the information from is not here.", "answer": "who(m)/that"},
-          {"id": "l121-giii13", "number": 13, "prompt": "This is the camera ___ I took a lot of photographs with.", "answer": "which/that"},
-          {"id": "l121-giii14", "number": 14, "prompt": "The person ___ he asked first did not know.", "answer": "who(m)/that"},
-          {"id": "l121-giii15", "number": 15, "prompt": "The one ___ answers first will win a prize.", "answer": "who/that"},
-          {"id": "l121-giii16", "number": 16, "prompt": "I have found the pen ___ I lost.", "answer": "which/that"},
-          {"id": "l121-giii17", "number": 17, "prompt": "The trees ___ they climbed were not very tall.", "answer": "which/that"},
-          {"id": "l121-giii18", "number": 18, "prompt": "The books ___ are on my table belong to my brother.", "answer": "which/that"}
+          {
+            "id": "l121-giii1",
+            "number": 1,
+            "prompt": "The man ___ is locking the door is Mr. Smith.",
+            "answer": "who/that"
+          },
+          {
+            "id": "l121-giii2",
+            "number": 2,
+            "prompt": "The pencil ___ he was writing with was broken.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii3",
+            "number": 3,
+            "prompt": "The knife ___ you lent me is not very sharp.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii4",
+            "number": 4,
+            "prompt": "The girl ___ told me the news is not here now.",
+            "answer": "who/that"
+          },
+          {
+            "id": "l121-giii5",
+            "number": 5,
+            "prompt": "I have lost the watch ___ my father gave me.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii6",
+            "number": 6,
+            "prompt": "The boy ___ is on the bike is Mike.",
+            "answer": "who/that"
+          },
+          {
+            "id": "l121-giii7",
+            "number": 7,
+            "prompt": "The person ___ I was speaking to was my uncle.",
+            "answer": "who(m)/that"
+          },
+          {
+            "id": "l121-giii8",
+            "number": 8,
+            "prompt": "The men ___ I met could not help me.",
+            "answer": "who(m)/that"
+          },
+          {
+            "id": "l121-giii9",
+            "number": 9,
+            "prompt": "The bus ___ takes us to school often breaks down.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii10",
+            "number": 10,
+            "prompt": "The friends ___ she had come to the party with left just now.",
+            "answer": "who(m)/that"
+          },
+          {
+            "id": "l121-giii11",
+            "number": 11,
+            "prompt": "The table ___ he was standing on has a broken leg.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii12",
+            "number": 12,
+            "prompt": "The man ___ I got the information from is not here.",
+            "answer": "who(m)/that"
+          },
+          {
+            "id": "l121-giii13",
+            "number": 13,
+            "prompt": "This is the camera ___ I took a lot of photographs with.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii14",
+            "number": 14,
+            "prompt": "The person ___ he asked first did not know.",
+            "answer": "who(m)/that"
+          },
+          {
+            "id": "l121-giii15",
+            "number": 15,
+            "prompt": "The one ___ answers first will win a prize.",
+            "answer": "who/that"
+          },
+          {
+            "id": "l121-giii16",
+            "number": 16,
+            "prompt": "I have found the pen ___ I lost.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii17",
+            "number": 17,
+            "prompt": "The trees ___ they climbed were not very tall.",
+            "answer": "which/that"
+          },
+          {
+            "id": "l121-giii18",
+            "number": 18,
+            "prompt": "The books ___ are on my table belong to my brother.",
+            "answer": "which/that"
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.245 (Lesson 121 text)", "href": "../img/lesson-121-01-text.jpg"},
-    {"label": "Textbook p.246 (Lesson 121 new words & notes)", "href": "../img/lesson-121-02-text.jpg"},
-    {"label": "Workbook Lesson 121 (practice page 166)", "href": "../img/lesson-121-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 118-123, p.214)", "href": "../img/key-118-123.jpg"},
-    {"label": "Grammar Workbook p.355-357 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=355"},
-    {"label": "Grammar Workbook p.556-557 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=556"}
+    {
+      "label": "Textbook p.245 (Lesson 121 text)",
+      "href": "../img/lesson-121-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.246 (Lesson 121 new words & notes)",
+      "href": "../img/lesson-121-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 121 (practice page 166)",
+      "href": "../img/lesson-121-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 118-123, p.214)",
+      "href": "../img/key-118-123.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.355-357 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=355"
+    },
+    {
+      "label": "Grammar Workbook p.556-557 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=556"
+    }
   ],
   "characters": {
     "customer": {
@@ -391,19 +682,24 @@
       "status": "ready",
       "description": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
       "source": "../img/lesson-121-01-text.jpg",
-      "src": "assets/lesson-121/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-121/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-121-01-text.jpg",
         "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/121/generation.json",
-        "review_record": "illustrations/photo-repairs/121/review.json",
-        "asset_sha256": "65fb39e5dfb7e555c7005c39f19f7a134b4c15ac475eddf245c34cad1f3f57b9"
+        "generation_record": "illustrations/redraw-odd/121/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/121.json",
+        "asset_sha256": "73f4291d2f004b5ec81b32bec5930b8331e07aefb2a4f233a71a91c0da83298f"
+      },
+      "alt": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/121/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -411,19 +707,24 @@
       "status": "ready",
       "description": "Who served you, sir? The lady who is standing behind the counter.",
       "source": "../img/lesson-121-01-text.jpg",
-      "src": "assets/lesson-121/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-121/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-121-01-text.jpg",
         "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/121/generation.json",
-        "review_record": "illustrations/photo-repairs/121/review.json",
-        "asset_sha256": "c5dce6287b4efbac2ff954d5641553440406347bd1907aea51cecb14de497b13"
+        "generation_record": "illustrations/redraw-odd/121/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/121.json",
+        "asset_sha256": "44370c17b1db752cf452438de5b9f3e07261fdcc594b780ba6c7d33eb073cffa"
+      },
+      "alt": "Who served you, sir? The lady who is standing behind the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/121/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -431,19 +732,24 @@
       "status": "ready",
       "description": "Which books did you buy? The books which are on the counter.",
       "source": "../img/lesson-121-01-text.jpg",
-      "src": "assets/lesson-121/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-121/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-121-01-text.jpg",
         "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/121/generation.json",
-        "review_record": "illustrations/photo-repairs/121/review.json",
-        "asset_sha256": "44b6812d77d12b38c71afabcb57214358c5f8bac37d3721d04132db1488faf1b"
+        "generation_record": "illustrations/redraw-odd/121/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/121.json",
+        "asset_sha256": "49daca0e59bfc4c3c5e5f71e99ffef645c0b37bb52035bdd6597377bfb69d287"
+      },
+      "alt": "Which books did you buy? The books which are on the counter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/121/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -451,19 +757,24 @@
       "status": "ready",
       "description": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books. I can't remember. The man who I served was wearing a hat.",
       "source": "../img/lesson-121-01-text.jpg",
-      "src": "assets/lesson-121/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-121/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-121-01-text.jpg",
         "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/121/generation.json",
-        "review_record": "illustrations/photo-repairs/121/review.json",
-        "asset_sha256": "75ddb3c52a5ad9ec78307817b5a59c4539d024f9b67b1c1ff66ec943ce5c477f"
+        "generation_record": "illustrations/redraw-odd/121/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/121.json",
+        "asset_sha256": "bf19e98015f4df3b19b31c770e9d2ca6cc05781dccd6c3258ed99b3b891792b2"
+      },
+      "alt": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books. I can't remember. The man who I served was wearing a hat.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/121/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -471,19 +782,24 @@
       "status": "ready",
       "description": "Have you got a hat, sir? Yes, I have. Would you put it on, please? All right.",
       "source": "../img/lesson-121-01-text.jpg",
-      "src": "assets/lesson-121/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-121/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-121-01-text.jpg",
         "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/121/generation.json",
-        "review_record": "illustrations/photo-repairs/121/review.json",
-        "asset_sha256": "cd95d230a1603078c01876911b7567a2ab9edc65ebe56285a469a5a3f36057ea"
+        "generation_record": "illustrations/redraw-odd/121/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/121.json",
+        "asset_sha256": "310dc34e03aa72f74370a56d171b57c3ea6c5c769f1c86f3fb942ccb257f4cbc"
+      },
+      "alt": "Have you got a hat, sir? Yes, I have. Would you put it on, please? All right.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/121/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -491,19 +807,24 @@
       "status": "ready",
       "description": "Is this the man that you served, Caroline? Yes. I recognize him now.",
       "source": "../img/lesson-121-01-text.jpg",
-      "src": "assets/lesson-121/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-121/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-121-01-text.jpg",
         "sha256": "fa73fdef15c160ebf725222cde3e1a39143daae371e3275e2baa2df2a9ddddc6",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/121/generation.json",
-        "review_record": "illustrations/photo-repairs/121/review.json",
-        "asset_sha256": "187e8b1c23e1cbe46aafeb05e113764ce3774ef7ad0963f2c193d32e3030ed17"
+        "generation_record": "illustrations/redraw-odd/121/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/121.json",
+        "asset_sha256": "d18242c1bfe7c16e8fcda09ff156bc8f64b7b8a9059aa2436ccf3373b71526de"
+      },
+      "alt": "Is this the man that you served, Caroline? Yes. I recognize him now.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/121/photo-panel-06/generation.json"
       }
     }
   },

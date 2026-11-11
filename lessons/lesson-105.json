@@ -655,19 +655,24 @@
       "status": "ready",
       "description": "Where's Sandra, Bob? I want her. Do you want to speak to her? Yes, I do. I want her to come to my office. Tell her to come at once.",
       "source": "../img/lesson-105-01-text.jpg",
-      "src": "assets/lesson-105/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-105/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-105-01-text.jpg",
         "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/105/generation.json",
-        "review_record": "illustrations/photo-repairs/105/review.json",
-        "asset_sha256": "ce0b6b337498ea674b6440a4202e0152394b4d3def5c44fca4c46851cfe639e1"
+        "generation_record": "illustrations/redraw-odd/105/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/105.json",
+        "asset_sha256": "48fedb386349027445ef6d737770f07006686d13d28405dc4bbf36dea4cc7365"
+      },
+      "alt": "Where's Sandra, Bob? I want her. Do you want to speak to her? Yes, I do. I want her to come to my office. Tell her to come at once.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/105/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -675,19 +680,24 @@
       "status": "ready",
       "description": "Did you want to see me? Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me? I-N-T-E-L-L-I-G-E-N-T.",
       "source": "../img/lesson-105-01-text.jpg",
-      "src": "assets/lesson-105/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-105/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-105-01-text.jpg",
         "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/105/generation.json",
-        "review_record": "illustrations/photo-repairs/105/review.json",
-        "asset_sha256": "205cb801e789011fa17a45cf9054bacc2ccfe352fc14a5a3ad18af187de42f40"
+        "generation_record": "illustrations/redraw-odd/105/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/105.json",
+        "asset_sha256": "1db101ccaf236d1e06df6d4c6f6d1c7d77647672bc73d4d7dce5ad9d35044d77"
+      },
+      "alt": "Did you want to see me? Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me? I-N-T-E-L-L-I-G-E-N-T.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/105/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -695,19 +705,24 @@
       "status": "ready",
       "description": "That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again. Yes, I'll do that. I'm sorry about that.",
       "source": "../img/lesson-105-01-text.jpg",
-      "src": "assets/lesson-105/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-105/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-105-01-text.jpg",
         "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/105/generation.json",
-        "review_record": "illustrations/photo-repairs/105/review.json",
-        "asset_sha256": "3b39a9deff40b4917989501e14b341abf984d86ea2b503da7ab851da6f91ee41"
+        "generation_record": "illustrations/redraw-odd/105/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/105.json",
+        "asset_sha256": "d47ad824584f743233a0496a8101017fd3a2f65cec50a3ae007a2bc8c401f9a1"
+      },
+      "alt": "That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again. Yes, I'll do that. I'm sorry about that.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/105/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -715,19 +730,24 @@
       "status": "ready",
       "description": "And here's a little present for you. What is it? It's a dictionary. I hope it'll help you.",
       "source": "../img/lesson-105-01-text.jpg",
-      "src": "assets/lesson-105/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-105/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-105-01-text.jpg",
         "sha256": "8006efb6d0282a07d3aa4470a9637e6a22d6c847abffd6df7525b35faca229fe",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/105/generation.json",
-        "review_record": "illustrations/photo-repairs/105/review.json",
-        "asset_sha256": "18356d8762da53410c8dcd1630d46f24f75ba7314e0482e1d0a5b064a7d6f7bd"
+        "generation_record": "illustrations/redraw-odd/105/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/105.json",
+        "asset_sha256": "df7c460b69f686b26bffea8daa7cce0b741713d4ed87979dfde0f7aedb92e53f"
+      },
+      "alt": "And here's a little present for you. What is it? It's a dictionary. I hope it'll help you.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/105/photo-panel-04/generation.json"
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Aren't you lucky! When are you going to have a holiday, Sam? I don't know. I've already had my holiday this year. Where did you go? I stayed at home! Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: Aren't you lucky! When are you going to have a holiday, Sam? I don't know. I've already had my holiday this year. Where did you go? I stayed at home! Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 83: every recurring adult woman must be the same actor, a middle-aged woman with shoulder-length chestnut hair, light skin and a teal cardigan; every recurring adult man must be the same actor, a middle-aged man with short gray hair, light skin and an olive jacket. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 837006,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-06",
-      "path": "html/assets/lesson-083/photo-panel-06.webp",
-      "sha256": "6dbc8afb351bf05c718e7d43d34a79d86e421b082e8886f55adc5ab42ce3c87c"
-    }
-  ],
-  "fingerprint": "a46309194b77c5bfe54bc9a3fbb216ad7ae1557567014234ef6da1b171ab2e98",
-  "sha256": "fcdeddd2148d669b11e788c6407418c448603269ab6dfe650ea0b47ecb8ce509",
-  "seconds": 23.12,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "b7d51560ed8b775239fedb6a0bf65769c4787b15a7e5f74a85350af39855100e",
+  "sha256": "1b9f498bfa0f08f9fc60626694c6a496c37b99738a67ea4c6b3a2b6ac2ec681b",
+  "seconds": 19.45,
   "status": "candidate-needs-visual-review"
 }

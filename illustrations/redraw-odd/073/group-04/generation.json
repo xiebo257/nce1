@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  The composition must contain EXACTLY ONE human being in the entire image: a middle-aged adult man around 45–65 years old. Use a single-person composition with no other people in the foreground or background. Do not depict a child, teenager or second person. Scene: The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist. Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 73: every recurring adult woman must be the same actor, a middle-aged woman with a dark auburn bob, warm medium skin and a navy jacket; every recurring adult man must be the same actor, a middle-aged man with short silver hair, light skin and a slate-blue jacket. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 737004,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-04",
-      "path": "html/assets/lesson-073/photo-panel-04.webp",
-      "sha256": "444dc85394b0350153a5a38b5ef6e38229f9eb32f90c3600ca6839260251af71"
-    }
-  ],
-  "fingerprint": "e52e44583d89683b66f7da2cf6bfc0aa7a6db43ec1fa27452f27ee22e1b2f616",
-  "sha256": "98ce249857e22e011d09afe6883ebb899c6107ab5c7b72f3268b7f796153096e",
-  "seconds": 19.49,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "e5767131030f8ef0d10bcf974e3dfd1444450f5fd92227fbf9560d8403c98ae6",
+  "sha256": "dec0486ba59925f12bdf7c2a2387a27a2609dd0a22dea990ae4d645cc457cfd3",
+  "seconds": 32.82,
   "status": "candidate-needs-visual-review"
 }

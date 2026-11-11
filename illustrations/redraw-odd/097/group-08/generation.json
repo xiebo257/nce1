@@ -1,6 +1,6 @@
 {
   "model": "mlx-community/FLUX.2-Klein-4B-4bit",
-  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: This case doesn't belong to me! You've given me the wrong case! Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: This case doesn't belong to me! You've given me the wrong case! Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Fixed cast for lesson 97: every recurring adult woman must be the same actor, a middle-aged woman with a dark auburn bob, warm medium skin and a navy jacket; every recurring adult man must be the same actor, a middle-aged man with short silver hair, light skin and a slate-blue jacket. Keep each recurring face, age, hairstyle, skin tone and clothing colors unchanged across all scenes. Follow the exact people and action described in this scene.",
   "seed": 977008,
   "steps": 4,
   "guidance": 1.0,
@@ -10,16 +10,10 @@
     512,
     320
   ],
-  "mode": "reference-edit-raw",
-  "inputs": [
-    {
-      "slot": "photo-panel-08",
-      "path": "html/assets/lesson-097/photo-panel-08.webp",
-      "sha256": "904ac5f2bbe4570b51252275c8e3aa9b36a4472310063e137e2e15c3768452c4"
-    }
-  ],
-  "fingerprint": "1387cd0116761bc48e71b961fde8e1da37655f98441601f34d7eae3167148a9a",
-  "sha256": "31388394ba71dff786f729ebc36c8f89b3af4801801fd19cb955f47bb76fd846",
-  "seconds": 23.52,
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "727c69e1ce6ea061983b2b119b4b442cefcf82e10aee91e62e45b1cc31aa7367",
+  "sha256": "c91fbb9bf73cbb80aae9b9e7443a6ad620554d9e1303d01a4cfc97fc7ad73c90",
+  "seconds": 18.23,
   "status": "candidate-needs-visual-review"
 }

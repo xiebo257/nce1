@@ -1,0 +1,19 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  Copy the exact number of main people visible in the composition reference. Do not add or remove a main person. Scene: I'm afraid I haven't got a larger dress. This is the largest dress in the shop. Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Keep recurring named characters consistent throughout this lesson: use the same adult age range, face shape, hairstyle and clothing colors whenever a person reappears. Follow the exact people and action described in this scene.",
+  "seed": 1077006,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "31d07d0115fcae5809dd982e51b8169c047a1e4c0ce85b1dd762577c5e32439d",
+  "sha256": "dfa3813e1abd9f13ac35dee3f20ff4a169e704098e81ec94b56669fda5b37984",
+  "seconds": 18.23,
+  "status": "candidate-needs-visual-review"
+}

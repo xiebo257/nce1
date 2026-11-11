@@ -1,0 +1,19 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create a natural color live-action educational photograph based on the lesson scene. Use real adult human actors with realistic skin, hair, clothing, anatomy and everyday lighting. Treat named people as adults unless the lesson explicitly says child, boy or girl; never turn an adult into a child. Preserve the people count, each person’s gender and approximate adult age, actions, objects and spatial relationship shown by the composition. Preserve recurring character identity from the identity reference when provided: same face shape, age, hairstyle, skin tone, body type and clothing colors. Include only the people required by this scene. No cartoon, illustration, comic, anime, storybook, 3D render, painted style, speech balloon, caption, dialogue, sign, label, logo, watermark, letters or generated text. Books, papers and signs must be blank with no readable writing.  The composition must contain EXACTLY ONE main human actor: a adult woman around 35–65 years old. Do not depict a child, teenager or second main person. Scene: That's sensational news, isn't it, Kate? It certainly is. He'll be her sixth husband! Generate this scene independently from text. Do not copy the previous scene’s pose, background, furniture or action. Keep recurring named characters consistent throughout this lesson: use the same adult age range, face shape, hairstyle and clothing colors whenever a person reappears. Follow the exact people and action described in this scene.",
+  "seed": 1357004,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "text-to-photo",
+  "inputs": [],
+  "fingerprint": "9b8dde66fa8ada6d36d4abd3907e608ef6a6e20a8b9c1715a8ccc94a8243cc08",
+  "sha256": "bd829cfe6104b03584e15c82ca8deb5bdc591ee4797b92425888c25bde4cb0bc",
+  "seconds": 19.91,
+  "status": "candidate-needs-visual-review"
+}

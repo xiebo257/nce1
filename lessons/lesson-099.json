@@ -48,19 +48,24 @@
       "status": "ready",
       "description": "Ow!",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "2dcbf7d79b2f758d53530df2f715c2eb00458e1ad765e22b8db8748b87c30912"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "56005f196b05151b5dd4379804400bfb816e48a3492055b2da132e106ab72dd8"
+      },
+      "alt": "Ow!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -68,19 +73,24 @@
       "status": "ready",
       "description": "What's the matter, Andy? I slipped and fell downstairs.",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "bd3dd74665f0d97efc18a1f15c6e7085507d3a411f36ecb3180a3c13ce181413"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "c181ca783ff90d74dab1954615429f27914742df3d37381a7c3af47c030c4f67"
+      },
+      "alt": "What's the matter, Andy? I slipped and fell downstairs.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -88,19 +98,24 @@
       "status": "ready",
       "description": "Have you hurt yourself? Yes, I have. I think that I've hurt my back.",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "0b291bbd83c0c955ed3cb9c169b41c7a82279fd8dcfe4fc0a823506e59b81d41"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "62eba2d4708a91e4622a3687e1af4852ce06c6443007c729644d710f0b1dac6c"
+      },
+      "alt": "Have you hurt yourself? Yes, I have. I think that I've hurt my back.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -108,19 +123,24 @@
       "status": "ready",
       "description": "Try and stand up. Can you stand up? Here. Let me help you.",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "4645e41e868fcb43b858d49f7a23c91b90f927aedc0886c859e273e09eb2efcd"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "a84b00d7960b78898b22534ef2276dbb62ac467fa9e08f5ba1b0e5305a340746"
+      },
+      "alt": "Try and stand up. Can you stand up? Here. Let me help you.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -128,19 +148,24 @@
       "status": "ready",
       "description": "I'm sorry, Lucy. I'm afraid that I can't get up.",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "1e60ddba690442bd8786fcc679432a7d0140d0159e8a10c559dfc731cd0723b9"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "9860fd46decf16781fcce6feca570b9981fab181502a4fcaca87b28995a56aca"
+      },
+      "alt": "I'm sorry, Lucy. I'm afraid that I can't get up.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -148,19 +173,24 @@
       "status": "ready",
       "description": "I think that the doctor had better see you. I'll phone Dr. Carter.",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "19e47715c9774e3e1c6e5494ce33f1655814203c91f23b36ac0d45f0bc6a71ed"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "e6231c33c0dd8894d255a05af6d873495bf91fa189325e911bb2a392bd0043e5"
+      },
+      "alt": "I think that the doctor had better see you. I'll phone Dr. Carter.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-06/generation.json"
       }
     },
     "photo-panel-07": {
@@ -168,19 +198,24 @@
       "status": "ready",
       "description": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
       "source": "../img/lesson-099-01-text.jpg",
-      "src": "assets/lesson-099/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-099/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-099-01-text.jpg",
         "sha256": "6601d9eb04dcf7d8a76f3a5dd6fc37e4c5a352f1048362a4e1c0ac540f045aa7",
         "label": "7",
-        "generation_record": "illustrations/photo-repairs/099/generation.json",
-        "review_record": "illustrations/photo-repairs/099/review.json",
-        "asset_sha256": "0ca4413aead84a70c6bc281ec616d513f79b7b4338fa81ca0612d59a81492362"
+        "generation_record": "illustrations/redraw-odd/099/photo-panel-07/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/099.json",
+        "asset_sha256": "52741777534fcb6e4a57d48d025b59f343ec64231f397d6e327b63afad33bd9f"
+      },
+      "alt": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/099/photo-panel-07/generation.json"
       }
     }
   },

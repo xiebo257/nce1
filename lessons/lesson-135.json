@@ -958,19 +958,24 @@
       "status": "ready",
       "description": "Are you really going to retire, Miss Marsh? I may. I can't make up my mind. I will have to ask my future husband. He won't let me make another film.",
       "source": "../img/lesson-135-01-text.jpg",
-      "src": "assets/lesson-135/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-135/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-135-01-text.jpg",
         "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/135/generation.json",
-        "review_record": "illustrations/photo-repairs/135/review.json",
-        "asset_sha256": "fccee20acb5478c32b072461f8bcd125e2a074c79a9609edfab45abfd1f8f736"
+        "generation_record": "illustrations/redraw-odd/135/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/135.json",
+        "asset_sha256": "057087a1eb65869954e3832a8198a9cdaba7d042899e491aa231f3700e746944"
+      },
+      "alt": "Are you really going to retire, Miss Marsh? I may. I can't make up my mind. I will have to ask my future husband. He won't let me make another film.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/135/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -978,19 +983,24 @@
       "status": "ready",
       "description": "Your future husband, Miss Marsh? Yes. Let me introduce him to you. His name is Carlos. We're going to get married next week.",
       "source": "../img/lesson-135-01-text.jpg",
-      "src": "assets/lesson-135/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-135/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-135-01-text.jpg",
         "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/135/generation.json",
-        "review_record": "illustrations/photo-repairs/135/review.json",
-        "asset_sha256": "d5ff64e9e3be2822bf72e0ec36fe459fa3793c4749b2f08e90604a94ed7800e0"
+        "generation_record": "illustrations/redraw-odd/135/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/135.json",
+        "asset_sha256": "7f3319a1b8c45df675f044676689351f024c7867bf609c66389c9b3b676ff37e"
+      },
+      "alt": "Your future husband, Miss Marsh? Yes. Let me introduce him to you. His name is Carlos. We're going to get married next week.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/135/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -998,19 +1008,24 @@
       "status": "ready",
       "description": "Look, Liz! Here's another report about Karen Marsh. Listen. Karen Marsh: The latest. At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind. She said she would have to ask her future husband. She said her future husband would not let her make another film. Then she introduced us to Carlos and told us they would get married next week.",
       "source": "../img/lesson-135-01-text.jpg",
-      "src": "assets/lesson-135/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-135/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-135-01-text.jpg",
         "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/135/generation.json",
-        "review_record": "illustrations/photo-repairs/135/review.json",
-        "asset_sha256": "f0f5336971c80e5b2697e1d20c97678f6ebb608f6961229684a6f5de7768fa35"
+        "generation_record": "illustrations/redraw-odd/135/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/135.json",
+        "asset_sha256": "ede6f5be62cb520346dd2fa48c41988f8c9bd5008193e0e68edffca58c766d8a"
+      },
+      "alt": "Look, Liz! Here's another report about Karen Marsh. Listen. Karen Marsh: The latest. At her London Hotel today Miss Marsh told reporters she might retire. She said she couldn't make up her mind. She said she would have to ask her future husband. She said her future husband would not let her make another film. Then she introduced us to Carlos and told us they would get married next week.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/135/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -1018,19 +1033,24 @@
       "status": "ready",
       "description": "That's sensational news, isn't it, Kate? It certainly is. He'll be her sixth husband!",
       "source": "../img/lesson-135-01-text.jpg",
-      "src": "assets/lesson-135/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-135/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-135-01-text.jpg",
         "sha256": "1da0ecb0202f1d8df73ed24da881f3e71aec01824a8db273fa8a90e23ed5b506",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/135/generation.json",
-        "review_record": "illustrations/photo-repairs/135/review.json",
-        "asset_sha256": "1756c410d0dbad1d14525b45750a43c9b0f066898ccb412d275aebd3f9917bec"
+        "generation_record": "illustrations/redraw-odd/135/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/135.json",
+        "asset_sha256": "a87e8290b4e12525c8de29ab50c50df2efe2e52b9e7cb61b0e4b258cf0c826a5"
+      },
+      "alt": "That's sensational news, isn't it, Kate? It certainly is. He'll be her sixth husband!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/135/photo-panel-04/generation.json"
       }
     }
   },

@@ -550,19 +550,24 @@
       "status": "ready",
       "description": "Do you like this dress, madam? I like the colour very much. It's a lovely dress, but it's too small for me.",
       "source": "../img/lesson-107-01-text.jpg",
-      "src": "assets/lesson-107/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-107/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-107-01-text.jpg",
         "sha256": "7e4cc194dc0c93bd4abde7093983a9927f89b98a9a1d2cbdbf76458490c7ab79",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/107/generation.json",
-        "review_record": "illustrations/photo-repairs/107/review.json",
-        "asset_sha256": "e33de86a480a69dd34de0cd4027a040d8312b480b712eb0f81b116a597e4206c"
+        "generation_record": "illustrations/redraw-odd/107/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/107.json",
+        "asset_sha256": "e22484bc983bde1bfe06eaf484db052a52900efc7c5799a6219a9f1a7b754cb3"
+      },
+      "alt": "Do you like this dress, madam? I like the colour very much. It's a lovely dress, but it's too small for me.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/107/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -570,19 +575,24 @@
       "status": "ready",
       "description": "What about this one? It's a lovely dress. It's very smart. Short skirts are in fashion now. Would you like to try it? All right.",
       "source": "../img/lesson-107-01-text.jpg",
-      "src": "assets/lesson-107/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-107/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-107-01-text.jpg",
         "sha256": "7e4cc194dc0c93bd4abde7093983a9927f89b98a9a1d2cbdbf76458490c7ab79",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/107/generation.json",
-        "review_record": "illustrations/photo-repairs/107/review.json",
-        "asset_sha256": "9bd2b00247102588f3a91799edf3cec2a5d84e8fdb9eef42b5b30305cdaa41fd"
+        "generation_record": "illustrations/redraw-odd/107/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/107.json",
+        "asset_sha256": "df76ae9f89cf48df491aa5e99d7af31a5e95cb6f16ee19eadc527869536ee2a9"
+      },
+      "alt": "What about this one? It's a lovely dress. It's very smart. Short skirts are in fashion now. Would you like to try it? All right.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/107/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -590,19 +600,24 @@
       "status": "ready",
       "description": "I'm afraid this green dress is too small for me as well. It's smaller than the blue one.",
       "source": "../img/lesson-107-01-text.jpg",
-      "src": "assets/lesson-107/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-107/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-107-01-text.jpg",
         "sha256": "7e4cc194dc0c93bd4abde7093983a9927f89b98a9a1d2cbdbf76458490c7ab79",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/107/generation.json",
-        "review_record": "illustrations/photo-repairs/107/review.json",
-        "asset_sha256": "5a1d71fe8137e228ea790e5111e84f17fc4cd81177f107959946409e61b60c17"
+        "generation_record": "illustrations/redraw-odd/107/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/107.json",
+        "asset_sha256": "b48a771c25d990f02a5468bed0620d0737b0fc4f95ce05d0e46a799e450f5e46"
+      },
+      "alt": "I'm afraid this green dress is too small for me as well. It's smaller than the blue one.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/107/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -610,19 +625,24 @@
       "status": "ready",
       "description": "I don't like the colour either. It doesn't suit me at all. I think the blue dress is prettier.",
       "source": "../img/lesson-107-01-text.jpg",
-      "src": "assets/lesson-107/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-107/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-107-01-text.jpg",
         "sha256": "7e4cc194dc0c93bd4abde7093983a9927f89b98a9a1d2cbdbf76458490c7ab79",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/107/generation.json",
-        "review_record": "illustrations/photo-repairs/107/review.json",
-        "asset_sha256": "9bebfd00ff061cc0eb1b9f4f7f338d169422f75d4ef02428ce65b2ffa7f4f5e7"
+        "generation_record": "illustrations/redraw-odd/107/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/107.json",
+        "asset_sha256": "dca3009c0831b6f7ebe3d9e4683628277f7c3d19c42bda9527753b644be643bb"
+      },
+      "alt": "I don't like the colour either. It doesn't suit me at all. I think the blue dress is prettier.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/107/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -630,19 +650,24 @@
       "status": "ready",
       "description": "Could you show me another blue dress? I want a dress like that one, but it must be my size.",
       "source": "../img/lesson-107-01-text.jpg",
-      "src": "assets/lesson-107/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-107/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-107-01-text.jpg",
         "sha256": "7e4cc194dc0c93bd4abde7093983a9927f89b98a9a1d2cbdbf76458490c7ab79",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/107/generation.json",
-        "review_record": "illustrations/photo-repairs/107/review.json",
-        "asset_sha256": "8e27e1a758ac26ab322779ca5e97caf2b8705e47de1ca899c9111e6a19c560f2"
+        "generation_record": "illustrations/redraw-odd/107/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/107.json",
+        "asset_sha256": "97ec6a8e57fae5b5bbe4e3cc10396314477dae32bd91314dbe4738b05b8c583f"
+      },
+      "alt": "Could you show me another blue dress? I want a dress like that one, but it must be my size.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/107/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -650,19 +675,24 @@
       "status": "ready",
       "description": "I'm afraid I haven't got a larger dress. This is the largest dress in the shop.",
       "source": "../img/lesson-107-01-text.jpg",
-      "src": "assets/lesson-107/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-107/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-107-01-text.jpg",
         "sha256": "7e4cc194dc0c93bd4abde7093983a9927f89b98a9a1d2cbdbf76458490c7ab79",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/107/generation.json",
-        "review_record": "illustrations/photo-repairs/107/review.json",
-        "asset_sha256": "c7246b4e4efb9a532ac57a3e811c881545caebc9a1da1001030d31bfcf70a8be"
+        "generation_record": "illustrations/redraw-odd/107/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/107.json",
+        "asset_sha256": "3d94ebaef92b3bbd01bbb732698b1d9731184bf72a01db4f35ebae15266ef6b6"
+      },
+      "alt": "I'm afraid I haven't got a larger dress. This is the largest dress in the shop.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/107/photo-panel-06/generation.json"
       }
     }
   },

@@ -265,18 +265,78 @@
         "key_source": "img/key-123-129.jpg p.215 and img/key-129-135.jpg p.216 (Lesson 129 A)",
         "context": "12 comprehension questions about the dialogue.",
         "questions": [
-          {"id": "l129-pa1", "number": 1, "prompt": "Who is waving at Gary?", "answer": "A policeman (is waving at him)."},
-          {"id": "l129-pa2", "number": 2, "prompt": "What does he want Gary to do?", "answer": "He wants Gary to stop."},
-          {"id": "l129-pa3", "number": 3, "prompt": "What does the policeman say to Gary about his speed? ('You ...')", "answer": "'You must have been driving at seventy miles an hour.'"},
-          {"id": "l129-pa4", "number": 4, "prompt": "How does Gary disagree? What does he say?", "answer": "'I can't have been.'"},
-          {"id": "l129-pa5", "number": 5, "prompt": "Did the policeman overtake Gary?", "answer": "Yes, he did."},
-          {"id": "l129-pa6", "number": 6, "prompt": "What speed was he doing?", "answer": "He was doing eighty."},
-          {"id": "l129-pa7", "number": 7, "prompt": "Did Gary see the speed limit?", "answer": "No, he didn't."},
-          {"id": "l129-pa8", "number": 8, "prompt": "What does Gary say about dreaming?", "answer": "'I must have been dreaming.'"},
-          {"id": "l129-pa9", "number": 9, "prompt": "What was Ann telling Gary to do?", "answer": "She was telling him to drive slowly."},
-          {"id": "l129-pa10", "number": 10, "prompt": "The policeman wants to see Gary's driving licence. How does he ask him?", "answer": "(He says:) 'Let me see your driving licence.'"},
-          {"id": "l129-pa11", "number": 11, "prompt": "How does the policeman warn Gary not to do it again?", "answer": "'But you'd better not do it again.'"},
-          {"id": "l129-pa12", "number": 12, "prompt": "Does Gary promise to be more careful? What does he say?", "answer": "Yes, he does. (He says:) 'I'll certainly be more careful.'"}
+          {
+            "id": "l129-pa1",
+            "number": 1,
+            "prompt": "Who is waving at Gary?",
+            "answer": "A policeman (is waving at him)."
+          },
+          {
+            "id": "l129-pa2",
+            "number": 2,
+            "prompt": "What does he want Gary to do?",
+            "answer": "He wants Gary to stop."
+          },
+          {
+            "id": "l129-pa3",
+            "number": 3,
+            "prompt": "What does the policeman say to Gary about his speed? ('You ...')",
+            "answer": "'You must have been driving at seventy miles an hour.'"
+          },
+          {
+            "id": "l129-pa4",
+            "number": 4,
+            "prompt": "How does Gary disagree? What does he say?",
+            "answer": "'I can't have been.'"
+          },
+          {
+            "id": "l129-pa5",
+            "number": 5,
+            "prompt": "Did the policeman overtake Gary?",
+            "answer": "Yes, he did."
+          },
+          {
+            "id": "l129-pa6",
+            "number": 6,
+            "prompt": "What speed was he doing?",
+            "answer": "He was doing eighty."
+          },
+          {
+            "id": "l129-pa7",
+            "number": 7,
+            "prompt": "Did Gary see the speed limit?",
+            "answer": "No, he didn't."
+          },
+          {
+            "id": "l129-pa8",
+            "number": 8,
+            "prompt": "What does Gary say about dreaming?",
+            "answer": "'I must have been dreaming.'"
+          },
+          {
+            "id": "l129-pa9",
+            "number": 9,
+            "prompt": "What was Ann telling Gary to do?",
+            "answer": "She was telling him to drive slowly."
+          },
+          {
+            "id": "l129-pa10",
+            "number": 10,
+            "prompt": "The policeman wants to see Gary's driving licence. How does he ask him?",
+            "answer": "(He says:) 'Let me see your driving licence.'"
+          },
+          {
+            "id": "l129-pa11",
+            "number": 11,
+            "prompt": "How does the policeman warn Gary not to do it again?",
+            "answer": "'But you'd better not do it again.'"
+          },
+          {
+            "id": "l129-pa12",
+            "number": 12,
+            "prompt": "Does Gary promise to be more careful? What does he say?",
+            "answer": "Yes, he does. (He says:) 'I'll certainly be more careful.'"
+          }
         ]
       },
       {
@@ -291,11 +351,36 @@
         "key_source": "img/key-129-135.jpg p.216 (Lesson 129 B)",
         "context": "5 fill-in-the-blank vocabulary items drawn from the dialogue.",
         "questions": [
-          {"id": "l129-pb1", "number": 1, "prompt": "The big car was going too fast for me to ___ it.", "answer": "overtake"},
-          {"id": "l129-pb2", "number": 2, "prompt": "The ___ ___ in the town is only thirty miles an hour.", "answer": "speed limit"},
-          {"id": "l129-pb3", "number": 3, "prompt": "'Didn't you see the \"SLOW\" ___?' said the policeman when he stopped me.", "answer": "sign"},
-          {"id": "l129-pb4", "number": 4, "prompt": "A policeman stopped Kate and asked to see her ___ ___.", "answer": "driving licence"},
-          {"id": "l129-pb5", "number": 5, "prompt": "You must drive more slowly on this road. It's not a race ___ , you know!", "answer": "track"}
+          {
+            "id": "l129-pb1",
+            "number": 1,
+            "prompt": "The big car was going too fast for me to ___ it.",
+            "answer": "overtake"
+          },
+          {
+            "id": "l129-pb2",
+            "number": 2,
+            "prompt": "The ___ ___ in the town is only thirty miles an hour.",
+            "answer": "speed limit"
+          },
+          {
+            "id": "l129-pb3",
+            "number": 3,
+            "prompt": "'Didn't you see the \"SLOW\" ___?' said the policeman when he stopped me.",
+            "answer": "sign"
+          },
+          {
+            "id": "l129-pb4",
+            "number": 4,
+            "prompt": "A policeman stopped Kate and asked to see her ___ ___.",
+            "answer": "driving licence"
+          },
+          {
+            "id": "l129-pb5",
+            "number": 5,
+            "prompt": "You must drive more slowly on this road. It's not a race ___ , you know!",
+            "answer": "track"
+          }
         ]
       }
     ],
@@ -312,16 +397,67 @@
         "key_source": "pdf p.565 (新概念英语语法练习1)",
         "context": "10 rewrite items; item 1 (In my opinion, you didn't see me. I wasn't there. → You can't have seen me. I wasn't there.) is the printed example. The key gives the rewritten clause for each item.",
         "questions": [
-          {"id": "l129-gi1", "number": 1, "example": true, "prompt": "In my opinion, you didn't see me. I wasn't there.", "answer": "You can't have seen me. I wasn't there."},
-          {"id": "l129-gi2", "number": 2, "prompt": "I'm sure you had a good time yesterday. You all looked excited.", "answer": "You must have had a good time yesterday. You all looked excited."},
-          {"id": "l129-gi3", "number": 3, "prompt": "The men worked all day without a rest. I am sure they were very tired.", "answer": "The men worked all day without a rest. They must have been very tired."},
-          {"id": "l129-gi4", "number": 4, "prompt": "I don't think you did all that by yourself. It was not easy.", "answer": "You can't have done all that by yourself. It was not easy."},
-          {"id": "l129-gi5", "number": 5, "prompt": "That peach tasted unpleasant. I'm sure it was bad.", "answer": "That peach tasted unpleasant. It must have been bad."},
-          {"id": "l129-gi6", "number": 6, "prompt": "I'm sure he wasn't there because I didn't see him.", "answer": "He can't have been there because I didn't see him."},
-          {"id": "l129-gi7", "number": 7, "prompt": "I'm sure you didn't pass the exam. You didn't study for it.", "answer": "You can't have passed the exam. You didn't study for it."},
-          {"id": "l129-gi8", "number": 8, "prompt": "I'm sure that it didn't rain last night. The ground is not wet.", "answer": "It can't have rained last night. The ground is not wet."},
-          {"id": "l129-gi9", "number": 9, "prompt": "You didn't go anywhere after dinner in the restaurant. I'm sure you left your case there.", "answer": "You didn't go anywhere after dinner in the restaurant. You must have left your case there."},
-          {"id": "l129-gi10", "number": 10, "prompt": "I'm sure you ate my biscuits. Why didn't you tell me?", "answer": "You must have eaten my biscuits. Why didn't you tell me?"}
+          {
+            "id": "l129-gi1",
+            "number": 1,
+            "example": true,
+            "prompt": "In my opinion, you didn't see me. I wasn't there.",
+            "answer": "You can't have seen me. I wasn't there."
+          },
+          {
+            "id": "l129-gi2",
+            "number": 2,
+            "prompt": "I'm sure you had a good time yesterday. You all looked excited.",
+            "answer": "You must have had a good time yesterday. You all looked excited."
+          },
+          {
+            "id": "l129-gi3",
+            "number": 3,
+            "prompt": "The men worked all day without a rest. I am sure they were very tired.",
+            "answer": "The men worked all day without a rest. They must have been very tired."
+          },
+          {
+            "id": "l129-gi4",
+            "number": 4,
+            "prompt": "I don't think you did all that by yourself. It was not easy.",
+            "answer": "You can't have done all that by yourself. It was not easy."
+          },
+          {
+            "id": "l129-gi5",
+            "number": 5,
+            "prompt": "That peach tasted unpleasant. I'm sure it was bad.",
+            "answer": "That peach tasted unpleasant. It must have been bad."
+          },
+          {
+            "id": "l129-gi6",
+            "number": 6,
+            "prompt": "I'm sure he wasn't there because I didn't see him.",
+            "answer": "He can't have been there because I didn't see him."
+          },
+          {
+            "id": "l129-gi7",
+            "number": 7,
+            "prompt": "I'm sure you didn't pass the exam. You didn't study for it.",
+            "answer": "You can't have passed the exam. You didn't study for it."
+          },
+          {
+            "id": "l129-gi8",
+            "number": 8,
+            "prompt": "I'm sure that it didn't rain last night. The ground is not wet.",
+            "answer": "It can't have rained last night. The ground is not wet."
+          },
+          {
+            "id": "l129-gi9",
+            "number": 9,
+            "prompt": "You didn't go anywhere after dinner in the restaurant. I'm sure you left your case there.",
+            "answer": "You didn't go anywhere after dinner in the restaurant. You must have left your case there."
+          },
+          {
+            "id": "l129-gi10",
+            "number": 10,
+            "prompt": "I'm sure you ate my biscuits. Why didn't you tell me?",
+            "answer": "You must have eaten my biscuits. Why didn't you tell me?"
+          }
         ]
       },
       {
@@ -336,16 +472,67 @@
         "key_source": "pdf p.565 (新概念英语语法练习1)",
         "context": "10 answer items; item 1 (Do I have to change my shirt? → Yes, you'd better change your shirt.) is the printed example.",
         "questions": [
-          {"id": "l129-gii1", "number": 1, "example": true, "prompt": "Do I have to change my shirt?", "answer": "Yes, you'd better change your shirt."},
-          {"id": "l129-gii2", "number": 2, "prompt": "Do I have to have a bath?", "answer": "Yes, you'd better have a bath."},
-          {"id": "l129-gii3", "number": 3, "prompt": "Does he have to have a haircut?", "answer": "Yes, he'd better have a haircut."},
-          {"id": "l129-gii4", "number": 4, "prompt": "Do we have to get something to eat?", "answer": "Yes, we'd better get something to eat."},
-          {"id": "l129-gii5", "number": 5, "prompt": "Do I have to do my homework?", "answer": "Yes, you'd better do your homework."},
-          {"id": "l129-gii6", "number": 6, "prompt": "Does she have to go and see a doctor?", "answer": "Yes, she'd better go and see a doctor."},
-          {"id": "l129-gii7", "number": 7, "prompt": "Do I have to telephone the teacher?", "answer": "Yes, you'd better telephone the teacher."},
-          {"id": "l129-gii8", "number": 8, "prompt": "Does he have to take his son to school?", "answer": "Yes, he'd better take his son to school."},
-          {"id": "l129-gii9", "number": 9, "prompt": "Do I have to do some shopping?", "answer": "Yes, you'd better do some shopping."},
-          {"id": "l129-gii10", "number": 10, "prompt": "Does she have to water the flowers?", "answer": "Yes, she'd better water the flowers."}
+          {
+            "id": "l129-gii1",
+            "number": 1,
+            "example": true,
+            "prompt": "Do I have to change my shirt?",
+            "answer": "Yes, you'd better change your shirt."
+          },
+          {
+            "id": "l129-gii2",
+            "number": 2,
+            "prompt": "Do I have to have a bath?",
+            "answer": "Yes, you'd better have a bath."
+          },
+          {
+            "id": "l129-gii3",
+            "number": 3,
+            "prompt": "Does he have to have a haircut?",
+            "answer": "Yes, he'd better have a haircut."
+          },
+          {
+            "id": "l129-gii4",
+            "number": 4,
+            "prompt": "Do we have to get something to eat?",
+            "answer": "Yes, we'd better get something to eat."
+          },
+          {
+            "id": "l129-gii5",
+            "number": 5,
+            "prompt": "Do I have to do my homework?",
+            "answer": "Yes, you'd better do your homework."
+          },
+          {
+            "id": "l129-gii6",
+            "number": 6,
+            "prompt": "Does she have to go and see a doctor?",
+            "answer": "Yes, she'd better go and see a doctor."
+          },
+          {
+            "id": "l129-gii7",
+            "number": 7,
+            "prompt": "Do I have to telephone the teacher?",
+            "answer": "Yes, you'd better telephone the teacher."
+          },
+          {
+            "id": "l129-gii8",
+            "number": 8,
+            "prompt": "Does he have to take his son to school?",
+            "answer": "Yes, he'd better take his son to school."
+          },
+          {
+            "id": "l129-gii9",
+            "number": 9,
+            "prompt": "Do I have to do some shopping?",
+            "answer": "Yes, you'd better do some shopping."
+          },
+          {
+            "id": "l129-gii10",
+            "number": 10,
+            "prompt": "Does she have to water the flowers?",
+            "answer": "Yes, she'd better water the flowers."
+          }
         ]
       },
       {
@@ -360,30 +547,118 @@
         "key_source": "pdf p.565 (新概念英语语法练习1) for items 3-7; items 8-12 are model answers",
         "context": "12 advice items; items 1 and 2 are the printed examples. The answer key prints only items 3-7; items 8-12 have no printed key, so their answers are model answers (suggested).",
         "questions": [
-          {"id": "l129-giii1", "number": 1, "example": true, "prompt": "I feel sleepy. (get some sleep)", "answer": "You'd better get some sleep."},
-          {"id": "l129-giii2", "number": 2, "example": true, "prompt": "I've got a bad cold. (not go swimming)", "answer": "You'd better not go swimming."},
-          {"id": "l129-giii3", "number": 3, "prompt": "He's got a headache. (take an aspirin)", "answer": "He'd better take an aspirin."},
-          {"id": "l129-giii4", "number": 4, "prompt": "I'm very tired. (not stay up late)", "answer": "You'd better not stay up late."},
-          {"id": "l129-giii5", "number": 5, "prompt": "I'm not feeling well tonight. (not go out)", "answer": "You'd better not go out."},
-          {"id": "l129-giii6", "number": 6, "prompt": "The bus is crowded. (take a taxi)", "answer": "You'd better take a taxi."},
-          {"id": "l129-giii7", "number": 7, "prompt": "She feels hot. (open the windows)", "answer": "She'd better open the windows."},
-          {"id": "l129-giii8", "number": 8, "answer_kind": "suggested", "prompt": "It's raining today. (stay in)", "answer": "You'd better stay in."},
-          {"id": "l129-giii9", "number": 9, "answer_kind": "suggested", "prompt": "The baby is sleeping. (not turn on the stereo)", "answer": "You'd better not turn on the stereo."},
-          {"id": "l129-giii10", "number": 10, "answer_kind": "suggested", "prompt": "She's got a temperature. (not eat too much)", "answer": "She'd better not eat too much."},
-          {"id": "l129-giii11", "number": 11, "answer_kind": "suggested", "prompt": "I don't understand the text. (ask your teacher)", "answer": "You'd better ask your teacher."},
-          {"id": "l129-giii12", "number": 12, "answer_kind": "suggested", "prompt": "He has got a stomachache. (not drink anything)", "answer": "He'd better not drink anything."}
+          {
+            "id": "l129-giii1",
+            "number": 1,
+            "example": true,
+            "prompt": "I feel sleepy. (get some sleep)",
+            "answer": "You'd better get some sleep."
+          },
+          {
+            "id": "l129-giii2",
+            "number": 2,
+            "example": true,
+            "prompt": "I've got a bad cold. (not go swimming)",
+            "answer": "You'd better not go swimming."
+          },
+          {
+            "id": "l129-giii3",
+            "number": 3,
+            "prompt": "He's got a headache. (take an aspirin)",
+            "answer": "He'd better take an aspirin."
+          },
+          {
+            "id": "l129-giii4",
+            "number": 4,
+            "prompt": "I'm very tired. (not stay up late)",
+            "answer": "You'd better not stay up late."
+          },
+          {
+            "id": "l129-giii5",
+            "number": 5,
+            "prompt": "I'm not feeling well tonight. (not go out)",
+            "answer": "You'd better not go out."
+          },
+          {
+            "id": "l129-giii6",
+            "number": 6,
+            "prompt": "The bus is crowded. (take a taxi)",
+            "answer": "You'd better take a taxi."
+          },
+          {
+            "id": "l129-giii7",
+            "number": 7,
+            "prompt": "She feels hot. (open the windows)",
+            "answer": "She'd better open the windows."
+          },
+          {
+            "id": "l129-giii8",
+            "number": 8,
+            "answer_kind": "suggested",
+            "prompt": "It's raining today. (stay in)",
+            "answer": "You'd better stay in."
+          },
+          {
+            "id": "l129-giii9",
+            "number": 9,
+            "answer_kind": "suggested",
+            "prompt": "The baby is sleeping. (not turn on the stereo)",
+            "answer": "You'd better not turn on the stereo."
+          },
+          {
+            "id": "l129-giii10",
+            "number": 10,
+            "answer_kind": "suggested",
+            "prompt": "She's got a temperature. (not eat too much)",
+            "answer": "She'd better not eat too much."
+          },
+          {
+            "id": "l129-giii11",
+            "number": 11,
+            "answer_kind": "suggested",
+            "prompt": "I don't understand the text. (ask your teacher)",
+            "answer": "You'd better ask your teacher."
+          },
+          {
+            "id": "l129-giii12",
+            "number": 12,
+            "answer_kind": "suggested",
+            "prompt": "He has got a stomachache. (not drink anything)",
+            "answer": "He'd better not drink anything."
+          }
         ]
       }
     ]
   },
   "sources": [
-    {"label": "Textbook p.261 (Lesson 129 dialogue)", "href": "../img/lesson-129-01-text.jpg"},
-    {"label": "Textbook p.262 (Lesson 129 new words & notes)", "href": "../img/lesson-129-02-text.jpg"},
-    {"label": "Workbook Lesson 129 (practice page 174)", "href": "../img/lesson-129-practice.jpg"},
-    {"label": "Workbook Answer Key (Lessons 123-129, p.215)", "href": "../img/key-123-129.jpg"},
-    {"label": "Workbook Answer Key (Lessons 129-135, p.216)", "href": "../img/key-129-135.jpg"},
-    {"label": "Grammar Workbook p.378 (exercises)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=378"},
-    {"label": "Grammar Workbook p.565 (answer key)", "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=565"}
+    {
+      "label": "Textbook p.261 (Lesson 129 dialogue)",
+      "href": "../img/lesson-129-01-text.jpg"
+    },
+    {
+      "label": "Textbook p.262 (Lesson 129 new words & notes)",
+      "href": "../img/lesson-129-02-text.jpg"
+    },
+    {
+      "label": "Workbook Lesson 129 (practice page 174)",
+      "href": "../img/lesson-129-practice.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 123-129, p.215)",
+      "href": "../img/key-123-129.jpg"
+    },
+    {
+      "label": "Workbook Answer Key (Lessons 129-135, p.216)",
+      "href": "../img/key-129-135.jpg"
+    },
+    {
+      "label": "Grammar Workbook p.378 (exercises)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=378"
+    },
+    {
+      "label": "Grammar Workbook p.565 (answer key)",
+      "href": "../pdf/新概念英语语法练习1_按课程索引.pdf#page=565"
+    }
   ],
   "characters": {
     "Ann": {
@@ -411,19 +686,24 @@
       "status": "ready",
       "description": "Look, Gary! That policeman's waving to you. He wants you to stop.",
       "source": "../img/lesson-129-01-text.jpg",
-      "src": "assets/lesson-129/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-129/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-129-01-text.jpg",
         "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
         "label": "1",
-        "generation_record": "illustrations/photo-repairs/129/generation.json",
-        "review_record": "illustrations/photo-repairs/129/review.json",
-        "asset_sha256": "b5a5d4b4971da1cb8497be7bc0c18942ccd1dcd0bf99d2d2ea7788695260ebc9"
+        "generation_record": "illustrations/redraw-odd/129/photo-panel-01/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/129.json",
+        "asset_sha256": "82109e439b9958f18edab66c077b37933fae5e1df070a8a97847b56b29957b54"
+      },
+      "alt": "Look, Gary! That policeman's waving to you. He wants you to stop.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/129/photo-panel-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -431,19 +711,24 @@
       "status": "ready",
       "description": "Where do you think you are? On a race track? You must have been driving at seventy miles an hour. I can't have been. I was doing eighty when I overtook you.",
       "source": "../img/lesson-129-01-text.jpg",
-      "src": "assets/lesson-129/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-129/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-129-01-text.jpg",
         "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
         "label": "2",
-        "generation_record": "illustrations/photo-repairs/129/generation.json",
-        "review_record": "illustrations/photo-repairs/129/review.json",
-        "asset_sha256": "a12bf7cdcf2656c3b9fd92280c4d3bb41e4b5bc84e7d178652d975b8a40b73da"
+        "generation_record": "illustrations/redraw-odd/129/photo-panel-02/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/129.json",
+        "asset_sha256": "8c991d0e27049f4bb6d35b2a067adf98eff4ea7381b68a2a4de1ad9c8afe6c8d"
+      },
+      "alt": "Where do you think you are? On a race track? You must have been driving at seventy miles an hour. I can't have been. I was doing eighty when I overtook you.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/129/photo-panel-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -451,19 +736,24 @@
       "status": "ready",
       "description": "Didn't you see the speed limit? I'm afraid I didn't, officer. I must have been dreaming. He wasn't dreaming, officer. I was telling him to drive slowly.",
       "source": "../img/lesson-129-01-text.jpg",
-      "src": "assets/lesson-129/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-129/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-129-01-text.jpg",
         "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
         "label": "3",
-        "generation_record": "illustrations/photo-repairs/129/generation.json",
-        "review_record": "illustrations/photo-repairs/129/review.json",
-        "asset_sha256": "ae3de41fcb472722fb0f2a581afc8234e93d2bad561f045f8ab4dedea3c1e37c"
+        "generation_record": "illustrations/redraw-odd/129/photo-panel-03/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/129.json",
+        "asset_sha256": "810ef03a120e7585566dbd5bc64ce2582c9a4cd94eb2125b3439af5102b9f4b4"
+      },
+      "alt": "Didn't you see the speed limit? I'm afraid I didn't, officer. I must have been dreaming. He wasn't dreaming, officer. I was telling him to drive slowly.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/129/photo-panel-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -471,19 +761,24 @@
       "status": "ready",
       "description": "That's why I didn't see the sign. Let me see your driving licence.",
       "source": "../img/lesson-129-01-text.jpg",
-      "src": "assets/lesson-129/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-129/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-129-01-text.jpg",
         "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
         "label": "4",
-        "generation_record": "illustrations/photo-repairs/129/generation.json",
-        "review_record": "illustrations/photo-repairs/129/review.json",
-        "asset_sha256": "260e219a31877ea200951d9d1499ed24b566398b4a360d152c96e98170722eee"
+        "generation_record": "illustrations/redraw-odd/129/photo-panel-04/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/129.json",
+        "asset_sha256": "85cb16973454acdbb626d078057953cdc0d5fe6f14912c9c2782cb3e85fbf279"
+      },
+      "alt": "That's why I didn't see the sign. Let me see your driving licence.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/129/photo-panel-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -491,19 +786,24 @@
       "status": "ready",
       "description": "I won't charge you this time. But you'd better not do it again! Thank you. I'll certainly be more careful.",
       "source": "../img/lesson-129-01-text.jpg",
-      "src": "assets/lesson-129/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-129/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-129-01-text.jpg",
         "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
         "label": "5",
-        "generation_record": "illustrations/photo-repairs/129/generation.json",
-        "review_record": "illustrations/photo-repairs/129/review.json",
-        "asset_sha256": "a8142422fd77397d534eb6414e2641fd4c70d43d7b0d3265f3843bd9540dab63"
+        "generation_record": "illustrations/redraw-odd/129/photo-panel-05/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/129.json",
+        "asset_sha256": "aa192b203b0082651911c5c7f893c249a6b0202087982a460729dad23b2b9d92"
+      },
+      "alt": "I won't charge you this time. But you'd better not do it again! Thank you. I'll certainly be more careful.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/129/photo-panel-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -511,19 +811,24 @@
       "status": "ready",
       "description": "I told you to drive slowly, Gary. You always tell me to drive slowly, darling. Well, next time you'd better take my advice!",
       "source": "../img/lesson-129-01-text.jpg",
-      "src": "assets/lesson-129/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-129/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-129-01-text.jpg",
         "sha256": "10cae80a42956f50ac2b94723504a7e89890498bf710357d48766d014892f503",
         "label": "6",
-        "generation_record": "illustrations/photo-repairs/129/generation.json",
-        "review_record": "illustrations/photo-repairs/129/review.json",
-        "asset_sha256": "06a94495ff8f2bd1d44439bccefcb13526b434da99261b4299d8c3a3a36bf9d0"
+        "generation_record": "illustrations/redraw-odd/129/photo-panel-06/generation.json",
+        "review_record": "reports/odd-illustration-redraw/reviews/129.json",
+        "asset_sha256": "d516989826bfa2cecf1e4a646f2e264da7bbc3b4e23e47ffe176df679389fba7"
+      },
+      "alt": "I told you to drive slowly, Gary. You always tell me to drive slowly, darling. Well, next time you'd better take my advice!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/129/photo-panel-06/generation.json"
       }
     }
   },
