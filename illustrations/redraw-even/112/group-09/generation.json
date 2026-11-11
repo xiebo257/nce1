@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. smart. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 1121119,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-112/photo-panel-09.webp",
+      "sha256": "685d51cd50c62418b3ad9259c49f6bb39738ffbd04e4a5ac5bc1f8af8b466a78"
+    }
+  ],
+  "fingerprint": "868c5084efafb1b68dad63ec569e3d6fb9cc94f74109b23133850a19c4671f78",
+  "sha256": "b6735cf6b27cb8a671fdad53214c1d99e8167c8ad7b3cdf56e4a3d69239638cf",
+  "reference_sha256": "8f42d98b8d598d8473b7b6e9d2c0b1d57b0993295b5bd5b4c2a27a5b3db62d03",
+  "seconds": 51.07,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

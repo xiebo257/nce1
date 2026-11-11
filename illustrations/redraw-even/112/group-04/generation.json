@@ -1,0 +1,51 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. old. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 1121114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-112/photo-panel-04.webp",
+      "sha256": "77f7b15e014a1b87a288a9f3ef51aa0a024651c021de8c4a9675cbabdf683081"
+    }
+  ],
+  "fingerprint": "d4456643a528e8d083a80f74396f750f20b4e0ff5678fff7a6c5c4ef91f6c24c",
+  "sha256": "558a243d5a5ac8e089413fdfe033efffc0e6afdcb3fd539413deb0739cc4365a",
+  "reference_sha256": "d0e113312dde646c74eb9f7850819c87ef0637b467b972154a74a096d982b7ac",
+  "seconds": 57.33,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/112/group-04/redrawn.png",
+    "source_sha256": "558a243d5a5ac8e089413fdfe033efffc0e6afdcb3fd539413deb0739cc4365a",
+    "operations": [
+      {
+        "type": "hue-shift",
+        "box": [
+          129,
+          89,
+          254,
+          164
+        ],
+        "hue_range": [
+          40,
+          110
+        ],
+        "to_hue": 19,
+        "min_saturation": 35,
+        "saturation_delta": 35,
+        "value_delta": -45
+      }
+    ],
+    "output_sha256": "d40000efc0a0e3de12f59966ae3b04df68dcf7ccfdad788d999a6683c60d6a76"
+  },
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

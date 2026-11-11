@@ -23,6 +23,12 @@ def main():
                 image = original.convert('RGB')
             record = {'source': str(source), 'source_sha256': digest(source), 'operations': []}
             for operation in recipe['operations']:
+                if operation['type'] == 'copy-region':
+                    # Reuse a reviewed object when a comparison requires identical examples.
+                    region = image.crop(tuple(operation['box']))
+                    image.paste(region, tuple(operation['position']))
+                    record['operations'].append(operation)
+                    continue
                 if operation['type'] == 'fit-content':
                     resized = image.resize(tuple(operation['size']), Image.Resampling.LANCZOS)
                     image = Image.new('RGB', image.size, operation.get('background', 'white'))

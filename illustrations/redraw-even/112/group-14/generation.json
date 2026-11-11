@@ -1,0 +1,51 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. This test is more difficult.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 1121124,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-14",
+      "path": "html/assets/lesson-112/photo-panel-14.webp",
+      "sha256": "89a133a474f616e48525a9bb0e886658a28bdf28f2f208ef37e9e1723c810810"
+    }
+  ],
+  "fingerprint": "4e945cbfe18edf560a5a4bb0c445f115125a8c4ef703d6c647297860d144a961",
+  "sha256": "86915219c57d3c311420cdbe4c0c806be8dbda4529a1881fe305040b4953f46b",
+  "reference_sha256": "69c39dbb1b06ad4485b13a0578c4b74edccec8c5ad8ade9eb02c090cf017b228",
+  "seconds": 50.98,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/112/group-14/redrawn.png",
+    "source_sha256": "86915219c57d3c311420cdbe4c0c806be8dbda4529a1881fe305040b4953f46b",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/redraw-inputs/112-test-2.png",
+        "clear_box": [
+          266,
+          72,
+          451,
+          235
+        ],
+        "placement": [
+          266,
+          72,
+          185,
+          163
+        ],
+        "sha256": "bf18e8bad1d36bf780f4f0768e0aafc04f4dd8cac2a133ad5aab3d9d1c27c276"
+      }
+    ],
+    "output_sha256": "e025b8c6461f7456d291bccd9970ce0ef94f2235edcd9cbfd4c534611ed36c56"
+  },
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

@@ -1,0 +1,70 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw exactly TWO equally BLUNT yellow wooden pencils side by side on white, same size. Their drawing ends point downward. Each has a short worn graphite tip with a broad FLAT horizontal end, visibly blunt and rounded off, NOT a sharp triangular point. Show the flattened dark lead ends clearly in close-up. Clean colorful educational object illustration, crisp outlines, no people or text.",
+  "seed": 1121115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-05",
+      "path": "html/assets/lesson-112/photo-panel-05.webp",
+      "sha256": "2aa50467968f898908d0e45c7c06b8f0d0b0c1c268873bded757304024460759"
+    }
+  ],
+  "fingerprint": "fa4ce45160c911b6d665c0e0d0541007b13adbd66717d7bf7b9f34810ab6b4fa",
+  "sha256": "fc8d9d74a09f057e58f855d7d6b590257eb9b1236653ba408be8c9d952b197b3",
+  "reference_sha256": "8915ceb4d03ee24e4ab3afec3d68ad3f1261447915ae04ccd64591b7e4a378ac",
+  "seconds": 50.25,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/112/group-05/redrawn.png",
+    "source_sha256": "fc8d9d74a09f057e58f855d7d6b590257eb9b1236653ba408be8c9d952b197b3",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "polygons": [
+          [
+            [
+              270,
+              0
+            ],
+            [
+              410,
+              0
+            ],
+            [
+              410,
+              300
+            ],
+            [
+              270,
+              300
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "copy-region",
+        "box": [
+          113,
+          0,
+          232,
+          300
+        ],
+        "position": [
+          277,
+          0
+        ]
+      }
+    ],
+    "output_sha256": "b5da12d44dba975d745db68c48970018ab46fd1f8369f57e2c9729149947ca37"
+  },
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration. Two cars one above the other: the upper beige car is dirty with muddy spots; the lower blue car is freshly clean and shiny. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison.",
+  "seed": 1121117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-112/photo-panel-07.webp",
+      "sha256": "4979573b422de4e71e1bbccfdbaa0e14f73b5931413c0db066d8eae33e20b878"
+    }
+  ],
+  "fingerprint": "a4bce7296aeb1452237631b92949aeb0450cc3fa680171cac7ec8ccf3cf5dee4",
+  "sha256": "5a9f9a87da466188f619ec57b407c925ff5e172106d24d71e6aadf6946bf4642",
+  "reference_sha256": "39196ef7698d8cae3ec501efd92f33dc1f3812b247990d7c7247fe2d41ded9f2",
+  "seconds": 57.18,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

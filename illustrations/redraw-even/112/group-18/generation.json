@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. This is the least interesting book I have ever read!. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 1121128,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-18",
+      "path": "html/assets/lesson-112/photo-panel-18.webp",
+      "sha256": "66fa8f4b2c6241831c1fa3b872c7322124a7cac6c13b0de1d6eed58d3e83e779"
+    }
+  ],
+  "fingerprint": "0fee90a1f1a5b2577f393d889111a2f2c03ffa17dc8b21a326c235e4883907b6",
+  "sha256": "139804ca36b92e011f268ca5a32ee25dc55e057f7d140d9926ab98c7cbbc0559",
+  "reference_sha256": "4ae57a3e1f8258ff80c95776b6e768c77209adbb03d63f7e960f9ccaa773f913",
+  "seconds": 52.3,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration. Exactly two ordinary apples side by side, one green and one red, matching the reference shapes and size. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison.",
+  "seed": 1121111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-112/photo-panel-01.webp",
+      "sha256": "7a0bc51abe82b1a0acd570d0fd1063f10582cdc734337f0ef2358782cadc71b4"
+    }
+  ],
+  "fingerprint": "7b4971c32f1f6b8f7fb48ef61e435040ea4355394bdf1e2d52bdb6626c1c2734",
+  "sha256": "f84168aa68abc301467cd7a506859465b6343fe12117b391cbae789193c9dd3a",
+  "reference_sha256": "f53c1cffa632dc52b07da682f1f0bcc312d96244c30253f88f7b5581d1fee0e2",
+  "seconds": 57.88,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

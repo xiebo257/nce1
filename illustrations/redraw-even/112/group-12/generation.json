@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration. Two old-style television sets in wooden cabinets side by side, each with a glass screen above a cabinet, matching the different cabinet designs in the reference. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison.",
+  "seed": 1121122,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-12",
+      "path": "html/assets/lesson-112/photo-panel-12.webp",
+      "sha256": "e30face948eff8ad76e46aadaad12b2383ea93fbcf3f21c76ef39d0fcd236f3e"
+    }
+  ],
+  "fingerprint": "6aa395363b3255a025df5a625f9978cb0f6d0b6b018093ed349c83318fe3b5a6",
+  "sha256": "0cbc6d525ba9defca8841a378d49db31b8700e0d91c4a9778915ceee716863f5",
+  "reference_sha256": "cf9b565b8536b5a96f622e02fe662a41aa737ccbc8587e01bb242b41d381be14",
+  "seconds": 50.41,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

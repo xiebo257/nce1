@@ -1,0 +1,68 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration. Two analog weighing scales side by side, each supporting a suitcase. The left worn suitcase is heavier with its needle angled left; the right blue suitcase is lighter with its needle upright. Keep the two different needle positions shown in the reference. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison.",
+  "seed": 1121120,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-112/photo-panel-10.webp",
+      "sha256": "1d5d3fc8450dad4b2882c271dd1cf287520aff9a8445584156d994aeb6860ad3"
+    }
+  ],
+  "fingerprint": "7691b1199239633c7e21fc234c16ccd51c6ebfd646a8068236e7bf554cc6ccae",
+  "sha256": "2cad35a9b127e376c834e3113c45e6df2c04fc36de5bfaa5bf3acb49722624de",
+  "reference_sha256": "b8bbb36c33e6db9908d0b1e0169378a7f42f3977fa63304cd3e2caeafa8880c2",
+  "seconds": 50.69,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/112/group-10/redrawn.png",
+    "source_sha256": "2cad35a9b127e376c834e3113c45e6df2c04fc36de5bfaa5bf3acb49722624de",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/redraw-inputs/112-scale-left.png",
+        "clear_box": [
+          120,
+          31,
+          264,
+          145
+        ],
+        "placement": [
+          120,
+          31,
+          145,
+          116
+        ],
+        "sha256": "6d1ef947f7af30538f3fc4e408776c3bfaa280be7d8c261a43fb06472f9f2e2f"
+      },
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/redraw-inputs/112-scale-right.png",
+        "clear_box": [
+          311,
+          23,
+          455,
+          140
+        ],
+        "placement": [
+          311,
+          23,
+          145,
+          122
+        ],
+        "sha256": "bf896c260e1dba70e5b619ccd472397833e26dfb8e52728ca9f2930f652b774a"
+      }
+    ],
+    "output_sha256": "4420ab73bfbd17b1d7611adb39db3d98ce945d310aff55603e52aff94c5f73af"
+  },
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

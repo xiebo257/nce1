@@ -1,0 +1,76 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. This book is less interesting.. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 1121127,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-17",
+      "path": "html/assets/lesson-112/photo-panel-17.webp",
+      "sha256": "0bfc783a995c92520e290d22972c87d92b704aacf92411cebc4c737bce2d0c90"
+    }
+  ],
+  "fingerprint": "56b760276a8ab758ac0ab8ac4da72577e7673b702499342d6b7118dfc3a738e2",
+  "sha256": "fb23c3f49860e46ab657e086f54320f81bc44beee379676a5a6265c3b50fdcab",
+  "reference_sha256": "38b8c090c1dff6437b31e23d244f590e24fc57a2ad01ba7aabef1c8b8f828cb7",
+  "seconds": 50.28,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/112/group-17/redrawn.png",
+    "source_sha256": "fb23c3f49860e46ab657e086f54320f81bc44beee379676a5a6265c3b50fdcab",
+    "operations": [
+      {
+        "type": "erase-polygons",
+        "fill": "#cc6869",
+        "polygons": [
+          [
+            [
+              141,
+              171
+            ],
+            [
+              190,
+              163
+            ],
+            [
+              202,
+              215
+            ],
+            [
+              154,
+              225
+            ]
+          ],
+          [
+            [
+              140,
+              168
+            ],
+            [
+              197,
+              159
+            ],
+            [
+              204,
+              180
+            ],
+            [
+              144,
+              189
+            ]
+          ]
+        ]
+      }
+    ],
+    "output_sha256": "bc92d20d3dae707ed24575fd5e7cfc4ba271100ac90ff6d136ab840e6f44ab2b"
+  },
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

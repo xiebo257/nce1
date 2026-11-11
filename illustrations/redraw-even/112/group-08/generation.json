@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this reference as ONE single clean full-color cartoon illustration. fat. Match the reference composition, people count, faces, hairstyles, poses and objects. Replace fuzzy rough scan ink with smooth sharp outlines, clear faces, solid colors and subtle shading. Keep the same clothing colors. White background, complete subjects, small white margin. No grid, no multiple copies, no captions. ",
+  "seed": 1121118,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-08",
+      "path": "html/assets/lesson-112/photo-panel-08.webp",
+      "sha256": "bd5a34e87a3b2e308e8c2c4bfb9f25aca73cb7cf5c7a8893293fb55dabc1267f"
+    }
+  ],
+  "fingerprint": "13edbb142cee40c2fc43bdd024a05ac80fb1c0e5fae6fbb7058961a1583b1995",
+  "sha256": "b527338fae5e3675e5e7bf07f68a51035907615004a8f207a83088095a9e0ed0",
+  "reference_sha256": "f3996a4209025f38fad789ffa9992d789376ada172c37e9e73ded96d89d31033",
+  "seconds": 50.47,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

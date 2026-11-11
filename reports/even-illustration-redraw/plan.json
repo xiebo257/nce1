@@ -24536,7 +24536,7 @@
           "cue": "blunt",
           "text": "blunt",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational illustration. Exactly two equally blunt wooden pencils upright side by side with their short dull graphite tips pointing down. The tips must be equally blunt. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison."
+          "edit_instruction": "Draw exactly TWO equally BLUNT yellow wooden pencils side by side on white, same size. Their drawing ends point downward. Each has a short worn graphite tip with a broad FLAT horizontal end, visibly blunt and rounded off, NOT a sharp triangular point. Show the flattened dark lead ends clearly in close-up. Clean colorful educational object illustration, crisp outlines, no people or text."
         },
         {
           "slot": "photo-panel-06",
@@ -24719,7 +24719,9 @@
           "cue": "light",
           "text": "light",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational illustration. Two analog weighing scales side by side, each supporting a suitcase. The left worn suitcase is heavier with its needle angled left; the right blue suitcase is lighter with its needle upright. Keep the two different needle positions shown in the reference. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison."
+          "edit_instruction": "Draw one crisp full-color educational illustration. Two analog weighing scales side by side, each supporting a suitcase. The left worn suitcase is heavier with its needle angled left; the right blue suitcase is lighter with its needle upright. Keep the two different needle positions shown in the reference. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison.",
+          "source_recheck": "Enlarged original img/lesson-112-01-text.jpg crop (823,1135,1025,1344): left pointer angles UPPER RIGHT, right pointer approximately upright. Earlier prompt incorrectly said left. Final exact diagram overlay follows the photo and clockwise increasing scale.",
+          "verified_description": "Two suitcases on scales: heavier worn brown case at left with pointer upper right, lighter blue case at right with pointer upright."
         },
         {
           "slot": "photo-panel-11",
@@ -24829,7 +24831,8 @@
           },
           "cue": "This test is difficult.",
           "text": "This test is difficult.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "diagram_note": "Test panel uses neutral schematic question lines of increasing density, not a transcription of the original decorative puzzle strings; preserves source difficulty comparison and test number."
         },
         {
           "slot": "photo-panel-14",
@@ -24865,7 +24868,8 @@
           },
           "cue": "This test is more difficult.",
           "text": "This test is more difficult.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "diagram_note": "Test panel uses neutral schematic question lines of increasing density, not a transcription of the original decorative puzzle strings; preserves source difficulty comparison and test number."
         },
         {
           "slot": "photo-panel-15",
@@ -24901,12 +24905,13 @@
           },
           "cue": "This is the most difficult test I have ever done!",
           "text": "This is the most difficult test I have ever done!",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "diagram_note": "Test panel uses neutral schematic question lines of increasing density, not a transcription of the original decorative puzzle strings; preserves source difficulty comparison and test number."
         },
         {
           "slot": "photo-panel-16",
-          "reference": "html/assets/lesson-112/photo-panel-16.webp",
-          "reference_sha256": "bc722d262fbee146b36724e13f405af8fff15c2e2657a343c23a4960e6a9d3cd",
+          "reference": "illustrations/redraw-inputs/112-reading-photo-16.png",
+          "reference_sha256": "e8e0c1a2fa8ddc554da7fbdd0e19c667d42504c40ea63cde9e29f09a250c1fe1",
           "source_photo": "img/lesson-112-01-text.jpg",
           "source_photo_sha256": "62a398252f9fa6de7d739dfb4246696d78f02c23639272692b394b46615b1714",
           "previous": {
@@ -24937,7 +24942,17 @@
           },
           "cue": "This book is interesting.",
           "text": "This book is interesting.",
-          "mode": "model-redraw"
+          "mode": "model-redraw",
+          "edit_instruction": "A clean colorful cartoon portrait of one elderly balding man with round glasses in a blue shirt, sitting in a blue armchair, eagerly reading an open plain dark brown book. Exactly TWO hands, BOTH visibly gripping the book, one on each side. Crop the portrait at the waist, no lap or lower arms visible. Eyes focused on the book, interested expression. No writing on book cover. White background, crisp outlines, no extra hands or arms.",
+          "reference_preparation": {
+            "photo": "img/lesson-112-01-text.jpg",
+            "crop_box": [
+              120,
+              1970,
+              513,
+              2170
+            ]
+          }
         },
         {
           "slot": "photo-panel-17",
@@ -25012,7 +25027,212 @@
           "mode": "model-redraw"
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-04": {
+          "operations": [
+            {
+              "type": "hue-shift",
+              "box": [
+                129,
+                89,
+                254,
+                164
+              ],
+              "hue_range": [
+                40,
+                110
+              ],
+              "to_hue": 19,
+              "min_saturation": 35,
+              "saturation_delta": 35,
+              "value_delta": -45
+            }
+          ]
+        },
+        "photo-panel-05": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "polygons": [
+                [
+                  [
+                    270,
+                    0
+                  ],
+                  [
+                    410,
+                    0
+                  ],
+                  [
+                    410,
+                    300
+                  ],
+                  [
+                    270,
+                    300
+                  ]
+                ]
+              ]
+            },
+            {
+              "type": "copy-region",
+              "box": [
+                113,
+                0,
+                232,
+                300
+              ],
+              "position": [
+                277,
+                0
+              ]
+            }
+          ]
+        },
+        "photo-panel-10": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/redraw-inputs/112-scale-left.png",
+              "clear_box": [
+                120,
+                31,
+                264,
+                145
+              ],
+              "placement": [
+                120,
+                31,
+                145,
+                116
+              ]
+            },
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/redraw-inputs/112-scale-right.png",
+              "clear_box": [
+                311,
+                23,
+                455,
+                140
+              ],
+              "placement": [
+                311,
+                23,
+                145,
+                122
+              ]
+            }
+          ]
+        },
+        "photo-panel-13": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/redraw-inputs/112-test-1.png",
+              "clear_box": [
+                272,
+                76,
+                472,
+                237
+              ],
+              "placement": [
+                272,
+                76,
+                200,
+                161
+              ]
+            }
+          ]
+        },
+        "photo-panel-14": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/redraw-inputs/112-test-2.png",
+              "clear_box": [
+                266,
+                72,
+                451,
+                235
+              ],
+              "placement": [
+                266,
+                72,
+                185,
+                163
+              ]
+            }
+          ]
+        },
+        "photo-panel-15": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/redraw-inputs/112-test-3.png",
+              "clear_box": [
+                265,
+                75,
+                449,
+                238
+              ],
+              "placement": [
+                265,
+                75,
+                184,
+                163
+              ]
+            }
+          ]
+        },
+        "photo-panel-17": {
+          "operations": [
+            {
+              "type": "erase-polygons",
+              "fill": "#cc6869",
+              "polygons": [
+                [
+                  [
+                    141,
+                    171
+                  ],
+                  [
+                    190,
+                    163
+                  ],
+                  [
+                    202,
+                    215
+                  ],
+                  [
+                    154,
+                    225
+                  ]
+                ],
+                [
+                  [
+                    140,
+                    168
+                  ],
+                  [
+                    197,
+                    159
+                  ],
+                  [
+                    204,
+                    180
+                  ],
+                  [
+                    144,
+                    189
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      }
     },
     "114": {
       "sections_sha256": "792d490c83b5b53b14c56e05042c2cde86a22e4bd00bcc850f44f28531dbd799",
@@ -25465,7 +25685,13 @@
           "edit_instruction": "Redraw this photographed scene as one crisp full-color educational cartoon. The SAME brown-pigtailed girl in green sitting at the same table holding a round biscuit above her plate. A plate of biscuits on the table. Match the reference composition. Smooth clear outlines, natural cartoon faces and limbs, white margins. No captions, speech text, random letters or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-06": {
+          "copy_scene_from": "photo-panel-03",
+          "operations": []
+        }
+      }
     },
     "116": {
       "sections_sha256": "f65eb5457e292335987e2c1fff902df697dd248cb0f39b1c1f462c49f7cc69d1",

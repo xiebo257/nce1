@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "A clean colorful cartoon portrait of one elderly balding man with round glasses in a blue shirt, sitting in a blue armchair, eagerly reading an open plain dark brown book. Exactly TWO hands, BOTH visibly gripping the book, one on each side. Crop the portrait at the waist, no lap or lower arms visible. Eyes focused on the book, interested expression. No writing on book cover. White background, crisp outlines, no extra hands or arms.",
+  "seed": 1121126,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-16",
+      "path": "illustrations/redraw-inputs/112-reading-photo-16.png",
+      "sha256": "e8e0c1a2fa8ddc554da7fbdd0e19c667d42504c40ea63cde9e29f09a250c1fe1"
+    }
+  ],
+  "fingerprint": "52fdc7e6687d15f88b417f1d30584e087c3405f6f9f651df120f79fdda3a86c4",
+  "sha256": "d44dcb0cdb115d6711a4f2e8acaaebf8ebd0fb6ff81d3d93813742845aeceadf",
+  "reference_sha256": "f9684327d78c034705cd7eb5c684b2e1a1dfcfa662cfcb93b3bc7b2cb7fe6b07",
+  "seconds": 50.84,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}

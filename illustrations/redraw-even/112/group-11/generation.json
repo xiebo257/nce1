@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational illustration. Two handbags side by side: an old worn crumpled brown handbag on the left, a new smooth dark blue handbag on the right with tiny shine marks. Inanimate objects only. No faces, eyes, mouths, people or limbs. Sharp smooth outlines, white background, no labels or captions. Preserve the exact object count and comparison.",
+  "seed": 1121121,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-11",
+      "path": "html/assets/lesson-112/photo-panel-11.webp",
+      "sha256": "d8bd1f10d82271774908315762b1cf3833ddbf54be73a581c8700144b597594c"
+    }
+  ],
+  "fingerprint": "6251d75e90f860238a9244d44119b9cd694ad72c41e5f35fa392de4060517682",
+  "sha256": "9276bbf13b5694b67ec3ccb1489039564d192ed98bbb4ad4d7a8ad250e6acb1b",
+  "reference_sha256": "b6e5e419b2623e50f988557832496dedd458949c9402b2b298a4be78c5506dc4",
+  "seconds": 51.12,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/112.json"
+}
