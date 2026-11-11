@@ -1449,11 +1449,11 @@
       "status": "ready",
       "description": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.",
       "source": "../img/lesson-073-01-text.jpg",
-      "src": "assets/lesson-073/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-073/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-073-01-text.jpg",
@@ -1461,7 +1461,12 @@
         "label": "1",
         "generation_record": "illustrations/photo-repairs/073/generation.json",
         "review_record": "illustrations/photo-repairs/073/review.json",
-        "asset_sha256": "738b1d3ab6d55784feae1187f027eea4040d1e76d305f033e46c1ec109836b67"
+        "asset_sha256": "6b7d0364b8d6cf232b9dab3adf3355b87b17a80f5f5e5ee03078389a10349e44"
+      },
+      "alt": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/073/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -1469,11 +1474,11 @@
       "status": "ready",
       "description": "Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself.",
       "source": "../img/lesson-073-01-text.jpg",
-      "src": "assets/lesson-073/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-073/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-073-01-text.jpg",
@@ -1481,7 +1486,12 @@
         "label": "2",
         "generation_record": "illustrations/photo-repairs/073/generation.json",
         "review_record": "illustrations/photo-repairs/073/review.json",
-        "asset_sha256": "814f9fb2215a499bb259fe40230a2b417c6b9f2b539d6339f168402d46b65f3e"
+        "asset_sha256": "4c8960218d0aec41fa412dd4a3bf39fe8ef7b2b1b302aeba34c397ad5dba5585"
+      },
+      "alt": "Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/073/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -1489,11 +1499,11 @@
       "status": "ready",
       "description": "'Excuse me,' she said. 'Can you tell me the way to King Street, please?'",
       "source": "../img/lesson-073-01-text.jpg",
-      "src": "assets/lesson-073/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-073/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-073-01-text.jpg",
@@ -1501,7 +1511,12 @@
         "label": "3",
         "generation_record": "illustrations/photo-repairs/073/generation.json",
         "review_record": "illustrations/photo-repairs/073/review.json",
-        "asset_sha256": "57b2aaaa292736bb631a3c7fc30619dc43338485b80e91d2793eef19df1b6278"
+        "asset_sha256": "da6a16cd4d6fb67a58a4eeef2ad88d27b3f58b678116b05a0e698e4abcec4459"
+      },
+      "alt": "'Excuse me,' she said. 'Can you tell me the way to King Street, please?'",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/073/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -1509,11 +1524,11 @@
       "status": "ready",
       "description": "The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.",
       "source": "../img/lesson-073-01-text.jpg",
-      "src": "assets/lesson-073/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-073/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-073-01-text.jpg",
@@ -1521,7 +1536,12 @@
         "label": "4",
         "generation_record": "illustrations/photo-repairs/073/generation.json",
         "review_record": "illustrations/photo-repairs/073/review.json",
-        "asset_sha256": "444dc85394b0350153a5a38b5ef6e38229f9eb32f90c3600ca6839260251af71"
+        "asset_sha256": "08fd807ef5576ebd7158e73b3fced8a8b679eb0832603d1c937296f78b36ad6c"
+      },
+      "alt": "The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/073/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -1529,11 +1549,11 @@
       "status": "ready",
       "description": "Then he put his hand into his pocket, and took out a phrasebook.",
       "source": "../img/lesson-073-01-text.jpg",
-      "src": "assets/lesson-073/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-073/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-073-01-text.jpg",
@@ -1541,7 +1561,12 @@
         "label": "5",
         "generation_record": "illustrations/photo-repairs/073/generation.json",
         "review_record": "illustrations/photo-repairs/073/review.json",
-        "asset_sha256": "f50a9d6972bbe2e154f829059507aa586bdaaeda1a6c33ffbaa5215fcf188e22"
+        "asset_sha256": "1ee54fd2809a739069ed4ee92e1fa7059558b336392fd02b9dd3f2f107fbfc7e"
+      },
+      "alt": "Then he put his hand into his pocket, and took out a phrasebook.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/073/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -1549,11 +1574,11 @@
       "status": "ready",
       "description": "He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
       "source": "../img/lesson-073-01-text.jpg",
-      "src": "assets/lesson-073/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-073/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-073-01-text.jpg",
@@ -1561,7 +1586,12 @@
         "label": "6",
         "generation_record": "illustrations/photo-repairs/073/generation.json",
         "review_record": "illustrations/photo-repairs/073/review.json",
-        "asset_sha256": "55f05d6aac95511daa7a84f7c34d8e9fb69e7c977efd19eaf690d550b0b18ce7"
+        "asset_sha256": "a2149aeaeecad98878bfe87a57345659d88789739cef592677afd586405d6f68"
+      },
+      "alt": "He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/073/group-06/generation.json"
       }
     }
   },

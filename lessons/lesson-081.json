@@ -739,11 +739,11 @@
       "status": "ready",
       "description": "Hi, Carol! Where's Tom? He's upstairs. He's having a bath.",
       "source": "../img/lesson-081-01-text.jpg",
-      "src": "assets/lesson-081/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-081/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-081-01-text.jpg",
@@ -751,7 +751,12 @@
         "label": "1",
         "generation_record": "illustrations/photo-repairs/081/generation.json",
         "review_record": "illustrations/photo-repairs/081/review.json",
-        "asset_sha256": "32ebf20db9e283751c1011102fb828effc3dac7a29deb33e9a28e5add62e2578"
+        "asset_sha256": "b51a797bfd78ac530382c8e16439aa275cd5f39fe8bcacdaeeda4825efd260b4"
+      },
+      "alt": "Hi, Carol! Where's Tom? He's upstairs. He's having a bath.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/081/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -759,11 +764,11 @@
       "status": "ready",
       "description": "Tom! Yes? Sam's here. I'm nearly ready.",
       "source": "../img/lesson-081-01-text.jpg",
-      "src": "assets/lesson-081/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-081/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-081-01-text.jpg",
@@ -771,7 +776,12 @@
         "label": "2",
         "generation_record": "illustrations/photo-repairs/081/generation.json",
         "review_record": "illustrations/photo-repairs/081/review.json",
-        "asset_sha256": "b97eeed6a3c73aed65af88218881cebf8bc65b1e7b61d0d7c571741b452740f1"
+        "asset_sha256": "2245c85c86862c88fa7a8b249cb521082ac2362719d5f43ae578f6431867cd60"
+      },
+      "alt": "Tom! Yes? Sam's here. I'm nearly ready.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/081/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -779,11 +789,11 @@
       "status": "ready",
       "description": "Hello, Sam. Have a cigarette. No, thanks, Tom. Have a glass of whisky then. OK. Thanks.",
       "source": "../img/lesson-081-01-text.jpg",
-      "src": "assets/lesson-081/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-081/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-081-01-text.jpg",
@@ -791,7 +801,12 @@
         "label": "3",
         "generation_record": "illustrations/photo-repairs/081/generation.json",
         "review_record": "illustrations/photo-repairs/081/review.json",
-        "asset_sha256": "e3fbef079df4a2d2d2d841bdbcb4dc0db848d457b135f179d6d331405bd33cc7"
+        "asset_sha256": "f3536b64b44791c1859fcf2143bfc6c4f7ce2186afa0406552df5ef2337d1373"
+      },
+      "alt": "Hello, Sam. Have a cigarette. No, thanks, Tom. Have a glass of whisky then. OK. Thanks.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/081/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -799,11 +814,11 @@
       "status": "ready",
       "description": "Is dinner ready, Carol? It's nearly ready. We can have dinner at seven o'clock.",
       "source": "../img/lesson-081-01-text.jpg",
-      "src": "assets/lesson-081/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-081/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-081-01-text.jpg",
@@ -811,7 +826,12 @@
         "label": "4",
         "generation_record": "illustrations/photo-repairs/081/generation.json",
         "review_record": "illustrations/photo-repairs/081/review.json",
-        "asset_sha256": "400f28c4a119c35df9792a37dba6d9bf6aa4e7a24914bd54268c3df666c29e1f"
+        "asset_sha256": "fc14eb2f2d613519d7d54d27b6941307b6187e1be6619cf6a9f75d1fe2e7d60b"
+      },
+      "alt": "Is dinner ready, Carol? It's nearly ready. We can have dinner at seven o'clock.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/081/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -819,11 +839,11 @@
       "status": "ready",
       "description": "Sam and I had lunch together today. We went to a restaurant. What did you have? We had roast beef and potatoes.",
       "source": "../img/lesson-081-01-text.jpg",
-      "src": "assets/lesson-081/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-081/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-081-01-text.jpg",
@@ -831,7 +851,12 @@
         "label": "5",
         "generation_record": "illustrations/photo-repairs/081/generation.json",
         "review_record": "illustrations/photo-repairs/081/review.json",
-        "asset_sha256": "2f7b36b1fbdc7467b28c3f4c472350b730a3e941fe536ea29abc8d64eae159bf"
+        "asset_sha256": "980078d0a6caa5b0338d571a98ca322f06753bcffdf9becffc8fa72f8dfb0ea4"
+      },
+      "alt": "Sam and I had lunch together today. We went to a restaurant. What did you have? We had roast beef and potatoes.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/081/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -839,11 +864,11 @@
       "status": "ready",
       "description": "Oh! What's the matter, Carol? Well, you're going to have roast beef and potatoes again tonight!",
       "source": "../img/lesson-081-01-text.jpg",
-      "src": "assets/lesson-081/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-081/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-081-01-text.jpg",
@@ -851,7 +876,12 @@
         "label": "6",
         "generation_record": "illustrations/photo-repairs/081/generation.json",
         "review_record": "illustrations/photo-repairs/081/review.json",
-        "asset_sha256": "5109327c332f86ba84ae945b648119a7af92df8ab7731f21dea9555175617e4b"
+        "asset_sha256": "3eecbe30e8ed8eb50c5caba9104417ef0ef8714abd05204e3b02a99f234cc10d"
+      },
+      "alt": "Oh! What's the matter, Carol? Well, you're going to have roast beef and potatoes again tonight!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/081/group-06/generation.json"
       }
     }
   },

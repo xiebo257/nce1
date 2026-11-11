@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Aren't you lucky! When are you going to have a holiday, Sam? I don't know. I've already had my holiday this year. Where did you go? I stayed at home! Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 837006,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-083/photo-panel-06.webp",
+      "sha256": "6dbc8afb351bf05c718e7d43d34a79d86e421b082e8886f55adc5ab42ce3c87c"
+    }
+  ],
+  "fingerprint": "a46309194b77c5bfe54bc9a3fbb216ad7ae1557567014234ef6da1b171ab2e98",
+  "sha256": "fcdeddd2148d669b11e788c6407418c448603269ab6dfe650ea0b47ecb8ce509",
+  "seconds": 23.12,
+  "status": "candidate-needs-visual-review"
+}

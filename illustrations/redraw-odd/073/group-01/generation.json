@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Last week Mrs. Mills went to London. She does not know London very well, and she lost her way. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 737001,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-073/photo-panel-01.webp",
+      "sha256": "738b1d3ab6d55784feae1187f027eea4040d1e76d305f033e46c1ec109836b67"
+    }
+  ],
+  "fingerprint": "e93c899e97f728072c7d7f1bcbb358d58380ef073646004bdf02412369be67aa",
+  "sha256": "158223653962e0c95d5462b8761260b09f8dfeef23550c53cc9ae2fa05b34f47",
+  "seconds": 18.49,
+  "status": "candidate-needs-visual-review"
+}

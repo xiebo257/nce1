@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: Isn't that your car? Well, it was my car. Didn't you have a crash? That's right. I drove it into a lamp-post. Can your mechanics repair it? Well, they're trying to repair it, sir. But to tell you the truth, you need a new car! Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 877002,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-087/photo-panel-02.webp",
+      "sha256": "12686b986597c288943ad4c0e9ae42ce9c1691dabddc82d044ee60cdb3c8f5df"
+    }
+  ],
+  "fingerprint": "988020505c09584ba38c07644b68975da5d6d9b7f40b4b1b038a2a123d86361f",
+  "sha256": "fba2a61c4116f8741850f62445dc1587713d404b1c82035871f0bd963eb4d5bd",
+  "seconds": 23.06,
+  "status": "candidate-needs-visual-review"
+}

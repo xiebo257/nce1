@@ -1,0 +1,25 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Create one crisp full-color educational cartoon scene from the lesson description. Preserve the stated people, count, identities, actions, objects and spatial relationships. Use clear smooth outlines, natural anatomy, solid warm colors and subtle cel shading. Keep all complete subjects inside the frame. No captions, speech bubbles, random letters or extra people. Meaningful signs, numbers and labels may remain only when clearly present in the reference. Do not copy blur, scan noise, hatching or paper texture. Scene: I must go to the grocer's. We haven't got much tea or coffee, and we haven't got any sugar or jam. Remove every speech bubble, quotation mark, caption, printed word, sign, label, watermark and letter from the generated picture; the English lesson text is shown in the webpage, not inside the illustration. Do not imitate source lettering or dialogue balloons.",
+  "seed": 797003,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "mode": "reference-edit-raw",
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-079/photo-panel-03.webp",
+      "sha256": "3747f6daf684fe6156a30b468b580084dc9a4983729ba5cb63c8c9c577c31640"
+    }
+  ],
+  "fingerprint": "e57b8da0225cb86e7f6c2a397beaf4c3474d5152374117807d9deea59a6d425d",
+  "sha256": "27b9a715a05c978419d6214151af075ec3858f3de82936f9727629a0b77e62b2",
+  "seconds": 24.23,
+  "status": "candidate-needs-visual-review"
+}

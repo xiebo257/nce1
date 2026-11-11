@@ -652,11 +652,11 @@
       "status": "ready",
       "description": "Hello, Sam. Come in.",
       "source": "../img/lesson-083-01-text.jpg",
-      "src": "assets/lesson-083/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-083/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-083-01-text.jpg",
@@ -664,7 +664,12 @@
         "label": "1",
         "generation_record": "illustrations/photo-repairs/083/generation.json",
         "review_record": "illustrations/photo-repairs/083/review.json",
-        "asset_sha256": "947ecf06fbc68f41f96f1e8602ba6dd99820eccfade1337e1bcf1f9c88fb2a72"
+        "asset_sha256": "6ea88083d6f3df77e4df4474670e99e7cdb248055e4ab79ceec633876241c672"
+      },
+      "alt": "Hello, Sam. Come in.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/083/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -672,11 +677,11 @@
       "status": "ready",
       "description": "Hi, Sam. We're having lunch. Do you want to have lunch with us? No, thank you, Tom. I've already had lunch. I had lunch at half past twelve.",
       "source": "../img/lesson-083-01-text.jpg",
-      "src": "assets/lesson-083/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-083/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-083-01-text.jpg",
@@ -684,7 +689,12 @@
         "label": "2",
         "generation_record": "illustrations/photo-repairs/083/generation.json",
         "review_record": "illustrations/photo-repairs/083/review.json",
-        "asset_sha256": "a1a976bac6343f9c1ea3edc33375515102e0ba051eb3f2cc62691d7db22b4db4"
+        "asset_sha256": "cb21156995dbbf46e05b8f32f89a50517d80fc4f311bb1d99dd62fedb23e2132"
+      },
+      "alt": "Hi, Sam. We're having lunch. Do you want to have lunch with us? No, thank you, Tom. I've already had lunch. I had lunch at half past twelve.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/083/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -692,11 +702,11 @@
       "status": "ready",
       "description": "Have a cup of coffee then. I've just had a cup, thank you. I had one after my lunch.",
       "source": "../img/lesson-083-01-text.jpg",
-      "src": "assets/lesson-083/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-083/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-083-01-text.jpg",
@@ -704,7 +714,12 @@
         "label": "3",
         "generation_record": "illustrations/photo-repairs/083/generation.json",
         "review_record": "illustrations/photo-repairs/083/review.json",
-        "asset_sha256": "b8dbf0fe1bced2d1bb4d941d0853db88df729867cc8914f11517d46c660d203e"
+        "asset_sha256": "3f5af4795475afdefd85f9e92cb2bee6a6bfc80dba349454b59206ce649350d5"
+      },
+      "alt": "Have a cup of coffee then. I've just had a cup, thank you. I had one after my lunch.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/083/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -712,11 +727,11 @@
       "status": "ready",
       "description": "Let's go into the living room, Carol. We can have our coffee there.",
       "source": "../img/lesson-083-01-text.jpg",
-      "src": "assets/lesson-083/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-083/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-083-01-text.jpg",
@@ -724,7 +739,12 @@
         "label": "4",
         "generation_record": "illustrations/photo-repairs/083/generation.json",
         "review_record": "illustrations/photo-repairs/083/review.json",
-        "asset_sha256": "25f861db816e9035afbfb53b903c2be3f4e739597768c43e1d39334e5586ce79"
+        "asset_sha256": "96ea82deae754ac9ef66ad4ab6fb6ce22b98a34980456fb4c1f066021e4da796"
+      },
+      "alt": "Let's go into the living room, Carol. We can have our coffee there.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/083/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -732,11 +752,11 @@
       "status": "ready",
       "description": "Excuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.",
       "source": "../img/lesson-083-01-text.jpg",
-      "src": "assets/lesson-083/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-083/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-083-01-text.jpg",
@@ -744,7 +764,12 @@
         "label": "5",
         "generation_record": "illustrations/photo-repairs/083/generation.json",
         "review_record": "illustrations/photo-repairs/083/review.json",
-        "asset_sha256": "e29c75e3199b40c719f774c03cceb215c3a0554167bed7ff1681d90184f27b03"
+        "asset_sha256": "7ef1bde754ac291229df9aa5881b3377ce217808c5d6320e74b6cb44625b9f62"
+      },
+      "alt": "Excuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/083/group-05/generation.json"
       }
     },
     "photo-panel-06": {
@@ -752,11 +777,11 @@
       "status": "ready",
       "description": "Aren't you lucky! When are you going to have a holiday, Sam? I don't know. I've already had my holiday this year. Where did you go? I stayed at home!",
       "source": "../img/lesson-083-01-text.jpg",
-      "src": "assets/lesson-083/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
-      "display_width": 320,
-      "origin": "photo-verified-color-panel",
+      "src": "assets/lesson-083/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
+      "display_width": 256,
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-083-01-text.jpg",
@@ -764,7 +789,12 @@
         "label": "6",
         "generation_record": "illustrations/photo-repairs/083/generation.json",
         "review_record": "illustrations/photo-repairs/083/review.json",
-        "asset_sha256": "6dbc8afb351bf05c718e7d43d34a79d86e421b082e8886f55adc5ab42ce3c87c"
+        "asset_sha256": "3c6e05b0937c3f956a10ca44b02c5c0ec888de0ac971957ae872190a1083f285"
+      },
+      "alt": "Aren't you lucky! When are you going to have a holiday, Sam? I don't know. I've already had my holiday this year. Where did you go? I stayed at home!",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-odd/083/group-06/generation.json"
       }
     }
   },
