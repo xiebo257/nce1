@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME black-haired man in blue and balding man in green talking below. A thought bubble shows Harry, straight blonde-haired man in brown sweater, reading an open book in an armchair. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1321114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-132/photo-panel-04.webp",
+      "sha256": "c3ce5eae6e25555e44f21d7a0fd977ff065ab2aa2255ad14b793db2cbbf84441"
+    }
+  ],
+  "fingerprint": "32e119071be913b58f2a828b38dd782f35184e63d971cd990a924470172c2f9a",
+  "sha256": "42233b6cc988ceea7aeeaf40733fcaade4853ebd253a1d0d33d1c6b8bc8bafa0",
+  "reference_sha256": "00cb51b2b5568cfb56e3e5f6458383ce0e2e94794c7d0885470a8c0f16b78e43",
+  "seconds": 25.76,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/132.json"
+}

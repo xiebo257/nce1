@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly blonde boy in blue sits at a desk with a completed exercise book, looking pleased. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1341117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-10",
+      "path": "html/assets/lesson-134/photo-panel-10.webp",
+      "sha256": "2ffccaa8efdb445f2d62c0ee41ba06b6e060c3a5a819a72324c70a40d92b310c"
+    }
+  ],
+  "fingerprint": "63c168650e1cbaf86708388e4d5724f512670901c059b6409dee1ba177932380",
+  "sha256": "dffcd707c7114e2e60fa5c319145d10400b6396ca803240c5a4f64cc6857ed70",
+  "reference_sha256": "4b8b7575c8570db3d97ce442fe6df5848ee0fca9efb65099cafabf83c68c0cce",
+  "seconds": 25.92,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/134.json"
+}

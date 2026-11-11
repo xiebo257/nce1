@@ -649,19 +649,25 @@
       "status": "ready",
       "description": "I'll leave tomorrow.",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-01.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "1",
-        "asset_sha256": "4900c7922a4d7cf7722e310c12e436ab701930b0f1fcb1c28f1f04eea6885fdb",
+        "asset_sha256": "78fd1d5242d42d5f1b620baaa8960a7b6d9709940ca81ce7fe8584dd2c30ea7e",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-01/generation.json"
+      },
+      "alt": "I'll leave tomorrow.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -669,19 +675,25 @@
       "status": "ready",
       "description": "What did he say? What did he tell you?",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-02.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "2",
-        "asset_sha256": "f0bc638a3b4743b2695a5c6d552c75005c64e4033c3faa6ff58fb7e9d63cf2af",
+        "asset_sha256": "a842e3cfcaa0e76ed0918b34b1b1f387c4e8bf1014000f27be2ca757b9ec931e",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-02/generation.json"
+      },
+      "alt": "What did he say? What did he tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -689,19 +701,25 @@
       "status": "ready",
       "description": "He said (that) he would leave tomorrow. He told me (that) he would leave tomorrow.",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-03.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3 · Group 1",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "3",
-        "asset_sha256": "8a4b8edcc2f23ff367de72d59c093db0bc91f7be5e30f861ad6bbbb6d3e67888",
+        "asset_sha256": "1f84cd6178a18bdda8bb435778a01c412ffc25e8154db55a2232d230e3505c3b",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-03/generation.json"
+      },
+      "alt": "He said (that) he would leave tomorrow. He told me (that) he would leave tomorrow.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -709,19 +727,25 @@
       "status": "ready",
       "description": "I can't do this Maths problem.",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-04.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "4",
-        "asset_sha256": "9ec26d04cb5a1e1da721afd11ec44fd8e461f237c5a4a636b039f64cd56c7d9c",
+        "asset_sha256": "57eaca56d7a47b3d7194f760ea12f893d15b40d47c0ea107c127fd3514aa85ce",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-04/generation.json"
+      },
+      "alt": "I can't do this Maths problem.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -729,19 +753,29 @@
       "status": "ready",
       "description": "What did he say? What did he tell you?",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-05.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "5",
-        "asset_sha256": "4931d24442b228b256d677bee2f30d5caddaf819c1280cecff8d3649c2f70816",
+        "asset_sha256": "a842e3cfcaa0e76ed0918b34b1b1f387c4e8bf1014000f27be2ca757b9ec931e",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
         "review_record": "illustrations/photo-repairs/136/review.json"
+      },
+      "alt": "What did he say? What did he tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 136,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-06": {
@@ -749,19 +783,25 @@
       "status": "ready",
       "description": "He said (that) he couldn't do this Maths problem. He told me (that) he couldn't do this Maths problem.",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-06.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6 · Group 2",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "6",
-        "asset_sha256": "1265ce5b77154a396a35fde84d77c21087d5892aaca0fc04ced704ee34e1370e",
+        "asset_sha256": "2a80318eb2755cf4a204266528efa1296137f4ea61d6277886f9777f32d118bd",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-05/generation.json"
+      },
+      "alt": "He said (that) he couldn't do this Maths problem. He told me (that) he couldn't do this Maths problem.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-05/generation.json"
       }
     },
     "photo-panel-07": {
@@ -769,19 +809,25 @@
       "status": "ready",
       "description": "I may return at six o'clock.",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-07.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "7",
-        "asset_sha256": "ba49e1c1713f6145b8052c1e4c8c385f607a6dbfb2e082885dfbd7b98b1068ad",
+        "asset_sha256": "955234d6c109a48c993955670edb6807a3d5a0adbf3de0891b747d2ddf18a022",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-06/generation.json"
+      },
+      "alt": "I may return at six o'clock.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-06/generation.json"
       }
     },
     "photo-panel-08": {
@@ -789,19 +835,29 @@
       "status": "ready",
       "description": "What did she say? What did she tell you?",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-08.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "8",
-        "asset_sha256": "3ac8cc6699dbe5a6f81963e8d3ef083a0c73c50f81b41241a07b97607900adb2",
+        "asset_sha256": "a842e3cfcaa0e76ed0918b34b1b1f387c4e8bf1014000f27be2ca757b9ec931e",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
         "review_record": "illustrations/photo-repairs/136/review.json"
+      },
+      "alt": "What did she say? What did she tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 136,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-09": {
@@ -809,19 +865,25 @@
       "status": "ready",
       "description": "She said (that) she might return at six o'clock. She told me (that) she might return at six o'clock.",
       "source": "../img/lesson-136-01-text.jpg",
-      "src": "assets/lesson-136/photo-panel-09.webp",
-      "width": 320,
-      "height": 192,
+      "src": "assets/lesson-136/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 9 · Group 3",
       "photo_verification": {
         "photo": "img/lesson-136-01-text.jpg",
         "sha256": "5394288fab77e2badf5793af0111d95fe0315be4d67daaa8481f639f5f816c07",
         "label": "9",
-        "asset_sha256": "74bbe0f05c5bc1fcfae5084ee2b7ca8a3b4bfaf7e3c9f382bee562a43b07f8cf",
+        "asset_sha256": "1f84cd6178a18bdda8bb435778a01c412ffc25e8154db55a2232d230e3505c3b",
         "generation_record": "illustrations/photo-repairs/136/generation.json",
-        "review_record": "illustrations/photo-repairs/136/review.json"
+        "review_record": "illustrations/photo-repairs/136/review.json",
+        "redraw_manifest": "illustrations/redraw-even/136/group-07/generation.json"
+      },
+      "alt": "She said (that) she might return at six o'clock. She told me (that) she might return at six o'clock.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/136/group-07/generation.json"
       }
     }
   },

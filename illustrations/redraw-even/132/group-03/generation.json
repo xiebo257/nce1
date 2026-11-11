@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME black-haired man in blue checking his wristwatch at left and balding man in green at right. A thought bubble shows Harry, straight blonde-haired man in brown sweater, busy working at a desk with papers. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1321113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-132/photo-panel-03.webp",
+      "sha256": "3bb5502108cf34fcb7f02c967db64f716ce014d791b76c676e7a50c63aa7002a"
+    }
+  ],
+  "fingerprint": "3efe34e10f2dacda44a318ce27baf235e830a166c8a614f85022da35a07da02d",
+  "sha256": "dc039b14ff0e79f9701342d76b3eccdff82dcafa3825a219eaef8741b3a540ac",
+  "reference_sha256": "a3b5b970f07bae823e28f65d871fae69a279fa67425a9dd92f9a8550df7f9e8d",
+  "seconds": 25.98,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/132.json"
+}

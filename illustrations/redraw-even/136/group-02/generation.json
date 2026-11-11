@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One older woman with straight blonde hair in a low bun, pearl necklace and lavender blouse cups one hand near her ear, asking what was said. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1361112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-136/photo-panel-02.webp",
+      "sha256": "f0bc638a3b4743b2695a5c6d552c75005c64e4033c3faa6ff58fb7e9d63cf2af"
+    }
+  ],
+  "fingerprint": "f2069f5f7fabcd6c357f1dc907e01b1a1aaafdb3596fee46f4e13cf726454391",
+  "sha256": "a4cee95c4e07c23bbdc3e869e2f55242bcb900a408da71974604d6bd9e4b6cac",
+  "reference_sha256": "6af2778d66b21020eca0cd51b07a9386cec629a5100cc9e3869050fbc55dcee5",
+  "seconds": 25.9,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/136.json"
+}

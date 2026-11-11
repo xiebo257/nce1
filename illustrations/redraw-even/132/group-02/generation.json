@@ -1,0 +1,58 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Redraw this photographed composition as one crisp full-color educational cartoon. The SAME black-haired man in blue and balding man in green talking below. A thought bubble above shows Harry, straight blonde-haired man in brown sweater, outside a cinema entrance with a blank rectangular sign. Exactly three depictions. Smooth clear lines, natural cartoon anatomy, solid colors, white margins. No captions, dialogue, letters or invented extra people.",
+  "seed": 1321112,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-02",
+      "path": "html/assets/lesson-132/photo-panel-02.webp",
+      "sha256": "6d8f5011bb5d938dba1830ba5a268b10f381e323bd0bb0feaa1cb24bd651db29"
+    }
+  ],
+  "fingerprint": "51e5e03ece23ecb1b9a44db9af9d7b467b02f672bc2201a063052ca8540e16b0",
+  "sha256": "aa4a1570a6ae8ae5f7ffcf8b5442509ee561fc2f33e7040ce66865a59bd9903b",
+  "reference_sha256": "da4afc65f92eab2a3b1493d5037c4a3147d0137ac2cad83c5c1617fc0a45e175",
+  "seconds": 25.66,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/132/group-02/redrawn.png",
+    "source_sha256": "aa4a1570a6ae8ae5f7ffcf8b5442509ee561fc2f33e7040ce66865a59bd9903b",
+    "operations": [
+      {
+        "type": "text-overlay",
+        "box": [
+          355,
+          51,
+          464,
+          79
+        ],
+        "text": "CINEMA",
+        "font_size": 23,
+        "background": null
+      },
+      {
+        "type": "text-overlay",
+        "box": [
+          139,
+          50,
+          222,
+          131
+        ],
+        "text": "?",
+        "font_size": 64,
+        "background": null
+      }
+    ],
+    "output_sha256": "ed0cbea14d0936bac38c940b320982712852d2e89a522016c49a99c1c25add6c"
+  },
+  "review": "reports/even-illustration-redraw/reviews/132.json"
+}

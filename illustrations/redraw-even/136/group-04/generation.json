@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One straight brown-haired boy in blue sits at a desk looking confused at a maths exercise book, pencil in one hand and other hand supporting his cheek. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1361114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "html/assets/lesson-136/photo-panel-04.webp",
+      "sha256": "9ec26d04cb5a1e1da721afd11ec44fd8e461f237c5a4a636b039f64cd56c7d9c"
+    }
+  ],
+  "fingerprint": "b9d79af83ebb451e7dd2530a0cc4bace926a846e967387b926b91d731a49ea2b",
+  "sha256": "e07543d2224e235abec74fd8adc788d3a8e97c8c86f4e7c965dd86a2b30df69a",
+  "reference_sha256": "b5c82872e8e219eaf2c01fb34176de9ee8429d62390f2b704a0e954d1628abd8",
+  "seconds": 25.77,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/136.json"
+}

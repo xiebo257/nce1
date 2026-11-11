@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One curly black-haired woman in green speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1361113,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-03",
+      "path": "html/assets/lesson-136/photo-panel-03.webp",
+      "sha256": "8a4b8edcc2f23ff367de72d59c093db0bc91f7be5e30f861ad6bbbb6d3e67888"
+    }
+  ],
+  "fingerprint": "38e220449bb8f7d38debdf7c3d74612eec1208f5c7adebb56ab7095a48365fde",
+  "sha256": "6f667cdf1a46db35075a3610a21658c321fb8b2b6f9bce35d921fd82ed1fdeaf",
+  "reference_sha256": "5e494d455fe1a391f97258bf2a9577e41529b3f3af09c5c4408f8ad54434f437",
+  "seconds": 25.71,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/136.json"
+}

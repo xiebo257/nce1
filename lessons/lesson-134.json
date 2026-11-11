@@ -831,17 +831,17 @@
       "status": "ready",
       "description": "I'm tired.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-01.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-01-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 1",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "1",
-        "asset_sha256": "4b5f4c65197626cd5b23e7ed843ad1aa95bc9f1cf724227a12977493999f2941",
+        "asset_sha256": "20e463f40047b4bd7d9237a0ffb4ce42268000d8c56a4a82669188c1a41e0f6d",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -849,7 +849,13 @@
           0,
           256,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-01/generation.json"
+      },
+      "alt": "I'm tired.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-01/generation.json"
       }
     },
     "photo-panel-02": {
@@ -857,17 +863,17 @@
       "status": "ready",
       "description": "What did he say? What did he tell you?",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-02.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-02-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 2",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "2",
-        "asset_sha256": "f1dc318596d1af21a064e9610389733ecd8e679113fc663f4e46c04e98a22e98",
+        "asset_sha256": "4c55bf6d3863745571fd2fb119c96f97bfd042ecacbfd33c7d3f2ccc06c4febd",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -875,7 +881,13 @@
           0,
           512,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-02/generation.json"
+      },
+      "alt": "What did he say? What did he tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-02/generation.json"
       }
     },
     "photo-panel-03": {
@@ -883,17 +895,17 @@
       "status": "ready",
       "description": "He said (that) he was tired. He told me (that) he was tired.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-03.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-03-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 3",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "3",
-        "asset_sha256": "65a25667af097cc2dde78d3deec99550845cdfcfc1199c850abd9110cdc0c635",
+        "asset_sha256": "ae99c9ad65090363e14fe56910be015bdb1cf58b4467d3c006294ca1b0ceb1f0",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -901,7 +913,13 @@
           0,
           768,
           160
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-03/generation.json"
+      },
+      "alt": "He said (that) he was tired. He told me (that) he was tired.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-03/generation.json"
       }
     },
     "photo-panel-04": {
@@ -909,17 +927,17 @@
       "status": "ready",
       "description": "I'm reading.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-04.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-04-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 4",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "4",
-        "asset_sha256": "00af2cd58e1cc8e3153292f3133ae6f7d8594adfc9e86b0ab22e59de8897ea43",
+        "asset_sha256": "984033bdbd145c3f780c83549600c139cc18c1f71762870b80e9d17b48c7a62a",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -927,7 +945,13 @@
           160,
           256,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-04/generation.json"
+      },
+      "alt": "I'm reading.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-04/generation.json"
       }
     },
     "photo-panel-05": {
@@ -935,17 +959,17 @@
       "status": "ready",
       "description": "What did she say? What did she tell you?",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-05.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-05-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 5",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "5",
-        "asset_sha256": "150917adf22e52cae4d3655bb234c220cfb5bc8f91a02593cd1e3239c665afc0",
+        "asset_sha256": "4c55bf6d3863745571fd2fb119c96f97bfd042ecacbfd33c7d3f2ccc06c4febd",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -954,6 +978,16 @@
           512,
           320
         ]
+      },
+      "alt": "What did she say? What did she tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 134,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-06": {
@@ -961,17 +995,17 @@
       "status": "ready",
       "description": "She said (that) she was reading. She told me (that) she was reading.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-06.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-06-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 6",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "6",
-        "asset_sha256": "048036e4eae8abe16922cde0acb208727edeae40c74ca45428ad6692f97fcf90",
+        "asset_sha256": "aa4fee7dfd18935221f7d70794973b941cf72fb98d8e03387a6513aecb2f7a1b",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -979,7 +1013,13 @@
           160,
           768,
           320
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-05/generation.json"
+      },
+      "alt": "She said (that) she was reading. She told me (that) she was reading.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-05/generation.json"
       }
     },
     "photo-panel-07": {
@@ -987,17 +1027,17 @@
       "status": "ready",
       "description": "We want our dinner.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-07.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-07-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 7",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "7",
-        "asset_sha256": "e209767fa065568159fd0978661afb7d584a9fbdfd55fa188d60ac3280e1e4cf",
+        "asset_sha256": "6def5362e18009efc5838e59315ddd5e5e55ccca2d921e6d802970a942d379dc",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -1005,7 +1045,13 @@
           320,
           256,
           480
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-06/generation.json"
+      },
+      "alt": "We want our dinner.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-06/generation.json"
       }
     },
     "photo-panel-08": {
@@ -1013,17 +1059,17 @@
       "status": "ready",
       "description": "What did they say? What did they tell you?",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-08.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-08-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 8",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "8",
-        "asset_sha256": "69158e1867e753cb70d8d7f53997948a35ab3808b87c3c5d77f58be5f69b8147",
+        "asset_sha256": "4c55bf6d3863745571fd2fb119c96f97bfd042ecacbfd33c7d3f2ccc06c4febd",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -1032,6 +1078,16 @@
           512,
           480
         ]
+      },
+      "alt": "What did they say? What did they tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 134,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-09": {
@@ -1039,17 +1095,17 @@
       "status": "ready",
       "description": "They said (that) they wanted their dinner. They told me (that) they wanted their dinner.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-09.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-09-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 9",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "9",
-        "asset_sha256": "eb79dcff57c5d59c7c0847f0800125087995daec75d7cadfdb41ba43361a14cd",
+        "asset_sha256": "ae99c9ad65090363e14fe56910be015bdb1cf58b4467d3c006294ca1b0ceb1f0",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -1058,6 +1114,16 @@
           768,
           480
         ]
+      },
+      "alt": "They said (that) they wanted their dinner. They told me (that) they wanted their dinner.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 134,
+          "slot": "photo-panel-03"
+        }
       }
     },
     "photo-panel-10": {
@@ -1065,17 +1131,17 @@
       "status": "ready",
       "description": "I've finished my homework.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-10.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-10-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 10",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "10",
-        "asset_sha256": "2ffccaa8efdb445f2d62c0ee41ba06b6e060c3a5a819a72324c70a40d92b310c",
+        "asset_sha256": "5516f82134a80ccf04b07f360370703d38df5db9c1e87a4f0082f9b4bc108333",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -1083,7 +1149,13 @@
           480,
           256,
           640
-        ]
+        ],
+        "redraw_manifest": "illustrations/redraw-even/134/group-07/generation.json"
+      },
+      "alt": "I've finished my homework.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "manifest": "illustrations/redraw-even/134/group-07/generation.json"
       }
     },
     "photo-panel-11": {
@@ -1091,17 +1163,17 @@
       "status": "ready",
       "description": "What did he say? What did he tell you?",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-11.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-11-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 11",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "11",
-        "asset_sha256": "97a5b6a384f7627cecda12fc1cd91a4cbcea91eab28e1cedad119369c75f867e",
+        "asset_sha256": "4c55bf6d3863745571fd2fb119c96f97bfd042ecacbfd33c7d3f2ccc06c4febd",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -1110,6 +1182,16 @@
           512,
           640
         ]
+      },
+      "alt": "What did he say? What did he tell you?",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 134,
+          "slot": "photo-panel-02"
+        }
       }
     },
     "photo-panel-12": {
@@ -1117,17 +1199,17 @@
       "status": "ready",
       "description": "He said (that) he had finished his homework. He told me (that) he had finished his homework.",
       "source": "../img/lesson-134-01-text.jpg",
-      "src": "assets/lesson-134/photo-panel-12.webp",
-      "width": 256,
-      "height": 160,
+      "src": "assets/lesson-134/photo-panel-12-redrawn.webp",
+      "width": 512,
+      "height": 320,
       "display_width": 256,
-      "origin": "photo-verified-color-panel",
+      "origin": "local-model-redraw",
       "caption": "Picture 12",
       "photo_verification": {
         "photo": "img/lesson-134-01-text.jpg",
         "sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
         "label": "12",
-        "asset_sha256": "138a69f1be436b8c45b7243153577097fe255730c5778097f9d324cbfe689052",
+        "asset_sha256": "aa4fee7dfd18935221f7d70794973b941cf72fb98d8e03387a6513aecb2f7a1b",
         "reused_asset": "html/assets/lesson-134/l134-pictures-color.webp",
         "reused_sha256": "b732a5b59c611bd0836cd1075cc04ff1ca0f6af7d0b58cff234c1c2e9d1e4e08",
         "crop": [
@@ -1137,6 +1219,16 @@
           640
         ],
         "limitation": "bottom caption cropped; retained existing unverified wording"
+      },
+      "alt": "He said (that) he had finished his homework. He told me (that) he had finished his homework.",
+      "generation": {
+        "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+        "recipe": "reports/even-illustration-redraw/plan.json",
+        "mode": "reuse",
+        "reuse_from": {
+          "lesson": 134,
+          "slot": "photo-panel-06"
+        }
       }
     }
   },

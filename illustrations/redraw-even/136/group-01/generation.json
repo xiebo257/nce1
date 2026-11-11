@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One man with neatly side-parted brown hair and a blue shirt speaking, single head-and-shoulders portrait. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1361111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-136/photo-panel-01.webp",
+      "sha256": "4900c7922a4d7cf7722e310c12e436ab701930b0f1fcb1c28f1f04eea6885fdb"
+    }
+  ],
+  "fingerprint": "b67c5c240616be5437115986a22783c90fdff342d17dd7a5ecae8fe1c01ef31a",
+  "sha256": "da67995a545a21405ea7a642f66c2d932ee2e4217ba4fe4b75327b8c90f10080",
+  "reference_sha256": "b5dd85d2a7024b0ea6f28a611d5a33655ee73d1716e14c7bf614751b587203f8",
+  "seconds": 26.03,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/136.json"
+}

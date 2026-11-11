@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Keep this exact adult black-bob-haired woman with green blouse and white collar, same face and proportions. Change her pose to reading an OPEN GREEN BOOK held in front of her with BOTH hands, one hand on each side of the book. Lower the hand from her mouth onto the book. Eyes look down toward pages, calm expression. Exactly two hands, plain book cover without text. Crisp colorful textbook cartoon on white.",
+  "seed": 1341114,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-04",
+      "path": "illustrations/redraw-inputs/134-reading-cast.png",
+      "sha256": "22781d1ff69cc5b6bbe73a18142af58b1148b6698d77f383c1f343da67abcfde"
+    }
+  ],
+  "fingerprint": "c5a68eabccbdbf8416c76d2671a4ac29cc079bde25225a14cc6376dd209c9a7c",
+  "sha256": "4f892c103a80ef07690536353fd10b3235405a9ac9a3577235cf5f9d1412d68b",
+  "reference_sha256": "e4432b17e4677cc245e40aa20b488654a1542528e6eebf083cbcbf97ab178611",
+  "seconds": 28.87,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/134.json"
+}

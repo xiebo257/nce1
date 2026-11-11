@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME balding man with curly dark side hair and blue checked jacket speaks with one hand cupped beside his mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1341115,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-06",
+      "path": "html/assets/lesson-134/photo-panel-06.webp",
+      "sha256": "048036e4eae8abe16922cde0acb208727edeae40c74ca45428ad6692f97fcf90"
+    }
+  ],
+  "fingerprint": "ab362a53a24a384e7f744ac281ad9f351bec84e6d7e2ce4d30055e534f3e5ab4",
+  "sha256": "423e1b34e98b7c5c36d5dbf73c7db3cbc02e65d5b63878e5ef60a19943abb832",
+  "reference_sha256": "9a7bf1febca5c3fe0de4c765f65946026ee446ad24b7b6edac5bf717573395d5",
+  "seconds": 25.83,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/134.json"
+}

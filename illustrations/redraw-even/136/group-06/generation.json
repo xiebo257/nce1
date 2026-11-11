@@ -1,0 +1,53 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One blonde girl with chin-length bob and green blouse points to a small round wall clock on her right, its face left BLANK for a precise time overlay. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1361116,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-07",
+      "path": "html/assets/lesson-136/photo-panel-07.webp",
+      "sha256": "ba49e1c1713f6145b8052c1e4c8c385f607a6dbfb2e082885dfbd7b98b1068ad"
+    }
+  ],
+  "fingerprint": "a7fe4dd9be0c97f9c98c130627aeab92ae0841ec8f3fcadbed5db89e7b9eef93",
+  "sha256": "11b3353e7463a0794da5b87d5e5ab92c2bc3653fbdee5df26fa0f342a079f8cc",
+  "reference_sha256": "9ac9155bbecc4f0d5c8d8a1501dde2580fd9306367cd736a40ae558fe0f3297f",
+  "seconds": 26.0,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/136/group-06/redrawn.png",
+    "source_sha256": "11b3353e7463a0794da5b87d5e5ab92c2bc3653fbdee5df26fa0f342a079f8cc",
+    "operations": [
+      {
+        "type": "exact-diagram-overlay",
+        "asset": "illustrations/work/redraw-even/136/diagrams/inset-6-00.png",
+        "clear_box": [
+          328,
+          40,
+          446,
+          158
+        ],
+        "placement": [
+          329,
+          41,
+          116,
+          116
+        ],
+        "shape": "ellipse",
+        "clock_time": "6:00",
+        "sha256": "65499e3a1a9e0c715d683302c660d64afeb62ef8390715967e03bffa9fa376c1"
+      }
+    ],
+    "output_sha256": "12293e977052b858330cdb8cd4409cc836969e912e787e6744624ff1439542da"
+  },
+  "review": "reports/even-illustration-redraw/reviews/136.json"
+}

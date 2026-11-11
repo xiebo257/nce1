@@ -1,0 +1,27 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One balding man with curly dark side hair, a blue checked jacket and white shirt yawns tiredly with one hand near his mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1341111,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-01",
+      "path": "html/assets/lesson-134/photo-panel-01.webp",
+      "sha256": "4b5f4c65197626cd5b23e7ed843ad1aa95bc9f1cf724227a12977493999f2941"
+    }
+  ],
+  "fingerprint": "b98c3c59809692f643ad45a658974dbda4d4ba0ec2819306436817175f26668f",
+  "sha256": "b7393e646bff9a4e7837c041dd1edb63c90f04209f932da0a776d306700904c7",
+  "reference_sha256": "6eb904a7a74e992f7877f12be57569b91d2620579c725810ec437724e225f4b7",
+  "seconds": 25.91,
+  "status": "candidate-needs-visual-review",
+  "review": "reports/even-illustration-redraw/reviews/134.json"
+}

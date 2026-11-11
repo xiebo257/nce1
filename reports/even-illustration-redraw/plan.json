@@ -28835,7 +28835,37 @@
           "reuse_review": "Original photograph repeats the same busy/reading thought-bubble drawing for present and past forms; only accompanying text changes."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-02": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                355,
+                51,
+                464,
+                79
+              ],
+              "text": "CINEMA",
+              "font_size": 23,
+              "background": null
+            },
+            {
+              "type": "text-overlay",
+              "box": [
+                139,
+                50,
+                222,
+                131
+              ],
+              "text": "?",
+              "font_size": 64,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "134": {
       "sections_sha256": "2653ec2cd9dc3f06384f987a13e31b84b86ad0422738da8923251eb075a8b260",
@@ -28954,8 +28984,8 @@
         },
         {
           "slot": "photo-panel-04",
-          "reference": "html/assets/lesson-134/photo-panel-04.webp",
-          "reference_sha256": "00af2cd58e1cc8e3153292f3133ae6f7d8594adfc9e86b0ab22e59de8897ea43",
+          "reference": "illustrations/redraw-inputs/134-reading-cast.png",
+          "reference_sha256": "22781d1ff69cc5b6bbe73a18142af58b1148b6698d77f383c1f343da67abcfde",
           "source_photo": "img/lesson-134-01-text.jpg",
           "source_photo_sha256": "5887263c6ed44c68f4c6caf8bf194b2433efc3ab83d304e0b17aadf4aad7d514",
           "previous": {
@@ -28987,7 +29017,7 @@
           "cue": "I'm reading.",
           "text": "I'm reading.",
           "mode": "model-redraw",
-          "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. The SAME short black-bob-haired woman in green reads an open book, exactly one woman. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
+          "edit_instruction": "Keep this exact adult black-bob-haired woman with green blouse and white collar, same face and proportions. Change her pose to reading an OPEN GREEN BOOK held in front of her with BOTH hands, one hand on each side of the book. Lower the hand from her mouth onto the book. Eyes look down toward pages, calm expression. Exactly two hands, plain book cover without text. Crisp colorful textbook cartoon on white."
         },
         {
           "slot": "photo-panel-05",
@@ -29609,7 +29639,35 @@
       "group_size": 1,
       "inset_clocks": [
         "6:00"
-      ]
+      ],
+      "candidate_edits": {
+        "photo-panel-09": {
+          "copy_scene_from": "photo-panel-03",
+          "operations": []
+        },
+        "photo-panel-07": {
+          "operations": [
+            {
+              "type": "exact-diagram-overlay",
+              "asset": "illustrations/work/redraw-even/136/diagrams/inset-6-00.png",
+              "clear_box": [
+                328,
+                40,
+                446,
+                158
+              ],
+              "placement": [
+                329,
+                41,
+                116,
+                116
+              ],
+              "shape": "ellipse",
+              "clock_time": "6:00"
+            }
+          ]
+        }
+      }
     },
     "138": {
       "sections_sha256": "32e370fe9b67ab28418203aa7d1acf3adeb7574eb4e9316cffe6c0a58698cb98",
@@ -29805,7 +29863,25 @@
           "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. Two men stand beside an old open-top car, one points toward it while they discuss selling it. Exactly two people and one car. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-02": {
+          "operations": [
+            {
+              "type": "text-overlay",
+              "box": [
+                36,
+                37,
+                149,
+                66
+              ],
+              "text": "BOOKS",
+              "font_size": 24,
+              "background": null
+            }
+          ]
+        }
+      }
     },
     "140": {
       "sections_sha256": "25ed6e350af4a8bd395b0ea394c49753a76b3e147ab627d628b74edaba2cd660",
@@ -30095,7 +30171,13 @@
           "edit_instruction": "Draw one crisp full-color educational cartoon matching the photographed composition. One short black-bob-haired woman in green speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people."
         }
       ],
-      "group_size": 1
+      "group_size": 1,
+      "candidate_edits": {
+        "photo-panel-06": {
+          "copy_scene_from": "photo-panel-03",
+          "operations": []
+        }
+      }
     },
     "142": {
       "sections_sha256": "ffa62c91ef5e614e4cd97e03d621391c8da2529bcdd17391e341c4ab8ea38e7d",

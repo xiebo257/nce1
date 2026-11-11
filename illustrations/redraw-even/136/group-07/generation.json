@@ -1,0 +1,33 @@
+{
+  "model": "mlx-community/FLUX.2-Klein-4B-4bit",
+  "prompt": "Draw one crisp full-color educational cartoon matching the photographed composition. One woman with a rounded black bob and green blouse speaks with one hand cupped beside her mouth. Clear smooth lines, friendly natural facial proportions, normal arms and hands. Keep recurring hairstyle and clothing identical. White background or simple source setting. No captions, dialogue, random lettering or extra people.",
+  "seed": 1361117,
+  "steps": 4,
+  "guidance": 1.0,
+  "width": 512,
+  "height": 320,
+  "cell": [
+    512,
+    320
+  ],
+  "columns": 1,
+  "inputs": [
+    {
+      "slot": "photo-panel-09",
+      "path": "html/assets/lesson-136/photo-panel-09.webp",
+      "sha256": "74bbe0f05c5bc1fcfae5084ee2b7ca8a3b4bfaf7e3c9f382bee562a43b07f8cf"
+    }
+  ],
+  "fingerprint": "94f7b9f9cd579cbe13e494c33d6008400c39042e632d524995c007465141664c",
+  "sha256": "56e3691c29d3f3d9ae269265a5ece4e371c6551c90a3ee3391cd313b6da5139c",
+  "reference_sha256": "300f15ff38072c8769f28391ddb5acf026196583c73bbcd042b1cffcd3640a67",
+  "seconds": 26.11,
+  "status": "candidate-needs-visual-review",
+  "postprocess": {
+    "source": "illustrations/work/redraw-even/136/group-03/redrawn.png",
+    "source_sha256": "6f667cdf1a46db35075a3610a21658c321fb8b2b6f9bce35d921fd82ed1fdeaf",
+    "operations": [],
+    "output_sha256": "718a9f47f210fea99669e1b3351693fa248b1fa9f88f7cdecab91ff652c6f3ea"
+  },
+  "review": "reports/even-illustration-redraw/reviews/136.json"
+}
